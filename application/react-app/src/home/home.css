@@ -1,0 +1,612 @@
+@import url(//fonts.googleapis.com/css?family=Lato:300:400);
+
+/* Layout adjustments to maintain header and footer visibility */
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+body::-webkit-scrollbar {
+    scrollbar-gutter: both-edges;
+    width: 1vw;
+    background: transparent;
+}
+body::-webkit-scrollbar-thumb {
+    border-radius: 30px;
+    background: linear-gradient(rgba(30, 87, 153, .7) 42%, rgba(30, 87, 153, .7) 42%, rgba(125, 185, 232, .7) 100%);
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(rgba(30, 87, 153, 1) 42%, rgba(30, 87, 153, 1) 42%, rgba(125, 185, 232, 1) 100%);
+}
+body::-webkit-scrollbar-track {
+    background: rgba(0,30,32,1);
+}
+
+main {
+    height: 100vh;
+    flex-grow: 1;
+    background-image: url('../images/background.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: auto;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    scrollbar-width: none;
+}
+
+main::-webkit-scrollbar {
+    display: none;
+}
+
+h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight:300;
+    letter-spacing: 2px;
+    font-size:3em;
+}
+
+h2 {
+    color: #ffffff;
+}
+
+p { /*Override the margin effects of the default p settings*/
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    width: 50%;
+    text-align: center;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: min-content;
+    background-color: rgba(4, 54, 65, 0.7); /* Footer background color */
+    color: #fff; /* Footer text color */
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensure footer is above other content */
+}
+
+/* Fix header and footer */
+.header {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    top: 0;
+    width: 100%;
+    color: #fff; /* Header text color */
+    text-align: center;
+    z-index: 1000;
+    transition: top 0.1s linear; /* Smooth transition for hiding/showing */
+}
+
+.header-top {
+    -webkit-backdrop-filter: blur(2px);  /* Safari 9+ */
+    backdrop-filter: blur(2px); /* Chrome and Opera */
+    display: flex;
+    flex-direction: row;
+    background: rgba(9, 73, 93, 0.5);
+    width: 100%;
+}
+
+.header-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1em;
+    width: 100%;
+}
+
+.header-right.at-home{
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header-right.at-home.not-at-top{
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo{
+    height: auto;
+    width: 5%;
+}
+
+.logo-link{
+    height: 100%;
+    width: 100%;
+}
+
+.title-wrapper{
+    display: flex;
+    justify-content: center;
+    width: calc(100% - 120px);
+}
+
+.title-wrapper.not-at-top{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 0 410px;
+}
+
+.title-A {
+    font-family: "Neptune Trial", serif;
+    color: #00f7ff;
+    text-decoration:none;
+    font-size: 4em;
+    text-align: right;
+    padding-right: 10px;
+    -webkit-transform:scale(2,2); /* Safari and Chrome */
+    -moz-transform:scale(2,2); /* Firefox */
+    -ms-transform:scale(2,2); /* IE 9 */
+    -o-transform:scale(2,2); /* Opera */
+    transform:scale(2,2); /* W3C */
+}
+
+.title-A.not-at-top {
+    font-size: 2em;
+    padding-right: 5px;
+}
+
+.title-l {
+    font-family: "And Then It Ends", serif;
+    text-decoration:none;
+    color: #00f7ff;
+    font-size: 4em;
+}
+
+.title-l.not-at-top {
+    font-size: 2em;
+}
+
+.title-r {
+    font-family: "Don Aquarel", serif;
+    margin: 5px 55px 0 0;
+    text-decoration:none;
+    color: white;
+    font-size: 2.8em;
+}
+
+.title-r.not-at-top {
+    font-size: 1.4em;
+}
+
+.waves {
+    transform: rotate(180deg) scaleX(-1);
+    position:relative;
+    width: 100%;
+    height: 15vh;
+    margin-bottom:-7px; /*Fix for safari gap*/
+    min-height:100px;
+    max-height:150px;
+    padding-bottom: 0.01%; /* eliminate horizontal line at all monitor widths*/
+}
+
+/* Animation */
+
+.parallax > use {
+    animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
+}
+.parallax > use:nth-child(1) {
+    animation-delay: -2s;
+    animation-duration: 28s;
+}
+.parallax > use:nth-child(2) {
+    animation-delay: -3s;
+    animation-duration: 40s;
+}
+.parallax > use:nth-child(3) {
+    animation-delay: -4s;
+    animation-duration: 26s;
+}
+.parallax > use:nth-child(4) {
+    animation-delay: -5s;
+    animation-duration: 80s;
+}
+@keyframes move-forever {
+    0% {
+        transform: translate3d(-90px,0,0);
+    }
+    100% {
+        transform: translate3d(85px,0,0);
+    }
+}
+/*Shrinking for mobile*/
+@media (max-width: 768px) {
+    .waves {
+        height:40px;
+        min-height:40px;
+    }
+    .content {
+        height:30vh;
+    }
+    h1 {
+        font-size:24px;
+    }
+}
+
+text {
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+nav ul {
+
+    list-style-type: none;
+    padding: 0;
+    width: max-content;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.class-info h2 {
+    margin: 0;
+    color: black;
+    height: 100%;
+}
+
+.class-info h3 {
+    margin: 0;
+    height: 100%;
+}
+
+.team-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 143px 0 0 0;
+}
+
+.schedule-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.discord-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team-member {
+    cursor: pointer;
+    font-size: 1.5em;
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.team-member:hover {
+    transform: scale(1.2); /* increase size on hover */
+}
+
+.team-member:active {
+    transform: scale(0.95); /* decrease size on click */
+}
+
+.person-main {
+    flex-direction: row;
+    color: white;
+}
+
+.person-intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5% 0 0 10%;
+    padding: 0 2% 2% 2%;
+    -webkit-backdrop-filter: blur(8px);  /* Safari 9+ */
+    backdrop-filter: blur(8px); /* Chrome and Opera */
+    box-shadow: inset 0 0 0 200px rgba(255, 255, 255, 0.08);
+    border-radius: 20px;
+}
+
+.person-about{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 5% 10% 0 5%;
+    width: max-content;
+    border-radius: 20px;
+    -webkit-backdrop-filter: blur(8px);  /* Safari 9+ */
+    backdrop-filter: blur(8px); /* Chrome and Opera */
+    box-shadow: inset 0 0 0 300px rgba(173, 173, 173, 0.08);
+    padding: 2% 3% 2% 2%;
+}
+
+.person-position{
+    font-size: 2.4em;
+    margin: .7vw 0 0.7vw 0;
+}
+
+.p-img-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.person-image{
+    object-fit: cover;
+    width: 25vw;
+    height: 30vw;
+    border-radius: 20px;
+}
+
+.person-name{
+    margin: .7vw 0 .7vw 0;
+}
+
+.about-person{
+    width: 100%;
+    padding: 1%;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 1.3em;
+    border-radius: 20px;
+    text-align: left;
+}
+
+/* Specific styles for the gallery to enable independent scrolling */
+.gallery-container {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    max-width: 80%; /* Set max-width for better responsiveness */
+    padding: 20px; /* Padding around the gallery */
+}
+
+.gallery-container::-webkit-scrollbar {
+    display: none;
+}
+
+/* Specific styles for the gallery header */
+.gallery-header {
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+    position: relative; /* Position relative to adjust its placement */
+    z-index: 1; /* Ensure it stays above the gallery images */
+}
+
+/* Style for each image container within the gallery */
+.gallery {
+    font-family: "Don Aquarel", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.2em;
+    display: flex;
+    flex-flow: wrap;
+    overflow: hidden;
+    padding: 4em .75em .75em .75em;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Space between items */
+}
+
+/* Style for images to make them fit uniformly */
+.gallery img {
+    width: 100%; /* Makes image fill the container */
+    height: 100%; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners for images */
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+    transform-origin: bottom;
+}
+
+/* Optional: hover effect to slightly enlarge images */
+.gallery img:hover {
+    transform: scale(1.5); /* Enlarges the image */
+}
+
+/* Hero section styles */
+.hero {
+    margin-top: 310px;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: none; /* Ensures that the background is not redefined here */
+}
+
+.mission-btn {
+
+}
+
+.search-results .gallery img {
+    width: 100%; /* Makes image fill the container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners for images */
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.search-results .gallery img:hover {
+    transform: scale(1.5); /* Enlarges the image */
+}
+
+.search-container {
+    position: relative;
+    max-width: 500px;
+    margin: 50px auto;
+}
+
+.search-bar {
+    width: 30%;
+    padding: 15px;
+    border: none;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.5); /* Transparent white */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    transition: background-color 0.3s, box-shadow 0.3s;
+    outline: none;
+    font-size: 16px;
+    color: #06396d; /* Deep Blue */
+}
+
+.search-bar::placeholder {
+    color: #06396d; /* Deep Blue */
+    opacity: 0.7;
+}
+
+.search-bar:focus {
+    background-color: rgba(255, 255, 255, 0.8); /* Lighter transparent white */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Stronger shadow effect */
+}
+
+.search-button {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: #fff; /* White */
+    font-size: 20px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.search-button:hover {
+    color: #ffc107; /* Yellow */
+    transform: scale(1.2);
+}
+
+.button {
+    text-decoration: NONE;
+}
+
+.fav-btn {
+    position: relative;
+    width: 23px;
+    height: 20px;
+    background-color: transparent;
+    cursor: pointer;
+    border-color: transparent;
+}
+.fav-btn::before,
+.fav-btn::after {
+    position: absolute;
+    content: "";
+    left: 10px;
+    top: 0;
+    width: 10px;
+    height: 16px;
+    background: white;
+    border-radius: 50px 50px 0 0;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+}
+.fav-btn::after {
+    left: 0;
+    transform: rotate(45deg);
+    transform-origin: 100% 100%;
+}
+.fav-btn.highlighted::before,
+.fav-btn.highlighted::after {
+    background-color: red;
+}
+
+.fav-btn:hover {
+    transform: scale(1.2); /* increase size on hover */
+}
+
+.fav-btn:active {
+    transform: scale(0.95); /* decrease size on click */
+}
+
+
+.Aquarium {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: #0B5E92; /* Deep blue */
+    overflow: hidden;
+}
+
+.Fish {
+    position: absolute;
+}
+
+.Fish img {
+    width: 120px;
+    height: auto;
+    animation: swim 10s linear infinite, rotate 3s linear infinite alternate;
+}
+
+@keyframes swim {
+    0% {
+        left: -20%;
+        transform: translateY(0);
+    }
+    50% {
+        left: 120%;
+        transform: translateY(20px);
+    }
+    100% {
+        left: -20%;
+        transform: translateY(0);
+    }
+}
+
+@keyframes rotate {
+    0% {
+        transform: scaleX(1) rotate(0deg);
+    }
+    100% {
+        transform: scaleX(-1) rotate(360deg);
+    }
+}
+
+/* Water animation */
+.Aquarium:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(11,94,146,0.5) 0%, rgba(11,94,146,0.8) 50%, rgba(11,94,146,0.5) 100%);
+    animation: wave 8s linear infinite;
+}
+
+@keyframes wave {
+    0% {
+        transform: translateY(-10px);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+

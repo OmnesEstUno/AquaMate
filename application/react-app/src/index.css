@@ -1,0 +1,61 @@
+@font-face {
+  font-family: 'Don Aquarel';
+  src: url('./fonts/DonAquarel.eot');
+  src: url('./fonts/DonAquarel.eot?#iefix') format('embedded-opentype'),
+  url('./fonts/DonAquarel.woff') format('woff'),
+  url('./fonts/DonAquarel.ttf') format('truetype'),
+  url('./fonts/DonAquarel.svg#DonAquarel') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'And Then It Ends';
+  src: url('fonts/subset-AndThenItEnds.eot');
+  src: url('fonts/subset-AndThenItEnds.eot?#iefix') format('embedded-opentype'),
+  url('fonts/subset-AndThenItEnds.woff') format('woff'),
+  url('fonts/subset-AndThenItEnds.ttf') format('truetype'),
+  url('fonts/subset-AndThenItEnds.svg#AndThenItEnds') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AIRBORNE GP';
+  src: url('fonts/subset-AIRBORNEGP.eot');
+  src: url('fonts/subset-AIRBORNEGP.eot?#iefix') format('embedded-opentype'),
+  url('fonts/subset-AIRBORNEGP.woff') format('woff'),
+  url('fonts/subset-AIRBORNEGP.ttf') format('truetype'),
+  url('fonts/subset-AIRBORNEGP.svg#AIRBORNEGP') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neptune Trial';
+  src: url('fonts/subset-NeptuneTrial-Bold.eot');
+  src: url('fonts/subset-NeptuneTrial-Bold.eot?#iefix') format('embedded-opentype'),
+  url('fonts/subset-NeptuneTrial-Bold.woff') format('woff'),
+  url('fonts/subset-NeptuneTrial-Bold.ttf') format('truetype'),
+  url('fonts/subset-NeptuneTrial-Bold.svg#NeptuneTrial-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
