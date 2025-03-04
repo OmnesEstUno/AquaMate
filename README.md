@@ -19,6 +19,7 @@ I would ask that my files NOT be forked or copied in order to uphold the spirit 
 This project was forked from the original source repository which belongs to my Alma Mater's (San Francisco State University) CS department, and Professor Song.
 Thank you, Professor Song, for giving us the opportunity to dream.
 
+<p style="text-align: center;"> This project is the product of a passionate dream for a unified hub of information on aquatic life and aquatic life care. This project aims to provide users of all experience levels a place to enjoy viewing and getting educated on a massive array of aquatic life as well as build mock-aquariums for planning purposes. </p>
 
 Below is a list of the original AquaMate development team with their associated information and positions
 
