@@ -16,7 +16,7 @@ jobs:
 
       # setup nodejs environment
       - name: Setup Node.js environment
-        uses: actions/setup-node@v2.1.5
+        uses: actions/setup-node@v2.5.2
         with:
           node-version: "18.16.1"
 
