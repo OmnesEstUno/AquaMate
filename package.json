@@ -4,21 +4,21 @@
   "description": "",
   "main": "\u001b[D\u001b[D\u001b[D\u001bapp\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Dlication.js)",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
+    "build": "SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CSC-648-SFSU/csc648-04-sp24-Team03.git"
+    "url": "git+https://github.com/OmnesEstUno/AquaMate.git"
   },
-  "author": "Team Tetra",
+  "author": "OmnesEstUno",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/CSC-648-SFSU/csc648-04-sp24-Team03/issues"
+    "url": "https://github.com/OmnesEstUno/AquaMate/issues"
   },
-  "homepage": "https://github.com/CSC-648-SFSU/csc648-04-sp24-Team03#readme",
+  "homepage": "https://github.com/OmnesEstUno/AquaMate#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
