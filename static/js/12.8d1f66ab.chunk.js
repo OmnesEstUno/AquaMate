@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksrc=self.webpackChunksrc||[]).push([[12],{12:(e,s,c)=>{e.exports=c.p+"static/media/elliot.de10c39b6feafb1922b8.jpg"}}]);
