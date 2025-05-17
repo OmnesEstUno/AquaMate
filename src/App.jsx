@@ -1,14 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import HomePage from './home/home.js';
-import InfoPage from './info_page/InfoPage.js';
-import BuilderTool from './builder_tool/builder_tool.js';
-import Favorites from './builder_tool/favorites.js';
-import AboutUs from './about/about_us.js';
-import AboutPerson from './about/about_person.js';
-import EasterEgg from './easter_egg.js';
-import { FavoritesProvider }  from './builder_tool/favorites_provider';
-import { SearchProvider } from './search/search_provider';
+import HomePage from './home/home.jsx';
+import InfoPage from './info_page/InfoPage.jsx';
+import BuilderTool from './builder_tool/builder_tool.jsx';
+import Favorites from './builder_tool/favorites.jsx';
+import AboutUs from './about/about_us.jsx';
+import AboutPerson from './about/about_person.jsx';
+import EasterEgg from './easter_egg.jsx';
+import { FavoritesProvider }  from './builder_tool/favorites_provider.jsx';
+import { SearchProvider } from './search/search_provider.jsx';
 import './home/home.css';
 import './builder_tool/builder_tool.css';
 

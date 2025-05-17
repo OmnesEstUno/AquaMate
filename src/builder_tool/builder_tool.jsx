@@ -1,12 +1,12 @@
 import React, { useState, useEffect  } from 'react';
 import './builder_tool.css'
-import FilterBar from './filter_bar';
-import BuildSection from './build_section';
-import TabBar from './tab_bar';
-import { useFavorites } from './favorites_provider';
-import Favorites from './favorites';
-import AMHeader from "../header";
-import AMFooter from "../footer";
+import FilterBar from './filter_bar.jsx';
+import BuildSection from './build_section.jsx';
+import TabBar from './tab_bar.jsx';
+import { useFavorites } from './favorites_provider.jsx';
+import Favorites from './favorites.jsx';
+import AMHeader from "../header.jsx";
+import AMFooter from "../footer.jsx";
 
 const BuilderTool = () => {
   

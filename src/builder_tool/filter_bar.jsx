@@ -1,6 +1,6 @@
 import React from 'react';
 import './builder_tool.css';
-import SearchBar from '../search_bar';
+import SearchBar from '../search_bar.jsx';
 
 const FilterBar = ({
   config,
