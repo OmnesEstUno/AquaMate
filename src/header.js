@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import React from "react";
 import { useSearch } from './search/search_provider';
-import logo from './images/AquaMate_logo.png';
+import logo from './assets/AquaMate_logo.png';
 
 const AMHeader = () => {
     const { searchTerm, setSearchTerm } = useSearch();

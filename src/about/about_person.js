@@ -12,7 +12,7 @@ function AboutPerson(){
     useEffect(() => {
         if (!ran) {
             //import image based on person
-            import(`../images/${person}.jpg`).then(image => {
+            import(`../assets/${person}.jpg`).then(image => {
                 const personImage = document.createElement("img");
                 personImage.src = image.default;
                 personImage.classList.add("person-image");
