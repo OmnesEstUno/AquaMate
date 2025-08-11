@@ -12,7 +12,7 @@ jobs:
     steps:
       # checkout the repository content to github runner
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       # setup nodejs environment
       - name: Setup Node.js environment
