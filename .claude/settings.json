@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C /var/home/Grey/Projects/AquaMate log --oneline -20)",
+      "Bash(git -C /var/home/Grey/Projects/AquaMate log --oneline --all src/backend/worker.js)"
+    ]
+  }
+}
