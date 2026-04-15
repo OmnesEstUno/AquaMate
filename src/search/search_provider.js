@@ -10,7 +10,6 @@ export const SearchProvider = ({ children }) => {
     useEffect(() => {
         const search = () => {
 	    const url = 'https://aquamate.me/cards?search=&page=0&limit=8';
-            //const url = `http://localhost:8080/search?search=${encodeURIComponent(searchTerm)}`;
             fetch(url)
                 .then(response => response.json())
                 .then(data => setSearchResults(data))

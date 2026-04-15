@@ -118,19 +118,19 @@ input:focus {
 
 @keyframes rotateShadow {
     0% {
-        box-shadow: -2px -2px 0px 0px rgb(4, 54, 65), 2px 2px 0px 0px #002448;
+        box-shadow: -2px -2px 0px 0px #00f7ff34, 2px 2px 0px 0px #05333434;
     }
     25% {
-        box-shadow: -2px 2px 0px 0px rgba(4, 54, 65, 1), 2px -2px 0px 0px #002448;
+        box-shadow: -2px 2px 0px 0px #00f7ff34, 2px -2px 0px 0px #05333434;
     }
     50% {
-        box-shadow: 2px 2px 0px 0px rgba(4, 54, 65, 1), -2px -2px 0px 0px #002448;
+        box-shadow: 2px 2px 0px 0px #00f7ff34, -2px -2px 0px 0px #05333434;
     }
     75% {
-        box-shadow: 2px -2px 0px 0px rgba(4, 54, 65, 1), -2px 2px 0px 0px #002448;
+        box-shadow: 2px -2px 0px 0px #00f7ff34, -2px 2px 0px 0px #05333434;
     }
     100% {
-        box-shadow: -2px -2px 0px 0px rgba(4, 54, 65, 1), 2px 2px 0px 0px #002448;
+        box-shadow: -2px -2px 0px 0px #00f7ff34, 2px 2px 0px 0px #05333434;
     }
 }
 

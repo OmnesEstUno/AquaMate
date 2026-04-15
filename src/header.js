@@ -16,8 +16,8 @@ const AMHeader = () => {
                 <div className={'header-right'} id={'header-right'}>
                     <img className={'logo'} src={logo} alt="AquaMate logo"/>
                     <div className={'title-wrapper'} id={'title-wrapper'}>
-                        <a className={"title-A"} id={'title-A'} href={"/"}>a</a>
-                        <a className={"title-l"} id={'title-l'} href={"/"}>qua</a>
+                        <a className={"title-A title-aqua"} id={'title-A'} href={"/"}>a</a>
+                        <a className={"title-l title-aqua"} id={'title-l'} href={"/"}>qua</a>
                         <a className={"title-r"} id={'title-r'} href={"/"}>Mate</a>
                     </div>
                     <nav>

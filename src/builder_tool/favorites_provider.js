@@ -8,7 +8,7 @@ export const FavoritesProvider = ({ children }) => {
     const [favorites, setFavorites] = useState(() => {
         // Initialize state from local storage, fallback to default if nothing in storage
         const localData = localStorage.getItem('favorites');
-        return localData ? JSON.parse(localData) : { Fauna: [], Flora: [], Tank: [] };
+        return localData ? JSON.parse(localData) : { Fauna: [], Flora: [], Tanks: [] };
     });
 
     // Use effect to update local storage when favorites change
@@ -19,32 +19,33 @@ export const FavoritesProvider = ({ children }) => {
     const addFavorite = (category, item) => {
         setFavorites(prevFavorites => ({
             ...prevFavorites,
-            [category]: [...prevFavorites[category], item]
+            [category]: prevFavorites[category] ? [...prevFavorites[category], item] : [item]
         }));
     };
 
     const removeFavorite = (category, id) => {
         setFavorites(prevFavorites => ({
             ...prevFavorites,
-            [category]: prevFavorites[category].filter(fav => fav.id !== id)
+            [category]: prevFavorites[category] ? prevFavorites[category].filter(fav => fav.id !== id) : []
         }));
     };
 
     const favoriteSwitch = (category, item) => {
         let itemIndex;
         setFavorites(prevFavorites => {
-            itemIndex = prevFavorites[category].findIndex(fav => fav.id === item.id);
+            const categoryFavorites = prevFavorites[category] || [];
+            itemIndex = categoryFavorites.findIndex(fav => fav.id === item.id);
             if (itemIndex !== -1) {
                 // If item exists, remove it
                 return {
                     ...prevFavorites,
-                    [category]: prevFavorites[category].filter((fav, index) => index !== itemIndex)
+                    [category]: categoryFavorites.filter((fav, index) => index !== itemIndex)
                 };
             } else {
                 // If item does not exist, add it
                 return {
                     ...prevFavorites,
-                    [category]: [...prevFavorites[category], item]
+                    [category]: [...categoryFavorites, item]
                 };
             }
         });
@@ -53,7 +54,8 @@ export const FavoritesProvider = ({ children }) => {
     };
 
     const isFavorite = (category, id) => {
-        return favorites[category].some(fav => fav.id === id);
+        const categoryFavorites = favorites[category] || [];
+        return categoryFavorites.some(fav => fav.id === id);
     };
 
     return (

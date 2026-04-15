@@ -59,16 +59,16 @@ function HomePage() {
     const fetchInitialImages = useCallback(() => {
         document.getElementById('header-right').classList.add('at-home');
         // Change for local or server
-        const url = 'https://aquamate.me/cards?search=&page=0&limit=8';
-        //const url = `http://localhost:8080/cards?search=&page=0&limit=8`; // Adjust limit as needed
+        const url = 'https://aquamate-worker.elliotjwarren.workers.dev/api/images/freshwater/1';
         fetchImages(url);
     }, []);
 
     // Fetch more images
     const fetchMoreImages = useCallback(() => {
         // Change for local or server
-        const url = 'https://aquamate.me/cards?search=&page=${page}&limit=8';
-        //const url = `http://localhost:8080/cards?search=&page=${page}&limit=4`; // Adjust limit as needed
+        const workerPage = page + 1; // Convert 0-based to 1-based for Worker
+        console.log("current page: " + workerPage);
+        const url = `https://aquamate-worker.elliotjwarren.workers.dev/api/images/freshwater/${workerPage}`;
         fetchImages(url);
     }, [page]);
 
@@ -80,12 +80,17 @@ function HomePage() {
         fetch(url)
             .then(response => response.json())
             .then(data => {
-                if (data.length === 0) {
+                if (!data.success || data.items.length === 0) {
                     setHasMore(false);
                     return;
                 }
-                setImages(prevImages => [...prevImages, ...data]);
+                setImages(prevImages => [...prevImages, ...data.items]);
                 setPage(prevPage => prevPage + 1);
+                
+                // Stop if we've reached the end
+                if (data.page >= data.totalPages) {
+                    setHasMore(false);
+                }
             })
             .catch(error => {
                 console.error('Error fetching images:', error);
@@ -95,22 +100,32 @@ function HomePage() {
             });
     };
 
+    const firstRun = React.useRef(true);
+
     useEffect(() => {
-        fetchInitialImages();
+        if (firstRun.current) {
+            firstRun.current = false;
+            fetchInitialImages();
+        }
     }, [fetchInitialImages]);
 
     useEffect(() => {
+        const mainContainer = document.getElementById('main');
+
         const handleScroll = debounce(() => {
-            if (window.innerHeight + document.documentElement.scrollTop >= document.documentElement.offsetHeight - 10 && !loading) {
+            if (
+                mainContainer.scrollTop + mainContainer.clientHeight >=
+                mainContainer.scrollHeight - 10 &&
+                !loading
+            ) {
                 fetchMoreImages();
             }
         }, 100);
 
-        window.addEventListener('scroll', handleScroll);
-        return () => {
-            window.removeEventListener('scroll', handleScroll);
-        };
+        mainContainer.addEventListener('scroll', handleScroll);
+        return () => mainContainer.removeEventListener('scroll', handleScroll);
     }, [fetchMoreImages, loading]);
+
 
     const handleResultClick = (commonName) => {
         navigate(`/info/${encodeURIComponent(commonName)}`);
@@ -151,9 +166,9 @@ function HomePage() {
                             <div className="gallery">
                                 {searchResults.map((result, index) => (
                                     <div key={index} onClick={() => handleResultClick(result.commonName)} style={{cursor: 'pointer'}}>
-                                        <img src={result.photo} alt={result.commonName} width="640" height="480"/>
-                                        <text>{result.commonName}</text>
-                                        <text>"{result.scientificName}"</text>
+                                        <img src={result.image_url} alt={result.commonName} width="640" height="480"/>
+                                        <span>{result.commonName}</span>
+                                        <span>"{result.scientificName}"</span>
                                     </div>
                                 ))}
                             </div>
@@ -170,13 +185,13 @@ function HomePage() {
                                 onClick={() => handleResultClick(image.commonName)}
                                 style={{cursor: 'pointer'}}>
                                 <img
-                                    src={image.photo}
+                                    src={image.image_url}
                                     alt={image.commonName}
                                     width="640"
                                     height="480"/>
                                 <div className={'card-info'}>
-                                    <text>{image.commonName}</text>
-                                    <FavoriteButton category={image.type || image.Type} item={image} />
+                                    <span>{image.commonName}</span>
+                                    <FavoriteButton category={image.category || image.Category} item={image} />
                                 </div>
                             </div>
                         ))}

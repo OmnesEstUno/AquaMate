@@ -146,7 +146,6 @@ footer {
 
 .title-A {
     font-family: "Neptune Trial", serif;
-    color: #00f7ff;
     text-decoration:none;
     font-size: 4em;
     text-align: right;
@@ -166,7 +165,6 @@ footer {
 .title-l {
     font-family: "And Then It Ends", serif;
     text-decoration:none;
-    color: #00f7ff;
     font-size: 4em;
 }
 
@@ -174,12 +172,21 @@ footer {
     font-size: 2em;
 }
 
+.title-aqua {
+    background: linear-gradient(to bottom, rgba(0,247,255,1) 0%, rgba(1, 66, 69, 0.5) 75%, rgba(1, 51, 53, 0.7) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    background-color: #00f7ff;
+}
+
 .title-r {
-    font-family: "Don Aquarel", serif;
+    font-family: "Manjari", serif;
     margin: 5px 55px 0 0;
     text-decoration:none;
     color: white;
-    font-size: 2.8em;
+    font-size: 4em;
 }
 
 .title-r.not-at-top {

@@ -16,14 +16,14 @@ function App() {
     const [message, setMessage] = useState('loading...');
 
     useEffect(() => {
-        fetch(`http://localhost:8080/test`)
+        fetch('https://aquamate-worker.elliotjwarren.workers.dev/health')
             .then(response => {
                 if (!response.ok) {
                     throw new Error('Network response was not ok');
                 }
                 return response.json();
             })
-            .then(data => setMessage(data.message))
+            .then(data => setMessage(data.status || 'ok'))
             .catch(err => {
                 console.error("Failed to fetch data from backend:", err);
                 setMessage("Failed to connect to the backend.");

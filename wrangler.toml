@@ -1,0 +1,12 @@
+name = "aquamate-worker"
+main = "src/backend/worker.js"
+compatibility_date = "2024-04-01"
+
+# R2 Bucket bindings for fauna and flora image storage
+[[r2_buckets]]
+binding = "AQUAMATE_BUCKET_FAUNA"
+bucket_name = "fauna"
+
+[[r2_buckets]]
+binding = "AQUAMATE_BUCKET_FLORA"
+bucket_name = "flora"
