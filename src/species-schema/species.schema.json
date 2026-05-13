@@ -1,0 +1,88 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://aquamate.me/schemas/species.schema.json",
+  "title": "AquaMate Species",
+  "description": "Closed schema describing a single aquatic species (fauna or flora) entry. additionalProperties is false everywhere; new fields must be added here, not invented in species files.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id", "slug", "kind", "taxon", "waterType",
+    "commonName", "scientificName", "alsoKnownAs", "category",
+    "taxonomy", "nativeRange",
+    "waterParameters",
+    "adultSizeCm", "lifespanYears",
+    "tank", "careLevel", "diet", "compatibility",
+    "media", "summary", "careNotes", "breedingNotes",
+    "sources",
+    "fish", "crustacean", "coral", "mollusc", "echinoderm", "other-invert", "plant", "macroalgae",
+    "schemaVersion", "dataStatus", "lastReviewed"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^((fw|sw|fl)-\\d{3,}|(fw|sw|br)-(fish|crus|coral|moll|echi|invert|plant|algae)-\\d{3,})$",
+      "description": "Stable identifier. Legacy: fw-NNN, sw-NNN, fl-NNN. New entries: <watertype>-<taxon-short>-NNN."
+    },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "description": "URL-safe identifier derived from commonName."
+    },
+    "kind":      { "type": "string", "enum": ["fauna", "flora"] },
+    "taxon":     { "type": "string", "enum": ["fish", "crustacean", "coral", "mollusc", "echinoderm", "other-invert", "plant", "macroalgae"] },
+    "waterType": { "type": "string", "enum": ["freshwater", "saltwater", "brackish"] },
+
+    "commonName":      { "type": "string", "minLength": 1 },
+    "scientificName":  { "type": "string" },
+    "alsoKnownAs":     { "type": "array", "items": { "type": "string" } },
+    "category":        { "type": "string" },
+
+    "taxonomy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["family", "order"],
+      "properties": {
+        "family": { "type": ["string", "null"] },
+        "order":  { "type": ["string", "null"] }
+      }
+    },
+
+    "nativeRange": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["regions", "countries", "habitat", "biotope"],
+      "properties": {
+        "regions":   { "type": "array", "items": { "type": "string" } },
+        "countries": { "type": "array", "items": { "type": "string" } },
+        "habitat":   { "type": ["string", "null"] },
+        "biotope":   { "type": ["string", "null"] }
+      }
+    },
+
+    "waterParameters": { "type": "object" },
+    "adultSizeCm":     { "type": ["object", "null"] },
+    "lifespanYears":   { "type": ["object", "null"] },
+    "tank":            { "type": "object" },
+    "careLevel":       { "type": ["string", "null"] },
+    "diet":            { "type": ["object", "null"] },
+    "compatibility":   { "type": "object" },
+    "media":           { "type": "object" },
+    "summary":         { "type": ["string", "null"] },
+    "careNotes":       { "type": ["string", "null"] },
+    "breedingNotes":   { "type": ["string", "null"] },
+    "sources":         { "type": "object" },
+
+    "fish":         { "type": ["object", "null"] },
+    "crustacean":   { "type": ["object", "null"] },
+    "coral":        { "type": ["object", "null"] },
+    "mollusc":      { "type": ["object", "null"] },
+    "echinoderm":   { "type": ["object", "null"] },
+    "other-invert": { "type": ["object", "null"] },
+    "plant":        { "type": ["object", "null"] },
+    "macroalgae":   { "type": ["object", "null"] },
+
+    "schemaVersion": { "type": "integer", "minimum": 1 },
+    "dataStatus":    { "type": "string", "enum": ["placeholder", "researched", "needs_review", "reviewed"] },
+    "lastReviewed":  { "type": ["string", "null"], "format": "date" }
+  }
+}
