@@ -112,3 +112,41 @@ describe('species.schema.json — variant gating', () => {
     expect(ok).toBe(false);
   });
 });
+
+describe('species.schema.json — dataStatus conditional requirements', () => {
+  const validate = buildAjv();
+
+  test('rejects researched fish entry with null primary source', () => {
+    const entry = loadFixture('valid-fish-researched');
+    entry.sources.primary = null;
+    const ok = validate(entry);
+    expect(ok).toBe(false);
+  });
+
+  test('rejects researched fish entry with null waterParameters.temperatureC', () => {
+    const entry = loadFixture('valid-fish-researched');
+    entry.waterParameters.temperatureC = null;
+    const ok = validate(entry);
+    expect(ok).toBe(false);
+  });
+
+  test('rejects researched fish entry with null adultSizeCm', () => {
+    const entry = loadFixture('valid-fish-researched');
+    entry.adultSizeCm = null;
+    const ok = validate(entry);
+    expect(ok).toBe(false);
+  });
+
+  test('placeholder entry remains valid with null adultSizeCm and null primary source', () => {
+    const ok = validate(loadFixture('valid-fish-placeholder'));
+    expect(ok).toBe(true);
+  });
+
+  test('researched entry is allowed null media.primaryImage (discovered species)', () => {
+    const entry = loadFixture('valid-fish-researched');
+    entry.media.primaryImage = null;
+    const ok = validate(entry);
+    expect(validate.errors).toBeNull();
+    expect(ok).toBe(true);
+  });
+});

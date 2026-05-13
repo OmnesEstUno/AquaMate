@@ -140,6 +140,15 @@
         "nutrientUptake": { "type": ["string", "null"], "enum": ["low", "moderate", "high", null] },
         "propagation":    { "type": "array", "items": { "type": "string" } }
       }
+    },
+    "dietRequired": {
+      "type": "object",
+      "required": ["type"],
+      "additionalProperties": false,
+      "properties": {
+        "type":  { "type": "string", "enum": ["herbivore", "carnivore", "omnivore", "planktivore", "detritivore"] },
+        "notes": { "type": ["string", "null"] }
+      }
     }
   },
   "type": "object",
@@ -334,6 +343,63 @@
     { "if": { "properties": { "taxon": { "const": "echinoderm" } } },   "then": { "properties": { "echinoderm": { "$ref": "#/$defs/echinodermVariant" }, "fish": { "type": "null" }, "crustacean": { "type": "null" }, "coral": { "type": "null" }, "mollusc": { "type": "null" }, "other-invert": { "type": "null" } }, "required": ["echinoderm"] } },
     { "if": { "properties": { "taxon": { "const": "other-invert" } } }, "then": { "properties": { "other-invert": { "$ref": "#/$defs/otherInvertVariant" }, "fish": { "type": "null" }, "crustacean": { "type": "null" }, "coral": { "type": "null" }, "mollusc": { "type": "null" }, "echinoderm": { "type": "null" } }, "required": ["other-invert"] } },
     { "if": { "properties": { "taxon": { "const": "plant" } } },        "then": { "properties": { "plant": { "$ref": "#/$defs/plantVariant" }, "macroalgae": { "type": "null" } }, "required": ["plant"] } },
-    { "if": { "properties": { "taxon": { "const": "macroalgae" } } },   "then": { "properties": { "macroalgae": { "$ref": "#/$defs/macroalgaeVariant" }, "plant": { "type": "null" } }, "required": ["macroalgae"] } }
+    { "if": { "properties": { "taxon": { "const": "macroalgae" } } },   "then": { "properties": { "macroalgae": { "$ref": "#/$defs/macroalgaeVariant" }, "plant": { "type": "null" } }, "required": ["macroalgae"] } },
+    {
+      "if": { "properties": { "dataStatus": { "enum": ["researched", "needs_review", "reviewed"] } } },
+      "then": {
+        "properties": {
+          "sources": {
+            "type": "object",
+            "required": ["primary"],
+            "properties": { "primary": { "$ref": "#/$defs/source" } }
+          },
+          "waterParameters": {
+            "type": "object",
+            "required": ["temperatureC", "pH"],
+            "properties": {
+              "temperatureC": { "$ref": "#/$defs/numericRange" },
+              "pH":           { "$ref": "#/$defs/numericRange" }
+            }
+          },
+          "adultSizeCm":   { "$ref": "#/$defs/numericRange" },
+          "tank": {
+            "type": "object",
+            "required": ["minVolumeLiters"],
+            "properties": { "minVolumeLiters": { "type": "number", "minimum": 0 } }
+          },
+          "careLevel": { "type": "string", "enum": ["beginner", "intermediate", "advanced", "expert"] }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "kind": { "const": "fauna" },
+          "dataStatus": { "enum": ["researched", "needs_review", "reviewed"] }
+        }
+      },
+      "then": {
+        "properties": {
+          "diet": { "$ref": "#/$defs/dietRequired" },
+          "compatibility": {
+            "type": "object",
+            "required": ["temperament", "grouping"],
+            "properties": {
+              "temperament": { "type": "string", "enum": ["peaceful", "semi-aggressive", "aggressive", "territorial"] },
+              "grouping":    { "type": "string", "enum": ["solitary", "pair", "shoaling", "schooling"] }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": { "properties": { "dataStatus": { "const": "reviewed" } } },
+      "then": {
+        "required": ["lastReviewed"],
+        "properties": {
+          "lastReviewed": { "type": "string", "format": "date" }
+        }
+      }
+    }
   ]
 }
