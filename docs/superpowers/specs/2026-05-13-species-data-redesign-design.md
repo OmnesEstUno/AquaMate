@@ -37,6 +37,8 @@ src/
 │   ├── validate.js           # Ajv-based validation pass over species/**/*.json
 │   ├── compile.js            # Bundles per-species files into dist/species.json
 │   ├── migrate-from-legacy.js # One-shot conversion from old fauna/flora JSON
+│   ├── review-field-gaps.js  # Summarizer for the field-gap log
+│   ├── field-gap-suggestions.jsonl  # Append-only log of agent-suggested new fields
 │   └── discovery/            # Stage A discovery manifests (committed, then human-trimmed)
 │       ├── fish-freshwater.json
 │       ├── fish-saltwater.json
@@ -343,6 +345,7 @@ Two scripts, both pure functions, runnable locally and in CI.
 - All enum-valued fields match `enums.json` vocabularies.
 - Range fields: `min ≤ max`, both numeric.
 - `id` matches either the legacy format `^(fw|sw|fl)-\d{3,}$` or the new format `^(fw|sw|br)-(fish|crus|coral|moll|echi|invert|plant|algae)-\d{3,}$`. `slug` matches `^[a-z0-9-]+$`.
+- Schema is **closed**: `additionalProperties: false` at the top level and inside every variant block. Unknown fields are rejected. This prevents agents from silently forking the schema by adding ad-hoc fields — gap suggestions must go to `field-gap-suggestions.jsonl` instead (see Section 6).
 
 **`dataStatus`-conditional required fields** (via JSON Schema `if/then`):
 
@@ -588,6 +591,14 @@ Each entry in the approved manifests becomes one research agent's task, alongsid
    (taxonomy, alsoKnownAs, lifespan, decor preferences, prose summary,
     careNotes, breedingNotes).
 
+4a. If you encounter a fact you can't fit into any existing field:
+    - ALWAYS put the fact itself into careNotes so it isn't lost.
+    - IF the fact felt like it deserved its own typed field (not just prose),
+      ALSO append a suggestion to src/species-build/field-gap-suggestions.jsonl
+      describing the suggested field, type, reason, and value for this species.
+    - DO NOT invent new top-level fields or variant-block fields in the species
+      file itself — the validator will reject them.
+
 5. Write the species JSON file.
    - Path: src/species/<taxon>/<slug>.json
    - dataStatus = "researched" (or "needs_review" per step 3)
@@ -632,6 +643,41 @@ After each wave:
 3. `dataStatus: "needs_review"` entries are listed in the wave summary. User either corrects in-place and bumps to `"researched"`, or kicks back to a single re-research agent with extra context.
 4. For trusted waves, user may optionally bump `dataStatus` to `"reviewed"` and set `lastReviewed`. Separate sweep, not part of the agent workflow.
 
+### Handling info that doesn't fit the schema
+
+Two cases that come up during research:
+
+**1. Species-specific quirks (one-offs).** A single species has an important fact that no schema field captures (e.g., a notorious jumper, an unusual photosensitivity, a rare disease susceptibility). These go into `careNotes` — that field is intentionally free-form prose for exactly this purpose. No new mechanism needed. The bar for promoting a fact to a typed field is **not** "this is important"; it's "this applies to many species and drives a real filtering or comparison need." One-offs stay in prose.
+
+**2. Cross-species patterns that hint at a real schema gap.** Multiple agents independently encounter a fact that would be cleaner as a typed field than as prose. This is signal the schema is missing something useful — but only if it's a real pattern, not a coincidence.
+
+To surface these without letting agents fork the schema unilaterally:
+
+- **Agents may not invent new species-file fields.** Anything outside the schema goes into `careNotes` only. The validator hard-rejects unknown top-level fields and unknown variant-block fields.
+- **Agents may append to a shared field-gap log** when they encounter a fact that felt like it deserved its own field:
+
+  ```
+  src/species-build/field-gap-suggestions.jsonl   # append-only, one suggestion per line
+  ```
+
+  Each line:
+  ```jsonc
+  { "species": "fw-014", "slug": "buenos-aires-tetra", "suggestedField": "plantEater",
+    "suggestedType": "boolean", "reason": "Eats most live plants; planted-tank incompatible.
+    Not capturable by 'diet.type: omnivore' alone.", "valueForThisSpecies": true }
+  ```
+
+- **Post-wave (or post-stage) review.** A simple summarizer script — `npm run review-field-gaps` — groups suggestions by `suggestedField`, shows counts and example reasons. User scans the output.
+
+- **Promotion threshold: 5+ independent suggestions for the same field.** Anything below 5 stays in the log as advisory noise; those species' info already lives in their `careNotes`. At 5+, it's a real signal worth schema-promoting.
+
+**Promotion process** when a gap clears the threshold:
+
+1. Bump `schemaVersion` from 1 to 2 (and so on).
+2. Add the field to `species.schema.json` as nullable. Existing entries don't need re-research — they're still valid.
+3. Add any new enum values to `enums.json`.
+4. Optionally, kick off a small re-research wave for the suggesting species to upgrade `careNotes` content into the new structured field. Optional because entries remain valid without it.
+
 ### Out of scope (deferred)
 
 - **Image curation.** R2 buckets currently cover the legacy species. Newly discovered species will land with `media.primaryImage: null`; sourcing/uploading images for them is a separate workstream. The schema's `dataStatus` ladder accepts this — researched entries can have a null primary image.
@@ -654,6 +700,8 @@ After each wave:
 | Wikipedia coverage is sparse for a taxon (corals, macroalgae, niche inverts) | Affected entries get `popularityScore: 0`. That's the correct signal — surfaces them prominently for user review rather than burying them. User can still keep entries scored 0 if they're known to be hobby-relevant despite Wikipedia silence. |
 | Discovery agent misclassifies taxon for a candidate | Routed to `other-invert-review.json` instead of auto-classified. User reassigns during Stage B. |
 | Source index page structure changes mid-discovery (site redesign) | Agent reports failure for that slice; user re-runs discovery for the affected slice after the agent prompt is updated. Slices are independent, so one failure doesn't block others. |
+| Schema is missing a field that turns out to be broadly important | Field-gap log (Section 6) accumulates suggestions per agent. Promotion to a real field requires 5+ independent suggestions to avoid premature schema bloat. Schema is `additionalProperties: false`, so agents can't quietly invent fields in the meantime. |
+| Agents lose important info because no field fits | Playbook step 4a mandates that any unfit fact goes into `careNotes` at minimum. Schema is open-prose-friendly on purpose. |
 
 ## Implementation order (high-level — detailed plan to follow)
 
