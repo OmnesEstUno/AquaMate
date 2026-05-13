@@ -3,6 +3,34 @@
   "$id": "https://aquamate.me/schemas/species.schema.json",
   "title": "AquaMate Species",
   "description": "Closed schema describing a single aquatic species (fauna or flora) entry. additionalProperties is false everywhere; new fields must be added here, not invented in species files.",
+  "$defs": {
+    "numericRange": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["min", "max"],
+      "properties": {
+        "min": { "type": "number" },
+        "max": { "type": "number" }
+      }
+    },
+    "nullableNumericRange": {
+      "oneOf": [
+        { "type": "null" },
+        { "$ref": "#/$defs/numericRange" }
+      ]
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "url", "accessedDate"],
+      "properties": {
+        "name":         { "type": "string", "minLength": 1 },
+        "url":          { "type": "string", "format": "uri" },
+        "accessedDate": { "type": "string", "format": "date" },
+        "notes":        { "type": ["string", "null"] }
+      }
+    }
+  },
   "type": "object",
   "additionalProperties": false,
   "required": [
@@ -59,18 +87,96 @@
       }
     },
 
-    "waterParameters": { "type": "object" },
-    "adultSizeCm":     { "type": ["object", "null"] },
-    "lifespanYears":   { "type": ["object", "null"] },
-    "tank":            { "type": "object" },
-    "careLevel":       { "type": ["string", "null"] },
-    "diet":            { "type": ["object", "null"] },
-    "compatibility":   { "type": "object" },
-    "media":           { "type": "object" },
-    "summary":         { "type": ["string", "null"] },
-    "careNotes":       { "type": ["string", "null"] },
-    "breedingNotes":   { "type": ["string", "null"] },
-    "sources":         { "type": "object" },
+    "waterParameters": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["temperatureC", "pH", "gH", "kH", "salinity"],
+      "properties": {
+        "temperatureC": { "$ref": "#/$defs/nullableNumericRange" },
+        "pH":           { "$ref": "#/$defs/nullableNumericRange" },
+        "gH":           { "$ref": "#/$defs/nullableNumericRange" },
+        "kH":           { "$ref": "#/$defs/nullableNumericRange" },
+        "salinity":     { "$ref": "#/$defs/nullableNumericRange" }
+      }
+    },
+
+    "adultSizeCm":   { "$ref": "#/$defs/nullableNumericRange" },
+    "lifespanYears": { "$ref": "#/$defs/nullableNumericRange" },
+
+    "tank": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["minVolumeLiters", "minLengthCm", "swimZone", "decorPreferences"],
+      "properties": {
+        "minVolumeLiters":  { "type": ["number", "null"], "minimum": 0 },
+        "minLengthCm":      { "type": ["number", "null"], "minimum": 0 },
+        "swimZone":         { "type": ["string", "null"], "enum": ["top", "mid", "bottom", "all", null] },
+        "decorPreferences": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+
+    "careLevel": { "type": ["string", "null"], "enum": ["beginner", "intermediate", "advanced", "expert", null] },
+
+    "diet": {
+      "oneOf": [
+        { "type": "null" },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["type", "notes"],
+          "properties": {
+            "type":  { "type": "string", "enum": ["herbivore", "carnivore", "omnivore", "planktivore", "detritivore"] },
+            "notes": { "type": ["string", "null"] }
+          }
+        }
+      ]
+    },
+
+    "compatibility": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["temperament", "grouping", "minGroupSize", "goodWith", "avoidWith"],
+      "properties": {
+        "temperament":  { "type": ["string", "null"], "enum": ["peaceful", "semi-aggressive", "aggressive", "territorial", null] },
+        "grouping":     { "type": ["string", "null"], "enum": ["solitary", "pair", "shoaling", "schooling", null] },
+        "minGroupSize": { "type": ["integer", "null"], "minimum": 1 },
+        "goodWith":     { "type": "array", "items": { "type": "string" } },
+        "avoidWith":    { "type": "array", "items": { "type": "string" } }
+      }
+    },
+
+    "media": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["primaryImage", "gallery"],
+      "properties": {
+        "primaryImage": { "type": ["string", "null"] },
+        "gallery":      { "type": "array", "items": { "type": "string" } }
+      }
+    },
+
+    "summary":       { "type": ["string", "null"], "maxLength": 400 },
+    "careNotes":     { "type": ["string", "null"] },
+    "breedingNotes": { "type": ["string", "null"] },
+
+    "sources": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["primary", "additional"],
+      "properties": {
+        "primary": {
+          "oneOf": [
+            { "type": "null" },
+            { "$ref": "#/$defs/source" }
+          ]
+        },
+        "additional": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/source" },
+          "maxItems": 5
+        }
+      }
+    },
 
     "fish":         { "type": ["object", "null"] },
     "crustacean":   { "type": ["object", "null"] },
