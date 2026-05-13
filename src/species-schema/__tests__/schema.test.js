@@ -62,7 +62,7 @@ describe('species.schema.json — body subschemas', () => {
     expect(validate(entry)).toBe(true);
   });
 
-  test.skip('rejects adultSizeCm with min > max (enforced in validate.js post-pass, see Task 8)', () => {
+  test.skip('rejects adultSizeCm with min > max (enforced in validate.js post-pass, see Task 7)', () => {
     // moved to validate.test.js
   });
 });
