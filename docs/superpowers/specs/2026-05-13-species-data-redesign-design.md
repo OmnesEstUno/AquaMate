@@ -12,7 +12,7 @@ The goals of this overhaul:
 
 1. Establish a rich, validated data schema covering everything an aquarist needs to keep a species — water parameters, sizing, temperament, tank requirements, sources, etc.
 2. Move from monolithic JSON files to per-species source files for clean git diffs, easier authoring, and scale.
-3. Research and populate the schema for every existing species using parallel research agents constrained to a curated source whitelist with mandatory cross-source verification.
+3. Discover new species via the curated source whitelist, score them by Wikipedia-derived popularity for human-reviewable scope decisions, and research-and-populate the schema for both legacy and discovered species using parallel agents with mandatory cross-source verification.
 4. Make source attribution first-class (every species credits a primary source plus up to 5 secondary sources).
 
 The current site's API contract, frontend wiring, and worker logic are explicitly subject to change. This redesign is the foundational step in a broader site overhaul; preservation of existing behavior is not a constraint.
@@ -36,7 +36,13 @@ src/
 ├── species-build/
 │   ├── validate.js           # Ajv-based validation pass over species/**/*.json
 │   ├── compile.js            # Bundles per-species files into dist/species.json
-│   └── migrate-from-legacy.js # One-shot conversion from old fauna/flora JSON
+│   ├── migrate-from-legacy.js # One-shot conversion from old fauna/flora JSON
+│   └── discovery/            # Stage A discovery manifests (committed, then human-trimmed)
+│       ├── fish-freshwater.json
+│       ├── fish-saltwater.json
+│       ├── crustacean-freshwater.json
+│       ├── …
+│       └── other-invert-review.json   # candidates that didn't fit any catalogued taxon
 └── backend/worker.js         # Imports dist/species.json (replaces old imports)
 
 dist/                         # gitignored build output
@@ -342,12 +348,12 @@ Two scripts, both pure functions, runnable locally and in CI.
 
 | `dataStatus` | Required | Allowed null |
 |---|---|---|
-| `"placeholder"` | Identity fields + `media.primaryImage` only | All research fields |
-| `"researched"` | Full schema, primary source set | A handful of genuinely-unknown fields |
+| `"placeholder"` | Identity fields (`id`, `slug`, `kind`, `taxon`, `waterType`, `commonName`, `scientificName`) | All research fields, including `media.primaryImage` |
+| `"researched"` | Full schema (water params, sizing, temperament, tank, diet, compatibility, variant block), primary source set | `breedingNotes`, `taxonomy.*`, `lifespanYears`, `media.primaryImage` (discovered species often lack images), and other genuinely-unknown fields where sources are silent |
 | `"needs_review"` | Same as researched; written by agents when sources disagree or validation retries exhaust | Same |
 | `"reviewed"` | Same as researched, plus `lastReviewed` within last 12 months | Same |
 
-This makes structural migration (Section 5) commit-able before any research happens.
+This makes structural migration (Section 5) commit-able before any research happens, and lets newly-discovered species be `"researched"` even when no image exists yet.
 
 ### `npm run compile-species` — bundle compiler
 
@@ -456,37 +462,116 @@ The site now runs on the new pipeline. Frontend may need adjustment to render ne
 
 ## Section 6 — Data population (parallel-agent research)
 
-After Section 5, every species file exists with `dataStatus: "placeholder"`. This phase upgrades them to `"researched"` via parallel research agents.
+After Section 5, every legacy species exists as a placeholder file in `src/species/`. This section covers two complementary populating workflows that share infrastructure:
 
-### Dispatch model
+1. **Discovery + popularity scoring** — expands the dataset beyond the legacy ~125 species by crawling the primary sources to find every species they cover, enriching each candidate with a popularity signal so scope can be trimmed on data rather than personal familiarity.
+2. **Per-species research** — for both the legacy placeholders and the approved discovered candidates, parallel agents fill in the schema with cross-verified data.
+
+A user-review gate sits between them so total scope is visible (and trimmable) before the long research run kicks off.
+
+### Three-stage flow
+
+```
+Stage A — Discovery + popularity enrichment        (a few hours, agent-driven)
+Stage B — User review of manifests                 (manual, however long)
+Stage C — Per-species research, ~10 species/wave    (long, agent-driven)
+```
+
+### Model choice
+
+**Sonnet 4.6 across all stages.** The work is bounded structured extraction with cross-source verification — Sonnet's wheelhouse. Opus would be slower per agent without meaningfully improving output quality on this shape of task; throughput matters at 1,000+ candidates. Haiku struggles with multi-source synthesis.
+
+### Stage A — Discovery + popularity enrichment
+
+For each `(taxon, waterType)` slice across the 7 catalogued taxa (`other-invert` is excluded from targeted discovery — see below):
+
+1. **Index acquisition.** Discovery agent fetches the primary source's species index for the slice (e.g., Aquarium Co-Op's freshwater fish care-guide index, WWC's coral catalog, Buce Plant's plant index).
+2. **Candidate extraction.** Agent emits `{ commonName, scientificName, primarySourceUrl, inferredTaxon }` for every species the primary source covers.
+3. **Secondary verification cull.** For each candidate, the agent queries the first secondary source from the whitelist. If absent, drop. If present, record `secondarySourceUrl`. (Your scope rule.)
+4. **Dedup against legacy.** Filter out anything matching an already-present species file in `src/species/` (by `scientificName` if available, else normalized `commonName`).
+5. **Popularity enrichment.** For each surviving candidate, look up Wikipedia (preferring `scientificName`, falling back to `commonName + (taxon hint)`) and record:
+   - `wikipediaUrl` (null if no article exists)
+   - `wikipediaPageviewsMonthly` — 12-month average from the Wikimedia REST pageviews API
+   - `wikipediaArticleSizeBytes`
+   - `sourceCoverageCount` — number of whitelist sources covering this species (primary + N secondaries)
+6. **Composite `popularityScore` (0–10):** `0` if no Wikipedia article. Otherwise, log-scaled pageviews (cap 5 pts) + `sourceCoverageCount` (cap 5 pts).
+7. **Taxon-fit check.** If a candidate doesn't cleanly fit the slice's target taxon (e.g., a nudibranch surfaced via the mollusc index but actually closer to `other-invert`), it's routed to a separate `src/species-build/discovery/other-invert-review.json` manifest for human reassignment rather than auto-classified.
+8. **Manifest emission.** Discovery writes `src/species-build/discovery/<taxon>-<waterType>.json`, sorted by `popularityScore` descending.
+
+**Why Wikipedia for popularity:** real public API, unambiguous signal (pageviews map to interest), no scraping/captcha issues. Google result counts are inflated and ambiguous (e.g., "Emperor" returns Roman emperors, not the angelfish). Wikipedia article *existence* is itself a strong popularity signal. Sparse Wikipedia coverage for niche taxa is fine — those entries land at `popularityScore: 0`, which is correct: surface them for human review.
+
+**No hard cap on discovery.** The source-availability filter (primary + at least one secondary) is the only scope cap during discovery. Stage B handles scope tightening based on the actual results.
+
+**Example manifest entries:**
+
+```jsonc
+[
+  { "commonName": "Neon Tetra",         "scientificName": "Paracheirodon innesi",  "popularityScore": 10, "wikipediaPageviewsMonthly": 18400, "sourceCoverageCount": 4, "primarySourceUrl": "…", "secondarySourceUrl": "…" },
+  { "commonName": "Cherry Shrimp",      "scientificName": "Neocaridina davidi",    "popularityScore":  9, "wikipediaPageviewsMonthly":  9200, "sourceCoverageCount": 3, "primarySourceUrl": "…", "secondarySourceUrl": "…" },
+  { "commonName": "Threadfin Rainbow",  "scientificName": "Iriatherina werneri",   "popularityScore":  4, "wikipediaPageviewsMonthly":   420, "sourceCoverageCount": 2, "primarySourceUrl": "…", "secondarySourceUrl": "…" },
+  { "commonName": "Obscure Variant X",  "scientificName": "…",                     "popularityScore":  1, "wikipediaPageviewsMonthly":     0, "sourceCoverageCount": 2, "primarySourceUrl": "…", "secondarySourceUrl": "…" }
+]
+```
+
+### Stage B — User review of discovery manifests
+
+After Stage A commits all manifests:
+
+- User opens each `<taxon>-<waterType>.json` and scans the popularity-sorted list.
+- Trims entries below the user's threshold (or selectively).
+- Opens `other-invert-review.json` and either reassigns each entry to the correct taxon, accepts as legitimate `other-invert`, or drops.
+- Manifests are committed in their trimmed/approved form. No agent activity during this gate.
+
+The approved manifests are the input to Stage C.
+
+### Stage C — Per-species research
+
+Each entry in the approved manifests becomes one research agent's task, alongside the legacy placeholder files from Section 5.
+
+**Dispatch model:**
 
 - One agent per species, via `superpowers:dispatching-parallel-agents`.
 - Batch size: ~10 species per wave, parallel within the wave, sequential across waves.
-- Total: ~13 waves for the current 125 species.
-- Order: most common / best-documented species first (popular tetras, common plants, beginner saltwater).
+- Order: highest `popularityScore` first within each manifest, legacy placeholders interleaved. Validates the agent playbook on well-documented species before tackling obscure ones.
 - Checkpoint: commit after each wave for reviewable, surgically-revertible history.
-- Recommended model: Sonnet 4.6 (Opus overkill for structured extraction + cross-check; Haiku struggles with multi-source synthesis).
 
-### Agent inputs (every dispatch identical)
+**Agent inputs (every dispatch identical):**
 
-1. Target species' placeholder file.
+1. Target entry: either a legacy placeholder file OR an approved discovery manifest row.
 2. `src/species-schema/species.schema.json`.
 3. `src/species-schema/enums.json`.
-4. The source whitelist (below).
+4. The source whitelist.
 5. The research-and-write playbook (below).
 
 ### Research-and-write playbook
 
 ```
+0. Identify input mode.
+   - Legacy placeholder mode: input is an existing src/species/<taxon>/<slug>.json
+     file with dataStatus="placeholder". File path, id, slug, kind, taxon,
+     waterType, commonName are already set.
+   - Manifest mode: input is a row from a discovery manifest with
+     {commonName, scientificName, primarySourceUrl, secondarySourceUrl, taxon}.
+     A new species file must be created. Generate:
+       - slug from commonName (kebab-case)
+       - id using new prefix scheme: <watertype>-<taxon-short>-NNN
+         (read existing IDs in the slice to pick the next NNN)
+       - kind from taxon (fauna or flora)
+
 1. Identify species precisely.
    Use scientificName if non-empty; else fuzzy-match commonName via FishBase
    / AlgaeBase taxonomy. Confirm correct species before proceeding.
 
-2. Fetch primary source for this kind/waterType from the whitelist.
+2. Fetch primary source.
+   - Manifest mode: use primarySourceUrl from the manifest row directly.
+   - Legacy placeholder mode: look up the primary source for this taxon/waterType
+     from the whitelist and fetch its species page.
    Extract all schema fields it can fill.
 
 3. Cross-source verification (mandatory).
-   Fetch at least one secondary source from the whitelist.
+   - Manifest mode: fetch secondarySourceUrl from the manifest row.
+   - Legacy placeholder mode: fetch the first secondary source from the
+     whitelist for this taxon/waterType.
    Explicitly cross-check these high-stakes fields:
      - adultSizeCm
      - waterParameters.*
@@ -504,13 +589,14 @@ After Section 5, every species file exists with `dataStatus: "placeholder"`. Thi
     careNotes, breedingNotes).
 
 5. Write the species JSON file.
+   - Path: src/species/<taxon>/<slug>.json
    - dataStatus = "researched" (or "needs_review" per step 3)
    - sources.primary set with name/url/accessedDate
    - additional sources used, cap at 5
    - lastReviewed = today
 
 6. Local validate.
-   Run `npm run validate -- src/species/<path>/<slug>.json`.
+   Run `npm run validate -- src/species/<taxon>/<slug>.json`.
    On failure: read error, correct entry, re-validate.
    Bounded at 3 retries — beyond that, dataStatus = "needs_review",
    include validator error in a note, return for human review.
@@ -548,7 +634,7 @@ After each wave:
 
 ### Out of scope (deferred)
 
-- **Image curation.** R2 buckets already populated; agents don't touch images.
+- **Image curation.** R2 buckets currently cover the legacy species. Newly discovered species will land with `media.primaryImage: null`; sourcing/uploading images for them is a separate workstream. The schema's `dataStatus` ladder accepts this — researched entries can have a null primary image.
 - **InfoPage frontend rework.** The new schema fields will need new UI to display them. Separate design.
 - **`tanks.json` redesign.** Different data type, different research pattern.
 - **Pointer-based pairwise compatibility** (e.g. specific species-ID references in `compatibility.goodWith`). Future enhancement on top of the current tag-based model.
@@ -564,14 +650,20 @@ After each wave:
 | Migration script mis-infers `taxon` for a legacy species | Keyword heuristic produces a draft; entries are `dataStatus: "placeholder"` so post-migration manual taxon correction is a one-field edit (file moves between taxon folders if needed). Worth a sanity-scan after Phase 1 before population begins. |
 | Source whitelist proves wrong over time | Whitelist is editable in the spec; agent playbook reads it as input. Change in one place. |
 | Frontend can't render new fields | Acceptable; frontend rework is the next overhaul step after this foundation lands. |
+| Discovery surfaces more candidates than expected (e.g., 2,000+ across all slices) | Stage B user review is the explicit checkpoint to trim. Manifests are sorted by `popularityScore` desc, so low-confidence entries cluster at the bottom for easy trimming. |
+| Wikipedia coverage is sparse for a taxon (corals, macroalgae, niche inverts) | Affected entries get `popularityScore: 0`. That's the correct signal — surfaces them prominently for user review rather than burying them. User can still keep entries scored 0 if they're known to be hobby-relevant despite Wikipedia silence. |
+| Discovery agent misclassifies taxon for a candidate | Routed to `other-invert-review.json` instead of auto-classified. User reassigns during Stage B. |
+| Source index page structure changes mid-discovery (site redesign) | Agent reports failure for that slice; user re-runs discovery for the affected slice after the agent prompt is updated. Slices are independent, so one failure doesn't block others. |
 
 ## Implementation order (high-level — detailed plan to follow)
 
 1. Schema + enums + validator (Section 4 tooling).
-2. Migration script (Section 5, Phase 1).
+2. Migration script (Section 5, Phase 1) — produces legacy placeholder files.
 3. Worker cutover + legacy file deletion (Section 5, Phase 2).
 4. Smoke verification (Section 5, Phase 3).
-5. First population wave (~10 high-confidence species; validates the agent playbook end-to-end before scaling).
-6. Remaining population waves until all species are `"researched"`.
+5. **Stage A: Discovery + popularity enrichment** — parallel discovery agents across all 7 catalogued taxa; emits sorted manifests.
+6. **Stage B: User review** — user trims manifests, reassigns `other-invert-review` entries. No agent activity.
+7. **Pilot research wave** — ~10 highest-popularityScore species from the approved manifests + a few legacy placeholders; validates the agent playbook end-to-end before scaling.
+8. **Stage C: Remaining research waves** — continue until every legacy placeholder and approved discovered candidate is `"researched"` (or flagged `"needs_review"`).
 
 A detailed implementation plan with task breakdown, parallelizability, and verification steps will be produced via the `superpowers:writing-plans` skill once this spec is approved.
