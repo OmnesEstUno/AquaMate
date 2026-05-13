@@ -1,0 +1,38 @@
+{
+  "id": "fw-001",
+  "slug": "neon-tetra",
+  "kind": "flora",
+  "taxon": "fish",
+  "waterType": "freshwater",
+  "commonName": "Neon Tetra",
+  "scientificName": "Paracheirodon innesi",
+  "alsoKnownAs": ["Neon"],
+  "category": "Tetra",
+  "taxonomy": { "family": "Characidae", "order": "Characiformes" },
+  "nativeRange": { "regions": ["South America"], "countries": ["Brazil"], "habitat": "Slow-moving blackwater", "biotope": "Blackwater" },
+  "waterParameters": {
+    "temperatureC": { "min": 20, "max": 26 }, "pH": { "min": 5.5, "max": 7.5 },
+    "gH": { "min": 1, "max": 10 }, "kH": { "min": 0, "max": 4 }, "salinity": null
+  },
+  "adultSizeCm": { "min": 3.0, "max": 4.0 },
+  "lifespanYears": { "min": 5, "max": 8 },
+  "tank": { "minVolumeLiters": 60, "minLengthCm": 60, "swimZone": "mid", "decorPreferences": ["plants"] },
+  "careLevel": "beginner",
+  "diet": { "type": "omnivore", "notes": "Flakes." },
+  "compatibility": { "temperament": "peaceful", "grouping": "schooling", "minGroupSize": 6, "goodWith": [], "avoidWith": [] },
+  "media": { "primaryImage": "neon_tetra.webp", "gallery": [] },
+  "summary": "Test fixture for kind/taxon mismatch.",
+  "careNotes": null,
+  "breedingNotes": null,
+  "sources": {
+    "primary": { "name": "Aquarium Co-Op", "url": "https://www.aquariumcoop.com/", "accessedDate": "2026-05-13", "notes": null },
+    "additional": []
+  },
+  "fish": {
+    "breedingDifficulty": "advanced", "breedingNotes": null,
+    "conspecificAggression": "none", "finNippy": false, "reefSafe": null
+  },
+  "crustacean": null, "coral": null, "mollusc": null, "echinoderm": null,
+  "other-invert": null, "plant": null, "macroalgae": null,
+  "schemaVersion": 1, "dataStatus": "researched", "lastReviewed": "2026-05-13"
+}

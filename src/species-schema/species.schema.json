@@ -29,6 +29,117 @@
         "accessedDate": { "type": "string", "format": "date" },
         "notes":        { "type": ["string", "null"] }
       }
+    },
+    "fishVariant": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["breedingDifficulty", "breedingNotes", "conspecificAggression", "finNippy", "reefSafe"],
+      "properties": {
+        "breedingDifficulty":     { "type": ["string", "null"], "enum": ["easy", "moderate", "difficult", "advanced", "not in captivity", null] },
+        "breedingNotes":          { "type": ["string", "null"] },
+        "conspecificAggression":  { "type": ["string", "null"], "enum": ["none", "low", "moderate", "high", null] },
+        "finNippy":               { "type": ["boolean", "null"] },
+        "reefSafe":               { "type": ["string", "null"], "enum": ["yes", "with caution", "no", null] }
+      }
+    },
+    "crustaceanVariant": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["copperSensitive", "moltingFrequencyDays", "moltingNotes", "escapeRisk", "breedingDifficulty", "breedingNotes", "speciesOnlyTankRecommended"],
+      "properties": {
+        "copperSensitive":            { "type": ["boolean", "null"] },
+        "moltingFrequencyDays":       { "type": ["integer", "null"], "minimum": 0 },
+        "moltingNotes":               { "type": ["string", "null"] },
+        "escapeRisk":                 { "type": ["string", "null"], "enum": ["low", "moderate", "high", null] },
+        "breedingDifficulty":         { "type": ["string", "null"], "enum": ["easy", "moderate", "difficult", "advanced", "not in captivity", null] },
+        "breedingNotes":              { "type": ["string", "null"] },
+        "speciesOnlyTankRecommended": { "type": ["boolean", "null"] }
+      }
+    },
+    "coralVariant": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["coralType", "lighting", "flow", "placement", "aggressionRangeCm", "feedingFrequency", "calciumPPM", "magnesiumPPM"],
+      "properties": {
+        "coralType":         { "type": ["string", "null"], "enum": ["LPS", "SPS", "soft", "anemone", "zoanthid", "mushroom", null] },
+        "lighting": {
+          "oneOf": [
+            { "type": "null" },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["minPAR", "maxPAR"],
+              "properties": {
+                "minPAR": { "type": "number", "minimum": 0 },
+                "maxPAR": { "type": "number", "minimum": 0 }
+              }
+            }
+          ]
+        },
+        "flow":              { "type": ["string", "null"], "enum": ["low", "medium", "high", null] },
+        "placement":         { "type": ["string", "null"], "enum": ["lower", "middle", "upper", "anywhere", null] },
+        "aggressionRangeCm": { "type": ["number", "null"], "minimum": 0 },
+        "feedingFrequency":  { "type": ["string", "null"], "enum": ["none", "weekly", "daily", null] },
+        "calciumPPM":        { "$ref": "#/$defs/nullableNumericRange" },
+        "magnesiumPPM":      { "$ref": "#/$defs/nullableNumericRange" }
+      }
+    },
+    "molluscVariant": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["copperSensitive", "substrateNeeds", "climbsOutOfTank", "algaeTypesConsumed"],
+      "properties": {
+        "copperSensitive":     { "type": ["boolean", "null"] },
+        "substrateNeeds":      { "type": ["string", "null"], "enum": ["any", "sand", "gravel", "soft", null] },
+        "climbsOutOfTank":     { "type": ["boolean", "null"] },
+        "algaeTypesConsumed":  { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "echinodermVariant": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["copperSensitive", "minTankAgeMonths", "coralSafe", "waterStabilitySensitivity"],
+      "properties": {
+        "copperSensitive":            { "type": ["boolean", "null"] },
+        "minTankAgeMonths":           { "type": ["integer", "null"], "minimum": 0 },
+        "coralSafe":                  { "type": ["boolean", "null"] },
+        "waterStabilitySensitivity":  { "type": ["string", "null"], "enum": ["low", "moderate", "high", null] }
+      }
+    },
+    "otherInvertVariant": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["notes"],
+      "properties": {
+        "notes": { "type": ["string", "null"] }
+      }
+    },
+    "plantVariant": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["lighting", "co2", "growthRate", "placement", "propagation", "substrate", "fertilization"],
+      "properties": {
+        "lighting":      { "type": ["string", "null"], "enum": ["low", "medium", "high", null] },
+        "co2":           { "type": ["string", "null"], "enum": ["none", "optional", "recommended", null] },
+        "growthRate":    { "type": ["string", "null"], "enum": ["slow", "medium", "fast", null] },
+        "placement":     { "type": ["string", "null"], "enum": ["foreground", "midground", "background", "floating", "epiphyte", null] },
+        "propagation":   { "type": "array", "items": { "type": "string" } },
+        "substrate":     { "type": ["string", "null"], "enum": ["any", "nutrient-rich", "inert", "n/a", null] },
+        "fertilization": { "type": ["string", "null"], "enum": ["low", "moderate", "heavy", null] }
+      }
+    },
+    "macroalgaeVariant": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["lighting", "growthRate", "form", "placement", "nutrientUptake", "propagation"],
+      "properties": {
+        "lighting":       { "type": ["string", "null"], "enum": ["low", "medium", "high", null] },
+        "growthRate":     { "type": ["string", "null"], "enum": ["slow", "medium", "fast", null] },
+        "form":           { "type": ["string", "null"], "enum": ["macroalgae", "filamentous", "calcareous", "encrusting", null] },
+        "placement":      { "type": ["string", "null"], "enum": ["refugium", "display", "sump", null] },
+        "nutrientUptake": { "type": ["string", "null"], "enum": ["low", "moderate", "high", null] },
+        "propagation":    { "type": "array", "items": { "type": "string" } }
+      }
     }
   },
   "type": "object",
@@ -178,17 +289,51 @@
       }
     },
 
-    "fish":         { "type": ["object", "null"] },
-    "crustacean":   { "type": ["object", "null"] },
-    "coral":        { "type": ["object", "null"] },
-    "mollusc":      { "type": ["object", "null"] },
-    "echinoderm":   { "type": ["object", "null"] },
-    "other-invert": { "type": ["object", "null"] },
-    "plant":        { "type": ["object", "null"] },
-    "macroalgae":   { "type": ["object", "null"] },
+    "fish":         { "oneOf": [{ "type": "null" }, { "$ref": "#/$defs/fishVariant" }] },
+    "crustacean":   { "oneOf": [{ "type": "null" }, { "$ref": "#/$defs/crustaceanVariant" }] },
+    "coral":        { "oneOf": [{ "type": "null" }, { "$ref": "#/$defs/coralVariant" }] },
+    "mollusc":      { "oneOf": [{ "type": "null" }, { "$ref": "#/$defs/molluscVariant" }] },
+    "echinoderm":   { "oneOf": [{ "type": "null" }, { "$ref": "#/$defs/echinodermVariant" }] },
+    "other-invert": { "oneOf": [{ "type": "null" }, { "$ref": "#/$defs/otherInvertVariant" }] },
+    "plant":        { "oneOf": [{ "type": "null" }, { "$ref": "#/$defs/plantVariant" }] },
+    "macroalgae":   { "oneOf": [{ "type": "null" }, { "$ref": "#/$defs/macroalgaeVariant" }] },
 
     "schemaVersion": { "type": "integer", "minimum": 1 },
     "dataStatus":    { "type": "string", "enum": ["placeholder", "researched", "needs_review", "reviewed"] },
     "lastReviewed":  { "type": ["string", "null"], "format": "date" }
-  }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "kind": { "const": "fauna" } } },
+      "then": {
+        "properties": {
+          "taxon": { "enum": ["fish", "crustacean", "coral", "mollusc", "echinoderm", "other-invert"] },
+          "plant": { "type": "null" },
+          "macroalgae": { "type": "null" }
+        }
+      }
+    },
+    {
+      "if": { "properties": { "kind": { "const": "flora" } } },
+      "then": {
+        "properties": {
+          "taxon": { "enum": ["plant", "macroalgae"] },
+          "fish": { "type": "null" },
+          "crustacean": { "type": "null" },
+          "coral": { "type": "null" },
+          "mollusc": { "type": "null" },
+          "echinoderm": { "type": "null" },
+          "other-invert": { "type": "null" }
+        }
+      }
+    },
+    { "if": { "properties": { "taxon": { "const": "fish" } } },         "then": { "properties": { "fish": { "$ref": "#/$defs/fishVariant" }, "crustacean": { "type": "null" }, "coral": { "type": "null" }, "mollusc": { "type": "null" }, "echinoderm": { "type": "null" }, "other-invert": { "type": "null" } }, "required": ["fish"] } },
+    { "if": { "properties": { "taxon": { "const": "crustacean" } } },   "then": { "properties": { "crustacean": { "$ref": "#/$defs/crustaceanVariant" }, "fish": { "type": "null" }, "coral": { "type": "null" }, "mollusc": { "type": "null" }, "echinoderm": { "type": "null" }, "other-invert": { "type": "null" } }, "required": ["crustacean"] } },
+    { "if": { "properties": { "taxon": { "const": "coral" } } },        "then": { "properties": { "coral": { "$ref": "#/$defs/coralVariant" }, "waterType": { "const": "saltwater" }, "fish": { "type": "null" }, "crustacean": { "type": "null" }, "mollusc": { "type": "null" }, "echinoderm": { "type": "null" }, "other-invert": { "type": "null" } }, "required": ["coral"] } },
+    { "if": { "properties": { "taxon": { "const": "mollusc" } } },      "then": { "properties": { "mollusc": { "$ref": "#/$defs/molluscVariant" }, "fish": { "type": "null" }, "crustacean": { "type": "null" }, "coral": { "type": "null" }, "echinoderm": { "type": "null" }, "other-invert": { "type": "null" } }, "required": ["mollusc"] } },
+    { "if": { "properties": { "taxon": { "const": "echinoderm" } } },   "then": { "properties": { "echinoderm": { "$ref": "#/$defs/echinodermVariant" }, "fish": { "type": "null" }, "crustacean": { "type": "null" }, "coral": { "type": "null" }, "mollusc": { "type": "null" }, "other-invert": { "type": "null" } }, "required": ["echinoderm"] } },
+    { "if": { "properties": { "taxon": { "const": "other-invert" } } }, "then": { "properties": { "other-invert": { "$ref": "#/$defs/otherInvertVariant" }, "fish": { "type": "null" }, "crustacean": { "type": "null" }, "coral": { "type": "null" }, "mollusc": { "type": "null" }, "echinoderm": { "type": "null" } }, "required": ["other-invert"] } },
+    { "if": { "properties": { "taxon": { "const": "plant" } } },        "then": { "properties": { "plant": { "$ref": "#/$defs/plantVariant" }, "macroalgae": { "type": "null" } }, "required": ["plant"] } },
+    { "if": { "properties": { "taxon": { "const": "macroalgae" } } },   "then": { "properties": { "macroalgae": { "$ref": "#/$defs/macroalgaeVariant" }, "plant": { "type": "null" } }, "required": ["macroalgae"] } }
+  ]
 }

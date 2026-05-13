@@ -66,3 +66,49 @@ describe('species.schema.json — body subschemas', () => {
     // moved to validate.test.js
   });
 });
+
+describe('species.schema.json — variant gating', () => {
+  const validate = buildAjv();
+
+  test('accepts valid researched fish entry', () => {
+    const ok = validate(loadFixture('valid-fish-researched'));
+    expect(validate.errors).toBeNull();
+    expect(ok).toBe(true);
+  });
+
+  test('accepts valid researched coral entry', () => {
+    const ok = validate(loadFixture('valid-coral-researched'));
+    expect(validate.errors).toBeNull();
+    expect(ok).toBe(true);
+  });
+
+  test('accepts valid researched plant entry', () => {
+    const ok = validate(loadFixture('valid-plant-researched'));
+    expect(validate.errors).toBeNull();
+    expect(ok).toBe(true);
+  });
+
+  test('rejects kind=flora with taxon=fish', () => {
+    const ok = validate(loadFixture('invalid-kind-taxon-mismatch'));
+    expect(ok).toBe(false);
+  });
+
+  test('rejects coral with freshwater waterType', () => {
+    const ok = validate(loadFixture('invalid-coral-freshwater'));
+    expect(ok).toBe(false);
+  });
+
+  test('rejects fish entry where fish block is null', () => {
+    const entry = loadFixture('valid-fish-researched');
+    entry.fish = null;
+    const ok = validate(entry);
+    expect(ok).toBe(false);
+  });
+
+  test('rejects fish entry where coral block is non-null', () => {
+    const entry = loadFixture('valid-fish-researched');
+    entry.coral = { coralType: 'LPS', lighting: { minPAR: 50, maxPAR: 150 }, flow: 'medium', placement: 'lower', aggressionRangeCm: null, feedingFrequency: 'weekly', calciumPPM: null, magnesiumPPM: null };
+    const ok = validate(entry);
+    expect(ok).toBe(false);
+  });
+});

@@ -1,0 +1,74 @@
+{
+  "id": "fl-001",
+  "slug": "java-fern",
+  "kind": "flora",
+  "taxon": "plant",
+  "waterType": "freshwater",
+  "commonName": "Java Fern",
+  "scientificName": "Microsorum pteropus",
+  "alsoKnownAs": [],
+  "category": "Fern",
+  "taxonomy": { "family": "Polypodiaceae", "order": "Polypodiales" },
+  "nativeRange": {
+    "regions": ["Southeast Asia"],
+    "countries": ["Thailand", "Malaysia", "Indonesia"],
+    "habitat": "Shaded streams and on rocks/wood in flowing water",
+    "biotope": "Stream"
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 18, "max": 28 },
+    "pH":           { "min": 6.0, "max": 7.5 },
+    "gH":           { "min": 2, "max": 15 },
+    "kH":           { "min": 3, "max": 8 },
+    "salinity":     null
+  },
+  "adultSizeCm":   { "min": 15, "max": 35 },
+  "lifespanYears": null,
+  "tank": {
+    "minVolumeLiters": 40,
+    "minLengthCm": 45,
+    "swimZone": "all",
+    "decorPreferences": ["driftwood", "rocks"]
+  },
+  "careLevel": "beginner",
+  "diet": null,
+  "compatibility": {
+    "temperament": null,
+    "grouping": null,
+    "minGroupSize": null,
+    "goodWith": [],
+    "avoidWith": []
+  },
+  "media": { "primaryImage": "java_fern.jpg", "gallery": [] },
+  "summary": "Hardy epiphytic fern that attaches to driftwood or rocks; thrives in low light.",
+  "careNotes": "Do not bury rhizome. Tie to driftwood or rock until rhizome attaches.",
+  "breedingNotes": null,
+  "sources": {
+    "primary": {
+      "name": "Buce Plant",
+      "url": "https://www.buceplant.com/products/java-fern",
+      "accessedDate": "2026-05-13",
+      "notes": null
+    },
+    "additional": []
+  },
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": {
+    "lighting": "low",
+    "co2": "optional",
+    "growthRate": "slow",
+    "placement": "epiphyte",
+    "propagation": ["rhizome division", "adventitious plantlets"],
+    "substrate": "n/a",
+    "fertilization": "low"
+  },
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-05-13"
+}

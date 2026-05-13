@@ -1,0 +1,41 @@
+{
+  "id": "sw-coral-001",
+  "slug": "hammer-coral",
+  "kind": "fauna",
+  "taxon": "coral",
+  "waterType": "freshwater",
+  "commonName": "Hammer Coral",
+  "scientificName": "Euphyllia ancora",
+  "alsoKnownAs": [],
+  "category": "LPS Coral",
+  "taxonomy": { "family": "Euphylliidae", "order": "Scleractinia" },
+  "nativeRange": { "regions": ["Indo-Pacific"], "countries": [], "habitat": "Reef", "biotope": "Reef" },
+  "waterParameters": {
+    "temperatureC": { "min": 24, "max": 26 }, "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null, "kH": { "min": 8, "max": 12 }, "salinity": { "min": 33, "max": 35 }
+  },
+  "adultSizeCm": { "min": 10, "max": 30 },
+  "lifespanYears": null,
+  "tank": { "minVolumeLiters": 200, "minLengthCm": 90, "swimZone": "bottom", "decorPreferences": ["live rock"] },
+  "careLevel": "intermediate",
+  "diet": { "type": "carnivore", "notes": "Mysis weekly." },
+  "compatibility": { "temperament": "aggressive", "grouping": "solitary", "minGroupSize": null, "goodWith": [], "avoidWith": [] },
+  "media": { "primaryImage": null, "gallery": [] },
+  "summary": "Test fixture for coral/freshwater rejection.",
+  "careNotes": null,
+  "breedingNotes": null,
+  "sources": {
+    "primary": { "name": "WWC", "url": "https://www.worldwidecorals.com/", "accessedDate": "2026-05-13", "notes": null },
+    "additional": []
+  },
+  "fish": null, "crustacean": null,
+  "coral": {
+    "coralType": "LPS", "lighting": { "minPAR": 50, "maxPAR": 150 },
+    "flow": "medium", "placement": "lower", "aggressionRangeCm": 10,
+    "feedingFrequency": "weekly",
+    "calciumPPM": { "min": 380, "max": 450 }, "magnesiumPPM": { "min": 1250, "max": 1400 }
+  },
+  "mollusc": null, "echinoderm": null, "other-invert": null,
+  "plant": null, "macroalgae": null,
+  "schemaVersion": 1, "dataStatus": "researched", "lastReviewed": "2026-05-13"
+}
