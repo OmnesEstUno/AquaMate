@@ -1,0 +1,67 @@
+{
+  "kinds": ["fauna", "flora"],
+
+  "taxa": [
+    "fish", "crustacean", "coral", "mollusc",
+    "echinoderm", "other-invert", "plant", "macroalgae"
+  ],
+
+  "waterTypes": ["freshwater", "saltwater", "brackish"],
+
+  "biotopes": [
+    "Blackwater", "Whitewater", "Clearwater",
+    "Rift Lake", "River", "Stream", "Lake", "Pond",
+    "Reef", "Lagoon", "Coastal", "Estuary",
+    "Mangrove", "Tide Pool", "Open Ocean", "Other"
+  ],
+
+  "careLevels": ["beginner", "intermediate", "advanced", "expert"],
+
+  "temperaments": ["peaceful", "semi-aggressive", "aggressive", "territorial"],
+
+  "groupings": ["solitary", "pair", "shoaling", "schooling"],
+
+  "swimZones": ["top", "mid", "bottom", "all"],
+
+  "dietTypes": ["herbivore", "carnivore", "omnivore", "planktivore", "detritivore"],
+
+  "breedingDifficulties": ["easy", "moderate", "difficult", "advanced", "not in captivity"],
+
+  "conspecificAggression": ["none", "low", "moderate", "high"],
+
+  "reefSafe": ["yes", "with caution", "no"],
+
+  "escapeRisk": ["low", "moderate", "high"],
+
+  "lightingLevels": ["low", "medium", "high"],
+
+  "co2Levels": ["none", "optional", "recommended"],
+
+  "plantPlacements": ["foreground", "midground", "background", "floating", "epiphyte"],
+
+  "plantSubstrates": ["any", "nutrient-rich", "inert", "n/a"],
+
+  "fertilizationLevels": ["low", "moderate", "heavy"],
+
+  "growthRates": ["slow", "medium", "fast"],
+
+  "algaeForms": ["macroalgae", "filamentous", "calcareous", "encrusting"],
+
+  "algaePlacements": ["refugium", "display", "sump"],
+
+  "nutrientUptakeLevels": ["low", "moderate", "high"],
+
+  "coralTypes": ["LPS", "SPS", "soft", "anemone", "zoanthid", "mushroom"],
+
+  "flowLevels": ["low", "medium", "high"],
+
+  "coralPlacements": ["lower", "middle", "upper", "anywhere"],
+
+  "feedingFrequencies": ["none", "weekly", "daily"],
+
+  "molluscSubstrates": ["any", "sand", "gravel", "soft"],
+
+  "waterStabilitySensitivity": ["low", "moderate", "high"],
+
+  "dataStatuses": ["placeholder", "researched", "needs_review", "reviewed"]
+}
