@@ -119,4 +119,39 @@ describe('migrate-from-legacy', () => {
       expect(fs.existsSync(path.join(speciesDir, 'fish', 'neon-tetra-2.json'))).toBe(true);
     });
   });
+
+  test('classifies "Coral Beauty" (Angelfish) as fish, not coral', () => {
+    withTempDir(speciesDir => {
+      const os = require('os');
+      const tmpFaunaDir = fs.mkdtempSync(path.join(os.tmpdir(), 'aquamate-coral-beauty-'));
+      const tmpFauna = path.join(tmpFaunaDir, 'fauna.json');
+      try {
+        const legacyFauna = {
+          saltwater: {
+            pages: [{
+              page: 1,
+              items: [{
+                id: 'sw-054',
+                commonName: 'Coral Beauty',
+                scientificName: 'Centropyge bispinosa',
+                category: 'Angelfish',
+                image_url: 'coral_beauty.jpg',
+                description: 'A dwarf angelfish, not a coral.'
+              }]
+            }]
+          }
+        };
+        fs.writeFileSync(tmpFauna, JSON.stringify(legacyFauna));
+        migrate({
+          faunaPath: tmpFauna,
+          floraPath: path.join(FIXTURES, 'legacy-flora-mini.json'),
+          speciesDir
+        });
+        expect(fs.existsSync(path.join(speciesDir, 'fish', 'coral-beauty.json'))).toBe(true);
+        expect(fs.existsSync(path.join(speciesDir, 'coral', 'coral-beauty.json'))).toBe(false);
+      } finally {
+        fs.rmSync(tmpFaunaDir, { recursive: true, force: true });
+      }
+    });
+  });
 });

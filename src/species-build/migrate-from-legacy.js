@@ -8,6 +8,19 @@ const TAXON_KEYWORDS = [
   { taxon: 'echinoderm', patterns: [/starfish/i, /sea star/i, /urchin/i, /sea cucumber/i] }
 ];
 
+// Explicit allowlist of legacy category values that unambiguously indicate fish.
+// Protects against commonName false positives (e.g. "Coral Beauty" is an Angelfish,
+// "Coral Catshark" is a Shark — both would wrongly match /coral/i without this guard).
+const FISH_CATEGORIES = new Set([
+  'Angelfish', 'Anthias', 'Barb', 'Blenny', 'Butterflyfish', 'Cardinalfish',
+  'Catfish', 'Chromis', 'Cichlid', 'Clownfish', 'Damsel', 'Danio', 'Dragonet',
+  'Eel', 'Filefish', 'Goby', 'Goldfish', 'Gourami', 'Hawkfish', 'Idol',
+  'Lionfish', 'Livebearer', 'Loach', 'Oddball', 'Parrotfish', 'Pipefish',
+  'Pufferfish', 'Rabbitfish', 'Rainbowfish', 'Rasbora', 'Ray', 'Scorpionfish',
+  'Seahorse', 'Shark', 'Soldierfish', 'Squirrelfish', 'Tang', 'Tetra',
+  'Triggerfish', 'Wrasse'
+]);
+
 function slugify(name) {
   return name
     .toLowerCase()
@@ -15,8 +28,14 @@ function slugify(name) {
     .replace(/^-|-$/g, '');
 }
 
-function inferTaxon({ commonName, kind }) {
+function inferTaxon({ commonName, category, kind }) {
   if (kind === 'flora') return 'plant';
+
+  // If category is a known fish category, the entry is fish regardless of commonName.
+  // This protects against names like "Coral Beauty" (Angelfish) and "Coral Catshark" (Shark).
+  if (category && FISH_CATEGORIES.has(category)) return 'fish';
+
+  // Otherwise, look for taxon keywords in the commonName.
   for (const { taxon, patterns } of TAXON_KEYWORDS) {
     if (patterns.some(p => p.test(commonName))) return taxon;
   }
@@ -151,7 +170,7 @@ function migrate({ faunaPath, floraPath, speciesDir }) {
   ];
 
   for (const { kind, waterType, item } of all) {
-    const taxon = inferTaxon({ commonName: item.commonName, kind });
+    const taxon = inferTaxon({ commonName: item.commonName, category: item.category, kind });
     const baseSlug = slugify(item.commonName);
     const slug = dedupeSlug(baseSlug, usedSlugs);
     usedSlugs.add(slug);
