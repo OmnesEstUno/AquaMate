@@ -1,10 +1,11 @@
-import faunaData from '../fauna.json' assert { type: 'json' };
-import floraData from '../flora.json' assert { type: 'json' };
+import speciesData from '../../dist/species.json' assert { type: 'json' };
 
 const R2_DOMAINS = {
     fauna: 'https://pub-eaf7b96d5e4d42869407498cf5b931e0.r2.dev',
     flora: 'https://pub-40c047642c084c80857179b0032563e5.r2.dev',
 };
+
+const PAGE_SIZE = 8;
 
 const CORS_HEADERS = {
     'Access-Control-Allow-Origin': '*',
@@ -23,110 +24,102 @@ function jsonResponse(data, status = 200) {
     });
 }
 
-function convertImageUrl(localUrl, bucketKey) {
-    if (!localUrl) return '';
-    const domain = R2_DOMAINS[bucketKey] || R2_DOMAINS.fauna;
-    const imagePath = localUrl.startsWith('/') ? localUrl.slice(1) : localUrl;
-    return `${domain}/${imagePath}`;
+function resolveImageUrl(item) {
+    if (!item.media || !item.media.primaryImage) return '';
+    const domain = R2_DOMAINS[item.kind] || R2_DOMAINS.fauna;
+    const filename = item.media.primaryImage.startsWith('/')
+        ? item.media.primaryImage.slice(1)
+        : item.media.primaryImage;
+    return `${domain}/${filename}`;
 }
 
-// Flatten all items from a dataset (fauna or flora) into a searchable array
-function flattenDataset(dataset, bucketKey) {
-    const results = [];
-    for (const category of Object.values(dataset)) {
-        for (const page of category.pages) {
-            for (const item of page.items) {
-                results.push({ ...item, bucketKey });
-            }
-        }
-    }
-    return results;
+function withResolvedImage(item) {
+    return { ...item, image_url: resolveImageUrl(item) };
+}
+
+function getFaunaCategory(category) {
+    // category in URL = legacy water-type word for fauna (freshwater | saltwater | brackish)
+    return speciesData.fauna[category];
+}
+
+function allItems() {
+    return [
+        ...speciesData.fauna.freshwater.items,
+        ...speciesData.fauna.saltwater.items,
+        ...speciesData.fauna.brackish.items,
+        ...speciesData.flora.freshwater.items,
+        ...speciesData.flora.saltwater.items,
+        ...speciesData.flora.brackish.items,
+    ];
 }
 
 async function handleRequest(request) {
-    if (request.method === 'OPTIONS') {
-        return handleOptions();
-    }
+    if (request.method === 'OPTIONS') return handleOptions();
 
     const url = new URL(request.url);
     const path = url.pathname;
 
-    // GET /api/images/:category/:page - Return paginated images
+    // GET /api/images/:category/:page — paginated fauna gallery
     if (path.startsWith('/api/images/') && request.method === 'GET') {
-        const pathParts = path.split('/').filter(p => p);
-        const category = pathParts[2] || 'freshwater';
-        const requestedPage = parseInt(pathParts[3]) || 1;
+        const parts = path.split('/').filter(p => p);
+        const category = parts[2] || 'freshwater';
+        const requestedPage = parseInt(parts[3], 10) || 1;
 
-        if (!faunaData[category]) {
+        const bucket = getFaunaCategory(category);
+        if (!bucket) {
             return jsonResponse({
                 success: false,
                 error: 'Category not found',
-                available: Object.keys(faunaData),
+                available: Object.keys(speciesData.fauna),
             }, 404);
         }
 
-        const CATEGORY_DATA = faunaData[category];
-        const PAGE_DATA = CATEGORY_DATA.pages.find(p => p.page === requestedPage);
-
-        if (!PAGE_DATA) {
+        const items = bucket.items;
+        const totalPages = Math.max(1, Math.ceil(items.length / PAGE_SIZE));
+        if (requestedPage < 1 || requestedPage > totalPages) {
             return jsonResponse({
                 success: false,
                 error: 'Page not found',
-                totalPages: CATEGORY_DATA.pages.length,
+                totalPages,
             }, 404);
         }
 
-        const itemsWithR2Urls = PAGE_DATA.items.map(item => ({
-            ...item,
-            image_url: convertImageUrl(item.image_url, 'fauna'),
-        }));
+        const start = (requestedPage - 1) * PAGE_SIZE;
+        const slice = items.slice(start, start + PAGE_SIZE).map(withResolvedImage);
 
         return jsonResponse({
             success: true,
             category,
-            page: PAGE_DATA.page,
-            totalPages: CATEGORY_DATA.pages.length,
-            items: itemsWithR2Urls,
+            page: requestedPage,
+            totalPages,
+            items: slice,
         });
     }
 
-    // GET /api/search?q=<term> - Search across all fauna and flora
+    // GET /api/search?q=<term> — search all species
     if (path === '/api/search' && request.method === 'GET') {
         const q = url.searchParams.get('q')?.trim().toLowerCase();
-
         if (!q) {
             return jsonResponse({ success: false, error: 'Missing query param: q' }, 400);
         }
-
-        const allItems = [
-            ...flattenDataset(faunaData, 'fauna'),
-            ...flattenDataset(floraData, 'flora'),
-        ];
-
-        const matches = allItems
+        const matches = allItems()
             .filter(item =>
                 item.commonName?.toLowerCase().includes(q) ||
                 item.scientificName?.toLowerCase().includes(q)
             )
-            .map(({ bucketKey, ...item }) => ({
-                ...item,
-                image_url: convertImageUrl(item.image_url, bucketKey),
-            }));
-
+            .map(withResolvedImage);
         return jsonResponse({ success: true, query: q, results: matches });
     }
 
-    // GET /api/categories - Return all available categories
+    // GET /api/categories — return fauna water-type buckets
     if (path === '/api/categories' && request.method === 'GET') {
-        const categories = Object.keys(faunaData).map(cat => ({
+        const categories = Object.keys(speciesData.fauna).map(cat => ({
             name: cat,
-            pages: faunaData[cat].pages.length,
+            count: speciesData.fauna[cat].items.length,
         }));
-
         return jsonResponse({ success: true, categories });
     }
 
-    // Health check
     if (path === '/health' && request.method === 'GET') {
         return jsonResponse({ status: 'ok', timestamp: new Date().toISOString() });
     }
@@ -145,5 +138,5 @@ async function handleRequest(request) {
 export default {
     async fetch(request) {
         return handleRequest(request);
-    }
+    },
 };
