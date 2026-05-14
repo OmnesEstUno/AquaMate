@@ -1,0 +1,52 @@
+{
+  "freshwater": {
+    "pages": [
+      {
+        "page": 1,
+        "items": [
+          {
+            "id": "fw-001",
+            "commonName": "Neon Tetra",
+            "scientificName": "",
+            "category": "Tetra",
+            "image_url": "neon_tetra.webp",
+            "description": "Placeholder description for Neon Tetra."
+          },
+          {
+            "id": "fw-002",
+            "commonName": "Neon Tetra",
+            "scientificName": "",
+            "category": "Tetra",
+            "image_url": "neon_tetra_2.webp",
+            "description": "Duplicate name to exercise collision suffixing."
+          },
+          {
+            "id": "fw-100",
+            "commonName": "Cherry Shrimp",
+            "scientificName": "Neocaridina davidi",
+            "category": "Shrimp",
+            "image_url": "cherry_shrimp.jpg",
+            "description": "Placeholder description for Cherry Shrimp."
+          }
+        ]
+      }
+    ]
+  },
+  "saltwater": {
+    "pages": [
+      {
+        "page": 1,
+        "items": [
+          {
+            "id": "sw-001",
+            "commonName": "Ocellaris Clownfish",
+            "scientificName": "Amphiprion ocellaris",
+            "category": "Clownfish",
+            "image_url": "ocellaris_clownfish.jpg",
+            "description": "Placeholder description for Ocellaris Clownfish."
+          }
+        ]
+      }
+    ]
+  }
+}
