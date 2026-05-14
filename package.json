@@ -7,9 +7,14 @@
     "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
+    "prebuild": "npm run validate && npm run compile-species",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "validate": "node src/species-build/validate.js",
+    "compile-species": "node src/species-build/compile.js",
+    "migrate-species": "node src/species-build/migrate-from-legacy.js",
+    "review-field-gaps": "node src/species-build/review-field-gaps.js"
   },
   "repository": {
     "type": "git",
