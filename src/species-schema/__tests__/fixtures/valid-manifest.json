@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "discoveryDate": "2026-05-15",
+    "taxon": "fish",
+    "waterType": "freshwater",
+    "primarySource": {
+      "name": "Aquarium Co-Op",
+      "indexUrl": "https://www.aquariumcoop.com/blogs/aquarium/tagged/care-guide"
+    },
+    "secondarySources": [
+      { "name": "SeriouslyFish", "url": "https://www.seriouslyfish.com/" },
+      { "name": "FishBase", "url": "https://www.fishbase.se/" }
+    ],
+    "dedupListSize": 142,
+    "candidateCount": 2
+  },
+  "entries": [
+    {
+      "commonName": "Neon Tetra",
+      "scientificName": "Paracheirodon innesi",
+      "popularityScore": 8,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Neon_tetra",
+      "wikipediaPageviewsMonthly": 18400,
+      "wikipediaArticleSizeBytes": 24500,
+      "sourceCoverageCount": 4,
+      "primarySourceUrl": "https://www.aquariumcoop.com/blogs/aquarium/neon-tetra-care-guide",
+      "secondarySourceUrl": "https://www.seriouslyfish.com/species/paracheirodon-innesi/",
+      "taxonFitConfidence": "high",
+      "notes": null
+    },
+    {
+      "commonName": "Obscure Variant X",
+      "scientificName": null,
+      "popularityScore": 0,
+      "wikipediaUrl": null,
+      "wikipediaPageviewsMonthly": 0,
+      "wikipediaArticleSizeBytes": null,
+      "sourceCoverageCount": 2,
+      "primarySourceUrl": "https://www.aquariumcoop.com/blogs/aquarium/obscure-variant-x",
+      "secondarySourceUrl": "https://www.seriouslyfish.com/species/obscure-variant-x/",
+      "taxonFitConfidence": "low",
+      "notes": "Possibly misclassified; surfaced from fish index but morphologically closer to other-invert."
+    }
+  ]
+}
