@@ -7,7 +7,7 @@ You are a Stage A discovery agent for the AquaMate species data layer. Your job 
 ## Your slice
 
 - **Slice:** `$SLICE_KEY`  (e.g. `fish-freshwater`)
-- **Taxon:** `$TAXON`     (one of: fish, crustacean, coral, mollusc, echinoderm, plant, macroalgae)
+- **Taxon:** `$TAXON`     (one of: fish, crustacean, coral, mollusc, echinoderm, other-invert, plant, macroalgae)
 - **Water type:** `$WATER_TYPE` (one of: freshwater, saltwater, brackish)
 - **Today's date:** `$TODAY_ISO`  (use this for `meta.discoveryDate` and any Wikipedia date math)
 
@@ -72,7 +72,7 @@ For each species the primary source covers in this slice, record:
 `taxonFitConfidence` guidance:
 - **high** — the source explicitly categorizes the species as `$TAXON` (e.g., listed under "Freshwater Fish" for fish-freshwater).
 - **medium** — fit is implied but not explicit, OR the species is in the right category but ambiguous (e.g., a brackish-tolerant freshwater fish surfacing in the freshwater index).
-- **low** — the source categorizes it as something else, or you suspect misclassification (a nudibranch listed under "mollusc" inventory, a freshwater shrimp species that doesn't actually exist in the hobby, etc.). These go to `$OUTPUT_OTHER_PATH`.
+- **low** — the source categorizes it as something else, or you suspect misclassification (e.g., a sea cucumber surfacing in a coral catalog, a free-swimming sea jelly listed alongside molluscs — both belong in `other-invert`, not the slice's target taxon). These go to `$OUTPUT_OTHER_PATH`; if you have a guess at the correct taxon, mention it in the entry's `notes` field.
 
 ### 3. Apply the dedup filter
 
@@ -100,7 +100,11 @@ For each candidate that survived step 4:
     ```
     where `<START>` is 12 calendar months before `$TODAY_ISO` (formatted `YYYYMMDD00`) and `<END>` is `$TODAY_ISO` (formatted `YYYYMMDD00`).
   - Compute `wikipediaPageviewsMonthly` as the **mean** of the 12 monthly `views` values returned. Round to the nearest integer. If the API returns fewer than 12 months (new article), average what's available.
-  - Record `wikipediaArticleSizeBytes` from the article page metadata if available; otherwise leave `null`.
+  - Record `wikipediaArticleSizeBytes` by querying the Wikipedia page-info API:
+    ```
+    GET https://en.wikipedia.org/w/api.php?action=query&prop=info&titles=<URL-ENCODED-TITLE>&format=json
+    ```
+    The response contains `query.pages[<pageid>].length` in wikitext bytes — use that integer. If the response is missing or malformed, leave `null` rather than guessing.
 
 ### 6. Compute popularityScore
 
