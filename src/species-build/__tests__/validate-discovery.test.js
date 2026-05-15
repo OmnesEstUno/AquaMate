@@ -21,7 +21,7 @@ function writeManifest(dir, name, payload) {
 describe('validate-discovery', () => {
   test('validateOneManifest accepts the valid fixture', () => {
     const result = validateOneManifest(loadValid());
-    expect(result.valid).toBe(true);
+    expect(result.ok).toBe(true);
     expect(result.errors).toEqual([]);
   });
 
@@ -29,7 +29,7 @@ describe('validate-discovery', () => {
     const m = loadValid();
     m.surprise = 1;
     const result = validateOneManifest(m);
-    expect(result.valid).toBe(false);
+    expect(result.ok).toBe(false);
     expect(result.errors.length).toBeGreaterThan(0);
   });
 
@@ -51,7 +51,7 @@ describe('validate-discovery', () => {
       const result = validateDiscoveryDir(dir);
       expect(result.ok).toBe(true);
       expect(result.fileResults).toHaveLength(2);
-      expect(result.fileResults.every(r => r.valid)).toBe(true);
+      expect(result.fileResults.every(r => r.ok)).toBe(true);
     });
   });
 
@@ -64,7 +64,7 @@ describe('validate-discovery', () => {
       const result = validateDiscoveryDir(dir);
       expect(result.ok).toBe(false);
       const badResult = result.fileResults.find(r => r.file.endsWith('bad.json'));
-      expect(badResult.valid).toBe(false);
+      expect(badResult.ok).toBe(false);
       expect(badResult.errors.length).toBeGreaterThan(0);
     });
   });
@@ -76,6 +76,17 @@ describe('validate-discovery', () => {
       const result = validateDiscoveryDir(dir);
       expect(result.fileResults).toHaveLength(1);
       expect(result.ok).toBe(true);
+    });
+  });
+
+  test('validateDiscoveryDir reports JSON parse errors gracefully', () => {
+    withTempDir(dir => {
+      fs.writeFileSync(path.join(dir, 'broken.json'), '{ not json');
+      const result = validateDiscoveryDir(dir);
+      expect(result.ok).toBe(false);
+      expect(result.fileResults[0].ok).toBe(false);
+      expect(result.fileResults[0].errors[0].keyword).toBe('parse');
+      expect(result.fileResults[0].errors[0].message).toMatch(/JSON parse error/);
     });
   });
 });

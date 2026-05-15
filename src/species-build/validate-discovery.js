@@ -13,12 +13,14 @@ function makeValidator() {
   return ajv.compile(schema);
 }
 
+const validate = makeValidator();
+
 function validateOneManifest(payload) {
-  const validate = makeValidator();
   const ok = validate(payload);
   return {
-    valid: !!ok,
+    ok: !!ok,
     errors: validate.errors ? validate.errors.map(e => ({
+      keyword: e.keyword,
       instancePath: e.instancePath,
       schemaPath: e.schemaPath,
       message: e.message,
@@ -39,22 +41,23 @@ function validateDiscoveryDir(dir) {
     try {
       payload = JSON.parse(fs.readFileSync(file, 'utf8'));
     } catch (err) {
-      return { file, valid: false, errors: [{ message: `JSON parse error: ${err.message}` }] };
+      return { file, ok: false, errors: [{ keyword: 'parse', message: `JSON parse error: ${err.message}` }] };
     }
     const result = validateOneManifest(payload);
-    return { file, valid: result.valid, errors: result.errors };
+    return { file, ok: result.ok, errors: result.errors };
   });
-  const ok = fileResults.every(r => r.valid);
+  const ok = fileResults.every(r => r.ok);
   return { ok, fileResults };
 }
 
 function formatResult(result) {
   const lines = [];
   for (const r of result.fileResults) {
-    if (r.valid) {
-      lines.push(`✓ ${r.file}`);
+    const display = path.relative(process.cwd(), r.file);
+    if (r.ok) {
+      lines.push(`✓ ${display}`);
     } else {
-      lines.push(`✗ ${r.file}`);
+      lines.push(`✗ ${display}`);
       for (const e of r.errors) {
         lines.push(`    ${e.instancePath || '(root)'}: ${e.message}`);
       }
@@ -71,7 +74,7 @@ if (require.main === module) {
   const result = validateDiscoveryDir(dir);
   console.log(formatResult(result));
   if (!result.ok) {
-    console.error(`\nValidation failed for ${result.fileResults.filter(r => !r.valid).length} file(s).`);
+    console.error(`\nValidation failed for ${result.fileResults.filter(r => !r.ok).length} file(s).`);
     process.exit(1);
   }
   console.log(`\nValidated ${result.fileResults.length} manifest file(s) successfully.`);
