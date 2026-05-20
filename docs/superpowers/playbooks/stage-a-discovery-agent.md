@@ -48,13 +48,28 @@ Sort `entries` by `popularityScore` descending. Ties broken by `commonName` asce
 
 ## Playbook (execute in order)
 
-### 1. Acquire the species index
+### 1. Acquire ALL applicable species indexes
 
-- Fetch `$PRIMARY_SOURCE_ROOT` and navigate to the species/care-guide index for `$TAXON` + `$WATER_TYPE`.
-- If you can't find a clean index page, fall back to searching the source for representative species names of the slice (e.g. "neon tetra", "cherry shrimp") and follow the navigation breadcrumbs.
-- If after reasonable effort you cannot locate any species index for this source/slice, **stop and report failure** rather than fabricating an index URL. Return with status `FAILED_INDEX_ACQUISITION` and a description of what you tried.
+Most aquarium-hobby sites have **multiple** species indexes that serve different audiences. You must find and harvest from all of them, not just the first one you find. A common failure mode is picking the smallest curated index (e.g. a blog tag) and missing the broader product catalog. Don't do that.
 
-Record the exact URL you decided is the index page — this becomes `meta.primarySource.indexUrl` in the output.
+Common index types — look for **all** that apply on `$PRIMARY_SOURCE_ROOT`:
+
+- **Product catalog / shop** — typically the broadest index. Often at paths like `/collections/<thing>`, `/shop`, `/store`, `/products`. Lists every species/SKU the source sells, often hundreds of items. May or may not have care-guide content per item.
+- **Care-guide blog / article tag** — a curated editorial subset. Often at paths like `/blogs/<topic>`, `/articles`, `/guides`, or tagged URLs (e.g. `/blogs/aquarium/tagged/care-guides`). Smaller than the catalog but has prose. Useful as a secondary index, not a substitute for the catalog.
+- **HTML sitemap or category landing pages** — sometimes the only path to a complete species listing.
+- **Taxon-filtered search results** — search URL that narrows to your `$TAXON` + `$WATER_TYPE`.
+
+**Procedure:**
+
+1. Fetch `$PRIMARY_SOURCE_ROOT` and identify which index types exist on this source.
+2. Visit each index that applies to your slice (a fish-only blog isn't relevant for a coral slice).
+3. **Paginate each index to completion.** If pages use `?page=2`, `?page=3`, … or "load more" / next-page links, follow them all. Do not stop after the first page. If an index spans 33 pages, process all 33.
+4. Extract candidates from each index page (see step 2 for shape).
+5. Deduplicate candidates within your own crawl by `commonName` (case-insensitive) — the same species often appears in both the catalog and the care-guide blog.
+
+**Pick a primary index for `meta.primarySource.indexUrl`:** the most comprehensive index you used (typically the product catalog). If you used multiple indexes, name the broadest one in `meta.primarySource.indexUrl` and list the others in your step-10 report-back summary.
+
+If after reasonable effort you cannot locate any species index for this source/slice, **stop and report failure** rather than fabricating an index URL. Return with status `FAILED_INDEX_ACQUISITION` and a description of what you tried.
 
 ### 2. Extract candidates
 
@@ -77,6 +92,8 @@ For each species the primary source covers in this slice, record:
 ### 3. Apply the dedup filter
 
 Drop any candidate that matches the dedup list (rules above).
+
+**Soft candidate cap:** if more than **250 candidates** remain after dedup, process them in catalog order (whatever order they appeared on the index pages — catalogs typically surface most-popular first) and cap further work at 250. Record the total pre-cap count in your step 10 report so the controller knows the slice was partially crawled. Stage B reviewers can request a re-dispatch for the remainder if needed. (Candidates beyond the cap are dropped, not stored — keeping them in `entries` without verification would violate the cross-source rule.)
 
 ### 4. Cross-source verification cull
 
@@ -191,7 +208,9 @@ Return with status `DONE` and a 1-paragraph summary:
 - Number of confident-fit entries written to `$OUTPUT_PRIMARY_PATH`.
 - Number of taxon-misfit entries written to `$OUTPUT_OTHER_PATH`.
 - The 3 highest-popularityScore entries by name.
-- Any anomalies encountered (sources slow/blocked, Wikipedia API gaps, ambiguous scientific names, etc.).
+- **All indexes harvested** (URLs) and approximate candidate count per index — this records where you looked, not just where the manifest's `indexUrl` points.
+- **Pre-dedup candidate count, post-dedup candidate count, and post-cap count** — so the controller can see scope at each stage.
+- Any anomalies encountered (sources slow/blocked, Wikipedia API gaps, ambiguous scientific names, the 250-cap being hit, etc.).
 
 ## Tool constraints
 
