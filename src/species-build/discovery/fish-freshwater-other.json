@@ -1,6 +1,6 @@
 {
   "meta": {
-    "discoveryDate": "2026-05-15",
+    "discoveryDate": "2026-05-20",
     "taxon": "fish",
     "waterType": "freshwater",
     "primarySource": {
@@ -12,8 +12,8 @@
       { "name": "FishBase", "url": "https://www.fishbase.se/" },
       { "name": "Practical Fishkeeping", "url": "https://www.practicalfishkeeping.co.uk/" }
     ],
-    "dedupListSize": 115,
-    "candidateCount": 4
+    "dedupListSize": 120,
+    "candidateCount": 6
   },
   "entries": [
     {
@@ -27,7 +27,7 @@
       "primarySourceUrl": "https://www.aquariumcoop.com/blogs/aquarium/amano-shrimp",
       "secondarySourceUrl": "https://www.practicalfishkeeping.co.uk/features/amano-shrimp-spineless-heroes/",
       "taxonFitConfidence": "low",
-      "notes": "Correct taxon: crustacean. Surfaced on the Aquarium Co-Op care-guides page. Formerly known as Caridina japonica. Widely used algae-eating shrimp in planted tanks."
+      "notes": "Correct taxon: crustacean. Surfaced on the Aquarium Co-Op care-guides index. Formerly known as Caridina japonica."
     },
     {
       "commonName": "Assassin Snail",
@@ -40,7 +40,33 @@
       "primarySourceUrl": "https://www.aquariumcoop.com/blogs/aquarium/assassin-snail",
       "secondarySourceUrl": "https://www.practicalfishkeeping.co.uk/features/natural-born-killers/",
       "taxonFitConfidence": "low",
-      "notes": "Correct taxon: mollusc. Surfaced on the Aquarium Co-Op care-guides page. Formerly classified as Clea helena. Freshwater snail used to control pest snail populations."
+      "notes": "Correct taxon: mollusc. Surfaced on the Aquarium Co-Op care-guides index. Formerly classified as Clea helena."
+    },
+    {
+      "commonName": "Cherry Shrimp",
+      "scientificName": "Neocaridina davidi",
+      "popularityScore": 5,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Neocaridina_davidi",
+      "wikipediaPageviewsMonthly": 4463,
+      "wikipediaArticleSizeBytes": 28843,
+      "sourceCoverageCount": 2,
+      "primarySourceUrl": "https://www.aquariumcoop.com/blogs/aquarium/cherry-shrimp-care",
+      "secondarySourceUrl": "https://www.practicalfishkeeping.co.uk/features/an-introduction-to-shrimp/",
+      "taxonFitConfidence": "low",
+      "notes": "Correct taxon: crustacean. Surfaced on the Aquarium Co-Op care-guides index. Popular freshwater ornamental shrimp available in many color morphs. Wikipedia article titled 'Neocaridina davidi'."
+    },
+    {
+      "commonName": "GloFish",
+      "scientificName": null,
+      "popularityScore": 5,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/GloFish",
+      "wikipediaPageviewsMonthly": 5081,
+      "wikipediaArticleSizeBytes": 24291,
+      "sourceCoverageCount": 2,
+      "primarySourceUrl": "https://www.aquariumcoop.com/blogs/aquarium/glofish",
+      "secondarySourceUrl": "https://www.practicalfishkeeping.co.uk/fishkeeping-news/glowing-fish-to-hit-american-shops-in-january/",
+      "taxonFitConfidence": "low",
+      "notes": "Trademarked brand of genetically modified freshwater fish based on multiple natural species (Danio rerio, Gymnocorymbus ternetzi, Puntius tetrazona, Epalzeorhynchos frenatum, Betta splendens). No single scientific name; not a distinct taxon. Illegal in EU/UK. Review for possible split into underlying species."
     },
     {
       "commonName": "Mystery Snail",
@@ -53,7 +79,7 @@
       "primarySourceUrl": "https://www.aquariumcoop.com/blogs/aquarium/mystery-snail",
       "secondarySourceUrl": "https://www.practicalfishkeeping.co.uk/features/problem-solver-snails/",
       "taxonFitConfidence": "low",
-      "notes": "Correct taxon: mollusc. Surfaced on the Aquarium Co-Op care-guides page. Also called spike-topped apple snail. Popular freshwater aquarium snail available in many color morphs."
+      "notes": "Correct taxon: mollusc. Surfaced on the Aquarium Co-Op care-guides index. Also called spike-topped apple snail."
     },
     {
       "commonName": "Nerite Snail",
@@ -66,7 +92,7 @@
       "primarySourceUrl": "https://www.aquariumcoop.com/blogs/aquarium/nerite-snail-care",
       "secondarySourceUrl": "https://www.practicalfishkeeping.co.uk/features/natural-born-killers/",
       "taxonFitConfidence": "low",
-      "notes": "Correct taxon: mollusc. Surfaced on the Aquarium Co-Op care-guides page. Aquarium Co-Op guide covers nerite snails broadly (multiple Neritina/Vittina species); Vittina natalensis (zebra nerite) is the most commonly sold in the aquarium trade. Formerly classified as Neritina natalensis."
+      "notes": "Correct taxon: mollusc. Surfaced on the Aquarium Co-Op care-guides index. Care guide covers nerite snails broadly; Vittina natalensis (zebra nerite, formerly Neritina natalensis) is the most commonly sold in the aquarium trade."
     }
   ]
 }

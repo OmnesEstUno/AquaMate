@@ -1,33 +1,33 @@
 {
   "meta": {
-    "discoveryDate": "2026-05-15",
+    "discoveryDate": "2026-05-20",
     "taxon": "coral",
     "waterType": "saltwater",
     "primarySource": {
       "name": "World Wide Corals",
-      "indexUrl": "https://www.worldwidecorals.com/pages/coral-care-guide"
+      "indexUrl": "https://www.worldwidecorals.com/collections/all-frags"
     },
     "secondarySources": [
       { "name": "Reef2Reef wiki", "url": "https://www.reef2reef.com/wiki/" },
       { "name": "Bulk Reef Supply", "url": "https://www.bulkreefsupply.com/" },
       { "name": "LiveAquaria", "url": "https://www.liveaquaria.com/" }
     ],
-    "dedupListSize": 114,
+    "dedupListSize": 113,
     "candidateCount": 1
   },
   "entries": [
     {
       "commonName": "Rock Flower Anemone",
-      "scientificName": "Phymanthus crucifer",
-      "popularityScore": 4,
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Phymanthus_crucifer",
-      "wikipediaPageviewsMonthly": 260,
-      "wikipediaArticleSizeBytes": 6265,
+      "scientificName": "Phymanthus sp.",
+      "popularityScore": 0,
+      "wikipediaUrl": null,
+      "wikipediaPageviewsMonthly": 0,
+      "wikipediaArticleSizeBytes": null,
       "sourceCoverageCount": 2,
       "primarySourceUrl": "https://www.worldwidecorals.com/blogs/news/rock-flower-anemones",
-      "secondarySourceUrl": "https://www.liveaquaria.com/products/rock-flower-anemone-green",
+      "secondarySourceUrl": "https://www.liveaquaria.com/product/3619/?pcatid=3619",
       "taxonFitConfidence": "low",
-      "notes": "Surfaced in WWC coral care guide index but is a sea anemone (order Actiniaria, family Phymanthidae), not a coral. Correct taxon: other-invert. Formerly Epicystis crucifer; now Phymanthus crucifer. Common in reef tanks but taxonomically not a coral."
+      "notes": "LiveAquaria classifies as Saltwater Aquarium Invertebrates, not coral. Phymanthidae family anemone from Caribbean. Suggested correct taxon: other-invert. Surfaced in WWC editorial blog, not the coral product catalog filter categories."
     }
   ]
 }

@@ -1,11 +1,11 @@
 {
   "meta": {
-    "discoveryDate": "2026-05-15",
+    "discoveryDate": "2026-05-20",
     "taxon": "plant",
     "waterType": "freshwater",
     "primarySource": {
       "name": "Buce Plant",
-      "indexUrl": "https://buceplant.com/blogs/aquascaping-guides-and-tips/tagged/plant-profile"
+      "indexUrl": "https://buceplant.com/collections/aquarium-plants"
     },
     "secondarySources": [
       { "name": "Tropica", "url": "https://tropica.com/" },
@@ -13,7 +13,21 @@
       { "name": "AquariumPlants.com", "url": "https://www.aquariumplants.com/" }
     ],
     "dedupListSize": 1,
-    "candidateCount": 0
+    "candidateCount": 1
   },
-  "entries": []
+  "entries": [
+    {
+      "commonName": "Drosera Spatulata",
+      "scientificName": "Drosera spatulata",
+      "popularityScore": 5,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Drosera_spatulata",
+      "wikipediaPageviewsMonthly": 863,
+      "wikipediaArticleSizeBytes": 6147,
+      "sourceCoverageCount": 2,
+      "primarySourceUrl": "https://buceplant.com/collections/aquarium-plants/products/drosera-spatulata-lovellae-aquatic-farmer-tissue-culture",
+      "secondarySourceUrl": "https://tropica.com/en/plants/plantdetails/4469/4469",
+      "taxonFitConfidence": "low",
+      "notes": "Carnivorous sundew (Droseraceae), not a true aquatic plant. Sold as a terrarium/paludarium plant by Buce Plant. Does not grow submerged. Partitioned to -other due to low taxon-fit confidence."
+    }
+  ]
 }
