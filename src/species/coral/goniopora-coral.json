@@ -1,0 +1,112 @@
+{
+  "id": "sw-coral-003",
+  "slug": "goniopora-coral",
+  "kind": "fauna",
+  "taxon": "coral",
+  "waterType": "saltwater",
+  "commonName": "Goniopora Coral",
+  "scientificName": "Goniopora",
+  "alsoKnownAs": ["Flowerpot Coral", "Daisy Coral", "Ball Coral"],
+  "category": "LPS Coral",
+
+  "taxonomy": {
+    "family": "Poritidae",
+    "order": "Scleractinia"
+  },
+
+  "nativeRange": {
+    "regions": ["Indian Ocean", "Pacific Ocean", "Persian Gulf"],
+    "countries": ["Indonesia", "Australia", "Philippines", "Japan", "China", "Malaysia"],
+    "habitat": "Lagoons and turbid coastal reef environments",
+    "biotope": "Reef"
+  },
+
+  "waterParameters": {
+    "temperatureC": { "min": 24.4, "max": 26.7 },
+    "pH":           { "min": 8.1,  "max": 8.4 },
+    "gH":           null,
+    "kH":           { "min": 8,    "max": 12 },
+    "salinity":     { "min": 33.8, "max": 35.1 }
+  },
+
+  "adultSizeCm": { "min": 10, "max": 30 },
+  "lifespanYears": null,
+
+  "tank": {
+    "minVolumeLiters": 284,
+    "minLengthCm": 90,
+    "swimZone": null,
+    "decorPreferences": ["sand substrate", "open bottom placement", "space from neighboring corals"]
+  },
+
+  "careLevel": "intermediate",
+
+  "diet": {
+    "type": "planktivore",
+    "notes": "Benefits from supplemental feeding of small coral foods (zooplankton, phytoplankton, coral-specific liquid foods) mixed with saltwater several times per week. Photosynthetic via zooxanthellae but target feeding improves health."
+  },
+
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["peaceful fish", "small reef fish", "clownfish", "gobies", "blennies", "soft corals with spacing"],
+    "avoidWith": ["aggressive corals", "sweeper-tentacle LPS corals", "any coral placed too close", "fish that nip at polyps"]
+  },
+
+  "media": {
+    "primaryImage": null,
+    "gallery": []
+  },
+
+  "summary": "Goniopora (Flowerpot Coral) is a striking LPS coral with long flowing polyps. Intermediate care; needs medium light, medium flow, stable parameters, and supplemental feeding.",
+
+  "careNotes": "Goniopora is an LPS coral (family Poritidae, order Scleractinia) prized for its dramatic long-tentacled polyps that extend significantly during the day. Despite its soft, flowing appearance it builds a hard calcium carbonate skeleton. Best placed on the sand at the base of the tank where its skeleton can develop into rounded formations; small frags may be attached to rockwork. Maintain stable calcium (380–450 ppm), alkalinity (8–12 dKH), and magnesium (1200–1400 ppm). Although photosynthetic, regular target feeding of small coral foods several times per week markedly improves long-term health and growth. Polyps will retract if stressed by poor flow, improper lighting, or parameter swings. Historically considered difficult in older hobby literature, but aquaculture-raised specimens (such as ORA-propagated varieties) are considerably hardier than wild-caught individuals. Nitrate 1–20 ppm and phosphate 0.01–0.1 ppm are acceptable. Tentacles can sting adjacent corals when fully extended; allow at least 10–15 cm of clearance from neighbors. The genus comprises approximately 29 recognized species traded collectively in the hobby.",
+
+  "breedingNotes": null,
+
+  "sources": {
+    "primary": {
+      "name": "World Wide Corals",
+      "url": "https://www.worldwidecorals.com/collections/goniopora",
+      "accessedDate": "2026-05-21",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "Bulk Reef Supply",
+        "url": "https://www.bulkreefsupply.com/ora-red-goniopora-coral-ora.html",
+        "accessedDate": "2026-05-21",
+        "notes": "Cross-checked water parameters, care level, and lighting. BRS lists lighting as medium-to-high (150-250+ PAR) vs. WWC medium only; conservative medium (150-250 PAR) adopted. Both sources agree on medium flow. BRS care level 'moderate' maps to 'intermediate'."
+      },
+      {
+        "name": "Wikipedia - Goniopora",
+        "url": "https://en.wikipedia.org/wiki/Goniopora",
+        "accessedDate": "2026-05-21",
+        "notes": "Used for taxonomy (family Poritidae, order Scleractinia) and native range verification only."
+      }
+    ]
+  },
+
+  "fish": null,
+  "crustacean": null,
+  "coral": {
+    "coralType": "LPS",
+    "lighting": { "minPAR": 150, "maxPAR": 250 },
+    "flow": "medium",
+    "placement": "lower",
+    "aggressionRangeCm": 12,
+    "feedingFrequency": "weekly",
+    "calciumPPM": { "min": 380, "max": 450 },
+    "magnesiumPPM": { "min": 1200, "max": 1400 }
+  },
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-05-21"
+}

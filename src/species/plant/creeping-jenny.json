@@ -1,0 +1,114 @@
+{
+  "id": "fw-plant-002",
+  "slug": "creeping-jenny",
+  "kind": "flora",
+  "taxon": "plant",
+  "waterType": "freshwater",
+  "commonName": "Creeping Jenny",
+  "scientificName": "Lysimachia nummularia",
+  "alsoKnownAs": ["Moneywort", "Creeping Charlie", "Wandering Jenny", "Creeping Loosestrife", "Coin Plant", "Herb Twopence", "Lysimachia Golden", "Lysimachia Nummularia Aurea"],
+  "category": "Stem Plant",
+
+  "taxonomy": {
+    "family": "Primulaceae",
+    "order": "Ericales"
+  },
+
+  "nativeRange": {
+    "regions": ["Europe"],
+    "countries": ["Sweden", "Spain", "Greece", "Russia"],
+    "habitat": "Floodplains, wetlands, marshes, swamps, stream banks, and ditches; grows at depths up to ~0.5 m",
+    "biotope": "River"
+  },
+
+  "waterParameters": {
+    "temperatureC": { "min": 15, "max": 25 },
+    "pH":           { "min": 6.0, "max": 7.8 },
+    "gH":           { "min": 4, "max": 16 },
+    "kH":           null,
+    "salinity":     { "min": 0, "max": 0 }
+  },
+
+  "adultSizeCm": { "min": 5, "max": 25 },
+  "lifespanYears": null,
+
+  "tank": {
+    "minVolumeLiters": 40,
+    "minLengthCm": 50,
+    "swimZone": null,
+    "decorPreferences": ["open foreground", "carpet effect", "paludarium margins"]
+  },
+
+  "careLevel": "beginner",
+
+  "diet": null,
+
+  "compatibility": {
+    "temperament": null,
+    "grouping": null,
+    "minGroupSize": null,
+    "goodWith": ["shrimp", "small peaceful fish", "snails"],
+    "avoidWith": ["large herbivorous fish"]
+  },
+
+  "media": {
+    "primaryImage": null,
+    "gallery": []
+  },
+
+  "summary": "Hardy, low-growing stem plant with rounded coin-shaped leaves. Easy to keep, tolerates a wide range of conditions, and absorbs excess nitrates — ideal for beginners and shrimp tanks.",
+
+  "careNotes": "Lysimachia nummularia (Creeping Jenny) is a versatile stem plant sold in both a standard green form and a golden/yellow cultivar ('Aurea'). It grows with a low, creeping habit in the aquarium foreground but can extend to 50+ cm of stem length if left untrimmed; regular trimming to 10–15 cm above the substrate keeps it compact. CO2 is beneficial but not required. Quality aquarium soil and liquid fertilizers improve growth significantly. The plant is sensitive to sudden parameter changes and may melt during transitions; introduce slowly. It is an excellent nitrate indicator — wilting or yellowing often signals elevated nitrate levels. Propagate by trimming stem sections and replanting. Can produce small yellow flowers when grown emersed. Safe for shrimp tanks; unpalatable to most fish. Can also serve as midground filler in larger aquariums. Cross-source note: aquariumbreeder.com lists height as 50+ cm (unmanaged stem length); en.aqua-fish.net and general hobbyist consensus cites 15–25 cm as typical maintained bush height — the conservative 5–25 cm range is used here. Temperature upper bound conservatively set to 25°C (some sources cite 30°C tolerance).",
+
+  "breedingNotes": "Propagate by stem cuttings: trim a healthy stem segment with at least two nodes, remove lower leaves, and plant into substrate. Stolon reproduction occurs naturally in emersed conditions. Seeds are rare in cultivation.",
+
+  "sources": {
+    "primary": {
+      "name": "Buce Plant",
+      "url": "https://buceplant.com/collections/aquarium-plants/products/lysimachia-nummularia-gold",
+      "accessedDate": "2026-05-21",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "Tropica",
+        "url": "https://tropica.com/en/plants/plantdetails/4515/4515",
+        "accessedDate": "2026-05-21",
+        "notes": "Designated secondary source (manifest). Page returned XSLT parsing error and did not load — Tropica does not appear to list Lysimachia nummularia at this URL. Cross-verification performed using aquariumbreeder.com and en.aqua-fish.net instead."
+      },
+      {
+        "name": "Shrimp and Snail Breeder (aquariumbreeder.com)",
+        "url": "https://aquariumbreeder.com/lysimachia-nummularia-care-guide-planting-growing-and-propagation/",
+        "accessedDate": "2026-05-21",
+        "notes": "Cross-checked sizing, water parameters, taxonomy, and native range. Temperature upper bound 30°C per this source (conservative 25°C adopted). Height listed as 50+ cm (unmanaged); hobbyist consensus and other sources cite 15–25 cm maintained."
+      },
+      {
+        "name": "Aqua-Fish.net",
+        "url": "https://en.aqua-fish.net/plants/lysimachia-nummularia-aurea",
+        "accessedDate": "2026-05-21",
+        "notes": "Cross-checked temperature (15–25°C), pH (6.1–7.8), gH (4–18 dGH), and height (15–25 cm). gH upper bound conservatively set to 16 per aquariumbreeder agreement."
+      }
+    ]
+  },
+
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": {
+    "lighting": "medium",
+    "co2": "optional",
+    "growthRate": "medium",
+    "placement": "foreground",
+    "propagation": ["stem cuttings", "stolon division"],
+    "substrate": "any",
+    "fertilization": "moderate"
+  },
+  "macroalgae": null,
+
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-05-21"
+}

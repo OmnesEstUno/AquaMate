@@ -1,0 +1,108 @@
+{
+  "id": "fw-plant-001",
+  "slug": "moneywort",
+  "kind": "flora",
+  "taxon": "plant",
+  "waterType": "freshwater",
+  "commonName": "Moneywort",
+  "scientificName": "Bacopa monnieri",
+  "alsoKnownAs": ["Water Hyssop", "Brahmi"],
+  "category": "Stem Plant",
+
+  "taxonomy": {
+    "family": "Plantaginaceae",
+    "order": "Lamiales"
+  },
+
+  "nativeRange": {
+    "regions": ["Asia", "Africa", "North America", "Central America", "South America", "Australia", "Oceania"],
+    "countries": ["India", "Sri Lanka", "United States", "Australia", "Vietnam", "China", "Brazil"],
+    "habitat": "Shallow margins of lakes, rivers, ponds, and wetlands; occasionally in slightly brackish coastal areas",
+    "biotope": "Other"
+  },
+
+  "waterParameters": {
+    "temperatureC": { "min": 18, "max": 30 },
+    "pH":           { "min": 6.0, "max": 7.5 },
+    "gH":           null,
+    "kH":           { "min": 2, "max": 30 },
+    "salinity":     null
+  },
+
+  "adultSizeCm": { "min": 10, "max": 30 },
+  "lifespanYears": null,
+
+  "tank": {
+    "minVolumeLiters": 40,
+    "minLengthCm":     40,
+    "swimZone":        null,
+    "decorPreferences": ["fine substrate", "nutrient-rich soil", "open planting area for background placement"]
+  },
+
+  "careLevel": "beginner",
+
+  "diet": null,
+
+  "compatibility": {
+    "temperament":  null,
+    "grouping":     null,
+    "minGroupSize": null,
+    "goodWith":     ["most peaceful community fish", "shrimp", "snails"],
+    "avoidWith":    ["plant-eating fish such as goldfish or large cichlids"]
+  },
+
+  "media": {
+    "primaryImage": null,
+    "gallery":      []
+  },
+
+  "summary": "Moneywort (Bacopa monnieri) is a hardy beginner-friendly stem plant with small, round bright-green leaves. It thrives in moderate to high light and grows as a mid- to background plant.",
+
+  "careNotes": "Bacopa monnieri is an extremely hardy stem plant suitable for beginners. It prefers moderate to high lighting; insufficient light causes the lower stem to rot. CO2 injection is not required but improves growth rate and overall appearance. It thrives in nutrient-rich substrate and benefits from regular liquid fertilization. The plant can be grown both submersed and emersed, and produces small pink-white flowers above water when grown emersed. Propagation is easy via stem cuttings — simply trim and replant into the substrate. Growth rate is medium under good conditions (some sources describe it as slow without CO2). Leaves are fleshy and fragile; handle with care during planting. Minimum tank volume of 40 L is an estimated guideline for a small group of stems; no specific volume was stated in primary or secondary sources. Temperature range based on Flowgrow database (15–30 °C full tolerance; 18–30 °C recommended aquarium range). pH range of 6.0–7.5 from Buce Plant (primary source); Flowgrow notes wider tolerance of 5–9. Conservative primary-source range used. Cross-source note: growth rate described as 'slow' by Buce Plant and 'medium' by Flowgrow/Tropica Compact; 'medium' adopted as more representative of well-maintained conditions. Tropica secondary source (4467) covers the 'Compact' cultivar which is naturally shorter (3–10 cm) and lower-light than the standard species.",
+
+  "breedingNotes": "Propagation is straightforward: trim healthy stem sections (5–10 cm) and plant directly into the substrate. The cut end quickly roots. Regular trimming and replanting maintains a dense, bushy appearance and prevents lower-stem die-back.",
+
+  "sources": {
+    "primary": {
+      "name": "Buce Plant",
+      "url": "https://buceplant.com/collections/aquarium-plants/products/bacopa-monnieri",
+      "accessedDate": "2026-05-21",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "Tropica",
+        "url": "https://tropica.com/en/plants/plantdetails/4467/4467",
+        "accessedDate": "2026-05-21",
+        "notes": "Cross-checked sizing and water parameters. Note: Tropica item 4467 is the 'Compact' cultivar of B. monnieri, which is shorter (3–10 cm) and tolerates lower light than the standard species. Height and lighting for the standard species taken from primary source."
+      },
+      {
+        "name": "Flowgrow Aquatic Plant Database",
+        "url": "https://www.flowgrow.de/db/aquaticplants/bacopa-monnieri",
+        "accessedDate": "2026-05-21",
+        "notes": "Used for temperature range (15–30 °C), kH range (2–30), native range, taxonomy (order Lamiales), and growth rate confirmation. Flowgrow pH range (5–9) is wider than primary source (6.0–7.5); conservative primary-source range used."
+      }
+    ]
+  },
+
+  "fish":        null,
+  "crustacean":  null,
+  "coral":       null,
+  "mollusc":     null,
+  "echinoderm":  null,
+  "other-invert": null,
+  "plant": {
+    "lighting":      "medium",
+    "co2":           "optional",
+    "growthRate":    "medium",
+    "placement":     "background",
+    "propagation":   ["stem cuttings"],
+    "substrate":     "nutrient-rich",
+    "fertilization": "moderate"
+  },
+  "macroalgae":  null,
+
+  "schemaVersion": 1,
+  "dataStatus":    "researched",
+  "lastReviewed":  "2026-05-21"
+}
