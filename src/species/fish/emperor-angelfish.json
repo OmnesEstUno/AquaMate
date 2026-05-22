@@ -1,0 +1,130 @@
+{
+  "id": "sw-fish-003",
+  "slug": "emperor-angelfish",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Emperor Angelfish",
+  "scientificName": "Pomacanthus imperator",
+  "alsoKnownAs": ["Imperator Angelfish"],
+  "category": "Angelfish",
+
+  "taxonomy": {
+    "family": "Pomacanthidae",
+    "order": "Acanthuriformes"
+  },
+
+  "nativeRange": {
+    "regions": ["Indo-Pacific", "Red Sea", "East Africa", "Oceania"],
+    "countries": ["Japan", "Australia", "Indonesia", "Philippines", "Maldives", "Mauritius", "Egypt"],
+    "habitat": "Coral reefs; reef fronts with rich coral growth, outer lagoon patch reefs, caves and ledges; depth range 1–100 m",
+    "biotope": "Reef"
+  },
+
+  "waterParameters": {
+    "temperatureC": { "min": 22, "max": 29 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 26, "max": 34 }
+  },
+
+  "adultSizeCm": { "min": 30, "max": 40 },
+  "lifespanYears": { "min": 10, "max": 14 },
+
+  "tank": {
+    "minVolumeLiters": 833,
+    "minLengthCm": 244,
+    "swimZone": "all",
+    "decorPreferences": ["live rock", "extensive rockwork", "deep caves", "open swimming space"]
+  },
+
+  "careLevel": "advanced",
+
+  "diet": {
+    "type": "omnivore",
+    "notes": "Requires a varied diet including Spirulina, marine algae, high-quality angelfish preparations, mysis or frozen shrimp, and other meaty items such as sponge-based foods. In the wild feeds primarily on sponges and other encrusting organisms, as well as tunicates."
+  },
+
+  "compatibility": {
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["large peaceful fish", "tangs", "wrasses", "clownfish", "dottybacks"],
+    "avoidWith": ["other large angelfish", "conspecifics", "stony corals", "soft corals", "clams", "other semi-aggressive angelfish of similar size"]
+  },
+
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Emperor_Angelfish%2C_Western_form_-_Pomacanthus_imperator_1.jpg",
+        "source": "Wikimedia Commons",
+        "sourceType": "wikimedia",
+        "license": "CC BY-SA 2.0",
+        "notes": "Photographer: Francois Libert. Full-resolution infobox image from Wikipedia Emperor angelfish article. Taken at Réunion Island. Western form adult.",
+        "recommended": true
+      },
+      {
+        "url": "https://www.fishbase.se/images/species/Poimp_u0.jpg",
+        "source": "FishBase",
+        "sourceType": "fishbase",
+        "license": null,
+        "notes": "Photographer: John E. Randall (J.E. Randall). Main species adult photo from FishBase summary page for Pomacanthus imperator. Full-size path inferred from thumbnail tn_Poimp_u0.jpg. License not explicitly stated on page; FishBase images are typically used under contributor permission.",
+        "recommended": false
+      },
+      {
+        "url": "https://www.liveaquaria.com/cdn/shop/files/lg_67194_Emperor_Angelfish.jpg",
+        "source": "LiveAquaria",
+        "sourceType": "research-site",
+        "license": "All rights reserved (retailer)",
+        "notes": "Product hero image from LiveAquaria product page. Clean large-format retailer photograph. URL uses 'lg_' prefix suggesting large/full size. All rights reserved — recommend only if CC alternatives are insufficient.",
+        "recommended": false
+      }
+    ]
+  },
+
+  "summary": "A stunning Indo-Pacific reef fish with bold yellow-striped adult coloration; large, semi-aggressive, and best suited to experts with very large marine systems.",
+
+  "careNotes": "The Emperor Angelfish is one of the most iconic marine aquarium fish, known for its dramatic transformation from a juvenile (black body with circular blue-white stripes) to adult (bright yellow horizontal stripes on a blue body with an orange-yellow tail). This transformation typically occurs between 3–5 cm and full adult size and may take 24–30 months in captivity. Adult coloration may be less vivid in captivity than in the wild. Requires a minimum 220-gallon (833 L) aquarium with extensive live rock, deep caves for security, and open swimming space. It is reef-unsafe — it will nip at stony and soft corals, clam mantles, and sessile invertebrates, but may be kept with small-polyped stony corals and somewhat noxious soft corals. Only one emperor angelfish per system; extremely aggressive toward conspecifics. Performs cleaning behavior on larger fish species in the wild. Temperature discrepancy noted: LiveAquaria recommends 72–78°F (22–26°C) while FishBase records wild habitat range of 24.6–29°C; the broader range 22–29°C is used here to cover both captive recommendations and wild tolerance.",
+
+  "breedingNotes": "Virtually never bred in home aquaria. In the wild the Emperor Angelfish is protogynous hermaphrodite — females can become males. Captive breeding is extremely rare and not documented under standard home aquarium conditions.",
+
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/emperor-angelfish",
+      "accessedDate": "2026-05-22",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Pomacanthus-imperator.html",
+        "accessedDate": "2026-05-22",
+        "notes": "Cross-checked adult size (40 cm SL vs LiveAquaria 15\"/~38 cm — minor disagreement, conservative range 30–40 cm used), temperature (24.6–29°C vs LiveAquaria 22–26°C — broader conservative range applied), native range, taxonomy, and lifespan (max 14 years recorded)."
+      }
+    ]
+  },
+
+  "fish": {
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "Protogynous hermaphrodite in the wild; captive breeding essentially undocumented. Not achievable in home aquaria.",
+    "conspecificAggression": "high",
+    "finNippy": true,
+    "reefSafe": "with caution"
+  },
+
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-05-22"
+}

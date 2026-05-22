@@ -1,0 +1,165 @@
+{
+  "id": "sw-fish-002",
+  "slug": "humu-rectangle-triggerfish",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Humu Rectangle Triggerfish",
+  "scientificName": "Rhinecanthus rectangulus",
+  "alsoKnownAs": [
+    "Rectangular Triggerfish",
+    "Wedge-tailed Triggerfish",
+    "V-line Humuhumunukunukuapuaa",
+    "Reef Triggerfish",
+    "Humu Humu"
+  ],
+  "category": "Triggerfish",
+
+  "taxonomy": {
+    "family": "Balistidae",
+    "order": "Tetraodontiformes"
+  },
+
+  "nativeRange": {
+    "regions": [
+      "Indo-Pacific",
+      "Red Sea",
+      "East Africa",
+      "Hawaii",
+      "Pitcairn Islands",
+      "Southern Japan"
+    ],
+    "countries": [
+      "United States (Hawaii)",
+      "Japan",
+      "Indonesia",
+      "Australia",
+      "Philippines",
+      "Maldives",
+      "Sri Lanka",
+      "Marshall Islands",
+      "Papua New Guinea"
+    ],
+    "habitat": "Shallow outer reefs subject to surge; spur-and-groove zones with bare rock, rubble, and coral; depth range 0–20 m",
+    "biotope": "Reef"
+  },
+
+  "waterParameters": {
+    "temperatureC": { "min": 22.2, "max": 25.6 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.020, "max": 1.025 }
+  },
+
+  "adultSizeCm": { "min": 20, "max": 30 },
+  "lifespanYears": null,
+
+  "tank": {
+    "minVolumeLiters": 681,
+    "minLengthCm": null,
+    "swimZone": "all",
+    "decorPreferences": ["rocks", "caves", "open swimming space"]
+  },
+
+  "careLevel": "beginner",
+
+  "diet": {
+    "type": "omnivore",
+    "notes": "Feeds on a varied diet including squid, krill, clams, small fish, and hard-shelled shrimp; hard shelled prey helps wear down constantly growing teeth. In the wild also consumes algae, mollusks, crustaceans, worms, echinoderms, sponges, and foraminiferans. LiveAquaria categorizes it as a carnivore in a captive-care context."
+  },
+
+  "compatibility": {
+    "temperament": "aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["large semi-aggressive fish", "large angelfish", "large tangs", "large wrasses"],
+    "avoidWith": ["invertebrates", "corals", "small fish", "other triggerfish", "anything small enough to eat"]
+  },
+
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Rhinecanthus_rectangulus_Gratwicke.jpg",
+        "source": "Wikimedia Commons",
+        "sourceType": "wikimedia",
+        "license": "CC BY 2.0",
+        "notes": "Photograph by Brian Gratwicke, originally posted to Flickr 2012-02-26. High resolution (3228 × 2198 px). Unambiguously identified as Rhinecanthus rectangulus on the Commons page.",
+        "recommended": true
+      },
+      {
+        "url": "https://www.fishbase.se/images/species/Rhrec_u1.jpg",
+        "source": "FishBase",
+        "sourceType": "fishbase",
+        "license": null,
+        "notes": "Photo by J.E. Randall, Hawaii. FishBase states copyright remains with the photographer/institution; license not explicitly stated. Randall photos are generally considered reliable species identifications.",
+        "recommended": false
+      },
+      {
+        "url": "https://www.liveaquaria.com/cdn/shop/files/lg-75124-Humu-Rectangle.jpg",
+        "source": "LiveAquaria",
+        "sourceType": "research-site",
+        "license": "All rights reserved (retailer)",
+        "notes": "Product hero image from LiveAquaria species page. Clean, watermark-free retailer product photo. Recommended only as fallback if no CC-licensed image is suitable.",
+        "recommended": false
+      }
+    ]
+  },
+
+  "summary": "Hawaii's state fish, the Humu Rectangle Triggerfish is a bold, colorful reef predator with striking black, white, and yellow markings. Hardy and easy to feed but aggressive — not reef safe.",
+
+  "careNotes": "The Humu Rectangle Triggerfish (also known as Hawaii's state fish) is a hardy and entertaining species but requires a large tank of at least 180 gallons (681 L) due to its size and territorial nature. It will rearrange rocks and decor, and may vocalize using a grunting sound. Not reef compatible — will eat invertebrates and disturb corals. Best kept with other large, semi-aggressive to aggressive fish of similar size.\n\nCROSS-SOURCE DISAGREEMENTS (needs_review):\n1. Temperature: LiveAquaria recommends 72–78°F (22.2–25.6°C) for captive care; FishBase wild habitat data shows 24.8–29.3°C. These ranges overlap only slightly. The conservative aquarium recommendation (LiveAquaria) has been used in this file.\n2. Minimum tank size: LiveAquaria recommends 180 gallons (681 L); BlueZoo Aquatics lists only 50 gallons (189 L) — a 3.6× discrepancy. The conservative figure (681 L) is used here.\n3. Temperament: LiveAquaria says 'semi-aggressive'; BlueZoo says 'aggressive.' The more conservative value ('aggressive') has been applied.\n4. Diet classification: LiveAquaria calls this fish a carnivore (captive feeding context); FishBase documents it as an omnivore eating algae, echinoderms, and other non-animal material. 'Omnivore' used as the scientific classification.\n\nThe fish can lock its dorsal spine upright as a defense mechanism when wedged into crevices. Adult specimens may become increasingly aggressive as they mature. Provide a well-secured lid as triggerfish are strong enough to dislodge equipment.",
+
+  "breedingNotes": "Breeding in captivity is not documented. In the wild, the species is oviparous with distinct pairing behavior. Not bred in home aquaria.",
+
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/product/255/?pcatid=255",
+      "accessedDate": "2026-05-22",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Rhinecanthus-rectangulus.html",
+        "accessedDate": "2026-05-22",
+        "notes": "Used for taxonomy, native range, temperature range (wild), and diet classification. Species ID 5840. Temperature range (24.8–29.3°C) differs significantly from LiveAquaria aquarium recommendation (22.2–25.6°C)."
+      },
+      {
+        "name": "BlueZoo Aquatics",
+        "url": "https://www.bluezooaquatics.com/productDetail.asp?did=1&cid=288&pid=904",
+        "accessedDate": "2026-05-22",
+        "notes": "Cross-check for size, temperament, and tank size. Lists minimum tank as 50 gallons vs LiveAquaria's 180 gallons — significant disagreement noted in careNotes. Lists temperament as 'aggressive' vs LiveAquaria's 'semi-aggressive'."
+      },
+      {
+        "name": "Wikipedia / Wikimedia Commons",
+        "url": "https://en.wikipedia.org/wiki/Rhinecanthus_rectangulus",
+        "accessedDate": "2026-05-22",
+        "notes": "Used for taxonomy confirmation and image candidate sourcing (Gratwicke CC BY 2.0 photo). Reef2Reef thread (originally specified secondary) returned HTTP 403 Forbidden."
+      }
+    ]
+  },
+
+  "fish": {
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "Not bred in captivity. Wild spawning is oviparous with distinct pairing.",
+    "conspecificAggression": "high",
+    "finNippy": true,
+    "reefSafe": "no"
+  },
+
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+
+  "schemaVersion": 1,
+  "dataStatus": "needs_review",
+  "lastReviewed": "2026-05-22"
+}

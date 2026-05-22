@@ -1,0 +1,126 @@
+{
+  "id": "sw-fish-004",
+  "slug": "estuary-seahorse",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Estuary Seahorse",
+  "scientificName": "Hippocampus kuda",
+  "alsoKnownAs": ["Spotted Seahorse", "Yellow Seahorse", "Common Seahorse", "Kuda Seahorse"],
+  "category": "Seahorse",
+  "taxonomy": {
+    "family": "Syngnathidae",
+    "order": "Syngnathiformes"
+  },
+  "nativeRange": {
+    "regions": ["Indo-Pacific", "Red Sea", "Eastern Africa", "Australia", "Japan", "Hawaii", "French Polynesia"],
+    "countries": ["South Africa", "Indonesia", "Philippines", "Australia", "Japan", "India", "Sri Lanka", "Hawaii (USA)"],
+    "habitat": "Shallow coastal waters; seagrass beds, estuaries, lagoons, harbors, mangroves, and seaward reefs. Depth range 0–68 m, typically 0–8 m. Marine and brackish tolerant.",
+    "biotope": "Estuary"
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 22, "max": 27 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 26, "max": 33 }
+  },
+  "adultSizeCm": { "min": 5, "max": 30 },
+  "lifespanYears": { "min": 1, "max": 4 },
+  "tank": {
+    "minVolumeLiters": 189,
+    "minLengthCm": 60,
+    "swimZone": "mid",
+    "decorPreferences": ["gorgonian coral", "branching coral", "algae", "seagrass", "hitching posts", "low-flow zones"]
+  },
+  "careLevel": "advanced",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Requires live or frozen mysid shrimp, enriched brine shrimp (artemia), amphipods, and small crustaceans. Must be fed multiple times daily (4–5 feedings). Fry require live copepods (e.g. Tisbe biminiensis); adults accept frozen mysis after acclimation. Slow feeders unable to compete with fast-moving tankmates."
+  },
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "pair",
+    "minGroupSize": 2,
+    "goodWith": ["pipefish", "seahorses (same species)", "slow-moving docile fish", "small gobies"],
+    "avoidWith": ["aggressive fish", "fast-moving fish", "large angelfish", "triggerfish", "pufferfish", "stinging anemones", "bristle worms"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Hal_-_Hippocampus_kuda_-_4.jpg",
+        "source": "Wikimedia Commons",
+        "sourceType": "wikimedia",
+        "license": "CC BY-SA 4.0",
+        "notes": "Photographer: Emőke Dénes. Photographed at Sea Life Centre Hannover, Germany, December 2019. File dimensions: 2595 × 3459 px. Yellow morph individual clearly identified as Hippocampus kuda.",
+        "recommended": true
+      },
+      {
+        "url": "https://www.fishbase.se/images/species/Hikud_ua.jpg",
+        "source": "FishBase",
+        "sourceType": "fishbase",
+        "license": null,
+        "notes": "Photographer: J. Greenfield; location: Indonesia. FishBase species gallery image. License not explicitly stated on page.",
+        "recommended": false
+      },
+      {
+        "url": "https://www.liveaquaria.com/cdn/shop/files/lg-39681-Estuary-Seahorse.jpg?v=1768762164&width=1445",
+        "source": "LiveAquaria",
+        "sourceType": "research-site",
+        "license": "All rights reserved (retailer)",
+        "notes": "Product photo from LiveAquaria Estuary Seahorse Tank Bred listing. Clean, high-resolution retailer image. Identified as H. cf kuda (Sri Lanka captive-bred stock).",
+        "recommended": false
+      }
+    ]
+  },
+  "summary": "Peaceful, slow-moving seahorse from Indo-Pacific estuaries and seagrass beds. Requires dedicated species tank with calm water, hitching posts, and multiple daily feedings of live or frozen mysid shrimp. Advanced care.",
+  "careNotes": "Hippocampus kuda (Estuary Seahorse / Spotted Seahorse) requires a species-specific or pipefish-only aquarium — competition from faster-moving fish will cause starvation. Minimum tank 50 gallons (189 L) for a pair; add 10–15 gallons per additional pair. Water flow should be low to moderate; strong flow stresses seahorses. Provide ample hitching posts: branching gorgonians, artificial coral, algae, or macroalgae. Feed 4–5 times daily: frozen mysis shrimp and enriched artemia are the staple diet; live copepods and amphipods support natural foraging. Maintain stable water quality — temperature 22–27°C (72–78°F); avoid temperatures above 80°F (27°C) as this increases susceptibility to Vibrio infections. pH 8.1–8.4, specific gravity 1.021–1.025 (26–33 ppt), dKH 8–12. IUCN status: Vulnerable (VU); CITES Appendix II — prefer tank-bred specimens. Source disagreement on minimum tank: LiveAquaria Kuda page lists 30 gal, Estuary Seahorse page lists 50 gal; conservative 50 gal used. Source disagreement on temperature ceiling: FishBase environmental range extends to 29°C; aquarium sources recommend 25–26°C max; conservative 27°C used here. Species may be encountered labeled as H. cf kuda (captive-bred Sri Lanka stock) — taxonomic status under review.",
+  "breedingNotes": "Ovoviviparous; male carries eggs in a ventral brood pouch. Gestation 20–28 days; brood size 20–1,000 fry depending on male size and conditions. Monogamy not confirmed in laboratory settings. Breeding in captivity is achievable but demanding: fry require live zooplankton (rotifers, copepods such as Tisbe biminiensis) and frequent feeding. Classified as 'difficult' breeding difficulty.",
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/estuary-seahorse-tank-bred-sri-lanka",
+      "accessedDate": "2026-05-22",
+      "notes": "Estuary Seahorse Tank Bred (Sri Lanka) product page. Primary source for care parameters, tank requirements, and diet. Note: parent URL in manifest was the seahorses collection page; actual species page used."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/hippocampus-kuda",
+        "accessedDate": "2026-05-22",
+        "notes": "Cross-checked adult size (max 30 cm TL confirmed), temperature range (21.3–29°C), native range, taxonomy (Syngnathidae / Syngnathiformes), and diet (zooplankton/carnivore). Minor disagreement on temperature ceiling: FishBase max 29°C vs LiveAquaria recommended max ~25.6°C (78°F); conservative 27°C used."
+      },
+      {
+        "name": "LiveAquaria (Kuda Seahorse, Captive-Bred)",
+        "url": "https://www.liveaquaria.com/products/kuda-seahorse-captive-bred",
+        "accessedDate": "2026-05-22",
+        "notes": "Second LiveAquaria listing for same species (H. kuda captive-bred). Confirmed: care level Difficult, peaceful temperament, pH 8.1–8.4, SG 1.020–1.025, dKH 8–12, reef compatible. This listing gives 30-gal minimum vs 50-gal on the Estuary page; conservative 50-gal used."
+      },
+      {
+        "name": "Wikipedia (Hippocampus kuda)",
+        "url": "https://en.wikipedia.org/wiki/Hippocampus_kuda",
+        "accessedDate": "2026-05-22",
+        "notes": "Confirmed size range (17–30 cm), habitat description (estuaries, lagoons, seagrass beds), temperature (72–77°F / 22–25°C), pH (8.1–8.4), salinity tolerance (18–36 ppt). Used for range and habitat cross-verification."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "difficult",
+    "breedingNotes": "Male broods eggs in ventral pouch; gestation 20–28 days; brood size 20–1,000 fry. Fry require live zooplankton. Captive breeding is achievable in dedicated species tanks.",
+    "conspecificAggression": "low",
+    "finNippy": false,
+    "reefSafe": "with caution"
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-05-22"
+}

@@ -1,0 +1,136 @@
+{
+  "id": "sw-fish-006",
+  "slug": "four-stripe-damselfish",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Four Stripe Damselfish",
+  "scientificName": "Dascyllus melanurus",
+  "alsoKnownAs": ["Blacktail Dascyllus", "Blacktail Damselfish", "Blacktail Humbug", "4-Stripe Damselfish"],
+  "category": "Damselfish",
+
+  "taxonomy": {
+    "family": "Pomacentridae",
+    "order": "Blenniiformes"
+  },
+
+  "nativeRange": {
+    "regions": ["Western Pacific"],
+    "countries": ["Indonesia", "Philippines", "Papua New Guinea", "Australia", "Vanuatu", "New Caledonia", "Tonga", "Japan"],
+    "habitat": "Sheltered lagoons, harbors, inlets, and inshore reef areas; often near small coral heads and Acropora outcrops; depth range 1–68 m",
+    "biotope": "Reef"
+  },
+
+  "waterParameters": {
+    "temperatureC": { "min": 24.9, "max": 29.0 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.020, "max": 1.025 }
+  },
+
+  "adultSizeCm": { "min": 5.0, "max": 8.0 },
+  "lifespanYears": null,
+
+  "tank": {
+    "minVolumeLiters": 114,
+    "minLengthCm": null,
+    "swimZone": "all",
+    "decorPreferences": ["live rock", "coral rubble", "Acropora coral heads", "open swimming space"]
+  },
+
+  "careLevel": "beginner",
+
+  "diet": {
+    "type": "omnivore",
+    "notes": "Accepts a variety of meaty foods, herbivore preparations, and flaked/pellet foods. In the wild feeds on larval shrimps, crabs, algae, ostracods, amphipods, copepods, pelagic tunicates, and fish eggs."
+  },
+
+  "compatibility": {
+    "temperament": "aggressive",
+    "grouping": "shoaling",
+    "minGroupSize": 3,
+    "goodWith": ["other aggressive fish", "triggerfish", "large angelfish", "tangs", "hawkfish"],
+    "avoidWith": ["small peaceful fish", "timid species", "other damselfish in small tanks"]
+  },
+
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Blacktailed_dascyllus_%28Dascyllus_melanurus%29_%2848651647008%29.jpg",
+        "source": "Wikimedia Commons",
+        "sourceType": "wikimedia",
+        "license": "CC BY 2.0",
+        "notes": "Photographer: Rickard Zerpe; taken near Rao west of Morotai, Indonesia, June 2019. High-resolution macro photograph. Subject unambiguously identified as Dascyllus melanurus in the Commons file title.",
+        "recommended": true
+      },
+      {
+        "url": "https://www.fishbase.se/images/species/Damel_u2.jpg",
+        "source": "FishBase",
+        "sourceType": "fishbase",
+        "license": null,
+        "notes": "Photographer: Bos, A.R. (Philippines). FishBase species photo; copyright retained by photographer — contact contributor for permission before use.",
+        "recommended": false
+      },
+      {
+        "url": "https://www.liveaquaria.com/cdn/shop/files/lg70067FourStripeDamselfish.jpg",
+        "source": "LiveAquaria",
+        "sourceType": "research-site",
+        "license": "All rights reserved (retailer)",
+        "notes": "Product hero image from LiveAquaria listing for Four Stripe Damselfish (SKU 70067). Clean composition typical of retailer product photography.",
+        "recommended": false
+      }
+    ]
+  },
+
+  "summary": "A striking black-and-white striped damselfish from the Western Pacific, hardy and reef-safe but becomes territorial and aggressive as an adult.",
+
+  "careNotes": "The Four Stripe Damselfish (Dascyllus melanurus) is commonly used to cycle new marine aquariums due to its exceptional hardiness, but its aggressive temperament as an adult means it should be one of the last fish added to a community reef tank, or kept with other aggressive species. It will claim and fiercely defend a territory, often centered on a coral head or rock formation. Juveniles may be kept in small shoals; adults become increasingly territorial. LiveAquaria reports a temperature range of 72–78°F (22.2–25.6°C) while FishBase records mean tropical sea temperatures of 24.9–29°C for this species' habitat — the FishBase figure is used here as the scientific authority for a tropical reef species, but keepers should ensure the aquarium stays within the 25–28°C sweet spot. The fish will not harm invertebrates or disturb reef aquascaping, making it reef-compatible. Juveniles are frequently collected near Acropora coral heads in sheltered lagoons throughout the Indo-Pacific.",
+
+  "breedingNotes": "Oviparous with distinct pair bonding during breeding season. Eggs are demersal, adhesive, and attached to substrate. Males guard and aerate the eggs until hatching. Captive breeding is uncommon in home aquaria but has been documented in larger systems.",
+
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/four-stripe-damselfish",
+      "accessedDate": "2026-05-22",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Dascyllus-melanurus.html",
+        "accessedDate": "2026-05-22",
+        "notes": "Cross-checked adult size (confirmed ~8 cm), native range, habitat, diet composition, and water temperature. Temperature range 24.9–29°C per FishBase vs 22.2–25.6°C per LiveAquaria — minor disagreement; FishBase value used as scientific authority."
+      },
+      {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Dascyllus_melanurus",
+        "accessedDate": "2026-05-22",
+        "notes": "Cross-checked taxonomy (family Pomacentridae, order Blenniiformes), common names, native range, temperament, and diet. Consistent with FishBase and LiveAquaria."
+      }
+    ]
+  },
+
+  "fish": {
+    "breedingDifficulty": "difficult",
+    "breedingNotes": "Oviparous; demersal egg layer with paternal egg-guarding. Distinct pair bonding during breeding. Rarely bred in home aquaria; possible in larger species-specific setups.",
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "yes"
+  },
+
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-05-22"
+}
