@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "discoveryDate": "2026-05-22",
+    "taxon": "fish",
+    "waterType": "saltwater",
+    "primarySource": {
+      "name": "LiveAquaria",
+      "indexUrl": "https://www.liveaquaria.com/products"
+    },
+    "secondarySources": [
+      {
+        "name": "Reef2Reef wiki",
+        "url": "https://www.reef2reef.com/wiki/"
+      },
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/"
+      },
+      {
+        "name": "BlueZoo Aquatics",
+        "url": "https://www.bluezooaquatics.com/"
+      },
+      {
+        "name": "Fishkeeping World",
+        "url": "https://www.fishkeepingworld.com/"
+      },
+      {
+        "name": "TFH Magazine",
+        "url": "https://www.tfhmagazine.com/"
+      }
+    ],
+    "dedupListSize": 117,
+    "candidateCount": 2
+  },
+  "entries": [
+    {
+      "commonName": "Geometric Pygmy Hawkfish",
+      "scientificName": "Plectranthias inermis",
+      "popularityScore": 4,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Plectranthias_inermis",
+      "wikipediaPageviewsMonthly": 68,
+      "wikipediaArticleSizeBytes": null,
+      "sourceCoverageCount": 3,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/geometric-pygmy-hawkfish",
+      "secondarySourceUrl": "https://www.fishbase.se/summary/Plectranthias-inermis.html",
+      "taxonFitConfidence": "low",
+      "notes": "TaxonFitConfidence=low from source. Plectranthias inermis is a valid hawkfish (family Cirrhitidae), a genuine saltwater fish. Low confidence may reflect limited or uncertain aquarium trade identification."
+    },
+    {
+      "commonName": "MochaVinci Clownfish",
+      "scientificName": "Amphiprion ocellaris",
+      "popularityScore": 4,
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Amphiprion_ocellaris",
+      "wikipediaPageviewsMonthly": 325,
+      "wikipediaArticleSizeBytes": null,
+      "sourceCoverageCount": 2,
+      "primarySourceUrl": "https://www.liveaquaria.com/collections/clownfish",
+      "secondarySourceUrl": "https://www.seaandreef.com/marine-ornamental-fish/clownfish/mochavinci-grade-a",
+      "taxonFitConfidence": "low",
+      "notes": "Designer/captive-bred color morph of Amphiprion ocellaris created by crossing Black Storm and DaVinci Clownfish. Not a distinct species; taxon fit is low as it is a trade name for a selective breeding line, not a recognizable biological taxon."
+    }
+  ]
+}
