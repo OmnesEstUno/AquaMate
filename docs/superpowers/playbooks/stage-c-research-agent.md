@@ -57,7 +57,7 @@ Extract every schema field the primary source covers. Reference the schema to kn
 
 ### 3. Cross-source verification (MANDATORY)
 
-- **manifest mode:** WebFetch `$SECONDARY_SOURCE_URL` directly.
+- **manifest mode:** WebFetch `$SECONDARY_SOURCE_URL` directly first.
 - **legacy mode:** Use `source-urls.json` to find the first secondary source for this slice, then navigate to the species' page.
 
 Cross-check these **high-stakes** fields explicitly. They drive husbandry decisions, so disagreement is high-cost:
@@ -68,7 +68,14 @@ Cross-check these **high-stakes** fields explicitly. They drive husbandry decisi
 - `tank.minVolumeLiters`
 - `nativeRange`
 
-**Disagreement handling:**
+**Fallback on secondary failure:** If your designated secondary fails (404, 403, timeout, or doesn't have a page for this species), do NOT skip cross-verification. Instead, walk down the slice's secondary list in `source-urls.json` until you find another source that responds. Try **all** listed secondaries (up to 4) before giving up. Document the swap in `sources.additional[].notes`.
+
+**Minimum-confirmation rule:** Cross-verification is "successful" only if **at least 2 sources** (primary + at least 1 secondary, OR 2 secondaries if you swapped the primary) confirm the high-stakes fields above. Count a source as "confirming" if it actually has a species page covering at least the fields you reference from it.
+
+- If the minimum-confirmation bar is met → proceed normally (apply minor/significant disagreement rules below).
+- If only 1 source successfully confirmed (all other sources 404'd / blocked / timed out / had no species page) → set `dataStatus: "needs_review"`, list the sources you tried and why each failed in `careNotes`, and proceed to fill the file from the one usable source. The reviewer will decide whether to re-research or accept the single-source data.
+
+**Disagreement handling** (only relevant when at least 2 sources successfully confirmed):
 
 - **Minor disagreement** (within ~10% on numbers, or close enum values): take the **conservative** figure — larger min-tank, gentler temp range, gentler temperament. Note the discrepancy in `sources.additional[].notes`.
 - **Significant disagreement** (more than ~2× on size, or incompatible enum values like "peaceful" vs "aggressive"): set `dataStatus: "needs_review"`, record both figures and the source disagreement in `careNotes`. The human reviewer will resolve it.

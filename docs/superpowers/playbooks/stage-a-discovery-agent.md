@@ -101,8 +101,10 @@ For each remaining candidate:
 - Try secondary sources in the order given in `$SECONDARY_SOURCES_JSON`.
 - For each secondary source, attempt to find a species page for this candidate (search by `scientificName` if available, else `commonName`).
 - Record `secondarySourceUrl` from the **first** secondary that confirms the species exists.
-- Count `sourceCoverageCount` = 1 (primary) + number of secondary sources that have a page for this species (cap your check at the first 3 secondaries to bound runtime; if a candidate hits 3 secondaries, you may stop searching for it).
+- Count `sourceCoverageCount` = 1 (primary) + number of secondary sources that have a page for this species (cap your check at the first 4 secondaries to bound runtime; if a candidate hits 4 secondaries, you may stop searching for it).
 - **If no secondary confirms the candidate, drop it.** Source-coverage of 1 is below the scope threshold.
+
+If a secondary source persistently fails (404 on every candidate, consistent 403, etc.), note this in your step 10 report — the source whitelist may need updating, but for this run keep walking down the list to the next available secondary.
 
 ### 5. Wikipedia enrichment
 
