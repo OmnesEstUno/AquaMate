@@ -1,0 +1,1288 @@
+{
+  "part": 1,
+  "subcategoriesHandled": [
+    "https://www.liveaquaria.com/collections/dwarf-angelfish",
+    "https://www.liveaquaria.com/collections/dwarf-angelfish?page=2",
+    "https://www.liveaquaria.com/collections/large-marine-angelfish",
+    "https://www.liveaquaria.com/collections/large-marine-angelfish?page=2",
+    "https://www.liveaquaria.com/collections/large-marine-angelfish?page=3",
+    "https://www.liveaquaria.com/collections/large-marine-angelfish?page=4",
+    "https://www.liveaquaria.com/collections/anglers-frogfish",
+    "https://www.liveaquaria.com/collections/anthias-fish",
+    "https://www.liveaquaria.com/collections/anthias-fish?page=2",
+    "https://www.liveaquaria.com/collections/anthias-fish?page=3",
+    "https://www.liveaquaria.com/collections/basslets",
+    "https://www.liveaquaria.com/collections/batfish",
+    "https://www.liveaquaria.com/collections/blennies",
+    "https://www.liveaquaria.com/collections/blennies?page=2",
+    "https://www.liveaquaria.com/collections/blennies?page=3",
+    "https://www.liveaquaria.com/collections/boxfish",
+    "https://www.liveaquaria.com/collections/butterflyfish",
+    "https://www.liveaquaria.com/collections/butterflyfish?page=2",
+    "https://www.liveaquaria.com/collections/butterflyfish?page=3",
+    "https://www.liveaquaria.com/collections/butterflyfish?page=4",
+    "https://www.liveaquaria.com/collections/cardinalfish",
+    "https://www.liveaquaria.com/collections/cardinalfish?page=2"
+  ],
+  "notes": [
+    "All 10 subcategories responded successfully (no 404s).",
+    "WYSIWYG size variants and captive-bred variants collapsed to canonical species entries during intra-set dedup.",
+    "Proaquatix Royal Gramma Basslet collapsed into Royal Gramma Basslet.",
+    "Combo/trio bundle listings (Kaudern's Trio, Pajama Trio) collapsed to the underlying species.",
+    "Geometric Pygmy Hawkfish appeared in the anthias-fish collection but is a hawkfish — taxonFitConfidence set to low.",
+    "Moorish Idol appeared in the butterflyfish collection — it is already in the dedup corpus, dropped.",
+    "Cross-dedup drops (10): Bicolor Blenny, Canary Blenny, Dispar Anthias, Lyretail Anthias, Midas Blenny, Moorish Idol, Pajama Cardinalfish, Squareback Anthias, Starry Blenny, Bicolor Anthias."
+  ],
+  "preDedupCount": 168,
+  "postDedupCount": 158,
+  "candidates": [
+    {
+      "commonName": "Annularis Angelfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/annularis-angelfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Arabian Butterflyfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/arabian-butterflyfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Asfur Angelfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/asfur-angelfish-1",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Assorted Angler",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/assorted-angler",
+      "taxonFitConfidence": "medium"
+    },
+    {
+      "commonName": "Assorted Wartskin Angler",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/wartskin-angler",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Auriga Butterflyfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/auriga-butterflyfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Bali Lunate Anthias",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/bali-lunate-anthias",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Band Tail Black Spot Cardinalfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/band-tail-black-spot-cardinalfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Banded Butterflyfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/banded-butterflyfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Bellus Angelfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/bellus-angelfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Bicolor Angelfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/bicolor-angelfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Bimaculatus Anthias",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/bimaculatus-anthias",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Black Angler",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/black-angler",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Black Back Butterflyfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/black-back-butterflyfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Black Cap Basslet",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/black-cap-basslet",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Black Cardinalfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/black-cardinalfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Black Combtooth Blenny",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/black-combtooth-blenny",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Black Nox Angelfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/black-nox-angelfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Black Sailfin Blenny",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/black-sailfin-blenny",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Black Striped Cardinalfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/black-striped-cardinalfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Black Velvet Angelfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/black-velvet-angelfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Blotched Anthias",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/blotched-anthias",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Blue and Gold Blenny",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/blue-and-gold-blenny",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Blue Angelfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/blue-angelfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Blue Girdled Angelfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/blue-girdled-angelfish-1",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Blueface Angelfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/blueface-angelfish-1",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Bluefin Angelfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/bluefin-angelfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Blueline Angelfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/blueline-angelfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Bluespotted Angelfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/bluespotted-angelfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Blood Spot Anthias",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/blood-spot-anthias",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Boxfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/boxfish-expert-only",
+      "taxonFitConfidence": "medium"
+    },
+    {
+      "commonName": "Brachiosaurus Blenny",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/brachiosaurus-blenny",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Bundoon Blenny",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/bundoon-blenny",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Burgess' Butterflyfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/burgess-butterflyfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Carberryi Anthias",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/carberryi-anthias",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Caribbean Deepwater Cave Basslet",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/caribbean-deepwater-cave-basslet",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Central Pacific Anthias",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/central-pacific-anthias",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Chalk Bass",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/chalk-bass",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Chrysurus Angelfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/chrysurus-angelfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Colin's Angelfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/colins-angelfish-expert-only",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Comical Blenny",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/comical-blenny",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Copperband Butterflyfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/copperband-butterflyfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Coral Beauty Angelfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/coral-beauty-angelfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Cortez Angelfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/cortez-angelfish-1",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Cubicus Boxfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/cubicus-boxfish-expert-only",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Declivis Butterflyfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/declivis-butterflyfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Deepwater Candy Basslet",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/deepwater-candy-basslet",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Double Saddle Butterflyfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/double-saddle-butterflyfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Eight-banded Butterflyfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/eight-banded-butterflyfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Ember Blenny",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/ember-blenny",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Emperor Angelfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/emperor-angelfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Evansi Anthias",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/evansi-anthias",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Eyebrow Barnacle Blenny",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/eyebrow-barnacle-blenny",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Falcula Butterflyfish, True",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/falcula-butterflyfish-true",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "False Personifer Angelfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/false-personifer-angelfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Fathead Sunburst Anthias",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/fathead-sunburst-anthias",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Five Lined Cardinalfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/five-lined-cardinalfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Flagfin Angelfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/flagfin-angelfish-1",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Flame Angelfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/flame-angelfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Flame Cardinalfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/flame-cardinalfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Flameback Angelfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/flameback-angelfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Forktail Blenny",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/forktail-blenny",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Four Eyed Butterflyfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/four-eyed-butterflyfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Fowleria Cardinalfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/fowleria-cardinalfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "French Angelfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/french-angelfish-1",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Geometric Pygmy Hawkfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/geometric-pygmy-hawkfish",
+      "taxonFitConfidence": "low"
+    },
+    {
+      "commonName": "Gold Assessor Basslet",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/gold-assessor-basslet",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Golden Angelfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/golden-angelfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Golden Semilarvatus Butterflyfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/golden-semilarvatus-butterflyfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Goldflake Angelfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/goldflake-angelfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Gray (Black) Angelfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/gray-black-angelfish-1",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Green Canary Blenny",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/green-canary-blenny",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Griffis Angelfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/griffis-angelfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Half Black Angelfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/half-black-angelfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Harlequin Bass",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/harlequin-bass",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Harptail Blenny",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/harptail-blenny",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Helmet Cowfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/helmet-cowfish-expert-only",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Heniochus Black & White Butterflyfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/heniochus-black-white-butterflyfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Hi Fin Coradion Butterflyfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/hi-fin-coradion-butterflyfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Hooded Butterflyfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/hooded-butterflyfish-expert-only",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Horned Blenny",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/horned-blenny",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Huchtii Anthias",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/huchtii-anthias",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Ignitus Anthias",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/ignitus-anthias",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Indian Ocean Lyretail Anthias",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/indian-ocean-lyretail-anthias",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Indian Vagabond Butterflyfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/indian-vagabond-butterflyfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Island Cowfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/island-cowfish-expert-only",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Joculator Angelfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/joculator-angelfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Kaudern's Cardinal",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/kauderns-cardinal-1",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Koran Angelfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/koran-angelfish-1",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Lamarck's Angelfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/lamarcks-angelfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Lantern Bass",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/lantern-bass",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Latticed Butterflyfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/latticed-butterflyfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Lemon Butterflyfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/lemon-butterflyfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Lemonpeel Angelfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/lemonpeel-angelfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Lemonpeel Hybrid Angelfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/lemonpeel-hybrid-angelfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Leopard Blenny",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/leopard-blenny",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Linear Blenny",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/linear-blenny",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Lizard Blenny",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/lizard-blenny",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Longhorn Cowfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/longhorn-cowfish-expert-only",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Longnose Atlantic Butterflyfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/longnose-atlantic-butterflyfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Longnose Batfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/longnose-batfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Longspine Cardinalfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/longspine-cardinalfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Lori's Anthias",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/loris-anthias",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Macneill's Assessor Basslet",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/macneills-assessor-basslet",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Maculosus Angelfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/maculosus-angelfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Marcella Butterflyfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/marcella-butterflyfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Masked Swallowtail Angelfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/masked-swallowtail-angelfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Melon Butterflyfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/melon-butterflyfish-expert-only",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Mertensii Butterflyfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/mertensii-butterflyfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Mexican Barnacle Blenny",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/mexican-barnacle-blenny",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Mirror Butterflyfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/mirror-butterflyfish-expert-only",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Mitratus Butterflyfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/mitratus-butterflyfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Molly Miller Blenny",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/molly-miller-blenny",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Mulleri Butterflyfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/mulleri-butterflyfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Multibar Angelfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/multibar-angelfish-expert-only",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Multicolor Angelfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/multicolor-angelfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Ochrestriped Cardinalfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/ochrestriped-cardinalfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "One Spot Blenny",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/one-spot-blenny",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Orange Butterflyfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/orange-butterflyfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Orange Spotted Blenny",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/orange-spotted-blenny",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Orangethroat Pikeblenny",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/orangethroat-pikeblenny",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Orbiculate Batfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/orbiculate-batfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Pakistan Butterflyfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/pakistan-butterflyfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Panamic Barnacle Blenny",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/panamic-barnacle-blenny",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Passer Angelfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/passer-angelfish-1",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Pearlscale Butterflyfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/pearlscale-butterflyfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Phantom Bannerfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/phantom-bannerfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Pictilis Anthias",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/pictilis-anthias",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Pink Anthias",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/pink-anthias",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Pinnatus Batfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/pinnatus-batfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Potter's Angelfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/potters-angelfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Princess Anthias",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/princess-anthias",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Purple Masked Angelfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/purple-masked-angelfish-expert-only",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Pygmy (Cherub) Angelfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/pygmy-cherub-angelfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Pygmy Yellowtail Angelfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/pygmy-yellowtail-angelfish-1",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Queen Angelfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/queen-angelfish-1",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Queen Purple Anthias",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/queen-purple-anthias",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Raccoon Butterflyfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/raccoon-butterflyfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Raccoon Fasciatus Butterflyfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/raccoon-fasciatus-butterflyfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Randall's Anthias",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/randalls-anthias",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Randall's Assessor Basslet",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/randall-s-assessor-basslet",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Red Belted Anthias",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/red-belted-anthias",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Red Belted Cardinalfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/red-belted-cardinalfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Red Fairy Anthias",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/red-fairy-anthias",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Red Lip Blenny",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/red-lip-blenny",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Red Saddled Anthias",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/red-saddled-anthias",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Red Sea Bannerfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/red-sea-bannerfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Red Sea Eritrean Butterflyfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/red-sea-eritrean-butterflyfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Red Stop Light Cardinalfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/red-stop-light-cardinalfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Red Stripe Angelfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/red-stripe-angelfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Red-Bar Anthias",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/red-bar-anthias",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Regal Angelfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/regal-angelfish-expert-only-1",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Resplendent Anthias",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/resplendent-anthias",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Rock Beauty Angelfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/rock-beauty-angelfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Royal Gramma Basslet",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/royal-gramma-basslet",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Rusty Angelfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/rusty-angelfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Saddleback Butterflyfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/saddleback-butterflyfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Sailfin/Algae Blenny",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/sailfin-algae-blenny",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Sandhopper Blenny",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/sandhopper-blenny",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Sargassum Fish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/sargassum-fish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Schooling Bannerfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/schooling-bannerfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Scribbled Angelfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/scribbled-angelfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Segmented Sailfin Blenny",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/segmented-sailfin-blenny",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Singapore Angelfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/singapore-angelfish-1",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Singular Bannerfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/singular-bannerfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Six Bar Angelfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/six-bar-angelfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Slender Whitleyi Anthias",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/slender-whitleyi-anthias",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Small Toothed Whiptail",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/small-toothed-whiptail",
+      "taxonFitConfidence": "medium"
+    },
+    {
+      "commonName": "Smith's Blenny",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/smiths-blenny",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Speckled Fowler Cardinalfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/speckled-fowler-cardinalfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Spotband Butterflyfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/spotband-butterflyfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Spotbreast Angelfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/spotbreast-angelfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Spotfin Butterflyfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/spotfin-butterflyfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Stocky Anthias",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/stocky-anthias",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Striated Tiger Colored Angler",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/striated-tiger-colored-angler",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Striped Blenny",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/striped-blenny",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Sunset Anthias",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/sunset-anthias",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Sunset Butterflyfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/sunset-butterflyfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Swales Swissguard Basslet",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/swales-swissguard-basslet",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Swissguard Basslet",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/swissguard-basslet-1",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Tahitian Butterflyfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/tahitian-butterflyfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Tail Spot Blenny",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/tail-spot-blenny",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Tear Drop Butterflyfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/tear-drop-butterflyfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Three Banded Butterflyfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/three-banded-butterflyfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Threeband Pennant Butterflyfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/threeband-pennant-butterflyfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Threebanded Butterflyfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/threebanded-butterflyfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Tibicen Angelfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/tibicen-angelfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Tinkeri Butterflyfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/tinkeri-butterflyfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Tobacco Basslet",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/tobacco-basslet",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "True Shepard's Angelfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/true-shepards-angelfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Two Spot Bimaculatus Blenny",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/two-spot-bimaculatus-blenny",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Vagabond Butterflyfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/vagabond-butterflyfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Waitei Anthias",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/waitei-anthias",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Watanabei Angelfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/watanabei-angelfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "West African Angelfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/west-african-angelfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "White Faced Butterflyfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/white-faced-butterflyfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Woodhead's Angelfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/woodheads-angelfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Xanthurus Cream Angelfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/xanthurus-cream-angelfish-1",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Yellow Angelfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/yellow-angelfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Yellow Cardinalfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/yellow-cardinalfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Yellow Eye Combtooth Blenny",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/yellow-eye-combtooth-blenny",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Yellow Longnose Butterflyfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/yellow-longnose-butterflyfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Yellow Pyramid Butterflyfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/yellow-pyramid-butterflyfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Yellowhead Butterflyfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/yellowhead-butterflyfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Yellowstriped Cardinalfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/yellowstriped-cardinalfish",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Yellowtail Black Blenny",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/yellowtail-black-blenny",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Yellowtail Reef Basslet",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/yellowtail-reef-basslet",
+      "taxonFitConfidence": "high"
+    },
+    {
+      "commonName": "Zoster Butterflyfish",
+      "scientificName": null,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/zoster-butterflyfish",
+      "taxonFitConfidence": "high"
+    }
+  ]
+}
