@@ -4,39 +4,55 @@
   "kind": "fauna",
   "taxon": "fish",
   "waterType": "freshwater",
-
   "commonName": "Blood Parrot Cichlid",
   "scientificName": "Amphilophus citrinellus × Paraneetroplus synspilus (hybrid)",
-  "alsoKnownAs": ["Blood Red Parrot Cichlid", "Blood Parrot"],
+  "alsoKnownAs": [
+    "Blood Red Parrot Cichlid",
+    "Blood Parrot"
+  ],
   "category": "Cichlid",
-
   "taxonomy": {
     "family": "Cichlidae",
     "order": "Cichliformes"
   },
-
   "nativeRange": {
-    "regions": ["Asia"],
-    "countries": ["Taiwan"],
+    "regions": [
+      "Asia"
+    ],
+    "countries": [
+      "Taiwan"
+    ],
     "habitat": "Captive-bred hybrid; no wild population. Developed in Taiwan circa 1986 from Central American cichlid parentage.",
     "biotope": "Other"
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 28 },
-    "pH":           { "min": 6.5, "max": 7.4 },
-    "gH":           { "min": 3.3, "max": 6.6 },
-    "kH":           null,
-    "salinity":     null
+    "temperatureC": {
+      "min": 22,
+      "max": 28
+    },
+    "pH": {
+      "min": 6.5,
+      "max": 7.4
+    },
+    "gH": {
+      "min": 3.3,
+      "max": 6.6
+    },
+    "kH": null,
+    "salinity": null
   },
-
-  "adultSizeCm":   { "min": 15, "max": 20 },
-  "lifespanYears": { "min": 10, "max": 15 },
-
+  "adultSizeCm": {
+    "min": 15,
+    "max": 20
+  },
+  "lifespanYears": {
+    "min": 10,
+    "max": 15
+  },
   "tank": {
     "minVolumeLiters": 114,
-    "minLengthCm":     90,
-    "swimZone":        "mid",
+    "minLengthCm": 90,
+    "swimZone": "mid",
     "decorPreferences": [
       "tall decorations to break line of sight",
       "caves and shelters",
@@ -47,17 +63,14 @@
       "soft substrate (sand or fine gravel)"
     ]
   },
-
   "careLevel": "intermediate",
-
   "diet": {
     "type": "omnivore",
     "notes": "Deformed beak-like mouth requires specialized feeding. Floating mini pellets (e.g. Hikari Blood Red Parrot+) or sinking cichlid pellets work best. Supplement with bloodworms, brine shrimp, and other protein sources 2-3x weekly. Color-enhancing formulas help maintain vibrant coloration."
   },
-
   "compatibility": {
-    "temperament":  "semi-aggressive",
-    "grouping":     "shoaling",
+    "temperament": "semi-aggressive",
+    "grouping": "shoaling",
     "minGroupSize": 3,
     "goodWith": [
       "Oscars",
@@ -79,18 +92,14 @@
       "Very small or slow fish"
     ]
   },
-
   "media": {
     "primaryImage": null,
-    "gallery": []
+    "gallery": [],
+    "imageCandidates": null
   },
-
   "summary": "A man-made hybrid cichlid from Taiwan, prized for its round body and vivid orange-red coloration. Semi-aggressive but small-mouthed; best kept in groups of 3+ in a 30-gallon minimum tank.",
-
   "careNotes": "The Blood Parrot Cichlid is a hybrid with no formal scientific species name — the most widely accepted parentage is Amphilophus citrinellus × Paraneetroplus synspilus (sometimes cited as A. citrinellus × Vieja melanurus). The hybrid was developed in Taiwan around 1986. There is no wild population.\n\nTemperament note: Aquarium Co-Op describes this fish as bold and aggressive ('acts like the tank boss'), while FishKeepingWorld describes it as peaceful in community settings but semi-aggressive when stressed. 'Semi-aggressive' is used here as the conservative label covering both perspectives. Avoid pairing just two fish — one will dominate; groups of 3 or more (or a single specimen) are preferred.\n\npH note: Aquarium Co-Op lists pH 6.5–8.0; FishKeepingWorld lists 6.5–7.4. The tighter range (6.5–7.4) is used here as the conservative recommendation.\n\nThe deformed mouth is a defining trait of the hybrid — it limits the fish's ability to bite and compete for food, but also restricts it to appropriately sized pellets and softer foods. Juveniles may display black markings that fade as they mature. Dyed or color-injected specimens ('painted parrots') are sometimes sold; these are not recommended as the dyeing process is stressful and harmful.\n\nArtificially colored variants (heart-shaped body 'Jellybean Parrots') are surgically altered and also not recommended from an ethical standpoint. Natural color variants include orange/red (most common), yellow, and occasionally white (platinum/snow white). Trade variants include King Kong Parrot, Polar Blue Parrot, and Kirin/Flowerhorn Parrot hybrids.",
-
   "breedingNotes": "Males are typically sterile due to the hybrid nature of the fish. Females will lay eggs on flat surfaces and both parents guard the clutch, but eggs rarely hatch. Reliable captive breeding has not been achieved by hobbyists. Water temperature of 24–27°C and pH 6.5–7.4 are recommended if attempting to spawn.",
-
   "sources": {
     "primary": {
       "name": "Aquarium Co-Op",
@@ -107,7 +116,6 @@
       }
     ]
   },
-
   "fish": {
     "breedingDifficulty": "not in captivity",
     "breedingNotes": "Males are typically sterile. Females can lay eggs and display biparental guarding behavior, but eggs rarely develop. Hobbyists have not been able to reliably produce Blood Parrot offspring.",
@@ -115,15 +123,13 @@
     "finNippy": false,
     "reefSafe": null
   },
-
-  "crustacean":   null,
-  "coral":        null,
-  "mollusc":      null,
-  "echinoderm":   null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
   "other-invert": null,
-  "plant":        null,
-  "macroalgae":   null,
-
+  "plant": null,
+  "macroalgae": null,
   "schemaVersion": 1,
   "dataStatus": "researched",
   "lastReviewed": "2026-05-21"

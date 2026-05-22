@@ -6,40 +6,78 @@
   "waterType": "saltwater",
   "commonName": "Hammer Coral",
   "scientificName": "Euphyllia ancora",
-  "alsoKnownAs": ["Anchor Coral"],
+  "alsoKnownAs": [
+    "Anchor Coral"
+  ],
   "category": "LPS Coral",
-  "taxonomy": { "family": "Euphylliidae", "order": "Scleractinia" },
+  "taxonomy": {
+    "family": "Euphylliidae",
+    "order": "Scleractinia"
+  },
   "nativeRange": {
-    "regions": ["Indo-Pacific"],
-    "countries": ["Australia", "Indonesia", "Philippines"],
+    "regions": [
+      "Indo-Pacific"
+    ],
+    "countries": [
+      "Australia",
+      "Indonesia",
+      "Philippines"
+    ],
     "habitat": "Tropical reef slopes, 5-20m depth",
     "biotope": "Reef"
   },
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 26 },
-    "pH":           { "min": 8.1, "max": 8.4 },
-    "gH":           null,
-    "kH":           { "min": 8, "max": 12 },
-    "salinity":     { "min": 33, "max": 35 }
+    "temperatureC": {
+      "min": 24,
+      "max": 26
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 33,
+      "max": 35
+    }
   },
-  "adultSizeCm":   { "min": 10, "max": 30 },
+  "adultSizeCm": {
+    "min": 10,
+    "max": 30
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 200,
     "minLengthCm": 90,
     "swimZone": "bottom",
-    "decorPreferences": ["live rock", "moderate flow"]
+    "decorPreferences": [
+      "live rock",
+      "moderate flow"
+    ]
   },
   "careLevel": "intermediate",
-  "diet": { "type": "carnivore", "notes": "Photosynthetic; supplemental feeding of mysis or coral foods weekly." },
+  "diet": {
+    "type": "carnivore",
+    "notes": "Photosynthetic; supplemental feeding of mysis or coral foods weekly."
+  },
   "compatibility": {
     "temperament": "aggressive",
     "grouping": "solitary",
     "minGroupSize": null,
     "goodWith": [],
-    "avoidWith": ["other Euphyllia colonies within sting range"]
+    "avoidWith": [
+      "other Euphyllia colonies within sting range"
+    ]
   },
-  "media": { "primaryImage": null, "gallery": [] },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
   "summary": "Popular LPS coral with hammer-shaped tentacle tips; semi-aggressive with long sting range.",
   "careNotes": "Place with ample buffer from other corals. Moderate light and flow. Stable alkalinity is critical.",
   "breedingNotes": null,
@@ -56,13 +94,22 @@
   "crustacean": null,
   "coral": {
     "coralType": "LPS",
-    "lighting": { "minPAR": 50, "maxPAR": 150 },
+    "lighting": {
+      "minPAR": 50,
+      "maxPAR": 150
+    },
     "flow": "medium",
     "placement": "lower",
     "aggressionRangeCm": 10,
     "feedingFrequency": "weekly",
-    "calciumPPM":   { "min": 380, "max": 450 },
-    "magnesiumPPM": { "min": 1250, "max": 1400 }
+    "calciumPPM": {
+      "min": 380,
+      "max": 450
+    },
+    "magnesiumPPM": {
+      "min": 1250,
+      "max": 1400
+    }
   },
   "mollusc": null,
   "echinoderm": null,

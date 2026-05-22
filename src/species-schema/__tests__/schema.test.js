@@ -150,3 +150,66 @@ describe('species.schema.json — dataStatus conditional requirements', () => {
     expect(ok).toBe(true);
   });
 });
+
+describe('species.schema.json — media.imageCandidates', () => {
+  const validate = buildAjv();
+
+  test('accepts null imageCandidates (placeholder default)', () => {
+    const entry = loadFixture('valid-fish-researched');
+    entry.media.imageCandidates = null;
+    expect(validate(entry)).toBe(true);
+  });
+
+  test('accepts empty array imageCandidates', () => {
+    const entry = loadFixture('valid-fish-researched');
+    entry.media.imageCandidates = [];
+    expect(validate(entry)).toBe(true);
+  });
+
+  test('accepts a valid candidate', () => {
+    const entry = loadFixture('valid-fish-researched');
+    entry.media.imageCandidates = [{
+      url: 'https://www.fishbase.se/photos/PicturesSummary.php?StartRow=0&ID=4669',
+      source: 'FishBase',
+      sourceType: 'fishbase',
+      license: 'CC BY-NC',
+      notes: 'Lateral photo, no watermark, photographer: J.E. Randall.',
+      recommended: true
+    }];
+    expect(validate(entry)).toBe(true);
+  });
+
+  test('rejects candidate with unknown sourceType', () => {
+    const entry = loadFixture('valid-fish-researched');
+    entry.media.imageCandidates = [{
+      url: 'https://example.com/img.jpg',
+      source: 'Example',
+      sourceType: 'random-blog',
+      license: null, notes: null, recommended: false
+    }];
+    expect(validate(entry)).toBe(false);
+  });
+
+  test('rejects candidate missing required field', () => {
+    const entry = loadFixture('valid-fish-researched');
+    entry.media.imageCandidates = [{
+      url: 'https://example.com/img.jpg',
+      source: 'Example',
+      sourceType: 'other',
+      license: null, notes: null
+      // missing: recommended
+    }];
+    expect(validate(entry)).toBe(false);
+  });
+
+  test('rejects more than 5 candidates', () => {
+    const entry = loadFixture('valid-fish-researched');
+    entry.media.imageCandidates = Array(6).fill({
+      url: 'https://example.com/img.jpg',
+      source: 'Example',
+      sourceType: 'other',
+      license: null, notes: null, recommended: false
+    });
+    expect(validate(entry)).toBe(false);
+  });
+});

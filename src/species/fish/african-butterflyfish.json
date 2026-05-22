@@ -6,65 +6,100 @@
   "waterType": "freshwater",
   "commonName": "African Butterflyfish",
   "scientificName": "Pantodon buchholzi",
-  "alsoKnownAs": ["African Butterfly Fish", "Freshwater Butterflyfish"],
+  "alsoKnownAs": [
+    "African Butterfly Fish",
+    "Freshwater Butterflyfish"
+  ],
   "category": "surface fish",
-
   "taxonomy": {
     "family": "Pantodontidae",
     "order": "Osteoglossiformes"
   },
-
   "nativeRange": {
-    "regions": ["Central Africa", "West Africa"],
-    "countries": ["Republic of Congo", "Democratic Republic of Congo", "Cameroon", "Central African Republic", "Benin", "Chad", "Nigeria", "Sierra Leone", "Niger", "Gabon"],
+    "regions": [
+      "Central Africa",
+      "West Africa"
+    ],
+    "countries": [
+      "Republic of Congo",
+      "Democratic Republic of Congo",
+      "Cameroon",
+      "Central African Republic",
+      "Benin",
+      "Chad",
+      "Nigeria",
+      "Sierra Leone",
+      "Niger",
+      "Gabon"
+    ],
     "habitat": "Slow-moving and still waters in creeks, lakes, and swamps with dense aquatic or overhanging surface vegetation",
     "biotope": "Blackwater"
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 30 },
-    "pH": { "min": 6.0, "max": 7.5 },
-    "gH": { "min": 5, "max": 15 },
+    "temperatureC": {
+      "min": 23,
+      "max": 30
+    },
+    "pH": {
+      "min": 6,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 5,
+      "max": 15
+    },
     "kH": null,
     "salinity": null
   },
-
-  "adultSizeCm": { "min": 10, "max": 12 },
+  "adultSizeCm": {
+    "min": 10,
+    "max": 12
+  },
   "lifespanYears": null,
-
   "tank": {
     "minVolumeLiters": 80,
     "minLengthCm": 90,
     "swimZone": "top",
-    "decorPreferences": ["floating plants", "dense surface cover", "dark substrate", "driftwood", "dim lighting", "tight-fitting lid"]
+    "decorPreferences": [
+      "floating plants",
+      "dense surface cover",
+      "dark substrate",
+      "driftwood",
+      "dim lighting",
+      "tight-fitting lid"
+    ]
   },
-
   "careLevel": "intermediate",
-
   "diet": {
     "type": "carnivore",
     "notes": "Primarily insectivorous; accepts live and frozen foods such as bloodworm, brine shrimp, prawn, and small mealworms. Feeds exclusively at the surface; some individuals learn to accept floating dried foods but live/frozen preferred. Will take small fish and invertebrates that fit in its mouth."
   },
-
   "compatibility": {
     "temperament": "semi-aggressive",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["African tetras", "Elephant nose fish (Gnathonemus petersii)", "Synodontis catfish", "African knife fish", "Ctenopoma species", "West African cichlids (mid/bottom-dwelling)"],
-    "avoidWith": ["small fish under 3 cm (will be eaten)", "fin-nipping species (long trailing fins may be nipped)", "very active surface-dwelling fish (causes stress)"]
+    "goodWith": [
+      "African tetras",
+      "Elephant nose fish (Gnathonemus petersii)",
+      "Synodontis catfish",
+      "African knife fish",
+      "Ctenopoma species",
+      "West African cichlids (mid/bottom-dwelling)"
+    ],
+    "avoidWith": [
+      "small fish under 3 cm (will be eaten)",
+      "fin-nipping species (long trailing fins may be nipped)",
+      "very active surface-dwelling fish (causes stress)"
+    ]
   },
-
   "media": {
     "primaryImage": null,
-    "gallery": []
+    "gallery": [],
+    "imageCandidates": null
   },
-
   "summary": "A striking West/Central African surface predator with wing-like pectoral fins, inhabiting still blackwater pools. Feeds on insects and small prey; requires a tightly covered tank as it can jump several metres.",
-
   "careNotes": "NOTE: The originally specified primary source (Aquarium Co-Op blog URL https://www.aquariumcoop.com/blogs/aquarium/top-10-top-dwelling-fish) returned HTTP 404. SeriouslyFish was used as the primary research source per stuck-protocol. FishBase timed out and Practical Fishkeeping returned 403, so cross-verification was performed against the full SeriouslyFish species account only.\n\nThe African Butterflyfish is a crepuscular, largely sedentary ambush predator that resembles a dead leaf floating at the surface — its large pectoral fins provide camouflage and enable powerful jumps of several metres. A tight-fitting lid is absolutely essential. The tank should be dimly lit with abundant floating plants (Indian fern, Ceratopteris, etc.) to mimic its natural surface habitat. Dark substrate reduces skittishness. Minimal water current is preferred; soft, slightly acidic, tannin-stained water closely matches its blackwater native biotope.\n\nHardness (kH) was not explicitly stated by the source; the species naturally occurs in very soft water so kH is left null with gH 5-15°H per SeriouslyFish.\n\nThe species is typically kept singly or in male-female pairs due to conspecific aggression; larger groups may work in very spacious, heavily planted tanks. Compatible tank mates must be too large to be eaten and must not occupy the surface layer exclusively.",
-
   "breedingNotes": "Egg-scatterers; considered difficult to breed in captivity. A dedicated breeding tank of at least 120x38 cm with floating plants (Indian fern recommended) is needed. Condition with live/frozen insects. Trigger spawning by temporarily lowering the water level then refilling to 15-20 cm depth with slightly warmer, very soft acidic water (pH 6.0-6.5, 25-27°C). Females may deposit over 100 eggs per day among floating plants. Eggs hatch in 3-4 days. Fry are extremely small and difficult to raise; newly hatched brine shrimp are required initially. Parents show no parental care and may eat eggs/fry.",
-
   "sources": {
     "primary": {
       "name": "SeriouslyFish",
@@ -81,7 +116,6 @@
       }
     ]
   },
-
   "fish": {
     "breedingDifficulty": "difficult",
     "breedingNotes": "Egg-scatterers; challenging to breed. See breedingNotes for full protocol.",
@@ -89,7 +123,6 @@
     "finNippy": true,
     "reefSafe": null
   },
-
   "crustacean": null,
   "coral": null,
   "mollusc": null,
@@ -97,7 +130,6 @@
   "other-invert": null,
   "plant": null,
   "macroalgae": null,
-
   "schemaVersion": 1,
   "dataStatus": "researched",
   "lastReviewed": "2026-05-21"

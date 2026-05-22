@@ -4,68 +4,105 @@
   "kind": "fauna",
   "taxon": "coral",
   "waterType": "saltwater",
-
   "commonName": "Acropora Coral",
   "scientificName": "Acropora",
-  "alsoKnownAs": ["Staghorn Coral", "Elkhorn Coral", "Table Coral", "SPS Coral", "Acro"],
+  "alsoKnownAs": [
+    "Staghorn Coral",
+    "Elkhorn Coral",
+    "Table Coral",
+    "SPS Coral",
+    "Acro"
+  ],
   "category": "Small Polyp Stony (SPS) Coral",
-
   "taxonomy": {
     "family": "Acroporidae",
     "order": "Scleractinia"
   },
-
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Caribbean"],
-    "countries": ["Australia", "Fiji", "Tonga", "Solomon Islands", "Indonesia", "Philippines", "Papua New Guinea"],
+    "regions": [
+      "Indo-Pacific",
+      "Caribbean"
+    ],
+    "countries": [
+      "Australia",
+      "Fiji",
+      "Tonga",
+      "Solomon Islands",
+      "Indonesia",
+      "Philippines",
+      "Papua New Guinea"
+    ],
     "habitat": "Shallow tropical reef slopes, reef crests, and upper reef zones with high light and strong water movement",
     "biotope": "Reef"
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 27 },
-    "pH":           { "min": 8.1, "max": 8.4 },
-    "gH":           null,
-    "kH":           { "min": 7, "max": 9 },
-    "salinity":     { "min": 34, "max": 36 }
+    "temperatureC": {
+      "min": 24,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 7,
+      "max": 9
+    },
+    "salinity": {
+      "min": 34,
+      "max": 36
+    }
   },
-
-  "adultSizeCm": { "min": 15, "max": 100 },
+  "adultSizeCm": {
+    "min": 15,
+    "max": 100
+  },
   "lifespanYears": null,
-
   "tank": {
     "minVolumeLiters": 284,
     "minLengthCm": 90,
     "swimZone": null,
-    "decorPreferences": ["live rock", "open placement with spacing from neighbors", "upper rockwork placement", "stable rockwork base"]
+    "decorPreferences": [
+      "live rock",
+      "open placement with spacing from neighbors",
+      "upper rockwork placement",
+      "stable rockwork base"
+    ]
   },
-
   "careLevel": "expert",
-
   "diet": {
     "type": "planktivore",
     "notes": "Primarily photosynthetic via zooxanthellae. Supplemental feeding of small zooplankton (rotifers, cyclops), amino acids, and phytoplankton 2-3 times per week supports growth and coloration. Target feeding via pipette is recommended."
   },
-
   "compatibility": {
     "temperament": "semi-aggressive",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["reef fish", "most saltwater fish", "hermit crabs", "snails", "sea urchins", "non-aggressive LPS corals with spacing"],
-    "avoidWith": ["other SPS corals placed in direct contact", "LPS corals without adequate spacing", "carpet anemones", "Acropora-eating flatworms", "red bugs (Tegastes acroporanus)"]
+    "goodWith": [
+      "reef fish",
+      "most saltwater fish",
+      "hermit crabs",
+      "snails",
+      "sea urchins",
+      "non-aggressive LPS corals with spacing"
+    ],
+    "avoidWith": [
+      "other SPS corals placed in direct contact",
+      "LPS corals without adequate spacing",
+      "carpet anemones",
+      "Acropora-eating flatworms",
+      "red bugs (Tegastes acroporanus)"
+    ]
   },
-
   "media": {
     "primaryImage": null,
-    "gallery": []
+    "gallery": [],
+    "imageCandidates": null
   },
-
   "summary": "Acropora is a genus of 150+ SPS reef-building corals prized for their vivid colors and branching forms. Expert-level care; demands stable, high-flow, high-light reef conditions.",
-
   "careNotes": "Note: Acropora is a large genus (~150+ described species) commonly discussed at the genus level in the aquarium trade because all species share near-identical husbandry requirements. The scientificName field is set to 'Acropora' (genus only, no species epithet) to reflect this trade convention.\n\nAcropora are among the most demanding corals in the reef hobby, requiring an established (6–12 month minimum) reef system with extremely stable water chemistry. They are Small Polyp Stony (SPS) corals and the primary builders of tropical reef structures worldwide.\n\nKey care requirements:\n• Lighting: High intensity required (150–500+ PAR). Optimal placement is the upper third of the aquarium, directly under the light source. New specimens must be acclimated gradually over 2–4 weeks by starting lower in the rockwork and slowly moving upward to prevent bleaching.\n• Flow: High, chaotic (non-laminar) water movement is essential — targeting 30–50× tank volume per hour. Direct laminar flow can damage tissue; alternating gyre-type flow is preferred. Polyps should visibly sway but not be overwhelmed.\n• Water chemistry stability: Calcium, alkalinity, and magnesium must be maintained very consistently. Swings in alkalinity of more than 0.5 dKH can trigger Slow or Rapid Tissue Necrosis (STN/RTN). A calcium reactor or consistent two-part dosing is strongly recommended.\n• Aggression: Despite their delicate appearance Acropora will sting neighboring corals via sweeper tentacles and allelopathy. Maintain at least 2 inches of spacing between colonies. Plan for rapid growth — colonies can go from finger-sized frags to medicine-ball size within 1–2 years under ideal conditions.\n• Pests: New frags should always be dipped (e.g., CoralRx, Revive) to prevent introduction of Acropora-eating flatworms (AEFW) and red bugs (Tegastes acroporanus), both of which can devastate colonies.\n• Colony size: In the wild, individual colonies can exceed 1 meter across. In home aquaria, colonies typically reach 15–50 cm depending on species and tank constraints.\n• Color and nutrients: Moderate nitrate (1–10 ppm) and phosphate (0.01–0.1 ppm) are actually beneficial — ultra-low nutrient tanks cause browning out. Color is influenced by both lighting spectrum and nutrient levels.\n• Common beginner-friendly Acropora species include A. millepora, A. tenuis, and A. valida.",
-
   "breedingNotes": "Fragging (cutting) is the primary propagation method in captivity and is widely practiced. Colonies can be fragged with bone cutters or a bandsaw; frags as small as 3/4 inch readily encrust and grow on frag plugs or rubble. Sexual reproduction occurs via broadcast spawning on natural reefs (mass synchronized spawning events), but deliberate captive sexual breeding is not practiced in the hobby.",
-
   "sources": {
     "primary": {
       "name": "World Wide Corals",
@@ -100,25 +137,32 @@
       }
     ]
   },
-
   "fish": null,
   "crustacean": null,
   "coral": {
     "coralType": "SPS",
-    "lighting": { "minPAR": 150, "maxPAR": 500 },
+    "lighting": {
+      "minPAR": 150,
+      "maxPAR": 500
+    },
     "flow": "high",
     "placement": "upper",
     "aggressionRangeCm": 5,
     "feedingFrequency": "weekly",
-    "calciumPPM": { "min": 380, "max": 450 },
-    "magnesiumPPM": { "min": 1250, "max": 1450 }
+    "calciumPPM": {
+      "min": 380,
+      "max": 450
+    },
+    "magnesiumPPM": {
+      "min": 1250,
+      "max": 1450
+    }
   },
   "mollusc": null,
   "echinoderm": null,
   "other-invert": null,
   "plant": null,
   "macroalgae": null,
-
   "schemaVersion": 1,
   "dataStatus": "researched",
   "lastReviewed": "2026-05-21"

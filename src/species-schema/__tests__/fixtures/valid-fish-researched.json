@@ -6,40 +6,87 @@
   "waterType": "freshwater",
   "commonName": "Neon Tetra",
   "scientificName": "Paracheirodon innesi",
-  "alsoKnownAs": ["Neon"],
+  "alsoKnownAs": [
+    "Neon"
+  ],
   "category": "Tetra",
-  "taxonomy": { "family": "Characidae", "order": "Characiformes" },
+  "taxonomy": {
+    "family": "Characidae",
+    "order": "Characiformes"
+  },
   "nativeRange": {
-    "regions": ["South America"],
-    "countries": ["Brazil", "Colombia", "Peru"],
+    "regions": [
+      "South America"
+    ],
+    "countries": [
+      "Brazil",
+      "Colombia",
+      "Peru"
+    ],
     "habitat": "Slow-moving blackwater tributaries of the Amazon basin",
     "biotope": "Blackwater"
   },
   "waterParameters": {
-    "temperatureC": { "min": 20, "max": 26 },
-    "pH":           { "min": 5.5, "max": 7.5 },
-    "gH":           { "min": 1, "max": 10 },
-    "kH":           { "min": 0, "max": 4 },
-    "salinity":     null
+    "temperatureC": {
+      "min": 20,
+      "max": 26
+    },
+    "pH": {
+      "min": 5.5,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 1,
+      "max": 10
+    },
+    "kH": {
+      "min": 0,
+      "max": 4
+    },
+    "salinity": null
   },
-  "adultSizeCm":   { "min": 3.0, "max": 4.0 },
-  "lifespanYears": { "min": 5, "max": 8 },
+  "adultSizeCm": {
+    "min": 3,
+    "max": 4
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 8
+  },
   "tank": {
     "minVolumeLiters": 60,
     "minLengthCm": 60,
     "swimZone": "mid",
-    "decorPreferences": ["plants", "driftwood", "subdued lighting"]
+    "decorPreferences": [
+      "plants",
+      "driftwood",
+      "subdued lighting"
+    ]
   },
   "careLevel": "beginner",
-  "diet": { "type": "omnivore", "notes": "Flakes, micropellets, frozen brine shrimp, daphnia." },
+  "diet": {
+    "type": "omnivore",
+    "notes": "Flakes, micropellets, frozen brine shrimp, daphnia."
+  },
   "compatibility": {
     "temperament": "peaceful",
     "grouping": "schooling",
     "minGroupSize": 6,
-    "goodWith": ["peaceful community", "small tetras", "corydoras"],
-    "avoidWith": ["large cichlids", "fin nippers"]
+    "goodWith": [
+      "peaceful community",
+      "small tetras",
+      "corydoras"
+    ],
+    "avoidWith": [
+      "large cichlids",
+      "fin nippers"
+    ]
   },
-  "media": { "primaryImage": "neon_tetra.webp", "gallery": [] },
+  "media": {
+    "primaryImage": "neon_tetra.webp",
+    "gallery": [],
+    "imageCandidates": null
+  },
   "summary": "Small, peaceful schooling tetra with iridescent blue and red stripes.",
   "careNotes": "Hardy community fish best kept in groups of 6+. Prefers soft, slightly acidic water and dim lighting.",
   "breedingNotes": null,

@@ -113,6 +113,60 @@ If you encounter a fact you can't fit:
 
 The summarizer (`npm run review-field-gaps`) promotes suggestions to real schema fields once 5+ independent agents propose the same field.
 
+### 4b. Find candidate species images
+
+Populate `media.imageCandidates` with **2–3 candidate image URLs** the human reviewer can choose from. You cannot visually inspect images, so confidence comes from source reputation + URL/metadata signals. License correctness matters — do not record copyrighted retailer images as "recommended" unless no alternative exists.
+
+**Source priority (try each in order; aim for 2–3 candidates total, not one from each):**
+
+1. **PRIMARY: FishBase (animals)** or **AlgaeBase (plants/algae)** — taxonomic databases with curated, properly-licensed species photos. For `$TARGET_TAXON` of fish/crustacean/coral/mollusc/echinoderm/other-invert, use FishBase; for plant/macroalgae, use AlgaeBase.
+   - FishBase species pages typically have a photo section (often Photos→Summary). The image URL is usually under `https://www.fishbase.se/photos/...` or `https://www.fishbase.us/...`.
+   - AlgaeBase: `https://www.algaebase.org/...` — species pages have image attachments.
+   - License is usually stated near the image (photographer attribution + CC license).
+2. **SECONDARY: Wikimedia Commons** — `https://upload.wikimedia.org/wikipedia/commons/...`. The Wikipedia article infobox image is the canonical species photo; click through to find the Commons URL and license info. Commons content is almost always CC-licensed or public domain.
+3. **TERTIARY: the research site (your primary research source for this slice)** — e.g., LiveAquaria product photo, Aquarium Co-Op care-guide image. These are typically the retailer's own product photography; license is usually "all rights reserved" but the photos are often the cleanest, watermark-free, and most representative for trade-relevant morphs.
+
+**Candidate selection heuristics (signal-based; you can't see the image):**
+
+- **URL pattern suggests it's the species' "main" photo:** product hero image, Wikipedia infobox image, FishBase summary photo — not a thumbnail, not a habitat shot, not a forum post.
+- **Filename/alt text mentions the species** — high probability of correct subject.
+- **Source explicitly states the license** — CC BY, CC BY-SA, Public Domain → safe to recommend; "All rights reserved" → record but caution in notes.
+- **Hi-res hint in URL** (e.g. `/1024px-`, `large`, `full`, `original`) → likely better than thumbnails.
+- **Avoid:** images URLs ending in `_thumb`, `_sm`, `_small`; URLs that 404 in your verification fetch; user-submitted forum photos with no licensing.
+
+**Procedure:**
+
+1. Visit the FishBase or AlgaeBase page for `$TARGET_SCIENTIFIC_NAME`. If a species photo is present, record:
+   ```jsonc
+   { "url": "<absolute URL>", "source": "FishBase" or "AlgaeBase", "sourceType": "fishbase" or "algaebase",
+     "license": "<as stated, or null if unstated>", "notes": "<photographer if known, any quality observations>",
+     "recommended": false }
+   ```
+2. Visit the species' Wikipedia article. If the infobox has an image, find the Wikimedia Commons URL (click the image to navigate to its Commons page; the full-resolution URL is usually `https://upload.wikimedia.org/wikipedia/commons/...`). Record:
+   ```jsonc
+   { "url": "...", "source": "Wikimedia Commons", "sourceType": "wikimedia",
+     "license": "<as stated on Commons, typically 'CC BY-SA 4.0' or 'Public Domain'>",
+     "notes": "...", "recommended": false }
+   ```
+3. If you still need a candidate (or the first two were ambiguous), use the primary research source you already fetched for cross-verification. Record the main species photo URL from the product/care page:
+   ```jsonc
+   { "url": "...", "source": "<e.g. LiveAquaria>", "sourceType": "research-site",
+     "license": "All rights reserved (retailer)", "notes": "Product photo from retailer; clean composition typical.",
+     "recommended": false }
+   ```
+4. **Mark one entry `recommended: true`** based on this priority:
+   - **Highest:** A FishBase/AlgaeBase image with explicit CC license.
+   - **High:** A Wikimedia Commons image (almost always CC-licensed).
+   - **Medium:** Any of the above without explicit license info but from a reliable source.
+   - **Lowest:** Retailer product photo (recommend only if no other candidate exists; flag in notes).
+5. If no candidates are found across all three tiers, set `media.imageCandidates: []` (empty array, not null — null is reserved for placeholders). Document in `careNotes` that no images were located.
+
+**Constraints:**
+- Maximum 5 entries (schema enforces).
+- `url` must be a fully-qualified absolute URL.
+- Do NOT attempt to download or save images — agents can't handle binary content. URLs only.
+- Do NOT recommend an image you can't be confident is the correct species — if the page's content didn't unambiguously identify the species, set `recommended: false` and explain in notes.
+
 ### 5. Write the species JSON file
 
 Write the complete file to `$TARGET_OUTPUT_PATH`. The file must match `src/species-schema/species.schema.json` exactly.

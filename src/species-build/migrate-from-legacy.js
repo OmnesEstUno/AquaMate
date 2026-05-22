@@ -103,7 +103,8 @@ function makePlaceholderEntry({ legacyItem, kind, taxon, waterType, slug }) {
     },
     media: {
       primaryImage: legacyItem.image_url || null,
-      gallery: []
+      gallery: [],
+      imageCandidates: null
     },
     summary: legacyItem.description || null,
     careNotes: null,

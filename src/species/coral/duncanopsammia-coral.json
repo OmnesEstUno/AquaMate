@@ -4,68 +4,109 @@
   "kind": "fauna",
   "taxon": "coral",
   "waterType": "saltwater",
-
   "commonName": "Duncanopsammia Coral",
   "scientificName": "Duncanopsammia axifuga",
-  "alsoKnownAs": ["Duncan Coral", "Whisker Coral", "Branched Disc Coral", "Daisy Coral", "Duncanops Coral"],
+  "alsoKnownAs": [
+    "Duncan Coral",
+    "Whisker Coral",
+    "Branched Disc Coral",
+    "Daisy Coral",
+    "Duncanops Coral"
+  ],
   "category": "LPS Coral",
-
   "taxonomy": {
     "family": "Dendrophylliidae",
     "order": "Scleractinia"
   },
-
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Western Pacific", "Indian Ocean"],
-    "countries": ["Australia", "Indonesia", "Papua New Guinea", "Philippines", "Vietnam", "Taiwan"],
+    "regions": [
+      "Indo-Pacific",
+      "Western Pacific",
+      "Indian Ocean"
+    ],
+    "countries": [
+      "Australia",
+      "Indonesia",
+      "Papua New Guinea",
+      "Philippines",
+      "Vietnam",
+      "Taiwan"
+    ],
     "habitat": "Deeper reef slopes and walls, typically 15–25 m depth in low-light, slow-flow environments",
     "biotope": "Reef"
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 27 },
-    "pH":           { "min": 8.1, "max": 8.4 },
-    "gH":           null,
-    "kH":           { "min": 8, "max": 12 },
-    "salinity":     { "min": 1.023, "max": 1.026 }
+    "temperatureC": {
+      "min": 22,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.023,
+      "max": 1.026
+    }
   },
-
-  "adultSizeCm": { "min": 5, "max": 30 },
-  "lifespanYears": { "min": 20, "max": 100 },
-
+  "adultSizeCm": {
+    "min": 5,
+    "max": 30
+  },
+  "lifespanYears": {
+    "min": 20,
+    "max": 100
+  },
   "tank": {
     "minVolumeLiters": 75,
     "minLengthCm": 45,
     "swimZone": null,
-    "decorPreferences": ["live rock", "sand substrate", "lower placement", "stable structure for attachment"]
+    "decorPreferences": [
+      "live rock",
+      "sand substrate",
+      "lower placement",
+      "stable structure for attachment"
+    ]
   },
-
   "careLevel": "intermediate",
-
   "diet": {
     "type": "planktivore",
     "notes": "Primarily photosynthetic via zooxanthellae. Benefits from target feeding 2–3 times per week with meaty marine foods: enriched mysis shrimp, brine shrimp, nauplii larvae, cyclops, finely chopped shellfish, and LPS-specific pellets. Target-feed each polyp head individually. Also absorbs dissolved organics from the water column."
   },
-
   "compatibility": {
     "temperament": "peaceful",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["peaceful fish", "non-aggressive LPS corals", "soft corals", "reef-safe invertebrates", "clownfish", "gobies", "cardinalfish"],
-    "avoidWith": ["torch coral", "hammer coral", "aggressive LPS with long sweeper tentacles", "anemones", "large aggressive fish that may nip polyps"]
+    "goodWith": [
+      "peaceful fish",
+      "non-aggressive LPS corals",
+      "soft corals",
+      "reef-safe invertebrates",
+      "clownfish",
+      "gobies",
+      "cardinalfish"
+    ],
+    "avoidWith": [
+      "torch coral",
+      "hammer coral",
+      "aggressive LPS with long sweeper tentacles",
+      "anemones",
+      "large aggressive fish that may nip polyps"
+    ]
   },
-
   "media": {
     "primaryImage": null,
-    "gallery": []
+    "gallery": [],
+    "imageCandidates": null
   },
-
   "summary": "A beginner-friendly LPS coral from Australia's deeper reefs; branching green colonies expand dramatically under moderate light with regular target feeding.",
-
   "careNotes": "Duncanopsammia axifuga (Duncan Coral) is a fast-growing, branching LPS coral from Australia and the South China Sea, found naturally at 15–25 m depth in calm, low-light conditions. Each polyp head is ~2.5 cm across with flowing tentacles. Colonies are fast-growing and will branch prolifically with good husbandry, requiring ample space to avoid crowding neighboring corals. Place toward the bottom of the tank in indirect, moderate flow — polyps should wave gently without being blown flat. Avoid direct high flow. Requires regular calcium and alkalinity dosing for skeletal growth. Cross-source note: temperature range varies across sources (72–78°F per LiveAquaria/Fish Laboratory vs. 76–80°F per Bulk Reef Supply); the conservative range 22–27°C is used here. Lighting PAR also varies (100–150 PAR per Fish Laboratory vs. 150–250 PAR per Bulk Reef Supply); 100–250 PAR encompasses both. Care level reported as 'beginner' by most hobbyist sources but 'moderate' by BRS and LiveAquaria; 'intermediate' is used conservatively. Calcium requirements vary slightly across sources (380–460 ppm combined range). Lifespan estimated as decades to over a century in the wild; captive specimens reliably kept for multiple decades.",
-
   "breedingNotes": "Readily propagated by fragging individual polyp stalks. Each established head produces approximately one new polyp per month under good conditions. Fragments heal quickly and attach to live rock. Sexual reproduction in the wild; captive sexual breeding not commonly reported.",
-
   "sources": {
     "primary": {
       "name": "World Wide Corals",
@@ -100,25 +141,32 @@
       }
     ]
   },
-
   "fish": null,
   "crustacean": null,
   "coral": {
     "coralType": "LPS",
-    "lighting": { "minPAR": 100, "maxPAR": 250 },
+    "lighting": {
+      "minPAR": 100,
+      "maxPAR": 250
+    },
     "flow": "medium",
     "placement": "lower",
     "aggressionRangeCm": 2,
     "feedingFrequency": "weekly",
-    "calciumPPM": { "min": 380, "max": 460 },
-    "magnesiumPPM": { "min": 1200, "max": 1400 }
+    "calciumPPM": {
+      "min": 380,
+      "max": 460
+    },
+    "magnesiumPPM": {
+      "min": 1200,
+      "max": 1400
+    }
   },
   "mollusc": null,
   "echinoderm": null,
   "other-invert": null,
   "plant": null,
   "macroalgae": null,
-
   "schemaVersion": 1,
   "dataStatus": "researched",
   "lastReviewed": "2026-05-21"

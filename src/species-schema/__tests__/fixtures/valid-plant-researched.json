@@ -8,27 +8,54 @@
   "scientificName": "Microsorum pteropus",
   "alsoKnownAs": [],
   "category": "Fern",
-  "taxonomy": { "family": "Polypodiaceae", "order": "Polypodiales" },
+  "taxonomy": {
+    "family": "Polypodiaceae",
+    "order": "Polypodiales"
+  },
   "nativeRange": {
-    "regions": ["Southeast Asia"],
-    "countries": ["Thailand", "Malaysia", "Indonesia"],
+    "regions": [
+      "Southeast Asia"
+    ],
+    "countries": [
+      "Thailand",
+      "Malaysia",
+      "Indonesia"
+    ],
     "habitat": "Shaded streams and on rocks/wood in flowing water",
     "biotope": "Stream"
   },
   "waterParameters": {
-    "temperatureC": { "min": 18, "max": 28 },
-    "pH":           { "min": 6.0, "max": 7.5 },
-    "gH":           { "min": 2, "max": 15 },
-    "kH":           { "min": 3, "max": 8 },
-    "salinity":     null
+    "temperatureC": {
+      "min": 18,
+      "max": 28
+    },
+    "pH": {
+      "min": 6,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 2,
+      "max": 15
+    },
+    "kH": {
+      "min": 3,
+      "max": 8
+    },
+    "salinity": null
   },
-  "adultSizeCm":   { "min": 15, "max": 35 },
+  "adultSizeCm": {
+    "min": 15,
+    "max": 35
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 40,
     "minLengthCm": 45,
     "swimZone": "all",
-    "decorPreferences": ["driftwood", "rocks"]
+    "decorPreferences": [
+      "driftwood",
+      "rocks"
+    ]
   },
   "careLevel": "beginner",
   "diet": null,
@@ -39,7 +66,11 @@
     "goodWith": [],
     "avoidWith": []
   },
-  "media": { "primaryImage": "java_fern.jpg", "gallery": [] },
+  "media": {
+    "primaryImage": "java_fern.jpg",
+    "gallery": [],
+    "imageCandidates": null
+  },
   "summary": "Hardy epiphytic fern that attaches to driftwood or rocks; thrives in low light.",
   "careNotes": "Do not bury rhizome. Tie to driftwood or rock until rhizome attaches.",
   "breedingNotes": null,
@@ -63,7 +94,10 @@
     "co2": "optional",
     "growthRate": "slow",
     "placement": "epiphyte",
-    "propagation": ["rhizome division", "adventitious plantlets"],
+    "propagation": [
+      "rhizome division",
+      "adventitious plantlets"
+    ],
     "substrate": "n/a",
     "fertilization": "low"
   },

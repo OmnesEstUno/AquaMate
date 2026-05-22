@@ -6,65 +6,98 @@
   "waterType": "freshwater",
   "commonName": "Black Ghost Knifefish",
   "scientificName": "Apteronotus albifrons",
-  "alsoKnownAs": ["Black Ghost Knife Fish", "Black Ghost"],
+  "alsoKnownAs": [
+    "Black Ghost Knife Fish",
+    "Black Ghost"
+  ],
   "category": "Oddball / Specialty Fish",
-
   "taxonomy": {
     "family": "Apteronotidae",
     "order": "Gymnotiformes"
   },
-
   "nativeRange": {
-    "regions": ["South America"],
-    "countries": ["Venezuela", "Brazil", "Peru", "Bolivia", "Paraguay", "Argentina"],
+    "regions": [
+      "South America"
+    ],
+    "countries": [
+      "Venezuela",
+      "Brazil",
+      "Peru",
+      "Bolivia",
+      "Paraguay",
+      "Argentina"
+    ],
     "habitat": "Rapidly flowing creeks and rivers with sandy bottoms; also found in slower reaches of large river systems",
     "biotope": "Blackwater"
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 28 },
-    "pH": { "min": 6.5, "max": 7.5 },
-    "gH": { "min": 5, "max": 15 },
+    "temperatureC": {
+      "min": 23,
+      "max": 28
+    },
+    "pH": {
+      "min": 6.5,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 5,
+      "max": 15
+    },
     "kH": null,
     "salinity": null
   },
-
-  "adultSizeCm": { "min": 35, "max": 50 },
-  "lifespanYears": { "min": 10, "max": 15 },
-
+  "adultSizeCm": {
+    "min": 35,
+    "max": 50
+  },
+  "lifespanYears": {
+    "min": 10,
+    "max": 15
+  },
   "tank": {
     "minVolumeLiters": 208,
     "minLengthCm": 120,
     "swimZone": "bottom",
-    "decorPreferences": ["caves", "PVC pipes", "driftwood", "dense planting", "low lighting", "dark substrate"]
+    "decorPreferences": [
+      "caves",
+      "PVC pipes",
+      "driftwood",
+      "dense planting",
+      "low lighting",
+      "dark substrate"
+    ]
   },
-
   "careLevel": "intermediate",
-
   "diet": {
     "type": "carnivore",
     "notes": "Primarily feeds on insect larvae, frozen/freeze-dried bloodworms, blackworms, brine shrimp, and appropriately sized sinking pellets. Avoid relying solely on flake foods. Nocturnal feeder — feed after lights out."
   },
-
   "compatibility": {
     "temperament": "semi-aggressive",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["Geophagus cichlids", "peaceful catfish (Corydoras, large Plecos)", "Angelfish", "large peaceful tetras", "peaceful fish larger than 15 cm"],
-    "avoidWith": ["other Black Ghost Knifefish (territorial conspecific aggression)", "nano fish under 6 cm", "aggressive cichlids", "fast nippy fish like some rainbowfish"]
+    "goodWith": [
+      "Geophagus cichlids",
+      "peaceful catfish (Corydoras, large Plecos)",
+      "Angelfish",
+      "large peaceful tetras",
+      "peaceful fish larger than 15 cm"
+    ],
+    "avoidWith": [
+      "other Black Ghost Knifefish (territorial conspecific aggression)",
+      "nano fish under 6 cm",
+      "aggressive cichlids",
+      "fast nippy fish like some rainbowfish"
+    ]
   },
-
   "media": {
     "primaryImage": null,
-    "gallery": []
+    "gallery": [],
+    "imageCandidates": null
   },
-
   "summary": "A striking 18-inch South American oddball that uses weak electric fields to navigate. Needs a large, heavily-decorated tank with caves and dim lighting; generally peaceful with fish too large to eat.",
-
   "careNotes": "The Black Ghost Knifefish is a nocturnal, electroreceptive fish that uses weak electrical pulses for navigation and communication (poses no danger to humans or tankmates). Juveniles can start in a 55-gallon (208 L) tank but adults require 120–180 gallons (450–680 L) for long-term health. Provide plenty of hiding places — caves, PVC pipes, and driftwood — as this species is shy and stress-prone without shelter. Keep lighting subdued; floating plants help diffuse light. Peaceful toward most tankmates but becomes predatory toward small fish (under ~6 cm) as it matures, and is highly territorial toward conspecifics. Do not house two Black Ghost Knifefish together unless in a very large (200+ gallon) tank with visual barriers. Feed after lights out. Sensitive to water quality; maintain good filtration and perform regular water changes. Note on water parameters: Aquarium Co-Op cites pH 6.8–7.8 while FishBase records 6.0–8.0; a conservative middle range of 6.5–7.5 is used here. Adult size: Aquarium Co-Op cites 35–45 cm; FishBase records maximum 50 cm — both figures are reflected in the adultSizeCm range. Noteworthy trait: this species is capable of jumping from open tanks; a tight-fitting lid is strongly recommended.",
-
   "breedingNotes": "Breeding in captivity is extremely rare and not documented under typical home aquarium conditions. No reliable captive breeding protocol is established; wild-caught individuals make up the vast majority of the trade.",
-
   "sources": {
     "primary": {
       "name": "Aquarium Co-Op",
@@ -81,7 +114,6 @@
       }
     ]
   },
-
   "fish": {
     "breedingDifficulty": "not in captivity",
     "breedingNotes": "Breeding in captivity is extremely rare and not reliably documented. No established home aquarium breeding protocol exists.",
@@ -96,7 +128,6 @@
   "other-invert": null,
   "plant": null,
   "macroalgae": null,
-
   "schemaVersion": 1,
   "dataStatus": "researched",
   "lastReviewed": "2026-05-21"

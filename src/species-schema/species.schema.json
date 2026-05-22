@@ -268,10 +268,28 @@
     "media": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["primaryImage", "gallery"],
+      "required": ["primaryImage", "gallery", "imageCandidates"],
       "properties": {
         "primaryImage": { "type": ["string", "null"] },
-        "gallery":      { "type": "array", "items": { "type": "string" } }
+        "gallery":      { "type": "array", "items": { "type": "string" } },
+        "imageCandidates": {
+          "description": "Candidate image URLs from Stage C research (FishBase/AlgaeBase preferred, then Wikimedia, then research site). Null for placeholders; array (possibly empty) for researched entries. Reviewer picks one and uploads to R2.",
+          "type": ["array", "null"],
+          "maxItems": 5,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["url", "source", "sourceType", "license", "notes", "recommended"],
+            "properties": {
+              "url":         { "type": "string", "format": "uri" },
+              "source":      { "type": "string", "minLength": 1, "description": "Human-readable source name, e.g. 'FishBase', 'Wikimedia Commons', 'LiveAquaria'." },
+              "sourceType":  { "type": "string", "enum": ["fishbase", "algaebase", "wikimedia", "research-site", "other"] },
+              "license":     { "type": ["string", "null"], "description": "License text if stated on the source (e.g. 'CC BY-SA 4.0', 'Public Domain', 'All rights reserved')." },
+              "notes":       { "type": ["string", "null"], "description": "Agent observations: photographer attribution, image dimensions if known, watermark concerns, etc." },
+              "recommended": { "type": "boolean", "description": "True for the single best candidate per the agent's judgment. At most one entry should be true." }
+            }
+          }
+        }
       }
     },
 
