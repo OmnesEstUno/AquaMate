@@ -4,105 +4,287 @@
     "fish-freshwater": {
       "taxon": "fish",
       "waterType": "freshwater",
-      "primary": { "name": "Aquarium Co-Op", "root": "https://www.aquariumcoop.com/" },
+      "primary": {
+        "name": "Aquarium Co-Op",
+        "root": "https://www.aquariumcoop.com/"
+      },
       "secondaries": [
-        { "name": "SeriouslyFish",         "root": "https://www.seriouslyfish.com/" },
-        { "name": "FishBase",              "root": "https://www.fishbase.se/" },
-        { "name": "Practical Fishkeeping", "root": "https://www.practicalfishkeeping.co.uk/" }
+        {
+          "name": "SeriouslyFish",
+          "root": "https://www.seriouslyfish.com/"
+        },
+        {
+          "name": "FishBase",
+          "root": "https://www.fishbase.se/"
+        },
+        {
+          "name": "Practical Fishkeeping",
+          "root": "https://www.practicalfishkeeping.co.uk/"
+        },
+        {
+          "name": "Fishkeeping World",
+          "root": "https://www.fishkeepingworld.com/"
+        }
       ]
     },
     "fish-saltwater": {
       "taxon": "fish",
       "waterType": "saltwater",
-      "primary": { "name": "LiveAquaria", "root": "https://www.liveaquaria.com/" },
+      "primary": {
+        "name": "LiveAquaria",
+        "root": "https://www.liveaquaria.com/"
+      },
       "secondaries": [
-        { "name": "Reef2Reef wiki",   "root": "https://www.reef2reef.com/wiki/" },
-        { "name": "FishBase",         "root": "https://www.fishbase.se/" },
-        { "name": "BlueZoo Aquatics", "root": "https://www.bluezooaquatics.com/" }
+        {
+          "name": "Reef2Reef wiki",
+          "root": "https://www.reef2reef.com/wiki/"
+        },
+        {
+          "name": "FishBase",
+          "root": "https://www.fishbase.se/"
+        },
+        {
+          "name": "BlueZoo Aquatics",
+          "root": "https://www.bluezooaquatics.com/"
+        },
+        {
+          "name": "Fishkeeping World",
+          "root": "https://www.fishkeepingworld.com/"
+        },
+        {
+          "name": "TFH Magazine",
+          "root": "https://www.tfhmagazine.com/"
+        }
       ]
     },
     "crustacean-freshwater": {
       "taxon": "crustacean",
       "waterType": "freshwater",
-      "primary": { "name": "Aquarium Co-Op", "root": "https://www.aquariumcoop.com/" },
+      "primary": {
+        "name": "Aquarium Co-Op",
+        "root": "https://www.aquariumcoop.com/"
+      },
       "secondaries": [
-        { "name": "The Shrimp Farm",       "root": "https://www.theshrimpfarm.com/" },
-        { "name": "Flip Aquatics",         "root": "https://flipaquatics.com/" },
-        { "name": "Practical Fishkeeping", "root": "https://www.practicalfishkeeping.co.uk/" }
+        {
+          "name": "The Shrimp Farm",
+          "root": "https://www.theshrimpfarm.com/"
+        },
+        {
+          "name": "Flip Aquatics",
+          "root": "https://flipaquatics.com/"
+        },
+        {
+          "name": "Practical Fishkeeping",
+          "root": "https://www.practicalfishkeeping.co.uk/"
+        },
+        {
+          "name": "Fishkeeping World",
+          "root": "https://www.fishkeepingworld.com/"
+        }
       ]
     },
     "crustacean-saltwater": {
       "taxon": "crustacean",
       "waterType": "saltwater",
-      "primary": { "name": "LiveAquaria", "root": "https://www.liveaquaria.com/" },
+      "primary": {
+        "name": "LiveAquaria",
+        "root": "https://www.liveaquaria.com/"
+      },
       "secondaries": [
-        { "name": "Reef2Reef wiki",   "root": "https://www.reef2reef.com/wiki/" },
-        { "name": "BlueZoo Aquatics", "root": "https://www.bluezooaquatics.com/" }
+        {
+          "name": "Reef2Reef wiki",
+          "root": "https://www.reef2reef.com/wiki/"
+        },
+        {
+          "name": "BlueZoo Aquatics",
+          "root": "https://www.bluezooaquatics.com/"
+        },
+        {
+          "name": "Fishkeeping World",
+          "root": "https://www.fishkeepingworld.com/"
+        },
+        {
+          "name": "TFH Magazine",
+          "root": "https://www.tfhmagazine.com/"
+        }
       ]
     },
     "coral-saltwater": {
       "taxon": "coral",
       "waterType": "saltwater",
-      "primary": { "name": "World Wide Corals", "root": "https://www.worldwidecorals.com/" },
+      "primary": {
+        "name": "World Wide Corals",
+        "root": "https://www.worldwidecorals.com/"
+      },
       "secondaries": [
-        { "name": "Reef2Reef wiki",    "root": "https://www.reef2reef.com/wiki/" },
-        { "name": "Bulk Reef Supply",  "root": "https://www.bulkreefsupply.com/" },
-        { "name": "LiveAquaria",       "root": "https://www.liveaquaria.com/" }
+        {
+          "name": "Reef2Reef wiki",
+          "root": "https://www.reef2reef.com/wiki/"
+        },
+        {
+          "name": "Bulk Reef Supply",
+          "root": "https://www.bulkreefsupply.com/"
+        },
+        {
+          "name": "LiveAquaria",
+          "root": "https://www.liveaquaria.com/"
+        },
+        {
+          "name": "AquaticCommunity",
+          "root": "https://www.aquaticcommunity.com/"
+        }
       ]
     },
     "mollusc-freshwater": {
       "taxon": "mollusc",
       "waterType": "freshwater",
-      "primary": { "name": "Aquarium Co-Op", "root": "https://www.aquariumcoop.com/" },
+      "primary": {
+        "name": "Aquarium Co-Op",
+        "root": "https://www.aquariumcoop.com/"
+      },
       "secondaries": [
-        { "name": "The Shrimp Farm",       "root": "https://www.theshrimpfarm.com/" },
-        { "name": "Practical Fishkeeping", "root": "https://www.practicalfishkeeping.co.uk/" }
+        {
+          "name": "The Shrimp Farm",
+          "root": "https://www.theshrimpfarm.com/"
+        },
+        {
+          "name": "Practical Fishkeeping",
+          "root": "https://www.practicalfishkeeping.co.uk/"
+        },
+        {
+          "name": "Fishkeeping World",
+          "root": "https://www.fishkeepingworld.com/"
+        },
+        {
+          "name": "TFH Magazine",
+          "root": "https://www.tfhmagazine.com/"
+        }
       ]
     },
     "mollusc-saltwater": {
       "taxon": "mollusc",
       "waterType": "saltwater",
-      "primary": { "name": "LiveAquaria", "root": "https://www.liveaquaria.com/" },
+      "primary": {
+        "name": "LiveAquaria",
+        "root": "https://www.liveaquaria.com/"
+      },
       "secondaries": [
-        { "name": "Reef2Reef wiki", "root": "https://www.reef2reef.com/wiki/" }
+        {
+          "name": "Reef2Reef wiki",
+          "root": "https://www.reef2reef.com/wiki/"
+        },
+        {
+          "name": "TFH Magazine",
+          "root": "https://www.tfhmagazine.com/"
+        },
+        {
+          "name": "AquaticCommunity",
+          "root": "https://www.aquaticcommunity.com/"
+        }
       ]
     },
     "echinoderm-saltwater": {
       "taxon": "echinoderm",
       "waterType": "saltwater",
-      "primary": { "name": "LiveAquaria", "root": "https://www.liveaquaria.com/" },
+      "primary": {
+        "name": "LiveAquaria",
+        "root": "https://www.liveaquaria.com/"
+      },
       "secondaries": [
-        { "name": "Reef2Reef wiki",   "root": "https://www.reef2reef.com/wiki/" },
-        { "name": "Bulk Reef Supply", "root": "https://www.bulkreefsupply.com/" }
+        {
+          "name": "Reef2Reef wiki",
+          "root": "https://www.reef2reef.com/wiki/"
+        },
+        {
+          "name": "Bulk Reef Supply",
+          "root": "https://www.bulkreefsupply.com/"
+        },
+        {
+          "name": "TFH Magazine",
+          "root": "https://www.tfhmagazine.com/"
+        },
+        {
+          "name": "AquaticCommunity",
+          "root": "https://www.aquaticcommunity.com/"
+        }
       ]
     },
     "plant-freshwater": {
       "taxon": "plant",
       "waterType": "freshwater",
-      "primary": { "name": "Buce Plant", "root": "https://buceplant.com/" },
+      "primary": {
+        "name": "Buce Plant",
+        "root": "https://buceplant.com/"
+      },
       "secondaries": [
-        { "name": "Tropica",            "root": "https://tropica.com/" },
-        { "name": "2HR Aquarist",       "root": "https://www.2hraquarist.com/" },
-        { "name": "AquariumPlants.com", "root": "https://www.aquariumplants.com/" }
+        {
+          "name": "Tropica",
+          "root": "https://tropica.com/"
+        },
+        {
+          "name": "2HR Aquarist",
+          "root": "https://www.2hraquarist.com/"
+        },
+        {
+          "name": "AquariumPlants.com",
+          "root": "https://www.aquariumplants.com/"
+        },
+        {
+          "name": "TFH Magazine",
+          "root": "https://www.tfhmagazine.com/"
+        }
       ]
     },
     "plant-saltwater": {
       "taxon": "plant",
       "waterType": "saltwater",
-      "primary": { "name": "AlgaeBase", "root": "https://www.algaebase.org/" },
+      "primary": {
+        "name": "AlgaeBase",
+        "root": "https://www.algaebase.org/"
+      },
       "secondaries": [
-        { "name": "Reef2Reef macroalgae wiki", "root": "https://www.reef2reef.com/wiki/" },
-        { "name": "ReefCleaners",              "root": "https://www.reefcleaners.org/" }
+        {
+          "name": "Reef2Reef macroalgae wiki",
+          "root": "https://www.reef2reef.com/wiki/"
+        },
+        {
+          "name": "ReefCleaners",
+          "root": "https://www.reefcleaners.org/"
+        },
+        {
+          "name": "TFH Magazine",
+          "root": "https://www.tfhmagazine.com/"
+        },
+        {
+          "name": "AlgaeBarn",
+          "root": "https://www.algaebarn.com/"
+        }
       ]
     },
     "algae-saltwater": {
       "taxon": "macroalgae",
       "waterType": "saltwater",
-      "primary": { "name": "AlgaeBase", "root": "https://www.algaebase.org/" },
+      "primary": {
+        "name": "AlgaeBase",
+        "root": "https://www.algaebase.org/"
+      },
       "secondaries": [
-        { "name": "ReefCleaners",     "root": "https://www.reefcleaners.org/" },
-        { "name": "Bulk Reef Supply", "root": "https://www.bulkreefsupply.com/" },
-        { "name": "Reef2Reef wiki",   "root": "https://www.reef2reef.com/wiki/" }
+        {
+          "name": "ReefCleaners",
+          "root": "https://www.reefcleaners.org/"
+        },
+        {
+          "name": "Bulk Reef Supply",
+          "root": "https://www.bulkreefsupply.com/"
+        },
+        {
+          "name": "Reef2Reef wiki",
+          "root": "https://www.reef2reef.com/wiki/"
+        },
+        {
+          "name": "AlgaeBarn",
+          "root": "https://www.algaebarn.com/"
+        }
       ]
     }
   }
