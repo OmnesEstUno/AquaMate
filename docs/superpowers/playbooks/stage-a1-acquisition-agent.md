@@ -61,11 +61,16 @@ Sort `candidates` alphabetically by `commonName` (case-insensitive) for stable d
 
 ### 1. Acquire ALL applicable indexes
 
-Same procedure as the unified Stage A playbook step 1:
-
-- Identify all index types on `$PRIMARY_SOURCE_ROOT`: product catalog, care-guide blog, sitemap, taxon-filtered search.
+- Identify all index types on `$PRIMARY_SOURCE_ROOT`. Common patterns:
+  - **Flat catalog** — single paginated list of species/products (e.g., Buce Plant `/collections/aquarium-plants` with `?page=N`).
+  - **Hierarchical category index** — a top-level page (e.g., `/products`, `/categories`, `/category/<id>/<name>`) that lists subcategory pages, each of which has its own species list. Two levels of crawl needed: gather subcategory URLs first, then visit each subcategory page. LiveAquaria, large reef retailers, and FishBase use this pattern.
+  - **Care-guide blog or article tag** — curated editorial subset (e.g., Aquarium Co-Op `/blogs/aquarium/tagged/care-guides`).
+  - **HTML sitemap or category landing page** — fallback when other indexes aren't easy to find.
+  - **Taxon-filtered search** — site search URL that narrows to your `$TAXON` + `$WATER_TYPE`.
 - Visit each index that applies to your slice.
 - **Paginate each index to completion.** Follow `?page=2`, `?page=3`, etc. or "next page" links until exhausted.
+- For hierarchical indexes, also paginate the **subcategory list** itself if it spans multiple pages, then paginate **each subcategory page** to completion.
+- Skip subcategories that don't match your slice's taxon+waterType (e.g., when crawling a "products" index that mixes freshwater and saltwater categories, skip the freshwater categories for a saltwater slice).
 - Don't pick the smallest curated index and stop — harvest from the broadest available.
 
 If after reasonable effort you cannot locate any species index for this source/slice, return `FAILED_INDEX_ACQUISITION` with a description.
