@@ -217,7 +217,7 @@
         "gH":           { "$ref": "#/$defs/nullableNumericRange" },
         "kH":           { "$ref": "#/$defs/nullableNumericRange" },
         "salinity":     {
-          "description": "Salinity in PPT (parts per thousand). Always use ppt, never specific gravity. Conversion: ppt ≈ (SG - 1) × 1300. E.g., SG 1.020 ≈ 26 ppt, SG 1.023 ≈ 30 ppt, SG 1.025 ≈ 33 ppt, SG 1.026 ≈ 35 ppt. The min/max bounds below reject SG values (1.020-1.030 range) at validation time.",
+          "description": "Salinity in specific gravity (SG) — the conventional unit for aquarium hobby refractometers and hydrometers. Always use SG, never ppt. Convert from ppt using SG ≈ 1 + (ppt / 1300). E.g., 26 ppt ≈ SG 1.020, 30 ppt ≈ SG 1.023, 33 ppt ≈ SG 1.025, 35 ppt ≈ SG 1.026. The min/max bounds below (1.000 ≤ x ≤ 1.040) reject ppt values (always > 5) at validation time.",
           "oneOf": [
             { "type": "null" },
             {
@@ -225,8 +225,8 @@
               "additionalProperties": false,
               "required": ["min", "max"],
               "properties": {
-                "min": { "type": "number", "minimum": 0, "maximum": 50 },
-                "max": { "type": "number", "minimum": 0, "maximum": 50 }
+                "min": { "type": "number", "minimum": 1.000, "maximum": 1.040 },
+                "max": { "type": "number", "minimum": 1.000, "maximum": 1.040 }
               }
             }
           ]

@@ -94,7 +94,7 @@ When sources disagree on the SAME dimension, your default move is to **average a
 Some fields have unit conventions that aquarium-hobby sources may write inconsistently. **Always normalize before writing:**
 
 - **`waterParameters.temperatureC`** — Celsius. Convert from Fahrenheit if source uses it: `C = (F - 32) × 5/9`.
-- **`waterParameters.salinity`** — **PPT (parts per thousand) ONLY. Never specific gravity.** Many saltwater sources state salinity as "1.020–1.025" (specific gravity). Convert before writing: `ppt ≈ round((SG - 1) × 1300)`. Reference: SG 1.020 ≈ 26 ppt, SG 1.023 ≈ 30 ppt, SG 1.025 ≈ 33 ppt, SG 1.026 ≈ 35 ppt. The schema rejects values below 5 — if your written value is < 5, you almost certainly forgot to convert.
+- **`waterParameters.salinity`** — **Specific gravity (SG) ONLY. Never ppt.** SG is the conventional unit for aquarium hobby refractometers and hydrometers (range 1.000–1.030). Many scientific sources state salinity as ppt (parts per thousand); convert before writing: `SG ≈ 1 + (ppt / 1300)`. Reference: 26 ppt ≈ SG 1.020, 30 ppt ≈ SG 1.023, 33 ppt ≈ SG 1.025, 35 ppt ≈ SG 1.026. The schema rejects values outside `[1.000, 1.040]` — if your written value is > 5, you almost certainly forgot to convert from ppt. For freshwater taxa, set salinity to `null` (not `{min:0, max:0}`).
 - **`adultSizeCm`** — centimeters. Convert from inches: `cm = in × 2.54`.
 - **`tank.minVolumeLiters`** — liters. Convert from US gallons: `L = gal × 3.785`.
 
