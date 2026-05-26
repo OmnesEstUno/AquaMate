@@ -1,0 +1,147 @@
+{
+  "id": "sw-fish-016",
+  "slug": "black-percula-clownfish",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Black Percula Clownfish",
+  "scientificName": "Amphiprion ocellaris",
+  "alsoKnownAs": ["Darwin Clownfish", "Darwin Ocellaris", "Black Ocellaris Clownfish", "Black False Percula Clownfish"],
+  "category": "Clownfish",
+
+  "taxonomy": {
+    "family": "Pomacentridae",
+    "order": "Blenniiformes"
+  },
+
+  "nativeRange": {
+    "regions": ["Indo-Pacific", "Northern Australia", "Eastern Indian Ocean"],
+    "countries": ["Australia"],
+    "habitat": "Shallow coral reefs and lagoons, typically at depths of 1–15 m, in association with host sea anemones",
+    "biotope": "Reef"
+  },
+
+  "waterParameters": {
+    "temperatureC": { "min": 23.0, "max": 29.0 },
+    "pH":           { "min": 8.0,  "max": 8.4 },
+    "gH":           null,
+    "kH":           { "min": 8.0,  "max": 12.0 },
+    "salinity":     { "min": 1.020, "max": 1.025 }
+  },
+
+  "adultSizeCm":   { "min": 7.5, "max": 9.0 },
+  "lifespanYears": { "min": 6.0, "max": 15.0 },
+
+  "tank": {
+    "minVolumeLiters":  90,
+    "minLengthCm":      60,
+    "swimZone":         "all",
+    "decorPreferences": ["host anemone", "live rock", "open swimming space near anemone"]
+  },
+
+  "careLevel": "beginner",
+
+  "diet": {
+    "type": "omnivore",
+    "notes": "Generally accepts a wide variety of foods including high-quality marine flakes and pellets (ideally with spirulina), frozen mysis shrimp, brine shrimp, and other frozen meaty foods. Has been documented feeding on zooplankton, algae, and small invertebrates in the wild."
+  },
+
+  "compatibility": {
+    "temperament":  "semi-aggressive",
+    "grouping":     "pair",
+    "minGroupSize": 1,
+    "goodWith":     ["peaceful reef fish", "corals", "sea anemones", "clams", "invertebrates (non-shrimp)"],
+    "avoidWith":    ["other clownfish species", "larger aggressive fish", "damselfish", "dottybacks"]
+  },
+
+  "media": {
+    "primaryImage": null,
+    "gallery":      [],
+    "imageCandidates": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Clown_fish_in_the_Andaman_Coral_Reef.jpg",
+        "source": "Wikimedia Commons",
+        "sourceType": "wikimedia",
+        "license": "CC BY-SA 3.0",
+        "notes": "Photographer: Ritiks; 3884×2600 px, hi-res; shows Amphiprion ocellaris in natural anemone habitat (Andaman Coral Reef). This is the standard orange morph, not the black morph — reviewer should confirm acceptability or prefer a black-morph image.",
+        "recommended": false
+      },
+      {
+        "url": "https://www.fishbase.se/images/species/Amoce_u0.jpg",
+        "source": "FishBase",
+        "sourceType": "fishbase",
+        "license": "CC-BY (J.E. Randall, per FishBase gallery)",
+        "notes": "Photographer: J.E. Randall; FishBase species photo for Amphiprion ocellaris from Indonesia. Standard orange morph — not the black Darwin morph. Reviewer should verify URL resolves and confirm morph representation.",
+        "recommended": false
+      },
+      {
+        "url": "https://www.liveaquaria.com/products/black-percula-clownfish",
+        "source": "LiveAquaria",
+        "sourceType": "research-site",
+        "license": "All rights reserved (retailer)",
+        "notes": "LiveAquaria product page for the Black Percula Clownfish tank-raised variant. Reviewer should extract the product hero image URL directly from the page; the product image will show the actual black morph coloration. URL here is the page, not a direct image URL.",
+        "recommended": false
+      }
+    ]
+  },
+
+  "summary": "The Black Percula Clownfish is a naturally occurring black morph of Amphiprion ocellaris, found in the Darwin area of northern Australia. Generally considered one of the more beginner-friendly reef fish, it tends to do well as a single specimen or mated pair in reef tanks with a compatible host anemone.",
+
+  "careNotes": "The Black Percula Clownfish is a color variant of Amphiprion ocellaris (the Ocellaris Clownfish), not Amphiprion percula — despite its common trade name. The black morph occurs naturally near Darwin, Northern Territory, Australia, and is rarely imported from the wild; nearly all specimens in the trade are captive-bred. Juveniles are born orange and transition to black as they mature.\n\nLike all clownfish, these fish are protandrous hermaphrodites: all individuals are born male, and the dominant individual in a group becomes female. When keeping a pair, introduce both fish simultaneously or purchase a confirmed mated pair to reduce aggression.\n\nThey have been known to be territorial around their host anemone, occasionally harassing tankmates that approach too closely. Best kept singly or as a mated pair; introducing multiple individuals simultaneously may reduce conspecific aggression. Compatible host anemones include Heteractis magnifica, Stichodactyla gigantea, and Stichodactyla mertensii, though an anemone is generally not required for the fish to thrive in captivity.\n\nWater parameter notes: FishBase wild habitat data indicates a temperature range of 26.2–29.3°C; aquarium hobby sources commonly suggest 23–29°C as the practical range. The broader minimum reflects aquarium tolerance, not the wild optimum. Wild specimens have been reported surviving salinities as low as 15 ppt without apparent ill effect, though standard reef salinity (SG 1.020–1.025) is generally advised. Tank size estimates varied across sources: LiveAquaria recommends 30 gallons (114 L), while some sources cite as low as 10 gallons (38 L) for a single specimen; 90 L (~24 gal) represents a rounded average and provides adequate territory for a pair. FishBase reports a wild maximum length of 11 cm; aquarium individuals typically reach 7.5–9 cm. Lifespan reports ranged from 6 to over 15 years in well-maintained aquariums; the wide spread reflects differences in husbandry quality rather than a biological inconsistency.",
+
+  "breedingNotes": "Captive-bred specimens have been reported to breed readily in home aquariums. They are egg-layers: females deposit eggs on a flat, clean surface near their host anemone and both parents guard and aerate the clutch. Eggs generally hatch in approximately 6–11 days depending on water temperature. Raising larvae is considered the primary challenge — newly hatched fry require separate rearing tanks and an initial diet of rotifers, transitioning to baby brine shrimp as they grow. Breeding difficulty is generally considered moderate for the spawning phase and more advanced for larval rearing.",
+
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/black-percula-clownfish",
+      "accessedDate": "2026-05-25",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Amphiprion-ocellaris",
+        "accessedDate": "2026-05-25",
+        "notes": "Cross-checked adult size (11 cm wild max), temperature range (26.2–29.3°C wild habitat), taxonomy (Pomacentridae, Blenniiformes), and native range. FishBase lists A. ocellaris; confirmed this is the correct species for the Black Percula / Darwin Clownfish trade variant."
+      },
+      {
+        "name": "ORA (Oceans, Reefs & Aquariums)",
+        "url": "https://www.orafarm.com/product/black-ocellaris-clownfish/",
+        "accessedDate": "2026-05-25",
+        "notes": "Confirmed Black Percula Clownfish = Amphiprion ocellaris (Darwin morph), not A. percula. Confirmed near-total captive-bred supply and Darwin, Northern Territory origin. Confirmed juvenile-to-black color transition."
+      },
+      {
+        "name": "Saltwater Aquarium Blog",
+        "url": "https://www.saltwateraquariumblog.com/ocellaris-clownfish-care-size-lifespan-cost-compatibility/",
+        "accessedDate": "2026-05-25",
+        "notes": "Cross-checked temperature (22.8–28.8°C), pH (8.1–8.4), salinity (SG ~1.025), adult size (7.6–9 cm), minimum tank (10 gal / 38 L), lifespan (15+ yr). Used to inform parameter averaging."
+      },
+      {
+        "name": "Fish Laboratory (Ocellaris Clownfish care guide)",
+        "url": "https://www.fishlaboratory.com/fish/ocellaris-clownfish/",
+        "accessedDate": "2026-05-25",
+        "notes": "Cross-checked temperature (23.3–28.3°C / 74–83°F), pH (7.8–8.4), salinity (1.020–1.025), adult size (7.5–10 cm), minimum tank (10 gal / 38 L), lifespan (avg 6 yr), diet (omnivore). Used to inform parameter averaging."
+      }
+    ]
+  },
+
+  "fish": {
+    "breedingDifficulty": "moderate",
+    "breedingNotes": "Pairs spawn readily in captivity on flat surfaces near a host anemone; larvae are challenging to raise and require dedicated rearing tanks with rotifers as first food.",
+    "conspecificAggression": "moderate",
+    "finNippy": false,
+    "reefSafe": "yes"
+  },
+  "crustacean":   null,
+  "coral":        null,
+  "mollusc":      null,
+  "echinoderm":   null,
+  "other-invert": null,
+  "plant":        null,
+  "macroalgae":   null,
+
+  "schemaVersion": 1,
+  "dataStatus":    "researched",
+  "lastReviewed":  "2026-05-25"
+}

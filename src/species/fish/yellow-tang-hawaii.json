@@ -1,0 +1,140 @@
+{
+  "id": "sw-fish-015",
+  "slug": "yellow-tang-hawaii",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Yellow Tang, Hawaii",
+  "scientificName": "Zebrasoma flavescens",
+  "alsoKnownAs": ["Yellow Surgeonfish", "Yellow Hawaiian Tang", "Lemon Sailfin"],
+  "category": "Tang / Surgeonfish",
+
+  "taxonomy": {
+    "family": "Acanthuridae",
+    "order": "Acanthuriformes"
+  },
+
+  "nativeRange": {
+    "regions": ["Pacific Ocean"],
+    "countries": ["Japan", "United States", "Marshall Islands", "Northern Mariana Islands", "Guam", "Wake Island"],
+    "habitat": "Coral-rich areas of lagoon and seaward reefs; found at depths of 2–46 m, commonly 3–46 m over rock.",
+    "biotope": "Reef"
+  },
+
+  "waterParameters": {
+    "temperatureC": { "min": 23.0, "max": 27.5 },
+    "pH":           { "min": 8.1, "max": 8.4 },
+    "gH":           null,
+    "kH":           { "min": 8.0, "max": 12.0 },
+    "salinity":     { "min": 1.021, "max": 1.025 }
+  },
+
+  "adultSizeCm":   { "min": 15.0, "max": 20.0 },
+  "lifespanYears": { "min": 10.0, "max": 20.0 },
+
+  "tank": {
+    "minVolumeLiters": 320,
+    "minLengthCm": 120,
+    "swimZone": "all",
+    "decorPreferences": ["live rock", "open swimming lanes", "algae growth surfaces"]
+  },
+
+  "careLevel": "intermediate",
+
+  "diet": {
+    "type": "herbivore",
+    "notes": "Primarily grazes on filamentous algae and marine vegetation. Has been documented consuming benthic algae from live rock and glass surfaces. Supplemental feeding of dried seaweed (nori), spirulina-based foods, and herbivore pellets is generally advised at least 3 times per week. Have been known to accept small amounts of meaty foods, but algae-based nutrition tends to support immune function and reduce territorial behavior."
+  },
+
+  "compatibility": {
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["clownfish", "angelfish", "wrasses", "gobies", "basslets", "reef-safe invertebrates", "corals"],
+    "avoidWith": ["other Yellow Tangs (unless introduced simultaneously in large tanks)", "other Zebrasoma tangs", "similarly-shaped surgeonfish in smaller tanks"]
+  },
+
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Zebrasoma_flavescens_Luc_Viatour.jpg",
+        "source": "Wikimedia Commons",
+        "sourceType": "wikimedia",
+        "license": "CC BY-SA 3.0",
+        "notes": "Photographer: Luc Viatour / https://Lucnix.be. High-resolution (3509×2440 px, 3.93 MB), Nikon D300 capture. Unambiguously identified as Zebrasoma flavescens. Strongly recommended candidate.",
+        "recommended": true
+      },
+      {
+        "url": "https://www.liveaquaria.com/cdn/shop/files/lg_74760_YellowTang.jpg?v=1771032836",
+        "source": "LiveAquaria",
+        "sourceType": "research-site",
+        "license": "All rights reserved (retailer)",
+        "notes": "Product hero image from LiveAquaria species page for Yellow Tang, Hawaii (product #392). Clean composition typical of retailer photography; likely a captive specimen against a clean background.",
+        "recommended": false
+      }
+    ]
+  },
+
+  "summary": "A vibrant yellow surgeonfish native to Hawaiian and Pacific reefs, widely considered one of the most iconic saltwater aquarium fish. Generally advised to keep in tanks of at least 300–380 L with ample live rock and open swimming space.",
+
+  "careNotes": "Yellow Tangs are active, open-water swimmers that tend to graze continually on algae throughout the day. They are generally considered reef-safe and have been documented helping control nuisance algae growth on rock surfaces and glass. However, if underfed, isolated cases of nipping at large-polyped stony and soft corals have been reported.\n\nConspecific and inter-tang aggression: Yellow Tangs have been known to display strong territorial aggression toward conspecifics and other similarly-shaped surgeonfish, particularly in smaller tanks. Most sources advise keeping only one per system unless multiple individuals are introduced simultaneously into a very large aquarium (>500 L). Aggression toward non-tang species tends to be low.\n\nDisease susceptibility: Yellow Tangs are notably prone to marine ich (Cryptocaryon irritans) and Head and Lateral Line Erosion (HLLE). Maintaining stable, high-quality water and a varied, algae-rich diet is generally credited with reducing susceptibility. Captive-bred specimens (available from Biota Aquariums via Oceanic Institute of Hawaii) have been reported to be hardier and more disease-resistant than wild-caught individuals.\n\nWater parameter notes — temperature disagreement: LiveAquaria recommends 72–78°F (22.2–25.6°C), while FishBase, Wikipedia, and reeflings cite 24–28°C. The averaged range used here is 23–27.5°C. The lower bound of 23°C is supported by aquahoy and partially by LiveAquaria; most reef-keeping sources cluster around 24–26°C as optimal.\n\nMinimum tank volume — disagreement documented: LiveAquaria specifies 100 US gallons (378.5 L); aquahoy and reeflings independently recommend 300 L (79 gal). The value used (320 L) is the average of these three estimates. Some hobbyist sources cite up to 125 gallons (473 L) for comfort. A larger tank is always preferable for this active swimmer.\n\nHLLE note: HLLE (Head and Lateral Line Erosion) is commonly associated with poor diet, activated carbon use, and water quality instability in tang species; a varied diet and reduced carbon exposure tend to be cited as preventive measures.",
+
+  "breedingNotes": "Captive breeding of Yellow Tangs was first achieved in 2015 by the Oceanic Institute of Hawaii Pacific University. Spawning has been reported to be lunar-dependent, typically occurring around the full moon. In the wild, both group spawning and pair spawning by territorial males have been observed. Females have been reported to release approximately 40,000 eggs per spawn. Larvae are pelagic and described as highly fragile, requiring specialized micro-diets (copepod nauplii, enriched rotifers) during a 50–60 day developmental period. Captive breeding remains technically complex; commercially available captive-bred specimens are sourced from specialist facilities.",
+
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/product/392/?pcatid=392",
+      "accessedDate": "2026-05-25",
+      "notes": "Species page for Yellow Tang, Hawaii (product #392). Provided: care level (easy), adult size (8 in), min tank (100 gal), temp (72–78°F), pH (8.1–8.4), SG (1.020–1.025), dKH (8–12), diet, temperament, reef safe status."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Zebrasoma-flavescens.html",
+        "accessedDate": "2026-05-25",
+        "notes": "Cross-verified adult size (20.0 cm TL), native range (Pacific: Ryukyu, Mariana, Marshall, Marcus, Wake, Hawaiian islands), temperature (24–28°C), depth (2–46 m), diet (herbivorous, filamentous algae), family (Acanthuridae), order (Acanthuriformes), spawning behavior."
+      },
+      {
+        "name": "Reeflings",
+        "url": "https://reeflings.com/species/zebrasoma-flavescens",
+        "accessedDate": "2026-05-25",
+        "notes": "Cross-verified: adult size 20 cm, min tank 300 L, temp 24–28°C, pH 8.0–8.5, SG 1.023–1.026, care level easy/beginner, reef safe yes, lifespan up to 20 years. Used to support averaging of tank size and salinity."
+      },
+      {
+        "name": "AquaHoy",
+        "url": "https://aquahoy.com/yellow-tang-zebrasoma-flavescens-care-feeding-breeding/",
+        "accessedDate": "2026-05-25",
+        "notes": "Cross-verified: adult size 20 cm, min tank 300 L (single specimen), temp 23–28°C, pH 8.1–8.4, SG 1.020–1.025, care level intermediate-to-advanced, breeding notes (lunar spawning, ~40,000 eggs, 50–60 day larval period), lifespan 10–20 years captive."
+      },
+      {
+        "name": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Zebrasoma_flavescens_Luc_Viatour.jpg",
+        "accessedDate": "2026-05-25",
+        "notes": "Image candidate source. Photographer: Luc Viatour (CC BY-SA 3.0). 3509×2440 px, unambiguous species identification."
+      }
+    ]
+  },
+
+  "fish": {
+    "breedingDifficulty": "advanced",
+    "breedingNotes": "First captive-bred in 2015 (Oceanic Institute of Hawaii). Lunar-dependent spawning; larvae require specialized micro-diets over a 50–60 day period. Commercially available captive-bred stock exists but breeding at home is not practical.",
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "yes"
+  },
+
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-05-25"
+}

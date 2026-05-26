@@ -1,0 +1,135 @@
+{
+  "id": "sw-fish-012",
+  "slug": "kaudern-s-cardinal",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Kaudern's Cardinal",
+  "scientificName": "Pterapogon kauderni",
+  "alsoKnownAs": ["Banggai Cardinalfish", "Longfin Cardinalfish"],
+  "category": "Cardinalfish",
+
+  "taxonomy": {
+    "family": "Apogonidae",
+    "order": "Kurtiformes"
+  },
+
+  "nativeRange": {
+    "regions": ["Asia", "Southeast Asia"],
+    "countries": ["Indonesia"],
+    "habitat": "Shallow coastal waters (0–16 m depth) over silty sand and seagrass beds; commonly associates with long-spined sea urchins (Diadema setosum) for shelter",
+    "biotope": "Reef"
+  },
+
+  "waterParameters": {
+    "temperatureC": { "min": 22.2, "max": 25.6 },
+    "pH":           { "min": 8.1,  "max": 8.4 },
+    "gH":           null,
+    "kH":           { "min": 8.0,  "max": 12.0 },
+    "salinity":     { "min": 1.020, "max": 1.025 }
+  },
+
+  "adultSizeCm":   { "min": 3.0, "max": 8.1 },
+  "lifespanYears": { "min": 3.0, "max": 5.0 },
+
+  "tank": {
+    "minVolumeLiters": 113.6,
+    "minLengthCm":     null,
+    "swimZone":        "mid",
+    "decorPreferences": ["cave-like rockwork", "live rock", "sea urchins"]
+  },
+
+  "careLevel": "intermediate",
+
+  "diet": {
+    "type": "carnivore",
+    "notes": "Generally advised to offer meaty foods such as frozen mysis shrimp, brine shrimp, marine flesh, and small feeder shrimp. Wild individuals have been documented feeding on small benthic and planktonic crustaceans at night. Some individuals may initially refuse non-live foods, requiring weaning onto frozen or prepared diets."
+  },
+
+  "compatibility": {
+    "temperament":  "semi-aggressive",
+    "grouping":     "pair",
+    "minGroupSize": 2,
+    "goodWith":     ["peaceful reef fish", "gobies", "blennies", "dartfish", "small wrasses"],
+    "avoidWith":    ["large aggressive fish", "conspecifics in groups of three or more", "boisterous tankmates that may outcompete them for food"]
+  },
+
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Banggai_cardinal_fish.jpg",
+        "source": "Wikimedia Commons",
+        "sourceType": "wikimedia",
+        "license": "CC BY-SA 2.0",
+        "notes": "Photo by Jon Hanson (London, UK), originally posted to Flickr 2006-08-05. Shows adult specimen clearly; full-resolution file.",
+        "recommended": true
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Pterapogon_kauderni_Pengo.jpg",
+        "source": "Wikimedia Commons",
+        "sourceType": "wikimedia",
+        "license": "CC BY-SA 2.5",
+        "notes": "Photo by Peter Halasz (Pengo), taken at Budapest Zoo Aquarium 2018-08-30 with Panasonic DMC-FZ5. Aquarium shot; clearly shows species markings.",
+        "recommended": false
+      },
+      {
+        "url": "https://www.fishbase.se/images/thumbnails/jpg/tn_Ptkau_u9.jpg",
+        "source": "FishBase",
+        "sourceType": "fishbase",
+        "license": null,
+        "notes": "FishBase thumbnail credited to Muséum-Aquarium de Nancy / B. Alenda. License not explicitly stated. Thumbnail resolution; full-resolution URL not confirmed.",
+        "recommended": false
+      }
+    ]
+  },
+
+  "summary": "A striking silver cardinalfish from Indonesia's Banggai Islands, characterized by bold black stripes and white spots. Generally considered intermediate in care; generally advised to keep as a pair or solo in reef aquariums.",
+
+  "careNotes": "Kaudern's Cardinal (*Pterapogon kauderni*) is endemic to the Banggai Islands of Indonesia — one of the most geographically restricted marine fish in the world — and is classified as Endangered (IUCN EN) largely due to pressure from the aquarium trade. Captive-bred individuals are generally advised when available, as they tend to accept prepared foods more readily and reduce pressure on wild populations.\n\nTemperament toward conspecifics has been noted differently across sources: LiveAquaria rates the species as semi-aggressive and recommends against keeping in large groups, while Wikipedia and field observations report stable groups of up to 9 (and hundreds in the wild). The practical captive recommendation is to keep as a bonded pair or singly; three or more individuals in a confined system have been known to result in persistent aggression. The semi-aggressive temperament rating applied here reflects captive experience.\n\nCare level is averaged between LiveAquaria ('easy') and broader hobbyist consensus ('moderate to advanced', especially regarding weaning off live foods and sensitivity to water quality). Intermediate has been recorded here as the best-fit average.\n\nAdult size: LiveAquaria states 3 in (7.62 cm); FishBase records max 8.6 cm; Wikipedia states ~8 cm. Averaged max is ~8.1 cm.\n\nLifespan: Wikipedia reports ~4 years in optimal captive conditions; wild lifespan may be 1–2 years. A range of 3–5 years has been recorded.\n\nIn the wild this species shelters among the spines of *Diadema* sea urchins; providing urchins or dense rockwork with cave-like structure in aquariums may help reduce stress. Juveniles also associate with anemones for protection.\n\nConservation note: This species is IUCN Endangered. Hobbyists are generally advised to source captive-bred specimens.",
+
+  "breedingNotes": "Kaudern's Cardinal is a paternal mouthbrooder: after spawning, the male incubates the eggs and larvae entirely within his mouth until the young (approximately 8 mm SL) are released as fully formed juveniles — there is no free-swimming larval stage. This trait makes captive breeding comparatively accessible. Distinct pairing behaviour precedes spawning. Breeding in home aquariums has been reported with reasonable frequency, making this one of the more tractable marine fish to breed in captivity. Sexual maturity is reached at approximately 4.1 cm total length, with a generation time of roughly 1.5 years.",
+
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/kauderns-cardinal-1",
+      "accessedDate": "2026-05-25",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Pterapogon-kauderni",
+        "accessedDate": "2026-05-25",
+        "notes": "Cross-checked adult size (8.6 cm max female), taxonomy (Apogonidae / Kurtiformes), native range (Banggai Islands, Indonesia), habitat depth and biotope, diet (benthic/planktonic crustaceans), and reproduction (paternal mouthbrooding). Temperature, pH, and salinity not stated on FishBase page."
+      },
+      {
+        "name": "Wikipedia — Banggai cardinalfish",
+        "url": "https://en.wikipedia.org/wiki/Banggai_cardinalfish",
+        "accessedDate": "2026-05-25",
+        "notes": "Cross-checked adult size (~8 cm), lifespan (~4 years captive), grouping behaviour (stable groups of ~9 in shallow water), and IUCN Endangered status. Temperature and salinity not given. Care level described as 'moderate to advanced' — averaged with LiveAquaria's 'easy' to produce 'intermediate'."
+      }
+    ]
+  },
+
+  "fish": {
+    "breedingDifficulty": "moderate",
+    "breedingNotes": "Paternal mouthbrooder; male incubates eggs and larvae until juveniles (~8 mm) are released fully formed. Captive breeding has been reported with reasonable success; no free-swimming larval stage simplifies rearing.",
+    "conspecificAggression": "moderate",
+    "finNippy": false,
+    "reefSafe": "yes"
+  },
+  "crustacean": null,
+  "coral":       null,
+  "mollusc":     null,
+  "echinoderm":  null,
+  "other-invert": null,
+  "plant":       null,
+  "macroalgae":  null,
+
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-05-25"
+}
