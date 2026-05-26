@@ -6,32 +6,79 @@
   "waterType": "saltwater",
   "commonName": "Estuary Seahorse",
   "scientificName": "Hippocampus kuda",
-  "alsoKnownAs": ["Spotted Seahorse", "Yellow Seahorse", "Common Seahorse", "Kuda Seahorse"],
+  "alsoKnownAs": [
+    "Spotted Seahorse",
+    "Yellow Seahorse",
+    "Common Seahorse",
+    "Kuda Seahorse"
+  ],
   "category": "Seahorse",
   "taxonomy": {
     "family": "Syngnathidae",
     "order": "Syngnathiformes"
   },
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Red Sea", "Eastern Africa", "Australia", "Japan", "Hawaii", "French Polynesia"],
-    "countries": ["South Africa", "Indonesia", "Philippines", "Australia", "Japan", "India", "Sri Lanka", "Hawaii (USA)"],
+    "regions": [
+      "Indo-Pacific",
+      "Red Sea",
+      "Eastern Africa",
+      "Australia",
+      "Japan",
+      "Hawaii",
+      "French Polynesia"
+    ],
+    "countries": [
+      "South Africa",
+      "Indonesia",
+      "Philippines",
+      "Australia",
+      "Japan",
+      "India",
+      "Sri Lanka",
+      "Hawaii (USA)"
+    ],
     "habitat": "Shallow coastal waters; seagrass beds, estuaries, lagoons, harbors, mangroves, and seaward reefs. Depth range 0–68 m, typically 0–8 m. Marine and brackish tolerant.",
     "biotope": "Estuary"
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 27 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 22,
+      "max": 25
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 26, "max": 33 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 26,
+      "max": 33
+    }
   },
-  "adultSizeCm": { "min": 5, "max": 30 },
-  "lifespanYears": { "min": 1, "max": 4 },
+  "adultSizeCm": {
+    "min": 5,
+    "max": 30
+  },
+  "lifespanYears": {
+    "min": 1,
+    "max": 4
+  },
   "tank": {
     "minVolumeLiters": 189,
     "minLengthCm": 60,
     "swimZone": "mid",
-    "decorPreferences": ["gorgonian coral", "branching coral", "algae", "seagrass", "hitching posts", "low-flow zones"]
+    "decorPreferences": [
+      "gorgonian coral",
+      "branching coral",
+      "algae",
+      "seagrass",
+      "hitching posts",
+      "low-flow zones"
+    ]
   },
   "careLevel": "advanced",
   "diet": {
@@ -42,8 +89,21 @@
     "temperament": "peaceful",
     "grouping": "pair",
     "minGroupSize": 2,
-    "goodWith": ["pipefish", "seahorses (same species)", "slow-moving docile fish", "small gobies"],
-    "avoidWith": ["aggressive fish", "fast-moving fish", "large angelfish", "triggerfish", "pufferfish", "stinging anemones", "bristle worms"]
+    "goodWith": [
+      "pipefish",
+      "seahorses (same species)",
+      "slow-moving docile fish",
+      "small gobies"
+    ],
+    "avoidWith": [
+      "aggressive fish",
+      "fast-moving fish",
+      "large angelfish",
+      "triggerfish",
+      "pufferfish",
+      "stinging anemones",
+      "bristle worms"
+    ]
   },
   "media": {
     "primaryImage": null,

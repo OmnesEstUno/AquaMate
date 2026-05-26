@@ -6,54 +6,91 @@
   "waterType": "saltwater",
   "commonName": "Flame Angelfish",
   "scientificName": "Centropyge loricula",
-  "alsoKnownAs": ["Flame Angel"],
+  "alsoKnownAs": [
+    "Flame Angel"
+  ],
   "category": "Dwarf Angelfish",
-
   "taxonomy": {
     "family": "Pomacanthidae",
     "order": "Acanthuriformes"
   },
-
   "nativeRange": {
-    "regions": ["Central Pacific", "Oceania"],
-    "countries": ["Marshall Islands", "Line Islands", "Cook Islands", "Hawaii (United States)", "Christmas Island", "French Polynesia (Tahiti)", "Philippines (Cebu)"],
+    "regions": [
+      "Central Pacific",
+      "Oceania"
+    ],
+    "countries": [
+      "Marshall Islands",
+      "Line Islands",
+      "Cook Islands",
+      "Hawaii (United States)",
+      "Christmas Island",
+      "French Polynesia (Tahiti)",
+      "Philippines (Cebu)"
+    ],
     "habitat": "Clear lagoon and seaward reefs from the lower surge zone to a depth of 57 m; typically found near rock and coral rubble",
     "biotope": "Reef"
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 28 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 22,
+      "max": 26
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.02, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 26,
+      "max": 32
+    }
   },
-
-  "adultSizeCm": { "min": 8, "max": 15 },
-  "lifespanYears": { "min": 5, "max": 7 },
-
+  "adultSizeCm": {
+    "min": 8,
+    "max": 15
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 7
+  },
   "tank": {
     "minVolumeLiters": 265,
     "minLengthCm": null,
     "swimZone": "all",
-    "decorPreferences": ["live rock", "caves", "hiding places", "coral rubble"]
+    "decorPreferences": [
+      "live rock",
+      "caves",
+      "hiding places",
+      "coral rubble"
+    ]
   },
-
   "careLevel": "intermediate",
-
   "diet": {
     "type": "omnivore",
     "notes": "Diet should include spirulina, marine algae (grazes on algae on live rock), high-quality angelfish preparations, and meaty foods such as mysis shrimp or frozen shrimp. Feed 2–3 times daily in established aquariums with live rock for supplemental grazing."
   },
-
   "compatibility": {
     "temperament": "semi-aggressive",
     "grouping": "pair",
     "minGroupSize": 1,
-    "goodWith": ["non-aggressive reef fish", "clownfish", "tangs", "wrasses", "gobies"],
-    "avoidWith": ["other dwarf angelfish", "conspecifics (without careful introduction)", "very passive fish that may be harassed"]
+    "goodWith": [
+      "non-aggressive reef fish",
+      "clownfish",
+      "tangs",
+      "wrasses",
+      "gobies"
+    ],
+    "avoidWith": [
+      "other dwarf angelfish",
+      "conspecifics (without careful introduction)",
+      "very passive fish that may be harassed"
+    ]
   },
-
   "media": {
     "primaryImage": null,
     "gallery": [],
@@ -84,13 +121,9 @@
       }
     ]
   },
-
   "summary": "A brilliantly colored dwarf angelfish from the Central Pacific, prized for its vivid red-orange body with vertical black bars and electric blue fin accents. Semi-aggressive; keep with caution in reef tanks.",
-
   "careNotes": "The Flame Angelfish is considered one of the most striking dwarf angelfish available to hobbyists. It should be the last fish introduced to a peaceful community to reduce territorial aggression. Adequate hiding places via live rock are essential. Keep only one per tank unless a mated pair is available; males are generally larger and may show more blue on fin margins. Avoid copper-based medications above 0.15 ppm. This species is hermaphroditic (protogynous): females can become males in the absence of a dominant male. Regional color variants exist — fish from Christmas Island and the Marshall Islands are especially sought-after for their deep coloration. Diet note: FishBase classifies this species as primarily herbivorous (grazes algae), while LiveAquaria recommends an omnivore diet including meaty foods; the broader omnivore diet is recommended in captivity. Adult size note: LiveAquaria lists a maximum of ~10 cm (4 in) and FishBase records up to 15 cm TL; the aquarium-attainable size is typically 8–10 cm, with 15 cm being an absolute wild-recorded maximum.",
-
   "breedingNotes": "Breeding in captivity is very difficult and rarely achieved. The species is protogynous hermaphrodite — the dominant individual in a harem becomes male. No reliable external color distinction between sexes exists, though males tend to be larger and may display more blue on dorsal and anal fin edges. Spawning occurs in pairs, releasing pelagic eggs. Captive rearing of larvae has been reported but requires specialized facilities; considered not commercially bred at hobbyist level.",
-
   "sources": {
     "primary": {
       "name": "LiveAquaria",
@@ -113,7 +146,6 @@
       }
     ]
   },
-
   "fish": {
     "breedingDifficulty": "advanced",
     "breedingNotes": "Protogynous hermaphrodite; harem spawner. Captive breeding possible but very rarely achieved outside specialized facilities.",
@@ -121,7 +153,6 @@
     "finNippy": true,
     "reefSafe": "with caution"
   },
-
   "crustacean": null,
   "coral": null,
   "mollusc": null,
@@ -129,7 +160,6 @@
   "other-invert": null,
   "plant": null,
   "macroalgae": null,
-
   "schemaVersion": 1,
   "dataStatus": "researched",
   "lastReviewed": "2026-05-22"

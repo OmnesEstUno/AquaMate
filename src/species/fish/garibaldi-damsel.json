@@ -6,54 +6,88 @@
   "waterType": "saltwater",
   "commonName": "Garibaldi Damsel",
   "scientificName": "Hypsypops rubicundus",
-  "alsoKnownAs": ["Garibaldi Damselfish", "Garibaldi"],
+  "alsoKnownAs": [
+    "Garibaldi Damselfish",
+    "Garibaldi"
+  ],
   "category": "Damselfish",
-
   "taxonomy": {
     "family": "Pomacentridae",
     "order": "Ovalentaria"
   },
-
   "nativeRange": {
-    "regions": ["Eastern Pacific Ocean", "Northeastern Pacific"],
-    "countries": ["United States", "Mexico"],
+    "regions": [
+      "Eastern Pacific Ocean",
+      "Northeastern Pacific"
+    ],
+    "countries": [
+      "United States",
+      "Mexico"
+    ],
     "habitat": "Rocky bottoms in clear water, often near crevices and small caves at depths up to 30 m; occasionally in kelp forests",
     "biotope": "Coastal"
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 18, "max": 23 },
-    "pH":           { "min": 8.1, "max": 8.4 },
-    "gH":           null,
-    "kH":           null,
-    "salinity":     { "min": 27, "max": 33 }
+    "temperatureC": {
+      "min": 18,
+      "max": 23
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 27,
+      "max": 33
+    }
   },
-
-  "adultSizeCm": { "min": 20, "max": 30 },
-  "lifespanYears": { "min": 17, "max": 25 },
-
+  "adultSizeCm": {
+    "min": 20,
+    "max": 30
+  },
+  "lifespanYears": {
+    "min": 17,
+    "max": 25
+  },
   "tank": {
     "minVolumeLiters": 681,
     "minLengthCm": 180,
     "swimZone": "mid",
-    "decorPreferences": ["live rock", "rockwork caves", "crevices", "territorial boundaries"]
+    "decorPreferences": [
+      "live rock",
+      "rockwork caves",
+      "crevices",
+      "territorial boundaries"
+    ]
   },
-
   "careLevel": "intermediate",
-
   "diet": {
     "type": "omnivore",
     "notes": "Feed on various meaty foods (brine shrimp, mysis shrimp), herbivore preparations, flake and pellet foods. In the wild, feeds mainly on attached invertebrates including sponges, polychaete worms, anemones, and red algae. Recommend feeding twice daily."
   },
-
   "compatibility": {
     "temperament": "aggressive",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["large semi-aggressive angelfish (Pomacanthus, Holacanthus)", "tangs", "large wrasses", "parrotfish", "groupers", "lionfish"],
-    "avoidWith": ["conspecifics (extremely aggressive toward own species)", "small or peaceful fish species", "fish smaller than 4 inches"]
+    "goodWith": [
+      "large semi-aggressive angelfish (Pomacanthus, Holacanthus)",
+      "tangs",
+      "large wrasses",
+      "parrotfish",
+      "groupers",
+      "lionfish"
+    ],
+    "avoidWith": [
+      "conspecifics (extremely aggressive toward own species)",
+      "small or peaceful fish species",
+      "fish smaller than 4 inches"
+    ]
   },
-
   "media": {
     "primaryImage": null,
     "gallery": [],
@@ -76,13 +110,9 @@
       }
     ]
   },
-
   "summary": "A brilliantly orange California state fish requiring cooler water (18–23°C) and a large tank (180+ gal). Extremely aggressive toward conspecifics; best kept singly. Very long-lived, up to 25 years.",
-
   "careNotes": "The Garibaldi Damsel is the official state marine fish of California, prized for its vivid orange coloration. Juveniles display distinctive electric-blue spots and blue-outlined fins that fade with age. This species requires cooler water than most tropical marines (18–23°C / 64–74°F); standard reef temperatures above 26°C may stress the fish. LiveAquaria recommends a minimum 180-gallon (681 L) tank with extensive live rock for territorial boundaries — notably more conservative than some other sources that suggest 100 gallons. Only ONE individual should be kept per tank due to extreme intraspecific aggression. Can be housed with large, robust semi-aggressive species such as large angelfishes, tangs, parrotfish, wrasses, and groupers; avoid small or passive tankmates. Males are sexually dimorphic with a larger body and a distinctive fleshy frontal lobe. In the wild, this species can reach 35 cm total length and live up to 57 years (FishBase records); aquarium specimens typically remain closer to 30 cm and live 17–25 years. Temperature note: FishBase records wild habitat temperatures of 15.3–19.2°C (modeled); aquarium sources recommend 18–23°C as a practical keeping range. Fishkeeping World lists temperature as 20–26°C and tank size as 100 gallons — both are less conservative than LiveAquaria's guidance; LiveAquaria figures used here as primary source.",
-
   "breedingNotes": "Breeding has not been achieved in captivity. Sexual maturity is reached at approximately 5–6 years of age when the fish is around 20–23 cm (8–9 inches). Spawning season in the wild runs from March to July. Males construct and guard algae-based nests and can lay 15,000–80,000 eggs per clutch, with a 2–3 week incubation period. Males aggressively defend nest sites and will bite divers. Due to their slow maturation and complex breeding requirements, captive breeding has not been successfully accomplished.",
-
   "sources": {
     "primary": {
       "name": "LiveAquaria",
@@ -105,7 +135,6 @@
       }
     ]
   },
-
   "fish": {
     "breedingDifficulty": "not in captivity",
     "breedingNotes": "Not successfully bred in captivity. Matures at 5–6 years; wild spawning season March–July; males guard algae nests.",
@@ -113,7 +142,6 @@
     "finNippy": false,
     "reefSafe": "with caution"
   },
-
   "crustacean": null,
   "coral": null,
   "mollusc": null,
@@ -121,7 +149,6 @@
   "other-invert": null,
   "plant": null,
   "macroalgae": null,
-
   "schemaVersion": 1,
   "dataStatus": "researched",
   "lastReviewed": "2026-05-22"

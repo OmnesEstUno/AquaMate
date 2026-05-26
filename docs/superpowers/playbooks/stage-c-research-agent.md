@@ -77,8 +77,28 @@ Cross-check these **high-stakes** fields explicitly. They drive husbandry decisi
 
 **Disagreement handling** (only relevant when at least 2 sources successfully confirmed):
 
-- **Minor disagreement** (within ~10% on numbers, or close enum values): take the **conservative** figure — larger min-tank, gentler temp range, gentler temperament. Note the discrepancy in `sources.additional[].notes`.
-- **Significant disagreement** (more than ~2× on size, or incompatible enum values like "peaceful" vs "aggressive"): set `dataStatus: "needs_review"`, record both figures and the source disagreement in `careNotes`. The human reviewer will resolve it.
+When sources disagree on the SAME dimension, your default move is to **average across sources** (not pick the most conservative). Aquarium husbandry values are spectrums; a single conservative pick can systematically bias the data (e.g., consistently low max temperatures).
+
+- **Numerical fields** (`adultSizeCm`, `waterParameters.*`, `tank.minVolumeLiters`, `lifespanYears`):
+  1. If two or more sources give different ranges/values, perform **2–3 targeted searches** to find additional opinions (different aquarium hobby sites, FishBase/AlgaeBase wild data, species-specific care guides).
+  2. Take the **average** of the gathered values (e.g., average of all sources' max temperatures becomes your max).
+  3. If the spread is wide (factor of ~2× or more), still average but also set `dataStatus: "needs_review"` and document all the values in `careNotes` so the reviewer can sanity-check.
+  4. Document the spread + your computed average in `sources.additional[].notes` or `careNotes`.
+- **Ordinal enum fields** (e.g., `careLevel` beginner/intermediate/advanced/expert; `compatibility.temperament` peaceful/semi-aggressive/aggressive/territorial): extrapolate the "average" by picking the middle value when sources are on opposite ends. E.g., easy vs intermediate-to-advanced → intermediate.
+- **Binary/categorical fields with no average** (e.g., `reefSafe` yes/no, `finNippy` true/false): pick the more common answer across your sources. If a 50/50 split, set `dataStatus: "needs_review"`.
+- **Don't conflate independent dimensions.** If sources disagree on *care level* because one is rating overall ease and another is rating *disease resistance* (or *conspecific aggression*), those are different dimensions — record them in their own fields (`careLevel` for overall ease, `fish.conspecificAggression`/`crustacean.escapeRisk`/etc. for the specific concern, `careNotes` prose for traits with no typed field). Set `careLevel` based on the species' baseline difficulty, then document caveats separately.
+- **Significant disagreement after averaging** (e.g., one source's value is >2× the others' and you can't average it away cleanly): set `dataStatus: "needs_review"`, record all figures in `careNotes`.
+
+### 3a. Unit conventions you must enforce
+
+Some fields have unit conventions that aquarium-hobby sources may write inconsistently. **Always normalize before writing:**
+
+- **`waterParameters.temperatureC`** — Celsius. Convert from Fahrenheit if source uses it: `C = (F - 32) × 5/9`.
+- **`waterParameters.salinity`** — **PPT (parts per thousand) ONLY. Never specific gravity.** Many saltwater sources state salinity as "1.020–1.025" (specific gravity). Convert before writing: `ppt ≈ round((SG - 1) × 1300)`. Reference: SG 1.020 ≈ 26 ppt, SG 1.023 ≈ 30 ppt, SG 1.025 ≈ 33 ppt, SG 1.026 ≈ 35 ppt. The schema rejects values below 5 — if your written value is < 5, you almost certainly forgot to convert.
+- **`adultSizeCm`** — centimeters. Convert from inches: `cm = in × 2.54`.
+- **`tank.minVolumeLiters`** — liters. Convert from US gallons: `L = gal × 3.785`.
+
+When in doubt about a value's unit, look for "ppt", "ppm", "°C/°F", "cm/in", "L/gal" in the source's surrounding text. Don't guess.
 
 ### 4. Fill the lower-stakes fields
 
@@ -95,6 +115,20 @@ From whichever source has them (primary preferred; cross-check only if it feels 
 - `careNotes` (free-form prose, shown on InfoPage)
 - `breedingNotes` (optional; null if not in sources)
 - Variant block fields (e.g., `fish.breedingDifficulty`, `coral.lighting.minPAR`, `plant.lighting`, etc.) — see schema for the required shape per taxon
+
+**Prose style — avoid deterministic language about environmental and behavioral specs.**
+
+Aquarium husbandry is rarely precise. Most parameters are spectrums; many are poorly understood. Sources often write in confident absolutes that overstate certainty. When you write `summary`, `careNotes`, or `breedingNotes`, **do not copy deterministic phrasing verbatim** — translate to hedged language that reflects the actual uncertainty:
+
+- ❌ "Requires 78°F water." → ✅ "Generally advised to keep around 24–26°C."
+- ❌ "Eats algae." → ✅ "Has been documented eating algae and small invertebrates."
+- ❌ "Lives 10 years." → ✅ "Has been reported to live 8–12 years in well-kept aquariums."
+- ❌ "Always reef-safe." → ✅ "Generally considered reef-safe; isolated cases of coral nipping have been reported."
+- ❌ "Cannot be kept with other clownfish." → ✅ "Best kept singly or as a mated pair; have been known to be aggressive toward other clownfish."
+
+Hedged phrasings to reach for: "generally advised", "have been known to", "has been reported to", "tend to", "is commonly considered", "in most cases". Reserve absolute language for genuine universals (e.g., taxonomic facts, observable morphology, hard incompatibilities like "venomous spines should be handled with caution").
+
+This rule applies to PROSE fields only. Numeric/enum fields still take their best-evidence value (per the disagreement-averaging rule in step 3); the hedging is for how you describe those values in the surrounding text.
 
 ### 4a. Handling facts that don't fit any schema field
 

@@ -6,54 +6,104 @@
   "waterType": "saltwater",
   "commonName": "Foxface Lo",
   "scientificName": "Siganus vulpinus",
-  "alsoKnownAs": ["Foxface Rabbitfish", "Foxface", "Rabbit Fish"],
+  "alsoKnownAs": [
+    "Foxface Rabbitfish",
+    "Foxface",
+    "Rabbit Fish"
+  ],
   "category": "Rabbitfish",
-
   "taxonomy": {
     "family": "Siganidae",
     "order": "Acanthuriformes"
   },
-
   "nativeRange": {
-    "regions": ["Western Pacific", "Indo-Pacific"],
-    "countries": ["Philippines", "Indonesia", "Papua New Guinea", "Australia", "Vanuatu", "New Caledonia", "Marshall Islands", "Nauru", "Kiribati", "Tonga", "Federated States of Micronesia", "Taiwan"],
+    "regions": [
+      "Western Pacific",
+      "Indo-Pacific"
+    ],
+    "countries": [
+      "Philippines",
+      "Indonesia",
+      "Papua New Guinea",
+      "Australia",
+      "Vanuatu",
+      "New Caledonia",
+      "Marshall Islands",
+      "Nauru",
+      "Kiribati",
+      "Tonga",
+      "Federated States of Micronesia",
+      "Taiwan"
+    ],
     "habitat": "Coral-rich lagoons and seaward reefs; depth range 0–30 m",
     "biotope": "Reef"
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 29 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 22,
+      "max": 26
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 26,
+      "max": 32
+    }
   },
-
-  "adultSizeCm": { "min": 18, "max": 25 },
-  "lifespanYears": { "min": 5, "max": 10 },
-
+  "adultSizeCm": {
+    "min": 18,
+    "max": 25
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 10
+  },
   "tank": {
     "minVolumeLiters": 473,
     "minLengthCm": 152,
     "swimZone": "all",
-    "decorPreferences": ["live rock", "open swimming space", "algae growth areas"]
+    "decorPreferences": [
+      "live rock",
+      "open swimming space",
+      "algae growth areas"
+    ]
   },
-
   "careLevel": "intermediate",
-
   "diet": {
     "type": "herbivore",
     "notes": "Primarily feeds on macroalgae and microalgae (nori, caulerpa, chaetomorpha, hair algae, bubble algae). Benefits from dried seaweed sheets clipped in the tank. Supplement with herbivore pellets and flakes. May occasionally accept meaty foods such as mysis or brine shrimp. A well-fed specimen is critical to prevent coral nipping."
   },
-
   "compatibility": {
     "temperament": "peaceful",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["clownfish", "tangs", "angelfish", "wrasses", "gobies", "blennies", "lionfish", "groupers", "damselfish (smaller species)", "most reef community fish"],
-    "avoidWith": ["other rabbitfish (Siganidae)", "aggressive triggerfish", "aggressive dottybacks", "maroon clownfish", "large aggressive damselfish"]
+    "goodWith": [
+      "clownfish",
+      "tangs",
+      "angelfish",
+      "wrasses",
+      "gobies",
+      "blennies",
+      "lionfish",
+      "groupers",
+      "damselfish (smaller species)",
+      "most reef community fish"
+    ],
+    "avoidWith": [
+      "other rabbitfish (Siganidae)",
+      "aggressive triggerfish",
+      "aggressive dottybacks",
+      "maroon clownfish",
+      "large aggressive damselfish"
+    ]
   },
-
   "media": {
     "primaryImage": null,
     "gallery": [],
@@ -84,13 +134,9 @@
       }
     ]
   },
-
   "summary": "Hardy, peaceful herbivore from Indo-Pacific reefs with vivid yellow coloring and a distinctive fox-like face. Excellent algae controller with venomous dorsal spines; reef-safe when well fed.",
-
   "careNotes": "The Foxface Lo is one of the hardier saltwater fish and is a great candidate for established reef aquariums with algae problems. It can be kept in a 125-gallon (473 L) or larger aquarium. The fish is generally peaceful but will become aggressive toward conspecifics and other rabbitfish — keep only one per tank unless in a very large system with a bonded pair. IMPORTANT: All dorsal and anal fin spines are venomous and can inflict a painful sting; handle only with a net or by directing the fish with aquarium tools, never with bare hands. The species is a color-changer: when stressed, sleeping, or frightened it adopts a mottled dark-brown camouflage pattern — this is normal and not a sign of illness. Reef safety depends on feeding: a well-fed specimen will typically ignore corals, but underfed fish may nip at soft corals, LPS, and zoanthids. Provide ample algae (nori clips, seaweed sheets) and consider supplementing with herbivore-formulated foods. Juveniles may school in groups around Acropora corals in the wild but adults are generally kept singly in captivity. Temperature note: FishBase habitat models give a wild range of 24.7–29 °C; aquarium trade sources commonly cite 72–78 °F (22–25.6 °C). The broader combined range (22–29 °C) is recorded here; optimal aquarium temperature is 24–27 °C.",
-
   "breedingNotes": "Breeding in captivity is extremely rare and not documented reliably. The species is a pelagic broadcast spawner that responds to lunar phases and tidal cues, making replication in home aquaria essentially infeasible. Wild pairs form monogamous bonds and spawn in open water. No commercial captive-breeding programs are known.",
-
   "sources": {
     "primary": {
       "name": "LiveAquaria",
@@ -119,7 +165,6 @@
       }
     ]
   },
-
   "fish": {
     "breedingDifficulty": "not in captivity",
     "breedingNotes": "Pelagic broadcast spawner responding to lunar and tidal cues; no reliable captive breeding documented.",
@@ -134,7 +179,6 @@
   "other-invert": null,
   "plant": null,
   "macroalgae": null,
-
   "schemaVersion": 1,
   "dataStatus": "researched",
   "lastReviewed": "2026-05-22"

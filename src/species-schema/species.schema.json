@@ -216,7 +216,21 @@
         "pH":           { "$ref": "#/$defs/nullableNumericRange" },
         "gH":           { "$ref": "#/$defs/nullableNumericRange" },
         "kH":           { "$ref": "#/$defs/nullableNumericRange" },
-        "salinity":     { "$ref": "#/$defs/nullableNumericRange" }
+        "salinity":     {
+          "description": "Salinity in PPT (parts per thousand). Always use ppt, never specific gravity. Conversion: ppt ≈ (SG - 1) × 1300. E.g., SG 1.020 ≈ 26 ppt, SG 1.023 ≈ 30 ppt, SG 1.025 ≈ 33 ppt, SG 1.026 ≈ 35 ppt. The min/max bounds below reject SG values (1.020-1.030 range) at validation time.",
+          "oneOf": [
+            { "type": "null" },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["min", "max"],
+              "properties": {
+                "min": { "type": "number", "minimum": 0, "maximum": 50 },
+                "max": { "type": "number", "minimum": 0, "maximum": 50 }
+              }
+            }
+          ]
+        }
       }
     },
 

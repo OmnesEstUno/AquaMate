@@ -8,53 +8,84 @@
   "scientificName": "Pomacanthus paru",
   "alsoKnownAs": [],
   "category": "Angelfish",
-
   "taxonomy": {
     "family": "Pomacanthidae",
     "order": "Acanthuriformes"
   },
-
   "nativeRange": {
-    "regions": ["Western Atlantic", "Eastern Atlantic"],
-    "countries": ["United States (Florida)", "Bahamas", "Brazil", "Mexico (Gulf of Mexico)", "Ascension Island"],
+    "regions": [
+      "Western Atlantic",
+      "Eastern Atlantic"
+    ],
+    "countries": [
+      "United States (Florida)",
+      "Bahamas",
+      "Brazil",
+      "Mexico (Gulf of Mexico)",
+      "Ascension Island"
+    ],
     "habitat": "Reef-associated; shallow reefs at depths of 3–100 m",
     "biotope": "Reef"
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 22.2, "max": 25.6 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 22.2,
+      "max": 25.6
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": null,
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 26,
+      "max": 32
+    }
   },
-
-  "adultSizeCm": { "min": 28.0, "max": 41.1 },
-
-  "lifespanYears": { "min": 10, "max": 27 },
-
+  "adultSizeCm": {
+    "min": 28,
+    "max": 41.1
+  },
+  "lifespanYears": {
+    "min": 10,
+    "max": 27
+  },
   "tank": {
     "minVolumeLiters": 946,
     "minLengthCm": null,
     "swimZone": "all",
-    "decorPreferences": ["live rock", "caves", "open swimming space"]
+    "decorPreferences": [
+      "live rock",
+      "caves",
+      "open swimming space"
+    ]
   },
-
   "careLevel": "intermediate",
-
   "diet": {
     "type": "omnivore",
     "notes": "Feed Spirulina, marine algae, high-quality angelfish preparations with sponge matter, mysis shrimp, and frozen shrimp. Feed at least three times daily. In the wild, consumes sponges, algae, bryozoans, zoantharians, gorgonians, and tunicates."
   },
-
   "compatibility": {
     "temperament": "semi-aggressive",
     "grouping": "pair",
     "minGroupSize": 1,
-    "goodWith": ["large semi-aggressive saltwater fish", "tangs", "wrasses"],
-    "avoidWith": ["sessile invertebrates", "soft corals", "stony corals", "clams", "other large angelfish"]
+    "goodWith": [
+      "large semi-aggressive saltwater fish",
+      "tangs",
+      "wrasses"
+    ],
+    "avoidWith": [
+      "sessile invertebrates",
+      "soft corals",
+      "stony corals",
+      "clams",
+      "other large angelfish"
+    ]
   },
-
   "media": {
     "primaryImage": null,
     "gallery": [],
@@ -85,13 +116,9 @@
       }
     ]
   },
-
   "summary": "A striking large angelfish with dark blue-black body, yellow scale margins, and pale blue face. Semi-aggressive; needs 250+ gal tank with ample live rock. Not reef safe.",
-
   "careNotes": "The French Angelfish (Pomacanthus paru) is one of the larger marine angelfish, reaching up to 41 cm in the wild. It tends to dominate the aquarium and requires a very large tank (250+ gallons / ~946 liters) with large amounts of live rock for hiding and grazing. This species is NOT reef safe — it will nip at sessile invertebrates including soft and stony corals and clam mantles. Feed at least three times daily with a varied diet including Spirulina, marine algae, high-quality angelfish preparations with sponge matter, mysis shrimp, and frozen shrimp. In the wild, juveniles serve as cleaners at cleaning stations. Adults form monogamous, territorial spawning pairs. Temperature discrepancy noted: LiveAquaria lists 72–78°F (22.2–25.6°C); FishBase reports 22.9–28°C; the conservative intersection (22.2–25.6°C) is applied. FishBase notes a maximum recorded lifespan of 27 years. Temperament noted as territorial/monogamous by FishBase, consistent with semi-aggressive classification.",
-
   "breedingNotes": "In the wild, adults form monogamous territorial spawning pairs. Juveniles act as cleaners at cleaning stations. Captive breeding is rarely documented; breeding difficulty considered advanced. Pelagic spawning in the wild.",
-
   "sources": {
     "primary": {
       "name": "LiveAquaria",
@@ -108,7 +135,6 @@
       }
     ]
   },
-
   "fish": {
     "breedingDifficulty": "advanced",
     "breedingNotes": "Monogamous pelagic spawners in the wild; captive breeding rarely achieved. Juveniles function as cleaners at cleaning stations.",
@@ -116,7 +142,6 @@
     "finNippy": false,
     "reefSafe": "no"
   },
-
   "crustacean": null,
   "coral": null,
   "mollusc": null,
@@ -124,7 +149,6 @@
   "other-invert": null,
   "plant": null,
   "macroalgae": null,
-
   "schemaVersion": 1,
   "dataStatus": "researched",
   "lastReviewed": "2026-05-22"
