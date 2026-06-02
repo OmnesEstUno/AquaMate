@@ -1,0 +1,120 @@
+{
+  "id": "sw-fish-233",
+  "slug": "two-fin-flashlight-fish",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Two-Fin Flashlight Fish",
+  "scientificName": "Anomalops katoptron",
+  "alsoKnownAs": ["Splitfin Flashlightfish", "Flashlight Fish", "Lanterneye Fish"],
+  "category": "Flashlight Fish",
+  "taxonomy": {
+    "family": "Anomalopidae",
+    "order": "Trachichthyiformes"
+  },
+  "nativeRange": {
+    "regions": ["Western Pacific", "Central Pacific", "Indo-Pacific"],
+    "countries": ["Philippines", "Indonesia", "Japan", "Australia", "French Polynesia"],
+    "habitat": "Reef-associated; typically found near steep drop-offs and caves at depths of 200–400 m, with seasonal migrations into shallow coral-reef waters on moonless nights.",
+    "biotope": "Reef"
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 22, "max": 26 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.020, "max": 1.025 }
+  },
+  "adultSizeCm": { "min": 20, "max": 30 },
+  "lifespanYears": null,
+  "tank": {
+    "minVolumeLiters": 1000,
+    "minLengthCm": 200,
+    "swimZone": "mid",
+    "decorPreferences": ["caves", "overhangs", "shaded rockwork", "dim lighting"]
+  },
+  "careLevel": "expert",
+  "diet": {
+    "type": "planktivore",
+    "notes": "Naturally feeds on zooplankton, small crustaceans, and other small invertebrates, using bioluminescent light organs to detect prey in darkness. In captivity, has been reported to accept mysis shrimp, krill, and other meaty foods, but typically only after lights-out; several small feedings per day are generally advised."
+  },
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "schooling",
+    "minGroupSize": 3,
+    "goodWith": ["other nocturnal fishes", "cardinalfishes", "squirrelfishes", "soldierfishes", "peaceful non-nipping tankmates"],
+    "avoidWith": ["bright daytime predators", "aggressive or boisterous tankmates", "fin-nippers", "strong daylight-only community tanks"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A peaceful nocturnal reef fish that produces light from symbiotic bacteria housed in rotating organs beneath each eye. Generally regarded as a specialist species best kept in small groups in dimly lit, expert-level aquariums.",
+  "careNotes": "Bioluminescent organs beneath each eye host symbiotic Vibrio bacteria that emit a steady glow; the fish can rotate the organ to flash the light on and off, using it for intraspecific signaling, prey detection, and predator evasion. Generally considered strictly nocturnal — hides during the day inside caves or overhangs and only emerges to feed after lights-out, so the display should provide ample shaded rockwork, deep caves, and subdued lighting (or a moonlight-only photoperiod). Best kept in a small group (three or more) with other nocturnal species; loners tend to do poorly. Reported to be extremely sensitive to copper-based medications and should never be exposed to them. Cross-source size disagreement was significant: LiveAquaria lists max ~23 cm (9 in), BlueZoo Aquatics lists ~36 cm (14 in), and FishBase, Wikipedia, and Reeflex all list a wild maximum of ~35 cm; captive specimens are typically reported to stay smaller (often around 10–20 cm), but the planning size used here reflects the larger consensus. Tank-size guidance also varies widely between sources: LiveAquaria 125 gal (~473 L), BlueZoo 150 gal (~568 L), Reeflex 2000 L. The 1000 L figure here biases toward the larger, specialist recommendation given the species' nocturnal schooling behavior and need for open swimming space and substantial dark refugia; this value should be sanity-checked by the reviewer.",
+  "breedingNotes": null,
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/two-fin-flashlight-fish-expert-only",
+      "accessedDate": "2026-06-02",
+      "notes": "Primary source. Provided care level, diet, water parameters, minimum tank size, temperament, reef-compatibility, copper sensitivity. The collection landing URL supplied by the discovery agent did not list this species; the canonical product page was located by search and used in its place."
+    },
+    "additional": [
+      {
+        "name": "BlueZoo Aquatics",
+        "url": "https://www.bluezooaquatics.com/productDetail.asp?did=1&pid=919&cid=291",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked temperament, native range, diet, care level, reef-compatibility. Reported adult size 14 in (~36 cm), agreeing with FishBase/Wikipedia wild maximum but disagreeing with LiveAquaria's 9 in."
+      },
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Anomalops-katoptron.html",
+        "accessedDate": "2026-06-02",
+        "notes": "Taxonomy (family Anomalopidae, order Trachichthyiformes), max length 35 cm TL, preferred temperature 17.9–27.8 °C (mean 24.1 °C), distribution, depth, diet (zooplankton)."
+      },
+      {
+        "name": "Wikipedia (Splitfin flashlightfish)",
+        "url": "https://en.wikipedia.org/wiki/Splitfin_flashlightfish",
+        "accessedDate": "2026-06-02",
+        "notes": "Confirmed max size 35 cm, nocturnal schooling behavior, distribution from Philippines/Indonesia to Tuamotus, light-organ rotation mechanism."
+      },
+      {
+        "name": "Reeflex",
+        "url": "https://www.reeflex.net/tiere/3632_Anomalops_katoptron.htm",
+        "accessedDate": "2026-06-02",
+        "notes": "Provided specialist tank-size guidance (2000 L minimum), temperature range 22–27 °C, and confirmation of strictly nocturnal habit; identifies the species as suitable only for advanced aquarists."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": null,
+    "conspecificAggression": "low",
+    "finNippy": false,
+    "reefSafe": "with caution",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "protogynous": null,
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": true,
+    "juvenileColorPhase": false,
+    "copperSensitive": true,
+    "speciesOnlyTankRecommended": true,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "needs_review",
+  "lastReviewed": "2026-06-02"
+}

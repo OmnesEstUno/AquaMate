@@ -1,0 +1,126 @@
+{
+  "id": "sw-fish-231",
+  "slug": "two-spot-goby",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Two Spot Goby",
+  "scientificName": "Signigobius biocellatus",
+  "alsoKnownAs": ["Twinspot Goby", "Signal Goby", "Crabeye Goby", "Crab-eyed Goby", "Four-eyed Goby"],
+  "category": "Goby",
+  "taxonomy": {
+    "family": "Gobiidae",
+    "order": "Gobiiformes"
+  },
+  "nativeRange": {
+    "regions": ["Western Pacific", "Indo-Pacific"],
+    "countries": ["Indonesia", "Philippines", "Papua New Guinea", "Solomon Islands", "Vanuatu", "Australia", "Palau"],
+    "habitat": "Reef-associated; sandy to silty bottoms of lagoons and coastal bays near coral, rubble or leaf litter shelter, typically at 2–30 m depth.",
+    "biotope": "Sand-bottomed lagoons and coastal reef margins adjacent to coral or rubble cover."
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 22, "max": 26 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.020, "max": 1.025 }
+  },
+  "adultSizeCm": { "min": 7.5, "max": 10 },
+  "lifespanYears": null,
+  "tank": {
+    "minVolumeLiters": 150,
+    "minLengthCm": 90,
+    "swimZone": "bottom",
+    "decorPreferences": [
+      "deep fine sand bed (5–8 cm)",
+      "live sand seeded with infauna",
+      "attached well-established refugium feeding the display",
+      "rubble or rockwork shelter near the sand surface",
+      "open sand-bed footprint for sifting"
+    ]
+  },
+  "careLevel": "advanced",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Sand-sifting micropredator. In the wild, scoops mouthfuls of sand and strains tiny interstitial invertebrates through the gills. Captive specimens commonly starve unless the tank has a well-populated refugium and/or the keeper target-feeds live and vitamin-enriched frozen mysis, brine shrimp, copepods, and live blackworms several times daily."
+  },
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "pair",
+    "minGroupSize": 1,
+    "goodWith": [
+      "small peaceful reef fish that do not compete for sand-bed prey",
+      "calm wrasses",
+      "small clownfish",
+      "firefish and dartfish",
+      "sessile invertebrates and corals"
+    ],
+    "avoidWith": [
+      "other Signigobius unless a verified mated pair",
+      "aggressive damselfish",
+      "fast-feeding tankmates that out-compete it at feeding time",
+      "other sand-sifting gobies, jawfish, or wrasses sharing the same micro-prey",
+      "predatory fish (lionfish, large groupers, eels)"
+    ]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "Small Western Pacific sand-sifting goby with twin false eyespots that mimic a crab. Generally peaceful and reef-safe, but has a notoriously poor captive survival record without a mature refugium and target feeding.",
+  "careNotes": "The Two Spot Goby (also sold as Twinspot, Signal, or Crabeye Goby) is famous for the paired false eyespots on its dorsal fins that, combined with its hopping gait, are commonly considered crab mimicry that deters small predators. Care difficulty is the dominant issue: this species feeds almost exclusively by sifting sand for interstitial micro-invertebrates, and most captive specimens slowly starve in tanks without a deep, mature sand bed and a productive attached refugium constantly seeding the display with copepods and amphipods. LiveAquaria lists a 10-gallon minimum tank, but specialist sources strongly advise much larger — generally 30–55 US gal (115–200 L) or more with a long, open sand-bed footprint — so the cautious 150 L figure used here reflects that practical floor rather than the retailer minimum. Cross-source sizing also disagreed: LiveAquaria gives a maximum of 7.5 cm while FishBase reports 10 cm SL; both are recorded as the range. Generally advised water parameters: ~22–26 °C, pH 8.1–8.4, dKH 8–12, SG 1.020–1.025. Best kept singly or as a verified mated pair — conspecifics that are not paired tend to fight. Has been reported to be reef-safe with corals and sessile invertebrates, though sand-sifting can periodically dust low-lying corals. Not known to be a jumper in particular, but a tightly fitted lid is generally advised for any small benthic reef fish. Pair-bonded individuals share a sandy burrow and have been documented as obligate monogamous spawners in the wild.",
+  "breedingNotes": "Forms monogamous pairs in the wild that share a sandy burrow; documented as both obligate and social monogamy. Captive spawning has been reported in well-maintained pairs but raising fry is not routinely accomplished in the home aquarium.",
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/two-spot-goby",
+      "accessedDate": "2026-06-02",
+      "notes": "Primary species page. Listed max size 3 in (~7.6 cm), 10 gal minimum, care level Difficult, peaceful, reef compatible Yes, SG 1.020–1.025, 72–78 °F, pH 8.1–8.4, dKH 8–12. The retailer minimum-tank figure is widely considered too small; tank.minVolumeLiters was biased larger per the tank-size special rule."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://fishbase.se/summary/7245",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked taxonomy (Gobiidae / Gobiiformes), native range (Western Pacific: Philippines to Solomon Islands and Vanuatu, south to southern Great Barrier Reef; Palau), habitat (lagoon/coastal sandy bottoms 2–30 m), and max size (10 cm SL — larger than LiveAquaria's 7.6 cm). Sizing range widened to encompass both."
+      },
+      {
+        "name": "Reef Builders",
+        "url": "https://reefbuilders.com/2016/04/12/the-signal-goby-a-master-mimic-with-a-sketchy-captive-survival-record/",
+        "accessedDate": "2026-06-02",
+        "notes": "Specialist article confirming the species' poor captive survival record from starvation, recommending much larger tanks than retailer-cited 20 gal minimum, and detailing the sand-sifting feeding mode. Used to justify advanced careLevel and the larger minVolumeLiters."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "advanced",
+    "breedingNotes": "Monogamous pair spawners that share a burrow; pair spawning has been observed in aquaria but routine fry rearing is not established.",
+    "conspecificAggression": "moderate",
+    "finNippy": false,
+    "reefSafe": "yes",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "protogynous": false,
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": true,
+    "hlleSusceptible": false,
+    "toxicToTank": false
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-02"
+}
