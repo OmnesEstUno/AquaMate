@@ -4,75 +4,96 @@
   "kind": "fauna",
   "taxon": "fish",
   "waterType": "saltwater",
-  "commonName": "Raccoon Butterfly",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "commonName": "Raccoon Butterflyfish",
+  "scientificName": "Chaetodon lunula",
+  "alsoKnownAs": ["Raccoon Butterfly", "Moon Butterflyfish", "Red-Striped Butterflyfish", "Crescent-masked Butterflyfish"],
   "category": "Butterflyfish",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Chaetodontidae",
+    "order": "Acanthuriformes"
   },
   "nativeRange": {
-    "regions": [],
+    "regions": ["Indo-Pacific", "Southeast Atlantic"],
     "countries": [],
-    "habitat": null,
-    "biotope": null
+    "habitat": "Tropical reef-associated waters, typically 0–170 m depth; commonly seen on coral reefs, lagoons, and seaward slopes",
+    "biotope": "Coral reef"
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
+    "temperatureC": { "min": 24, "max": 27 },
+    "pH": { "min": 8.1, "max": 8.4 },
     "gH": null,
-    "kH": null,
-    "salinity": null
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.020, "max": 1.025 }
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 18, "max": 20 },
+  "lifespanYears": { "min": 5, "max": 9 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": []
+    "minVolumeLiters": 500,
+    "minLengthCm": 180,
+    "swimZone": "all",
+    "decorPreferences": ["live rock", "open swimming space", "caves and overhangs for shelter"]
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "omnivore",
+    "notes": "In the wild feeds mainly on nudibranchs, tubeworm tentacles, other benthic invertebrates, algae, and coral polyps. In captivity is generally weaned onto a varied diet of mysis shrimp, finely chopped seafood, frozen marine preparations, and vitamin-enriched flake; offering a small anemone has been reported to help stimulate initial feeding in reluctant individuals. Multiple small feedings per day are typically advised."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "peaceful",
+    "grouping": "pair",
+    "minGroupSize": 1,
+    "goodWith": ["angelfish", "tangs", "wrasses", "large peaceful community fish"],
+    "avoidWith": ["other Chaetodon butterflyfishes (in tanks under ~750 L)", "small ornamental shrimp and other delicate invertebrates", "stony and soft corals", "feather dusters and tubeworms"]
   },
   "media": {
     "primaryImage": "raccoon_butterfly.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Raccoon Butterfly.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "A widespread Indo-Pacific butterflyfish with a black 'raccoon' eye-mask, sold for fish-only marine systems; generally peaceful with other species but can be territorial toward its own kind and is not considered reef-safe.",
+  "careNotes": "Chaetodon lunula is one of the more adaptable butterflyfishes for fish-only aquaria, but it is not a beginner species — stable water chemistry, good water quality, and a varied diet are generally advised. Adults reach around 18–20 cm, and although LiveAquaria suggests as little as 125 US gallons (~475 L), the cross-source range spans roughly 55–180 gal (~210–680 L); given its adult size, active swimming behavior, and tendency to be territorial toward conspecifics, an aquarium of at least ~500 L with a long footprint is recommended for long-term health. Generally considered peaceful toward heterospecifics but has been reported to be territorial toward conspecifics and similar-looking butterflyfishes — best kept singly or as a verified mated pair, with multiple specimens only attempted in much larger systems. Not reef-safe: has been documented eating coral polyps, anemones, ornamental shrimp, feather dusters, and other sessile invertebrates. Juveniles are reported to be more nocturnal, with activity shifting toward daytime as they mature. Like other butterflyfishes and tangs, this species is commonly considered susceptible to Head and Lateral Line Erosion (HLLE) when kept in poor water quality or fed an insufficiently varied, vitamin-rich, algae-inclusive diet. Wild populations are reported as monogamous, so established pairs should not be split. Initial weaning onto frozen foods can occasionally be difficult; offering live mysis or a small anemone has been reported to help. Temperature and pH ranges are averaged across LiveAquaria (72–78°F), AquariumDomain (72–80°F), and FishBase wild data (23.7–29°C); the recommended captive range of ~24–27°C represents the overlap most commonly cited by hobby sources.",
+  "breedingNotes": "Oviparous with monogamous mating that has been reported as both obligate and social. Captive breeding of Chaetodon butterflyfishes is generally considered impractical for hobbyists; pelagic larvae are difficult to rear and there are no widely-reported captive-bred lines for this species.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/raccoon-butterflyfish",
+      "accessedDate": "2026-06-02",
+      "notes": "Primary source for husbandry parameters (tank size, temperature, pH, salinity, dKH, diet, temperament, reef-safety, care level)."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Chaetodon-lunula.html",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked taxonomy (Chaetodontidae/Acanthuriformes), max length (20 cm TL), native range (Indo-Pacific + SE Atlantic), wild temperature (23.7–29°C, mean 27.7°C), nocturnal activity, monogamous pairing, oviparous reproduction, max reported age 9 years."
+      },
+      {
+        "name": "AquariumDomain",
+        "url": "https://www.aquariumdomain.com/SpeciesProfiles/MarineFish/RaccoonButterflyfish.shtml",
+        "accessedDate": "2026-06-02",
+        "notes": "Third source for tank-size cross-check (75 gal single / 150+ gal multiple), conspecific aggression note, and confirmation of FOWLR-only / not reef-safe status."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
+    "breedingDifficulty": "not in captivity",
     "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
-    "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "no",
+    "escapeRisk": "low",
+    "venomousSpines": false,
     "protogynous": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
-    "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": true,
+    "juvenileColorPhase": false,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": true,
+    "hlleSusceptible": true,
+    "toxicToTank": false
   },
   "crustacean": null,
   "coral": null,
@@ -82,6 +103,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-02"
 }

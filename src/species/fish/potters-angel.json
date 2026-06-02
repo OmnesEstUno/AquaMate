@@ -4,75 +4,96 @@
   "kind": "fauna",
   "taxon": "fish",
   "waterType": "saltwater",
-  "commonName": "Potters Angel",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "commonName": "Potter's Angelfish",
+  "scientificName": "Centropyge potteri",
+  "alsoKnownAs": ["Potters Angel", "Potter's Pygmy Angelfish", "Russet Angelfish"],
   "category": "Angelfish",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Pomacanthidae",
+    "order": "Acanthuriformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null
+    "regions": ["Eastern Central Pacific"],
+    "countries": ["United States (Hawaii)", "Johnston Atoll"],
+    "habitat": "Reef-associated; found on rock, coral, and rubble bottoms generally from around 5 to 50 m, with records to ~138 m.",
+    "biotope": "Hawaiian coral reef with abundant live rock for grazing and crevice cover"
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
+    "temperatureC": { "min": 22, "max": 26 },
+    "pH": { "min": 8.1, "max": 8.4 },
     "gH": null,
-    "kH": null,
-    "salinity": null
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.020, "max": 1.025 }
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 10, "max": 12.7 },
+  "lifespanYears": { "min": 5, "max": 10 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": []
+    "minVolumeLiters": 300,
+    "minLengthCm": 120,
+    "swimZone": "all",
+    "decorPreferences": ["abundant live rock", "multiple caves and crevices", "mature reef setup", "open swimming space along the front"]
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "advanced",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Primarily grazes on filamentous algae and detritus in the wild. In captivity, generally advised to offer a varied diet of spirulina, nori and marine-algae preparations, high-quality angelfish formulas, mysis and enriched brine shrimp, fed multiple small meals per day. Newly imported specimens are often reluctant feeders; live or thawed meaty foods are commonly used to initiate feeding before weaning onto prepared foods."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "semi-aggressive",
+    "grouping": "pair",
+    "minGroupSize": 1,
+    "goodWith": ["peaceful to semi-aggressive reef fish of differing body shape", "tangs in adequately sized systems", "wrasses", "cardinalfish", "gobies"],
+    "avoidWith": ["other dwarf angelfish (Centropyge spp.) in typical home aquaria", "conspecifics unless introduced as a known male-female pair", "very docile slow feeders that may be out-competed"]
   },
   "media": {
     "primaryImage": "potters_angel.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Potters Angel.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "Hawaiian-endemic dwarf angelfish with a vivid orange body marbled in blue-black. Generally considered an advanced-level reef inhabitant due to finicky feeding and risk to soft corals and clams.",
+  "careNotes": "Endemic to the Hawaiian Islands and Johnston Atoll, where it grazes algae and detritus over rocky reef bottoms. Generally advised to keep in a well-established system of at least around 280–300 L (75 US gal) with abundant live rock for grazing and multiple hiding places; sources vary from ~200 L on the low end to 280+ L on the cautious end, and a larger footprint is commonly recommended given the species' territorial behavior and need for swimming room. Water parameters are typical reef values (about 22–26°C, pH 8.1–8.4, SG 1.020–1.025, dKH 8–12). Has been reported to be one of the more aggressive Centropyge species toward conspecifics and other dwarf angels, so it is generally kept singly or as an established pair. Reef compatibility is variable: many specimens have been documented nipping at LPS polyps, clam mantles, and zoanthids, so it is commonly considered 'reef safe with caution' rather than fully reef-safe. Newly imported individuals are often slow to accept prepared foods; live or thawed meaty items are commonly used to initiate feeding before transitioning to algae-based preparations. Like other Centropyge, it is a protogynous hermaphrodite (female-first) and forms monogamous home-ranging pairs in the wild, with no reliable external sexual dimorphism. Source spread on tank size (200–300 L) and care level (intermediate vs difficult) noted; values here lean toward the larger/cautious end of published advice.",
+  "breedingNotes": "Has been reported to spawn pelagically at dusk in the week leading up to the full moon, with peak reproductive activity from mid-December through May in the wild. Considered very difficult to breed in home aquaria; rearing of pelagic larvae is generally not achieved outside specialist facilities. No reliable external sexual dimorphism, which complicates pair formation.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/potters-angelfish",
+      "accessedDate": "2026-06-02",
+      "notes": "Primary husbandry source: tank size 70 US gal, temp 72–78°F, pH 8.1–8.4, SG 1.020–1.025, dKH 8–12, semi-aggressive, reef-safe with caution, care level difficult."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Centropyge-potteri.html",
+        "accessedDate": "2026-06-02",
+        "notes": "Confirmed scientific name, family Pomacanthidae, order Acanthuriformes, max length 12.5 cm TL, Hawaiian/Johnston endemic, monogamous home-ranging pairs, oviparous pelagic dusk spawner."
+      },
+      {
+        "name": "Reefapp encyclopedia",
+        "url": "https://reefapp.net/en/encyclopedia/centropyge-potteri",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked tank size (200 L low end), salinity SG 1.026, and reef-safety caveat ('reef safe with luck'). Noted disagreement with LiveAquaria on tank size; biased to larger value per playbook tank-size rule."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
-    "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "protogynous": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
-    "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "Pelagic dusk spawner in the wild; not reliably bred in home aquaria. No reliable external sexual dimorphism.",
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "with caution",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "protogynous": true,
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": true,
+    "hlleSusceptible": false,
+    "toxicToTank": false
   },
   "crustacean": null,
   "coral": null,
@@ -82,6 +103,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-02"
 }

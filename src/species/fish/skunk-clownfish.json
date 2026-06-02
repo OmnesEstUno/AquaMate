@@ -5,74 +5,156 @@
   "taxon": "fish",
   "waterType": "saltwater",
   "commonName": "Skunk Clownfish",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "scientificName": "Amphiprion perideraion",
+  "alsoKnownAs": [
+    "Pink Skunk Clownfish",
+    "Pink Skunk Anemonefish",
+    "Pink Anemonefish",
+    "False Skunk-striped Anemonefish",
+    "Salmon Clownfish"
+  ],
   "category": "Clownfish",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Pomacentridae",
+    "order": "Ovalentaria incertae sedis"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null
+    "regions": [
+      "Indo-Pacific",
+      "Western Pacific"
+    ],
+    "countries": [
+      "Thailand",
+      "Indonesia",
+      "Philippines",
+      "Australia",
+      "Papua New Guinea",
+      "Solomon Islands",
+      "Samoa",
+      "Tonga",
+      "Japan",
+      "New Caledonia"
+    ],
+    "habitat": "Lagoon and seaward coral reefs, generally between 1 and 38 m depth, where individuals associate closely with host anemones.",
+    "biotope": "Tropical Indo-Pacific reef; sheltered lagoons and outer reef slopes with hard substrate hosting Heteractis and Stichodactyla anemones."
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
+    "temperatureC": {
+      "min": 24,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": null,
-    "salinity": null
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": {
+    "min": 8,
+    "max": 10
+  },
+  "lifespanYears": {
+    "min": 8,
+    "max": 12
+  },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": []
+    "minVolumeLiters": 120,
+    "minLengthCm": 75,
+    "swimZone": "mid",
+    "decorPreferences": [
+      "live rock with caves and overhangs",
+      "open mid-water swimming space",
+      "host anemone optional (Heteractis magnifica, H. crispa, Macrodactyla doreensis, Stichodactyla gigantea)"
+    ]
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Generally accepts most prepared marine fare. A varied diet of frozen mysis, brine shrimp, finely chopped seafood, marine-pellet/flake foods and herbivore preparations is commonly recommended."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "peaceful",
+    "grouping": "pair",
+    "minGroupSize": 1,
+    "goodWith": [
+      "small peaceful reef fish",
+      "gobies",
+      "blennies",
+      "small wrasses",
+      "cardinalfish",
+      "firefish",
+      "shrimps and other reef-safe invertebrates"
+    ],
+    "avoidWith": [
+      "other clownfish species in the same tank",
+      "large aggressive damselfish",
+      "predatory fish that may eat small clownfish",
+      "triggers and large angelfish that may bully them"
+    ]
   },
   "media": {
     "primaryImage": "skunk_clownfish.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Skunk Clownfish.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "A peaceful pink-and-white anemonefish from the Indo-West Pacific, generally considered one of the calmer clownfish; reef-safe and commonly hosted by Heteractis magnifica and similar anemones.",
+  "careNotes": "Amphiprion perideraion is widely regarded as one of the more peaceful and timid clownfish species, which is one reason LiveAquaria rates its care as 'Moderate' rather than easy — it can be out-competed at feeding time by bolder tankmates. In the wild it associates with Heteractis magnifica, H. crispa, Macrodactyla doreensis and Stichodactyla gigantea, but it does not require an anemone in captivity and will often shelter in rockwork. Like all clownfish it is a protandrous (male-first) sequential hermaphrodite: in a bonded pair the larger, dominant fish is the female and the smaller is the functional male; sex change has been reported around 5.4 cm TL. Best kept as a single fish or as a single mated pair — multiple individuals of this or any other clownfish species in the same tank generally leads to lethal aggression. Temperature reports vary across sources (LiveAquaria 22.2-25.6°C, FishBase 25.2-29°C, community reef guides 24-28°C); the 24-27°C band used here is the cross-source average. Tank-size guidance also varies (LiveAquaria 30 US gal / ~113 L; some retailers list 20 US gal; reef community sites recommend 40 US gal for a pair) — 120 L was chosen as a cautious round-up that comfortably houses a pair with a host anemone and reef rockwork.",
+  "breedingNotes": "Has been bred in captivity but is generally reported as more challenging than ocellaris/percula clownfish. Egg-layer that deposits eggs on a cleaned flat surface near the host anemone; eggs typically hatch in 8-11 days depending on temperature. Larvae require very small live foods (rotifers, then enriched newly-hatched brine shrimp) in a dedicated rearing tank.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/pink-skunk-clownfish-captive-bred",
+      "accessedDate": "2026-06-02",
+      "notes": "Primary species page. Listed root URL https://www.liveaquaria.com/collections/clownfish did not show this species on page 1; the canonical product page was located via site search."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Amphiprion-perideraion.html",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked scientific name (Bleeker, 1855), family (Pomacentridae), max size (10 cm TL), preferred temperature range (25.2-29°C), Indo-West Pacific distribution, protandrous hermaphroditism, and host anemone associations."
+      },
+      {
+        "name": "Reeflings species profile",
+        "url": "https://reeflings.com/species/amphiprion-perideraion",
+        "accessedDate": "2026-06-02",
+        "notes": "Third-source confirmation of tank-size range (20-30 US gal minimum, 40 US gal for a pair), peaceful temperament, reef-safe behaviour, and host anemone list. Used to corroborate the cross-source average for temperature (75-82°F band)."
+      },
+      {
+        "name": "Reef2Reef wiki",
+        "url": "https://www.reef2reef.com/wiki/",
+        "accessedDate": "2026-06-02",
+        "notes": "Designated secondary; the per-species wiki URL returned HTTP 403, so used as a slice-level reference only. Fishkeeping World (404) was also unavailable; community Reeflings profile substituted for cross-verification."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
-    "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "protogynous": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
-    "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null
+    "breedingDifficulty": "difficult",
+    "breedingNotes": "Reported as harder to spawn and rear than ocellaris/percula clownfish; larvae need rotifer cultures and enriched brine shrimp in a dedicated rearing tank.",
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "yes",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "protogynous": false,
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": true,
+    "hlleSusceptible": false,
+    "toxicToTank": false
   },
   "crustacean": null,
   "coral": null,
@@ -82,6 +164,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-02"
 }

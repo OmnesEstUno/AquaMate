@@ -1,0 +1,120 @@
+{
+  "id": "sw-fish-178",
+  "slug": "rusty-angelfish",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Rusty Angelfish",
+  "scientificName": "Centropyge ferrugata",
+  "alsoKnownAs": ["Rusty Angel", "Rusty Pygmy Angelfish", "Rusty Dwarf Angelfish"],
+  "category": "Dwarf Angelfish",
+  "taxonomy": {
+    "family": "Pomacanthidae",
+    "order": "Acanthuriformes"
+  },
+  "nativeRange": {
+    "regions": ["Western Pacific"],
+    "countries": ["Japan", "Taiwan", "Philippines"],
+    "habitat": "Seaward rocky reefs and rubble slopes with extensive algal turf, typically between 6 and 30 m depth.",
+    "biotope": "Reef"
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 23, "max": 28 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.020, "max": 1.026 }
+  },
+  "adultSizeCm": { "min": 8, "max": 10 },
+  "lifespanYears": { "min": 5, "max": 10 },
+  "tank": {
+    "minVolumeLiters": 300,
+    "minLengthCm": 120,
+    "swimZone": "all",
+    "decorPreferences": ["abundant live rock", "caves and crevices for grazing and refuge", "open swimming space between rockwork"]
+  },
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "omnivore",
+    "notes": "In the wild grazes on filamentous algae, detritus, and small benthic invertebrates. In aquaria generally accepts spirulina and marine-algae sheets, mysis and brine shrimp, and quality angelfish/pellet preparations; varied diet helps preserve coloration and discourages coral nipping."
+  },
+  "compatibility": {
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["tangs", "wrasses", "clownfish", "gobies", "blennies", "most peaceful to semi-aggressive reef fish"],
+    "avoidWith": ["other dwarf angelfish (Centropyge spp.) in tanks under ~400 L", "very docile species that may be bullied", "ornamental shrimp and tubeworms"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "Small Western Pacific dwarf angelfish (~10 cm) with rust-red flanks and black flank dots. Generally considered reef-safe with caution; best kept singly in a mature, rock-rich aquarium of around 300 L.",
+  "careNotes": "Centropyge ferrugata is a hardy dwarf angelfish from the Western Pacific (southern Japan, Taiwan, the Philippines), typically reaching about 8–10 cm. It is generally considered reef-safe with caution: some individuals have been known to nip at LPS and SPS polyps, soft coral polyps, and clam mantles, particularly when underfed — keeping the diet varied and algae-rich tends to reduce this risk. It usually does best as the only dwarf angelfish in a tank smaller than ~400 L; sources widely report territorial aggression toward conspecifics and other Centropyge in confined volumes. Tank-size guidance varies across sources — retailers cite around 200–265 L (53–70 US gal), while specialist dwarf-angel keepers tend to recommend 75 US gal (~285 L) or more for healthy long-term care — so a minimum of around 300 L with a long footprint and dense live rock is a reasonable conservative target. Like other pygmy angelfishes, this species is a protogynous (and reportedly bi-directional) sequential hermaphrodite that forms loose harems in the wild; in captivity a male with one or two smaller females can sometimes be kept together in larger systems with plenty of rockwork.",
+  "breedingNotes": "Rarely bred in home aquaria. As with other Centropyge, pelagic spawners that release eggs into the water column at dusk; rearing the larvae has been achieved by specialist breeders but is considered advanced.",
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/rusty-angelfish",
+      "accessedDate": "2026-06-02",
+      "notes": "Primary husbandry source: adult size, tank size (70 US gal), temperament, diet, reef-safe-with-caution, temperature 72–78 °F, SG 1.020–1.025, dKH 8–12, care level moderate."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Centropyge-ferrugata.html",
+        "accessedDate": "2026-06-02",
+        "notes": "Substituted for the assigned Reef2Reef wiki secondary, which returned HTTP 403. Confirmed family Pomacanthidae, order Acanthuriformes, max length 10 cm TL, Western Pacific distribution (Tanabe Bay, southern Japan to SW Taiwan and Philippines), depth 6–30 m, aquarium temperature range 25–29.3 °C, and bi-directional sex change."
+      },
+      {
+        "name": "ReefApp encyclopedia",
+        "url": "https://reefapp.net/en/encyclopedia/centropyge-ferrugata",
+        "accessedDate": "2026-06-02",
+        "notes": "Third source for cross-verification: 10 cm adult size, 200 L minimum tank, reef-safe with caution, omnivore, protogynous sex change noted, Western Pacific range confirmed."
+      },
+      {
+        "name": "Reeflings species guide",
+        "url": "https://reeflings.com/species/centropyge-ferrugata",
+        "accessedDate": "2026-06-02",
+        "notes": "Fourth source: 10 cm size, ~200 L minimum tank, temperature 24–28 °C, pH 8.1–8.4, SG 1.023–1.026, care level moderate-to-easy, territorial toward other dwarf angels in small tanks."
+      },
+      {
+        "name": "Frank Baensch — Pygmy Angelfishes captive care",
+        "url": "https://www.frankbaensch.com/marine-aquarium-fish-culture/my-research/pygmy-angelfishes/captive-care/",
+        "accessedDate": "2026-06-02",
+        "notes": "Specialist source confirming Centropyge are protogynous hermaphrodites and form harems; recommends 75 US gal+ for healthy keeping and notes social disputes in groups housed under 100 US gal. Used to justify biasing minimum volume upward from the retailer figure."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "advanced",
+    "breedingNotes": "Pelagic dusk spawner; larval rearing is specialist work and rarely accomplished by hobbyists.",
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "with caution",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "protogynous": true,
+    "haremic": true,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-02"
+}
