@@ -4,76 +4,97 @@
   "kind": "fauna",
   "taxon": "fish",
   "waterType": "saltwater",
-  "commonName": "Pyramid Butterfly",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "commonName": "Pyramid Butterflyfish",
+  "scientificName": "Hemitaurichthys polylepis",
+  "alsoKnownAs": ["Yellow Pyramid Butterflyfish"],
   "category": "Butterflyfish",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Chaetodontidae",
+    "order": "Acanthuriformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null
+    "regions": ["Indo-Pacific", "Central Pacific"],
+    "countries": ["Indonesia", "Japan", "Australia", "United States (Hawaii)", "New Caledonia", "Pitcairn Islands"],
+    "habitat": "Steep current-swept outer reef slopes, typically forming large aggregations in the water column above the reef edge",
+    "biotope": "Tropical reef drop-offs and outer reef walls"
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
+    "temperatureC": { "min": 24, "max": 27 },
+    "pH": { "min": 8.1, "max": 8.4 },
     "gH": null,
-    "kH": null,
-    "salinity": null
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.020, "max": 1.026 }
   },
-  "adultSizeCm": null,
+  "adultSizeCm": { "min": 13, "max": 18 },
   "lifespanYears": null,
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": []
+    "minVolumeLiters": 500,
+    "minLengthCm": 150,
+    "swimZone": "all",
+    "decorPreferences": ["plenty of live rock with hiding places", "open swimming space above and in front of the reef structure", "moderate to strong water flow"]
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "beginner",
+  "diet": {
+    "type": "planktivore",
+    "notes": "In the wild it feeds primarily on zooplankton in midwater. In captivity it generally adapts well to frozen and freeze-dried preparations such as mysis and vitamin-enriched brine shrimp, and tends to accept dried algae and pellets. Multiple small feedings per day are commonly recommended, especially during acclimation."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "peaceful",
+    "grouping": "shoaling",
+    "minGroupSize": 1,
+    "goodWith": ["tangs", "wrasses", "anthias", "clownfish", "most other peaceful reef fish"],
+    "avoidWith": ["overly aggressive damselfish", "large predators", "very boisterous tankmates that may intimidate newly introduced specimens"]
   },
   "media": {
     "primaryImage": "pyramid_butterfly.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Pyramid Butterfly.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "Peaceful planktivorous butterflyfish from the Indo-Pacific, generally considered one of the most reef-safe and aquarium-hardy butterflyfishes; best in larger systems with open swimming space.",
+  "careNotes": "The Pyramid Butterflyfish is widely traded as the 'Yellow Pyramid Butterflyfish' for its distinctive white-and-yellow body with a dark face. It is commonly regarded as one of the hardiest and most beginner-friendly butterflyfishes, since unlike most chaetodontids it is a planktivore rather than a coral feeder. In the wild it forms large midwater schools above current-swept outer reef slopes, so in captivity it benefits from open swimming space, brisk flow, and a tank with a long footprint rather than a tall, narrow one. Specimens are often shy on arrival and benefit from plenty of live-rock hiding places and several small feedings per day during acclimation. Reported aquarium temperatures tend to run cooler (around 22-26°C) than the species' typical wild range (around 25-29°C per FishBase); a middle range of roughly 24-27°C is generally advised. Tank-size guidance is also inconsistent across sources: retail care sheets often suggest around 470 L (125 US gal), while reef-focused references suggest around 500 L or more for a single fish and larger systems for groups, so 500 L is used here as a cautious minimum. Generally considered reef-safe, though specimens have occasionally been reported to nip at Xenia and other soft corals if underfed. Butterflyfishes in this genus are commonly reported to form monogamous pairs in the wild, and aquarists tend to keep them singly, as bonded pairs, or in small groups of 3 or more (avoid keeping just two unrelated individuals). Like many reef fish kept long-term, they have been reported to be susceptible to Head and Lateral Line Erosion (HLLE) when diet or water quality is poor, so a varied diet with marine algae and vitamin-enriched foods is generally advised.",
+  "breedingNotes": "Has been reported to form pairs during spawning and to be oviparous (pelagic eggs), but captive breeding is not commonly documented in home aquaria.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/yellow-pyramid-butterflyfish",
+      "accessedDate": "2026-06-02",
+      "notes": "Primary husbandry source; gave family, peaceful/reef-safe rating, water parameters (72-78°F, pH 8.1-8.4, SG 1.020-1.025, dKH 8-12), and a 125 US gal minimum tank size."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Hemitaurichthys-polylepis",
+        "accessedDate": "2026-06-02",
+        "notes": "Used for taxonomy (Chaetodontidae, Acanthuriformes), authoritative native range (Pacific Ocean: Christmas Island to Hawaii, Line, Pitcairn, south Japan, New Caledonia — corrects LiveAquaria's 'Indian Ocean' phrasing), max length 18 cm TL, wild temperature 24.7-28.9°C, planktivorous diet, and pair-forming spawning behavior."
+      },
+      {
+        "name": "ReefApp encyclopedia",
+        "url": "https://reefapp.net/en/encyclopedia/hemitaurichthys-polylepis",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked sizing (18 cm), tank size (around 500 L minimum), reef-safe rating (with luck — occasional coral nipping), salinity (around SG 1.026), and confirmation that the species benefits from ample open swimming space."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
+    "breedingDifficulty": "not in captivity",
     "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
-    "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
+    "conspecificAggression": "low",
+    "finNippy": false,
+    "reefSafe": "yes",
+    "escapeRisk": "low",
+    "venomousSpines": false,
     "protogynous": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
-    "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": true,
+    "hlleSusceptible": true,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy"
   },
   "crustacean": null,
   "coral": null,
@@ -83,6 +104,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-02"
 }

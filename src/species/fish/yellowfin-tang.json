@@ -1,0 +1,136 @@
+{
+  "id": "sw-fish-261",
+  "slug": "yellowfin-tang",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Yellowfin Tang",
+  "scientificName": "Acanthurus xanthopterus",
+  "alsoKnownAs": [
+    "Yellowfin Surgeonfish",
+    "Yellow-Mask Surgeonfish",
+    "Ringtailed Surgeonfish"
+  ],
+  "category": "Tangs and Surgeonfishes",
+  "taxonomy": {
+    "family": "Acanthuridae",
+    "order": "Acanthuriformes"
+  },
+  "nativeRange": {
+    "regions": ["Indo-Pacific", "Eastern Pacific"],
+    "countries": [
+      "East Africa",
+      "Hawaii (USA)",
+      "French Polynesia",
+      "Japan",
+      "Australia",
+      "New Caledonia",
+      "Mexico",
+      "Panama",
+      "Ecuador (Galapagos)"
+    ],
+    "habitat": "Reef-associated; juveniles favor shallow turbid inshore waters and sand slopes, while adults move to deeper protected bays, lagoons, and outer reef areas down to roughly 90 m.",
+    "biotope": "Tropical Indo-Pacific reef and lagoon"
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 24, "max": 27 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.021, "max": 1.026 }
+  },
+  "adultSizeCm": { "min": 45, "max": 70 },
+  "lifespanYears": { "min": 10, "max": 25 },
+  "tank": {
+    "minVolumeLiters": 1500,
+    "minLengthCm": 240,
+    "swimZone": "all",
+    "decorPreferences": [
+      "ample open swimming space",
+      "large amounts of live rock for grazing and refuge",
+      "long footprint preferred over deep footprint"
+    ]
+  },
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "herbivore",
+    "notes": "Primarily grazes filamentous algae, diatoms, and detrital film in the wild, but is unusual among surgeonfishes in also taking small invertebrates and even pieces of fish. In captivity is generally advised to be offered dried marine seaweed/nori three or more times per week alongside spirulina-based prepared foods; meaty items such as mysis or krill can be supplied opportunistically. Heavy algae component tends to support immune health and reduce HLLE risk."
+  },
+  "compatibility": {
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": [
+      "larger peaceful reef fish",
+      "angelfishes (in very large systems)",
+      "wrasses",
+      "clownfishes",
+      "most reef-safe invertebrates"
+    ],
+    "avoidWith": [
+      "other Acanthurus tangs in undersized tanks",
+      "conspecifics (unless tank exceeds several thousand liters)",
+      "small timid fish that may be bullied"
+    ]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "Large Indo-Pacific surgeonfish that grows to roughly 50-70 cm and is generally considered the bulkiest Acanthurus; suited to very large reef or fish-only systems with long open swim lanes.",
+  "careNotes": "One of the largest members of the genus Acanthurus, with adults commonly reaching 50 cm and exceptional individuals approaching 70 cm. Juveniles show bright yellow pectoral/anal fins on a yellow-grey body; adults shift to a more uniform dusky purple-brown with the yellow restricted to a pectoral patch and mask around the eyes, which is the origin of the trade name \"Yellow-Mask Surgeonfish\". Sources disagree on minimum tank size: LiveAquaria suggests 360 US gal (~1363 L), while ReefApp recommends 475 US gal (~1800 L); given the species' adult size, active swimming behaviour, and long lifespan, a 1500 L (~400 US gal) or larger system with a long footprint is generally advised, and public-aquarium-scale systems are preferable for full-grown adults. Like other tangs, possesses a sharp scalpel-like spine on either side of the caudal peduncle that can inflict serious cuts on handlers and tankmates — handle with caution. Tangs in this genus are commonly considered susceptible to Head and Lateral Line Erosion (HLLE) when water quality slips or the diet lacks vitamin-rich marine algae, so frequent water changes and a heavy algae diet are generally advised. Usually accepts prepared and frozen foods readily; FishBase notes this is \"probably the only surgeonfish that readily takes bait,\" so feeding response in captivity is typically not a concern. Generally considered reef-safe — adults are not known to nip corals, though their size means physical bumping of unsecured coral frags is possible.",
+  "breedingNotes": "Has not been reliably bred in home aquaria. Spawning in the wild occurs in pelagic aggregations with broadcast release of eggs and a long planktonic larval phase, which is impractical to replicate without dedicated larval-rearing infrastructure.",
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/product/2883/?pcatid=2883",
+      "accessedDate": "2026-06-02"
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Acanthurus-xanthopterus",
+        "accessedDate": "2026-06-02",
+        "notes": "Used for taxonomy, native range, wild temperature range (24-28 C), max size (70 cm TL), lifespan (up to 34 yr in the wild), and diet ecology."
+      },
+      {
+        "name": "ReefApp Encyclopedia",
+        "url": "https://reefapp.net/en/encyclopedia/acanthurus-xanthopterus",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked adult size (~50 cm) and minimum tank volume (1800 L). Higher tank-size recommendation than LiveAquaria; averaging biased toward the larger figure per the tank-sizing rule, then rounded to 1500 L."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": null,
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "yes",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "protogynous": null,
+    "haremic": false,
+    "caudalScalpel": true,
+    "nocturnal": false,
+    "juvenileColorPhase": true,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": true,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy"
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-02"
+}

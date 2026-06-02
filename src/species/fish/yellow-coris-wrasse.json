@@ -5,75 +5,102 @@
   "taxon": "fish",
   "waterType": "saltwater",
   "commonName": "Yellow Coris Wrasse",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "scientificName": "Halichoeres chrysus",
+  "alsoKnownAs": ["Yellow Wrasse", "Canary Wrasse", "Golden Rainbowfish"],
   "category": "Wrasse",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Labridae",
+    "order": "Eupercaria/misc"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null
+    "regions": ["Eastern Indian Ocean", "Western Pacific"],
+    "countries": ["Australia", "Indonesia", "Japan", "Solomon Islands", "Tonga"],
+    "habitat": "Reef edges with sand and rubble zones, typically at 15-60 m depth",
+    "biotope": "Tropical Indo-Pacific reef-edge sand and rubble flats"
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
+    "temperatureC": { "min": 23, "max": 27 },
+    "pH": { "min": 8.1, "max": 8.4 },
     "gH": null,
-    "kH": null,
-    "salinity": null
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.020, "max": 1.025 }
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 10, "max": 12 },
+  "lifespanYears": { "min": 5, "max": 10 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": []
+    "minVolumeLiters": 200,
+    "minLengthCm": 120,
+    "swimZone": "all",
+    "decorPreferences": ["fine sand substrate 5-8 cm deep for burrowing", "live rock with crevices", "tight-fitting lid"]
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Generally accepts a varied diet of frozen mysis, enriched brine shrimp, finely chopped marine meats, and quality marine flakes/pellets. Small, frequent feedings throughout the day tend to suit this active mid-water swimmer."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "peaceful",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["clownfish", "tangs", "dwarf angelfish", "gobies", "cardinalfish", "most peaceful reef community fish"],
+    "avoidWith": ["other Halichoeres wrasses", "conspecifics in smaller tanks", "ornamental shrimp", "feather dusters and fan worms", "small ornamental snails"]
   },
   "media": {
     "primaryImage": "yellow_coris_wrasse.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Yellow Coris Wrasse.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "A hardy, brilliantly yellow reef-edge wrasse from the Indo-Pacific. Generally peaceful and reef-safe with corals, but has been known to pick at ornamental shrimp and fan worms.",
+  "careNotes": "Halichoeres chrysus is generally considered a beginner-friendly marine wrasse, though a few traits push it toward intermediate care. A tight-fitting lid is essential — like most wrasses, it has been known to jump from open-top aquariums. A fine sand bed of at least 5-8 cm is required, as the fish burrows into the substrate to sleep at night and when stressed; without it, the fish may bash itself against the glass or refuse to settle in. Sources generally advise a minimum tank of around 50-60 US gallons (roughly 190-225 L); a 200 L+ tank with open swimming space along the front is a sensible target given the species' active mid-water foraging. Yellow Coris Wrasses are commonly considered reef-safe with corals and welcomed as a natural predator of pyramidellid snails, flatworms, bristleworms, and other reef pests; however, they cannot distinguish desirable from undesirable invertebrates, so ornamental shrimp, fan worms, and small snails are at risk. Conspecific aggression is moderate — keep singly or as an established male/female pair; adding a second adult later is risky. Halichoeres wrasses are protogynous hermaphrodites (female-first sequential), and large dominant individuals can become bullish toward similar-shaped tankmates. Also sold under the trade names 'Yellow Wrasse', 'Canary Wrasse', and occasionally 'Golden Rainbowfish'.",
+  "breedingNotes": "Has been reported to form pairs and spawn pelagically in the wild, with planktonic larvae. Captive breeding of Halichoeres chrysus is not commercially established; the planktonic larval stage is the main hurdle.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/collections/wrasse-reef-safe",
+      "accessedDate": "2026-06-02",
+      "notes": "Yellow Wrasse care profile page used as primary husbandry source (5 in adult, 50 gal min, peaceful, reef safe, carnivore, 72-78°F, pH 8.1-8.4, SG 1.020-1.025, dKH 8-12)."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Halichoeres-chrysus",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked taxonomy (Labridae), max length (12 cm TL), native range (Eastern Indian Ocean to Western Pacific: Australia, Indonesia, Japan, Solomon Islands, Tonga), depth 2-70 m typically 15-60 m, and reef-edge sand/rubble habitat. Temperature 24-27°C preferred 25.2-28.9°C — averaged with LiveAquaria's 72-78°F (22.2-25.6°C) to a centered 23-27°C range."
+      },
+      {
+        "name": "Saltwater Aquarium Blog",
+        "url": "https://www.saltwateraquariumblog.com/yellow-coris-wrasse-care/",
+        "accessedDate": "2026-06-02",
+        "notes": "Third source for tank-size cross-check: confirms 50-60 gal minimum, jumping risk, sand-burrowing behavior, and conspecific aggression. Tank size averaged at 55 gal then biased to the larger nice value of 200 L per playbook tank-size rule."
+      },
+      {
+        "name": "Reef Chasers Care Guide",
+        "url": "https://reefchasers.com/blogs/reef-chasers-marine-fish-guides/yellow-coris-wrasse-care-guide",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-check for reef-safe status with caveats on ornamental invertebrates and conspecific aggression."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
-    "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "protogynous": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
-    "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "Pelagic spawner with planktonic larvae; not established in home aquariums.",
+    "conspecificAggression": "moderate",
+    "finNippy": false,
+    "reefSafe": "with caution",
+    "escapeRisk": "high",
+    "venomousSpines": false,
+    "protogynous": true,
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy"
   },
   "crustacean": null,
   "coral": null,
@@ -83,6 +110,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-02"
 }
