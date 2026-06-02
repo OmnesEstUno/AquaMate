@@ -4,75 +4,155 @@
   "kind": "fauna",
   "taxon": "fish",
   "waterType": "saltwater",
-  "commonName": "Domino Damsel",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "commonName": "Threespot Damselfish",
+  "scientificName": "Dascyllus trimaculatus",
+  "alsoKnownAs": [
+    "Three Spot Domino Damselfish",
+    "3-Spot Domino Damselfish",
+    "Threespot Dascyllus",
+    "Domino Damsel",
+    "Domino Damselfish"
+  ],
   "category": "Damsel",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Pomacentridae",
+    "order": "Ovalentaria"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null
+    "regions": [
+      "Indo-Pacific",
+      "Red Sea",
+      "Western Pacific"
+    ],
+    "countries": [
+      "Indonesia",
+      "Philippines",
+      "Australia",
+      "Japan",
+      "Egypt",
+      "Kenya",
+      "Tanzania",
+      "Madagascar"
+    ],
+    "habitat": "Coral and rocky reefs at depths of 0–55 m; juveniles strongly associate with large sea anemones and coral heads, while adults form aggregations over coral or rubble bottoms",
+    "biotope": "Reef"
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
+    "temperatureC": {
+      "min": 24,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": null,
-    "salinity": null
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": {
+    "min": 8,
+    "max": 14
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 15
+  },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": []
+    "minVolumeLiters": 200,
+    "minLengthCm": 90,
+    "swimZone": "all",
+    "decorPreferences": [
+      "live rock",
+      "rockwork with caves and crevices",
+      "host anemone (optional)",
+      "open swimming space"
+    ]
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "beginner",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Generally accepts a wide variety of foods including frozen and live mysis shrimp, brine shrimp, chopped seafood, marine flakes and pellets, and herbivore preparations with spirulina. In the wild, juveniles have been documented feeding largely on planktonic copepods and other small crustaceans, while adults consume a broader mix of zooplankton and benthic algae."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": [
+      "robust similarly-sized tankmates",
+      "tangs",
+      "large angelfish",
+      "triggerfish",
+      "lionfish",
+      "corals",
+      "carpet anemones (Stichodactyla spp.)"
+    ],
+    "avoidWith": [
+      "other damselfish",
+      "clownfish",
+      "small peaceful fish",
+      "fairy wrasses",
+      "anthias",
+      "gobies",
+      "blennies",
+      "conspecifics in tanks below ~400 L"
+    ]
   },
   "media": {
     "primaryImage": "domino_damsel.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Domino Damsel.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "The Threespot Damselfish (Dascyllus trimaculatus), commonly sold as the Three Spot Domino Damselfish, is a hardy black-bodied Indo-Pacific reef fish whose three white spots fade with age. Tolerates a wide range of conditions but tends to grow highly territorial.",
+  "careNotes": "Dascyllus trimaculatus is widely sold under the trade names 'Three Spot Domino Damselfish' and '3-Spot Domino' because juveniles display three bright white spots (one on each upper flank and one on the forehead) against a deep black body. These spots tend to fade or disappear entirely as the fish matures, leaving a uniformly dark grey or black adult.\n\nThis species is commonly recommended to beginning saltwater hobbyists because it has been reported to tolerate substandard water parameters and is generally easy to feed. However, beginners should be aware that what starts as a small, sociable juvenile typically matures into a highly territorial and aggressive adult — to the point where it is often listed among the more difficult damsels to mix with peaceful reef tankmates. It has been known to chase and nip at any perceived invader of its territory and is generally considered incompatible with smaller or more docile fish such as fairy wrasses, gobies, blennies, and clownfish.\n\nFor this reason, the practical tank-size recommendation is larger than retailer minimums suggest. Sources disagree: LiveAquaria cites a 30-gallon (~114 L) minimum, while Saltwater Aquarium Blog recommends 55 gallons (~208 L) on aggression grounds. A minimum of around 200 L (55 gal) was selected here to provide enough territory for one adult and reduce stress on tankmates. Keeping multiple individuals together has been reported to require considerably more volume (roughly 400 L+), and even then dominance disputes often end with a single survivor.\n\nIn the wild, juveniles famously associate with large host anemones — particularly Stichodactyla species (carpet anemones) — much like clownfish. This relationship has been reported in captive specimens when a suitable host is provided, though the association is facultative and not required for survival.\n\nWater parameters cross-checked: LiveAquaria gives temperature 72–78°F (22.2–25.6°C), pH 8.1–8.4, specific gravity 1.020–1.025, dKH 8–12. FishBase's environmental model lists a preferred range of 24.6–29°C with mean 28°C, slightly warmer than retail. Averaged values (24–27°C) are used here. Adult size of ~14 cm total length is consistent across LiveAquaria, FishBase, and Saltwater Aquarium Blog. Reported lifespan varies considerably; the species has been reported to live up to 20 years in well-kept aquariums but more typically 5–10 years is cited for damsels of this size.\n\nThe species is considered reef-safe in the sense that it does not consume corals or clean-up-crew invertebrates, but its aggressive territoriality can disrupt the peace of a community reef. Many aquarists treat it as a 'last fish in' addition to peaceful systems, or restrict it to robust-fish communities (with tangs, triggers, and larger angelfish).",
+  "breedingNotes": "Dascyllus trimaculatus has been reported to spawn in aquaria, though deliberate captive breeding is uncommon in the trade. Spawning is oviparous with distinct pairing; males clear and guard a flat substrate site, then aerate and defend the demersal egg mass until hatching. Captive pair observations have reported up to three spawning events per month and 17 spawnings over a seven-month period in suitably-sized systems. Larval rearing has not been widely documented for hobbyists.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/three-spot-domino-damselfish-1",
+      "accessedDate": "2026-06-02",
+      "notes": "Direct product page. Provided care level (Easy), temperament (Aggressive, increasing with age), max size (5.5 in / ~14 cm), color form, family (Pomacentridae), origin (Indo-Pacific: Philippines, Indonesia, Africa), temperature (72–78°F / 22.2–25.6°C), pH (8.1–8.4), specific gravity (1.020–1.025), dKH (8–12), minimum tank (30 gal / ~114 L), diet (omnivore), reef safe (yes), and the carpet anemone (Stichodactyla) association."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Dascyllus-trimaculatus.html",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked scientific name (Rüppell, 1829), family (Pomacentridae), order (Ovalentaria/misc), maximum total length (14.0 cm), Indo-Pacific distribution (Red Sea and East Africa to Line and Pitcairn islands, north to southern Japan, south to Sydney), depth range (0–55 m), preferred temperature (24.6–29°C, mean 28°C), reproduction (oviparous with distinct pairing, male egg-guarding), trophic level (3.0, omnivorous), juvenile association with sea anemones, and IUCN Least Concern status."
+      },
+      {
+        "name": "Saltwater Aquarium Blog",
+        "url": "https://www.saltwateraquariumblog.com/domino-damselfish-threespot-dascyllus-trimaculatus/",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked minimum tank (55 gal / ~208 L), care level (beginner), high aggression rating (territorial, incompatible with most peaceful species, particularly other damsels and clownfish), max size (~5.5 in), reported lifespan up to 20 years, omnivorous diet (mysis, brine, blackworms, spirulina), and native range (Indian and Pacific Oceans including Red Sea and East Africa, depth 3–180 ft). Used as the conservative tank-size source — drove the bias toward 200 L versus LiveAquaria's 114 L."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
-    "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "protogynous": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
-    "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null
+    "breedingDifficulty": "difficult",
+    "breedingNotes": "Has been reported to spawn in captivity (oviparous, demersal eggs guarded by the male) but larval rearing is rarely attempted by hobbyists; juveniles in the trade are typically wild-caught.",
+    "conspecificAggression": "high",
+    "finNippy": true,
+    "reefSafe": "with caution",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "protogynous": false,
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": true,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false
   },
   "crustacean": null,
   "coral": null,
@@ -82,6 +162,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-02"
 }

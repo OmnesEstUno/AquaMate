@@ -1,0 +1,102 @@
+{
+  "id": "sw-fish-213",
+  "slug": "sunset-anthias",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Sunset Anthias",
+  "scientificName": "Pseudanthias parvirostris",
+  "alsoKnownAs": ["Shortsnout Anthias", "Diadem Anthias", "Pyronotanthias parvirostris"],
+  "category": "Anthias",
+  "taxonomy": {
+    "family": "Anthiadidae",
+    "order": "Perciformes"
+  },
+  "nativeRange": {
+    "regions": ["Indo-West Pacific"],
+    "countries": ["Japan", "Indonesia", "Maldives", "Australia", "Solomon Islands"],
+    "habitat": "Deepwater reef slopes, typically found at 35-65 m depth, most common around 50-60 m on patch reefs over sand or rubble.",
+    "biotope": "Reef"
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 22, "max": 26 },
+    "pH": { "min": 8.0, "max": 8.4 },
+    "gH": null,
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.021, "max": 1.025 }
+  },
+  "adultSizeCm": { "min": 7, "max": 8 },
+  "lifespanYears": null,
+  "tank": {
+    "minVolumeLiters": 300,
+    "minLengthCm": 120,
+    "swimZone": "mid",
+    "decorPreferences": ["live rock with caves and overhangs", "open swimming space", "tight-fitting lid"]
+  },
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "planktivore",
+    "notes": "Wild diet consists primarily of zooplankton picked from the water column. In aquaria, generally accepts frozen mysis, enriched brine shrimp, and finely-chopped marine meats. Multiple small feedings per day (2-4) tend to maintain body condition better than once-daily feeds."
+  },
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "shoaling",
+    "minGroupSize": 1,
+    "goodWith": ["other peaceful reef fish", "small wrasses", "cardinalfish", "gobies", "reef-safe invertebrates"],
+    "avoidWith": ["large aggressive predators", "boisterous tankmates that monopolize food", "triggerfish", "large groupers"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "Small, deep-reef anthias with striking sunset-orange coloration. Generally peaceful and reef-safe; commonly kept singly or as a small harem in well-established systems with calm tankmates.",
+  "careNotes": "The Sunset Anthias is a small, deepwater (35-65 m wild depth) anthias from the Indo-West Pacific. FishBase has reclassified the species into the genus Pyronotanthias, though it is still most commonly sold under the older Pseudanthias parvirostris name in the trade. Tends to be more reserved than shallow-water anthias and is generally considered a good choice for peaceful reef systems with established food chains. A tightly-sealed lid is strongly advised — like most anthias, they are well-known jumpers. Best kept in dimmer or shaded sections of the tank in keeping with their natural deep-reef habitat; very bright lighting may cause them to hide. Multiple small feedings throughout the day are generally recommended, as anthias have high metabolisms and tend to lose condition quickly if underfed. Sources mostly agree on parameters (LiveAquaria 22-26 C / pH 8.0-8.4 / SG 1.021-1.025; FishBase wild temperature range 19.7-28.5 C — wider, but the aquarium recommendation is the more relevant figure). Tank size: LiveAquaria lists 70 gal (~265 L) minimum for an individual and 125+ gal (~475 L) for groups; the recommendation here (300 L, 120 cm length) leans toward the larger end given anthias' need for open swim space and the species' shoaling tendencies. Like other Pseudanthias / Pyronotanthias, this species is a protogynous (female-first) sequential hermaphrodite and tends to form harems of one dominant male and several females in the wild; if a harem is desired, start with several juveniles/females and the dominant individual will transition to male over time.",
+  "breedingNotes": null,
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/sunset-anthias",
+      "accessedDate": "2026-06-02",
+      "notes": "Care guide, water parameters, tank size minimum, diet, temperament."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://fishbase.se/summary/Pseudanthias-parvirostris.html",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked taxonomy (family Anthiadidae, currently reclassified to Pyronotanthias), maximum size (7.5 cm SL), wild distribution, wild depth/temperature range, trophic level."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "advanced",
+    "breedingNotes": null,
+    "conspecificAggression": "low",
+    "finNippy": false,
+    "reefSafe": "yes",
+    "escapeRisk": "high",
+    "venomousSpines": false,
+    "protogynous": true,
+    "haremic": true,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-02"
+}

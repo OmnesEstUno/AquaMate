@@ -1,0 +1,108 @@
+{
+  "id": "sw-fish-219",
+  "slug": "tear-drop-butterflyfish",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Tear Drop Butterflyfish",
+  "scientificName": "Chaetodon unimaculatus",
+  "alsoKnownAs": ["Teardrop Butterflyfish", "One-spot Butterflyfish", "Teardrop Coralfish"],
+  "category": "Butterflyfish",
+  "taxonomy": {
+    "family": "Chaetodontidae",
+    "order": "Acanthuriformes"
+  },
+  "nativeRange": {
+    "regions": ["Indo-Pacific"],
+    "countries": [],
+    "habitat": "Tropical reef-associated waters along coral-rich slopes and lagoon reefs, typically reported from a few metres down to roughly 60 m depth",
+    "biotope": "Coral reef"
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 24, "max": 27 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.020, "max": 1.025 }
+  },
+  "adultSizeCm": { "min": 18, "max": 20 },
+  "lifespanYears": null,
+  "tank": {
+    "minVolumeLiters": 500,
+    "minLengthCm": 180,
+    "swimZone": "all",
+    "decorPreferences": ["live rock with caves and overhangs for shelter", "open swimming space", "sufficient water flow"]
+  },
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "omnivore",
+    "notes": "In the wild has been documented grazing on coral polyps, small benthic invertebrates, zooplankton, and filamentous and microalgae (including spirulina-type growth). In captivity is generally weaned onto a varied marine preparation of mysis shrimp, finely chopped seafood, frozen formulations for angels/butterflies, and a vegetable component; multiple small feedings per day are typically advised. New arrivals are often timid and may initially refuse prepared food — live brine or ghost shrimp are commonly used to stimulate feeding. Has been reported to consume Aiptasia (glass anemones)."
+  },
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "pair",
+    "minGroupSize": 1,
+    "goodWith": ["tangs", "wrasses", "large peaceful angelfish", "other peaceful fish-only community species"],
+    "avoidWith": ["overly aggressive tankmates that outcompete it at feeding", "other Chaetodon butterflyfishes (in tanks under ~750 L)", "stony and soft corals", "ornamental shrimp and tubeworms", "tridacnid clams", "Aiptasia and other anemones"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "An Indo-Pacific butterflyfish marked by a single large black 'teardrop' spot on a yellow-and-white body; generally peaceful and well suited to larger fish-only systems but is not considered reef-safe.",
+  "careNotes": "Chaetodon unimaculatus is generally considered an intermediate-difficulty butterflyfish: it tends to be timid on arrival and may refuse food during acclimation, but typically settles once offered live brine or ghost shrimp and is then weaned onto a varied diet of frozen and prepared marine foods. Stable, pristine water quality and a well-established tank are typically advised. Adults reach roughly 18–20 cm; minimum-tank recommendations across sources span ~90–125 US gallons (~340–475 L) on the retail end and 400 L on hobby-database sources, but given its active swimming behaviour, adult size, and tendency to be territorial toward similar-looking butterflyfishes, an aquarium of at least ~500 L with a long footprint and ample open swimming space is recommended for long-term health. Generally peaceful toward heterospecifics but has been reported to be aggressive toward conspecifics and other Chaetodon — best kept singly or as a verified mated pair. Not reef-safe: has been documented nipping at and consuming stony coral polyps, soft corals, mushroom anemones, anemones (including Aiptasia, which is sometimes considered a benefit), tubeworms, and ornamental shrimp; isolated reports of nipping at Tridacna clam mantles also exist. Like other butterflyfishes and tangs, this species is commonly considered susceptible to Head and Lateral Line Erosion (HLLE) when kept in poor water quality or fed an insufficiently varied, vitamin-rich, algae-inclusive diet. Wild butterflyfishes are widely reported to form monogamous pair bonds, so established pairs should not be split. Cross-source disagreements: minimum tank size ranged from 90 gal (340 L) on some retail/blog sources, 125 gal (~475 L) on LiveAquaria, and 400 L on reefapp.net — a sensible 500 L was chosen, biased toward the larger end given the species' size and active swimming. Lifespan was not stated by any source consulted and is left null. The designated Reef2Reef secondary source returned HTTP 403; reefapp.net was used in its place per the source-swap rule.",
+  "breedingNotes": "Oviparous with monogamous pair-bonding reported for the genus. Captive breeding of Chaetodon butterflyfishes is generally considered impractical for hobbyists; pelagic larvae are difficult to rear and there are no widely-reported captive-bred lines for this species.",
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/tear-drop-butterflyfish",
+      "accessedDate": "2026-06-02",
+      "notes": "Primary source for husbandry parameters (tank size 125 gal, temperature 72–78°F, pH 8.1–8.4, SG 1.020–1.025, peaceful temperament, omnivore diet, not reef-safe, moderate care level)."
+    },
+    "additional": [
+      {
+        "name": "reefapp.net",
+        "url": "https://reefapp.net/en/lex/details/chaetodon-unimaculatus",
+        "accessedDate": "2026-06-02",
+        "notes": "Substituted for the designated Reef2Reef wiki secondary (HTTP 403). Cross-checked max length (20 cm), minimum tank (400 L / 106 gal), Indo-Pacific distribution (E. Africa to Hawaii/Marquesas/Ducie, north to southern Japan), mostly-peaceful temperament with intraspecific aggression, omnivore diet including coral, tubeworm, Tridacna, and Aiptasia consumption, and confirmation of not-reef-safe status."
+      },
+      {
+        "name": "reefs.com species profile",
+        "url": "https://reefs.com/fish/teardrop-butterflyfish/",
+        "accessedDate": "2026-06-02",
+        "notes": "Third source consulted via web search snippet (page returned 403 on direct fetch). Confirmed 125 gal minimum tank, timid/peaceful temperament toward heterospecifics, monogamous pairing behaviour, not reef-safe (nips corals/anemones/mushrooms and crustaceans), tendency to refuse food on arrival and acceptance of live brine/ghost shrimp."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": null,
+    "conspecificAggression": "moderate",
+    "finNippy": false,
+    "reefSafe": "no",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "protogynous": null,
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": true,
+    "hlleSusceptible": true,
+    "toxicToTank": false
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-02"
+}
