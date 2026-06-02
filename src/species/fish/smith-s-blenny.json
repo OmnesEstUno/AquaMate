@@ -1,0 +1,166 @@
+{
+  "id": "sw-fish-196",
+  "slug": "smith-s-blenny",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Smith's Blenny",
+  "scientificName": "Meiacanthus smithi",
+  "alsoKnownAs": [
+    "Disco Blenny",
+    "Smith's Fang Blenny",
+    "Smith's Fangblenny"
+  ],
+  "category": "Blenny",
+  "taxonomy": {
+    "family": "Blenniidae",
+    "order": "Blenniiformes"
+  },
+  "nativeRange": {
+    "regions": [
+      "Eastern Indian Ocean",
+      "Indo-West Pacific"
+    ],
+    "countries": [
+      "Sri Lanka",
+      "India",
+      "Indonesia",
+      "Myanmar"
+    ],
+    "habitat": "Coral reef slopes and lagoon margins; generally observed at depths of about 1–20 m, hovering over rockwork.",
+    "biotope": "Reef"
+  },
+  "waterParameters": {
+    "temperatureC": {
+      "min": 23,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
+  },
+  "adultSizeCm": {
+    "min": 6,
+    "max": 8.5
+  },
+  "lifespanYears": null,
+  "tank": {
+    "minVolumeLiters": 120,
+    "minLengthCm": null,
+    "swimZone": "mid",
+    "decorPreferences": [
+      "live rock",
+      "caves",
+      "crevices",
+      "open swimming space",
+      "tight-fitting lid"
+    ]
+  },
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Has been reported to accept a wide range of prepared foods including chopped crustaceans, mysis shrimp, vitamin-enriched brine shrimp, spirulina-based herbivore preparations, and frozen zooplankton. Sources note a relatively high metabolism — feeding small amounts 2–3 times daily is commonly advised."
+  },
+  "compatibility": {
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": [
+      "peaceful reef fish",
+      "corals",
+      "invertebrates",
+      "clownfish",
+      "gobies",
+      "dartfish",
+      "cardinalfish"
+    ],
+    "avoidWith": [
+      "conspecifics (unless mated pair)",
+      "similar-shaped blennies",
+      "other Meiacanthus species",
+      "large aggressive predators"
+    ]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A small Eastern Indian Ocean fang blenny with a distinctive black eye-stripe and bluish-white body. Generally considered reef-safe and well suited to peaceful community reef tanks with ample rockwork.",
+  "careNotes": "The Smith's Blenny (also widely sold as the Disco Blenny) is a fang blenny native to the Eastern Indian Ocean — Sri Lanka, Sumatra, the Andaman and Nicobar Islands. Like other Meiacanthus species it possesses small venomous canine teeth used defensively against would-be predators; bites are uncommon but have been reported as painful, so hand-feeding is best avoided.\n\nIt is generally considered a relatively hardy and aquarium-friendly species, suitable for intermediate keepers. It tends to spend much of its time hovering in the water column near rockwork rather than hiding, which makes it a more visible blenny choice. Ample live rock with caves and crevices is commonly advised so it can dart for cover when threatened.\n\nGenerally regarded as reef-safe — no widely reported cases of coral or invertebrate nipping. Best kept singly or as a mated pair; have been known to be aggressive toward conspecifics and similarly shaped Meiacanthus blennies in tanks under ~250 L. Most sources describe them as peaceful toward unrelated species.\n\nSources disagreed on adult size: LiveAquaria lists 3 in (~7.6 cm), FishBase and Wikipedia give 8.5 cm TL, and Reefapp/ReefApp lists ~8 cm. The averaged range of 6–8.5 cm is used here. Minimum tank size also varied: LiveAquaria lists 30 US gal (~114 L), Reefapp lists 100 L. ORA notes the species is free-swimming and benefits from ample rockwork; in line with the playbook's tank-sizing rule, 120 L is used as a cautious, nicely rounded minimum that gives this active mid-water blenny adequate swimming space.\n\nThe species is a known jumper — a tight-fitting lid is strongly advised. ORA reports a high metabolism; small, frequent feedings tend to keep it in good condition.",
+  "breedingNotes": "Captive breeding has been reported for several Meiacanthus species (notably M. atrodorsalis) and ORA has produced M. smithi commercially in the past, though the product was listed as 'Not In Production' at the time of research. Males are typically larger than females. Eggs are demersal and adhesive; males have been observed guarding clutches in related species. Larvae are reported to require live rotifers as first food, making rearing moderately challenging.",
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/smiths-blenny",
+      "accessedDate": "2026-06-02",
+      "notes": "Source of pH (8.1–8.4), salinity (SG 1.020–1.025), temperature (72–78°F), temperament (semi-aggressive), reef-safe status, and 30 gal minimum (~114 L)."
+    },
+    "additional": [
+      {
+        "name": "orafarm.com",
+        "url": "https://www.orafarm.com/product/smiths-blenny/",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked behavior: free-swimming, ample rockwork required, high metabolism, feed 2–3 times daily. Product listed as Not In Production but care notes still authoritative. Does not provide numeric parameters."
+      },
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Meiacanthus-smithi.html",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked taxonomy and size (max 8.5 cm TL) and habitat depth (1–20 m). FishBase species page returned a timeout on direct WebFetch; values sourced via a FishBase search-result snippet. Used in size averaging."
+      },
+      {
+        "name": "Wikipedia (Disco blenny)",
+        "url": "https://en.wikipedia.org/wiki/Disco_blenny",
+        "accessedDate": "2026-06-02",
+        "notes": "Confirmed taxonomy (Blenniidae / Blenniiformes), max length 8.5 cm TL, native distribution (Sri Lanka, Sumatra, Andaman & Nicobar Islands), and species etymology. Used for taxonomy fallback only, not husbandry numbers."
+      },
+      {
+        "name": "Reefapp encyclopedia",
+        "url": "https://reefapp.net/en/encyclopedia/meiacanthus-smithi",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked tank size (100 L), max size (~8 cm), reef-safe status (always safe), conspecific aggression notes, swim zone, and jumping behavior. Used to justify 120 L minimum (cautious round-up from average of 100 and 114 L) and high escape risk."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "difficult",
+    "breedingNotes": "Captive breeding has been achieved commercially by ORA in the past. Males larger than females; demersal adhesive eggs; larvae require live rotifers as first food.",
+    "conspecificAggression": "moderate",
+    "finNippy": false,
+    "reefSafe": "yes",
+    "escapeRisk": "high",
+    "venomousSpines": true,
+    "protogynous": null,
+    "haremic": null,
+    "caudalScalpel": null,
+    "nocturnal": null,
+    "juvenileColorPhase": null,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": null,
+    "requiresHitchingPost": null,
+    "monogamousPairing": null,
+    "hlleSusceptible": null,
+    "toxicToTank": null
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-02"
+}
