@@ -133,6 +133,8 @@ From whichever source has them (primary preferred; cross-check only if it feels 
   - `fish.speciesOnlyTankRecommended` — true for slow/fragile species that outcompete poorly with faster tankmates (seahorses, pipefish, some scorpionfishes).
   - `fish.requiresHitchingPost` — true for seahorses and similar species that need solid anchor points (rocks, plants, artificial decor) to rest.
   - `fish.monogamousPairing` — true for species that form lifelong monogamous pair bonds (most butterflyfishes, wolf eels) — buy as mated pairs, never split established pairs.
+  - `fish.hlleSusceptible` — true for species (most tangs/surgeonfishes, large angelfishes) prone to Head and Lateral Line Erosion when kept in poor water quality or with insufficient vitamin-rich/marine-algae diet. Affects diet and water-quality guidance.
+  - `fish.toxicToTank` — true for species that release potent skin toxins under stress or at death capable of killing all tank inhabitants: boxfishes/cowfishes (ostracitoxin/pahutoxin), soapfishes (grammistin), some pufferfishes. **Distinct** from `venomousSpines` (handler-injected venom) and from edibility-only tetrodotoxin.
 
 **Prose style — avoid deterministic language about environmental and behavioral specs.**
 

@@ -33,7 +33,7 @@
     "fishVariant": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["breedingDifficulty", "breedingNotes", "conspecificAggression", "finNippy", "reefSafe", "escapeRisk", "venomousSpines", "protogynous", "haremic", "caudalScalpel", "nocturnal", "juvenileColorPhase", "copperSensitive", "speciesOnlyTankRecommended", "requiresHitchingPost", "monogamousPairing"],
+      "required": ["breedingDifficulty", "breedingNotes", "conspecificAggression", "finNippy", "reefSafe", "escapeRisk", "venomousSpines", "protogynous", "haremic", "caudalScalpel", "nocturnal", "juvenileColorPhase", "copperSensitive", "speciesOnlyTankRecommended", "requiresHitchingPost", "monogamousPairing", "hlleSusceptible", "toxicToTank"],
       "properties": {
         "breedingDifficulty":     { "type": ["string", "null"], "enum": ["easy", "moderate", "difficult", "advanced", "not in captivity", null] },
         "breedingNotes":          { "type": ["string", "null"] },
@@ -50,7 +50,9 @@
         "copperSensitive":        { "type": ["boolean", "null"], "description": "True for fish (scaleless dragonets, elasmobranchs, certain catfishes) that are intolerant of copper-based medications — parallel to crustacean.copperSensitive. Promoted from field-gap suggestions 2026-06-02 (5 species)." },
         "speciesOnlyTankRecommended": { "type": ["boolean", "null"], "description": "True for slow/fragile species (seahorses, pipefish) that outcompete poorly with faster tankmates and should be kept species-only. Promoted from field-gap suggestions 2026-06-02 (5 species)." },
         "requiresHitchingPost":   { "type": ["boolean", "null"], "description": "True for seahorses and similar species that need solid anchor points (rocks, plants, artificial decor) to rest. Promoted from field-gap suggestions 2026-06-02 (5 species)." },
-        "monogamousPairing":      { "type": ["boolean", "null"], "description": "True for species that form lifelong monogamous pair bonds (most butterflyfishes, wolf eels) — buy as mated pairs, never split established pairs. Promoted from field-gap suggestions 2026-06-02 (5 species)." }
+        "monogamousPairing":      { "type": ["boolean", "null"], "description": "True for species that form lifelong monogamous pair bonds (most butterflyfishes, wolf eels) — buy as mated pairs, never split established pairs. Promoted from field-gap suggestions 2026-06-02 (5 species)." },
+        "hlleSusceptible":        { "type": ["boolean", "null"], "description": "True for species (most tangs/surgeonfishes, large angels) prone to Head and Lateral Line Erosion (HLLE) when kept in poor water quality or with insufficient vitamin-rich/marine-algae diet. Promoted from field-gap suggestions 2026-06-02 (6 species)." },
+        "toxicToTank":            { "type": ["boolean", "null"], "description": "True for species (boxfishes/cowfishes via ostracitoxin/pahutoxin, soapfishes via grammistin, some pufferfish) that release potent skin toxins under stress or at death capable of killing all tank inhabitants — distinct from venomousSpines and from edibility-only tetrodotoxin. Promoted from field-gap suggestions 2026-06-02 (5 species)." }
       }
     },
     "crustaceanVariant": {
