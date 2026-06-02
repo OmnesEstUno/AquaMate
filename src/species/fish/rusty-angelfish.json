@@ -6,32 +6,64 @@
   "waterType": "saltwater",
   "commonName": "Rusty Angelfish",
   "scientificName": "Centropyge ferrugata",
-  "alsoKnownAs": ["Rusty Angel", "Rusty Pygmy Angelfish", "Rusty Dwarf Angelfish"],
+  "alsoKnownAs": [
+    "Rusty Angel",
+    "Rusty Pygmy Angelfish",
+    "Rusty Dwarf Angelfish"
+  ],
   "category": "Dwarf Angelfish",
   "taxonomy": {
     "family": "Pomacanthidae",
     "order": "Acanthuriformes"
   },
   "nativeRange": {
-    "regions": ["Western Pacific"],
-    "countries": ["Japan", "Taiwan", "Philippines"],
+    "regions": [
+      "Western Pacific"
+    ],
+    "countries": [
+      "Japan",
+      "Taiwan",
+      "Philippines"
+    ],
     "habitat": "Seaward rocky reefs and rubble slopes with extensive algal turf, typically between 6 and 30 m depth.",
     "biotope": "Reef"
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 28 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 23,
+      "max": 28
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.020, "max": 1.026 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.026
+    }
   },
-  "adultSizeCm": { "min": 8, "max": 10 },
-  "lifespanYears": { "min": 5, "max": 10 },
+  "adultSizeCm": {
+    "min": 8,
+    "max": 10
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 10
+  },
   "tank": {
     "minVolumeLiters": 300,
     "minLengthCm": 120,
     "swimZone": "all",
-    "decorPreferences": ["abundant live rock", "caves and crevices for grazing and refuge", "open swimming space between rockwork"]
+    "decorPreferences": [
+      "abundant live rock",
+      "caves and crevices for grazing and refuge",
+      "open swimming space between rockwork"
+    ]
   },
   "careLevel": "intermediate",
   "diet": {
@@ -42,8 +74,19 @@
     "temperament": "semi-aggressive",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["tangs", "wrasses", "clownfish", "gobies", "blennies", "most peaceful to semi-aggressive reef fish"],
-    "avoidWith": ["other dwarf angelfish (Centropyge spp.) in tanks under ~400 L", "very docile species that may be bullied", "ornamental shrimp and tubeworms"]
+    "goodWith": [
+      "tangs",
+      "wrasses",
+      "clownfish",
+      "gobies",
+      "blennies",
+      "most peaceful to semi-aggressive reef fish"
+    ],
+    "avoidWith": [
+      "other dwarf angelfish (Centropyge spp.) in tanks under ~400 L",
+      "very docile species that may be bullied",
+      "ornamental shrimp and tubeworms"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -105,7 +148,8 @@
     "requiresHitchingPost": false,
     "monogamousPairing": false,
     "hlleSusceptible": false,
-    "toxicToTank": false
+    "toxicToTank": false,
+    "feedingDifficulty": null
   },
   "crustacean": null,
   "coral": null,

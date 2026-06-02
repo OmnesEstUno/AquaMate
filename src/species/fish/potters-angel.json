@@ -6,32 +6,64 @@
   "waterType": "saltwater",
   "commonName": "Potter's Angelfish",
   "scientificName": "Centropyge potteri",
-  "alsoKnownAs": ["Potters Angel", "Potter's Pygmy Angelfish", "Russet Angelfish"],
+  "alsoKnownAs": [
+    "Potters Angel",
+    "Potter's Pygmy Angelfish",
+    "Russet Angelfish"
+  ],
   "category": "Angelfish",
   "taxonomy": {
     "family": "Pomacanthidae",
     "order": "Acanthuriformes"
   },
   "nativeRange": {
-    "regions": ["Eastern Central Pacific"],
-    "countries": ["United States (Hawaii)", "Johnston Atoll"],
+    "regions": [
+      "Eastern Central Pacific"
+    ],
+    "countries": [
+      "United States (Hawaii)",
+      "Johnston Atoll"
+    ],
     "habitat": "Reef-associated; found on rock, coral, and rubble bottoms generally from around 5 to 50 m, with records to ~138 m.",
     "biotope": "Hawaiian coral reef with abundant live rock for grazing and crevice cover"
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 26 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 22,
+      "max": 26
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 10, "max": 12.7 },
-  "lifespanYears": { "min": 5, "max": 10 },
+  "adultSizeCm": {
+    "min": 10,
+    "max": 12.7
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 10
+  },
   "tank": {
     "minVolumeLiters": 300,
     "minLengthCm": 120,
     "swimZone": "all",
-    "decorPreferences": ["abundant live rock", "multiple caves and crevices", "mature reef setup", "open swimming space along the front"]
+    "decorPreferences": [
+      "abundant live rock",
+      "multiple caves and crevices",
+      "mature reef setup",
+      "open swimming space along the front"
+    ]
   },
   "careLevel": "advanced",
   "diet": {
@@ -42,8 +74,18 @@
     "temperament": "semi-aggressive",
     "grouping": "pair",
     "minGroupSize": 1,
-    "goodWith": ["peaceful to semi-aggressive reef fish of differing body shape", "tangs in adequately sized systems", "wrasses", "cardinalfish", "gobies"],
-    "avoidWith": ["other dwarf angelfish (Centropyge spp.) in typical home aquaria", "conspecifics unless introduced as a known male-female pair", "very docile slow feeders that may be out-competed"]
+    "goodWith": [
+      "peaceful to semi-aggressive reef fish of differing body shape",
+      "tangs in adequately sized systems",
+      "wrasses",
+      "cardinalfish",
+      "gobies"
+    ],
+    "avoidWith": [
+      "other dwarf angelfish (Centropyge spp.) in typical home aquaria",
+      "conspecifics unless introduced as a known male-female pair",
+      "very docile slow feeders that may be out-competed"
+    ]
   },
   "media": {
     "primaryImage": "potters_angel.jpg",
@@ -93,7 +135,8 @@
     "requiresHitchingPost": false,
     "monogamousPairing": true,
     "hlleSusceptible": false,
-    "toxicToTank": false
+    "toxicToTank": false,
+    "feedingDifficulty": null
   },
   "crustacean": null,
   "coral": null,

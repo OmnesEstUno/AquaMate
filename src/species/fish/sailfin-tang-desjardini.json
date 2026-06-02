@@ -18,25 +18,67 @@
     "order": "Acanthuriformes"
   },
   "nativeRange": {
-    "regions": ["Western Indian Ocean", "Eastern Indian Ocean", "Red Sea"],
-    "countries": ["Egypt", "Sudan", "Saudi Arabia", "Yemen", "Kenya", "Tanzania", "Mozambique", "South Africa", "Madagascar", "India", "Sri Lanka", "Maldives", "Myanmar", "Thailand", "Indonesia"],
+    "regions": [
+      "Western Indian Ocean",
+      "Eastern Indian Ocean",
+      "Red Sea"
+    ],
+    "countries": [
+      "Egypt",
+      "Sudan",
+      "Saudi Arabia",
+      "Yemen",
+      "Kenya",
+      "Tanzania",
+      "Mozambique",
+      "South Africa",
+      "Madagascar",
+      "India",
+      "Sri Lanka",
+      "Maldives",
+      "Myanmar",
+      "Thailand",
+      "Indonesia"
+    ],
     "habitat": "Lagoon and seaward reefs at depths of roughly 3-30 m; juveniles tend to shelter among staghorn corals in inner reef areas.",
     "biotope": "Indo-Pacific coral reef"
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 27 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 23,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.020, "max": 1.026 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.026
+    }
   },
-  "adultSizeCm": { "min": 25, "max": 40 },
-  "lifespanYears": { "min": 8, "max": 15 },
+  "adultSizeCm": {
+    "min": 25,
+    "max": 40
+  },
+  "lifespanYears": {
+    "min": 8,
+    "max": 15
+  },
   "tank": {
     "minVolumeLiters": 700,
     "minLengthCm": 180,
     "swimZone": "all",
-    "decorPreferences": ["live rock with caves and overhangs", "open swimming space", "established algae growth"]
+    "decorPreferences": [
+      "live rock with caves and overhangs",
+      "open swimming space",
+      "established algae growth"
+    ]
   },
   "careLevel": "intermediate",
   "diet": {
@@ -47,8 +89,19 @@
     "temperament": "semi-aggressive",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["clownfishes", "wrasses", "cardinalfishes", "gobies", "blennies", "most reef-safe community fish"],
-    "avoidWith": ["other Zebrasoma tangs", "other similarly shaped tangs/surgeonfishes", "conspecifics (unless in a very large system)"]
+    "goodWith": [
+      "clownfishes",
+      "wrasses",
+      "cardinalfishes",
+      "gobies",
+      "blennies",
+      "most reef-safe community fish"
+    ],
+    "avoidWith": [
+      "other Zebrasoma tangs",
+      "other similarly shaped tangs/surgeonfishes",
+      "conspecifics (unless in a very large system)"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -104,7 +157,8 @@
     "requiresHitchingPost": false,
     "monogamousPairing": false,
     "hlleSusceptible": true,
-    "toxicToTank": false
+    "toxicToTank": false,
+    "feedingDifficulty": null
   },
   "crustacean": null,
   "coral": null,

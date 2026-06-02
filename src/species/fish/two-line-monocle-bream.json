@@ -20,7 +20,9 @@
     "order": "Eupercaria"
   },
   "nativeRange": {
-    "regions": ["Indo-West Pacific"],
+    "regions": [
+      "Indo-West Pacific"
+    ],
     "countries": [
       "Maldives",
       "India",
@@ -35,13 +37,28 @@
     "biotope": "Reef"
   },
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 28 },
-    "pH": { "min": 8.0, "max": 8.4 },
+    "temperatureC": {
+      "min": 24,
+      "max": 28
+    },
+    "pH": {
+      "min": 8,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.020, "max": 1.026 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.026
+    }
   },
-  "adultSizeCm": { "min": 20, "max": 25 },
+  "adultSizeCm": {
+    "min": 20,
+    "max": 25
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 400,
@@ -131,7 +148,8 @@
     "requiresHitchingPost": false,
     "monogamousPairing": false,
     "hlleSusceptible": false,
-    "toxicToTank": false
+    "toxicToTank": false,
+    "feedingDifficulty": null
   },
   "crustacean": null,
   "coral": null,

@@ -6,32 +6,66 @@
   "waterType": "saltwater",
   "commonName": "Two-Fin Flashlight Fish",
   "scientificName": "Anomalops katoptron",
-  "alsoKnownAs": ["Splitfin Flashlightfish", "Flashlight Fish", "Lanterneye Fish"],
+  "alsoKnownAs": [
+    "Splitfin Flashlightfish",
+    "Flashlight Fish",
+    "Lanterneye Fish"
+  ],
   "category": "Flashlight Fish",
   "taxonomy": {
     "family": "Anomalopidae",
     "order": "Trachichthyiformes"
   },
   "nativeRange": {
-    "regions": ["Western Pacific", "Central Pacific", "Indo-Pacific"],
-    "countries": ["Philippines", "Indonesia", "Japan", "Australia", "French Polynesia"],
+    "regions": [
+      "Western Pacific",
+      "Central Pacific",
+      "Indo-Pacific"
+    ],
+    "countries": [
+      "Philippines",
+      "Indonesia",
+      "Japan",
+      "Australia",
+      "French Polynesia"
+    ],
     "habitat": "Reef-associated; typically found near steep drop-offs and caves at depths of 200–400 m, with seasonal migrations into shallow coral-reef waters on moonless nights.",
     "biotope": "Reef"
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 26 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 22,
+      "max": 26
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 20, "max": 30 },
+  "adultSizeCm": {
+    "min": 20,
+    "max": 30
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 1000,
     "minLengthCm": 200,
     "swimZone": "mid",
-    "decorPreferences": ["caves", "overhangs", "shaded rockwork", "dim lighting"]
+    "decorPreferences": [
+      "caves",
+      "overhangs",
+      "shaded rockwork",
+      "dim lighting"
+    ]
   },
   "careLevel": "expert",
   "diet": {
@@ -42,8 +76,19 @@
     "temperament": "peaceful",
     "grouping": "schooling",
     "minGroupSize": 3,
-    "goodWith": ["other nocturnal fishes", "cardinalfishes", "squirrelfishes", "soldierfishes", "peaceful non-nipping tankmates"],
-    "avoidWith": ["bright daytime predators", "aggressive or boisterous tankmates", "fin-nippers", "strong daylight-only community tanks"]
+    "goodWith": [
+      "other nocturnal fishes",
+      "cardinalfishes",
+      "squirrelfishes",
+      "soldierfishes",
+      "peaceful non-nipping tankmates"
+    ],
+    "avoidWith": [
+      "bright daytime predators",
+      "aggressive or boisterous tankmates",
+      "fin-nippers",
+      "strong daylight-only community tanks"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -105,7 +150,8 @@
     "requiresHitchingPost": false,
     "monogamousPairing": false,
     "hlleSusceptible": false,
-    "toxicToTank": false
+    "toxicToTank": false,
+    "feedingDifficulty": null
   },
   "crustacean": null,
   "coral": null,

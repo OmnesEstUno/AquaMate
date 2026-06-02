@@ -20,25 +20,49 @@
     "order": "Blenniiformes"
   },
   "nativeRange": {
-    "regions": ["Indo-Pacific"],
+    "regions": [
+      "Indo-Pacific"
+    ],
     "countries": [],
     "habitat": "Shallow reef flats, lagoons, and intertidal zones with mixed coral, sand, and rubble; usually 0-8 m depth.",
     "biotope": "Algae-covered rocky rubble on shallow tropical reefs."
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 26 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 22,
+      "max": 26
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 10, "max": 14 },
-  "lifespanYears": { "min": 2, "max": 6 },
+  "adultSizeCm": {
+    "min": 10,
+    "max": 14
+  },
+  "lifespanYears": {
+    "min": 2,
+    "max": 6
+  },
   "tank": {
     "minVolumeLiters": 200,
     "minLengthCm": 120,
     "swimZone": "bottom",
-    "decorPreferences": ["live rock with algae growth", "rubble and rockwork crevices", "tightly fitted lid"]
+    "decorPreferences": [
+      "live rock with algae growth",
+      "rubble and rockwork crevices",
+      "tightly fitted lid"
+    ]
   },
   "careLevel": "intermediate",
   "diet": {
@@ -49,8 +73,16 @@
     "temperament": "peaceful",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["small peaceful reef fish", "shrimp and most invertebrates", "tangs and most non-blenny tankmates"],
-    "avoidWith": ["other Salarias or similar combtooth blennies", "small-polyp corals it may nip", "tridacnid clam mantles"]
+    "goodWith": [
+      "small peaceful reef fish",
+      "shrimp and most invertebrates",
+      "tangs and most non-blenny tankmates"
+    ],
+    "avoidWith": [
+      "other Salarias or similar combtooth blennies",
+      "small-polyp corals it may nip",
+      "tridacnid clam mantles"
+    ]
   },
   "media": {
     "primaryImage": "lawnmower_blenny.jpg",
@@ -106,7 +138,8 @@
     "requiresHitchingPost": false,
     "monogamousPairing": false,
     "hlleSusceptible": false,
-    "toxicToTank": false
+    "toxicToTank": false,
+    "feedingDifficulty": null
   },
   "crustacean": null,
   "coral": null,

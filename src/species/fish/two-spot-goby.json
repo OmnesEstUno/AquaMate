@@ -6,26 +6,58 @@
   "waterType": "saltwater",
   "commonName": "Two Spot Goby",
   "scientificName": "Signigobius biocellatus",
-  "alsoKnownAs": ["Twinspot Goby", "Signal Goby", "Crabeye Goby", "Crab-eyed Goby", "Four-eyed Goby"],
+  "alsoKnownAs": [
+    "Twinspot Goby",
+    "Signal Goby",
+    "Crabeye Goby",
+    "Crab-eyed Goby",
+    "Four-eyed Goby"
+  ],
   "category": "Goby",
   "taxonomy": {
     "family": "Gobiidae",
     "order": "Gobiiformes"
   },
   "nativeRange": {
-    "regions": ["Western Pacific", "Indo-Pacific"],
-    "countries": ["Indonesia", "Philippines", "Papua New Guinea", "Solomon Islands", "Vanuatu", "Australia", "Palau"],
+    "regions": [
+      "Western Pacific",
+      "Indo-Pacific"
+    ],
+    "countries": [
+      "Indonesia",
+      "Philippines",
+      "Papua New Guinea",
+      "Solomon Islands",
+      "Vanuatu",
+      "Australia",
+      "Palau"
+    ],
     "habitat": "Reef-associated; sandy to silty bottoms of lagoons and coastal bays near coral, rubble or leaf litter shelter, typically at 2–30 m depth.",
     "biotope": "Sand-bottomed lagoons and coastal reef margins adjacent to coral or rubble cover."
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 26 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 22,
+      "max": 26
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 7.5, "max": 10 },
+  "adultSizeCm": {
+    "min": 7.5,
+    "max": 10
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 150,
@@ -111,7 +143,8 @@
     "requiresHitchingPost": false,
     "monogamousPairing": true,
     "hlleSusceptible": false,
-    "toxicToTank": false
+    "toxicToTank": false,
+    "feedingDifficulty": null
   },
   "crustacean": null,
   "coral": null,

@@ -6,32 +6,66 @@
   "waterType": "saltwater",
   "commonName": "Talbot's Damselfish",
   "scientificName": "Chrysiptera talboti",
-  "alsoKnownAs": ["Talbot's Demoiselle", "Talbots Damsel"],
+  "alsoKnownAs": [
+    "Talbot's Demoiselle",
+    "Talbots Damsel"
+  ],
   "category": "Damsel",
   "taxonomy": {
     "family": "Pomacentridae",
     "order": "Ovalentaria"
   },
   "nativeRange": {
-    "regions": ["Indo-West Pacific"],
-    "countries": ["Indonesia", "Philippines", "Palau", "Australia", "Fiji"],
+    "regions": [
+      "Indo-West Pacific"
+    ],
+    "countries": [
+      "Indonesia",
+      "Philippines",
+      "Palau",
+      "Australia",
+      "Fiji"
+    ],
     "habitat": "Coral-rich areas of seaward reef slopes and deep lagoons, on mixed coral and rubble patches, at depths of roughly 3-35 m.",
     "biotope": "Tropical Indo-Pacific coral reef"
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 27 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 23,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 5.5, "max": 6.5 },
-  "lifespanYears": { "min": 4, "max": 6 },
+  "adultSizeCm": {
+    "min": 5.5,
+    "max": 6.5
+  },
+  "lifespanYears": {
+    "min": 4,
+    "max": 6
+  },
   "tank": {
     "minVolumeLiters": 120,
     "minLengthCm": 90,
     "swimZone": "all",
-    "decorPreferences": ["live rock", "coral branches", "rubble patches", "caves and crevices for territory"]
+    "decorPreferences": [
+      "live rock",
+      "coral branches",
+      "rubble patches",
+      "caves and crevices for territory"
+    ]
   },
   "careLevel": "beginner",
   "diet": {
@@ -42,8 +76,18 @@
     "temperament": "semi-aggressive",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["larger peaceful reef fish", "tangs", "wrasses", "angels in adequate space", "established corals"],
-    "avoidWith": ["small peaceful shrimp", "very docile fish that share the same niche", "small slow movers like firefish in confined tanks"]
+    "goodWith": [
+      "larger peaceful reef fish",
+      "tangs",
+      "wrasses",
+      "angels in adequate space",
+      "established corals"
+    ],
+    "avoidWith": [
+      "small peaceful shrimp",
+      "very docile fish that share the same niche",
+      "small slow movers like firefish in confined tanks"
+    ]
   },
   "media": {
     "primaryImage": "talbots_damsel.jpg",
@@ -93,7 +137,8 @@
     "requiresHitchingPost": false,
     "monogamousPairing": false,
     "hlleSusceptible": false,
-    "toxicToTank": false
+    "toxicToTank": false,
+    "feedingDifficulty": null
   },
   "crustacean": null,
   "coral": null,

@@ -21,25 +21,59 @@
     "order": "Perciformes"
   },
   "nativeRange": {
-    "regions": ["Western Indian Ocean", "Red Sea"],
-    "countries": ["Egypt", "Saudi Arabia", "Sudan", "Eritrea", "Yemen", "Djibouti", "British Indian Ocean Territory"],
+    "regions": [
+      "Western Indian Ocean",
+      "Red Sea"
+    ],
+    "countries": [
+      "Egypt",
+      "Saudi Arabia",
+      "Sudan",
+      "Eritrea",
+      "Yemen",
+      "Djibouti",
+      "British Indian Ocean Territory"
+    ],
     "habitat": "Coral reefs and lagoons at 1–30 m depth, typically associated with host sea anemones on outer reefs and reef slopes.",
     "biotope": "Tropical Red Sea / Gulf of Aden coral reef with host anemone (Entacmaea quadricolor, Heteractis crispa, Heteractis magnifica)."
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 27 },
-    "pH": { "min": 8.0, "max": 8.4 },
+    "temperatureC": {
+      "min": 23,
+      "max": 27
+    },
+    "pH": {
+      "min": 8,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.021, "max": 1.026 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.021,
+      "max": 1.026
+    }
   },
-  "adultSizeCm": { "min": 10, "max": 14 },
-  "lifespanYears": { "min": 6, "max": 12 },
+  "adultSizeCm": {
+    "min": 10,
+    "max": 14
+  },
+  "lifespanYears": {
+    "min": 6,
+    "max": 12
+  },
   "tank": {
     "minVolumeLiters": 150,
     "minLengthCm": 90,
     "swimZone": "all",
-    "decorPreferences": ["live rock", "caves and overhangs", "host anemone (optional but appreciated)", "open swimming space near anemone"]
+    "decorPreferences": [
+      "live rock",
+      "caves and overhangs",
+      "host anemone (optional but appreciated)",
+      "open swimming space near anemone"
+    ]
   },
   "careLevel": "intermediate",
   "diet": {
@@ -50,8 +84,20 @@
     "temperament": "semi-aggressive",
     "grouping": "pair",
     "minGroupSize": 1,
-    "goodWith": ["peaceful reef fish", "host anemones", "tangs", "gobies", "wrasses", "corals"],
-    "avoidWith": ["other clownfish species", "other Amphiprion bicinctus pairs", "small docile damsels", "very timid fish"]
+    "goodWith": [
+      "peaceful reef fish",
+      "host anemones",
+      "tangs",
+      "gobies",
+      "wrasses",
+      "corals"
+    ],
+    "avoidWith": [
+      "other clownfish species",
+      "other Amphiprion bicinctus pairs",
+      "small docile damsels",
+      "very timid fish"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -119,7 +165,8 @@
     "requiresHitchingPost": false,
     "monogamousPairing": true,
     "hlleSusceptible": false,
-    "toxicToTank": false
+    "toxicToTank": false,
+    "feedingDifficulty": null
   },
   "crustacean": null,
   "coral": null,

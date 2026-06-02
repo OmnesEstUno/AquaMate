@@ -6,32 +6,57 @@
   "waterType": "saltwater",
   "commonName": "Tear Drop Butterflyfish",
   "scientificName": "Chaetodon unimaculatus",
-  "alsoKnownAs": ["Teardrop Butterflyfish", "One-spot Butterflyfish", "Teardrop Coralfish"],
+  "alsoKnownAs": [
+    "Teardrop Butterflyfish",
+    "One-spot Butterflyfish",
+    "Teardrop Coralfish"
+  ],
   "category": "Butterflyfish",
   "taxonomy": {
     "family": "Chaetodontidae",
     "order": "Acanthuriformes"
   },
   "nativeRange": {
-    "regions": ["Indo-Pacific"],
+    "regions": [
+      "Indo-Pacific"
+    ],
     "countries": [],
     "habitat": "Tropical reef-associated waters along coral-rich slopes and lagoon reefs, typically reported from a few metres down to roughly 60 m depth",
     "biotope": "Coral reef"
   },
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 27 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 24,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 18, "max": 20 },
+  "adultSizeCm": {
+    "min": 18,
+    "max": 20
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 500,
     "minLengthCm": 180,
     "swimZone": "all",
-    "decorPreferences": ["live rock with caves and overhangs for shelter", "open swimming space", "sufficient water flow"]
+    "decorPreferences": [
+      "live rock with caves and overhangs for shelter",
+      "open swimming space",
+      "sufficient water flow"
+    ]
   },
   "careLevel": "intermediate",
   "diet": {
@@ -42,8 +67,20 @@
     "temperament": "peaceful",
     "grouping": "pair",
     "minGroupSize": 1,
-    "goodWith": ["tangs", "wrasses", "large peaceful angelfish", "other peaceful fish-only community species"],
-    "avoidWith": ["overly aggressive tankmates that outcompete it at feeding", "other Chaetodon butterflyfishes (in tanks under ~750 L)", "stony and soft corals", "ornamental shrimp and tubeworms", "tridacnid clams", "Aiptasia and other anemones"]
+    "goodWith": [
+      "tangs",
+      "wrasses",
+      "large peaceful angelfish",
+      "other peaceful fish-only community species"
+    ],
+    "avoidWith": [
+      "overly aggressive tankmates that outcompete it at feeding",
+      "other Chaetodon butterflyfishes (in tanks under ~750 L)",
+      "stony and soft corals",
+      "ornamental shrimp and tubeworms",
+      "tridacnid clams",
+      "Aiptasia and other anemones"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -93,7 +130,8 @@
     "requiresHitchingPost": false,
     "monogamousPairing": true,
     "hlleSusceptible": true,
-    "toxicToTank": false
+    "toxicToTank": false,
+    "feedingDifficulty": null
   },
   "crustacean": null,
   "coral": null,

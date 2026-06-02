@@ -6,32 +6,63 @@
   "waterType": "saltwater",
   "commonName": "Tiger Watchman Goby",
   "scientificName": "Valenciennea wardii",
-  "alsoKnownAs": ["Ward's Sleeper", "Ward's Sleeper Goby", "Tiger Sleeper Goby"],
+  "alsoKnownAs": [
+    "Ward's Sleeper",
+    "Ward's Sleeper Goby",
+    "Tiger Sleeper Goby"
+  ],
   "category": "Goby",
   "taxonomy": {
     "family": "Gobiidae",
     "order": "Gobiiformes"
   },
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Indian Ocean", "Western Pacific"],
+    "regions": [
+      "Indo-Pacific",
+      "Indian Ocean",
+      "Western Pacific"
+    ],
     "countries": [],
     "habitat": "Sandy areas of shallow lagoon reefs and coastal bays on silty slopes; reported from 5–88 m, typically 5–20 m.",
     "biotope": "Sand and rubble flats adjacent to reefs, usually as monogamous pairs sharing a burrow."
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 26 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 22,
+      "max": 26
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 12, "max": 15 },
-  "lifespanYears": { "min": 5, "max": 10 },
+  "adultSizeCm": {
+    "min": 12,
+    "max": 15
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 10
+  },
   "tank": {
     "minVolumeLiters": 150,
     "minLengthCm": 90,
     "swimZone": "bottom",
-    "decorPreferences": ["deep fine sand bed", "live rock with caves", "open sand area for sifting", "tightly fitting lid"]
+    "decorPreferences": [
+      "deep fine sand bed",
+      "live rock with caves",
+      "open sand area for sifting",
+      "tightly fitting lid"
+    ]
   },
   "careLevel": "intermediate",
   "diet": {
@@ -42,8 +73,19 @@
     "temperament": "peaceful",
     "grouping": "pair",
     "minGroupSize": 1,
-    "goodWith": ["most peaceful community reef fish", "small wrasses", "clownfish", "cardinalfish", "dwarf angelfish"],
-    "avoidWith": ["conspecifics (unless a bonded male-female pair)", "other Valenciennea sleeper gobies", "large aggressive predators", "boisterous tankmates that outcompete it for food"]
+    "goodWith": [
+      "most peaceful community reef fish",
+      "small wrasses",
+      "clownfish",
+      "cardinalfish",
+      "dwarf angelfish"
+    ],
+    "avoidWith": [
+      "conspecifics (unless a bonded male-female pair)",
+      "other Valenciennea sleeper gobies",
+      "large aggressive predators",
+      "boisterous tankmates that outcompete it for food"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -87,7 +129,8 @@
     "requiresHitchingPost": false,
     "monogamousPairing": true,
     "hlleSusceptible": false,
-    "toxicToTank": false
+    "toxicToTank": false,
+    "feedingDifficulty": null
   },
   "crustacean": null,
   "coral": null,

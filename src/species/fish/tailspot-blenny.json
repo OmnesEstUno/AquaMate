@@ -6,32 +6,63 @@
   "waterType": "saltwater",
   "commonName": "Tailspot Blenny",
   "scientificName": "Ecsenius stigmatura",
-  "alsoKnownAs": ["Tail Spot Blenny", "Tailspot Coralblenny"],
+  "alsoKnownAs": [
+    "Tail Spot Blenny",
+    "Tailspot Coralblenny"
+  ],
   "category": "Blenny",
   "taxonomy": {
     "family": "Blenniidae",
     "order": "Blenniiformes"
   },
   "nativeRange": {
-    "regions": ["Western Pacific"],
-    "countries": ["Philippines", "Indonesia"],
+    "regions": [
+      "Western Pacific"
+    ],
+    "countries": [
+      "Philippines",
+      "Indonesia"
+    ],
     "habitat": "Coastal lagoons and sheltered coral reefs at depths of roughly 2-30 m, perching and grazing among rocks and rubble.",
     "biotope": "Reef"
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 26 },
-    "pH":           { "min": 8.1, "max": 8.4 },
-    "gH":           null,
-    "kH":           { "min": 8, "max": 12 },
-    "salinity":     { "min": 1.020, "max": 1.025 }
+    "temperatureC": {
+      "min": 22,
+      "max": 26
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm":   { "min": 5, "max": 6 },
-  "lifespanYears": { "min": 2, "max": 4 },
+  "adultSizeCm": {
+    "min": 5,
+    "max": 6
+  },
+  "lifespanYears": {
+    "min": 2,
+    "max": 4
+  },
   "tank": {
     "minVolumeLiters": 75,
     "minLengthCm": 60,
     "swimZone": "bottom",
-    "decorPreferences": ["live rock", "rockwork with crevices and ledges", "sandy substrate", "tight-fitting lid"]
+    "decorPreferences": [
+      "live rock",
+      "rockwork with crevices and ledges",
+      "sandy substrate",
+      "tight-fitting lid"
+    ]
   },
   "careLevel": "intermediate",
   "diet": {
@@ -42,8 +73,19 @@
     "temperament": "peaceful",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["cardinalfish", "clownfish", "dwarf angelfish", "gobies", "peaceful wrasses", "small reef-safe community fish"],
-    "avoidWith": ["large or aggressive species that may intimidate it", "other blennies in small tanks", "other Ecsenius species in small tanks"]
+    "goodWith": [
+      "cardinalfish",
+      "clownfish",
+      "dwarf angelfish",
+      "gobies",
+      "peaceful wrasses",
+      "small reef-safe community fish"
+    ],
+    "avoidWith": [
+      "large or aggressive species that may intimidate it",
+      "other blennies in small tanks",
+      "other Ecsenius species in small tanks"
+    ]
   },
   "media": {
     "primaryImage": "tailspot_blenny.jpg",
@@ -56,20 +98,20 @@
   "sources": {
     "primary": {
       "name": "LiveAquaria",
-      "url":  "https://www.liveaquaria.com/products/tail-spot-blenny",
+      "url": "https://www.liveaquaria.com/products/tail-spot-blenny",
       "accessedDate": "2026-06-02",
       "notes": "Retailer husbandry page; provided tank size (10 gal), diet, basic temperament, and habitat preferences."
     },
     "additional": [
       {
         "name": "FishBase",
-        "url":  "https://www.fishbase.se/summary/Ecsenius-stigmatura.html",
+        "url": "https://www.fishbase.se/summary/Ecsenius-stigmatura.html",
         "accessedDate": "2026-06-02",
         "notes": "Taxonomy (Blenniidae / Blenniiformes), max length 6.0 cm TL, Western Pacific range (Philippines, Indonesia), 2-30 m depth, oviparous biology."
       },
       {
         "name": "BiomesInaBox",
-        "url":  "https://biomesinabox.com/saltwater-fish/tailspot-blenny-complete-care-guide/",
+        "url": "https://biomesinabox.com/saltwater-fish/tailspot-blenny-complete-care-guide/",
         "accessedDate": "2026-06-02",
         "notes": "Cross-checked water parameters (22-26 C, pH 8.1-8.4, SG 1.020-1.025, dKH 8-12), reef-safe rating, herbivore diet, jumping/lid requirement, and good/avoid tankmate guidance."
       }
@@ -93,7 +135,8 @@
     "requiresHitchingPost": false,
     "monogamousPairing": false,
     "hlleSusceptible": false,
-    "toxicToTank": false
+    "toxicToTank": false,
+    "feedingDifficulty": null
   },
   "crustacean": null,
   "coral": null,

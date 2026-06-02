@@ -33,7 +33,7 @@
     "fishVariant": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["breedingDifficulty", "breedingNotes", "conspecificAggression", "finNippy", "reefSafe", "escapeRisk", "venomousSpines", "protogynous", "haremic", "caudalScalpel", "nocturnal", "juvenileColorPhase", "copperSensitive", "speciesOnlyTankRecommended", "requiresHitchingPost", "monogamousPairing", "hlleSusceptible", "toxicToTank"],
+      "required": ["breedingDifficulty", "breedingNotes", "conspecificAggression", "finNippy", "reefSafe", "escapeRisk", "venomousSpines", "protogynous", "haremic", "caudalScalpel", "nocturnal", "juvenileColorPhase", "copperSensitive", "speciesOnlyTankRecommended", "requiresHitchingPost", "monogamousPairing", "hlleSusceptible", "toxicToTank", "feedingDifficulty"],
       "properties": {
         "breedingDifficulty":     { "type": ["string", "null"], "enum": ["easy", "moderate", "difficult", "advanced", "not in captivity", null] },
         "breedingNotes":          { "type": ["string", "null"] },
@@ -52,7 +52,8 @@
         "requiresHitchingPost":   { "type": ["boolean", "null"], "description": "True for seahorses and similar species that need solid anchor points (rocks, plants, artificial decor) to rest. Promoted from field-gap suggestions 2026-06-02 (5 species)." },
         "monogamousPairing":      { "type": ["boolean", "null"], "description": "True for species that form lifelong monogamous pair bonds (most butterflyfishes, wolf eels) — buy as mated pairs, never split established pairs. Promoted from field-gap suggestions 2026-06-02 (5 species)." },
         "hlleSusceptible":        { "type": ["boolean", "null"], "description": "True for species (most tangs/surgeonfishes, large angels) prone to Head and Lateral Line Erosion (HLLE) when kept in poor water quality or with insufficient vitamin-rich/marine-algae diet. Promoted from field-gap suggestions 2026-06-02 (6 species)." },
-        "toxicToTank":            { "type": ["boolean", "null"], "description": "True for species (boxfishes/cowfishes via ostracitoxin/pahutoxin, soapfishes via grammistin, some pufferfish) that release potent skin toxins under stress or at death capable of killing all tank inhabitants — distinct from venomousSpines and from edibility-only tetrodotoxin. Promoted from field-gap suggestions 2026-06-02 (5 species)." }
+        "toxicToTank":            { "type": ["boolean", "null"], "description": "True for species (boxfishes/cowfishes via ostracitoxin/pahutoxin, soapfishes via grammistin, some pufferfish) that release potent skin toxins under stress or at death capable of killing all tank inhabitants — distinct from venomousSpines and from edibility-only tetrodotoxin. Promoted from field-gap suggestions 2026-06-02 (5 species)." },
+        "feedingDifficulty":      { "type": ["string", "null"], "enum": ["easy", "moderate", "difficult", "live-only", null], "description": "Difficulty of getting a newly-acquired specimen to accept aquarium foods, distinct from overall careLevel. \"easy\" = takes prepared/frozen foods readily; \"moderate\" = takes frozen but needs variety/coaxing; \"difficult\" = often refuses prepared foods on arrival, needs targeted feeding; \"live-only\" = will only accept live prey, common starvation risk (anglerfish, frogfish, some batfish, mandarin dragonets, some scorpionfishes, sweetlips). Promoted from field-gap suggestions 2026-06-02 (5 species)." }
       }
     },
     "crustaceanVariant": {
