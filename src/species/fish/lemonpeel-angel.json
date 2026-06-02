@@ -4,73 +4,147 @@
   "kind": "fauna",
   "taxon": "fish",
   "waterType": "saltwater",
-  "commonName": "Lemonpeel Angel",
-  "scientificName": "",
-  "alsoKnownAs": [],
-  "category": "Angelfish",
+  "commonName": "Lemonpeel Angelfish",
+  "scientificName": "Centropyge flavissima",
+  "alsoKnownAs": [
+    "Lemonpeel Angel",
+    "True Lemonpeel Angelfish"
+  ],
+  "category": "Dwarf Angelfish",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Pomacanthidae",
+    "order": "Acanthuriformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null
+    "regions": [
+      "Indo-Pacific",
+      "Western Central Pacific",
+      "Oceania"
+    ],
+    "countries": [
+      "Australia (Great Barrier Reef)",
+      "Hawaii (United States)",
+      "Marshall Islands",
+      "Palau",
+      "Fiji",
+      "Micronesia",
+      "Christmas Island"
+    ],
+    "habitat": "Coral-rich areas of shallow lagoons and exposed seaward reefs, typically at depths of 2–50 m; juveniles tend to be secretive among coral rubble",
+    "biotope": "Reef"
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
+    "temperatureC": {
+      "min": 23,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": null,
-    "salinity": null
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.021,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": {
+    "min": 10,
+    "max": 14
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 9
+  },
   "tank": {
-    "minVolumeLiters": null,
+    "minVolumeLiters": 300,
     "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": []
+    "swimZone": "all",
+    "decorPreferences": [
+      "live rock",
+      "caves",
+      "hiding places",
+      "coral rubble"
+    ]
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Has been documented consuming algae and small invertebrates. In captivity, generally advised to offer spirulina, dried marine algae (nori), high-quality angelfish preparations, mysis shrimp, and frozen meaty foods. This species tends to require more algae and plant-based matter in its diet than many other dwarf angelfish. Feeding 2–3 times daily is commonly recommended."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "semi-aggressive",
+    "grouping": "pair",
+    "minGroupSize": 1,
+    "goodWith": [
+      "non-aggressive reef fish",
+      "clownfish",
+      "tangs",
+      "wrasses",
+      "gobies",
+      "peaceful damsels"
+    ],
+    "avoidWith": [
+      "other dwarf angelfish (Centropyge spp.)",
+      "similarly colored fish",
+      "very passive or slow-moving fish that may be harassed",
+      "clams (mantle nipping reported)",
+      "large-polyped stony corals (LPS)"
+    ]
   },
   "media": {
     "primaryImage": "lemonpeel_angel.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Lemonpeel Angel.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "A vivid all-yellow dwarf angelfish with sky-blue highlights around the eyes, lips, and fin edges, native to Indo-Pacific reefs. Semi-aggressive; best kept singly; generally considered reef-safe with caution.",
+  "careNotes": "The Lemonpeel Angelfish is commonly considered intermediate in difficulty, partly due to its tendency to be less robust than some other dwarf angelfish and its requirement for an algae-rich diet. A well-established aquarium with substantial live rock for grazing is generally advised. It has been known to nip at large-polyped stony corals (LPS) and clam mantles, so it is best described as 'reef-safe with caution' rather than fully reef-safe. Best kept singly; introducing two individuals of the same genus into the same tank tends to result in aggression. It is a protogynous hermaphrodite — females can transition to male in the absence of a dominant male, consistent with other Centropyge angelfishes. The species also forms harems in the wild (one dominant male with several females). Often called the 'True Lemonpeel Angelfish' in the trade to distinguish it from the False Lemonpeel (Centropyge heraldi), which lacks the distinctive blue highlights. Temperature sources showed some spread: LiveAquaria recommends 22–26°C, while FishBase records a preferred range of 24–28°C; the averaged range of 23–27°C is used here. Tank size recommendations ranged widely (113–265 L across sources); 300 L is used here, biased larger given the species' territorial nature and need for extensive rockwork. Lifespan reports ranged from 5–7 years (hobbyist sources) to up to 11 years (FishBase); an averaged range of 5–9 years is used.",
+  "breedingNotes": "Breeding in captivity has been reported but is considered challenging. The Lemonpeel Angelfish is a protogynous hermaphrodite that forms harems in the wild; spawning tends to occur in the evening, with eggs and sperm released into the water column (broadcast spawning). Sexing individuals is not straightforward visually. Captive rearing of larvae is rarely attempted outside specialist facilities.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/lemonpeel-angelfish",
+      "accessedDate": "2026-06-02",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Centropyge-flavissima",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked adult size (FishBase records 14.0 cm TL, consistent with upper end of aquarium sources), temperature (FishBase 24–28°C vs LiveAquaria 22–26°C; averaged to 23–27°C), taxonomy (family Pomacanthidae, order Acanthuriformes), native range, and lifespan (up to 11 years in captivity per FishBase vs 5–7 years in hobbyist sources; averaged to 5–9 years)."
+      },
+      {
+        "name": "Reeflings",
+        "url": "https://reeflings.com/species/centropyge-flavissima",
+        "accessedDate": "2026-06-02",
+        "notes": "Third source used to corroborate temperature range (24–27°C), salinity (SG 1.023–1.026), adult size (10 cm / 4 in), tank size (200 L / 53 gal), and diet. Salinity averaged across LiveAquaria (1.020–1.025) and Reeflings (1.023–1.026) to give final range of 1.021–1.025."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
-    "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "protogynous": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
+    "breedingDifficulty": "advanced",
+    "breedingNotes": "Protogynous hermaphrodite; harem spawner. Broadcast spawning; captive breeding rarely achieved outside specialist facilities.",
+    "conspecificAggression": "high",
+    "finNippy": true,
+    "reefSafe": "with caution",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "protogynous": true,
+    "haremic": true,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
     "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": null,
+    "toxicToTank": null
   },
   "crustacean": null,
   "coral": null,
@@ -80,6 +154,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-02"
 }
