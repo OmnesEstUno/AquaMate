@@ -4,75 +4,96 @@
   "kind": "fauna",
   "taxon": "fish",
   "waterType": "saltwater",
-  "commonName": "Talbots Damsel",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "commonName": "Talbot's Damselfish",
+  "scientificName": "Chrysiptera talboti",
+  "alsoKnownAs": ["Talbot's Demoiselle", "Talbots Damsel"],
   "category": "Damsel",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Pomacentridae",
+    "order": "Ovalentaria"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null
+    "regions": ["Indo-West Pacific"],
+    "countries": ["Indonesia", "Philippines", "Palau", "Australia", "Fiji"],
+    "habitat": "Coral-rich areas of seaward reef slopes and deep lagoons, on mixed coral and rubble patches, at depths of roughly 3-35 m.",
+    "biotope": "Tropical Indo-Pacific coral reef"
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
+    "temperatureC": { "min": 23, "max": 27 },
+    "pH": { "min": 8.1, "max": 8.4 },
     "gH": null,
-    "kH": null,
-    "salinity": null
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.020, "max": 1.025 }
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 5.5, "max": 6.5 },
+  "lifespanYears": { "min": 4, "max": 6 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": []
+    "minVolumeLiters": 120,
+    "minLengthCm": 90,
+    "swimZone": "all",
+    "decorPreferences": ["live rock", "coral branches", "rubble patches", "caves and crevices for territory"]
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "beginner",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Primarily planktivorous in the wild, feeding on zooplankton near the substrate. In aquariums, generally accepts a varied diet of mysis, brine shrimp, finely chopped marine meats, herbivore preparations, and quality flakes or pellets fed two to three times daily."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["larger peaceful reef fish", "tangs", "wrasses", "angels in adequate space", "established corals"],
+    "avoidWith": ["small peaceful shrimp", "very docile fish that share the same niche", "small slow movers like firefish in confined tanks"]
   },
   "media": {
     "primaryImage": "talbots_damsel.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Talbots Damsel.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "A small, hardy Indo-Pacific damselfish with a canary-yellow head and pale lavender-blue body. Generally considered reef-safe and one of the more tolerant damsels, though tends to become territorial as it matures.",
+  "careNotes": "Talbot's Damselfish is often recommended as one of the more peaceable damsels and is commonly considered beginner-friendly. It tends to be more aggressive in undersized tanks or when kept with very similar species, so a longer footprint with multiple defensible territories in the rockwork is generally advised. Although sometimes sold as suitable for 30-US-gallon (~114 L) tanks, biasing toward a ~120 L or larger system with an open swimming area tends to reduce conspecific and inter-species aggression as the fish matures. Generally regarded as reef-safe with corals, but hobbyists have reported occasional harassment of small ornamental shrimp and hermit crabs, so caution is warranted with delicate or newly added invertebrates. Sources gave a temperature span of roughly 22-28°C across captive and wild data; the 23-27°C range used here reflects the averaged hobbyist target and overlaps the FishBase wild range (24.9-28.9°C). Lifespan estimates vary between sources (3-5 years vs 5-7 years); 4-6 years is used as a midpoint.",
+  "breedingNotes": "Oviparous with distinct pair bonding during breeding. Eggs are demersal and adhere to a chosen substrate, with males guarding and aerating the nest until hatching. Captive breeding has been documented, but rearing the pelagic larvae is generally considered difficult.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/talbots-damselfish",
+      "accessedDate": "2026-06-02",
+      "notes": "Husbandry baseline: 30 US gal minimum, 72-78°F, pH 8.1-8.4, SG 1.020-1.025, dKH 8-12, semi-aggressive, reef compatible, max 2.25 in."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Chrysiptera-talboti.html",
+        "accessedDate": "2026-06-02",
+        "notes": "Taxonomy (Pomacentridae, Ovalentaria/misc), max size 6.0 cm TL, depth 3-35 m, wild temperature 24.9-28.9°C, Indo-West Pacific distribution, planktivorous trophic level 2.8, oviparous with male egg care."
+      },
+      {
+        "name": "Tropical Fish Keeping",
+        "url": "https://tropical-fish-keeping.com/talbots-damselfish-chrysiptera-talboti.html",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-check: 2.5 in max, 72-82°F, pH 8.0-8.5, SG 1.020-1.025, 30 gal min, reef safe, lifespan 3-5 yr, Indo-Pacific to Fiji range. Slightly wider temperature and pH bands than LiveAquaria; values were averaged into the final ranges."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
-    "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "protogynous": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
-    "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null
+    "breedingDifficulty": "difficult",
+    "breedingNotes": "Pairs spawn on a cleaned substrate; males guard and fan the demersal eggs. Larvae are pelagic and historically considered difficult to rear, though limited captive success has been reported.",
+    "conspecificAggression": "moderate",
+    "finNippy": false,
+    "reefSafe": "yes",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "protogynous": false,
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false
   },
   "crustacean": null,
   "coral": null,
@@ -82,6 +103,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-02"
 }
