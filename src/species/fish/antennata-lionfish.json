@@ -6,66 +6,101 @@
   "waterType": "saltwater",
   "commonName": "Antennata Lionfish",
   "scientificName": "Pterois antennata",
-  "alsoKnownAs": ["Ragged-finned Firefish", "Spotfin Lionfish", "Broadbarred Firefish"],
+  "alsoKnownAs": [
+    "Ragged-finned Firefish",
+    "Spotfin Lionfish",
+    "Broadbarred Firefish"
+  ],
   "category": "Lionfish",
-
   "taxonomy": {
     "family": "Scorpaenidae",
     "order": "Scorpaeniformes"
   },
-
   "nativeRange": {
-    "regions": ["Indo-Pacific"],
-    "countries": ["Australia", "Japan", "Indonesia", "Philippines", "Papua New Guinea", "Mozambique", "Tanzania", "Kenya", "French Polynesia", "Marquesas Islands"],
+    "regions": [
+      "Indo-Pacific"
+    ],
+    "countries": [
+      "Australia",
+      "Japan",
+      "Indonesia",
+      "Philippines",
+      "Papua New Guinea",
+      "Mozambique",
+      "Tanzania",
+      "Kenya",
+      "French Polynesia",
+      "Marquesas Islands"
+    ],
     "habitat": "Lagoon and seaward reef environments; tends to hide in crevices under rocks and coral formations during the day and hunt at night",
     "biotope": "Reef"
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 23.3, "max": 26.6 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 23.3,
+      "max": 26.6
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.021, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.021,
+      "max": 1.025
+    }
   },
-
-  "adultSizeCm": { "min": 15, "max": 24.5 },
+  "adultSizeCm": {
+    "min": 15,
+    "max": 24.5
+  },
   "lifespanYears": null,
-
   "tank": {
     "minVolumeLiters": 256,
     "minLengthCm": null,
     "swimZone": "bottom",
-    "decorPreferences": ["caves", "rock overhangs", "crevices", "coral structures", "PVC hiding spots"]
+    "decorPreferences": [
+      "caves",
+      "rock overhangs",
+      "crevices",
+      "coral structures",
+      "PVC hiding spots"
+    ]
   },
-
   "careLevel": "intermediate",
-
   "diet": {
     "type": "carnivore",
     "notes": "Primarily feeds on live shrimp, small fish, and crustaceans. When first introduced, live saltwater feeder shrimp are generally advised to encourage feeding. With patience, many individuals have been known to transition to frozen meaty foods such as silversides, krill, and shrimp. Ornamental shrimp in the aquarium are typically at risk of predation."
   },
-
   "compatibility": {
     "temperament": "semi-aggressive",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["large semi-aggressive fish", "large angelfish", "large triggerfish", "large tangs"],
-    "avoidWith": ["small fish that fit in mouth", "ornamental shrimp", "small invertebrates", "other lionfish unless adequate space provided"]
+    "goodWith": [
+      "large semi-aggressive fish",
+      "large angelfish",
+      "large triggerfish",
+      "large tangs"
+    ],
+    "avoidWith": [
+      "small fish that fit in mouth",
+      "ornamental shrimp",
+      "small invertebrates",
+      "other lionfish unless adequate space provided"
+    ]
   },
-
   "media": {
     "primaryImage": null,
     "gallery": [],
     "imageCandidates": null
   },
-
   "summary": "The Antennata Lionfish (Pterois antennata) is a striking Indo-Pacific predator known for its dramatic fan-like pectoral fins and venomous dorsal spines. Generally considered intermediate care; tends to be nocturnal and benefits from ample hiding places in a well-established reef or FOWLR system.",
-
   "careNotes": "The Antennata Lionfish is a nocturnal ambush predator found across the Indo-Pacific, from East Africa to the Marquesas Islands, at depths of roughly 2–86 m in lagoon and seaward reef habitats. It tends to rest during the day in rock crevices or under ledges and becomes active at night to hunt shrimps and crabs.\n\nVenomous spines: The dorsal, pelvic, and anal fin spines are venomous and capable of inflicting a painful sting. Stings have been described as more intense than a bee sting; treating with hot water (as hot as tolerable) and seeking medical attention is advisable.\n\nFeeding transition: Many individuals initially accept only live foods; patience and gradual introduction of frozen meaty foods (silversides, krill, frozen shrimp, crustacean flesh) is generally recommended. Target feeding with a feeding stick tends to work well for weaning onto prepared foods.\n\nReef compatibility: While sometimes listed as 'with caution', this species will generally consume ornamental shrimp and small fish. It tends to leave corals and sessile invertebrates undisturbed, but placement in mixed-reef systems with vulnerable invertebrates warrants careful consideration.\n\nParameter disagreements noted (needs_review):\n- Adult size: LiveAquaria states 15 inches (38.1 cm), while FishBase, Reeflings, and AquaticCommunity all document a maximum of 20 cm (7.9 in). The averaged max of 24.5 cm reflects this cross-source spread; the 20 cm figure from three independent sources is likely more accurate and LiveAquaria's value may be erroneous.\n- Minimum tank size: Sources ranged from 30 gallons / 113.5 L (AquaticCommunity) to 120 gallons / 454 L (LiveAquaria), with Reeflings at 200 L. The averaged value of ~256 L is used, but the true minimum may be closer to 200 L for a single specimen.",
-
   "breedingNotes": "Spawning in the wild has been documented as egg-laying pelagic broadcast spawning; males and females engage in courtship displays before releasing eggs and sperm into the water column. Captive breeding is uncommon and has rarely been reported outside of public aquarium settings.",
-
   "sources": {
     "primary": {
       "name": "LiveAquaria",
@@ -94,7 +129,6 @@
       }
     ]
   },
-
   "fish": {
     "breedingDifficulty": "not in captivity",
     "breedingNotes": "Pelagic broadcast spawning; courtship displays observed in the wild. Captive breeding is rarely documented.",
@@ -103,9 +137,16 @@
     "reefSafe": "with caution",
     "escapeRisk": "low",
     "venomousSpines": true,
-    "protogynous": null
+    "protogynous": null,
+    "haremic": null,
+    "caudalScalpel": null,
+    "nocturnal": true,
+    "juvenileColorPhase": null,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": null,
+    "requiresHitchingPost": null,
+    "monogamousPairing": null
   },
-
   "crustacean": null,
   "coral": null,
   "mollusc": null,
@@ -113,7 +154,6 @@
   "other-invert": null,
   "plant": null,
   "macroalgae": null,
-
   "schemaVersion": 1,
   "dataStatus": "needs_review",
   "lastReviewed": "2026-06-02"

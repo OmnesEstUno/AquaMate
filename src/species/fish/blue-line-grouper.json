@@ -6,32 +6,71 @@
   "waterType": "saltwater",
   "commonName": "Blue Line Grouper",
   "scientificName": "Cephalopholis formosa",
-  "alsoKnownAs": ["Bluelined Hind", "Blue-lined Hind", "Boenacki Grouper", "Blueline Grouper", "Chocolate Hind"],
+  "alsoKnownAs": [
+    "Bluelined Hind",
+    "Blue-lined Hind",
+    "Boenacki Grouper",
+    "Blueline Grouper",
+    "Chocolate Hind"
+  ],
   "category": "Groupers",
   "taxonomy": {
     "family": "Epinephelidae",
     "order": "Perciformes"
   },
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Indo-West Pacific"],
-    "countries": ["India", "Philippines", "Japan", "Australia", "Indonesia", "Sri Lanka"],
+    "regions": [
+      "Indo-Pacific",
+      "Indo-West Pacific"
+    ],
+    "countries": [
+      "India",
+      "Philippines",
+      "Japan",
+      "Australia",
+      "Indonesia",
+      "Sri Lanka"
+    ],
     "habitat": "Shallow dead or silty reefs; depth range generally 1–30 m, most commonly 1–15 m",
     "biotope": "Reef"
   },
   "waterParameters": {
-    "temperatureC": { "min": 24.0, "max": 27.5 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 24,
+      "max": 27.5
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8.0, "max": 12.0 },
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 20.0, "max": 34.0 },
-  "lifespanYears": { "min": 8.0, "max": 15.0 },
+  "adultSizeCm": {
+    "min": 20,
+    "max": 34
+  },
+  "lifespanYears": {
+    "min": 8,
+    "max": 15
+  },
   "tank": {
-    "minVolumeLiters": 568.0,
-    "minLengthCm": 180.0,
+    "minVolumeLiters": 568,
+    "minLengthCm": 180,
     "swimZone": "bottom",
-    "decorPreferences": ["live rock", "caves", "overhangs", "hiding spots"]
+    "decorPreferences": [
+      "live rock",
+      "caves",
+      "overhangs",
+      "hiding spots"
+    ]
   },
   "careLevel": "intermediate",
   "diet": {
@@ -42,8 +81,20 @@
     "temperament": "aggressive",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["large triggerfish", "moray eels", "large angelfish", "large tangs", "large predatory fish of comparable size"],
-    "avoidWith": ["small fish", "ornamental crustaceans", "shrimp", "small invertebrates", "docile or peaceful species"]
+    "goodWith": [
+      "large triggerfish",
+      "moray eels",
+      "large angelfish",
+      "large tangs",
+      "large predatory fish of comparable size"
+    ],
+    "avoidWith": [
+      "small fish",
+      "ornamental crustaceans",
+      "shrimp",
+      "small invertebrates",
+      "docile or peaceful species"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -89,7 +140,15 @@
     "reefSafe": "with caution",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": true
+    "protogynous": true,
+    "haremic": null,
+    "caudalScalpel": null,
+    "nocturnal": null,
+    "juvenileColorPhase": null,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": null,
+    "requiresHitchingPost": null,
+    "monogamousPairing": null
   },
   "crustacean": null,
   "coral": null,

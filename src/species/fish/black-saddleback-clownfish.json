@@ -39,11 +39,11 @@
   },
   "waterParameters": {
     "temperatureC": {
-      "min": 24.0,
+      "min": 24,
       "max": 27.5
     },
     "pH": {
-      "min": 8.0,
+      "min": 8,
       "max": 8.4
     },
     "gH": null,
@@ -54,7 +54,7 @@
     }
   },
   "adultSizeCm": {
-    "min": 5.0,
+    "min": 5,
     "max": 11.7
   },
   "lifespanYears": {
@@ -143,7 +143,15 @@
     "reefSafe": "yes",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": false
+    "protogynous": false,
+    "haremic": null,
+    "caudalScalpel": null,
+    "nocturnal": null,
+    "juvenileColorPhase": null,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": null,
+    "requiresHitchingPost": null,
+    "monogamousPairing": null
   },
   "crustacean": null,
   "coral": null,

@@ -115,10 +115,18 @@ From whichever source has them (primary preferred; cross-check only if it feels 
 - `careNotes` (free-form prose, shown on InfoPage)
 - `breedingNotes` (optional; null if not in sources)
 - Variant block fields (e.g., `fish.breedingDifficulty`, `coral.lighting.minPAR`, `plant.lighting`, etc.) — see schema for the required shape per taxon
-- **Fish variant** also includes promoted-from-field-gaps fields:
-  - `fish.escapeRisk` — `"low"` | `"moderate"` | `"high"` | null. Jumping/escape risk. Mark "high" for species that need a tightly-sealed lid (eels, blennies, gobies, dartfish, anthias, etc.).
-  - `fish.venomousSpines` — boolean (or null if unknown). True for species with venomous dorsal/anal/caudal spines (lionfish, rabbitfish, scorpionfish, stingrays, certain anglers, etc.).
-  - `fish.protogynous` — boolean (or null if unknown). True for protogynous (female-first) sequential hermaphrodites (most wrasses, groupers, angelfishes, anthias). Note: protandrous (male-first, e.g., clownfish) is captured separately in `careNotes` for now and may be promoted later.
+- **Fish variant** also includes promoted-from-field-gaps fields (all nullable booleans unless noted):
+  - `fish.escapeRisk` — `"low"` | `"moderate"` | `"high"` | null. Mark "high" for species that need a tightly-sealed lid (eels, blennies, gobies, dartfish, anthias, pipefish).
+  - `fish.venomousSpines` — true for species with venomous dorsal/anal/caudal spines (lionfish, rabbitfish, scorpionfish, stingrays, certain anglers, fang blennies).
+  - `fish.protogynous` — true for female-first sequential hermaphrodites (most wrasses, groupers, angelfishes, anthias). Note: protandrous (male-first, e.g., clownfish) stays in careNotes for now.
+  - `fish.haremic` — true for species that form harems with one dominant male + multiple females (dwarf angelfishes, fairy wrasses, some basslets). Aquarists keep them as pairs/harems rather than solo.
+  - `fish.caudalScalpel` — true for surgeonfishes and tangs with sharp caudal-peduncle blades (distinct from venomousSpines). Handling-safety warning.
+  - `fish.nocturnal` — true for strictly nocturnal species (squirrelfishes, lionfishes, many sharks/morays). Affects feeding schedule and tank lighting.
+  - `fish.juvenileColorPhase` — true for species whose juveniles and adults are so visually distinct that juveniles are sometimes mistaken for different fish (large Pomacanthus angelfishes, some Naso tangs).
+  - `fish.copperSensitive` — true for scaleless dragonets, elasmobranchs, certain catfishes that are intolerant of copper-based meds (parallel to crustacean.copperSensitive).
+  - `fish.speciesOnlyTankRecommended` — true for slow/fragile species that outcompete poorly with faster tankmates (seahorses, pipefish, some scorpionfishes).
+  - `fish.requiresHitchingPost` — true for seahorses and similar species that need solid anchor points (rocks, plants, artificial decor) to rest.
+  - `fish.monogamousPairing` — true for species that form lifelong monogamous pair bonds (most butterflyfishes, wolf eels) — buy as mated pairs, never split established pairs.
 
 **Prose style — avoid deterministic language about environmental and behavioral specs.**
 

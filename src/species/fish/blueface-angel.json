@@ -6,32 +6,70 @@
   "waterType": "saltwater",
   "commonName": "Blueface Angel",
   "scientificName": "Pomacanthus xanthometopon",
-  "alsoKnownAs": ["Blueface Angelfish", "Yellowface Angelfish", "Yellow-faced Angelfish"],
+  "alsoKnownAs": [
+    "Blueface Angelfish",
+    "Yellowface Angelfish",
+    "Yellow-faced Angelfish"
+  ],
   "category": "Angelfish",
   "taxonomy": {
     "family": "Pomacanthidae",
     "order": "Acanthuriformes"
   },
   "nativeRange": {
-    "regions": ["Indo-Pacific"],
-    "countries": ["Maldives", "Indonesia", "Philippines", "Australia", "Micronesia", "Solomon Islands", "Vanuatu", "Palau"],
+    "regions": [
+      "Indo-Pacific"
+    ],
+    "countries": [
+      "Maldives",
+      "Indonesia",
+      "Philippines",
+      "Australia",
+      "Micronesia",
+      "Solomon Islands",
+      "Vanuatu",
+      "Palau"
+    ],
     "habitat": "Coral-rich areas of lagoons, channels, and outer reef slopes, often near caves. Typically found at depths of 5–30 m.",
     "biotope": "Reef"
   },
   "waterParameters": {
-    "temperatureC": { "min": 24.0, "max": 27.6 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 24,
+      "max": 27.6
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8.0, "max": 12.0 },
-    "salinity": { "min": 1.021, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.021,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 30.0, "max": 38.0 },
-  "lifespanYears": { "min": 8.0, "max": 15.0 },
+  "adultSizeCm": {
+    "min": 30,
+    "max": 38
+  },
+  "lifespanYears": {
+    "min": 8,
+    "max": 15
+  },
   "tank": {
-    "minVolumeLiters": 757.0,
-    "minLengthCm": 240.0,
+    "minVolumeLiters": 757,
+    "minLengthCm": 240,
     "swimZone": "all",
-    "decorPreferences": ["live rock", "caves", "hiding places", "open swimming space"]
+    "decorPreferences": [
+      "live rock",
+      "caves",
+      "hiding places",
+      "open swimming space"
+    ]
   },
   "careLevel": "advanced",
   "diet": {
@@ -42,8 +80,24 @@
     "temperament": "semi-aggressive",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["large peaceful fish", "tangs", "larger wrasses", "larger hawkfish", "lionfish"],
-    "avoidWith": ["other angelfish", "small docile fish", "gobies", "dartfish", "clownfish", "stony corals", "soft corals", "tridacna clams", "small invertebrates"]
+    "goodWith": [
+      "large peaceful fish",
+      "tangs",
+      "larger wrasses",
+      "larger hawkfish",
+      "lionfish"
+    ],
+    "avoidWith": [
+      "other angelfish",
+      "small docile fish",
+      "gobies",
+      "dartfish",
+      "clownfish",
+      "stony corals",
+      "soft corals",
+      "tridacna clams",
+      "small invertebrates"
+    ]
   },
   "media": {
     "primaryImage": "blueface_angel.jpg",
@@ -89,7 +143,15 @@
     "reefSafe": "no",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": true
+    "protogynous": true,
+    "haremic": null,
+    "caudalScalpel": null,
+    "nocturnal": null,
+    "juvenileColorPhase": null,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": null,
+    "requiresHitchingPost": null,
+    "monogamousPairing": null
   },
   "crustacean": null,
   "coral": null,

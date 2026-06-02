@@ -19,25 +19,55 @@
     "order": "Tetraodontiformes"
   },
   "nativeRange": {
-    "regions": ["Indo-Pacific"],
-    "countries": ["Japan", "Australia", "Hawaii (USA)", "Mauritius", "New Caledonia"],
+    "regions": [
+      "Indo-Pacific"
+    ],
+    "countries": [
+      "Japan",
+      "Australia",
+      "Hawaii (USA)",
+      "Mauritius",
+      "New Caledonia"
+    ],
     "habitat": "Reef environments at moderate to deeper depths (8–150 m), particularly along seaward drop-offs and current-swept ledges with rich invertebrate growth",
     "biotope": "Reef"
   },
   "waterParameters": {
-    "temperatureC": { "min": 20.0, "max": 27.0 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 20,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8.0, "max": 12.0 },
-    "salinity": { "min": 1.020, "max": 1.026 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.026
+    }
   },
-  "adultSizeCm": { "min": 20.0, "max": 30.0 },
-  "lifespanYears": { "min": 10.0, "max": 20.0 },
+  "adultSizeCm": {
+    "min": 20,
+    "max": 30
+  },
+  "lifespanYears": {
+    "min": 10,
+    "max": 20
+  },
   "tank": {
-    "minVolumeLiters": 380.0,
-    "minLengthCm": 150.0,
+    "minVolumeLiters": 380,
+    "minLengthCm": 150,
     "swimZone": "all",
-    "decorPreferences": ["live rock", "caves", "open swimming space"]
+    "decorPreferences": [
+      "live rock",
+      "caves",
+      "open swimming space"
+    ]
   },
   "careLevel": "intermediate",
   "diet": {
@@ -48,8 +78,18 @@
     "temperament": "semi-aggressive",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["large peaceful fish", "other semi-aggressive fish of similar or larger size", "tangs", "large angelfish"],
-    "avoidWith": ["small ornamental crustaceans", "small shrimp", "other triggerfish", "small or docile fish"]
+    "goodWith": [
+      "large peaceful fish",
+      "other semi-aggressive fish of similar or larger size",
+      "tangs",
+      "large angelfish"
+    ],
+    "avoidWith": [
+      "small ornamental crustaceans",
+      "small shrimp",
+      "other triggerfish",
+      "small or docile fish"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -101,7 +141,15 @@
     "reefSafe": "with caution",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": false
+    "protogynous": false,
+    "haremic": null,
+    "caudalScalpel": null,
+    "nocturnal": null,
+    "juvenileColorPhase": null,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": null,
+    "requiresHitchingPost": null,
+    "monogamousPairing": null
   },
   "crustacean": null,
   "coral": null,

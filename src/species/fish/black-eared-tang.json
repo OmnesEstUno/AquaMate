@@ -13,67 +13,96 @@
     "Freckled Surgeonfish"
   ],
   "category": "Tangs & Surgeonfish",
-
   "taxonomy": {
     "family": "Acanthuridae",
     "order": "Acanthuriformes"
   },
-
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Indo-West Pacific"],
+    "regions": [
+      "Indo-Pacific",
+      "Indo-West Pacific"
+    ],
     "countries": [
-      "Maldives", "Myanmar (Andaman Sea)", "Australia (Christmas Island)",
-      "Philippines", "Kiribati (Line Islands)", "Japan (Ryukyu Islands)", "Samoa"
+      "Maldives",
+      "Myanmar (Andaman Sea)",
+      "Australia (Christmas Island)",
+      "Philippines",
+      "Kiribati (Line Islands)",
+      "Japan (Ryukyu Islands)",
+      "Samoa"
     ],
     "habitat": "Clear outer reef flats and seaward reefs; generally found at depths of 1–15 m",
     "biotope": "Reef"
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 23.0, "max": 26.0 },
-    "pH":           { "min": 8.1,  "max": 8.4  },
-    "gH":           null,
-    "kH":           { "min": 8.0,  "max": 12.0 },
-    "salinity":     { "min": 1.022, "max": 1.025 }
+    "temperatureC": {
+      "min": 23,
+      "max": 26
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.022,
+      "max": 1.025
+    }
   },
-
-  "adultSizeCm":   { "min": 25.0, "max": 38.0 },
-  "lifespanYears": { "min": 8.0,  "max": 12.0 },
-
+  "adultSizeCm": {
+    "min": 25,
+    "max": 38
+  },
+  "lifespanYears": {
+    "min": 8,
+    "max": 12
+  },
   "tank": {
     "minVolumeLiters": 1036,
-    "minLengthCm":     180,
-    "swimZone":        "all",
-    "decorPreferences": ["live rock", "open swimming space", "rockwork crevices for shelter"]
+    "minLengthCm": 180,
+    "swimZone": "all",
+    "decorPreferences": [
+      "live rock",
+      "open swimming space",
+      "rockwork crevices for shelter"
+    ]
   },
-
   "careLevel": "intermediate",
-
   "diet": {
     "type": "herbivore",
     "notes": "Primarily grazes macroalgae and microalgae; benefits from regular offerings of dried seaweed (nori) and spirulina-based foods at least three times per week. Has been documented accepting high-quality flake and pellet foods as well as protein-based frozen foods such as mysis and krill alongside other tank inhabitants."
   },
-
   "compatibility": {
-    "temperament":  "semi-aggressive",
-    "grouping":     "solitary",
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith":     ["peaceful reef fish", "clownfish", "gobies", "blennies", "wrasses", "dottybacks", "anthias"],
-    "avoidWith":    ["other Acanthurus tangs", "conspecifics", "similarly shaped surgeonfish"]
+    "goodWith": [
+      "peaceful reef fish",
+      "clownfish",
+      "gobies",
+      "blennies",
+      "wrasses",
+      "dottybacks",
+      "anthias"
+    ],
+    "avoidWith": [
+      "other Acanthurus tangs",
+      "conspecifics",
+      "similarly shaped surgeonfish"
+    ]
   },
-
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
+    "primaryImage": null,
+    "gallery": [],
     "imageCandidates": null
   },
-
   "summary": "A large, hardy Indo-Pacific surgeonfish appreciated for its distinctive freckled face and efficient algae-grazing. Generally considered best kept singly in spacious reef or FOWLR systems; have been known to be aggressive toward conspecifics and similarly shaped surgeonfishes.",
-
   "careNotes": "The Black-Eared Tang (Acanthurus maculiceps) is a robust surgeonfish that tends to reach up to roughly 38–40 cm in well-kept aquariums, though some sources cite a maximum closer to 33 cm. A large, established tank of around 1000+ liters is generally advised to give this active swimmer adequate territory. Temperature is commonly recommended around 23–26°C, though some sources suggest ranges reaching as low as 22°C or as high as 28°C.\n\nWater quality should be stable and well-oxygenated; this species is reported to acclimate well to standard reef parameters (SG ~1.022–1.025, pH 8.1–8.4, dKH 8–12). It is generally considered reef-safe — no sources document coral nipping, though its grazing activity may impact algae coverage on live rock.\n\nDiet should lean heavily toward marine algae; dried seaweed and spirulina-based foods are advisable at minimum three times weekly. Protein foods (mysis, krill, enriched frozen preparations) can supplement the diet in mixed-community feedings.\n\nThe species tends to be territorial toward other Acanthurus tangs and surgeonfish of similar body shape. Adding multiple tang species simultaneously rather than sequentially is generally advised to reduce aggression. It has been known to coexist peaceably with most non-surgeonfish reef inhabitants.\n\nLike all acanthurids, this species possesses a sharp caudal spine (the 'scalpel') used for defense; it is not venomous but can inflict lacerations. Handle with care during transfers.\n\nJuveniles display beige bodies with pale yellow spots; adults develop a smoky brown coloration with yellow overtones, prominent freckle-like spotting on the head and forehead, and in some individuals the caudal fin may become predominantly white. Large adults develop a noticeably convex head profile.\n\nProtogyny has not been well documented for this species in available sources; sex reversal is left as unknown. Captive breeding has not been reported.\n\nSource cross-check notes: Adult size varied across sources — FishBase and ReefApp give 40 cm; LiveAquaria states 16 in (40.6 cm); Aquatics Unlimited cites 13 in (33 cm). Averaged to ~38 cm max. Minimum tank recommendations ranged from 125 gal (473 L) to 396 gal (1500 L); averaged to ~1036 L. Temperature ranged from 72–78°F (22–26°C) per hobby sources to 24–28°C per FishBase; averaged to 23–26°C.",
-
   "breedingNotes": "Captive breeding of this species has not been documented in available sources. In the wild, Acanthurus surgeonfish are broadcast spawners. Spawning in aquaria is considered highly unlikely given the large tank volumes required and the absence of reported successes in the hobby literature.",
-
   "sources": {
     "primary": {
       "name": "LiveAquaria",
@@ -102,27 +131,32 @@
       }
     ]
   },
-
   "fish": {
-    "breedingDifficulty":    "not in captivity",
-    "breedingNotes":         "No captive breeding records found. Broadcast spawner in the wild; not kept in sufficient numbers or tank volumes for captive reproduction.",
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "No captive breeding records found. Broadcast spawner in the wild; not kept in sufficient numbers or tank volumes for captive reproduction.",
     "conspecificAggression": "high",
-    "finNippy":              false,
-    "reefSafe":              "yes",
-    "escapeRisk":            "low",
-    "venomousSpines":        false,
-    "protogynous":           null
+    "finNippy": false,
+    "reefSafe": "yes",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "protogynous": null,
+    "haremic": null,
+    "caudalScalpel": true,
+    "nocturnal": null,
+    "juvenileColorPhase": null,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": null,
+    "requiresHitchingPost": null,
+    "monogamousPairing": null
   },
-
-  "crustacean":   null,
-  "coral":        null,
-  "mollusc":      null,
-  "echinoderm":   null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
   "other-invert": null,
-  "plant":        null,
-  "macroalgae":   null,
-
+  "plant": null,
+  "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus":    "researched",
-  "lastReviewed":  "2026-06-02"
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-02"
 }

@@ -38,13 +38,28 @@
     "biotope": "Reef"
   },
   "waterParameters": {
-    "temperatureC": { "min": 23.7, "max": 26.8 },
-    "pH":           { "min": 7.95, "max": 8.4 },
-    "gH":           null,
-    "kH":           { "min": 8, "max": 12 },
-    "salinity":     { "min": 1.022, "max": 1.026 }
+    "temperatureC": {
+      "min": 23.7,
+      "max": 26.8
+    },
+    "pH": {
+      "min": 7.95,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.022,
+      "max": 1.026
+    }
   },
-  "adultSizeCm": { "min": 30, "max": 67 },
+  "adultSizeCm": {
+    "min": 30,
+    "max": 67
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 601,
@@ -130,7 +145,15 @@
     "reefSafe": "with caution",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": null
+    "protogynous": null,
+    "haremic": null,
+    "caudalScalpel": null,
+    "nocturnal": null,
+    "juvenileColorPhase": null,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": null,
+    "requiresHitchingPost": null,
+    "monogamousPairing": null
   },
   "crustacean": null,
   "coral": null,

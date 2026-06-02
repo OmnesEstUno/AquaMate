@@ -6,32 +6,73 @@
   "waterType": "saltwater",
   "commonName": "Dragonface Pipefish",
   "scientificName": "Corythoichthys intestinalis",
-  "alsoKnownAs": ["Scribbled Pipefish", "Messmate Pipefish", "Dragon Face Pipefish"],
+  "alsoKnownAs": [
+    "Scribbled Pipefish",
+    "Messmate Pipefish",
+    "Dragon Face Pipefish"
+  ],
   "category": "Pipefish",
   "taxonomy": {
     "family": "Syngnathidae",
     "order": "Syngnathiformes"
   },
   "nativeRange": {
-    "regions": ["Western Central Pacific", "Indo-Pacific"],
-    "countries": ["Indonesia", "Papua New Guinea", "Palau", "Federated States of Micronesia", "Marshall Islands", "Samoa", "New Caledonia", "Australia"],
+    "regions": [
+      "Western Central Pacific",
+      "Indo-Pacific"
+    ],
+    "countries": [
+      "Indonesia",
+      "Papua New Guinea",
+      "Palau",
+      "Federated States of Micronesia",
+      "Marshall Islands",
+      "Samoa",
+      "New Caledonia",
+      "Australia"
+    ],
     "habitat": "Shallow sandy or mixed sand, rubble, and coral areas of reef flats and lagoons; depth range 20–68 m",
     "biotope": "Reef"
   },
   "waterParameters": {
-    "temperatureC": { "min": 23.0, "max": 26.5 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 23,
+      "max": 26.5
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.021, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.021,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 10.0, "max": 17.0 },
-  "lifespanYears": { "min": 5, "max": 10 },
+  "adultSizeCm": {
+    "min": 10,
+    "max": 17
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 10
+  },
   "tank": {
     "minVolumeLiters": 140,
     "minLengthCm": null,
     "swimZone": "bottom",
-    "decorPreferences": ["live rock", "branching gorgonias", "macroalgae", "caves", "crevices", "low flow areas"]
+    "decorPreferences": [
+      "live rock",
+      "branching gorgonias",
+      "macroalgae",
+      "caves",
+      "crevices",
+      "low flow areas"
+    ]
   },
   "careLevel": "expert",
   "diet": {
@@ -42,8 +83,22 @@
     "temperament": "peaceful",
     "grouping": "pair",
     "minGroupSize": 1,
-    "goodWith": ["seahorses", "small gobies", "dragonets", "firefish", "small peaceful reef fish"],
-    "avoidWith": ["aggressive fish", "territorial fish", "fast-moving fish", "large crabs", "large shrimp", "anemones", "large stinging corals"]
+    "goodWith": [
+      "seahorses",
+      "small gobies",
+      "dragonets",
+      "firefish",
+      "small peaceful reef fish"
+    ],
+    "avoidWith": [
+      "aggressive fish",
+      "territorial fish",
+      "fast-moving fish",
+      "large crabs",
+      "large shrimp",
+      "anemones",
+      "large stinging corals"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -89,7 +144,15 @@
     "reefSafe": "with caution",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": null
+    "protogynous": null,
+    "haremic": null,
+    "caudalScalpel": null,
+    "nocturnal": null,
+    "juvenileColorPhase": null,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": true,
+    "requiresHitchingPost": true,
+    "monogamousPairing": null
   },
   "crustacean": null,
   "coral": null,

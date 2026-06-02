@@ -6,32 +6,70 @@
   "waterType": "saltwater",
   "commonName": "Sunset Butterflyfish",
   "scientificName": "Chaetodon pelewensis",
-  "alsoKnownAs": ["Dot-Dash Butterflyfish", "Pelewensis Butterflyfish", "Spotbanded Butterflyfish", "Punctato Butterflyfish"],
+  "alsoKnownAs": [
+    "Dot-Dash Butterflyfish",
+    "Pelewensis Butterflyfish",
+    "Spotbanded Butterflyfish",
+    "Punctato Butterflyfish"
+  ],
   "category": "Butterflyfish",
   "taxonomy": {
     "family": "Chaetodontidae",
     "order": "Perciformes"
   },
   "nativeRange": {
-    "regions": ["South Pacific", "Coral Sea"],
-    "countries": ["Australia", "Papua New Guinea", "Fiji", "Samoa", "Cook Islands", "French Polynesia"],
+    "regions": [
+      "South Pacific",
+      "Coral Sea"
+    ],
+    "countries": [
+      "Australia",
+      "Papua New Guinea",
+      "Fiji",
+      "Samoa",
+      "Cook Islands",
+      "French Polynesia"
+    ],
     "habitat": "Coral reef slopes and lagoons, typically at depths of 1–35 m",
     "biotope": "Reef"
   },
   "waterParameters": {
-    "temperatureC": { "min": 22.2, "max": 25.6 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 22.2,
+      "max": 25.6
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 12.0, "max": 12.7 },
-  "lifespanYears": { "min": 5, "max": 8 },
+  "adultSizeCm": {
+    "min": 12,
+    "max": 12.7
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 8
+  },
   "tank": {
     "minVolumeLiters": 246,
     "minLengthCm": 120,
     "swimZone": "all",
-    "decorPreferences": ["live rock", "caves", "crevices", "overhangs"]
+    "decorPreferences": [
+      "live rock",
+      "caves",
+      "crevices",
+      "overhangs"
+    ]
   },
   "careLevel": "intermediate",
   "diet": {
@@ -42,8 +80,24 @@
     "temperament": "peaceful",
     "grouping": "pair",
     "minGroupSize": 1,
-    "goodWith": ["Clownfish", "Royal Gramma", "Firefish", "Banggai Cardinalfish", "Dottybacks", "Dwarf Angelfish", "Hawkfish", "Peaceful Tangs"],
-    "avoidWith": ["Aggressive fish", "other Chaetodon butterflyfish", "Large predatory fish", "Anemones", "Corals", "Small invertebrates"]
+    "goodWith": [
+      "Clownfish",
+      "Royal Gramma",
+      "Firefish",
+      "Banggai Cardinalfish",
+      "Dottybacks",
+      "Dwarf Angelfish",
+      "Hawkfish",
+      "Peaceful Tangs"
+    ],
+    "avoidWith": [
+      "Aggressive fish",
+      "other Chaetodon butterflyfish",
+      "Large predatory fish",
+      "Anemones",
+      "Corals",
+      "Small invertebrates"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -89,7 +143,15 @@
     "reefSafe": "no",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": null
+    "protogynous": null,
+    "haremic": null,
+    "caudalScalpel": null,
+    "nocturnal": null,
+    "juvenileColorPhase": null,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": null,
+    "requiresHitchingPost": null,
+    "monogamousPairing": true
   },
   "crustacean": null,
   "coral": null,

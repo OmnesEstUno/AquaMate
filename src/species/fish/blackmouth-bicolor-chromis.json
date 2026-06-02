@@ -20,7 +20,9 @@
     "order": "Ovalentaria"
   },
   "nativeRange": {
-    "regions": ["Indo-West Pacific"],
+    "regions": [
+      "Indo-West Pacific"
+    ],
     "countries": [
       "Thailand",
       "Malaysia",
@@ -38,13 +40,28 @@
     "biotope": "Reef"
   },
   "waterParameters": {
-    "temperatureC": { "min": 24.0, "max": 27.0 },
-    "pH": { "min": 7.9, "max": 8.4 },
+    "temperatureC": {
+      "min": 24,
+      "max": 27
+    },
+    "pH": {
+      "min": 7.9,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.021, "max": 1.026 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.021,
+      "max": 1.026
+    }
   },
-  "adultSizeCm": { "min": 8.0, "max": 13.0 },
+  "adultSizeCm": {
+    "min": 8,
+    "max": 13
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 163,
@@ -128,7 +145,15 @@
     "reefSafe": "yes",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": null
+    "protogynous": null,
+    "haremic": null,
+    "caudalScalpel": null,
+    "nocturnal": null,
+    "juvenileColorPhase": null,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": null,
+    "requiresHitchingPost": null,
+    "monogamousPairing": null
   },
   "crustacean": null,
   "coral": null,

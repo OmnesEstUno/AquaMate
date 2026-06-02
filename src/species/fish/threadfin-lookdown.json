@@ -6,32 +6,69 @@
   "waterType": "saltwater",
   "commonName": "Threadfin Lookdown",
   "scientificName": "Selene vomer",
-  "alsoKnownAs": ["Lookdown", "Lookdown Fish"],
+  "alsoKnownAs": [
+    "Lookdown",
+    "Lookdown Fish"
+  ],
   "category": "Jacks",
   "taxonomy": {
     "family": "Carangidae",
     "order": "Carangiformes"
   },
   "nativeRange": {
-    "regions": ["Western Atlantic", "Caribbean", "Gulf of Mexico"],
-    "countries": ["United States", "Brazil", "Uruguay", "Mexico", "Bermuda", "Venezuela", "Colombia"],
+    "regions": [
+      "Western Atlantic",
+      "Caribbean",
+      "Gulf of Mexico"
+    ],
+    "countries": [
+      "United States",
+      "Brazil",
+      "Uruguay",
+      "Mexico",
+      "Bermuda",
+      "Venezuela",
+      "Colombia"
+    ],
     "habitat": "Shallow coastal waters, estuaries, and sandy bays; juveniles tend to be found in estuarine areas and off sandy beaches",
     "biotope": "Coastal"
   },
   "waterParameters": {
-    "temperatureC": { "min": 23.0, "max": 26.3 },
-    "pH": { "min": 7.8, "max": 8.4 },
+    "temperatureC": {
+      "min": 23,
+      "max": 26.3
+    },
+    "pH": {
+      "min": 7.8,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8.0, "max": 12.0 },
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 35.0, "max": 49.0 },
-  "lifespanYears": { "min": 5.0, "max": 20.0 },
+  "adultSizeCm": {
+    "min": 35,
+    "max": 49
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 20
+  },
   "tank": {
-    "minVolumeLiters": 1550.0,
-    "minLengthCm": 300.0,
+    "minVolumeLiters": 1550,
+    "minLengthCm": 300,
     "swimZone": "mid",
-    "decorPreferences": ["open swimming space", "sparse decor", "sandy substrate"]
+    "decorPreferences": [
+      "open swimming space",
+      "sparse decor",
+      "sandy substrate"
+    ]
   },
   "careLevel": "advanced",
   "diet": {
@@ -42,8 +79,18 @@
     "temperament": "peaceful",
     "grouping": "schooling",
     "minGroupSize": 3,
-    "goodWith": ["large peaceful fish", "batfish", "large wrasses", "large tangs"],
-    "avoidWith": ["small fish", "small crustaceans", "fin nippers", "aggressive species"]
+    "goodWith": [
+      "large peaceful fish",
+      "batfish",
+      "large wrasses",
+      "large tangs"
+    ],
+    "avoidWith": [
+      "small fish",
+      "small crustaceans",
+      "fin nippers",
+      "aggressive species"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -95,7 +142,15 @@
     "reefSafe": "with caution",
     "escapeRisk": "moderate",
     "venomousSpines": false,
-    "protogynous": null
+    "protogynous": null,
+    "haremic": null,
+    "caudalScalpel": null,
+    "nocturnal": null,
+    "juvenileColorPhase": null,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": null,
+    "requiresHitchingPost": null,
+    "monogamousPairing": null
   },
   "crustacean": null,
   "coral": null,

@@ -6,66 +6,109 @@
   "waterType": "saltwater",
   "commonName": "Blue Dot Grouper",
   "scientificName": "Cephalopholis argus",
-  "alsoKnownAs": ["Peacock Hind", "Bluespotted Grouper", "Argus Grouper", "Blue Spotted Grouper", "Roi"],
+  "alsoKnownAs": [
+    "Peacock Hind",
+    "Bluespotted Grouper",
+    "Argus Grouper",
+    "Blue Spotted Grouper",
+    "Roi"
+  ],
   "category": "Groupers",
-
   "taxonomy": {
     "family": "Epinephelidae",
     "order": "Perciformes"
   },
-
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Red Sea", "East Africa", "Hawaii", "French Polynesia"],
-    "countries": ["Australia", "Japan", "Indonesia", "Philippines", "Hawaii (USA)", "Maldives", "South Africa"],
+    "regions": [
+      "Indo-Pacific",
+      "Red Sea",
+      "East Africa",
+      "Hawaii",
+      "French Polynesia"
+    ],
+    "countries": [
+      "Australia",
+      "Japan",
+      "Indonesia",
+      "Philippines",
+      "Hawaii (USA)",
+      "Maldives",
+      "South Africa"
+    ],
     "habitat": "Reef-associated; benthic and benthopelagic; found at depths of 1–40 m, commonly 1–15 m. Adults tend to occupy coral reef slopes and lagoons; juveniles tend to favor shallow branching corals and seagrass meadows.",
     "biotope": "Reef"
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 23.0, "max": 27.0 },
-    "pH":           { "min": 8.1,  "max": 8.4 },
-    "gH":           null,
-    "kH":           { "min": 8.0,  "max": 12.0 },
-    "salinity":     { "min": 1.020, "max": 1.025 }
+    "temperatureC": {
+      "min": 23,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-
-  "adultSizeCm": { "min": 30.0, "max": 60.0 },
-  "lifespanYears": { "min": 15, "max": 40 },
-
+  "adultSizeCm": {
+    "min": 30,
+    "max": 60
+  },
+  "lifespanYears": {
+    "min": 15,
+    "max": 40
+  },
   "tank": {
     "minVolumeLiters": 600,
     "minLengthCm": 180,
     "swimZone": "bottom",
-    "decorPreferences": ["live rock", "caves", "crevices", "overhangs", "large rockwork"]
+    "decorPreferences": [
+      "live rock",
+      "caves",
+      "crevices",
+      "overhangs",
+      "large rockwork"
+    ]
   },
-
   "careLevel": "intermediate",
-
   "diet": {
     "type": "carnivore",
     "notes": "Has been documented consuming primarily fish (75–95% of diet) and some crustaceans in the wild. In captivity, has been reported to accept large meaty foods including krill, raw shrimp, squid, clam, mussel, and small feeder fish. Due to a relatively low metabolic rate, generally advised to feed every other day rather than daily. Tends to be an ambush predator, spending time hiding and waiting for prey."
   },
-
   "compatibility": {
     "temperament": "aggressive",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["large angelfish", "large tangs", "large triggerfish", "large eels", "large hawkfish"],
-    "avoidWith": ["small fish", "crustaceans", "invertebrates", "other groupers", "small reef fish"]
+    "goodWith": [
+      "large angelfish",
+      "large tangs",
+      "large triggerfish",
+      "large eels",
+      "large hawkfish"
+    ],
+    "avoidWith": [
+      "small fish",
+      "crustaceans",
+      "invertebrates",
+      "other groupers",
+      "small reef fish"
+    ]
   },
-
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
+    "primaryImage": null,
+    "gallery": [],
     "imageCandidates": null
   },
-
   "summary": "The Blue Dot Grouper (Cephalopholis argus) is a large, aggressive Indo-Pacific predator reaching up to 60 cm, generally advised for experienced hobbyists with very large tanks. Known for brilliant blue-spotted patterning.",
-
   "careNotes": "The Blue Dot Grouper is a robust ambush predator that tends to spend much of its time near the substrate, hiding in caves or under overhangs and watching for prey. It has been known to consume any fish or crustacean small enough to fit in its mouth, so tankmate selection requires careful consideration — generally only large, semi-aggressive to aggressive fish of comparable or larger size are suitable companions.\n\nThis species produces significant biological waste, so a strong biological filtration system is generally advised. Live rock with abundant large caves and crevices is recommended to support its natural behaviors.\n\nRegarding tank size: sources disagreed significantly — LiveAquaria recommends 250 gallons (946 L), AquariumDomain recommends 125 gallons (473 L), and BlueZoo Aquatics recommends 100 gallons (379 L). The averaged value of ~600 L (approximately 158 gallons) has been recorded here; given this species can reach 60 cm and is an active predator, the larger recommendations may be more appropriate for long-term welfare. Reviewer should assess.\n\nTemperature ranges also showed moderate disagreement: LiveAquaria suggests 22.2–25.6°C (72–78°F) while AquariumDomain suggests 23.3–27.8°C (74–82°F) and FishBase data indicates 24–28°C. The averaged range of 23–27°C is used here.\n\nRegarding adult size: aquarium trade sources typically cite 16 inches (40.6 cm) as the typical captive size, while FishBase and scientific sources document a maximum total length of 60 cm. The range 30–60 cm is used here to reflect both typical captive and potential maximum sizes.\n\nThis species is a protogynous hermaphrodite — individuals typically develop first as females and may transition to male later in life, which is common among groupers.\n\nLife expectancy has been reported as up to 40 years in well-maintained conditions, though typical aquarium lifespans may be shorter. Juveniles are often available in the aquarium trade at 5–23 cm.\n\nColor phase: Mottled dark brown to reddish-brown body covered in small iridescent blue dots throughout; posterior portion of body tends to show faint vertical banding. Some individuals display more vivid blue spotting than others.",
-
   "breedingNotes": "Breeding in home aquaria has not been widely documented. This species is a protogynous hermaphrodite — females mature at approximately 22 cm total length and may transition to male. In the wild, dominant males maintain large territories of up to 2000 m². Spawning in captivity is generally considered impractical for home aquaria due to the large space requirements.",
-
   "sources": {
     "primary": {
       "name": "LiveAquaria",
@@ -100,7 +143,6 @@
       }
     ]
   },
-
   "fish": {
     "breedingDifficulty": "not in captivity",
     "breedingNotes": "Breeding in home aquaria has not been documented. A protogynous hermaphrodite requiring large territories; home aquarium breeding is generally considered impractical.",
@@ -109,17 +151,23 @@
     "reefSafe": "with caution",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": true
+    "protogynous": true,
+    "haremic": null,
+    "caudalScalpel": null,
+    "nocturnal": null,
+    "juvenileColorPhase": null,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": null,
+    "requiresHitchingPost": null,
+    "monogamousPairing": null
   },
-
-  "crustacean":   null,
-  "coral":        null,
-  "mollusc":      null,
-  "echinoderm":   null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
   "other-invert": null,
-  "plant":        null,
-  "macroalgae":   null,
-
+  "plant": null,
+  "macroalgae": null,
   "schemaVersion": 1,
   "dataStatus": "needs_review",
   "lastReviewed": "2026-06-02"

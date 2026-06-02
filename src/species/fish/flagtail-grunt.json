@@ -6,66 +6,100 @@
   "waterType": "saltwater",
   "commonName": "Flagtail Grunt",
   "scientificName": "Kuhlia mugil",
-  "alsoKnownAs": ["Barred Flagtail", "Five Band Flagtail", "Barred Flagtail Grunt"],
+  "alsoKnownAs": [
+    "Barred Flagtail",
+    "Five Band Flagtail",
+    "Barred Flagtail Grunt"
+  ],
   "category": "Grunts & Sweetlips",
-
   "taxonomy": {
     "family": "Kuhliidae",
     "order": "Centrarchiformes"
   },
-
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Red Sea", "East Africa", "Eastern Pacific"],
-    "countries": ["Australia", "Indonesia", "Japan", "Maldives", "South Africa", "United States (Hawaii region excluded)"],
+    "regions": [
+      "Indo-Pacific",
+      "Red Sea",
+      "East Africa",
+      "Eastern Pacific"
+    ],
+    "countries": [
+      "Australia",
+      "Indonesia",
+      "Japan",
+      "Maldives",
+      "South Africa",
+      "United States (Hawaii region excluded)"
+    ],
     "habitat": "Reef-associated; tightly packed schools along reef margins of rocky shorelines, just below breaking surf; young found in tide pools. Also inhabits estuaries and coastal waters.",
     "biotope": "Reef"
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 23.0, "max": 27.0 },
-    "pH":           { "min": 8.1,  "max": 8.4  },
-    "gH":           null,
-    "kH":           { "min": 8.0,  "max": 12.0 },
-    "salinity":     { "min": 1.020, "max": 1.025 }
+    "temperatureC": {
+      "min": 23,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-
-  "adultSizeCm":   { "min": 20.0, "max": 40.0 },
-  "lifespanYears": { "min": 5.0,  "max": 10.0 },
-
+  "adultSizeCm": {
+    "min": 20,
+    "max": 40
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 10
+  },
   "tank": {
     "minVolumeLiters": 643,
     "minLengthCm": 180,
     "swimZone": "mid",
-    "decorPreferences": ["live rock", "open swimming space", "rocky overhangs"]
+    "decorPreferences": [
+      "live rock",
+      "open swimming space",
+      "rocky overhangs"
+    ]
   },
-
   "careLevel": "intermediate",
-
   "diet": {
     "type": "carnivore",
     "notes": "Has been documented feeding on free-swimming crustaceans and small fish in the wild, primarily at night. In captivity, generally accepts mysis shrimp, brine shrimp, frozen meaty foods, flake, and pellet foods. Ghost shrimp have been reported to be useful for encouraging initial feeding."
   },
-
   "compatibility": {
     "temperament": "semi-aggressive",
     "grouping": "schooling",
     "minGroupSize": 1,
-    "goodWith": ["cardinalfish", "firefish", "gobies", "peaceful angelfish", "larger peaceful reef fish"],
-    "avoidWith": ["small fish that could be preyed upon", "highly aggressive or territorial species"]
+    "goodWith": [
+      "cardinalfish",
+      "firefish",
+      "gobies",
+      "peaceful angelfish",
+      "larger peaceful reef fish"
+    ],
+    "avoidWith": [
+      "small fish that could be preyed upon",
+      "highly aggressive or territorial species"
+    ]
   },
-
   "media": {
     "primaryImage": null,
     "gallery": [],
     "imageCandidates": null
   },
-
   "summary": "A silver, compressed-bodied schooling fish with a distinctive forked caudal fin featuring alternating black and white bands. Generally considered intermediate to keep and tends to do well in larger reef aquariums with open swimming space.",
-
   "careNotes": "Kuhlia mugil (Barred Flagtail / Flagtail Grunt) is a reef-margin schooling fish from the broad Indo-Pacific, typically found just below the surf line along rocky shores. In captivity, keeping a full school is generally considered impractical given the space demands of a fish that tends to reach 25–40 cm; most aquarists keep one specimen or a small group in a large tank. The species tends to be a nocturnal feeder in the wild but has been reported to adjust to daytime feeding in aquaria. Initial feeding may require live ghost shrimp before transitioning to frozen or prepared foods.\n\nTemperament disagreement between sources: LiveAquaria and FishyWiki rate this fish semi-aggressive, while SaltwaterFish.com characterizes it as peaceful. The semi-aggressive rating is adopted here as the majority position; observed aggression tends to be directed at smaller tankmates rather than at same-size or larger companions.\n\nMinimum tank volume: Three aquarium-trade sources give 568–681 L (150–180 US gallons), averaged to ~643 L. One specialist source (Reeflex) recommends 1,500 L based on the full adult size of 40 cm; this is more appropriate if the fish grows to its wild maximum. FishBase documents a maximum standard length of 40 cm and a common total length of 20 cm.\n\nTemperature: FishBase (wild data) gives 24.5–29.3 °C; trade sources collectively suggest 22–27 °C for aquarium keeping. The values used here (23–27 °C) represent an average across four sources.\n\nNo reports of venomous spines. No documented sex-change behavior in aquarium literature. IUCN status is Least Concern.",
-
   "breedingNotes": "Captive breeding has been reported as possible but offspring numbers are insufficient for commercial demand. No detailed captive-breeding protocols were found in consulted sources.",
-
   "sources": {
     "primary": {
       "name": "LiveAquaria",
@@ -100,7 +134,6 @@
       }
     ]
   },
-
   "fish": {
     "breedingDifficulty": "difficult",
     "breedingNotes": "Captive breeding has been reported as possible but is not commercially viable. No detailed captive-breeding protocols documented in consulted sources.",
@@ -109,17 +142,23 @@
     "reefSafe": "yes",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": null
+    "protogynous": null,
+    "haremic": null,
+    "caudalScalpel": null,
+    "nocturnal": null,
+    "juvenileColorPhase": null,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": null,
+    "requiresHitchingPost": null,
+    "monogamousPairing": null
   },
-
-  "crustacean":   null,
-  "coral":        null,
-  "mollusc":      null,
-  "echinoderm":   null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
   "other-invert": null,
-  "plant":        null,
-  "macroalgae":   null,
-
+  "plant": null,
+  "macroalgae": null,
   "schemaVersion": 1,
   "dataStatus": "researched",
   "lastReviewed": "2026-06-02"

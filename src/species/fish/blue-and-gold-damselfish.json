@@ -6,32 +6,73 @@
   "waterType": "saltwater",
   "commonName": "Blue and Gold Damselfish",
   "scientificName": "Pomacentrus coelestis",
-  "alsoKnownAs": ["Neon Damselfish", "Neon Damsel", "Blue and Gold Damsel", "Electric Blue Damsel"],
+  "alsoKnownAs": [
+    "Neon Damselfish",
+    "Neon Damsel",
+    "Blue and Gold Damsel",
+    "Electric Blue Damsel"
+  ],
   "category": "Damsel",
   "taxonomy": {
     "family": "Pomacentridae",
     "order": "Perciformes"
   },
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Western Pacific", "Central Pacific", "Eastern Indian Ocean"],
-    "countries": ["Sri Lanka", "Japan", "Australia", "Indonesia", "Philippines", "Papua New Guinea", "Solomon Islands", "Fiji", "Tonga", "Hawaii"],
+    "regions": [
+      "Indo-Pacific",
+      "Western Pacific",
+      "Central Pacific",
+      "Eastern Indian Ocean"
+    ],
+    "countries": [
+      "Sri Lanka",
+      "Japan",
+      "Australia",
+      "Indonesia",
+      "Philippines",
+      "Papua New Guinea",
+      "Solomon Islands",
+      "Fiji",
+      "Tonga",
+      "Hawaii"
+    ],
     "habitat": "Reef-associated; adults tend to inhabit lagoon and seaward reefs, often close to the bottom among rubble beds; depth range approximately 1–20 m",
     "biotope": "Reef"
   },
   "waterParameters": {
-    "temperatureC": { "min": 23.8, "max": 27.2 },
-    "pH": { "min": 8.0, "max": 8.4 },
+    "temperatureC": {
+      "min": 23.8,
+      "max": 27.2
+    },
+    "pH": {
+      "min": 8,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.021, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.021,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 5.0, "max": 9.4 },
+  "adultSizeCm": {
+    "min": 5,
+    "max": 9.4
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 161,
     "minLengthCm": null,
     "swimZone": "mid",
-    "decorPreferences": ["live rock", "rubble", "caves", "crevices"]
+    "decorPreferences": [
+      "live rock",
+      "rubble",
+      "caves",
+      "crevices"
+    ]
   },
   "careLevel": "beginner",
   "diet": {
@@ -42,8 +83,18 @@
     "temperament": "aggressive",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["larger peaceful fish", "tangs", "angelfish", "larger wrasses"],
-    "avoidWith": ["conspecifics", "other damselfish", "small peaceful fish", "timid species"]
+    "goodWith": [
+      "larger peaceful fish",
+      "tangs",
+      "angelfish",
+      "larger wrasses"
+    ],
+    "avoidWith": [
+      "conspecifics",
+      "other damselfish",
+      "small peaceful fish",
+      "timid species"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -89,7 +140,15 @@
     "reefSafe": "yes",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": null
+    "protogynous": null,
+    "haremic": null,
+    "caudalScalpel": null,
+    "nocturnal": null,
+    "juvenileColorPhase": null,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": null,
+    "requiresHitchingPost": null,
+    "monogamousPairing": null
   },
   "crustacean": null,
   "coral": null,

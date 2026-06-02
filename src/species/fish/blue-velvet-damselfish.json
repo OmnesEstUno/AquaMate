@@ -18,64 +18,91 @@
     "Paraglyphidodon oxyodon"
   ],
   "category": "Damselfish",
-
   "taxonomy": {
     "family": "Pomacentridae",
     "order": "Ovalentaria"
   },
-
   "nativeRange": {
-    "regions": ["Western Central Pacific", "Indo-Australian Archipelago"],
-    "countries": ["Indonesia", "Philippines", "Fiji"],
+    "regions": [
+      "Western Central Pacific",
+      "Indo-Australian Archipelago"
+    ],
+    "countries": [
+      "Indonesia",
+      "Philippines",
+      "Fiji"
+    ],
     "habitat": "Reef-associated; adults tend to inhabit protected reef flats in lagoons and inshore reefs at shallow depths (0–4 m)",
     "biotope": "Reef"
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 23.4, "max": 27.0 },
-    "pH":           { "min": 8.1,  "max": 8.4  },
-    "gH":           null,
-    "kH":           { "min": 8.0,  "max": 12.0 },
-    "salinity":     { "min": 1.020, "max": 1.025 }
+    "temperatureC": {
+      "min": 23.4,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-
-  "adultSizeCm":   { "min": 8.0, "max": 15.2 },
-  "lifespanYears": { "min": 3.0, "max": 7.0  },
-
+  "adultSizeCm": {
+    "min": 8,
+    "max": 15.2
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 7
+  },
   "tank": {
-    "minVolumeLiters":  185,
-    "minLengthCm":      90,
-    "swimZone":         "all",
-    "decorPreferences": ["live rock", "caves", "crevices", "overhangs"]
+    "minVolumeLiters": 185,
+    "minLengthCm": 90,
+    "swimZone": "all",
+    "decorPreferences": [
+      "live rock",
+      "caves",
+      "crevices",
+      "overhangs"
+    ]
   },
-
   "careLevel": "beginner",
-
   "diet": {
     "type": "omnivore",
     "notes": "In the wild has been documented feeding primarily on filamentous algae and zooplankton. In aquariums has been reported to readily accept a variety of meaty and vegetable-based foods including Mysis shrimp, brine shrimp, Spirulina, frozen and freeze-dried preparations, flake, and pellet foods. Feeding multiple small portions per day is generally advised."
   },
-
   "compatibility": {
-    "temperament":  "aggressive",
-    "grouping":     "solitary",
+    "temperament": "aggressive",
+    "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith":     ["large angelfish", "tangs", "triggerfish", "eels", "large groupers"],
-    "avoidWith":    ["peaceful small fish", "other damselfishes", "small or timid reef fish"]
+    "goodWith": [
+      "large angelfish",
+      "tangs",
+      "triggerfish",
+      "eels",
+      "large groupers"
+    ],
+    "avoidWith": [
+      "peaceful small fish",
+      "other damselfishes",
+      "small or timid reef fish"
+    ]
   },
-
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
+    "primaryImage": null,
+    "gallery": [],
     "imageCandidates": null
   },
-
   "summary": "A striking but territorial damselfish native to the Western Pacific; juveniles display vivid electric-blue stripes on black that tend to fade to uniform dark brown or black in adulthood. Generally considered suitable for beginners in semi-aggressive or predator community setups.",
-
   "careNotes": "The Blue Velvet Damselfish (Neoglyphidodon oxyodon — also traded as Paraglyphidodon oxyodon, a widely-used synonym) is a hardy species generally advised for hobbyists with semi-aggressive or predator-only communities rather than peaceful reef setups. Juveniles are strikingly colored with electric-blue stripes; adults typically lose most of this coloration and have been known to become increasingly territorial and aggressive with maturity.\n\nWater temperature: Sources varied notably. Aquarium hobby sources generally advise 22–28°C, while FishBase wild data records a preferred range of 26.5–29.3°C. The averaged target range used here (23–27°C) represents a compromise; erring toward the upper end of this range is likely closer to wild conditions.\n\nTank size: LiveAquaria lists 30 gallons (114 L) as a minimum while TropicalFishKeeping, AquariumDomain, and ThatPetPlace each recommend 55 gallons (208 L). The figure used here (185 L) is the average of all four; a 55-gallon (208 L) or larger tank is generally advisable, especially in community settings, to give other fish adequate space to escape territorial behavior.\n\nReef compatibility: Three of four sources rate this species reef-safe with respect to corals and sessile invertebrates; however, its aggressive disposition toward smaller and more peaceful fish has been noted. It is generally considered reef-safe in terms of coral/invertebrate damage, but has been known to bully and harass peaceful tankmates in reef setups.\n\nColor phases: Juveniles are black with vivid electric-blue horizontal stripes and a pale yellow-white vertical band. Adults are typically uniform dark brown to black with minimal remaining stripe coloration.\n\nHealth: The species has been reported to be susceptible to ich, particularly under unstable water conditions. Stable parameters and consistent water quality practices are generally advised.\n\nLifespan: One source reports approximately 5 years; the range here (3–7 years) is a plausible estimate around that figure, as multi-source lifespan data was not available.",
-
   "breedingNotes": "Males have been reported to establish territories and court females with a characteristic swimming display. Spawning is oviparous; eggs are demersal and adhere to a substrate surface, with the male guarding and aerating the eggs. Captive breeding has not yet been documented in the hobby literature reviewed; this species is generally considered not bred in captivity under standard aquarium conditions.",
-
   "sources": {
     "primary": {
       "name": "LiveAquaria",
@@ -110,27 +137,32 @@
       }
     ]
   },
-
   "fish": {
-    "breedingDifficulty":    "not in captivity",
-    "breedingNotes":         "Oviparous pair spawner; eggs adhere to substrate with paternal care. Captive breeding has not been documented in the reviewed hobby literature.",
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "Oviparous pair spawner; eggs adhere to substrate with paternal care. Captive breeding has not been documented in the reviewed hobby literature.",
     "conspecificAggression": "high",
-    "finNippy":              false,
-    "reefSafe":              "yes",
-    "escapeRisk":            "low",
-    "venomousSpines":        false,
-    "protogynous":           false
+    "finNippy": false,
+    "reefSafe": "yes",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "protogynous": false,
+    "haremic": null,
+    "caudalScalpel": null,
+    "nocturnal": null,
+    "juvenileColorPhase": null,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": null,
+    "requiresHitchingPost": null,
+    "monogamousPairing": null
   },
-
-  "crustacean":   null,
-  "coral":        null,
-  "mollusc":      null,
-  "echinoderm":   null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
   "other-invert": null,
-  "plant":        null,
-  "macroalgae":   null,
-
+  "plant": null,
+  "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus":    "researched",
-  "lastReviewed":  "2026-06-02"
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-02"
 }

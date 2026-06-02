@@ -6,32 +6,81 @@
   "waterType": "saltwater",
   "commonName": "Bluestripe Pipefish",
   "scientificName": "Doryrhamphus excisus",
-  "alsoKnownAs": ["Blue-Stripe Pipefish", "Blue-Striped Pipefish", "Blue and Orange Cleaner Pipefish", "Flagtail Pipefish"],
+  "alsoKnownAs": [
+    "Blue-Stripe Pipefish",
+    "Blue-Striped Pipefish",
+    "Blue and Orange Cleaner Pipefish",
+    "Flagtail Pipefish"
+  ],
   "category": "Pipefish",
   "taxonomy": {
     "family": "Syngnathidae",
     "order": "Syngnathiformes"
   },
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Eastern Pacific", "Persian Gulf", "East Africa", "Red Sea"],
-    "countries": ["United States", "Mexico", "Australia", "Indonesia", "Philippines", "Japan", "Kenya", "Oman", "India", "Sri Lanka", "Thailand", "Papua New Guinea"],
+    "regions": [
+      "Indo-Pacific",
+      "Eastern Pacific",
+      "Persian Gulf",
+      "East Africa",
+      "Red Sea"
+    ],
+    "countries": [
+      "United States",
+      "Mexico",
+      "Australia",
+      "Indonesia",
+      "Philippines",
+      "Japan",
+      "Kenya",
+      "Oman",
+      "India",
+      "Sri Lanka",
+      "Thailand",
+      "Papua New Guinea"
+    ],
     "habitat": "Reef-associated; typically found in crevices among rocks and corals, under ledges, and in lagoon and seaward reef environments at depths of 2–50 m.",
     "biotope": "Reef"
   },
   "waterParameters": {
-    "temperatureC": { "min": 23.5, "max": 27.5 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 23.5,
+      "max": 27.5
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 5.0, "max": 7.5 },
-  "lifespanYears": { "min": 2, "max": 4 },
+  "adultSizeCm": {
+    "min": 5,
+    "max": 7.5
+  },
+  "lifespanYears": {
+    "min": 2,
+    "max": 4
+  },
   "tank": {
     "minVolumeLiters": 110,
     "minLengthCm": 60,
     "swimZone": "mid",
-    "decorPreferences": ["live rock", "gorgonians", "branching corals", "overhangs", "caves", "macroalgae"]
+    "decorPreferences": [
+      "live rock",
+      "gorgonians",
+      "branching corals",
+      "overhangs",
+      "caves",
+      "macroalgae"
+    ]
   },
   "careLevel": "expert",
   "diet": {
@@ -42,8 +91,22 @@
     "temperament": "peaceful",
     "grouping": "pair",
     "minGroupSize": 2,
-    "goodWith": ["seahorses", "small gobies", "dragonets", "firefish", "small basslets"],
-    "avoidWith": ["aggressive fish", "fast-moving fish", "large shrimp", "crabs", "anemones", "large polyp stony corals", "brain corals"]
+    "goodWith": [
+      "seahorses",
+      "small gobies",
+      "dragonets",
+      "firefish",
+      "small basslets"
+    ],
+    "avoidWith": [
+      "aggressive fish",
+      "fast-moving fish",
+      "large shrimp",
+      "crabs",
+      "anemones",
+      "large polyp stony corals",
+      "brain corals"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -95,7 +158,15 @@
     "reefSafe": "with caution",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": false
+    "protogynous": false,
+    "haremic": null,
+    "caudalScalpel": null,
+    "nocturnal": null,
+    "juvenileColorPhase": null,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": true,
+    "requiresHitchingPost": true,
+    "monogamousPairing": null
   },
   "crustacean": null,
   "coral": null,

@@ -6,32 +6,65 @@
   "waterType": "saltwater",
   "commonName": "Australian Epaulette Shark",
   "scientificName": "Hemiscyllium ocellatum",
-  "alsoKnownAs": ["Epaulette Shark", "Ocellated Bamboo Shark"],
+  "alsoKnownAs": [
+    "Epaulette Shark",
+    "Ocellated Bamboo Shark"
+  ],
   "category": "Sharks",
   "taxonomy": {
     "family": "Hemiscylliidae",
     "order": "Orectolobiformes"
   },
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Western Pacific"],
-    "countries": ["Australia", "Papua New Guinea"],
+    "regions": [
+      "Indo-Pacific",
+      "Western Pacific"
+    ],
+    "countries": [
+      "Australia",
+      "Papua New Guinea"
+    ],
     "habitat": "Shallow coral reefs and tide pools, typically 0–50 m depth; found walking among reef structure using paired pectoral and pelvic fins.",
     "biotope": "Reef"
   },
   "waterParameters": {
-    "temperatureC": { "min": 23.0, "max": 27.0 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 23,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 70.0, "max": 107.0 },
-  "lifespanYears": { "min": 8, "max": 25 },
+  "adultSizeCm": {
+    "min": 70,
+    "max": 107
+  },
+  "lifespanYears": {
+    "min": 8,
+    "max": 25
+  },
   "tank": {
     "minVolumeLiters": 1100,
     "minLengthCm": 270,
     "swimZone": "bottom",
-    "decorPreferences": ["sand substrate", "rock caves", "overhangs", "PVC shelters", "low profile rockwork"]
+    "decorPreferences": [
+      "sand substrate",
+      "rock caves",
+      "overhangs",
+      "PVC shelters",
+      "low profile rockwork"
+    ]
   },
   "careLevel": "expert",
   "diet": {
@@ -42,8 +75,21 @@
     "temperament": "aggressive",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["large peaceful fish that cannot be swallowed", "large non-aggressive species housed with caution"],
-    "avoidWith": ["small fish", "crustaceans", "shrimp", "crabs", "worms", "fish smaller than the shark's mouth", "triggerfish", "large angelfish that may harass shark", "other sharks unless space allows"]
+    "goodWith": [
+      "large peaceful fish that cannot be swallowed",
+      "large non-aggressive species housed with caution"
+    ],
+    "avoidWith": [
+      "small fish",
+      "crustaceans",
+      "shrimp",
+      "crabs",
+      "worms",
+      "fish smaller than the shark's mouth",
+      "triggerfish",
+      "large angelfish that may harass shark",
+      "other sharks unless space allows"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -95,7 +141,15 @@
     "reefSafe": "no",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": false
+    "protogynous": false,
+    "haremic": null,
+    "caudalScalpel": null,
+    "nocturnal": null,
+    "juvenileColorPhase": null,
+    "copperSensitive": true,
+    "speciesOnlyTankRecommended": null,
+    "requiresHitchingPost": null,
+    "monogamousPairing": null
   },
   "crustacean": null,
   "coral": null,

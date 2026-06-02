@@ -6,32 +6,66 @@
   "waterType": "saltwater",
   "commonName": "Fiji Blue Devil Damselfish",
   "scientificName": "Chrysiptera taupou",
-  "alsoKnownAs": ["South Seas Devil Damselfish", "Southseas Devil", "Village Belle", "South Seas Demoiselle"],
+  "alsoKnownAs": [
+    "South Seas Devil Damselfish",
+    "Southseas Devil",
+    "Village Belle",
+    "South Seas Demoiselle"
+  ],
   "category": "Damselfish",
   "taxonomy": {
     "family": "Pomacentridae",
     "order": "Perciformes"
   },
   "nativeRange": {
-    "regions": ["Western Pacific", "Indo-Pacific"],
-    "countries": ["Australia", "Fiji", "Tonga", "Samoa", "Indonesia", "Papua New Guinea"],
+    "regions": [
+      "Western Pacific",
+      "Indo-Pacific"
+    ],
+    "countries": [
+      "Australia",
+      "Fiji",
+      "Tonga",
+      "Samoa",
+      "Indonesia",
+      "Papua New Guinea"
+    ],
     "habitat": "Shallow lagoon and offshore coral reefs at depths of 0–10 m",
     "biotope": "Reef"
   },
   "waterParameters": {
-    "temperatureC": { "min": 23.8, "max": 27.3 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 23.8,
+      "max": 27.3
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.022, "max": 1.026 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.022,
+      "max": 1.026
+    }
   },
-  "adultSizeCm": { "min": 5.0, "max": 8.2 },
+  "adultSizeCm": {
+    "min": 5,
+    "max": 8.2
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 138,
     "minLengthCm": null,
     "swimZone": "mid",
-    "decorPreferences": ["live rock", "coral structures", "caves and crevices for hiding and territory establishment"]
+    "decorPreferences": [
+      "live rock",
+      "coral structures",
+      "caves and crevices for hiding and territory establishment"
+    ]
   },
   "careLevel": "beginner",
   "diet": {
@@ -42,8 +76,18 @@
     "temperament": "aggressive",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["larger semi-aggressive fish", "tangs", "larger wrasses", "triggerfish"],
-    "avoidWith": ["conspecifics", "other damsels", "passive or smaller fish", "docile species that cannot defend themselves"]
+    "goodWith": [
+      "larger semi-aggressive fish",
+      "tangs",
+      "larger wrasses",
+      "triggerfish"
+    ],
+    "avoidWith": [
+      "conspecifics",
+      "other damsels",
+      "passive or smaller fish",
+      "docile species that cannot defend themselves"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -89,7 +133,15 @@
     "reefSafe": "yes",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": false
+    "protogynous": false,
+    "haremic": null,
+    "caudalScalpel": null,
+    "nocturnal": null,
+    "juvenileColorPhase": null,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": null,
+    "requiresHitchingPost": null,
+    "monogamousPairing": null
   },
   "crustacean": null,
   "coral": null,

@@ -6,35 +6,58 @@
   "waterType": "saltwater",
   "commonName": "Blue Dot Jawfish",
   "scientificName": "Opistognathus rosenblatti",
-  "alsoKnownAs": ["Blue-Spotted Jawfish", "Bluespotted Jawfish", "Blue-Jaw", "Rosenblatt's Jawfish"],
+  "alsoKnownAs": [
+    "Blue-Spotted Jawfish",
+    "Bluespotted Jawfish",
+    "Blue-Jaw",
+    "Rosenblatt's Jawfish"
+  ],
   "category": "Jawfish",
-
   "taxonomy": {
     "family": "Opistognathidae",
     "order": "Blenniiformes"
   },
-
   "nativeRange": {
-    "regions": ["Eastern Pacific", "Gulf of California"],
-    "countries": ["Mexico"],
+    "regions": [
+      "Eastern Pacific",
+      "Gulf of California"
+    ],
+    "countries": [
+      "Mexico"
+    ],
     "habitat": "Rocky reef and rubble zones at 9–27 m depth; colonial burrower in mixed sand and rubble substrate, heavily influenced by cool California Current upwelling",
     "biotope": "Reef"
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 18.0, "max": 24.0 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 18,
+      "max": 24
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-
-  "adultSizeCm": { "min": 7.6, "max": 10.2 },
-  "lifespanYears": { "min": 3, "max": 5 },
-
+  "adultSizeCm": {
+    "min": 7.6,
+    "max": 10.2
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 113.6,
-    "minLengthCm": 90.0,
+    "minLengthCm": 90,
     "swimZone": "bottom",
     "decorPreferences": [
       "deep sand bed (minimum 20 cm of mixed fine sand and rubble)",
@@ -43,34 +66,41 @@
       "secure tight-fitting lid essential"
     ]
   },
-
   "careLevel": "intermediate",
-
   "diet": {
     "type": "carnivore",
     "notes": "Primarily zooplanktivorous in the wild; has been documented accepting mysis shrimp, enriched brine shrimp, marine fish flesh, crustacean flesh, prawn roe, and Calanus in captivity. Generally advised to feed small meaty portions two to three times daily, ideally via a pump discharge or flow that mimics drifting zooplankton."
   },
-
   "compatibility": {
     "temperament": "semi-aggressive",
     "grouping": "pair",
     "minGroupSize": 1,
-    "goodWith": ["assessors", "blennies", "cardinalfish", "dragonettes", "gobies", "pipefish", "peaceful slow-moving reef fish"],
-    "avoidWith": ["triggers", "groupers", "lionfish", "large aggressive wrasses", "fast competitive feeders", "other jawfish (unless mated pair or large tank with 90+ cm spacing per individual)"]
+    "goodWith": [
+      "assessors",
+      "blennies",
+      "cardinalfish",
+      "dragonettes",
+      "gobies",
+      "pipefish",
+      "peaceful slow-moving reef fish"
+    ],
+    "avoidWith": [
+      "triggers",
+      "groupers",
+      "lionfish",
+      "large aggressive wrasses",
+      "fast competitive feeders",
+      "other jawfish (unless mated pair or large tank with 90+ cm spacing per individual)"
+    ]
   },
-
   "media": {
     "primaryImage": null,
     "gallery": [],
     "imageCandidates": null
   },
-
   "summary": "A brilliantly blue-spotted cool-water jawfish from Mexico's Sea of Cortez, generally considered reef-safe and peaceful toward tankmates but known to be territorial with conspecifics. Requires a deep sand-rubble substrate and a chilled, well-oxygenated aquarium.",
-
   "careNotes": "The Blue Dot Jawfish is native to the Gulf of California, where cold upwelling from the California Current keeps water temperatures substantially cooler than typical tropical reef aquaria. Multiple sources indicate it generally does best in the 18–24°C range; Wikipedia specifically notes keeping it below 21°C to avoid stress and disease, while LiveAquaria lists 22–25.6°C — a significant disagreement. A dedicated chiller is commonly considered necessary for long-term success, and the temperature range used here (18–24°C) represents an average of available guidance; reviewers should verify against their specific livestock sourcing.\n\nAdult size: most authoritative sources (FishBase, Wikipedia, Quality Marine) cite a maximum of ~10 cm; TFH Magazine and the Saltwater Aquarium Blog cite 4–6 inches (10–15 cm). The range used here (7.6–10.2 cm) averages the lower-end consensus and treats 10–10.2 cm as the shared upper bound. The higher TFH figure appears to be an outlier.\n\nEscape risk is high — these fish are well-documented jumpers and will heave themselves out of an open tank. A tight-fitting canopy is not optional. They are burrowing species requiring a sand bed of at least 20 cm mixed with coral rubble, shells, and coarse material to construct and maintain their burrows. The fish seals its burrow at dusk and rebuilds the opening each morning.\n\nThey are colonial in the wild with individuals spaced roughly 1–3 meters apart. Multiple individuals can sometimes be kept together in a sufficiently large aquarium (generally advised to allow ~90 cm of horizontal spacing between burrow sites) or as a mated pair, but conspecific aggression is common without adequate space.\n\nBreeding has been observed in captivity. The species is a paternal mouthbrooder; males display striking white anterior coloration during courtship in summer months and may dash several feet above their burrows to attract females. Eggs are brooded for approximately 5–7 days.\n\nAvoid copper-based medications as a precaution (standard marine fish sensitivity); the species is reported to be hardy and resistant to parasitic infections compared to many reef fish, and is noted as an exceptional shipper.",
-
   "breedingNotes": "Paternal mouthbrooder. Courtship and spawning have been reported in captivity, typically in warmer summer months. Males display by dashing 90–120 cm above their burrows and developing a stark white anterior coloration to attract females. Eggs are incubated in the male's mouth for approximately 5–7 days. Fry have been reported to reach adult size within roughly one year under aquarium conditions. Breeding difficulty in captivity is considered advanced due to the species' cool-water and deep-substrate requirements.",
-
   "sources": {
     "primary": {
       "name": "LiveAquaria",
@@ -105,7 +135,6 @@
       }
     ]
   },
-
   "fish": {
     "breedingDifficulty": "advanced",
     "breedingNotes": "Paternal mouthbrooder; courtship observed in summer months; males display white anterior coloration and vertical dashes above burrow; eggs brooded ~5–7 days; fry reported to reach adult size within one year.",
@@ -114,9 +143,16 @@
     "reefSafe": "yes",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": null
+    "protogynous": null,
+    "haremic": null,
+    "caudalScalpel": null,
+    "nocturnal": null,
+    "juvenileColorPhase": null,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": null,
+    "requiresHitchingPost": null,
+    "monogamousPairing": null
   },
-
   "crustacean": null,
   "coral": null,
   "mollusc": null,
@@ -124,7 +160,6 @@
   "other-invert": null,
   "plant": null,
   "macroalgae": null,
-
   "schemaVersion": 1,
   "dataStatus": "needs_review",
   "lastReviewed": "2026-06-02"

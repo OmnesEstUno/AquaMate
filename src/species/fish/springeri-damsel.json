@@ -6,32 +6,64 @@
   "waterType": "saltwater",
   "commonName": "Blue Sapphire Damselfish",
   "scientificName": "Chrysiptera springeri",
-  "alsoKnownAs": ["Springeri Damsel", "Springer's Damselfish", "Springer's Demoiselle", "Royal Blue Damsel"],
+  "alsoKnownAs": [
+    "Springeri Damsel",
+    "Springer's Damselfish",
+    "Springer's Demoiselle",
+    "Royal Blue Damsel"
+  ],
   "category": "Damsel",
   "taxonomy": {
     "family": "Pomacentridae",
     "order": "Ovalentaria"
   },
   "nativeRange": {
-    "regions": ["Western Pacific"],
-    "countries": ["Indonesia", "Philippines"],
+    "regions": [
+      "Western Pacific"
+    ],
+    "countries": [
+      "Indonesia",
+      "Philippines"
+    ],
     "habitat": "Coral-rich sheltered lagoons and inshore reef slopes, typically at depths of 4–30 m",
     "biotope": "Reef"
   },
   "waterParameters": {
-    "temperatureC": { "min": 22.2, "max": 26.3 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 22.2,
+      "max": 26.3
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8.0, "max": 12.0 },
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 1.5, "max": 5.7 },
-  "lifespanYears": { "min": 3.0, "max": 6.0 },
+  "adultSizeCm": {
+    "min": 1.5,
+    "max": 5.7
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 6
+  },
   "tank": {
-    "minVolumeLiters": 114.0,
+    "minVolumeLiters": 114,
     "minLengthCm": null,
     "swimZone": "all",
-    "decorPreferences": ["live rock", "coral rubble", "hiding crevices"]
+    "decorPreferences": [
+      "live rock",
+      "coral rubble",
+      "hiding crevices"
+    ]
   },
   "careLevel": "beginner",
   "diet": {
@@ -42,8 +74,17 @@
     "temperament": "semi-aggressive",
     "grouping": "pair",
     "minGroupSize": 1,
-    "goodWith": ["corals", "invertebrates", "peaceful reef fish", "larger semi-aggressive fish"],
-    "avoidWith": ["slow-moving peaceful fish", "other aggressive damselfish genera (Abudefduf, Dascyllus, Stegastes)", "conspecifics in small tanks"]
+    "goodWith": [
+      "corals",
+      "invertebrates",
+      "peaceful reef fish",
+      "larger semi-aggressive fish"
+    ],
+    "avoidWith": [
+      "slow-moving peaceful fish",
+      "other aggressive damselfish genera (Abudefduf, Dascyllus, Stegastes)",
+      "conspecifics in small tanks"
+    ]
   },
   "media": {
     "primaryImage": "springeri_damsel.jpg",
@@ -89,7 +130,15 @@
     "reefSafe": "yes",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": null
+    "protogynous": null,
+    "haremic": null,
+    "caudalScalpel": null,
+    "nocturnal": null,
+    "juvenileColorPhase": null,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": null,
+    "requiresHitchingPost": null,
+    "monogamousPairing": null
   },
   "crustacean": null,
   "coral": null,

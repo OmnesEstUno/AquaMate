@@ -6,66 +6,97 @@
   "waterType": "saltwater",
   "commonName": "Dwarf Moray Eel",
   "scientificName": "Gymnothorax melatremus",
-  "alsoKnownAs": ["Golden Dwarf Moray Eel", "Yellow Moray", "Pencil Moray", "Gold Dwarf Moray Eel"],
+  "alsoKnownAs": [
+    "Golden Dwarf Moray Eel",
+    "Yellow Moray",
+    "Pencil Moray",
+    "Gold Dwarf Moray Eel"
+  ],
   "category": "Eels",
-
   "taxonomy": {
     "family": "Muraenidae",
     "order": "Anguilliformes"
   },
-
   "nativeRange": {
-    "regions": ["Indo-Pacific"],
-    "countries": ["Kenya", "Tanzania", "Mozambique", "Madagascar", "Hawaii", "Marquesas Islands", "Mangaréva", "Australia"],
+    "regions": [
+      "Indo-Pacific"
+    ],
+    "countries": [
+      "Kenya",
+      "Tanzania",
+      "Mozambique",
+      "Madagascar",
+      "Hawaii",
+      "Marquesas Islands",
+      "Mangaréva",
+      "Australia"
+    ],
     "habitat": "Reef-associated; tends to occupy holes and crevices of seaward reefs from the surge zone to depths of around 26 m",
     "biotope": "Reef"
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 23.8, "max": 27.3 },
-    "pH":           { "min": 8.1, "max": 8.4 },
-    "gH":           null,
-    "kH":           null,
-    "salinity":     { "min": 1.020, "max": 1.026 }
+    "temperatureC": {
+      "min": 23.8,
+      "max": 27.3
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": null,
+    "salinity": {
+      "min": 1.02,
+      "max": 1.026
+    }
   },
-
-  "adultSizeCm":   { "min": 20.0, "max": 30.0 },
+  "adultSizeCm": {
+    "min": 20,
+    "max": 30
+  },
   "lifespanYears": null,
-
   "tank": {
     "minVolumeLiters": 265,
-    "minLengthCm":     null,
-    "swimZone":        "bottom",
-    "decorPreferences": ["live rock", "caves", "crevices", "PVC tubes"]
+    "minLengthCm": null,
+    "swimZone": "bottom",
+    "decorPreferences": [
+      "live rock",
+      "caves",
+      "crevices",
+      "PVC tubes"
+    ]
   },
-
   "careLevel": "intermediate",
-
   "diet": {
     "type": "carnivore",
     "notes": "Generally feeds on meaty foods such as silversides, krill, shrimp, and crustacean flesh; typically offered 2–3 substantial meals per week, delivered on a feeding stick due to poor eyesight and powerful jaws."
   },
-
   "compatibility": {
-    "temperament":  "semi-aggressive",
-    "grouping":     "solitary",
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith":     ["larger fish", "large wrasses", "large angelfish", "large tangs"],
-    "avoidWith":    ["small fish", "small crustaceans", "shrimp", "small crabs", "ornamental shrimp"]
+    "goodWith": [
+      "larger fish",
+      "large wrasses",
+      "large angelfish",
+      "large tangs"
+    ],
+    "avoidWith": [
+      "small fish",
+      "small crustaceans",
+      "shrimp",
+      "small crabs",
+      "ornamental shrimp"
+    ]
   },
-
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
+    "primaryImage": null,
+    "gallery": [],
     "imageCandidates": null
   },
-
   "summary": "A small, secretive reef moray from the Indo-Pacific generally reaching around 30 cm; tends to hide among live rock during the day and is generally considered semi-aggressive toward small fish and crustaceans.",
-
   "careNotes": "Gymnothorax melatremus is commonly known as the Golden Dwarf Moray Eel, noted for its whitish-yellow to bright golden coloration, variable brown spotting, and distinctive faint pale-blue 'cat eyes'. It tends to be primarily nocturnal, hiding in caves and crevices during the day. This species is widely considered an escape specialist — a tightly-fitting, gap-free aquarium cover is generally regarded as essential. Feeding is best done with a feeding stick rather than by hand, given its poor eyesight and sharp teeth. Strong biological filtration and a protein skimmer are generally advised due to its carnivorous diet producing significant waste. LiveAquaria lists it as 'Easy' (care level), while ReefApp describes it as 'Hardy / suitable with care'; the intermediate designation here reflects the specialized tank requirements (escape-proofing, feeding method, heavy filtration) that go beyond typical beginner setups. Temperature disagreement noted between sources: LiveAquaria reports 72–78°F (22.2–25.6°C) and FishBase environmental modeling reports 25.4–28.9°C; the filed range (23.8–27.3°C) is the average of both. Minimum tank size averaged from LiveAquaria's 65 gal (246 L) and ReefApp's 300 L, yielding ~265 L. The species is reported to be solitary and secretive in the wild, with conspecific aggression commonly observed.",
-
   "breedingNotes": null,
-
   "sources": {
     "primary": {
       "name": "LiveAquaria",
@@ -88,7 +119,6 @@
       }
     ]
   },
-
   "fish": {
     "breedingDifficulty": "not in captivity",
     "breedingNotes": null,
@@ -97,17 +127,23 @@
     "reefSafe": "with caution",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": null
+    "protogynous": null,
+    "haremic": null,
+    "caudalScalpel": null,
+    "nocturnal": null,
+    "juvenileColorPhase": null,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": null,
+    "requiresHitchingPost": null,
+    "monogamousPairing": null
   },
-
-  "crustacean":   null,
-  "coral":        null,
-  "mollusc":      null,
-  "echinoderm":   null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
   "other-invert": null,
-  "plant":        null,
-  "macroalgae":   null,
-
+  "plant": null,
+  "macroalgae": null,
   "schemaVersion": 1,
   "dataStatus": "researched",
   "lastReviewed": "2026-06-02"

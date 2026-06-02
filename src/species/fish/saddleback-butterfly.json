@@ -6,32 +6,69 @@
   "waterType": "saltwater",
   "commonName": "Saddleback Butterfly",
   "scientificName": "Chaetodon falcula",
-  "alsoKnownAs": ["Falcula Butterflyfish", "Falcula Butterflyfish, True", "Sickle Butterflyfish", "Blackwedged Butterflyfish"],
+  "alsoKnownAs": [
+    "Falcula Butterflyfish",
+    "Falcula Butterflyfish, True",
+    "Sickle Butterflyfish",
+    "Blackwedged Butterflyfish"
+  ],
   "category": "Butterflyfish",
   "taxonomy": {
     "family": "Chaetodontidae",
     "order": "Acanthuriformes"
   },
   "nativeRange": {
-    "regions": ["Indian Ocean"],
-    "countries": ["Kenya", "Tanzania", "Mozambique", "South Africa", "Maldives", "India", "Sri Lanka", "Indonesia", "Australia"],
+    "regions": [
+      "Indian Ocean"
+    ],
+    "countries": [
+      "Kenya",
+      "Tanzania",
+      "Mozambique",
+      "South Africa",
+      "Maldives",
+      "India",
+      "Sri Lanka",
+      "Indonesia",
+      "Australia"
+    ],
     "habitat": "Reef edge and upper slope in current-prone habitats; depth range 1–15 m",
     "biotope": "Reef"
   },
   "waterParameters": {
-    "temperatureC": { "min": 24.0, "max": 27.0 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 24,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.021, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.021,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 15.0, "max": 20.0 },
+  "adultSizeCm": {
+    "min": 15,
+    "max": 20
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 437,
     "minLengthCm": null,
     "swimZone": "all",
-    "decorPreferences": ["live rock", "open swimming area", "caves and crevices", "strong current zones"]
+    "decorPreferences": [
+      "live rock",
+      "open swimming area",
+      "caves and crevices",
+      "strong current zones"
+    ]
   },
   "careLevel": "intermediate",
   "diet": {
@@ -42,8 +79,20 @@
     "temperament": "semi-aggressive",
     "grouping": "pair",
     "minGroupSize": 1,
-    "goodWith": ["other butterflyfish of similar size", "larger peaceful reef fish", "tangs", "angelfish"],
-    "avoidWith": ["small ornamental invertebrates", "corals", "anemones", "sponges", "feather dusters", "conspecifics unless introduced as a mated pair"]
+    "goodWith": [
+      "other butterflyfish of similar size",
+      "larger peaceful reef fish",
+      "tangs",
+      "angelfish"
+    ],
+    "avoidWith": [
+      "small ornamental invertebrates",
+      "corals",
+      "anemones",
+      "sponges",
+      "feather dusters",
+      "conspecifics unless introduced as a mated pair"
+    ]
   },
   "media": {
     "primaryImage": "saddleback_butterfly.jpg",
@@ -89,7 +138,15 @@
     "reefSafe": "no",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": null
+    "protogynous": null,
+    "haremic": null,
+    "caudalScalpel": null,
+    "nocturnal": null,
+    "juvenileColorPhase": null,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": null,
+    "requiresHitchingPost": null,
+    "monogamousPairing": true
   },
   "crustacean": null,
   "coral": null,

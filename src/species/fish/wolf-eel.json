@@ -6,66 +6,90 @@
   "waterType": "saltwater",
   "commonName": "Wolf Eel",
   "scientificName": "Anarrhichthys ocellatus",
-  "alsoKnownAs": ["Wolf-eel", "Northern Wolffish"],
+  "alsoKnownAs": [
+    "Wolf-eel",
+    "Northern Wolffish"
+  ],
   "category": "Eels & Eel-like",
-
   "taxonomy": {
     "family": "Anarhichadidae",
     "order": "Perciformes"
   },
-
   "nativeRange": {
-    "regions": ["North Pacific"],
-    "countries": ["United States", "Canada", "Russia", "Japan"],
+    "regions": [
+      "North Pacific"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Russia",
+      "Japan"
+    ],
     "habitat": "Rocky subtidal zones, caves, and crevices from shallow water to approximately 226 m depth; juveniles are pelagic for up to two years before settling into rocky reef habitats",
     "biotope": "Reef"
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 1.2, "max": 10.5 },
-    "pH": { "min": 7.8, "max": 8.2 },
+    "temperatureC": {
+      "min": 1.2,
+      "max": 10.5
+    },
+    "pH": {
+      "min": 7.8,
+      "max": 8.2
+    },
     "gH": null,
     "kH": null,
-    "salinity": { "min": 1.023, "max": 1.025 }
+    "salinity": {
+      "min": 1.023,
+      "max": 1.025
+    }
   },
-
-  "adultSizeCm": { "min": 100.0, "max": 240.0 },
-  "lifespanYears": { "min": 20.0, "max": 25.0 },
-
+  "adultSizeCm": {
+    "min": 100,
+    "max": 240
+  },
+  "lifespanYears": {
+    "min": 20,
+    "max": 25
+  },
   "tank": {
-    "minVolumeLiters": 3000.0,
-    "minLengthCm": 300.0,
+    "minVolumeLiters": 3000,
+    "minLengthCm": 300,
     "swimZone": "bottom",
-    "decorPreferences": ["large boulders", "caves and crevices", "rock overhangs", "PVC or rockwork dens"]
+    "decorPreferences": [
+      "large boulders",
+      "caves and crevices",
+      "rock overhangs",
+      "PVC or rockwork dens"
+    ]
   },
-
   "careLevel": "expert",
-
   "diet": {
     "type": "carnivore",
     "notes": "In the wild, wolf eels have been observed consuming hard-shelled invertebrates including crabs, sea urchins, sand dollars, mussels, clams, snails, and abalone, as well as fish. Their powerful, crushing jaws are adapted for processing hard-shelled prey. In captivity, feeding typically involves whole crustaceans, bivalves, and meaty marine foods."
   },
-
   "compatibility": {
     "temperament": "semi-aggressive",
     "grouping": "pair",
     "minGroupSize": 1,
-    "goodWith": ["large non-aggressive fish of similar size", "other large cold-water Pacific species in a public exhibit context"],
-    "avoidWith": ["other wolf eels (highly territorial toward conspecifics)", "small fish that may be consumed", "invertebrates (sea urchins, crabs, clams, and other hard-shelled species are natural prey)"]
+    "goodWith": [
+      "large non-aggressive fish of similar size",
+      "other large cold-water Pacific species in a public exhibit context"
+    ],
+    "avoidWith": [
+      "other wolf eels (highly territorial toward conspecifics)",
+      "small fish that may be consumed",
+      "invertebrates (sea urchins, crabs, clams, and other hard-shelled species are natural prey)"
+    ]
   },
-
   "media": {
     "primaryImage": null,
     "gallery": [],
     "imageCandidates": null
   },
-
   "summary": "A large, eel-like cold-water Pacific fish reaching up to 240 cm; generally docile toward humans but a voracious predator of invertebrates. Suitable only for large public aquarium exhibits.",
-
   "careNotes": "Wolf Eel (Anarrhichthys ocellatus) is a cold-water North Pacific species that is generally considered suitable only for large public aquarium exhibits or zoo facilities — not practical for home aquariums. Adults are reported to reach up to 240 cm in length and have been known to live 20–25 years or more. Despite their fearsome appearance, wolf eels are generally described as curious and non-aggressive toward divers and aquarists, though they tend to be strongly territorial toward other wolf eels and will readily consume invertebrate tankmates. A tightly secured lid or tank cover is strongly advised, as wolf eels — like most eel-like fish — present a notable escape risk. The minimum tank volume of 3,000 L noted here is an estimate based on body length and the public-aquarium context in which the species is typically displayed; no authoritative home-aquarium husbandry source was found specifying a precise volume (this field should be reviewed by a curator familiar with cold-water exhibit standards). Temperature should be maintained in the cold range (approximately 1–10°C); this species is not compatible with the warm water conditions of a typical tropical marine aquarium. Both sexes cohabit a shared den and have been reported to form lifelong monogamous pair bonds, with both parents guarding the egg mass for approximately 91–112 days after spawning. Sexual maturity is typically reached around 7 years of age. Juveniles display a striking brick-orange coloration with dark markings that fades to gray-brown in adults. NOTE: The designated primary source (LiveAquaria) does not carry this species in its catalog; FishBase was used as the de facto primary, supplemented by Monterey Bay Aquarium, Seattle Aquarium, Alaska SeaLife Center, Washington Department of Fish and Wildlife, and Wikipedia.",
-
   "breedingNotes": "Wolf eels have been reported to form lifelong monogamous pair bonds. Spawning tends to occur in autumn and winter, with maturity typically not reached until approximately 7 years of age. Females produce up to 10,000 eggs per spawning event; both parents have been observed sharing parenting duties — one guarding the den while the other feeds. The egg mass has been described as grapefruit-sized, with hatching occurring after roughly 91–112 days. Captive breeding is not documented in the hobby literature and would require replicating cold North Pacific water conditions; the species is generally considered not feasible for home aquarium breeding.",
-
   "sources": {
     "primary": {
       "name": "FishBase",
@@ -100,7 +124,6 @@
       }
     ]
   },
-
   "fish": {
     "breedingDifficulty": "not in captivity",
     "breedingNotes": "Not documented in home aquarium literature. Requires cold North Pacific water conditions (~1–10°C). Pair formation occurs naturally when animals cohabit a shared den; both parents guard the egg mass for approximately 91–112 days. Not feasible for typical home aquarium breeding.",
@@ -109,9 +132,16 @@
     "reefSafe": "no",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": false
+    "protogynous": false,
+    "haremic": null,
+    "caudalScalpel": null,
+    "nocturnal": null,
+    "juvenileColorPhase": null,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": null,
+    "requiresHitchingPost": null,
+    "monogamousPairing": true
   },
-
   "crustacean": null,
   "coral": null,
   "mollusc": null,
@@ -119,7 +149,6 @@
   "other-invert": null,
   "plant": null,
   "macroalgae": null,
-
   "schemaVersion": 1,
   "dataStatus": "needs_review",
   "lastReviewed": "2026-06-02"

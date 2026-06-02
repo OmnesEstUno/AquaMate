@@ -6,32 +6,69 @@
   "waterType": "saltwater",
   "commonName": "Zebra Moray",
   "scientificName": "Gymnomuraena zebra",
-  "alsoKnownAs": ["Zebra Moray Eel"],
+  "alsoKnownAs": [
+    "Zebra Moray Eel"
+  ],
   "category": "Eel",
   "taxonomy": {
     "family": "Muraenidae",
     "order": "Anguilliformes"
   },
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Eastern Central Pacific"],
+    "regions": [
+      "Indo-Pacific",
+      "Eastern Central Pacific"
+    ],
     "countries": [
-      "Red Sea", "East Africa", "Tanzania", "Mozambique",
-      "Maldives", "India", "Sri Lanka", "Indonesia", "Philippines",
-      "Japan", "Hawaii", "Australia", "New Caledonia",
-      "Society Islands", "Mexico", "Guatemala", "Colombia", "Galápagos Islands"
+      "Red Sea",
+      "East Africa",
+      "Tanzania",
+      "Mozambique",
+      "Maldives",
+      "India",
+      "Sri Lanka",
+      "Indonesia",
+      "Philippines",
+      "Japan",
+      "Hawaii",
+      "Australia",
+      "New Caledonia",
+      "Society Islands",
+      "Mexico",
+      "Guatemala",
+      "Colombia",
+      "Galápagos Islands"
     ],
     "habitat": "Reef-associated; inhabits sandy and rocky bottoms, crevices and ledges of seaward reefs at depths typically 3–50 m, most often shallower than 4 m.",
     "biotope": "Reef"
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 28 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 22,
+      "max": 28
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.021, "max": 1.026 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.021,
+      "max": 1.026
+    }
   },
-  "adultSizeCm": { "min": 30, "max": 150 },
-  "lifespanYears": { "min": 10, "max": 20 },
+  "adultSizeCm": {
+    "min": 30,
+    "max": 150
+  },
+  "lifespanYears": {
+    "min": 10,
+    "max": 20
+  },
   "tank": {
     "minVolumeLiters": 473,
     "minLengthCm": 150,
@@ -108,7 +145,15 @@
     "reefSafe": "with caution",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": null
+    "protogynous": null,
+    "haremic": null,
+    "caudalScalpel": null,
+    "nocturnal": false,
+    "juvenileColorPhase": null,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": null,
+    "requiresHitchingPost": null,
+    "monogamousPairing": null
   },
   "crustacean": null,
   "coral": null,

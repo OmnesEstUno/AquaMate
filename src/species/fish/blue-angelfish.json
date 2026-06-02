@@ -6,66 +6,99 @@
   "waterType": "saltwater",
   "commonName": "Blue Angelfish",
   "scientificName": "Holacanthus bermudensis",
-  "alsoKnownAs": ["Bermuda Angelfish"],
+  "alsoKnownAs": [
+    "Bermuda Angelfish"
+  ],
   "category": "Angelfish",
-
   "taxonomy": {
     "family": "Pomacanthidae",
     "order": "Acanthuriformes"
   },
-
   "nativeRange": {
-    "regions": ["Western Atlantic", "Caribbean", "Gulf of Mexico"],
-    "countries": ["United States", "Bermuda", "Bahamas", "Mexico"],
+    "regions": [
+      "Western Atlantic",
+      "Caribbean",
+      "Gulf of Mexico"
+    ],
+    "countries": [
+      "United States",
+      "Bermuda",
+      "Bahamas",
+      "Mexico"
+    ],
     "habitat": "Rocky and coral reefs at depths generally ranging from 2 to 92 m, most commonly observed between 5 and 25 m; juveniles tend to favour inshore reef channels.",
     "biotope": "Reef"
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 22.5, "max": 26.5 },
-    "pH":           { "min": 8.1,  "max": 8.4 },
-    "gH":           null,
-    "kH":           { "min": 8.0,  "max": 12.0 },
-    "salinity":     { "min": 1.023, "max": 1.025 }
+    "temperatureC": {
+      "min": 22.5,
+      "max": 26.5
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.023,
+      "max": 1.025
+    }
   },
-
-  "adultSizeCm":   { "min": 30.0, "max": 45.0 },
-  "lifespanYears": { "min": 15.0, "max": 25.0 },
-
+  "adultSizeCm": {
+    "min": 30,
+    "max": 45
+  },
+  "lifespanYears": {
+    "min": 15,
+    "max": 25
+  },
   "tank": {
-    "minVolumeLiters":  930,
-    "minLengthCm":      240,
-    "swimZone":         "all",
-    "decorPreferences": ["live rock", "caves", "overhangs", "open swimming space"]
+    "minVolumeLiters": 930,
+    "minLengthCm": 240,
+    "swimZone": "all",
+    "decorPreferences": [
+      "live rock",
+      "caves",
+      "overhangs",
+      "open swimming space"
+    ]
   },
-
   "careLevel": "advanced",
-
   "diet": {
     "type": "omnivore",
     "notes": "In the wild, has been documented feeding primarily on sponges, supplemented by algae and small invertebrates. In aquariums, generally advised to offer a varied diet including sponge-based frozen or freeze-dried angelfish preparations, spirulina, marine algae, mysis shrimp, and other meaty items; multiple small feedings daily are recommended. Live rock for grazing tends to support long-term health."
   },
-
   "compatibility": {
-    "temperament":  "semi-aggressive",
-    "grouping":     "solitary",
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith":     ["large semi-aggressive fish", "passive tangs", "larger wrasses", "large peaceful fish of comparable size"],
-    "avoidWith":    ["other angelfish", "small peaceful fish", "sessile invertebrates", "stony corals", "soft corals", "clam mantles"]
+    "goodWith": [
+      "large semi-aggressive fish",
+      "passive tangs",
+      "larger wrasses",
+      "large peaceful fish of comparable size"
+    ],
+    "avoidWith": [
+      "other angelfish",
+      "small peaceful fish",
+      "sessile invertebrates",
+      "stony corals",
+      "soft corals",
+      "clam mantles"
+    ]
   },
-
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
+    "primaryImage": null,
+    "gallery": [],
     "imageCandidates": null
   },
-
   "summary": "A large Atlantic angelfish found from Bermuda and the Bahamas to the Gulf of Mexico, generally advised for experienced keepers with tanks of at least 900 L; tends toward aggression with other angels and is not considered reef-safe.",
-
   "careNotes": "The Blue Angelfish (Holacanthus bermudensis) is a large, robust marine angelfish native to the Western Atlantic. Adult sizes have been reported across sources ranging from roughly 38 to 46 cm; the most widely cited maximum is around 45 cm, with a common aquarium size closer to 30–38 cm. A minimum tank of approximately 900 L (around 250 gallons) is commonly recommended, with ample live rock for grazing and multiple hiding spots to reduce stress and territorial behaviour.\n\nTemperament tends toward semi-aggressive, particularly directed at other angelfish species; most sources advise keeping only one angelfish per system unless the tank is exceptionally large. The species has been known to nip at stony and soft corals and clam mantles, so it is generally considered incompatible with reef systems.\n\nDiet should be varied: in the wild the species has been observed feeding primarily on sponges, and sponge-enriched foods appear important for long-term health in captivity. The species has been reported to live 20 or more years in well-maintained aquariums.\n\nJuveniles display striking yellowish-brown bodies with pale blue vertical stripes; adults develop an aqua-blue coloration with a yellow sheen on the posterior. The species is hermaphroditic with no externally visible sexual dimorphism. Cross-source temperature disagreement was minor (22–27°C range across sources; averaged to 22.5–26.5°C). Tank-size sources were consistent at 900–946 L; averaged to ~930 L. Adult size: LiveAquaria cited 15 in (38 cm), while FishBase, TropicalFishKeeping, and ReefApp consistently cited ~45 cm; the 45 cm maximum is used here, with 30 cm as a common aquarium length (FishBase common length). Care level assessed as advanced based on large space requirements, dietary complexity, and long-term maintenance demands; some sources label it 'moderate' for overall hardiness but recommend expert experience for sustained success.",
-
   "breedingNotes": "Reported to be a protogynous hermaphrodite with no distinguishing external markers between sexes. No successful captive breeding has been documented in the aquarium hobby literature; breeding difficulty is accordingly rated as 'not in captivity.' Females have been reported to release 25,000–75,000 eggs per night during spawning in the wild.",
-
   "sources": {
     "primary": {
       "name": "LiveAquaria",
@@ -94,27 +127,32 @@
       }
     ]
   },
-
   "fish": {
-    "breedingDifficulty":    "not in captivity",
-    "breedingNotes":         "No successful captive breeding has been documented. The species is reported to be hermaphroditic with no external sexual dimorphism. Females have been reported to release 25,000–75,000 eggs nightly during spawning in the wild.",
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "No successful captive breeding has been documented. The species is reported to be hermaphroditic with no external sexual dimorphism. Females have been reported to release 25,000–75,000 eggs nightly during spawning in the wild.",
     "conspecificAggression": "high",
-    "finNippy":              false,
-    "reefSafe":              "no",
-    "escapeRisk":            "low",
-    "venomousSpines":        false,
-    "protogynous":           true
+    "finNippy": false,
+    "reefSafe": "no",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "protogynous": true,
+    "haremic": null,
+    "caudalScalpel": null,
+    "nocturnal": null,
+    "juvenileColorPhase": null,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": null,
+    "requiresHitchingPost": null,
+    "monogamousPairing": null
   },
-
-  "crustacean":   null,
-  "coral":        null,
-  "mollusc":      null,
-  "echinoderm":   null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
   "other-invert": null,
-  "plant":        null,
-  "macroalgae":   null,
-
+  "plant": null,
+  "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus":    "researched",
-  "lastReviewed":  "2026-06-02"
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-02"
 }
