@@ -147,59 +147,39 @@ If you encounter a fact you can't fit:
 
 The summarizer (`npm run review-field-gaps`) promotes suggestions to real schema fields once 5+ independent agents propose the same field.
 
-### 4b. Find candidate species images
+### 4b. Media block — leave blank for human curation
 
-Populate `media.imageCandidates` with **2–3 candidate image URLs** the human reviewer can choose from. You cannot visually inspect images, so confidence comes from source reputation + URL/metadata signals. License correctness matters — do not record copyrighted retailer images as "recommended" unless no alternative exists.
+Do NOT research or populate `media`. The user will manually curate species images later (sourcing, licensing, and R2 uploading are handled separately). Write the `media` block as:
 
-**Source priority (try each in order; aim for 2–3 candidates total, not one from each):**
+```jsonc
+"media": {
+  "primaryImage":    null,
+  "gallery":         [],
+  "imageCandidates": null
+}
+```
 
-1. **PRIMARY: FishBase (animals)** or **AlgaeBase (plants/algae)** — taxonomic databases with curated, properly-licensed species photos. For `$TARGET_TAXON` of fish/crustacean/coral/mollusc/echinoderm/other-invert, use FishBase; for plant/macroalgae, use AlgaeBase.
-   - FishBase species pages typically have a photo section (often Photos→Summary). The image URL is usually under `https://www.fishbase.se/photos/...` or `https://www.fishbase.us/...`.
-   - AlgaeBase: `https://www.algaebase.org/...` — species pages have image attachments.
-   - License is usually stated near the image (photographer attribution + CC license).
-2. **SECONDARY: Wikimedia Commons** — `https://upload.wikimedia.org/wikipedia/commons/...`. The Wikipedia article infobox image is the canonical species photo; click through to find the Commons URL and license info. Commons content is almost always CC-licensed or public domain.
-3. **TERTIARY: the research site (your primary research source for this slice)** — e.g., LiveAquaria product photo, Aquarium Co-Op care-guide image. These are typically the retailer's own product photography; license is usually "all rights reserved" but the photos are often the cleanest, watermark-free, and most representative for trade-relevant morphs.
+Don't spend tool calls searching for image URLs. The schema accepts these defaults for researched entries.
 
-**Candidate selection heuristics (signal-based; you can't see the image):**
+### 4c. Same-species consolidation (critical)
 
-- **URL pattern suggests it's the species' "main" photo:** product hero image, Wikipedia infobox image, FishBase summary photo — not a thumbnail, not a habitat shot, not a forum post.
-- **Filename/alt text mentions the species** — high probability of correct subject.
-- **Source explicitly states the license** — CC BY, CC BY-SA, Public Domain → safe to recommend; "All rights reserved" → record but caution in notes.
-- **Hi-res hint in URL** (e.g. `/1024px-`, `large`, `full`, `original`) → likely better than thumbnails.
-- **Avoid:** images URLs ending in `_thumb`, `_sm`, `_small`; URLs that 404 in your verification fetch; user-submitted forum photos with no licensing.
+Before writing a new species file, check if any existing file in `src/species/**/*.json` already covers the **same biological species** (same `scientificName`). The Stage A manifests sometimes surface multiple entries for one species — different color phases (e.g., Black/Blue/Yellow Ribbon Eel are all *Rhinomuraena quaesita*), different commercial morphs (e.g., Gold Stripe/Lightning Maroon are both *Premnas biaculeatus*), different trade names (e.g., Estuary Seahorse and Kuda Seahorse are both *Hippocampus kuda*), or different size grades.
 
-**Procedure:**
+**Rule: one entry per species.** Color/morph/trade-name variants are recorded inside that single entry, not as separate species files.
 
-1. Visit the FishBase or AlgaeBase page for `$TARGET_SCIENTIFIC_NAME`. If a species photo is present, record:
-   ```jsonc
-   { "url": "<absolute URL>", "source": "FishBase" or "AlgaeBase", "sourceType": "fishbase" or "algaebase",
-     "license": "<as stated, or null if unstated>", "notes": "<photographer if known, any quality observations>",
-     "recommended": false }
-   ```
-2. Visit the species' Wikipedia article. If the infobox has an image, find the Wikimedia Commons URL (click the image to navigate to its Commons page; the full-resolution URL is usually `https://upload.wikimedia.org/wikipedia/commons/...`). Record:
-   ```jsonc
-   { "url": "...", "source": "Wikimedia Commons", "sourceType": "wikimedia",
-     "license": "<as stated on Commons, typically 'CC BY-SA 4.0' or 'Public Domain'>",
-     "notes": "...", "recommended": false }
-   ```
-3. If you still need a candidate (or the first two were ambiguous), use the primary research source you already fetched for cross-verification. Record the main species photo URL from the product/care page:
-   ```jsonc
-   { "url": "...", "source": "<e.g. LiveAquaria>", "sourceType": "research-site",
-     "license": "All rights reserved (retailer)", "notes": "Product photo from retailer; clean composition typical.",
-     "recommended": false }
-   ```
-4. **Mark one entry `recommended: true`** based on this priority:
-   - **Highest:** A FishBase/AlgaeBase image with explicit CC license.
-   - **High:** A Wikimedia Commons image (almost always CC-licensed).
-   - **Medium:** Any of the above without explicit license info but from a reliable source.
-   - **Lowest:** Retailer product photo (recommend only if no other candidate exists; flag in notes).
-5. If no candidates are found across all three tiers, set `media.imageCandidates: []` (empty array, not null — null is reserved for placeholders). Document in `careNotes` that no images were located.
+**Procedure before writing:**
 
-**Constraints:**
-- Maximum 5 entries (schema enforces).
-- `url` must be a fully-qualified absolute URL.
-- Do NOT attempt to download or save images — agents can't handle binary content. URLs only.
-- Do NOT recommend an image you can't be confident is the correct species — if the page's content didn't unambiguously identify the species, set `recommended: false` and explain in notes.
+1. After step 1 (species identification), use Glob/Read to check if any existing file in `src/species/<taxon>/` has the same `scientificName` as your target.
+2. If a match exists:
+   - **If the existing entry has `dataStatus: "placeholder"`:** proceed and overwrite the existing file (not your assigned `$TARGET_OUTPUT_PATH`). Use the existing file's `id`/`slug`/path; preserve any `media.primaryImage` value already there. Bump `dataStatus` to `"researched"`. Note this redirect in your step-7 return summary.
+   - **If the existing entry already has `dataStatus: "researched"` or `"needs_review"`:** return `BLOCKED` with status `DUPLICATE_OF_EXISTING` and reference the existing file path. Do NOT write a duplicate file. The controller will handle merging in review.
+3. If no existing file matches: proceed normally and write at `$TARGET_OUTPUT_PATH`.
+
+**When you DO write the consolidated entry, capture the variant info:**
+
+- Add each trade-name/color-variant to `alsoKnownAs` (e.g., `["Black Ribbon Eel", "Blue Ribbon Eel", "Yellow Ribbon Eel"]`).
+- Document the color phases / morph distinctions in `careNotes` so the user knows what variants exist.
+- Use the **most authoritative / least-marketing-driven** common name for `commonName` (typically the one Wikipedia or FishBase uses for the species — e.g., "Ribbon Eel", not "Black Ribbon Eel").
 
 ### 5. Write the species JSON file
 

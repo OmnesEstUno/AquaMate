@@ -6,32 +6,64 @@
   "waterType": "saltwater",
   "commonName": "Horn Shark",
   "scientificName": "Heterodontus francisci",
-  "alsoKnownAs": ["California Horn Shark", "Bullhead Shark"],
+  "alsoKnownAs": [
+    "California Horn Shark",
+    "Bullhead Shark"
+  ],
   "category": "Shark",
   "taxonomy": {
     "family": "Heterodontidae",
     "order": "Heterodontiformes"
   },
   "nativeRange": {
-    "regions": ["Eastern Pacific"],
-    "countries": ["United States", "Mexico", "Ecuador"],
+    "regions": [
+      "Eastern Pacific"
+    ],
+    "countries": [
+      "United States",
+      "Mexico",
+      "Ecuador"
+    ],
     "habitat": "Rocky reefs, kelp beds, sandy flats, deep crevices and small caves; benthic species typically found at depths of 2–11 m, with juveniles occupying deeper sandy flats to 150 m",
     "biotope": "Reef"
   },
   "waterParameters": {
-    "temperatureC": { "min": 18.0, "max": 24.0 },
-    "pH": { "min": 8.0, "max": 8.4 },
+    "temperatureC": {
+      "min": 15.9,
+      "max": 23.9
+    },
+    "pH": {
+      "min": 8,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8.0, "max": 12.0 },
-    "salinity": { "min": 1.021, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.021,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 59.0, "max": 122.0 },
-  "lifespanYears": { "min": 12.0, "max": 25.0 },
+  "adultSizeCm": {
+    "min": 59,
+    "max": 122
+  },
+  "lifespanYears": {
+    "min": 12,
+    "max": 25
+  },
   "tank": {
-    "minVolumeLiters": 1760.0,
-    "minLengthCm": 244.0,
+    "minVolumeLiters": 1760,
+    "minLengthCm": 244,
     "swimZone": "bottom",
-    "decorPreferences": ["rocky caves", "crevices", "sand substrate", "stable rockwork"]
+    "decorPreferences": [
+      "rocky caves",
+      "crevices",
+      "sand substrate",
+      "stable rockwork"
+    ]
   },
   "careLevel": "expert",
   "diet": {
@@ -42,8 +74,19 @@
     "temperament": "semi-aggressive",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["large hardy fish", "large angelfish", "large wrasses"],
-    "avoidWith": ["crustaceans", "mollusks", "echinoderms", "small sleeping fish", "other sharks", "fish smaller than shark's mouth"]
+    "goodWith": [
+      "large hardy fish",
+      "large angelfish",
+      "large wrasses"
+    ],
+    "avoidWith": [
+      "crustaceans",
+      "mollusks",
+      "echinoderms",
+      "small sleeping fish",
+      "other sharks",
+      "fish smaller than shark's mouth"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -76,7 +119,7 @@
     ]
   },
   "summary": "A robust, cool-water Pacific shark generally considered suitable only for expert aquarists with very large systems (500+ gal). Horn Sharks tend to be nocturnal bottom-dwellers that have been reported to adapt well to captivity when provided with deep sand beds and ample rocky shelters.",
-  "careNotes": "Horn Sharks are generally advised to be kept only by highly experienced aquarists with access to very large aquariums. Minimum tank volume recommendations vary considerably across sources: LiveAquaria suggests 500+ gallons (~1893 L), AquariumDomain suggests 600 gallons (~2271 L), and TankFacts suggests 300 gallons (~1136 L); the averaged figure used here is approximately 1760 L (~465 gal), but the reviewer should be aware of this spread and may wish to apply the 500-gallon (1893 L) minimum as a practical standard.\n\nTemperature: three reputable sources (LiveAquaria, AquariumDomain, FishBase) cluster at 18–24°C; TankFacts reported 76–80°F (24–27°C), which is notably warmer and inconsistent with this species' known preference for cooler coastal Pacific waters — that outlier was excluded from the average. The reviewer may wish to verify.\n\nThis species is nocturnal; it has been known to spend daylight hours resting in rocky crevices and tend to become active at night. Aquarists are generally advised to dim tank lighting during feeding sessions to encourage natural behavior. They have been known to prey on crustaceans, mollusks, and echinoderms and should not be housed with these invertebrates. Copper-based medications should never be used in tanks housing this species, as elasmobranch fishes are highly sensitive to copper. A deep fine sand substrate is generally advised to prevent abrasion to the shark's abdomen; crushed coral or aragonite substrates have been reported to cause scratches and irritation.\n\nAdult size ranges from approximately 59 cm at sexual maturity to a documented maximum of 122 cm TL; most captive specimens tend to stay under 100 cm. Lifespan has been reported at over 12 years in captivity, with an unconfirmed report of 25 years. The wide max-lifespan range reflects limited captive data.\n\nField-gap note: Horn Sharks possess paired dorsal fin spines used defensively (not overtly venomous but capable of inflicting injury); a typed fish.defensiveSpines boolean would be appropriate for this species and similar elasmobranchs.",
+  "careNotes": "The Horn Shark (Heterodontus francisci) is a small bottom-dwelling shark native to the cool waters of the eastern Pacific. Aquarium husbandry requires cold-water conditions — generally advised to keep at 16–24°C (60–75°F). Higher temperatures have been associated with stress and poor health.\n\nThis species has been reported to reach about 1 m total length in the wild; aquarium specimens typically max out smaller. A very large tank with sandy substrate and rockwork crevices is generally advised. Paired dorsal-fin spines can injure unwary handlers.\n\nDiet is invertebrate-focused — sea urchins, crustaceans, and molluscs are commonly cited; in captivity offer a variety of meaty foods. Nocturnal habits are common; the fish tends to rest under ledges during the day.\n\nWild lifespan has been reported at 12 years (FishBase); one unverified record cites up to 25 years.",
   "breedingNotes": "Horn Sharks are oviparous and have been bred in public aquarium settings, though captive breeding in home aquaria is considered very difficult. Mating has been observed to occur around December–January, with egg deposition in February–April. Females have been reported to lay eggs in pairs every 11–14 days, producing up to approximately 24 eggs per season. Eggs have been documented requiring 6–10 months to hatch. Males reach sexual maturity at approximately 56–61 cm; females at approximately 58 cm. Captive breeding is generally considered advanced to expert level and has primarily been achieved in institutional public aquarium settings.",
   "sources": {
     "primary": {
@@ -127,6 +170,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "needs_review",
+  "dataStatus": "researched",
   "lastReviewed": "2026-05-25"
 }

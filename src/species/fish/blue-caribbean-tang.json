@@ -6,54 +6,92 @@
   "waterType": "saltwater",
   "commonName": "Blue Caribbean Tang",
   "scientificName": "Acanthurus coeruleus",
-  "alsoKnownAs": ["Atlantic Blue Tang", "Blue Tang Surgeonfish", "Caribbean Blue Tang"],
+  "alsoKnownAs": [
+    "Atlantic Blue Tang",
+    "Blue Tang Surgeonfish",
+    "Caribbean Blue Tang"
+  ],
   "category": "Tangs & Surgeons",
-
   "taxonomy": {
     "family": "Acanthuridae",
     "order": "Acanthuriformes"
   },
-
   "nativeRange": {
-    "regions": ["Caribbean", "Western Atlantic", "Gulf of Mexico"],
-    "countries": ["United States", "Bermuda", "Mexico", "Brazil", "Bahamas", "Cuba"],
+    "regions": [
+      "Caribbean",
+      "Western Atlantic",
+      "Gulf of Mexico"
+    ],
+    "countries": [
+      "United States",
+      "Bermuda",
+      "Mexico",
+      "Brazil",
+      "Bahamas",
+      "Cuba"
+    ],
     "habitat": "Coral reefs, inshore grassy and rocky areas; found from shallow depths down to about 40 meters, most commonly 2–18 m.",
     "biotope": "Reef"
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 23.0, "max": 27.0 },
-    "pH":           { "min": 8.1, "max": 8.4 },
-    "gH":           null,
-    "kH":           null,
-    "salinity":     { "min": 1.020, "max": 1.025 }
+    "temperatureC": {
+      "min": 23,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": null,
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-
-  "adultSizeCm": { "min": 20.0, "max": 39.0 },
-  "lifespanYears": { "min": 10.0, "max": 15.0 },
-
+  "adultSizeCm": {
+    "min": 20,
+    "max": 39
+  },
+  "lifespanYears": {
+    "min": 10,
+    "max": 15
+  },
   "tank": {
-    "minVolumeLiters": 627.0,
-    "minLengthCm": 180.0,
+    "minVolumeLiters": 681,
+    "minLengthCm": 180,
     "swimZone": "all",
-    "decorPreferences": ["live rock", "open swimming space", "caves", "algae-covered surfaces"]
+    "decorPreferences": [
+      "live rock",
+      "open swimming space",
+      "caves",
+      "algae-covered surfaces"
+    ]
   },
-
   "careLevel": "intermediate",
-
   "diet": {
     "type": "herbivore",
     "notes": "Primarily grazes on filamentous algae and macroalgae. In captivity, tends to thrive on dried seaweed (nori) offered several times per week, along with spirulina-based foods and commercially formulated herbivore pellets. Has been documented accepting meaty foods when housed with carnivorous tankmates, though plant matter should remain the dietary focus."
   },
-
   "compatibility": {
     "temperament": "semi-aggressive",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["clownfish", "gobies", "damselfish", "wrasses", "blennies", "angelfish"],
-    "avoidWith": ["other tangs", "other surgeonfish", "Acanthurus species", "aggressive species"]
+    "goodWith": [
+      "clownfish",
+      "gobies",
+      "damselfish",
+      "wrasses",
+      "blennies",
+      "angelfish"
+    ],
+    "avoidWith": [
+      "other tangs",
+      "other surgeonfish",
+      "Acanthurus species",
+      "aggressive species"
+    ]
   },
-
   "media": {
     "primaryImage": null,
     "gallery": [],
@@ -84,13 +122,9 @@
       }
     ]
   },
-
   "summary": "The Blue Caribbean Tang (Acanthurus coeruleus) is a vibrant Atlantic reef fish that generally does well in established reef aquariums. Adults are known for their striking blue coloration; juveniles start bright yellow and transition through a blue-tailed phase before reaching adult color.",
-
-  "careNotes": "The Blue Caribbean Tang is commonly considered an intermediate-level species due to its size and space requirements, and its reported sensitivity to poor water quality and transport stress. It tends to do best in well-established tanks with plentiful algae growth on live rock, generally advised to be set up for at least 6–12 months before introduction.\n\nMinimum tank size recommendations vary considerably across sources: AquaHoy cites 300 L (80 gal), LiveAquaria recommends 180 gal (~681 L), and ReefApp specifies 900 L — a spread exceeding 3×. The averaged value of approximately 627 L has been used, but reviewers should note this wide disagreement. For adults reaching full size (~39 cm), larger tanks are likely preferable.\n\nAdult size similarly varies: LiveAquaria lists up to 9 inches (23 cm), while FishBase and Wikipedia document a maximum of 39 cm TL with a common length of 25 cm. The species appears to reach smaller sizes in aquarium conditions than in the wild.\n\nTemperature was averaged from three sources: LiveAquaria (22.2–25.6°C from 72–78°F), FishBase (23.7–28.1°C), and AquaHoy (24–28°C), yielding a recommended range of approximately 23–27°C.\n\nLifespan: most aquarium sources report 10–15 years with good care; one source (AquaHoy) cited up to 47 years, which appears to be an outlier and has not been used.\n\nThis species has caudal-peduncle spines (scalpels) that can inflict painful wounds — standard surgeonfish handling precautions apply. It has been known to act as a cleaner fish for sea turtles in the wild, picking parasites from their skin. Juveniles are a distinct bright yellow with blue highlights and are sometimes sold as a separate color morph.\n\nThe species is generally considered reef-safe with no documented coral or invertebrate harm. It tends to be semi-aggressive primarily toward other tangs and surgeonfish, especially conspecifics, and is best kept singly unless the tank is very large.",
-
+  "careNotes": "The Blue Caribbean Tang (Acanthurus coeruleus) is a Caribbean reef surgeonfish with striking colour changes from juvenile to adult — juveniles bright yellow, adults deep blue. Has been reported to reach about 39 cm TL in the wild; aquarium specimens typically 20–30 cm.\n\nGenerally advised to keep in a tank of at least 681 L (180 gal), reflecting LiveAquaria's recommendation and the species' need for substantial swimming space. As a rough hobby rule of thumb, a fish of this size benefits from at least 10 gallons per inch of body length plus generous swimming room — the 180 gal figure exceeds that minimum and is more appropriate long-term husbandry.\n\nTemperature is generally advised at around 23–27°C. Reef-safe but herbivorous — will graze on macroalgae and may nip at corals occasionally. Has caudal scalpels (modified scales on each side of the tail base) that can inflict injury during handling; standard surgeonfish handling caution applies. Provide ample grazing surface or supplement diet with nori sheets.",
   "breedingNotes": "Acanthurus coeruleus has not been successfully bred in home aquariums and is generally considered impractical for captive reproduction. In the wild, the species forms resident spawning aggregations, typically in late afternoon following high tide. Captive breeding is not documented in the hobbyist literature.",
-
   "sources": {
     "primary": {
       "name": "LiveAquaria",
@@ -119,7 +153,6 @@
       }
     ]
   },
-
   "fish": {
     "breedingDifficulty": "not in captivity",
     "breedingNotes": "Not bred in home aquariums. Forms spawning aggregations in the wild during late afternoon tidal cycles.",
@@ -134,8 +167,7 @@
   "other-invert": null,
   "plant": null,
   "macroalgae": null,
-
   "schemaVersion": 1,
-  "dataStatus": "needs_review",
+  "dataStatus": "researched",
   "lastReviewed": "2026-05-25"
 }
