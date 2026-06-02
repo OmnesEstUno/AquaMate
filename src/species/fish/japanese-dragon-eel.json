@@ -1,0 +1,123 @@
+{
+  "id": "sw-fish-046",
+  "slug": "japanese-dragon-eel",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Japanese Dragon Eel",
+  "scientificName": "Enchelycore pardalis",
+  "alsoKnownAs": ["Dragon Moray Eel", "Hawaiian Dragon Moray", "Dragonface Moray Eel", "Leopard Moray Eel"],
+  "category": "Moray Eels",
+
+  "taxonomy": {
+    "family": "Muraenidae",
+    "order": "Anguilliformes"
+  },
+
+  "nativeRange": {
+    "regions": ["Indo-Pacific"],
+    "countries": ["Japan", "South Korea", "Hawaii", "Reunion", "New Caledonia"],
+    "habitat": "Coral and rocky reefs at depths of approximately 5–60 m",
+    "biotope": "Reef"
+  },
+
+  "waterParameters": {
+    "temperatureC": { "min": 22, "max": 27 },
+    "pH":           { "min": 8.1, "max": 8.4 },
+    "gH":           null,
+    "kH":           null,
+    "salinity":     { "min": 1.020, "max": 1.025 }
+  },
+
+  "adultSizeCm":   { "min": 60, "max": 92 },
+  "lifespanYears": { "min": 8, "max": 20 },
+
+  "tank": {
+    "minVolumeLiters":  681,
+    "minLengthCm":      180,
+    "swimZone":         "bottom",
+    "decorPreferences": ["live rock", "caves", "crevices", "PVC pipe hides", "secured rockwork"]
+  },
+
+  "careLevel": "advanced",
+
+  "diet": {
+    "type": "carnivore",
+    "notes": "Feeds primarily on fish and large crustaceans in the wild. In captivity, has been reported to accept fresh or frozen fish flesh, squid, octopus, and shrimp; live feeder fish may be needed initially to trigger a feeding response. Feeding with tongs is strongly advised due to poor vision and risk of accidental bites. Generally fed every 2–4 days to satiation."
+  },
+
+  "compatibility": {
+    "temperament":  "aggressive",
+    "grouping":     "solitary",
+    "minGroupSize": 1,
+    "goodWith":     ["large triggerfish", "large groupers", "large snappers", "large lionfish", "large pufferfish"],
+    "avoidWith":    ["small fish", "shrimp", "crabs", "small invertebrates", "any fish small enough to be swallowed"]
+  },
+
+  "media": {
+    "primaryImage":    null,
+    "gallery":         [],
+    "imageCandidates": null
+  },
+
+  "summary": "A large, strikingly patterned moray eel from Indo-Pacific reefs, generally considered suitable for experienced saltwater keepers who can provide a spacious, well-secured aquarium with ample rockwork for hiding.",
+
+  "careNotes": "The Japanese Dragon Eel (Enchelycore pardalis) is one of the most visually striking moray eels in the hobby, recognised by its mottled orange, black, and white body with elaborate nostril flares and supra-orbital horns. It has been reported to reach up to 92 cm (around 36 inches) in well-maintained aquariums, though most captive specimens tend to stay in the 60–75 cm range.\n\nCare level disagreement across sources: LiveAquaria rated this species 'easy', BlueZoo Aquatics 'intermediate', Fish Laboratory 'difficult', AquaticCommunity 'expert/advanced', and AquariumDomain 'moderate'. The averaged assessment places this species at 'advanced' — it has a robust constitution once established, but initial acclimation, feeding conversion, and escape-proofing requirements mean it is best suited to experienced saltwater aquarists.\n\nA tight-fitting, weighted lid is essential; this species has been known to escape through any small gap. All rockwork should be secured with aquarium-safe adhesive or cable ties, as this eel tends to rearrange the aquascape when moving through caves.\n\nThe eel is nocturnal by nature and may hide for extended periods while acclimating — periods of refusing food for several weeks after introduction have been reported. Once settled, it generally becomes more active and will often rest with its head visible at the cave entrance. Feeding tongs are strongly recommended to avoid bites; its eyesight is poor and it relies largely on scent, which can lead to accidental strikes at hands.\n\nWhile it is not known to eat corals, its large size and powerful movement can damage coral placements. It will consume any invertebrate crustacean in the tank, making it incompatible with cleaner shrimp, hermit crabs, and most cleanup crew species. It is generally considered 'reef safe with caution' in the sense that coral itself is not typically targeted.\n\nCaptive lifespan has been reported at around 10 years in well-kept aquariums; wild specimens have been reported to live up to 20 years. The species is classified as Least Concern by the IUCN.\n\nTemperature spread across sources: FishBase wild data (21.6–28.7°C), hobby sources (22–26°C for most, 18–26°C for one outlier). The averaged range used here is 22–27°C. Salinity consensus: 1.020–1.025 SG across three sources.",
+
+  "breedingNotes": null,
+
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/japanese-dragon-eel",
+      "accessedDate": "2026-05-25",
+      "notes": "Product page sourced via navigation from the eels collection. Provided adult size (12+ inches), tank size (160–180 gal), care level (Easy), diet (carnivore), temperament (aggressive), reef safe (with caution), and escape notes."
+    },
+    "additional": [
+      {
+        "name": "BlueZoo Aquatics",
+        "url": "https://www.bluezooaquatics.com/productDetail.asp?did=1&pid=622&cid=17",
+        "accessedDate": "2026-05-25",
+        "notes": "Confirmed scientific name, adult size (36 in / 91.4 cm), care level (intermediate), temperament (aggressive), reef safe (with caution), minimum tank (100 gal). Also known as Hawaiian Dragon Moray and Dragonface Moray Eel."
+      },
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Enchelycore-pardalis.html",
+        "accessedDate": "2026-05-25",
+        "notes": "Confirmed taxonomy (Muraenidae, Anguilliformes), max size (92 cm TL), wild temperature range (21.6–28.7°C), native distribution (Indo-Pacific: Reunion to Hawaiian/Line/Society islands, north to Japan/Korea, south to New Caledonia), habitat (coral and rocky reefs, depth 5–60 m), diet (piscivorous, trophic level 4.5). IUCN Least Concern."
+      },
+      {
+        "name": "Fish Laboratory",
+        "url": "https://www.fishlaboratory.com/fish/dragon-moray-eel/",
+        "accessedDate": "2026-05-25",
+        "notes": "Confirmed size (91 cm / 3 ft), temperature (72–78°F / 22–26°C), pH (8.0–8.4), salinity (1.021–1.025), tank size (180 gal / 681 L), lifespan (~10 yr captivity / up to 20 yr wild), care level (difficult). Used for averaging temperature and salinity."
+      },
+      {
+        "name": "AquaticCommunity",
+        "url": "https://www.aquaticcommunity.com/sw/dragonmoray.php",
+        "accessedDate": "2026-05-25",
+        "notes": "Confirmed size (92 cm), temperature (72–78°F / 22–26°C), pH (8.1–8.4), salinity (1.020–1.025), tank size (180 gal / 700 L), care level (expert/advanced). Native range stated as entire tropical Indo-Pacific. Used for averaging and cross-verification."
+      }
+    ]
+  },
+
+  "fish": {
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": null,
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "with caution"
+  },
+
+  "crustacean":   null,
+  "coral":        null,
+  "mollusc":      null,
+  "echinoderm":   null,
+  "other-invert": null,
+  "plant":        null,
+  "macroalgae":   null,
+
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-05-25"
+}

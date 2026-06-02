@@ -1,0 +1,101 @@
+{
+  "id": "sw-fish-035",
+  "slug": "gray-black-angelfish",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Gray (Black) Angelfish",
+  "scientificName": "Pomacanthus arcuatus",
+  "alsoKnownAs": ["Gray Angelfish", "Black Angelfish", "Pot Cover", "Cachama Blanca"],
+  "category": "Large Angelfish",
+  "taxonomy": {
+    "family": "Pomacanthidae",
+    "order": "Perciformes"
+  },
+  "nativeRange": {
+    "regions": ["Western Atlantic", "Caribbean", "Gulf of Mexico"],
+    "countries": ["United States", "Brazil", "Mexico", "Cuba", "Bahamas", "Trinidad and Tobago"],
+    "habitat": "Coral reefs and rocky areas at depths of roughly 2–30 m; juveniles tend to inhabit shallow patch reefs and seagrass areas",
+    "biotope": "Reef"
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 22.8, "max": 26.3 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.020, "max": 1.025 }
+  },
+  "adultSizeCm": { "min": 40, "max": 61 },
+  "lifespanYears": null,
+  "tank": {
+    "minVolumeLiters": 740,
+    "minLengthCm": 180,
+    "swimZone": "all",
+    "decorPreferences": ["live rock", "caves", "open swimming areas"]
+  },
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Has been documented feeding primarily on sponges, and also takes marine algae, tunicates, zoantharians, gorgonians, hydroids, and bryozoans. In aquariums it has been known to accept spirulina, Nori, mysis shrimp, and prepared angelfish formulas with sponge content. Feeding 2–3 small portions daily is generally advised."
+  },
+  "compatibility": {
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["peaceful large fish", "tangs", "wrasses", "hawkfish"],
+    "avoidWith": ["other large angelfish", "small invertebrates", "corals", "clam mantles", "lionfish", "scorpionfish", "seahorses"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A large Atlantic angelfish that transitions from striking black-and-yellow juvenile coloration to muted gray as an adult; generally considered suitable for experienced aquarists with very large tanks.",
+  "careNotes": "Gray (Black) Angelfish undergo a dramatic color transformation: juveniles display black bodies with five bright yellow bands and have been documented serving as cleaners at cleaning stations, removing ectoparasites from other fish. Adults become uniformly gray with darker scale centers and filamentous dorsal and anal fin extensions.\n\nThis species tends to be semi-aggressive and has been known to become territorial toward other large angelfish; it is generally advised to keep only one per tank. It is not considered reef-safe, as individuals have been reported to nip at stony corals, soft corals, zoanthids, and clam mantles.\n\nAdult size is a point of significant disagreement across sources: aquarium trade sources typically cite 16–20 inches (40–51 cm), while wild biological records report up to 24 inches (61 cm) and 1.8 kg. The minimum tank recommendation similarly varies widely — from 125 gallons (473 L) to 250 gallons (946 L) — with the averaged estimate (~740 L / ~195 gallons) used here; larger is strongly advised for adults. Both figures are flagged for reviewer verification.\n\nFormed long-term monogamous pairs have been documented in the wild. The species is reported as hardy once established but sensitive to poor water quality and abrupt parameter changes. Ample live rock for grazing and hiding is generally advised. Not to be confused with the French Angelfish (Pomacanthus paru), which has a similar juvenile pattern but lacks a yellow band through the mouth.",
+  "breedingNotes": "Spawning in the wild has been reported between April and September, occurring in early-morning hours over deep reef areas. Pairs have been observed releasing 25,000–75,000 eggs per spawning event, with larvae hatching approximately 15–20 hours after fertilization. Captive breeding has not been reliably documented in the aquarium hobby.",
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/gray-black-angelfish-1",
+      "accessedDate": "2026-05-25",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "Florida Museum of Natural History",
+        "url": "https://www.floridamuseum.ufl.edu/discover-fish/species-profiles/gray-angelfish/",
+        "accessedDate": "2026-05-25",
+        "notes": "Secondary source (designated as 'FishBase' in manifest but resolves to Florida Museum species profile). Cross-checked adult size, native range, habitat, diet, and reproduction. Wild max size reported as 24 in (61 cm), supporting upper bound."
+      },
+      {
+        "name": "AquariumDomain",
+        "url": "https://www.aquariumdomain.com/SpeciesProfiles/MarineFish/GreyAngelfish.shtml",
+        "accessedDate": "2026-05-25",
+        "notes": "Cross-checked water parameters, care level, and minimum tank size. Reported adult size 16 in (41 cm) and minimum tank 125 gal (473 L) — lowest estimates across sources."
+      },
+      {
+        "name": "ReefApp Encyclopedia",
+        "url": "https://reefapp.net/en/lex/details/pomacanthus-arcuatus",
+        "accessedDate": "2026-05-25",
+        "notes": "Cross-checked adult size (60 cm), minimum tank (800 L / 211 gal), and diet. Noted high aggression rating. Used for averaging adultSizeCm and minVolumeLiters. Wide spread across all four sources prompted needs_review flag."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "No reliable captive breeding accounts documented in the hobby. Wild spawning occurs in bonded pairs April–September; larvae are planktonic and rarely successfully raised in home aquariums.",
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "no"
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "needs_review",
+  "lastReviewed": "2026-05-25"
+}

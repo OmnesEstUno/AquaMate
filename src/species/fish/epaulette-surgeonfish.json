@@ -1,0 +1,116 @@
+{
+  "id": "sw-fish-023",
+  "slug": "epaulette-surgeonfish",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Epaulette Surgeonfish",
+  "scientificName": "Acanthurus nigricauda",
+  "alsoKnownAs": ["Eye-Stripe Surgeonfish", "Epaulette Tang", "Black-Shoulder Tang"],
+  "category": "Tang / Surgeonfish",
+
+  "taxonomy": {
+    "family": "Acanthuridae",
+    "order": "Acanthuriformes"
+  },
+
+  "nativeRange": {
+    "regions": ["Indo-Pacific", "East Africa", "Mascarene Islands", "Tuamoto Islands", "Ryukyu Islands", "Great Barrier Reef"],
+    "countries": [],
+    "habitat": "Clear lagoon and seaward reefs, often around isolated coral heads; tends to prefer sandy bottoms of bays and lagoons",
+    "biotope": "Reef"
+  },
+
+  "waterParameters": {
+    "temperatureC": { "min": 23.0, "max": 27.0 },
+    "pH":           { "min": 8.0,  "max": 8.4 },
+    "gH":           null,
+    "kH":           { "min": 8.0,  "max": 12.0 },
+    "salinity":     { "min": 1.023, "max": 1.026 }
+  },
+
+  "adultSizeCm": { "min": 30.0, "max": 45.3 },
+  "lifespanYears": null,
+
+  "tank": {
+    "minVolumeLiters": 673,
+    "minLengthCm": null,
+    "swimZone": "all",
+    "decorPreferences": ["live rock", "open swimming areas", "strong water flow", "sandy substrate areas"]
+  },
+
+  "careLevel": "advanced",
+
+  "diet": {
+    "type": "herbivore",
+    "notes": "Has been documented feeding primarily on algae; generally advised to provide a varied vegetable diet including fresh macroalgae, Spirulina, Nori (dried seaweed), and enriched vegetable-based flakes. Has been known to accept meaty foods offered to other fish, but plant-based feeding should form the core of its diet, with multiple small feedings per day typically recommended."
+  },
+
+  "compatibility": {
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["reef-safe fish", "peaceful large fish", "invertebrates", "corals"],
+    "avoidWith": ["other surgeonfish", "other tangs", "similarly shaped fish"]
+  },
+
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+
+  "summary": "A large Indo-Pacific surgeonfish known for its bluish-grey body, black epaulette-like bands behind the eyes, and white-ringed tail. Generally considered a reef-safe species but best suited to very spacious aquariums with strong water movement.",
+
+  "careNotes": "The Epaulette Surgeonfish is generally considered one of the more peaceful surgeonfish in the hobby, though it can display territorial behavior toward other surgeonfish and similarly shaped tankmates. A single specimen per tank is strongly advisable. This species tends to be active throughout all areas of the tank and appreciates ample open swimming space combined with live rock for refuge and grazing. Strong, turbulent water flow is commonly advised to mimic its natural reef and lagoon environment.\n\nAlgae-based feeding has been reported as essential for long-term health; supplementing with Nori, Spirulina-based foods, and fresh macroalgae is widely recommended. Multiple small feedings per day tend to work better than one or two large meals.\n\nThis species has been documented to rapidly change coloration during courtship, when displaying aggression, or when signaling receptiveness to cleaner fish. In the wild it is generally found solitary or in small groups, and while juveniles tend to school, adults in captivity are best kept as solitary specimens.\n\nTank size is a point of notable disagreement across sources: LiveAquaria recommends a minimum of 250 US gallons (approximately 946 L), while Reeflings suggests 400 L (approximately 110 gallons). The large discrepancy likely reflects the species' potential adult size of up to ~45 cm (FishBase) versus the ~30 cm figure sometimes cited for aquarium specimens. Given the species' active nature and large potential size, erring toward the higher end is generally advisable. dataStatus set to needs_review on this basis.\n\nTemperature range was averaged across four sources (LiveAquaria: 22–26°C, FishBase: 23–28°C, Reeflings: 24–28°C, TankFacts: 24–27°C). Adult size range was averaged across three sources (LiveAquaria: ~40.6 cm; FishBase: 45.3 cm; Reeflings: ~30 cm). pH range was averaged across three sources (LiveAquaria: 8.1–8.4; Reeflings: 8.0–8.5; TankFacts: 7.8–8.4). The fish variant's caudalScalpel safety note: like all Acanthurus surgeonfish, this species possesses a sharp caudal-peduncle spine (scalpel) that can inflict painful wounds; handle with care during maintenance or transfer.",
+
+  "breedingNotes": "Breeding in captivity has not been well documented. Wild individuals are reported to spawn in pairs. No established captive breeding protocol is known.",
+
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/product/2991/?pcatid=2991",
+      "accessedDate": "2026-05-25",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/acanthurus-nigricauda",
+        "accessedDate": "2026-05-25",
+        "notes": "Cross-checked adult size (45.3 cm), temperature range (23–28°C), native range, taxonomy, and habitat. Note: original manifest-supplied secondary source; confirmed species identity."
+      },
+      {
+        "name": "Reeflings",
+        "url": "https://reeflings.com/species/acanthurus-nigricauda",
+        "accessedDate": "2026-05-25",
+        "notes": "Cross-checked adult size (~30 cm), temperature (24–28°C), pH (8.0–8.5), salinity (SG 1.023–1.026), tank size (400 L). Notable disagreement on minimum tank size vs LiveAquaria (400 L vs 946 L); triggered needs_review."
+      },
+      {
+        "name": "TankFacts",
+        "url": "https://www.tankfacts.com/fish/saltwater/tang-and-surgeons/epaulette-surgeonfish_928",
+        "accessedDate": "2026-05-25",
+        "notes": "Cross-checked temperature (76–80°F = 24.4–26.7°C), pH (7.8–8.4), salinity (SG 1.023–1.026). Described temperament as most peaceful surgeonfish; averaged against semi-aggressive from LiveAquaria and Reeflings."
+      }
+    ]
+  },
+
+  "fish": {
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "Captive breeding has not been established. Wild spawning reported in pairs.",
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "yes"
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+
+  "schemaVersion": 1,
+  "dataStatus": "needs_review",
+  "lastReviewed": "2026-05-25"
+}

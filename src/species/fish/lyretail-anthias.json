@@ -5,61 +5,130 @@
   "taxon": "fish",
   "waterType": "saltwater",
   "commonName": "Lyretail Anthias",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "scientificName": "Pseudanthias squamipinnis",
+  "alsoKnownAs": [
+    "Indian Ocean Lyretail Anthias",
+    "Scalefin Anthias",
+    "Scalefin Basslet",
+    "Lyretail Fairy Basslet",
+    "Orange Sea Perch",
+    "Orange Basslet",
+    "Sea Goldie"
+  ],
   "category": "Anthias",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Anthiadidae",
+    "order": "Perciformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null
+    "regions": [
+      "Indo-Pacific",
+      "Indian Ocean",
+      "Red Sea",
+      "Western Pacific"
+    ],
+    "countries": [
+      "Sri Lanka",
+      "Japan",
+      "Australia",
+      "South Africa",
+      "Indonesia",
+      "Fiji"
+    ],
+    "habitat": "Coral reef environments, above coral outcrops or patch reefs of clear lagoons, channels, or outer reef slopes; depths of 0–55 m",
+    "biotope": "Reef"
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
+    "temperatureC": { "min": 22, "max": 27 },
+    "pH": { "min": 8.1, "max": 8.4 },
     "gH": null,
-    "kH": null,
-    "salinity": null
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.020, "max": 1.025 }
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 7, "max": 15 },
+  "lifespanYears": { "min": 5, "max": 6 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": []
+    "minVolumeLiters": 450,
+    "minLengthCm": 150,
+    "swimZone": "mid",
+    "decorPreferences": [
+      "live rock with crevices",
+      "open swimming space",
+      "moderate to strong flow",
+      "subdued lighting"
+    ]
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "planktivore",
+    "notes": "Primarily feeds on zooplankton in the wild. In captivity, has been documented accepting frozen mysis shrimp, enriched frozen brine shrimp, copepods, amphipods, rotifers, and high-quality prepared foods. Best fed small portions multiple times per day (2–4 feedings) to support a high metabolism. A refugium producing live copepods and amphipods is generally considered beneficial."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "semi-aggressive",
+    "grouping": "shoaling",
+    "minGroupSize": 1,
+    "goodWith": [
+      "reef fish of similar size",
+      "clownfish",
+      "tangs",
+      "chromis",
+      "gobies",
+      "cardinalfish"
+    ],
+    "avoidWith": [
+      "other male Lyretail Anthias",
+      "aggressive predators",
+      "very small ornamental shrimp"
+    ]
   },
   "media": {
     "primaryImage": "lyretail_anthias.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Lyretail Anthias.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "A vibrant reef planktivore from the Indo-Pacific, generally considered one of the more approachable anthias but best kept as a harem (one male, several females) in a well-established system with frequent feedings.",
+  "careNotes": "Pseudanthias squamipinnis is a protogynous hermaphrodite — all individuals are born female, and the dominant individual in a group will transition to male if no male is present. If the male is lost, the largest female in the group has been observed morphing to replace it. Males display reddish hues; females tend to be more orange. Males are generally aggressive toward other males of the same species and should not be housed together unless the tank is very large.\n\nMultiple sources recommend keeping a group of one male with five or more females; a sufficiently large tank (commonly cited around 400–570 L for a harem) helps distribute conspecific aggression. Single individuals can be housed in smaller systems (~265–300 L), though group keeping is considered more natural behavior.\n\nThis species has a high metabolism and has been known to decline quickly if underfed. Multiple small feedings per day are strongly advised. A refugium seeding copepods and amphipods is widely recommended to supplement prepared foods.\n\nThis species has been documented jumping from open aquaria; a tight-fitting lid or full cover is advisable.\n\nAdult size varies by sex: females typically reach around 7 cm while males can reach up to 15 cm TL per FishBase wild data; most hobbyist sources cite a typical captive size of around 12–13 cm.\n\nMinimum tank size disagreement across sources: LiveAquaria recommends 130 gal (492 L) for a group; ReefApp lists 300 L; ReefChasers recommends 125 gal (473 L) for a group; SaltwaterAquariumBlog recommends 150 gal (568 L) for a group of five. Average across sources is approximately 450 L for group keeping and approximately 265 L for a single specimen. The 450 L figure is used here as the species is best kept in groups.\n\nTemperature sources: LiveAquaria 72–78°F (22.2–25.6°C); FishBase 22–28°C. Averaged to 22–27°C.\n\nThe 'Indian Ocean Lyretail Anthias' trade name (slug sw-fish-043 was assigned by the Stage C manifest) refers to the same species as this entry (sw-075). This entry was consolidated from the existing sw-075 placeholder; see alsoKnownAs for all trade names.",
+  "breedingNotes": "Captive breeding is considered difficult. This species is a protogynous hermaphrodite; sex change occurs in the social group when the dominant male is absent. Raising larvae in captivity has been reported but is rarely achieved in home aquariums due to the small size of larvae and their zooplankton dietary requirements. Broadcast spawning has been observed in large aquarium systems.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/indian-ocean-lyretail-anthias",
+      "accessedDate": "2026-05-25",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "ReefApp Encyclopedia",
+        "url": "https://reefapp.net/en/encyclopedia/pseudanthias-squamipinnis",
+        "accessedDate": "2026-05-25",
+        "notes": "Cross-checked adult size (13 cm), tank size (300 L), temperament, reef safety, and native range. Listed as 'FishBase' in the Stage C manifest but resolves to ReefApp's own encyclopedia page."
+      },
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Pseudanthias-squamipinnis.html",
+        "accessedDate": "2026-05-25",
+        "notes": "Confirmed taxonomy (Family Anthiadidae, Order Perciformes), max adult size (15 cm TL male), temperature range (22–28°C), and Indo-West Pacific native range. FishBase generation time ~1.8 years is a population-genetics metric, not a reliable captive lifespan figure."
+      },
+      {
+        "name": "SaltwaterAquariumBlog",
+        "url": "https://www.saltwateraquariumblog.com/lyretail-anthias/",
+        "accessedDate": "2026-05-25",
+        "notes": "Cross-checked tank size (150 gal / 568 L for group of five), lifespan (5–6 years), diet, and grouping behavior. Used to average minimum tank volume."
+      },
+      {
+        "name": "ReefChasers",
+        "url": "https://reefchasers.com/blogs/reef-chasers-marine-fish-guides/lyretail-anthias-care-guide",
+        "accessedDate": "2026-05-25",
+        "notes": "Cross-checked tank size recommendation (125 gal / 473 L for group). Used to average minimum tank volume."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
-    "reefSafe": null
+    "breedingDifficulty": "difficult",
+    "breedingNotes": "Protogynous hermaphrodite; sex change occurs socially. Captive spawning has been documented in large systems but larval rearing is rarely successful in home aquariums.",
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "yes"
   },
   "crustacean": null,
   "coral": null,
@@ -69,6 +138,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-05-25"
 }

@@ -1,0 +1,123 @@
+{
+  "id": "sw-fish-047",
+  "slug": "jewel-damselfish",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Jewel Damselfish",
+  "scientificName": "Microspathodon chrysurus",
+  "alsoKnownAs": ["Yellowtail Damselfish", "Yellowtail Damsel", "Jewel Damsel"],
+  "category": "Damselfish",
+
+  "taxonomy": {
+    "family": "Pomacentridae",
+    "order": "Perciformes"
+  },
+
+  "nativeRange": {
+    "regions": ["Western Atlantic", "Caribbean"],
+    "countries": ["United States", "Bermuda", "Brazil", "Mexico", "Panama", "Venezuela", "Colombia"],
+    "habitat": "Shallow coral reefs and reef slopes (0–10 m), with juveniles commonly found among branches of fire coral (Millepora spp.)",
+    "biotope": "Reef"
+  },
+
+  "waterParameters": {
+    "temperatureC": { "min": 23.2, "max": 26.3 },
+    "pH":           { "min": 8.1,  "max": 8.4  },
+    "gH":           null,
+    "kH":           { "min": 8,    "max": 12   },
+    "salinity":     { "min": 1.020, "max": 1.025 }
+  },
+
+  "adultSizeCm":   { "min": 10.0, "max": 21.0 },
+  "lifespanYears": { "min": 3, "max": 6 },
+
+  "tank": {
+    "minVolumeLiters":  278,
+    "minLengthCm":      null,
+    "swimZone":         "all",
+    "decorPreferences": ["live rock", "caves", "crevices", "overhangs", "fire coral (aquacultured)"]
+  },
+
+  "careLevel": "beginner",
+
+  "diet": {
+    "type": "omnivore",
+    "notes": "Has been documented feeding primarily on algae and fire coral polyps in the wild. In captivity, has been reported to accept meaty foods (mysis, brine shrimp, krill, chopped shellfish) as well as herbivore preparations, spirulina-based flake, and pellet foods. Regular algae-based supplementation is generally advised to support immune health."
+  },
+
+  "compatibility": {
+    "temperament":  "aggressive",
+    "grouping":     "solitary",
+    "minGroupSize": 1,
+    "goodWith":     ["large semi-aggressive fish", "robust wrasses", "tangs", "triggerfish", "larger angelfish"],
+    "avoidWith":    ["conspecifics", "other damselfish", "small peaceful fish", "slow-moving fish"]
+  },
+
+  "media": {
+    "primaryImage":    null,
+    "gallery":         [],
+    "imageCandidates": null
+  },
+
+  "summary": "A strikingly colored Caribbean damselfish, vivid electric-blue as a juvenile and transitioning to a brownish body with a bright yellow tail as an adult. Generally considered one of the more aggressive damselfish and is best kept singly in reef aquariums.",
+
+  "careNotes": "The Jewel Damselfish (also sold as the Yellowtail Damselfish) is widely regarded as one of the most aggressive members of the damselfish family. It is generally advised to house only one specimen per tank, and keeping it alongside smaller or more peaceful species tends to be problematic. The species is commonly considered reef-safe with respect to corals, though isolated reports of invertebrate nipping exist.\n\nJuveniles display a striking black body covered in iridescent blue spots; adults transition to a brownish-yellow body with a bright yellow caudal fin, and the blue spots become smaller and less distinct — buyers should be aware of this color change.\n\nIn the wild, juveniles have been documented performing cleaning-station behaviors, occasionally removing parasites from other fish.\n\nTemperature disagreement: hobbyist sources (LiveAquaria, ReefBay, TropicalFishKeeping) cite 72–78°F (22.2–25.6°C), while FishBase ecological modeling gives 26.1–28.2°C. The values here are the computed average across all four sources (min 23.2°C, max 26.3°C).\n\nAdult size disagreement: Hobbyist sources commonly cite 6 inches (~15 cm); FishBase and ReefApp list the scientific maximum as 21 cm. The range here spans the common captive size to the scientific maximum.\n\nMinimum tank size disagreement (wide spread — flagged for review): LiveAquaria 50 gal (189 L), ReefBay 30 gal (114 L), TropicalFishKeeping 55 gal (208 L), ReefApp 600 L. Computed average is ~278 L. The 600 L figure from ReefApp likely reflects the species' potential adult size and aggression range; the 30 gal figure is generally considered too small by most hobbyist sources. A reviewer should confirm the recommended minimum.",
+
+  "breedingNotes": "Has been documented breeding in captivity under exceptional conditions, with males guarding and aerating demersal eggs adhering to substrate surfaces. Considered very difficult to breed deliberately in home aquariums; no established captive-breeding protocol is widely documented.",
+
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/product/119/?pcatid=119",
+      "accessedDate": "2026-05-25",
+      "notes": "Primary source; provided size (6\"), temperature (72–78°F), pH (8.1–8.4), SG (1.020–1.025), dKH (8–12), min tank 50 gal, care level Easy, diet Omnivore, temperament Aggressive, reef safe Yes."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Microspathodon-chrysurus",
+        "accessedDate": "2026-05-25",
+        "notes": "Cross-checked adult size (max 21 cm, common 15 cm), temperature (26.1–28.2°C ecological model), native range (Western Atlantic: S. Florida/Bermuda through Caribbean to Brazil), taxonomy (Pomacentridae), and habitat (reef-associated, 0–120 m). Temperature higher than hobbyist sources; averaged across all sources."
+      },
+      {
+        "name": "ReefBay",
+        "url": "https://reefbay.com/fish/jewel-damselfish",
+        "accessedDate": "2026-05-25",
+        "notes": "Secondary cross-check; confirmed temperature 72–78°F, pH 8.1–8.4, SG 1.020–1.025, min tank 30 gal (lower than other sources), temperament semi-aggressive (minority — 3 other sources say aggressive), reef safe Yes."
+      },
+      {
+        "name": "TropicalFishKeeping",
+        "url": "https://tropical-fish-keeping.com/jewel-damselfish-microspathodon-chrysurus.html",
+        "accessedDate": "2026-05-25",
+        "notes": "Cross-check on size (6\"), temperature (72–78°F), pH (8.1–8.4), SG (1.020–1.025), min tank 55 gal adults / 120 gal community, temperament Very Aggressive, lifespan ~5 years, family Pomacentridae, native range Western Atlantic."
+      },
+      {
+        "name": "ReefApp Encyclopedia",
+        "url": "https://reefapp.net/en/encyclopedia/microspathodon-chrysurus",
+        "accessedDate": "2026-05-25",
+        "notes": "Cross-check confirming max size 21 cm, aggressive temperament, min tank 600 L (outlier — wide spread flagged in careNotes), native range Western Atlantic/Mexican Gulf, reef safe with caution."
+      }
+    ]
+  },
+
+  "fish": {
+    "breedingDifficulty":    "difficult",
+    "breedingNotes":         "Males guard demersal egg clutches on hard substrate; has been documented breeding in large public aquaria but rarely in home tanks. No established captive-propagation protocol is widely available.",
+    "conspecificAggression": "high",
+    "finNippy":              false,
+    "reefSafe":              "yes"
+  },
+
+  "crustacean":   null,
+  "coral":        null,
+  "mollusc":      null,
+  "echinoderm":   null,
+  "other-invert": null,
+  "plant":        null,
+  "macroalgae":   null,
+
+  "schemaVersion": 1,
+  "dataStatus":    "needs_review",
+  "lastReviewed":  "2026-05-25"
+}

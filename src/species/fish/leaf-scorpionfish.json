@@ -5,61 +5,88 @@
   "taxon": "fish",
   "waterType": "saltwater",
   "commonName": "Leaf Scorpionfish",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "scientificName": "Taenianotus triacanthus",
+  "alsoKnownAs": ["Leaf Fish", "Paper Fish"],
   "category": "Scorpionfish",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Scorpaenidae",
+    "order": "Perciformes"
   },
   "nativeRange": {
-    "regions": [],
+    "regions": ["Indo-Pacific"],
     "countries": [],
-    "habitat": null,
-    "biotope": null
+    "habitat": "Reef-associated; reef flats, outer reef slopes, current-swept channels, and occasionally lagoon reefs at depths of 5–135 m",
+    "biotope": "Reef"
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
+    "temperatureC": { "min": 23.4, "max": 27.2 },
+    "pH": { "min": 8.1, "max": 8.4 },
     "gH": null,
-    "kH": null,
-    "salinity": null
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.020, "max": 1.026 }
   },
-  "adultSizeCm": null,
+  "adultSizeCm": { "min": 6.0, "max": 10.0 },
   "lifespanYears": null,
   "tank": {
-    "minVolumeLiters": null,
+    "minVolumeLiters": 96,
     "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": []
+    "swimZone": "bottom",
+    "decorPreferences": ["live rock", "coral rubble", "algae", "seagrass", "caves"]
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Generally prefers live foods such as feeder fish and small shrimp; some individuals have been reported to accept frozen meaty foods, particularly when conditioned while young. Fatty feeder fish such as guppies and goldfish have been associated with liver problems and are best avoided. Feeding a few times per week tends to be sufficient given the species' slow metabolism."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["peaceful large fish", "non-aggressive saltwater fish"],
+    "avoidWith": ["small fish", "small shrimp", "small crustaceans", "nano invertebrates"]
   },
   "media": {
     "primaryImage": "leaf_scorpionfish.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Leaf Scorpionfish.",
-  "careNotes": null,
+  "summary": "A masters of camouflage from the Indo-Pacific, the Leaf Scorpionfish mimics a drifting leaf to ambush prey. Venomous spines require careful handling. Generally kept singly in a 100+ L reef aquarium.",
+  "careNotes": "The Leaf Scorpionfish (Taenianotus triacanthus) is a highly cryptic ambush predator that remains largely motionless among algae, seagrass, or coral rubble, swaying side-to-side to mimic a drifting leaf. It possesses venomous spines on its dorsal, anal, and pelvic fins; handling with bare hands is strongly discouraged as stings, while rarely life-threatening, have been reported to cause intense pain and in some cases more serious reactions.\n\nThis species moults approximately twice per month, shedding its outer skin layer beginning at the head — maintaining excellent water quality is generally advised during and around moulting periods. It occurs in colour variants including red, yellow, brown, and blue, all of which are the same species.\n\nSources disagreed modestly on temperament: LiveAquaria lists it as 'semi-aggressive' while ReefApp describes it as 'peaceful'. In practice, the aggression is almost entirely predatory — any fish or invertebrate small enough to fit in its mouth is at risk. Tankmates of similar or larger size tend to be ignored. Semi-aggressive is used here as the more cautious characterisation.\n\nTemperature sources diverged: LiveAquaria gives 72–78°F (22.2–25.6°C); FishBase wild data gives 24.6–28.8°C. Averaged values used: 23.4–27.2°C.\n\nMinimum tank size varied across sources: LiveAquaria 30 gal (114 L), AquaticCommunity 20 gal (76 L), ReefApp 100 L. Averaged to approximately 96 L.\n\nReef safety: LiveAquaria and ReefApp say 'with caution'; AquaticCommunity says 'no'. Majority 'with caution' used; any small crustaceans or ornamental shrimp are at risk as prey items.\n\nVenomous spines: this fact is a safety-critical trait that deserves a typed field. A field-gap suggestion has been appended for fish.venomousSpines.",
   "breedingNotes": null,
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/leaf-fish",
+      "accessedDate": "2026-05-25",
+      "notes": "Species page for Taenianotus triacanthus. Provided: size (4 in), temperature (72–78°F), pH (8.1–8.4), salinity (1.020–1.025), dKH (8–12), tank size (30 gal), diet, temperament (semi-aggressive), care level (moderate), reef safe (with caution)."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Taenianotus-triacanthus",
+        "accessedDate": "2026-05-25",
+        "notes": "Cross-checked adult size (max 10.0 cm), temperature range (24.6–28.8°C), native range, taxonomy (Scorpaenidae, Perciformes), habitat (reef-associated, 5–135 m depth), and diet (small crustaceans and fishes)."
+      },
+      {
+        "name": "AquaticCommunity",
+        "url": "https://www.aquaticcommunity.com/Scorpionfish/leaf.php",
+        "accessedDate": "2026-05-25",
+        "notes": "Cross-checked adult size (10 cm), tank size (20 gal / 75 L minimum), diet, and native range. Listed reef safe as 'no'; majority 'with caution' used instead."
+      },
+      {
+        "name": "ReefApp Encyclopedia",
+        "url": "https://reefapp.net/en/encyclopedia/taenianotus-triacanthus",
+        "accessedDate": "2026-05-25",
+        "notes": "Cross-checked adult size (10 cm), tank size (100 L), salinity (~1.026), temperament (peaceful/predatory), reef safe (with caution). Noted species is highly venomous."
+      }
+    ]
   },
   "fish": {
     "breedingDifficulty": null,
     "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
-    "reefSafe": null
+    "conspecificAggression": "low",
+    "finNippy": false,
+    "reefSafe": "with caution"
   },
   "crustacean": null,
   "coral": null,
@@ -69,6 +96,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-05-25"
 }

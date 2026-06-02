@@ -1,0 +1,107 @@
+{
+  "id": "sw-fish-045",
+  "slug": "jackknife-fish",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Jackknife Fish",
+  "scientificName": "Eques lanceolatus",
+  "alsoKnownAs": ["Jack-knifefish", "Ribbonfish", "Donkey Fish", "Equetus lanceolatus"],
+  "category": "Drums & Croakers",
+  "taxonomy": {
+    "family": "Sciaenidae",
+    "order": "Eupercaria"
+  },
+  "nativeRange": {
+    "regions": ["Western Atlantic", "Caribbean", "Gulf of Mexico"],
+    "countries": ["United States", "Bermuda", "Mexico", "Brazil"],
+    "habitat": "Reef-associated; inhabits bays, sounds, and deeper coral reef areas with sandy bottoms and coral outcrops. Depth range approximately 10–60 m.",
+    "biotope": "Reef"
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 23.0, "max": 27.0 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": null,
+    "salinity": { "min": 1.020, "max": 1.025 }
+  },
+  "adultSizeCm": { "min": 15.0, "max": 25.0 },
+  "lifespanYears": null,
+  "tank": {
+    "minVolumeLiters": 473,
+    "minLengthCm": 150,
+    "swimZone": "bottom",
+    "decorPreferences": ["live rock", "caves", "crevices", "sandy substrate"]
+  },
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "carnivore",
+    "notes": "In the wild, has been documented feeding mainly on small shrimps and crabs, as well as polychaete worms and gastropod mollusks. In captivity, generally requires live or frozen meaty foods — live brine shrimp, mysis shrimp, blackworms, and small crustaceans are commonly recommended to initiate feeding. Some individuals have been reported to eventually accept frozen and prepared marine foods with time."
+  },
+  "compatibility": {
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["larger peaceful fish", "passive community saltwater fish"],
+    "avoidWith": ["small ornamental shrimp", "small crabs", "small invertebrates", "small fish", "aggressive species"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A strikingly patterned Western Atlantic drum with bold black-and-white bands. Generally considered an intermediate-level species; tend to be shy and require well-established live rock, sandy substrate, and encouragement to start feeding.",
+  "careNotes": "The Jackknife Fish (Eques lanceolatus — also listed in older literature as Equetus lanceolatus, a now-synonymised genus name) is a shy, nocturnal-leaning fish that has been reported to spend significant time sheltering in caves and crevices, particularly during acclimation. Aquarists generally advise a minimum tank of around 125–185 gallons (473–700 L); sources diverge considerably on this, so larger is safer. The species is commonly considered difficult to feed initially — live ghost shrimp, enriched brine shrimp, and mysis are often used to trigger a feeding response, and it tends to forage along the substrate. Once established on frozen foods, care becomes more manageable. It is generally considered reef-safe with caution: corals are not typically threatened, but small shrimp, crabs, fireworms, and other motile invertebrates have been known to be consumed. Temperament is generally peaceful toward larger tankmates but the species has been known to be aggressive toward small fish and ornamental invertebrates. Multiple specimens can reportedly be maintained together if introduced simultaneously with adequate space. The species is sensitive during transport and initial acclimation and is generally advised for aquarists with some saltwater experience. Adult size is commonly cited at around 25 cm; one source reported up to 38 cm which appears to be an outlier and has not been excluded from consideration but is not reflected in the averaged max. Note: reports of ciguatoxin presence have been documented in wild-caught individuals. Synonymy note: FishBase and current ichthyological literature accept Eques lanceolatus as the valid name; Equetus lanceolatus is a historical synonym still widely used in the aquarium hobby.",
+  "breedingNotes": "Breeding in captivity is rarely documented and not well understood. Wild populations are known to form spawning aggregations, during which males produce audible drumming sounds (consistent with family Sciaenidae). Captive breeding is generally considered very difficult and has not been reliably replicated in home aquariums.",
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/product/1734/?pcatid=1734",
+      "accessedDate": "2026-05-25",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Eques-lanceolatus",
+        "accessedDate": "2026-05-25",
+        "notes": "Cross-checked adult size (max 25 cm), temperature range (22.7–28°C), native range, and taxonomy. The primary source URL provided by the controller (liveaquaria.com/collections/grunts-sweetlips) was a category page with no per-species data; the actual product page was located via web search at /product/1734/."
+      },
+      {
+        "name": "ReefApp Encyclopedia",
+        "url": "https://reefapp.net/en/encyclopedia/equetus-lanceolatus",
+        "accessedDate": "2026-05-25",
+        "notes": "Secondary cross-check: confirmed adult size 25 cm, salinity SG 1.020–1.025, min tank 700 L (higher than LiveAquaria's 125 gal / 473 L). Care level rated 'delicate/advanced'. Temperature not explicitly stated. Tank minimum averaged between LiveAquaria (473 L) and ReefApp (700 L) yielding ~587 L; LiveAquaria's 473 L used as the conservative floor since it is the designated primary source."
+      },
+      {
+        "name": "Reeflings",
+        "url": "https://reeflings.com/species/equetus-lanceolatus",
+        "accessedDate": "2026-05-25",
+        "notes": "Additional cross-check: temperature 24–28°C, pH 8.1–8.4, SG 1.020–1.025, tank 200 L (likely too small for a 25 cm fish — treated as an outlier). Adult size reported as 38 cm, which is inconsistent with all other sources (FishBase max 25 cm; most hobby sources ~25 cm); this value treated as a likely data error and not averaged in. Temperature range averaged across LiveAquaria (22.2–25.6°C), FishBase (22.7–28°C), and Reeflings (24–28°C) gives approximately 23–27°C."
+      },
+      {
+        "name": "AboutFishOnline",
+        "url": "https://www.aboutfishonline.com/articles/jackknife-fish.html",
+        "accessedDate": "2026-05-25",
+        "notes": "Additional cross-check: adult size ~10 inches (25.4 cm), carnivore diet, needs live food initially, reef compatibility described as poor due to invertebrate predation. Care level described as difficult."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "Captive breeding is very rarely documented. Wild populations spawn in aggregations with males producing audible drumming sounds. Not reliably bred in home aquariums.",
+    "conspecificAggression": "low",
+    "finNippy": false,
+    "reefSafe": "with caution"
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-05-25"
+}

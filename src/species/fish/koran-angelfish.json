@@ -1,0 +1,116 @@
+{
+  "id": "sw-fish-048",
+  "slug": "koran-angelfish",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Koran Angelfish",
+  "scientificName": "Pomacanthus semicirculatus",
+  "alsoKnownAs": ["Semicircle Angelfish", "Semicircular Angelfish", "Halfcircled Angelfish"],
+  "category": "Angelfish",
+
+  "taxonomy": {
+    "family": "Pomacanthidae",
+    "order": "Acanthuriformes"
+  },
+
+  "nativeRange": {
+    "regions": ["Indo-Pacific", "Red Sea", "East Africa", "Western Pacific"],
+    "countries": ["Australia", "Japan", "Indonesia", "Philippines", "Samoa", "Tanzania", "South Africa"],
+    "habitat": "Coastal and lagoon reefs; juveniles tend to inhabit shallow, protected inshore areas while adults generally prefer reef zones with heavier coral growth, at depths typically ranging from 1 to 40 m",
+    "biotope": "Reef"
+  },
+
+  "waterParameters": {
+    "temperatureC": { "min": 23.0, "max": 27.5 },
+    "pH":           { "min": 8.1, "max": 8.4 },
+    "gH":           null,
+    "kH":           { "min": 8, "max": 12 },
+    "salinity":     { "min": 1.020, "max": 1.025 }
+  },
+
+  "adultSizeCm":   { "min": 25.0, "max": 40.0 },
+  "lifespanYears": { "min": 10.0, "max": 21.0 },
+
+  "tank": {
+    "minVolumeLiters": 850,
+    "minLengthCm": 180,
+    "swimZone": "all",
+    "decorPreferences": ["live rock", "open swimming space", "caves", "overhangs"]
+  },
+
+  "careLevel": "intermediate",
+
+  "diet": {
+    "type": "omnivore",
+    "notes": "Has been documented feeding on sponges, tunicates, algae, and small invertebrates in the wild. In captivity, generally accepts a varied diet of marine algae, spirulina, high-quality angelfish preparations, and meaty foods such as mysis shrimp and brine shrimp; feeding 2–3 times daily is commonly advised."
+  },
+
+  "compatibility": {
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["clownfish", "wrasses", "anthias", "gobies", "tangs", "peaceful marine fish"],
+    "avoidWith": ["other large angelfish", "conspecifics", "aggressive species", "corals", "clam mantles", "sessile invertebrates"]
+  },
+
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+
+  "summary": "A large, striking Indo-Pacific angelfish known for its dramatic juvenile-to-adult color transformation; generally considered suitable for intermediate keepers in a spacious, fish-only or FOWLR setup.",
+
+  "careNotes": "The Koran Angelfish undergoes one of the most dramatic color changes in the hobby — juveniles display dark blue coloring with bright white and electric-blue semicircular stripes, while adults transition to a greenish-yellow body with blue speckling, sapphire-blue fin outlines, and a labyrinthine pattern. This transformation can take 1–2 years.\n\nGenerally advised to be kept in a tank of at least 850 L (about 220–250 gallons), though recommendations vary across sources from 180 to 250 gallons; a larger footprint is beneficial given the species' active nature and adult size.\n\nWater temperature recommendations differ somewhat between wild-range data (FishBase: 24.7–29°C) and typical hobby guidance (22–26°C); a working range of roughly 23–27.5°C is consistent across most sources.\n\nNot considered reef-safe; has been known to nip at stony and soft corals, clam mantles, and other sessile invertebrates. Best suited to a fish-only-with-live-rock (FOWLR) system.\n\nHas been reported to live up to 20+ years in well-maintained aquariums; most sources estimate 10–21 years.\n\nLive rock should be provided in abundance to offer hiding spots and natural grazing surfaces for algae. Has been known to be aggressive toward other large angelfish and similarly sized tankmates, particularly in smaller systems. Generally more peaceful with dissimilar species.\n\nBreeding in home aquaria has not been reliably documented; however, the species has been successfully spawned in research settings (University of Florida Tropical Aquaculture Lab).\n\nSource disagreement notes: Adult max size ranges from ~35 cm (TheAquariumParadise) to 38 cm (multiple hobby sources) to 40 cm (FishBase wild record) — file uses FishBase max of 40 cm as the upper bound. Minimum tank size ranges from 180 gal (681 L) to 250 gal (946 L) across sources; 850 L used as the averaged figure.",
+
+  "breedingNotes": "Has not been reliably bred in home aquariums. Successful spawning has been reported in research aquaculture settings. Wild individuals are broadcast spawners; sexing adults visually is generally not possible.",
+
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/koran-angelfish-1",
+      "accessedDate": "2026-05-25",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Pomacanthus-semicirculatus",
+        "accessedDate": "2026-05-25",
+        "notes": "Cross-checked adult size (40 cm max), temperature range (24.7–29°C), native range, taxonomy (order Acanthuriformes), and habitat. Temperature range wider than hobby sources; averaged for final values."
+      },
+      {
+        "name": "light.fish Koran Angelfish Care Guide",
+        "url": "https://light.fish/blog/koran-angelfish",
+        "accessedDate": "2026-05-25",
+        "notes": "Additional cross-check for temperature (72–78°F), tank size (250 gal), lifespan (~21 years), care level, reef compatibility, and compatibility notes."
+      },
+      {
+        "name": "TheAquariumParadise Koran Angelfish",
+        "url": "https://theaquariumparadise.com/fishes/koran-angelfish",
+        "accessedDate": "2026-05-25",
+        "notes": "Additional data point for adult size (35–38 cm) and tank minimum (180 gal); used in averaging calculations."
+      }
+    ]
+  },
+
+  "fish": {
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "Not reliably bred in home aquariums; spawning reported only in controlled aquaculture research settings.",
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "no"
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-05-25"
+}

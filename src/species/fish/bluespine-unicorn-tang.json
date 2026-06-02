@@ -1,0 +1,101 @@
+{
+  "id": "sw-fish-013",
+  "slug": "bluespine-unicorn-tang",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Bluespine Unicorn Tang",
+  "scientificName": "Naso unicornis",
+  "alsoKnownAs": ["Bluespine Unicornfish", "Unicorn Tang", "Short-nose Unicornfish"],
+  "category": "Tang",
+  "taxonomy": {
+    "family": "Acanthuridae",
+    "order": "Acanthuriformes"
+  },
+  "nativeRange": {
+    "regions": ["Indo-Pacific", "Red Sea", "East Africa", "Hawaii", "Southern Japan", "Australia"],
+    "countries": ["Australia", "Japan", "Hawaii (USA)", "Egypt", "Kenya", "Tanzania", "Mozambique", "Madagascar", "Maldives", "Sri Lanka", "Indonesia", "Philippines"],
+    "habitat": "Reef channels, moats, lagoon and seaward reefs with strong surge; depth range 0–180 m",
+    "biotope": "Reef"
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 23.0, "max": 27.0 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": null,
+    "salinity": { "min": 1.020, "max": 1.025 }
+  },
+  "adultSizeCm": { "min": 45.0, "max": 70.0 },
+  "lifespanYears": { "min": 15.0, "max": 55.0 },
+  "tank": {
+    "minVolumeLiters": 959.0,
+    "minLengthCm": 300.0,
+    "swimZone": "all",
+    "decorPreferences": ["live rock", "open swimming space", "rockwork for grazing"]
+  },
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "herbivore",
+    "notes": "Primarily grazes on coarse leafy brown algae (Sargassum), and has been documented accepting dried nori, spirulina-based flakes, and seaweed preparations in captivity. Supplemental meaty foods such as frozen mysis shrimp are generally accepted and tend to promote good color and health. Feeding at least 3 times weekly is commonly advised."
+  },
+  "compatibility": {
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["peaceful reef fish", "clownfish", "wrasses", "angelfish", "non-tang species generally"],
+    "avoidWith": ["other Unicorn Tangs (unless in very large tanks)", "conspecifics", "other Naso species"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A large, active surgeonfish from the Indo-Pacific, distinguished by its prominent forehead horn and vivid blue caudal spines. Generally considered peaceful toward most tankmates but has been known to be aggressive toward conspecifics. Best suited to very large aquariums with ample swimming room and live rock for grazing.",
+  "careNotes": "The Bluespine Unicorn Tang is one of the larger surgeonfish kept in the aquarium hobby and generally requires substantial space to thrive. Recommended minimum tank volumes vary considerably across sources: BlueZoo Aquatics suggests 150 gallons (568 L), ReefChasers recommends 250 gallons (946 L), and LiveAquaria advises 360 gallons (1363 L). The averaged value used here (~959 L / ~250 gal) reflects the middle of this spread, but keepers of large specimens may find the 360-gallon recommendation more practical. Tank length is generally considered more important than volume given the species' active, linear swimming style.\n\nA characteristic unicorn-like horn develops gradually as the fish grows, typically becoming visible around 6 inches in length and becoming prominent in adults. The caudal peduncle bears two large, permanently erect spines that are non-retractable and very sharp; care should be taken when handling or netting this species to avoid injury and to avoid entangling the fish in a net.\n\nTemperature data showed notable variation across sources: LiveAquaria lists 72–78°F (22–26°C), while FishBase's modeled preferred range peaks around 26–29°C. The averaged range here (23–27°C) represents the midpoint; individual fish appear to adapt across this spectrum in well-maintained systems.\n\nReef safety: LiveAquaria and ReefApp both report this species as reef safe. ReefChasers notes that a well-fed individual is unlikely to pick at corals, but cautions that algae-deficient systems may increase the risk of incidental coral grazing. Generally considered reef safe with a well-supplied algae diet.\n\nConspecific aggression is well-documented; this species has been known to be aggressive toward others of its kind, particularly in smaller systems. In very large aquariums (500+ gallons), pairs or small groups have been kept successfully. The species tends to be peaceful toward unrelated reef fish.\n\nBreeding in captivity has not been documented. Pair spawning has been observed in the wild.",
+  "breedingNotes": "No captive breeding has been documented for this species. Wild pair spawning behavior has been observed. The species is not considered suitable for captive breeding attempts under typical hobby conditions.",
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/bluespine-unicorn-tang",
+      "accessedDate": "2026-05-25",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "BlueZoo Aquatics",
+        "url": "https://www.bluezooaquatics.com/productDetail.asp?did=1&pid=877&cid=287",
+        "accessedDate": "2026-05-25",
+        "notes": "Cross-checked sizing (27 in / 68.6 cm), tank size (150 gal / 568 L), temperament, and reef safe status. BlueZoo tank minimum is considerably lower than LiveAquaria's 360-gal recommendation; average applied."
+      },
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/naso-unicornis",
+        "accessedDate": "2026-05-25",
+        "notes": "Confirmed taxonomy (Acanthuridae / Acanthuriformes), maximum wild size (70 cm), preferred temperature range (26–29°C, modeled 23.4–28.8°C), max reported age (55 years), native range (Indo-Pacific: Red Sea to Hawaii), and reef-associated habitat description."
+      },
+      {
+        "name": "ReefChasers",
+        "url": "https://reefchasers.com/blogs/reef-chasers-marine-fish-guides/unicorn-tang-care-guide",
+        "accessedDate": "2026-05-25",
+        "notes": "Additional tank size data point (250 gal / 946 L); confirmed diet (herbivore with algae focus), temperament (aggressive toward other tangs), and reef safe guidance. Used in tank-size averaging."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "No captive breeding documented. Wild pair spawning observed. Not considered feasible under hobby conditions.",
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "with caution"
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "needs_review",
+  "lastReviewed": "2026-05-25"
+}

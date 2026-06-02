@@ -1,0 +1,122 @@
+{
+  "id": "sw-fish-037",
+  "slug": "greenbanded-goby",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Greenbanded Goby",
+  "scientificName": "Tigrigobius multifasciatus",
+  "alsoKnownAs": ["Green Banded Goby", "Greenband Goby", "Green-Banded Goby"],
+  "category": "Goby",
+
+  "taxonomy": {
+    "family": "Gobiidae",
+    "order": "Gobiiformes"
+  },
+
+  "nativeRange": {
+    "regions": ["Western Atlantic", "Caribbean Sea", "Gulf of Mexico"],
+    "countries": ["United States", "Bahamas", "Cuba", "Puerto Rico", "Jamaica", "Honduras", "Colombia", "Venezuela", "Brazil"],
+    "habitat": "Shallow rocky and coral reef habitats, often found in association with sea urchins and within rock crevices",
+    "biotope": "Reef"
+  },
+
+  "waterParameters": {
+    "temperatureC": { "min": 22, "max": 26 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": null,
+    "salinity": { "min": 1.020, "max": 1.025 }
+  },
+
+  "adultSizeCm": { "min": 2.0, "max": 5.1 },
+  "lifespanYears": null,
+
+  "tank": {
+    "minVolumeLiters": 55,
+    "minLengthCm": null,
+    "swimZone": "bottom",
+    "decorPreferences": ["live rock", "sand substrate", "rock crevices", "caves", "sea urchins"]
+  },
+
+  "careLevel": "beginner",
+
+  "diet": {
+    "type": "carnivore",
+    "notes": "Generally fed small meaty foods such as live or frozen brine shrimp, frozen mysis shrimp, and chopped seafoods. Has been reported to pick small invertebrates from rock surfaces. Multiple small feedings per day tend to work well."
+  },
+
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "pair",
+    "minGroupSize": 1,
+    "goodWith": ["peaceful reef fish", "invertebrates", "corals", "shrimp", "small wrasses", "clownfish"],
+    "avoidWith": ["hawkfish", "aggressive dottybacks", "sand perches", "large predatory fish"]
+  },
+
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+
+  "summary": "A small, reef-safe goby from the western Atlantic, generally considered a good fit for nano and established reef aquariums. Tends to perch on live rock and is known for pairing and spawning in captivity.",
+
+  "careNotes": "The Greenbanded Goby (Tigrigobius multifasciatus) is commonly known under the older scientific name Elacatinus multifasciatus, which is now a taxonomic synonym. This species is native to shallow reef and rocky habitats throughout the Western Atlantic, from Florida and the Bahamas south through the Caribbean to Brazil.\n\nIt is generally considered a good beginner saltwater fish due to its small size (typically reaching around 5 cm / 2 inches), peaceful temperament, and reef compatibility. A mature aquarium with plenty of live rock is generally advised, as the fish tends to move from rock to rock hunting small invertebrates in crevices.\n\nAlthough peaceful, it has been known to show territorial behavior toward conspecifics in the confines of a small aquarium. Best kept singly or as a mated pair; keeping more than two individuals tends to require a larger tank. Pairs have been observed sharing burrows and spawn readily in captivity, making this species one of the more accessible gobies for hobbyist breeding attempts.\n\nThis species is a protogynous hermaphrodite — individuals start female and may change to male when a compatible pair forms. This means two females may successfully pair, with one changing sex to form a breeding pair.\n\nIt has been documented showing a symbiotic association with sea urchins in the wild, often taking refuge among the spines. Including a sea urchin in the display can provide natural enrichment.\n\nAdult size is reported variously across sources: aquarium trade sources commonly cite 2 inches (approx. 5 cm), while Wikipedia cites approximately 3.5 cm and Reeflings lists up to 6 cm. Averaged across five sources, typical adult size is around 4–5 cm.\n\nMinimum tank volume shows spread across sources: AquariumDomain and Reeflings suggest 38–40 L (10–11 gal), BlueZoo Aquatics suggests 91 L (24 gal), and ReefApp suggests 50 L (13 gal). Averaged ~55 L is used here; the higher BlueZoo figure may reflect a community setup recommendation. Nano reef keepers frequently report success with 38–40 L tanks for a single specimen or pair.\n\nThe assigned secondary source URL (https://www.bluezooaquatics.com/productDetail.asp?did=1&cid=18&pid=570) was listed in the manifest as 'FishBase' but resolves to a BlueZoo Aquatics product page. Cross-verification was performed against Reeflings, AquariumDomain.com, ReefApp, and Wikipedia instead. The LiveAquaria primary source returned HTTP 503 during research; BlueZoo Aquatics was used as the de facto primary with additional secondaries filling the cross-verification requirement.",
+
+  "breedingNotes": "Pairs have been reported to spawn readily in well-maintained aquariums, laying eggs in rock crevices or PVC pipe hides. The male has been observed guarding the eggs until hatching. Larvae are planktonic and have been documented as difficult to raise, though accounts of successful captive rearing exist. This species is a protogynous hermaphrodite; if two females are placed together, one may transition to male to form a breeding pair.",
+
+  "sources": {
+    "primary": {
+      "name": "BlueZoo Aquatics",
+      "url": "https://www.bluezooaquatics.com/productDetail.asp?did=1&cid=18&pid=570",
+      "accessedDate": "2026-05-25",
+      "notes": "Used as de facto primary; LiveAquaria (assigned primary) returned HTTP 503. The manifest labeled this URL as 'FishBase' but it resolves to a BlueZoo Aquatics product page."
+    },
+    "additional": [
+      {
+        "name": "Reeflings",
+        "url": "https://reeflings.com/species/tigrigobius-multifasciatus",
+        "accessedDate": "2026-05-25",
+        "notes": "Cross-checked adult size (6 cm), temperature (22–26°C), pH (8.1–8.4), salinity (SG 1.020–1.025), min tank (40 L), temperament, reef safety, native range, taxonomy, and breeding behavior. Used as primary cross-verification source."
+      },
+      {
+        "name": "AquariumDomain",
+        "url": "https://www.aquariumdomain.com/SpeciesProfiles/MarineFish/GreenbandedGoby.shtml",
+        "accessedDate": "2026-05-25",
+        "notes": "Cross-checked adult size (2 in / 5.08 cm), temperature (72–78°F / 22.2–25.6°C), pH (8.1–8.4), salinity (SG 1.020–1.025), min tank (10 gal / 37.85 L), diet, temperament, reef safety, and compatibility. Confirms high-stakes fields from primary."
+      },
+      {
+        "name": "ReefApp Encyclopedia",
+        "url": "https://reefapp.net/en/encyclopedia/tigrigobius-multifasciatus",
+        "accessedDate": "2026-05-25",
+        "notes": "Cross-checked adult size (5 cm), min tank (50 L), temperament, reef safety, native range. Notes symbiotic association with sea urchins."
+      },
+      {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Tigrigobius_multifasciatus",
+        "accessedDate": "2026-05-25",
+        "notes": "Used for taxonomy confirmation (family Gobiidae, order Gobiiformes), scientific name validation (Tigrigobius multifasciatus as current accepted name, Elacatinus multifasciatus as synonym), and native range cross-check. Adult size cited as 3.5 cm — notably smaller than aquarium trade sources. Averaged with other sources."
+      }
+    ]
+  },
+
+  "fish": {
+    "breedingDifficulty": "difficult",
+    "breedingNotes": "Pairs spawn in rock crevices with male guarding eggs; larvae are planktonic and generally considered difficult to raise, though captive rearing has been reported.",
+    "conspecificAggression": "moderate",
+    "finNippy": false,
+    "reefSafe": "yes"
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-05-25"
+}

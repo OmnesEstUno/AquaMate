@@ -4,62 +4,83 @@
   "kind": "fauna",
   "taxon": "fish",
   "waterType": "saltwater",
-  "commonName": "Queen Angel",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "commonName": "Queen Angelfish",
+  "scientificName": "Holacanthus ciliaris",
+  "alsoKnownAs": ["Queen Angel"],
   "category": "Angelfish",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Pomacanthidae",
+    "order": "Acanthuriformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null
+    "regions": ["Western Atlantic", "Caribbean Sea", "Gulf of Mexico"],
+    "countries": ["United States", "Brazil", "Bermuda", "Bahamas", "Cuba", "Mexico"],
+    "habitat": "Coral reefs at depths of 1–70 m; tends to inhabit areas with abundant sponge growth",
+    "biotope": "Reef"
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
+    "temperatureC": { "min": 23.2, "max": 26.8 },
+    "pH": { "min": 8.1, "max": 8.4 },
     "gH": null,
     "kH": null,
-    "salinity": null
+    "salinity": { "min": 1.020, "max": 1.025 }
   },
-  "adultSizeCm": null,
+  "adultSizeCm": { "min": 20.0, "max": 45.0 },
   "lifespanYears": null,
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": []
+    "minVolumeLiters": 946,
+    "minLengthCm": 180,
+    "swimZone": "all",
+    "decorPreferences": ["live rock", "caves", "open swimming space", "sponges"]
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "omnivore",
+    "notes": "In the wild, adults have been documented feeding primarily on sponges — reportedly up to 90% of the diet in some regions — supplemented by tunicates, algae, hydroids, and bryozoans. In captivity, generally advised to offer a varied diet including Spirulina, marine algae, high-quality angelfish preparations, mysis shrimp, and other meaty items. Feeding at least two to three times daily tends to be recommended."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["tangs", "wrasses", "large peaceful marine fish", "hawkfish"],
+    "avoidWith": ["other angelfish of same genus", "small ornamental shrimp", "stony corals", "soft corals", "clam mantles", "conspecifics"]
   },
   "media": {
     "primaryImage": "queen_angel.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Queen Angel.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "A large, striking angelfish native to the Caribbean and Western Atlantic, recognized by its vivid blue-green scales and yellow-tipped fins. Generally considered intermediate in difficulty and best kept singly in very large reef-adjacent aquariums.",
+  "careNotes": "The Queen Angelfish is generally considered one of the more challenging large angelfish to keep successfully in aquariums. A minimum tank of around 250 gallons (946 L) tends to be recommended to accommodate its active swimming and territorial nature. It is commonly described as reef-unsafe, or at best to be used only with caution, as individuals have been known to nip stony and soft corals as well as the mantles of tridacnid clams. Best introduced as the last fish to an established system, as it has been known to become aggressive toward new additions. Conspecific aggression is generally high — keeping two adults together is typically discouraged unless the tank is exceptionally large. Temperature disagreement between sources: LiveAquaria recommends 72–78°F (22.2–25.6°C) while FishBase ecological data suggests 24.2–28°C; an averaged range of 23–27°C is used here. Adult max size is consistent across sources at ~45 cm (18 in). Juveniles are well documented performing cleaner-fish behavior at cleaning stations, picking ectoparasites from larger fish — a behavior that typically diminishes as the fish matures. In captivity, acclimation to prepared foods can require patience; specimens that refuse to eat are a common concern.",
+  "breedingNotes": "Breeding in captivity has not been reliably documented. Spawning in the wild involves pelagic egg release. No established captive-breeding protocol is known for this species.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/queen-angelfish-1",
+      "accessedDate": "2026-05-25",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Holacanthus-ciliaris.html",
+        "accessedDate": "2026-05-25",
+        "notes": "Cross-checked adult size (45 cm TL confirmed) and temperature range. FishBase preferred range 24.2–28°C differs from LiveAquaria 22.2–25.6°C; values averaged to 23.2–26.8°C."
+      },
+      {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Queen_angelfish",
+        "accessedDate": "2026-05-25",
+        "notes": "Used for taxonomy confirmation (Acanthuriformes order), native range detail, and diet information (90% sponges in wild). Adult size confirmed at 45 cm / 1,600 g."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
-    "reefSafe": null
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "No established captive-breeding protocol is known. Wild spawning is pelagic.",
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "with caution"
   },
   "crustacean": null,
   "coral": null,
@@ -69,6 +90,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-05-25"
 }

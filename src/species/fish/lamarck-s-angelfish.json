@@ -1,0 +1,110 @@
+{
+  "id": "sw-fish-049",
+  "slug": "lamarck-s-angelfish",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Lamarck's Angelfish",
+  "scientificName": "Genicanthus lamarck",
+  "alsoKnownAs": ["Lamark Angelfish", "Freckletail Lyretail Angelfish", "Blackstriped Angelfish"],
+  "category": "Angelfish",
+
+  "taxonomy": {
+    "family": "Pomacanthidae",
+    "order": "Acanthuriformes"
+  },
+
+  "nativeRange": {
+    "regions": ["Indo-Pacific", "Indo-West Pacific"],
+    "countries": ["Japan", "Australia", "Indonesia", "Philippines", "Thailand", "Solomon Islands", "Vanuatu"],
+    "habitat": "Shallow reef crests and deeper reefs adjacent to steep slopes and drop-offs, at depths of roughly 10–50 m",
+    "biotope": "Reef"
+  },
+
+  "waterParameters": {
+    "temperatureC": { "min": 23.5, "max": 27.3 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.020, "max": 1.025 }
+  },
+
+  "adultSizeCm": { "min": 18.0, "max": 24.3 },
+  "lifespanYears": null,
+
+  "tank": {
+    "minVolumeLiters": 492,
+    "minLengthCm": 150,
+    "swimZone": "mid",
+    "decorPreferences": ["open swimming space", "live rock", "caves", "overhangs"]
+  },
+
+  "careLevel": "intermediate",
+
+  "diet": {
+    "type": "planktivore",
+    "notes": "The only true zooplanktivore genus among the angelfishes. Has been documented feeding on zooplankton in midwater aggregations well above the reef. In aquariums, generally advised to offer a varied diet including Spirulina, marine algae, high-quality angelfish preparations, and mysis or frozen shrimp."
+  },
+
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "pair",
+    "minGroupSize": 1,
+    "goodWith": ["other peaceful reef fish", "tangs", "wrasses", "clownfish", "other angelfish species"],
+    "avoidWith": ["conspecific males", "other Genicanthus males", "aggressive fish"]
+  },
+
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+
+  "summary": "Lamarck's Angelfish is a sexually dimorphic, peaceful planktivore from the Indo-West Pacific, generally considered one of the more reef-safe angelfish options and is commonly advised for larger reef aquariums of 130+ gallons.",
+
+  "careNotes": "Genicanthus lamarck is notably different from most other marine angelfish in that it belongs to the only zooplanktivorous genus within the family Pomacanthidae — feeding on zooplankton rather than sponges or other benthic organisms. This feeding habit makes it generally considered safer around corals and invertebrates than many other angelfish. Both sexes display a silvery-gray body with bold horizontal black stripes running from the eye to the caudal fin; females tend to have bolder stripes with one extending along the full length of the caudal fin, while males have a lyretail caudal fin with black margins. The species tends to form small groups in the wild consisting of a dominant male and 2–6 females — only one male per aquarium is generally recommended, as males have been known to be aggressive toward each other. Has been reported to occasionally chase small planktivores such as Anthias and wrasses but generally ignores other tank inhabitants. Generally considered more easily kept than many other large angelfish due to its planktivorous diet accepting prepared and frozen foods. Temperature disagreement noted: LiveAquaria (72–78°F / 22.2–25.6°C) versus FishBase preferred range (24.8–29°C); the averaged range of 23.5–27.3°C is used here. Adult size: LiveAquaria cites 9 in (22.86 cm) while FishBase/Wikipedia cite 25 cm; averaged max of approximately 24.3 cm used.",
+
+  "breedingNotes": "Genicanthus lamarck is a protogynous hermaphrodite — females can change sex to become males when the dominant male is absent. In the wild, groups consist of one male and several females. Captive breeding has been reported but remains uncommon in the hobby. The species tends to spawn in open water, releasing pelagic eggs and larvae that are difficult to raise.",
+
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/lamarcks-angelfish",
+      "accessedDate": "2026-05-25",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Genicanthus-lamarck",
+        "accessedDate": "2026-05-25",
+        "notes": "Cross-checked adult size (25.0 cm TL), temperature range (24.8–29°C preferred), native range, taxonomy, and habitat. Temperature minimum is lower on LiveAquaria (22.2°C) versus FishBase (24.8°C); maximums also differ (25.6°C vs 29°C). Averaged ranges used: min 23.5°C, max 27.3°C. Adult size averaged across LiveAquaria (22.86 cm) and FishBase/Wikipedia (25 cm) yielding max ~24.3 cm."
+      },
+      {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Genicanthus_lamarck",
+        "accessedDate": "2026-05-25",
+        "notes": "Confirmed taxonomy (Pomacanthidae, Acanthuriformes), adult max size 25 cm, native range from Gulf of Thailand to Solomon Islands, depth 10–50 m. Used as a tertiary cross-check for size and taxonomy."
+      }
+    ]
+  },
+
+  "fish": {
+    "breedingDifficulty": "difficult",
+    "breedingNotes": "Protogynous hermaphrodite; captive breeding reported but uncommon. Spawns in open water with pelagic larvae that are difficult to rear.",
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "yes"
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-05-25"
+}

@@ -1,0 +1,111 @@
+{
+  "id": "sw-fish-055",
+  "slug": "longhorn-cowfish",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Longhorn Cowfish",
+  "scientificName": "Lactoria cornuta",
+  "alsoKnownAs": ["Long-horn Cowfish", "Horned Boxfish"],
+  "category": "Boxfish",
+
+  "taxonomy": {
+    "family": "Ostraciidae",
+    "order": "Tetraodontiformes"
+  },
+
+  "nativeRange": {
+    "regions": ["Indo-Pacific", "Red Sea", "East Africa", "Japan", "Australia"],
+    "countries": ["Japan", "Australia", "Indonesia", "Philippines", "South Africa", "Egypt", "Marquesas Islands"],
+    "habitat": "Coastal sandy and muddy habitats, lagoons, reef flats, estuaries, and bays; commonly associated with weedy areas near rocks or reef edges; depths generally 1–50 m, occasionally to 100 m",
+    "biotope": "Reef"
+  },
+
+  "waterParameters": {
+    "temperatureC": { "min": 22.0, "max": 27.0 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": { "min": 8.0, "max": 12.0 },
+    "salinity": { "min": 1.020, "max": 1.026 }
+  },
+
+  "adultSizeCm": { "min": 35.0, "max": 46.0 },
+  "lifespanYears": null,
+
+  "tank": {
+    "minVolumeLiters": 946,
+    "minLengthCm": 240,
+    "swimZone": "all",
+    "decorPreferences": ["open swimming space", "live rock", "sand substrate", "hiding spots"]
+  },
+
+  "careLevel": "expert",
+
+  "diet": {
+    "type": "omnivore",
+    "notes": "Has been documented consuming a wide range of foods including meaty items (small crustaceans, worms, mollusks, small fish) and vegetable-based foods. In captivity, has been reported to accept vitamin-enriched frozen mysis, brine shrimp, prepared marine foods, and algae-based offerings. Tends to be a slow eater and has been known to struggle in tanks with aggressive or fast-feeding tankmates."
+  },
+
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["large peaceful fish", "slow-moving fish", "passive reef fish"],
+    "avoidWith": ["other Longhorn Cowfish", "aggressive feeders", "fin nippers", "small invertebrates"]
+  },
+
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+
+  "summary": "A distinctive box-shaped fish with prominent horn-like projections, generally considered a novelty species for expert saltwater keepers; demands very large tanks and can release a lethal toxin when stressed.",
+
+  "careNotes": "The Longhorn Cowfish (Lactoria cornuta) is commonly considered an expert-level species due to a combination of factors that have little to do with water parameter sensitivity and much to do with its behavioral and biochemical traits. Its most critical characteristic is its ability to secrete pahutoxin (ostracitoxin) into the water column when severely stressed or injured — this toxin has been known to kill all tankmates, including the cowfish itself. This risk is low under stable conditions but makes it unsuitable for tanks where it is likely to be stressed or harassed.\n\nAdults tend to be solitary and best kept individually; specimens of the same species have been known to be intolerant of each other. It is generally advised to introduce this species first so it can establish territory before other fish are added. Conspecific aggression and inter-individual squabbles have been documented even with distantly related boxfish.\n\nThe species tends to be a slow, methodical swimmer and a deliberate eater. It has been known to struggle in tanks with fast or aggressive feeders; target feeding is generally advised to ensure it receives adequate nutrition. In the wild, it feeds by blowing jets of water into sandy substrate to uncover benthic invertebrates.\n\nSize disagreement across sources: LiveAquaria states the aquarium size is typically 16 in (40.6 cm), noting wild specimens may reach 20 in (50.8 cm); FishBase records a maximum total length of 46 cm with common length ~40 cm; Wikipedia records up to 50 cm. The adultSizeCm range (35–46 cm) averages these aquarium-realistic values. Temperature range was averaged across LiveAquaria (72–78°F = 22.2–25.6°C) and FishBase (21.9–28.4°C); salinity range averaged LiveAquaria (SG 1.020–1.025) with a standard upper reef value (SG 1.026).\n\nJuvenile specimens display particularly vivid yellow coloration with white and blue spots; coloration tends to shift and become less intense as the fish matures. Juveniles are frequently available in the trade at small sizes but require significant tank volumes as adults.\n\nBreeding in captivity has not been documented in the hobby literature. In the wild, the species forms loose harems of 3–4 females with one dominant male, with spawning documented from February through early October in studied populations.",
+
+  "breedingNotes": "Captive breeding has not been reported in the hobby. In the wild, Lactoria cornuta is documented as forming small harems (approximately 3–4 females per male) and has been observed spawning from February through early October. No captive-rearing techniques are established.",
+
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/longhorn-cowfish-expert-only",
+      "accessedDate": "2026-05-25",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Lactoria-cornuta",
+        "accessedDate": "2026-05-25",
+        "notes": "Cross-checked adult size (max 46 cm TL, common ~40 cm), temperature range (21.9–28.4°C), taxonomy (Ostraciidae / Tetraodontiformes), native range, and habitat. Temperature max averaged with LiveAquaria: (25.6 + 28.4) / 2 = 27.0°C; min averaged: (22.2 + 21.9) / 2 = 22.0°C. Size discrepancy: FishBase max 46 cm vs LiveAquaria aquarium claim of 16 in (40.6 cm) — averaged to produce adultSizeCm max of 46."
+      },
+      {
+        "name": "Wikipedia — Longhorn Cowfish",
+        "url": "https://en.wikipedia.org/wiki/Longhorn_cowfish",
+        "accessedDate": "2026-05-25",
+        "notes": "Used for taxonomy cross-check, native range confirmation, habitat detail, pahutoxin notes, and wild reproductive biology (harem structure, spawning season). Wikipedia reports max size ~50 cm. Salinity upper bound (SG 1.026) is standard reef consensus, not stated explicitly by FishBase or Wikipedia."
+      }
+    ]
+  },
+
+  "fish": {
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "No captive breeding reported. Wild spawning in harem groups (1 male, ~3–4 females) documented February–October.",
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "with caution"
+  },
+
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-05-25"
+}

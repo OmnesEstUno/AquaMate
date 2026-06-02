@@ -1,0 +1,101 @@
+{
+  "id": "sw-fish-027",
+  "slug": "four-eyed-butterflyfish",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Four Eyed Butterflyfish",
+  "scientificName": "Chaetodon capistratus",
+  "alsoKnownAs": ["Foureye Butterflyfish", "Mock-eye Butterflyfish"],
+  "category": "Butterflyfish",
+  "taxonomy": {
+    "family": "Chaetodontidae",
+    "order": "Acanthuriformes"
+  },
+  "nativeRange": {
+    "regions": ["Caribbean", "Western Atlantic", "Gulf of Mexico"],
+    "countries": ["United States", "Bermuda", "Bahamas", "Mexico", "Cuba", "Trinidad and Tobago", "Venezuela", "Colombia"],
+    "habitat": "Shallow coral reefs and rocky substrates at depths of approximately 2–20 m",
+    "biotope": "Reef"
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 21.0, "max": 27.0 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.021, "max": 1.025 }
+  },
+  "adultSizeCm": { "min": 13.0, "max": 15.0 },
+  "lifespanYears": null,
+  "tank": {
+    "minVolumeLiters": 418.0,
+    "minLengthCm": 150.0,
+    "swimZone": "all",
+    "decorPreferences": ["live rock", "open swimming space", "hiding spots", "mature tank with established algae growth"]
+  },
+  "careLevel": "advanced",
+  "diet": {
+    "type": "carnivore",
+    "notes": "In the wild, has been documented consuming zoantharians, polychaete worms, gorgonian polyps, stony coral tissue, and tunicates. In captivity, tends to be difficult to wean onto prepared foods; vitamin-enriched live brine shrimp, mysis shrimp, finely chopped clam, squid, and frozen carnivore preparations have been reported to work for some individuals. Feeding small amounts at least three times daily is generally recommended."
+  },
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "pair",
+    "minGroupSize": 1,
+    "goodWith": ["peaceful fish of similar size", "non-aggressive tankmates"],
+    "avoidWith": ["aggressive or territorial fish", "corals", "gorgonians", "zoanthids", "large polyp stony corals", "small ornamental invertebrates", "members of the same sex"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A striking Caribbean butterflyfish known for its distinctive false eyespot near the tail. Generally considered one of the more challenging marines to keep — tends to refuse prepared foods and has been reported to have high mortality in captivity.",
+  "careNotes": "The Four Eyed Butterflyfish (also sold as Foureye or Mock-eye Butterflyfish) is widely regarded as one of the more demanding Caribbean marine fish in the hobby. Multiple sources note that fewer than 20% of collected specimens tend to survive their first three months in captivity, primarily due to food refusal. Transitioning this species onto prepared foods generally requires significant patience — vitamin-enriched live brine shrimp and live or fresh clam, squid, and mysis are reported starting points; dried/frozen foods can sometimes be introduced gradually thereafter.\n\nThis species has been known to form monogamous pairs in the wild and may be kept as a male-female pair in aquaria; members of the same sex have been known to quarrel. It is not considered reef-safe and has been documented nipping stony corals, gorgonian polyps, zoantharians, and other sessile invertebrates.\n\nA mature, well-established aquarium with live rock and natural algae growth is generally recommended before introduction. The species tends to spend time foraging across all swim zones.\n\nCross-source tank size disagreement: LiveAquaria recommends 120 US gal (454 L), reefapp.net lists 300 L, and aquainfo.nl lists 500 L for a pair. The averaged figure of approximately 418 L is used here; individual keeper setups may vary, and larger volumes are generally advisable given the species' sensitivity.\n\nTemperature range averaged across three sources: LiveAquaria (22.2–25.6°C), FishBase (21–28°C), and aquainfo.nl (21–28°C) — resulting range 21–27°C.",
+  "breedingNotes": "No reliable captive breeding has been documented for this species. In the wild, it is oviparous and forms monogamous pairs. Successful aquarium reproduction is not considered achievable under typical hobby conditions.",
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/four-eyed-butterflyfish",
+      "accessedDate": "2026-05-25",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Chaetodon-capistratus.html",
+        "accessedDate": "2026-05-25",
+        "notes": "Cross-checked adult size (max 15 cm TL confirmed), temperature range (21–28°C), native distribution, taxonomy (family Chaetodontidae, order Acanthuriformes), and habitat depth."
+      },
+      {
+        "name": "AquaInfo",
+        "url": "https://aquainfo.nl/en/article/chaetodon-capistratus-foureye-butterflyfish/",
+        "accessedDate": "2026-05-25",
+        "notes": "Additional cross-check for temperature (21–28°C), pH (8.1–8.4), salinity (1.023–1.025 SG), adult size (13–15 cm), tank volume (500 L for a pair), temperament, and reef-safe status."
+      },
+      {
+        "name": "ReefApp Encyclopedia",
+        "url": "https://reefapp.net/en/encyclopedia/chaetodon-capistratus",
+        "accessedDate": "2026-05-25",
+        "notes": "Additional data point for tank volume (300 L); adult size listed as 7 cm appears to be an error or refers to a different metric — disregarded in favor of the 13–15 cm consensus from FishBase, LiveAquaria, and AquaInfo. Care rating 'delicate' consistent with advanced care classification."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "No documented captive breeding. Oviparous monogamous pairs in the wild; captive reproduction is not considered achievable.",
+    "conspecificAggression": "moderate",
+    "finNippy": false,
+    "reefSafe": "no"
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-05-25"
+}

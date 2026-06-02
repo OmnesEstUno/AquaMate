@@ -1,0 +1,117 @@
+{
+  "id": "sw-fish-039",
+  "slug": "half-black-angelfish",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Half Black Angelfish",
+  "scientificName": "Centropyge vrolikii",
+  "alsoKnownAs": ["Pearlscale Angelfish", "Pearlscale Pygmy Angelfish", "Half-Black Angelfish"],
+  "category": "Dwarf Angelfish",
+
+  "taxonomy": {
+    "family": "Pomacanthidae",
+    "order": "Acanthuriformes"
+  },
+
+  "nativeRange": {
+    "regions": ["Western Pacific", "Eastern Indian Ocean"],
+    "countries": ["Australia", "Japan", "Indonesia", "Marshall Islands", "Vanuatu"],
+    "habitat": "Adults tend to inhabit lagoons and seaward reefs, primarily in coral-rich areas, at depths of 0–30 m.",
+    "biotope": "Reef"
+  },
+
+  "waterParameters": {
+    "temperatureC": { "min": 23.5, "max": 27.0 },
+    "pH":           { "min": 8.1,  "max": 8.4 },
+    "gH":           null,
+    "kH":           { "min": 8.0,  "max": 12.0 },
+    "salinity":     { "min": 1.020, "max": 1.025 }
+  },
+
+  "adultSizeCm":   { "min": 6.0, "max": 12.0 },
+  "lifespanYears": { "min": 5.0, "max": 10.0 },
+
+  "tank": {
+    "minVolumeLiters": 282,
+    "minLengthCm": 90,
+    "swimZone": "all",
+    "decorPreferences": ["live rock", "caves", "hiding spots", "established algae growth"]
+  },
+
+  "careLevel": "intermediate",
+
+  "diet": {
+    "type": "omnivore",
+    "notes": "Has been documented grazing on microalgae, small crustaceans, and organic matter from live rock. In captivity, generally advised to offer a varied diet including Spirulina-based preparations, nori, mysis shrimp, and brine shrimp. Regular feeding (2–3 times daily) is commonly recommended."
+  },
+
+  "compatibility": {
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["most peaceful reef fish", "clownfish", "tangs", "gobies", "blennies", "wrasses"],
+    "avoidWith": ["other dwarf angelfish of similar coloration", "conspecifics", "small peaceful fish that may be harassed"]
+  },
+
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+
+  "summary": "A striking dwarf angelfish from the Western Pacific with a pale pearlscale front half and dark rear half. Generally considered intermediate in difficulty; best kept singly in a well-established reef tank with ample live rock and hiding places.",
+
+  "careNotes": "The Half Black Angelfish (also widely sold as the Pearlscale Angelfish) is generally considered a hardy dwarf angel once acclimated, though it tends to be more challenging than some of its congeners. It is best kept as the only dwarf angelfish in the system, particularly with similarly colored individuals, as it has been known to behave territorially toward newcomers after becoming established. A well-matured aquarium with plentiful live rock for grazing and numerous hiding spots is generally advised.\n\nRegarding reef safety, this species is commonly considered to be kept with caution — isolated reports of coral nipping (particularly soft corals, clam mantles, and zoanthids) are well documented, though some specimens reportedly coexist with corals without incident. Feeding a varied, algae-rich diet may reduce the likelihood of nipping behavior.\n\nIn the wild it tends to form monogamous, home-ranging pairs rather than defending strict territories. It has been documented forming natural hybrids with Centropyge eibli and C. flavissima where ranges overlap.\n\nTemperature notes: LiveAquaria recommends 22–26°C (72–78°F); FishBase wild-range data shows 25.6–29.3°C; aqua-fish.net suggests 23–26°C. The averaged range used here is approximately 23.5–27°C. Aquarists should target the middle of this range for routine keeping.\n\nTank size notes: LiveAquaria specifies 70 US gallons (265 L) minimum; ReefApp specifies 300 L. The averaged minimum of ~282 L is used here.",
+
+  "breedingNotes": "Reported to be difficult to breed in captivity. No obvious sexual dimorphism has been documented; distinguishing males from females visually is generally considered unreliable. Like most dwarf angelfishes, it is a protogynous hermaphrodite in the wild, with dominant individuals transitioning to male. Successful captive spawning attempts have been reported only rarely.",
+
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/half-black-angelfish",
+      "accessedDate": "2026-05-25",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Centropyge-vrolikii.html",
+        "accessedDate": "2026-05-25",
+        "notes": "Cross-checked scientific name, adult size (12 cm TL), temperature range (25.6–29.3°C wild), taxonomy (Pomacanthidae / Acanthuriformes), native range, and habitat. FishBase temperature range reflects wild tropical distribution and skews warmer than aquarium-trade recommendations; values averaged with other sources."
+      },
+      {
+        "name": "ReefApp Encyclopedia",
+        "url": "https://reefapp.net/en/encyclopedia/centropyge-vrolikii",
+        "accessedDate": "2026-05-25",
+        "notes": "Confirmed adult size 12 cm; minimum tank volume 300 L; reef-safe status 'with caution'. Tank volume averaged with LiveAquaria (265 L) to yield 282 L."
+      },
+      {
+        "name": "Aqua-Fish.net",
+        "url": "https://saltwater.aqua-fish.net/?half-black-angel=",
+        "accessedDate": "2026-05-25",
+        "notes": "Additional temperature reference (23–26°C), pH (8.0–8.3), salinity (1.020–1.025). Temperature averaged across all three sources. This source listed reef-safe as 'yes', but majority of sources (LiveAquaria, ReefApp) indicate 'with caution'; 'with caution' adopted."
+      }
+    ]
+  },
+
+  "fish": {
+    "breedingDifficulty": "advanced",
+    "breedingNotes": "Has been reported to be rarely bred in captivity; no obvious sexual dimorphism. Protogynous hermaphrodite in the wild. Reported captive spawning attempts are uncommon.",
+    "conspecificAggression": "moderate",
+    "finNippy": false,
+    "reefSafe": "with caution"
+  },
+
+  "crustacean":   null,
+  "coral":        null,
+  "mollusc":      null,
+  "echinoderm":   null,
+  "other-invert": null,
+  "plant":        null,
+  "macroalgae":   null,
+
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-05-25"
+}

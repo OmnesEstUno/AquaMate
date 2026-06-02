@@ -1,0 +1,117 @@
+{
+  "id": "sw-fish-040",
+  "slug": "harlequin-bass",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Harlequin Bass",
+  "scientificName": "Serranus tigrinus",
+  "alsoKnownAs": ["Harlequin Basslet", "Tobaccofish Basslet"],
+  "category": "Basslet",
+
+  "taxonomy": {
+    "family": "Serranidae",
+    "order": "Perciformes"
+  },
+
+  "nativeRange": {
+    "regions": ["Western Atlantic", "Caribbean"],
+    "countries": ["United States", "Bermuda", "Mexico", "Cuba", "Jamaica", "Puerto Rico", "Trinidad and Tobago", "Venezuela", "Colombia", "Brazil"],
+    "habitat": "Reef-associated; most commonly found in areas with rock or scattered coral, at depths of 0–40 m. Non-migratory.",
+    "biotope": "Reef"
+  },
+
+  "waterParameters": {
+    "temperatureC": { "min": 23.0, "max": 26.5 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": { "min": 8.0, "max": 12.0 },
+    "salinity": { "min": 1.020, "max": 1.025 }
+  },
+
+  "adultSizeCm": { "min": 5.0, "max": 29.1 },
+  "lifespanYears": null,
+
+  "tank": {
+    "minVolumeLiters": 158,
+    "minLengthCm": 90,
+    "swimZone": "bottom",
+    "decorPreferences": ["live rock", "caves", "rocky overhangs", "sand substrate"]
+  },
+
+  "careLevel": "beginner",
+
+  "diet": {
+    "type": "carnivore",
+    "notes": "Has been documented feeding primarily on crustaceans and small fish in the wild. In aquariums, generally accepts a variety of meaty foods including frozen mysis shrimp, brine shrimp, krill, chopped seafood, and small live prey."
+  },
+
+  "compatibility": {
+    "temperament": "semi-aggressive",
+    "grouping": "pair",
+    "minGroupSize": 1,
+    "goodWith": ["larger fish", "non-territorial reef fish", "similarly-sized tankmates"],
+    "avoidWith": ["small fish that can be swallowed", "small crustaceans", "other Serranus species", "bottom-dwelling fish sharing territory"]
+  },
+
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+
+  "summary": "The Harlequin Bass is a hardy, vividly patterned saltwater fish from the Caribbean and Western Atlantic, generally considered suitable for intermediate to beginner reef keepers who can accommodate its semi-aggressive temperament and predatory instincts toward smaller tankmates.",
+
+  "careNotes": "The Harlequin Bass (Serranus tigrinus) is generally considered one of the hardier marine fish available in the trade, making it relatively accessible for beginners. It tends to do best in aquariums with plenty of rocky hiding places and caves. As it matures, it has been known to prey upon small fish and crustaceans small enough to swallow, so tank selection should account for this. Most sources recommend keeping only one per aquarium unless a bonded pair can be obtained; conspecific aggression tends to be high and individuals have been known to fight vigorously.\n\nThis species is a simultaneous (synchronous) hermaphrodite — individuals possess both male and female reproductive organs and have been documented forming monogamous home-ranging pairs in the wild, though they do not appear to defend exclusive territories.\n\nMinimum tank size is a point of disagreement across sources: LiveAquaria recommends 75 gallons (284 L), AquariumDomain.com suggests 30 gallons (114 L), and AquaticCommunity.com lists 20 gallons (76 L). The averaged recommendation used here is approximately 158 L; however, given the species' reported maximum size of ~29 cm, the larger end of this range is more appropriate for adult specimens. dataStatus is needs_review due to this wide spread.\n\nTemperature sources also show moderate variation: aquarium hobby sources cluster around 22–26°C while FishBase wild-data suggests 25–28°C. The averaged range used here is 23–26.5°C.\n\nAdult size: FishBase records a maximum fork length of 29.0 cm in the wild; LiveAquaria lists a maximum size of 11.5 inches (29.2 cm). Some hobby sites cite 4 inches (10 cm) as a typical aquarium-kept size, but this appears to reflect common commercial specimens rather than the species' true adult maximum.",
+
+  "breedingNotes": "Very little has been reported on captive breeding of this species. In the wild, it has been documented as a synchronous hermaphrodite that forms monogamous pairs and spawns pelagically. Captive spawning has not been reliably documented in hobbyist literature.",
+
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/harlequin-bass",
+      "accessedDate": "2026-05-25",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://fishbase.se/Summary/SpeciesSummary.php?id=3350",
+        "accessedDate": "2026-05-25",
+        "notes": "Cross-checked adult size (29.0 cm FL), temperature range (25.3–28.1°C), native range, taxonomy, and behavioral notes. Temperature min is higher than hobby sources; averaged across all four sources for final value."
+      },
+      {
+        "name": "AquariumDomain",
+        "url": "https://www.aquariumdomain.com/SpeciesProfiles/MarineFish/HarlequinBass.shtml",
+        "accessedDate": "2026-05-25",
+        "notes": "Cross-checked tank size (30 gal / 114 L), temperature (72–80°F / 22–27°C), care level, and diet. Used in averaging for temperature and minimum tank volume."
+      },
+      {
+        "name": "AquaticCommunity",
+        "url": "https://www.aquaticcommunity.com/basses/Harlequin.php",
+        "accessedDate": "2026-05-25",
+        "notes": "Cross-checked tank size (20 gal / 76 L), temperature (72–78°F), native range (Caribbean/Western Atlantic), and breeding notes. Used in averaging for minimum tank volume."
+      }
+    ]
+  },
+
+  "fish": {
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "Very little has been reported on captive breeding. A synchronous hermaphrodite that forms monogamous pairs in the wild; pelagic spawner. No documented captive-breeding success in the hobbyist literature.",
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "with caution"
+  },
+
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+
+  "schemaVersion": 1,
+  "dataStatus": "needs_review",
+  "lastReviewed": "2026-05-25"
+}

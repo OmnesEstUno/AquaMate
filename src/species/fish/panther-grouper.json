@@ -1,0 +1,123 @@
+{
+  "id": "sw-fish-058",
+  "slug": "panther-grouper",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Panther Grouper",
+  "scientificName": "Cromileptes altivelis",
+  "alsoKnownAs": ["Humpback Grouper", "Polka Dot Grouper", "Barramundi Cod", "Polka-dot Grouper"],
+  "category": "Groupers",
+
+  "taxonomy": {
+    "family": "Epinephelidae",
+    "order": "Perciformes"
+  },
+
+  "nativeRange": {
+    "regions": ["Indo-Pacific", "Western Pacific", "Eastern Indian Ocean"],
+    "countries": ["Japan", "Australia", "Indonesia", "Philippines", "Papua New Guinea", "Palau", "Guam", "New Caledonia", "Kenya"],
+    "habitat": "Reef-associated; generally found near lagoon and seaward reefs, often in dead or silty areas. Depth range typically 2–40 m.",
+    "biotope": "Reef"
+  },
+
+  "waterParameters": {
+    "temperatureC": { "min": 24.0, "max": 27.0 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.022, "max": 1.025 }
+  },
+
+  "adultSizeCm": { "min": 50.0, "max": 70.0 },
+  "lifespanYears": { "min": 15, "max": 20 },
+
+  "tank": {
+    "minVolumeLiters": 1136,
+    "minLengthCm": 240,
+    "swimZone": "all",
+    "decorPreferences": ["live rock", "caves", "overhangs", "open swimming space"]
+  },
+
+  "careLevel": "intermediate",
+
+  "diet": {
+    "type": "carnivore",
+    "notes": "Accepts a variety of meaty marine foods including silversides, shrimp, crab, krill, squid, mussels, and marine pellets. Has been known to consume any fish or invertebrate small enough to fit in its mouth. Juveniles generally benefit from more frequent feedings (2–3 times daily), while adults tend to do well with feedings 2–3 times per week."
+  },
+
+  "compatibility": {
+    "temperament": "aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["large angelfish", "large tangs", "large wrasses", "large triggerfish", "large eels"],
+    "avoidWith": ["small fish", "crustaceans", "shrimp", "small invertebrates", "other groupers", "species small enough to be swallowed"]
+  },
+
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+
+  "summary": "A striking Indo-Pacific grouper with white to greenish-white coloring adorned with black spots. Generally considered less aggressive than most groupers but is a predator that has been known to consume tankmates small enough to fit in its mouth. Best kept in a very large aquarium with robust filtration.",
+
+  "careNotes": "The Panther Grouper is generally considered one of the more manageable grouper species for home aquariums but demands a very large tank — sources consistently recommend a minimum of 300 gallons (approximately 1,136 L) to accommodate its adult size and high bioload. Adult size in the wild can reach around 70 cm, though captive specimens tend to top out around 50–60 cm. Water quality must be carefully maintained, as this species is sensitive to poor conditions; an oversized protein skimmer and powerful filtration are commonly advised, with filter maintenance needed roughly twice as frequently as a comparably sized reef system.\n\nThe species is a protogynous hermaphrodite — individuals are born female and larger, dominant individuals may transition to male. This sexual transition has been documented in the wild but is rarely observed in captivity. Breeding in captivity has not been reliably accomplished; the only documented captive spawn (1979) resulted in fry that did not survive beyond one week.\n\nThe Panther Grouper tends to be shy when first introduced to a new tank. Providing plenty of caves and overhangs made from live rock can help it settle in. As it grows, it has been known to appreciate more open swimming space.\n\nTemperature sourcing note: FishBase reports a wild range of 25–29°C; aquarium hobby sources generally suggest 22–27°C. The averaged range of 24–27°C is used here as a practical keeper target. Salinity sources ranged from 1.020–1.026 SG across four sources; the averaged range 1.022–1.025 is used. Tank size: most sources agree on 300 gallons (1,136 L) minimum; one outlier (AquaticCommunity) noted 100 gallons for smaller specimens, which is not appropriate for adults.\n\nNote on invasive range: Specimens have been documented off Florida's Atlantic coast and in the Gulf of Mexico, likely representing escaped or released aquarium fish. Aquarists should never release this species into non-native waters.",
+
+  "breedingNotes": "Protogynous hermaphrodites — individuals begin life as females and dominant individuals have been known to transition to male. Captive breeding has not been reliably achieved. The only documented captive spawning attempt (1979) produced fry that died within a week. This species is generally considered \"not in captivity\" for practical breeding purposes.",
+
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/collections/groupers",
+      "accessedDate": "2026-05-25",
+      "notes": "Collection page only; individual species data supplemented from additional sources listed below."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Cromileptes-altivelis.html",
+        "accessedDate": "2026-05-25",
+        "notes": "Cross-checked max size (70 cm), native range, habitat, temperature (25–29°C wild), taxonomy (Epinephelidae, Perciformes)."
+      },
+      {
+        "name": "Saltwater Aquarium Blog",
+        "url": "https://www.saltwateraquariumblog.com/panther-grouper-care/",
+        "accessedDate": "2026-05-25",
+        "notes": "Adult size (27 in / 68.6 cm), tank size (300 gal), care level (moderate), lifespan (20+ years), reef-safe status (with caution re: invertebrates), breeding notes, diet."
+      },
+      {
+        "name": "AquaticCommunity",
+        "url": "https://www.aquaticcommunity.com/Groupers/Panther.php",
+        "accessedDate": "2026-05-25",
+        "notes": "Temperature 75–78°F (23.9–25.6°C), salinity 1.022–1.025, pH 8.1–8.4, tank size 100 gal minimum (likely for juveniles; outlier vs. 300 gal consensus for adults). Care level: easy to moderate."
+      },
+      {
+        "name": "AquariumDomain",
+        "url": "https://www.aquariumdomain.com/SpeciesProfiles/MarineFish/PantherGrouper.shtml",
+        "accessedDate": "2026-05-25",
+        "notes": "Tank size 300 gal, temperature 72–78°F (22.2–25.6°C), salinity 1.021–1.023, care level easy, temperament aggressive. Adult size 20 inches in captivity."
+      }
+    ]
+  },
+
+  "fish": {
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "Protogynous hermaphrodite. Captive spawning documented once (1979) but fry did not survive. Generally considered not achievable in home aquariums.",
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "no"
+  },
+
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-05-25"
+}

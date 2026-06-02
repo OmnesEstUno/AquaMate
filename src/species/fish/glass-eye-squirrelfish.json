@@ -1,0 +1,116 @@
+{
+  "id": "sw-fish-030",
+  "slug": "glass-eye-squirrelfish",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Glass Eye Squirrelfish",
+  "scientificName": "Heteropriacanthus cruentatus",
+  "alsoKnownAs": ["Dusky-finned Bullseye Squirrelfish", "Glasseye Snapper", "Glasseye"],
+  "category": "Squirrelfish",
+
+  "taxonomy": {
+    "family": "Priacanthidae",
+    "order": "Eupercaria"
+  },
+
+  "nativeRange": {
+    "regions": ["Atlantic Ocean", "Indian Ocean", "Pacific Ocean", "Red Sea"],
+    "countries": [],
+    "habitat": "Reef-associated; found in shallow reef areas and rocky substrates, typically at depths of 3–35 m (to 300 m)",
+    "biotope": "Reef"
+  },
+
+  "waterParameters": {
+    "temperatureC": { "min": 22, "max": 27 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": null,
+    "salinity": { "min": 1.020, "max": 1.025 }
+  },
+
+  "adultSizeCm": { "min": 20, "max": 35 },
+  "lifespanYears": null,
+
+  "tank": {
+    "minVolumeLiters": 303,
+    "minLengthCm": null,
+    "swimZone": "all",
+    "decorPreferences": ["live rock", "caves", "overhangs", "crevices"]
+  },
+
+  "careLevel": "intermediate",
+
+  "diet": {
+    "type": "carnivore",
+    "notes": "Has been documented consuming a variety of meaty foods in captivity, including shrimp, squid, clams, and small fish. In the wild, feeds on octopi, pelagic shrimp, stomatopods, crabs, small fish, and polychaetes. Generally accepts frozen meaty fare once acclimated."
+  },
+
+  "compatibility": {
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["large peaceful fish", "other large semi-aggressive fish"],
+    "avoidWith": ["small fish", "small shrimp", "serpent stars", "snails", "worms", "small crustaceans"]
+  },
+
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+
+  "summary": "A large, nocturnal reef fish from circumglobal tropical waters, generally kept singly with plenty of rockwork to hide in; tends to be peaceful toward similarly-sized fish but is known to consume small invertebrates.",
+
+  "careNotes": "The Glass Eye Squirrelfish is a nocturnal species; it generally hides during daylight hours and becomes active at dusk and night. Groups can be kept in larger aquariums when introduced simultaneously to reduce aggression between individuals. A well-sealed lid is generally advised, as squirrelfish have been known to jump. Caution is advised when handling due to sharp opercular spines. The species has been reported to eat serpent stars, snails, fireworms, and small crustaceans, so careful selection of tankmates is warranted. FishBase notes isolated reports of ciguatera poisoning in wild-caught specimens; this is not a concern for captive aquarium fish but is a safety consideration if wild-caught individuals were consumed. Juveniles display brown-to-red mottled coloration; adults develop brighter red coloration. Adult size shows notable disagreement across sources: aquarium hobby sources typically cite a maximum of around 30–31 cm (12 in) in captivity, while FishBase records a maximum total length of 50.7 cm in the wild; the range 20–35 cm represents an averaged estimate. Tank size values across sources ranged from 265 L (70 gal) to 379 L (100 gal); 303 L is the averaged minimum. Sources for care level ranged from easy (LiveAquaria) to intermediate/moderate (BlueZoo, FreshMarine); intermediate is the averaged assessment.",
+
+  "breedingNotes": null,
+
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/collections/squirrelfish",
+      "accessedDate": "2026-05-25",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "BlueZoo Aquatics",
+        "url": "https://www.bluezooaquatics.com/productDetail.asp?did=1&pid=196&cid=39",
+        "accessedDate": "2026-05-25",
+        "notes": "Cross-checked sizing, tank requirements, reef safety, and temperament. Designated secondary; note: this URL is BlueZoo Aquatics, not FishBase as labeled in the discovery manifest."
+      },
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Heteropriacanthus-cruentatus.html",
+        "accessedDate": "2026-05-25",
+        "notes": "Confirmed scientific name, taxonomy (Priacanthidae), max TL 50.7 cm, temperature range 23.3–29°C, and circumglobal distribution. Used to cross-verify adult size and water parameters."
+      },
+      {
+        "name": "FreshMarine",
+        "url": "https://www.freshmarine.com/glass-eye-squirrelfish.html",
+        "accessedDate": "2026-05-25",
+        "notes": "Cross-checked water parameters (72–78°F, pH 8.1–8.4, SG 1.020–1.025), adult size (12 in), tank size (70 gal), and reef-safe status. Parameters consistent with LiveAquaria."
+      }
+    ]
+  },
+
+  "fish": {
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": null,
+    "conspecificAggression": "low",
+    "finNippy": false,
+    "reefSafe": "with caution"
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+
+  "schemaVersion": 1,
+  "dataStatus": "needs_review",
+  "lastReviewed": "2026-05-25"
+}

@@ -1,0 +1,123 @@
+{
+  "id": "sw-fish-028",
+  "slug": "fuzzy-dwarf-lionfish",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Fuzzy Dwarf Lionfish",
+  "scientificName": "Dendrochirus brachypterus",
+  "alsoKnownAs": ["Shortfin Lionfish", "Shortfin Turkeyfish", "Dwarf Lionfish"],
+  "category": "Lionfish",
+
+  "taxonomy": {
+    "family": "Scorpaenidae",
+    "order": "Scorpaeniformes"
+  },
+
+  "nativeRange": {
+    "regions": ["Indo-Pacific", "Red Sea", "East Africa", "Western Pacific"],
+    "countries": ["India", "Sri Lanka", "Japan", "Australia", "Samoa", "Tonga", "Indonesia"],
+    "habitat": "Reef flats and shallow lagoons; favors weed-covered rocks on sandy substrates, sponges, and areas with overhangs and caves",
+    "biotope": "Reef"
+  },
+
+  "waterParameters": {
+    "temperatureC": { "min": 23.0, "max": 28.0 },
+    "pH":           { "min": 8.1, "max": 8.4 },
+    "gH":           null,
+    "kH":           { "min": 8.0, "max": 12.0 },
+    "salinity":     { "min": 1.021, "max": 1.025 }
+  },
+
+  "adultSizeCm": { "min": 12.0, "max": 17.0 },
+  "lifespanYears": { "min": 8.0, "max": 15.0 },
+
+  "tank": {
+    "minVolumeLiters": 189.0,
+    "minLengthCm": 90.0,
+    "swimZone": "bottom",
+    "decorPreferences": ["live rock", "caves", "overhangs", "crevices"]
+  },
+
+  "careLevel": "intermediate",
+
+  "diet": {
+    "type": "carnivore",
+    "notes": "Tends to prefer live prey such as feeder shrimp, small crustaceans, and small fish. Has been known to accept frozen meaty foods (shrimp, squid, fish chunks) when trained with tong-feeding. Generally advised to feed every other day in small portions due to their low metabolism and nocturnal activity."
+  },
+
+  "compatibility": {
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["large predatory fish", "moray eels", "large angelfish", "large tangs"],
+    "avoidWith": ["small fish that fit in its mouth", "shrimp", "crabs", "small invertebrates", "fin-nipping species such as pufferfish and triggerfish", "other small lionfish of the same species"]
+  },
+
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+
+  "summary": "A compact, venomous lionfish from the Indo-Pacific, generally considered reef-safe with caution. Tends to be hardy once settled and is commonly kept as a showpiece predator in FOWLR and mixed reef systems with appropriately sized tankmates.",
+
+  "careNotes": "The Fuzzy Dwarf Lionfish is nocturnal and generally advised to be fed only every other day due to its low metabolism. It has been reported to thrive in tanks with ample rockwork, caves, and overhangs where it can rest and ambush prey. Venomous dorsal spines are present — all 13 dorsal rays carry venom and should be handled with caution during tank maintenance; stings have been compared to a bee sting but can vary in severity. The species has been known to become tame over time and may recognize regular feeders. Live food is often preferred initially; transitioning to frozen meaty foods (shrimp, squid, fish chunks) has been reported to be possible with patience using tong-feeding techniques. It will generally consume any fish or invertebrate small enough to fit in its mouth. Conspecific aggression tends to be moderate — multiple specimens have been kept together in larger tanks but have also been known to be aggressive toward one another. A minimum 50-gallon (approximately 189 L) tank is commonly recommended, though some sources suggest 55 gallons (208 L) for more comfortable long-term keeping. Sources disagreed on reef safety: most rate it 'with caution' due to its predatory nature toward small invertebrates; at least one source considers it broadly reef-safe as it does not target corals. Temperature range was averaged across FishBase (24.4–29°C), CoralRealm (22.8–28.9°C), and Fish Laboratory (22.2–25.6°C), yielding an approximate range of 23–28°C. Salinity SG range averaged from CoralRealm (1.020–1.025), Fish Laboratory (1.025), and ReefApp (1.026). The species is also referred to as Neochirus brachypterus in some recent taxonomic treatments (FishBase); Dendrochirus brachypterus remains the trade-standard name.",
+
+  "breedingNotes": "Spawning in captivity has been documented but is considered rare. The species exhibits distinct pairing behavior in the wild. Captive breeding is generally considered advanced due to the specialized conditions required for larval rearing. Detailed captive breeding guides are scarce in hobbyist literature.",
+
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/collections/lionfish",
+      "accessedDate": "2026-05-25",
+      "notes": "Collection page and species spotlight used; direct product page (503/404) not accessible. Species spotlight and search results confirmed 50-gallon minimum, semi-aggressive temperament, reef-safe-with-caution rating, and every-other-day feeding."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Dendrochirus-brachypterus.html",
+        "accessedDate": "2026-05-25",
+        "notes": "Cross-checked taxonomy (Scorpaenidae, Scorpaeniformes), max size (17.0 cm TL), temperature range (24.4–29°C), native range (Indo-West Pacific, India to Tonga, north to Japan), and nocturnal/crustacean-feeding behavior. FishBase also lists a recent proposed synonym Neochirus brachypterus, but Dendrochirus brachypterus is retained here as the trade-standard name."
+      },
+      {
+        "name": "CoralRealm",
+        "url": "https://www.coralrealm.com/fuzzy-dwarf-lionfish/",
+        "accessedDate": "2026-05-25",
+        "notes": "Cross-checked size (up to 7 in / 17.78 cm wild, ~5 in captive), temperature 22.8–28.9°C, salinity 1.020–1.025, kH 8–12, 50-gallon minimum, semi-aggressive temperament, reef-with-caution, carnivore diet. Confirms venomous spines."
+      },
+      {
+        "name": "Fish Laboratory",
+        "url": "https://www.fishlaboratory.com/fish/dwarf-lionfish/",
+        "accessedDate": "2026-05-25",
+        "notes": "Cross-checked temperature 22.2–25.6°C, pH 8.1–8.4, SG 1.025, 55-gallon (208 L) minimum tank. Noted as 'moderate to advanced' care level — averaged with other sources to arrive at 'intermediate'. Outlier on reef-safe rating (listed as 'yes'); majority of other sources say 'with caution'."
+      },
+      {
+        "name": "ReefApp Encyclopedia",
+        "url": "https://reefapp.net/en/encyclopedia/dendrochirus-brachypterus",
+        "accessedDate": "2026-05-25",
+        "notes": "Cross-checked size (16 cm), SG 1.026, native range (Red Sea to Samoa/Tonga, Japan, Australia). Tank minimum listed as 100 L (26 gal) — notably lower than hobby consensus of 50 gal; not used as the basis for minVolumeLiters. Confirms nocturnal behavior and live-food preference."
+      }
+    ]
+  },
+
+  "fish": {
+    "breedingDifficulty": "advanced",
+    "breedingNotes": "Spawning in captivity is uncommon; the species exhibits pairing behavior and females have specialized ovarian structures. Larval rearing has been reported but is considered advanced. Most aquarists do not attempt captive breeding.",
+    "conspecificAggression": "moderate",
+    "finNippy": false,
+    "reefSafe": "with caution"
+  },
+
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-05-25"
+}

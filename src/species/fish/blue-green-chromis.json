@@ -5,61 +5,88 @@
   "taxon": "fish",
   "waterType": "saltwater",
   "commonName": "Blue/Green Chromis",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "scientificName": "Chromis viridis",
+  "alsoKnownAs": ["Green Reef Chromis", "Green Chromis", "Blue-Green Damselfish"],
   "category": "Chromis",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Pomacentridae",
+    "order": "Perciformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null
+    "regions": ["Indo-Pacific", "South Pacific"],
+    "countries": ["Madagascar", "Philippines", "Hawaii", "Australia", "Japan"],
+    "habitat": "Shallow reef flats and lagoons, typically found in large aggregations above branching Acropora coral thickets at depths of 1–20 m.",
+    "biotope": "Reef"
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
+    "temperatureC": { "min": 22.8, "max": 27.6 },
+    "pH": { "min": 8.1, "max": 8.4 },
     "gH": null,
-    "kH": null,
-    "salinity": null
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.021, "max": 1.025 }
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 5.0, "max": 10.0 },
+  "lifespanYears": { "min": 8, "max": 15 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": []
+    "minVolumeLiters": 114,
+    "minLengthCm": 90,
+    "swimZone": "mid",
+    "decorPreferences": ["live rock", "branching coral", "open swimming space"]
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "beginner",
+  "diet": {
+    "type": "omnivore",
+    "notes": "In the wild, has been documented feeding primarily on phytoplankton and zooplankton. In captivity, generally accepts a varied diet including vitamin-enriched flake foods, frozen mysis shrimp, frozen brine shrimp, krill, and small pellets. Feeding 2–3 times daily is commonly recommended."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "peaceful",
+    "grouping": "schooling",
+    "minGroupSize": 6,
+    "goodWith": ["other peaceful reef fish", "basslets", "blennies", "gobies", "clownfish", "tangs", "cardinalfish"],
+    "avoidWith": ["large aggressive fish", "lionfish", "groupers", "large triggers"]
   },
   "media": {
     "primaryImage": "blue_green_chromis.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Blue/Green Chromis.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "A hardy, peaceful schooling damselfish from the Indo-Pacific, prized for its shimmering blue-green coloration. Generally considered one of the more beginner-friendly saltwater fish and is commonly considered reef-safe.",
+  "careNotes": "Generally advised to keep in groups of at least 6; smaller groups tend to develop hierarchies where dominant individuals bully subordinates. Thrives in reef aquariums with branching corals that mimic its natural habitat. Has been reported to live 8–15 years with excellent water quality. Males have been known to display muted yellow coloration during spawning and turn aggressive toward one another. Captive specimens typically reach around 7.5–8 cm, while wild individuals can approach 10 cm.\n\nTemperature note: LiveAquaria recommends 72–78°F (22.2–25.6°C), while FishBase wild data suggests 24.6–29.3°C; the averaged range of 22.8–27.6°C is used here. Salinity averaged from multiple sources (LiveAquaria and AquariumSource: 1.020–1.025; FishKeepingWorld: 1.023–1.025).\n\nThis file was originally catalogued as 'Blue/Green Chromis' (slug: blue-green-chromis, id: sw-047); the species is also sold under the trade names 'Green Reef Chromis' and 'Green Chromis'. Assigned controller id sw-fish-036 was redirected to this existing placeholder entry.",
+  "breedingNotes": "Males prepare nests on sand and rubble and guard eggs until hatching (typically within 2–3 days). Captive breeding has been attempted but is generally considered difficult in home aquaria due to the aggression males display toward rivals during spawning and the need for large, species-appropriate systems.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/green-reef-chromis",
+      "accessedDate": "2026-05-25",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "FishKeepingWorld",
+        "url": "https://www.fishkeepingworld.com/green-chromis/",
+        "accessedDate": "2026-05-25",
+        "notes": "Cross-checked sizing, temperature, salinity, and tank requirements. Temperature range 72–82°F vs LiveAquaria's 72–78°F; averaged across sources."
+      },
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Chromis-viridis.html",
+        "accessedDate": "2026-05-25",
+        "notes": "Used for taxonomy confirmation, native range/distribution, and wild temperature data (24.6–29.3°C). Max size confirmed at 10 cm TL."
+      },
+      {
+        "name": "AquariumSource",
+        "url": "https://www.aquariumsource.com/blue-green-chromis/",
+        "accessedDate": "2026-05-25",
+        "notes": "Additional cross-check for temperature (72–82°F), salinity (1.020–1.025), lifespan (8–15 years), and diet. Consistent with FishKeepingWorld."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
-    "reefSafe": null
+    "breedingDifficulty": "difficult",
+    "breedingNotes": "Egg scatterers with parental care; males guard nests but become aggressive toward conspecifics during spawning. Rarely bred successfully in home aquaria.",
+    "conspecificAggression": "moderate",
+    "finNippy": false,
+    "reefSafe": "yes"
   },
   "crustacean": null,
   "coral": null,
@@ -69,6 +96,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-05-25"
 }

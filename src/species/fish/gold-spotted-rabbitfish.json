@@ -1,0 +1,107 @@
+{
+  "id": "sw-fish-033",
+  "slug": "gold-spotted-rabbitfish",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Gold Spotted Rabbitfish",
+  "scientificName": "Siganus punctatus",
+  "alsoKnownAs": ["Goldspotted Rabbitfish", "Goldspotted Spinefoot", "Spotted Rabbitfish"],
+  "category": "Rabbitfish",
+  "taxonomy": {
+    "family": "Siganidae",
+    "order": "Acanthuriformes"
+  },
+  "nativeRange": {
+    "regions": ["Western Pacific", "Eastern Indian Ocean"],
+    "countries": ["Australia", "Indonesia", "Philippines", "Fiji", "Papua New Guinea", "Singapore", "Thailand", "Taiwan", "Palau", "Micronesia"],
+    "habitat": "Reef-associated; clear lagoons and seaward reefs, typically at 1–40 m depth.",
+    "biotope": "Reef"
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 22.0, "max": 27.0 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": { "min": 8.0, "max": 12.0 },
+    "salinity": { "min": 1.021, "max": 1.025 }
+  },
+  "adultSizeCm": { "min": 30.0, "max": 40.0 },
+  "lifespanYears": { "min": 5.0, "max": 7.0 },
+  "tank": {
+    "minVolumeLiters": 540,
+    "minLengthCm": null,
+    "swimZone": "all",
+    "decorPreferences": ["live rock", "algae growth", "open swimming space"]
+  },
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "herbivore",
+    "notes": "Primarily feeds on benthic algae and vegetable matter. In aquariums, marine algae sheets (nori), algae wafers, spirulina-based frozen foods, and vegetable-based flake foods are generally recommended. Offering algae at least three times weekly has been found to reduce the likelihood of coral nipping."
+  },
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "pair",
+    "minGroupSize": 1,
+    "goodWith": ["tangs", "clownfish", "damselfish", "large semi-aggressive fish"],
+    "avoidWith": ["other rabbitfish", "other Siganus species", "foxface"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A large, peaceful Western Pacific herbivore with vivid gold-and-brown spotting. Generally considered reef-safe when well-fed, though isolated cases of coral nipping have been reported. Has venomous dorsal and anal spines that should be handled with caution.",
+  "careNotes": "The Gold Spotted Rabbitfish is generally regarded as one of the hardier saltwater fish available to aquarists, though its large adult size (commonly reaching 30–40 cm in the wild) tends to make it best suited for spacious systems. A minimum of around 540 L (average of trade recommendations ranging 125–180 gal) is advisable for a single specimen. It has been documented grazing primarily on benthic algae and is often sought for natural algae control in reef aquariums.\n\nTemperature: trade sources generally advise 22–26°C; FishBase wild habitat data gives 24.7–29°C. The averaged husbandry range (22–27°C) is used here; optimal aquarium temperature is commonly cited around 24–26°C.\n\nReef safety: the species is generally considered reef-safe with caution. When well-fed it tends to leave corals alone, but underfed specimens have been known to nip at soft corals, LPS, and macroalgae. Consistent feeding is strongly advised.\n\nVenomous spines: all dorsal and anal fin spines are venomous and capable of inflicting a painful sting. Handling should be done with a net or by directing the fish using aquarium tools — never with bare hands.\n\nConspecific aggression: adults have been known to be aggressive toward other rabbitfish and Siganidae; keeping only one per system is generally advised unless maintaining a confirmed mated pair in a very large tank. Juveniles in the wild tend to school in groups of up to 50 individuals; adults transition to pair-living.\n\nColor variation: when stressed, sleeping, or frightened, the species may adopt a mottled, less vibrant color pattern — this is normal camouflage behavior and not an indicator of illness.\n\nBreeding: spawning has been documented in the wild around new or full moons; captive breeding has not been reliably achieved in home aquariums.",
+  "breedingNotes": "Spawning in the wild has been reported to occur around lunar cycles (new or full moons), typically in pairs. Captive breeding has not been documented in home aquarium settings and is generally considered impractical without specialized facilities.",
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/product/1451/?pcatid=1451",
+      "accessedDate": "2026-05-25",
+      "notes": "Primary page found via search; the collection URL https://www.liveaquaria.com/collections/foxface-rabbitfish returned HTTP 503. Species page confirmed adult size 12 in, 72–78°F, pH 8.1–8.4, SG 1.020–1.025, 180 gal min, moderate care, herbivore, peaceful, reef-safe with caution."
+    },
+    "additional": [
+      {
+        "name": "ReefGuide (IndoPac)",
+        "url": "https://reefguide.org/indopac/siganuspunctatus.html",
+        "accessedDate": "2026-05-25",
+        "notes": "Provided taxonomy (Siganidae, Acanthuriformes), adult size up to 40 cm, depth 3–40 m, and native range (Australia, Indonesia, Micronesia, Philippines, Papua New Guinea, Fiji). Limited husbandry data."
+      },
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Siganus-punctatus.html",
+        "accessedDate": "2026-05-25",
+        "notes": "Cross-checked size (40 cm max, 30 cm common), temperature range (24.7–29°C), native range, taxonomy, and diet (herbivore, trophic level 2.0). Temperature spread vs trade sources (22–26°C): averaged to 22–27°C for this entry."
+      },
+      {
+        "name": "Aquatics Unlimited",
+        "url": "https://aquaticsunlimited.com/product/rabbitfish-gold-spotted-siganus-punctatus/",
+        "accessedDate": "2026-05-25",
+        "notes": "Confirmed adult size ~12 in, 72–78°F, pH 8.1–8.4, SG 1.020–1.025, 125 gal min, moderate care, herbivore, peaceful, reef-safe with caution. Tank size disagreement vs LiveAquaria (125 vs 180 gal): averaged to ~143 gal (~540 L)."
+      },
+      {
+        "name": "EWASH Care Guide",
+        "url": "https://www.ewash.org/what-size-tank-does-a-gold-spotted-rabbitfish-need",
+        "accessedDate": "2026-05-25",
+        "notes": "Confirmed 125 gal min, adult size 12 in, 72–78°F (22–26°C), SG 1.023–1.025, lifespan 5–7 years, peaceful, reef-safe with caution. Contributed lifespan data absent from other sources."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "Spawning has been reported in the wild around lunar cycles in pairs. Captive breeding has not been documented in home aquarium settings.",
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "with caution"
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-05-25"
+}
