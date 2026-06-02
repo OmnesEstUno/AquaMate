@@ -79,11 +79,17 @@ Cross-check these **high-stakes** fields explicitly. They drive husbandry decisi
 
 When sources disagree on the SAME dimension, your default move is to **average across sources** (not pick the most conservative). Aquarium husbandry values are spectrums; a single conservative pick can systematically bias the data (e.g., consistently low max temperatures).
 
-- **Numerical fields** (`adultSizeCm`, `waterParameters.*`, `tank.minVolumeLiters`, `lifespanYears`):
+- **Numerical fields** (`adultSizeCm`, `waterParameters.*`, `lifespanYears`):
   1. If two or more sources give different ranges/values, perform **2–3 targeted searches** to find additional opinions (different aquarium hobby sites, FishBase/AlgaeBase wild data, species-specific care guides).
   2. Take the **average** of the gathered values (e.g., average of all sources' max temperatures becomes your max).
   3. If the spread is wide (factor of ~2× or more), still average but also set `dataStatus: "needs_review"` and document all the values in `careNotes` so the reviewer can sanity-check.
   4. Document the spread + your computed average in `sources.additional[].notes` or `careNotes`.
+- **`tank.minVolumeLiters` — special case (err on the side of caution + round to nice numbers):**
+  - When sources widely disagree, **bias toward the larger value** rather than strictly averaging. Tank-size recommendations are commonly under-stated by retailers (selling to entry-level keepers) and over-stated by zoological/specialist sources (designing for full adult lifetime). The conservative-larger pick avoids systematically under-housing fish.
+  - **Read prose for context clues that justify a larger tank even for small fish.** Examples: "needs ample swimming space," "highly territorial," "active swimmer," "predator that ambushes," "needs long footprint over depth," "should have its own territory in the rockwork," "open swimming space required." Phrases like these justify going above the strict average even when the fish is small.
+  - **Round to nice round liter values:** prefer 100, 120, 150, 200, 250, 300, 400, 500, 600, 700, 800, 1000, 1200, 1500, 2000 L over computed values like 178.5 or 627. The numerical precision is fake — aquarists don't buy 627-L tanks.
+  - Conversion reference (US gal → L, common aquarium sizes): 20 → 76, 29 → 110, 40 → 150, 55 → 208, 75 → 284, 90 → 340, 100 → 380, 120 → 450, 150 → 568, 180 → 681, 220 → 833, 250 → 946, 300 → 1136, 360 → 1363, 400 → 1514, 500 → 1893, 600 → 2271, 1000 → 3785. Pick the nearest common size rounded to the cautious side.
+  - Still set `dataStatus: "needs_review"` if the source spread is genuinely >2× — but pick a sensible final number rather than the raw average.
 - **Ordinal enum fields** (e.g., `careLevel` beginner/intermediate/advanced/expert; `compatibility.temperament` peaceful/semi-aggressive/aggressive/territorial): extrapolate the "average" by picking the middle value when sources are on opposite ends. E.g., easy vs intermediate-to-advanced → intermediate.
 - **Binary/categorical fields with no average** (e.g., `reefSafe` yes/no, `finNippy` true/false): pick the more common answer across your sources. If a 50/50 split, set `dataStatus: "needs_review"`.
 - **Don't conflate independent dimensions.** If sources disagree on *care level* because one is rating overall ease and another is rating *disease resistance* (or *conspecific aggression*), those are different dimensions — record them in their own fields (`careLevel` for overall ease, `fish.conspecificAggression`/`crustacean.escapeRisk`/etc. for the specific concern, `careNotes` prose for traits with no typed field). Set `careLevel` based on the species' baseline difficulty, then document caveats separately.
@@ -184,7 +190,12 @@ Before writing a new species file, check if any existing file in `src/species/**
 1. After step 1 (species identification), use Glob/Read to check if any existing file in `src/species/<taxon>/` has the same `scientificName` as your target.
 2. If a match exists:
    - **If the existing entry has `dataStatus: "placeholder"`:** proceed and overwrite the existing file (not your assigned `$TARGET_OUTPUT_PATH`). Use the existing file's `id`/`slug`/path; preserve any `media.primaryImage` value already there. Bump `dataStatus` to `"researched"`. Note this redirect in your step-7 return summary.
-   - **If the existing entry already has `dataStatus: "researched"` or `"needs_review"`:** return `BLOCKED` with status `DUPLICATE_OF_EXISTING` and reference the existing file path. Do NOT write a duplicate file. The controller will handle merging in review.
+   - **If the existing entry already has `dataStatus: "researched"` or `"needs_review"`:** **MERGE the variant info into that existing file** (don't just block — the trade name and color/morph distinction need to be captured). Steps:
+     1. Read the existing file.
+     2. Add `$TARGET_COMMON_NAME` to its `alsoKnownAs` array if not already present.
+     3. If the target represents a meaningful color variant or designer morph, append a short note to `careNotes` documenting the variant (e.g., "Also sold as 'Gold Nugget Maroon Clownfish', a captive-bred yellow-striped color morph." or "The black-banded color phase of this species is sometimes sold separately as 'Black Banded Cat Shark'."). Keep it to one or two sentences.
+     4. Save the existing file. Validate it with `npm run validate -- <existing-file-path>`.
+     5. Return with status `DONE_MERGED` and a 1-sentence summary noting what was merged into which file. Do NOT write to `$TARGET_OUTPUT_PATH`.
 3. If no existing file matches: proceed normally and write at `$TARGET_OUTPUT_PATH`.
 
 **When you DO write the consolidated entry, capture the variant info:**
