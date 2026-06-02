@@ -1,8 +1,28 @@
 {
   "permissions": {
     "allow": [
-      "Bash(git -C /var/home/Grey/Projects/AquaMate log --oneline -20)",
-      "Bash(git -C /var/home/Grey/Projects/AquaMate log --oneline --all src/backend/worker.js)"
+      "Bash(node src/species-build/validate.js *)",
+      "Bash(node src/species-build/compile.js *)",
+      "Bash(node -e *)",
+      "Bash(npm run validate *)",
+      "Bash(npm run validate-discovery *)",
+      "Bash(npm run review-field-gaps *)",
+      "Bash(npm test *)",
+      "Bash(jq *)",
+      "Bash(ls *)",
+      "Bash(grep *)",
+      "Bash(cat *)",
+      "Bash(find *)",
+      "Bash(git -C /var/home/Grey/Projects/AquaMate/.worktrees/stage-a-pilot *)",
+      "Bash(git status *)",
+      "Bash(git log *)",
+      "Bash(git diff *)",
+      "Bash(git show *)",
+      "WebFetch",
+      "WebSearch"
+    ],
+    "additionalDirectories": [
+      "/tmp/wave6"
     ]
   }
 }
