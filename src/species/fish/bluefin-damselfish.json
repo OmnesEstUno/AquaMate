@@ -1,0 +1,126 @@
+{
+  "id": "sw-fish-094",
+  "slug": "bluefin-damselfish",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Bluefin Damselfish",
+  "scientificName": "Neoglyphidodon melas",
+  "alsoKnownAs": ["Black Damselfish", "Bowtie Damselfish", "Royal Damsel", "Blackfin Damselfish"],
+  "category": "Damselfish",
+
+  "taxonomy": {
+    "family": "Pomacentridae",
+    "order": "Ovalentaria"
+  },
+
+  "nativeRange": {
+    "regions": ["Indo-West Pacific", "Red Sea", "East Africa"],
+    "countries": ["Philippines", "Taiwan", "Australia", "Vanuatu", "Solomon Islands", "Papua New Guinea", "Palau"],
+    "habitat": "Coral-rich areas of lagoon and seaward reefs, typically at depths of 1–12 m. Juveniles tend to associate with staghorn Acropora corals; adults have been found in association with soft corals.",
+    "biotope": "Reef"
+  },
+
+  "waterParameters": {
+    "temperatureC": { "min": 22.0, "max": 28.0 },
+    "pH":           { "min": 8.1,  "max": 8.4  },
+    "gH":           null,
+    "kH":           { "min": 8.0,  "max": 12.0 },
+    "salinity":     { "min": 1.020, "max": 1.025 }
+  },
+
+  "adultSizeCm":   { "min": 13.0, "max": 18.0 },
+  "lifespanYears": { "min": 2.0,  "max": 6.0  },
+
+  "tank": {
+    "minVolumeLiters": 179.0,
+    "minLengthCm": 90.0,
+    "swimZone": "all",
+    "decorPreferences": ["live rock", "coral rubble", "caves", "open swimming space"]
+  },
+
+  "careLevel": "beginner",
+
+  "diet": {
+    "type": "omnivore",
+    "notes": "Has been documented accepting a wide variety of prepared foods including flake, pellet, and frozen offerings. Generally advised to provide a mixed diet of meaty foods (mysis, krill, brine shrimp) alongside algae-based foods such as Spirulina. In the wild, adults have been observed feeding on soft corals; captive specimens tend to accept commercial substitutes readily."
+  },
+
+  "compatibility": {
+    "temperament": "aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["large aggressive fish", "large wrasses", "large tangs", "triggerfish"],
+    "avoidWith": ["small peaceful fish", "ornamental shrimp", "small invertebrates", "soft corals", "other damselfish", "conspecifics"]
+  },
+
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+
+  "summary": "A bold and territorial damselfish from the Indo-West Pacific, generally considered suitable for beginners due to its hardiness, though it tends to become increasingly aggressive with age and is best kept singly with larger, assertive tankmates.",
+
+  "careNotes": "Juvenile Bluefin Damselfish display a striking appearance — gray body with bright yellow dorsal fin and vivid blue pectoral fins — that fades to a uniformly dark/black coloration as the fish matures. This color change can surprise keepers who purchased the species as a colorful juvenile.\n\nAdults have been known to become highly territorial and aggressive, particularly toward conspecifics and other damsels. Generally advised to keep only one per aquarium unless the tank is very large (300+ L) with ample territory. Larger, assertive tankmates such as wrasses, tangs, and triggerfish tend to fare better than small, peaceful species.\n\nThe species is considered reef-safe with caution: some individuals have been reported to nip at soft corals and may pose a risk to ornamental shrimp and small crustaceans. Behavior appears somewhat variable between individuals.\n\nSize data showed some spread across sources: FishBase records a maximum of 18.0 cm TL; most aquarium hobby sources cite 7 inches (~17.8 cm); one source listed 5 inches (~12.7 cm). The range of 13–18 cm has been used here, averaging across the available data.\n\nMinimum tank size also varied across sources: LiveAquaria recommended 50 gallons (~189 L), BlueZoo Aquatics and LiveRockNReef listed 30 gallons (~114 L), and ReefApp suggested 300 L (~79 gal). The computed average of approximately 179 L is used here.\n\nTemperature data showed a minor spread: aquarium sources generally cite 72–78°F (22–26°C), while FishBase wild temperature preference data indicates 25.1–29.3°C. A range of 22–28°C has been used to cover both captive husbandry recommendations and wild habitat conditions.\n\nLifespan data is limited. One aggregator source cited 2–3 years in captivity; general damselfish literature suggests 5–6 years is achievable in well-maintained systems. A range of 2–6 years has been used to reflect this uncertainty.\n\nBreeding in captivity has been documented. The species is oviparous: eggs are laid on a substrate and the male guards and aerates them until hatching. Adults are reported to pair up during spawning. Breeding difficulty has been rated moderate based on the requirement for conditioning and pair formation.\n\nThis species is not protogynous and has no venomous spines. Escape risk is considered low, as damsels are not typically known jumpers; however, a covered tank is always advisable for marine fish.",
+
+  "breedingNotes": "Oviparous. Adults have been reported to form pairs during spawning. Eggs are deposited on a hard substrate and the male tends to guard and fan the eggs until they hatch. Captive breeding has been documented, though rearing larvae to juvenile stage is challenging due to the planktonic larval phase.",
+
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/bluefin-damselfish",
+      "accessedDate": "2026-06-02",
+      "notes": "Primary husbandry source. Listed size 7 in, tank 50 gal, temp 72-78°F, pH 8.1-8.4, SG 1.020-1.025, dKH 8-12, care level easy, temperament aggressive, reef safe with caution. Collection page URL supplied by controller redirected to product page."
+    },
+    "additional": [
+      {
+        "name": "BlueZoo Aquatics",
+        "url": "https://www.bluezooaquatics.com/productDetail.asp?did=1&pid=784&cid=15",
+        "accessedDate": "2026-06-02",
+        "notes": "Secondary source (controller-designated). Confirmed scientific name Neoglyphidodon melas, adult size 7 in, tank 30 gal, care level beginner, temperament aggressive, reef safe with caution, omnivore diet, native range Indo-Pacific/Red Sea/Vanuatu."
+      },
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Neoglyphidodon-melas.html",
+        "accessedDate": "2026-06-02",
+        "notes": "Taxonomic and wild-range verification. Confirmed family Pomacentridae, order Ovalentaria, max size 18.0 cm TL, native range Indo-West Pacific including Red Sea, East Africa, Philippines, Taiwan, Palau, Solomon Islands, Vanuatu, northern Australia. Wild temperature preference 25.1-29.3°C. Habitat: coral-rich lagoon and seaward reefs 1-12 m depth."
+      },
+      {
+        "name": "ReefApp",
+        "url": "https://reefapp.net/en/encyclopedia/neoglyphidodon-melas",
+        "accessedDate": "2026-06-02",
+        "notes": "Confirmed adult size 18 cm (7.1 in), min tank 300 L (79 gal), behavior aggressive/territorial. Noted as also known as Bowtie damselfish and Royal damsel. Disagreed on minimum tank size (300 L vs. 114–189 L from other sources); all values averaged."
+      },
+      {
+        "name": "LiveRockNReef",
+        "url": "https://www.liverocknreef.com/catalog/damsel-and-chromis/bluefin-damsel-neoglyphidodon-melas-11598.html",
+        "accessedDate": "2026-06-02",
+        "notes": "Listed adult size as 5 in (~12.7 cm) — lower than other sources; temp 72-78°F, SG 1.020-1.025, pH 8.1-8.4, min tank 30 gal, easy care, reef safe with caution. Size outlier included in average computation."
+      }
+    ]
+  },
+
+  "fish": {
+    "breedingDifficulty": "moderate",
+    "breedingNotes": "Oviparous with demersal eggs; male guards and aerates eggs until hatching. Pairs have been observed forming prior to spawning. Larval rearing is challenging due to planktonic early stages.",
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "with caution",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "protogynous": false
+  },
+
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-02"
+}

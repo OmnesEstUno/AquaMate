@@ -1,0 +1,104 @@
+{
+  "id": "sw-fish-085",
+  "slug": "blue-girdled-angelfish",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Blue Girdled Angelfish",
+  "scientificName": "Pomacanthus navarchus",
+  "alsoKnownAs": ["Majestic Angelfish", "Bluegirdle Angelfish"],
+  "category": "Angelfish",
+  "taxonomy": {
+    "family": "Pomacanthidae",
+    "order": "Acanthuriformes"
+  },
+  "nativeRange": {
+    "regions": ["Indo-Pacific"],
+    "countries": ["Indonesia", "Philippines", "Papua New Guinea", "Australia", "Palau", "Micronesia"],
+    "habitat": "Coral-rich areas of clear lagoons, channels, and protected outer reef slopes; typically found at depths of 3–40 m.",
+    "biotope": "Reef"
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 24.0, "max": 27.0 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": null,
+    "salinity": { "min": 1.020, "max": 1.026 }
+  },
+  "adultSizeCm": { "min": 20.0, "max": 28.0 },
+  "lifespanYears": { "min": 10, "max": 18 },
+  "tank": {
+    "minVolumeLiters": 654,
+    "minLengthCm": 180,
+    "swimZone": "all",
+    "decorPreferences": ["live rock", "caves", "overhangs", "open swimming space"]
+  },
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Generally advised to offer a varied diet including Spirulina, marine algae, mysis shrimp, krill, chopped clams, and high-quality angelfish preparations containing sponges. Sponge-based foods are particularly important and have been reported to support long-term health. Feeding multiple times daily, especially during initial acclimation, tends to ease the transition to captive fare."
+  },
+  "compatibility": {
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["tangs", "clownfish", "wrasses", "large peaceful reef fish"],
+    "avoidWith": ["other angelfish", "other Pomacanthus species", "small invertebrates", "clam mantles", "stony and soft corals"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A striking large angelfish from the Indo-Pacific, generally considered intermediate in care and best suited to spacious, well-established marine systems with ample live rock. Tends to nip at corals and invertebrates and is typically not considered reef-safe.",
+  "careNotes": "The Blue Girdled Angelfish is generally regarded as one of the more manageable large Pomacanthus angels, though it still tends to require experienced saltwater fishkeepers. It has been reported to be initially shy after introduction, often refusing food for several days; patience and offering sponge-enriched preparations alongside other meaty foods has been documented to help. Multiple hiding places among live rock are strongly advised to reduce stress. Water quality tends to be particularly important for this species — nitrates are generally advised to be kept below 5 ppm. This species undergoes a dramatic color transformation from juvenile to adult; juveniles display vivid blue-and-white patterning quite distinct from the adult blue-girdle pattern, and are sometimes not recognized as the same fish in the trade. Pomacanthus navarchus is a protogynous hermaphrodite (female-first sex changer); this affects pair dynamics and sexing in captivity. The species has been known to make grunting sounds when threatened. It is commonly considered not reef-safe, as it tends to nip at stony and soft corals and clam mantles, though isolated reports of individuals leaving small-polyped stony corals and noxious soft corals alone have been noted. Temperature disagreement across sources was notable (LiveAquaria 22–26°C; FishBase wild preference 26–29°C; ReefApp ~26°C) — values used here are averaged across all three sources (24–27°C). This species may also be susceptible to HLLE under poor conditions.",
+  "breedingNotes": "Breeding in captivity has not been reliably reported. Like other large Pomacanthus angels, it is a protogynous hermaphrodite — individuals begin life as females and the dominant fish can transition to male. Captive spawning would require an extremely large system, and raising larvae from pelagic eggs is considered very advanced.",
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/blue-girdled-angelfish-1",
+      "accessedDate": "2026-06-02",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Pomacanthus-navarchus",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked adult size (28 cm max TL), preferred temperature range (26.1–28.9°C), native range, taxonomy, and maximum reported age (15 years). Temperature range disagrees with LiveAquaria (22–26°C); values were averaged across sources for the final record."
+      },
+      {
+        "name": "ReefApp Encyclopedia",
+        "url": "https://reefapp.net/en/encyclopedia/pomacanthus-navarchus",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked adult size (26 cm), temperature (~26°C), salinity (SG ~1.026), minimum tank size (600 L), and temperament. Provided confirmation of protogynous hermaphroditism and vocalization behavior."
+      },
+      {
+        "name": "Saltwater Aquarium Blog",
+        "url": "https://www.saltwateraquariumblog.com/majestic-angelfish-care/",
+        "accessedDate": "2026-06-02",
+        "notes": "Supplementary source confirming 180-gallon (681 L) minimum tank, adult size of ~10 inches (25.4 cm), care level (moderate), and diet notes. Also noted wild lifespan of up to ~21 years and HLLE susceptibility."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "Breeding in captivity has not been reliably reported. Protogynous hermaphrodite; captive spawning would require an extremely large system.",
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "no",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "protogynous": true
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-02"
+}

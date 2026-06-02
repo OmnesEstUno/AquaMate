@@ -4,64 +4,91 @@
   "kind": "fauna",
   "taxon": "fish",
   "waterType": "saltwater",
-  "commonName": "Springeri Damsel",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "commonName": "Blue Sapphire Damselfish",
+  "scientificName": "Chrysiptera springeri",
+  "alsoKnownAs": ["Springeri Damsel", "Springer's Damselfish", "Springer's Demoiselle", "Royal Blue Damsel"],
   "category": "Damsel",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Pomacentridae",
+    "order": "Ovalentaria"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null
+    "regions": ["Western Pacific"],
+    "countries": ["Indonesia", "Philippines"],
+    "habitat": "Coral-rich sheltered lagoons and inshore reef slopes, typically at depths of 4–30 m",
+    "biotope": "Reef"
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
+    "temperatureC": { "min": 22.2, "max": 26.3 },
+    "pH": { "min": 8.1, "max": 8.4 },
     "gH": null,
-    "kH": null,
-    "salinity": null
+    "kH": { "min": 8.0, "max": 12.0 },
+    "salinity": { "min": 1.020, "max": 1.025 }
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 1.5, "max": 5.7 },
+  "lifespanYears": { "min": 3.0, "max": 6.0 },
   "tank": {
-    "minVolumeLiters": null,
+    "minVolumeLiters": 114.0,
     "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": []
+    "swimZone": "all",
+    "decorPreferences": ["live rock", "coral rubble", "hiding crevices"]
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "beginner",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Has been observed accepting a variety of foods including high-quality flake and pellet foods, frozen mysis shrimp, brine shrimp, marine algae, zooplankton, and enriched frozen preparations. Has been documented consuming nuisance Planaria flatworms in reef tanks."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "semi-aggressive",
+    "grouping": "pair",
+    "minGroupSize": 1,
+    "goodWith": ["corals", "invertebrates", "peaceful reef fish", "larger semi-aggressive fish"],
+    "avoidWith": ["slow-moving peaceful fish", "other aggressive damselfish genera (Abudefduf, Dascyllus, Stegastes)", "conspecifics in small tanks"]
   },
   "media": {
     "primaryImage": "springeri_damsel.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Springeri Damsel.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "A striking, brilliantly blue damselfish from Indonesian and Philippine reefs, generally considered one of the more peaceful members of the family and widely regarded as reef-safe.",
+  "careNotes": "Generally advised to be kept in aquariums of at least 30 gallons (approximately 114 L). Has been reported to do well singly, as a mated pair, or in larger odd-numbered groups of 9 or more; smaller groups of 2–5 tend to result in aggression and losses. Like most damsels, conspecific aggression can be high in undersized tanks — ample live rock with crevices and hiding spots tends to reduce conflict. Has been known to nip the fins of slow-moving, peaceful tankmates, particularly as individuals mature. Notably, this species has been documented eating nuisance Planaria flatworms, making it a useful addition to reef systems affected by flatworm outbreaks. Under stress, individuals can rapidly darken to near-black coloration as an apparent predation avoidance response; this is considered normal and reversible. The scientific name is sometimes listed as Chrysiptera cf. springeri in the aquarium trade, reflecting minor uncertainty about trade stock provenance, but the species is generally treated as C. springeri. Temperature range in aquarium sources (72–82°F, roughly 22–28°C) is somewhat broader than FishBase wild-habitat data (28.3–29.2°C); the aquarium range reflects captive tolerance and is preferred for husbandry guidance. Lifespan: reported as 3–5 years by some sources and 5–6 years by others; the full range of 3–6 years is documented here.",
+  "breedingNotes": "Reported to be oviparous with distinct pairing during breeding. Males have been documented guarding and aerating the eggs. Captive breeding has been achieved by some dedicated hobbyists, though it is generally considered moderately difficult to replicate in home aquariums.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/product/2073/?pcatid=2073",
+      "accessedDate": "2026-06-02",
+      "notes": "Primary source. Scientific name listed as Chrysiptera cf. springeri on this listing; treated as C. springeri per FishBase taxonomy."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Chrysiptera-springeri",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked scientific name, maximum size (5.5 cm TL), taxonomy (Pomacentridae), native range (Indonesia, Philippines), and trophic level (2.7, omnivorous). FishBase wild temperature 28.3–29.2°C is narrower than aquarium hobby ranges; aquarium range used for waterParameters."
+      },
+      {
+        "name": "Aquatics Unlimited",
+        "url": "https://aquaticsunlimited.com/product/damsel-springers-chrysiptera-springeri/",
+        "accessedDate": "2026-06-02",
+        "notes": "Confirmed water parameters (72–78°F, pH 8.1–8.4, SG 1.020–1.025, dKH 8–12), 30-gallon minimum, semi-aggressive temperament, omnivorous diet, reef safe. Size given as ~2 in (5.08 cm)."
+      },
+      {
+        "name": "Tropical Fish Keeping",
+        "url": "https://tropical-fish-keeping.com/blue-sapphire-damselfish-chrysiptera-cf-springeri.html",
+        "accessedDate": "2026-06-02",
+        "notes": "Additional cross-check. Size 2.3 in (5.84 cm), temperature 72–82°F (22.2–27.8°C), lifespan 5–6 years, native range expanded to include Solomon Islands. Temperature max averaged across sources: (25.6 + 27.8 + 25.6) / 3 = 26.3°C used as max."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
-    "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
+    "breedingDifficulty": "difficult",
+    "breedingNotes": "Oviparous; distinct pairing during breeding with male parental care (egg guarding and aeration). Captive breeding has been reported but is generally considered difficult to achieve consistently in home aquariums.",
+    "conspecificAggression": "high",
+    "finNippy": true,
+    "reefSafe": "yes",
+    "escapeRisk": "low",
+    "venomousSpines": false,
     "protogynous": null
   },
   "crustacean": null,
@@ -72,6 +99,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-02"
 }

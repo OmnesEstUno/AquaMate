@@ -5,63 +5,109 @@
   "taxon": "fish",
   "waterType": "saltwater",
   "commonName": "Zebra Moray",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "scientificName": "Gymnomuraena zebra",
+  "alsoKnownAs": ["Zebra Moray Eel"],
   "category": "Eel",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Muraenidae",
+    "order": "Anguilliformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null
+    "regions": ["Indo-Pacific", "Eastern Central Pacific"],
+    "countries": [
+      "Red Sea", "East Africa", "Tanzania", "Mozambique",
+      "Maldives", "India", "Sri Lanka", "Indonesia", "Philippines",
+      "Japan", "Hawaii", "Australia", "New Caledonia",
+      "Society Islands", "Mexico", "Guatemala", "Colombia", "Galápagos Islands"
+    ],
+    "habitat": "Reef-associated; inhabits sandy and rocky bottoms, crevices and ledges of seaward reefs at depths typically 3–50 m, most often shallower than 4 m.",
+    "biotope": "Reef"
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
+    "temperatureC": { "min": 22, "max": 28 },
+    "pH": { "min": 8.1, "max": 8.4 },
     "gH": null,
-    "kH": null,
-    "salinity": null
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.021, "max": 1.026 }
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 30, "max": 150 },
+  "lifespanYears": { "min": 10, "max": 20 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": []
+    "minVolumeLiters": 473,
+    "minLengthCm": 150,
+    "swimZone": "bottom",
+    "decorPreferences": [
+      "large caves and crevices sized to conceal the entire body",
+      "stable live rock structure (secure rockwork to prevent collapses)",
+      "tight-fitting, weighted lid with no gaps",
+      "PVC piping as supplementary hide"
+    ]
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Specialized crustacean predator with close-set pebble-like teeth adapted for crushing hard-shelled prey. Has been documented eating xanthid crabs, shrimp, squid, clams, scallops, mollusks, and sea urchins. In captivity, generally accepts meaty frozen and fresh foods (shrimp, squid, clams, fish flesh); live food may be needed initially for newly wild-caught individuals. Feeding with tongs or a feeding stick is advised to avoid accidental bites. A large meal every few days tends to be preferable to frequent small feedings."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "peaceful",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": [
+      "large peaceful reef fish",
+      "aggressive fish (not small enough to swallow)",
+      "non-crustacean invertebrates",
+      "corals (generally)"
+    ],
+    "avoidWith": [
+      "all crustaceans (shrimp, crabs, lobsters — will be eaten)",
+      "very small fish (risk of accidental ingestion)",
+      "sea urchins (natural prey item)"
+    ]
   },
   "media": {
     "primaryImage": "zebra_moray.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Zebra Moray.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "The Zebra Moray (Gymnomuraena zebra) is generally considered one of the more tractable moray species for the home aquarium, known for its distinctive dark-banded pattern and blunt crustacean-crushing teeth. It tends to be peaceful toward fish tankmates but will eat any crustaceans present.",
+  "careNotes": "The Zebra Moray is generally considered among the more aquarium-suitable morays due to its peaceful disposition toward fish and its specialized diet of hard-shelled invertebrates — blunt pebble-like teeth mean it poses little tearing risk to fish tankmates. It has been reported to reach up to 150 cm (about 5 ft) in the wild, though most captive specimens tend to stay in the 60–90 cm range. A 125-gallon (473 L) aquarium is commonly cited as the minimum for a single specimen, but full-grown adults in large tanks may benefit from 250–264 gallons (950–1000 L) or more, especially when kept with tankmates.\n\nA tight-fitting, weighted lid is essential — this species has been documented pushing loose covers aside and escaping. Escape incidents are well-documented across the hobby. Stable, well-secured rockwork is important as the eel tends to rearrange substrate and can topple unsecured structures.\n\nReef safety is nuanced: the Zebra Moray will consume any crustaceans in the tank (shrimp, crabs, hermit crabs, lobsters) and large specimens may accidentally damage corals or gorgonians due to their bulk and movement — it is generally advised to keep it only with non-crustacean invertebrates. Corals are not actively targeted.\n\nTemperature disagreement noted: aquarium hobby sources commonly recommend 72–78°F (22–26°C), while FishBase wild-habitat data shows 24.7–29.1°C. The range used here (22–28°C) represents an average across sources. Minimum tank size also varied across sources (473–1000 L); 473 L represents the commonly cited beginner minimum for a single specimen.\n\nFishBase notes the species is 'possibly a protogynous hermaphrodite' but this remains unconfirmed. It is not considered venomous; bites can be painful due to jaw strength but are not envenoming. Feeding should be done with tongs or a feeding stick rather than by hand.",
+  "breedingNotes": "Breeding in captivity has not been reliably documented. FishBase notes the species may be a protogynous hermaphrodite (female-first sex changer), but this remains unconfirmed. Captive reproduction is generally considered not achieved under typical aquarium conditions.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/product/136/?pcatid=136",
+      "accessedDate": "2026-06-02",
+      "notes": "Product page confirmed: care level moderate, temperament peaceful, reef safe with caution, 125 gal minimum, 72-78°F, SG 1.020-1.025, pH 8.1-8.4."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Gymnomuraena-zebra",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked adult size (150 cm max), taxonomy (Muraenidae, Anguilliformes), native range, wild temperature range (24.7–29.1°C, higher than hobby sources), diet (xanthid crabs and crustaceans). Wild temperature data differs from hobby recommendation — averaged in waterParameters."
+      },
+      {
+        "name": "AquaticCommunity",
+        "url": "https://www.aquaticcommunity.com/sw/zebramorayeel.php",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-verified temperature (72-78°F / 22-26°C), salinity (1.022-1.025), pH (8.1-8.4), adult size (150 cm), carnivore diet. Suggested 250 gal with tankmates. Noted escape-artist behavior requiring weighted lid."
+      },
+      {
+        "name": "ReefApp",
+        "url": "https://reefapp.net/en/encyclopedia/gymnomuraena-zebra",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-verified adult size (150 cm), minimum tank (1000 L for adults), SG ~1.026, reef-safe-with-caution status. Confirmed escape-artist and rockwork-rearranging behaviors."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
-    "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "No reliable captive breeding reported. Possibly protogynous (FishBase), unconfirmed. Not bred under typical aquarium conditions.",
+    "conspecificAggression": "moderate",
+    "finNippy": false,
+    "reefSafe": "with caution",
+    "escapeRisk": "high",
+    "venomousSpines": false,
     "protogynous": null
   },
   "crustacean": null,
@@ -72,6 +118,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-02"
 }

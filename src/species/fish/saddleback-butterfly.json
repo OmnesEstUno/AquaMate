@@ -5,63 +5,90 @@
   "taxon": "fish",
   "waterType": "saltwater",
   "commonName": "Saddleback Butterfly",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "scientificName": "Chaetodon falcula",
+  "alsoKnownAs": ["Falcula Butterflyfish", "Falcula Butterflyfish, True", "Sickle Butterflyfish", "Blackwedged Butterflyfish"],
   "category": "Butterflyfish",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Chaetodontidae",
+    "order": "Acanthuriformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null
+    "regions": ["Indian Ocean"],
+    "countries": ["Kenya", "Tanzania", "Mozambique", "South Africa", "Maldives", "India", "Sri Lanka", "Indonesia", "Australia"],
+    "habitat": "Reef edge and upper slope in current-prone habitats; depth range 1–15 m",
+    "biotope": "Reef"
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
+    "temperatureC": { "min": 24.0, "max": 27.0 },
+    "pH": { "min": 8.1, "max": 8.4 },
     "gH": null,
-    "kH": null,
-    "salinity": null
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.021, "max": 1.025 }
   },
-  "adultSizeCm": null,
+  "adultSizeCm": { "min": 15.0, "max": 20.0 },
   "lifespanYears": null,
   "tank": {
-    "minVolumeLiters": null,
+    "minVolumeLiters": 437,
     "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": []
+    "swimZone": "all",
+    "decorPreferences": ["live rock", "open swimming area", "caves and crevices", "strong current zones"]
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Primarily feeds on invertebrates including small crustaceans, zooplankton, polychaete worms, and coral polyps. In captivity, generally accepts frozen meaty foods such as mysis shrimp, krill, chopped clam, mussel, and vitamin-enriched brineshrimp. Has been known to accept flake and pellet foods once settled. Feeding several small portions throughout the day tends to work better than single large meals, particularly for newly introduced specimens that can be reluctant to feed initially."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "semi-aggressive",
+    "grouping": "pair",
+    "minGroupSize": 1,
+    "goodWith": ["other butterflyfish of similar size", "larger peaceful reef fish", "tangs", "angelfish"],
+    "avoidWith": ["small ornamental invertebrates", "corals", "anemones", "sponges", "feather dusters", "conspecifics unless introduced as a mated pair"]
   },
   "media": {
     "primaryImage": "saddleback_butterfly.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Saddleback Butterfly.",
-  "careNotes": null,
+  "summary": "A bold, active butterflyfish from the Indian Ocean, commonly considered moderately challenging; generally best suited to fish-only or FOWLR systems due to its tendency to pick at invertebrates.",
+  "careNotes": "Chaetodon falcula is commonly known by several trade names including Falcula Butterflyfish, Sickle Butterflyfish, and Saddleback Butterfly — all refer to the same species. It is predominantly white with yellow dorsal coloration, narrow black lateral stripes, two black saddle patches dorsally, and a black eye band. It tends to be found on the reef edge and upper slope in areas of brisk water movement.\n\nThis species is generally considered not reef-safe; it has been reported to nip at hard and soft corals, sea anemones, mushroom anemones, gorgonians, sponges, and tubeworms. For this reason it is generally advised to keep it in a fish-only with live rock (FOWLR) system rather than a mixed reef.\n\nTemperament is generally semi-aggressive toward conspecifics and similar-looking species; it tends to be more peaceful with dissimilar tankmates. In the wild it has been documented pairing monogamously, and a mated pair can often be kept together in captivity. Single specimens may be somewhat territorial.\n\nNew specimens can be tricky to get feeding on prepared foods — offering a variety of small meaty items (mysis, finely chopped crustacean flesh, vitamin-enriched brineshrimp) several times daily is advisable until the fish is established. Water quality is reported to be important for long-term health.\n\nCross-source note on temperature: LiveAquaria suggests 72–78°F (22–26°C), while FishBase ecological modeling places the preferred range at 26–29°C and Fishkeeper advises 23–27°C. The values here (24–27°C) represent an average across sources.\n\nCross-source note on minimum tank size: LiveAquaria recommends 125 US gallons (473 L) while ReefApp suggests 400 L; the 437 L figure recorded here is an average of the two.\n\nLifespan data were not found in available sources.",
   "breedingNotes": null,
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/falcula-butterflyfish-true",
+      "accessedDate": "2026-06-02",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://fishbase.se/summary/Chaetodon-falcula",
+        "accessedDate": "2026-06-02",
+        "notes": "Used for taxonomy (Acanthuriformes), native range (East Africa to Indonesia), adult size (20 cm TL), and preferred temperature range (26–29°C). Designated secondary was Reef2Reef (403 Forbidden); FishBase used as first available replacement."
+      },
+      {
+        "name": "ReefApp Encyclopedia",
+        "url": "https://reefapp.net/en/encyclopedia/chaetodon-falcula",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked adult size (20 cm), minimum tank (400 L), salinity (~1.026), diet, and reef-safe status. Minimum tank volume averaged with LiveAquaria (125 gal / 473 L) to produce 437 L."
+      },
+      {
+        "name": "Fishkeeper.co.uk",
+        "url": "https://www.fishkeeper.co.uk/fish/marine/butterflyfish/falcula-butterflyfish",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked adult size (20 cm), temperature (23–27°C), pH (8.1–8.4), salinity (1.022–1.025), diet, and temperament. Temperature and salinity averaged across all sources."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
+    "breedingDifficulty": "not in captivity",
     "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
-    "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
+    "conspecificAggression": "moderate",
+    "finNippy": false,
+    "reefSafe": "no",
+    "escapeRisk": "low",
+    "venomousSpines": false,
     "protogynous": null
   },
   "crustacean": null,
@@ -72,6 +99,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-02"
 }

@@ -1,0 +1,116 @@
+{
+  "id": "sw-fish-096",
+  "slug": "bluelined-triggerfish",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Bluelined Triggerfish",
+  "scientificName": "Xanthichthys auromarginatus",
+  "alsoKnownAs": [
+    "Blue Throat Triggerfish",
+    "Bluechin Triggerfish",
+    "Blue Jaw Triggerfish",
+    "Gilded Triggerfish",
+    "Blue Chin Trigger"
+  ],
+  "category": "Triggerfish",
+  "taxonomy": {
+    "family": "Balistidae",
+    "order": "Tetraodontiformes"
+  },
+  "nativeRange": {
+    "regions": ["Indo-Pacific"],
+    "countries": ["Japan", "Australia", "Hawaii (USA)", "Mauritius", "New Caledonia"],
+    "habitat": "Reef environments at moderate to deeper depths (8–150 m), particularly along seaward drop-offs and current-swept ledges with rich invertebrate growth",
+    "biotope": "Reef"
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 20.0, "max": 27.0 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": { "min": 8.0, "max": 12.0 },
+    "salinity": { "min": 1.020, "max": 1.026 }
+  },
+  "adultSizeCm": { "min": 20.0, "max": 30.0 },
+  "lifespanYears": { "min": 10.0, "max": 20.0 },
+  "tank": {
+    "minVolumeLiters": 380.0,
+    "minLengthCm": 150.0,
+    "swimZone": "all",
+    "decorPreferences": ["live rock", "caves", "open swimming space"]
+  },
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Has been documented eating zooplankton, copepods, meaty crustaceans, and small fish in the wild. In captivity tends to accept squid, krill, clams, hard-shelled shrimp, and small fish. Regularly offering hard-shelled foods is generally advised to help wear down continuously growing teeth."
+  },
+  "compatibility": {
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["large peaceful fish", "other semi-aggressive fish of similar or larger size", "tangs", "large angelfish"],
+    "avoidWith": ["small ornamental crustaceans", "small shrimp", "other triggerfish", "small or docile fish"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A relatively mild-mannered triggerfish of the Indo-Pacific, generally considered one of the more reef-compatible triggers; males are distinguished by a vivid blue throat patch absent in females.",
+  "careNotes": "The Bluelined Triggerfish (also widely known as the Blue Throat or Bluechin Triggerfish) is generally considered one of the least aggressive triggerfish species, making it more suitable for community reef or fish-only setups than most of its relatives. Males are strikingly distinguished by a bright blue throat/jaw patch and blue-lined face; females lack this coloration and tend to be duller overall. Sources disagree somewhat on reef safety: some report them as generally reef-safe with caution around small ornamental crustaceans (which they have been known to consume), while others note occasional coral or sessile invertebrate disturbance in larger individuals. Most hobbyist accounts lean toward 'with caution' for reef systems housing small shrimp.\n\nThis species tends to form loose aggregations a few meters above the bottom in the wild, frequenting current-swept seaward drop-offs and ledges. In aquaria they have been known to rearrange live rock and sand. Males can be kept with one or more females; multiple males in the same tank are generally not advised as aggression between conspecific males has been reported. Females are typically smaller and less colorful. They have been reported to spit water out of the tank to attract feeding attention, and hand-feeding is possible but biting has been observed — feeding with tongs is commonly recommended.\n\nAdult size disagreement: FishBase and ReefApp both record a maximum of ~30 cm; hobby sources often cite 9–12 inches (23–30 cm) with 9 inches as a common aquarium size. Range of 20–30 cm used as a reasonable span.\n\nTank size disagreement: BlueZoo listed 75 gallons (~284 L), most major hobby guides recommend 125 gallons (~473 L), and one source cited 1,500 L (likely overly conservative). The 1,500 L outlier was excluded; averages of the remaining two main recommendations yield ~380 L, which is the value used.\n\nTemperature disagreement: Hobby sources typically quote 72–78°F (22–25.6°C); FishBase wild data spans 18.3–28.2°C. Averaged ranges used: min ~20°C, max ~27°C.\n\nLifespan: Reports range from 10–15 years to 20–30 years in captivity. A range of 10–20 years is used as a moderate average.\n\nVenomous spines: Triggerfishes (family Balistidae) possess strong, lockable dorsal spines used defensively but these are not venomous — venomousSpines set to false.\n\nProtogyny: Xanthichthys auromarginatus has not been documented as protogynous. Spawning pairing suggests stable sexual dimorphism rather than sequential hermaphroditism — protogynous set to false.",
+  "breedingNotes": "Breeding in captivity has been reported rarely. In the wild the species forms mated pairs and is oviparous. Males and females can be housed together (one male with multiple females is generally advised over multiple males). Detailed captive breeding protocols are not well documented in the aquarium literature.",
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/collections/triggerfish",
+      "accessedDate": "2026-06-02",
+      "notes": "Collection page confirmed species listing; species-specific product page (liveaquaria.com/product/233) returned 404 at time of access. Care level (easy) and temperament (aggressive) noted from collection listing; these were averaged with secondary sources."
+    },
+    "additional": [
+      {
+        "name": "BlueZoo Aquatics",
+        "url": "https://www.bluezooaquatics.com/productDetail.asp?did=1&pid=912&cid=288",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked adult size (12 in / 30 cm), tank size (75 gal / 284 L), temperament (semi-aggressive), diet, reef safety, and native range. Water parameters not listed on this page."
+      },
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Xanthichthys-auromarginatus.html",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked scientific name, family (Balistidae), order (Tetraodontiformes), max size (30 cm), native range (Indo-Pacific from Mauritius to Hawaii/Japan/Australia), temperature range (18.3–28.2°C), and diet (zooplankton/copepods). Used as authoritative taxonomic and size reference."
+      },
+      {
+        "name": "Reef Chasers",
+        "url": "https://reefchasers.com/blogs/reef-chasers-marine-fish-guides/blue-throat-triggerfish",
+        "accessedDate": "2026-06-02",
+        "notes": "Confirmed adult size ~9 in (~23 cm typical aquarium), minimum tank 125 gal (473 L), semi-reef-safe status (may prey on small invertebrates), carnivore diet. Listed temperament as generally peaceful — averaged with other sources to semi-aggressive."
+      },
+      {
+        "name": "ReefApp Encyclopedia",
+        "url": "https://reefapp.net/en/encyclopedia/xanthichthys-auromarginatus",
+        "accessedDate": "2026-06-02",
+        "notes": "Confirmed max size 30 cm, salinity ~1.026, diet (meaty/crustaceans), taxonomy (Balistidae). Tank size recommendation (1,500 L) was treated as an outlier and excluded from averaging; it likely represents an absolute maximum rather than a hobbyist minimum."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "difficult",
+    "breedingNotes": "Breeding in captivity is rarely documented. The species is oviparous with distinct pairing; mated pairs can be housed together. Multiple males in one tank are generally not advised.",
+    "conspecificAggression": "moderate",
+    "finNippy": false,
+    "reefSafe": "with caution",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "protogynous": false
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-02"
+}

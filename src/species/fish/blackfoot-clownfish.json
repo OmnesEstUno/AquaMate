@@ -1,0 +1,120 @@
+{
+  "id": "sw-fish-077",
+  "slug": "blackfoot-clownfish",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Blackfoot Clownfish",
+  "scientificName": "Amphiprion nigripes",
+  "alsoKnownAs": ["Maldive Anemonefish", "Blackfinned Anemonefish", "Black-footed Clownfish"],
+  "category": "Clownfish",
+
+  "taxonomy": {
+    "family": "Pomacentridae",
+    "order": "Ovalentaria"
+  },
+
+  "nativeRange": {
+    "regions": ["Indian Ocean", "Western Indian Ocean"],
+    "countries": ["Maldives", "Sri Lanka"],
+    "habitat": "Coral reef environments at depths of approximately 2–25 m, typically associated with host anemones on reef slopes and lagoons.",
+    "biotope": "Reef"
+  },
+
+  "waterParameters": {
+    "temperatureC": { "min": 23.0, "max": 28.0 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": { "min": 8.0, "max": 12.0 },
+    "salinity": { "min": 1.020, "max": 1.025 }
+  },
+
+  "adultSizeCm": { "min": 8.0, "max": 11.0 },
+  "lifespanYears": { "min": 6.0, "max": 12.0 },
+
+  "tank": {
+    "minVolumeLiters": 110,
+    "minLengthCm": 60,
+    "swimZone": "all",
+    "decorPreferences": ["live rock", "host anemone (Heteractis magnifica or Entacmaea quadricolor)", "open swimming space near anemone"]
+  },
+
+  "careLevel": "intermediate",
+
+  "diet": {
+    "type": "omnivore",
+    "notes": "Has been documented accepting a wide variety of foods including frozen mysis shrimp, brine shrimp, small crustaceans, zooplankton, and microalgae such as spirulina. Captive-bred individuals tend to accept high-protein pellets and flake foods readily. Offering a varied diet is generally recommended for long-term health."
+  },
+
+  "compatibility": {
+    "temperament": "semi-aggressive",
+    "grouping": "pair",
+    "minGroupSize": 1,
+    "goodWith": ["reef corals", "non-clownfish reef fish", "invertebrates", "host anemones"],
+    "avoidWith": ["other clownfish species", "conspecifics outside mated pairs", "large aggressive fish"]
+  },
+
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+
+  "summary": "A striking orange clownfish with a single white head band and bold black pelvic and anal fins, found in the Maldives and Sri Lanka. Generally considered suitable for reef aquariums; tends to be hardy when captive-bred.",
+
+  "careNotes": "The Blackfoot Clownfish (Amphiprion nigripes) is endemic to the Maldives and Sri Lanka, making it one of the more geographically restricted clownfish species in the trade. It is commonly considered reef-safe and has been reported to associate with anemones such as Heteractis magnifica in the wild, though it may accept Entacmaea quadricolor or Heteractis crispa as substitute hosts in captivity. A host anemone is not strictly required for keeping this species.\n\nWild-caught specimens have a reputation for being sensitive to handling and shipping stress and may be prone to parasitic infections. Captive-bred individuals are generally considered more disease-resistant and are strongly preferred for aquarium keeping.\n\nLike all clownfish, A. nigripes is protandrous — all individuals are born male, and the dominant individual in a group transitions to female. Best kept singly or as a mated pair; have been known to be aggressive toward other clownfish and conspecifics outside an established pair.\n\nTemperature note: LiveAquaria recommends 22–26°C (72–78°F) for aquarium care, while FishBase reports a wild preferred temperature of 28–29°C in Maldivian waters. The averaged range of 23–28°C attempts to bridge hobbyist and wild-data sources; reviewers may wish to narrow this based on specific breeding or health goals.\n\nMinimum tank volume note: LiveAquaria recommends 30 US gallons (114 L) and ReefApp suggests 100 L; the averaged value of ~110 L is used here.",
+
+  "breedingNotes": "Has been successfully bred in captivity. Like other clownfish, A. nigripes is a protandrous hermaphrodite — all individuals start as males, and the dominant fish in a bonded pair or group transitions to female. Egg-laying is demersal (eggs adhere to substrate near the anemone), and brood care has been documented. Captive breeding is considered moderate in difficulty; captive-bred strains are commercially available.",
+
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/product/8503/?pcatid=8503",
+      "accessedDate": "2026-06-02",
+      "notes": "Species product page. Provided adult size (4 in), temperature (72–78°F), pH (8.1–8.4), salinity (1.020–1.025), dKH (8–12), minimum tank size (30 gal), care level (Easy), temperament (Semi-Aggressive), diet (Omnivore), reef safe (Yes), and native range (Maldives)."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Amphiprion-nigripes",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked taxonomy (family Pomacentridae, order Ovalentaria), maximum size (11.0 cm TL), native distribution (Maldives and Sri Lanka), wild preferred temperature (28.4–29.4°C), depth range (2–25 m), diet (omnivorous), and reproduction (oviparous, demersal eggs, distinct pairing). Temperature disagreement with LiveAquaria noted: averaged to 23–28°C for the aquarium range."
+      },
+      {
+        "name": "Sustainable Aquatics",
+        "url": "https://sustainableaquatics.com/clownfish/wild-type-clownfish/blackfoot-a-nigripes-clownfish/",
+        "accessedDate": "2026-06-02",
+        "notes": "Confirmed maximum adult size of 4.33 inches (11.0 cm). Noted wild-caught specimens have poor reputation for handling stress, while captive-bred specimens are peaceful and ship well. Minimum tank >30 gallons."
+      },
+      {
+        "name": "ReefApp Encyclopedia",
+        "url": "https://reefapp.net/en/encyclopedia/amphiprion-nigripes",
+        "accessedDate": "2026-06-02",
+        "notes": "Confirmed adult size 11 cm, minimum tank 100 L, native range Maldives and Sri Lanka. Noted species is delicate and sensitive during transport/acclimation, susceptible to parasitic infection. Listed as protandrous hermaphrodite. Minimum tank of 100 L averaged with LiveAquaria's 114 L to yield ~110 L."
+      }
+    ]
+  },
+
+  "fish": {
+    "breedingDifficulty": "moderate",
+    "breedingNotes": "Has been successfully raised in captivity; captive-bred strains are commercially available. Protandrous hermaphrodite — all individuals start male; the dominant fish in a pair transitions to female. Eggs are demersal and adhere to substrate near the host anemone.",
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "yes",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "protogynous": false
+  },
+
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-02"
+}

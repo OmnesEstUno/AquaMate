@@ -1,0 +1,120 @@
+{
+  "id": "sw-fish-072",
+  "slug": "black-nox-angelfish",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Black Nox Angelfish",
+  "scientificName": "Centropyge nox",
+  "alsoKnownAs": ["Midnight Angelfish", "Black Pygmy Angelfish"],
+  "category": "Angelfish",
+
+  "taxonomy": {
+    "family": "Pomacanthidae",
+    "order": "Acanthuriformes"
+  },
+
+  "nativeRange": {
+    "regions": ["Western Pacific", "Indo-Pacific"],
+    "countries": ["Japan", "Indonesia", "Solomon Islands", "Fiji", "Australia", "New Caledonia", "Palau"],
+    "habitat": "Coral-rich outer reef slopes, occasionally lagoons and passages; tends to favor habitats with rich mixed invertebrate growth at depths of 3–70 m",
+    "biotope": "Reef"
+  },
+
+  "waterParameters": {
+    "temperatureC": { "min": 24, "max": 27 },
+    "pH":           { "min": 8.1, "max": 8.4 },
+    "gH":           null,
+    "kH":           { "min": 8, "max": 12 },
+    "salinity":     { "min": 1.021, "max": 1.025 }
+  },
+
+  "adultSizeCm":   { "min": 6.0, "max": 10.0 },
+  "lifespanYears": { "min": 5, "max": 10 },
+
+  "tank": {
+    "minVolumeLiters":  189,
+    "minLengthCm":      90,
+    "swimZone":         "all",
+    "decorPreferences": ["live rock", "caves", "hiding places", "established reef with coralline algae"]
+  },
+
+  "careLevel": "intermediate",
+
+  "diet": {
+    "type": "omnivore",
+    "notes": "Has been documented feeding on algae, detritus, and small invertebrates in the wild. In captivity, has been reported to accept a varied diet including Spirulina, marine algae, frozen mysis shrimp, and other meaty foods. Access to live rock for grazing is generally considered beneficial, as this species tends to browse continuously throughout the day."
+  },
+
+  "compatibility": {
+    "temperament":  "semi-aggressive",
+    "grouping":     "solitary",
+    "minGroupSize": 1,
+    "goodWith":     ["non-sessile invertebrates", "peaceful reef fish", "tangs", "clownfish"],
+    "avoidWith":    ["other dwarf angelfish", "aggressive fish that may bully it when newly introduced", "more aggressive Centropyge species"]
+  },
+
+  "media": {
+    "primaryImage":    null,
+    "gallery":         [],
+    "imageCandidates": null
+  },
+
+  "summary": "A uniformly jet-black dwarf angelfish from the Western Pacific, generally considered an intermediate-level species best kept singly in a well-established reef or FOWLR aquarium with ample live rock for grazing and hiding.",
+
+  "careNotes": "The Black Nox (Midnight) Angelfish is generally kept as the sole dwarf angelfish in the aquarium, as it has been known to be aggressive toward conspecifics and other Centropyge species. It tends to be shy when first introduced and is generally advised to have numerous hiding places and established live rock to help it settle in. Nutritional needs are a commonly cited challenge: sources suggest that malnutrition may be a significant cause of captive losses, as this species is a continuous browser in the wild. Multiple small feedings per day of varied foods — Spirulina, marine algae, mysis shrimp, and other meaty fare — are generally recommended over a single large daily feeding.\n\nThis species is commonly considered 'reef safe with caution'; isolated cases of nipping at soft coral polyps, zoanthids, large-polyp stony corals, and clam mantles have been reported. It may behave acceptably in a mature, well-fed reef tank, but the risk is generally considered non-trivial.\n\nIn the wild, Centropyge nox forms harems of 3–7 individuals with one dominant male. Like most Centropyge angelfish, it is believed to be a protogynous hermaphrodite (female-first sex changer); the dominant individual in a group tends to transition to male. No reliable external sex differentiation is reported in the aquarium trade.\n\nTank size disagreement across sources: LiveAquaria recommends a 70-gallon (265 L) minimum, while BlueZoo lists 30 gallons (114 L). The 70-gallon figure appears more frequently in hobbyist literature and is likely more appropriate for long-term keeping; the minimum volume written here (189 L, ~50 gal) is an average of the two figures as a compromise.\n\nTemperature disagreement: LiveAquaria gives 72–78°F (22.2–25.6°C), FishBase reports 26.3–29°C, and a third source gives 24–27°C. The average across all three sources yields approximately 24–27°C, which is recorded here. Hobbyists keeping this species are generally advised to maintain stable tropical reef temperatures rather than the lower end of LiveAquaria's range.",
+
+  "breedingNotes": "Captive breeding has been reported as very difficult and rarely achieved. No reliable external sex differentiation is known; the species is believed to be protogynous (females transitioning to males in the absence of a dominant male). In the wild it forms harems, but captive pairing attempts are infrequently documented in the literature.",
+
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/black-nox-angelfish",
+      "accessedDate": "2026-06-02",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "BlueZoo Aquatics",
+        "url": "https://www.bluezooaquatics.com/productDetail.asp?did=1&pid=180&cid=9",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked sizing, temperament, diet, reef safety, and native range. Did not provide temperature/pH/salinity data. Adult size listed as 4 in (10.16 cm) vs LiveAquaria's 2.5–3.5 in; tank size 30 gal vs LiveAquaria's 70 gal — averaged for the recorded values."
+      },
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Centropyge-nox.html",
+        "accessedDate": "2026-06-02",
+        "notes": "Used for taxonomy (family Pomacanthidae, order Acanthuriformes), max size (10.0 cm TL), temperature range (26.3–29°C), native range, and harem social behavior. Temperature range differs from LiveAquaria (72–78°F / 22.2–25.6°C); an average of all three temperature sources was used."
+      },
+      {
+        "name": "Frank Baensch — Pygmy Angelfish Captive Care",
+        "url": "https://www.frankbaensch.com/marine-aquarium-fish-culture/my-research/pygmy-angelfishes/captive-care/",
+        "accessedDate": "2026-06-02",
+        "notes": "Confirms Centropyge nox as one of the more difficult Centropyge species to keep due to specialized dietary requirements; recommends experienced aquarists only. Used to inform careLevel and careNotes."
+      }
+    ]
+  },
+
+  "fish": {
+    "breedingDifficulty":    "advanced",
+    "breedingNotes":         "Captive breeding is rarely achieved and considered very difficult. No external sex differentiation is known; species believed to be protogynous. Harem formation occurs in the wild but is not readily replicated in home aquariums.",
+    "conspecificAggression": "high",
+    "finNippy":              false,
+    "reefSafe":              "with caution",
+    "escapeRisk":            "low",
+    "venomousSpines":        false,
+    "protogynous":           true
+  },
+
+  "crustacean":   null,
+  "coral":        null,
+  "mollusc":      null,
+  "echinoderm":   null,
+  "other-invert": null,
+  "plant":        null,
+  "macroalgae":   null,
+
+  "schemaVersion": 1,
+  "dataStatus":    "researched",
+  "lastReviewed":  "2026-06-02"
+}

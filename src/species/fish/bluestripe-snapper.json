@@ -1,0 +1,120 @@
+{
+  "id": "sw-fish-099",
+  "slug": "bluestripe-snapper",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Bluestripe Snapper",
+  "scientificName": "Lutjanus kasmira",
+  "alsoKnownAs": ["Common Bluestripe Snapper", "Bluelined Snapper", "Blueline Snapper", "Four-line Snapper"],
+  "category": "Snapper",
+
+  "taxonomy": {
+    "family": "Lutjanidae",
+    "order": "Perciformes"
+  },
+
+  "nativeRange": {
+    "regions": ["Indo-Pacific", "Red Sea", "East Africa", "Hawaii", "Marquesas", "Line Islands", "Southern Japan", "Australia"],
+    "countries": ["Indonesia", "Fiji", "Maldives", "Japan", "Australia", "Philippines", "Hawaii (USA)"],
+    "habitat": "Coral reefs; commonly found in large aggregations around coral formations, caves, and wrecks during the day. Juveniles tend to occupy seagrass beds near patch reefs.",
+    "biotope": "Reef"
+  },
+
+  "waterParameters": {
+    "temperatureC": { "min": 21, "max": 27 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.020, "max": 1.025 }
+  },
+
+  "adultSizeCm": { "min": 20, "max": 36 },
+  "lifespanYears": { "min": 4, "max": 6 },
+
+  "tank": {
+    "minVolumeLiters": 1712,
+    "minLengthCm": 240,
+    "swimZone": "mid",
+    "decorPreferences": ["live rock", "caves", "overhangs", "open swimming space"]
+  },
+
+  "careLevel": "intermediate",
+
+  "diet": {
+    "type": "carnivore",
+    "notes": "Has been documented consuming fish, shrimp, crabs, stomatopods, cephalopods, and planktonic crustaceans, along with some plant and algal material. In captivity, has been reported to accept chopped frozen silversides, krill, vitamin-enriched brine shrimp, mysis shrimp, and other carnivore preparations. Generally advised to offer varied meaty foods to maintain condition."
+  },
+
+  "compatibility": {
+    "temperament": "semi-aggressive",
+    "grouping": "shoaling",
+    "minGroupSize": 3,
+    "goodWith": ["large peaceful fish", "other large predators of similar size", "tangs", "large angelfish", "large groupers"],
+    "avoidWith": ["small fish", "ornamental shrimp", "small crabs", "small crustaceans", "invertebrates small enough to be eaten"]
+  },
+
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+
+  "summary": "A boldly striped yellow-and-blue schooling snapper from the Indo-Pacific, generally considered suitable for large FOWLR systems; tends to be semi-aggressive and will readily consume small fish and invertebrates.",
+
+  "careNotes": "The Bluestripe Snapper (Lutjanus kasmira) is a striking Indo-Pacific species with a bright yellow body crossed by four vivid blue horizontal stripes. It is widely distributed from the Red Sea and East Africa to Hawaii, Marquesas, and Line Islands, ranging north to southern Japan and south to Australia.\n\nAdult size varies across sources: LiveAquaria cites a maximum of 10 inches (~25 cm), while FishBase, ReefApp, and Milwaukee Aquatics all cite 40 cm, and Reeflex cites 35 cm. An average across sources of approximately 36 cm maximum is used here.\n\nMinimum tank volume is disputed: LiveAquaria recommends 300 gallons (~1136 L), while ReefApp and Reeflex both recommend at least 2000 L. An average of approximately 1712 L is used; hobbyists are generally advised to lean toward the higher figure given the active schooling nature and bioload of a group.\n\nTemperament is a significant area of disagreement. LiveAquaria describes this species as 'peaceful,' while ReefApp rates it 'extremely aggressive toward other fish.' Milwaukee Aquatics describes it as 'peaceful but can be dangerous.' A 'semi-aggressive' rating has been assigned as an averaged assessment; individual fish and group dynamics may vary. This species has been known to be an aggressive feeder that can intimidate smaller or more passive tankmates. It is generally recommended to add it last to an established community.\n\nIn the wild, Bluestripe Snappers are frequently observed in large aggregations. LiveAquaria recommends keeping a group of 3 or more, while ReefApp suggests keeping it singly in captivity. The wild schooling behavior and hobbyist experience suggests groups are viable in sufficiently large systems.\n\nReef compatibility is generally rated 'with caution': this species will tend to eat small ornamental shrimp, crabs, and other small crustaceans, as well as small fish. It is generally considered unsuitable for reef systems housing small invertebrates.\n\nLifespan has been reported at up to 6 years (FishBase maximum age data). Temperature ranges averaged from LiveAquaria (22.2–25.6°C) and FishBase/Reeflex (19.1–28.3°C) to arrive at a recommended range of 21–27°C.\n\nThis species produces a significant bioload; robust filtration and regular water changes are generally advised. It grows quickly when well-fed and is considered hardy once established. Care level has been set to 'intermediate' reflecting the large tank size requirement and semi-aggressive temperament, rather than LiveAquaria's 'Easy' rating which may reflect ease of feeding and disease resistance rather than the practical husbandry challenges.",
+
+  "breedingNotes": "Captive breeding has not been documented for this species in home aquariums. FishBase records that wild individuals reach sexual maturity at approximately 20.5 cm. No offspring are available from captive breeding as of current sources.",
+
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/bluestripe-snapper",
+      "accessedDate": "2026-06-02",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/lutjanus-kasmira",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked adult size (40 cm max, 25 cm common), temperature range (19.1–28.3°C), native range, diet, taxonomy, and lifespan (max 6 years). FishBase max size of 40 cm differs from LiveAquaria's 25.4 cm (10 in); averaged across all sources to arrive at ~36 cm maximum."
+      },
+      {
+        "name": "ReefApp",
+        "url": "https://reefapp.net/en/encyclopedia/lutjanus-kasmira",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked adult size (40 cm), minimum tank volume (2000 L), salinity (~1.026 SG), temperament (extremely aggressive — disagreeing with LiveAquaria's 'peaceful'; semi-aggressive used as average), and reef compatibility (with caution)."
+      },
+      {
+        "name": "Reeflex",
+        "url": "https://www.reeflex.net/tiere/83_Lutjanus_kasmira.htm",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked adult size (35 cm), minimum tank volume (2000 L), temperature range (19.1–28.3°C). Adult size of 35 cm and tank minimum of 2000 L are consistent with FishBase and ReefApp, supporting the larger end of the range estimates."
+      }
+    ]
+  },
+
+  "fish": {
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "Captive breeding has not been documented. Sexual maturity is reached at approximately 20.5 cm in the wild (FishBase).",
+    "conspecificAggression": "moderate",
+    "finNippy": false,
+    "reefSafe": "with caution",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "protogynous": null
+  },
+
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+
+  "schemaVersion": 1,
+  "dataStatus": "needs_review",
+  "lastReviewed": "2026-06-02"
+}

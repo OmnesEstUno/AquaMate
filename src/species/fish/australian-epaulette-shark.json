@@ -1,0 +1,110 @@
+{
+  "id": "sw-fish-070",
+  "slug": "australian-epaulette-shark",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Australian Epaulette Shark",
+  "scientificName": "Hemiscyllium ocellatum",
+  "alsoKnownAs": ["Epaulette Shark", "Ocellated Bamboo Shark"],
+  "category": "Sharks",
+  "taxonomy": {
+    "family": "Hemiscylliidae",
+    "order": "Orectolobiformes"
+  },
+  "nativeRange": {
+    "regions": ["Indo-Pacific", "Western Pacific"],
+    "countries": ["Australia", "Papua New Guinea"],
+    "habitat": "Shallow coral reefs and tide pools, typically 0–50 m depth; found walking among reef structure using paired pectoral and pelvic fins.",
+    "biotope": "Reef"
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 23.0, "max": 27.0 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.020, "max": 1.025 }
+  },
+  "adultSizeCm": { "min": 70.0, "max": 107.0 },
+  "lifespanYears": { "min": 8, "max": 25 },
+  "tank": {
+    "minVolumeLiters": 1100,
+    "minLengthCm": 270,
+    "swimZone": "bottom",
+    "decorPreferences": ["sand substrate", "rock caves", "overhangs", "PVC shelters", "low profile rockwork"]
+  },
+  "careLevel": "expert",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Has been documented consuming benthic invertebrates in the wild including polychaete worms, small crabs, shrimp, amphipods, and small fish. In captivity, generally accepted offerings include vitamin-enriched squid, shrimp, mussels, clams, and pieces of fresh marine fish. Feeding 2–3 times per week with vitamin supplementation is commonly recommended."
+  },
+  "compatibility": {
+    "temperament": "aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["large peaceful fish that cannot be swallowed", "large non-aggressive species housed with caution"],
+    "avoidWith": ["small fish", "crustaceans", "shrimp", "crabs", "worms", "fish smaller than the shark's mouth", "triggerfish", "large angelfish that may harass shark", "other sharks unless space allows"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A bottom-dwelling reef shark endemic to the Great Barrier Reef and New Guinea coastlines, known for its remarkable ability to 'walk' across the reef using its paired fins. Generally considered suitable only for expert-level aquarists due to its large adult size and demanding space requirements.",
+  "careNotes": "The Australian Epaulette Shark is a highly specialized species generally advised only for expert aquarists with very large, dedicated systems. Adults have been reported to reach up to 107 cm (42 in) in total length, though aquarium-kept specimens commonly reach 70–90 cm. A minimum tank footprint where the tank length is at least 3× the shark's body length and tank depth equals the shark's length is commonly recommended; in practice this means tanks of 1,000–1,400 L (approximately 260–360 US gallons) are the working minimum.\n\nSand substrate is essential — the shark's abdomen is prone to abrasion injuries from coarse gravel, which can lead to secondary infection. Caves, overhangs, and sheltered hiding areas are important for this nocturnal species, which tends to rest during the day and become active at dusk.\n\nThis species is a nocturnal ambush predator and will consume any fish, shrimp, or crab small enough to fit in its mouth. It is not considered reef-safe due to predation on small invertebrates and sleeping fish. Copper-based medications must be strictly avoided, as with all elasmobranchs.\n\nTemperature disagreement across sources: LiveAquaria recommends 22–26°C (72–78°F), AquariumDomain recommends 22–27°C (72–80°F), and FishBase wild data records 24–28°C (mean 26.9°C). The values here (23–27°C) represent an average of all three ranges. Similarly, minimum tank size recommendations vary from 200 gallons (ORA Farm) to 360 gallons (LiveAquaria); the figure of 1,100 L (≈290 gal) represents an average of the three main sources.\n\nThe species is notable for its physiological tolerance of hypoxic and high-temperature conditions in tidal pools — an adaptation studied at the New England Aquarium. Despite this resilience in the wild, captive specimens still require stable, high-quality water.\n\nLifespan is reported variously as 8–12 years and up to 25+ years in well-managed captive environments; the wide range reflects limited published data.\n\nThe species is oviparous (egg-laying). Captive breeding has been documented — ORA Farm maintained a breeding pair that produced eggs hatching after approximately 130 days. Breeding in home aquaria is rare and requires a very large, low-stress system.",
+  "breedingNotes": "Oviparous; paired eggs are laid and embryos develop solely on yolk. Eggs reported to measure approximately 10 × 4 cm and hatch after roughly 130 days at suitable temperatures. ORA Farm documented successful captive breeding from a pair that required several years to reach sexual maturity. Captive breeding in home aquaria has been reported but remains uncommon; a large, stable, low-stress environment is generally considered a prerequisite.",
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/australian-epaulette-shark",
+      "accessedDate": "2026-06-02",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Hemiscyllium-ocellatum.html",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked adult size (107 cm max), temperature (24.1–28°C wild), taxonomy, native range, and diet. Temperature range from FishBase averaged with aquarium-hobby sources to produce final values."
+      },
+      {
+        "name": "AquariumDomain",
+        "url": "https://www.aquariumdomain.com/SpeciesProfiles/MarineFish/EpauletteShark.shtml",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked tank size (300 gal), temperature (72–80°F), pH, salinity, care level, and diet. Reef2Reef secondary URL returned HTTP 403; AquariumDomain used as replacement secondary per fallback rule."
+      },
+      {
+        "name": "ORA Farm (Oceans, Reefs & Aquariums)",
+        "url": "https://www.orafarm.com/blog/2016/11/03/epaulette-sharks/",
+        "accessedDate": "2026-06-02",
+        "notes": "Captive breeding data and minimum tank size (200 gal). Provided breeding notes on egg incubation and captive pair management."
+      },
+      {
+        "name": "Australian Museum",
+        "url": "https://australian.museum/learn/animals/fishes/epaulette-shark-hemiscyllium-ocellatum/",
+        "accessedDate": "2026-06-02",
+        "notes": "Confirmed taxonomy, native range (endemic to Great Barrier Reef and New Guinea coast), size, reproduction details, and diet."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "advanced",
+    "breedingNotes": "Oviparous; eggs hatch after approximately 130 days. Captive breeding documented at professional facilities (ORA Farm); rare in home aquaria. Requires large dedicated system and stable water quality.",
+    "conspecificAggression": "moderate",
+    "finNippy": false,
+    "reefSafe": "no",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "protogynous": false
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-02"
+}

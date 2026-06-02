@@ -5,64 +5,91 @@
   "taxon": "fish",
   "waterType": "saltwater",
   "commonName": "Blueface Angel",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "scientificName": "Pomacanthus xanthometopon",
+  "alsoKnownAs": ["Blueface Angelfish", "Yellowface Angelfish", "Yellow-faced Angelfish"],
   "category": "Angelfish",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Pomacanthidae",
+    "order": "Acanthuriformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null
+    "regions": ["Indo-Pacific"],
+    "countries": ["Maldives", "Indonesia", "Philippines", "Australia", "Micronesia", "Solomon Islands", "Vanuatu", "Palau"],
+    "habitat": "Coral-rich areas of lagoons, channels, and outer reef slopes, often near caves. Typically found at depths of 5–30 m.",
+    "biotope": "Reef"
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
+    "temperatureC": { "min": 24.0, "max": 27.6 },
+    "pH": { "min": 8.1, "max": 8.4 },
     "gH": null,
-    "kH": null,
-    "salinity": null
+    "kH": { "min": 8.0, "max": 12.0 },
+    "salinity": { "min": 1.021, "max": 1.025 }
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 30.0, "max": 38.0 },
+  "lifespanYears": { "min": 8.0, "max": 15.0 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": []
+    "minVolumeLiters": 757.0,
+    "minLengthCm": 240.0,
+    "swimZone": "all",
+    "decorPreferences": ["live rock", "caves", "hiding places", "open swimming space"]
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "advanced",
+  "diet": {
+    "type": "omnivore",
+    "notes": "In the wild, has been documented feeding primarily on sponges, tunicates, and other encrusting organisms. In captivity, generally does well on sponge-based angelfish preparations, spirulina, marine algae, mysis shrimp, and krill. Tends to benefit from being fed small amounts at least 2–3 times daily, with live rock available for grazing."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["large peaceful fish", "tangs", "larger wrasses", "larger hawkfish", "lionfish"],
+    "avoidWith": ["other angelfish", "small docile fish", "gobies", "dartfish", "clownfish", "stony corals", "soft corals", "tridacna clams", "small invertebrates"]
   },
   "media": {
     "primaryImage": "blueface_angel.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Blueface Angel.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "A large, striking Indo-Pacific angelfish generally considered moderately to advanced in difficulty, best suited to spacious reef-adjacent systems. Tends to nip at corals and invertebrates and is commonly kept as the sole angelfish in a tank.",
+  "careNotes": "The Blueface Angelfish (also traded as the Yellowface Angelfish) is generally considered an advanced-level species requiring a large, well-established aquarium. Most sources recommend a minimum of 180–220 gallons (approximately 680–830 L); a commonly cited averaged guideline is around 200 gallons (757 L). Temperature recommendations vary across sources: aquarium hobby guides typically suggest 22–26°C, while wild habitat data and some broader care guides indicate 24–29°C; an averaged working range of approximately 24–27.6°C is documented here (dataStatus reflects this spread). Juveniles (under roughly 20 cm) are generally reported to adapt better to captive life than adults. This species has been described as a protogynous hermaphrodite — individuals are believed to start as females and may transition to males. It tends to become territorial, especially toward conspecifics and other large angelfish, and has been known to nip at stony and soft corals, LPS, and clam mantles, making it generally unsuitable for reef systems. Conspecific aggression is considered high; best kept as the sole angelfish. Coloration changes dramatically with age: juveniles display vertical black, white, and sapphire-blue stripes, transitioning at around 12–13 cm to the pale-yellow adult patterning with blue-scaled body and bright-yellow face markings. Lifespan reports vary widely, from roughly 5 years to over 20 years; a range of 8–15 years is considered a reasonable mid-estimate for well-maintained aquariums. Captive breeding has rarely been achieved outside of commercial aquaculture settings.",
+  "breedingNotes": "Captive breeding has been reported as extremely rare, generally limited to commercial aquaculture. In the wild, spawning is pelagic and the species is understood to be a protogynous hermaphrodite. No reliable captive-breeding protocol is documented in the aquarium hobby literature.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/blueface-angelfish-1",
+      "accessedDate": "2026-06-02",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Pomacanthus-xanthometopon",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked adult size, temperature range (25–29.3°C), native distribution, and taxonomy. Temperature notably higher than LiveAquaria's 22.2–25.6°C range; averaged across sources."
+      },
+      {
+        "name": "AquaHoy",
+        "url": "https://aquahoy.com/blueface-angelfish-pomacanthus-xanthometopon-care-diet/",
+        "accessedDate": "2026-06-02",
+        "notes": "Additional cross-check for temperature (24–28°C), tank size (180–200 gal minimum), care level (advanced/expert), lifespan (10–20 years), salinity (1.023–1.025), and confirmation of protogynous hermaphroditism. Care level averaged between LiveAquaria (moderate) and AquaHoy (advanced/expert) → advanced. Tank size averaged: (220 + 180) / 2 = 200 gal ≈ 757 L."
+      },
+      {
+        "name": "AquaticCommunity",
+        "url": "https://www.aquaticcommunity.com/marinefish/pomacanthus-xanthometopo.php",
+        "accessedDate": "2026-06-02",
+        "notes": "Confirmed 38 cm adult size, semi-aggressive temperament, 180 gal minimum tank, not captive bred, Indo-west-Pacific range."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
-    "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "protogynous": null
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "Captive breeding has been reported as extremely rare and generally limited to commercial aquaculture. In the wild the species spawns pelagically and is understood to be a protogynous hermaphrodite.",
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "no",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "protogynous": true
   },
   "crustacean": null,
   "coral": null,
@@ -72,6 +99,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "needs_review",
+  "lastReviewed": "2026-06-02"
 }

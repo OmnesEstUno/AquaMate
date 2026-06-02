@@ -1,0 +1,104 @@
+{
+  "id": "sw-fish-087",
+  "slug": "blue-line-grouper",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Blue Line Grouper",
+  "scientificName": "Cephalopholis formosa",
+  "alsoKnownAs": ["Bluelined Hind", "Blue-lined Hind", "Boenacki Grouper", "Blueline Grouper", "Chocolate Hind"],
+  "category": "Groupers",
+  "taxonomy": {
+    "family": "Epinephelidae",
+    "order": "Perciformes"
+  },
+  "nativeRange": {
+    "regions": ["Indo-Pacific", "Indo-West Pacific"],
+    "countries": ["India", "Philippines", "Japan", "Australia", "Indonesia", "Sri Lanka"],
+    "habitat": "Shallow dead or silty reefs; depth range generally 1–30 m, most commonly 1–15 m",
+    "biotope": "Reef"
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 24.0, "max": 27.5 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": { "min": 8.0, "max": 12.0 },
+    "salinity": { "min": 1.020, "max": 1.025 }
+  },
+  "adultSizeCm": { "min": 20.0, "max": 34.0 },
+  "lifespanYears": { "min": 8.0, "max": 15.0 },
+  "tank": {
+    "minVolumeLiters": 568.0,
+    "minLengthCm": 180.0,
+    "swimZone": "bottom",
+    "decorPreferences": ["live rock", "caves", "overhangs", "hiding spots"]
+  },
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Generally best fed large, meaty marine foods such as krill, raw shrimp, squid, clam, mussel, and chopped marine fish. Has been reported to accept prepared foods relatively readily, and some individuals have been known to feed from an aquarist's hand. Feeder fish are best avoided as a primary food source."
+  },
+  "compatibility": {
+    "temperament": "aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["large triggerfish", "moray eels", "large angelfish", "large tangs", "large predatory fish of comparable size"],
+    "avoidWith": ["small fish", "ornamental crustaceans", "shrimp", "small invertebrates", "docile or peaceful species"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A robust Indo-Pacific ambush predator known for vivid blue-striped patterning; generally considered aggressive and will tend to consume any fish or invertebrate that fits in its mouth, making it best suited to large predator displays.",
+  "careNotes": "The Blue Line Grouper (Cephalopholis formosa) is a medium-to-large saltwater fish found across shallow reef habitats in the Indo-West Pacific, ranging from western India to the Philippines, north to southern Japan, and south to northern Australia. It is commonly considered an intermediate-care species due primarily to its size and the high water-quality demands resulting from its messy, meaty diet.\n\nThis species tends to behave as an ambush predator, spending much of its time near the substrate under overhangs or within caves and emerging to strike at passing prey. It has been known to consume any fish or crustacean that fits in its mouth, including ornamental shrimp, small fish, and other invertebrates. Keeping it alongside large, robust tank mates of comparable size (large angelfish, eels, triggerfish) is generally advised.\n\nTank size is a source of significant disagreement across hobby sources: LiveAquaria recommends a 250-gallon (~946 L) minimum, AquariumDomain lists 125 gallons (~473 L), and BlueZoo lists 75 gallons (~284 L) — a spread of more than 3×. The averaged figure used here (~568 L / 150 gal) reflects the cross-source mean; a reviewer should consider whether 250 gal (946 L) is more appropriate given the species' adult size (up to ~34 cm) and waste output. Temperature data also showed moderate spread: aquarium-hobby sources suggest 22–28°C while FishBase wild-habitat data indicates 26.5–29.3°C; the figures used here average across all three datasets.\n\nThe species is protogynous, starting as female and potentially transitioning to male as dominant individuals mature — consistent with most Epinephelidae. Captive breeding has not been documented in the hobby literature. It does not possess venomous spines and is not considered a significant escape risk given its ambush-predator lifestyle.\n\nReef compatibility is listed as 'with caution' based on the majority of sources (2 of 3 surveyed); the species poses minimal direct threat to corals but will readily consume crustaceans and small fish commonly found in reef systems.",
+  "breedingNotes": "Captive breeding of Cephalopholis formosa has not been documented in hobby literature. As a protogynous hermaphrodite, individuals are born female and the dominant fish in a group may transition to male. Wild-caught specimens are typically offered for sale as juveniles or subadults.",
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/product/141/?pcatid=141",
+      "accessedDate": "2026-06-02",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "BlueZoo Aquatics",
+        "url": "https://www.bluezooaquatics.com/productDetail.asp?did=1&cid=281&pid=504",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked adult size (listed 11 in / 27.9 cm), minimum tank size (listed 75 gal / 284 L — notably lower than other sources), care level, and temperament. Tank size disagreement flagged in careNotes."
+      },
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/cephalopholis-formosa",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked taxonomy (Epinephelidae / Perciformes), maximum size (34 cm TL), native range, and wild preferred temperature (26.5–29.3°C). FishBase temperature is higher than aquarium-hobby recommendations, likely reflecting wild tropical habitat vs. captive-management ranges."
+      },
+      {
+        "name": "AquariumDomain",
+        "url": "https://www.aquariumdomain.com/SpeciesProfiles/MarineFish/BlueLineGrouper.shtml",
+        "accessedDate": "2026-06-02",
+        "notes": "Additional cross-check for adult size (14 in / 35.6 cm), tank size (125 gal / 473 L), temperature (74–82°F / 23.3–27.8°C), pH, salinity, and reef safe status. Values used in cross-source averaging."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "Captive breeding has not been documented in the hobby. In the wild, as a protogynous hermaphrodite, dominant females transition to male as they grow.",
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "with caution",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "protogynous": true
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "needs_review",
+  "lastReviewed": "2026-06-02"
+}

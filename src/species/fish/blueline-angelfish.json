@@ -1,0 +1,126 @@
+{
+  "id": "sw-fish-095",
+  "slug": "blueline-angelfish",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Blueline Angelfish",
+  "scientificName": "Chaetodontoplus septentrionalis",
+  "alsoKnownAs": ["Bluebanded Angelfish", "Bluestriped Angelfish", "Blue-striped Angelfish"],
+  "category": "Angelfish",
+
+  "taxonomy": {
+    "family": "Pomacanthidae",
+    "order": "Acanthuriformes"
+  },
+
+  "nativeRange": {
+    "regions": ["Western Pacific", "East Asia"],
+    "countries": ["Japan", "China", "Taiwan"],
+    "habitat": "Coastal rocky reefs and coral reefs at depths of approximately 5–15 m",
+    "biotope": "Reef"
+  },
+
+  "waterParameters": {
+    "temperatureC": { "min": 22, "max": 27 },
+    "pH":           { "min": 8.1, "max": 8.4 },
+    "gH":           null,
+    "kH":           { "min": 8, "max": 12 },
+    "salinity":     { "min": 1.020, "max": 1.025 }
+  },
+
+  "adultSizeCm": { "min": 20, "max": 25 },
+  "lifespanYears": null,
+
+  "tank": {
+    "minVolumeLiters": 450,
+    "minLengthCm": 180,
+    "swimZone": "all",
+    "decorPreferences": ["live rock", "rockwork with crevices", "open swimming space"]
+  },
+
+  "careLevel": "advanced",
+
+  "diet": {
+    "type": "omnivore",
+    "notes": "Has been documented feeding on sponges, tunicates, and algae in the wild. In captivity, tends to accept mysis shrimp, frozen marine foods, krill, chopped clams, spirulina-based flake foods, and sponge-fortified angelfish preparations. Sponge content in the diet is generally considered important for long-term health."
+  },
+
+  "compatibility": {
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["non-aggressive reef fish", "larger wrasses", "tangs", "gobies", "peaceful community fish in FOWLR systems"],
+    "avoidWith": ["other large angelfish", "other Chaetodontoplus species", "conspecifics", "small delicate invertebrates", "clams", "stony and soft corals"]
+  },
+
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+
+  "summary": "The Blueline Angelfish (Chaetodontoplus septentrionalis) is a semi-aggressive Western Pacific angelfish from Japan and the South China Sea, generally considered advanced in care and best suited to FOWLR systems of 450 L or more.",
+
+  "careNotes": "The Blueline Angelfish is generally considered a more challenging species, requiring a large, well-established aquarium with ample live rock for grazing and hiding. Juveniles display bold blue and white vertical stripes; adults develop electric blue horizontal stripes on a dark mustard body — this dramatic ontogenetic color change means juveniles may not be immediately recognizable as the adult form.\n\nThis species tends to be shy when first introduced and may take time to accept prepared foods. Offering sponge-based angelfish preparations, along with a variety of frozen meaty foods and marine algae, has been reported to improve acclimation and long-term health.\n\nThe Blueline Angelfish has been known to nip at stony and soft corals, clam mantles, and sessile invertebrates, and is generally not considered reef-safe. Multiple sources recommend housing it in FOWLR (fish only with live rock) aquariums.\n\nConspecific and heterospecific angelfish aggression is well-documented; this species is best kept singly unless a mated pair is established. Sources generally advise against mixing large angels in tanks under 680 liters.\n\nLike most Pomacanthidae, this species is believed to be a protogynous hermaphrodite (female-first sex changer), though captive breeding is rarely reported.\n\nMinimum tank size disagreement: LiveAquaria recommends 180 gallons (681 L), BlueZoo recommends 75 gallons (284 L), AquariumDomain 90 gallons (341 L), and Reeflings 130 gallons (492 L). The recorded minimum (450 L) is the average of all four sources; the spread exceeds 2× so this field is flagged for reviewer verification. The three most conservative estimates center around 340–681 L, suggesting a larger tank is preferable.\n\nAdult size disagreement: trade sources cite 8–8.5 inches (20–22 cm) while FishBase records a maximum of 22 cm and some hobby sources report up to 10 inches (25 cm). The recorded range (20–25 cm) spans the full spread.",
+
+  "breedingNotes": "Breeding in captivity has been described as rare and challenging. The species is oviparous with external fertilization, consistent with other Pomacanthidae. No established captive-breeding protocol is widely documented in the hobby literature.",
+
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/blueline-angelfish",
+      "accessedDate": "2026-06-02",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "BlueZoo Aquatics",
+        "url": "https://www.bluezooaquatics.com/productDetail.asp?did=1&pid=154&cid=8",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked sizing, tank size, care level, temperament, and diet. Note: the 75-gallon minimum tank size from this source is considerably lower than other sources; averaged with others to derive 450 L."
+      },
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Chaetodontoplus-septentrionalis.html",
+        "accessedDate": "2026-06-02",
+        "notes": "Confirmed scientific name, family (Pomacanthidae), order (Acanthuriformes), max length 22 cm TL, native range (Western Pacific, Malay Peninsula to southern Japan), and wild temperature range 21.2–29.2°C."
+      },
+      {
+        "name": "AquariumDomain",
+        "url": "https://www.aquariumdomain.com/SpeciesProfiles/MarineFish/BluelineAngelfish.shtml",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked adult size (10 in / 25.4 cm), tank minimum (90 gal / 341 L), care level (moderate), temperature (72–80°F / 22.2–26.7°C), salinity (1.020–1.025), reef-safe status (not recommended), and temperament (semi-aggressive)."
+      },
+      {
+        "name": "Reeflings",
+        "url": "https://reeflings.com/species/chaetodontoplus-septentrionalis",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked adult size (25 cm), tank minimum (500 L / 130 gal), care level (moderate to difficult), temperature (24–28°C), salinity (1.020–1.025), reef-safe (no), temperament (semi-aggressive), and oviparous breeding notes."
+      }
+    ]
+  },
+
+  "fish": {
+    "breedingDifficulty": "advanced",
+    "breedingNotes": "Rarely bred in captivity; oviparous with external fertilization. No established hobby captive-breeding protocol is widely documented.",
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "no",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "protogynous": true
+  },
+
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+
+  "schemaVersion": 1,
+  "dataStatus": "needs_review",
+  "lastReviewed": "2026-06-02"
+}

@@ -1,0 +1,110 @@
+{
+  "id": "sw-fish-098",
+  "slug": "bluestripe-pipefish",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Bluestripe Pipefish",
+  "scientificName": "Doryrhamphus excisus",
+  "alsoKnownAs": ["Blue-Stripe Pipefish", "Blue-Striped Pipefish", "Blue and Orange Cleaner Pipefish", "Flagtail Pipefish"],
+  "category": "Pipefish",
+  "taxonomy": {
+    "family": "Syngnathidae",
+    "order": "Syngnathiformes"
+  },
+  "nativeRange": {
+    "regions": ["Indo-Pacific", "Eastern Pacific", "Persian Gulf", "East Africa", "Red Sea"],
+    "countries": ["United States", "Mexico", "Australia", "Indonesia", "Philippines", "Japan", "Kenya", "Oman", "India", "Sri Lanka", "Thailand", "Papua New Guinea"],
+    "habitat": "Reef-associated; typically found in crevices among rocks and corals, under ledges, and in lagoon and seaward reef environments at depths of 2–50 m.",
+    "biotope": "Reef"
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 23.5, "max": 27.5 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.020, "max": 1.025 }
+  },
+  "adultSizeCm": { "min": 5.0, "max": 7.5 },
+  "lifespanYears": { "min": 2, "max": 4 },
+  "tank": {
+    "minVolumeLiters": 110,
+    "minLengthCm": 60,
+    "swimZone": "mid",
+    "decorPreferences": ["live rock", "gorgonians", "branching corals", "overhangs", "caves", "macroalgae"]
+  },
+  "careLevel": "expert",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Has been documented preferring live zooplankton such as copepods, cyclops, small mysis shrimp, and brine shrimp. Has been reported to gradually accept frozen foods enriched with omega-3 and vitamins; generally advised to maintain a healthy population of live copepods and amphipods in the aquarium. Generally recommended to feed 3–4 times daily due to a small stomach capacity."
+  },
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "pair",
+    "minGroupSize": 2,
+    "goodWith": ["seahorses", "small gobies", "dragonets", "firefish", "small basslets"],
+    "avoidWith": ["aggressive fish", "fast-moving fish", "large shrimp", "crabs", "anemones", "large polyp stony corals", "brain corals"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A small, reef-associated pipefish from the Indo-Pacific generally considered among the hardiest of pipefish, though it tends to require expert-level care and a calm, well-stocked aquarium with ample live foods.",
+  "careNotes": "Bluestripe Pipefish (Doryrhamphus excisus) tend to spend daylight hours swimming vertically behind a pipe or upside-down under a rock ledge, venturing out at dawn and dusk to hunt. They have been known to engage in cleaner-fish behavior, inspecting larger fish for parasites, though effectiveness varies by specimen. Generally advised to keep as a mated pair or in a harem of one male with multiple females; males have been known to be territorial toward other males. Gentle water flow is strongly recommended, as strong currents can stress and exhaust these fish. Best housed in a species-only or pipefish/seahorse-only aquarium, as faster-moving or aggressive tankmates can outcompete them for food leading to starvation. Anemones, brain corals, and large-polyp corals capable of consuming small fish should be avoided. Large crabs and shrimp have been known to prey on pipefish and should not be kept with them. LiveAquaria notes this species as 'venomous'; however, FishBase, Wikipedia, and all available scientific literature classify Doryrhamphus excisus as harmless to humans with no documented venomous structures. The 'venomous' tag on LiveAquaria appears to be a data error and has not been confirmed by any other source — venomousSpines is set to false. Temperature disagreement noted: LiveAquaria gives 72–78°F (22.2–25.6°C), saltwaterfish.com gives 75–82°F (23.9–27.8°C), and FishBase wild-habitat data gives 24.7–29°C; averaged range 23.5–27.5°C used.",
+  "breedingNotes": "Reproduction is ovoviviparous. Females deposit adhesive eggs into the male's brood pouch located on the underside of the tail, where the male provides oxygen and nutrients to developing eggs. Monogamous pairs are typical; FishBase documents home-ranging pairs that do not defend exclusive territories. Captive breeding has been reported and is generally considered achievable but advanced in difficulty due to the specialized diet required for fry. Mature males have been reported to appear flatter, while females tend to appear rounder when gravid.",
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/product/281/?pcatid=281",
+      "accessedDate": "2026-06-02",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Doryrhamphus-excisus",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked adult size (max 7.0 cm), temperature range (24.7–29°C wild preferred), taxonomy, native range, and reproductive details. The subspecies summary page (Doryrhamphus-excisus+excisus.html) confirmed matching data."
+      },
+      {
+        "name": "ReefApp Encyclopedia",
+        "url": "https://reefapp.net/en/encyclopedia/doryrhamphus-excisus",
+        "accessedDate": "2026-06-02",
+        "notes": "Confirmed adult size 7 cm, minimum tank 100 L, peaceful temperament, carnivore diet, and general husbandry recommendations. No specific pH or temperature data given."
+      },
+      {
+        "name": "SaltwaterFish.com",
+        "url": "https://www.saltwaterfish.com/product-pipefish-blue-striped",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked water parameters: temperature 75–82°F (23.9–27.8°C), SG 1.023–1.025, pH 8.1–8.4, lifespan 2–4 years. Size listed as both 3 inches max and 5–6 inches in captivity (contradictory; 3 inches consistent with FishBase 7 cm)."
+      },
+      {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Doryrhamphus_excisus",
+        "accessedDate": "2026-06-02",
+        "notes": "Used for taxonomy confirmation and to verify venom status. Article states the species is harmless; no venomous structures documented. This contradicts LiveAquaria's 'Venomous: Yes' flag, which is not supported by FishBase, Wikipedia, or scientific literature."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "advanced",
+    "breedingNotes": "Captive breeding has been reported and is generally considered achievable with a dedicated pair, stable water quality, and adequate live-food availability. Fry have been reported to require extremely small live zooplankton immediately after release from the brood pouch.",
+    "conspecificAggression": "moderate",
+    "finNippy": false,
+    "reefSafe": "with caution",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "protogynous": false
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-02"
+}

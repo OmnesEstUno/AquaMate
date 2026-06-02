@@ -1,0 +1,126 @@
+{
+  "id": "sw-fish-104",
+  "slug": "dusky-jawfish",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Dusky Jawfish",
+  "scientificName": "Opistognathus whitehurstii",
+  "alsoKnownAs": ["Dusky Jaw Fish"],
+  "category": "Jawfish",
+
+  "taxonomy": {
+    "family": "Opistognathidae",
+    "order": "Blenniiformes"
+  },
+
+  "nativeRange": {
+    "regions": ["Western Atlantic", "Caribbean", "Gulf of Mexico"],
+    "countries": ["United States", "Bahamas", "Brazil", "Mexico", "Colombia", "Venezuela"],
+    "habitat": "Reef-associated; found on rock and sand bottoms and the eroding edges of weed beds at depths of 1–12 m",
+    "biotope": "Reef"
+  },
+
+  "waterParameters": {
+    "temperatureC": { "min": 24.0, "max": 26.8 },
+    "pH":           { "min": 8.0,  "max": 8.4 },
+    "gH":           null,
+    "kH":           { "min": 8.0,  "max": 12.0 },
+    "salinity":     { "min": 1.021, "max": 1.025 }
+  },
+
+  "adultSizeCm":   { "min": 9.5, "max": 14.0 },
+  "lifespanYears": null,
+
+  "tank": {
+    "minVolumeLiters":  142,
+    "minLengthCm":      null,
+    "swimZone":         "bottom",
+    "decorPreferences": ["sand substrate", "coral rubble", "loose rock fragments", "shell pieces", "burrow space"]
+  },
+
+  "careLevel": "beginner",
+
+  "diet": {
+    "type": "carnivore",
+    "notes": "Has been documented eating a variety of meaty foods including marine fish flesh, crustacean flesh, mysis shrimp, brine shrimp, krill, and zooplankton. Generally advised to offer small meaty items a couple of times daily."
+  },
+
+  "compatibility": {
+    "temperament":  "peaceful",
+    "grouping":     "solitary",
+    "minGroupSize": 1,
+    "goodWith":     ["peaceful reef fish", "gobies", "blennies", "clownfish", "cardinalfish", "chromis", "small wrasses"],
+    "avoidWith":    ["large aggressive fish", "predatory fish", "dottybacks"]
+  },
+
+  "media": {
+    "primaryImage":    null,
+    "gallery":         [],
+    "imageCandidates": null
+  },
+
+  "summary": "A peaceful, burrowing jawfish native to the Caribbean and western Atlantic, generally considered suitable for reef aquariums. Tends to construct burrows in sandy substrate and is commonly known as an escape artist requiring a tightly covered tank.",
+
+  "careNotes": "The Dusky Jawfish tends to inhabit the bottom of the aquarium, spending much of its time hovering at the entrance to a self-constructed burrow. A substrate depth of at least 7–10 cm of mixed coral sand and rubble is generally advised to allow natural burrowing behavior. A tightly sealed lid is strongly recommended as this species has been reported to jump, particularly in the early weeks after introduction. Multiple individuals can sometimes be housed together in larger aquariums where each fish is able to establish its own territory; aggression between conspecifics is typically limited to territorial disputes near burrows. The species is commonly considered reef-safe. Moderate lighting has been reported to be preferred; gradual lighting transitions tend to reduce startling. The species is a paternal mouthbrooder — males incubate the egg mass in the mouth until hatching. Adult size shows some variation across sources: aquarium hobby sources typically report 9.5–10 cm, while scientific records (FishBase, Wikipedia) give a maximum total length of 14 cm; the range 9.5–14 cm is used here. Minimum tank size was averaged across three sources (LiveAquaria 113 L, FishyWiki 113 L, Reeflex 200 L) yielding ~142 L; the Reeflex recommendation of 200 L may reflect a preference for more swimming room and territory establishment. Temperature was averaged across LiveAquaria (22.2–25.6°C), TankFacts (24.4–26.7°C), and FishBase preferred range (25.5–28.2°C), yielding 24.0–26.8°C.",
+
+  "breedingNotes": "Paternal mouthbrooding has been documented in this species — the male incubates and aerates the fertilized egg mass in his mouth. Successful captive spawning has been reported. Breeding difficulty in captivity is generally considered moderate due to the difficulty of obtaining a compatible pair and ensuring adequate space for territory establishment.",
+
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/jawfish-dusky",
+      "accessedDate": "2026-06-02",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Opistognathus-whitehurstii.html",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked adult size (14 cm max TL), native range (western Atlantic: southern Florida to northern South America), and preferred temperature range (25.5–28.2°C). Taxonomy: family Opistognathidae."
+      },
+      {
+        "name": "FishyWiki",
+        "url": "https://fishy.wiki/en/salt-water-fish/opistognathidae/opistognathus-whitehurstii.phtml",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked adult size (9.4 cm), minimum tank (113 L), salinity SG 1.020–1.025, pH 8.1–8.4, dKH 8–12."
+      },
+      {
+        "name": "TankFacts",
+        "url": "https://www.tankfacts.com/fish/saltwater/jawfish/dusky-jawfish_1044",
+        "accessedDate": "2026-06-02",
+        "notes": "Provided additional water parameter data: temperature 76–80°F (24.4–26.7°C), SG 1.023–1.026, pH 7.8–8.4, dKH 8–12. Used in temperature and salinity averaging."
+      },
+      {
+        "name": "Reeflex",
+        "url": "https://www.reeflex.net/tiere/295_Opistognathus_whitehursti.htm",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked adult size (12–14 cm), minimum tank (200 L), temperature (up to 26°C). Notes species as rare in trade and confirms mouthbrooding behavior."
+      }
+    ]
+  },
+
+  "fish": {
+    "breedingDifficulty":    "moderate",
+    "breedingNotes":         "Paternal mouthbrooder; males incubate egg masses. Captive spawning has been documented but pairing and territory requirements make breeding moderately challenging.",
+    "conspecificAggression": "low",
+    "finNippy":              false,
+    "reefSafe":              "yes",
+    "escapeRisk":            "high",
+    "venomousSpines":        false,
+    "protogynous":           false
+  },
+
+  "crustacean":   null,
+  "coral":        null,
+  "mollusc":      null,
+  "echinoderm":   null,
+  "other-invert": null,
+  "plant":        null,
+  "macroalgae":   null,
+
+  "schemaVersion": 1,
+  "dataStatus":    "researched",
+  "lastReviewed":  "2026-06-02"
+}

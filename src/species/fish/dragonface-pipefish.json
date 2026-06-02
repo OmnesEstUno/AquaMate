@@ -1,0 +1,104 @@
+{
+  "id": "sw-fish-103",
+  "slug": "dragonface-pipefish",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Dragonface Pipefish",
+  "scientificName": "Corythoichthys intestinalis",
+  "alsoKnownAs": ["Scribbled Pipefish", "Messmate Pipefish", "Dragon Face Pipefish"],
+  "category": "Pipefish",
+  "taxonomy": {
+    "family": "Syngnathidae",
+    "order": "Syngnathiformes"
+  },
+  "nativeRange": {
+    "regions": ["Western Central Pacific", "Indo-Pacific"],
+    "countries": ["Indonesia", "Papua New Guinea", "Palau", "Federated States of Micronesia", "Marshall Islands", "Samoa", "New Caledonia", "Australia"],
+    "habitat": "Shallow sandy or mixed sand, rubble, and coral areas of reef flats and lagoons; depth range 20–68 m",
+    "biotope": "Reef"
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 23.0, "max": 26.5 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.021, "max": 1.025 }
+  },
+  "adultSizeCm": { "min": 10.0, "max": 17.0 },
+  "lifespanYears": { "min": 5, "max": 10 },
+  "tank": {
+    "minVolumeLiters": 140,
+    "minLengthCm": null,
+    "swimZone": "bottom",
+    "decorPreferences": ["live rock", "branching gorgonias", "macroalgae", "caves", "crevices", "low flow areas"]
+  },
+  "careLevel": "expert",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Has been documented eating live copepods, amphipods, and vitamin-enriched live baby brine shrimp; some individuals have been reported to transition over time to frozen Cyclops, small Mysis, and brine shrimp. Generally advised to target-feed multiple times daily. Readily consumes red bugs (Tegastes acroporanus micro-amphipods) from Acropora corals, which has made it of interest to reef keepers dealing with red bug infestations."
+  },
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "pair",
+    "minGroupSize": 1,
+    "goodWith": ["seahorses", "small gobies", "dragonets", "firefish", "small peaceful reef fish"],
+    "avoidWith": ["aggressive fish", "territorial fish", "fast-moving fish", "large crabs", "large shrimp", "anemones", "large stinging corals"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A challenging expert-only pipefish from the Western Pacific, generally considered reef-safe and valued for consuming red bugs on Acropora; tends to require live foods and a calm, well-established reef with copepod populations.",
+  "careNotes": "Dragonface Pipefish (Corythoichthys intestinalis) are among the more commonly kept pipefish but are still generally advised for expert-level aquarists due to demanding feeding requirements. They tend to travel by sliding over substrate rather than swimming actively, and have been known to stress easily in the presence of aggressive or fast-moving tankmates. Species-only or pipefish-and-seahorse setups are strongly recommended to prevent competition for food. A mature reef with established copepod and amphipod populations is generally considered the best environment. Filtration intakes should be shielded with strainers to prevent injury. Males carry developing young in a brood patch, and breeding has been reported in well-maintained aquariums. Sources disagree on adult size: FishBase and LiveAquaria report up to ~17–18 cm (max standard length), while Quality Marine lists 'almost 5 inches' (~12.7 cm); the range used here (10–17 cm) spans these observations. Tank minimum volume sources ranged from 30 gal (Quality Marine, AquamarinePower) to 50 gal (LiveAquaria); the averaged value of approximately 140 L is used. Temperature minimum also showed spread: hobby sources suggest 72–78°F (22–26°C) while FishBase wild data indicates 25.3–28.7°C; the averaged range of 23–26.5°C is used. These disagreements are within a factor of ~1.5 and are considered manageable. The species is also known by the common names Scribbled Pipefish and Messmate Pipefish on scientific databases (FishBase).",
+  "breedingNotes": "Males carry eggs in a brood pouch on the ventral surface. Pairs have been reported to breed in captivity when well-fed and kept in low-stress environments. Breeding difficulty is generally considered advanced due to the challenges of feeding and sustaining adults, let alone raising fry.",
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/dragonface-pipefish-expert-only",
+      "accessedDate": "2026-06-02",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Corythoichthys-intestinalis.html",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked taxonomy, native range, adult size (17.8 cm max), and temperature range (25.3–28.7°C). FishBase lists higher temperature range than hobby sources; averaged across all four sources."
+      },
+      {
+        "name": "Quality Marine",
+        "url": "https://www.qualitymarine.com/quality-marine/fish/pipefish/corythoichthys/dragonface-25003/",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked adult size ('almost 5 inches'), tank minimum (30 gal), temperature (72–78°F), salinity (1.020–1.025), pH (8.1–8.4). Adult size smaller than FishBase; averaged into adultSizeCm range."
+      },
+      {
+        "name": "AquamarinePower Pipefish Care Guide",
+        "url": "https://www.aquamarinepower.com/pipefish/",
+        "accessedDate": "2026-06-02",
+        "notes": "Additional cross-check: temperature 74–78°F, salinity 1.023–1.025, pH 8.1–8.4, tank 30–50 gal, lifespan 5–10 years. Used for averaging temperature minimum and tank volume."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "advanced",
+    "breedingNotes": "Males are ovoviviparous and carry developing young in a ventral brood patch. Breeding has been reported in aquariums when adults are well-fed and unstressed; raising fry successfully is considered very challenging due to their tiny size and need for live microfoods.",
+    "conspecificAggression": "low",
+    "finNippy": false,
+    "reefSafe": "with caution",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "protogynous": null
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-02"
+}

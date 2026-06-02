@@ -1,0 +1,120 @@
+{
+  "id": "sw-fish-101",
+  "slug": "cubicus-boxfish",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Cubicus Boxfish",
+  "scientificName": "Ostracion cubicum",
+  "alsoKnownAs": ["Yellow Boxfish", "Yellow Box Fish", "Polka Dot Boxfish", "Cube Boxfish"],
+  "category": "Boxfish",
+
+  "taxonomy": {
+    "family": "Ostraciidae",
+    "order": "Tetraodontiformes"
+  },
+
+  "nativeRange": {
+    "regions": ["Indo-Pacific", "Red Sea", "East Africa", "Hawaii", "Southeast Atlantic"],
+    "countries": ["Indonesia", "Philippines", "Fiji", "Japan", "Australia", "South Africa", "Egypt", "Kenya"],
+    "habitat": "Lagoon and semi-sheltered seaward reefs; juveniles often found among Acropora corals. Depth range typically 1–50 m, with records to 280 m.",
+    "biotope": "Reef"
+  },
+
+  "waterParameters": {
+    "temperatureC": { "min": 23.0, "max": 26.7 },
+    "pH":           { "min": 8.1,  "max": 8.4 },
+    "gH":           null,
+    "kH":           { "min": 8,    "max": 12 },
+    "salinity":     { "min": 1.020, "max": 1.025 }
+  },
+
+  "adultSizeCm":   { "min": 25.0, "max": 46.6 },
+  "lifespanYears": null,
+
+  "tank": {
+    "minVolumeLiters": 740,
+    "minLengthCm":     null,
+    "swimZone":        "all",
+    "decorPreferences": ["live rock", "rocky caves", "open swimming space", "crevices"]
+  },
+
+  "careLevel": "expert",
+
+  "diet": {
+    "type": "omnivore",
+    "notes": "Has been documented eating algae, small invertebrates, mollusks, sponges, polychaetes, and crustaceans in the wild. In captivity, newly introduced individuals tend to accept live brine shrimp or bloodworms initially; once acclimated, the diet can typically be transitioned to chopped squid, clams, mussels, and frozen herbivore preparations."
+  },
+
+  "compatibility": {
+    "temperament":  "semi-aggressive",
+    "grouping":     "solitary",
+    "minGroupSize": 1,
+    "goodWith":     ["large semi-aggressive fish", "fish too large to be threatened"],
+    "avoidWith":    ["small invertebrates", "tubeworms", "crustaceans", "shrimps", "crabs", "small bivalves", "reef corals", "stressed tankmates"]
+  },
+
+  "media": {
+    "primaryImage":    null,
+    "gallery":         [],
+    "imageCandidates": null
+  },
+
+  "summary": "A striking boxfish native to Indo-Pacific reefs, notable for its bright yellow juvenile coloration with brown spots and a highly toxic skin secretion (ostracitoxin) that can prove lethal to tankmates under stress. Generally considered a species for experienced to expert-level aquarists only.",
+
+  "careNotes": "The Cubicus Boxfish is widely considered suitable only for very experienced aquarists. Its most critical trait is its ability to release ostracitoxin from mucous glands when stressed or dying — a toxin that has been reported to kill all other fish in a closed system within a very short period. Extreme care should be taken to minimize stress during handling, transport, and acclimation.\n\nJuveniles display vivid yellow bodies with brown spots; adults tend to fade to brown with yellow-spotted patterning. Wild individuals inhabit lagoon and semi-sheltered seaward reefs across a broad Indo-Pacific range including the Red Sea, East Africa, Hawaii, and south to Lord Howe Island.\n\nSources disagree on minimum tank volume: LiveAquaria (expert page) recommends 250 gallons (946 L), while LiveAquaria's standard page and AquariumDomain cite 125 gallons (473 L), and ReefApp suggests 800 L. The averaged figure (740 L / ~195 gallons) is used here; reviewers may wish to standardize to 800 L given the species' large adult size and toxin-dilution considerations.\n\nAdult size maximum similarly varies across sources: FishBase and ReefApp cite 45 cm, AquariumDomain cites 18 inches (~45.7 cm), and LiveAquaria cites 20 inches (~50.8 cm). The averaged maximum is approximately 46.6 cm.\n\nTemperature recommendations also span two ranges: hobby sources (LiveAquaria, AquariumDomain) suggest 72–78°F (22.2–25.6°C), while FishBase wild data indicates 24.5–29°C. The averaged range of approximately 23–26.7°C is used here.\n\nIn the wild, reproduction is reported to occur in harems of one male and 2–4 females; breeding in captivity has rarely been achieved. The species is not protogynous — males maintain harems over females rather than switching sex in female-first fashion.\n\nThis species will nip at tubeworms and is generally not considered safe in reef tanks with small invertebrates, shrimps, or crabs. It is benthopelagic and solitary in the wild.",
+
+  "breedingNotes": "Very little success has been reported in breeding the Cubicus Boxfish in captivity. Wild populations are reported to reproduce in harems, with a single male presiding over two to four females.",
+
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/cubicus-boxfish-expert-only",
+      "accessedDate": "2026-06-02",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Ostracion-cubicum",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked adult size (45 cm max) and temperature range (24.5–29°C wild data), taxonomy, native range, and habitat. FishBase temperature range is warmer than hobby-source recommendations; averaged across sources."
+      },
+      {
+        "name": "AquariumDomain",
+        "url": "https://www.aquariumdomain.com/SpeciesProfiles/MarineFish/CubicusBoxfish.shtml",
+        "accessedDate": "2026-06-02",
+        "notes": "Additional cross-check on size (18 in / ~45.7 cm), temperature (72–78°F), salinity (1.020–1.025), tank size (125 gal / 473 L), and diet. Consistent with LiveAquaria standard page on most parameters."
+      },
+      {
+        "name": "ReefApp Encyclopedia",
+        "url": "https://reefapp.net/en/encyclopedia/ostracion-cubicus",
+        "accessedDate": "2026-06-02",
+        "notes": "Additional cross-check; cites max size 45 cm, minimum tank 800 L, salinity ~1.026. Tank size recommendation is notably higher than hobby sources; factored into averaged minimum volume."
+      }
+    ]
+  },
+
+  "fish": {
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "Very little success has been reported in breeding the Cubicus Boxfish in captivity. Wild populations are reported to reproduce in harems, with a single male presiding over two to four females.",
+    "conspecificAggression": "moderate",
+    "finNippy": false,
+    "reefSafe": "no",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "protogynous": false
+  },
+
+  "crustacean":   null,
+  "coral":        null,
+  "mollusc":      null,
+  "echinoderm":   null,
+  "other-invert": null,
+  "plant":        null,
+  "macroalgae":   null,
+
+  "schemaVersion": 1,
+  "dataStatus": "needs_review",
+  "lastReviewed": "2026-06-02"
+}

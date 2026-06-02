@@ -1,0 +1,110 @@
+{
+  "id": "sw-fish-036",
+  "slug": "threadfin-lookdown",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Threadfin Lookdown",
+  "scientificName": "Selene vomer",
+  "alsoKnownAs": ["Lookdown", "Lookdown Fish"],
+  "category": "Jacks",
+  "taxonomy": {
+    "family": "Carangidae",
+    "order": "Carangiformes"
+  },
+  "nativeRange": {
+    "regions": ["Western Atlantic", "Caribbean", "Gulf of Mexico"],
+    "countries": ["United States", "Brazil", "Uruguay", "Mexico", "Bermuda", "Venezuela", "Colombia"],
+    "habitat": "Shallow coastal waters, estuaries, and sandy bays; juveniles tend to be found in estuarine areas and off sandy beaches",
+    "biotope": "Coastal"
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 23.0, "max": 26.3 },
+    "pH": { "min": 7.8, "max": 8.4 },
+    "gH": null,
+    "kH": { "min": 8.0, "max": 12.0 },
+    "salinity": { "min": 1.020, "max": 1.025 }
+  },
+  "adultSizeCm": { "min": 35.0, "max": 49.0 },
+  "lifespanYears": { "min": 5.0, "max": 20.0 },
+  "tank": {
+    "minVolumeLiters": 1550.0,
+    "minLengthCm": 300.0,
+    "swimZone": "mid",
+    "decorPreferences": ["open swimming space", "sparse decor", "sandy substrate"]
+  },
+  "careLevel": "advanced",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Has been documented consuming small crabs, shrimps, small fish, and worms in the wild. In captivity, has been known to accept brine shrimp, mysis shrimp, krill, squid, and small feeder fish. Generally considered a picky eater, especially when newly introduced; frequent small feedings are generally advised, and dietary variety is important for long-term health."
+  },
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "schooling",
+    "minGroupSize": 3,
+    "goodWith": ["large peaceful fish", "batfish", "large wrasses", "large tangs"],
+    "avoidWith": ["small fish", "small crustaceans", "fin nippers", "aggressive species"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "The Threadfin Lookdown is a striking, disc-shaped jack from the western Atlantic, known for its shimmering silver-blue flanks and elongated dorsal and anal fin filaments. Generally considered an advanced-level fish best kept in very large systems with plenty of open swimming room.",
+  "careNotes": "The Threadfin Lookdown (Selene vomer) is a pelagic jack requiring a very large aquarium — generally advised to be at least 1500 liters (approximately 400 gallons) to accommodate its active schooling behavior and potential adult size of up to ~49 cm. It tends to thrive when kept in groups of at least 3, and feeding together has been reported to encourage natural schooling behavior and reduce competition. Newly introduced specimens tend to be picky eaters; frequent small meals of varied meaty foods (krill, mysis, squid, small live or frozen items) are generally advised to get them feeding reliably.\n\nThe species has extremely thin, delicate skin that is easily damaged during capture, transport, or netting; care is strongly advised when handling. Its highly reflective, shimmering flanks can be startling to tankmates.\n\nWhile generally peaceful toward similarly-sized fish, it has been known to consume smaller fish and crustaceans that fit in its mouth. It is considered reef safe with caution — some sources note potential threat to small invertebrates. It should not be housed with fin nippers or aggressive species, as its long trailing fins are vulnerable.\n\nThis species inhabits a range of salinity conditions (FishBase notes it is listed as both marine and brackish), though for aquarium purposes standard reef salinity (SG 1.020–1.025) is generally advised.\n\nSome sources note this fish can be an escape risk when startled; a tightly fitting lid is generally recommended.\n\nSize note: Sources varied somewhat on maximum adult size. LiveAquaria lists 20 inches (50.8 cm); FishBase lists a maximum of 48.3 cm TL with a common length of 35 cm; BlueZoo lists 19 inches (48.3 cm); ReefApp and EshaLabs cite 48–50 cm. Min (common length) set at 35 cm; max set at ~49 cm (average of source maxima).\n\nTank size note: Sources showed significant spread — LiveAquaria recommends 500 gallons (1893 L), BlueZoo recommends 200 gallons (757 L), and ReefApp recommends 2000 L. These were averaged to ~1550 L; given the fish's active schooling nature and large potential size, the higher estimates are likely more appropriate for long-term keeping.",
+  "breedingNotes": null,
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/product/678/?pcatid=678",
+      "accessedDate": "2026-06-02",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "BlueZoo Aquatics",
+        "url": "https://www.bluezooaquatics.com/productDetail.asp?did=1&pid=920&cid=291",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked adult size (19 in / 48.3 cm), temperament, care level. Tank minimum listed as 200 gallons (757 L) vs LiveAquaria's 500 gallons (1893 L) — averaged with other sources to ~1550 L."
+      },
+      {
+        "name": "FishBase",
+        "url": "https://fishbase.se/summary/Selene-vomer.html",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked maximum size (48.3 cm TL), native range (Western Atlantic), family (Carangidae), order (Carangiformes), temperature range (11.8–27.9°C wild). Wild temperature range is much broader than aquarium recommendations; aquarium-specific range averaged from hobby sources."
+      },
+      {
+        "name": "ReefApp Encyclopedia",
+        "url": "https://reefapp.net/en/encyclopedia/selene-vomer",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked grouping (keep in groups of 3+), tank size (2000 L minimum), diet, reef compatibility. Size listed as 48 cm."
+      },
+      {
+        "name": "EshaLabs Aquapedia",
+        "url": "https://eshalabs.com/aquapedia/lookdown-fish/",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked temperature (24–27°C), salinity (SG 1.020–1.025), pH (7.5–8.5), grouping (4+ recommended), diet notes. Size listed as 50 cm. Tank minimum 380 L (100 gal) — likely inadequate for full-grown specimens; not heavily weighted for minimum tank calculation."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": null,
+    "conspecificAggression": "low",
+    "finNippy": false,
+    "reefSafe": "with caution",
+    "escapeRisk": "moderate",
+    "venomousSpines": false,
+    "protogynous": null
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-02"
+}

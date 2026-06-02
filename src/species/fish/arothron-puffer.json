@@ -1,0 +1,126 @@
+{
+  "id": "sw-fish-069",
+  "slug": "arothron-puffer",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Arothron Puffer",
+  "scientificName": "Arothron meleagris",
+  "alsoKnownAs": ["Guineafowl Puffer", "Golden Puffer", "Spotted Puffer"],
+  "category": "Pufferfish",
+
+  "taxonomy": {
+    "family": "Tetraodontidae",
+    "order": "Tetraodontiformes"
+  },
+
+  "nativeRange": {
+    "regions": ["Indo-Pacific", "Eastern Pacific"],
+    "countries": ["Kenya", "South Africa", "Japan", "Indonesia", "Australia", "Mexico", "Ecuador", "Panama", "Hawaii"],
+    "habitat": "Coral-rich areas of clear lagoons and seaward reefs; generally found at depths of 1–73 m",
+    "biotope": "Reef"
+  },
+
+  "waterParameters": {
+    "temperatureC": { "min": 23, "max": 27 },
+    "pH":           { "min": 8.1, "max": 8.4 },
+    "gH":           null,
+    "kH":           null,
+    "salinity":     { "min": 1.020, "max": 1.025 }
+  },
+
+  "adultSizeCm": { "min": 10, "max": 50 },
+  "lifespanYears": null,
+
+  "tank": {
+    "minVolumeLiters": 1300,
+    "minLengthCm": null,
+    "swimZone": "all",
+    "decorPreferences": ["live rock", "open swimming space", "hiding places"]
+  },
+
+  "careLevel": "intermediate",
+
+  "diet": {
+    "type": "carnivore",
+    "notes": "Has been documented feeding on coral polyps, sponges, molluscs, bryozoans, tunicates, crustaceans, and algae in the wild. In captivity, has been known to accept squid, krill, clams, shrimp, and other meaty foods. Hard-shelled prey such as clams and crabs are generally advised to help wear down the species' continuously growing beak-like teeth."
+  },
+
+  "compatibility": {
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["large robust fish", "triggers", "groupers", "large wrasses"],
+    "avoidWith": ["invertebrates", "corals", "small fish", "conspecifics"]
+  },
+
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+
+  "summary": "A large, bold Indo-Pacific puffer available in black-spotted, mottled, and golden color phases; generally considered semi-aggressive and best kept singly in a large fish-only system with robust tankmates.",
+
+  "careNotes": "Arothron meleagris occurs across the Indo-Pacific and eastern Pacific and tends to inhabit coral-rich reef and lagoon environments. Three naturally occurring color phases have been described — a dark blue-to-black phase with white spots, a mottled yellow-and-black phase, and an all-yellow (golden) phase — though color-phase changes are rarely observed in captivity.\n\nThis species has a distinctive beak-like structure formed by fused teeth that continues to grow throughout life; hard-shelled foods are generally advised to prevent overgrowth. Pectoral, dorsal, and anal fins are used for locomotion as the species lacks pelvic fins.\n\nMinimum tank size is a subject of significant disagreement among sources: hobby-oriented retailers typically recommend 120–150 US gallons (450–570 L), while more specialised or scientific sources suggest 2,000–3,000 L to adequately accommodate a fully grown specimen. Aquarists are advised to provide as much space as practical.\n\nLike all members of Tetraodontidae, Arothron meleagris is capable of inflating its body by ingesting water when threatened. It should not be allowed to inhale air, as this can be fatal; a container rather than a net is generally recommended for transfers.\n\nThis species contains tetrodotoxin and is highly poisonous to eat; the toxin is also present in the skin and organs. Heavy filtration is generally advised given the species' messy eating habits. It has been reported to be aggressive toward conspecifics and toward similar-shaped species; most sources advise keeping it singly. Breeding has not yet been accomplished in captivity.",
+
+  "breedingNotes": "Breeding has not been achieved in captivity. The species is oviparous in the wild. No captive breeding protocols are documented in the available literature.",
+
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/product/217/?pcatid=217",
+      "accessedDate": "2026-06-02",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Arothron-meleagris.html",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked scientific classification, adult size (50 cm), native range, temperature range (24.3–29°C), and diet. Temperature range differs from hobby sources (22.2–25.6°C from LiveAquaria/FreshMarine); averaged across all sources to produce final values of 23–27°C."
+      },
+      {
+        "name": "ReefApp Encyclopedia",
+        "url": "https://reefapp.net/en/encyclopedia/arothron-meleagris",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked adult size (50 cm), minimum tank size (2000 L), temperament, diet, and native range. Tank size of 2000 L is significantly higher than hobby-source recommendations of 450–570 L; this discrepancy is documented in careNotes and dataStatus set to needs_review."
+      },
+      {
+        "name": "Reeflex",
+        "url": "https://www.reeflex.net/tiere/2761_Arothron_meleagris.htm",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked adult size (50 cm), temperature range (24.3–29°C), minimum tank size (3000 L), care level (advanced), and toxicity notes. Tank size of 3000 L is the highest figure gathered; averaged across all 5 sources to produce 1300 L for minVolumeLiters."
+      },
+      {
+        "name": "TFH Magazine",
+        "url": "https://www.tfhmagazine.com/articles/saltwater/arothron-meleagris",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked adult size (50 cm), minimum tank size (150 gal / 568 L), temperament (may harass non-robust tankmates), reef safety (not reef safe), and confirmed breeding not accomplished in captivity."
+      }
+    ]
+  },
+
+  "fish": {
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "Not yet achieved in captivity. Oviparous in the wild.",
+    "conspecificAggression": "high",
+    "finNippy": true,
+    "reefSafe": "no",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "protogynous": false
+  },
+
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+
+  "schemaVersion": 1,
+  "dataStatus": "needs_review",
+  "lastReviewed": "2026-06-02"
+}

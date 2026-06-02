@@ -1,0 +1,104 @@
+{
+  "id": "sw-fish-032",
+  "slug": "sunset-butterflyfish",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Sunset Butterflyfish",
+  "scientificName": "Chaetodon pelewensis",
+  "alsoKnownAs": ["Dot-Dash Butterflyfish", "Pelewensis Butterflyfish", "Spotbanded Butterflyfish", "Punctato Butterflyfish"],
+  "category": "Butterflyfish",
+  "taxonomy": {
+    "family": "Chaetodontidae",
+    "order": "Perciformes"
+  },
+  "nativeRange": {
+    "regions": ["South Pacific", "Coral Sea"],
+    "countries": ["Australia", "Papua New Guinea", "Fiji", "Samoa", "Cook Islands", "French Polynesia"],
+    "habitat": "Coral reef slopes and lagoons, typically at depths of 1–35 m",
+    "biotope": "Reef"
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 22.2, "max": 25.6 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.020, "max": 1.025 }
+  },
+  "adultSizeCm": { "min": 12.0, "max": 12.7 },
+  "lifespanYears": { "min": 5, "max": 8 },
+  "tank": {
+    "minVolumeLiters": 246,
+    "minLengthCm": 120,
+    "swimZone": "all",
+    "decorPreferences": ["live rock", "caves", "crevices", "overhangs"]
+  },
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Has been documented feeding on coral polyps, small benthic invertebrates, and filamentous algae in the wild. In captivity tends to be a shy, deliberate feeder and may initially require live foods to transition to frozen fare; finely chopped seafoods, mysis shrimp, vitamin-enriched brine shrimp, krill, cyclops, spirulina, and high-quality marine omnivore pellets have been reported to work well. Feeding 2–3 times daily is generally advised."
+  },
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "pair",
+    "minGroupSize": 1,
+    "goodWith": ["Clownfish", "Royal Gramma", "Firefish", "Banggai Cardinalfish", "Dottybacks", "Dwarf Angelfish", "Hawkfish", "Peaceful Tangs"],
+    "avoidWith": ["Aggressive fish", "other Chaetodon butterflyfish", "Large predatory fish", "Anemones", "Corals", "Small invertebrates"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A peaceful South Pacific butterflyfish with warm yellow-orange hues and distinctive dot-dash patterning. Generally considered intermediate in difficulty due to initially shy feeding behavior; best kept in a mature FOWLR aquarium.",
+  "careNotes": "The Sunset Butterflyfish is generally considered a peaceful species that tends to do well in community FOWLR aquariums with non-aggressive tankmates. It is not considered reef-safe, as it has been documented feeding on coral polyps, soft corals, tubeworms, and benthic invertebrates in the wild. It should be kept away from ornamental invertebrates and corals.\n\nFeeding can be challenging initially — this species has been reported as a shy, deliberate feeder that may require live or frozen foods (live brine shrimp, live mysis) to trigger a feeding response before transitioning to prepared foods. A varied diet is generally advised to maintain health.\n\nThis species is best kept singly or as a mated pair; it has been known to be territorial toward conspecifics and similar-looking butterflyfish. A well-established aquarium with ample live rock providing caves, crevices, and grazing surfaces is generally recommended.\n\nMinimum tank size recommendations vary across sources: LiveAquaria suggests 70 gallons (265 L), TropicalFishKeeping suggests 75 gallons (284 L), and BlueZoo Aquatics lists 50 gallons (189 L). An averaged figure of approximately 246 L was used; the higher end of this range is generally advised for long-term care.\n\nDistribution extends from Papua New Guinea and the Great Barrier Reef (Australia) eastward to the Tuamotu Archipelago, including Fiji, Samoa, Cook Islands, and the Society Islands.\n\nBreeding in captivity has rarely been documented. Sources describe the species as oviparous and monogamous, with spawning typically reported to occur at dusk.",
+  "breedingNotes": "Reported to be oviparous and monogamous in the wild, with spawning documented to occur at dusk. Captive breeding has not been reliably documented for this species; breeding in aquaria is considered extremely difficult and essentially not achieved under typical hobby conditions.",
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/sunset-butterflyfish",
+      "accessedDate": "2026-06-02",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "BlueZoo Aquatics",
+        "url": "https://www.bluezooaquatics.com/productDetail.asp?cid=26&pid=614&did=1",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked adult size, care level, temperament, reef safety, and minimum tank size. Tank size listed as 50 gallons vs LiveAquaria's 70 gallons and TropicalFishKeeping's 75 gallons; averaged across three sources to ~246 L."
+      },
+      {
+        "name": "TropicalFishKeeping",
+        "url": "https://tropical-fish-keeping.com/sunset-butterflyfish-chaetodon-pelewensis.html",
+        "accessedDate": "2026-06-02",
+        "notes": "Third source for cross-verification. Adult size listed as 4.75 inches; lifespan 5–8 years confirmed; tank size 75 gallons. Temperature and salinity ranges agreed with LiveAquaria."
+      },
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.org/summary/6606",
+        "accessedDate": "2026-06-02",
+        "notes": "FishBase returned HTTP 403; taxonomy and distribution data obtained via secondary search referencing FishBase record ID 6606. Maximum length reported as 12.5 cm; native range confirmed as southern Pacific from Papua New Guinea to the Tuamotu Archipelago."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "Reported oviparous and monogamous; spawning documented at dusk in the wild. Not reliably bred in captivity under hobby conditions.",
+    "conspecificAggression": "moderate",
+    "finNippy": true,
+    "reefSafe": "no",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "protogynous": null
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-02"
+}

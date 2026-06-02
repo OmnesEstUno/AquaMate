@@ -1,0 +1,120 @@
+{
+  "id": "sw-fish-093",
+  "slug": "bluefin-angelfish",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Bluefin Angelfish",
+  "scientificName": "Centropyge multispinis",
+  "alsoKnownAs": ["Dusky Angelfish", "Manyspined Angelfish", "Multi-Spined Dwarf Angelfish", "Dusky Cherub", "Black Angelfish"],
+  "category": "Angelfish",
+
+  "taxonomy": {
+    "family": "Pomacanthidae",
+    "order": "Perciformes"
+  },
+
+  "nativeRange": {
+    "regions": ["Indo-West Pacific", "Indian Ocean", "Red Sea"],
+    "countries": ["Kenya", "Tanzania", "Mozambique", "South Africa", "Madagascar", "Maldives", "Sri Lanka", "India", "Thailand", "Indonesia"],
+    "habitat": "Coral-rich and rubble areas of lagoon and seaward reefs, typically at depths of 1–30 m.",
+    "biotope": "Reef"
+  },
+
+  "waterParameters": {
+    "temperatureC": { "min": 23.0, "max": 26.0 },
+    "pH":           { "min": 8.0,  "max": 8.4  },
+    "gH":           null,
+    "kH":           { "min": 8.0,  "max": 12.0 },
+    "salinity":     { "min": 1.021, "max": 1.025 }
+  },
+
+  "adultSizeCm": { "min": 12.0, "max": 15.0 },
+  "lifespanYears": { "min": 5, "max": 15 },
+
+  "tank": {
+    "minVolumeLiters": 214.0,
+    "minLengthCm": null,
+    "swimZone": "all",
+    "decorPreferences": ["live rock", "caves", "crevices", "overhangs"]
+  },
+
+  "careLevel": "intermediate",
+
+  "diet": {
+    "type": "omnivore",
+    "notes": "Has been documented grazing on microalgae, detritus, small crustaceans, and zooplankton in the wild. In captivity, has been observed accepting spirulina, marine algae, high-quality angelfish preparations, mysis shrimp, and frozen brine shrimp. Providing a varied diet with regular algae supplement tends to support long-term health."
+  },
+
+  "compatibility": {
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["non-sessile invertebrates", "shrimp", "snails", "crabs", "most reef fish"],
+    "avoidWith": ["conspecifics (except mated pair)", "other dwarf angelfish", "sessile invertebrates", "soft corals", "stony corals", "clam mantles"]
+  },
+
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+
+  "summary": "A striking Indo-Pacific dwarf angel generally regarded as intermediate in care, noted for its iridescent blue-tinged fins and tendency to graze on algae and small invertebrates. Generally advised to be kept singly with plenty of live rock in a well-established system.",
+
+  "careNotes": "The Bluefin Angelfish (Centropyge multispinis) is generally considered one of the hardier dwarf angelfish but tends to be semi-aggressive, particularly in smaller aquariums. It has been advised to be the last fish introduced to an established tank to reduce territorial behavior. Only one specimen should typically be kept per system unless a confirmed mated pair is available.\n\nThis species is commonly considered reef-safe with caution — isolated cases of nipping at soft and stony corals, clam mantles, feather dusters, and anemones have been reported. Well-fed individuals tend to exhibit less coral nipping.\n\nAmple live rock with crevices and overhangs is advised to provide both grazing surfaces (algae and detritus) and shelter. The species has been reported susceptible to common marine parasitic diseases (Ich/Velvet) and secondary bacterial infections if stressed.\n\nNote on minimum tank size: sources disagreed significantly — LiveAquaria and tropical-fish-keeping.com recommend a minimum of 70 gallons (264.95 L), while BlueZoo Aquatics suggests 30 gallons (113.55 L). The averaged estimate used here is approximately 57 gallons (214 L), but a conservative 70-gallon (265 L) minimum is more commonly recommended and likely preferable for long-term health and reduced aggression. Reviewer should verify.\n\nNote on adult size: FishBase records a maximum TL of 14 cm; hobby sources report 5.5–6 inches (14–15.24 cm). Average across four sources is approximately 14.6 cm. Values here reflect that consensus.\n\nWild specimens exhibit protogynous hermaphroditism — individuals are born female and dominant specimens may transition to male. Captive sex change has been noted but not reliably induced.",
+
+  "breedingNotes": "Has been reported as very difficult to breed in captivity. Wild populations are protogynous hermaphrodites (female-first sex changers), with no reliably distinguishable external differences between males and females in captive specimens. Captive breeding attempts are rarely documented in the hobby literature.",
+
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/bluefin-angelfish",
+      "accessedDate": "2026-06-02",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "BlueZoo Aquatics",
+        "url": "https://www.bluezooaquatics.com/productdetail.asp?did=1&cid=9&pid=238",
+        "accessedDate": "2026-06-02",
+        "notes": "Secondary source. Adult size given as 5.5 in (13.97 cm) vs LiveAquaria's 6 in (15.24 cm). Minimum tank size given as 30 gal (113.55 L) vs LiveAquaria's 70 gal (264.95 L) — significant disagreement flagged."
+      },
+      {
+        "name": "FishBase",
+        "url": "https://fishbase.mnhn.fr/summary/Centropyge-multispinis.html",
+        "accessedDate": "2026-06-02",
+        "notes": "Taxonomy, native range, and maximum size (14.0 cm TL) cross-checked. Page returned 403; data sourced via WebSearch summary of FishBase records."
+      },
+      {
+        "name": "Tropical Fish Keeping",
+        "url": "https://tropical-fish-keeping.com/bluefin-angelfish-centropyge-multispinis.html",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked sizing (up to 6 in), temperature (72–78°F), pH (8.1–8.4), salinity (1.020–1.025), tank size (70 gal), protogynous hermaphroditism, lifespan (up to 15 years), and reef-safe-with-caution status. Agreed with LiveAquaria on most parameters."
+      }
+    ]
+  },
+
+  "fish": {
+    "breedingDifficulty": "advanced",
+    "breedingNotes": "Has been reported as very difficult to breed in captivity. Wild populations are protogynous hermaphrodites with no reliably distinguishable external sex differences. Documented captive breeding is rare.",
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "with caution",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "protogynous": true
+  },
+
+  "crustacean":   null,
+  "coral":        null,
+  "mollusc":      null,
+  "echinoderm":   null,
+  "other-invert": null,
+  "plant":        null,
+  "macroalgae":   null,
+
+  "schemaVersion": 1,
+  "dataStatus": "needs_review",
+  "lastReviewed": "2026-06-02"
+}
