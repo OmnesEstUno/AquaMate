@@ -5,74 +5,108 @@
   "taxon": "fish",
   "waterType": "saltwater",
   "commonName": "Lawnmower Blenny",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "scientificName": "Salarias fasciatus",
+  "alsoKnownAs": [
+    "Sailfin Blenny",
+    "Algae Blenny",
+    "Sailfin/Algae Blenny",
+    "Jewelled Rockskipper",
+    "Jeweled Blenny",
+    "Rock Blenny"
+  ],
   "category": "Blenny",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Blenniidae",
+    "order": "Blenniiformes"
   },
   "nativeRange": {
-    "regions": [],
+    "regions": ["Indo-Pacific"],
     "countries": [],
-    "habitat": null,
-    "biotope": null
+    "habitat": "Shallow reef flats, lagoons, and intertidal zones with mixed coral, sand, and rubble; usually 0-8 m depth.",
+    "biotope": "Algae-covered rocky rubble on shallow tropical reefs."
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
+    "temperatureC": { "min": 22, "max": 26 },
+    "pH": { "min": 8.1, "max": 8.4 },
     "gH": null,
-    "kH": null,
-    "salinity": null
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.020, "max": 1.025 }
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 10, "max": 14 },
+  "lifespanYears": { "min": 2, "max": 6 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": []
+    "minVolumeLiters": 200,
+    "minLengthCm": 120,
+    "swimZone": "bottom",
+    "decorPreferences": ["live rock with algae growth", "rubble and rockwork crevices", "tightly fitted lid"]
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "herbivore",
+    "notes": "Primarily grazes filamentous and film algae from live rock and glass. In tanks without abundant natural algae growth, supplement with dried nori, spirulina sheets, algae wafers, and herbivore-formulated preparations. Has been known to starve in tanks lacking a steady algae supply."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "peaceful",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["small peaceful reef fish", "shrimp and most invertebrates", "tangs and most non-blenny tankmates"],
+    "avoidWith": ["other Salarias or similar combtooth blennies", "small-polyp corals it may nip", "tridacnid clam mantles"]
   },
   "media": {
     "primaryImage": "lawnmower_blenny.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Lawnmower Blenny.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "An algae-grazing combtooth blenny from the Indo-Pacific, popular for its appetite for film and hair algae and its expressive perched posture. Generally peaceful but highly territorial toward its own kind.",
+  "careNotes": "Best housed in a mature tank (ideally 6+ months old) with abundant live rock and a steady supply of microalgae and filamentous algae to graze; tanks scrubbed too clean tend to starve them. Typically kept singly — has been reported to be aggressive toward conspecifics and similar-looking blennies unless introduced as a mated pair. Generally considered reef-safe, but isolated cases of nipping at LPS polyps, soft coral polyps, and tridacnid clam mantles have been reported, so observe in mixed-coral systems. Like most blennies, has been known to jump, so a tightly fitted lid is generally advised. Source spread on tank size: LiveAquaria 30 US gal (~115 L), Fishkeeping World 40 US gal (~150 L), Saltwater Aquarium Blog 55 US gal (~208 L); biased upward to 200 L because the fish is an active grazer that needs ample rock surface area. Maximum reported size also varies: LiveAquaria 5 in (12.7 cm), FishBase 14 cm TL, Fishkeeping World 4-6 in (10-15 cm) — recorded as 10-14 cm. Sailfin/Algae Blenny is a common trade name for this species; consolidated into this single entry per the one-entry-per-species rule.",
+  "breedingNotes": "Has been bred in captivity occasionally but is rarely tank-raised commercially. Eggs are demersal and adhere to a substrate, with the male guarding the nest; rearing the planktonic larvae through metamorphosis is generally considered difficult and not routinely accomplished in home aquariums.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/sailfin-algae-blenny",
+      "accessedDate": "2026-06-02",
+      "notes": "Primary husbandry reference: size 5 in, temp 72-78 F, pH 8.1-8.4, SG 1.020-1.025, dKH 8-12, min 30 gal, peaceful, reef-compatible (with caveat of nipping certain corals and clam mantles)."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Salarias-fasciatus.html",
+        "accessedDate": "2026-06-02",
+        "notes": "Taxonomy and wild biology cross-check: Family Blenniidae, Order Blenniiformes, max 14 cm TL, Indo-Pacific (Red Sea/East Africa to Samoa, Ryukyus to Great Barrier Reef and New Caledonia), depth 0-8 m, mean wild temperature 28.5 C."
+      },
+      {
+        "name": "Fishkeeping World",
+        "url": "https://www.fishkeepingworld.com/lawnmower-blenny/",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-check: 4-6 in adult, min 40 gal, intermediate care, herbivore, peaceful with other species but aggressive to conspecifics, lifespan up to 4+ years, nips coral polyps."
+      },
+      {
+        "name": "Saltwater Aquarium Blog",
+        "url": "https://www.saltwateraquariumblog.com/lawnmower-blenny/",
+        "accessedDate": "2026-06-02",
+        "notes": "Additional cross-check after Reef2Reef wiki primary-designated secondary returned HTTP 403 and BlueZoo product page returned 404. Confirms min 55 gal recommendation, 2-4 year lifespan, high conspecific aggression, occasional coral polyp nibbling."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
-    "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "protogynous": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
-    "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null
+    "breedingDifficulty": "difficult",
+    "breedingNotes": "Demersal egg layers; rearing planktonic larvae through metamorphosis is rarely accomplished in home aquariums.",
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "with caution",
+    "escapeRisk": "high",
+    "venomousSpines": false,
+    "protogynous": false,
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false
   },
   "crustacean": null,
   "coral": null,
@@ -82,6 +116,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-02"
 }

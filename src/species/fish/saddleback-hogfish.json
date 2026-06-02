@@ -1,0 +1,161 @@
+{
+  "id": "sw-fish-180",
+  "slug": "saddleback-hogfish",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Saddleback Hogfish",
+  "scientificName": "Bodianus bilunulatus",
+  "alsoKnownAs": [
+    "Tarry Hogfish",
+    "Hawaiian Hogfish",
+    "Black-spot Hogfish",
+    "Saddleback Pigfish"
+  ],
+  "category": "Hogfish",
+  "taxonomy": {
+    "family": "Labridae",
+    "order": "Eupercaria"
+  },
+  "nativeRange": {
+    "regions": [
+      "Indo-West Pacific",
+      "Indian Ocean",
+      "Pacific Ocean"
+    ],
+    "countries": [
+      "South Africa",
+      "Japan",
+      "Philippines",
+      "Indonesia",
+      "Australia",
+      "New Caledonia",
+      "Hawaii"
+    ],
+    "habitat": "Reef-associated; juveniles in shallower areas, adults on deeper outer reef slopes (3–160 m) rich in benthic invertebrates.",
+    "biotope": "Reef"
+  },
+  "waterParameters": {
+    "temperatureC": {
+      "min": 22,
+      "max": 26
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
+  },
+  "adultSizeCm": {
+    "min": 35,
+    "max": 55
+  },
+  "lifespanYears": null,
+  "tank": {
+    "minVolumeLiters": 600,
+    "minLengthCm": 180,
+    "swimZone": "all",
+    "decorPreferences": [
+      "live rock",
+      "caves",
+      "overhangs",
+      "open swimming space",
+      "sandy substrate"
+    ]
+  },
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Feeds primarily on benthic hard-shelled invertebrates including snails, mussels, worms, crustaceans, and small fish. Hunts by overturning rubble and blowing water across sandy substrate to flush prey. Generally accepts frozen meaty foods such as krill, mysis, chopped clam, shrimp, and squid in captivity."
+  },
+  "compatibility": {
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": [
+      "tangs",
+      "large angelfish",
+      "triggerfish",
+      "groupers",
+      "other large semi-aggressive fish"
+    ],
+    "avoidWith": [
+      "small peaceful fish",
+      "ornamental shrimp",
+      "small crabs",
+      "snails",
+      "small clams",
+      "tubeworms",
+      "other hogfish",
+      "conspecifics"
+    ]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A large Indo-Pacific wrasse reaching about 55 cm, named for the dark saddle marking near its tail. Juveniles act as cleaners; adults are semi-aggressive predators of reef invertebrates and require a sizable fish-only system.",
+  "careNotes": "The Saddleback Hogfish (also widely traded as Tarry Hogfish or Hawaiian Hogfish) is generally considered an intermediate-level species. Juveniles are peaceful and have been observed picking parasites off tankmates, while adults grow into substantial predators that tend to view most reef invertebrates as food. Once mature, they have been known to consume ornamental shrimp, small crabs, snails, clams, tubeworms, and very small fish, so are generally considered not reef-safe as adults despite being benign in their juvenile phase.\n\nThis species undergoes a dramatic color change with age — juveniles display bright yellow and black markings that gradually migrate posteriorly and fade, until the adult shows the characteristic dark oval saddle near the caudal peduncle (which may itself become indistinct in large terminal males). It is a protogynous (female-first) sequential hermaphrodite, with sex change reported between roughly 38–40 cm body length.\n\nGiven a maximum size around 55 cm and active hunting habits, this is a large-aquarium fish. LiveAquaria recommends a minimum 150-gallon (≈568 L) tank, and the species' swimming and digging behavior generally benefits from going larger; a 600 L tank with a long footprint and ample open swimming space is a sensible minimum, with more being preferable for full-grown adults. Provide rockwork with caves and overhangs and a sandy substrate it can sift through.\n\nCross-source agreement was good: LiveAquaria's listed 22-inch adult size matches FishBase's 55 cm total length, and water parameters were consistent across both. The designated Reef2Reef secondary returned HTTP 403 and was swapped for FishBase as the cross-check source.",
+  "breedingNotes": "Reported to be oviparous with distinct pair formation during spawning. As a protogynous hermaphrodite, all individuals begin life as females, with the largest in a social group transitioning to male. Captive breeding has not been documented in home aquariums.",
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/collections/hogfish",
+      "accessedDate": "2026-06-02",
+      "notes": "Hogfish collection page lists Saddleback Hogfish with care summary: 22 in adult, 150 gal minimum, 72–78°F, pH 8.1–8.4, SG 1.020–1.025, dKH 8–12, semi-aggressive, reef-unsafe at adulthood, carnivore, moderate care level."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Bodianus-bilunulatus.html",
+        "accessedDate": "2026-06-02",
+        "notes": "Swapped in as secondary after the designated Reef2Reef thread returned HTTP 403. Cross-checked max body length (55 cm TL), Indo-West Pacific distribution (East Africa to Japan, Philippines, New Caledonia), taxonomy (Labridae, Eupercaria), depth range (3–160 m), protogynous sex change at 38.6–40.5 cm, and oviparous spawning with distinct pairing."
+      },
+      {
+        "name": "Reef2Reef wiki",
+        "url": "https://www.reef2reef.com/threads/saddleback-black-spot-tarry-hawaiian-hogfish-bodianus-bilunulatus.56440/",
+        "accessedDate": "2026-06-02",
+        "notes": "Designated secondary source — returned HTTP 403 Forbidden and could not be read. Cited here to record the attempt; data not used."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "Captive breeding has not been documented. Wild spawning is oviparous with distinct pair formation; the species is a protogynous sequential hermaphrodite.",
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "no",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "protogynous": true,
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": true,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": null,
+    "toxicToTank": null
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-02"
+}
