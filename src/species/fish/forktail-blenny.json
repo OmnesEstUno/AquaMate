@@ -6,32 +6,68 @@
   "waterType": "saltwater",
   "commonName": "Forktail Blenny",
   "scientificName": "Meiacanthus atrodorsalis",
-  "alsoKnownAs": ["Lyretail Fang Blenny", "Yellowtail Fang Blenny", "Eyelash Fangblenny", "Forktail Fang Blenny"],
+  "alsoKnownAs": [
+    "Lyretail Fang Blenny",
+    "Yellowtail Fang Blenny",
+    "Eyelash Fangblenny",
+    "Forktail Fang Blenny"
+  ],
   "category": "Blenny",
   "taxonomy": {
     "family": "Blenniidae",
     "order": "Blenniiformes"
   },
   "nativeRange": {
-    "regions": ["Western Pacific", "Indo-Pacific"],
-    "countries": ["Indonesia", "Philippines", "Samoa", "Japan", "Australia", "Micronesia", "New Caledonia"],
+    "regions": [
+      "Western Pacific",
+      "Indo-Pacific"
+    ],
+    "countries": [
+      "Indonesia",
+      "Philippines",
+      "Samoa",
+      "Japan",
+      "Australia",
+      "Micronesia",
+      "New Caledonia"
+    ],
     "habitat": "Lagoon and seaward reefs below the surge zone; slopes and drop-offs at 0–30 m depth",
     "biotope": "Reef"
   },
   "waterParameters": {
-    "temperatureC": { "min": 23.6, "max": 27.3 },
-    "pH":           { "min": 8.1,  "max": 8.4 },
-    "gH":           null,
-    "kH":           { "min": 8,    "max": 12 },
-    "salinity":     { "min": 1.020, "max": 1.025 }
+    "temperatureC": {
+      "min": 23.6,
+      "max": 27.3
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm":   { "min": 8.0,  "max": 11.6 },
+  "adultSizeCm": {
+    "min": 8,
+    "max": 11.6
+  },
   "lifespanYears": null,
   "tank": {
-    "minVolumeLiters":  113.6,
-    "minLengthCm":      null,
-    "swimZone":         "mid",
-    "decorPreferences": ["live rock", "caves", "crevices", "tight-fitting lid required"]
+    "minVolumeLiters": 113.6,
+    "minLengthCm": null,
+    "swimZone": "mid",
+    "decorPreferences": [
+      "live rock",
+      "caves",
+      "crevices",
+      "tight-fitting lid required"
+    ]
   },
   "careLevel": "intermediate",
   "diet": {
@@ -39,15 +75,26 @@
     "notes": "Has been reported to accept finely chopped crustacean flesh, mysis shrimp, vitamin-enriched brine shrimp, zooplankton, and frozen herbivore preparations. Generally advised to feed small amounts 2–3 times daily."
   },
   "compatibility": {
-    "temperament":  "semi-aggressive",
-    "grouping":     "solitary",
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith":     ["peaceful reef fish", "corals", "invertebrates", "clownfish", "gobies", "dartfish"],
-    "avoidWith":    ["conspecifics (unless mated pair)", "similar-looking blennies", "large aggressive fish"]
+    "goodWith": [
+      "peaceful reef fish",
+      "corals",
+      "invertebrates",
+      "clownfish",
+      "gobies",
+      "dartfish"
+    ],
+    "avoidWith": [
+      "conspecifics (unless mated pair)",
+      "similar-looking blennies",
+      "large aggressive fish"
+    ]
   },
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
+    "primaryImage": null,
+    "gallery": [],
     "imageCandidates": null
   },
   "summary": "A striking venomous fang blenny from the Western Pacific, generally considered reef-safe and commonly kept in established saltwater aquariums with abundant live rock. Its forked tail and yellow-blue coloration make it a popular choice for small reef tanks.",
@@ -80,15 +127,18 @@
     "breedingNotes": "Has been documented spawning in captivity with male guarding behavior; larvae require live rotifers as first food, making successful rearing challenging.",
     "conspecificAggression": "moderate",
     "finNippy": false,
-    "reefSafe": "yes"
+    "reefSafe": "yes",
+    "escapeRisk": "high",
+    "venomousSpines": true,
+    "protogynous": null
   },
-  "crustacean":   null,
-  "coral":        null,
-  "mollusc":      null,
-  "echinoderm":   null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
   "other-invert": null,
-  "plant":        null,
-  "macroalgae":   null,
+  "plant": null,
+  "macroalgae": null,
   "schemaVersion": 1,
   "dataStatus": "researched",
   "lastReviewed": "2026-05-25"

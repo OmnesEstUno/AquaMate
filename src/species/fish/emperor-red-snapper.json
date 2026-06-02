@@ -6,66 +6,103 @@
   "waterType": "saltwater",
   "commonName": "Emperor Red Snapper",
   "scientificName": "Lutjanus sebae",
-  "alsoKnownAs": ["Sebae Snapper", "Emperor Snapper"],
+  "alsoKnownAs": [
+    "Sebae Snapper",
+    "Emperor Snapper"
+  ],
   "category": "Snapper",
-
   "taxonomy": {
     "family": "Lutjanidae",
     "order": "Perciformes"
   },
-
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Red Sea", "Indian Ocean", "Western Pacific"],
-    "countries": ["Japan", "Australia", "South Africa", "India", "Indonesia", "Philippines", "New Caledonia"],
+    "regions": [
+      "Indo-Pacific",
+      "Red Sea",
+      "Indian Ocean",
+      "Western Pacific"
+    ],
+    "countries": [
+      "Japan",
+      "Australia",
+      "South Africa",
+      "India",
+      "Indonesia",
+      "Philippines",
+      "New Caledonia"
+    ],
     "habitat": "Coral and rocky reefs, adjacent sand flats and gravel patches; adults at depths of 5–180 m; juveniles in shallow turbid coastal waters and mangrove areas",
     "biotope": "Reef"
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 23.0, "max": 27.4 },
-    "pH":           { "min": 8.1,  "max": 8.4 },
-    "gH":           null,
-    "kH":           { "min": 8.0,  "max": 12.0 },
-    "salinity":     { "min": 1.020, "max": 1.025 }
+    "temperatureC": {
+      "min": 23,
+      "max": 27.4
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-
-  "adultSizeCm":   { "min": 76.0, "max": 116.0 },
-  "lifespanYears": { "min": 20,   "max": 40 },
-
+  "adultSizeCm": {
+    "min": 76,
+    "max": 116
+  },
+  "lifespanYears": {
+    "min": 20,
+    "max": 40
+  },
   "tank": {
-    "minVolumeLiters": 1363.0,
-    "minLengthCm":     240.0,
-    "swimZone":        "all",
-    "decorPreferences": ["large open swimming space", "overhangs", "caves", "rocky structure"]
+    "minVolumeLiters": 1363,
+    "minLengthCm": 240,
+    "swimZone": "all",
+    "decorPreferences": [
+      "large open swimming space",
+      "overhangs",
+      "caves",
+      "rocky structure"
+    ]
   },
-
   "careLevel": "advanced",
-
   "diet": {
     "type": "carnivore",
     "notes": "Generally advised to feed meaty marine foods such as chopped fish, shrimp, scallop, clam, squid, and krill. Has been reported to accept high-quality pellets and frozen formulations in some cases. Feeding once daily tends to work well; beefheart is generally not recommended."
   },
-
   "compatibility": {
-    "temperament":  "semi-aggressive",
-    "grouping":     "solitary",
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith":     ["large peaceful fish of similar size", "large angelfish", "large wrasses", "large tangs"],
-    "avoidWith":    ["small fish", "ornamental crustaceans", "invertebrates", "other Emperor Snappers (adults)", "small reef inhabitants"]
+    "goodWith": [
+      "large peaceful fish of similar size",
+      "large angelfish",
+      "large wrasses",
+      "large tangs"
+    ],
+    "avoidWith": [
+      "small fish",
+      "ornamental crustaceans",
+      "invertebrates",
+      "other Emperor Snappers (adults)",
+      "small reef inhabitants"
+    ]
   },
-
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
+    "primaryImage": null,
+    "gallery": [],
     "imageCandidates": null
   },
-
   "summary": "A boldly striped juvenile that fades to reddish-pink with age, the Emperor Red Snapper is a large, fast-growing predator generally considered suitable only for very large specialist systems. Juveniles have been known to school, but adults tend to be kept alone.",
-
   "careNotes": "The Emperor Red Snapper (Lutjanus sebae) is a large, fast-growing predatory snapper found across the Indo-West Pacific, from the southern Red Sea and East Africa to New Caledonia, north to southern Japan and south to Australia. Juveniles display dramatic bold red-to-black stripes on a white body; with age the striping gradually fades to an overall reddish-pink coloration.\n\nThis species has been reported to grow approximately 2.5 cm (1 inch) per month under good feeding conditions. Adult sizes vary considerably across sources: LiveAquaria cites 76 cm (30 in), while FishBase, TFH Magazine, and ReefApp all cite 116 cm (46 in) as the wild maximum; an average across sources of ~100 cm is plausible for well-fed captive specimens. Due to this wide spread, dataStatus is set to 'needs_review'.\n\nMinimum tank volume is contested: LiveAquaria recommends 360 gallons (~1363 L), Reeflings states 500 L, ReefApp recommends 3000 L, and TFH Magazine suggests 2000 gallons (~7570 L) for a full-sized adult. A 360-gallon (1363 L) tank may be adequate for juveniles or sub-adults, but a full-grown adult is generally considered unsuitable for anything less than 3000 L.\n\nTemperament: LiveAquaria describes this fish as 'peaceful,' but TFH Magazine, Reeflings, and ReefApp all describe adults as aggressive or semi-aggressive, particularly toward conspecifics and during feeding. Juveniles in the wild school with other Emperor Snappers but adults in captivity have been known to be belligerent toward each other and should be housed alone.\n\nReef safety: Not reef-safe; will eat small fish, ornamental crustaceans, and invertebrates. ReefApp lists it as 'with caution' but the majority of sources consider it incompatible with reef systems.\n\nCare level: LiveAquaria rates this 'difficult'; TFH rates it 'moderately difficult'; Reeflings rates it 'moderate to easy.' The primary challenge is not water chemistry but the extreme tank size required and the occasional feeding refusal in newly introduced specimens. 'Advanced' has been used here to reflect the tank-size demands.\n\nThis species is known to cause ciguatera poisoning in certain Indo-Pacific regions and has significant commercial fisheries value (IUCN: Least Concern, 2015). Lifespan has been reported to reach up to 40 years in the wild (FishBase).\n\nFiltration: Requires robust filtration, protein skimming, and regular water changes due to the high bioload of this large predator.",
-
   "breedingNotes": "Broadcast spawner in the wild; captive breeding has not been documented and is considered not feasible in home aquaria given the extreme adult size and space requirements.",
-
   "sources": {
     "primary": {
       "name": "LiveAquaria",
@@ -100,24 +137,24 @@
       }
     ]
   },
-
   "fish": {
-    "breedingDifficulty":    "not in captivity",
-    "breedingNotes":         "Broadcast spawner in the wild; no documented captive breeding. Tank breeding is considered impractical due to adult size.",
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "Broadcast spawner in the wild; no documented captive breeding. Tank breeding is considered impractical due to adult size.",
     "conspecificAggression": "high",
-    "finNippy":              false,
-    "reefSafe":              "no"
+    "finNippy": false,
+    "reefSafe": "no",
+    "escapeRisk": null,
+    "venomousSpines": null,
+    "protogynous": null
   },
-
-  "crustacean":   null,
-  "coral":        null,
-  "mollusc":      null,
-  "echinoderm":   null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
   "other-invert": null,
-  "plant":        null,
-  "macroalgae":   null,
-
+  "plant": null,
+  "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus":    "needs_review",
-  "lastReviewed":  "2026-05-25"
+  "dataStatus": "needs_review",
+  "lastReviewed": "2026-05-25"
 }

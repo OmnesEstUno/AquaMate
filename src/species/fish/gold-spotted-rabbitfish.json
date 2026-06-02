@@ -6,32 +6,72 @@
   "waterType": "saltwater",
   "commonName": "Gold Spotted Rabbitfish",
   "scientificName": "Siganus punctatus",
-  "alsoKnownAs": ["Goldspotted Rabbitfish", "Goldspotted Spinefoot", "Spotted Rabbitfish"],
+  "alsoKnownAs": [
+    "Goldspotted Rabbitfish",
+    "Goldspotted Spinefoot",
+    "Spotted Rabbitfish"
+  ],
   "category": "Rabbitfish",
   "taxonomy": {
     "family": "Siganidae",
     "order": "Acanthuriformes"
   },
   "nativeRange": {
-    "regions": ["Western Pacific", "Eastern Indian Ocean"],
-    "countries": ["Australia", "Indonesia", "Philippines", "Fiji", "Papua New Guinea", "Singapore", "Thailand", "Taiwan", "Palau", "Micronesia"],
+    "regions": [
+      "Western Pacific",
+      "Eastern Indian Ocean"
+    ],
+    "countries": [
+      "Australia",
+      "Indonesia",
+      "Philippines",
+      "Fiji",
+      "Papua New Guinea",
+      "Singapore",
+      "Thailand",
+      "Taiwan",
+      "Palau",
+      "Micronesia"
+    ],
     "habitat": "Reef-associated; clear lagoons and seaward reefs, typically at 1–40 m depth.",
     "biotope": "Reef"
   },
   "waterParameters": {
-    "temperatureC": { "min": 22.0, "max": 27.0 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 22,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8.0, "max": 12.0 },
-    "salinity": { "min": 1.021, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.021,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 30.0, "max": 40.0 },
-  "lifespanYears": { "min": 5.0, "max": 7.0 },
+  "adultSizeCm": {
+    "min": 30,
+    "max": 40
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 7
+  },
   "tank": {
     "minVolumeLiters": 540,
     "minLengthCm": null,
     "swimZone": "all",
-    "decorPreferences": ["live rock", "algae growth", "open swimming space"]
+    "decorPreferences": [
+      "live rock",
+      "algae growth",
+      "open swimming space"
+    ]
   },
   "careLevel": "intermediate",
   "diet": {
@@ -42,8 +82,17 @@
     "temperament": "peaceful",
     "grouping": "pair",
     "minGroupSize": 1,
-    "goodWith": ["tangs", "clownfish", "damselfish", "large semi-aggressive fish"],
-    "avoidWith": ["other rabbitfish", "other Siganus species", "foxface"]
+    "goodWith": [
+      "tangs",
+      "clownfish",
+      "damselfish",
+      "large semi-aggressive fish"
+    ],
+    "avoidWith": [
+      "other rabbitfish",
+      "other Siganus species",
+      "foxface"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -92,7 +141,10 @@
     "breedingNotes": "Spawning has been reported in the wild around lunar cycles in pairs. Captive breeding has not been documented in home aquarium settings.",
     "conspecificAggression": "high",
     "finNippy": false,
-    "reefSafe": "with caution"
+    "reefSafe": "with caution",
+    "escapeRisk": null,
+    "venomousSpines": null,
+    "protogynous": null
   },
   "crustacean": null,
   "coral": null,

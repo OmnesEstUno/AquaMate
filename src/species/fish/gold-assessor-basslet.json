@@ -6,66 +6,99 @@
   "waterType": "saltwater",
   "commonName": "Gold Assessor Basslet",
   "scientificName": "Assessor flavissimus",
-  "alsoKnownAs": ["Yellow Assessor Basslet", "Yellow Assessor", "Yellow Devilfish", "Yellow Scissortail", "Golden Mini Grouper"],
+  "alsoKnownAs": [
+    "Yellow Assessor Basslet",
+    "Yellow Assessor",
+    "Yellow Devilfish",
+    "Yellow Scissortail",
+    "Golden Mini Grouper"
+  ],
   "category": "Basslets",
-
   "taxonomy": {
     "family": "Plesiopidae",
     "order": "Ovalentaria"
   },
-
   "nativeRange": {
-    "regions": ["Western Central Pacific"],
-    "countries": ["Australia", "Papua New Guinea"],
+    "regions": [
+      "Western Central Pacific"
+    ],
+    "countries": [
+      "Australia",
+      "Papua New Guinea"
+    ],
     "habitat": "Reef caves, crevices, and under ledges at depths of 5–20 m; commonly found in aggregations hanging upside down inside caves",
     "biotope": "Reef"
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 23.4, "max": 26.8 },
-    "pH":           { "min": 8.1,  "max": 8.4 },
-    "gH":           null,
-    "kH":           { "min": 8.0,  "max": 12.0 },
-    "salinity":     { "min": 1.020, "max": 1.025 }
+    "temperatureC": {
+      "min": 23.4,
+      "max": 26.8
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-
-  "adultSizeCm":   { "min": 5.0, "max": 6.9 },
-  "lifespanYears": { "min": 5.0, "max": 7.0 },
-
+  "adultSizeCm": {
+    "min": 5,
+    "max": 6.9
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 7
+  },
   "tank": {
     "minVolumeLiters": 113.6,
     "minLengthCm": null,
     "swimZone": "all",
-    "decorPreferences": ["live rock caves", "overhangs", "crevices", "dim hiding spots"]
+    "decorPreferences": [
+      "live rock caves",
+      "overhangs",
+      "crevices",
+      "dim hiding spots"
+    ]
   },
-
   "careLevel": "beginner",
-
   "diet": {
     "type": "carnivore",
     "notes": "Generally advised to offer high-quality frozen meaty foods such as mysis shrimp, vitamin-enriched brine shrimp, finely chopped marine fish, squid, and frozen carnivore preparations. In the wild, has been documented feeding on small zooplanktonic crustaceans. Feeding at least twice daily is commonly recommended."
   },
-
   "compatibility": {
     "temperament": "peaceful",
     "grouping": "pair",
     "minGroupSize": 1,
-    "goodWith": ["peaceful reef fish", "invertebrates", "corals", "clownfish", "gobies", "cardinalfish", "dartfish"],
-    "avoidWith": ["conspecific males", "overly aggressive fish", "large predatory fish"]
+    "goodWith": [
+      "peaceful reef fish",
+      "invertebrates",
+      "corals",
+      "clownfish",
+      "gobies",
+      "cardinalfish",
+      "dartfish"
+    ],
+    "avoidWith": [
+      "conspecific males",
+      "overly aggressive fish",
+      "large predatory fish"
+    ]
   },
-
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
+    "primaryImage": null,
+    "gallery": [],
     "imageCandidates": null
   },
-
   "summary": "A small, entirely yellow reef fish from the Great Barrier Reef and Papua New Guinea, generally considered suitable for beginners and reef aquariums. Known for hanging upside down in caves and tend to be peaceful toward tankmates.",
-
   "careNotes": "The Gold Assessor Basslet (Assessor flavissimus) is generally considered one of the more approachable small reef fish. It tends to spend much of its time near caves and overhangs, often swimming upside down — a natural behavior adapted to its cave-dwelling lifestyle. Ample live rock with caves and crevices is widely regarded as essential for this species' wellbeing.\n\nTemperament: Sources generally describe this fish as peaceful toward other species, though males have been known to be territorial and aggressive toward conspecific males or fish of similar shape occupying comparable tank spaces. Best kept singly or as a confirmed mated pair; multiple males in the same system tend to be problematic.\n\nTemperature note: Hobby sources consistently cite 72–78°F (22–26°C) as the target range, while FishBase's wild habitat data suggests 27–30°C for the Great Barrier Reef populations. The averaged range of 23.4–26.8°C reflects this spread; most hobbyists appear to keep them successfully at the lower end of typical reef temperatures (24–26°C). This field is flagged for reviewer attention.\n\nSize note: Sources range from 6.0 cm (FishBase) to 7.62 cm (LiveAquaria's 3-inch figure). The averaged max of 6.9 cm is used here; most aquarists report fish reaching 6–7 cm at full size.\n\nFamily note: LiveAquaria lists the family as Grammidae, but FishBase, ITIS, OBIS, and all major taxonomic authorities place Assessor flavissimus in Plesiopidae (Longfins/Roundheads). Plesiopidae is used here.\n\nReproduction: Males have been documented incubating egg masses in their mouths (paternal mouthbrooding), which has been successfully reproduced in captivity (ORA has produced captive-bred individuals). Captive-bred specimens are generally reported to acclimate more readily than wild-caught fish.\n\nCave-swimming behavior: This species routinely swims and rests upside down inside caves — this is normal and is an adaptation to their natural cave-dwelling habitat, not a sign of illness.\n\nFoods: Will generally accept a variety of frozen meaty foods; vitamin-enriched preparations are commonly recommended to maintain coloration and immune function. May also accept quality pellet or flake food over time.",
-
   "breedingNotes": "Paternal mouthbrooding has been documented in the wild and in captivity; the male incubates the egg mass in his mouth. Captive breeding has been achieved (ORA has produced captive-bred specimens). Specific breeding difficulty is not well-documented in most hobby sources, but the species' successful captive propagation suggests it is feasible under the right conditions.",
-
   "sources": {
     "primary": {
       "name": "LiveAquaria",
@@ -100,23 +133,23 @@
       }
     ]
   },
-
   "fish": {
     "breedingDifficulty": "moderate",
     "breedingNotes": "Paternal mouthbrooder; males incubate egg masses in the mouth. Captive breeding documented (ORA captive-bred specimens available). Specific difficulty rating is not well-established in the hobby literature.",
     "conspecificAggression": "high",
     "finNippy": false,
-    "reefSafe": "yes"
+    "reefSafe": "yes",
+    "escapeRisk": null,
+    "venomousSpines": null,
+    "protogynous": null
   },
-
-  "crustacean":   null,
-  "coral":        null,
-  "mollusc":      null,
-  "echinoderm":   null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
   "other-invert": null,
-  "plant":        null,
-  "macroalgae":   null,
-
+  "plant": null,
+  "macroalgae": null,
   "schemaVersion": 1,
   "dataStatus": "needs_review",
   "lastReviewed": "2026-05-25"

@@ -6,66 +6,104 @@
   "waterType": "saltwater",
   "commonName": "Garden Eel",
   "scientificName": "Heteroconger hassi",
-  "alsoKnownAs": ["Spotted Garden Eel", "Hass's Garden Eel"],
+  "alsoKnownAs": [
+    "Spotted Garden Eel",
+    "Hass's Garden Eel"
+  ],
   "category": "Eels",
-
   "taxonomy": {
     "family": "Congridae",
     "order": "Anguilliformes"
   },
-
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Red Sea"],
-    "countries": ["Australia", "Japan", "Indonesia", "Egypt", "Tanzania", "French Polynesia"],
+    "regions": [
+      "Indo-Pacific",
+      "Red Sea"
+    ],
+    "countries": [
+      "Australia",
+      "Japan",
+      "Indonesia",
+      "Egypt",
+      "Tanzania",
+      "French Polynesia"
+    ],
     "habitat": "Sandy slopes and open sandy substrates adjacent to coral reefs, generally at depths of 1–50 m; tends to congregate in areas with gentle to moderate currents",
     "biotope": "Reef"
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 23.0, "max": 27.0 },
-    "pH":           { "min": 8.1,  "max": 8.4  },
-    "gH":           null,
-    "kH":           { "min": 8.0,  "max": 12.0 },
-    "salinity":     { "min": 1.020, "max": 1.025 }
+    "temperatureC": {
+      "min": 23,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-
-  "adultSizeCm": { "min": 35.0, "max": 45.0 },
-  "lifespanYears": { "min": 35.0, "max": 40.0 },
-
+  "adultSizeCm": {
+    "min": 35,
+    "max": 45
+  },
+  "lifespanYears": {
+    "min": 35,
+    "max": 40
+  },
   "tank": {
-    "minVolumeLiters": 473.0,
-    "minLengthCm": 120.0,
+    "minVolumeLiters": 473,
+    "minLengthCm": 120,
     "swimZone": "bottom",
-    "decorPreferences": ["deep sand bed (20–30 cm fine sand)", "minimal rockwork", "gentle flow diffusers", "sealed lid"]
+    "decorPreferences": [
+      "deep sand bed (20–30 cm fine sand)",
+      "minimal rockwork",
+      "gentle flow diffusers",
+      "sealed lid"
+    ]
   },
-
   "careLevel": "expert",
-
   "diet": {
     "type": "planktivore",
     "notes": "Feeds predominantly on zooplankton drifting in the water column. In aquaria, has been documented accepting live brine shrimp (Artemia), mysis shrimp, copepods, amphipods, and finely chopped seafood delivered by gentle current. Generally requires target feeding two to three times daily; an automatic feeder with a circulation pump is commonly recommended to simulate continuous plankton drift. Live prey is often necessary during initial acclimation."
   },
-
   "compatibility": {
     "temperament": "peaceful",
     "grouping": "shoaling",
     "minGroupSize": 3,
-    "goodWith": ["peaceful reef fish", "small dartfish", "assessors", "small gobies", "nassarius snails", "cerith snails", "hermit crabs"],
-    "avoidWith": ["aggressive fish", "large active swimmers", "burrowing gobies", "pistol shrimp", "mantis shrimp", "large predatory fish"]
+    "goodWith": [
+      "peaceful reef fish",
+      "small dartfish",
+      "assessors",
+      "small gobies",
+      "nassarius snails",
+      "cerith snails",
+      "hermit crabs"
+    ],
+    "avoidWith": [
+      "aggressive fish",
+      "large active swimmers",
+      "burrowing gobies",
+      "pistol shrimp",
+      "mantis shrimp",
+      "large predatory fish"
+    ]
   },
-
   "media": {
     "primaryImage": null,
     "gallery": [],
     "imageCandidates": null
   },
-
   "summary": "A striking colonial eel that anchors itself in deep sand, extending its body to feed on passing plankton. Generally considered expert-level due to specialized dietary needs and sensitivity to disturbance.",
-
   "careNotes": "Garden Eels are among the more challenging saltwater fish to maintain long-term. They spend virtually their entire lives with their posterior buried in a self-made burrow of at least 20–30 cm of fine sand; they tend to retreat fully when alarmed. A tank of at least 125 gallons (473 L) with a deep, unobstructed sand bed is generally advised, and each eel has been reported to need roughly 30 × 30 cm of personal sand territory. Groups of 3–10 individuals are commonly recommended, as solitary specimens tend to refuse food and decline. Male conspecifics have been known to be territorial toward one another, particularly during spawning activity, so adequate spacing is important.\n\nFeeding is the primary challenge: these fish are obligate water-column planktivores and have been reported to reject non-moving food. A circulation pump or automatic feeder delivering small frozen or live particles (brine shrimp, mysis, copepods) past their burrows is widely considered essential. Acclimation to frozen foods can take weeks of patience with live Artemia.\n\nReef-safe rating is listed as 'with caution' because, while they ignore corals entirely, their diet of small zooplankton means they may occasionally consume very small ornamental crustaceans. Fast-swimming or boisterous tank mates cause chronic stress, which leads to refusal to feed.\n\nNote on taxonomy: some older trade sources list this species as Taenioconger hassi; the current accepted name per FishBase is Heteroconger hassi.\n\nNote on adult size: FishBase records a maximum of 45 cm; most aquarium sources cite 40–41 cm for captive individuals. One trade source listed 26 inches (66 cm), which appears to be an outlier; the averaged consensus from FishBase and three aquarium sources gives approximately 41 cm mid-range. The wide lifespan figure (35–40 years) was reported by a single hobbyist source (Saltwater Aquarium Blog) and could not be cross-verified; treat with caution until confirmed.\n\nTemperature sourcing: FishBase reports 25–29°C from wild data; aquarium hobby sources generally advise 22–27°C. The averaged range of 23–27°C reflects a middle ground between wild habitat data and captive-husbandry guidance.",
-
   "breedingNotes": "Breeding in captivity has been reported as extremely rare. In the wild, males and females emerge partially from adjacent burrows to mate. Larvae are pelagic and require separate rearing tanks with targeted zooplankton cultures. No established captive-breeding protocol is widely documented in the hobby.",
-
   "sources": {
     "primary": {
       "name": "LiveAquaria",
@@ -100,15 +138,16 @@
       }
     ]
   },
-
   "fish": {
     "breedingDifficulty": "not in captivity",
     "breedingNotes": "No established captive-breeding protocol; larvae are pelagic and require separate rearing infrastructure. Breeding in aquaria has been reported as extremely rare.",
     "conspecificAggression": "low",
     "finNippy": false,
-    "reefSafe": "with caution"
+    "reefSafe": "with caution",
+    "escapeRisk": "high",
+    "venomousSpines": null,
+    "protogynous": null
   },
-
   "crustacean": null,
   "coral": null,
   "mollusc": null,
@@ -116,7 +155,6 @@
   "other-invert": null,
   "plant": null,
   "macroalgae": null,
-
   "schemaVersion": 1,
   "dataStatus": "researched",
   "lastReviewed": "2026-05-25"

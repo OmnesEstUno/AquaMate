@@ -38,7 +38,7 @@
   },
   "waterParameters": {
     "temperatureC": {
-      "min": 24.0,
+      "min": 24,
       "max": 27.5
     },
     "pH": {
@@ -56,8 +56,8 @@
     }
   },
   "adultSizeCm": {
-    "min": 6.0,
-    "max": 17.0
+    "min": 6,
+    "max": 17
   },
   "lifespanYears": {
     "min": 10,
@@ -164,7 +164,10 @@
     "breedingNotes": "Eggs demersal, laid near host anemone; male guards and aerates. Fry require rotifers then Artemia. Pair bonding essential. Lightning patterning is heritable but not guaranteed in all offspring.",
     "conspecificAggression": "high",
     "finNippy": false,
-    "reefSafe": "yes"
+    "reefSafe": "yes",
+    "escapeRisk": null,
+    "venomousSpines": null,
+    "protogynous": null
   },
   "crustacean": null,
   "coral": null,

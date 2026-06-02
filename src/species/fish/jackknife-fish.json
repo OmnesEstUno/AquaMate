@@ -6,32 +6,63 @@
   "waterType": "saltwater",
   "commonName": "Jackknife Fish",
   "scientificName": "Eques lanceolatus",
-  "alsoKnownAs": ["Jack-knifefish", "Ribbonfish", "Donkey Fish", "Equetus lanceolatus"],
+  "alsoKnownAs": [
+    "Jack-knifefish",
+    "Ribbonfish",
+    "Donkey Fish",
+    "Equetus lanceolatus"
+  ],
   "category": "Drums & Croakers",
   "taxonomy": {
     "family": "Sciaenidae",
     "order": "Eupercaria"
   },
   "nativeRange": {
-    "regions": ["Western Atlantic", "Caribbean", "Gulf of Mexico"],
-    "countries": ["United States", "Bermuda", "Mexico", "Brazil"],
+    "regions": [
+      "Western Atlantic",
+      "Caribbean",
+      "Gulf of Mexico"
+    ],
+    "countries": [
+      "United States",
+      "Bermuda",
+      "Mexico",
+      "Brazil"
+    ],
     "habitat": "Reef-associated; inhabits bays, sounds, and deeper coral reef areas with sandy bottoms and coral outcrops. Depth range approximately 10–60 m.",
     "biotope": "Reef"
   },
   "waterParameters": {
-    "temperatureC": { "min": 23.0, "max": 27.0 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 23,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
     "kH": null,
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 15.0, "max": 25.0 },
+  "adultSizeCm": {
+    "min": 15,
+    "max": 25
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 473,
     "minLengthCm": 150,
     "swimZone": "bottom",
-    "decorPreferences": ["live rock", "caves", "crevices", "sandy substrate"]
+    "decorPreferences": [
+      "live rock",
+      "caves",
+      "crevices",
+      "sandy substrate"
+    ]
   },
   "careLevel": "intermediate",
   "diet": {
@@ -42,8 +73,17 @@
     "temperament": "semi-aggressive",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["larger peaceful fish", "passive community saltwater fish"],
-    "avoidWith": ["small ornamental shrimp", "small crabs", "small invertebrates", "small fish", "aggressive species"]
+    "goodWith": [
+      "larger peaceful fish",
+      "passive community saltwater fish"
+    ],
+    "avoidWith": [
+      "small ornamental shrimp",
+      "small crabs",
+      "small invertebrates",
+      "small fish",
+      "aggressive species"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -92,7 +132,10 @@
     "breedingNotes": "Captive breeding is very rarely documented. Wild populations spawn in aggregations with males producing audible drumming sounds. Not reliably bred in home aquariums.",
     "conspecificAggression": "low",
     "finNippy": false,
-    "reefSafe": "with caution"
+    "reefSafe": "with caution",
+    "escapeRisk": null,
+    "venomousSpines": null,
+    "protogynous": null
   },
   "crustacean": null,
   "coral": null,

@@ -39,14 +39,32 @@
     "biotope": "Reef"
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 27 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 22,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 7, "max": 15 },
-  "lifespanYears": { "min": 5, "max": 6 },
+  "adultSizeCm": {
+    "min": 7,
+    "max": 15
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 6
+  },
   "tank": {
     "minVolumeLiters": 450,
     "minLengthCm": 150,
@@ -128,7 +146,10 @@
     "breedingNotes": "Protogynous hermaphrodite; sex change occurs socially. Captive spawning has been documented in large systems but larval rearing is rarely successful in home aquariums.",
     "conspecificAggression": "high",
     "finNippy": false,
-    "reefSafe": "yes"
+    "reefSafe": "yes",
+    "escapeRisk": "moderate",
+    "venomousSpines": null,
+    "protogynous": true
   },
   "crustacean": null,
   "coral": null,

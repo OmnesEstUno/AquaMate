@@ -6,66 +6,99 @@
   "waterType": "saltwater",
   "commonName": "Harlequin Tusk",
   "scientificName": "Choerodon fasciatus",
-  "alsoKnownAs": ["Harlequin Tuskfish", "Harlequin Tusk Wrasse"],
+  "alsoKnownAs": [
+    "Harlequin Tuskfish",
+    "Harlequin Tusk Wrasse"
+  ],
   "category": "Wrasse",
-
   "taxonomy": {
     "family": "Labridae",
     "order": "Perciformes"
   },
-
   "nativeRange": {
-    "regions": ["Western Pacific", "Indo-Pacific"],
-    "countries": ["Australia", "Japan", "Taiwan", "New Caledonia", "Indonesia", "Philippines"],
+    "regions": [
+      "Western Pacific",
+      "Indo-Pacific"
+    ],
+    "countries": [
+      "Australia",
+      "Japan",
+      "Taiwan",
+      "New Caledonia",
+      "Indonesia",
+      "Philippines"
+    ],
     "habitat": "Seaward reefs at depths of 5–35 m, among live rock and coral structures",
     "biotope": "Reef"
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 23.0, "max": 27.0 },
-    "pH":           { "min": 8.1, "max": 8.4 },
-    "gH":           null,
-    "kH":           { "min": 8.0, "max": 12.0 },
-    "salinity":     { "min": 1.022, "max": 1.026 }
+    "temperatureC": {
+      "min": 23,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.022,
+      "max": 1.026
+    }
   },
-
-  "adultSizeCm": { "min": 20.0, "max": 30.0 },
+  "adultSizeCm": {
+    "min": 20,
+    "max": 30
+  },
   "lifespanYears": null,
-
   "tank": {
     "minVolumeLiters": 450,
     "minLengthCm": 150,
     "swimZone": "all",
-    "decorPreferences": ["live rock", "caves", "crevices", "open swimming space"]
+    "decorPreferences": [
+      "live rock",
+      "caves",
+      "crevices",
+      "open swimming space"
+    ]
   },
-
   "careLevel": "intermediate",
-
   "diet": {
     "type": "carnivore",
     "notes": "In the wild, has been documented consuming mollusks, crustaceans, worms, sea urchins, and echinoderms. In captivity, generally accepts vitamin-enriched frozen mysis shrimp, frozen brine shrimp, chopped seafood, and high-quality marine pellet foods. Feeding 2–3 times daily is generally advised, especially during the acclimation period."
   },
-
   "compatibility": {
     "temperament": "semi-aggressive",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["angelfish", "tangs", "triggers (smaller)", "larger wrasses", "hawkfish"],
-    "avoidWith": ["small crustaceans", "snails", "crabs", "small shrimp", "conspecifics", "small peaceful fish"]
+    "goodWith": [
+      "angelfish",
+      "tangs",
+      "triggers (smaller)",
+      "larger wrasses",
+      "hawkfish"
+    ],
+    "avoidWith": [
+      "small crustaceans",
+      "snails",
+      "crabs",
+      "small shrimp",
+      "conspecifics",
+      "small peaceful fish"
+    ]
   },
-
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
+    "primaryImage": null,
+    "gallery": [],
     "imageCandidates": null
   },
-
   "summary": "A strikingly patterned Indo-Pacific wrasse with distinctive blue teeth, generally considered semi-aggressive and best kept singly in a large FOWLR aquarium; tends to consume small crustaceans but typically leaves corals undisturbed.",
-
   "careNotes": "The Harlequin Tusk is widely regarded as one of the more striking wrasses available in the marine hobby, with bold alternating red, white, blue, and black bands and characteristic bright blue tusks used to crush invertebrate prey. It is generally advised to keep only one specimen per tank, as have been known to be highly aggressive toward conspecifics. Juveniles tend to be shy and reclusive when first introduced, but typically gain confidence and boldness as they mature. Most specimens will rearrange rockwork, so securing rock structures is generally advised to prevent collapses.\n\nReef compatibility is somewhat nuanced: the fish has been reported to leave corals and clams largely undisturbed, but will reliably consume small crustaceans including decorative shrimp, snails, hermit crabs, and similar invertebrates. It is commonly considered 'with caution' for reef systems rather than outright incompatible.\n\nThis species is a protogynous hermaphrodite — females can transition to male. Wild specimens are found in pairs or small groups on seaward reefs, though in captivity they are best kept singly due to territorial behavior.\n\nTank size disagreement across sources: LiveAquaria recommends a minimum of 125 gallons (473 L), ReefApp suggests 600 L (158 gal), while AquaticCommunity lists 55 gallons (208 L) — the 55-gallon figure is likely undersized for a 30 cm adult; the 450 L figure used here reflects an average of the three sources, but the reviewer may wish to revise upward.\n\nTemperature note: hobbyist sources (LiveAquaria, AquaticCommunity) suggest 22–26°C while FishBase wild data indicates 25–28°C; the 23–27°C range used here reflects an average across all sources.\n\nAustralian-sourced specimens are commonly considered hardier and more adaptable in captivity than Philippine-sourced individuals, though this is anecdotal.",
-
   "breedingNotes": "Protogynous hermaphrodite — females can transition to male when dominant males are absent. Captive breeding has not been documented in the aquarium hobby. Oviparous in the wild, with distinct pairing during spawning.",
-
   "sources": {
     "primary": {
       "name": "LiveAquaria",
@@ -100,22 +133,23 @@
       }
     ]
   },
-
   "fish": {
     "breedingDifficulty": "not in captivity",
     "breedingNotes": "Protogynous hermaphrodite. No documented captive breeding; wild spawning involves distinct pairing.",
     "conspecificAggression": "high",
     "finNippy": false,
-    "reefSafe": "with caution"
+    "reefSafe": "with caution",
+    "escapeRisk": null,
+    "venomousSpines": null,
+    "protogynous": null
   },
-  "crustacean":   null,
-  "coral":        null,
-  "mollusc":      null,
-  "echinoderm":   null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
   "other-invert": null,
-  "plant":        null,
-  "macroalgae":   null,
-
+  "plant": null,
+  "macroalgae": null,
   "schemaVersion": 1,
   "dataStatus": "needs_review",
   "lastReviewed": "2026-05-25"

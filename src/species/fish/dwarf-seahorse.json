@@ -45,13 +45,13 @@
       "max": 12
     },
     "salinity": {
-      "min": 1.020,
+      "min": 1.02,
       "max": 1.024
     }
   },
   "adultSizeCm": {
     "min": 2.5,
-    "max": 5.0
+    "max": 5
   },
   "lifespanYears": {
     "min": 1,
@@ -134,7 +134,10 @@
     "breedingNotes": "Breeds readily in captivity; male broods 2–55 fry in ventral pouch for 10–14 days. Fry are independent at birth (~7–9 mm) but require live nauplii. Cycle can repeat up to twice per month.",
     "conspecificAggression": "low",
     "finNippy": false,
-    "reefSafe": "no"
+    "reefSafe": "no",
+    "escapeRisk": null,
+    "venomousSpines": null,
+    "protogynous": null
   },
   "crustacean": null,
   "coral": null,

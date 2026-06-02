@@ -6,32 +6,82 @@
   "waterType": "saltwater",
   "commonName": "Maculosus Angelfish",
   "scientificName": "Pomacanthus maculosus",
-  "alsoKnownAs": ["Yellowbar Angelfish", "Yellow-band Angelfish", "Map Angelfish", "Blue Moon Angelfish", "Halfmoon Angelfish"],
+  "alsoKnownAs": [
+    "Yellowbar Angelfish",
+    "Yellow-band Angelfish",
+    "Map Angelfish",
+    "Blue Moon Angelfish",
+    "Halfmoon Angelfish"
+  ],
   "category": "Large Angelfish",
   "taxonomy": {
     "family": "Pomacanthidae",
     "order": "Acanthuriformes"
   },
   "nativeRange": {
-    "regions": ["Red Sea", "Western Indian Ocean", "Persian Gulf"],
-    "countries": ["Saudi Arabia", "Oman", "Yemen", "Egypt", "Sudan", "Eritrea", "Djibouti", "Somalia", "Kenya", "Tanzania", "Mozambique", "United Arab Emirates", "Kuwait", "Bahrain", "Qatar", "India"],
+    "regions": [
+      "Red Sea",
+      "Western Indian Ocean",
+      "Persian Gulf"
+    ],
+    "countries": [
+      "Saudi Arabia",
+      "Oman",
+      "Yemen",
+      "Egypt",
+      "Sudan",
+      "Eritrea",
+      "Djibouti",
+      "Somalia",
+      "Kenya",
+      "Tanzania",
+      "Mozambique",
+      "United Arab Emirates",
+      "Kuwait",
+      "Bahrain",
+      "Qatar",
+      "India"
+    ],
     "habitat": "Coral and silty reef areas, lagoons, and seaward reefs at depths of approximately 4–60 meters; tends to favor areas with mixed coral and rubble rather than dense coral growth",
     "biotope": "Reef"
   },
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 28 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 24,
+      "max": 28
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.022, "max": 1.026 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.022,
+      "max": 1.026
+    }
   },
-  "adultSizeCm": { "min": 38, "max": 50 },
-  "lifespanYears": { "min": 10, "max": 36 },
+  "adultSizeCm": {
+    "min": 38,
+    "max": 50
+  },
+  "lifespanYears": {
+    "min": 10,
+    "max": 36
+  },
   "tank": {
     "minVolumeLiters": 710,
     "minLengthCm": 180,
     "swimZone": "all",
-    "decorPreferences": ["live rock", "caves", "overhangs", "open swimming space"]
+    "decorPreferences": [
+      "live rock",
+      "caves",
+      "overhangs",
+      "open swimming space"
+    ]
   },
   "careLevel": "intermediate",
   "diet": {
@@ -42,8 +92,22 @@
     "temperament": "semi-aggressive",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["large tangs", "triggerfish", "groupers", "hawkfish", "large wrasses", "large basslets"],
-    "avoidWith": ["other Pomacanthus angelfish", "similarly shaped or colored angelfish", "small invertebrates", "clam mantles", "sessile corals (with caution)", "small passive fish"]
+    "goodWith": [
+      "large tangs",
+      "triggerfish",
+      "groupers",
+      "hawkfish",
+      "large wrasses",
+      "large basslets"
+    ],
+    "avoidWith": [
+      "other Pomacanthus angelfish",
+      "similarly shaped or colored angelfish",
+      "small invertebrates",
+      "clam mantles",
+      "sessile corals (with caution)",
+      "small passive fish"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -80,7 +144,10 @@
     "breedingNotes": "Pomacanthids are sequential hermaphrodites; captive breeding of P. maculosus has not been reliably documented. Wild-caught specimens are standard in the aquarium trade.",
     "conspecificAggression": "high",
     "finNippy": false,
-    "reefSafe": "with caution"
+    "reefSafe": "with caution",
+    "escapeRisk": null,
+    "venomousSpines": null,
+    "protogynous": true
   },
   "crustacean": null,
   "coral": null,

@@ -6,32 +6,67 @@
   "waterType": "saltwater",
   "commonName": "Gray (Black) Angelfish",
   "scientificName": "Pomacanthus arcuatus",
-  "alsoKnownAs": ["Gray Angelfish", "Black Angelfish", "Pot Cover", "Cachama Blanca"],
+  "alsoKnownAs": [
+    "Gray Angelfish",
+    "Black Angelfish",
+    "Pot Cover",
+    "Cachama Blanca"
+  ],
   "category": "Large Angelfish",
   "taxonomy": {
     "family": "Pomacanthidae",
     "order": "Perciformes"
   },
   "nativeRange": {
-    "regions": ["Western Atlantic", "Caribbean", "Gulf of Mexico"],
-    "countries": ["United States", "Brazil", "Mexico", "Cuba", "Bahamas", "Trinidad and Tobago"],
+    "regions": [
+      "Western Atlantic",
+      "Caribbean",
+      "Gulf of Mexico"
+    ],
+    "countries": [
+      "United States",
+      "Brazil",
+      "Mexico",
+      "Cuba",
+      "Bahamas",
+      "Trinidad and Tobago"
+    ],
     "habitat": "Coral reefs and rocky areas at depths of roughly 2–30 m; juveniles tend to inhabit shallow patch reefs and seagrass areas",
     "biotope": "Reef"
   },
   "waterParameters": {
-    "temperatureC": { "min": 22.8, "max": 26.3 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 22.8,
+      "max": 26.3
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 40, "max": 61 },
+  "adultSizeCm": {
+    "min": 40,
+    "max": 61
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 740,
     "minLengthCm": 180,
     "swimZone": "all",
-    "decorPreferences": ["live rock", "caves", "open swimming areas"]
+    "decorPreferences": [
+      "live rock",
+      "caves",
+      "open swimming areas"
+    ]
   },
   "careLevel": "intermediate",
   "diet": {
@@ -42,8 +77,21 @@
     "temperament": "semi-aggressive",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["peaceful large fish", "tangs", "wrasses", "hawkfish"],
-    "avoidWith": ["other large angelfish", "small invertebrates", "corals", "clam mantles", "lionfish", "scorpionfish", "seahorses"]
+    "goodWith": [
+      "peaceful large fish",
+      "tangs",
+      "wrasses",
+      "hawkfish"
+    ],
+    "avoidWith": [
+      "other large angelfish",
+      "small invertebrates",
+      "corals",
+      "clam mantles",
+      "lionfish",
+      "scorpionfish",
+      "seahorses"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -86,7 +134,10 @@
     "breedingNotes": "No reliable captive breeding accounts documented in the hobby. Wild spawning occurs in bonded pairs April–September; larvae are planktonic and rarely successfully raised in home aquariums.",
     "conspecificAggression": "high",
     "finNippy": false,
-    "reefSafe": "no"
+    "reefSafe": "no",
+    "escapeRisk": null,
+    "venomousSpines": null,
+    "protogynous": null
   },
   "crustacean": null,
   "coral": null,

@@ -33,13 +33,16 @@
     "fishVariant": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["breedingDifficulty", "breedingNotes", "conspecificAggression", "finNippy", "reefSafe"],
+      "required": ["breedingDifficulty", "breedingNotes", "conspecificAggression", "finNippy", "reefSafe", "escapeRisk", "venomousSpines", "protogynous"],
       "properties": {
         "breedingDifficulty":     { "type": ["string", "null"], "enum": ["easy", "moderate", "difficult", "advanced", "not in captivity", null] },
         "breedingNotes":          { "type": ["string", "null"] },
         "conspecificAggression":  { "type": ["string", "null"], "enum": ["none", "low", "moderate", "high", null] },
         "finNippy":               { "type": ["boolean", "null"] },
-        "reefSafe":               { "type": ["string", "null"], "enum": ["yes", "with caution", "no", null] }
+        "reefSafe":               { "type": ["string", "null"], "enum": ["yes", "with caution", "no", null] },
+        "escapeRisk":             { "type": ["string", "null"], "enum": ["low", "moderate", "high", null], "description": "Jumping/escape risk. Promoted from field-gap suggestions 2026-05-25 (9 species)." },
+        "venomousSpines":         { "type": ["boolean", "null"], "description": "True if the species has venomous spines (dorsal/anal/caudal) capable of envenoming a handler. Promoted from field-gap suggestions 2026-05-25 (7 species)." },
+        "protogynous":            { "type": ["boolean", "null"], "description": "True if the species is a protogynous (female-first) sequential hermaphrodite. Promoted from field-gap suggestions 2026-05-25 (5 species)." }
       }
     },
     "crustaceanVariant": {

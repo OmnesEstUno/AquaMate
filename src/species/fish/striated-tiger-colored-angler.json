@@ -38,13 +38,28 @@
     "biotope": "Reef"
   },
   "waterParameters": {
-    "temperatureC": { "min": 20.8, "max": 26.5 },
-    "pH": { "min": 8.0, "max": 8.4 },
+    "temperatureC": {
+      "min": 20.8,
+      "max": 26.5
+    },
+    "pH": {
+      "min": 8,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.021, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.021,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 8.0, "max": 22.0 },
+  "adultSizeCm": {
+    "min": 8,
+    "max": 22
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 170,
@@ -120,7 +135,10 @@
     "breedingNotes": "Oviparous; captive breeding is documented but uncommon. Eggs released in ribbon-like gelatinous masses. Males display intensified coloration during courtship.",
     "conspecificAggression": "high",
     "finNippy": false,
-    "reefSafe": "with caution"
+    "reefSafe": "with caution",
+    "escapeRisk": null,
+    "venomousSpines": true,
+    "protogynous": null
   },
   "crustacean": null,
   "coral": null,

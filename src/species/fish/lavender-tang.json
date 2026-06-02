@@ -6,66 +6,104 @@
   "waterType": "saltwater",
   "commonName": "Lavender Tang",
   "scientificName": "Acanthurus nigrofuscus",
-  "alsoKnownAs": ["Spot-cheeked Surgeonfish", "Dusky Surgeonfish", "Blackspot Surgeonfish", "Brown Surgeonfish"],
+  "alsoKnownAs": [
+    "Spot-cheeked Surgeonfish",
+    "Dusky Surgeonfish",
+    "Blackspot Surgeonfish",
+    "Brown Surgeonfish"
+  ],
   "category": "Tang / Surgeonfish",
-
   "taxonomy": {
     "family": "Acanthuridae",
     "order": "Acanthuriformes"
   },
-
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Red Sea", "Hawaiian Islands", "Great Barrier Reef"],
-    "countries": ["Australia", "Japan", "South Africa", "United States (Hawaii)", "Egypt", "Indonesia", "Philippines"],
+    "regions": [
+      "Indo-Pacific",
+      "Red Sea",
+      "Hawaiian Islands",
+      "Great Barrier Reef"
+    ],
+    "countries": [
+      "Australia",
+      "Japan",
+      "South Africa",
+      "United States (Hawaii)",
+      "Egypt",
+      "Indonesia",
+      "Philippines"
+    ],
     "habitat": "Shallow lagoon and seaward reef slopes; found on hard substrates, typically at depths of 0–25 m",
     "biotope": "Reef"
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 23.0, "max": 27.0 },
-    "pH":           { "min": 8.0,  "max": 8.4  },
-    "gH":           null,
-    "kH":           { "min": 8.0,  "max": 12.0 },
-    "salinity":     { "min": 1.021, "max": 1.026 }
+    "temperatureC": {
+      "min": 23,
+      "max": 27
+    },
+    "pH": {
+      "min": 8,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.021,
+      "max": 1.026
+    }
   },
-
-  "adultSizeCm": { "min": 5.0, "max": 21.0 },
+  "adultSizeCm": {
+    "min": 5,
+    "max": 21
+  },
   "lifespanYears": null,
-
   "tank": {
-    "minVolumeLiters": 637.0,
-    "minLengthCm": 150.0,
+    "minVolumeLiters": 637,
+    "minLengthCm": 150,
     "swimZone": "all",
-    "decorPreferences": ["live rock", "open swimming space", "algae-covered rock surfaces", "hiding spots"]
+    "decorPreferences": [
+      "live rock",
+      "open swimming space",
+      "algae-covered rock surfaces",
+      "hiding spots"
+    ]
   },
-
   "careLevel": "intermediate",
-
   "diet": {
     "type": "herbivore",
     "notes": "Primarily feeds on filamentous algae and macroalgae. Has been documented grazing on algae-covered rock surfaces throughout the day. Generally advised to supplement with dried seaweed (nori) offered at least 3 times per week. Has been known to also accept meaty foods such as mysis shrimp and krill, though algae-based feeding is considered important for immune health and temperament."
   },
-
   "compatibility": {
     "temperament": "semi-aggressive",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["clownfish", "wrasses", "gobies", "basslets", "angelfish", "non-tang saltwater fish", "corals", "invertebrates"],
-    "avoidWith": ["other tangs", "other surgeonfish", "Acanthurus species"]
+    "goodWith": [
+      "clownfish",
+      "wrasses",
+      "gobies",
+      "basslets",
+      "angelfish",
+      "non-tang saltwater fish",
+      "corals",
+      "invertebrates"
+    ],
+    "avoidWith": [
+      "other tangs",
+      "other surgeonfish",
+      "Acanthurus species"
+    ]
   },
-
   "media": {
     "primaryImage": null,
     "gallery": [],
     "imageCandidates": null
   },
-
   "summary": "A hardy Indo-Pacific surgeonfish with a distinctive lavender-tan body and orange-spotted face. Generally considered reef-safe and peaceful with non-tang fish; tends to be aggressive toward other tangs and surgeonfish. Commonly advised for tanks with ample live rock and algae growth.",
-
   "careNotes": "The Lavender Tang (Acanthurus nigrofuscus) tends to be semi-aggressive toward conspecifics and other surgeonfishes but is generally peaceful with unrelated species. It has been reported to do well in reef aquariums, with no documented tendency to nip corals or harm invertebrates.\n\nMinimum tank size is debated among sources: LiveAquaria recommends 125 gallons (approx. 473 L) while ReefApp recommends 800 L (approx. 211 gallons). The value stored here (637 L) is an average of these figures; a larger tank in the 600–800 L range is likely more appropriate for a fish that has been documented forming large schools in the wild.\n\nTemperature also differs between sources: LiveAquaria lists 72–78°F (22–26°C), while FishBase documents a wild range of 24–28°C. The stored range (23–27°C) is an average; most aquarists report success around 24–26°C.\n\nIn the wild, this species has been documented feeding in large schools to overwhelm the territorial defenses of other herbivores — making it among the less dominant Acanthurus species when kept with larger or more aggressive tangs.\n\nSalinity preference appears to span 1.020–1.026 SG across sources; the stored range (1.021–1.026) represents an average. Standard reef salinity of 1.025 is generally advised.\n\nOffers plenty of live rock for grazing and hiding, especially during acclimation. Has been reported to be a hardy feeder that generally accepts dried seaweed, spirulina-based pellets, and meaty frozen foods.",
-
   "breedingNotes": "Has been documented forming spawning aggregations in the wild. Captive breeding has not been reported and is considered very difficult to impractical in a home aquarium setting.",
-
   "sources": {
     "primary": {
       "name": "LiveAquaria",
@@ -88,15 +126,16 @@
       }
     ]
   },
-
   "fish": {
     "breedingDifficulty": "not in captivity",
     "breedingNotes": "Has been documented forming spawning aggregations in the wild. Captive breeding has not been reported; considered impractical in home aquarium settings.",
     "conspecificAggression": "high",
     "finNippy": false,
-    "reefSafe": "yes"
+    "reefSafe": "yes",
+    "escapeRisk": null,
+    "venomousSpines": null,
+    "protogynous": null
   },
-
   "crustacean": null,
   "coral": null,
   "mollusc": null,
@@ -104,7 +143,6 @@
   "other-invert": null,
   "plant": null,
   "macroalgae": null,
-
   "schemaVersion": 1,
   "dataStatus": "needs_review",
   "lastReviewed": "2026-05-25"

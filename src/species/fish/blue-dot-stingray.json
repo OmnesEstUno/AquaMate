@@ -6,38 +6,66 @@
   "waterType": "saltwater",
   "commonName": "Blue Dot Stingray",
   "scientificName": "Taeniura lymma",
-  "alsoKnownAs": ["Bluespotted Ribbontail Ray", "Bluespotted Stingray", "Ribbontail Stingray"],
+  "alsoKnownAs": [
+    "Bluespotted Ribbontail Ray",
+    "Bluespotted Stingray",
+    "Ribbontail Stingray"
+  ],
   "category": "Rays",
-
   "taxonomy": {
     "family": "Dasyatidae",
     "order": "Myliobatiformes"
   },
-
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Red Sea", "East Africa", "Southeast Asia", "Australia", "Japan"],
+    "regions": [
+      "Indo-Pacific",
+      "Red Sea",
+      "East Africa",
+      "Southeast Asia",
+      "Australia",
+      "Japan"
+    ],
     "countries": [
-      "Australia", "Japan", "Indonesia", "Philippines", "Malaysia",
-      "Saudi Arabia", "Egypt", "Tanzania", "Solomon Islands"
+      "Australia",
+      "Japan",
+      "Indonesia",
+      "Philippines",
+      "Malaysia",
+      "Saudi Arabia",
+      "Egypt",
+      "Tanzania",
+      "Solomon Islands"
     ],
     "habitat": "Coral reefs and adjacent sandy flats; typically shallow waters 0–20 m depth. Tends to shelter in caves and under ledges at low tide, migrating to sandy areas to feed during high tide.",
     "biotope": "Reef"
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 23.5, "max": 27.2 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 23.5,
+      "max": 27.2
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8.0, "max": 12.0 },
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-
-  "adultSizeCm": { "min": 25.0, "max": 48.0 },
+  "adultSizeCm": {
+    "min": 25,
+    "max": 48
+  },
   "lifespanYears": null,
-
   "tank": {
-    "minVolumeLiters": 833.0,
-    "minLengthCm": 180.0,
+    "minVolumeLiters": 833,
+    "minLengthCm": 180,
     "swimZone": "bottom",
     "decorPreferences": [
       "Deep sand substrate (4+ inches)",
@@ -47,14 +75,11 @@
       "Rounded tank corners preferred"
     ]
   },
-
   "careLevel": "expert",
-
   "diet": {
     "type": "carnivore",
     "notes": "Feeds primarily on mollusks, worms, shrimps, and crabs in the wild. In captivity, has been documented accepting small pieces of cleaned squid, live or frozen ghost shrimp, scallops, and other meaty marine foods. Newly introduced specimens frequently refuse to feed, and long-term feeding refusal is one of the most common causes of mortality in captivity. Offering live prey initially has been reported to help stimulate feeding responses."
   },
-
   "compatibility": {
     "temperament": "semi-aggressive",
     "grouping": "solitary",
@@ -70,7 +95,6 @@
       "Other rays (risk of injury and territorial stress)"
     ]
   },
-
   "media": {
     "primaryImage": null,
     "gallery": [],
@@ -101,13 +125,9 @@
       }
     ]
   },
-
   "summary": "The Blue Dot Stingray (Taeniura lymma) is a striking Indo-Pacific elasmobranch noted for its vivid blue spots and ribbon-like tail. It is generally considered one of the most challenging marine fish to maintain in captivity, tending to fare poorly outside professional settings.",
-
   "careNotes": "The Blue Dot Stingray is widely regarded as one of the most difficult marine species to maintain in captivity, and is generally recommended only for expert hobbyists or public aquarium facilities with dedicated elasmobranch programs. Newly acquired specimens frequently refuse to feed, and unexplained cessation of feeding or sudden death can occur even in apparently stable conditions. Long-term survival in private aquariums has been reported to be rare.\n\nA large tank with a substantial open sandy area is essential; the substrate should be fine, soft sand at least 4 inches (10 cm) deep to allow the ray to bury itself and prevent abrasion injuries to its ventral surface. Rounded tank corners are strongly advised to reduce stress and collision injuries. The species is typically solitary in the wild and should generally be kept alone or only with fish that are too large to be consumed and pose no threat.\n\nThe ray's venomous tail spine is used defensively; caution is advised during tank maintenance and when netting. Copper-based medications should never be used, as even trace amounts have been reported to be harmful to elasmobranchs.\n\nCross-source disagreement was noted on temperament (peaceful per LiveAquaria, semi-aggressive per ReefBay, aggressive per AquariumDomain) — aggression appears to be directed primarily at invertebrate prey rather than tankmates, so 'semi-aggressive' was selected as a middle estimate. Disagreement was also noted on adult disc width: FishBase reports 35 cm WD, Florida Museum 30 cm WD, LiveAquaria ~48 cm (~19 in), and AquariumDomain ~41 cm (~16 in). The adultSizeCm field reflects averaged disc width across sources (~25–48 cm). Note that for rays, disc width is the standard husbandry measurement, not total body length (total length can reach ~70 cm per FishBase). Minimum tank volume was averaged across three sources (LiveAquaria 300 gal / 1136 L, ReefBay and AquariumDomain 180 gal / 681 L each) yielding approximately 833 L. Temperature was averaged across four sources (LiveAquaria, ReefBay, AquariumDomain, FishBase) yielding approximately 23.5–27.2°C.",
-
   "breedingNotes": "Ovoviviparous; females give birth to live young (up to 7 pups per litter). Breeding in captivity has been achieved only at a small number of public aquariums (notably coordinated through the European Association of Zoos and Aquaria). Successful captive breeding is considered very difficult and has not been reliably replicated in private aquariums.",
-
   "sources": {
     "primary": {
       "name": "LiveAquaria",
@@ -142,13 +162,15 @@
       }
     ]
   },
-
   "fish": {
     "breedingDifficulty": "not in captivity",
     "breedingNotes": "Ovoviviparous; successful captive breeding has been achieved at a small number of public aquariums but is considered extremely rare and has not been replicated reliably in private settings.",
     "conspecificAggression": "moderate",
     "finNippy": false,
-    "reefSafe": "no"
+    "reefSafe": "no",
+    "escapeRisk": null,
+    "venomousSpines": true,
+    "protogynous": null
   },
   "crustacean": null,
   "coral": null,
@@ -157,7 +179,6 @@
   "other-invert": null,
   "plant": null,
   "macroalgae": null,
-
   "schemaVersion": 1,
   "dataStatus": "researched",
   "lastReviewed": "2026-05-25"

@@ -6,14 +6,15 @@
   "waterType": "saltwater",
   "commonName": "Pilotfish",
   "scientificName": "Naucrates ductor",
-  "alsoKnownAs": ["Pilot Fish", "Pilotfish Jack"],
+  "alsoKnownAs": [
+    "Pilot Fish",
+    "Pilotfish Jack"
+  ],
   "category": "Jacks",
-
   "taxonomy": {
     "family": "Carangidae",
     "order": "Carangiformes"
   },
-
   "nativeRange": {
     "regions": [
       "Western Atlantic",
@@ -26,52 +27,68 @@
     "habitat": "Oceanic, pelagic; commonly found near the surface in open ocean and reef-associated zones at depths of 0–300 m",
     "biotope": "Open Ocean"
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 20, "max": 26 },
-    "pH":           { "min": 8.1, "max": 8.4 },
-    "gH":           null,
-    "kH":           { "min": 8, "max": 12 },
-    "salinity":     { "min": 1.020, "max": 1.025 }
+    "temperatureC": {
+      "min": 20,
+      "max": 26
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-
-  "adultSizeCm":   { "min": 40, "max": 70 },
-  "lifespanYears": { "min": 1, "max": 3 },
-
+  "adultSizeCm": {
+    "min": 40,
+    "max": 70
+  },
+  "lifespanYears": {
+    "min": 1,
+    "max": 3
+  },
   "tank": {
-    "minVolumeLiters":  1362,
-    "minLengthCm":      null,
-    "swimZone":         "mid",
-    "decorPreferences": ["open swimming space", "minimal rockwork"]
+    "minVolumeLiters": 1362,
+    "minLengthCm": null,
+    "swimZone": "mid",
+    "decorPreferences": [
+      "open swimming space",
+      "minimal rockwork"
+    ]
   },
-
   "careLevel": "expert",
-
   "diet": {
     "type": "carnivore",
     "notes": "In the wild, has been documented feeding on scraps from host sharks, parasites, small fishes, and invertebrates. In captivity, has been reported to accept frozen meaty foods and prepared marine flesh; may initially require live saltwater feeder shrimp to encourage feeding."
   },
-
   "compatibility": {
-    "temperament":  "aggressive",
-    "grouping":     "schooling",
+    "temperament": "aggressive",
+    "grouping": "schooling",
     "minGroupSize": 3,
-    "goodWith":     ["other Pilotfish of similar size"],
-    "avoidWith":    ["small fish", "invertebrates", "slow-moving species"]
+    "goodWith": [
+      "other Pilotfish of similar size"
+    ],
+    "avoidWith": [
+      "small fish",
+      "invertebrates",
+      "slow-moving species"
+    ]
   },
-
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
+    "primaryImage": null,
+    "gallery": [],
     "imageCandidates": null
   },
-
   "summary": "A circumtropical pelagic species known for its commensal association with sharks and large marine animals. Generally considered suitable only for very large public aquarium displays; has been reported to reach 70 cm and tends to be aggressive toward smaller tankmates.",
-
   "careNotes": "The Pilotfish (Naucrates ductor) is an oceanic, circumtropical species best known for its semi-obligate commensal relationship with sharks, rays, large bony fishes, and sea turtles; juveniles tend to associate with jellyfish and drifting seaweed. It is generally considered a public-aquarium-only fish and is not typically seen in the home aquarium trade. A minimum tank of approximately 1,360 L (360 US gallons) has been cited, though even this may be marginal for long-term care given the species' active, fast-growing nature.\n\nTemperature disagreement: FishBase wild-habitat modeling records 7.9–28.1°C, reflecting its broad ocean distribution. Aquarium-care sources (Quality Marine, Aquaryus) suggest a narrower kept range of 18–26°C. The values used here (20–26°C) represent the average of the aquarium-specific recommendations and are more relevant to husbandry. pH data from one source (Aquaryus, 5.9–7.8) was rejected as clearly inconsistent with saltwater parameters; standard marine values of 8.1–8.4 from Quality Marine were used.\n\nSize: FishBase records a maximum of 70 cm TL (common length ~40 cm). Aquarium specimens have been reported to grow rapidly and may reach adult size in relatively short order.\n\nLifespan: Mediterranean research has documented a maximum recorded age of approximately 3 years, suggesting a relatively short natural lifespan.\n\nDiet: Primarily carnivorous — has been known to eat small fishes and invertebrates; in captivity, tends to accept frozen meaty foods once acclimated.\n\nGrouping: Naturally schooling; has been reported to prefer other Pilotfish as tankmates. However, will eat fish smaller than itself, so compatible tankmates are limited to similarly sized or larger fish.\n\nNote: LiveAquaria's product page for 'Pilotfish' lists the scientific name Nathanodon speciosus (a trade synonym for Gnathanodon speciosus / Golden Trevally), which is a different species. This entry is based on Naucrates ductor, the true Pilotfish, as specified by the manifest and confirmed via FishBase ID 998. Husbandry parameters were cross-referenced from Quality Marine (which correctly identifies Naucrates ductor) and FishBase.",
-
   "breedingNotes": "Breeding in captivity has not been documented in the available literature. This species is regarded as practically impossible to breed in home aquariums; public aquaria have focused on display keeping rather than breeding programs.",
-
   "sources": {
     "primary": {
       "name": "LiveAquaria",
@@ -100,24 +117,24 @@
       }
     ]
   },
-
   "fish": {
-    "breedingDifficulty":    "not in captivity",
-    "breedingNotes":         "No documented captive breeding. This species is kept only in large public aquarium exhibits.",
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "No documented captive breeding. This species is kept only in large public aquarium exhibits.",
     "conspecificAggression": "low",
-    "finNippy":              false,
-    "reefSafe":              "no"
+    "finNippy": false,
+    "reefSafe": "no",
+    "escapeRisk": null,
+    "venomousSpines": null,
+    "protogynous": null
   },
-
-  "crustacean":   null,
-  "coral":        null,
-  "mollusc":      null,
-  "echinoderm":   null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
   "other-invert": null,
-  "plant":        null,
-  "macroalgae":   null,
-
+  "plant": null,
+  "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus":    "needs_review",
-  "lastReviewed":  "2026-05-25"
+  "dataStatus": "needs_review",
+  "lastReviewed": "2026-05-25"
 }

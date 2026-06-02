@@ -52,7 +52,7 @@ function dedupeSlug(slug, usedSlugs) {
 function makeVariantStub(taxon) {
   switch (taxon) {
     case 'fish':
-      return { breedingDifficulty: null, breedingNotes: null, conspecificAggression: null, finNippy: null, reefSafe: null };
+      return { breedingDifficulty: null, breedingNotes: null, conspecificAggression: null, finNippy: null, reefSafe: null, escapeRisk: null, venomousSpines: null, protogynous: null };
     case 'crustacean':
       return { copperSensitive: null, moltingFrequencyDays: null, moltingNotes: null, escapeRisk: null, breedingDifficulty: null, breedingNotes: null, speciesOnlyTankRecommended: null };
     case 'coral':

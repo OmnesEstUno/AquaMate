@@ -6,32 +6,75 @@
   "waterType": "saltwater",
   "commonName": "Bluespine Unicorn Tang",
   "scientificName": "Naso unicornis",
-  "alsoKnownAs": ["Bluespine Unicornfish", "Unicorn Tang", "Short-nose Unicornfish"],
+  "alsoKnownAs": [
+    "Bluespine Unicornfish",
+    "Unicorn Tang",
+    "Short-nose Unicornfish"
+  ],
   "category": "Tang",
   "taxonomy": {
     "family": "Acanthuridae",
     "order": "Acanthuriformes"
   },
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Red Sea", "East Africa", "Hawaii", "Southern Japan", "Australia"],
-    "countries": ["Australia", "Japan", "Hawaii (USA)", "Egypt", "Kenya", "Tanzania", "Mozambique", "Madagascar", "Maldives", "Sri Lanka", "Indonesia", "Philippines"],
+    "regions": [
+      "Indo-Pacific",
+      "Red Sea",
+      "East Africa",
+      "Hawaii",
+      "Southern Japan",
+      "Australia"
+    ],
+    "countries": [
+      "Australia",
+      "Japan",
+      "Hawaii (USA)",
+      "Egypt",
+      "Kenya",
+      "Tanzania",
+      "Mozambique",
+      "Madagascar",
+      "Maldives",
+      "Sri Lanka",
+      "Indonesia",
+      "Philippines"
+    ],
     "habitat": "Reef channels, moats, lagoon and seaward reefs with strong surge; depth range 0–180 m",
     "biotope": "Reef"
   },
   "waterParameters": {
-    "temperatureC": { "min": 23.0, "max": 27.0 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 23,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
     "kH": null,
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 45.0, "max": 70.0 },
-  "lifespanYears": { "min": 15.0, "max": 55.0 },
+  "adultSizeCm": {
+    "min": 45,
+    "max": 70
+  },
+  "lifespanYears": {
+    "min": 15,
+    "max": 55
+  },
   "tank": {
-    "minVolumeLiters": 959.0,
-    "minLengthCm": 300.0,
+    "minVolumeLiters": 959,
+    "minLengthCm": 300,
     "swimZone": "all",
-    "decorPreferences": ["live rock", "open swimming space", "rockwork for grazing"]
+    "decorPreferences": [
+      "live rock",
+      "open swimming space",
+      "rockwork for grazing"
+    ]
   },
   "careLevel": "intermediate",
   "diet": {
@@ -42,8 +85,18 @@
     "temperament": "semi-aggressive",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["peaceful reef fish", "clownfish", "wrasses", "angelfish", "non-tang species generally"],
-    "avoidWith": ["other Unicorn Tangs (unless in very large tanks)", "conspecifics", "other Naso species"]
+    "goodWith": [
+      "peaceful reef fish",
+      "clownfish",
+      "wrasses",
+      "angelfish",
+      "non-tang species generally"
+    ],
+    "avoidWith": [
+      "other Unicorn Tangs (unless in very large tanks)",
+      "conspecifics",
+      "other Naso species"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -86,7 +139,10 @@
     "breedingNotes": "No captive breeding documented. Wild pair spawning observed. Not considered feasible under hobby conditions.",
     "conspecificAggression": "high",
     "finNippy": false,
-    "reefSafe": "with caution"
+    "reefSafe": "with caution",
+    "escapeRisk": null,
+    "venomousSpines": null,
+    "protogynous": null
   },
   "crustacean": null,
   "coral": null,

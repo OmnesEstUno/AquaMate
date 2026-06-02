@@ -22,25 +22,65 @@
     "order": "Gobiiformes"
   },
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Red Sea", "Indian Ocean", "Western Pacific"],
-    "countries": ["Egypt", "Saudi Arabia", "Iran", "India", "Sri Lanka", "Indonesia", "Philippines", "Japan", "Australia", "Solomon Islands", "Samoa"],
+    "regions": [
+      "Indo-Pacific",
+      "Red Sea",
+      "Indian Ocean",
+      "Western Pacific"
+    ],
+    "countries": [
+      "Egypt",
+      "Saudi Arabia",
+      "Iran",
+      "India",
+      "Sri Lanka",
+      "Indonesia",
+      "Philippines",
+      "Japan",
+      "Australia",
+      "Solomon Islands",
+      "Samoa"
+    ],
     "habitat": "Silty or sandy lagoon and bay areas; inhabits burrows under rocks, typically in mated pairs",
     "biotope": "Reef"
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 27 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 22,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 12, "max": 14 },
-  "lifespanYears": { "min": 3, "max": 5 },
+  "adultSizeCm": {
+    "min": 12,
+    "max": 14
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 189,
     "minLengthCm": 90,
     "swimZone": "bottom",
-    "decorPreferences": ["live sand substrate", "rock caves", "burrow sites", "populated refugium"]
+    "decorPreferences": [
+      "live sand substrate",
+      "rock caves",
+      "burrow sites",
+      "populated refugium"
+    ]
   },
   "careLevel": "intermediate",
   "diet": {
@@ -51,8 +91,19 @@
     "temperament": "peaceful",
     "grouping": "pair",
     "minGroupSize": 1,
-    "goodWith": ["reef-safe fish", "corals", "invertebrates", "peaceful community saltwater fish", "clownfish", "other gobies of different body shape"],
-    "avoidWith": ["conspecifics (unless mated pair)", "similar-bodied gobies", "aggressive tankmates that compete for bottom territory"]
+    "goodWith": [
+      "reef-safe fish",
+      "corals",
+      "invertebrates",
+      "peaceful community saltwater fish",
+      "clownfish",
+      "other gobies of different body shape"
+    ],
+    "avoidWith": [
+      "conspecifics (unless mated pair)",
+      "similar-bodied gobies",
+      "aggressive tankmates that compete for bottom territory"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -101,7 +152,10 @@
     "breedingNotes": "Has been reported to spawn in captivity, with pair bonding and burrow-based egg laying documented. Larval rearing is generally considered difficult due to the planktonic nature and small size of larvae.",
     "conspecificAggression": "moderate",
     "finNippy": false,
-    "reefSafe": "yes"
+    "reefSafe": "yes",
+    "escapeRisk": "high",
+    "venomousSpines": null,
+    "protogynous": null
   },
   "crustacean": null,
   "coral": null,

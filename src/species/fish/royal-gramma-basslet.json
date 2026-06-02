@@ -6,73 +6,113 @@
   "waterType": "saltwater",
   "commonName": "Royal Gramma Basslet",
   "scientificName": "Gramma loreto",
-  "alsoKnownAs": ["Royal Gramma", "Fairy Basslet"],
+  "alsoKnownAs": [
+    "Royal Gramma",
+    "Fairy Basslet"
+  ],
   "category": "Basslet",
-
   "taxonomy": {
     "family": "Grammatidae",
     "order": "Ovalentaria"
   },
-
   "nativeRange": {
-    "regions": ["Western Atlantic", "Caribbean"],
-    "countries": ["Bermuda", "Bahamas", "Mexico", "Belize", "Honduras", "Colombia", "Venezuela", "United States"],
+    "regions": [
+      "Western Atlantic",
+      "Caribbean"
+    ],
+    "countries": [
+      "Bermuda",
+      "Bahamas",
+      "Mexico",
+      "Belize",
+      "Honduras",
+      "Colombia",
+      "Venezuela",
+      "United States"
+    ],
     "habitat": "Coral reef caves, ledges, and crevices at depths of 1–60 m; tends to orient belly toward the substrate and has been observed swimming upside-down under overhangs",
     "biotope": "Reef"
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 22.2, "max": 26.2 },
-    "pH":           { "min": 8.1,  "max": 8.4  },
-    "gH":           null,
-    "kH":           { "min": 8,    "max": 12   },
-    "salinity":     { "min": 1.020, "max": 1.025 }
+    "temperatureC": {
+      "min": 22.2,
+      "max": 26.2
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-
-  "adultSizeCm":   { "min": 5.0,  "max": 8.5  },
-  "lifespanYears": { "min": 5.0,  "max": 8.0  },
-
+  "adultSizeCm": {
+    "min": 5,
+    "max": 8.5
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 8
+  },
   "tank": {
     "minVolumeLiters": 114,
     "minLengthCm": 60,
     "swimZone": "mid",
-    "decorPreferences": ["live rock", "caves", "overhangs", "crevices", "ledges"]
+    "decorPreferences": [
+      "live rock",
+      "caves",
+      "overhangs",
+      "crevices",
+      "ledges"
+    ]
   },
-
   "careLevel": "beginner",
-
   "diet": {
     "type": "carnivore",
     "notes": "Has been documented accepting a variety of meaty fare in captivity, including brine shrimp, mysis shrimp, frozen plankton, and quality pellet or flake preparations. In the wild, has been observed feeding on ectoparasites of other fishes and small zooplankton."
   },
-
   "compatibility": {
     "temperament": "semi-aggressive",
     "grouping": "solitary",
     "minGroupSize": 1,
     "goodWith": [
-      "clownfish", "angelfish", "gobies", "hawkfish", "boxfish", "chromis",
-      "wrasses", "jawfish", "rabbitfish", "squirrelfish", "corals", "most invertebrates"
+      "clownfish",
+      "angelfish",
+      "gobies",
+      "hawkfish",
+      "boxfish",
+      "chromis",
+      "wrasses",
+      "jawfish",
+      "rabbitfish",
+      "squirrelfish",
+      "corals",
+      "most invertebrates"
     ],
     "avoidWith": [
       "other Royal Grammas (unless mated pair in larger tank)",
       "Royal Dottyback and similar-looking purple fish",
-      "lionfish", "moray eels", "snappers", "groupers", "large aggressive fish"
+      "lionfish",
+      "moray eels",
+      "snappers",
+      "groupers",
+      "large aggressive fish"
     ]
   },
-
   "media": {
     "primaryImage": null,
     "gallery": [],
     "imageCandidates": null
   },
-
   "summary": "A small, vividly bicolored reef fish from the Caribbean, generally considered beginner-friendly and reef-safe. Best kept singly; tends to be territorial toward conspecifics and visually similar species.",
-
   "careNotes": "The Royal Gramma Basslet is generally considered one of the more straightforward saltwater fish to keep, making it a popular choice for reef aquariums. It tends to occupy mid-level swim zones close to rockwork, often retreating into caves and crevices. The species has been known to swim upside-down under ledges, which is normal behavior.\n\nConspecific aggression is a notable concern: best kept as a single specimen unless a mated pair is attempted in a larger system (generally advised at 50+ gallons for a pair, 100+ for a small group). Have been known to be aggressive toward other fish that share a similar purple/yellow coloration, such as the Royal Dottyback (Pictichromis paccagnellae).\n\nThe species has been reported to be a notorious jumper; a tightly fitted lid is generally advised. Provides extensive rockwork with caves and overhangs as hiding spots — specimens tend to be shy when first introduced and may take time to venture into open water.\n\nTemperature data spread: LiveAquaria and Fishkeeping World report 72–78°F (22.2–25.6°C); AquariumSource reports 72–80°F (22.2–26.7°C); FishBase gives 22–27°C. The averaged range of 22.2–26.2°C is used here. Salinity was consistent across all sources at SG 1.020–1.025. Adult size: most hobby sources report up to 3 in (7.62 cm); AquariumSource notes 3–4 in; FishBase lists 8.0 cm TL max. Averaged max used is 8.5 cm.",
-
   "breedingNotes": "Has been reported to breed readily in captivity. Males establish nest sites in small holes and crevices; females deposit approximately 5–40 eggs per spawning event. Eggs are typically guarded by the male and have been reported to hatch within 5–7 days under aquarium conditions. Raising fry is generally considered moderately challenging due to the small size of larvae.",
-
   "sources": {
     "primary": {
       "name": "LiveAquaria",
@@ -101,23 +141,23 @@
       }
     ]
   },
-
   "fish": {
     "breedingDifficulty": "moderate",
     "breedingNotes": "Has been reported to breed readily in captivity; males build nests and guard eggs; fry are small and raising them is generally considered moderately difficult.",
     "conspecificAggression": "high",
     "finNippy": false,
-    "reefSafe": "yes"
+    "reefSafe": "yes",
+    "escapeRisk": "high",
+    "venomousSpines": null,
+    "protogynous": null
   },
-
-  "crustacean":   null,
-  "coral":        null,
-  "mollusc":      null,
-  "echinoderm":   null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
   "other-invert": null,
-  "plant":        null,
-  "macroalgae":   null,
-
+  "plant": null,
+  "macroalgae": null,
   "schemaVersion": 1,
   "dataStatus": "researched",
   "lastReviewed": "2026-05-25"

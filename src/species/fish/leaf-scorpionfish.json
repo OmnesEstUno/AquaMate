@@ -6,32 +6,58 @@
   "waterType": "saltwater",
   "commonName": "Leaf Scorpionfish",
   "scientificName": "Taenianotus triacanthus",
-  "alsoKnownAs": ["Leaf Fish", "Paper Fish"],
+  "alsoKnownAs": [
+    "Leaf Fish",
+    "Paper Fish"
+  ],
   "category": "Scorpionfish",
   "taxonomy": {
     "family": "Scorpaenidae",
     "order": "Perciformes"
   },
   "nativeRange": {
-    "regions": ["Indo-Pacific"],
+    "regions": [
+      "Indo-Pacific"
+    ],
     "countries": [],
     "habitat": "Reef-associated; reef flats, outer reef slopes, current-swept channels, and occasionally lagoon reefs at depths of 5–135 m",
     "biotope": "Reef"
   },
   "waterParameters": {
-    "temperatureC": { "min": 23.4, "max": 27.2 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 23.4,
+      "max": 27.2
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.020, "max": 1.026 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.026
+    }
   },
-  "adultSizeCm": { "min": 6.0, "max": 10.0 },
+  "adultSizeCm": {
+    "min": 6,
+    "max": 10
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 96,
     "minLengthCm": null,
     "swimZone": "bottom",
-    "decorPreferences": ["live rock", "coral rubble", "algae", "seagrass", "caves"]
+    "decorPreferences": [
+      "live rock",
+      "coral rubble",
+      "algae",
+      "seagrass",
+      "caves"
+    ]
   },
   "careLevel": "intermediate",
   "diet": {
@@ -42,8 +68,16 @@
     "temperament": "semi-aggressive",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["peaceful large fish", "non-aggressive saltwater fish"],
-    "avoidWith": ["small fish", "small shrimp", "small crustaceans", "nano invertebrates"]
+    "goodWith": [
+      "peaceful large fish",
+      "non-aggressive saltwater fish"
+    ],
+    "avoidWith": [
+      "small fish",
+      "small shrimp",
+      "small crustaceans",
+      "nano invertebrates"
+    ]
   },
   "media": {
     "primaryImage": "leaf_scorpionfish.jpg",
@@ -86,7 +120,10 @@
     "breedingNotes": null,
     "conspecificAggression": "low",
     "finNippy": false,
-    "reefSafe": "with caution"
+    "reefSafe": "with caution",
+    "escapeRisk": null,
+    "venomousSpines": true,
+    "protogynous": null
   },
   "crustacean": null,
   "coral": null,

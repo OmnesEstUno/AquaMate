@@ -6,66 +6,116 @@
   "waterType": "saltwater",
   "commonName": "Firefish",
   "scientificName": "Nemateleotris magnifica",
-  "alsoKnownAs": ["Firefish Goby", "Fire Goby", "Fire Dartfish", "Magnificent Dartfish"],
+  "alsoKnownAs": [
+    "Firefish Goby",
+    "Fire Goby",
+    "Fire Dartfish",
+    "Magnificent Dartfish"
+  ],
   "category": "Dartfish / Goby",
-
   "taxonomy": {
     "family": "Microdesmidae",
     "order": "Gobiiformes"
   },
-
   "nativeRange": {
-    "regions": ["Indo-Pacific", "East Africa", "Hawaii", "Micronesia"],
-    "countries": ["Kenya", "Tanzania", "Mozambique", "Japan", "Philippines", "Indonesia", "Australia", "Hawaii (USA)", "New Caledonia"],
+    "regions": [
+      "Indo-Pacific",
+      "East Africa",
+      "Hawaii",
+      "Micronesia"
+    ],
+    "countries": [
+      "Kenya",
+      "Tanzania",
+      "Mozambique",
+      "Japan",
+      "Philippines",
+      "Indonesia",
+      "Australia",
+      "Hawaii (USA)",
+      "New Caledonia"
+    ],
     "habitat": "Outer reef slopes and rubble zones, typically found hovering above sandy or rubble substrate near shelter, facing the current to feed on zooplankton",
     "biotope": "Reef"
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 27 },
-    "pH":           { "min": 8.1, "max": 8.4 },
-    "gH":           { "min": 8, "max": 12 },
-    "kH":           null,
-    "salinity":     { "min": 1.020, "max": 1.025 }
+    "temperatureC": {
+      "min": 22,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": {
+      "min": 8,
+      "max": 12
+    },
+    "kH": null,
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-
-  "adultSizeCm":   { "min": 5, "max": 9 },
-  "lifespanYears": { "min": 3, "max": 4 },
-
+  "adultSizeCm": {
+    "min": 5,
+    "max": 9
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 4
+  },
   "tank": {
     "minVolumeLiters": 76,
     "minLengthCm": 60,
     "swimZone": "mid",
-    "decorPreferences": ["live rock", "caves", "crevices", "rubble", "sandy substrate"]
+    "decorPreferences": [
+      "live rock",
+      "caves",
+      "crevices",
+      "rubble",
+      "sandy substrate"
+    ]
   },
-
   "careLevel": "beginner",
-
   "diet": {
     "type": "carnivore",
     "notes": "Primarily a planktivore in the wild, feeding on zooplankton, copepods, and crustacean larvae. In captivity, has been documented accepting frozen mysis shrimp, brine shrimp, finely chopped seafood, and vitamin-enriched prepared marine foods. Generally advised to feed 2–3 times daily in small amounts."
   },
-
   "compatibility": {
     "temperament": "peaceful",
     "grouping": "pair",
     "minGroupSize": 1,
-    "goodWith": ["clownfish", "chromis", "cardinalfish", "basslets", "shrimp gobies", "wrasses (peaceful)", "small tangs", "cleaner shrimp", "soft corals", "LPS corals", "SPS corals"],
-    "avoidWith": ["aggressive fish", "large predatory fish", "triggerfish", "lionfish", "groupers", "other Firefish (unless bonded pair)"]
+    "goodWith": [
+      "clownfish",
+      "chromis",
+      "cardinalfish",
+      "basslets",
+      "shrimp gobies",
+      "wrasses (peaceful)",
+      "small tangs",
+      "cleaner shrimp",
+      "soft corals",
+      "LPS corals",
+      "SPS corals"
+    ],
+    "avoidWith": [
+      "aggressive fish",
+      "large predatory fish",
+      "triggerfish",
+      "lionfish",
+      "groupers",
+      "other Firefish (unless bonded pair)"
+    ]
   },
-
   "media": {
     "primaryImage": null,
     "gallery": [],
     "imageCandidates": null
   },
-
   "summary": "A strikingly colored dartfish with a pale yellow head grading into vivid orange-red toward the tail, generally considered beginner-friendly and well-suited to peaceful reef aquariums. Tends to hover near the substrate and has been known to dart into hiding at signs of disturbance.",
-
   "careNotes": "The Firefish (Nemateleotris magnifica) is commonly considered one of the more approachable saltwater fish for newcomers. It tends to hover just above the substrate in the middle of the water column, facing the current to intercept planktonic food. Multiple sources agree it generally keeps to itself and rarely bothers other species, though conspecific aggression has been reported — pairs typically need to be introduced as bonded individuals; two unrelated Firefish in a small tank have been known to fight for territory.\n\nA tight-fitting, escape-proof lid is strongly advised. Firefish have been documented jumping when startled, and this is considered one of the more important tank-setup precautions for the species. Ample rockwork with crevices and caves is generally advised, as these fish rely on bolt-holes to feel secure; a stressed individual with no refuge tends to remain hidden or may attempt to jump.\n\nA minimum tank of around 76 L (20 US gallons) is commonly cited for a single fish or bonded pair. Water parameters should generally be maintained in the standard reef range: temperature roughly 22–27°C, pH 8.1–8.4, and specific gravity 1.020–1.025.\n\nThe species is widely regarded as reef-safe; it has not been reported to nip corals or harm invertebrates. It tends to be compatible with most peaceful tank inhabitants.\n\nLifespan has been reported in the range of 3–4 years in well-maintained aquariums. Wild individuals are found on outer reef slopes from East Africa to Hawaii, Micronesia, and the Austral Islands, typically at depths of 6–28 m (though the species has been recorded as deep as 70 m). Wild fish are monogamous and have been documented sharing burrows.\n\nFin-nipping behavior toward other species has not been meaningfully documented in the literature or hobby sources reviewed. The distinctive extended first dorsal fin is used in social signaling.",
-
   "breedingNotes": "Breeding in captivity has been reported as difficult. The species is monogamous in the wild, with pairs sharing a burrow. Sexual dimorphism is subtle — females have been described as somewhat smaller and more slender. Eggs are reportedly deposited on the substrate and fertilized by the male. Rearing larvae is considered challenging due to the small size of larvae and their planktonic food requirements. No well-documented captive breeding protocol was found in the sources reviewed.",
-
   "sources": {
     "primary": {
       "name": "LiveAquaria (Dartfish collection page)",
@@ -94,15 +144,16 @@
       }
     ]
   },
-
   "fish": {
     "breedingDifficulty": "difficult",
     "breedingNotes": "Monogamous pairs; eggs are deposited on substrate and fertilized by the male. Captive breeding has been reported as difficult, primarily due to challenges rearing planktonic larvae. No widely-replicated captive breeding protocol has been documented.",
     "conspecificAggression": "moderate",
     "finNippy": false,
-    "reefSafe": "yes"
+    "reefSafe": "yes",
+    "escapeRisk": "high",
+    "venomousSpines": null,
+    "protogynous": null
   },
-
   "crustacean": null,
   "coral": null,
   "mollusc": null,
@@ -110,7 +161,6 @@
   "other-invert": null,
   "plant": null,
   "macroalgae": null,
-
   "schemaVersion": 1,
   "dataStatus": "researched",
   "lastReviewed": "2026-05-25"

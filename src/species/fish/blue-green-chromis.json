@@ -6,32 +6,67 @@
   "waterType": "saltwater",
   "commonName": "Blue/Green Chromis",
   "scientificName": "Chromis viridis",
-  "alsoKnownAs": ["Green Reef Chromis", "Green Chromis", "Blue-Green Damselfish"],
+  "alsoKnownAs": [
+    "Green Reef Chromis",
+    "Green Chromis",
+    "Blue-Green Damselfish"
+  ],
   "category": "Chromis",
   "taxonomy": {
     "family": "Pomacentridae",
     "order": "Perciformes"
   },
   "nativeRange": {
-    "regions": ["Indo-Pacific", "South Pacific"],
-    "countries": ["Madagascar", "Philippines", "Hawaii", "Australia", "Japan"],
+    "regions": [
+      "Indo-Pacific",
+      "South Pacific"
+    ],
+    "countries": [
+      "Madagascar",
+      "Philippines",
+      "Hawaii",
+      "Australia",
+      "Japan"
+    ],
     "habitat": "Shallow reef flats and lagoons, typically found in large aggregations above branching Acropora coral thickets at depths of 1–20 m.",
     "biotope": "Reef"
   },
   "waterParameters": {
-    "temperatureC": { "min": 22.8, "max": 27.6 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 22.8,
+      "max": 27.6
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.021, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.021,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 5.0, "max": 10.0 },
-  "lifespanYears": { "min": 8, "max": 15 },
+  "adultSizeCm": {
+    "min": 5,
+    "max": 10
+  },
+  "lifespanYears": {
+    "min": 8,
+    "max": 15
+  },
   "tank": {
     "minVolumeLiters": 114,
     "minLengthCm": 90,
     "swimZone": "mid",
-    "decorPreferences": ["live rock", "branching coral", "open swimming space"]
+    "decorPreferences": [
+      "live rock",
+      "branching coral",
+      "open swimming space"
+    ]
   },
   "careLevel": "beginner",
   "diet": {
@@ -42,8 +77,21 @@
     "temperament": "peaceful",
     "grouping": "schooling",
     "minGroupSize": 6,
-    "goodWith": ["other peaceful reef fish", "basslets", "blennies", "gobies", "clownfish", "tangs", "cardinalfish"],
-    "avoidWith": ["large aggressive fish", "lionfish", "groupers", "large triggers"]
+    "goodWith": [
+      "other peaceful reef fish",
+      "basslets",
+      "blennies",
+      "gobies",
+      "clownfish",
+      "tangs",
+      "cardinalfish"
+    ],
+    "avoidWith": [
+      "large aggressive fish",
+      "lionfish",
+      "groupers",
+      "large triggers"
+    ]
   },
   "media": {
     "primaryImage": "blue_green_chromis.jpg",
@@ -86,7 +134,10 @@
     "breedingNotes": "Egg scatterers with parental care; males guard nests but become aggressive toward conspecifics during spawning. Rarely bred successfully in home aquaria.",
     "conspecificAggression": "moderate",
     "finNippy": false,
-    "reefSafe": "yes"
+    "reefSafe": "yes",
+    "escapeRisk": null,
+    "venomousSpines": null,
+    "protogynous": null
   },
   "crustacean": null,
   "coral": null,

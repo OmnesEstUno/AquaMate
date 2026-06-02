@@ -33,7 +33,7 @@
   },
   "waterParameters": {
     "temperatureC": {
-      "min": 21.0,
+      "min": 21,
       "max": 25.5
     },
     "pH": {
@@ -46,12 +46,12 @@
       "max": 12
     },
     "salinity": {
-      "min": 1.020,
+      "min": 1.02,
       "max": 1.025
     }
   },
   "adultSizeCm": {
-    "min": 12.0,
+    "min": 12,
     "max": 17.8
   },
   "lifespanYears": {
@@ -60,7 +60,7 @@
   },
   "tank": {
     "minVolumeLiters": 113.6,
-    "minLengthCm": 45.0,
+    "minLengthCm": 45,
     "swimZone": "mid",
     "decorPreferences": [
       "gorgonian coral",
@@ -138,7 +138,10 @@
     "breedingNotes": "Male broods eggs in ventral pouch; gestation 14–21 days; brood size 50–400 fry. Fry require live zooplankton and very frequent feeding. Captive breeding is achievable in dedicated species tanks across many generations.",
     "conspecificAggression": "low",
     "finNippy": false,
-    "reefSafe": "with caution"
+    "reefSafe": "with caution",
+    "escapeRisk": null,
+    "venomousSpines": null,
+    "protogynous": null
   },
   "crustacean": null,
   "coral": null,

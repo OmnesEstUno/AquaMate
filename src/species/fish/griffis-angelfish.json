@@ -6,112 +6,146 @@
   "waterType": "saltwater",
   "commonName": "Griffis Angelfish",
   "scientificName": "Apolemichthys griffisi",
-  "alsoKnownAs": ["Griffis' Angelfish"],
+  "alsoKnownAs": [
+    "Griffis' Angelfish"
+  ],
   "category": "Angelfish",
-
   "taxonomy": {
     "family": "Pomacanthidae",
     "order": "Acanthuriformes"
   },
-
   "nativeRange": {
-    "regions": ["Central Pacific", "Indo-Pacific"],
-    "countries": ["Indonesia", "Philippines", "Papua New Guinea", "Solomon Islands", "Marshall Islands", "Micronesia", "Kiribati", "Nauru"],
+    "regions": [
+      "Central Pacific",
+      "Indo-Pacific"
+    ],
+    "countries": [
+      "Indonesia",
+      "Philippines",
+      "Papua New Guinea",
+      "Solomon Islands",
+      "Marshall Islands",
+      "Micronesia",
+      "Kiribati",
+      "Nauru"
+    ],
     "habitat": "Outer reef slopes and steep drop-offs, typically at depths of 40–60 m (range 10–110 m)",
     "biotope": "Reef"
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 23.0, "max": 27.5 },
-    "pH":           { "min": 8.1,  "max": 8.4  },
-    "gH":           null,
-    "kH":           { "min": 8,    "max": 12   },
-    "salinity":     { "min": 1.020, "max": 1.025 }
+    "temperatureC": {
+      "min": 23,
+      "max": 27.5
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-
-  "adultSizeCm":   { "min": 25.0, "max": 30.0 },
+  "adultSizeCm": {
+    "min": 25,
+    "max": 30
+  },
   "lifespanYears": null,
-
   "tank": {
-    "minVolumeLiters":  379,
-    "minLengthCm":      null,
-    "swimZone":         "all",
-    "decorPreferences": ["live rock", "caves", "overhangs", "crevices", "open swimming space"]
+    "minVolumeLiters": 379,
+    "minLengthCm": null,
+    "swimZone": "all",
+    "decorPreferences": [
+      "live rock",
+      "caves",
+      "overhangs",
+      "crevices",
+      "open swimming space"
+    ]
   },
-
   "careLevel": "advanced",
-
   "diet": {
     "type": "omnivore",
     "notes": "In the wild, has been documented feeding on sponges, tunicates, and benthic algae. In aquariums, generally advised to offer a varied diet including Spirulina, marine algae, sponge-based angelfish preparations, mysis shrimp, and other meaty items. Small portions offered several times daily tend to be better accepted than single large feedings."
   },
-
   "compatibility": {
-    "temperament":  "semi-aggressive",
-    "grouping":     "solitary",
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith":     ["peaceful fish", "non-conspecific angelfish", "tangs", "wrasses", "cardinalfish"],
-    "avoidWith":    ["other Apolemichthys angelfish", "conspecifics", "tridacnid clams", "large polyp stony corals", "soft corals"]
+    "goodWith": [
+      "peaceful fish",
+      "non-conspecific angelfish",
+      "tangs",
+      "wrasses",
+      "cardinalfish"
+    ],
+    "avoidWith": [
+      "other Apolemichthys angelfish",
+      "conspecifics",
+      "tridacnid clams",
+      "large polyp stony corals",
+      "soft corals"
+    ]
   },
-
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
+    "primaryImage": null,
+    "gallery": [],
     "imageCandidates": null
   },
-
   "summary": "A rare and striking large angelfish from deep Central Pacific reef slopes, generally considered one of the safer large angels for reef systems but known to occasionally nip at corals and clam mantles. Best suited for experienced keepers with spacious, well-established aquariums.",
-
   "careNotes": "The Griffis Angelfish is an uncommon to rare species in the aquarium trade, sourced primarily from the Central Pacific (Marshall Islands, Solomon Islands, Micronesia, and surrounding areas). It has been reported to inhabit outer reef slopes and steep drop-offs at depths typically between 40–60 m, which may contribute to its sensitivity and the difficulty some keepers report acclimating new specimens.\n\nCare level shows notable disagreement across sources: two sources rate it intermediate/moderate difficulty, while one experienced-keeper reference rates it expert-only. The 'advanced' rating here reflects the consensus middle ground; prospective keepers should be aware that some individuals reportedly prove challenging to acclimate and feed consistently.\n\nTemperament likewise varies by source — one source rates it peaceful while two rate it semi-aggressive. It has been known to become territorial once established, particularly toward other large angelfish and conspecifics. Generally advised to keep singly in a display tank.\n\nThis species has been documented as hermaphroditic; there are no known external features to reliably distinguish males from females.\n\nJuvenile coloration features a white body with a dark upper stripe; adults develop darker overall coloration with a contrasting white bar.\n\nRegarding reef safety: generally considered one of the safer large angelfish options for reef systems, but has been known to nip at large-polyp stony corals, some soft corals, and tridacnid clam mantles. Close observation after introduction is advised.\n\nAdult size disagreement: BlueZoo lists 12 inches (30.5 cm), FishBase records 30 cm maximum total length, LiveAquaria and TropicalFishKeeping list 10 inches (25.4 cm). The range min=25 / max=30 cm spans all reported values.\n\nMinimum tank volume disagreement: BlueZoo lists 75 gal (284 L), LiveAquaria lists 100 gal (379 L), TropicalFishKeeping lists 125 gal (473 L). The 379 L value used here represents the average across these three sources.\n\nTemperature range averaged across three sources: LiveAquaria (22.2–25.6°C), FishBase (23.4–29°C), and TropicalFishKeeping (23.0–28.0°C). Averaged min=23.0°C, max=27.5°C.",
-
   "breedingNotes": null,
-
   "sources": {
     "primary": {
       "name": "LiveAquaria",
-      "url":  "https://www.liveaquaria.com/products/griffis-angelfish",
+      "url": "https://www.liveaquaria.com/products/griffis-angelfish",
       "accessedDate": "2026-05-25",
       "notes": "Primary source. Initially returned HTTP 503; successfully fetched on retry. Provided size (10 in), temperature (72–78°F), pH (8.1–8.4), salinity (SG 1.020–1.025), tank min (100 gal), care level (moderate), temperament (semi-aggressive), reef safe (with caution), diet (omnivore)."
     },
     "additional": [
       {
         "name": "BlueZoo Aquatics",
-        "url":  "https://www.bluezooaquatics.com/productDetail.asp?did=1&pid=146&cid=8",
+        "url": "https://www.bluezooaquatics.com/productDetail.asp?did=1&pid=146&cid=8",
         "accessedDate": "2026-05-25",
         "notes": "Secondary source. Provided size (12 in / 30.5 cm), tank min (75 gal / 284 L), care level (intermediate), temperament (peaceful), diet (omnivore), reef safe (with caution), native range (Indo-Pacific, Solomon). Rated temperament more conservatively than other sources."
       },
       {
         "name": "FishBase",
-        "url":  "https://www.fishbase.se/summary/Apolemichthys-griffisi.html",
+        "url": "https://www.fishbase.se/summary/Apolemichthys-griffisi.html",
         "accessedDate": "2026-05-25",
         "notes": "Cross-verification for taxonomy and size. Confirmed family Pomacanthidae, order Acanthuriformes, max size 30 cm TL, temperature 23.4–29°C. Native range: Pacific Ocean, Indo-Malayan region eastward to the Line Islands. Depth: 10–110 m, typically 40–60 m."
       },
       {
         "name": "TropicalFishKeeping",
-        "url":  "https://tropical-fish-keeping.com/griffis-angelfish-apolemichthys-griffisi.html",
+        "url": "https://tropical-fish-keeping.com/griffis-angelfish-apolemichthys-griffisi.html",
         "accessedDate": "2026-05-25",
         "notes": "Additional cross-verification. Size 10 in (25.4 cm), tank 125 gal (473 L), temperature 73.4–82.4°F (23.0–28.0°C), pH 8.1–8.4, SG 1.020–1.025, care level very difficult/expert, temperament semi-aggressive, reef with caution. Lifespan listed as 5 years (single-source estimate, not included in main field). Detailed native range and diet notes used in careNotes."
       }
     ]
   },
-
   "fish": {
-    "breedingDifficulty":    "not in captivity",
-    "breedingNotes":         null,
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": null,
     "conspecificAggression": "high",
-    "finNippy":              false,
-    "reefSafe":              "with caution"
+    "finNippy": false,
+    "reefSafe": "with caution",
+    "escapeRisk": null,
+    "venomousSpines": null,
+    "protogynous": true
   },
-
-  "crustacean":  null,
-  "coral":       null,
-  "mollusc":     null,
-  "echinoderm":  null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
   "other-invert": null,
-  "plant":       null,
-  "macroalgae":  null,
-
+  "plant": null,
+  "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus":    "researched",
-  "lastReviewed":  "2026-05-25"
+  "dataStatus": "researched",
+  "lastReviewed": "2026-05-25"
 }

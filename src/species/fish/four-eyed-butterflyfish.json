@@ -6,32 +6,68 @@
   "waterType": "saltwater",
   "commonName": "Four Eyed Butterflyfish",
   "scientificName": "Chaetodon capistratus",
-  "alsoKnownAs": ["Foureye Butterflyfish", "Mock-eye Butterflyfish"],
+  "alsoKnownAs": [
+    "Foureye Butterflyfish",
+    "Mock-eye Butterflyfish"
+  ],
   "category": "Butterflyfish",
   "taxonomy": {
     "family": "Chaetodontidae",
     "order": "Acanthuriformes"
   },
   "nativeRange": {
-    "regions": ["Caribbean", "Western Atlantic", "Gulf of Mexico"],
-    "countries": ["United States", "Bermuda", "Bahamas", "Mexico", "Cuba", "Trinidad and Tobago", "Venezuela", "Colombia"],
+    "regions": [
+      "Caribbean",
+      "Western Atlantic",
+      "Gulf of Mexico"
+    ],
+    "countries": [
+      "United States",
+      "Bermuda",
+      "Bahamas",
+      "Mexico",
+      "Cuba",
+      "Trinidad and Tobago",
+      "Venezuela",
+      "Colombia"
+    ],
     "habitat": "Shallow coral reefs and rocky substrates at depths of approximately 2–20 m",
     "biotope": "Reef"
   },
   "waterParameters": {
-    "temperatureC": { "min": 21.0, "max": 27.0 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 21,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.021, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.021,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 13.0, "max": 15.0 },
+  "adultSizeCm": {
+    "min": 13,
+    "max": 15
+  },
   "lifespanYears": null,
   "tank": {
-    "minVolumeLiters": 418.0,
-    "minLengthCm": 150.0,
+    "minVolumeLiters": 418,
+    "minLengthCm": 150,
     "swimZone": "all",
-    "decorPreferences": ["live rock", "open swimming space", "hiding spots", "mature tank with established algae growth"]
+    "decorPreferences": [
+      "live rock",
+      "open swimming space",
+      "hiding spots",
+      "mature tank with established algae growth"
+    ]
   },
   "careLevel": "advanced",
   "diet": {
@@ -42,8 +78,19 @@
     "temperament": "peaceful",
     "grouping": "pair",
     "minGroupSize": 1,
-    "goodWith": ["peaceful fish of similar size", "non-aggressive tankmates"],
-    "avoidWith": ["aggressive or territorial fish", "corals", "gorgonians", "zoanthids", "large polyp stony corals", "small ornamental invertebrates", "members of the same sex"]
+    "goodWith": [
+      "peaceful fish of similar size",
+      "non-aggressive tankmates"
+    ],
+    "avoidWith": [
+      "aggressive or territorial fish",
+      "corals",
+      "gorgonians",
+      "zoanthids",
+      "large polyp stony corals",
+      "small ornamental invertebrates",
+      "members of the same sex"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -86,7 +133,10 @@
     "breedingNotes": "No documented captive breeding. Oviparous monogamous pairs in the wild; captive reproduction is not considered achievable.",
     "conspecificAggression": "moderate",
     "finNippy": false,
-    "reefSafe": "no"
+    "reefSafe": "no",
+    "escapeRisk": null,
+    "venomousSpines": null,
+    "protogynous": null
   },
   "crustacean": null,
   "coral": null,

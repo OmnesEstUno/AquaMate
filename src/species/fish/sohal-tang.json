@@ -6,66 +6,107 @@
   "waterType": "saltwater",
   "commonName": "Sohal Tang",
   "scientificName": "Acanthurus sohal",
-  "alsoKnownAs": ["Sohal Surgeonfish", "Arabian Tang", "Majestic Tang"],
+  "alsoKnownAs": [
+    "Sohal Surgeonfish",
+    "Arabian Tang",
+    "Majestic Tang"
+  ],
   "category": "Tang / Surgeonfish",
-
   "taxonomy": {
     "family": "Acanthuridae",
     "order": "Acanthuriformes"
   },
-
   "nativeRange": {
-    "regions": ["Western Indian Ocean", "Red Sea", "Persian Gulf"],
-    "countries": ["Saudi Arabia", "Egypt", "Oman", "Yemen", "United Arab Emirates", "Qatar", "Bahrain", "Kuwait", "Jordan", "Israel", "Eritrea", "Djibouti"],
+    "regions": [
+      "Western Indian Ocean",
+      "Red Sea",
+      "Persian Gulf"
+    ],
+    "countries": [
+      "Saudi Arabia",
+      "Egypt",
+      "Oman",
+      "Yemen",
+      "United Arab Emirates",
+      "Qatar",
+      "Bahrain",
+      "Kuwait",
+      "Jordan",
+      "Israel",
+      "Eritrea",
+      "Djibouti"
+    ],
     "habitat": "Seaward edges of reefs exposed to surge; reef flats and shallow reef slopes at depths of 0–20 m.",
     "biotope": "Reef"
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 23.0, "max": 27.0 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 23,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8.0, "max": 12.0 },
-    "salinity": { "min": 1.022, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.022,
+      "max": 1.025
+    }
   },
-
-  "adultSizeCm": { "min": 30.0, "max": 40.0 },
-  "lifespanYears": { "min": 15.0, "max": 20.0 },
-
+  "adultSizeCm": {
+    "min": 30,
+    "max": 40
+  },
+  "lifespanYears": {
+    "min": 15,
+    "max": 20
+  },
   "tank": {
     "minVolumeLiters": 900,
     "minLengthCm": 244,
     "swimZone": "all",
-    "decorPreferences": ["open swimming space", "live rock", "rockwork for territory and refuge", "surge-exposed layout"]
+    "decorPreferences": [
+      "open swimming space",
+      "live rock",
+      "rockwork for territory and refuge",
+      "surge-exposed layout"
+    ]
   },
-
   "careLevel": "advanced",
-
   "diet": {
     "type": "herbivore",
     "notes": "Primarily algae-based; has been documented grazing various algae species (notably Sargassum and fine filamentous green algae) in the wild. In captivity, tends to accept dried nori/seaweed, spirulina-based pellets, frozen herbivore formulations, and occasional meaty supplements such as mysis or brine shrimp. Feeding at least twice daily is generally advised to help reduce territory-driven aggression."
   },
-
   "compatibility": {
     "temperament": "aggressive",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["large angelfish", "large wrasses", "large triggerfish", "non-competing reef fish"],
-    "avoidWith": ["other tangs and surgeonfish", "conspecifics", "peaceful or small fish", "fish introduced after the Sohal Tang is established"]
+    "goodWith": [
+      "large angelfish",
+      "large wrasses",
+      "large triggerfish",
+      "non-competing reef fish"
+    ],
+    "avoidWith": [
+      "other tangs and surgeonfish",
+      "conspecifics",
+      "peaceful or small fish",
+      "fish introduced after the Sohal Tang is established"
+    ]
   },
-
   "media": {
     "primaryImage": null,
     "gallery": [],
     "imageCandidates": null
   },
-
   "summary": "A striking Red Sea endemic tang with bold horizontal stripes, electric-blue fin accents, and an orange caudal scalpel. Generally considered one of the most aggressive tangs in the hobby; best suited to very large, experienced reef systems.",
-
   "careNotes": "The Sohal Tang is native to the Red Sea and Persian Gulf, where it inhabits surge-exposed reef edges and is frequently the dominant herbivore on a given reef section. In the aquarium, it tends to be intensely territorial and has been known to bully or injure other fish — including species significantly larger than itself. Most experienced keepers strongly recommend adding it last to an established system and not keeping it with other tangs of any species.\n\nA minimum tank of roughly 900 L (approximately 250 US gallons) with a footprint of at least 8 feet (244 cm) is commonly advised, though larger systems are generally better. The species is an active, open-water swimmer and tends to use all areas of the water column.\n\nLike all Acanthuridae, the Sohal Tang possesses a sharp, blade-like caudal-peduncle spine (scalpel) that can inflict painful wounds on handlers and tank mates; care should be taken when netting or handling the fish.\n\nThe species has been reported to be susceptible to Head and Lateral Line Erosion (HLLE) if water quality or dietary diversity is inadequate. A varied diet rich in marine algae, supplemented with meaty foods, is generally advised for long-term health.\n\nBreeding in captivity has not been reported. Wild-caught specimens are the norm in the trade.\n\nTemperature notes: FishBase records wild ambient temperatures of 24–30°C for the Red Sea/Persian Gulf range; aquarium-hobby sources typically recommend 72–78°F (22–26°C), reflecting common reef-tank practice. The averaged range used here (23–27°C) covers both wild tolerance and recommended captive conditions.\n\nTank size notes: LiveAquaria and AquariumSource both recommend 250 US gallons (946 L); ReefApp suggests 800 L (211 gal). The averaged minimum of approximately 900 L is used here.\n\nSalinity notes: LiveAquaria and AquariumSource specify SG 1.020–1.025; ReefApp cites ~1.026 as standard reef. Averaged values of SG 1.022–1.025 are used.",
-
   "breedingNotes": "Captive breeding has not been documented for this species. Essentially all specimens available in the aquarium trade are wild-caught from the Red Sea and Persian Gulf. Spawning behavior in the wild is not well characterised at the aquarium-hobby level.",
-
   "sources": {
     "primary": {
       "name": "LiveAquaria",
@@ -94,15 +135,16 @@
       }
     ]
   },
-
   "fish": {
     "breedingDifficulty": "not in captivity",
     "breedingNotes": "No captive breeding records found. Wild-caught specimens only.",
     "conspecificAggression": "high",
     "finNippy": false,
-    "reefSafe": "yes"
+    "reefSafe": "yes",
+    "escapeRisk": null,
+    "venomousSpines": null,
+    "protogynous": null
   },
-
   "crustacean": null,
   "coral": null,
   "mollusc": null,
@@ -110,7 +152,6 @@
   "other-invert": null,
   "plant": null,
   "macroalgae": null,
-
   "schemaVersion": 1,
   "dataStatus": "researched",
   "lastReviewed": "2026-05-25"

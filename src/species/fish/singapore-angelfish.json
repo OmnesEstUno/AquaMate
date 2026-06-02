@@ -6,66 +6,93 @@
   "waterType": "saltwater",
   "commonName": "Singapore Angelfish",
   "scientificName": "Chaetodontoplus mesoleucus",
-  "alsoKnownAs": ["Vermiculated Angelfish", "Vermiculate Angelfish"],
+  "alsoKnownAs": [
+    "Vermiculated Angelfish",
+    "Vermiculate Angelfish"
+  ],
   "category": "Angelfish",
-
   "taxonomy": {
     "family": "Pomacanthidae",
     "order": "Acanthuriformes"
   },
-
   "nativeRange": {
-    "regions": ["Indo-West Pacific"],
-    "countries": ["Japan", "Indonesia", "Sri Lanka", "Papua New Guinea", "Philippines"],
+    "regions": [
+      "Indo-West Pacific"
+    ],
+    "countries": [
+      "Japan",
+      "Indonesia",
+      "Sri Lanka",
+      "Papua New Guinea",
+      "Philippines"
+    ],
     "habitat": "Shallow coral reef slopes and continental shelf reefs; generally not found around oceanic islands. Depth range 1–20 m.",
     "biotope": "Reef"
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 27 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 24,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
     "kH": null,
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-
-  "adultSizeCm": { "min": 15, "max": 18 },
+  "adultSizeCm": {
+    "min": 15,
+    "max": 18
+  },
   "lifespanYears": null,
-
   "tank": {
     "minVolumeLiters": 420,
     "minLengthCm": null,
     "swimZone": "all",
-    "decorPreferences": ["live rock", "caves", "overhangs", "hiding places"]
+    "decorPreferences": [
+      "live rock",
+      "caves",
+      "overhangs",
+      "hiding places"
+    ]
   },
-
   "careLevel": "advanced",
-
   "diet": {
     "type": "omnivore",
     "notes": "Has been documented eating sponges, tunicates, and filamentous algae in the wild. In captivity, tends to accept mysis shrimp, krill, raw shrimp, squid, clam, and mussel alongside spirulina-based herbivore preparations and sponge-fortified angelfish formulas. Generally advised to offer varied meals two to three times daily; newly acquired specimens have been known to initially refuse food and may require patient conditioning."
   },
-
   "compatibility": {
     "temperament": "semi-aggressive",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["larger peaceful fish", "non-angelfish reef fish", "tangs", "wrasses"],
-    "avoidWith": ["other angelfishes", "small ornamental shrimp", "clams", "stony corals", "soft corals", "tubeworms"]
+    "goodWith": [
+      "larger peaceful fish",
+      "non-angelfish reef fish",
+      "tangs",
+      "wrasses"
+    ],
+    "avoidWith": [
+      "other angelfishes",
+      "small ornamental shrimp",
+      "clams",
+      "stony corals",
+      "soft corals",
+      "tubeworms"
+    ]
   },
-
   "media": {
     "primaryImage": null,
     "gallery": [],
     "imageCandidates": null
   },
-
   "summary": "A striking Indo-Pacific angelfish with bold white and black patterning; generally considered an advanced-level fish that tends to be shy during acclimation and has been known to nip at corals and clam mantles.",
-
   "careNotes": "The Singapore Angelfish is generally considered a challenging species, particularly during initial introduction. Newly acquired individuals have been known to hide and refuse food for extended periods; a well-established aquarium with quiet tank mates, ample live rock for grazing, and numerous hiding places tends to improve acclimation outcomes. Generally advised to keep singly, as conspecific and congeneric aggression is common. Has been documented eating sponges and tunicates in the wild, so sponge-enriched angelfish preparations are broadly recommended. This species is hermaphroditic with no reliable external sex differences. Susceptible to Marine Ich when stressed.\n\nMinimum tank size disagreement across sources: LiveAquaria states 120 gal (454 L), BlueZoo Aquatics states 55 gal (208 L), and ReefApp states 158 gal (600 L). The spread exceeds 2× (208–600 L), so the averaged value of ~420 L is used but flagged for reviewer verification. The 55-gal figure from BlueZoo appears inconsistent with the species' active swimming behavior and adult size.\n\nTemperature cross-check: LiveAquaria gives 72–78°F (22–26°C, aquarium recommendation); FishBase wild data gives 25.5–29°C. Averaged to 24–27°C to reflect both captive guidance and wild conditions.",
-
   "breedingNotes": "Breeding in captivity is considered extremely difficult and has not been reliably documented. The species is believed to be hermaphroditic with sex-change capability, but no visual sexual dimorphism has been confirmed. Captive spawning attempts are rarely reported.",
-
   "sources": {
     "primary": {
       "name": "LiveAquaria",
@@ -94,13 +121,15 @@
       }
     ]
   },
-
   "fish": {
     "breedingDifficulty": "not in captivity",
     "breedingNotes": "Breeding in captivity is considered extremely difficult and has not been reliably documented. The species is believed to be hermaphroditic with sex-change capability.",
     "conspecificAggression": "high",
     "finNippy": false,
-    "reefSafe": "with caution"
+    "reefSafe": "with caution",
+    "escapeRisk": null,
+    "venomousSpines": null,
+    "protogynous": null
   },
   "crustacean": null,
   "coral": null,
@@ -109,7 +138,6 @@
   "other-invert": null,
   "plant": null,
   "macroalgae": null,
-
   "schemaVersion": 1,
   "dataStatus": "needs_review",
   "lastReviewed": "2026-05-25"

@@ -21,22 +21,44 @@
     "order": "Orectolobiformes"
   },
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Western Pacific"],
-    "countries": ["India", "Philippines", "Japan", "Australia", "Indonesia", "Thailand"],
+    "regions": [
+      "Indo-Pacific",
+      "Western Pacific"
+    ],
+    "countries": [
+      "India",
+      "Philippines",
+      "Japan",
+      "Australia",
+      "Indonesia",
+      "Thailand"
+    ],
     "habitat": "Inshore reef-associated benthic environments; commonly found on coral reefs and in tide pools at depths from 0 to 85 meters.",
     "biotope": "Reef"
   },
   "waterParameters": {
-    "temperatureC": { "min": 23.0, "max": 27.1 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 23,
+      "max": 27.1
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
     "kH": null,
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 60.0, "max": 113.0 },
+  "adultSizeCm": {
+    "min": 60,
+    "max": 113
+  },
   "lifespanYears": null,
   "tank": {
-    "minVolumeLiters": 896.0,
+    "minVolumeLiters": 896,
     "minLengthCm": null,
     "swimZone": "bottom",
     "decorPreferences": [
@@ -115,7 +137,10 @@
     "breedingNotes": "Oviparous; egg cases have been sold in the trade and hatched in aquaria. True captive breeding in home tanks is rarely if ever reported; breeding is considered not practical for home aquarists.",
     "conspecificAggression": "moderate",
     "finNippy": false,
-    "reefSafe": "no"
+    "reefSafe": "no",
+    "escapeRisk": null,
+    "venomousSpines": null,
+    "protogynous": null
   },
   "crustacean": null,
   "coral": null,
