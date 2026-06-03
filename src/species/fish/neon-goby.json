@@ -5,75 +5,90 @@
   "taxon": "fish",
   "waterType": "saltwater",
   "commonName": "Neon Goby",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "scientificName": "Elacatinus oceanops",
+  "alsoKnownAs": ["Neon Blue Goby"],
   "category": "Goby",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Gobiidae",
+    "order": "Gobiiformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null
+    "regions": ["Western Central Atlantic", "Caribbean"],
+    "countries": ["United States", "Mexico", "Belize"],
+    "habitat": "Marine reef-associated; coral heads on shallow tropical reefs.",
+    "biotope": "Tropical western Atlantic coral reefs, typically at 1-40 m depth."
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
+    "temperatureC": { "min": 22, "max": 27 },
+    "pH": { "min": 8.1, "max": 8.4 },
     "gH": null,
     "kH": null,
-    "salinity": null
+    "salinity": { "min": 1.020, "max": 1.025 }
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 4, "max": 5 },
+  "lifespanYears": { "min": 1, "max": 2 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": []
+    "minVolumeLiters": 75,
+    "minLengthCm": 60,
+    "swimZone": "all",
+    "decorPreferences": ["live rock", "coral heads", "crevices", "small caves"]
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "beginner",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Accepts a wide range of prepared and frozen foods; generally takes frozen mysis and brine shrimp readily, along with pellets and frozen carnivore preparations. Wild fish supplement their diet by picking ectoparasites from larger reef fish."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "peaceful",
+    "grouping": "pair",
+    "minGroupSize": 1,
+    "goodWith": ["peaceful reef fish", "dwarf angels", "small wrasses", "clownfish", "corals", "ornamental shrimp"],
+    "avoidWith": ["conspecifics other than a mated pair", "large predatory fish", "aggressive dottybacks", "lionfish"]
   },
   "media": {
     "primaryImage": "neon_goby.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Neon Goby.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "Small western-Atlantic cleaner goby that picks parasites off larger reef fish. Generally considered reef-safe and beginner-friendly; tends to do well singly or as a mated pair.",
+  "careNotes": "Often marketed as both 'Neon Goby' and 'Neon Blue Goby' (Elacatinus oceanops). Recognised by an iridescent blue stripe running along a near-black body, it is one of the classic Caribbean cleaner gobies and has been documented servicing groupers, snappers, and other reef fish. Generally hardy and reef-safe; reported to ignore corals and ornamental invertebrates. Best kept singly or as a bonded pair, as conspecifics tend to fight unless paired. Captive spawning has been reported, with eggs laid in crevices or empty shells. Has been reported to live around 1-2 years, which is short by aquarium standards; longer captive lifespans (up to ~3 years) have occasionally been noted. Cross-source check: LiveAquaria gives a 10-gallon (~38 L) minimum which is widely echoed by hobby sources, but the project's tank-size convention rounds up to a nicer, more long-term value (75 L) — comfortably accommodates a pair plus rockwork on a small reef setup.",
+  "breedingNotes": "Has been bred in home aquariums. Forms monogamous pairs and tends to spawn on the underside of overhangs, in crevices, or inside empty shells. Male typically guards the eggs.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/neon-goby",
+      "accessedDate": "2026-06-03",
+      "notes": "Primary husbandry source: tank size, water parameters, temperament, diet, reef-safe status."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Elacatinus-oceanops.html",
+        "accessedDate": "2026-06-03",
+        "notes": "Cross-checked scientific name, taxonomy, native range, maximum length (5.0 cm TL), preferred temperature range (24.5-28°C, observed 21-28°C), monogamous mating, cleaner-fish ecology. Used to average the temperature range with LiveAquaria's 22.2-25.6°C."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
-    "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "protogynous": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
-    "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null
+    "breedingDifficulty": "moderate",
+    "breedingNotes": "Forms monogamous pairs; spawns in crevices or shells. Larvae rearing is the main hurdle.",
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "yes",
+    "escapeRisk": "moderate",
+    "venomousSpines": false,
+    "protogynous": false,
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": true,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy"
   },
   "crustacean": null,
   "coral": null,
@@ -83,6 +98,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-03"
 }

@@ -1,0 +1,109 @@
+{
+  "id": "sw-fish-369",
+  "slug": "ocellate-damselfish",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Ocellate Damselfish",
+  "scientificName": "Pomacentrus vaiuli",
+  "alsoKnownAs": ["Princess Damselfish", "Princess Damsel", "Ocellate Damsel"],
+  "category": "Damsel",
+  "taxonomy": {
+    "family": "Pomacentridae",
+    "order": "Ovalentaria incertae sedis"
+  },
+  "nativeRange": {
+    "regions": ["Indo-Pacific", "Western Pacific", "Coral Triangle"],
+    "countries": ["Indonesia", "Fiji", "Samoa", "New Caledonia", "Japan", "Australia"],
+    "habitat": "Mixed coral and rubble areas of lagoon and seaward reefs, from the lower surge zone down to roughly 40-45 m.",
+    "biotope": "Tropical coral reef with abundant live rock, branching corals, and cover, typically encountered as solitary individuals."
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 22, "max": 27 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.020, "max": 1.025 }
+  },
+  "adultSizeCm": { "min": 7.5, "max": 10 },
+  "lifespanYears": null,
+  "tank": {
+    "minVolumeLiters": 150,
+    "minLengthCm": 90,
+    "swimZone": "mid",
+    "decorPreferences": ["live rock", "branching coral", "caves and crevices", "open swimming space"]
+  },
+  "careLevel": "beginner",
+  "diet": {
+    "type": "omnivore",
+    "notes": "In the wild, has been documented feeding on filamentous algae and small invertebrates. In captivity, generally accepts a varied diet of marine flakes and pellets, frozen mysis and brine shrimp, chopped meaty seafoods, and dried marine algae or seaweed sheets."
+  },
+  "compatibility": {
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["larger semi-aggressive reef fish", "tangs", "wrasses", "angelfishes", "corals", "most reef invertebrates"],
+    "avoidWith": ["other damselfish in small tanks", "very small or timid fish", "conspecifics in modest reef tanks", "newly added tankmates after the damsel is established"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "Small Indo-Pacific damselfish with a blue body fading to yellow/orange and a black ocellus on the dorsal fin. Generally peaceful as a juvenile and tends to become territorial with age, but stays reef-safe and is one of the hardier marine fish for beginners.",
+  "careNotes": "Has been reported as easy to keep and reef-safe; generally peaceful as a juvenile but tends to become semi-aggressive or territorial toward other damselfish and similarly sized fish as it matures. Best kept singly in modest reef setups; aggression is more manageable in larger tanks with plenty of live rock and broken sightlines. Adults are commonly reported around 7.5-10 cm (FishBase max ~10 cm FL; LiveAquaria/AquariumDomain ~3-3.5 in). LiveAquaria and AquariumDomain quote a 30 US gallon minimum (~114 L), while general aquarium-keeper guidance suggests 55+ US gal (~208 L) is more comfortable for adult specimens, especially alongside peaceful tankmates — a 150 L tank is a reasonable middle ground that respects the species' adult territoriality. Provide abundant live rock with caves and branching coral for shelter, plus open mid-water space; moderate to strong flow is appreciated. Generally accepts prepared foods readily, including marine flakes, pellets, frozen mysis/brine shrimp and dried marine algae. Wild populations comprise several color forms (geographic variants), so coloration can vary somewhat between specimens.",
+  "breedingNotes": "Oviparous with distinct pairing during breeding. Eggs are demersal and adhere to the substrate; males have been reported to guard and aerate the eggs. Captive breeding is not commonly documented for this species.",
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/ocellate-damselfish",
+      "accessedDate": "2026-06-03",
+      "notes": "Care level Easy, temperament Aggressive (matures into semi-aggressive/territorial), reef-safe, water parameters (pH 8.1-8.4, dKH 8-12, SG 1.020-1.025, 72-78 F), 30 US gal minimum, max 3.5 in, omnivore, native range stated as Fiji. Browsed via product page reached from /collections/damselfish."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Pomacentrus-vaiuli.html",
+        "accessedDate": "2026-06-03",
+        "notes": "Confirmed taxonomy (Pomacentridae), max length 10.0 cm FL, depth 0-45 m, Pacific Ocean distribution (Moluccas to Samoa, Izu Islands to Rowley Shoals and New Caledonia), water temperature 25.4-28.9 C, omnivorous (algae + small invertebrates), oviparous with male egg-guarding, IUCN Least Concern."
+      },
+      {
+        "name": "AquariumDomain (Princess Damselfish profile)",
+        "url": "https://www.aquariumdomain.com/SpeciesProfiles/MarineFish/PrincessDamselfish.shtml",
+        "accessedDate": "2026-06-03",
+        "notes": "Cross-checked size (~3 in), temperament (peaceful as juvenile, semi-aggressive with age), reef-safe, 30 gal minimum but better with more room, water parameters (72-80 F, pH 8.1-8.4, dKH 8-12, SG 1.020-1.025), prefers moderate to strong flow with abundant live rock."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "advanced",
+    "breedingNotes": "Pairs form during breeding and spawn demersal eggs that adhere to the substrate; males have been reported to guard and aerate the clutch. Larval rearing is not commonly documented for hobbyists.",
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "yes",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "protogynous": false,
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy"
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-03"
+}
