@@ -1,0 +1,119 @@
+{
+  "id": "sw-fish-540",
+  "slug": "red-striped-goby",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Red Striped Goby",
+  "scientificName": "Trimma cana",
+  "alsoKnownAs": ["Candy-Cane Pygmy Goby"],
+  "category": "Gobies",
+
+  "taxonomy": {
+    "family": "Gobiidae",
+    "order": "Gobiiformes"
+  },
+
+  "nativeRange": {
+    "regions": ["Western Pacific"],
+    "countries": ["Philippines", "Federated States of Micronesia", "Fiji", "Marshall Islands", "Palau"],
+    "habitat": "Steep outer reef slopes at depths of roughly 12–35 m; found on or near the surface of hard corals.",
+    "biotope": "Reef"
+  },
+
+  "waterParameters": {
+    "temperatureC": { "min": 24.0, "max": 27.5 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": null,
+    "salinity": { "min": 1.020, "max": 1.025 }
+  },
+
+  "adultSizeCm": { "min": 1.5, "max": 2.5 },
+  "lifespanYears": null,
+
+  "tank": {
+    "minVolumeLiters": 75,
+    "minLengthCm": null,
+    "swimZone": "bottom",
+    "decorPreferences": ["live rock", "coral rubble", "rock caves", "branching coral"]
+  },
+
+  "careLevel": "beginner",
+
+  "diet": {
+    "type": "carnivore",
+    "notes": "Tends to accept a variety of frozen and prepared meaty foods including brine shrimp, mysis shrimp, and finely chopped fresh seafood. Feeding twice daily has been recommended; live rock may serve as a supplemental foraging source."
+  },
+
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "shoaling",
+    "minGroupSize": 2,
+    "goodWith": ["small reef fish", "corals", "invertebrates", "nano reef inhabitants", "small dartfish", "small blennies"],
+    "avoidWith": ["large aggressive fish", "aggressive predatory fish", "large fish that may consume them"]
+  },
+
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+
+  "summary": "A tiny reef goby reaching roughly 2.5 cm, featuring an elongated body with distinctive red vertical stripes and gold-rimmed eyes. Generally considered suitable for nano reef aquariums; tends to do well in small groups introduced simultaneously.",
+
+  "careNotes": "Trimma cana is one of the smallest gobies available in the hobby, commonly sold at under 2.5 cm. Its elongated, nearly translucent body is patterned with bold red vertical bars and large gold-rimmed eyes. The species has been observed living solitary or in small groups on hard coral surfaces in the wild. In captivity it has been kept in small groups or pairs when multiple specimens are introduced simultaneously; conspecific aggression tends to be low in adequately sized tanks with sufficient rockwork. Like most small gobies, it is considered an escape risk and a tightly sealed aquarium lid is advisable. LiveAquaria recommends a minimum of 10 gallons (approximately 38 L); however, 75 L is used here as the practical minimum to support a stable saltwater reef environment. Temperature data disagreement: LiveAquaria recommends 72–78°F (22.2–25.6°C), while FishBase reports wild habitat temperatures of 26.3–29°C. The averaged range of 24–27.5°C is used here; a reviewer should confirm the appropriate captive temperature range. The species is generally considered reef-safe.",
+
+  "breedingNotes": null,
+
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/red-striped-goby",
+      "accessedDate": "2026-06-03",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Trimma-cana.html",
+        "accessedDate": "2026-06-03",
+        "notes": "Used for scientific name confirmation, distribution (Philippines, Caroline Is., Fiji, Marshall Is., Palau), taxonomy (Gobiidae / Gobiiformes), max size (2.5 cm SL), and wild temperature range (26.3–29°C). Wild temperature range differs from LiveAquaria recommendation (22.2–25.6°C); averaged range used and dataStatus set to needs_review."
+      }
+    ]
+  },
+
+  "fish": {
+    "breedingDifficulty": null,
+    "breedingNotes": null,
+    "conspecificAggression": "low",
+    "finNippy": false,
+    "reefSafe": "yes",
+    "escapeRisk": "high",
+    "venomousSpines": false,
+    "protogynous": null,
+    "haremic": null,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy"
+  },
+
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+
+  "schemaVersion": 1,
+  "dataStatus": "needs_review",
+  "lastReviewed": "2026-06-03"
+}

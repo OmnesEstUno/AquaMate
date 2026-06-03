@@ -1,0 +1,147 @@
+{
+  "id": "sw-fish-544",
+  "slug": "ruby-red-dragonet",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Ruby Red Dragonet",
+  "scientificName": "Synchiropus sycorax",
+  "alsoKnownAs": [
+    "Ruby Dragonet",
+    "Ruby Scooter Dragonet"
+  ],
+  "category": "Dragonet",
+  "taxonomy": {
+    "family": "Callionymidae",
+    "order": "Callionymiformes"
+  },
+  "nativeRange": {
+    "regions": [
+      "Western Pacific"
+    ],
+    "countries": [
+      "Philippines"
+    ],
+    "habitat": "Broken coral rubble interspersed with outcrops of soft and stony corals; benthopelagic; depth 20–38 m",
+    "biotope": "Reef"
+  },
+  "waterParameters": {
+    "temperatureC": {
+      "min": 22,
+      "max": 26
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.020,
+      "max": 1.025
+    }
+  },
+  "adultSizeCm": {
+    "min": 2.0,
+    "max": 6.0
+  },
+  "lifespanYears": null,
+  "tank": {
+    "minVolumeLiters": 200,
+    "minLengthCm": null,
+    "swimZone": "bottom",
+    "decorPreferences": [
+      "live rock",
+      "rubble",
+      "sand substrate",
+      "refugium with copepod culture"
+    ]
+  },
+  "careLevel": "advanced",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Feeds primarily on live copepods, amphipods, and other small benthic invertebrates in the wild. In captivity may accept baby brine shrimp, frozen bloodworms, glassworms, and frozen Mysis; however many specimens initially refuse prepared foods and require a dense live copepod population in the display tank. A connected refugium is strongly recommended. Tank should be well-established before introduction."
+  },
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "pair",
+    "minGroupSize": 1,
+    "goodWith": [
+      "Firefish",
+      "Clownfish",
+      "Royal Gramma",
+      "small gobies",
+      "Reef-safe wrasses",
+      "most peaceful reef invertebrates"
+    ],
+    "avoidWith": [
+      "other male dragonets (conspecific males will fight)",
+      "fast-moving competitive feeders (damsels, aggressive gobies, dottybacks)",
+      "large predatory fish"
+    ]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A vivid, tiny reef dragonet from the Philippines with a bright red body and yellow belly; generally considered reef-safe and peaceful, but tends to require a mature tank with a thriving copepod population.",
+  "careNotes": "The Ruby Red Dragonet (Synchiropus sycorax) is a small Callionymidae dragonet described in 2016, reaching roughly 4 cm SL in males (females smaller at ~2.7 cm SL). It has been reported to accept a wider range of prepared foods than the Green Mandarin (Synchiropus splendidus), though many newly acquired specimens initially refuse frozen foods and need live copepods and amphipods to sustain them. A refugium producing a continuous supply of pods is generally advised for long-term success.\n\nOnly one male should be kept per display; males are territorial toward conspecifics. A single male can be housed with one or more females. Multiple females may be introduced simultaneously if the tank is large enough to support them all.\n\nThis species has been documented as a jumper — a tightly secured, escape-proof lid is strongly recommended. The Reef2Reef community noted jumping behavior explicitly.\n\nLike other scaleless dragonets in Callionymidae, this species is considered highly sensitive to copper-based medications and should never be treated with copper.\n\nTank size rationale: LiveAquaria lists a 30-gallon (113 L) minimum, which is likely a retailer-conservative entry-level figure. A 55-gallon equivalent (~200 L) is used here to better support the live pod population needed for sustainable long-term feeding.\n\nSize cross-source note: FishBase records males at 4.0 cm SL / females at 2.7 cm SL; LiveAquaria states 3 inches (7.6 cm TL) maximum. SL vs. TL conversion accounts for some of this gap; average across sources gives roughly 5–6 cm TL for males. Range of 2–6 cm used to span female to full male adult size.\n\nTemperature cross-source note: LiveAquaria states 72–78°F (22.2–25.6°C); general tropical Callionymidae parameters suggest 24–27°C. Range of 22–26°C adopted as a conservative averaged range.\n\nAlso sometimes sold as 'Ruby Scooter Dragonet' or 'Ruby Dragonet' in the trade.",
+  "breedingNotes": null,
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/collections/dragonets",
+      "accessedDate": "2026-06-03",
+      "notes": "Product collection page confirmed care level (difficult), temperament (peaceful), reef-compatible, diet (brine shrimp, bloodworms, glassworms, small invertebrates), pH (8.1–8.4), salinity (1.020–1.025), dKH (8–12), temperature (72–78°F), adult size (3 inches), minimum tank (30 gal). Individual product page returned 404; collection page plus product data from Shopify JSON used."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Synchiropus-sycorax.html",
+        "accessedDate": "2026-06-03",
+        "notes": "Confirmed taxonomy (Callionymidae / Callionymiformes), maximum size 4.0 cm SL males / 2.7 cm SL females, native range (Western Pacific: Philippines), habitat (broken coral rubble, soft and stony corals, 20–38 m depth), trophic level 3.2 (carnivore), IUCN Data Deficient status. Cross-verified adult size and native range with LiveAquaria."
+      },
+      {
+        "name": "Reef2Reef",
+        "url": "https://www.reef2reef.com/threads/ruby-red-dragonet-synchiropus-sycorax-jumpers.450313/",
+        "accessedDate": "2026-06-03",
+        "notes": "Thread title explicitly references 'jumpers' — confirmed high escape risk for Synchiropus sycorax. Full thread content returned 403; jump behavior documented from thread title and cross-referenced with general Callionymidae husbandry knowledge."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "advanced",
+    "breedingNotes": null,
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "yes",
+    "escapeRisk": "high",
+    "venomousSpines": null,
+    "protogynous": null,
+    "haremic": null,
+    "caudalScalpel": null,
+    "nocturnal": null,
+    "juvenileColorPhase": null,
+    "copperSensitive": true,
+    "speciesOnlyTankRecommended": null,
+    "requiresHitchingPost": null,
+    "monogamousPairing": null,
+    "hlleSusceptible": null,
+    "toxicToTank": null,
+    "feedingDifficulty": "difficult"
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-03"
+}

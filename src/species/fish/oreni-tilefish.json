@@ -1,0 +1,109 @@
+{
+  "id": "sw-fish-525",
+  "slug": "oreni-tilefish",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Oreni Tilefish",
+  "scientificName": "Hoplolatilus oreni",
+  "alsoKnownAs": [],
+  "category": "Tilefish",
+  "taxonomy": {
+    "family": "Malacanthidae",
+    "order": "Perciformes"
+  },
+  "nativeRange": {
+    "regions": ["Western Indian Ocean", "Red Sea"],
+    "countries": ["Kenya", "Ethiopia"],
+    "habitat": "Demersal; found on sandy or rubble-strewn substrates near reefs, where it excavates burrows",
+    "biotope": "Reef"
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 22.2, "max": 25.6 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": null,
+    "salinity": { "min": 1.020, "max": 1.025 }
+  },
+  "adultSizeCm": { "min": 12.0, "max": 20.3 },
+  "lifespanYears": null,
+  "tank": {
+    "minVolumeLiters": 200,
+    "minLengthCm": 120,
+    "swimZone": "bottom",
+    "decorPreferences": ["deep sand bed", "open sandy areas", "live rock", "rubble zones"]
+  },
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Generally accepts a variety of meaty foods including marine flesh, crustacean flesh, and frozen Mysis shrimp; feeding two to three times per day is commonly advised."
+  },
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "pair",
+    "minGroupSize": 1,
+    "goodWith": ["peaceful reef fish", "small gobies", "dartfish", "basslets", "clownfish"],
+    "avoidWith": ["aggressive fish", "large predatory fish that may consume it"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "An exceptionally rare and highly sought-after tilefish from the Western Indian Ocean that tends to excavate burrows in sandy substrate; generally considered peaceful and reef-compatible, making it a prized specimen for experienced marine aquarists.",
+  "careNotes": "Hoplolatilus oreni is regarded as one of the rarest and most desirable tilefish available in the aquarium trade, sometimes described as the 'Holy Grail' of tilefish keeping. It has been reported to live close to the bottom of the aquarium and tends to create burrows or mounds in which it retreats when threatened — a deep sand bed (at least 7–10 cm) is strongly advisable. Unlike many tilefish, this species has been noted to display considerably more personality and is reportedly less shy or skittish than related species. A tight-fitting aquarium cover is strongly recommended, as the species has been documented to be an active fish capable of escaping open tanks. Specimens offered in the aquarium trade are commonly sourced from Kenya; the original scientific holotype was described from Massawa, Ethiopia (Red Sea), suggesting a broader range in the Western Indian Ocean than retail sources indicate. Due to extreme rarity, very limited captive husbandry data exists; care parameters are extrapolated primarily from close relatives in genus Hoplolatilus.",
+  "breedingNotes": null,
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/product/8014/?pcatid=8014",
+      "accessedDate": "2026-06-03",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "LiveAquaria",
+        "url": "https://www.liveaquaria.com/products/oreni-tilefish",
+        "accessedDate": "2026-06-03",
+        "notes": "Confirmed same data as primary URL; consistent on size (8 in), temperature (72–78°F), pH (8.1–8.4), SG (1.020–1.025), tank size (50 gal), care level (moderate), and reef compatibility."
+      },
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Hoplolatilus-oreni.html",
+        "accessedDate": "2026-06-03",
+        "notes": "Cross-checked taxonomy (family Malacanthidae), adult size (14.1 cm SL vs LiveAquaria 8 in / 20.3 cm TL — measurements are different standards, not a true conflict), and native range. FishBase holotype locality is Massawa, Ethiopia (Red Sea), differing from LiveAquaria's Kenya sourcing; both noted in nativeRange. Reef2Reef returned HTTP 403; BlueZoo had no species-specific page; TFH Magazine returned HTTP 404 — FishBase used as sole secondary."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": null,
+    "conspecificAggression": "low",
+    "finNippy": false,
+    "reefSafe": "yes",
+    "escapeRisk": "high",
+    "venomousSpines": false,
+    "protogynous": null,
+    "haremic": null,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": null,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "moderate"
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "needs_review",
+  "lastReviewed": "2026-06-03"
+}

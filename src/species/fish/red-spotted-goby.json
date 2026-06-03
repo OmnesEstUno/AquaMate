@@ -1,0 +1,107 @@
+{
+  "id": "sw-fish-538",
+  "slug": "red-spotted-goby",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Red Spotted Goby",
+  "scientificName": "Trimma rubromaculatum",
+  "alsoKnownAs": [
+    "Red-spotted Pygmygoby",
+    "Red-blotched Pygmy Goby",
+    "Red-spotted Dwarfgoby"
+  ],
+  "category": "Goby",
+  "taxonomy": {
+    "family": "Gobiidae",
+    "order": "Gobiiformes"
+  },
+  "nativeRange": {
+    "regions": ["Western Pacific"],
+    "countries": [],
+    "habitat": "Reef-associated; inhabits rubble slopes at the base of vertical cliffs at depths of approximately 22–50 m",
+    "biotope": "Reef"
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 27.7, "max": 28.5 },
+    "pH": { "min": 8.1, "max": 8.3 },
+    "gH": null,
+    "kH": null,
+    "salinity": { "min": 1.023, "max": 1.026 }
+  },
+  "adultSizeCm": { "min": 2.5, "max": 3.5 },
+  "lifespanYears": null,
+  "tank": {
+    "minVolumeLiters": 75,
+    "minLengthCm": 45,
+    "swimZone": "bottom",
+    "decorPreferences": ["live rock", "rubble", "sand substrate", "caves and crevices"]
+  },
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Expected to feed on small benthic invertebrates and zooplankton, consistent with other benthic Trimma gobies. Has been known to accept small frozen foods such as copepods, Mysis shrimp, and enriched brine shrimp in captivity, though targeted feeding may be needed."
+  },
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "pair",
+    "minGroupSize": 1,
+    "goodWith": ["small peaceful reef fish", "soft corals", "LPS corals", "small invertebrates", "nano reef inhabitants"],
+    "avoidWith": ["large aggressive fish", "predatory fish that consume small gobies"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A tiny, vividly marked pygmy goby from the Western Pacific, generally considered suitable for nano and species-oriented reef aquariums. Tends to hover close to the substrate near rubble and rock, displaying striking red spots across its body.",
+  "careNotes": "Trimma rubromaculatum is a rarely encountered species in the aquarium trade, described by Allen and Munday (1995) from the Western Pacific. FishBase records it at depths of 22–50 m, inhabiting rubble slopes at the base of vertical cliffs where it typically hovers vertically or obliquely a few centimetres above the substrate. Maximum recorded size is 3.5 cm SL. Wild temperature range per FishBase is 27.7–28.5°C (mean 28.2°C). No aquarium-specific care pages were located during research (LiveAquaria, Reef2Reef wiki, BlueZoo Aquatics, FishkeepingWorld, and TFH Magazine either did not list the species or returned access errors). Water parameters (pH, salinity) and husbandry guidance are extrapolated from general reef goby care and the closely related Trimma okinawae. A tightly fitting lid is strongly advised, as gobies — including Trimma species — have been known to jump. Feeding difficulty may be moderate; small live or frozen copepods and Mysis shrimp are a reasonable starting point. The relatively deep natural habitat (22–50 m) suggests this species may prefer dimmer lighting and stable water conditions. IUCN status is Least Concern (assessed August 2020). Single-source data warning: only FishBase provided confirmed biological data; all other sources were inaccessible or did not carry this species.",
+  "breedingNotes": null,
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/collections/gobies",
+      "accessedDate": "2026-06-03",
+      "notes": "Species not listed across all goby collection pages. Gobies collection browsed across multiple pages; Trimma rubromaculatum not found. LiveAquaria effectively could not serve as primary source for this species."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://fishbase.se/summary/Trimma-rubromaculatum.html",
+        "accessedDate": "2026-06-03",
+        "notes": "Primary data source used. Confirmed: scientific name, family (Gobiidae), order (Gobiiformes), max size (3.5 cm SL), temperature range (27.7–28.5°C), depth range (22–50 m), Western Pacific distribution, reef-associated rubble habitat, IUCN Least Concern. Swapped to de facto primary since LiveAquaria did not carry this species. pH and salinity values extrapolated from standard reef parameters and Trimma okinawae comparison."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": null,
+    "breedingNotes": null,
+    "conspecificAggression": "low",
+    "finNippy": false,
+    "reefSafe": "yes",
+    "escapeRisk": "high",
+    "venomousSpines": false,
+    "protogynous": null,
+    "haremic": null,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": null,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "moderate"
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "needs_review",
+  "lastReviewed": "2026-06-03"
+}

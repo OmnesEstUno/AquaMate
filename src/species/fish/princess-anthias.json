@@ -1,0 +1,109 @@
+{
+  "id": "sw-fish-529",
+  "slug": "princess-anthias",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Princess Anthias",
+  "scientificName": "Pseudanthias smithvanizi",
+  "alsoKnownAs": ["Smith-Vaniz's Anthias", "Pyronotanthias smithvanizi"],
+  "category": "Anthias",
+  "taxonomy": {
+    "family": "Anthiadidae",
+    "order": "Perciformes"
+  },
+  "nativeRange": {
+    "regions": ["Indo-Pacific", "Micronesia"],
+    "countries": ["Australia", "Japan", "Palau", "Marshall Islands"],
+    "habitat": "Steep outer reef slopes and drop-offs, typically at depths of 6–110 m; often found in large aggregations near dramatic reef structures",
+    "biotope": "Reef"
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 22, "max": 26 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": null,
+    "salinity": { "min": 1.020, "max": 1.025 }
+  },
+  "adultSizeCm": { "min": 7, "max": 9.5 },
+  "lifespanYears": null,
+  "tank": {
+    "minVolumeLiters": 300,
+    "minLengthCm": 150,
+    "swimZone": "mid",
+    "decorPreferences": ["live rock", "caves", "overhangs", "open swimming space"]
+  },
+  "careLevel": "advanced",
+  "diet": {
+    "type": "planktivore",
+    "notes": "Primarily accepts frozen mysis shrimp and enriched frozen brine shrimp; has been documented taking high-quality flake foods in small quantities. Benefits from multiple small feedings daily to meet its high metabolic needs. A refugium producing copepods and amphipods is generally advised as a supplemental food source."
+  },
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "shoaling",
+    "minGroupSize": 3,
+    "goodWith": ["peaceful reef fish", "other small anthias", "clownfish", "gobies", "wrasses", "cardinalfish"],
+    "avoidWith": ["aggressive territorial fish", "large predators", "fish that compete aggressively for food"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A small, vividly colored anthias from Indo-Pacific reef drop-offs, generally considered reef-safe and peaceful. Tends to do best in small groups with one dominant male; care is regarded as advanced due to sensitive acclimation and high feeding frequency requirements.",
+  "careNotes": "Princess Anthias is a deepwater-collected species (found at depths up to 110 m) that tends to be sensitive to shipping stress and may take time to acclimate to captive conditions. It is generally advised to introduce this species before more active or territorial fish to minimize stress. Initially prefers low to moderate lighting; aquarists have noted it adapts to stronger lighting over time. Multiple small feedings per day are typically recommended to maintain body weight. A tank with an established refugium providing copepods and amphipods has been reported to improve long-term health. Aquascape with ample live rock to create caves, crevices, and overhangs, while preserving open water for swimming. The species is a protogynous hermaphrodite: the dominant individual in a group is typically male, and if the male is lost, the largest female has been observed transitioning to male. Should be kept in small groups (minimum 3, ideally 5+) with one male and multiple females; keeping multiple males together tends to result in aggression. Commonly sold under the name Pseudanthias smithvanizi; FishBase currently places this species in family Anthiadidae (separated from Serranidae in recent revisions), though many hobby sources still list Serranidae. Escape risk is considered moderate — a tight-fitting lid is generally advised.",
+  "breedingNotes": "Spawning in captivity has been rarely documented. The species is a protogynous hermaphrodite forming harems with one dominant male and multiple females. No reliable captive breeding protocol is known in the hobby.",
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/princess-anthias",
+      "accessedDate": "2026-06-03",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "BlueZoo Aquatics",
+        "url": "https://www.bluezooaquatics.com/productDetail.asp?did=1&pid=327&cid=10",
+        "accessedDate": "2026-06-03",
+        "notes": "Cross-checked adult size (4 in vs LiveAquaria 3.5 in), tank size (70 gal — agreement), temperament (peaceful — agreement), native range (Indo-Pacific, Marshall Islands, Palau — agreement). Adult size averaged across sources."
+      },
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Pseudanthias-smithvanizi.html",
+        "accessedDate": "2026-06-03",
+        "notes": "Confirmed scientific name (also listed as Pyronotanthias smithvanizi under some reclassifications), max length 9.5 cm TL, temperature range 22–27°C, native range from Cocos-Keeling Islands to Japan and south to Great Barrier Reef, Palau and southern Marshall Islands. Family listed as Anthiadidae (updated from Serranidae). Reef2Reef wiki returned 403; Fishkeeping World returned 404 — FishBase used as secondary cross-source."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "No established captive breeding protocol; spawning events are rarely if ever documented in home aquariums. The species forms harems in the wild with one dominant male.",
+    "conspecificAggression": "moderate",
+    "finNippy": false,
+    "reefSafe": "yes",
+    "escapeRisk": "moderate",
+    "venomousSpines": false,
+    "protogynous": true,
+    "haremic": true,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": null,
+    "toxicToTank": false,
+    "feedingDifficulty": "moderate"
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-03"
+}

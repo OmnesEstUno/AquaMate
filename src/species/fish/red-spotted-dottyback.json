@@ -1,0 +1,109 @@
+{
+  "id": "sw-fish-537",
+  "slug": "red-spotted-dottyback",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Red Spotted Dottyback",
+  "scientificName": "Pseudochromis sp.",
+  "alsoKnownAs": ["Red Spotted Pseudochromis"],
+  "category": "Dottybacks",
+  "taxonomy": {
+    "family": "Pseudochromidae",
+    "order": "Ovalentaria"
+  },
+  "nativeRange": {
+    "regions": ["Indian Ocean"],
+    "countries": [],
+    "habitat": "Coral and rocky reefs with abundant hiding spaces",
+    "biotope": "Reef"
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 22.2, "max": 25.6 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.020, "max": 1.025 }
+  },
+  "adultSizeCm": { "min": 8.0, "max": 10.2 },
+  "lifespanYears": null,
+  "tank": {
+    "minVolumeLiters": 200,
+    "minLengthCm": null,
+    "swimZone": "bottom",
+    "decorPreferences": ["live rock", "caves", "crevices", "rubble"]
+  },
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Generally accepts meaty foods including finely chopped fresh or frozen marine fish, squid, mysis shrimp, and vitamin-enriched brine shrimp. Has been observed consuming small ornamental shrimp and bristleworms in the tank."
+  },
+  "compatibility": {
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["moderately aggressive fish of similar size or larger", "larger reef fish"],
+    "avoidWith": ["small ornamental shrimp", "other dottybacks", "very passive small fish"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "The Red Spotted Dottyback (Pseudochromis sp.) is a striking Indian Ocean reef fish with a pale body adorned with lined red spots. Generally considered suitable for intermediate keepers, it tends to be semi-aggressive and is best kept singly with moderately sized tankmates.",
+  "careNotes": "The Red Spotted Dottyback is an undescribed Pseudochromis species currently sold in the trade under the designation Pseudochromis sp. Its pale body and fins are decorated with red spots arranged in lined patterns. It is generally considered semi-aggressive and has been known to challenge tankmates; it is best paired with moderately aggressive fish larger than itself. A well-sealed lid is advisable, as dottybacks have been reported to jump. Plenty of rockwork and hiding spaces are important for this species to feel secure. It tends to be kept singly, as conspecific aggression with other dottybacks is commonly observed. It may prey on small ornamental shrimp and bristleworms. The species is generally considered reef-safe with corals and most invertebrates larger than small shrimp. Cross-verification note: the designated secondary FishBase ID 7461 maps to Pictichromis porphyrea (Magenta Dottyback), not this species. This species has not been formally described, so no FishBase species page exists. Water parameters and sizing were cross-checked against the broader Pseudochromis genus and other LiveAquaria dottyback listings for internal consistency.",
+  "breedingNotes": null,
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/collections/dottybacks/products/red-spotted-dottyback",
+      "accessedDate": "2026-06-03",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/speciessummary.php?id=7461",
+        "accessedDate": "2026-06-03",
+        "notes": "Designated secondary (FishBase ID 7461) resolves to Pictichromis porphyrea (Magenta Dottyback), not this species. Used for family/order taxonomy (Pseudochromidae, Ovalentaria) and genus-level habitat and parameter cross-reference only. No species-specific page exists for Pseudochromis sp. (Red Spotted Dottyback) as it is undescribed."
+      },
+      {
+        "name": "LiveAquaria (Bicolor Dottyback cross-ref)",
+        "url": "https://www.liveaquaria.com/collections/dottybacks/products/bicolor-dottyback",
+        "accessedDate": "2026-06-03",
+        "notes": "Cross-checked water parameters and tank-size conventions against a closely related Pseudochromis species (P. paccagnellae). Parameters 72-78°F, pH 8.1-8.4, SG 1.020-1.025, dKH 8-12 are consistent across the genus."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": null,
+    "breedingNotes": null,
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "with caution",
+    "escapeRisk": "moderate",
+    "venomousSpines": false,
+    "protogynous": null,
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy"
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-03"
+}

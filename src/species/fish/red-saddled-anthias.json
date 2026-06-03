@@ -1,0 +1,128 @@
+{
+  "id": "sw-fish-536",
+  "slug": "red-saddled-anthias",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Red Saddled Anthias",
+  "scientificName": "Pyronotanthias flavoguttatus",
+  "alsoKnownAs": [
+    "Pseudanthias flavoguttatus",
+    "Yellow-Spotted Anthias",
+    "Flavoguttatus Anthias"
+  ],
+  "category": "Anthias",
+  "taxonomy": {
+    "family": "Anthiadidae",
+    "order": "Perciformes"
+  },
+  "nativeRange": {
+    "regions": ["Indo-Pacific", "Western Pacific"],
+    "countries": ["Indonesia", "Japan", "Palau", "Marshall Islands", "Christmas Island"],
+    "habitat": "Rocky and coral reef slopes, typically at depths of 18–120 m; tends to be found deeper than many aquarium anthias",
+    "biotope": "Reef"
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 23.2, "max": 27.0 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.020, "max": 1.025 }
+  },
+  "adultSizeCm": { "min": 8.0, "max": 11.0 },
+  "lifespanYears": null,
+  "tank": {
+    "minVolumeLiters": 300,
+    "minLengthCm": 120,
+    "swimZone": "mid",
+    "decorPreferences": [
+      "live rock with caves and overhangs",
+      "open swimming space",
+      "refugium with copepods and amphipods recommended"
+    ]
+  },
+  "careLevel": "advanced",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Generally feeds on zooplankton in the wild. In captivity has been found to accept frozen mysis shrimp, enriched frozen brine shrimp, and high-quality marine flake or pellet foods. A refugium producing copepods and amphipods is commonly recommended to supplement feedings, particularly during the acclimation period."
+  },
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "shoaling",
+    "minGroupSize": 3,
+    "goodWith": [
+      "peaceful reef fish",
+      "clownfish",
+      "gobies",
+      "blennies",
+      "small wrasses",
+      "other anthias (with sufficient space)"
+    ],
+    "avoidWith": [
+      "large aggressive fish",
+      "predatory species",
+      "fish that outcompete for food at high speed"
+    ]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A deep-water shoaling anthias from the Indo-West Pacific, generally considered advanced due to acclimation sensitivity. Tends to do best kept in small groups with ample live-rock hiding places and supplemental zooplankton feeding.",
+  "careNotes": "Red Saddled Anthias tend to be collected from depths up to ~98 feet (30 m), so newly acquired specimens are often sensitive to shipping stress and commonly advised to be introduced to low-to-moderate lighting initially. Acclimation has been reported as challenging; keepers generally recommend introducing this species before more active or territorial tankmates. A refugium producing copepods and amphipods is widely suggested to ease the transition to prepared foods.\n\nThis species is a protogynous hermaphrodite: all individuals are born female, and if a dominant male is lost, the largest female in a group has been documented transitioning to male. Keeping a small shoal (generally 3+ individuals) with one male and multiple females is considered more natural and tends to reduce stress-related losses.\n\nTemperature sources show some variation: LiveAquaria recommends 72–78°F (22.2–25.6°C) while FishBase wild-capture data indicates a mean of 27.2°C with a range of 24.2–28.3°C. The values used here (23.2–27.0°C) represent an average across both sources. Keepers in cooler-running systems (24–25°C) have kept this species successfully, but the FishBase data suggests tolerance of warmer temperatures typical of tropical reefs.\n\nNote on scientific name: This species was formerly placed in genus Pseudanthias but has been reclassified to Pyronotanthias by FishBase (as of 2026). Both names appear in the aquarium trade; search under Pseudanthias flavoguttatus will still surface most husbandry resources.",
+  "breedingNotes": "Not commonly bred in captivity. Protogynous hermaphroditism means sex ratios in a group are dynamic; the dominant fish will transition to male if no male is present. Spawning in the wild involves broadcast egg release. Captive breeding attempts are not well-documented in the hobbyist literature.",
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/red-saddled-anthias",
+      "accessedDate": "2026-06-03",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "Reef2Reef wiki",
+        "url": "https://www.reef2reef.com/threads/whats-your-experience-with-red-saddled-anthias-pseudanthias-flavoguttatus.1041685/",
+        "accessedDate": "2026-06-03",
+        "notes": "Designated secondary returned HTTP 403 Forbidden; could not access. Fell back to FishBase as secondary source."
+      },
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Pseudanthias-flavoguttatus.html",
+        "accessedDate": "2026-06-03",
+        "notes": "Cross-checked adult size (10.2 cm male, 8.2 cm female), temperature range (24.2–28.3°C), native distribution, and taxonomy. FishBase lists the current accepted name as Pyronotanthias flavoguttatus. Provides wild-capture temperature data used to average against LiveAquaria's hobby recommendation."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "Not commonly bred in captivity; protogynous hermaphrodite. No established captive breeding protocol documented in hobbyist literature.",
+    "conspecificAggression": "low",
+    "finNippy": false,
+    "reefSafe": "yes",
+    "escapeRisk": "moderate",
+    "venomousSpines": false,
+    "protogynous": true,
+    "haremic": true,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "moderate"
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-03"
+}

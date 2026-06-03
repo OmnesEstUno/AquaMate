@@ -1,0 +1,114 @@
+{
+  "id": "sw-fish-533",
+  "slug": "rao-s-dart-goby",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Rao's Dart Goby",
+  "scientificName": "Parioglossus raoi",
+  "alsoKnownAs": ["Rao's Hover Goby"],
+  "category": "Goby",
+  "taxonomy": {
+    "family": "Microdesmidae",
+    "order": "Gobiiformes"
+  },
+  "nativeRange": {
+    "regions": ["Indo-West Pacific", "Arabian Gulf", "Gulf of Oman"],
+    "countries": [
+      "Andaman Islands", "Australia", "Bahrain", "Fiji", "Indonesia",
+      "Japan", "Kuwait", "Malaysia", "Micronesia", "Oman",
+      "Papua New Guinea", "Philippines", "Qatar", "Ryukyu Islands",
+      "Saudi Arabia", "Singapore", "Tonga", "United Arab Emirates"
+    ],
+    "habitat": "Shallow coastal waters including mangrove swamps, inlet waters, estuaries, and lagoons with mud, sand, or rock substrates; tends to form surface aggregations",
+    "biotope": "Estuary"
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 24.0, "max": 27.5 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": { "min": 8.0, "max": 12.0 },
+    "salinity": { "min": 1.020, "max": 1.025 }
+  },
+  "adultSizeCm": { "min": 3.0, "max": 4.0 },
+  "lifespanYears": null,
+  "tank": {
+    "minVolumeLiters": 75,
+    "minLengthCm": 60,
+    "swimZone": "top",
+    "decorPreferences": ["live rock", "caves", "crevices", "deep sand bed"]
+  },
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Generally accepts frozen mysis shrimp, brine shrimp, and other meaty marine foods. Has been reported to accept enriched live brine shrimp and glass shrimp. Color may fade if not offered a sufficiently varied and nutritious diet; target feeding twice daily is generally recommended."
+  },
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "shoaling",
+    "minGroupSize": 2,
+    "goodWith": ["other peaceful small saltwater fish", "small wrasses", "reef-safe gobies", "small blennies"],
+    "avoidWith": ["larger aggressive fish", "predatory fish", "aggressive invertebrates"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A tiny, peaceful schooling goby from the Indo-West Pacific known for hovering in small aggregations near the surface. Generally considered reef-safe and suitable for nano and small reef aquariums with a tightly sealed lid.",
+  "careNotes": "Rao's Dart Goby (also sold as Rao's Hover Goby) is a diminutive species generally reaching around 3–4 cm, making it well-suited for smaller reef setups. It has been known to jump, so a tightly fitting aquarium lid is strongly advised. Groups or pairs tend to do better than single specimens; individuals added to an established tank simultaneously have been reported to settle in more readily. A well-established aquarium with abundant live rock, caves, and crevices is generally recommended to provide shelter and supplemental food. Diet color and condition have been noted to deteriorate without a sufficiently varied, nutrition-rich menu of meaty foods.\n\nTemperature note: hobby sources generally advise 22–26°C (72–78°F), while FishBase environmental modeling records the species in 26.4–29.3°C waters in the wild. The averaged range of 24.0–27.5°C is used here; flagged for reviewer verification. This species inhabits both marine and brackish environments in the wild (mangroves, estuaries), though aquarium recommendations target normal reef salinity (SG 1.020–1.025).\n\nFamily note: LiveAquaria lists the family as Ptereleotridae; FishBase places the species in Microdesmidae (subfamily Ptereleotrinae), the current accepted taxonomy — Microdesmidae is used here.",
+  "breedingNotes": "FishBase records external fertilization with batch spawning, and males are reported to exhibit nest-guarding behavior. Captive breeding has not been widely documented in the hobby literature.",
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/product/2560/?pcatid=2560",
+      "accessedDate": "2026-06-03",
+      "notes": "Specific species product page; lists care level as Easy, min tank 10 gal, temperature 72–78°F, SG 1.020–1.025, pH 8.1–8.4, dKH 8–12."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/15881",
+        "accessedDate": "2026-06-03",
+        "notes": "Confirms scientific name, family (Microdesmidae), order (Gobiiformes), max size 3.5 cm SL, wild temperature range 26.4–29.3°C (modeled), Indo-West Pacific distribution, habitat in mangroves and coastal shallows. Temperature disagreement with hobby sources: FishBase wild range is 26.4–29.3°C vs hobby 22.2–25.6°C (72–78°F); averaged to 24.0–27.5°C."
+      },
+      {
+        "name": "Quality Marine",
+        "url": "https://www.qualitymarine.com/quality-marine/fish/gobies/parioglossus/raos-dart-goby-18641/",
+        "accessedDate": "2026-06-03",
+        "notes": "Lists care level as Moderate (vs LiveAquaria Easy); confirms same water parameters and reef-safe status. Care level averaged to intermediate. Notes jump risk and need for tight-fitting lid. Emphasizes enriched/live foods for diet quality."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "difficult",
+    "breedingNotes": "FishBase records external fertilization with batch spawning and male nest-guarding behavior. Captive breeding is not widely documented.",
+    "conspecificAggression": "low",
+    "finNippy": false,
+    "reefSafe": "yes",
+    "escapeRisk": "high",
+    "venomousSpines": false,
+    "protogynous": null,
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "moderate"
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "needs_review",
+  "lastReviewed": "2026-06-03"
+}

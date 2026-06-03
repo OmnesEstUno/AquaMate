@@ -1,0 +1,109 @@
+{
+  "id": "sw-fish-541",
+  "slug": "resplendent-anthias",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Resplendent Anthias",
+  "scientificName": "Pseudanthias pulcherrimus",
+  "alsoKnownAs": ["Tierra Anthias", "Resplendent Goldie"],
+  "category": "Anthias",
+  "taxonomy": {
+    "family": "Anthiadidae",
+    "order": "Perciformes"
+  },
+  "nativeRange": {
+    "regions": ["Western Indian Ocean"],
+    "countries": ["Maldives", "Seychelles", "Mauritius", "India", "British Indian Ocean Territory"],
+    "habitat": "Deep reef slopes, steep drop-offs, and cave-rich reef structures, generally at depths of 10–70 m",
+    "biotope": "Reef"
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 23, "max": 27 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": null,
+    "salinity": { "min": 1.020, "max": 1.026 }
+  },
+  "adultSizeCm": { "min": 7, "max": 9 },
+  "lifespanYears": null,
+  "tank": {
+    "minVolumeLiters": 500,
+    "minLengthCm": 150,
+    "swimZone": "mid",
+    "decorPreferences": ["live rock", "caves", "ledges", "open swimming space"]
+  },
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "planktivore",
+    "notes": "Active planktivore; has been observed readily accepting frozen mysis shrimp, enriched frozen brine shrimp, and copepods. Benefits from multiple small feedings per day due to high metabolism. An attached refugium cultivating copepods and amphipods can supplement live prey."
+  },
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "shoaling",
+    "minGroupSize": 3,
+    "goodWith": ["peaceful reef fish", "corals", "invertebrates", "other anthias"],
+    "avoidWith": ["aggressive fish", "large predators", "conspecific males without sufficient space"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A vibrantly colored planktivore from the Western Indian Ocean, generally considered intermediate in care due to its need for frequent feedings and harem social structure in a well-established reef aquarium.",
+  "careNotes": "Resplendent Anthias are best maintained in harems consisting of one dominant male and several females; keeping multiple males together in a smaller setup tends to result in aggression between males. Like most anthias, this species is a protogynous hermaphrodite — if the dominant male perishes, the largest female in the group will typically transition to take its place over several weeks. Multiple small feedings daily (3–5 times) are generally advised to meet this species' high metabolic demands; a refugium seeding the main display with live copepods and amphipods can help supplement nutrition. Requires a well-established reef aquarium with substantial live rock, caves, and ledges for shelter, along with open mid-water swimming space. Moderate to strong water flow mimicking natural reef currents is recommended. These fish tend to be sensitive to declining water quality, so stable parameters and regular water changes are important. Males display predominantly orange and pink-purple coloration; females are typically orange with a yellow nose and yellow dorsal and tail fins. Some individuals show predominantly yellow coloration with red anal and caudal fins. Commonly sold under the trade names 'Tierra Anthias' and 'Resplendent Goldie'.",
+  "breedingNotes": null,
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/resplendent-anthias",
+      "accessedDate": "2026-06-03",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Pseudanthias-pulcherrimus",
+        "accessedDate": "2026-06-03",
+        "notes": "Cross-checked adult size (7.0 cm SL), temperature range (23.7–28.3 °C), taxonomy (Anthiadidae / Perciformes), and native range (Andaman Islands, Maldives, Chagos, Seychelles, Mauritius). FishBase temperature maximum of 28.3 °C is higher than LiveAquaria's 25.6 °C; Reeflings gives 24–27 °C. Final range averaged to 23–27 °C."
+      },
+      {
+        "name": "Reeflings",
+        "url": "https://reeflings.com/species/pseudanthias-pulcherrimus",
+        "accessedDate": "2026-06-03",
+        "notes": "Cross-checked adult size (9 cm), temperature (24–27 °C), pH (8.0–8.5), salinity (SG 1.023–1.026), care level (moderate to difficult), tank size (200 L for a small group), and harem social structure. Adult size spread across sources: FishBase 7 cm, LiveAquaria 7.6 cm, Reeflings 9 cm — used range 7–9 cm. Tank size: LA recommends 125 gal (~473 L) for a group, Reeflings recommends 200 L; biased toward larger given active open-water swimming behavior and harem group requirement — selected 500 L from nice-values list."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "advanced",
+    "breedingNotes": null,
+    "conspecificAggression": "moderate",
+    "finNippy": false,
+    "reefSafe": "yes",
+    "escapeRisk": "high",
+    "venomousSpines": false,
+    "protogynous": true,
+    "haremic": true,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "moderate"
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-03"
+}

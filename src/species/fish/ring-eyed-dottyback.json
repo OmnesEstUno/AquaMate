@@ -1,0 +1,103 @@
+{
+  "id": "sw-fish-542",
+  "slug": "ring-eyed-dottyback",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Ring Eyed Dottyback",
+  "scientificName": "Pseudoplesiops typus",
+  "alsoKnownAs": ["Big-Eye Dottyback", "Hidden Basslet"],
+  "category": "Dottybacks",
+  "taxonomy": {
+    "family": "Pseudochromidae",
+    "order": "Ovalentaria"
+  },
+  "nativeRange": {
+    "regions": ["Western Central Pacific", "Micronesia"],
+    "countries": ["Indonesia", "Philippines", "Australia", "Papua New Guinea", "Solomon Islands", "Marshall Islands"],
+    "habitat": "Reef crests and lagoons; typically found at depths of 6–65 m, most commonly 6–20 m near coral heads",
+    "biotope": "Reef"
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 24.0, "max": 27.5 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": null,
+    "salinity": { "min": 1.023, "max": 1.025 }
+  },
+  "adultSizeCm": { "min": 4.0, "max": 6.4 },
+  "lifespanYears": null,
+  "tank": {
+    "minVolumeLiters": 75,
+    "minLengthCm": 60,
+    "swimZone": "bottom",
+    "decorPreferences": ["live rock", "caves", "crevices", "rockwork with hiding spaces"]
+  },
+  "careLevel": "beginner",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Generally accepts vitamin-enriched brine shrimp, mysis shrimp, and quality prepared carnivore foods. Tends to dart out from cover to snag passing prey items. A varied diet has been noted to help maintain coloration."
+  },
+  "compatibility": {
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["larger peaceful reef fish", "corals", "larger invertebrates"],
+    "avoidWith": ["nano gobies", "small passive fish", "other dottybacks", "conspecifics"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A small, cryptic dottyback from Western Pacific reefs, generally considered reef-safe and suitable for nano to mid-sized systems. Males tend to display pinkish-red coloration while females are paler with yellow-green fin gradations.",
+  "careNotes": "Pseudoplesiops typus is a notoriously secretive species that typically hides within rockwork, occasionally dashing out to snag food. It is generally considered reef-safe and has been reported to accept a variety of prepared and frozen foods in captivity. Best kept singly; have been known to harass smaller, passive species such as nano gobies, particularly in confined spaces. The species displays sexual dichromatism — males tend to be pinkish-red while females are paler pink with yellow-green gradations on the fins. A diet that includes vitamin-enriched foods has been associated with better color retention. NOTE — temperature disagreement: LiveAquaria lists 72–78°F (22.2–25.6°C) while FishBase wild data shows 26.6–29°C; these ranges do not overlap. The averaged value of 24–27.5°C is used here but should be reviewed. The FishBase range likely reflects wild Indo-Pacific reef temperatures more accurately. Tank size: LiveAquaria recommends 10 gallons (38 L), but the minimum nice-value of 75 L is used to allow adequate rockwork and territory.",
+  "breedingNotes": null,
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/product/3232/",
+      "accessedDate": "2026-06-03",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Pseudoplesiops-typus.html",
+        "accessedDate": "2026-06-03",
+        "notes": "Cross-checked adult size (4.6 cm SL), temperature range (26.6–29°C), native range, and taxonomy. Temperature disagreement with LiveAquaria noted — ranges do not overlap; averaged values used and dataStatus set to needs_review."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": null,
+    "breedingNotes": null,
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "yes",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "protogynous": null,
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy"
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "needs_review",
+  "lastReviewed": "2026-06-03"
+}

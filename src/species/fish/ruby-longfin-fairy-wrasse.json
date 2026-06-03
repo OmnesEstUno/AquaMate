@@ -1,0 +1,103 @@
+{
+  "id": "sw-fish-543",
+  "slug": "ruby-longfin-fairy-wrasse",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Ruby Longfin Fairy Wrasse",
+  "scientificName": "Cirrhilabrus rubeus",
+  "alsoKnownAs": ["Blue and Red Fairy Wrasse"],
+  "category": "Wrasse",
+  "taxonomy": {
+    "family": "Labridae",
+    "order": "Eupercaria"
+  },
+  "nativeRange": {
+    "regions": ["Central Indian Ocean"],
+    "countries": ["Sri Lanka", "Maldives"],
+    "habitat": "Reef-associated, tropical marine waters",
+    "biotope": "Reef"
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 22, "max": 26 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.020, "max": 1.025 }
+  },
+  "adultSizeCm": { "min": 5, "max": 8 },
+  "lifespanYears": null,
+  "tank": {
+    "minVolumeLiters": 200,
+    "minLengthCm": 90,
+    "swimZone": "mid",
+    "decorPreferences": ["open swimming space", "live rock", "caves and overhangs"]
+  },
+  "careLevel": "beginner",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Generally accepts vitamin-enriched frozen mysis shrimp, frozen brine shrimp, and other meaty foods. Has been reported to accept high-quality marine flake and pellet foods readily in captivity."
+  },
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "pair",
+    "minGroupSize": 1,
+    "goodWith": ["reef-safe fish", "corals", "invertebrates", "other fairy wrasses (introduced simultaneously)", "peaceful community saltwater fish"],
+    "avoidWith": ["aggressive fish", "large predatory fish"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A strikingly colored small reef wrasse from the central Indian Ocean, displaying bright red-orange coloration with greatly elongated pelvic fins. Generally considered peaceful and suitable for reef aquariums.",
+  "careNotes": "Ruby Longfin Fairy Wrasse is named for the male's vivid red-to-red-orange body coloration and distinctively elongated pelvic fins, which are a key identifying feature. Color intensity and patterning can vary among individual specimens depending on origin and mood. Multiple individuals of this species tend to coexist well when introduced to the aquarium simultaneously. As with most fairy wrasses (Cirrhilabrus spp.), this species is a protogynous hermaphrodite — individuals start as females and dominant fish transition to male. Males display more intense coloration. The species is best kept in a covered aquarium as fairy wrasses have been known to jump. Also sold as 'Blue and Red Fairy Wrasse' in the aquarium trade. Formally described by Victor in 2016.",
+  "breedingNotes": null,
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/ruby-longfin-fairy-wrasse",
+      "accessedDate": "2026-06-03",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://fishbase.se/Summary/SpeciesSummary.php?id=68711",
+        "accessedDate": "2026-06-03",
+        "notes": "Cross-checked scientific name, taxonomy (Labridae), native range (Sri Lanka, Maldives), and adult size (5.4 cm SL male — consistent with LiveAquaria's 3-inch TL figure when SL-to-TL conversion is applied). FishBase confirmed species described by Victor 2016. Temperature and salinity not available on FishBase page for this species."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "difficult",
+    "breedingNotes": null,
+    "conspecificAggression": "low",
+    "finNippy": false,
+    "reefSafe": "yes",
+    "escapeRisk": "moderate",
+    "venomousSpines": false,
+    "protogynous": true,
+    "haremic": true,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy"
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-03"
+}

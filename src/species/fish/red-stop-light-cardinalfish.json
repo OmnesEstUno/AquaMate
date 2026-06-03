@@ -1,0 +1,115 @@
+{
+  "id": "sw-fish-539",
+  "slug": "red-stop-light-cardinalfish",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Red Stop Light Cardinalfish",
+  "scientificName": "Foa hyalina",
+  "alsoKnownAs": ["Apogonichthys hyalinus", "Hyaline Cardinalfish"],
+  "category": "Cardinalfish",
+  "taxonomy": {
+    "family": "Apogonidae",
+    "order": "Kurtiformes"
+  },
+  "nativeRange": {
+    "regions": ["Indo-Pacific", "Western Pacific"],
+    "countries": ["Indonesia", "Philippines"],
+    "habitat": "Coral reef; found among coral heads, soft corals (Sinularia), and associated with long-spined urchins at depths of 2–15 m.",
+    "biotope": "Tropical marine reef"
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 24.0, "max": 27.5 },
+    "pH":           { "min": 8.1,  "max": 8.4  },
+    "gH":           null,
+    "kH":           { "min": 8.0,  "max": 12.0 },
+    "salinity":     { "min": 1.020, "max": 1.025 }
+  },
+  "adultSizeCm":   { "min": 4.0, "max": 6.4 },
+  "lifespanYears": null,
+  "tank": {
+    "minVolumeLiters": 100,
+    "minLengthCm": 60,
+    "swimZone": "mid",
+    "decorPreferences": ["live rock", "caves", "coral heads", "hiding spaces", "sea grass"]
+  },
+  "careLevel": "beginner",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Tends to accept meaty frozen and prepared foods including mysis shrimp, brine shrimp, krill, and high-quality marine pellets. May also take small live feeder shrimp. Nocturnal by nature, so feeding at lights-out tends to improve food acceptance."
+  },
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "shoaling",
+    "minGroupSize": 1,
+    "goodWith": ["clownfish", "gobies", "other cardinalfish", "peaceful reef fish", "soft corals", "stony corals"],
+    "avoidWith": ["large predatory fish", "aggressive territorial species", "very small ornamental shrimp (may be eaten)"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A small, nocturnal reef cardinalfish with a vivid red body and large black eye. Generally considered beginner-friendly; tends to do well in reef tanks and has been reported to accept frozen and prepared carnivore diets readily.",
+  "careNotes": "The Red Stop Light Cardinalfish is nocturnal in the wild, typically sheltering among coral heads and long-spined urchins during the day and hunting small crustaceans after dark. In captivity this behavior generally persists — feeding at or after lights-out tends to produce better food acceptance. It has been reported to form loose schools in the wild but can be kept singly or in groups in aquariums; groups tend to establish a loose hierarchy without significant aggression. Provide ample live rock with caves and overhangs for daytime refuge. While generally considered reef-safe, isolated accounts note that individuals may prey upon very small ornamental shrimp they can fit in their mouth.\n\nTaxonomic note: the trade name Apogonichthys hyalinus is a junior synonym; the currently accepted scientific name per WoRMS (AphiaID 310871) and FishBase is Foa hyalina (Smith & Radcliffe, 1912). The species is also listed under the original combination Amia hyalina.\n\nTemperature note: aquarium hobby sources consistently recommend 22–26 °C (72–78 °F), while FishBase field data for tropical wild specimens records 27.6–29.2 °C. Values here reflect an average of both; a mid-range of 24–27 °C is generally considered suitable for captive animals.",
+  "breedingNotes": "FishBase records distinct pairing during courtship and spawning, and the species is a mouthbrooder, consistent with other Apogonidae. Captive breeding has not been well documented in the hobby literature reviewed.",
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/red-stop-light-cardinalfish",
+      "accessedDate": "2026-06-03",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "marinespecies.org (WoRMS)",
+        "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=310871",
+        "accessedDate": "2026-06-03",
+        "notes": "Confirmed accepted scientific name as Foa hyalina; Apogonichthys hyalinus is listed as unaccepted synonym. Provided family (Apogonidae) and order classification."
+      },
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Foa-hyalina.html",
+        "accessedDate": "2026-06-03",
+        "notes": "Cross-checked adult size (4.7 cm SL), temperature range (27.6–29.2 °C field data), habitat depth (2–15 m), order (Kurtiformes), mouthbrooder reproductive note, and IUCN Least Concern status. Temperature range is higher than hobby sources; averaged across sources for final values."
+      },
+      {
+        "name": "SaltwaterFish.com",
+        "url": "https://www.saltwaterfish.com/product-red-stop-light-cardinal",
+        "accessedDate": "2026-06-03",
+        "notes": "Cross-checked adult size (3 in / 7.6 cm), temperature (72–78 °F), pH (8.1–8.4), salinity (SG 1.020–1.025), nocturnal behavior, and carnivore diet. Consistent with LiveAquaria on all aquarium parameters."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "difficult",
+    "breedingNotes": "Mouthbrooder with distinct pairing during courtship and spawning (per FishBase). Captive spawning is rarely reported; considered difficult in home aquariums.",
+    "conspecificAggression": "low",
+    "finNippy": false,
+    "reefSafe": "with caution",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "protogynous": null,
+    "haremic": null,
+    "caudalScalpel": false,
+    "nocturnal": true,
+    "juvenileColorPhase": false,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": null,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy"
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-03"
+}

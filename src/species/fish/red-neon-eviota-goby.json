@@ -1,0 +1,120 @@
+{
+  "id": "sw-fish-535",
+  "slug": "red-neon-eviota-goby",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Red Neon Eviota Goby",
+  "scientificName": "Eviota nigriventris",
+  "alsoKnownAs": ["Redbelly Dwarfgoby", "Red-and-black Eviota", "Black-spot Pygmy-goby"],
+  "category": "Goby",
+  "taxonomy": {
+    "family": "Gobiidae",
+    "order": "Gobiiformes"
+  },
+  "nativeRange": {
+    "regions": ["Western Pacific"],
+    "countries": ["Philippines", "Indonesia"],
+    "habitat": "Reef-associated; found among branching and encrusting corals, particularly Acropora, in lagoon reefs at depths of around 10 m or more.",
+    "biotope": "Reef"
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 22, "max": 26 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.020, "max": 1.025 }
+  },
+  "adultSizeCm": { "min": 2.0, "max": 3.0 },
+  "lifespanYears": null,
+  "tank": {
+    "minVolumeLiters": 75,
+    "minLengthCm": 45,
+    "swimZone": "bottom",
+    "decorPreferences": ["live rock", "branching coral (Acropora or similar) for perching and shelter", "caves and crevices"]
+  },
+  "careLevel": "beginner",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Generally accepts a variety of small meaty frozen and prepared foods: mysis shrimp, enriched brine shrimp, and finely chopped marine seafood. Has been observed to respond well to target feeding, which is advisable in tanks housing faster or more competitive tankmates."
+  },
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "shoaling",
+    "minGroupSize": 1,
+    "goodWith": ["small peaceful reef fish", "blennies", "cardinalfish", "firefish", "shrimp", "small wrasses"],
+    "avoidWith": ["large or aggressive fish", "fast aggressive feeders that outcompete small gobies at feeding time"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": [
+      {
+        "url": "https://www.fishbase.se/images/species/Evnig_u4.jpg",
+        "source": "FishBase",
+        "sourceType": "fishbase",
+        "license": "All rights reserved — photographer Erdmann, M.V.; contact contributor for permission",
+        "notes": "Specimen photographed in Indonesia; shows red ventral coloration.",
+        "recommended": true
+      },
+      {
+        "url": "https://www.fishbase.se/images/species/Evnig_m0.jpg",
+        "source": "FishBase",
+        "sourceType": "fishbase",
+        "license": "All rights reserved — photographer Greenfield, D.W.; contact contributor for permission",
+        "notes": "Male specimen; photographed in Indonesia.",
+        "recommended": false
+      }
+    ]
+  },
+  "summary": "A tiny (under 3 cm) coral-associated reef goby from the Western Pacific, generally considered beginner-friendly and reef-safe; tends to do best when kept in small groups introduced simultaneously.",
+  "careNotes": "Eviota nigriventris is one of the smallest reef gobies in the aquarium trade, rarely exceeding 3 cm. In the wild it has been documented forming aggregations among the branches of Acropora and other branching corals in lagoon reef habitats; this behavioral tendency should be accommodated in captivity with branching live rock or coral skeletons. It is generally considered reef-safe. Small groups or pairs have been reported to fare better than single individuals, provided they are introduced at the same time to avoid territorial disputes. Like most gobies the species tends to perch and dart rather than actively swim open water, spending most of its time at or near the substrate and rockwork. Being a very small fish, it has been known to be vulnerable to aggression from larger or boisterous tankmates, and care should be taken not to house it with species that will outcompete it at feeding. The species is described as a rare find in the trade and is known primarily from Cebu reefs in the Philippines and confirmed records from Indonesia; occurrence in Australia, Palau, and Japan has been noted but requires further confirmation. Note on temperature: LiveAquaria lists 72–78 °F (22.2–25.6 °C) for this species, while wild congeners (e.g. Eviota bifasciata per FishBase ecological modelling) tend to inhabit water around 27–29 °C. A practical aquarium range of 22–26 °C is recommended, consistent with standard reef tank parameters; the upper bound may be safely extended toward 27–28 °C for those maintaining higher reef temperatures. The IUCN lists the species as Data Deficient (assessed 2018).",
+  "breedingNotes": null,
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/red-neon-eviota-goby",
+      "accessedDate": "2026-06-03",
+      "notes": "Direct species product page for Red Neon Eviota Goby (Eviota nigriventris). Provided care level, tank size (10 gal), temperature (72-78°F), SG (1.020-1.025), pH (8.1-8.4), dKH (8-12), diet, temperament, and reef-safe status."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/Summary/SpeciesSummary.php?id=7214",
+        "accessedDate": "2026-06-03",
+        "notes": "Cross-checked scientific name, taxonomy (Gobiidae / Gobiiformes), max size (3.0 cm SL), native range (Western Pacific, confirmed Indonesia), habitat (branching and encrusting corals, lagoon reefs, depth 10-150 m). No species-specific temperature data available; congener Eviota bifasciata data (27.1-29.3°C) noted for context."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": null,
+    "breedingNotes": null,
+    "conspecificAggression": "low",
+    "finNippy": false,
+    "reefSafe": "yes",
+    "escapeRisk": "high",
+    "venomousSpines": false,
+    "protogynous": null,
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy"
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-03"
+}
