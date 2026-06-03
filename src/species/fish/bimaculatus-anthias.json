@@ -1,0 +1,102 @@
+{
+  "id": "sw-fish-288",
+  "slug": "bimaculatus-anthias",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Bimaculatus Anthias",
+  "scientificName": "Pseudanthias bimaculatus",
+  "alsoKnownAs": ["Twinspot Anthias", "Two-spot Anthias"],
+  "category": "Anthias",
+  "taxonomy": {
+    "family": "Anthiadidae",
+    "order": "Perciformes"
+  },
+  "nativeRange": {
+    "regions": ["Indo-West Pacific"],
+    "countries": ["Maldives", "Indonesia", "Kenya", "Tanzania"],
+    "habitat": "Deep coastal drop-offs and dead-reef areas in somewhat turbid water, typically at depths of 40-54 m (broader range 20-100 m).",
+    "biotope": "Mesophotic Indo-Pacific reef slopes"
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 23, "max": 27 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.020, "max": 1.025 }
+  },
+  "adultSizeCm": { "min": 10, "max": 14 },
+  "lifespanYears": { "min": 3, "max": 7 },
+  "tank": {
+    "minVolumeLiters": 500,
+    "minLengthCm": 150,
+    "swimZone": "mid",
+    "decorPreferences": ["live rock with caves and overhangs", "open mid-water swimming space", "subdued lighting", "deep-water reef setup"]
+  },
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "planktivore",
+    "notes": "Active planktivore in the wild. In captivity, generally accepts frozen mysis shrimp and enriched frozen brine shrimp, and over time may take high-quality flake foods. Multiple small feedings per day are recommended, and an attached refugium cultivating copepods and amphipods is widely advised to keep this species in long-term condition."
+  },
+  "compatibility": {
+    "temperament": "semi-aggressive",
+    "grouping": "shoaling",
+    "minGroupSize": 3,
+    "goodWith": ["peaceful reef fish", "small-polyp corals", "wrasses", "tangs in suitably sized systems"],
+    "avoidWith": ["large aggressive predators", "other Pseudanthias males in cramped quarters", "very boisterous tankmates that outcompete it for food"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A deep-reef Indo-Pacific anthias generally kept in a male-with-multiple-females harem; needs a large, well-fed system with plenty of swimming space and several daily feedings.",
+  "careNotes": "The Bimaculatus Anthias is a mesophotic-reef planktivore generally considered intermediate in care: cool, well-oxygenated water, ample open swimming space, and several small feedings per day are commonly advised. Like other Pseudanthias it is a protogynous (female-first) sequential hermaphrodite that naturally forms harems of one dominant male with several females; if the male is lost, the largest female has been reported to transition to male. Best kept as a harem of 1 male + 3-5 females rather than singly; in mixed groups, males tend to be aggressive toward other males. Anthias are well-known jumpers and a tightly sealed lid is generally recommended. Cross-source note: LiveAquaria lists an adult size of ~13 cm while FishBase records a max length of 14 cm TL, so the 10-14 cm range used here brackets both. LiveAquaria advises a minimum of ~125-130 US gallons (~475-490 L); given this species' active mid-water swimming and need for a male to hold a territory above the rockwork, the recommendation has been rounded up to 500 L with a 150 cm long footprint.",
+  "breedingNotes": "Not routinely bred in home aquaria. The species is a protogynous hermaphrodite and broadcast spawner; closely related Pseudanthias spp. (e.g., P. pleurotaenia) have been reported to spawn at the same time and occasionally produce hybrids in the wild.",
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/bimaculatus-anthias",
+      "accessedDate": "2026-06-02"
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Pseudanthias-bimaculatus.html",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked taxonomy, distribution, depth/temperature range, and max length. FishBase max length 14.0 cm TL is larger than LiveAquaria's stated ~13 cm; size range broadened to 10-14 cm. FishBase preferred temperature 25.6-28.4 C is warmer than LiveAquaria's 22.2-25.6 C; final range 23-27 C averages the two."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": null,
+    "conspecificAggression": "moderate",
+    "finNippy": false,
+    "reefSafe": "yes",
+    "escapeRisk": "high",
+    "venomousSpines": false,
+    "protogynous": true,
+    "haremic": true,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": null,
+    "toxicToTank": false,
+    "feedingDifficulty": "moderate"
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-02"
+}

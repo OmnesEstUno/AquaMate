@@ -4,76 +4,97 @@
   "kind": "fauna",
   "taxon": "fish",
   "waterType": "saltwater",
-  "commonName": "Azure Damsel",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "commonName": "Azure Damselfish",
+  "scientificName": "Chrysiptera hemicyanea",
+  "alsoKnownAs": ["Azure Damsel", "Azure Demoiselle", "Half-blue Demoiselle"],
   "category": "Damsel",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Pomacentridae",
+    "order": "Ovalentaria incertae sedis"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null
+    "regions": ["Indo-West Pacific", "Eastern Indian Ocean", "Coral Triangle"],
+    "countries": ["Indonesia", "Philippines", "Australia", "Solomon Islands"],
+    "habitat": "Lagoon and near-shore reefs, typically associated with branching corals at depths of roughly 1-38 m.",
+    "biotope": "Tropical coral reef among branching Acropora and similar corals, often in small aggregations."
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
+    "temperatureC": { "min": 22, "max": 27 },
+    "pH": { "min": 8.1, "max": 8.4 },
     "gH": null,
-    "kH": null,
-    "salinity": null
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.020, "max": 1.025 }
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 6.5, "max": 8 },
+  "lifespanYears": { "min": 5, "max": 12 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": []
+    "minVolumeLiters": 120,
+    "minLengthCm": 90,
+    "swimZone": "mid",
+    "decorPreferences": ["live rock", "branching coral", "caves and crevices", "open swimming space"]
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "beginner",
+  "diet": {
+    "type": "omnivore",
+    "notes": "In the wild, feeds primarily on zooplankton above the substrate. In captivity, generally accepts a varied diet of quality marine flakes, small pellets, frozen mysis and brine shrimp, and chopped meaty seafoods; occasional dried marine algae rounds out the diet."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["larger semi-aggressive reef fish", "tangs", "wrasses", "angelfishes", "most reef invertebrates", "corals"],
+    "avoidWith": ["other damselfish in small tanks", "conspecifics in tanks under ~200 L", "very small or timid fish", "newly added tankmates after the damsel is established"]
   },
   "media": {
     "primaryImage": "azure_damsel.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Azure Damsel.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "Small Indo-Pacific damselfish with a vivid blue front and yellow rear. Hardy and reef-safe but tends to become territorial as it matures, so is generally best kept singly in modest reef setups.",
+  "careNotes": "Generally considered one of the hardiest and most beginner-friendly marine fish — tolerates a wide range of conditions and accepts prepared foods readily. Most commonly kept as a single specimen because it tends to be aggressive toward conspecifics and toward newly introduced tankmates after it has established a territory; multiples sometimes work in larger reef tanks (roughly 200 L and up) with abundant rockwork that breaks lines of sight. Adults typically reach around 7 cm; sources report 6.5-8 cm total length. Provide plenty of live rock with caves and branching coral for shelter, plus some open swimming space in the mid-to-lower water column. ORA and other facilities offer captive-bred specimens, which tend to be better adapted to aquarium life than wild-caught fish.",
+  "breedingNotes": "Has been bred in captivity (notably by ORA). Forms distinct pairs and is oviparous; demersal eggs are deposited on a rocky substrate and guarded/aerated by the male until hatching. Without a pelagic larval phase to mimic, larval rearing is still demanding for hobbyists.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/collections/damselfish",
+      "accessedDate": "2026-06-02",
+      "notes": "Care level, temperament, reef compatibility, water parameters (pH 8.1-8.4, dKH 8-12, SG 1.020-1.025, 72-78 F), 30 US gal minimum, max ~2.75 in."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Chrysiptera-hemicyanea.html",
+        "accessedDate": "2026-06-02",
+        "notes": "Confirmed taxonomy (Pomacentridae), max length 7.0 cm TL, depth 1-38 m, Indo-West Pacific distribution, water temperature 22-28 C, IUCN Vulnerable status."
+      },
+      {
+        "name": "AlgaeBarn (Keeping the Azure Damselfish)",
+        "url": "https://www.algaebarn.com/blog/captive-bred-fish/damselfish/keeping-the-azure-damselfish/",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked size (3 in / ~8 cm), confirmed reef-safe and high conspecific aggression, confirmed ORA captive-bred availability, lifespan 2-6 yr wild and up to ~15 yr in captivity, breeding behavior (pair-bonding, demersal eggs, male egg-guarding)."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
-    "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "protogynous": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
-    "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null
+    "breedingDifficulty": "advanced",
+    "breedingNotes": "Captive-bred by commercial facilities (ORA) but larval rearing remains challenging for hobbyists; pairs spawn readily on rockwork and the male guards the eggs.",
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "yes",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "protogynous": false,
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy"
   },
   "crustacean": null,
   "coral": null,
@@ -83,6 +104,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-02"
 }
