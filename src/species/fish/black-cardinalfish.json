@@ -1,0 +1,119 @@
+{
+  "id": "sw-fish-503",
+  "slug": "black-cardinalfish",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Black Cardinalfish",
+  "scientificName": "Apogonichthyoides melas",
+  "alsoKnownAs": ["Black Cardinal"],
+  "category": "Cardinalfish",
+
+  "taxonomy": {
+    "family": "Apogonidae",
+    "order": "Kurtiformes"
+  },
+
+  "nativeRange": {
+    "regions": ["Western Pacific", "Indo-Pacific"],
+    "countries": ["Indonesia", "Malaysia", "Japan", "Australia"],
+    "habitat": "Shallow, well-protected coastal bays; commonly found hiding under jetties and in dark areas; also in inshore rocky zones and among branching coral.",
+    "biotope": "Reef"
+  },
+
+  "waterParameters": {
+    "temperatureC": { "min": 24.0, "max": 27.5 },
+    "pH":           { "min": 8.1, "max": 8.4 },
+    "gH":           null,
+    "kH":           { "min": 8, "max": 12 },
+    "salinity":     { "min": 1.020, "max": 1.025 }
+  },
+
+  "adultSizeCm": { "min": 7.0, "max": 11.0 },
+  "lifespanYears": null,
+
+  "tank": {
+    "minVolumeLiters": 120,
+    "minLengthCm": null,
+    "swimZone": "mid",
+    "decorPreferences": ["live rock", "caves", "overhangs", "sea urchins", "seagrass"]
+  },
+
+  "careLevel": "beginner",
+
+  "diet": {
+    "type": "carnivore",
+    "notes": "Has been observed readily accepting meaty frozen and prepared foods including enriched brine shrimp, enriched mysis shrimp, marine pellets, and flake foods."
+  },
+
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "shoaling",
+    "minGroupSize": 1,
+    "goodWith": ["peaceful reef fish", "invertebrates", "corals", "other cardinalfish"],
+    "avoidWith": ["large aggressive predators"]
+  },
+
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+
+  "summary": "A small, slender, mostly-black reef fish with large dark eyes. Generally considered a peaceful, hardy beginner-level species well-suited to reef aquariums; tends to shelter among rockwork, sea urchins, or seagrass.",
+
+  "careNotes": "Black Cardinalfish tend to hide among rockwork, sea urchins, long-spined urchins, or seagrass beds in the aquarium, so ample sheltered areas are generally advised. Groups have been reported to establish a loose hierarchy without notable aggression toward one another. LiveAquaria recommends a 30-gallon (approximately 113 L) minimum; this entry rounds up to 120 L to accommodate a small group. Temperature data shows a notable disagreement between sources: LiveAquaria recommends 22–26°C (72–78°F) while FishBase reports wild-habitat preference of 27–29°C; this entry uses the averaged range of approximately 24–27.5°C — keeper discretion is advised toward the upper end. The species is a paternal mouthbrooder with distinct pairing behavior during courtship and spawning, which has occasionally been replicated in captivity.",
+
+  "breedingNotes": "Has been documented as a paternal mouthbrooder exhibiting distinct pairing during courtship and spawning. Captive breeding is rarely reported in detail but is considered possible in a species-appropriate aquarium.",
+
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/black-cardinalfish",
+      "accessedDate": "2026-06-03",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Apogonichthyoides-melas",
+        "accessedDate": "2026-06-03",
+        "notes": "Cross-checked adult size, native range, temperature, taxonomy (order Kurtiformes), and habitat. Temperature disagreement noted: FishBase reports preferred wild habitat temperature of 27.1–29.3°C vs LiveAquaria 72–78°F (22.2–25.6°C). Averaged range used; dataStatus set to needs_review due to this spread."
+      }
+    ]
+  },
+
+  "fish": {
+    "breedingDifficulty": "difficult",
+    "breedingNotes": "Paternal mouthbrooder with distinct pairing during courtship and spawning. Rarely bred in home aquaria.",
+    "conspecificAggression": "low",
+    "finNippy": false,
+    "reefSafe": "yes",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "protogynous": false,
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": true,
+    "juvenileColorPhase": false,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy"
+  },
+
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+
+  "schemaVersion": 1,
+  "dataStatus": "needs_review",
+  "lastReviewed": "2026-06-03"
+}

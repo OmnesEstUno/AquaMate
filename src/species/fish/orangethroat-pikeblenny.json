@@ -1,0 +1,103 @@
+{
+  "id": "sw-fish-486",
+  "slug": "orangethroat-pikeblenny",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Orangethroat Pikeblenny",
+  "scientificName": "Chaenopsis alepidota",
+  "alsoKnownAs": [],
+  "category": "Blenny",
+  "taxonomy": {
+    "family": "Chaenopsidae",
+    "order": "Blenniiformes"
+  },
+  "nativeRange": {
+    "regions": ["Eastern Pacific"],
+    "countries": ["United States", "Mexico"],
+    "habitat": "Sandy reef-rubble zones and soft substrates; inhabits empty worm tubes",
+    "biotope": "Reef"
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 17.0, "max": 28.0 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.020, "max": 1.025 }
+  },
+  "adultSizeCm": { "min": 5.0, "max": 15.0 },
+  "lifespanYears": null,
+  "tank": {
+    "minVolumeLiters": 120,
+    "minLengthCm": 60,
+    "swimZone": "bottom",
+    "decorPreferences": ["live rock with crevices and tunnels", "PVC tubing (up to 1.3 cm diameter)", "sandy substrate", "rubble zones for tube-dwelling behavior"]
+  },
+  "careLevel": "beginner",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Has been documented eating mysis shrimp, vitamin-enriched brine shrimp, frozen meaty preparations, and other small protein-rich foods. Generally tends to accept frozen and prepared marine meaty items without significant difficulty."
+  },
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["peaceful reef fish", "gobies", "dartfish", "small wrasses", "clownfish"],
+    "avoidWith": ["aggressive fish", "fish that compete for tube territories", "large predatory fish"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A small, charismatic Eastern Pacific blenny known for occupying empty worm tubes in reef rubble. Males display a vivid orange throat and have been observed performing dramatic territorial displays; generally considered reef-safe and beginner-friendly.",
+  "careNotes": "The Orangethroat Pikeblenny is commonly found in sandy reef-rubble zones from the Gulf of California to southern California, where it has been reported inhabiting empty polychaete worm tubes. Providing appropriate tube substitutes (sections of PVC pipe up to ~1.3 cm diameter, or live rock with suitably sized crevices) tends to greatly reduce stress and encourages natural territorial display behavior. While generally regarded as a peaceful community fish, individuals have been known to jealously defend their chosen tube or burrow — multiple individuals in a small tank may show aggression over territories. Males exhibit vivid sexual dichromatism: males display a bright orange throat stripe and bold markings used in dramatic tail-standing and gill-flaring displays, while females tend to show muted mottled earth tones. A tightly-fitted or weighted aquarium lid is strongly advised, as blennies generally have a reputation for jumping. Temperature range 17–28°C (averaging around 22°C) reflects the subtropical Eastern Pacific origin, so the species can tolerate somewhat cooler water than typical tropical reef fish. Secondary sources attempted: Reef2Reef wiki (403), BlueZoo Aquatics (403), Fishkeeping World (404), TFH Magazine (404) — data confirmed from LiveAquaria (primary) and FishBase (secondary).",
+  "breedingNotes": null,
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/orangethroat-pikeblenny",
+      "accessedDate": "2026-06-03",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Chaenopsis-alepidota.html",
+        "accessedDate": "2026-06-03",
+        "notes": "Cross-checked adult size (15.0 cm TL matches LiveAquaria's 6 in / 15.24 cm), temperature range (15.8–28°C vs 17.8–27.8°C from LA — averaged to 17–28°C), taxonomy (family Chaenopsidae, order Blenniiformes), and native range (Eastern Pacific, Gulf of California to southern California). FishBase did not provide pH, salinity, or tank-size data."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": null,
+    "breedingNotes": null,
+    "conspecificAggression": "moderate",
+    "finNippy": false,
+    "reefSafe": "yes",
+    "escapeRisk": "high",
+    "venomousSpines": false,
+    "protogynous": null,
+    "haremic": null,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": null,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy"
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-03"
+}

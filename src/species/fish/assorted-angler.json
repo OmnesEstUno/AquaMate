@@ -1,0 +1,119 @@
+{
+  "id": "sw-fish-498",
+  "slug": "assorted-angler",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Assorted Angler",
+  "scientificName": "Antennarius sp.",
+  "alsoKnownAs": ["Assorted Frogfish", "Angler", "Frogfish"],
+  "category": "Anglers & Frogfish",
+
+  "taxonomy": {
+    "family": "Antennariidae",
+    "order": "Lophiiformes"
+  },
+
+  "nativeRange": {
+    "regions": ["Indo-Pacific", "Western Atlantic", "Eastern Pacific"],
+    "countries": [],
+    "habitat": "Sheltered rocky and coral reefs; benthic dweller typically found among sponges, algae, and rubble at shallow depths",
+    "biotope": "Reef"
+  },
+
+  "waterParameters": {
+    "temperatureC": { "min": 23.5, "max": 27.5 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.020, "max": 1.025 }
+  },
+
+  "adultSizeCm": { "min": 2.5, "max": 23 },
+  "lifespanYears": null,
+
+  "tank": {
+    "minVolumeLiters": 150,
+    "minLengthCm": 75,
+    "swimZone": "bottom",
+    "decorPreferences": ["live rock", "sponges", "caves", "ledges", "rubble zones", "coral rubble"]
+  },
+
+  "careLevel": "intermediate",
+
+  "diet": {
+    "type": "carnivore",
+    "notes": "Ambush predators that lure prey using a modified first dorsal spine (illicium) tipped with a fleshy lure (esca). Generally feed on small fish and crustaceans, swallowing prey whole. Newly introduced specimens typically require live saltwater feeder shrimp to initiate a feeding response; many individuals can gradually be trained to accept frozen meaty foods such as silversides or krill offered from tongs or a feeding stick. Feeding every 3–5 days is generally advised, as overfeeding has been reported to lead to prolonged food refusal."
+  },
+
+  "compatibility": {
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["large peaceful fish that cannot fit in the angler's mouth", "non-aggressive fish of similar or larger size"],
+    "avoidWith": ["small fish", "ornamental shrimp", "small crustaceans", "fish small enough to be swallowed whole", "conspecifics"]
+  },
+
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+
+  "summary": "A genus-level trade assortment of camouflaged ambush predators from the family Antennariidae. Generally advised for intermediate keepers; tends to require live prey initially and will consume any tankmate small enough to swallow.",
+
+  "careNotes": "The 'Assorted Angler' listing covers multiple species within the genus Antennarius (family Antennariidae, order Lophiiformes), sold in a range of color morphs including black, tan, and yellow. LiveAquaria explicitly lists the scientific name as 'Antennarius sp.' rather than a single species, reflecting that specimens may include Antennarius pictus (Painted Frogfish, up to 30 cm), Antennarius hispidus (Shaggy Angler, up to 20 cm), Antennarius maculatus (Wartskin Frogfish, up to 15 cm), or other mid-sized members of the genus. Aquarists should be aware that the adult size and care requirements of the specimen they receive may vary depending on the actual species.\n\nAll Antennarius are benthic ambush predators that remain nearly motionless for extended periods, making them well-suited to aquariums with ample live rock, sponges, and caves for perching. They have a remarkable ability to change color over days to weeks to match their surroundings. The fish hunts by wiggling the illicium (modified dorsal spine) tipped with a fleshy lure (esca) resembling a small fish or shrimp, then lunging forward with an extremely rapid strike to vacuum prey into its highly expandable mouth — individuals have been documented consuming prey close to their own body size, so any small fish or motile invertebrate in the same tank should be considered at risk.\n\nCross-source note on temperature: LiveAquaria recommends 72–78°F (22.2–25.6°C), while FishBase wild-habitat modeling for commonly traded Antennarius species (A. pictus: 25.1–29.3°C; A. hispidus: 24.6–29.1°C) indicates a warmer preferred range. The values used here (23.5–27.5°C) represent an averaged range. Aquarists in standard reef systems (25–27°C) are generally well within tolerance.\n\nCross-source note on tank size: LiveAquaria recommends 30 gallons (~114 L). Given that these fish can reach up to 23 cm and require substantial live rock territory, a 150 L minimum was applied (rounded up from the 114 L conversion per AquaMate tank-size convention for predators with territorial needs).\n\nFeeding difficulty is the principal husbandry challenge: freshly imported specimens commonly refuse prepared or frozen foods, and starvation is a recognized risk if a transition to non-live foods is not achieved. Many keepers report success training the fish onto frozen silversides or krill by mimicking prey movement with tongs. A tightly fitting lid is advisable, as individuals of several Antennarius species have occasionally been reported leaving the water.",
+
+  "breedingNotes": "Oviparous; eggs are enclosed in a ribbon-like or veil-like gelatinous egg raft that drifts in the water column. Captive breeding has been documented for some Antennarius species but is generally considered uncommon. Species identity of the specific specimen affects breeding feasibility and pairing compatibility.",
+
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/assorted-angler",
+      "accessedDate": "2026-06-03",
+      "notes": "Primary husbandry data — scientific name listed as Antennarius sp., size (up to 9\"), temperature (72–78°F), pH (8.1–8.4), SG (1.020–1.025), dKH (8–12), tank size (30 gal), care level (moderate), diet, temperament, reef compatibility."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/identification/SpeciesList.php?genus=Antennarius",
+        "accessedDate": "2026-06-03",
+        "notes": "Cross-checked genus coverage (12 Antennarius species), size range (6.3–45 cm across species), temperature ranges for commonly traded species: A. pictus 25.1–29.3°C, A. hispidus 24.6–29.1°C. Temperature discrepancy noted with LiveAquaria (22.2–25.6°C vs FishBase 24.6–29.3°C); averaged to 23.5–27.5°C. Reef2Reef wiki returned 403; BlueZoo Aquatics returned an unrelated product page; Fishkeeping World and TFH Magazine both returned 404. FishBase used as sole secondary; minimum-confirmation bar met with primary + FishBase."
+      }
+    ]
+  },
+
+  "fish": {
+    "breedingDifficulty": "difficult",
+    "breedingNotes": "Oviparous; captive breeding documented for some Antennarius species but generally uncommon. Eggs released in gelatinous ribbon or veil. Species identity of the specimen affects breeding feasibility.",
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "with caution",
+    "escapeRisk": "low",
+    "venomousSpines": null,
+    "protogynous": null,
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": null,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": true,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "difficult"
+  },
+
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-03"
+}

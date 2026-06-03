@@ -1,0 +1,157 @@
+{
+  "id": "sw-fish-501",
+  "slug": "bella-goby",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Bella Goby",
+  "scientificName": "Valenciennea bella",
+  "alsoKnownAs": [
+    "Yellow Filament Goby",
+    "Bella Sleeper Goby",
+    "Japanese Bella Goby"
+  ],
+  "category": "Gobies",
+  "taxonomy": {
+    "family": "Gobiidae",
+    "order": "Gobiiformes"
+  },
+  "nativeRange": {
+    "regions": [
+      "Western Pacific"
+    ],
+    "countries": [
+      "Japan",
+      "Philippines",
+      "Indonesia"
+    ],
+    "habitat": "Coastal reefs with rubble, rock, and sand bottoms at depths of approximately 12–35 m; typically encountered singly or in pairs.",
+    "biotope": "Reef"
+  },
+  "waterParameters": {
+    "temperatureC": {
+      "min": 24.0,
+      "max": 28.0
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.020,
+      "max": 1.025
+    }
+  },
+  "adultSizeCm": {
+    "min": 5.0,
+    "max": 7.6
+  },
+  "lifespanYears": null,
+  "tank": {
+    "minVolumeLiters": 200,
+    "minLengthCm": 90,
+    "swimZone": "bottom",
+    "decorPreferences": [
+      "deep fine-grain sand bed (5–10 cm) for burrowing and sifting",
+      "stable live rock arranged on tank bottom (not atop sand)",
+      "sparse open sand areas for foraging",
+      "tight-fitting lid to prevent jumping"
+    ]
+  },
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Feeds naturally by sifting sand and filtering small invertebrates, particularly copepods and amphipods. In captivity generally accepts frozen mysis shrimp, enriched brine shrimp, and small marine pellets; a mature refugium producing live copepods is commonly recommended to supplement prepared foods. Feeding frequency of two to three times daily tends to work well for this active sifter."
+  },
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "pair",
+    "minGroupSize": 1,
+    "goodWith": [
+      "small peaceful reef fish",
+      "clownfish",
+      "cardinalfish",
+      "small wrasses",
+      "firefish",
+      "shrimps and reef-safe invertebrates"
+    ],
+    "avoidWith": [
+      "other Valenciennea gobies (territorial when crowded)",
+      "aggressive or fast-moving fish that may stress them",
+      "sand-dwelling corals and sea stars that may be buried by sifting",
+      "blennies (have been known to trigger territorial disputes)"
+    ]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A small, colorful sand-sifting sleeper goby from the Western Pacific, noted for its sapphire-blue cheek stripes and yellow dorsal filaments; generally peaceful and considered reef-safe with caution regarding sand-bed invertebrates.",
+  "careNotes": "Valenciennea bella is one of the smaller Valenciennea species — FishBase records a maximum standard length of 6.9 cm (~2.7 in) and Quality Marine notes it rarely exceeds 3 inches (~7.6 cm), while LiveAquaria's product page lists 6 inches (15.2 cm) which is likely a data entry error possibly carried over from V. puellaris (Diamond Goby); the smaller figures from FishBase and specialist sources are used here. Temperature guidance similarly diverged: LiveAquaria recommends 72–78°F (22.2–25.6°C) while FishBase habitat modeling indicates 27.1–29.1°C; a cross-source averaged band of 24–28°C is used. Both issues are flagged for reviewer confirmation.\n\nThis species sifts sand almost continuously, filtering small invertebrates through its gills. This behavior usefully aerates the substrate but may bury sand-dwelling corals or displace sand-bed organisms; placing corals on rockwork rather than in the sand bed tends to work better with this goby. Aquarists commonly suggest a tank footprint emphasising length over height to provide adequate sifting territory.\n\nV. bella has been documented forming monogamous pairs in the wild and tends to be kept as a bonded pair in the aquarium; splitting established pairs is generally not advised. Males develop a distinctive black throat and elongated second-to-fourth dorsal fin filaments. The species is a well-known jumper — a tight-fitting lid is considered essential. It has been observed becoming territorial toward other gobies, blennies, or dartfish, particularly in smaller aquariums.\n\nA populated refugium producing copepods and amphipods is widely regarded as beneficial for long-term health and conditioning. Also sold as 'Yellow Filament Goby' in reference to the male's extended dorsal filaments.",
+  "breedingNotes": null,
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/product/6566/?pcatid=6566",
+      "accessedDate": "2026-06-03",
+      "notes": "The gobies collection page (https://www.liveaquaria.com/collections/gobies) listed the product but did not include species details; the canonical product page was accessed directly. Note: LiveAquaria's stated maximum size of 6 inches (15.2 cm) appears to be an outlier inconsistent with FishBase and specialist sources — see careNotes."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Valenciennea-bella.html",
+        "accessedDate": "2026-06-03",
+        "notes": "Cross-checked scientific name (Hoese & Larson, 1994), taxonomy (Gobiidae / Gobiiformes), maximum length (6.9 cm SL), temperature range (27.1–29.1°C habitat model), native range (Okinawa Japan and Philippines), depth range (12–35 m), diet (small invertebrates, particularly copepods), and behavioral notes (solitary or in pairs)."
+      },
+      {
+        "name": "Quality Marine",
+        "url": "https://www.qualitymarine.com/news/the-ohsobeautiful-bella/",
+        "accessedDate": "2026-06-03",
+        "notes": "Specialist trade article confirming small size ('rarely exceeds three inches'), monogamous pair-bonding, jumping behavior, sand-bed requirements (grain size <2mm, 2.5–5 cm depth), tank footprint emphasis, feeding frequency (minimum 3x daily), and reef-safety caveats regarding sand-dwelling corals. Tank minimum stated as 40-gallon breeder (~151 L) for a mated pair — used in tank-size cross-verification."
+      },
+      {
+        "name": "Reeflex",
+        "url": "https://www.reeflex.net/tiere/8522_Valenciennea_bella.htm",
+        "accessedDate": "2026-06-03",
+        "notes": "Cross-checked size (6.9 cm / ~2.7 in confirming FishBase), temperature range (27.1–29.1°C), minimum tank recommendation (300 L / ~79 gal), and additional common names (Yellow Filament Goby, Bella Grundel). Native range expanded to include Indonesia, Raja Ampat, Ryukyu Islands, and Bangai Archipelago."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": null,
+    "breedingNotes": null,
+    "conspecificAggression": "low",
+    "finNippy": false,
+    "reefSafe": "with caution",
+    "escapeRisk": "high",
+    "venomousSpines": false,
+    "protogynous": false,
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": true,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "moderate"
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "needs_review",
+  "lastReviewed": "2026-06-03"
+}

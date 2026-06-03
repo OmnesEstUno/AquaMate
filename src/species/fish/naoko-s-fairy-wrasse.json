@@ -1,0 +1,103 @@
+{
+  "id": "sw-fish-494",
+  "slug": "naoko-s-fairy-wrasse",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Naoko's Fairy Wrasse",
+  "scientificName": "Cirrhilabrus naokoae",
+  "alsoKnownAs": [],
+  "category": "Wrasse",
+  "taxonomy": {
+    "family": "Labridae",
+    "order": "Eupercaria"
+  },
+  "nativeRange": {
+    "regions": ["Eastern Indian Ocean"],
+    "countries": ["Indonesia"],
+    "habitat": "Reef-associated, typically reported at depths of 10–20 m",
+    "biotope": "Reef"
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 22, "max": 26 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": null,
+    "salinity": { "min": 1.020, "max": 1.025 }
+  },
+  "adultSizeCm": { "min": 6, "max": 10 },
+  "lifespanYears": null,
+  "tank": {
+    "minVolumeLiters": 200,
+    "minLengthCm": 90,
+    "swimZone": "mid",
+    "decorPreferences": ["live rock", "open swimming space", "sandy substrate"]
+  },
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Generally accepts vitamin-enriched frozen mysis shrimp, vitamin-enriched frozen brine shrimp, and other meaty foods, along with high-quality marine flake and marine pellet food. In the wild, tends to forage for small zooplankton and invertebrates near the reef."
+  },
+  "compatibility": {
+    "temperament": "semi-aggressive",
+    "grouping": "pair",
+    "minGroupSize": 1,
+    "goodWith": ["peaceful reef fish", "small to medium gobies", "cardinalfish", "clownfish", "corals", "ornamental shrimp"],
+    "avoidWith": ["other male fairy wrasses", "other Cirrhilabrus and Paracheilinus species in small tanks", "aggressive wrasses", "large predatory fish"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A small, vividly colored fairy wrasse from Indonesia's Eastern Indian Ocean reefs; generally considered reef-safe and is commonly advised for intermediate-level reef aquariums with a tight-fitting lid.",
+  "careNotes": "Cirrhilabrus naokoae was described by Randall & Tanaka in 2009, with the type specimen originating via the aquarium trade; it is known from the Eastern Indian Ocean around Sumatra, Indonesia, at depths of roughly 10–20 m. Adult size estimates differ between sources: FishBase reports a maximum of 6.0 cm SL (standard length), while LiveAquaria lists 'up to 4 inches' (~10 cm total length) — the discrepancy likely reflects the SL-vs-TL distinction plus sexual dimorphism, with males typically larger. A range of 6–10 cm brackets both figures. Tank-size minimum of 50 US gallons (~189 L) was stated by LiveAquaria; this has been rounded up to 200 L on the nice-values list, reflecting the species' active mid-water swimming behavior and the benefit of open swimming lanes. Like most Cirrhilabrus fairy wrasses, this species has been reported to jump, and a tight-fitting canopy is strongly advised. Semi-aggressive temperament primarily applies to conspecific males and other wrasses in the Cirrhilabrus and Paracheilinus genera; in mixed-species reef tanks with dissimilar fish, it tends to be more peaceful. Males display brighter coloration (red dorsally, bluish-white ventrally, with a broad yellow stripe) than females, and color intensity varies with mood. The IUCN lists this species as Vulnerable (VU) as of November 2023, with a limited known range; wild-caught specimens should be considered with conservation awareness. 'Distinct pairing during breeding' is documented in the wild (FishBase), consistent with other Cirrhilabrus wrasses that are protogynous sequential hermaphrodites forming harems. Best kept as a single male or as a male with one or more females introduced simultaneously.",
+  "breedingNotes": "Captive spawning has not been reliably reported. Wild behavior includes distinct pairing during spawning events, consistent with the harem-based social structure common to Cirrhilabrus; replicating harem social conditions may encourage nuptial display behavior in larger reef systems.",
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/naokos-fairy-wrasse",
+      "accessedDate": "2026-06-03",
+      "notes": "Species product page used for adult size (~4 in TL), temperature (72–78°F → 22–26°C), pH (8.1–8.4), SG (1.020–1.025), minimum tank (50 gal), care level, diet, semi-aggressive temperament, reef-safe status, and escape-risk note. The PRIMARY_SOURCE_URL supplied was the wrasse collection page; the direct product page was retrieved via search."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Cirrhilabrus-naokoae.html",
+        "accessedDate": "2026-06-03",
+        "notes": "Cross-verified taxonomy (family Labridae, order Eupercaria), maximum size (6.0 cm SL), native range (Eastern Indian Ocean: Indonesia, Sumatra), habitat depth (10–20 m), trophic level (3.3), distinct pairing during breeding. IUCN status: Vulnerable (VU). Size disagreement with LiveAquaria: FishBase 6.0 cm SL vs LiveAquaria ~10 cm TL — likely SL-vs-TL distinction; range of 6–10 cm adopted. FishBase ecology page was not in the public version, so water-parameter data came from LiveAquaria only."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": null,
+    "conspecificAggression": "moderate",
+    "finNippy": false,
+    "reefSafe": "yes",
+    "escapeRisk": "high",
+    "venomousSpines": false,
+    "protogynous": true,
+    "haremic": true,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy"
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-03"
+}

@@ -1,0 +1,125 @@
+{
+  "id": "sw-fish-492",
+  "slug": "blood-spot-anthias",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Blood Spot Anthias",
+  "scientificName": "Pseudanthias luzonensis",
+  "alsoKnownAs": ["Yellow-lined Anthias", "Yellowlined Anthias"],
+  "category": "Anthias",
+
+  "taxonomy": {
+    "family": "Anthiadidae",
+    "order": "Perciformes"
+  },
+
+  "nativeRange": {
+    "regions": ["Western Pacific", "Oceania"],
+    "countries": ["Japan", "Australia", "Vanuatu", "Philippines"],
+    "habitat": "Coastal reefs, steep outer reef slopes and drop-offs, typically at depths of 10–60 m, often found in small aggregations in the water column above the reef structure.",
+    "biotope": "Reef"
+  },
+
+  "waterParameters": {
+    "temperatureC": { "min": 22.0, "max": 26.0 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": { "min": 8.0, "max": 12.0 },
+    "salinity": { "min": 1.020, "max": 1.025 }
+  },
+
+  "adultSizeCm": { "min": 8.0, "max": 13.0 },
+  "lifespanYears": null,
+
+  "tank": {
+    "minVolumeLiters": 500,
+    "minLengthCm": 150,
+    "swimZone": "mid",
+    "decorPreferences": ["live rock", "open swimming space", "caves and overhangs for refuge"]
+  },
+
+  "careLevel": "intermediate",
+
+  "diet": {
+    "type": "planktivore",
+    "notes": "Zooplanktivore in the wild. In captivity, have been reported to accept enriched frozen mysis shrimp, frozen brine shrimp, rotifers, calanus, and other small frozen preparations. Vitamin and fatty acid supplementation is generally recommended. Multiple small feedings throughout the day tend to work better than one or two large feedings. Live copepods and amphipods from a refugium have been documented providing valuable supplemental nutrition."
+  },
+
+  "compatibility": {
+    "temperament": "semi-aggressive",
+    "grouping": "shoaling",
+    "minGroupSize": 6,
+    "goodWith": ["peaceful reef fish", "corals", "non-aggressive invertebrates", "tangs", "wrasses", "clownfish"],
+    "avoidWith": ["other anthias species", "highly aggressive fish", "large predatory fish"]
+  },
+
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+
+  "summary": "A colorful reef anthias from the Western Pacific, generally considered intermediate in care due to its need for multiple small daily feedings and a stable group dynamic. Best kept as a harem of one male with several females in a spacious reef tank.",
+
+  "careNotes": "Pseudanthias luzonensis is a protogynous hermaphrodite: if the dominant male is lost, the largest female in the group will typically change sex to replace him. Sources generally recommend keeping them in groups of at least 6 individuals, ideally one male with multiple females, as all-female groups eventually produce their own male. Males tend to quarrel when multiple are present, so keeping only one male is advised unless the tank is very large. Best kept as the only anthias species in the aquarium to reduce inter-species competition. These fish are active open-water swimmers and tend to stay in the middle column of the water, appreciating ample open swimming space as well as live rock structures to retreat to. Acclimation can be stressful, and newly acquired specimens have been documented occasionally reverting to live foods only; offering a variety of small frozen foods multiple times daily and having an established refugium supplying live copepods are commonly recommended practices. Susceptible to bacterial and protozoan infections, particularly during transport stress.",
+
+  "breedingNotes": "Rarely bred in captivity. Protogynous hermaphrodites that naturally form harems; sexual transformation from female to male can be triggered by removal of the dominant male. No well-documented captive spawning protocols were found in hobby sources.",
+
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/blood-spot-anthias",
+      "accessedDate": "2026-06-03",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "aquaticsunlimited.com",
+        "url": "https://aquaticsunlimited.com/product/anthias-yellow-lined-pseudanthias-luzonensis/",
+        "accessedDate": "2026-06-03",
+        "notes": "Cross-checked sizing, water parameters, tank size, temperament, and grouping behavior. Agrees on 125 gal / 5 in size / semi-aggressive / groups of 6+. Also notes susceptibility to bacterial/protozoan infection and risk of live-food-only reversion under stress."
+      },
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Pseudanthias-luzonensis.html",
+        "accessedDate": "2026-06-03",
+        "notes": "Used for taxonomy (family Anthiadidae, order Perciformes), native range (Western Pacific: Japan south to Australia, east to Vanuatu), and max size confirmation (14.5 cm TL). FishBase temperature range 22–27°C; hobby sources give 22–25.6°C. Final max temperature set to 26°C as average of the three source maxima."
+      }
+    ]
+  },
+
+  "fish": {
+    "breedingDifficulty": "advanced",
+    "breedingNotes": "Rarely if ever bred in captivity. Protogynous hermaphrodites; harem social structure with one dominant male. Sex change triggered by loss of dominant male.",
+    "conspecificAggression": "moderate",
+    "finNippy": false,
+    "reefSafe": "yes",
+    "escapeRisk": "moderate",
+    "venomousSpines": false,
+    "protogynous": true,
+    "haremic": true,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "moderate"
+  },
+
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-03"
+}

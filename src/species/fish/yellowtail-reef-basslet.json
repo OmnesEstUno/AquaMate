@@ -1,0 +1,109 @@
+{
+  "id": "sw-fish-497",
+  "slug": "yellowtail-reef-basslet",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Yellowtail Reef Basslet",
+  "scientificName": "Pseudanthias flavicauda",
+  "alsoKnownAs": ["Yellowtail Anthias", "Yellow-Tail Anthias"],
+  "category": "Anthias",
+  "taxonomy": {
+    "family": "Anthiadidae",
+    "order": "Perciformes"
+  },
+  "nativeRange": {
+    "regions": ["Western Pacific"],
+    "countries": ["Fiji", "Tonga"],
+    "habitat": "Reef-associated; found at depths of approximately 30–61 m on coral reef slopes",
+    "biotope": "Reef"
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 24, "max": 27 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.020, "max": 1.025 }
+  },
+  "adultSizeCm": { "min": 5.0, "max": 8.0 },
+  "lifespanYears": null,
+  "tank": {
+    "minVolumeLiters": 200,
+    "minLengthCm": 100,
+    "swimZone": "mid",
+    "decorPreferences": ["live rock", "caves", "overhangs", "open swimming space"]
+  },
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Generally accepts frozen mysis shrimp, enriched frozen brine shrimp, and copepods. Have been known to take high-quality flake or pellet foods once acclimated. Multiple small feedings per day are commonly advised to meet the metabolic demands of this active species. A refugium cultivating live copepods and amphipods is generally considered beneficial."
+  },
+  "compatibility": {
+    "temperament": "semi-aggressive",
+    "grouping": "shoaling",
+    "minGroupSize": 3,
+    "goodWith": ["peaceful reef fish", "corals", "other anthias (with caution)", "wrasses", "clownfish"],
+    "avoidWith": ["large aggressive fish", "predatory fish", "other dominant haremic males of the same species"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A small, colorful anthias from deeper reefs in Fiji and Tonga. Males display striking magenta-and-yellow coloration; females are orange-pink with a yellow caudal fin. Generally considered reef-safe and best kept in groups of three or more.",
+  "careNotes": "Pseudanthias flavicauda is a protogynous hermaphrodite — the dominant female in a group will typically transition to male if the male is lost. In the aquarium, this species tends to do best when kept as a small harem (one male with two or more females) rather than as a single specimen. Multiple small feedings per day are commonly advised due to the high metabolic activity typical of anthias. A refugium producing live copepods and amphipods has been reported to support long-term health. The species inhabits deeper reef environments in the wild (30–61 m), and indirect or lower lighting may help maintain coloration and reduce stress. Water quality tends to be more critical for anthias than for many other reef fish — stable parameters and low nitrates are generally recommended. This species is rarely seen in the aquarium trade compared to hardier anthias such as Lyretail or Bartlett's Anthias, and relatively little captive-care documentation exists specifically for P. flavicauda. Care guidance for closely related Pseudanthias species (notably P. bartlettorum and P. pleurotaenia) is broadly applicable. Note: the common name 'Yellowtail Reef Basslet' is sometimes applied to a wholly unrelated species, Liopropoma mitratum (family Grammatidae), which is also sold under this name in the US trade. Confirm the scientific name when purchasing.",
+  "breedingNotes": "Like most Pseudanthias, P. flavicauda is a batch spawner and protogynous hermaphrodite. Captive breeding has not been documented in the hobbyist literature for this specific species. Spawning in related anthias has occasionally been observed in large reef systems but rearing larvae to adulthood in captivity remains very rare.",
+  "sources": {
+    "primary": {
+      "name": "FishBase",
+      "url": "https://www.fishbase.se/summary/Pseudanthias-flavicauda.html",
+      "accessedDate": "2026-06-03",
+      "notes": "Primary biological source for P. flavicauda. The originally assigned LiveAquaria URL (https://www.liveaquaria.com/products/yellowtail-reef-basslet) resolves to Liopropoma mitratum — a different species sharing the same common name — and was not used for husbandry data. FishBase (species ID 60819) was used as the confirmed primary source."
+    },
+    "additional": [
+      {
+        "name": "LiveAquaria",
+        "url": "https://www.liveaquaria.com/products/bartletts-anthias",
+        "accessedDate": "2026-06-03",
+        "notes": "Cross-reference for anthias husbandry parameters using Bartlett's Anthias (P. bartlettorum), a closely related congener. Used to cross-check tank size (70 gal / ~265 L for P. bartlettorum, which is slightly larger at ~8.9 cm), temperature range (72–78°F / 22.2–25.6°C), salinity 1.020–1.025, pH 8.1–8.4, dKH 8–12, and feeding/behavior profile. Temperature cross-source note: FishBase gives 25–26.9°C for P. flavicauda (tropical deep-reef); LiveAquaria congener range is 22.2–25.6°C. These overlap around 24–25°C; synthesized range of 24–27°C adopted, biased toward FishBase wild-habitat data for this deeper-water species."
+      },
+      {
+        "name": "LiveAquaria",
+        "url": "https://www.liveaquaria.com/products/squareback-anthias",
+        "accessedDate": "2026-06-03",
+        "notes": "Additional congener reference (P. pleurotaenia, Squareback Anthias) confirming water parameters, feeding profile, and haremic social behavior patterns typical of Pseudanthias. Tank minimum 100 gal / ~380 L for this larger species (~7.75 in / ~19.7 cm). Used to validate grouping and care-level assessments."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "Captive breeding not documented for this species. Protogynous batch spawner; spawning occasionally observed in large reef systems but larval rearing is very rarely reported.",
+    "conspecificAggression": "moderate",
+    "finNippy": false,
+    "reefSafe": "yes",
+    "escapeRisk": "moderate",
+    "venomousSpines": false,
+    "protogynous": true,
+    "haremic": true,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "moderate"
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "needs_review",
+  "lastReviewed": "2026-06-03"
+}
