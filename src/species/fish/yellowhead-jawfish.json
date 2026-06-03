@@ -37,7 +37,11 @@
       "Colombia"
     ],
     "habitat": "Reef-associated sandy and rubble flats adjacent to coral reefs, generally at 3–40 m depth; constructs and maintains vertical burrows in mixed sand and crushed-coral substrate, hovering vertically above the burrow opening",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 3,
+      "max": 40
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -76,7 +80,8 @@
       "live rock perimeter set on the bottom glass (rock should rest on glass, not on sand, so burrows can't undermine it)",
       "open sandy footprint in the foreground",
       "tight-fitting lid or canopy — non-negotiable due to high jumping risk"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -160,7 +165,7 @@
     "reefSafe": "yes",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": false,
@@ -171,7 +176,12 @@
     "monogamousPairing": true,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": "moderate"
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": true,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

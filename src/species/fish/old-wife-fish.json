@@ -27,7 +27,8 @@
       "Australia"
     ],
     "habitat": "Endemic to Australian coastal waters, ranging from southern Queensland around the southern coast to southwestern Western Australia, including Tasmania. Juveniles tend to occupy estuaries and shallow rocky reefs with seagrass; adults are found on inshore and offshore rocky reefs at depths reported between roughly 1 and 90 m.",
-    "biotope": "Rocky reef"
+    "biotope": "Rocky reef",
+    "depthRangeM": null
   },
   "waterParameters": {
     "temperatureC": {
@@ -66,7 +67,8 @@
       "crevices",
       "open swimming space",
       "moderate current"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -141,7 +143,7 @@
     "reefSafe": "no",
     "escapeRisk": "low",
     "venomousSpines": true,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -152,7 +154,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": "moderate"
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

@@ -50,7 +50,8 @@
       "French Polynesia"
     ],
     "habitat": "Coral-rich areas of deep lagoons and seaward reefs, from the lower surge zone down to roughly 50 m; tends to be territorial and is generally observed close to rockwork and coral cover",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": null
   },
   "waterParameters": {
     "temperatureC": {
@@ -86,7 +87,8 @@
       "open swimming space",
       "FOWLR or species-only setup",
       "secured equipment and protected wiring"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -158,7 +160,7 @@
     "reefSafe": "no",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -169,7 +171,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

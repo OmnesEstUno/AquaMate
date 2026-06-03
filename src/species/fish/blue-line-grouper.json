@@ -32,7 +32,11 @@
       "Sri Lanka"
     ],
     "habitat": "Shallow dead or silty reefs; depth range generally 1–30 m, most commonly 1–15 m",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 1,
+      "max": 30
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -70,7 +74,8 @@
       "caves",
       "overhangs",
       "hiding spots"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -140,7 +145,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": true,
+    "sexChange": "protogynous",
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -151,7 +156,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

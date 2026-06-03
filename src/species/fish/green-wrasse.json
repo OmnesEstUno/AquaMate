@@ -30,7 +30,11 @@
       "Australia"
     ],
     "habitat": "Shallow protected coral reef environments, silty sand and rubble bottoms, lagoons and inner reef slopes typically at depths of 0–10 m.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 0,
+      "max": 10
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -68,7 +72,8 @@
       "open swimming space",
       "fine sand bed at least 5 cm deep for burrowing",
       "tightly fitting lid"
-    ]
+    ],
+    "minSandDepthCm": 5
   },
   "careLevel": "beginner",
   "diet": {
@@ -146,7 +151,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": true,
+    "sexChange": "protandrous",
     "haremic": true,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -157,7 +162,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": null,
     "toxicToTank": false,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

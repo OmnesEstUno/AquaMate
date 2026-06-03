@@ -33,7 +33,11 @@
       "Fiji"
     ],
     "habitat": "Reef-associated; adults tend to inhabit protected reef flats in lagoons and inshore reefs at shallow depths (0–4 m)",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 0,
+      "max": 4
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -71,7 +75,8 @@
       "caves",
       "crevices",
       "overhangs"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
@@ -145,7 +150,7 @@
     "reefSafe": "yes",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": false,
+    "sexChange": "none",
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -156,7 +161,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

@@ -25,7 +25,11 @@
     ],
     "countries": [],
     "habitat": "Clear coastal coral reefs in bays and semi-exposed reef edges, generally 3-20 m depth and most often 3-8 m, among living stony corals.",
-    "biotope": "Live coral cover on shallow tropical reefs."
+    "biotope": "Live coral cover on shallow tropical reefs.",
+    "depthRangeM": {
+      "min": 3,
+      "max": 20
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -59,7 +63,8 @@
       "established reef with multiple live stony coral colonies",
       "ample live rock with crevices for perching and shelter",
       "tightly fitted lid"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "expert",
   "diet": {
@@ -118,7 +123,7 @@
     "reefSafe": "no",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": false,
+    "sexChange": "none",
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -129,7 +134,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "difficult"
+    "feedingDifficulty": "difficult",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

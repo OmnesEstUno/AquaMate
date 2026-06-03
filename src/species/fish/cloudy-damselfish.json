@@ -6,32 +6,79 @@
   "waterType": "saltwater",
   "commonName": "Cloudy Damselfish",
   "scientificName": "Dascyllus carneus",
-  "alsoKnownAs": ["Cloudy Dascyllus", "Indian Dascyllus", "Twobar Humbug"],
+  "alsoKnownAs": [
+    "Cloudy Dascyllus",
+    "Indian Dascyllus",
+    "Twobar Humbug"
+  ],
   "category": "Damsel",
   "taxonomy": {
     "family": "Pomacentridae",
     "order": "Ovalentaria incertae sedis"
   },
   "nativeRange": {
-    "regions": ["Western Indian Ocean", "Indian Ocean"],
-    "countries": ["Kenya", "Tanzania", "Mozambique", "South Africa", "Mauritius", "Réunion", "Seychelles", "Maldives", "Sri Lanka", "India", "Indonesia"],
+    "regions": [
+      "Western Indian Ocean",
+      "Indian Ocean"
+    ],
+    "countries": [
+      "Kenya",
+      "Tanzania",
+      "Mozambique",
+      "South Africa",
+      "Mauritius",
+      "Réunion",
+      "Seychelles",
+      "Maldives",
+      "Sri Lanka",
+      "India",
+      "Indonesia"
+    ],
     "habitat": "Inshore and offshore coral reefs at depths of roughly 5-40 m, generally associated with branching corals.",
-    "biotope": "Tropical Indian Ocean coral reef among branching corals such as Acropora and Pocillopora, where small aggregations hover above the colonies to feed on zooplankton."
+    "biotope": "Tropical Indian Ocean coral reef among branching corals such as Acropora and Pocillopora, where small aggregations hover above the colonies to feed on zooplankton.",
+    "depthRangeM": {
+      "min": 5,
+      "max": 40
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 26 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 22,
+      "max": 26
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 6.5, "max": 7.5 },
-  "lifespanYears": { "min": 5, "max": 10 },
+  "adultSizeCm": {
+    "min": 6.5,
+    "max": 7.5
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 10
+  },
   "tank": {
     "minVolumeLiters": 120,
     "minLengthCm": 90,
     "swimZone": "mid",
-    "decorPreferences": ["live rock", "branching coral", "caves and crevices", "open swimming space above rockwork"]
+    "decorPreferences": [
+      "live rock",
+      "branching coral",
+      "caves and crevices",
+      "open swimming space above rockwork"
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
@@ -42,8 +89,21 @@
     "temperament": "semi-aggressive",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["larger semi-aggressive reef fish", "tangs", "wrasses", "angelfishes", "most reef invertebrates", "corals"],
-    "avoidWith": ["small timid fish", "Chromis and cardinalfish in small tanks", "batfish and other slow feeders", "conspecifics in tanks under ~200 L", "newly added tankmates after the damsel is established"]
+    "goodWith": [
+      "larger semi-aggressive reef fish",
+      "tangs",
+      "wrasses",
+      "angelfishes",
+      "most reef invertebrates",
+      "corals"
+    ],
+    "avoidWith": [
+      "small timid fish",
+      "Chromis and cardinalfish in small tanks",
+      "batfish and other slow feeders",
+      "conspecifics in tanks under ~200 L",
+      "newly added tankmates after the damsel is established"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -83,7 +143,7 @@
     "reefSafe": "yes",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": false,
+    "sexChange": "none",
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -94,7 +154,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

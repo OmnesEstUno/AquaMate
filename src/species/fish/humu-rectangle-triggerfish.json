@@ -39,7 +39,11 @@
       "Papua New Guinea"
     ],
     "habitat": "Shallow outer reefs subject to surge; spur-and-groove zones with bare rock, rubble, and coral; depth range 0–20 m",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 0,
+      "max": 20
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -73,7 +77,8 @@
       "rocks",
       "caves",
       "open swimming space"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
@@ -167,7 +172,7 @@
     "reefSafe": "no",
     "escapeRisk": null,
     "venomousSpines": null,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -178,7 +183,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

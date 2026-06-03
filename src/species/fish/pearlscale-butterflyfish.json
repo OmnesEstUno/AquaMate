@@ -28,7 +28,8 @@
       "Japan"
     ],
     "habitat": "Reef-associated, non-migratory; commonly observed on clear coastal to outer reef slopes and drop-offs, typically below 15 m, often associated with staghorn coral thickets",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": null
   },
   "waterParameters": {
     "temperatureC": {
@@ -67,7 +68,8 @@
       "open swimming space",
       "fine sand or crushed coral substrate",
       "no stony or soft corals"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -141,7 +143,7 @@
     "reefSafe": "no",
     "escapeRisk": null,
     "venomousSpines": null,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -152,7 +154,12 @@
     "monogamousPairing": true,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": "moderate"
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

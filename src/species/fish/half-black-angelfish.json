@@ -29,7 +29,11 @@
       "Vanuatu"
     ],
     "habitat": "Adults tend to inhabit lagoons and seaward reefs, primarily in coral-rich areas, at depths of 0–30 m.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 0,
+      "max": 30
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -67,7 +71,8 @@
       "caves",
       "hiding spots",
       "established algae growth"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -136,7 +141,7 @@
     "reefSafe": "with caution",
     "escapeRisk": null,
     "venomousSpines": null,
-    "protogynous": null,
+    "sexChange": "protogynous",
     "haremic": true,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -147,7 +152,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

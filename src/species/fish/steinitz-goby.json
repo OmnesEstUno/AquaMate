@@ -41,7 +41,11 @@
       "Micronesia"
     ],
     "habitat": "Sandy and rubble areas of outer lagoons, seaward reefs, and estuaries, typically at depths of 2–43 m, generally found sharing a burrow with an alpheid (pistol) shrimp",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 2,
+      "max": 43
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -76,7 +80,8 @@
       "live rock with rubble at base",
       "stable rockwork providing burrow shelter",
       "open sandy footprint"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
@@ -142,7 +147,7 @@
     "reefSafe": "yes",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -153,7 +158,12 @@
     "monogamousPairing": true,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": true,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

@@ -41,7 +41,11 @@
       "Indonesia"
     ],
     "habitat": "Coastal and sheltered reef flats, rocky reef bottoms; found at depths of approximately 5–30 m, typically in small groups",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 5,
+      "max": 30
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -77,7 +81,8 @@
       "hiding places",
       "strong water flow",
       "tight-fitting lid"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -154,7 +159,7 @@
     "reefSafe": "yes",
     "escapeRisk": "moderate",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": "protogynous",
     "haremic": null,
     "caudalScalpel": true,
     "nocturnal": null,
@@ -165,7 +170,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

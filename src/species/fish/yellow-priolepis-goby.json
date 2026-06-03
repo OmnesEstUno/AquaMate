@@ -6,66 +6,109 @@
   "waterType": "saltwater",
   "commonName": "Yellow Priolepis Goby",
   "scientificName": "Priolepis aureoviridis",
-  "alsoKnownAs": ["Yellow-Green Goby", "Golden Green Goby", "Golden Goby"],
+  "alsoKnownAs": [
+    "Yellow-Green Goby",
+    "Golden Green Goby",
+    "Golden Goby"
+  ],
   "category": "Gobies",
-
   "taxonomy": {
     "family": "Gobiidae",
     "order": "Gobiiformes"
   },
-
   "nativeRange": {
-    "regions": ["Western Central Pacific", "Eastern Central Pacific"],
-    "countries": ["Micronesia", "United States"],
+    "regions": [
+      "Western Central Pacific",
+      "Eastern Central Pacific"
+    ],
+    "countries": [
+      "Micronesia",
+      "United States"
+    ],
     "habitat": "Shallow seaward reefs at depths of roughly 6–60 m; tends to inhabit caves, overhangs, and crevices in coral reef structure",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 6,
+      "max": 60
+    }
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 22.2, "max": 28.0 },
-    "pH":           { "min": 8.1,  "max": 8.4 },
-    "gH":           null,
-    "kH":           { "min": 8.0,  "max": 12.0 },
-    "salinity":     { "min": 1.020, "max": 1.025 }
+    "temperatureC": {
+      "min": 22.2,
+      "max": 28
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-
-  "adultSizeCm":   { "min": 5.0, "max": 6.6 },
-  "lifespanYears": { "min": 2.0, "max": 4.0 },
-
+  "adultSizeCm": {
+    "min": 5,
+    "max": 6.6
+  },
+  "lifespanYears": {
+    "min": 2,
+    "max": 4
+  },
   "tank": {
     "minVolumeLiters": 100,
     "minLengthCm": 60,
     "swimZone": "bottom",
-    "decorPreferences": ["rockwork", "caves", "overhangs", "crevices", "rubble substrate"]
+    "decorPreferences": [
+      "rockwork",
+      "caves",
+      "overhangs",
+      "crevices",
+      "rubble substrate"
+    ],
+    "minSandDepthCm": null
   },
-
   "careLevel": "intermediate",
-
   "diet": {
     "type": "carnivore",
     "notes": "Has been documented accepting vitamin-enriched mysis shrimp, brine shrimp, frozen seafood mixes, and small live invertebrates such as copepods and amphipods. Multiple small feedings per day are generally advised, particularly during the acclimation period. A mature reef with natural microfauna tends to supplement captive feeding."
   },
-
   "compatibility": {
     "temperament": "peaceful",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["peaceful reef fish", "small wrasses", "clownfish", "dartfish", "soft corals", "LPS corals", "ornamental shrimp", "snails", "hermit crabs"],
-    "avoidWith": ["aggressive fish", "large groupers", "triggerfishes", "dottybacks", "other Priolepis gobies", "aggressive angelfishes"]
+    "goodWith": [
+      "peaceful reef fish",
+      "small wrasses",
+      "clownfish",
+      "dartfish",
+      "soft corals",
+      "LPS corals",
+      "ornamental shrimp",
+      "snails",
+      "hermit crabs"
+    ],
+    "avoidWith": [
+      "aggressive fish",
+      "large groupers",
+      "triggerfishes",
+      "dottybacks",
+      "other Priolepis gobies",
+      "aggressive angelfishes"
+    ]
   },
-
   "media": {
     "primaryImage": null,
     "gallery": [],
     "imageCandidates": null
   },
-
   "summary": "A secretive, peaceful nano reef goby from Pacific reefs, displaying a bright yellow-green body with faint vertical bars. Generally considered suitable for reef tanks; tends to shelter in rockwork and caves and is rarely seen in the trade.",
-
   "careNotes": "The Yellow Priolepis Goby is a cryptic, benthic species that tends to spend most of its time resting within rockwork, caves, and crevices rather than swimming in the open. Ample hiding spots — overhangs, rubble substrate, and stacked live rock — are generally considered important to its wellbeing. It has been known to be territorial toward conspecifics and other gobies sharing similar cryptic niches, so keeping it singly or as a confirmed mated pair is commonly advised.\n\nFeeding requires attention: newly introduced specimens may need coaxing with live artemia or enriched frozen mysis. Once settled, they tend to accept frozen mysis, brine shrimp, and small prepared marine foods, but multiple small feedings per day are advisable. A well-established reef with live rock and natural microfauna can supplement its diet.\n\nThis species has been reported to jump, and a tightly sealed lid is commonly recommended. All Priolepis species are protogynous hermaphrodites (female-first sex change), a trait documented across the genus by captive breeding research (F. Baensch, Hawaii).\n\nTemperature note: aquarium hobby sources generally suggest 22–26 °C, while FishBase environmental modeling for wild Pacific reef habitat places the range closer to 25–29 °C. The range used here (22.2–28.0 °C) spans both. Captive specimens have been maintained successfully across that span.\n\nNative range discrepancy: LiveAquaria's listing references the Visayas (Philippines), while FishBase records the species distribution as Micronesia (Ant Atoll, Pohnpei) and the Eastern Central Pacific (Hawaiian Islands, Johnston Atoll). The FishBase distribution is used here as the more authoritative source. The Visayas reference may reflect a collection location rather than the species' core range.",
-
   "breedingNotes": "Captive breeding has been documented by researcher Frank Baensch in Hawaii. Spawning has been reported to occur approximately every 6–7 days with clutch sizes of 500–900 eggs; males guard and ventilate the nest. Larval duration is reported at around 65 days, which is long for a goby, and late-stage larvae have been noted as fragile and slow-growing, making rearing challenging. All Priolepis species are protogynous hermaphrodites.",
-
   "sources": {
     "primary": {
       "name": "LiveAquaria",
@@ -100,7 +143,6 @@
       }
     ]
   },
-
   "fish": {
     "breedingDifficulty": "advanced",
     "breedingNotes": "Captive breeding documented but challenging due to 65-day larval duration and fragile late-stage larvae; spawning every 6–7 days, clutch 500–900 eggs, male guards nest.",
@@ -109,7 +151,7 @@
     "reefSafe": "yes",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": true,
+    "sexChange": "protandrous",
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -120,9 +162,13 @@
     "monogamousPairing": false,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "moderate"
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": true,
+    "cleanerFish": null,
+    "euryhaline": null
   },
-
   "crustacean": null,
   "coral": null,
   "mollusc": null,
@@ -130,7 +176,6 @@
   "other-invert": null,
   "plant": null,
   "macroalgae": null,
-
   "schemaVersion": 1,
   "dataStatus": "researched",
   "lastReviewed": "2026-06-03"

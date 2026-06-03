@@ -34,7 +34,11 @@
       "Panama"
     ],
     "habitat": "Reef-associated; inhabits subtidal zones from 0–60 m depth (typically 3–18 m). Found anchored to gorgonians, black coral trees, mangroves, seagrass meadows, rocky reefs, kelp, and eelgrass beds. Reported as nocturnal.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 0,
+      "max": 60
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -75,7 +79,8 @@
       "seagrass",
       "hitching posts",
       "low-flow zones"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "advanced",
   "diet": {
@@ -154,7 +159,7 @@
     "reefSafe": "with caution",
     "escapeRisk": null,
     "venomousSpines": null,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -165,7 +170,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

@@ -26,7 +26,11 @@
       "Australia"
     ],
     "habitat": "Generally found on outer reef edges and coral-rich areas of the Great Barrier Reef and surrounding Coral Sea, including Lord Howe Island. Tends to occur at depths of about 2–40 m (most commonly 8–25 m), where small to large midwater aggregations feed on zooplankton above coralliferous reef structure.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 2,
+      "max": 40
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -64,7 +68,8 @@
       "open swimming space",
       "coral formations",
       "nooks and crannies in rockwork"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -144,7 +149,7 @@
     "reefSafe": "yes",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": false,
@@ -155,7 +160,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": true,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

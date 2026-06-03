@@ -40,7 +40,11 @@
       "Papua New Guinea"
     ],
     "habitat": "Coastal estuaries, river mouths, mangrove swamps, lagoons, and shallow reef-associated areas; typically encountered at depths of about 4–60 m and often within a few kilometres of the sea.",
-    "biotope": "Estuary / Mangrove / Coastal Reef"
+    "biotope": "Estuary / Mangrove / Coastal Reef",
+    "depthRangeM": {
+      "min": 4,
+      "max": 60
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -72,7 +76,8 @@
       "live rock",
       "hiding places",
       "open swimming space"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -140,7 +145,7 @@
     "reefSafe": "no",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": false,
+    "sexChange": "none",
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -151,7 +156,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": true
   },
   "crustacean": null,
   "coral": null,

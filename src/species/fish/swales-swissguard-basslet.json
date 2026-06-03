@@ -6,32 +6,65 @@
   "waterType": "saltwater",
   "commonName": "Swales Swissguard Basslet",
   "scientificName": "Liopropoma swalesi",
-  "alsoKnownAs": ["Swalesi Basslet", "Swale's Swissguard"],
+  "alsoKnownAs": [
+    "Swalesi Basslet",
+    "Swale's Swissguard"
+  ],
   "category": "Basslet",
   "taxonomy": {
     "family": "Liopropomatidae",
     "order": "Perciformes"
   },
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Western Pacific"],
-    "countries": ["Vanuatu", "Philippines", "Indonesia", "Papua New Guinea"],
+    "regions": [
+      "Indo-Pacific",
+      "Western Pacific"
+    ],
+    "countries": [
+      "Vanuatu",
+      "Philippines",
+      "Indonesia",
+      "Papua New Guinea"
+    ],
     "habitat": "Reef-associated; tends to be found at moderate to greater depths among dense coral formations",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 27 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 24,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 3, "max": 6 },
+  "adultSizeCm": {
+    "min": 3,
+    "max": 6
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 120,
     "minLengthCm": null,
     "swimZone": "bottom",
-    "decorPreferences": ["live rock", "caves", "crevices", "overhangs"]
+    "decorPreferences": [
+      "live rock",
+      "caves",
+      "crevices",
+      "overhangs"
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -42,8 +75,15 @@
     "temperament": "semi-aggressive",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["peaceful reef fish", "larger invertebrates", "corals"],
-    "avoidWith": ["small ornamental crustaceans that fit in its mouth", "aggressive fish"]
+    "goodWith": [
+      "peaceful reef fish",
+      "larger invertebrates",
+      "corals"
+    ],
+    "avoidWith": [
+      "small ornamental crustaceans that fit in its mouth",
+      "aggressive fish"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -83,7 +123,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -94,7 +134,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "moderate"
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

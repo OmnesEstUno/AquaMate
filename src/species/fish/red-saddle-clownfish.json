@@ -30,7 +30,11 @@
       "Indonesia"
     ],
     "habitat": "Silty coastal waters, sheltered bays, and reef-adjacent lagoons at depths of roughly 2–15 m, where adults are typically associated with a host sea anemone",
-    "biotope": "Lagoon"
+    "biotope": "Lagoon",
+    "depthRangeM": {
+      "min": 2,
+      "max": 15
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -65,7 +69,8 @@
       "live rock",
       "open swimming area near anemone",
       "scattered rockwork forming a defensible territory"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -101,8 +106,7 @@
     "imageCandidates": null
   },
   "summary": "The Red Saddle Clownfish (Amphiprion ephippium) is a deep red-orange anemonefish from the Eastern Indian Ocean. Generally considered intermediate in difficulty; tends to be semi-aggressive toward conspecifics and benefits from a host anemone.",
-  "careNotes": "The Red Saddle Clownfish, also widely sold as the Red Saddleback Clownfish or Fire Clownfish, is one of the more striking Amphiprion species: adults are typically a uniform deep red-orange with a single dark 'saddle' patch on the upper flank and no head bar in mature fish. Juveniles often show a thin white head line that gradually fades as the dark saddle emerges with maturity. This distinguishes A. ephippium from the superficially similar A. polymnus (Black Saddleback Clownfish), which retains a prominent white head bar throughout life.\n\nLike all clownfish, A. ephippium is protandrous: every individual is born male, and the dominant individual in a pair becomes the female (the larger fish). When establishing a pair, introducing both fish simultaneously or buying a confirmed mated pair is generally advised to reduce aggression. This species has been known to be more aggressive toward conspecifics and other clownfish than Ocellaris or Percula — best kept singly or as a true pair, never with other clownfish species in the same tank.\n\nNative host anemones reported in the wild and accepted in aquaria include the Bubble-Tip Anemone (Entacmaea quadricolor) and the Sebae / Leathery Sea Anemone (Heteractis crispa). A host anemone is not strictly required for captive survival, though its presence has been reported to reduce stress and encourage natural behavior; in the absence of an anemone, the fish has been known to attempt to host on stony coral polyps, which the corals do not tolerate well.\n\nWild habitat tends toward silty coastal waters and sheltered bays rather than pristine outer reefs, which may make the species somewhat more tolerant of moderate nutrient levels than strict SPS-reef inhabitants.\n\nWater-parameter notes: temperature recommendations varied across sources — LiveAquaria 72–79°F (22.2–26.1°C), FishBase environmental model 28.4–29.3°C, ReefApp ~26°C; averaged min 24°C, max 27°C. Salinity ranged from SG 1.020–1.025 (LiveAquaria) to ~1.026 (ReefApp); averaged 1.020–1.026. Adult size: LiveAquaria lists 4 in (10.2 cm) while FishBase and ReefApp both record 14 cm TL as the wild maximum; the 10–14 cm range was used to span both retailer and wild data. Tank minimum: LiveAquaria cites 30 gal (~114 L) and ReefApp 150 L (40 gal); given the species' aggression and need for a defensible anemone territory, the figure was rounded conservatively to 150 L."
-  ,
+  "careNotes": "The Red Saddle Clownfish, also widely sold as the Red Saddleback Clownfish or Fire Clownfish, is one of the more striking Amphiprion species: adults are typically a uniform deep red-orange with a single dark 'saddle' patch on the upper flank and no head bar in mature fish. Juveniles often show a thin white head line that gradually fades as the dark saddle emerges with maturity. This distinguishes A. ephippium from the superficially similar A. polymnus (Black Saddleback Clownfish), which retains a prominent white head bar throughout life.\n\nLike all clownfish, A. ephippium is protandrous: every individual is born male, and the dominant individual in a pair becomes the female (the larger fish). When establishing a pair, introducing both fish simultaneously or buying a confirmed mated pair is generally advised to reduce aggression. This species has been known to be more aggressive toward conspecifics and other clownfish than Ocellaris or Percula — best kept singly or as a true pair, never with other clownfish species in the same tank.\n\nNative host anemones reported in the wild and accepted in aquaria include the Bubble-Tip Anemone (Entacmaea quadricolor) and the Sebae / Leathery Sea Anemone (Heteractis crispa). A host anemone is not strictly required for captive survival, though its presence has been reported to reduce stress and encourage natural behavior; in the absence of an anemone, the fish has been known to attempt to host on stony coral polyps, which the corals do not tolerate well.\n\nWild habitat tends toward silty coastal waters and sheltered bays rather than pristine outer reefs, which may make the species somewhat more tolerant of moderate nutrient levels than strict SPS-reef inhabitants.\n\nWater-parameter notes: temperature recommendations varied across sources — LiveAquaria 72–79°F (22.2–26.1°C), FishBase environmental model 28.4–29.3°C, ReefApp ~26°C; averaged min 24°C, max 27°C. Salinity ranged from SG 1.020–1.025 (LiveAquaria) to ~1.026 (ReefApp); averaged 1.020–1.026. Adult size: LiveAquaria lists 4 in (10.2 cm) while FishBase and ReefApp both record 14 cm TL as the wild maximum; the 10–14 cm range was used to span both retailer and wild data. Tank minimum: LiveAquaria cites 30 gal (~114 L) and ReefApp 150 L (40 gal); given the species' aggression and need for a defensible anemone territory, the figure was rounded conservatively to 150 L.",
   "breedingNotes": "Amphiprion ephippium has been reported to breed in home aquariums, with husbandry roughly comparable to other Amphiprion species. The female (the larger of the pair) lays demersal eggs on a flat, cleaned surface near the host anemone or chosen site; both parents participate in guarding and aerating the clutch, with the male performing the bulk of fanning duties. Eggs have been reported to hatch in approximately 8–11 days depending on water temperature. Larval rearing is the primary challenge: newly hatched fry require dedicated rearing tanks and an initial diet of rotifers, transitioning to baby brine shrimp as they develop. Captive-bred specimens are increasingly available and tend to be hardier and more peaceful than wild-caught individuals.",
   "sources": {
     "primary": {
@@ -140,7 +144,7 @@
     "reefSafe": "yes",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": false,
+    "sexChange": "protandrous",
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -151,7 +155,12 @@
     "monogamousPairing": true,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

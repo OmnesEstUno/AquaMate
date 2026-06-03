@@ -39,7 +39,11 @@
       "Samoa"
     ],
     "habitat": "Outer reef slopes over sand and rubble patches; typically found at depths of 20–65 m (recorded range 4–65 m). Tends to hover well above the substrate to spot prey, retreating to burrows constructed in sand and rubble when threatened.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 20,
+      "max": 65
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -75,7 +79,8 @@
       "scattered flat rocks and rubble piles for burrow anchoring",
       "tight-fitting lid or canopy with no open gaps",
       "subdued lighting"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "expert",
   "diet": {
@@ -158,7 +163,7 @@
     "reefSafe": "no",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -169,7 +174,12 @@
     "monogamousPairing": true,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "moderate"
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": true,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

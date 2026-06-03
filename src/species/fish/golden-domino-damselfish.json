@@ -29,7 +29,11 @@
       "Fiji"
     ],
     "habitat": "Reef-associated species occurring around tropical atolls and lagoons at depths of roughly 0–30 m; juveniles have been reported to associate with sea anemones and coral heads in a manner similar to the closely related Threespot Dascyllus",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 0,
+      "max": 30
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -67,7 +71,8 @@
       "rockwork with caves and crevices",
       "open swimming space",
       "host anemone (optional)"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
@@ -148,7 +153,7 @@
     "reefSafe": "yes",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": false,
+    "sexChange": "none",
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -159,7 +164,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

@@ -6,32 +6,67 @@
   "waterType": "saltwater",
   "commonName": "Red Stop Light Cardinalfish",
   "scientificName": "Foa hyalina",
-  "alsoKnownAs": ["Apogonichthys hyalinus", "Hyaline Cardinalfish"],
+  "alsoKnownAs": [
+    "Apogonichthys hyalinus",
+    "Hyaline Cardinalfish"
+  ],
   "category": "Cardinalfish",
   "taxonomy": {
     "family": "Apogonidae",
     "order": "Kurtiformes"
   },
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Western Pacific"],
-    "countries": ["Indonesia", "Philippines"],
+    "regions": [
+      "Indo-Pacific",
+      "Western Pacific"
+    ],
+    "countries": [
+      "Indonesia",
+      "Philippines"
+    ],
     "habitat": "Coral reef; found among coral heads, soft corals (Sinularia), and associated with long-spined urchins at depths of 2–15 m.",
-    "biotope": "Tropical marine reef"
+    "biotope": "Tropical marine reef",
+    "depthRangeM": {
+      "min": 2,
+      "max": 15
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 24.0, "max": 27.5 },
-    "pH":           { "min": 8.1,  "max": 8.4  },
-    "gH":           null,
-    "kH":           { "min": 8.0,  "max": 12.0 },
-    "salinity":     { "min": 1.020, "max": 1.025 }
+    "temperatureC": {
+      "min": 24,
+      "max": 27.5
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm":   { "min": 4.0, "max": 6.4 },
+  "adultSizeCm": {
+    "min": 4,
+    "max": 6.4
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 100,
     "minLengthCm": 60,
     "swimZone": "mid",
-    "decorPreferences": ["live rock", "caves", "coral heads", "hiding spaces", "sea grass"]
+    "decorPreferences": [
+      "live rock",
+      "caves",
+      "coral heads",
+      "hiding spaces",
+      "sea grass"
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
@@ -42,8 +77,19 @@
     "temperament": "peaceful",
     "grouping": "shoaling",
     "minGroupSize": 1,
-    "goodWith": ["clownfish", "gobies", "other cardinalfish", "peaceful reef fish", "soft corals", "stony corals"],
-    "avoidWith": ["large predatory fish", "aggressive territorial species", "very small ornamental shrimp (may be eaten)"]
+    "goodWith": [
+      "clownfish",
+      "gobies",
+      "other cardinalfish",
+      "peaceful reef fish",
+      "soft corals",
+      "stony corals"
+    ],
+    "avoidWith": [
+      "large predatory fish",
+      "aggressive territorial species",
+      "very small ornamental shrimp (may be eaten)"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -89,7 +135,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": false,
     "nocturnal": true,
@@ -100,7 +146,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": true,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

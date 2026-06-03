@@ -43,7 +43,11 @@
       "Samoa"
     ],
     "habitat": "Adults generally inhabit coastal to outer reefs, from silty lagoons to pristine outer reef walls; reported across a depth range of 0–80 m",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 0,
+      "max": 80
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -60,7 +64,7 @@
       "max": 12
     },
     "salinity": {
-      "min": 1.020,
+      "min": 1.02,
       "max": 1.025
     }
   },
@@ -78,7 +82,8 @@
       "caves",
       "open swimming space",
       "sandy substrate"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
@@ -142,7 +147,7 @@
     "reefSafe": "no",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": false,
@@ -153,7 +158,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": false,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

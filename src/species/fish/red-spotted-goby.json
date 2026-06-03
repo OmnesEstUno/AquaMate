@@ -17,25 +17,49 @@
     "order": "Gobiiformes"
   },
   "nativeRange": {
-    "regions": ["Western Pacific"],
+    "regions": [
+      "Western Pacific"
+    ],
     "countries": [],
     "habitat": "Reef-associated; inhabits rubble slopes at the base of vertical cliffs at depths of approximately 22–50 m",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 22,
+      "max": 50
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 27.7, "max": 28.5 },
-    "pH": { "min": 8.1, "max": 8.3 },
+    "temperatureC": {
+      "min": 27.7,
+      "max": 28.5
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.3
+    },
     "gH": null,
     "kH": null,
-    "salinity": { "min": 1.023, "max": 1.026 }
+    "salinity": {
+      "min": 1.023,
+      "max": 1.026
+    }
   },
-  "adultSizeCm": { "min": 2.5, "max": 3.5 },
+  "adultSizeCm": {
+    "min": 2.5,
+    "max": 3.5
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 75,
     "minLengthCm": 45,
     "swimZone": "bottom",
-    "decorPreferences": ["live rock", "rubble", "sand substrate", "caves and crevices"]
+    "decorPreferences": [
+      "live rock",
+      "rubble",
+      "sand substrate",
+      "caves and crevices"
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -46,8 +70,17 @@
     "temperament": "peaceful",
     "grouping": "pair",
     "minGroupSize": 1,
-    "goodWith": ["small peaceful reef fish", "soft corals", "LPS corals", "small invertebrates", "nano reef inhabitants"],
-    "avoidWith": ["large aggressive fish", "predatory fish that consume small gobies"]
+    "goodWith": [
+      "small peaceful reef fish",
+      "soft corals",
+      "LPS corals",
+      "small invertebrates",
+      "nano reef inhabitants"
+    ],
+    "avoidWith": [
+      "large aggressive fish",
+      "predatory fish that consume small gobies"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -81,7 +114,7 @@
     "reefSafe": "yes",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -92,7 +125,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "moderate"
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

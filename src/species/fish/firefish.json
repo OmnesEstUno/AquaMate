@@ -36,7 +36,11 @@
       "New Caledonia"
     ],
     "habitat": "Outer reef slopes and rubble zones, typically found hovering above sandy or rubble substrate near shelter, facing the current to feed on zooplankton",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 6,
+      "max": 28
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -75,7 +79,8 @@
       "crevices",
       "rubble",
       "sandy substrate"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
@@ -152,7 +157,7 @@
     "reefSafe": "yes",
     "escapeRisk": "high",
     "venomousSpines": null,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -163,7 +168,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

@@ -25,7 +25,11 @@
       "Australia"
     ],
     "habitat": "Reef-associated; inhabits coastal and offshore rocky reefs, drop-offs, caves, crevices, and ledges. Generally reported at depths of 3–45 m, most commonly 15–25 m.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 3,
+      "max": 45
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -64,7 +68,8 @@
       "crevices",
       "overhangs",
       "deep rockwork"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -139,7 +144,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": true,
@@ -150,7 +155,12 @@
     "monogamousPairing": true,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": true,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

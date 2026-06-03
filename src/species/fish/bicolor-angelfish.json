@@ -33,7 +33,11 @@
       "East Africa"
     ],
     "habitat": "Lagoon, channel, and protected seaward reef slopes; generally found at depths of about 1–25 m where there is rock and coral rubble for grazing and shelter",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 1,
+      "max": 25
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -72,7 +76,8 @@
       "hiding places",
       "open swimming space",
       "coral rubble"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -136,7 +141,7 @@
     "reefSafe": "with caution",
     "escapeRisk": null,
     "venomousSpines": null,
-    "protogynous": true,
+    "sexChange": "protogynous",
     "haremic": true,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -147,7 +152,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": "moderate"
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": true,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

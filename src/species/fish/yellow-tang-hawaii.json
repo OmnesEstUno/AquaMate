@@ -29,7 +29,11 @@
       "Wake Island"
     ],
     "habitat": "Coral-rich areas of lagoon and seaward reefs; found at depths of 2–46 m, commonly 3–46 m over rock.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 2,
+      "max": 46
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -66,7 +70,8 @@
       "live rock",
       "open swimming lanes",
       "algae growth surfaces"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -159,7 +164,7 @@
     "reefSafe": "yes",
     "escapeRisk": null,
     "venomousSpines": null,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -170,7 +175,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": true,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

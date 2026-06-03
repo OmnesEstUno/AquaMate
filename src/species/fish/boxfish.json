@@ -36,7 +36,11 @@
       "French Polynesia"
     ],
     "habitat": "Generally found on clear lagoon and seaward reefs from the lower surge zone, with depth records ranging from roughly 0–30 m. Two recognised subspecies exist: O. m. camurum (Hawaiian Islands) and O. m. clippertonense (Eastern Pacific).",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 0,
+      "max": 30
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -71,7 +75,8 @@
       "open swimming space",
       "rocky caves",
       "crevices"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "expert",
   "diet": {
@@ -141,7 +146,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": false,
+    "sexChange": "protogynous",
     "haremic": true,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -152,7 +157,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": true,
-    "feedingDifficulty": "moderate"
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

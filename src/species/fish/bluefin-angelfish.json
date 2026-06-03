@@ -37,7 +37,11 @@
       "Indonesia"
     ],
     "habitat": "Coral-rich and rubble areas of lagoon and seaward reefs, typically at depths of 1–30 m.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 1,
+      "max": 30
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -75,7 +79,8 @@
       "caves",
       "crevices",
       "overhangs"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -146,7 +151,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": true,
+    "sexChange": "protandrous",
     "haremic": true,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -157,7 +162,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

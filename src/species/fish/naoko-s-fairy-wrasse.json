@@ -13,25 +13,50 @@
     "order": "Eupercaria"
   },
   "nativeRange": {
-    "regions": ["Eastern Indian Ocean"],
-    "countries": ["Indonesia"],
+    "regions": [
+      "Eastern Indian Ocean"
+    ],
+    "countries": [
+      "Indonesia"
+    ],
     "habitat": "Reef-associated, typically reported at depths of 10–20 m",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 10,
+      "max": 20
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 26 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 22,
+      "max": 26
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
     "kH": null,
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 6, "max": 10 },
+  "adultSizeCm": {
+    "min": 6,
+    "max": 10
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 200,
     "minLengthCm": 90,
     "swimZone": "mid",
-    "decorPreferences": ["live rock", "open swimming space", "sandy substrate"]
+    "decorPreferences": [
+      "live rock",
+      "open swimming space",
+      "sandy substrate"
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -42,8 +67,20 @@
     "temperament": "semi-aggressive",
     "grouping": "pair",
     "minGroupSize": 1,
-    "goodWith": ["peaceful reef fish", "small to medium gobies", "cardinalfish", "clownfish", "corals", "ornamental shrimp"],
-    "avoidWith": ["other male fairy wrasses", "other Cirrhilabrus and Paracheilinus species in small tanks", "aggressive wrasses", "large predatory fish"]
+    "goodWith": [
+      "peaceful reef fish",
+      "small to medium gobies",
+      "cardinalfish",
+      "clownfish",
+      "corals",
+      "ornamental shrimp"
+    ],
+    "avoidWith": [
+      "other male fairy wrasses",
+      "other Cirrhilabrus and Paracheilinus species in small tanks",
+      "aggressive wrasses",
+      "large predatory fish"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -77,7 +114,7 @@
     "reefSafe": "yes",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": true,
+    "sexChange": "protogynous",
     "haremic": true,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -88,7 +125,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

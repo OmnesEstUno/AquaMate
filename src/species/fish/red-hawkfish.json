@@ -36,7 +36,11 @@
       "New Zealand"
     ],
     "habitat": "Reef-associated; typically observed hovering several meters above steep outer-reef slopes and isolated coral heads exposed to currents, feeding on drifting zooplankton at depths of roughly 10–132 m",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 10,
+      "max": 132
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -72,7 +76,8 @@
       "open swimming space above the rockwork",
       "caves",
       "moderate to brisk water flow"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
@@ -152,7 +157,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": true,
+    "sexChange": "protandrous",
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -163,7 +168,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": null,
     "toxicToTank": false,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": true,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

@@ -28,7 +28,8 @@
       "French Polynesia"
     ],
     "habitat": "Reef-associated; tends to inhabit coral-rich outer reef slopes and lagoon walls, grazing on algae and small invertebrates among the rockwork",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": null
   },
   "waterParameters": {
     "temperatureC": {
@@ -45,7 +46,7 @@
       "max": 12
     },
     "salinity": {
-      "min": 1.020,
+      "min": 1.02,
       "max": 1.025
     }
   },
@@ -66,7 +67,8 @@
       "caves",
       "hiding places",
       "established reef with coralline algae growth"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -128,7 +130,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": true,
+    "sexChange": "protandrous",
     "haremic": true,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -139,7 +141,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": true,
     "toxicToTank": false,
-    "feedingDifficulty": "moderate"
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": true,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

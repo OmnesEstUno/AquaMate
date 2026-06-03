@@ -35,7 +35,11 @@
       "Australia"
     ],
     "habitat": "Outer reef slopes and upper drop-offs in the tropical Indian Ocean, from East Africa east to the Cocos-Keeling and Christmas Islands and north into the Andaman Sea. Generally encountered in shoals or larger aggregations between roughly 10 and 35 m depth (records from 4 to 40 m), feeding on zooplankton in open water above the reef.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 4,
+      "max": 40
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -71,7 +75,8 @@
       "overhangs",
       "open swimming space",
       "moderate to strong flow"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "advanced",
   "diet": {
@@ -132,7 +137,7 @@
     "reefSafe": "yes",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": true,
+    "sexChange": "protandrous",
     "haremic": true,
     "caudalScalpel": null,
     "nocturnal": false,
@@ -143,7 +148,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": "difficult"
+    "feedingDifficulty": "difficult",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": true,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

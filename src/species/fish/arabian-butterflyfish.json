@@ -38,7 +38,11 @@
       "Sudan"
     ],
     "habitat": "Coral-rich shallow coastal reefs, typically at depths of around 2-16 m; adults are sometimes seen in small aggregations",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 2,
+      "max": 16
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -74,7 +78,8 @@
       "well-established mature reef structure",
       "hiding places",
       "fish-only or FOWLR system"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "expert",
   "diet": {
@@ -144,7 +149,7 @@
     "reefSafe": "no",
     "escapeRisk": null,
     "venomousSpines": null,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -155,7 +160,12 @@
     "monogamousPairing": true,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": "difficult"
+    "feedingDifficulty": "difficult",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

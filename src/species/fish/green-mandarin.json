@@ -32,7 +32,11 @@
       "Palau"
     ],
     "habitat": "Shallow protected lagoons and inshore reefs; silty bottoms with coral and rubble; depth 1–18 m",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 1,
+      "max": 18
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -70,7 +74,8 @@
       "rubble",
       "refugium",
       "sand substrate"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "expert",
   "diet": {
@@ -166,7 +171,7 @@
     "reefSafe": "yes",
     "escapeRisk": null,
     "venomousSpines": null,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -177,7 +182,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

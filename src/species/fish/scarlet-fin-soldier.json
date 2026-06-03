@@ -38,7 +38,8 @@
       "United States (Hawaii)"
     ],
     "habitat": "Coral and rocky reef ledges, lagoons, and outer reef slopes; tends to shelter beneath overhangs and inside caves during the day, ranging from shallow water to roughly 122 m depth",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": null
   },
   "waterParameters": {
     "temperatureC": {
@@ -77,7 +78,8 @@
       "ledges",
       "open swimming space",
       "well-sealed lid"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -154,7 +156,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "moderate",
     "venomousSpines": true,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": true,
@@ -165,7 +167,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

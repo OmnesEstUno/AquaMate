@@ -29,7 +29,11 @@
       "Mexico"
     ],
     "habitat": "Seagrass beds and banks; occasionally found in bays; not commonly associated with coral reefs. Demersal species found at depths of roughly 10–19 m.",
-    "biotope": "Coastal"
+    "biotope": "Coastal",
+    "depthRangeM": {
+      "min": 10,
+      "max": 19
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -46,7 +50,7 @@
       "max": 12
     },
     "salinity": {
-      "min": 1.020,
+      "min": 1.02,
       "max": 1.025
     }
   },
@@ -64,7 +68,8 @@
       "rock crevices",
       "PVC pipes",
       "dense rockwork"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -120,7 +125,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": false,
     "nocturnal": true,
@@ -131,7 +136,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": false,
-    "feedingDifficulty": "moderate"
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

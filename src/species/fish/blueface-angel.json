@@ -31,7 +31,11 @@
       "Palau"
     ],
     "habitat": "Coral-rich areas of lagoons, channels, and outer reef slopes, often near caves. Typically found at depths of 5–30 m.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 5,
+      "max": 30
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -69,7 +73,8 @@
       "caves",
       "hiding places",
       "open swimming space"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "advanced",
   "diet": {
@@ -143,7 +148,7 @@
     "reefSafe": "no",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": true,
+    "sexChange": "protogynous",
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -154,7 +159,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

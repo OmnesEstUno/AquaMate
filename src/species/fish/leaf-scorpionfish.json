@@ -21,7 +21,11 @@
     ],
     "countries": [],
     "habitat": "Reef-associated; reef flats, outer reef slopes, current-swept channels, and occasionally lagoon reefs at depths of 5–135 m",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 5,
+      "max": 135
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -57,7 +61,8 @@
       "algae",
       "seagrass",
       "caves"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -123,7 +128,7 @@
     "reefSafe": "with caution",
     "escapeRisk": null,
     "venomousSpines": true,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -134,7 +139,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

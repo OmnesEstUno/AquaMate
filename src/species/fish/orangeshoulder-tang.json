@@ -38,7 +38,11 @@
       "Micronesia"
     ],
     "habitat": "Seaward reefs over bare rock or mixed rubble and sand; adults typically encountered at depths of 9–46 m, with juveniles tending to shelter in protected bays and lagoons",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 9,
+      "max": 46
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -77,7 +81,8 @@
       "rockwork with hiding places",
       "moderate to strong water flow",
       "tight-fitting lid"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -149,7 +154,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "moderate",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": true,
     "nocturnal": false,
@@ -160,7 +165,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": true,
     "toxicToTank": null,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

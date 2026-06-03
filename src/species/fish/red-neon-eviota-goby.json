@@ -6,32 +6,62 @@
   "waterType": "saltwater",
   "commonName": "Red Neon Eviota Goby",
   "scientificName": "Eviota nigriventris",
-  "alsoKnownAs": ["Redbelly Dwarfgoby", "Red-and-black Eviota", "Black-spot Pygmy-goby"],
+  "alsoKnownAs": [
+    "Redbelly Dwarfgoby",
+    "Red-and-black Eviota",
+    "Black-spot Pygmy-goby"
+  ],
   "category": "Goby",
   "taxonomy": {
     "family": "Gobiidae",
     "order": "Gobiiformes"
   },
   "nativeRange": {
-    "regions": ["Western Pacific"],
-    "countries": ["Philippines", "Indonesia"],
+    "regions": [
+      "Western Pacific"
+    ],
+    "countries": [
+      "Philippines",
+      "Indonesia"
+    ],
     "habitat": "Reef-associated; found among branching and encrusting corals, particularly Acropora, in lagoon reefs at depths of around 10 m or more.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 26 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 22,
+      "max": 26
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 2.0, "max": 3.0 },
+  "adultSizeCm": {
+    "min": 2,
+    "max": 3
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 75,
     "minLengthCm": 45,
     "swimZone": "bottom",
-    "decorPreferences": ["live rock", "branching coral (Acropora or similar) for perching and shelter", "caves and crevices"]
+    "decorPreferences": [
+      "live rock",
+      "branching coral (Acropora or similar) for perching and shelter",
+      "caves and crevices"
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
@@ -42,8 +72,18 @@
     "temperament": "peaceful",
     "grouping": "shoaling",
     "minGroupSize": 1,
-    "goodWith": ["small peaceful reef fish", "blennies", "cardinalfish", "firefish", "shrimp", "small wrasses"],
-    "avoidWith": ["large or aggressive fish", "fast aggressive feeders that outcompete small gobies at feeding time"]
+    "goodWith": [
+      "small peaceful reef fish",
+      "blennies",
+      "cardinalfish",
+      "firefish",
+      "shrimp",
+      "small wrasses"
+    ],
+    "avoidWith": [
+      "large or aggressive fish",
+      "fast aggressive feeders that outcompete small gobies at feeding time"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -94,7 +134,7 @@
     "reefSafe": "yes",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -105,7 +145,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

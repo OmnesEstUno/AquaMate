@@ -33,7 +33,11 @@
       "Brazil"
     ],
     "habitat": "Shallow, clear-water coral reefs and rocky substrates at depths of approximately 0–30 m; larvae occasionally drift north as far as Massachusetts and Nova Scotia during summer",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 0,
+      "max": 30
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -71,7 +75,8 @@
       "open swimming space",
       "hiding spots between rockwork",
       "mature, well-established aquarium"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -150,7 +155,7 @@
     "reefSafe": "no",
     "escapeRisk": null,
     "venomousSpines": null,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": false,
@@ -161,7 +166,12 @@
     "monogamousPairing": true,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

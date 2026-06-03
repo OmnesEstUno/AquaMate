@@ -25,7 +25,11 @@
       "Venezuela"
     ],
     "habitat": "Reef-associated; tends to hover above coral heads, inside caves, and in shaded reef areas at depths of roughly 3–46 m.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 3,
+      "max": 46
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -63,7 +67,8 @@
       "caves",
       "overhangs",
       "shaded areas"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
@@ -136,7 +141,7 @@
     "reefSafe": "yes",
     "escapeRisk": "moderate",
     "venomousSpines": false,
-    "protogynous": true,
+    "sexChange": "protandrous",
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -147,7 +152,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

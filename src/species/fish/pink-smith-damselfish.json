@@ -29,7 +29,11 @@
       "Indonesia"
     ],
     "habitat": "Reef-associated, generally found in small to large groups over live coral patches in silty lagoon and inshore reef areas, typically at depths of roughly 2-14 m.",
-    "biotope": "Tropical Western Pacific coral reef"
+    "biotope": "Tropical Western Pacific coral reef",
+    "depthRangeM": {
+      "min": 2,
+      "max": 14
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -67,7 +71,8 @@
       "caves and crevices for territory",
       "coral patches",
       "open swimming space"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
@@ -135,7 +140,7 @@
     "reefSafe": "yes",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": false,
+    "sexChange": "none",
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -146,7 +151,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": true,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

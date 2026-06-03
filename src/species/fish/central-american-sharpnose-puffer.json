@@ -31,7 +31,11 @@
       "Ecuador"
     ],
     "habitat": "Shaded, protected recesses in rocky reefs, boulder-strewn slopes, and along walls, typically at depths of about 3–21 m",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 3,
+      "max": 21
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -66,7 +70,8 @@
       "caves",
       "rockwork with crevices",
       "open swimming space"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -141,7 +146,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -152,7 +157,12 @@
     "monogamousPairing": true,
     "hlleSusceptible": null,
     "toxicToTank": true,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

@@ -40,7 +40,11 @@
       "United States (Hawaii)"
     ],
     "habitat": "Reef-associated and benthopelagic; occurs along outer reef slopes and in current channels at depths of roughly 5–30 m (recorded down to 210 m). Juveniles tend to aggregate around isolated patch reefs, while adults are commonly observed forming large schools well above the bottom.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 5,
+      "max": 30
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -75,7 +79,8 @@
       "open swimming space",
       "outer-reef-style rockwork",
       "current channels"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
@@ -134,7 +139,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -145,7 +150,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": true,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

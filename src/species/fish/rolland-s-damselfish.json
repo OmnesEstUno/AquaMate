@@ -30,7 +30,11 @@
       "Tonga"
     ],
     "habitat": "Lagoons, harbors, and outer reef slopes, typically among corals and coral rubble at depths of 2–35 m",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 2,
+      "max": 35
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -68,7 +72,8 @@
       "coral rubble",
       "hiding crevices",
       "rockwork with caves"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
@@ -129,7 +134,7 @@
     "reefSafe": "yes",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": false,
@@ -140,7 +145,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

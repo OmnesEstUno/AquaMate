@@ -6,32 +6,65 @@
   "waterType": "saltwater",
   "commonName": "Princess Anthias",
   "scientificName": "Pseudanthias smithvanizi",
-  "alsoKnownAs": ["Smith-Vaniz's Anthias", "Pyronotanthias smithvanizi"],
+  "alsoKnownAs": [
+    "Smith-Vaniz's Anthias",
+    "Pyronotanthias smithvanizi"
+  ],
   "category": "Anthias",
   "taxonomy": {
     "family": "Anthiadidae",
     "order": "Perciformes"
   },
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Micronesia"],
-    "countries": ["Australia", "Japan", "Palau", "Marshall Islands"],
+    "regions": [
+      "Indo-Pacific",
+      "Micronesia"
+    ],
+    "countries": [
+      "Australia",
+      "Japan",
+      "Palau",
+      "Marshall Islands"
+    ],
     "habitat": "Steep outer reef slopes and drop-offs, typically at depths of 6–110 m; often found in large aggregations near dramatic reef structures",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 6,
+      "max": 110
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 26 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 22,
+      "max": 26
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
     "kH": null,
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 7, "max": 9.5 },
+  "adultSizeCm": {
+    "min": 7,
+    "max": 9.5
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 300,
     "minLengthCm": 150,
     "swimZone": "mid",
-    "decorPreferences": ["live rock", "caves", "overhangs", "open swimming space"]
+    "decorPreferences": [
+      "live rock",
+      "caves",
+      "overhangs",
+      "open swimming space"
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "advanced",
   "diet": {
@@ -42,8 +75,19 @@
     "temperament": "peaceful",
     "grouping": "shoaling",
     "minGroupSize": 3,
-    "goodWith": ["peaceful reef fish", "other small anthias", "clownfish", "gobies", "wrasses", "cardinalfish"],
-    "avoidWith": ["aggressive territorial fish", "large predators", "fish that compete aggressively for food"]
+    "goodWith": [
+      "peaceful reef fish",
+      "other small anthias",
+      "clownfish",
+      "gobies",
+      "wrasses",
+      "cardinalfish"
+    ],
+    "avoidWith": [
+      "aggressive territorial fish",
+      "large predators",
+      "fish that compete aggressively for food"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -83,7 +127,7 @@
     "reefSafe": "yes",
     "escapeRisk": "moderate",
     "venomousSpines": false,
-    "protogynous": true,
+    "sexChange": "protogynous",
     "haremic": true,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -94,7 +138,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": null,
     "toxicToTank": false,
-    "feedingDifficulty": "moderate"
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": true,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

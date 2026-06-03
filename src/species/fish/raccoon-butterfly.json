@@ -24,7 +24,11 @@
     ],
     "countries": [],
     "habitat": "Tropical reef-associated waters, typically 0–170 m depth; commonly seen on coral reefs, lagoons, and seaward slopes",
-    "biotope": "Coral reef"
+    "biotope": "Coral reef",
+    "depthRangeM": {
+      "min": 0,
+      "max": 170
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -61,7 +65,8 @@
       "live rock",
       "open swimming space",
       "caves and overhangs for shelter"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -123,7 +128,7 @@
     "reefSafe": "no",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": true,
@@ -134,7 +139,12 @@
     "monogamousPairing": true,
     "hlleSusceptible": true,
     "toxicToTank": false,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": true,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

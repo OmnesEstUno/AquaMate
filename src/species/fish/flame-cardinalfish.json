@@ -31,7 +31,8 @@
       "Brazil"
     ],
     "habitat": "Reef-associated; commonly found along coral reefs, sea walls, pilings, and harbors, typically hiding in crevices and caves during daylight hours.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": null
   },
   "waterParameters": {
     "temperatureC": {
@@ -66,7 +67,8 @@
       "live rock",
       "crevices",
       "rockwork overhangs"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
@@ -135,7 +137,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": false,
+    "sexChange": "none",
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": true,
@@ -146,7 +148,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": true,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

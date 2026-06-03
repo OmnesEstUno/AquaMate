@@ -33,7 +33,8 @@
       "Christmas Island"
     ],
     "habitat": "Generally found in lagoons and outer reef slopes between roughly 3 and 20 m depth, where individuals associate closely with host anemones.",
-    "biotope": "Tropical Western Pacific reef; sheltered lagoons and outer reef edges with hard substrate hosting Heteractis crispa and Stichodactyla mertensii anemones."
+    "biotope": "Tropical Western Pacific reef; sheltered lagoons and outer reef edges with hard substrate hosting Heteractis crispa and Stichodactyla mertensii anemones.",
+    "depthRangeM": null
   },
   "waterParameters": {
     "temperatureC": {
@@ -50,7 +51,7 @@
       "max": 12
     },
     "salinity": {
-      "min": 1.020,
+      "min": 1.02,
       "max": 1.025
     }
   },
@@ -70,7 +71,8 @@
       "live rock with caves and overhangs",
       "open mid-water swimming space",
       "host anemone optional (Heteractis crispa or Stichodactyla mertensii)"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -141,7 +143,7 @@
     "reefSafe": "yes",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": false,
+    "sexChange": "protandrous",
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -152,7 +154,12 @@
     "monogamousPairing": true,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

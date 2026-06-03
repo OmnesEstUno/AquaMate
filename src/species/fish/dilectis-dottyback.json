@@ -23,7 +23,8 @@
       "Sri Lanka"
     ],
     "habitat": "Coral reef areas; tends to be demersal, hiding among rockwork and crevices at shallow reef depths.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": null
   },
   "waterParameters": {
     "temperatureC": {
@@ -62,7 +63,8 @@
       "crevices",
       "overhangs",
       "dense rockwork"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
@@ -129,7 +131,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": true,
+    "sexChange": "protandrous",
     "haremic": null,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -140,7 +142,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": false,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

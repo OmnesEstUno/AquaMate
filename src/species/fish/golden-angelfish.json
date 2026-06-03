@@ -31,7 +31,8 @@
       "Australia"
     ],
     "habitat": "Coral and sponge-covered seaward reef slopes; tends to inhabit deeper reef areas and is seldom observed by divers",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": null
   },
   "waterParameters": {
     "temperatureC": {
@@ -70,7 +71,8 @@
       "overhangs",
       "crevices",
       "rubble"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "expert",
   "diet": {
@@ -151,7 +153,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": true,
+    "sexChange": "protogynous",
     "haremic": true,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -162,7 +164,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

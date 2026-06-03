@@ -32,7 +32,11 @@
       "Venezuela"
     ],
     "habitat": "Inhabits deep recesses, caves, and overhangs of coral reefs; generally observed at depths of roughly 3–45 m. Described as common but secretive and rarely seen in the open.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 3,
+      "max": 45
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -69,7 +73,8 @@
       "crevices",
       "ledges",
       "sandy substrate"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
@@ -143,7 +148,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "high",
     "venomousSpines": null,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -154,7 +159,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

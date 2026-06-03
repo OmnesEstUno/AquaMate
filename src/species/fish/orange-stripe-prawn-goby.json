@@ -6,36 +6,61 @@
   "waterType": "saltwater",
   "commonName": "Orange Stripe Prawn Goby",
   "scientificName": "Amblyeleotris randalli",
-  "alsoKnownAs": ["Randall's Prawn Goby", "Randall's Shrimp Goby"],
+  "alsoKnownAs": [
+    "Randall's Prawn Goby",
+    "Randall's Shrimp Goby"
+  ],
   "category": "Goby",
-
   "taxonomy": {
     "family": "Gobiidae",
     "order": "Gobiiformes"
   },
-
   "nativeRange": {
-    "regions": ["Western Pacific", "Indo-Pacific"],
+    "regions": [
+      "Western Pacific",
+      "Indo-Pacific"
+    ],
     "countries": [
-      "Indonesia", "Japan", "Malaysia", "Philippines", "Australia",
-      "Papua New Guinea", "Solomon Islands", "Fiji", "Palau",
-      "New Caledonia", "Micronesia"
+      "Indonesia",
+      "Japan",
+      "Malaysia",
+      "Philippines",
+      "Australia",
+      "Papua New Guinea",
+      "Solomon Islands",
+      "Fiji",
+      "Palau",
+      "New Caledonia",
+      "Micronesia"
     ],
     "habitat": "Carbonate sand patches and rubble caves on clear-water coral reefs, typically at depths of 25–50 m",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 25,
+      "max": 50
+    }
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 22.0, "max": 28.0 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 22,
+      "max": 28
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
     "kH": null,
-    "salinity": { "min": 1.023, "max": 1.026 }
+    "salinity": {
+      "min": 1.023,
+      "max": 1.026
+    }
   },
-
-  "adultSizeCm": { "min": 5.0, "max": 12.0 },
+  "adultSizeCm": {
+    "min": 5,
+    "max": 12
+  },
   "lifespanYears": null,
-
   "tank": {
     "minVolumeLiters": 100,
     "minLengthCm": 75,
@@ -44,16 +69,14 @@
       "fine sand substrate (5+ cm deep for burrowing)",
       "rubble or rock for cave formation",
       "open sand patches for foraging"
-    ]
+    ],
+    "minSandDepthCm": 5
   },
-
   "careLevel": "intermediate",
-
   "diet": {
     "type": "carnivore",
     "notes": "Has been documented feeding on small crustaceans, zooplankton, and meaty invertebrates near its burrow. In captivity tends to accept frozen mysis shrimp, brine shrimp, and finely chopped meaty foods; may require some coaxing initially. Target feeding near the burrow entrance is generally advised."
   },
-
   "compatibility": {
     "temperament": "peaceful",
     "grouping": "pair",
@@ -73,7 +96,6 @@
       "small ornamental shrimp (may be consumed)"
     ]
   },
-
   "media": {
     "primaryImage": null,
     "gallery": [],
@@ -96,13 +118,9 @@
       }
     ]
   },
-
   "summary": "A striking prawn goby from the Western Pacific that forms a well-known symbiotic partnership with pistol shrimp. Generally considered suitable for established reef aquariums with sandy substrates; tends to be peaceful toward dissimilar tankmates.",
-
   "careNotes": "Orange Stripe Prawn Goby is best known for its fascinating symbiosis with Alpheid pistol shrimp (most often Alpheus ochrostriatus or similar species), with which it shares a burrow — the shrimp constructs and maintains the burrow while the goby watches for predators. Providing a compatible pistol shrimp in the aquarium is strongly encouraged, as this partnership appears to benefit both animals and encourages natural behavior.\n\nA minimum of 5 cm of fine sand substrate is generally recommended to allow burrowing. The species tends to occupy the bottom zone, spending most of its time hovering just above the sand near its burrow entrance.\n\nIn the wild this species has been collected from depths of 25–50 m on clear-water reefs. In captivity, stable, mature reef-system parameters (consistent temperature, salinity, and water quality) are generally advised.\n\nEscape risk is considered high: like most shrimp gobies, this species has been reported to jump from open aquaria — a well-fitted lid is advised. When startled or stressed, the goby is known to dart rapidly.\n\nConspecific aggression is moderate; two males in a small tank may fight for territory. A mated male–female pair tends to coexist more readily. The species is generally regarded as reef-safe, though small ornamental shrimp species may occasionally be at risk.\n\nFeeding in captivity tends to be moderately easy — most specimens will accept frozen mysis and Artemia once acclimated, though newly acquired individuals may initially be reluctant to feed away from their burrow. Wild depth (25–50 m) suggests this is not typically a brightly-lit shallow reef fish; moderate lighting is generally sufficient.\n\nSources tried for cross-verification: LiveAquaria (blocked — consistently returned homepage despite multiple URL attempts), Reef2Reef wiki (403 Forbidden), Fishkeeping World (404), TFH Magazine (404), BlueZoo Aquatics (no species page found). Cross-verification conducted using FishBase and Wikipedia, both of which confirmed the species identity and core biological parameters.",
-
   "breedingNotes": null,
-
   "sources": {
     "primary": {
       "name": "FishBase",
@@ -131,7 +149,6 @@
       }
     ]
   },
-
   "fish": {
     "breedingDifficulty": null,
     "breedingNotes": null,
@@ -140,7 +157,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -151,9 +168,13 @@
     "monogamousPairing": false,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "moderate"
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": true,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
-
   "crustacean": null,
   "coral": null,
   "mollusc": null,
@@ -161,7 +182,6 @@
   "other-invert": null,
   "plant": null,
   "macroalgae": null,
-
   "schemaVersion": 1,
   "dataStatus": "needs_review",
   "lastReviewed": "2026-06-03"

@@ -28,7 +28,11 @@
       "Japan"
     ],
     "habitat": "Coral-rich areas of sheltered lagoons and inshore coral reefs, typically at 1–16 m depth; has been documented occurring in small groups on Acropora patches",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 1,
+      "max": 16
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -63,7 +67,8 @@
       "caves",
       "crevices",
       "Acropora or similar branching coral structure"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
@@ -131,7 +136,7 @@
     "reefSafe": "yes",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": false,
+    "sexChange": "none",
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -142,7 +147,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": true,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

@@ -25,7 +25,11 @@
       "Philippines"
     ],
     "habitat": "Seaward rocky reefs and coral reefs at depths of 15–100 m",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 15,
+      "max": 100
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -63,7 +67,8 @@
       "open swimming space",
       "caves and overhangs",
       "current-facing open water"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -134,7 +139,7 @@
     "reefSafe": "yes",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": true,
+    "sexChange": "protogynous",
     "haremic": true,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -145,7 +150,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

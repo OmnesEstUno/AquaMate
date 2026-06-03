@@ -42,7 +42,8 @@
       "Samoa"
     ],
     "habitat": "Silty or sandy lagoon and bay areas; inhabits burrows under rocks, typically in mated pairs",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": null
   },
   "waterParameters": {
     "temperatureC": {
@@ -80,7 +81,8 @@
       "rock caves",
       "burrow sites",
       "populated refugium"
-    ]
+    ],
+    "minSandDepthCm": 0
   },
   "careLevel": "intermediate",
   "diet": {
@@ -155,7 +157,7 @@
     "reefSafe": "yes",
     "escapeRisk": "high",
     "venomousSpines": null,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -166,7 +168,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

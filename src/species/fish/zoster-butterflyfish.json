@@ -6,32 +6,70 @@
   "waterType": "saltwater",
   "commonName": "Zoster Butterflyfish",
   "scientificName": "Hemitaurichthys zoster",
-  "alsoKnownAs": ["Black Pyramid Butterflyfish", "Brown-and-White Butterflyfish", "Black Zoster Butterflyfish", "Blue Zoster Pyramid Butterflyfish"],
+  "alsoKnownAs": [
+    "Black Pyramid Butterflyfish",
+    "Brown-and-White Butterflyfish",
+    "Black Zoster Butterflyfish",
+    "Blue Zoster Pyramid Butterflyfish"
+  ],
   "category": "Butterflyfish",
   "taxonomy": {
     "family": "Chaetodontidae",
     "order": "Acanthuriformes"
   },
   "nativeRange": {
-    "regions": ["Indian Ocean", "Indo-Pacific"],
-    "countries": ["Kenya", "Tanzania", "Mozambique", "Maldives", "Sri Lanka", "Oman", "India", "Indonesia"],
+    "regions": [
+      "Indian Ocean",
+      "Indo-Pacific"
+    ],
+    "countries": [
+      "Kenya",
+      "Tanzania",
+      "Mozambique",
+      "Maldives",
+      "Sri Lanka",
+      "Oman",
+      "India",
+      "Indonesia"
+    ],
     "habitat": "Open water above outer reef edges and current-swept drop-offs, where it forms large midwater aggregations feeding on zooplankton",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 27 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 24,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.020, "max": 1.026 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.026
+    }
   },
-  "adultSizeCm": { "min": 14, "max": 18 },
+  "adultSizeCm": {
+    "min": 14,
+    "max": 18
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 500,
     "minLengthCm": 150,
     "swimZone": "all",
-    "decorPreferences": ["plenty of live rock with hiding places", "open swimming space in front of and above the reef structure", "moderate to strong water flow"]
+    "decorPreferences": [
+      "plenty of live rock with hiding places",
+      "open swimming space in front of and above the reef structure",
+      "moderate to strong water flow"
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
@@ -42,8 +80,18 @@
     "temperament": "peaceful",
     "grouping": "shoaling",
     "minGroupSize": 1,
-    "goodWith": ["tangs", "wrasses", "anthias", "clownfish", "most other peaceful reef fish"],
-    "avoidWith": ["overly aggressive damselfish", "large predators", "very boisterous tankmates that may intimidate newly introduced specimens"]
+    "goodWith": [
+      "tangs",
+      "wrasses",
+      "anthias",
+      "clownfish",
+      "most other peaceful reef fish"
+    ],
+    "avoidWith": [
+      "overly aggressive damselfish",
+      "large predators",
+      "very boisterous tankmates that may intimidate newly introduced specimens"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -83,7 +131,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -94,7 +142,12 @@
     "monogamousPairing": true,
     "hlleSusceptible": true,
     "toxicToTank": false,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

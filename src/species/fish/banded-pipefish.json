@@ -30,7 +30,11 @@
       "Fiji"
     ],
     "habitat": "Generally found in tide pools, lagoons, and outer reef slopes at depths from about 5 to 56 m, typically sheltering under rocky overhangs, in caves, and around branching corals. Adults have been reported either solitary, in pairs, or in small aggregations near the substrate.",
-    "biotope": "Reef-associated overhangs and caves"
+    "biotope": "Reef-associated overhangs and caves",
+    "depthRangeM": {
+      "min": 5,
+      "max": 56
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -70,7 +74,8 @@
       "branching corals",
       "gorgonians",
       "macroalgae"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "expert",
   "diet": {
@@ -150,7 +155,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": false,
+    "sexChange": "none",
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -161,7 +166,12 @@
     "monogamousPairing": true,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "difficult"
+    "feedingDifficulty": "difficult",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": true,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

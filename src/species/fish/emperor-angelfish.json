@@ -31,7 +31,11 @@
       "Egypt"
     ],
     "habitat": "Coral reefs; reef fronts with rich coral growth, outer lagoon patch reefs, caves and ledges; depth range 1–100 m",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 1,
+      "max": 100
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -69,7 +73,8 @@
       "extensive rockwork",
       "deep caves",
       "open swimming space"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "advanced",
   "diet": {
@@ -153,7 +158,7 @@
     "reefSafe": "with caution",
     "escapeRisk": null,
     "venomousSpines": null,
-    "protogynous": null,
+    "sexChange": "protogynous",
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -164,7 +169,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

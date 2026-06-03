@@ -29,12 +29,16 @@
       "French Polynesia (Austral Islands)"
     ],
     "habitat": "Exposed seaward reefs and occasionally clear lagoons or channels; tends to form aggregations along the upper edge of reef slopes over live coral and rubble at depths of 0–37 m.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 0,
+      "max": 37
+    }
   },
   "waterParameters": {
     "temperatureC": {
-      "min": 24.0,
-      "max": 27.0
+      "min": 24,
+      "max": 27
     },
     "pH": {
       "min": 8.1,
@@ -46,13 +50,13 @@
       "max": 12
     },
     "salinity": {
-      "min": 1.020,
+      "min": 1.02,
       "max": 1.025
     }
   },
   "adultSizeCm": {
-    "min": 3.0,
-    "max": 5.0
+    "min": 3,
+    "max": 5
   },
   "lifespanYears": null,
   "tank": {
@@ -63,7 +67,8 @@
       "live rock",
       "open swimming space",
       "coral rubble"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
@@ -122,7 +127,7 @@
     "reefSafe": "yes",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -133,7 +138,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": null,
     "toxicToTank": false,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

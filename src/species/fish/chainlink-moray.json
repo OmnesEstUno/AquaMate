@@ -6,32 +6,73 @@
   "waterType": "saltwater",
   "commonName": "Chain Moray",
   "scientificName": "Echidna catenata",
-  "alsoKnownAs": ["Chainlink Moray", "Chain Eel", "Chainlink Eel", "Chain Moray Eel"],
+  "alsoKnownAs": [
+    "Chainlink Moray",
+    "Chain Eel",
+    "Chainlink Eel",
+    "Chain Moray Eel"
+  ],
   "category": "Eel",
   "taxonomy": {
     "family": "Muraenidae",
     "order": "Anguilliformes"
   },
   "nativeRange": {
-    "regions": ["Western Atlantic", "Caribbean", "Eastern Atlantic"],
-    "countries": ["United States", "Bahamas", "Mexico", "Belize", "Brazil", "Cape Verde"],
+    "regions": [
+      "Western Atlantic",
+      "Caribbean",
+      "Eastern Atlantic"
+    ],
+    "countries": [
+      "United States",
+      "Bahamas",
+      "Mexico",
+      "Belize",
+      "Brazil",
+      "Cape Verde"
+    ],
     "habitat": "Shallow tropical reefs and rocky shoreline crevices, generally from the intertidal zone to about 12 m depth.",
-    "biotope": "Coral reef and rocky reef hideouts with dense crevice structure."
+    "biotope": "Coral reef and rocky reef hideouts with dense crevice structure.",
+    "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 27 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 23,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 40, "max": 75 },
-  "lifespanYears": { "min": 10, "max": 20 },
+  "adultSizeCm": {
+    "min": 40,
+    "max": 75
+  },
+  "lifespanYears": {
+    "min": 10,
+    "max": 20
+  },
   "tank": {
     "minVolumeLiters": 500,
     "minLengthCm": 150,
     "swimZone": "bottom",
-    "decorPreferences": ["live rock", "rock caves", "dense crevices", "tight-fitting lid"]
+    "decorPreferences": [
+      "live rock",
+      "rock caves",
+      "dense crevices",
+      "tight-fitting lid"
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -42,8 +83,20 @@
     "temperament": "semi-aggressive",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["large angelfishes", "tangs", "triggerfishes", "groupers", "other robust fish too large to swallow"],
-    "avoidWith": ["small shrimp", "small crabs", "ornamental crustaceans", "very small fish", "delicate clean-up crew"]
+    "goodWith": [
+      "large angelfishes",
+      "tangs",
+      "triggerfishes",
+      "groupers",
+      "other robust fish too large to swallow"
+    ],
+    "avoidWith": [
+      "small shrimp",
+      "small crabs",
+      "ornamental crustaceans",
+      "very small fish",
+      "delicate clean-up crew"
+    ]
   },
   "media": {
     "primaryImage": "chainlink_moray.jpg",
@@ -83,7 +136,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": true,
@@ -94,7 +147,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "moderate"
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

@@ -29,7 +29,11 @@
       "Tonga"
     ],
     "habitat": "Reef-associated; inhabits holes and crevices in coral and rock reefs across tide pools, lagoonal reefs, and reef slopes at depths reported around 5–40 m. Generally observed as cryptic, solitary individuals or in pairs.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 5,
+      "max": 40
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -68,7 +72,8 @@
       "crevices",
       "overhangs",
       "rockwork holes"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
@@ -146,7 +151,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "high",
     "venomousSpines": null,
-    "protogynous": true,
+    "sexChange": "protandrous",
     "haremic": true,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -157,7 +162,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

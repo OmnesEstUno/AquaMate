@@ -35,7 +35,11 @@
       "Solomon Islands"
     ],
     "habitat": "Silty lagoons, harbors, and shallow reef-adjacent areas at depths of 2–30 m, typically found in association with host sea anemones",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 2,
+      "max": 30
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -69,7 +73,8 @@
       "host anemone",
       "live rock",
       "open swimming area near anemone"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -143,7 +148,7 @@
     "reefSafe": "yes",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": false,
+    "sexChange": "protandrous",
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -154,7 +159,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

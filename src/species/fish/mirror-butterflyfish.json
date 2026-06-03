@@ -6,66 +6,96 @@
   "waterType": "saltwater",
   "commonName": "Mirror Butterflyfish",
   "scientificName": "Chaetodon speculum",
-  "alsoKnownAs": ["Oval-spot Butterflyfish", "Mirror Coralfish"],
+  "alsoKnownAs": [
+    "Oval-spot Butterflyfish",
+    "Mirror Coralfish"
+  ],
   "category": "Butterflyfish",
-
   "taxonomy": {
     "family": "Chaetodontidae",
     "order": "Acanthuriformes"
   },
-
   "nativeRange": {
-    "regions": ["Indo-Pacific"],
-    "countries": ["Indonesia", "Japan", "Australia", "Papua New Guinea", "Mauritius", "Madagascar", "Reunion"],
+    "regions": [
+      "Indo-Pacific"
+    ],
+    "countries": [
+      "Indonesia",
+      "Japan",
+      "Australia",
+      "Papua New Guinea",
+      "Mauritius",
+      "Madagascar",
+      "Reunion"
+    ],
     "habitat": "Coastal reef slopes rich in hydroids and anemones, at depths of 3–30 m",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 3,
+      "max": 30
+    }
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 28 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 24,
+      "max": 28
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
     "kH": null,
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-
-  "adultSizeCm": { "min": 12, "max": 18 },
+  "adultSizeCm": {
+    "min": 12,
+    "max": 18
+  },
   "lifespanYears": null,
-
   "tank": {
     "minVolumeLiters": 300,
     "minLengthCm": 120,
     "swimZone": "all",
-    "decorPreferences": ["live rock", "coral colonies", "open swimming space", "hiding spots"]
+    "decorPreferences": [
+      "live rock",
+      "coral colonies",
+      "open swimming space",
+      "hiding spots"
+    ],
+    "minSandDepthCm": null
   },
-
   "careLevel": "expert",
-
   "diet": {
     "type": "carnivore",
     "notes": "An obligate corallivore in the wild, feeding predominantly on coral polyps and small invertebrates. Generally considered very difficult to sustain in captivity; in most cases it requires a large, established reef with fast-growing coral colonies. Some aquarists have reported success supplementing with live mussels in the shell, but long-term survival without access to coral polyps tends to be poor."
   },
-
   "compatibility": {
     "temperament": "peaceful",
     "grouping": "pair",
     "minGroupSize": 1,
-    "goodWith": ["peaceful reef fish", "non-aggressive tankmates"],
-    "avoidWith": ["aggressive fish", "corals (will consume them)", "Tridacna clams", "other corallivores"]
+    "goodWith": [
+      "peaceful reef fish",
+      "non-aggressive tankmates"
+    ],
+    "avoidWith": [
+      "aggressive fish",
+      "corals (will consume them)",
+      "Tridacna clams",
+      "other corallivores"
+    ]
   },
-
   "media": {
     "primaryImage": null,
     "gallery": [],
     "imageCandidates": null
   },
-
   "summary": "A striking bright-yellow butterflyfish with a bold black spot beneath the dorsal fin, generally considered expert-only due to its obligate corallivore diet — long-term care has been reported to require a large reef tank with abundant fast-growing coral colonies.",
-
   "careNotes": "The Mirror Butterflyfish is generally considered one of the most challenging butterflyfishes to keep in captivity, rated expert-only by major retailers. It is an obligate corallivore that feeds primarily on coral polyps and small invertebrates in the wild, and tends to refuse or poorly accept prepared and frozen foods. Some aquarists have documented limited success using live mussels with crushed shells as a supplement, but long-term survival without access to live coral polyps has been reported as uncommon. A large tank (300 L or more) with a significant, thriving coral colony and ample open swimming space is generally advised. The fish is not reef-safe and has been known to damage or consume coral polyps and may nip at Tridacna clams. It tends to show some aggression toward conspecifics but is generally peaceful with other species. This species has been documented forming monogamous pair bonds in the wild; acquiring an established pair is generally advised over a single specimen. Temperature data shows some disagreement between sources: LiveAquaria lists 72–78°F (22–26°C), while FishBase cites a wild range of 25–29.3°C; a working range of 24–28°C is used here as a compromise. Adult size also varies by source: LiveAquaria lists 6 inches (~15 cm) while FishBase gives a maximum total length of 18 cm.",
-
   "breedingNotes": "Reproduction in captivity has not been widely documented. In the wild, the species is oviparous with documented monogamous pair-bonding behavior and distinct pairing during breeding. Captive breeding is considered not feasible under typical aquarium conditions given the dietary requirements.",
-
   "sources": {
     "primary": {
       "name": "LiveAquaria",
@@ -82,7 +112,6 @@
       }
     ]
   },
-
   "fish": {
     "breedingDifficulty": "not in captivity",
     "breedingNotes": "Oviparous with monogamous pair-bonding in the wild; captive breeding is not documented and considered impractical given dietary requirements.",
@@ -91,7 +120,7 @@
     "reefSafe": "no",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -102,9 +131,13 @@
     "monogamousPairing": true,
     "hlleSusceptible": null,
     "toxicToTank": false,
-    "feedingDifficulty": "difficult"
+    "feedingDifficulty": "difficult",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
-
   "crustacean": null,
   "coral": null,
   "mollusc": null,
@@ -112,7 +145,6 @@
   "other-invert": null,
   "plant": null,
   "macroalgae": null,
-
   "schemaVersion": 1,
   "dataStatus": "researched",
   "lastReviewed": "2026-06-03"

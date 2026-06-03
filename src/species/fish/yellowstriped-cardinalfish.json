@@ -36,7 +36,11 @@
       "Tonga"
     ],
     "habitat": "Reef-associated; generally found in sheltered lagoons and seaward reef areas, typically taking shelter in rockwork, among branching corals, sea-urchin spines, or anemones during the day and emerging to forage at night. Reported depth range 1–50 m, most commonly 1–15 m.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 1,
+      "max": 50
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -72,7 +76,8 @@
       "overhangs",
       "branching corals",
       "dim shaded retreats"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
@@ -150,7 +155,7 @@
     "reefSafe": "yes",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": false,
+    "sexChange": "none",
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": true,
@@ -161,7 +166,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": true,
+    "constantGrazer": true,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

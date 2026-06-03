@@ -6,32 +6,71 @@
   "waterType": "saltwater",
   "commonName": "Marcella Butterflyfish",
   "scientificName": "Prognathodes marcellae",
-  "alsoKnownAs": ["Diamond Butterflyfish", "French Butterflyfish"],
+  "alsoKnownAs": [
+    "Diamond Butterflyfish",
+    "French Butterflyfish"
+  ],
   "category": "Butterflyfish",
   "taxonomy": {
     "family": "Chaetodontidae",
     "order": "Acanthuriformes"
   },
   "nativeRange": {
-    "regions": ["Eastern Atlantic"],
-    "countries": ["Senegal", "Cape Verde", "Guinea", "Ghana", "Nigeria", "Cameroon", "Gabon", "Congo", "Angola"],
+    "regions": [
+      "Eastern Atlantic"
+    ],
+    "countries": [
+      "Senegal",
+      "Cape Verde",
+      "Guinea",
+      "Ghana",
+      "Nigeria",
+      "Cameroon",
+      "Gabon",
+      "Congo",
+      "Angola"
+    ],
     "habitat": "Reef-associated; found at depths of 12–140 m, frequently over soft bottoms near reef structures",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 12,
+      "max": 140
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22.0, "max": 26.0 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 22,
+      "max": 26
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8.0, "max": 12.0 },
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 10.0, "max": 12.7 },
+  "adultSizeCm": {
+    "min": 10,
+    "max": 12.7
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 500,
     "minLengthCm": 150,
     "swimZone": "all",
-    "decorPreferences": ["live rock", "open swimming space", "rock caves and crevices"]
+    "decorPreferences": [
+      "live rock",
+      "open swimming space",
+      "rock caves and crevices"
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -42,8 +81,21 @@
     "temperament": "peaceful",
     "grouping": "pair",
     "minGroupSize": 1,
-    "goodWith": ["peaceful angelfish", "tangs", "wrasses", "gobies", "hawkfish", "peaceful damselfish"],
-    "avoidWith": ["other Prognathodes species", "similarly-patterned butterflyfishes", "aggressive species", "corals", "small ornamental invertebrates"]
+    "goodWith": [
+      "peaceful angelfish",
+      "tangs",
+      "wrasses",
+      "gobies",
+      "hawkfish",
+      "peaceful damselfish"
+    ],
+    "avoidWith": [
+      "other Prognathodes species",
+      "similarly-patterned butterflyfishes",
+      "aggressive species",
+      "corals",
+      "small ornamental invertebrates"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -77,7 +129,7 @@
     "reefSafe": "no",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -88,7 +140,12 @@
     "monogamousPairing": true,
     "hlleSusceptible": null,
     "toxicToTank": false,
-    "feedingDifficulty": "moderate"
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

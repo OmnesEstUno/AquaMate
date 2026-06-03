@@ -33,7 +33,11 @@
       "Kiribati"
     ],
     "habitat": "Reef-associated, typically found over open substrate with low reef and remote bommies at depths of around 10–60 m (recorded down to 91 m); juveniles may occur in shallower coastal reef environments. Tends to form small, loose aggregations along current-swept drop-offs.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 10,
+      "max": 60
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -68,7 +72,8 @@
       "open swimming space",
       "moderate water flow",
       "moderate (subdued) lighting"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -143,7 +148,7 @@
     "reefSafe": "yes",
     "escapeRisk": "high",
     "venomousSpines": null,
-    "protogynous": true,
+    "sexChange": "protogynous",
     "haremic": true,
     "caudalScalpel": null,
     "nocturnal": false,
@@ -154,7 +159,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": true,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

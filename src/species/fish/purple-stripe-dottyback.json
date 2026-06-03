@@ -28,7 +28,11 @@
       "Indonesia"
     ],
     "habitat": "Sheltered coral reefs with rich coral growth at depths of roughly 5–30 m; tends to congregate in small groups among branching corals and rocky crevices",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 5,
+      "max": 30
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -67,7 +71,8 @@
       "crevices",
       "overhangs",
       "branching coral"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
@@ -140,7 +145,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "moderate",
     "venomousSpines": null,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -151,7 +156,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

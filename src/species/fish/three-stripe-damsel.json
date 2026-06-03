@@ -19,25 +19,65 @@
     "order": "Ovalentaria incertae sedis"
   },
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Western Pacific"],
-    "countries": ["Indonesia", "Philippines", "Japan", "New Caledonia", "Australia", "Papua New Guinea", "Solomon Islands", "Marshall Islands", "French Polynesia"],
+    "regions": [
+      "Indo-Pacific",
+      "Western Pacific"
+    ],
+    "countries": [
+      "Indonesia",
+      "Philippines",
+      "Japan",
+      "New Caledonia",
+      "Australia",
+      "Papua New Guinea",
+      "Solomon Islands",
+      "Marshall Islands",
+      "French Polynesia"
+    ],
     "habitat": "Shallow lagoons and subtidal reef flats, generally found at depths of 0–20 m, closely associated with branching coral thickets (especially Acropora and Pocillopora) for refuge.",
-    "biotope": "Indo-Pacific coral reef"
+    "biotope": "Indo-Pacific coral reef",
+    "depthRangeM": {
+      "min": 0,
+      "max": 20
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 27 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 23,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 7, "max": 10 },
-  "lifespanYears": { "min": 4, "max": 6 },
+  "adultSizeCm": {
+    "min": 7,
+    "max": 10
+  },
+  "lifespanYears": {
+    "min": 4,
+    "max": 6
+  },
   "tank": {
     "minVolumeLiters": 150,
     "minLengthCm": 90,
     "swimZone": "mid",
-    "decorPreferences": ["dense rockwork", "branching coral or coral-skeleton refuges", "open swimming space above the rockwork"]
+    "decorPreferences": [
+      "dense rockwork",
+      "branching coral or coral-skeleton refuges",
+      "open swimming space above the rockwork"
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
@@ -48,8 +88,22 @@
     "temperament": "aggressive",
     "grouping": "shoaling",
     "minGroupSize": 1,
-    "goodWith": ["large angelfishes", "tangs", "triggerfishes", "lionfishes", "moray eels", "other robust semi-aggressive tankmates"],
-    "avoidWith": ["small peaceful fish", "fairy wrasses", "firefish", "small gobies", "other damselfish in undersized tanks", "shy reef fish"]
+    "goodWith": [
+      "large angelfishes",
+      "tangs",
+      "triggerfishes",
+      "lionfishes",
+      "moray eels",
+      "other robust semi-aggressive tankmates"
+    ],
+    "avoidWith": [
+      "small peaceful fish",
+      "fairy wrasses",
+      "firefish",
+      "small gobies",
+      "other damselfish in undersized tanks",
+      "shy reef fish"
+    ]
   },
   "media": {
     "primaryImage": "three_stripe_damsel.jpg",
@@ -89,7 +143,7 @@
     "reefSafe": "yes",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": false,
+    "sexChange": "none",
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -100,7 +154,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

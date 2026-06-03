@@ -33,7 +33,7 @@
     "fishVariant": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["breedingDifficulty", "breedingNotes", "conspecificAggression", "finNippy", "reefSafe", "escapeRisk", "venomousSpines", "protogynous", "haremic", "caudalScalpel", "nocturnal", "juvenileColorPhase", "copperSensitive", "speciesOnlyTankRecommended", "requiresHitchingPost", "monogamousPairing", "hlleSusceptible", "toxicToTank", "feedingDifficulty"],
+      "required": ["breedingDifficulty", "breedingNotes", "conspecificAggression", "finNippy", "reefSafe", "escapeRisk", "venomousSpines", "sexChange", "haremic", "caudalScalpel", "nocturnal", "juvenileColorPhase", "copperSensitive", "speciesOnlyTankRecommended", "requiresHitchingPost", "monogamousPairing", "hlleSusceptible", "toxicToTank", "feedingDifficulty", "symbioticShrimpPartner", "mouthbrooder", "constantGrazer", "cleanerFish", "euryhaline"],
       "properties": {
         "breedingDifficulty":     { "type": ["string", "null"], "enum": ["easy", "moderate", "difficult", "advanced", "not in captivity", null] },
         "breedingNotes":          { "type": ["string", "null"] },
@@ -42,7 +42,11 @@
         "reefSafe":               { "type": ["string", "null"], "enum": ["yes", "with caution", "no", null] },
         "escapeRisk":             { "type": ["string", "null"], "enum": ["low", "moderate", "high", null], "description": "Jumping/escape risk. Promoted from field-gap suggestions 2026-05-25 (9 species)." },
         "venomousSpines":         { "type": ["boolean", "null"], "description": "True if the species has venomous spines (dorsal/anal/caudal) capable of envenoming a handler. Promoted from field-gap suggestions 2026-05-25 (7 species)." },
-        "protogynous":            { "type": ["boolean", "null"], "description": "True if the species is a protogynous (female-first) sequential hermaphrodite. Promoted from field-gap suggestions 2026-05-25 (5 species)." },
+        "sexChange":              {
+          "type": ["string", "null"],
+          "enum": ["none", "protogynous", "protandrous", "simultaneous", "bidirectional", null],
+          "description": "Sequential or simultaneous hermaphroditism mode. \"none\" = gonochoristic (separate fixed sexes); \"protogynous\" = female-first (most wrasses, parrotfish, dwarf angels, anthias); \"protandrous\" = male-first (clownfish/anemonefish, some seabreams); \"simultaneous\"/\"synchronous\" = functions as both sexes at once (Serranus basslets); \"bidirectional\" = can change in either direction (Gobiodon, Lythrypnus, some Pseudochromis). Promoted from field-gap suggestions 2026-06-03 (cluster across sexChange/protandrous/simultaneousHermaphrodite/synchronousHermaphrodite/bidirectionalHermaphrodite/bidirectionalSexChange variants, plus replaces prior fish.protogynous boolean which only covered one mode)."
+        },
         "haremic":                { "type": ["boolean", "null"], "description": "True for species that naturally form harems (one dominant male + multiple females); aquarists keep these as mated pairs/harems rather than solo. Common in dwarf angelfishes and fairy wrasses. Promoted from field-gap suggestions 2026-06-02 (8 species)." },
         "caudalScalpel":          { "type": ["boolean", "null"], "description": "True for surgeonfishes/tangs with sharp caudal-peduncle spines that can injure handlers and tankmates — distinct from venomousSpines. Promoted from field-gap suggestions 2026-06-02 (6 species)." },
         "nocturnal":              { "type": ["boolean", "null"], "description": "True for strictly nocturnal species (squirrelfishes, lionfishes, many sharks/eels) — affects feeding schedule and tank lighting. Promoted from field-gap suggestions 2026-06-02 (6 species)." },
@@ -53,7 +57,12 @@
         "monogamousPairing":      { "type": ["boolean", "null"], "description": "True for species that form lifelong monogamous pair bonds (most butterflyfishes, wolf eels) — buy as mated pairs, never split established pairs. Promoted from field-gap suggestions 2026-06-02 (5 species)." },
         "hlleSusceptible":        { "type": ["boolean", "null"], "description": "True for species (most tangs/surgeonfishes, large angels) prone to Head and Lateral Line Erosion (HLLE) when kept in poor water quality or with insufficient vitamin-rich/marine-algae diet. Promoted from field-gap suggestions 2026-06-02 (6 species)." },
         "toxicToTank":            { "type": ["boolean", "null"], "description": "True for species (boxfishes/cowfishes via ostracitoxin/pahutoxin, soapfishes via grammistin, some pufferfish) that release potent skin toxins under stress or at death capable of killing all tank inhabitants — distinct from venomousSpines and from edibility-only tetrodotoxin. Promoted from field-gap suggestions 2026-06-02 (5 species)." },
-        "feedingDifficulty":      { "type": ["string", "null"], "enum": ["easy", "moderate", "difficult", "live-only", null], "description": "Difficulty of getting a newly-acquired specimen to accept aquarium foods, distinct from overall careLevel. \"easy\" = takes prepared/frozen foods readily; \"moderate\" = takes frozen but needs variety/coaxing; \"difficult\" = often refuses prepared foods on arrival, needs targeted feeding; \"live-only\" = will only accept live prey, common starvation risk (anglerfish, frogfish, some batfish, mandarin dragonets, some scorpionfishes, sweetlips). Promoted from field-gap suggestions 2026-06-02 (5 species)." }
+        "feedingDifficulty":      { "type": ["string", "null"], "enum": ["easy", "moderate", "difficult", "live-only", null], "description": "Difficulty of getting a newly-acquired specimen to accept aquarium foods, distinct from overall careLevel. \"easy\" = takes prepared/frozen foods readily; \"moderate\" = takes frozen but needs variety/coaxing; \"difficult\" = often refuses prepared foods on arrival, needs targeted feeding; \"live-only\" = will only accept live prey, common starvation risk (anglerfish, frogfish, some batfish, mandarin dragonets, some scorpionfishes, sweetlips). Promoted from field-gap suggestions 2026-06-02 (5 species)." },
+        "symbioticShrimpPartner": { "type": ["boolean", "null"], "description": "True for shrimpgobies (Cryptocentrus, Amblyeleotris, Stonogobiops, Ctenogobiops genera) that form obligate or facultative burrow-sharing symbioses with alpheid pistol shrimp; setup must include compatible Alpheus species and sand/rubble substrate. Promoted from field-gap suggestions 2026-06-03 (cluster across symbioticShrimpPartner/shrimpSymbiont/pistolShrimpSymbiont/requiresHostSymbiont/commensalSymbiont variants, ~11 votes)." },
+        "mouthbrooder":           { "type": ["boolean", "null"], "description": "True for paternal mouthbrooders (Apogonidae cardinalfish, Plesiopidae assessors, jawfish Opistognathidae) where males orally incubate egg masses until hatching. Affects breeding difficulty estimation, fry yield, and aquaculture-friendly aquarist filtering. Promoted from field-gap suggestions 2026-06-03 (5 species)." },
+        "constantGrazer":         { "type": ["boolean", "null"], "description": "True for high-metabolism planktivores (anthias, fairy basslets, some chromis) that require 3–5+ small feedings per day and decline rapidly without them. Distinct from feedingDifficulty (which captures acceptance of prepared foods, not feeding-frequency burden). Promoted from field-gap suggestions 2026-06-03 (cluster across constantGrazer/minFeedingsPerDay/feedingFrequency/feedingFrequencyPerDay variants, ~9 votes)." },
+        "cleanerFish":            { "type": ["boolean", "null"], "description": "True for species (Labroides wrasses, Elacatinus/Gobiosoma neon gobies, some juvenile butterflyfish/angelfish) that function as cleaning-station fish, removing parasites from tankmates. Captive husbandry note: dedicated cleaners can starve in tanks without enough host fish; juvenile cleaning behavior may be lost at maturity. Promoted from field-gap suggestions 2026-06-03 (cluster across cleanerFish/juvenileCleanerBehavior/cleanerJuvenile variants, 8 votes)." },
+        "euryhaline":             { "type": ["boolean", "null"], "description": "True for species (some pufferfish, scats, monos, archerfish, target perch, certain gobies) tolerating brackish or freshwater conditions in addition to marine. Surfaces setup flexibility for estuarine biotope keepers. Promoted from field-gap suggestions 2026-06-03 (cluster across euryhaline/brackishTolerant, 5 votes)." }
       }
     },
     "crustaceanVariant": {
@@ -212,12 +221,16 @@
     "nativeRange": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["regions", "countries", "habitat", "biotope"],
+      "required": ["regions", "countries", "habitat", "biotope", "depthRangeM"],
       "properties": {
-        "regions":   { "type": "array", "items": { "type": "string" } },
-        "countries": { "type": "array", "items": { "type": "string" } },
-        "habitat":   { "type": ["string", "null"] },
-        "biotope":   { "type": ["string", "null"] }
+        "regions":     { "type": "array", "items": { "type": "string" } },
+        "countries":   { "type": "array", "items": { "type": "string" } },
+        "habitat":     { "type": ["string", "null"] },
+        "biotope":     { "type": ["string", "null"] },
+        "depthRangeM": {
+          "$ref": "#/$defs/nullableNumericRange",
+          "description": "Wild collection/occurrence depth range in meters. Promoted from field-gap suggestions 2026-06-03 (~10 cluster votes across depthRangeM/typicalDepthM/typicalDepthRangeM/collectionDepthM/naturalDepthRangeM/deepWaterSpecies/deepwaterCollected etc.). Frontends should derive 'mesophotic warning' (decompression-stress + low-light preference) when min depth > 30 m."
+        }
       }
     },
 
@@ -254,12 +267,17 @@
     "tank": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["minVolumeLiters", "minLengthCm", "swimZone", "decorPreferences"],
+      "required": ["minVolumeLiters", "minLengthCm", "swimZone", "decorPreferences", "minSandDepthCm"],
       "properties": {
         "minVolumeLiters":  { "type": ["number", "null"], "minimum": 0 },
         "minLengthCm":      { "type": ["number", "null"], "minimum": 0 },
         "swimZone":         { "type": ["string", "null"], "enum": ["top", "mid", "bottom", "all", null] },
-        "decorPreferences": { "type": "array", "items": { "type": "string" } }
+        "decorPreferences": { "type": "array", "items": { "type": "string" } },
+        "minSandDepthCm":   {
+          "type": ["number", "null"],
+          "minimum": 0,
+          "description": "Minimum sand-bed depth (cm) required for burrowing/sand-sifting species (garden eels, jawfish, sleeper gobies, wrasses that bury at night). Distinct from decorPreferences prose. Promoted from field-gap suggestions 2026-06-03 (16 species)."
+        }
       }
     },
 

@@ -26,7 +26,11 @@
       "Christmas Island (Australia)"
     ],
     "habitat": "Coral and rubble areas on steep outer reef slopes, recorded at depths of about 8–70 m; usually solitary or in small groups of four to five individuals",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 8,
+      "max": 70
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -61,7 +65,8 @@
       "caves",
       "crevices",
       "open swimming space"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -131,7 +136,7 @@
     "reefSafe": "with caution",
     "escapeRisk": null,
     "venomousSpines": null,
-    "protogynous": true,
+    "sexChange": "protogynous",
     "haremic": true,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -142,7 +147,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

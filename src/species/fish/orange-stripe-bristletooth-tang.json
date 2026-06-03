@@ -43,7 +43,11 @@
       "French Polynesia"
     ],
     "habitat": "Reef-associated; reef flats, lagoons, and seaward reefs over coral, rock, pavement, and rubble substrates. FishBase records a depth range of 0–60 m, typically 6–30 m. Notable as the widest-ranging Ctenochaetus, the only member of the genus extending into the Red Sea.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 0,
+      "max": 60
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -83,7 +87,8 @@
       "rockwork crevices and overhangs for shelter",
       "moderate to strong water flow (10–20x turnover)",
       "sand bed for natural grazing behaviour"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -162,7 +167,7 @@
     "reefSafe": "yes",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": true,
     "nocturnal": false,
@@ -173,7 +178,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": true,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

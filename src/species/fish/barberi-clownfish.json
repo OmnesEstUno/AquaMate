@@ -27,7 +27,11 @@
       "American Samoa"
     ],
     "habitat": "Shallow coral reefs at approximately 2-10 m depth, living in close association with the host anemones Entacmaea quadricolor and Heteractis crispa.",
-    "biotope": "Tropical Central Pacific reef; coral reef areas with hard substrate hosting bubble-tip and leathery sea anemones."
+    "biotope": "Tropical Central Pacific reef; coral reef areas with hard substrate hosting bubble-tip and leathery sea anemones.",
+    "depthRangeM": {
+      "min": 2,
+      "max": 10
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -64,7 +68,8 @@
       "live rock with caves and overhangs",
       "open mid-water swimming space to establish territory",
       "host anemone optional (Entacmaea quadricolor bubble-tip anemone preferred, Heteractis crispa also accepted)"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
@@ -141,7 +146,7 @@
     "reefSafe": "yes",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": false,
+    "sexChange": "protandrous",
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -152,7 +157,12 @@
     "monogamousPairing": true,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

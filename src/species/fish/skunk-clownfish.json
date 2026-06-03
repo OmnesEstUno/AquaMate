@@ -36,7 +36,8 @@
       "New Caledonia"
     ],
     "habitat": "Lagoon and seaward coral reefs, generally between 1 and 38 m depth, where individuals associate closely with host anemones.",
-    "biotope": "Tropical Indo-Pacific reef; sheltered lagoons and outer reef slopes with hard substrate hosting Heteractis and Stichodactyla anemones."
+    "biotope": "Tropical Indo-Pacific reef; sheltered lagoons and outer reef slopes with hard substrate hosting Heteractis and Stichodactyla anemones.",
+    "depthRangeM": null
   },
   "waterParameters": {
     "temperatureC": {
@@ -73,7 +74,8 @@
       "live rock with caves and overhangs",
       "open mid-water swimming space",
       "host anemone optional (Heteractis magnifica, H. crispa, Macrodactyla doreensis, Stichodactyla gigantea)"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -144,7 +146,7 @@
     "reefSafe": "yes",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": false,
+    "sexChange": "protandrous",
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -155,7 +157,12 @@
     "monogamousPairing": true,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

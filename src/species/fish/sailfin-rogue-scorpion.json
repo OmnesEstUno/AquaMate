@@ -33,7 +33,8 @@
       "Fiji"
     ],
     "habitat": "Shallow subtidal areas with sand, silt or rubble bottoms and seagrass beds; generally reported between roughly 1 and 78 m depth",
-    "biotope": "Reef-associated sand/rubble and seagrass"
+    "biotope": "Reef-associated sand/rubble and seagrass",
+    "depthRangeM": null
   },
   "waterParameters": {
     "temperatureC": {
@@ -50,7 +51,7 @@
       "max": 12
     },
     "salinity": {
-      "min": 1.020,
+      "min": 1.02,
       "max": 1.025
     }
   },
@@ -69,7 +70,8 @@
       "seagrass",
       "caves",
       "rubble"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -142,7 +144,7 @@
     "reefSafe": "with caution",
     "escapeRisk": null,
     "venomousSpines": true,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": true,
@@ -153,7 +155,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": "live-only"
+    "feedingDifficulty": "live-only",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

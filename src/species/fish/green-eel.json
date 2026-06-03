@@ -6,32 +6,65 @@
   "waterType": "saltwater",
   "commonName": "Green Eel",
   "scientificName": "Gymnothorax prasinus",
-  "alsoKnownAs": ["Yellow Moray", "Yellow Moray Eel", "Green Moray Eel"],
+  "alsoKnownAs": [
+    "Yellow Moray",
+    "Yellow Moray Eel",
+    "Green Moray Eel"
+  ],
   "category": "Eel",
   "taxonomy": {
     "family": "Muraenidae",
     "order": "Anguilliformes"
   },
   "nativeRange": {
-    "regions": ["Southwest Pacific", "Oceania"],
-    "countries": ["New Zealand", "Australia"],
+    "regions": [
+      "Southwest Pacific",
+      "Oceania"
+    ],
+    "countries": [
+      "New Zealand",
+      "Australia"
+    ],
     "habitat": "Reef-associated; inhabits holes and crevices in rocky and coral reef substrates",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 15.7, "max": 23.6 },
-    "pH": { "min": 8.0, "max": 8.4 },
+    "temperatureC": {
+      "min": 15.7,
+      "max": 23.6
+    },
+    "pH": {
+      "min": 8,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 60.0, "max": 91.5 },
+  "adultSizeCm": {
+    "min": 60,
+    "max": 91.5
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 300,
     "minLengthCm": 150,
     "swimZone": "bottom",
-    "decorPreferences": ["live rock", "caves", "overhangs", "PVC pipe hides", "crevices"]
+    "decorPreferences": [
+      "live rock",
+      "caves",
+      "overhangs",
+      "PVC pipe hides",
+      "crevices"
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -42,8 +75,18 @@
     "temperament": "aggressive",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["large robust fish", "large angelfish", "large tangs"],
-    "avoidWith": ["small fish", "ornamental shrimp", "crabs", "other eels", "small invertebrates"]
+    "goodWith": [
+      "large robust fish",
+      "large angelfish",
+      "large tangs"
+    ],
+    "avoidWith": [
+      "small fish",
+      "ornamental shrimp",
+      "crabs",
+      "other eels",
+      "small invertebrates"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -77,7 +120,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": false,
     "nocturnal": true,
@@ -88,7 +131,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "moderate"
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

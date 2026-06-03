@@ -36,7 +36,11 @@
       "Thailand"
     ],
     "habitat": "Inshore reef-associated benthic environments; commonly found on coral reefs and in tide pools at depths from 0 to 85 meters.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 0,
+      "max": 85
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -68,7 +72,8 @@
       "caves or overhangs for hiding",
       "no sharp rock edges",
       "dim lighting zones"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "expert",
   "diet": {
@@ -142,7 +147,7 @@
     "reefSafe": "no",
     "escapeRisk": null,
     "venomousSpines": null,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": true,
@@ -153,7 +158,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

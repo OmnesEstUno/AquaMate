@@ -26,7 +26,11 @@
       "Cuba"
     ],
     "habitat": "Sandy and muddy bottoms at depths of approximately 29–230 m; demersal marine environment",
-    "biotope": "Coastal"
+    "biotope": "Coastal",
+    "depthRangeM": {
+      "min": 29,
+      "max": 230
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -66,7 +70,8 @@
       "low flow",
       "open bottom space",
       "minimal rockwork obstructions"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "advanced",
   "diet": {
@@ -139,7 +144,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": false,
     "nocturnal": null,
@@ -150,7 +155,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": "live-only"
+    "feedingDifficulty": "live-only",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

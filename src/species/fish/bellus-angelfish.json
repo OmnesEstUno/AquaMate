@@ -35,7 +35,11 @@
       "Australia"
     ],
     "habitat": "Steep current-swept outer reef drop-offs at depths of roughly 25–100 m, typically schooling well above the substrate in open water",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 25,
+      "max": 100
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -71,7 +75,8 @@
       "strong current",
       "caves",
       "overhangs"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -139,7 +144,7 @@
     "reefSafe": "yes",
     "escapeRisk": null,
     "venomousSpines": null,
-    "protogynous": true,
+    "sexChange": "protogynous",
     "haremic": true,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -150,7 +155,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

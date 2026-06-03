@@ -6,32 +6,63 @@
   "waterType": "saltwater",
   "commonName": "Colored Filefish",
   "scientificName": "Pervagor melanocephalus",
-  "alsoKnownAs": ["Blackheaded Filefish", "Redtail Filefish"],
+  "alsoKnownAs": [
+    "Blackheaded Filefish",
+    "Redtail Filefish"
+  ],
   "category": "Filefish",
   "taxonomy": {
     "family": "Monacanthidae",
     "order": "Tetraodontiformes"
   },
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Indo-West Pacific"],
+    "regions": [
+      "Indo-Pacific",
+      "Indo-West Pacific"
+    ],
     "countries": [],
     "habitat": "Clear coastal reefs and protected outer reef habitats with rich invertebrate growth, typically at depths of 20–40 m",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 20,
+      "max": 40
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 23.5, "max": 27.5 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 23.5,
+      "max": 27.5
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 5.0, "max": 13.0 },
+  "adultSizeCm": {
+    "min": 5,
+    "max": 13
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 150,
     "minLengthCm": 90,
     "swimZone": "all",
-    "decorPreferences": ["live rock", "coral rubble", "open swimming space", "hiding places"]
+    "decorPreferences": [
+      "live rock",
+      "coral rubble",
+      "open swimming space",
+      "hiding places"
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -42,8 +73,14 @@
     "temperament": "peaceful",
     "grouping": "pair",
     "minGroupSize": 1,
-    "goodWith": ["peaceful reef fish", "larger reef-safe fish"],
-    "avoidWith": ["other filefish of the same genus", "small ornamental invertebrates"]
+    "goodWith": [
+      "peaceful reef fish",
+      "larger reef-safe fish"
+    ],
+    "avoidWith": [
+      "other filefish of the same genus",
+      "small ornamental invertebrates"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -77,7 +114,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -88,7 +125,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "moderate"
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

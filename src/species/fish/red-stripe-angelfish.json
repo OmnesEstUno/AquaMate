@@ -30,7 +30,11 @@
       "Malaysia"
     ],
     "habitat": "Generally found in rocky areas of seaward reefs and coral-rich slopes at depths of approximately 3-30 m. Often observed grazing in the open near patches of live rock.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 3,
+      "max": 30
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -69,7 +73,8 @@
       "rocky overhangs",
       "established algae growth",
       "open swimming space"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -133,7 +138,7 @@
     "reefSafe": "with caution",
     "escapeRisk": null,
     "venomousSpines": null,
-    "protogynous": true,
+    "sexChange": "protogynous",
     "haremic": true,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -144,7 +149,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

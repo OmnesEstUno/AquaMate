@@ -6,32 +6,71 @@
   "waterType": "saltwater",
   "commonName": "Blotched Anthias",
   "scientificName": "Odontanthias borbonius",
-  "alsoKnownAs": ["Borbonius Anthias", "Blotchy Anthias", "Checked Swallowtail"],
+  "alsoKnownAs": [
+    "Borbonius Anthias",
+    "Blotchy Anthias",
+    "Checked Swallowtail"
+  ],
   "category": "Anthias",
   "taxonomy": {
     "family": "Anthiadidae",
     "order": "Perciformes"
   },
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Western Indian Ocean"],
-    "countries": ["South Africa", "Réunion", "Mauritius", "Japan", "Indonesia", "Palau"],
+    "regions": [
+      "Indo-Pacific",
+      "Western Indian Ocean"
+    ],
+    "countries": [
+      "South Africa",
+      "Réunion",
+      "Mauritius",
+      "Japan",
+      "Indonesia",
+      "Palau"
+    ],
     "habitat": "Deep reef slopes and walls, typically collected from depths exceeding 60 m; found in and around rocky caves and ledges in deeper water",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 22.8, "max": 25.6 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 22.8,
+      "max": 25.6
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.022, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.022,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 8.0, "max": 15.0 },
-  "lifespanYears": { "min": 5, "max": 7 },
+  "adultSizeCm": {
+    "min": 8,
+    "max": 15
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 7
+  },
   "tank": {
     "minVolumeLiters": 500,
     "minLengthCm": 150,
     "swimZone": "mid",
-    "decorPreferences": ["live rock", "caves", "crevices", "open swimming areas"]
+    "decorPreferences": [
+      "live rock",
+      "caves",
+      "crevices",
+      "open swimming areas"
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "advanced",
   "diet": {
@@ -42,8 +81,17 @@
     "temperament": "semi-aggressive",
     "grouping": "shoaling",
     "minGroupSize": 1,
-    "goodWith": ["peaceful reef fish", "tangs", "wrasses", "non-anthias basslets"],
-    "avoidWith": ["conspecifics in small groups", "other anthias species", "overly aggressive fish"]
+    "goodWith": [
+      "peaceful reef fish",
+      "tangs",
+      "wrasses",
+      "non-anthias basslets"
+    ],
+    "avoidWith": [
+      "conspecifics in small groups",
+      "other anthias species",
+      "overly aggressive fish"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -83,7 +131,7 @@
     "reefSafe": "yes",
     "escapeRisk": "moderate",
     "venomousSpines": false,
-    "protogynous": true,
+    "sexChange": "protogynous",
     "haremic": true,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -94,7 +142,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "moderate"
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": true,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

@@ -36,7 +36,11 @@
       "Federated States of Micronesia"
     ],
     "habitat": "Generally found in lagoons among algal or seagrass beds and on sand or silt bottoms, frequently in bays or estuaries; depth range reported from roughly 3 to 91 m, most often between 35 and 90 m.",
-    "biotope": "Sand and seagrass flats"
+    "biotope": "Sand and seagrass flats",
+    "depthRangeM": {
+      "min": 3,
+      "max": 91
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -72,7 +76,8 @@
       "mature live sand bed with established copepod and amphipod populations",
       "scattered seagrass or macroalgae for cover",
       "low to moderate flow"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "expert",
   "diet": {
@@ -144,7 +149,7 @@
     "reefSafe": "yes",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": false,
+    "sexChange": "none",
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -155,7 +160,12 @@
     "monogamousPairing": true,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "live-only"
+    "feedingDifficulty": "live-only",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": true,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

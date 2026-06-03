@@ -34,7 +34,11 @@
       "Pitcairn Islands"
     ],
     "habitat": "Reef-associated; typically encountered on reef flats and in lagoon and seaward reef areas at depths of roughly 0-40 m. Generally shelters during the day in dark crevices, under ledges, among branching corals, and notably among the long spines of the urchin Diadema setosum, emerging at dusk to forage.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 0,
+      "max": 40
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -70,7 +74,8 @@
       "branching coral shelters",
       "dim shaded retreats",
       "open swimming space"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
@@ -149,7 +154,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": false,
+    "sexChange": "none",
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": true,
@@ -160,7 +165,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": null,
     "toxicToTank": false,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": true,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

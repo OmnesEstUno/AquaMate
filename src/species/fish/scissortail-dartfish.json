@@ -35,7 +35,11 @@
       "French Polynesia"
     ],
     "habitat": "Outer reef slopes, lagoons, and bays at depths typically 2–15 m (recorded 0–30 m); tends to hover 1–2 m above sand or rubble bottoms feeding on suspended zooplankton",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 2,
+      "max": 15
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -70,7 +74,8 @@
       "live rock with crevices and overhangs for shelter",
       "ample open swimming space above the substrate",
       "tight-fitting lid required to prevent jumping"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
@@ -130,7 +135,7 @@
     "reefSafe": "yes",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -141,7 +146,12 @@
     "monogamousPairing": true,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": true,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

@@ -28,7 +28,8 @@
       "Argentina"
     ],
     "habitat": "Rapidly flowing creeks and rivers with sandy bottoms; also found in slower reaches of large river systems",
-    "biotope": "Blackwater"
+    "biotope": "Blackwater",
+    "depthRangeM": null
   },
   "waterParameters": {
     "temperatureC": {
@@ -65,7 +66,8 @@
       "dense planting",
       "low lighting",
       "dark substrate"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -122,7 +124,7 @@
     "reefSafe": "no",
     "escapeRisk": "high",
     "venomousSpines": null,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -133,7 +135,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

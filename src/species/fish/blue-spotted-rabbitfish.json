@@ -34,7 +34,11 @@
       "Maldives"
     ],
     "habitat": "Coral-rich lagoon areas and shallow seaward reefs, typically at 3–30 m depth. Juveniles inhabit shallow seagrass beds and Acropora-rich reef flats; adults are generally found in pairs on shallow coral reefs.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 3,
+      "max": 30
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -72,7 +76,8 @@
       "rockwork with crevices",
       "algae growth",
       "open swimming space"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -140,7 +145,7 @@
     "reefSafe": "with caution",
     "escapeRisk": null,
     "venomousSpines": true,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -151,7 +156,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

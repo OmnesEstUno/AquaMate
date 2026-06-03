@@ -23,7 +23,11 @@
     ],
     "countries": [],
     "habitat": "Reef-associated; generally found on exposed benches and seaward reef faces. Has been documented behaving secretively in reef structures, with activity sometimes observed at night. Depth range spans 0–64 m, with typical occurrence between 1–20 m.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 0,
+      "max": 64
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -40,7 +44,7 @@
       "max": 12
     },
     "salinity": {
-      "min": 1.020,
+      "min": 1.02,
       "max": 1.025
     }
   },
@@ -58,7 +62,8 @@
       "stable rockwork (secured to prevent collapse)",
       "tight-fitting, weighted lid with no gaps",
       "sand or bare-bottom substrate"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -111,7 +116,7 @@
     "reefSafe": "no",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": false,
     "nocturnal": true,
@@ -122,7 +127,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "moderate"
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

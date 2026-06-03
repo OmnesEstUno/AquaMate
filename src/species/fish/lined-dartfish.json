@@ -6,32 +6,68 @@
   "waterType": "saltwater",
   "commonName": "Lined Dartfish",
   "scientificName": "Ptereleotris grammica",
-  "alsoKnownAs": ["Lined Gudgeon Dartfish"],
+  "alsoKnownAs": [
+    "Lined Gudgeon Dartfish"
+  ],
   "category": "Dartfish",
   "taxonomy": {
     "family": "Microdesmidae",
     "order": "Gobiiformes"
   },
   "nativeRange": {
-    "regions": ["Indo-West Pacific"],
-    "countries": ["Mauritius", "Maldives", "Philippines", "Solomon Islands", "Japan", "Australia"],
+    "regions": [
+      "Indo-West Pacific"
+    ],
+    "countries": [
+      "Mauritius",
+      "Maldives",
+      "Philippines",
+      "Solomon Islands",
+      "Japan",
+      "Australia"
+    ],
     "habitat": "Rubble or sandy areas of seaward reefs, typically at depths of 30–60 m",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 30,
+      "max": 60
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 26 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 22,
+      "max": 26
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.020, "max": 1.026 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.026
+    }
   },
-  "adultSizeCm": { "min": 7, "max": 11 },
+  "adultSizeCm": {
+    "min": 7,
+    "max": 11
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 120,
     "minLengthCm": 90,
     "swimZone": "mid",
-    "decorPreferences": ["loose coral rubble", "sand substrate", "hiding spots (PVC pipe or rockwork caves)", "tight-fitting lid"]
+    "decorPreferences": [
+      "loose coral rubble",
+      "sand substrate",
+      "hiding spots (PVC pipe or rockwork caves)",
+      "tight-fitting lid"
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -42,8 +78,22 @@
     "temperament": "peaceful",
     "grouping": "pair",
     "minGroupSize": 2,
-    "goodWith": ["small peaceful reef fish", "gobies", "small wrasses", "clownfish", "peaceful damsels", "cardinalfish"],
-    "avoidWith": ["groupers", "triggerfishes", "aggressive dottybacks", "large aggressive angelfishes", "lionfish", "any fish that may outcompete for food"]
+    "goodWith": [
+      "small peaceful reef fish",
+      "gobies",
+      "small wrasses",
+      "clownfish",
+      "peaceful damsels",
+      "cardinalfish"
+    ],
+    "avoidWith": [
+      "groupers",
+      "triggerfishes",
+      "aggressive dottybacks",
+      "large aggressive angelfishes",
+      "lionfish",
+      "any fish that may outcompete for food"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -89,7 +139,7 @@
     "reefSafe": "yes",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -100,7 +150,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "moderate"
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

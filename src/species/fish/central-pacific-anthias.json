@@ -6,32 +6,62 @@
   "waterType": "saltwater",
   "commonName": "Central Pacific Anthias",
   "scientificName": "Pyronotanthias aurulentus",
-  "alsoKnownAs": ["Pseudanthias aurulentus", "Golden Anthias"],
+  "alsoKnownAs": [
+    "Pseudanthias aurulentus",
+    "Golden Anthias"
+  ],
   "category": "Anthias",
   "taxonomy": {
     "family": "Anthiadidae",
     "order": "Perciformes"
   },
   "nativeRange": {
-    "regions": ["Eastern Central Pacific", "Micronesia"],
-    "countries": ["Kiribati"],
+    "regions": [
+      "Eastern Central Pacific",
+      "Micronesia"
+    ],
+    "countries": [
+      "Kiribati"
+    ],
     "habitat": "Deep reef slopes and reef faces; tends to be found at greater depths than many other anthias, generally from around 30 to 60 m",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 30,
+      "max": 60
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 26 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 22,
+      "max": 26
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
     "kH": null,
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 4, "max": 9 },
+  "adultSizeCm": {
+    "min": 4,
+    "max": 9
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 300,
     "minLengthCm": 120,
     "swimZone": "mid",
-    "decorPreferences": ["extensive live rock", "caves and overhangs", "open swimming space", "refugium with copepods"]
+    "decorPreferences": [
+      "extensive live rock",
+      "caves and overhangs",
+      "open swimming space",
+      "refugium with copepods"
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -42,8 +72,19 @@
     "temperament": "peaceful",
     "grouping": "shoaling",
     "minGroupSize": 5,
-    "goodWith": ["peaceful reef fish", "other anthias", "small wrasses", "gobies", "clownfish"],
-    "avoidWith": ["large aggressive fish", "triggers", "large groupers", "dottybacks that may harass anthias"]
+    "goodWith": [
+      "peaceful reef fish",
+      "other anthias",
+      "small wrasses",
+      "gobies",
+      "clownfish"
+    ],
+    "avoidWith": [
+      "large aggressive fish",
+      "triggers",
+      "large groupers",
+      "dottybacks that may harass anthias"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -77,7 +118,7 @@
     "reefSafe": "yes",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": true,
+    "sexChange": "protogynous",
     "haremic": true,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -88,7 +129,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "moderate"
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

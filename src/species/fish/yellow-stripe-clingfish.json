@@ -34,7 +34,11 @@
       "Oman"
     ],
     "habitat": "Sheltered tropical reefs at 3–20 m depth. Lives in close association with long-spined sea urchins (Diadema spp.) or branching corals, using the host for protection and as a foraging substrate.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 3,
+      "max": 20
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -69,7 +73,8 @@
       "branching corals (Acropora, Stylophora) as host substrate",
       "long-spine sea urchin (Diadema spp.) as host substrate",
       "tight-fitting lid"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "advanced",
   "diet": {
@@ -143,7 +148,7 @@
     "reefSafe": "yes",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -154,7 +159,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "difficult"
+    "feedingDifficulty": "difficult",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

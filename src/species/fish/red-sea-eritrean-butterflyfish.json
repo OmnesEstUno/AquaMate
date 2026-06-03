@@ -18,25 +18,61 @@
     "order": "Acanthuriformes"
   },
   "nativeRange": {
-    "regions": ["Western Indian Ocean", "Red Sea"],
-    "countries": ["Egypt", "Saudi Arabia", "Sudan", "Eritrea", "Yemen", "Djibouti", "Israel", "Jordan"],
+    "regions": [
+      "Western Indian Ocean",
+      "Red Sea"
+    ],
+    "countries": [
+      "Egypt",
+      "Saudi Arabia",
+      "Sudan",
+      "Eritrea",
+      "Yemen",
+      "Djibouti",
+      "Israel",
+      "Jordan"
+    ],
     "habitat": "Coral reefs and rubble areas at depths of roughly 4–65 m; generally observed in pairs or small groups.",
-    "biotope": "Tropical reef-associated marine biotope of the Red Sea and Gulf of Aden."
+    "biotope": "Tropical reef-associated marine biotope of the Red Sea and Gulf of Aden.",
+    "depthRangeM": {
+      "min": 4,
+      "max": 65
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 27 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 23,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 10, "max": 14 },
+  "adultSizeCm": {
+    "min": 10,
+    "max": 14
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 400,
     "minLengthCm": 120,
     "swimZone": "all",
-    "decorPreferences": ["live rock", "open swimming space", "rockwork with caves and crevices"]
+    "decorPreferences": [
+      "live rock",
+      "open swimming space",
+      "rockwork with caves and crevices"
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -102,7 +138,7 @@
     "reefSafe": "no",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": false,
+    "sexChange": "none",
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -113,7 +149,12 @@
     "monogamousPairing": true,
     "hlleSusceptible": null,
     "toxicToTank": false,
-    "feedingDifficulty": "moderate"
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

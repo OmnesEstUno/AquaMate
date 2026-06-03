@@ -28,7 +28,11 @@
       "Bermuda"
     ],
     "habitat": "Shallow seagrass beds (particularly Zostera species), coral reefs, and mangroves; depth range 0–10 m. Strongly associated with seagrass microhabitats in calm, sheltered coastal waters.",
-    "biotope": "Coastal"
+    "biotope": "Coastal",
+    "depthRangeM": {
+      "min": 0,
+      "max": 10
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -68,7 +72,8 @@
       "branching decor",
       "hitching posts",
       "sponge filter"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "advanced",
   "diet": {
@@ -137,7 +142,7 @@
     "reefSafe": "no",
     "escapeRisk": null,
     "venomousSpines": null,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -148,7 +153,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

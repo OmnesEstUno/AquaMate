@@ -18,25 +18,59 @@
     "order": "Blenniiformes"
   },
   "nativeRange": {
-    "regions": ["Western Central Atlantic", "Caribbean"],
-    "countries": ["United States", "Bahamas", "Cuba", "Jamaica", "Mexico", "Belize", "Honduras", "Venezuela"],
+    "regions": [
+      "Western Central Atlantic",
+      "Caribbean"
+    ],
+    "countries": [
+      "United States",
+      "Bahamas",
+      "Cuba",
+      "Jamaica",
+      "Mexico",
+      "Belize",
+      "Honduras",
+      "Venezuela"
+    ],
     "habitat": "Shallow, clear tropical reefs over coral or rocky bottoms; perches and hops among rockwork.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 26 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 22,
+      "max": 26
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 10, "max": 13 },
+  "adultSizeCm": {
+    "min": 10,
+    "max": 13
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 150,
     "minLengthCm": 90,
     "swimZone": "bottom",
-    "decorPreferences": ["live rock", "rockwork with caves", "open swimming space", "tight-fitting lid"]
+    "decorPreferences": [
+      "live rock",
+      "rockwork with caves",
+      "open swimming space",
+      "tight-fitting lid"
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -47,8 +81,20 @@
     "temperament": "territorial",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["larger peaceful or semi-aggressive fish", "tangs", "angelfish", "hardy reef fish that do not resemble blennies"],
-    "avoidWith": ["other blennies", "gobies", "dartfish", "small slow-moving fish", "small-polyp stony corals", "tridacnid clams"]
+    "goodWith": [
+      "larger peaceful or semi-aggressive fish",
+      "tangs",
+      "angelfish",
+      "hardy reef fish that do not resemble blennies"
+    ],
+    "avoidWith": [
+      "other blennies",
+      "gobies",
+      "dartfish",
+      "small slow-moving fish",
+      "small-polyp stony corals",
+      "tridacnid clams"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -100,7 +146,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -111,7 +157,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": null,
     "toxicToTank": false,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

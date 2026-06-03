@@ -28,7 +28,11 @@
       "Myanmar"
     ],
     "habitat": "Coral reef slopes and lagoon margins; generally observed at depths of about 1–20 m, hovering over rockwork.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 1,
+      "max": 20
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -64,7 +68,8 @@
       "crevices",
       "open swimming space",
       "tight-fitting lid"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -141,7 +146,7 @@
     "reefSafe": "yes",
     "escapeRisk": "high",
     "venomousSpines": true,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -152,7 +157,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

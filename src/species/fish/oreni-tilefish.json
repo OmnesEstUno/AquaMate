@@ -13,25 +13,50 @@
     "order": "Perciformes"
   },
   "nativeRange": {
-    "regions": ["Western Indian Ocean", "Red Sea"],
-    "countries": ["Kenya", "Ethiopia"],
+    "regions": [
+      "Western Indian Ocean",
+      "Red Sea"
+    ],
+    "countries": [
+      "Kenya",
+      "Ethiopia"
+    ],
     "habitat": "Demersal; found on sandy or rubble-strewn substrates near reefs, where it excavates burrows",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 22.2, "max": 25.6 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 22.2,
+      "max": 25.6
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
     "kH": null,
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 12.0, "max": 20.3 },
+  "adultSizeCm": {
+    "min": 12,
+    "max": 20.3
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 200,
     "minLengthCm": 120,
     "swimZone": "bottom",
-    "decorPreferences": ["deep sand bed", "open sandy areas", "live rock", "rubble zones"]
+    "decorPreferences": [
+      "deep sand bed",
+      "open sandy areas",
+      "live rock",
+      "rubble zones"
+    ],
+    "minSandDepthCm": 0
   },
   "careLevel": "intermediate",
   "diet": {
@@ -42,8 +67,17 @@
     "temperament": "peaceful",
     "grouping": "pair",
     "minGroupSize": 1,
-    "goodWith": ["peaceful reef fish", "small gobies", "dartfish", "basslets", "clownfish"],
-    "avoidWith": ["aggressive fish", "large predatory fish that may consume it"]
+    "goodWith": [
+      "peaceful reef fish",
+      "small gobies",
+      "dartfish",
+      "basslets",
+      "clownfish"
+    ],
+    "avoidWith": [
+      "aggressive fish",
+      "large predatory fish that may consume it"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -83,7 +117,7 @@
     "reefSafe": "yes",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -94,7 +128,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "moderate"
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

@@ -35,7 +35,11 @@
       "Tonga"
     ],
     "habitat": "Reef-associated; sheltered coastal reefs with steep coral-rich drop-offs. FishBase records a depth range of 0–45 m, typically 3–25 m. Generally observed singly or in small groups grazing surface algal films and microfauna from hard substrate.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 0,
+      "max": 45
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -75,7 +79,8 @@
       "long horizontal footprint preferred over tall depth",
       "moderate water movement",
       "sand bed for natural grazing behaviour"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -148,7 +153,7 @@
     "reefSafe": "yes",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": true,
     "nocturnal": false,
@@ -159,7 +164,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": true,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

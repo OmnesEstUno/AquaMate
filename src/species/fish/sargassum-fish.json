@@ -40,7 +40,8 @@
       "New Zealand"
     ],
     "habitat": "Pelagic-neustonic among drifting rafts of Sargassum seaweed and other floating debris, typically at the surface from 0 to ~2 m though documented down to ~50 m",
-    "biotope": "Open Ocean"
+    "biotope": "Open Ocean",
+    "depthRangeM": null
   },
   "waterParameters": {
     "temperatureC": {
@@ -79,7 +80,8 @@
       "coral rubble",
       "fine sand substrate",
       "ledges and perches"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -110,8 +112,7 @@
     "imageCandidates": null
   },
   "summary": "A small pelagic frogfish that lives among drifting Sargassum mats and lures prey with a modified dorsal-fin appendage. Cryptic ambush predator; will swallow tankmates equal to its own length.",
-  "careNotes": "The Sargassum Fish (Histrio histrio) is the only species in its genus and a true pelagic frogfish — unlike most Antennariidae, it lives at the surface among drifting rafts of Sargassum and other floating weed rather than on the reef floor. Its body is laterally compressed with leaf-like skin filaments and a mottled tan/brown/yellow/green coloration that closely mimics the seaweed it inhabits. Individuals can shift hue over time to match their immediate surroundings.\n\nThe fish hunts by wiggling a modified first dorsal spine (illicium) tipped with a fleshy esca that mimics a small prey item; once a target approaches, the fish strikes with one of the fastest documented feeding actions in vertebrates, expanding its mouth many times its resting volume. It has been documented swallowing prey equal to or exceeding its own body length, and is reported to be cannibalistic toward conspecifics — solitary keeping is generally advised.\n\nSources disagreed on minimum tank size: LiveAquaria states 30 gallons (~114 L), Saltwaterfish.com 50 gallons (~190 L), AquariumDomain 55 gallons (~208 L), and Reefs4Less 60 gallons (~227 L). Following the AquaMate convention of biasing toward the larger value for ambush predators that demand swimming room and hunting structure, a 200-L minimum was chosen. Body length is modest (15–20 cm), but the fish appreciates open horizontal space for the lure-and-strike hunting cycle, and providing floating algae or sargassum-style perches near the surface mimics the natural niche.\n\nReef-safety is nuanced: the fish ignores corals and will not nip them, so it is generally considered reef-compatible in that narrow sense. However, it will eat any fish or motile invertebrate small enough to fit in its mouth, including ornamental shrimp, small wrasses, gobies, blennies, and cardinalfish. It should NOT be housed with triggerfish or pufferfish, which have been reported to bite off the lure appendage.\n\nA few sources disagreed widely on lifespan (Live Gem Factory cited up to 20 years; Saltwaterfish.com cited 3–5 years). The shorter range is more consistent with the species' small body size and high-metabolism predatory lifestyle, so the 3–5 year figure was used; the 20-year claim appears to be an outlier and may conflate this species with the much longer-lived large frogfishes (e.g., Antennarius commerson).\n\nFeeding is the principal husbandry hurdle. Newly-acquired specimens commonly refuse anything but live prey, and starvation is a documented risk if a transition to frozen foods is not patiently established. Many keepers train the fish to take frozen silversides or krill from tongs by mimicking prey motion.\n\nThe species is known to leap above the surface onto floating weed mats to escape predators in the wild, and can survive briefly out of water; a tight-fitting lid is generally advised. No venomous spines are documented. FishBase notes that ciguatera poisoning has been reported from this species (relevant for edibility, not for aquarium handling)."
-,
+  "careNotes": "The Sargassum Fish (Histrio histrio) is the only species in its genus and a true pelagic frogfish — unlike most Antennariidae, it lives at the surface among drifting rafts of Sargassum and other floating weed rather than on the reef floor. Its body is laterally compressed with leaf-like skin filaments and a mottled tan/brown/yellow/green coloration that closely mimics the seaweed it inhabits. Individuals can shift hue over time to match their immediate surroundings.\n\nThe fish hunts by wiggling a modified first dorsal spine (illicium) tipped with a fleshy esca that mimics a small prey item; once a target approaches, the fish strikes with one of the fastest documented feeding actions in vertebrates, expanding its mouth many times its resting volume. It has been documented swallowing prey equal to or exceeding its own body length, and is reported to be cannibalistic toward conspecifics — solitary keeping is generally advised.\n\nSources disagreed on minimum tank size: LiveAquaria states 30 gallons (~114 L), Saltwaterfish.com 50 gallons (~190 L), AquariumDomain 55 gallons (~208 L), and Reefs4Less 60 gallons (~227 L). Following the AquaMate convention of biasing toward the larger value for ambush predators that demand swimming room and hunting structure, a 200-L minimum was chosen. Body length is modest (15–20 cm), but the fish appreciates open horizontal space for the lure-and-strike hunting cycle, and providing floating algae or sargassum-style perches near the surface mimics the natural niche.\n\nReef-safety is nuanced: the fish ignores corals and will not nip them, so it is generally considered reef-compatible in that narrow sense. However, it will eat any fish or motile invertebrate small enough to fit in its mouth, including ornamental shrimp, small wrasses, gobies, blennies, and cardinalfish. It should NOT be housed with triggerfish or pufferfish, which have been reported to bite off the lure appendage.\n\nA few sources disagreed widely on lifespan (Live Gem Factory cited up to 20 years; Saltwaterfish.com cited 3–5 years). The shorter range is more consistent with the species' small body size and high-metabolism predatory lifestyle, so the 3–5 year figure was used; the 20-year claim appears to be an outlier and may conflate this species with the much longer-lived large frogfishes (e.g., Antennarius commerson).\n\nFeeding is the principal husbandry hurdle. Newly-acquired specimens commonly refuse anything but live prey, and starvation is a documented risk if a transition to frozen foods is not patiently established. Many keepers train the fish to take frozen silversides or krill from tongs by mimicking prey motion.\n\nThe species is known to leap above the surface onto floating weed mats to escape predators in the wild, and can survive briefly out of water; a tight-fitting lid is generally advised. No venomous spines are documented. FishBase notes that ciguatera poisoning has been reported from this species (relevant for edibility, not for aquarium handling).",
   "breedingNotes": "Oviparous. Females ascend toward the surface and release eggs bound together in a gelatinous mucus 'raft' or 'veil' that drifts among the sargassum until hatching; males fertilize the raft externally. Captive breeding has been recorded but is uncommon, and pair maintenance is complicated by reports of cannibalism toward conspecifics outside the brief spawning window.",
   "sources": {
     "primary": {
@@ -155,7 +156,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "moderate",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -166,7 +167,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": "live-only"
+    "feedingDifficulty": "live-only",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

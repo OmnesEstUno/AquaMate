@@ -27,7 +27,8 @@
       "Australia"
     ],
     "habitat": "Subtropical demersal species inhabiting sandy and seagrass bottoms, often adjacent to rocky reefs, from the intertidal zone to about 100 m depth. Endemic to eastern Australia (approximately 28°S to 38°S).",
-    "biotope": "Sandy bottom near reef"
+    "biotope": "Sandy bottom near reef",
+    "depthRangeM": null
   },
   "waterParameters": {
     "temperatureC": {
@@ -63,7 +64,8 @@
       "Smooth rockwork along tank perimeter only — avoid sharp or abrasive decor",
       "Rounded tank corners preferred to reduce collision injuries",
       "Minimal vertical structure; species occupies the bottom almost exclusively"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "expert",
   "diet": {
@@ -124,7 +126,7 @@
     "reefSafe": "no",
     "escapeRisk": "moderate",
     "venomousSpines": true,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -135,7 +137,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": "difficult"
+    "feedingDifficulty": "difficult",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

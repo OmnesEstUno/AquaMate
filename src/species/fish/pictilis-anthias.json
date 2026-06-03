@@ -6,32 +6,65 @@
   "waterType": "saltwater",
   "commonName": "Pictilis Anthias",
   "scientificName": "Pseudanthias pictilis",
-  "alsoKnownAs": ["Painted Anthias", "Painted Goldie"],
+  "alsoKnownAs": [
+    "Painted Anthias",
+    "Painted Goldie"
+  ],
   "category": "Anthias",
   "taxonomy": {
     "family": "Anthiadidae",
     "order": "Perciformes"
   },
   "nativeRange": {
-    "regions": ["Western Pacific", "Southwest Pacific"],
-    "countries": ["Australia", "New Caledonia", "Tonga", "Norfolk Island"],
+    "regions": [
+      "Western Pacific",
+      "Southwest Pacific"
+    ],
+    "countries": [
+      "Australia",
+      "New Caledonia",
+      "Tonga",
+      "Norfolk Island"
+    ],
     "habitat": "Steep outer reef slopes and walls, typically at 12–40 m depth; tends toward deeper, moderately lit zones",
-    "biotope": "Marine reef — outer reef slope"
+    "biotope": "Marine reef — outer reef slope",
+    "depthRangeM": {
+      "min": 12,
+      "max": 40
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 26 },
-    "pH": { "min": 8.0, "max": 8.4 },
+    "temperatureC": {
+      "min": 23,
+      "max": 26
+    },
+    "pH": {
+      "min": 8,
+      "max": 8.4
+    },
     "gH": null,
     "kH": null,
-    "salinity": { "min": 1.022, "max": 1.025 }
+    "salinity": {
+      "min": 1.022,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 7.0, "max": 13.5 },
+  "adultSizeCm": {
+    "min": 7,
+    "max": 13.5
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 500,
     "minLengthCm": 150,
     "swimZone": "mid",
-    "decorPreferences": ["open swimming space", "live rock", "caves and overhangs", "lower lighting zones"]
+    "decorPreferences": [
+      "open swimming space",
+      "live rock",
+      "caves and overhangs",
+      "lower lighting zones"
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -42,8 +75,19 @@
     "temperament": "peaceful",
     "grouping": "shoaling",
     "minGroupSize": 3,
-    "goodWith": ["peaceful reef fish", "tangs", "wrasses", "clownfish", "cardinalfish", "gobies"],
-    "avoidWith": ["conspecific males", "aggressive species", "large predatory fish"]
+    "goodWith": [
+      "peaceful reef fish",
+      "tangs",
+      "wrasses",
+      "clownfish",
+      "cardinalfish",
+      "gobies"
+    ],
+    "avoidWith": [
+      "conspecific males",
+      "aggressive species",
+      "large predatory fish"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -83,7 +127,7 @@
     "reefSafe": "yes",
     "escapeRisk": "moderate",
     "venomousSpines": false,
-    "protogynous": true,
+    "sexChange": "protogynous",
     "haremic": true,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -94,7 +138,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "moderate"
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": true,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

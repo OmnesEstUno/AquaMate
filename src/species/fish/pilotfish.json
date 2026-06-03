@@ -25,7 +25,11 @@
     ],
     "countries": [],
     "habitat": "Oceanic, pelagic; commonly found near the surface in open ocean and reef-associated zones at depths of 0–300 m",
-    "biotope": "Open Ocean"
+    "biotope": "Open Ocean",
+    "depthRangeM": {
+      "min": 0,
+      "max": 300
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -61,7 +65,8 @@
     "decorPreferences": [
       "open swimming space",
       "minimal rockwork"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "expert",
   "diet": {
@@ -125,7 +130,7 @@
     "reefSafe": "no",
     "escapeRisk": null,
     "venomousSpines": null,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -136,7 +141,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

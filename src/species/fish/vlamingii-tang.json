@@ -41,7 +41,11 @@
       "Ecuador (Galapagos)"
     ],
     "habitat": "Deep lagoon and seaward reefs; forms mid-water aggregations along steep slopes at depths of approximately 1–50 m",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 1,
+      "max": 50
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -80,7 +84,8 @@
       "long footprint",
       "rockwork for grazing",
       "tight-fitting lid"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -148,7 +153,7 @@
     "reefSafe": "yes",
     "escapeRisk": "high",
     "venomousSpines": null,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": true,
     "nocturnal": null,
@@ -159,7 +164,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": true,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

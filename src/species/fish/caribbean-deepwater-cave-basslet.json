@@ -28,12 +28,16 @@
       "Northern South America"
     ],
     "habitat": "Deep reef and rocky areas at roughly 30–60 m depth; tends to shelter in caves, crevices, and overhangs on reef walls.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 30,
+      "max": 60
+    }
   },
   "waterParameters": {
     "temperatureC": {
-      "min": 21.0,
-      "max": 27.0
+      "min": 21,
+      "max": 27
     },
     "pH": {
       "min": 8.1,
@@ -45,13 +49,13 @@
       "max": 12
     },
     "salinity": {
-      "min": 1.020,
+      "min": 1.02,
       "max": 1.025
     }
   },
   "adultSizeCm": {
-    "min": 6.0,
-    "max": 9.0
+    "min": 6,
+    "max": 9
   },
   "lifespanYears": null,
   "tank": {
@@ -64,7 +68,8 @@
       "overhangs",
       "crevices",
       "subdued lighting"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
@@ -122,7 +127,7 @@
     "reefSafe": "yes",
     "escapeRisk": "moderate",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": false,
     "nocturnal": null,
@@ -133,7 +138,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": null,
     "toxicToTank": true,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

@@ -37,7 +37,11 @@
       "Solomon Islands"
     ],
     "habitat": "Coral reefs and adjacent sandy flats; typically shallow waters 0–20 m depth. Tends to shelter in caves and under ledges at low tide, migrating to sandy areas to feed during high tide.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 0,
+      "max": 20
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -73,7 +77,8 @@
       "Rock caves or overhangs for shelter",
       "Minimal sharp or abrasive decor",
       "Rounded tank corners preferred"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "expert",
   "diet": {
@@ -170,7 +175,7 @@
     "reefSafe": "no",
     "escapeRisk": null,
     "venomousSpines": true,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -181,7 +186,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

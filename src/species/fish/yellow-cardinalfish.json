@@ -8,64 +8,89 @@
   "scientificName": "Ostorhinchus luteus",
   "alsoKnownAs": [],
   "category": "Cardinalfish",
-
   "taxonomy": {
     "family": "Apogonidae",
     "order": "Kurtiformes"
   },
-
   "nativeRange": {
-    "regions": ["Western Central Pacific"],
-    "countries": ["Philippines", "Marshall Islands"],
+    "regions": [
+      "Western Central Pacific"
+    ],
+    "countries": [
+      "Philippines",
+      "Marshall Islands"
+    ],
     "habitat": "Reef-associated; sheltered clearwater areas of lagoon and seaward reefs, depth range 1–49 m",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 1,
+      "max": 49
+    }
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 28 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 22,
+      "max": 28
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-
-  "adultSizeCm": { "min": 3.0, "max": 5.0 },
+  "adultSizeCm": {
+    "min": 3,
+    "max": 5
+  },
   "lifespanYears": null,
-
   "tank": {
     "minVolumeLiters": 75,
     "minLengthCm": 60,
     "swimZone": "mid",
-    "decorPreferences": ["live rock with caves and ledges", "sea grass or macroalgae", "open mid-water swimming space"]
+    "decorPreferences": [
+      "live rock with caves and ledges",
+      "sea grass or macroalgae",
+      "open mid-water swimming space"
+    ],
+    "minSandDepthCm": null
   },
-
   "careLevel": "beginner",
-
   "diet": {
     "type": "carnivore",
     "notes": "Generally accepts meaty foods such as frozen mysis shrimp, enriched brine shrimp, finely chopped marine flesh, and quality pellet or flake foods. Tends to feed on planktonic crustaceans and small invertebrates in the wild."
   },
-
   "compatibility": {
     "temperament": "peaceful",
     "grouping": "shoaling",
     "minGroupSize": 3,
-    "goodWith": ["peaceful reef fish", "gobies", "clownfish", "chromis", "small wrasses"],
-    "avoidWith": ["large aggressive fish", "predatory fish that can swallow small fish whole"]
+    "goodWith": [
+      "peaceful reef fish",
+      "gobies",
+      "clownfish",
+      "chromis",
+      "small wrasses"
+    ],
+    "avoidWith": [
+      "large aggressive fish",
+      "predatory fish that can swallow small fish whole"
+    ]
   },
-
   "media": {
     "primaryImage": null,
     "gallery": [],
     "imageCandidates": null
   },
-
   "summary": "A small, peaceful reef cardinalfish from the Western Central Pacific, displaying yellow-orange coloration with blue head stripes. Generally considered easy to keep and suitable for peaceful community reef aquariums.",
-
   "careNotes": "Generally best kept in small groups of 3 or more, as they tend to form a social hierarchy and feel more secure in numbers. Has been reported to be more active at night and tends to shelter near ledges, caves, or among long-spined urchins during the day. A slow and methodical swimmer. Generally considered reef-safe and has been kept successfully with corals and peaceful invertebrates.\n\nTemperature note: LiveAquaria recommends 72–78°F (22–25.6°C) for aquarium keeping, while FishBase wild-range data indicates 28.1–29.1°C in its natural Indo-Pacific habitat. The wider range of 22–28°C is used here to bridge both, but keepers may find the fish thrives toward the warmer end (25–28°C). dataStatus set to needs_review due to this temperature spread.\n\nSize note: LiveAquaria lists maximum size as approximately 2 inches (≈5 cm); FishBase records maximum standard length as 4.4 cm. Adult size range of 3–5 cm is used here.\n\nMouth-brooding reproduction: the species is a paternal or biparental mouth-brooder with distinct pairing during courtship and spawning, as documented by FishBase.",
-
   "breedingNotes": "Has been documented as a mouth-brooder with distinct pairing during courtship and spawning. Captive breeding has been reported but is considered uncommon in home aquaria. Sexing by visual inspection alone is generally unreliable.",
-
   "sources": {
     "primary": {
       "name": "LiveAquaria",
@@ -82,7 +107,6 @@
       }
     ]
   },
-
   "fish": {
     "breedingDifficulty": "difficult",
     "breedingNotes": "Mouth-brooder; distinct pairing during courtship. Captive breeding is uncommon but has been reported. Sexing visually is generally unreliable.",
@@ -91,7 +115,7 @@
     "reefSafe": "yes",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": true,
@@ -102,9 +126,13 @@
     "monogamousPairing": false,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": true,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
-
   "crustacean": null,
   "coral": null,
   "mollusc": null,
@@ -112,7 +140,6 @@
   "other-invert": null,
   "plant": null,
   "macroalgae": null,
-
   "schemaVersion": 1,
   "dataStatus": "needs_review",
   "lastReviewed": "2026-06-03"

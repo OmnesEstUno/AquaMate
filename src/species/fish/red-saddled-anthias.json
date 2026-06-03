@@ -17,19 +17,47 @@
     "order": "Perciformes"
   },
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Western Pacific"],
-    "countries": ["Indonesia", "Japan", "Palau", "Marshall Islands", "Christmas Island"],
+    "regions": [
+      "Indo-Pacific",
+      "Western Pacific"
+    ],
+    "countries": [
+      "Indonesia",
+      "Japan",
+      "Palau",
+      "Marshall Islands",
+      "Christmas Island"
+    ],
     "habitat": "Rocky and coral reef slopes, typically at depths of 18–120 m; tends to be found deeper than many aquarium anthias",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 18,
+      "max": 120
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 23.2, "max": 27.0 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 23.2,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 8.0, "max": 11.0 },
+  "adultSizeCm": {
+    "min": 8,
+    "max": 11
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 300,
@@ -39,7 +67,8 @@
       "live rock with caves and overhangs",
       "open swimming space",
       "refugium with copepods and amphipods recommended"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "advanced",
   "diet": {
@@ -102,7 +131,7 @@
     "reefSafe": "yes",
     "escapeRisk": "moderate",
     "venomousSpines": false,
-    "protogynous": true,
+    "sexChange": "protogynous",
     "haremic": true,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -113,7 +142,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "moderate"
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

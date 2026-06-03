@@ -28,7 +28,11 @@
       "India"
     ],
     "habitat": "Sand-rubble bottoms adjacent to reefs in shallow coastal waters, typically 0–10 m depth",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 0,
+      "max": 10
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -36,7 +40,7 @@
       "max": 27
     },
     "pH": {
-      "min": 8.0,
+      "min": 8,
       "max": 8.4
     },
     "gH": null,
@@ -45,7 +49,7 @@
       "max": 12
     },
     "salinity": {
-      "min": 1.020,
+      "min": 1.02,
       "max": 1.026
     }
   },
@@ -64,7 +68,8 @@
       "rubble",
       "crevices",
       "caves"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
@@ -140,7 +145,7 @@
     "reefSafe": "yes",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -151,7 +156,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": true,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

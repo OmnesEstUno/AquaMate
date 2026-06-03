@@ -6,66 +6,100 @@
   "waterType": "saltwater",
   "commonName": "Madagascar Spotted Croucher Goby",
   "scientificName": "Caracanthus madagascariensis",
-  "alsoKnownAs": ["Madagascar Coral Croucher Goby", "Madagascar Coral Croucher", "Spotted Croucher"],
+  "alsoKnownAs": [
+    "Madagascar Coral Croucher Goby",
+    "Madagascar Coral Croucher",
+    "Spotted Croucher"
+  ],
   "category": "Scorpionfish",
-
   "taxonomy": {
     "family": "Scorpaenidae",
     "order": "Perciformes"
   },
-
   "nativeRange": {
-    "regions": ["Western Indian Ocean"],
-    "countries": ["Madagascar", "Kenya", "Tanzania", "Mozambique", "South Africa", "Maldives", "Chagos Archipelago (BIOT)"],
+    "regions": [
+      "Western Indian Ocean"
+    ],
+    "countries": [
+      "Madagascar",
+      "Kenya",
+      "Tanzania",
+      "Mozambique",
+      "South Africa",
+      "Maldives",
+      "Chagos Archipelago (BIOT)"
+    ],
     "habitat": "Reef-associated; typically found nestled among branching corals (Pocillopora, Acropora) in shallow tropical reef environments",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": null
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 23.0, "max": 27.0 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 23,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8.0, "max": 12.0 },
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-
-  "adultSizeCm": { "min": 2.5, "max": 5.0 },
+  "adultSizeCm": {
+    "min": 2.5,
+    "max": 5
+  },
   "lifespanYears": null,
-
   "tank": {
     "minVolumeLiters": 120,
     "minLengthCm": null,
     "swimZone": "bottom",
-    "decorPreferences": ["live rock", "branching SPS corals", "Pocillopora", "Acropora", "dense rockwork", "rubble zones"]
+    "decorPreferences": [
+      "live rock",
+      "branching SPS corals",
+      "Pocillopora",
+      "Acropora",
+      "dense rockwork",
+      "rubble zones"
+    ],
+    "minSandDepthCm": null
   },
-
   "careLevel": "intermediate",
-
   "diet": {
     "type": "carnivore",
     "notes": "Has been reported to accept frozen mysis shrimp, brine shrimp, chopped table shrimp, and frozen carnivore preparations in captivity. Target feeding with a syringe or feeding stick is generally advised in reef systems, as this species tends not to compete well with faster tankmates for food. Multiple small daily feedings are preferable to a single large meal."
   },
-
   "compatibility": {
     "temperament": "peaceful",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["peaceful reef fish", "corals", "small docile invertebrates"],
-    "avoidWith": ["conspecifics in small tanks", "aggressive fish", "large predators", "fast-moving competitive feeders"]
+    "goodWith": [
+      "peaceful reef fish",
+      "corals",
+      "small docile invertebrates"
+    ],
+    "avoidWith": [
+      "conspecifics in small tanks",
+      "aggressive fish",
+      "large predators",
+      "fast-moving competitive feeders"
+    ]
   },
-
   "media": {
     "primaryImage": null,
     "gallery": [],
     "imageCandidates": null
   },
-
   "summary": "A small (up to ~5 cm) sedentary member of the family Scorpaenidae from the Western Indian Ocean, typically found wedged among branching corals. Generally considered peaceful toward other species; venomous dorsal spines require careful handling.",
-
   "careNotes": "Caracanthus madagascariensis (commonly sold as Madagascar Coral Croucher Goby or Madagascar Spotted Croucher Goby) belongs to the family Scorpaenidae (scorpionfishes) despite its goby-like common name — it is not a true goby. The species tends to wedge itself motionlessly among branching corals such as Pocillopora and Acropora and rarely swims in open water, making it best housed in an established reef with plenty of branching coral structure and live rock rubble.\n\nVenomous dorsal spines: The dorsal-fin spines are venomous, producing reactions comparable to bee stings. Handle with extreme caution and avoid touching the fish directly.\n\nReef safety: Generally considered reef-safe with caution. Spawning individuals have been observed laying eggs on the underside of coral branches, which can cause localized tissue recession in that area; affected corals have been reported to typically regenerate once the eggs hatch. Monitor closely in SPS-dominant systems.\n\nConspecific behavior: Have been known to squabble with their own kind in smaller aquariums; generally advised to be kept singly, or as a mated pair in larger setups.\n\nFeeding: Target feeding with a syringe or feeding stick once daily is generally advised in reef systems, as this species tends not to compete well with faster tankmates. Once acclimated, most specimens have been reported to accept frozen mysis shrimp, brine shrimp, and similar small carnivore preparations.\n\nTemperature note: LiveAquaria recommends 72–78°F (22.2–25.6°C), while FishBase wild-habitat preference data indicates 24.8–28.9°C. The averaged and rounded range of 23–27°C is used here; mid-to-upper tropical reef temperatures (25–27°C) are generally advised.\n\nTank size: LiveAquaria's spec table states a minimum of 30 gallons (≈114 L); an in-page note mentions 10 gallons. The spec-table figure is considered more authoritative and has been rounded up to the next nice-value (120 L) consistent with the playbook's caution-biased tank-size guidance.\n\nFacultative air-breathing capability has been documented in FishBase for this species, as is also the case for its congener C. maculatus.\n\nDistinct from Caracanthus maculatus (Spotted Coral Croucher Goby), which is an Indo-Pacific species with broader distribution; C. madagascariensis is restricted to the Western Indian Ocean from East Africa to the Maldives and Chagos Archipelago.",
-
   "breedingNotes": "Not well-documented in captivity. Based on close congener C. maculatus, egg deposition on SPS coral tissue has been observed in aquaria. Full captive-breeding documentation is absent from available sources.",
-
   "sources": {
     "primary": {
       "name": "LiveAquaria",
@@ -82,7 +116,6 @@
       }
     ]
   },
-
   "fish": {
     "breedingDifficulty": "difficult",
     "breedingNotes": "Not well-documented in captivity; egg deposition on SPS coral tissue has been inferred from congener behavior. Full captive-breeding records are absent.",
@@ -91,7 +124,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "low",
     "venomousSpines": true,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -102,9 +135,13 @@
     "monogamousPairing": null,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "moderate"
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
-
   "crustacean": null,
   "coral": null,
   "mollusc": null,
@@ -112,7 +149,6 @@
   "other-invert": null,
   "plant": null,
   "macroalgae": null,
-
   "schemaVersion": 1,
   "dataStatus": "researched",
   "lastReviewed": "2026-06-03"

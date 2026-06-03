@@ -6,66 +6,98 @@
   "waterType": "saltwater",
   "commonName": "Orange Line Chromis",
   "scientificName": "Acanthochromis polyacanthus",
-  "alsoKnownAs": ["Spiny Chromis", "Spiny Puller", "Orangelined Chromis"],
+  "alsoKnownAs": [
+    "Spiny Chromis",
+    "Spiny Puller",
+    "Orangelined Chromis"
+  ],
   "category": "Chromis / Damselfish",
-
   "taxonomy": {
     "family": "Pomacentridae",
     "order": "Ovalentaria"
   },
-
   "nativeRange": {
-    "regions": ["Western Pacific"],
-    "countries": ["Indonesia", "Philippines", "Australia", "Papua New Guinea", "Solomon Islands"],
+    "regions": [
+      "Western Pacific"
+    ],
+    "countries": [
+      "Indonesia",
+      "Philippines",
+      "Australia",
+      "Papua New Guinea",
+      "Solomon Islands"
+    ],
     "habitat": "Coral reefs, harbors, lagoons, and outer reef slopes at depths of 1–65 m",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 1,
+      "max": 65
+    }
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 28 },
-    "pH":           { "min": 8.1, "max": 8.4 },
-    "gH":           null,
-    "kH":           null,
-    "salinity":     { "min": 1.020, "max": 1.025 }
+    "temperatureC": {
+      "min": 23,
+      "max": 28
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": null,
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-
-  "adultSizeCm": { "min": 10, "max": 14 },
-  "lifespanYears": { "min": 8, "max": 15 },
-
+  "adultSizeCm": {
+    "min": 10,
+    "max": 14
+  },
+  "lifespanYears": {
+    "min": 8,
+    "max": 15
+  },
   "tank": {
     "minVolumeLiters": 120,
     "minLengthCm": 90,
     "swimZone": "mid",
-    "decorPreferences": ["live rock", "open swimming space", "coral structures"]
+    "decorPreferences": [
+      "live rock",
+      "open swimming space",
+      "coral structures"
+    ],
+    "minSandDepthCm": null
   },
-
   "careLevel": "beginner",
-
   "diet": {
     "type": "omnivore",
     "notes": "Generally accepts a varied diet including meaty frozen foods (mysis, brine shrimp), marine flakes, and herbivore preparations. Vitamin-enriched foods have been noted to help maintain coloration."
   },
-
   "compatibility": {
     "temperament": "semi-aggressive",
     "grouping": "shoaling",
     "minGroupSize": 3,
-    "goodWith": ["corals", "other peaceful reef fish", "small tangs", "clownfish", "gobies"],
-    "avoidWith": ["large aggressive fish", "fish that predate on small damsels"]
+    "goodWith": [
+      "corals",
+      "other peaceful reef fish",
+      "small tangs",
+      "clownfish",
+      "gobies"
+    ],
+    "avoidWith": [
+      "large aggressive fish",
+      "fish that predate on small damsels"
+    ]
   },
-
   "media": {
     "primaryImage": null,
     "gallery": [],
     "imageCandidates": null
   },
-
   "summary": "Hardy Western Pacific damselfish that tends to be kept in small schools; juveniles display a vivid orange lateral stripe that fades to brownish coloring in adults. Generally considered beginner-friendly and reef-safe.",
-
   "careNotes": "Orange Line Chromis (Acanthochromis polyacanthus) is one of the few marine damselfishes lacking a pelagic larval stage, making it relatively accessible to breed in captivity. Juveniles display a bright blue body with an orange horizontal line running from the gill plate to the tail; adults tend to darken considerably, eventually turning brownish to near-black with a whitish tail. This color change can be surprising to keepers who acquired the fish as juveniles.\n\nCaptive breeding is reported as achievable: obtaining a group of juveniles and allowing natural pairing tends to be the recommended approach. Once a pair forms they can be separated into a dedicated breeding aquarium. Parents guard eggs and newly hatched fry — an unusual trait among reef fish. Fry are reported to grow relatively quickly.\n\nTemperament sources disagree: LiveAquaria describes this species as peaceful, while BlueZoo Aquatics rates it semi-aggressive. The semi-aggressive rating is applied here as the more conservative assessment, particularly given that established pairs can become territorial around a nesting site. Keeping three or more individuals together tends to distribute aggression.\n\nNative range is the Western Pacific (Indonesia, Philippines, northeastern Australia, Melanesia) — not the Indian Ocean as sometimes stated by retail sources. FishBase documents a scientific maximum length of 16 cm TL; hobby sources cite 4–5 inches (10–12.7 cm) as typical aquarium size. The range {min: 10, max: 14} cm reflects typical adult size in captivity.\n\nTemperature sources disagreed: LiveAquaria lists 72–78°F (22–26°C), while FishBase environmental modeling for natural habitat indicates 25.1–28.9°C. The averaged range of 23–28°C is used here; keepers in cooler-water systems should note the natural habitat preference leans toward the warmer end.\n\nLifespan is reported as 8–15 years (LiveAquaria) and up to 18 years (BlueZoo). The range 8–15 years is used; maximum reports of ~18 years may reflect exceptional specimens in ideal conditions.",
-
   "breedingNotes": "Among the easiest saltwater damselfishes to breed in captivity. Uniquely among marine fish, juveniles skip the pelagic larval stage entirely, making rearing significantly more straightforward than typical reef fish. Acquiring a group of juveniles and allowing them to naturally pair is the standard recommended approach. Once paired, moving the pair to a dedicated aquarium and providing flat rock surfaces for egg deposition tends to yield results. Both parents guard the eggs and fry.",
-
   "sources": {
     "primary": {
       "name": "LiveAquaria",
@@ -88,7 +120,6 @@
       }
     ]
   },
-
   "fish": {
     "breedingDifficulty": "easy",
     "breedingNotes": "One of the easiest saltwater fish to breed in captivity; lacks a pelagic larval stage. Parents guard fry. Acquire juveniles in groups and allow natural pairing.",
@@ -97,7 +128,7 @@
     "reefSafe": "yes",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -108,9 +139,13 @@
     "monogamousPairing": true,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
-
   "crustacean": null,
   "coral": null,
   "mollusc": null,
@@ -118,7 +153,6 @@
   "other-invert": null,
   "plant": null,
   "macroalgae": null,
-
   "schemaVersion": 1,
   "dataStatus": "researched",
   "lastReviewed": "2026-06-03"

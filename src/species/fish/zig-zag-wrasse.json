@@ -36,7 +36,11 @@
       "Australia"
     ],
     "habitat": "Commonly found in shallow lagoons and bays, typically over sand, rubble, or seagrass bottoms rather than directly on coral reefs; recorded at depths of about 1–20 m",
-    "biotope": "Sandy lagoon / seagrass"
+    "biotope": "Sandy lagoon / seagrass",
+    "depthRangeM": {
+      "min": 1,
+      "max": 20
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -71,7 +75,8 @@
       "open sandy foraging area",
       "live rock with caves",
       "tight-fitting lid"
-    ]
+    ],
+    "minSandDepthCm": 5
   },
   "careLevel": "intermediate",
   "diet": {
@@ -141,7 +146,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": true,
+    "sexChange": "protandrous",
     "haremic": true,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -152,7 +157,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": null,
     "toxicToTank": false,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": true,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

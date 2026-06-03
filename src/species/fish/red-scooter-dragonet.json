@@ -6,32 +6,74 @@
   "waterType": "saltwater",
   "commonName": "Red Scooter Dragonet",
   "scientificName": "Synchiropus stellatus",
-  "alsoKnownAs": ["Starry Dragonet", "Stellate Dragonet", "Red Scooter Blenny"],
+  "alsoKnownAs": [
+    "Starry Dragonet",
+    "Stellate Dragonet",
+    "Red Scooter Blenny"
+  ],
   "category": "Dragonet",
   "taxonomy": {
     "family": "Callionymidae",
     "order": "Callionymiformes"
   },
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Indian Ocean"],
-    "countries": ["Indonesia", "Maldives", "Sri Lanka", "Tanzania", "Kenya"],
+    "regions": [
+      "Indo-Pacific",
+      "Indian Ocean"
+    ],
+    "countries": [
+      "Indonesia",
+      "Maldives",
+      "Sri Lanka",
+      "Tanzania",
+      "Kenya"
+    ],
     "habitat": "Coastal protected reefs over rubble or algal-covered rocks, typically at depths of 10–20 m.",
-    "biotope": "Reef-associated tropical waters from East Africa to Sumatra and adjacent oceanic islands."
+    "biotope": "Reef-associated tropical waters from East Africa to Sumatra and adjacent oceanic islands.",
+    "depthRangeM": {
+      "min": 10,
+      "max": 20
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 27 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 23,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 5, "max": 7.5 },
-  "lifespanYears": { "min": 2, "max": 4 },
+  "adultSizeCm": {
+    "min": 5,
+    "max": 7.5
+  },
+  "lifespanYears": {
+    "min": 2,
+    "max": 4
+  },
   "tank": {
     "minVolumeLiters": 200,
     "minLengthCm": 90,
     "swimZone": "bottom",
-    "decorPreferences": ["mature live rock", "live sand substrate", "refugium for pod production", "rubble zones", "low-flow grazing areas"]
+    "decorPreferences": [
+      "mature live rock",
+      "live sand substrate",
+      "refugium for pod production",
+      "rubble zones",
+      "low-flow grazing areas"
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "advanced",
   "diet": {
@@ -42,8 +84,20 @@
     "temperament": "peaceful",
     "grouping": "pair",
     "minGroupSize": 1,
-    "goodWith": ["small peaceful reef fish", "non-competing gobies", "clownfish", "corals", "ornamental shrimp", "snails"],
-    "avoidWith": ["other male Synchiropus", "aggressive tankmates", "fast feeders that outcompete for pods (anthias, wrasses, dragonet-eating dottybacks)", "predatory fish"]
+    "goodWith": [
+      "small peaceful reef fish",
+      "non-competing gobies",
+      "clownfish",
+      "corals",
+      "ornamental shrimp",
+      "snails"
+    ],
+    "avoidWith": [
+      "other male Synchiropus",
+      "aggressive tankmates",
+      "fast feeders that outcompete for pods (anthias, wrasses, dragonet-eating dottybacks)",
+      "predatory fish"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -82,7 +136,7 @@
     "reefSafe": "yes",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": true,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -93,7 +147,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": null,
     "toxicToTank": false,
-    "feedingDifficulty": "difficult"
+    "feedingDifficulty": "difficult",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

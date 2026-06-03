@@ -25,7 +25,11 @@
       "Tonga"
     ],
     "habitat": "Shallow lagoon and seaward reefs at 0–16 m depth, apparently endemic to Tonga",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 0,
+      "max": 16
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -64,7 +68,8 @@
       "crevices",
       "tight-fitting lid required",
       "open swimming space"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -133,7 +138,7 @@
     "reefSafe": "yes",
     "escapeRisk": "high",
     "venomousSpines": true,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -144,7 +149,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

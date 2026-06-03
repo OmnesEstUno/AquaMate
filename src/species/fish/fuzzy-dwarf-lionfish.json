@@ -33,7 +33,8 @@
       "Indonesia"
     ],
     "habitat": "Reef flats and shallow lagoons; favors weed-covered rocks on sandy substrates, sponges, and areas with overhangs and caves",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": null
   },
   "waterParameters": {
     "temperatureC": {
@@ -71,7 +72,8 @@
       "caves",
       "overhangs",
       "crevices"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -147,7 +149,7 @@
     "reefSafe": "with caution",
     "escapeRisk": null,
     "venomousSpines": true,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": true,
@@ -158,7 +160,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

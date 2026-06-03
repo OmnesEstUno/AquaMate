@@ -36,7 +36,11 @@
       "Chile"
     ],
     "habitat": "Demersal species found on soft bottoms (sand, mud) in shallow coastal waters, typically at depths of 1–60 m. Generally associated with subtidal zones adjacent to beaches, bays, and estuaries in subtropical waters.",
-    "biotope": "Coastal"
+    "biotope": "Coastal",
+    "depthRangeM": {
+      "min": 1,
+      "max": 60
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -53,7 +57,7 @@
       "max": 12
     },
     "salinity": {
-      "min": 1.020,
+      "min": 1.02,
       "max": 1.025
     }
   },
@@ -73,7 +77,8 @@
       "Minimal sharp or abrasive rockwork",
       "Rounded tank corners to reduce collision and stress",
       "Secure lid (rays have been reported to occasionally launch from open-top systems)"
-    ]
+    ],
+    "minSandDepthCm": 0
   },
   "careLevel": "expert",
   "diet": {
@@ -140,7 +145,7 @@
     "reefSafe": "no",
     "escapeRisk": "moderate",
     "venomousSpines": true,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -151,7 +156,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": "difficult"
+    "feedingDifficulty": "difficult",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

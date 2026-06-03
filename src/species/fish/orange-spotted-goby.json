@@ -6,32 +6,68 @@
   "waterType": "saltwater",
   "commonName": "Orange Spotted Goby",
   "scientificName": "Amblyeleotris guttata",
-  "alsoKnownAs": ["Spotted Prawn Goby", "Orange Spotted Shrimp Goby"],
+  "alsoKnownAs": [
+    "Spotted Prawn Goby",
+    "Orange Spotted Shrimp Goby"
+  ],
   "category": "Gobies",
   "taxonomy": {
     "family": "Gobiidae",
     "order": "Gobiiformes"
   },
   "nativeRange": {
-    "regions": ["Western Pacific"],
-    "countries": ["Philippines", "Japan", "Australia", "Tonga", "Indonesia"],
+    "regions": [
+      "Western Pacific"
+    ],
+    "countries": [
+      "Philippines",
+      "Japan",
+      "Australia",
+      "Tonga",
+      "Indonesia"
+    ],
     "habitat": "Outer lagoon and seaward reef sand slopes; found on patches or expanses of coarse carbonate sand at depths of roughly 10–40 m",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 10,
+      "max": 40
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22.0, "max": 27.0 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 22,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8.0, "max": 12.0 },
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 3.0, "max": 10.0 },
+  "adultSizeCm": {
+    "min": 3,
+    "max": 10
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 75,
     "minLengthCm": 60,
     "swimZone": "bottom",
-    "decorPreferences": ["fine sand substrate", "loose coral rubble", "caves and crevices for hiding", "open sand patches for burrowing"]
+    "decorPreferences": [
+      "fine sand substrate",
+      "loose coral rubble",
+      "caves and crevices for hiding",
+      "open sand patches for burrowing"
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
@@ -42,8 +78,19 @@
     "temperament": "peaceful",
     "grouping": "pair",
     "minGroupSize": 1,
-    "goodWith": ["reef fish", "clownfish", "small wrasses", "dartfish", "shrimp (alpheid/pistol shrimp — symbiotic partner)", "other peaceful gobies"],
-    "avoidWith": ["aggressive fish", "large predatory fish", "small ornamental shrimp (may be threatened by this goby)"]
+    "goodWith": [
+      "reef fish",
+      "clownfish",
+      "small wrasses",
+      "dartfish",
+      "shrimp (alpheid/pistol shrimp — symbiotic partner)",
+      "other peaceful gobies"
+    ],
+    "avoidWith": [
+      "aggressive fish",
+      "large predatory fish",
+      "small ornamental shrimp (may be threatened by this goby)"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -77,7 +124,7 @@
     "reefSafe": "yes",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -88,7 +135,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": true,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

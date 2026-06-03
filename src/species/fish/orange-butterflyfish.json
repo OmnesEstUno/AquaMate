@@ -47,7 +47,11 @@
       "Ecuador (Galapagos Islands)"
     ],
     "habitat": "Marine, reef-associated and non-migratory; recorded across a depth range of roughly 2-61 m (occasionally to 90 m), most often below 10 m on deeper lagoon slopes, channels and seaward reefs.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 2,
+      "max": 61
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -83,7 +87,8 @@
       "stable, well-aged water chemistry",
       "moderate current",
       "subdued lighting near refuges where the fish can retreat"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -155,7 +160,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "low",
     "venomousSpines": null,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": false,
@@ -166,7 +171,12 @@
     "monogamousPairing": true,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

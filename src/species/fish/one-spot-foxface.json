@@ -28,7 +28,11 @@
       "Australia"
     ],
     "habitat": "Shallow reef and lagoon environments to approximately 14–30 m depth, particularly among staghorn Acropora and Porites coral formations and coral rubble areas. Two disjunct populations: one in the northern Western Pacific (Ryukyu and Ogasawara Islands of Japan, Philippines) and one in the Rowley Shoals off northwestern Australia (Timor Sea).",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 14,
+      "max": 30
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -63,7 +67,8 @@
       "open swimming space",
       "algae growth areas",
       "rockwork crevices"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -128,7 +133,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "low",
     "venomousSpines": true,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -139,7 +144,12 @@
     "monogamousPairing": true,
     "hlleSusceptible": null,
     "toxicToTank": false,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

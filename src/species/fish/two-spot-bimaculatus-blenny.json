@@ -6,32 +6,63 @@
   "waterType": "saltwater",
   "commonName": "Two Spot Bimaculatus Blenny",
   "scientificName": "Ecsenius bimaculatus",
-  "alsoKnownAs": ["Bimaculatus Blenny", "Two Spot Blenny", "Twinspot Coralblenny"],
+  "alsoKnownAs": [
+    "Bimaculatus Blenny",
+    "Two Spot Blenny",
+    "Twinspot Coralblenny"
+  ],
   "category": "Blenny",
   "taxonomy": {
     "family": "Blenniidae",
     "order": "Blenniiformes"
   },
   "nativeRange": {
-    "regions": ["Western Pacific"],
-    "countries": ["Philippines", "Malaysia"],
+    "regions": [
+      "Western Pacific"
+    ],
+    "countries": [
+      "Philippines",
+      "Malaysia"
+    ],
     "habitat": "Reef crests and slopes with rich coral growth; tends to associate with sponges and tunicates at depths of 1–15 m",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 1,
+      "max": 15
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 24.0, "max": 27.5 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 24,
+      "max": 27.5
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
     "kH": null,
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 3.5, "max": 4.5 },
+  "adultSizeCm": {
+    "min": 3.5,
+    "max": 4.5
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 75,
     "minLengthCm": 60,
     "swimZone": "bottom",
-    "decorPreferences": ["live rock", "rocky crevices", "sponges", "rubble zones"]
+    "decorPreferences": [
+      "live rock",
+      "rocky crevices",
+      "sponges",
+      "rubble zones"
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
@@ -42,8 +73,17 @@
     "temperament": "peaceful",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["peaceful reef fish", "corals", "invertebrates", "other blennies of different genera"],
-    "avoidWith": ["aggressive fish", "conspecifics in small tanks", "other Ecsenius blennies unless tank is large"]
+    "goodWith": [
+      "peaceful reef fish",
+      "corals",
+      "invertebrates",
+      "other blennies of different genera"
+    ],
+    "avoidWith": [
+      "aggressive fish",
+      "conspecifics in small tanks",
+      "other Ecsenius blennies unless tank is large"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -83,7 +123,7 @@
     "reefSafe": "yes",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -94,7 +134,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

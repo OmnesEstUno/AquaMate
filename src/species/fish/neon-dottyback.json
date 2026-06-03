@@ -30,7 +30,11 @@
       "Sri Lanka"
     ],
     "habitat": "Reclusive reef dweller on offshore coral and rocky reefs at depths of roughly 1–25 m; tends to remain close to rockwork and is quick to retreat into crevices when startled.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 1,
+      "max": 25
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -69,7 +73,8 @@
       "crevices",
       "overhangs",
       "rockwork with defendable territory"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
@@ -139,7 +144,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "high",
     "venomousSpines": null,
-    "protogynous": null,
+    "sexChange": "bidirectional",
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -150,7 +155,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

@@ -30,7 +30,11 @@
       "Pitcairn Islands (UK)"
     ],
     "habitat": "Reef-associated, benthopelagic; occurs in schools above reef drop-offs around oceanic islands and along continental coasts, typically at depths from roughly 6–130 m",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 6,
+      "max": 130
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -68,7 +72,8 @@
       "caves",
       "open swimming space",
       "rocky overhangs"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -137,7 +142,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": false,
+    "sexChange": "protogynous",
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -148,7 +153,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

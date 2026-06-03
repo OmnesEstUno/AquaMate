@@ -6,32 +6,72 @@
   "waterType": "saltwater",
   "commonName": "Ocellate Damselfish",
   "scientificName": "Pomacentrus vaiuli",
-  "alsoKnownAs": ["Princess Damselfish", "Princess Damsel", "Ocellate Damsel"],
+  "alsoKnownAs": [
+    "Princess Damselfish",
+    "Princess Damsel",
+    "Ocellate Damsel"
+  ],
   "category": "Damsel",
   "taxonomy": {
     "family": "Pomacentridae",
     "order": "Ovalentaria incertae sedis"
   },
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Western Pacific", "Coral Triangle"],
-    "countries": ["Indonesia", "Fiji", "Samoa", "New Caledonia", "Japan", "Australia"],
+    "regions": [
+      "Indo-Pacific",
+      "Western Pacific",
+      "Coral Triangle"
+    ],
+    "countries": [
+      "Indonesia",
+      "Fiji",
+      "Samoa",
+      "New Caledonia",
+      "Japan",
+      "Australia"
+    ],
     "habitat": "Mixed coral and rubble areas of lagoon and seaward reefs, from the lower surge zone down to roughly 40-45 m.",
-    "biotope": "Tropical coral reef with abundant live rock, branching corals, and cover, typically encountered as solitary individuals."
+    "biotope": "Tropical coral reef with abundant live rock, branching corals, and cover, typically encountered as solitary individuals.",
+    "depthRangeM": {
+      "min": 40,
+      "max": 45
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 27 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 22,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 7.5, "max": 10 },
+  "adultSizeCm": {
+    "min": 7.5,
+    "max": 10
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 150,
     "minLengthCm": 90,
     "swimZone": "mid",
-    "decorPreferences": ["live rock", "branching coral", "caves and crevices", "open swimming space"]
+    "decorPreferences": [
+      "live rock",
+      "branching coral",
+      "caves and crevices",
+      "open swimming space"
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
@@ -42,8 +82,20 @@
     "temperament": "semi-aggressive",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["larger semi-aggressive reef fish", "tangs", "wrasses", "angelfishes", "corals", "most reef invertebrates"],
-    "avoidWith": ["other damselfish in small tanks", "very small or timid fish", "conspecifics in modest reef tanks", "newly added tankmates after the damsel is established"]
+    "goodWith": [
+      "larger semi-aggressive reef fish",
+      "tangs",
+      "wrasses",
+      "angelfishes",
+      "corals",
+      "most reef invertebrates"
+    ],
+    "avoidWith": [
+      "other damselfish in small tanks",
+      "very small or timid fish",
+      "conspecifics in modest reef tanks",
+      "newly added tankmates after the damsel is established"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -83,7 +135,7 @@
     "reefSafe": "yes",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": false,
+    "sexChange": "none",
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -94,7 +146,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

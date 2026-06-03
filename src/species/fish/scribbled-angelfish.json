@@ -27,7 +27,8 @@
       "Taiwan"
     ],
     "habitat": "Coastal and inner-reef areas with rubble, soft bottoms, or flat substrates featuring rock, coral, sponge, and seawhip outcrops; generally encountered between about 5 and 20 m depth.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": null
   },
   "waterParameters": {
     "temperatureC": {
@@ -62,7 +63,8 @@
       "caves",
       "overhangs",
       "open swimming space"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -132,7 +134,7 @@
     "reefSafe": "no",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": true,
+    "sexChange": "protandrous",
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -143,7 +145,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": true,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

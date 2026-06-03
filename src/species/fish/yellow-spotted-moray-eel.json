@@ -45,7 +45,11 @@
       "New Caledonia"
     ],
     "habitat": "Reef-associated; inhabits inner and outer reef slopes from approximately 2 m to 271 m, most commonly encountered below about 30 m. Generally sheltered in caves, crevices, and overhangs in coral and rocky reef structure.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 1,
+      "max": 1.8
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -81,7 +85,8 @@
       "tightly sealed, weighted lid with no gaps (high escape risk)",
       "dimmer lighting or shaded refuges",
       "sand substrate"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "expert",
   "diet": {
@@ -154,7 +159,7 @@
     "reefSafe": "no",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": false,
     "nocturnal": true,
@@ -165,7 +170,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": "moderate"
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

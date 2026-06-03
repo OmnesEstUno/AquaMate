@@ -38,7 +38,11 @@
       "Fiji"
     ],
     "habitat": "Reef-associated; generally found over open muddy, sandy, or silty substrates in protected bays and estuaries, around rock outcrops, wreckage, and rubble, as well as on shallow coastal coral reefs at depths of roughly 1-50 m (recorded as deep as ~170 m). Often encountered in turbid water, singly or in small groups; juveniles tend to shelter in weedy zones.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 1,
+      "max": 50
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -77,7 +81,8 @@
       "sandy substrate",
       "secure rockwork",
       "subdued lighting appreciated by juveniles"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "expert",
   "diet": {
@@ -144,7 +149,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": true,
@@ -155,7 +160,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": false,
-    "feedingDifficulty": "difficult"
+    "feedingDifficulty": "difficult",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": true,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

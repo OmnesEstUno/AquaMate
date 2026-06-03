@@ -27,7 +27,11 @@
       "Pitcairn Islands (Ducie Island)"
     ],
     "habitat": "Lagoon and seaward reefs; benthopelagic at depths of roughly 8–35 m",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 8,
+      "max": 35
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -61,7 +65,8 @@
       "live rock",
       "open swimming space",
       "rockwork crevices for refuge"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -131,7 +136,7 @@
     "reefSafe": "yes",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": true,
     "nocturnal": null,
@@ -142,7 +147,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": true,
     "toxicToTank": null,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

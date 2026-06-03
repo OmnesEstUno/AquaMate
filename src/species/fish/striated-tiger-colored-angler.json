@@ -35,7 +35,8 @@
       "Senegal"
     ],
     "habitat": "Rocky and coral reefs; benthic dweller on rocks, sand, or rubble in marine and occasionally brackish coastal waters",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": null
   },
   "waterParameters": {
     "temperatureC": {
@@ -72,7 +73,8 @@
       "rock rubble",
       "sandy substrate",
       "crevices"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -138,7 +140,7 @@
     "reefSafe": "with caution",
     "escapeRisk": null,
     "venomousSpines": true,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -149,7 +151,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": true
   },
   "crustacean": null,
   "coral": null,

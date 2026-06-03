@@ -6,32 +6,65 @@
   "waterType": "saltwater",
   "commonName": "Resplendent Anthias",
   "scientificName": "Pseudanthias pulcherrimus",
-  "alsoKnownAs": ["Tierra Anthias", "Resplendent Goldie"],
+  "alsoKnownAs": [
+    "Tierra Anthias",
+    "Resplendent Goldie"
+  ],
   "category": "Anthias",
   "taxonomy": {
     "family": "Anthiadidae",
     "order": "Perciformes"
   },
   "nativeRange": {
-    "regions": ["Western Indian Ocean"],
-    "countries": ["Maldives", "Seychelles", "Mauritius", "India", "British Indian Ocean Territory"],
+    "regions": [
+      "Western Indian Ocean"
+    ],
+    "countries": [
+      "Maldives",
+      "Seychelles",
+      "Mauritius",
+      "India",
+      "British Indian Ocean Territory"
+    ],
     "habitat": "Deep reef slopes, steep drop-offs, and cave-rich reef structures, generally at depths of 10–70 m",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 10,
+      "max": 70
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 27 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 23,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
     "kH": null,
-    "salinity": { "min": 1.020, "max": 1.026 }
+    "salinity": {
+      "min": 1.02,
+      "max": 1.026
+    }
   },
-  "adultSizeCm": { "min": 7, "max": 9 },
+  "adultSizeCm": {
+    "min": 7,
+    "max": 9
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 500,
     "minLengthCm": 150,
     "swimZone": "mid",
-    "decorPreferences": ["live rock", "caves", "ledges", "open swimming space"]
+    "decorPreferences": [
+      "live rock",
+      "caves",
+      "ledges",
+      "open swimming space"
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -42,8 +75,17 @@
     "temperament": "peaceful",
     "grouping": "shoaling",
     "minGroupSize": 3,
-    "goodWith": ["peaceful reef fish", "corals", "invertebrates", "other anthias"],
-    "avoidWith": ["aggressive fish", "large predators", "conspecific males without sufficient space"]
+    "goodWith": [
+      "peaceful reef fish",
+      "corals",
+      "invertebrates",
+      "other anthias"
+    ],
+    "avoidWith": [
+      "aggressive fish",
+      "large predators",
+      "conspecific males without sufficient space"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -83,7 +125,7 @@
     "reefSafe": "yes",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": true,
+    "sexChange": "protogynous",
     "haremic": true,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -94,7 +136,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "moderate"
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": true,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

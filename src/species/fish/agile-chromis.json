@@ -28,12 +28,16 @@
       "Comoros"
     ],
     "habitat": "Generally found on clear lagoon and seaward reefs, typically occurring in loose aggregations near caves and ledges. Has been documented as abundant over branching corals and on leeward coasts, at depths ranging from approximately 11 to 120 m.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 11,
+      "max": 120
+    }
   },
   "waterParameters": {
     "temperatureC": {
-      "min": 22.0,
-      "max": 26.0
+      "min": 22,
+      "max": 26
     },
     "pH": {
       "min": 8.1,
@@ -42,12 +46,12 @@
     "gH": null,
     "kH": null,
     "salinity": {
-      "min": 1.020,
+      "min": 1.02,
       "max": 1.025
     }
   },
   "adultSizeCm": {
-    "min": 5.0,
+    "min": 5,
     "max": 7.6
   },
   "lifespanYears": null,
@@ -60,7 +64,8 @@
       "open swimming space",
       "caves and overhangs",
       "branching coral formations"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
@@ -121,7 +126,7 @@
     "reefSafe": "yes",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -132,7 +137,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": false,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

@@ -25,7 +25,11 @@
       "Ecuador"
     ],
     "habitat": "Rocky reefs, kelp beds, sandy flats, deep crevices and small caves; benthic species typically found at depths of 2–11 m, with juveniles occupying deeper sandy flats to 150 m",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 2,
+      "max": 11
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -63,7 +67,8 @@
       "crevices",
       "sand substrate",
       "stable rockwork"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "expert",
   "diet": {
@@ -163,7 +168,7 @@
     "reefSafe": "no",
     "escapeRisk": null,
     "venomousSpines": null,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -174,7 +179,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

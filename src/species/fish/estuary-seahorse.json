@@ -38,7 +38,11 @@
       "Hawaii (USA)"
     ],
     "habitat": "Shallow coastal waters; seagrass beds, estuaries, lagoons, harbors, mangroves, and seaward reefs. Depth range 0–68 m, typically 0–8 m. Marine and brackish tolerant.",
-    "biotope": "Estuary"
+    "biotope": "Estuary",
+    "depthRangeM": {
+      "min": 0,
+      "max": 68
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -78,7 +82,8 @@
       "seagrass",
       "hitching posts",
       "low-flow zones"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "advanced",
   "diet": {
@@ -174,7 +179,7 @@
     "reefSafe": "with caution",
     "escapeRisk": null,
     "venomousSpines": null,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -185,7 +190,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": true
   },
   "crustacean": null,
   "coral": null,

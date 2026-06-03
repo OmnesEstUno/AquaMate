@@ -30,7 +30,11 @@
       "Egypt"
     ],
     "habitat": "Outer reef environments at depths of 40–75 m, generally forming small aggregations near reef structures",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 40,
+      "max": 75
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -65,7 +69,8 @@
       "open swimming space",
       "moderate to strong flow",
       "subdued or gradually increasing lighting"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "advanced",
   "diet": {
@@ -122,7 +127,7 @@
     "reefSafe": "yes",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": true,
+    "sexChange": "protogynous",
     "haremic": true,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -133,7 +138,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": null,
     "toxicToTank": false,
-    "feedingDifficulty": "moderate"
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": true,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

@@ -25,7 +25,11 @@
       "Johnston Atoll"
     ],
     "habitat": "Reef-associated; found on rock, coral, and rubble bottoms generally from around 5 to 50 m, with records to ~138 m.",
-    "biotope": "Hawaiian coral reef with abundant live rock for grazing and crevice cover"
+    "biotope": "Hawaiian coral reef with abundant live rock for grazing and crevice cover",
+    "depthRangeM": {
+      "min": 5,
+      "max": 50
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -63,7 +67,8 @@
       "multiple caves and crevices",
       "mature reef setup",
       "open swimming space along the front"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "advanced",
   "diet": {
@@ -125,7 +130,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": true,
+    "sexChange": "protandrous",
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -136,7 +141,12 @@
     "monogamousPairing": true,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

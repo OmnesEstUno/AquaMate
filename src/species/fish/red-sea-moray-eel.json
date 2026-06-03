@@ -34,7 +34,11 @@
       "Mauritius"
     ],
     "habitat": "Marine, reef-associated; shallow coastal waters on coral and rocky reefs from roughly 1–40 m depth, sheltering in caves and crevices",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 1,
+      "max": 40
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -73,7 +77,8 @@
       "crevices",
       "rockwork overhangs",
       "PVC tubes"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "advanced",
   "diet": {
@@ -141,7 +146,7 @@
     "reefSafe": "no",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": true,
@@ -152,7 +157,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": "moderate"
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

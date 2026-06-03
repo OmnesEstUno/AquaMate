@@ -6,37 +6,79 @@
   "waterType": "saltwater",
   "commonName": "Rao's Dart Goby",
   "scientificName": "Parioglossus raoi",
-  "alsoKnownAs": ["Rao's Hover Goby"],
+  "alsoKnownAs": [
+    "Rao's Hover Goby"
+  ],
   "category": "Goby",
   "taxonomy": {
     "family": "Microdesmidae",
     "order": "Gobiiformes"
   },
   "nativeRange": {
-    "regions": ["Indo-West Pacific", "Arabian Gulf", "Gulf of Oman"],
+    "regions": [
+      "Indo-West Pacific",
+      "Arabian Gulf",
+      "Gulf of Oman"
+    ],
     "countries": [
-      "Andaman Islands", "Australia", "Bahrain", "Fiji", "Indonesia",
-      "Japan", "Kuwait", "Malaysia", "Micronesia", "Oman",
-      "Papua New Guinea", "Philippines", "Qatar", "Ryukyu Islands",
-      "Saudi Arabia", "Singapore", "Tonga", "United Arab Emirates"
+      "Andaman Islands",
+      "Australia",
+      "Bahrain",
+      "Fiji",
+      "Indonesia",
+      "Japan",
+      "Kuwait",
+      "Malaysia",
+      "Micronesia",
+      "Oman",
+      "Papua New Guinea",
+      "Philippines",
+      "Qatar",
+      "Ryukyu Islands",
+      "Saudi Arabia",
+      "Singapore",
+      "Tonga",
+      "United Arab Emirates"
     ],
     "habitat": "Shallow coastal waters including mangrove swamps, inlet waters, estuaries, and lagoons with mud, sand, or rock substrates; tends to form surface aggregations",
-    "biotope": "Estuary"
+    "biotope": "Estuary",
+    "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 24.0, "max": 27.5 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 24,
+      "max": 27.5
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8.0, "max": 12.0 },
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 3.0, "max": 4.0 },
+  "adultSizeCm": {
+    "min": 3,
+    "max": 4
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 75,
     "minLengthCm": 60,
     "swimZone": "top",
-    "decorPreferences": ["live rock", "caves", "crevices", "deep sand bed"]
+    "decorPreferences": [
+      "live rock",
+      "caves",
+      "crevices",
+      "deep sand bed"
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -47,8 +89,17 @@
     "temperament": "peaceful",
     "grouping": "shoaling",
     "minGroupSize": 2,
-    "goodWith": ["other peaceful small saltwater fish", "small wrasses", "reef-safe gobies", "small blennies"],
-    "avoidWith": ["larger aggressive fish", "predatory fish", "aggressive invertebrates"]
+    "goodWith": [
+      "other peaceful small saltwater fish",
+      "small wrasses",
+      "reef-safe gobies",
+      "small blennies"
+    ],
+    "avoidWith": [
+      "larger aggressive fish",
+      "predatory fish",
+      "aggressive invertebrates"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -88,7 +139,7 @@
     "reefSafe": "yes",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -99,7 +150,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "moderate"
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": true
   },
   "crustacean": null,
   "coral": null,

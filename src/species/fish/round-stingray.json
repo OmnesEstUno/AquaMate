@@ -36,7 +36,8 @@
       "Ecuador"
     ],
     "habitat": "Temperate to subtropical demersal species occurring on sand, mud, and rubbly bottoms off beaches and within bays and sloughs, often near seagrass beds. Reported from the intertidal zone to roughly 91 m depth, though most commonly encountered between 1 and 21 m.",
-    "biotope": "Coastal"
+    "biotope": "Coastal",
+    "depthRangeM": null
   },
   "waterParameters": {
     "temperatureC": {
@@ -76,7 +77,8 @@
       "Long footprint preferred over height",
       "Minimal sharp or abrasive rockwork",
       "Secure lid (rays can occasionally launch out of open-top systems)"
-    ]
+    ],
+    "minSandDepthCm": 0
   },
   "careLevel": "expert",
   "diet": {
@@ -149,7 +151,7 @@
     "reefSafe": "no",
     "escapeRisk": "moderate",
     "venomousSpines": true,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -160,7 +162,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": "difficult"
+    "feedingDifficulty": "difficult",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

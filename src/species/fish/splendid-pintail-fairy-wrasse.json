@@ -6,66 +6,94 @@
   "waterType": "saltwater",
   "commonName": "Splendid Pintail Fairy Wrasse",
   "scientificName": "Cirrhilabrus isosceles",
-  "alsoKnownAs": ["Pintail Fairy-wrasse"],
+  "alsoKnownAs": [
+    "Pintail Fairy-wrasse"
+  ],
   "category": "Wrasse",
-
   "taxonomy": {
     "family": "Labridae",
     "order": "Eupercaria"
   },
-
   "nativeRange": {
-    "regions": ["Western Pacific"],
-    "countries": ["Japan", "Taiwan", "Philippines"],
+    "regions": [
+      "Western Pacific"
+    ],
+    "countries": [
+      "Japan",
+      "Taiwan",
+      "Philippines"
+    ],
     "habitat": "Outer reef rubble zones; areas with flat or gently sloping bottoms with scattered low outcrops of rock and coral, typically at depths of 24–60 meters",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 24,
+      "max": 60
+    }
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 22.0, "max": 26.5 },
-    "pH":           { "min": 8.1,  "max": 8.4  },
-    "gH":           null,
-    "kH":           { "min": 8.0,  "max": 12.0 },
-    "salinity":     { "min": 1.020, "max": 1.025 }
+    "temperatureC": {
+      "min": 22,
+      "max": 26.5
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-
-  "adultSizeCm":   { "min": 8.0, "max": 13.0 },
+  "adultSizeCm": {
+    "min": 8,
+    "max": 13
+  },
   "lifespanYears": null,
-
   "tank": {
     "minVolumeLiters": 400,
     "minLengthCm": 120,
     "swimZone": "mid",
-    "decorPreferences": ["live rock", "rubble zones", "open swimming space", "tight-fitting lid required"]
+    "decorPreferences": [
+      "live rock",
+      "rubble zones",
+      "open swimming space",
+      "tight-fitting lid required"
+    ],
+    "minSandDepthCm": null
   },
-
   "careLevel": "intermediate",
-
   "diet": {
     "type": "carnivore",
     "notes": "Generally does well on vitamin-enriched frozen mysis shrimp, frozen brine shrimp, and other meaty foods supplemented with high-quality marine flake and pellet. Multiple small feedings per day are advised given the species' active metabolism."
   },
-
   "compatibility": {
     "temperament": "peaceful",
     "grouping": "pair",
     "minGroupSize": 1,
-    "goodWith": ["reef fish", "corals", "invertebrates", "other peaceful wrasses"],
-    "avoidWith": ["aggressive fish", "large predatory wrasses"]
+    "goodWith": [
+      "reef fish",
+      "corals",
+      "invertebrates",
+      "other peaceful wrasses"
+    ],
+    "avoidWith": [
+      "aggressive fish",
+      "large predatory wrasses"
+    ]
   },
-
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
+    "primaryImage": null,
+    "gallery": [],
     "imageCandidates": null
   },
-
   "summary": "A vibrantly colored fairy wrasse from Japanese and Philippine reefs, known for mood-dependent pastel hues of pink, yellow, and orange. Generally considered peaceful and reef-safe; tends to be an active, visible swimmer requiring a covered tank.",
-
   "careNotes": "The Splendid Pintail Fairy Wrasse (Cirrhilabrus isosceles) is found in the western Pacific from Japan (Izu-Oshima and the Ryukyu Archipelago) south through Taiwan (Green Island) to the Philippines, typically inhabiting outer-reef rubble zones at depths of 24–60 m. Terminal-phase males display the most intense coloration, with lavender, orange, and yellow tones that intensify during courtship displays. This species has been documented jumping from open aquaria and a tight-fitting lid is considered essential. A 90-gallon (approximately 340 L) minimum has been widely cited, though a larger system (400 L or more) is generally advisable given the fish's active swimming nature and to allow adequate territory. Males can be kept with females that are introduced simultaneously or prior to the male. Color intensity is mood-dependent and may fade or intensify naturally. Considered reef-safe; has not been reported to nip corals or invertebrates.",
-
   "breedingNotes": "Cirrhilabrus isosceles is a protogynous hermaphrodite, with females transitioning to terminal-phase males. Spawning in captivity has not been widely reported and is considered difficult to achieve in the home aquarium.",
-
   "sources": {
     "primary": {
       "name": "LiveAquaria",
@@ -82,7 +110,6 @@
       }
     ]
   },
-
   "fish": {
     "breedingDifficulty": "difficult",
     "breedingNotes": "Protogynous hermaphrodite. Captive spawning has not been widely documented. Keeping a single male with one or more females introduced simultaneously is the standard approach.",
@@ -91,7 +118,7 @@
     "reefSafe": "yes",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": true,
+    "sexChange": "protogynous",
     "haremic": true,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -102,17 +129,20 @@
     "monogamousPairing": false,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": true,
+    "cleanerFish": null,
+    "euryhaline": null
   },
-
   "crustacean": null,
-  "coral":      null,
-  "mollusc":    null,
+  "coral": null,
+  "mollusc": null,
   "echinoderm": null,
   "other-invert": null,
-  "plant":      null,
+  "plant": null,
   "macroalgae": null,
-
   "schemaVersion": 1,
   "dataStatus": "researched",
   "lastReviewed": "2026-06-03"

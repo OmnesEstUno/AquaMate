@@ -30,7 +30,11 @@
       "Tonga"
     ],
     "habitat": "Reef-associated; typically observed at 27-45 m depth at the bases of steep outer reef slopes, above coral or rubble.",
-    "biotope": "Tropical Western Pacific reef; outer reef slopes with mixed coral and rubble substrate where small aggregations form above the bottom."
+    "biotope": "Tropical Western Pacific reef; outer reef slopes with mixed coral and rubble substrate where small aggregations form above the bottom.",
+    "depthRangeM": {
+      "min": 27,
+      "max": 45
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -68,7 +72,8 @@
       "live rock with caves and overhangs for retreat",
       "open mid-water swimming space",
       "tight-fitting lid or mesh top (jumper)"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
@@ -133,7 +138,7 @@
     "reefSafe": "yes",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": true,
+    "sexChange": "protandrous",
     "haremic": true,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -144,7 +149,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

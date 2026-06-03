@@ -6,32 +6,62 @@
   "waterType": "saltwater",
   "commonName": "Zebra Catalina Goby",
   "scientificName": "Lythrypnus zebra",
-  "alsoKnownAs": ["Manybanded Goby", "Zebra Goby"],
+  "alsoKnownAs": [
+    "Manybanded Goby",
+    "Zebra Goby"
+  ],
   "category": "Goby",
   "taxonomy": {
     "family": "Gobiidae",
     "order": "Gobiiformes"
   },
   "nativeRange": {
-    "regions": ["Eastern Pacific"],
-    "countries": ["United States", "Mexico"],
+    "regions": [
+      "Eastern Pacific"
+    ],
+    "countries": [
+      "United States",
+      "Mexico"
+    ],
     "habitat": "Rocky areas, caves and crevices; intertidal to depths around 97 m",
-    "biotope": "Coastal"
+    "biotope": "Coastal",
+    "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 13.0, "max": 24.0 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 13,
+      "max": 24
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
     "kH": null,
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 3.0, "max": 5.7 },
-  "lifespanYears": { "min": 1.0, "max": 3.0 },
+  "adultSizeCm": {
+    "min": 3,
+    "max": 5.7
+  },
+  "lifespanYears": {
+    "min": 1,
+    "max": 3
+  },
   "tank": {
     "minVolumeLiters": 75,
     "minLengthCm": 60,
     "swimZone": "bottom",
-    "decorPreferences": ["live rock", "caves", "crevices", "rockwork"]
+    "decorPreferences": [
+      "live rock",
+      "caves",
+      "crevices",
+      "rockwork"
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "expert",
   "diet": {
@@ -42,8 +72,15 @@
     "temperament": "peaceful",
     "grouping": "shoaling",
     "minGroupSize": 1,
-    "goodWith": ["peaceful reef fish", "small invertebrates", "other gobies of similar size"],
-    "avoidWith": ["large aggressive fish", "conspecifics in small tanks"]
+    "goodWith": [
+      "peaceful reef fish",
+      "small invertebrates",
+      "other gobies of similar size"
+    ],
+    "avoidWith": [
+      "large aggressive fish",
+      "conspecifics in small tanks"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -77,7 +114,7 @@
     "reefSafe": "yes",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": false,
+    "sexChange": "simultaneous",
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -88,7 +125,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

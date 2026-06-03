@@ -28,12 +28,16 @@
       "Line Islands (Kiribati)"
     ],
     "habitat": "Exposed seaward reefs, typically found singly or in small groups among mixed algae-coral or rocky reefs at depths of 0–30 m. Tends to be less abundant in lagoons and channels.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 0,
+      "max": 30
+    }
   },
   "waterParameters": {
     "temperatureC": {
-      "min": 23.0,
-      "max": 28.0
+      "min": 23,
+      "max": 28
     },
     "pH": {
       "min": 8.1,
@@ -42,13 +46,13 @@
     "gH": null,
     "kH": null,
     "salinity": {
-      "min": 1.020,
+      "min": 1.02,
       "max": 1.025
     }
   },
   "adultSizeCm": {
-    "min": 5.0,
-    "max": 9.0
+    "min": 5,
+    "max": 9
   },
   "lifespanYears": {
     "min": 3,
@@ -62,7 +66,8 @@
       "live rock",
       "open swimming space",
       "rocky reef structures"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
@@ -121,7 +126,7 @@
     "reefSafe": "yes",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -132,7 +137,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": false,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

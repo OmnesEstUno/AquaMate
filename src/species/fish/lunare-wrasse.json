@@ -32,7 +32,11 @@
       "Sri Lanka"
     ],
     "habitat": "Lagoon and coastal reefs, including protected seaward reefs; occasionally enters estuaries. Found at depths of 1–20 m.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 1,
+      "max": 20
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -66,7 +70,8 @@
       "open swimming space",
       "live rock",
       "sand substrate for burrowing at night"
-    ]
+    ],
+    "minSandDepthCm": 5
   },
   "careLevel": "intermediate",
   "diet": {
@@ -130,7 +135,7 @@
     "reefSafe": "no",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": true,
+    "sexChange": "protogynous",
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -141,7 +146,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

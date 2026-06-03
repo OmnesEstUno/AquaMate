@@ -29,7 +29,11 @@
       "Australia"
     ],
     "habitat": "Shallow reef areas adjacent to sand or seagrass, estuaries and protected muddy bays; juveniles are commonly reported from mangrove environments. Generally encountered at depths of approximately 1–25 m.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 1,
+      "max": 25
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -65,7 +69,8 @@
       "open swimming space",
       "good filtration",
       "protein skimmer"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -140,7 +145,7 @@
     "reefSafe": "no",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": false,
+    "sexChange": "none",
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -151,7 +156,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": true,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

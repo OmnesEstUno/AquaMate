@@ -24,7 +24,11 @@
       "Mexico"
     ],
     "habitat": "Rocky and coral reefs at depths of approximately 4–75 m; typically aggregates near the reef bottom in small schools. Range extends from the Gulf of California south to Banderas Bay (Cabo San Lucas area), with recent records pushing northward.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 4,
+      "max": 75
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -61,7 +65,8 @@
       "live rock",
       "rocky reef structure",
       "open swimming space"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
@@ -132,7 +137,7 @@
     "reefSafe": "yes",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": false,
+    "sexChange": "none",
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -143,7 +148,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": true,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

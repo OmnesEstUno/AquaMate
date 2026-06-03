@@ -27,7 +27,8 @@
       "Philippines"
     ],
     "habitat": "Demersal on sand or mud bottoms, generally at depths of 40 m and below in coastal Indo-West Pacific waters from the Red Sea and Persian Gulf eastward to the Philippines",
-    "biotope": "Coastal"
+    "biotope": "Coastal",
+    "depthRangeM": null
   },
   "waterParameters": {
     "temperatureC": {
@@ -62,7 +63,8 @@
       "muddy substrate",
       "open bottom",
       "live rock perimeter"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -129,7 +131,7 @@
     "reefSafe": "no",
     "escapeRisk": "low",
     "venomousSpines": true,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -140,7 +142,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": "moderate"
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

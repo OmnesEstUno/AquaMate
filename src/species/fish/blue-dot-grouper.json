@@ -36,7 +36,11 @@
       "South Africa"
     ],
     "habitat": "Reef-associated; benthic and benthopelagic; found at depths of 1–40 m, commonly 1–15 m. Adults tend to occupy coral reef slopes and lagoons; juveniles tend to favor shallow branching corals and seagrass meadows.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 1,
+      "max": 40
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -75,7 +79,8 @@
       "crevices",
       "overhangs",
       "large rockwork"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -151,7 +156,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": true,
+    "sexChange": "protogynous",
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -162,7 +167,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

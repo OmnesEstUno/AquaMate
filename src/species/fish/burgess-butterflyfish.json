@@ -6,66 +6,99 @@
   "waterType": "saltwater",
   "commonName": "Burgess' Butterflyfish",
   "scientificName": "Chaetodon burgessi",
-  "alsoKnownAs": ["Burgess Butterflyfish"],
+  "alsoKnownAs": [
+    "Burgess Butterflyfish"
+  ],
   "category": "Butterflyfish",
-
   "taxonomy": {
     "family": "Chaetodontidae",
     "order": "Acanthuriformes"
   },
-
   "nativeRange": {
-    "regions": ["Western Pacific"],
-    "countries": ["Philippines", "Indonesia", "Malaysia", "Micronesia"],
+    "regions": [
+      "Western Pacific"
+    ],
+    "countries": [
+      "Philippines",
+      "Indonesia",
+      "Malaysia",
+      "Micronesia"
+    ],
     "habitat": "Deep reef drop-offs where gorgonians and black corals are abundant; typically found below 40 m depth, though shallower in some East Indian locations",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 40,
+      "max": 130
+    }
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 24.0, "max": 27.0 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 24,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8.0, "max": 12.0 },
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-
-  "adultSizeCm": { "min": 10.0, "max": 14.0 },
+  "adultSizeCm": {
+    "min": 10,
+    "max": 14
+  },
   "lifespanYears": null,
-
   "tank": {
     "minVolumeLiters": 300,
     "minLengthCm": 120,
     "swimZone": "all",
-    "decorPreferences": ["live rock", "caves", "overhangs", "hiding places"]
+    "decorPreferences": [
+      "live rock",
+      "caves",
+      "overhangs",
+      "hiding places"
+    ],
+    "minSandDepthCm": null
   },
-
   "careLevel": "intermediate",
-
   "diet": {
     "type": "omnivore",
     "notes": "Has been documented accepting frozen and freeze-dried diets containing algae, supplemented with dried algae, vitamin-enriched brine shrimp, and mysis shrimp. In the wild tends to feed on gorgonians, black corals, and associated invertebrates at depth."
   },
-
   "compatibility": {
     "temperament": "peaceful",
     "grouping": "pair",
     "minGroupSize": 1,
-    "goodWith": ["peaceful reef fish", "tangs", "angelfish", "gobies", "wrasses"],
-    "avoidWith": ["feather dusters", "anemones", "LPS corals", "SPS corals", "aggressive fish"]
+    "goodWith": [
+      "peaceful reef fish",
+      "tangs",
+      "angelfish",
+      "gobies",
+      "wrasses"
+    ],
+    "avoidWith": [
+      "feather dusters",
+      "anemones",
+      "LPS corals",
+      "SPS corals",
+      "aggressive fish"
+    ]
   },
-
   "media": {
     "primaryImage": null,
     "gallery": [],
     "imageCandidates": null
   },
-
   "summary": "A shy deep-water butterflyfish from the Western Pacific, generally considered intermediate to keep due to its preference for dimmer conditions and live-rock-rich environments. Not reef-safe with corals or anemones.",
-
   "careNotes": "Burgess' Butterflyfish tends to be quite shy and has been reported to do best when provided with multiple hiding places — dense live rock with caves and overhangs is generally advised. Because this species is naturally found at depth (commonly 40–130 m), it tends to prefer somewhat dimmer lighting and areas with cover; a tank with varied light zones is recommended. It is generally not considered reef-safe, as it has been known to pick at feather dusters, anemones, and LPS corals. Can typically be kept singly or as a mated pair; most butterflyfishes in this genus tend to form monogamous pair bonds and are best kept as established pairs. Temperature note: LiveAquaria suggests 22–26°C (72–78°F), while FishBase wild data indicates 25.7–28.7°C; the filed range of 24–27°C represents an averaged middle ground. Aquarists should monitor individual response and adjust accordingly. Reef2Reef wiki returned 403 and could not be cross-checked; FishKeepingWorld returned 404.",
-
   "breedingNotes": null,
-
   "sources": {
     "primary": {
       "name": "LiveAquaria",
@@ -82,7 +115,6 @@
       }
     ]
   },
-
   "fish": {
     "breedingDifficulty": "not in captivity",
     "breedingNotes": null,
@@ -91,7 +123,7 @@
     "reefSafe": "no",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -102,9 +134,13 @@
     "monogamousPairing": true,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "moderate"
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
-
   "crustacean": null,
   "coral": null,
   "mollusc": null,
@@ -112,7 +148,6 @@
   "other-invert": null,
   "plant": null,
   "macroalgae": null,
-
   "schemaVersion": 1,
   "dataStatus": "researched",
   "lastReviewed": "2026-06-03"

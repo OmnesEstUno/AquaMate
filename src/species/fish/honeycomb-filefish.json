@@ -29,7 +29,8 @@
       "Gulf of Guinea coastal nations"
     ],
     "habitat": "Reef-associated; often found on outer reef slopes with silty substrates, shallow waters to about 20 m depth. Juveniles have been observed drifting with surface weeds; adults tend to associate with Sargassum rafts seasonally.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": null
   },
   "waterParameters": {
     "temperatureC": {
@@ -63,7 +64,8 @@
       "rockwork with caves and crevices",
       "plenty of hiding spots",
       "open swimming space"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -136,7 +138,7 @@
     "reefSafe": "no",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -147,7 +149,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": true,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

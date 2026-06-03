@@ -31,7 +31,11 @@
       "Philippines"
     ],
     "habitat": "Adults inhabit rocky outcrops and crevices, often in sand channels on outer reef slopes, generally at depths of 20–60 m (deeper than most other Chrysiptera damsels).",
-    "biotope": "Outer reef slope"
+    "biotope": "Outer reef slope",
+    "depthRangeM": {
+      "min": 20,
+      "max": 60
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -69,7 +73,8 @@
       "sand substrate",
       "open swimming space",
       "rocky outcrops"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
@@ -142,7 +147,7 @@
     "reefSafe": "yes",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -153,7 +158,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

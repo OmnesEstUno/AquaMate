@@ -27,7 +27,11 @@
       "United States (Midway Islands)"
     ],
     "habitat": "Coral and rocky reef slopes, reef flats, and shallow seamounts; typically encountered between roughly 3–30 m but recorded as deep as 250 m. Often seen in midwater schools above the reef, retreating to the reef structure at night.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 3,
+      "max": 30
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -62,7 +66,8 @@
       "open swimming space",
       "FOWLR or fish-only setup",
       "moderate flow"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -96,8 +101,7 @@
     "imageCandidates": null
   },
   "summary": "An Hawaiian-endemic butterflyfish with a bright lemon-yellow body, vertical rows of small dark spots, a black eye bar, and a black caudal-peduncle spot. Generally considered one of the hardier and more peaceful butterflyfishes but not reef-safe.",
-  "careNotes": "Chaetodon miliaris is largely endemic to the Hawaiian Archipelago (extending to Johnston Atoll and the Midway Islands), where it is the most commonly encountered butterflyfish on the reef. Unlike many Chaetodon species that form strict monogamous pairs and defend territories, this one tends to be found in midwater schools above shallow reef slopes feeding on zooplankton, retreating into the reef structure to shelter at night. As a result it can be kept singly, as a pair, or in small groups when all individuals are introduced together to a sufficiently large tank — uncommon flexibility for the genus.\n\nIt is widely regarded as one of the hardier butterflyfishes and is commonly recommended as a beginner-friendly entry point into the family, though it still has the standard butterflyfish caveats: it is not reef safe and has been documented nipping at LPS and soft coral polyps, anemones, tubeworms, and ornamental shrimp. A fish-only or FOWLR setup is generally advised. Most individuals are reported to accept prepared foods readily on arrival — feeding-difficulty appears low for the family — but offering frequent small meals of varied frozen meaty foods (mysis, chopped marine fish and crustacean meat) supplemented with vitamins is commonly recommended to maintain the bright yellow coloration.\n\nSource cross-verification notes: Adult maximum size was reported as 5 in (~12.7 cm) by LiveAquaria, 14.9 cm SL by FishBase, 13–14 cm by Reeflex, and 16.5 cm by the Waikīkī Aquarium. Average maximum ~14–15 cm was used; 12 cm minimum reflects typical retail size. Aquarium temperature ranges spanned 22–27°C across hobby sources (LiveAquaria 72–78°F / 22.2–25.6°C; Reeflex 22–27°C); FishBase's 15.3–21.7°C reflects the species' wider depth range to 250 m and was excluded from the captive range. Minimum tank size was 70 gal (~265 L) at LiveAquaria but 700 L at Reeflex; the species is an active midwater swimmer that benefits from substantial open swim room, so 500 L was selected as a cautious mid-range value. Lifespan was not consistently stated in the sources reviewed."
-,
+  "careNotes": "Chaetodon miliaris is largely endemic to the Hawaiian Archipelago (extending to Johnston Atoll and the Midway Islands), where it is the most commonly encountered butterflyfish on the reef. Unlike many Chaetodon species that form strict monogamous pairs and defend territories, this one tends to be found in midwater schools above shallow reef slopes feeding on zooplankton, retreating into the reef structure to shelter at night. As a result it can be kept singly, as a pair, or in small groups when all individuals are introduced together to a sufficiently large tank — uncommon flexibility for the genus.\n\nIt is widely regarded as one of the hardier butterflyfishes and is commonly recommended as a beginner-friendly entry point into the family, though it still has the standard butterflyfish caveats: it is not reef safe and has been documented nipping at LPS and soft coral polyps, anemones, tubeworms, and ornamental shrimp. A fish-only or FOWLR setup is generally advised. Most individuals are reported to accept prepared foods readily on arrival — feeding-difficulty appears low for the family — but offering frequent small meals of varied frozen meaty foods (mysis, chopped marine fish and crustacean meat) supplemented with vitamins is commonly recommended to maintain the bright yellow coloration.\n\nSource cross-verification notes: Adult maximum size was reported as 5 in (~12.7 cm) by LiveAquaria, 14.9 cm SL by FishBase, 13–14 cm by Reeflex, and 16.5 cm by the Waikīkī Aquarium. Average maximum ~14–15 cm was used; 12 cm minimum reflects typical retail size. Aquarium temperature ranges spanned 22–27°C across hobby sources (LiveAquaria 72–78°F / 22.2–25.6°C; Reeflex 22–27°C); FishBase's 15.3–21.7°C reflects the species' wider depth range to 250 m and was excluded from the captive range. Minimum tank size was 70 gal (~265 L) at LiveAquaria but 700 L at Reeflex; the species is an active midwater swimmer that benefits from substantial open swim room, so 500 L was selected as a cautious mid-range value. Lifespan was not consistently stated in the sources reviewed.",
   "breedingNotes": "Has been reported to be oviparous with pelagic larvae; pairing behavior has been noted during breeding in the wild, although this species is less strictly monogamous than most Chaetodon. Successful captive breeding has not, to current knowledge, been documented in the aquarium hobby; rearing pelagic butterflyfish larvae is generally regarded as impractical for home aquarists.",
   "sources": {
     "primary": {
@@ -135,7 +139,7 @@
     "reefSafe": "no",
     "escapeRisk": null,
     "venomousSpines": null,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": false,
@@ -146,7 +150,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

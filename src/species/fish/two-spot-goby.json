@@ -33,7 +33,11 @@
       "Palau"
     ],
     "habitat": "Reef-associated; sandy to silty bottoms of lagoons and coastal bays near coral, rubble or leaf litter shelter, typically at 2–30 m depth.",
-    "biotope": "Sand-bottomed lagoons and coastal reef margins adjacent to coral or rubble cover."
+    "biotope": "Sand-bottomed lagoons and coastal reef margins adjacent to coral or rubble cover.",
+    "depthRangeM": {
+      "min": 2,
+      "max": 30
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -69,7 +73,8 @@
       "attached well-established refugium feeding the display",
       "rubble or rockwork shelter near the sand surface",
       "open sand-bed footprint for sifting"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "advanced",
   "diet": {
@@ -133,7 +138,7 @@
     "reefSafe": "yes",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": false,
+    "sexChange": "none",
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -144,7 +149,12 @@
     "monogamousPairing": true,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

@@ -29,7 +29,11 @@
       "South Africa"
     ],
     "habitat": "Reef-associated, found over coral rubble and reef slopes at depths of about 6–40 m. Often observed in small loose groups of up to roughly 10 individuals.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 6,
+      "max": 40
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -68,7 +72,8 @@
       "hiding places",
       "coral rubble",
       "open swimming space"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -101,8 +106,7 @@
     "imageCandidates": null
   },
   "summary": "A small, vivid dwarf angelfish from the Western Indian Ocean, recognizable by a bright orange-yellow dorsal saddle over a deep blue body. Generally considered reef-safe with caution and one of the more manageable Centropyge species.",
-  "careNotes": "The Flameback Angelfish (often sold as African Pygmy or Orangeback Angelfish) is among the smaller and more manageable Centropyge species, with adults typically reaching only 6–8 cm. It is generally advised to provide a mature aquarium with plentiful live rock for grazing and several caves or overhangs for refuge, plus open swimming space — these dwarf angels are active swimmers and tend to dart between rockwork (hence the trade nickname 'Jumping Bean'). Best introduced last in a peaceful community to limit territorial behaviour, and typically kept singly unless a confirmed mated pair is available. Reef compatibility is generally good but cannot be guaranteed; occasional nipping at SPS polyps and large-polyped stony corals or clam mantles has been reported, so monitor when housed in a reef. Like other Centropyge, the species is a sequential hermaphrodite; FishBase notes bi-directional sex change has been documented for this species, which is unusual within the genus (most are strictly protogynous). Source notes: LiveAquaria gives 3 in (~7.6 cm) maximum size and recommends a 55–60 gallon (~208–227 L) minimum tank, while FishBase records up to 8.0 cm TL; the active swimming behaviour and 'lots of room' guidance justify rounding the tank floor up to 250 L. LiveAquaria's stated temperature range (22–26°C) is slightly cooler than FishBase's wild range (24.6–27.8°C); a captive range of 23–27°C represents a reasonable average."
-,
+  "careNotes": "The Flameback Angelfish (often sold as African Pygmy or Orangeback Angelfish) is among the smaller and more manageable Centropyge species, with adults typically reaching only 6–8 cm. It is generally advised to provide a mature aquarium with plentiful live rock for grazing and several caves or overhangs for refuge, plus open swimming space — these dwarf angels are active swimmers and tend to dart between rockwork (hence the trade nickname 'Jumping Bean'). Best introduced last in a peaceful community to limit territorial behaviour, and typically kept singly unless a confirmed mated pair is available. Reef compatibility is generally good but cannot be guaranteed; occasional nipping at SPS polyps and large-polyped stony corals or clam mantles has been reported, so monitor when housed in a reef. Like other Centropyge, the species is a sequential hermaphrodite; FishBase notes bi-directional sex change has been documented for this species, which is unusual within the genus (most are strictly protogynous). Source notes: LiveAquaria gives 3 in (~7.6 cm) maximum size and recommends a 55–60 gallon (~208–227 L) minimum tank, while FishBase records up to 8.0 cm TL; the active swimming behaviour and 'lots of room' guidance justify rounding the tank floor up to 250 L. LiveAquaria's stated temperature range (22–26°C) is slightly cooler than FishBase's wild range (24.6–27.8°C); a captive range of 23–27°C represents a reasonable average.",
   "breedingNotes": "Captive breeding is rarely reported and considered difficult; sequential hermaphroditism (with documented bi-directional sex change in this species) means dominant individuals can shift between sexes depending on social structure. In the wild, spawning has been observed at sunset, with pelagic eggs released into the water column and no parental care of larvae. Hobbyist-level captive rearing is not commercially established.",
   "sources": {
     "primary": {
@@ -128,7 +132,7 @@
     "reefSafe": "with caution",
     "escapeRisk": null,
     "venomousSpines": null,
-    "protogynous": true,
+    "sexChange": "bidirectional",
     "haremic": true,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -139,7 +143,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

@@ -29,7 +29,11 @@
       "Venezuela"
     ],
     "habitat": "Reef-associated; found on rock and sand bottoms and the eroding edges of weed beds at depths of 1–12 m",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 1,
+      "max": 12
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -65,7 +69,8 @@
       "loose rock fragments",
       "shell pieces",
       "burrow space"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
@@ -141,7 +146,7 @@
     "reefSafe": "yes",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": false,
+    "sexChange": "none",
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -152,7 +157,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": true,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

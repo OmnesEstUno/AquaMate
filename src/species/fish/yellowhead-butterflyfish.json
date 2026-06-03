@@ -35,7 +35,11 @@
       "Indonesia"
     ],
     "habitat": "Reef-associated; tends to be observed around isolated coral heads, reef slopes, and lagoon edges at depths of roughly 1–30 m",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 1,
+      "max": 30
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -74,7 +78,8 @@
       "hiding places",
       "filamentous algae growth",
       "FOWLR or fish-only setup"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -154,7 +159,7 @@
     "reefSafe": "no",
     "escapeRisk": null,
     "venomousSpines": null,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -165,7 +170,12 @@
     "monogamousPairing": true,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": "moderate"
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

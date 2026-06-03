@@ -28,7 +28,8 @@
       "Madagascar"
     ],
     "habitat": "Coral reefs and coral rubble areas with poor to moderate coral growth; commonly found in shallow coastal waters and lagoons",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": null
   },
   "waterParameters": {
     "temperatureC": {
@@ -64,7 +65,8 @@
       "crevices",
       "coral rubble",
       "tight-fitting lid required"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
@@ -132,7 +134,7 @@
     "reefSafe": "yes",
     "escapeRisk": "high",
     "venomousSpines": true,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -143,7 +145,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

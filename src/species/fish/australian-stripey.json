@@ -6,32 +6,67 @@
   "waterType": "saltwater",
   "commonName": "Australian Stripey",
   "scientificName": "Microcanthus strigatus",
-  "alsoKnownAs": ["Stripey", "Stripey Sea Chub", "Stripey Fish"],
+  "alsoKnownAs": [
+    "Stripey",
+    "Stripey Sea Chub",
+    "Stripey Fish"
+  ],
   "category": "Miscellaneous Fish",
   "taxonomy": {
     "family": "Microcanthidae",
     "order": "Centrarchiformes"
   },
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Pacific Ocean"],
-    "countries": ["Australia", "Japan", "South Korea", "China", "Taiwan", "Hong Kong", "Hawaii (USA)", "New Caledonia"],
+    "regions": [
+      "Indo-Pacific",
+      "Pacific Ocean"
+    ],
+    "countries": [
+      "Australia",
+      "Japan",
+      "South Korea",
+      "China",
+      "Taiwan",
+      "Hong Kong",
+      "Hawaii (USA)",
+      "New Caledonia"
+    ],
     "habitat": "Rocky and coral reefs, coastal lagoons, estuarine and protected coastal waters; has been documented in dense aggregations under ledges and in caves",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 20, "max": 26 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 20,
+      "max": 26
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
     "kH": null,
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 8, "max": 16 },
+  "adultSizeCm": {
+    "min": 8,
+    "max": 16
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 500,
     "minLengthCm": 150,
     "swimZone": "mid",
-    "decorPreferences": ["live rock", "caves", "ledges", "open swimming space"]
+    "decorPreferences": [
+      "live rock",
+      "caves",
+      "ledges",
+      "open swimming space"
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -42,8 +77,18 @@
     "temperament": "peaceful",
     "grouping": "schooling",
     "minGroupSize": 3,
-    "goodWith": ["peaceful reef fish", "tangs", "wrasses", "angelfish", "chromis", "cardinalfish"],
-    "avoidWith": ["aggressive fish", "large predators that may consume small schooling fish"]
+    "goodWith": [
+      "peaceful reef fish",
+      "tangs",
+      "wrasses",
+      "angelfish",
+      "chromis",
+      "cardinalfish"
+    ],
+    "avoidWith": [
+      "aggressive fish",
+      "large predators that may consume small schooling fish"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -77,7 +122,7 @@
     "reefSafe": "no",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -88,7 +133,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": true
   },
   "crustacean": null,
   "coral": null,

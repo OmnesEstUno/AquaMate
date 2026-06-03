@@ -33,7 +33,11 @@
       "Taiwan"
     ],
     "habitat": "Deeper reef slopes and walls, typically 15–25 m depth in low-light, slow-flow environments",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 15,
+      "max": 25
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -71,7 +75,8 @@
       "sand substrate",
       "lower placement",
       "stable structure for attachment"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {

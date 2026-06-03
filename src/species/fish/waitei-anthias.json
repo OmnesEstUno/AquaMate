@@ -6,32 +6,70 @@
   "waterType": "saltwater",
   "commonName": "Waitei Anthias",
   "scientificName": "Luzonichthys waitei",
-  "alsoKnownAs": ["Magenta Slender Anthias", "Waite's Splitfin", "Sherbert Anthias"],
+  "alsoKnownAs": [
+    "Magenta Slender Anthias",
+    "Waite's Splitfin",
+    "Sherbert Anthias"
+  ],
   "category": "Anthias",
   "taxonomy": {
     "family": "Anthiadidae",
     "order": "Perciformes"
   },
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Western Central Pacific"],
-    "countries": ["Seychelles", "Japan", "Fiji", "Marshall Islands", "Loyalty Islands"],
+    "regions": [
+      "Indo-Pacific",
+      "Western Central Pacific"
+    ],
+    "countries": [
+      "Seychelles",
+      "Japan",
+      "Fiji",
+      "Marshall Islands",
+      "Loyalty Islands"
+    ],
     "habitat": "Outer reef slopes; forms dense aggregations on steep reef walls at depths typically from 1 to 55 m, most commonly encountered between 1 and 35 m",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 1,
+      "max": 55
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 27 },
-    "pH": { "min": 8.0, "max": 8.4 },
+    "temperatureC": {
+      "min": 23,
+      "max": 27
+    },
+    "pH": {
+      "min": 8,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.022, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.022,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 3.0, "max": 7.6 },
+  "adultSizeCm": {
+    "min": 3,
+    "max": 7.6
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 500,
     "minLengthCm": 150,
     "swimZone": "mid",
-    "decorPreferences": ["live rock with caves", "open swimming areas", "strong water movement", "refugium with copepods and amphipods"]
+    "decorPreferences": [
+      "live rock with caves",
+      "open swimming areas",
+      "strong water movement",
+      "refugium with copepods and amphipods"
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "advanced",
   "diet": {
@@ -42,8 +80,16 @@
     "temperament": "peaceful",
     "grouping": "shoaling",
     "minGroupSize": 5,
-    "goodWith": ["reef fish", "non-aggressive tankmates", "other peaceful anthias"],
-    "avoidWith": ["aggressive fish", "overactive species", "large aggressive anthias varieties"]
+    "goodWith": [
+      "reef fish",
+      "non-aggressive tankmates",
+      "other peaceful anthias"
+    ],
+    "avoidWith": [
+      "aggressive fish",
+      "overactive species",
+      "large aggressive anthias varieties"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -83,7 +129,7 @@
     "reefSafe": "yes",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": true,
+    "sexChange": "protogynous",
     "haremic": true,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -94,7 +140,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "moderate"
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

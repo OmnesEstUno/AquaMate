@@ -6,32 +6,68 @@
   "waterType": "saltwater",
   "commonName": "Pink Margin Fairy Wrasse",
   "scientificName": "Cirrhilabrus rubrimarginatus",
-  "alsoKnownAs": ["Red Margin Fairy Wrasse", "Red-margined Wrasse"],
+  "alsoKnownAs": [
+    "Red Margin Fairy Wrasse",
+    "Red-margined Wrasse"
+  ],
   "category": "Wrasse",
   "taxonomy": {
     "family": "Labridae",
     "order": "Perciformes"
   },
   "nativeRange": {
-    "regions": ["Western Pacific", "Indo-Pacific"],
-    "countries": ["Japan", "Philippines", "Palau", "Indonesia", "Vanuatu", "Fiji", "Tonga"],
+    "regions": [
+      "Western Pacific",
+      "Indo-Pacific"
+    ],
+    "countries": [
+      "Japan",
+      "Philippines",
+      "Palau",
+      "Indonesia",
+      "Vanuatu",
+      "Fiji",
+      "Tonga"
+    ],
     "habitat": "Deep coastal to outer reef drop-offs and steep slopes; tends to occur over rubble or sandy bottoms with small isolated patch reefs of low profile. Adults have been documented at depths from roughly 25–52 m, with juveniles sometimes found shallower.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 25,
+      "max": 52
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 23.8, "max": 28.5 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 23.8,
+      "max": 28.5
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
     "kH": null,
-    "salinity": { "min": 1.023, "max": 1.026 }
+    "salinity": {
+      "min": 1.023,
+      "max": 1.026
+    }
   },
-  "adultSizeCm": { "min": 8.0, "max": 12.7 },
+  "adultSizeCm": {
+    "min": 8,
+    "max": 12.7
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 200,
     "minLengthCm": 120,
     "swimZone": "mid",
-    "decorPreferences": ["live rock", "open swimming space", "rubble zones", "secure lid required"]
+    "decorPreferences": [
+      "live rock",
+      "open swimming space",
+      "rubble zones",
+      "secure lid required"
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -42,8 +78,22 @@
     "temperament": "peaceful",
     "grouping": "pair",
     "minGroupSize": 1,
-    "goodWith": ["other peaceful reef fish", "tangs", "angelfish", "dartfish", "chromis", "cardinalfish", "clownfish", "gobies", "blennies"],
-    "avoidWith": ["aggressive wrasses", "large predatory fish that may consume small fish", "other male Cirrhilabrus in small tanks"]
+    "goodWith": [
+      "other peaceful reef fish",
+      "tangs",
+      "angelfish",
+      "dartfish",
+      "chromis",
+      "cardinalfish",
+      "clownfish",
+      "gobies",
+      "blennies"
+    ],
+    "avoidWith": [
+      "aggressive wrasses",
+      "large predatory fish that may consume small fish",
+      "other male Cirrhilabrus in small tanks"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -83,7 +133,7 @@
     "reefSafe": "yes",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": true,
+    "sexChange": "protandrous",
     "haremic": true,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -94,7 +144,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

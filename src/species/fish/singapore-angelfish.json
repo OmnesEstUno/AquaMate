@@ -27,7 +27,11 @@
       "Philippines"
     ],
     "habitat": "Shallow coral reef slopes and continental shelf reefs; generally not found around oceanic islands. Depth range 1–20 m.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 1,
+      "max": 20
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -59,7 +63,8 @@
       "caves",
       "overhangs",
       "hiding places"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "advanced",
   "diet": {
@@ -129,7 +134,7 @@
     "reefSafe": "with caution",
     "escapeRisk": null,
     "venomousSpines": null,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": true,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -140,7 +145,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

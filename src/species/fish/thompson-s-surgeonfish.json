@@ -28,7 +28,11 @@
     ],
     "countries": [],
     "habitat": "Generally found on steep outer reef slopes and drop-offs over coral and sand, typically at depths of 5–70 m though recorded as deep as 119 m; tends to forage in the water column above the reef rather than directly on the substrate.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 5,
+      "max": 70
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -63,7 +67,8 @@
       "open swimming space",
       "strong water flow",
       "rockwork shelter"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -133,7 +138,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "low",
     "venomousSpines": null,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": true,
     "nocturnal": false,
@@ -144,7 +149,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": true,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

@@ -6,32 +6,72 @@
   "waterType": "saltwater",
   "commonName": "Tangaroa Goby",
   "scientificName": "Ctenogobiops tangaroai",
-  "alsoKnownAs": ["Tangaroa Shrimpgoby", "Tangaroa Shrimp Goby", "Tangaroa Prawn Goby", "Masted Shrimpgoby"],
+  "alsoKnownAs": [
+    "Tangaroa Shrimpgoby",
+    "Tangaroa Shrimp Goby",
+    "Tangaroa Prawn Goby",
+    "Masted Shrimpgoby"
+  ],
   "category": "Gobies",
   "taxonomy": {
     "family": "Gobiidae",
     "order": "Gobiiformes"
   },
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Western Pacific"],
-    "countries": ["Samoa", "Papua New Guinea", "Solomon Islands", "Marshall Islands", "Indonesia", "Australia"],
+    "regions": [
+      "Indo-Pacific",
+      "Western Pacific"
+    ],
+    "countries": [
+      "Samoa",
+      "Papua New Guinea",
+      "Solomon Islands",
+      "Marshall Islands",
+      "Indonesia",
+      "Australia"
+    ],
     "habitat": "Patches of fine sand on seaward reefs and rubble flats; typically found at depths of 4–40 m; shares burrows with alpheid (pistol) shrimp",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 4,
+      "max": 40
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 27 },
-    "pH": { "min": 8.0, "max": 8.4 },
+    "temperatureC": {
+      "min": 23,
+      "max": 27
+    },
+    "pH": {
+      "min": 8,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.020, "max": 1.026 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.026
+    }
   },
-  "adultSizeCm": { "min": 4.0, "max": 6.5 },
+  "adultSizeCm": {
+    "min": 4,
+    "max": 6.5
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 75,
     "minLengthCm": 60,
     "swimZone": "bottom",
-    "decorPreferences": ["sand substrate (2–4 mm grain, 10 cm depth)", "loose rubble for burrow construction", "live rock", "open sandy areas"]
+    "decorPreferences": [
+      "sand substrate (2–4 mm grain, 10 cm depth)",
+      "loose rubble for burrow construction",
+      "live rock",
+      "open sandy areas"
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -42,8 +82,17 @@
     "temperament": "peaceful",
     "grouping": "pair",
     "minGroupSize": 1,
-    "goodWith": ["peaceful reef fish", "pistol shrimp (alpheid shrimp)", "small invertebrates", "soft corals"],
-    "avoidWith": ["aggressive fish", "large predatory fish", "conspecifics in small tanks"]
+    "goodWith": [
+      "peaceful reef fish",
+      "pistol shrimp (alpheid shrimp)",
+      "small invertebrates",
+      "soft corals"
+    ],
+    "avoidWith": [
+      "aggressive fish",
+      "large predatory fish",
+      "conspecifics in small tanks"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -95,7 +144,7 @@
     "reefSafe": "yes",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -106,7 +155,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": true,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

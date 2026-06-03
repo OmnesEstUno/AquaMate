@@ -6,27 +6,58 @@
   "waterType": "saltwater",
   "commonName": "Panda Goby",
   "scientificName": "Paragobiodon lacunicolus",
-  "alsoKnownAs": ["Blackfin Coral Goby", "Panda Clown Goby", "Panda Coral Goby"],
+  "alsoKnownAs": [
+    "Blackfin Coral Goby",
+    "Panda Clown Goby",
+    "Panda Coral Goby"
+  ],
   "category": "Gobies",
   "taxonomy": {
     "family": "Gobiidae",
     "order": "Gobiiformes"
   },
   "nativeRange": {
-    "regions": ["Indo-Pacific"],
-    "countries": ["Seychelles", "Japan", "Australia", "Micronesia", "French Polynesia"],
+    "regions": [
+      "Indo-Pacific"
+    ],
+    "countries": [
+      "Seychelles",
+      "Japan",
+      "Australia",
+      "Micronesia",
+      "French Polynesia"
+    ],
     "habitat": "Tropical coral reefs, typically among the branches of Pocillopora damicornis and related SPS coral colonies, at depths from shallow waters down to about 20 m (occasional records to 80 m).",
-    "biotope": "Obligate SPS coral associate — almost always found sheltering within live branching Pocillopora, Acropora, or Stylophora colonies."
+    "biotope": "Obligate SPS coral associate — almost always found sheltering within live branching Pocillopora, Acropora, or Stylophora colonies.",
+    "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 26 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 22,
+      "max": 26
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 2.5, "max": 3.5 },
-  "lifespanYears": { "min": 4, "max": 5 },
+  "adultSizeCm": {
+    "min": 2.5,
+    "max": 3.5
+  },
+  "lifespanYears": {
+    "min": 4,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 75,
     "minLengthCm": 60,
@@ -36,7 +67,8 @@
       "mature reef rockwork with shaded crevices",
       "fine coralline sand or live sand substrate",
       "stable reef-quality water flow around the host colony"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -105,7 +137,7 @@
     "reefSafe": "yes",
     "escapeRisk": "moderate",
     "venomousSpines": false,
-    "protogynous": false,
+    "sexChange": "none",
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -116,7 +148,12 @@
     "monogamousPairing": true,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "moderate"
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

@@ -38,7 +38,11 @@
       "French Guiana"
     ],
     "habitat": "Reef-associated; generally reported from rubble zones and rocky outcrops at depths of about 5–30 m (occasionally down to ~80 m), where it tends to stay close to refuge holes",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 5,
+      "max": 30
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -76,7 +80,8 @@
       "caves",
       "rubble",
       "numerous hiding places"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -140,7 +145,7 @@
     "reefSafe": "with caution",
     "escapeRisk": null,
     "venomousSpines": null,
-    "protogynous": true,
+    "sexChange": "protandrous",
     "haremic": false,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -151,7 +156,12 @@
     "monogamousPairing": true,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": true,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

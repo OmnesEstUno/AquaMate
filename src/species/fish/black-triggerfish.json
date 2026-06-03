@@ -39,7 +39,11 @@
       "Australia"
     ],
     "habitat": "Clear seaward reefs and inner/outer reef crests near drop-offs and slopes; usually in mid-water above the substrate; depth range 0-75 m, typically 0-20 m",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 0,
+      "max": 75
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -79,7 +83,8 @@
       "overhangs",
       "open swimming space",
       "strong water flow"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
@@ -152,7 +157,7 @@
     "reefSafe": "no",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": false,
+    "sexChange": "none",
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -163,7 +168,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

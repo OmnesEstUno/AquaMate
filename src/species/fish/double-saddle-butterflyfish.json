@@ -31,7 +31,8 @@
       "French Polynesia"
     ],
     "habitat": "Reef-associated; typically found from the surface to about 20 m depth in coral-rich lagoon reefs and shallow channels with high current; occasionally on seaward reefs",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": null
   },
   "waterParameters": {
     "temperatureC": {
@@ -66,7 +67,8 @@
       "open swimming space",
       "established reef aquascape",
       "areas of moderate to strong flow"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -143,7 +145,7 @@
     "reefSafe": "no",
     "escapeRisk": null,
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -154,7 +156,12 @@
     "monogamousPairing": true,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

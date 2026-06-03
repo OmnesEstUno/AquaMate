@@ -23,7 +23,11 @@
       "Philippines"
     ],
     "habitat": "Broken coral rubble interspersed with outcrops of soft and stony corals; benthopelagic; depth 20–38 m",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 20,
+      "max": 38
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -40,13 +44,13 @@
       "max": 12
     },
     "salinity": {
-      "min": 1.020,
+      "min": 1.02,
       "max": 1.025
     }
   },
   "adultSizeCm": {
-    "min": 2.0,
-    "max": 6.0
+    "min": 2,
+    "max": 6
   },
   "lifespanYears": null,
   "tank": {
@@ -58,7 +62,8 @@
       "rubble",
       "sand substrate",
       "refugium with copepod culture"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "advanced",
   "diet": {
@@ -121,7 +126,7 @@
     "reefSafe": "yes",
     "escapeRisk": "high",
     "venomousSpines": null,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -132,7 +137,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": "difficult"
+    "feedingDifficulty": "difficult",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

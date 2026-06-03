@@ -30,7 +30,8 @@
       "French Polynesia (Society Islands, Austral Islands, Rapa)"
     ],
     "habitat": "Inhabits clear-water coral reefs from shallow water to depths of at least about 30 m; generally observed grazing surface algal films and detritus from hard substrate of lagoon and seaward reef areas",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": null
   },
   "waterParameters": {
     "temperatureC": {
@@ -67,7 +68,8 @@
       "long horizontal footprint preferred over tall depth",
       "moderate water movement",
       "sand bed for natural grazing behaviour"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -140,7 +142,7 @@
     "reefSafe": "yes",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": true,
     "nocturnal": false,
@@ -151,7 +153,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": true,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

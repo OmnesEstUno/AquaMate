@@ -26,7 +26,11 @@
       "Sri Lanka"
     ],
     "habitat": "Coral reef environments at depths of approximately 2–25 m, typically associated with host anemones on reef slopes and lagoons.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 2,
+      "max": 25
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -63,7 +67,8 @@
       "live rock",
       "host anemone (Heteractis magnifica or Entacmaea quadricolor)",
       "open swimming space near anemone"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -130,7 +135,7 @@
     "reefSafe": "yes",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": false,
+    "sexChange": "protandrous",
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -141,7 +146,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

@@ -6,32 +6,70 @@
   "waterType": "saltwater",
   "commonName": "Bimaculatus Anthias",
   "scientificName": "Pseudanthias bimaculatus",
-  "alsoKnownAs": ["Twinspot Anthias", "Two-spot Anthias"],
+  "alsoKnownAs": [
+    "Twinspot Anthias",
+    "Two-spot Anthias"
+  ],
   "category": "Anthias",
   "taxonomy": {
     "family": "Anthiadidae",
     "order": "Perciformes"
   },
   "nativeRange": {
-    "regions": ["Indo-West Pacific"],
-    "countries": ["Maldives", "Indonesia", "Kenya", "Tanzania"],
+    "regions": [
+      "Indo-West Pacific"
+    ],
+    "countries": [
+      "Maldives",
+      "Indonesia",
+      "Kenya",
+      "Tanzania"
+    ],
     "habitat": "Deep coastal drop-offs and dead-reef areas in somewhat turbid water, typically at depths of 40-54 m (broader range 20-100 m).",
-    "biotope": "Mesophotic Indo-Pacific reef slopes"
+    "biotope": "Mesophotic Indo-Pacific reef slopes",
+    "depthRangeM": {
+      "min": 40,
+      "max": 54
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 27 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 23,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 10, "max": 14 },
-  "lifespanYears": { "min": 3, "max": 7 },
+  "adultSizeCm": {
+    "min": 10,
+    "max": 14
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 7
+  },
   "tank": {
     "minVolumeLiters": 500,
     "minLengthCm": 150,
     "swimZone": "mid",
-    "decorPreferences": ["live rock with caves and overhangs", "open mid-water swimming space", "subdued lighting", "deep-water reef setup"]
+    "decorPreferences": [
+      "live rock with caves and overhangs",
+      "open mid-water swimming space",
+      "subdued lighting",
+      "deep-water reef setup"
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -42,8 +80,17 @@
     "temperament": "semi-aggressive",
     "grouping": "shoaling",
     "minGroupSize": 3,
-    "goodWith": ["peaceful reef fish", "small-polyp corals", "wrasses", "tangs in suitably sized systems"],
-    "avoidWith": ["large aggressive predators", "other Pseudanthias males in cramped quarters", "very boisterous tankmates that outcompete it for food"]
+    "goodWith": [
+      "peaceful reef fish",
+      "small-polyp corals",
+      "wrasses",
+      "tangs in suitably sized systems"
+    ],
+    "avoidWith": [
+      "large aggressive predators",
+      "other Pseudanthias males in cramped quarters",
+      "very boisterous tankmates that outcompete it for food"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -76,7 +123,7 @@
     "reefSafe": "yes",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": true,
+    "sexChange": "protandrous",
     "haremic": true,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -87,7 +134,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": null,
     "toxicToTank": false,
-    "feedingDifficulty": "moderate"
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": true,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

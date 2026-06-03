@@ -17,7 +17,10 @@
     "order": "Acanthuriformes"
   },
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Eastern Pacific"],
+    "regions": [
+      "Indo-Pacific",
+      "Eastern Pacific"
+    ],
     "countries": [
       "East Africa",
       "Hawaii (USA)",
@@ -30,17 +33,36 @@
       "Ecuador (Galapagos)"
     ],
     "habitat": "Reef-associated; juveniles favor shallow turbid inshore waters and sand slopes, while adults move to deeper protected bays, lagoons, and outer reef areas down to roughly 90 m.",
-    "biotope": "Tropical Indo-Pacific reef and lagoon"
+    "biotope": "Tropical Indo-Pacific reef and lagoon",
+    "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 27 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 24,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.021, "max": 1.026 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.021,
+      "max": 1.026
+    }
   },
-  "adultSizeCm": { "min": 45, "max": 70 },
-  "lifespanYears": { "min": 10, "max": 25 },
+  "adultSizeCm": {
+    "min": 45,
+    "max": 70
+  },
+  "lifespanYears": {
+    "min": 10,
+    "max": 25
+  },
   "tank": {
     "minVolumeLiters": 1500,
     "minLengthCm": 240,
@@ -49,7 +71,8 @@
       "ample open swimming space",
       "large amounts of live rock for grazing and refuge",
       "long footprint preferred over deep footprint"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -110,7 +133,7 @@
     "reefSafe": "yes",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": false,
     "caudalScalpel": true,
     "nocturnal": false,
@@ -121,7 +144,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": true,
     "toxicToTank": false,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

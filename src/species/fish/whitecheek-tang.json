@@ -35,7 +35,8 @@
       "Ecuador (Galapagos Islands)"
     ],
     "habitat": "Hard substrate of clear lagoon and seaward reefs; typically found from the surface to about 67 m, with adults commonly observed on shallow reef flats and slopes.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": null
   },
   "waterParameters": {
     "temperatureC": {
@@ -73,7 +74,8 @@
       "open swimming space",
       "rockwork crevices for shelter",
       "highly oxygenated water with strong flow"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -157,7 +159,7 @@
     "reefSafe": "yes",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": true,
     "nocturnal": null,
@@ -168,7 +170,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": true,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

@@ -31,7 +31,8 @@
       "Australia (Great Barrier Reef)"
     ],
     "habitat": "Sandy patches and rubble flats adjacent to coral reefs at depths generally between 1 and 30 m, usually hovering near the entrance of a burrow shared with a pistol shrimp.",
-    "biotope": "Sandy reef burrow"
+    "biotope": "Sandy reef burrow",
+    "depthRangeM": null
   },
   "waterParameters": {
     "temperatureC": {
@@ -67,7 +68,8 @@
       "live rock for hiding and territorial perches",
       "open sandy footprint near the front glass for viewing",
       "tight-fitting lid (known jumper)"
-    ]
+    ],
+    "minSandDepthCm": 8
   },
   "careLevel": "intermediate",
   "diet": {
@@ -126,7 +128,7 @@
     "reefSafe": "yes",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -137,7 +139,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": true,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

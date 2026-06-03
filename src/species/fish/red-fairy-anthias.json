@@ -6,66 +6,94 @@
   "waterType": "saltwater",
   "commonName": "Red Fairy Anthias",
   "scientificName": "Pseudanthias kashiwae",
-  "alsoKnownAs": ["Silver-Streak Goldie Anthias"],
+  "alsoKnownAs": [
+    "Silver-Streak Goldie Anthias"
+  ],
   "category": "Anthias",
-
   "taxonomy": {
     "family": "Anthiadidae",
     "order": "Perciformes"
   },
-
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Red Sea"],
-    "countries": ["Maldives", "Papua New Guinea", "Australia"],
+    "regions": [
+      "Indo-Pacific",
+      "Red Sea"
+    ],
+    "countries": [
+      "Maldives",
+      "Papua New Guinea",
+      "Australia"
+    ],
     "habitat": "Coral reef drop-offs and outer reef slopes, generally at depths of 10–60 m",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 10,
+      "max": 60
+    }
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 22.2, "max": 25.6 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 22.2,
+      "max": 25.6
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
     "kH": null,
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-
-  "adultSizeCm": { "min": 11.0, "max": 15.0 },
+  "adultSizeCm": {
+    "min": 11,
+    "max": 15
+  },
   "lifespanYears": null,
-
   "tank": {
     "minVolumeLiters": 500,
     "minLengthCm": 150,
     "swimZone": "mid",
-    "decorPreferences": ["open swimming space", "live rock for shelter", "caves and overhangs", "refugium for copepods"]
+    "decorPreferences": [
+      "open swimming space",
+      "live rock for shelter",
+      "caves and overhangs",
+      "refugium for copepods"
+    ],
+    "minSandDepthCm": null
   },
-
   "careLevel": "intermediate",
-
   "diet": {
     "type": "planktivore",
     "notes": "Primarily feeds on zooplankton (copepods, amphipods). Tends to accept frozen mysis shrimp and enriched frozen brine shrimp; has been known to transition to high-quality marine flake or pellet foods over time. An attached refugium cultivating copepods and amphipods is generally advised to provide a steady live food supply, particularly during acclimation."
   },
-
   "compatibility": {
     "temperament": "peaceful",
     "grouping": "shoaling",
     "minGroupSize": 3,
-    "goodWith": ["other peaceful reef fish", "wrasses", "tangs", "clownfish", "gobies", "other anthias species (with care during introduction)"],
-    "avoidWith": ["large aggressive fish", "predatory fish that eat small reef fish"]
+    "goodWith": [
+      "other peaceful reef fish",
+      "wrasses",
+      "tangs",
+      "clownfish",
+      "gobies",
+      "other anthias species (with care during introduction)"
+    ],
+    "avoidWith": [
+      "large aggressive fish",
+      "predatory fish that eat small reef fish"
+    ]
   },
-
   "media": {
     "primaryImage": null,
     "gallery": [],
     "imageCandidates": null
   },
-
   "summary": "A colorful planktivorous anthias from the Indo-Pacific, commonly kept in reef aquariums. Generally considered suitable for intermediate keepers; tends to do best in small groups in spacious tanks with ample open water and a regular supply of frozen or live foods.",
-
   "careNotes": "Red Fairy Anthias are protogynous hermaphrodites — all individuals are born female, and in a group the dominant individual will transition to male. Males display a well-developed lateral red bar and a red caudal fin; females show red-tipped caudal fins and a pinkish-orange body. They have been known to jump from open aquaria, so a tight-fitting lid is generally advised. They are active, mid-water planktivores that require ample open swimming space; sources describe them as needing a large amount of room. A refugium producing live copepods and amphipods is widely recommended to supplement frozen foods, especially during initial acclimation. Also sold as 'Silver-Streak Goldie Anthias'. Sources disagreed on adult size: LiveAquaria cited 6 inches (15.2 cm) while BlueZoo Aquatics cited 4.5 inches (11.4 cm); the accepted range of 11–15 cm averages these figures. Sources also disagreed on minimum tank size (125 gal vs 70 gal); 500 L was selected biasing toward the larger value given the active swimming behavior noted by LiveAquaria and the need to house a group.",
-
   "breedingNotes": "Rarely bred in captivity. Protogynous sequential hermaphrodites — the dominant individual in a haremic group transitions from female to male. In a well-maintained harem in a very large aquarium, spawning has been documented, but raising pelagic larvae through settlement is extremely difficult.",
-
   "sources": {
     "primary": {
       "name": "LiveAquaria",
@@ -82,7 +110,6 @@
       }
     ]
   },
-
   "fish": {
     "breedingDifficulty": "advanced",
     "breedingNotes": "Protogynous sequential hermaphrodite; rarely bred in home aquaria. Spawning has been observed in large systems but rearing pelagic larvae is extremely difficult.",
@@ -91,7 +118,7 @@
     "reefSafe": "yes",
     "escapeRisk": "moderate",
     "venomousSpines": false,
-    "protogynous": true,
+    "sexChange": "protogynous",
     "haremic": true,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -102,9 +129,13 @@
     "monogamousPairing": false,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "moderate"
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
-
   "crustacean": null,
   "coral": null,
   "mollusc": null,
@@ -112,7 +143,6 @@
   "other-invert": null,
   "plant": null,
   "macroalgae": null,
-
   "schemaVersion": 1,
   "dataStatus": "researched",
   "lastReviewed": "2026-06-03"

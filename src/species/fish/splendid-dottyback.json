@@ -26,7 +26,11 @@
       "Australia"
     ],
     "habitat": "Lagoon and seaward reefs, generally near drop-offs and in close association with corals and sponges; reported at depths of roughly 5–40 m, most commonly 20–40 m. Tends to be solitary or, less often, paired.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 5,
+      "max": 40
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -66,7 +70,8 @@
       "crevices",
       "drop-offs",
       "rockwork with sponge associations"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
@@ -145,7 +150,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "high",
     "venomousSpines": null,
-    "protogynous": true,
+    "sexChange": "protandrous",
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -156,7 +161,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

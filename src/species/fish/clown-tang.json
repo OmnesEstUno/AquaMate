@@ -35,7 +35,11 @@
       "United States (Hawaiian Islands)"
     ],
     "habitat": "Shallow surge zones, gutters and exposed seaward reef flats; typically reported at depths of roughly 0–15 m, most commonly 1–3 m",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 0,
+      "max": 15
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -74,7 +78,8 @@
       "live rock with grazing surfaces",
       "rockwork crevices for shelter",
       "strong flow and high oxygenation"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "expert",
   "diet": {
@@ -150,7 +155,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "moderate",
     "venomousSpines": true,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": true,
     "nocturnal": false,
@@ -161,7 +166,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": true,
     "toxicToTank": null,
-    "feedingDifficulty": "difficult"
+    "feedingDifficulty": "difficult",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

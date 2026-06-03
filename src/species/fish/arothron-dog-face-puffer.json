@@ -35,7 +35,11 @@
       "Micronesia"
     ],
     "habitat": "Coastal to outer reef crests and slopes with rich invertebrate growth; generally found at depths of 0–60 m",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 0,
+      "max": 60
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -52,7 +56,7 @@
       "max": 12
     },
     "salinity": {
-      "min": 1.020,
+      "min": 1.02,
       "max": 1.026
     }
   },
@@ -69,7 +73,8 @@
       "live rock",
       "open swimming space",
       "hiding places"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -131,7 +136,7 @@
     "reefSafe": "no",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": false,
+    "sexChange": "none",
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -142,7 +147,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": null,
     "toxicToTank": true,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

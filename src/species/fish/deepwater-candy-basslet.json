@@ -28,7 +28,11 @@
       "Venezuela"
     ],
     "habitat": "Found in recesses, caves, and overhangs of deep coral reefs, typically at depths of 15–70 m. Described as secretive; generally observed hovering near cave entrances rather than swimming in open water.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 15,
+      "max": 70
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -50,7 +54,7 @@
     }
   },
   "adultSizeCm": {
-    "min": 4.0,
+    "min": 4,
     "max": 6.4
   },
   "lifespanYears": null,
@@ -65,7 +69,8 @@
       "crevices",
       "ledges",
       "low light areas"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -133,7 +138,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "moderate",
     "venomousSpines": null,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": false,
@@ -144,7 +149,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": false,
-    "feedingDifficulty": "moderate"
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

@@ -34,7 +34,11 @@
       "Papua New Guinea"
     ],
     "habitat": "Reef-associated. Generally found in small aggregations among or near mounds of branching corals such as Porites cylindrica or P. nigrescens, and around sheltered lagoon and seaward reef areas. Reported depth range 2–20 m. Often takes shelter near the spines of long-spined sea urchins, in sea-grass beds, or among rockwork during the day and forages more actively at dusk and through the night.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 2,
+      "max": 20
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -71,7 +75,8 @@
       "branching corals",
       "sea-grass or plant cover",
       "dim shaded retreats"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -145,7 +150,7 @@
     "reefSafe": "yes",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": false,
+    "sexChange": "none",
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": true,
@@ -156,7 +161,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": "moderate"
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": true,
+    "constantGrazer": true,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

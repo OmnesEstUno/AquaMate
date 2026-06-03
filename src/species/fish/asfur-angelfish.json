@@ -32,7 +32,8 @@
       "Tanzania"
     ],
     "habitat": "Semi-protected inshore reefs with rich soft and hard coral growth in the Red Sea and Gulf of Aden, south to Zanzibar. Typically encountered between roughly 3 and 30 m depth.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": null
   },
   "waterParameters": {
     "temperatureC": {
@@ -70,7 +71,8 @@
       "caves",
       "overhangs",
       "open swimming space"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -136,7 +138,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": true,
+    "sexChange": "protandrous",
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -147,7 +149,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": true,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

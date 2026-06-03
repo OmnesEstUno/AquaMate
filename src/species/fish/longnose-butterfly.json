@@ -35,7 +35,11 @@
       "Egypt"
     ],
     "habitat": "Exposed seaward reefs and lagoon reefs, typically found at depths of 0–145 m, commonly singly or in small groups of up to 5 individuals; forms monogamous pairs during breeding",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 0,
+      "max": 145
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -73,7 +77,8 @@
       "rockwork with crevices",
       "open swimming space",
       "moderate lighting"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -145,7 +150,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -156,7 +161,12 @@
     "monogamousPairing": true,
     "hlleSusceptible": null,
     "toxicToTank": false,
-    "feedingDifficulty": "moderate"
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

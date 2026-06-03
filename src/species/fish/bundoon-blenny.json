@@ -6,126 +6,158 @@
   "waterType": "saltwater",
   "commonName": "Bundoon Blenny",
   "scientificName": "Meiacanthus bundoon",
-  "alsoKnownAs": ["Bundoon Fang Blenny"],
+  "alsoKnownAs": [
+    "Bundoon Fang Blenny"
+  ],
   "category": "Blennies",
-
   "taxonomy": {
     "family": "Blenniidae",
     "order": "Blenniiformes"
   },
-
   "nativeRange": {
-    "regions": ["South Pacific"],
-    "countries": ["Fiji", "Tonga"],
+    "regions": [
+      "South Pacific"
+    ],
+    "countries": [
+      "Fiji",
+      "Tonga"
+    ],
     "habitat": "Reef-associated; typically found at depths of 5–21 m among coral and live rock",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 5,
+      "max": 21
+    }
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 27 },
-    "pH":           { "min": 8.1, "max": 8.4 },
-    "gH":           null,
-    "kH":           null,
-    "salinity":     { "min": 1.020, "max": 1.025 }
+    "temperatureC": {
+      "min": 24,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": null,
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-
-  "adultSizeCm": { "min": 7.0, "max": 9.5 },
-  "lifespanYears": { "min": 4, "max": 6 },
-
+  "adultSizeCm": {
+    "min": 7,
+    "max": 9.5
+  },
+  "lifespanYears": {
+    "min": 4,
+    "max": 6
+  },
   "tank": {
     "minVolumeLiters": 120,
-    "minLengthCm":     null,
-    "swimZone":        "mid",
-    "decorPreferences": ["live rock", "caves", "crevices", "ledges", "overhangs"]
+    "minLengthCm": null,
+    "swimZone": "mid",
+    "decorPreferences": [
+      "live rock",
+      "caves",
+      "crevices",
+      "ledges",
+      "overhangs"
+    ],
+    "minSandDepthCm": null
   },
-
   "careLevel": "intermediate",
-
   "diet": {
     "type": "omnivore",
     "notes": "Has been observed accepting a wide variety of aquarium foods; tends to thrive when offered finely chopped crustacean flesh, mysis shrimp, vitamin-enriched brine shrimp, and frozen herbivore preparations. Multiple feedings per day are generally recommended. ORA captive-bred specimens have been reported to readily consume all types of aquarium foods."
   },
-
   "compatibility": {
-    "temperament":  "semi-aggressive",
-    "grouping":     "solitary",
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith":     ["peaceful reef fish", "clownfish", "gobies", "cardinalfish", "anthias"],
-    "avoidWith":    ["fish resembling blenny shape", "aggressive fish that may provoke defensive biting", "multiple Meiacanthus blennies unless a bonded breeding pair"]
+    "goodWith": [
+      "peaceful reef fish",
+      "clownfish",
+      "gobies",
+      "cardinalfish",
+      "anthias"
+    ],
+    "avoidWith": [
+      "fish resembling blenny shape",
+      "aggressive fish that may provoke defensive biting",
+      "multiple Meiacanthus blennies unless a bonded breeding pair"
+    ]
   },
-
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
+    "primaryImage": null,
+    "gallery": [],
     "imageCandidates": null
   },
-
   "summary": "A small, hardy fang blenny from Fiji and Tonga with a dark body and distinctive yellow-orange lateral stripe. Generally considered reef safe and is captive-bred by ORA; best kept singly in a 120 L or larger reef tank with ample rockwork.",
-
   "careNotes": "The Bundoon Blenny is a fang blenny (genus Meiacanthus) with venomous lower-jaw fangs used primarily for defense — distinct from spine-based venom. If provoked or attacked by tankmates, it may deliver a painful bite; extra caution is advised when handling or working in the tank. It is not aggressive toward invertebrates or corals and is generally considered reef safe. Best kept as a single specimen; a male-female breeding pair can be housed together in a larger tank. Males tend to be larger and may display intensified coloration during courtship. The species is described as very hardy and durable. Captive-bred specimens from ORA are available and have been reported to acclimate readily to prepared aquarium foods. A tight-fitting lid is strongly recommended as blennies of this genus are known to jump. Named after the yacht Bundoon, aboard which it was discovered by Dr. Bruce Carlson in Fiji in 1974.",
-
   "breedingNotes": "Oviparous with distinct pairing; eggs are demersal and adhesive, attached to substrate. Males display courtship behavior in groups. Breeding in captivity has been achieved by ORA (Oceans, Reefs & Aquariums), making captive-bred specimens commercially available.",
-
   "sources": {
     "primary": {
       "name": "LiveAquaria",
-      "url":  "https://www.liveaquaria.com/products/bundoon-blenny",
+      "url": "https://www.liveaquaria.com/products/bundoon-blenny",
       "accessedDate": "2026-06-03",
       "notes": null
     },
     "additional": [
       {
         "name": "FishBase",
-        "url":  "https://www.fishbase.se/summary/Meiacanthus-bundoon",
+        "url": "https://www.fishbase.se/summary/Meiacanthus-bundoon",
         "accessedDate": "2026-06-03",
         "notes": "Cross-checked size (9.5 cm SL), temperature (25.2–27.6°C), native range (Fiji and Tonga), and taxonomy. FishBase temperature skews higher than LiveAquaria; final temperature range was averaged across three sources."
       },
       {
         "name": "Tropical Fish Keeping",
-        "url":  "https://tropical-fish-keeping.com/bundoon-blenny-meiacanthus-bundoon.html",
+        "url": "https://tropical-fish-keeping.com/bundoon-blenny-meiacanthus-bundoon.html",
         "accessedDate": "2026-06-03",
         "notes": "Cross-checked size (3.1 in / 7.9 cm), temperature (75–82°F / 23.9–27.8°C), lifespan (4–6 years), temperament, and compatibility details. Size and temperature used for averaging."
       },
       {
         "name": "ORA Farm",
-        "url":  "https://www.orafarm.com/blog/2015/03/20/ora-bundoon-blenny/",
+        "url": "https://www.orafarm.com/blog/2015/03/20/ora-bundoon-blenny/",
         "accessedDate": "2026-06-03",
         "notes": "Confirmed captive-bred availability, feeding acceptance, and courtship behavior in groups."
       }
     ]
   },
-
   "fish": {
-    "breedingDifficulty":         "difficult",
-    "breedingNotes":              "Captive breeding has been achieved commercially by ORA; demersal adhesive eggs with planktonic larvae. Not commonly bred in home aquariums.",
-    "conspecificAggression":      "moderate",
-    "finNippy":                   false,
-    "reefSafe":                   "yes",
-    "escapeRisk":                 "high",
-    "venomousSpines":             false,
-    "protogynous":                null,
-    "haremic":                    false,
-    "caudalScalpel":              false,
-    "nocturnal":                  false,
-    "juvenileColorPhase":         false,
-    "copperSensitive":            null,
+    "breedingDifficulty": "difficult",
+    "breedingNotes": "Captive breeding has been achieved commercially by ORA; demersal adhesive eggs with planktonic larvae. Not commonly bred in home aquariums.",
+    "conspecificAggression": "moderate",
+    "finNippy": false,
+    "reefSafe": "yes",
+    "escapeRisk": "high",
+    "venomousSpines": false,
+    "sexChange": null,
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": null,
     "speciesOnlyTankRecommended": false,
-    "requiresHitchingPost":       false,
-    "monogamousPairing":          false,
-    "hlleSusceptible":            false,
-    "toxicToTank":                false,
-    "feedingDifficulty":          "easy"
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": true,
+    "cleanerFish": null,
+    "euryhaline": null
   },
-
-  "crustacean":   null,
-  "coral":        null,
-  "mollusc":      null,
-  "echinoderm":   null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
   "other-invert": null,
-  "plant":        null,
-  "macroalgae":   null,
-
+  "plant": null,
+  "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus":    "researched",
-  "lastReviewed":  "2026-06-03"
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-03"
 }

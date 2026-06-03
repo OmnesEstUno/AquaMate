@@ -26,7 +26,11 @@
       "Mexico"
     ],
     "habitat": "Rocky reef and rubble zones at 9–27 m depth; colonial burrower in mixed sand and rubble substrate, heavily influenced by cool California Current upwelling",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 9,
+      "max": 27
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -64,7 +68,8 @@
       "broken coral rubble and shells for burrow construction",
       "live rock",
       "secure tight-fitting lid essential"
-    ]
+    ],
+    "minSandDepthCm": 0
   },
   "careLevel": "intermediate",
   "diet": {
@@ -143,7 +148,7 @@
     "reefSafe": "yes",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -154,7 +159,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": true,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

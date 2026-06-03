@@ -29,7 +29,11 @@
       "Philippines (northern Luzon)"
     ],
     "habitat": "Steep outer reef slopes between 10 and 40 m, typically on the ceilings of caves, overhangs and ledges where individuals are often observed oriented upside down.",
-    "biotope": "Outer reef caves and overhangs"
+    "biotope": "Outer reef caves and overhangs",
+    "depthRangeM": {
+      "min": 10,
+      "max": 40
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -65,7 +69,8 @@
       "overhangs",
       "ledges",
       "dim or shaded hiding places"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "expert",
   "diet": {
@@ -128,7 +133,7 @@
     "reefSafe": "with caution",
     "escapeRisk": null,
     "venomousSpines": null,
-    "protogynous": true,
+    "sexChange": "protogynous",
     "haremic": true,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -139,7 +144,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": true,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

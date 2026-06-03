@@ -30,12 +30,16 @@
       "Jamaica"
     ],
     "habitat": "Reef-associated; tends to occupy near-vertical drop-offs and walls beyond the outer reef at depths of roughly 10–180 m (most common 20–60 m). Often observed swimming upside-down beneath overhangs and retreating into recesses when threatened.",
-    "biotope": "Reef wall / drop-off"
+    "biotope": "Reef wall / drop-off",
+    "depthRangeM": {
+      "min": 10,
+      "max": 180
+    }
   },
   "waterParameters": {
     "temperatureC": {
       "min": 22.2,
-      "max": 26.0
+      "max": 26
     },
     "pH": {
       "min": 8.1,
@@ -70,7 +74,8 @@
       "crevices",
       "ledges",
       "subdued lighting"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
@@ -106,8 +111,7 @@
     "imageCandidates": null
   },
   "summary": "A deep-reef Caribbean basslet with a vivid purple body and jet-black cap, generally considered beginner-friendly and reef-safe. Best kept singly; tends to be territorial toward other basslets.",
-  "careNotes": "The Black Cap Basslet is generally considered one of the more straightforward saltwater fish to keep and is often recommended for reef aquariums. In the wild it inhabits near-vertical walls and drop-offs at moderately deep reef sites, so specimens tend to appreciate well-aquascaped rockwork with caves, overhangs, and crevices, and have been reported to acclimate better under slightly subdued lighting.\n\nConspecific and inter-basslet aggression is the main behavioral concern: best kept as a single specimen in most tanks. Pairs and small groups have been attempted in larger systems but typically need substantial footprint and multiple discrete territories in the rockwork. Generally advised not to house with Royal Grammas, other basslets, or similar-shaped dottybacks.\n\nLike other Grammatidae, has been reported to be a notable jumper — a tightly fitted lid or mesh top is generally advised. Specimens tend to be shy when first introduced and may take time to venture into open water; they often orient belly toward the substrate and have been observed swimming upside-down under ledges, which is normal behavior for the family.\n\nCross-source spread: LiveAquaria, Marine Collectors, and Aquatics Unlimited all give 72–78°F (22.2–25.6°C); FishBase gives 22–27°C (with mean ~26.7°C). The averaged range of 22.2–26.0°C is used here. Adult size: LiveAquaria reports 4 in (10.16 cm); FishBase lists 10.0 cm TL max — sources agree, so 8–10 cm is used. Tank size: all retail sources cite 30 gal (≈114 L); rounded up to 120 L given the species' territorial disposition and preference for ample rockwork with multiple territories. Salinity was consistent across hobby sources at SG 1.020–1.025."
-,
+  "careNotes": "The Black Cap Basslet is generally considered one of the more straightforward saltwater fish to keep and is often recommended for reef aquariums. In the wild it inhabits near-vertical walls and drop-offs at moderately deep reef sites, so specimens tend to appreciate well-aquascaped rockwork with caves, overhangs, and crevices, and have been reported to acclimate better under slightly subdued lighting.\n\nConspecific and inter-basslet aggression is the main behavioral concern: best kept as a single specimen in most tanks. Pairs and small groups have been attempted in larger systems but typically need substantial footprint and multiple discrete territories in the rockwork. Generally advised not to house with Royal Grammas, other basslets, or similar-shaped dottybacks.\n\nLike other Grammatidae, has been reported to be a notable jumper — a tightly fitted lid or mesh top is generally advised. Specimens tend to be shy when first introduced and may take time to venture into open water; they often orient belly toward the substrate and have been observed swimming upside-down under ledges, which is normal behavior for the family.\n\nCross-source spread: LiveAquaria, Marine Collectors, and Aquatics Unlimited all give 72–78°F (22.2–25.6°C); FishBase gives 22–27°C (with mean ~26.7°C). The averaged range of 22.2–26.0°C is used here. Adult size: LiveAquaria reports 4 in (10.16 cm); FishBase lists 10.0 cm TL max — sources agree, so 8–10 cm is used. Tank size: all retail sources cite 30 gal (≈114 L); rounded up to 120 L given the species' territorial disposition and preference for ample rockwork with multiple territories. Salinity was consistent across hobby sources at SG 1.020–1.025.",
   "breedingNotes": "Captive breeding has been reported but is uncommon at the hobbyist level. Reared juveniles do appear in the trade (sold as 'captive-bred' or 'tank-raised'), so commercial-scale rearing is feasible. Like Royal Gramma, males are believed to establish nest sites in small holes and crevices and guard eggs until hatching; detailed protocols for the hobby aquarium remain sparse.",
   "sources": {
     "primary": {
@@ -145,7 +149,7 @@
     "reefSafe": "yes",
     "escapeRisk": "high",
     "venomousSpines": null,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -156,7 +160,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

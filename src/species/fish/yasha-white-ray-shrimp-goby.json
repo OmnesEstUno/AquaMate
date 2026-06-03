@@ -30,7 +30,11 @@
       "Philippines"
     ],
     "habitat": "Outer reef slopes with sand or fine rubble substrate adjacent to coral structure; typically observed hovering near the entrance of a shared pistol-shrimp burrow at depths of around 15-40 m.",
-    "biotope": "Sandy reef burrow"
+    "biotope": "Sandy reef burrow",
+    "depthRangeM": {
+      "min": 15,
+      "max": 40
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -66,7 +70,8 @@
       "open sandy footprint near the front glass for visibility",
       "low-flow zone near the burrow",
       "tight-fitting lid"
-    ]
+    ],
+    "minSandDepthCm": 8
   },
   "careLevel": "intermediate",
   "diet": {
@@ -136,7 +141,7 @@
     "reefSafe": "yes",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -147,7 +152,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": true,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

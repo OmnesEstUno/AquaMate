@@ -6,66 +6,100 @@
   "waterType": "saltwater",
   "commonName": "Slender Whitleyi Anthias",
   "scientificName": "Luzonichthys whitleyi",
-  "alsoKnownAs": ["Magenta Slender Anthias", "Whitley's Splitfin", "Whitleyi Splitfin Anthias"],
+  "alsoKnownAs": [
+    "Magenta Slender Anthias",
+    "Whitley's Splitfin",
+    "Whitleyi Splitfin Anthias"
+  ],
   "category": "Anthias",
-
   "taxonomy": {
     "family": "Anthiadidae",
     "order": "Perciformes"
   },
-
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Central Pacific"],
-    "countries": ["Palau", "Indonesia", "Solomon Islands", "New Caledonia", "Philippines", "Japan"],
+    "regions": [
+      "Indo-Pacific",
+      "Central Pacific"
+    ],
+    "countries": [
+      "Palau",
+      "Indonesia",
+      "Solomon Islands",
+      "New Caledonia",
+      "Philippines",
+      "Japan"
+    ],
     "habitat": "Reef slopes and drop-offs, typically at depth; reef-associated in tropical waters",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": null
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 22.0, "max": 27.5 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 22,
+      "max": 27.5
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
     "kH": null,
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-
-  "adultSizeCm": { "min": 4.0, "max": 7.6 },
-  "lifespanYears": { "min": 3.0, "max": 5.0 },
-
+  "adultSizeCm": {
+    "min": 4,
+    "max": 7.6
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 300,
     "minLengthCm": 120,
     "swimZone": "mid",
-    "decorPreferences": ["live rock", "open swimming space", "rocky caves", "hiding spots"]
+    "decorPreferences": [
+      "live rock",
+      "open swimming space",
+      "rocky caves",
+      "hiding spots"
+    ],
+    "minSandDepthCm": null
   },
-
   "careLevel": "advanced",
-
   "diet": {
     "type": "planktivore",
     "notes": "Feeds primarily on zooplankton in the wild; in aquaria has been observed accepting frozen mysis shrimp, enriched frozen brine shrimp, and copepods. Multiple small feedings per day are generally recommended to keep this species in good condition."
   },
-
   "compatibility": {
     "temperament": "peaceful",
     "grouping": "schooling",
     "minGroupSize": 5,
-    "goodWith": ["peaceful reef fish", "firefish gobies", "cardinalfish", "clownfish", "royal grammas", "chalk bass"],
-    "avoidWith": ["aggressive fish", "territorial species", "large active predators"]
+    "goodWith": [
+      "peaceful reef fish",
+      "firefish gobies",
+      "cardinalfish",
+      "clownfish",
+      "royal grammas",
+      "chalk bass"
+    ],
+    "avoidWith": [
+      "aggressive fish",
+      "territorial species",
+      "large active predators"
+    ]
   },
-
   "media": {
     "primaryImage": null,
     "gallery": [],
     "imageCandidates": null
   },
-
   "summary": "A slender, magenta-bodied planktivore from Indo-Pacific reefs, generally considered reef-safe and best kept in groups of five or more with open swimming space and multiple daily feedings.",
-
   "careNotes": "Luzonichthys whitleyi tends to be a delicate anthias that generally does best in well-established reef systems. Groups of five or more have been reported to provide a greater sense of security, reducing stress and encouraging feeding. This species has been known to be a jumper, so a tightly fitting lid is strongly recommended. It should generally be acclimated slowly to new aquarium conditions, and ideally introduced before more boisterous tankmates. A refugium producing copepods and amphipods has been reported to supplement its planktivore diet. Males and females share very similar coloration in this species, making sex determination more difficult than in many other anthias. Sources disagree on minimum tank size (ranging from 55 gallons to 750 liters / ~200 L to 750 L); given the schooling requirement and active swimming habit, a larger tank in the 300 L range is generally advisable. Sources also disagree on adult size: FishBase records a maximum of 5.8 cm, while hobby retailers report up to 3–4 inches (7.5–10 cm); the FishBase figure is taken as the scientific reference, with the hobby range reflecting measurement variation. Care level assessments range from moderate (retail) to advanced-only (specialist sources); the advanced rating here reflects the species' feeding pickiness, escape tendency, and group requirement.",
-
   "breedingNotes": null,
-
   "sources": {
     "primary": {
       "name": "LiveAquaria",
@@ -94,7 +128,6 @@
       }
     ]
   },
-
   "fish": {
     "breedingDifficulty": "not in captivity",
     "breedingNotes": null,
@@ -103,7 +136,7 @@
     "reefSafe": "yes",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": true,
+    "sexChange": "protogynous",
     "haremic": true,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -114,9 +147,13 @@
     "monogamousPairing": false,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "moderate"
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": true,
+    "cleanerFish": null,
+    "euryhaline": null
   },
-
   "crustacean": null,
   "coral": null,
   "mollusc": null,
@@ -124,7 +161,6 @@
   "other-invert": null,
   "plant": null,
   "macroalgae": null,
-
   "schemaVersion": 1,
   "dataStatus": "needs_review",
   "lastReviewed": "2026-06-03"

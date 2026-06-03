@@ -29,7 +29,8 @@
       "Micronesia"
     ],
     "habitat": "Reef-associated; found under rocky overhangs, in caves with sponges, and beneath large plate corals in sheltered inner reefs and tide pools",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": null
   },
   "waterParameters": {
     "temperatureC": {
@@ -68,7 +69,8 @@
       "gorgonians",
       "low-flow areas",
       "hiding spots"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "expert",
   "diet": {
@@ -140,7 +142,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -151,7 +153,12 @@
     "monogamousPairing": true,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": true,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

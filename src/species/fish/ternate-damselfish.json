@@ -6,32 +6,68 @@
   "waterType": "saltwater",
   "commonName": "Ternate Damselfish",
   "scientificName": "Amblyglyphidodon ternatensis",
-  "alsoKnownAs": ["Ternate Damsel"],
+  "alsoKnownAs": [
+    "Ternate Damsel"
+  ],
   "category": "Damselfish",
   "taxonomy": {
     "family": "Pomacentridae",
     "order": "Ovalentaria"
   },
   "nativeRange": {
-    "regions": ["Western Pacific", "Indo-Pacific"],
-    "countries": ["Indonesia", "Solomon Islands", "Japan", "Palau"],
+    "regions": [
+      "Western Pacific",
+      "Indo-Pacific"
+    ],
+    "countries": [
+      "Indonesia",
+      "Solomon Islands",
+      "Japan",
+      "Palau"
+    ],
     "habitat": "Coral-rich sheltered coastal reefs; associated with algae and staghorn/dead coral sections at depths of 1–15 m",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 1,
+      "max": 15
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 24.0, "max": 28.0 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 24,
+      "max": 28
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8.0, "max": 12.0 },
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 5.0, "max": 10.0 },
+  "adultSizeCm": {
+    "min": 5,
+    "max": 10
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 120,
     "minLengthCm": 90,
     "swimZone": "mid",
-    "decorPreferences": ["live rock", "coral rubble", "dead coral branches", "caves", "crevices"]
+    "decorPreferences": [
+      "live rock",
+      "coral rubble",
+      "dead coral branches",
+      "caves",
+      "crevices"
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
@@ -42,8 +78,16 @@
     "temperament": "semi-aggressive",
     "grouping": "pair",
     "minGroupSize": 1,
-    "goodWith": ["peaceful reef fish", "corals", "invertebrates"],
-    "avoidWith": ["other damselfishes", "similarly-sized semi-aggressive fish", "slow or timid fish"]
+    "goodWith": [
+      "peaceful reef fish",
+      "corals",
+      "invertebrates"
+    ],
+    "avoidWith": [
+      "other damselfishes",
+      "similarly-sized semi-aggressive fish",
+      "slow or timid fish"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -89,7 +133,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -100,7 +144,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

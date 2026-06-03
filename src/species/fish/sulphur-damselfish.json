@@ -6,66 +6,104 @@
   "waterType": "saltwater",
   "commonName": "Sulphur Damselfish",
   "scientificName": "Pomacentrus sulfureus",
-  "alsoKnownAs": ["Sulphur Damsel"],
+  "alsoKnownAs": [
+    "Sulphur Damsel"
+  ],
   "category": "Damselfish",
-
   "taxonomy": {
     "family": "Pomacentridae",
     "order": "Perciformes"
   },
-
   "nativeRange": {
-    "regions": ["Western Indian Ocean", "Red Sea", "East Africa"],
-    "countries": ["Tanzania", "Kenya", "Mozambique", "Madagascar", "Comoros", "Mauritius", "Seychelles", "Egypt", "Saudi Arabia"],
+    "regions": [
+      "Western Indian Ocean",
+      "Red Sea",
+      "East Africa"
+    ],
+    "countries": [
+      "Tanzania",
+      "Kenya",
+      "Mozambique",
+      "Madagascar",
+      "Comoros",
+      "Mauritius",
+      "Seychelles",
+      "Egypt",
+      "Saudi Arabia"
+    ],
     "habitat": "Inshore coral reefs in areas with rich coral growth, at depths of 1–5 m",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 1,
+      "max": 5
+    }
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 25.0, "max": 28.5 },
-    "pH":           { "min": 8.1,  "max": 8.4  },
-    "gH":           null,
-    "kH":           { "min": 8,    "max": 12   },
-    "salinity":     { "min": 1.020, "max": 1.025 }
+    "temperatureC": {
+      "min": 25,
+      "max": 28.5
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-
-  "adultSizeCm":   { "min": 7.0, "max": 12.0 },
+  "adultSizeCm": {
+    "min": 7,
+    "max": 12
+  },
   "lifespanYears": null,
-
   "tank": {
     "minVolumeLiters": 200,
-    "minLengthCm":     90,
-    "swimZone":        "all",
-    "decorPreferences": ["live rock", "caves", "crevices", "coral rubble"]
+    "minLengthCm": 90,
+    "swimZone": "all",
+    "decorPreferences": [
+      "live rock",
+      "caves",
+      "crevices",
+      "coral rubble"
+    ],
+    "minSandDepthCm": null
   },
-
   "careLevel": "beginner",
-
   "diet": {
     "type": "omnivore",
     "notes": "Generally accepts a variety of prepared and frozen marine foods including algae-based flakes, Spirulina, mysis shrimp, and brine shrimp. Sources describe it as herbivore-leaning but it has been observed accepting meaty foods alongside plant-based offerings."
   },
-
   "compatibility": {
-    "temperament":  "semi-aggressive",
-    "grouping":     "shoaling",
+    "temperament": "semi-aggressive",
+    "grouping": "shoaling",
     "minGroupSize": 1,
-    "goodWith":     ["larger semi-aggressive reef fish", "tangs", "larger wrasses", "larger angelfish"],
-    "avoidWith":    ["other damselfish of similar size", "small peaceful fish", "slow-moving fish that may be harassed", "other Pomacentrus species"]
+    "goodWith": [
+      "larger semi-aggressive reef fish",
+      "tangs",
+      "larger wrasses",
+      "larger angelfish"
+    ],
+    "avoidWith": [
+      "other damselfish of similar size",
+      "small peaceful fish",
+      "slow-moving fish that may be harassed",
+      "other Pomacentrus species"
+    ]
   },
-
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
+    "primaryImage": null,
+    "gallery": [],
     "imageCandidates": null
   },
-
   "summary": "A vivid yellow damselfish from the Western Indian Ocean and Red Sea, generally considered hardy and a good candidate for established reef systems with ample rockwork, though tend to be territorial with similar-sized tankmates.",
-
   "careNotes": "The Sulphur Damselfish has been documented inhabiting inshore reef zones at depths of 1–5 m in areas of rich coral growth. It is generally advised to house it in a well-established aquarium of at least 200 L with abundant rockwork providing caves and crevices for territory establishment. Groups of juveniles can coexist but have been known to become increasingly aggressive toward conspecifics and similarly-sized fish as they mature; a larger tank footprint is advisable if multiple individuals are kept. LiveAquaria notes compatibility cautiously in reef settings; isolated instances of fin nipping near corals have been reported. Geographic color variations have been documented across its range. Males guard and aerate demersal, substrate-adhesive eggs during breeding. Temperature notes: LiveAquaria suggests 23.9–27.8°C while FishBase ecological data indicates 26.3–29.2°C; the range used (25–28.5°C) represents an average of both sources. Adult size: LiveAquaria lists 5 in (12.7 cm) while FishBase states a maximum of 11.0 cm TL; range of 7–12 cm used as a reasonable representative span.",
-
   "breedingNotes": "Breeding involves distinct pairing. Eggs are demersal and adhere to the substrate, with males documented guarding and aerating the clutch. Captive breeding has not been widely reported in the aquarium hobby literature reviewed.",
-
   "sources": {
     "primary": {
       "name": "LiveAquaria",
@@ -82,38 +120,40 @@
       }
     ]
   },
-
   "fish": {
-    "breedingDifficulty":         "difficult",
-    "breedingNotes":              "Egg-scattering with demersal adhesive eggs; males guard the clutch. Captive spawning rarely reported in home aquaria.",
-    "conspecificAggression":      "high",
-    "finNippy":                   true,
-    "reefSafe":                   "with caution",
-    "escapeRisk":                 "low",
-    "venomousSpines":             false,
-    "protogynous":                null,
-    "haremic":                    false,
-    "caudalScalpel":              false,
-    "nocturnal":                  false,
-    "juvenileColorPhase":         false,
-    "copperSensitive":            null,
+    "breedingDifficulty": "difficult",
+    "breedingNotes": "Egg-scattering with demersal adhesive eggs; males guard the clutch. Captive spawning rarely reported in home aquaria.",
+    "conspecificAggression": "high",
+    "finNippy": true,
+    "reefSafe": "with caution",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": null,
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": null,
     "speciesOnlyTankRecommended": false,
-    "requiresHitchingPost":       false,
-    "monogamousPairing":          false,
-    "hlleSusceptible":            null,
-    "toxicToTank":                false,
-    "feedingDifficulty":          "easy"
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": null,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
-
-  "crustacean":   null,
-  "coral":        null,
-  "mollusc":      null,
-  "echinoderm":   null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
   "other-invert": null,
-  "plant":        null,
-  "macroalgae":   null,
-
+  "plant": null,
+  "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus":    "researched",
-  "lastReviewed":  "2026-06-03"
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-03"
 }

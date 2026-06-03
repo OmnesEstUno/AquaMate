@@ -8,112 +8,135 @@
   "scientificName": "Omobranchus anolius",
   "alsoKnownAs": [],
   "category": "Blenny",
-
   "taxonomy": {
     "family": "Blenniidae",
     "order": "Blenniiformes"
   },
-
   "nativeRange": {
-    "regions": ["Western Pacific", "Australia"],
-    "countries": ["Australia"],
+    "regions": [
+      "Western Pacific",
+      "Australia"
+    ],
+    "countries": [
+      "Australia"
+    ],
     "habitat": "Shallow estuarine waters and intertidal mudflats; commonly associated with dead oyster shells and oyster beds",
-    "biotope": "Estuary"
+    "biotope": "Estuary",
+    "depthRangeM": null
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 16.0, "max": 25.0 },
-    "pH":           { "min": 8.1,  "max": 8.4 },
-    "gH":           null,
-    "kH":           null,
-    "salinity":     { "min": 1.020, "max": 1.025 }
+    "temperatureC": {
+      "min": 16,
+      "max": 25
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": null,
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-
-  "adultSizeCm":   { "min": 3.0, "max": 8.2 },
+  "adultSizeCm": {
+    "min": 3,
+    "max": 8.2
+  },
   "lifespanYears": null,
-
   "tank": {
-    "minVolumeLiters":  120,
-    "minLengthCm":      60,
-    "swimZone":         "bottom",
-    "decorPreferences": ["live rock", "rubble", "empty shells", "caves", "crevices"]
+    "minVolumeLiters": 120,
+    "minLengthCm": 60,
+    "swimZone": "bottom",
+    "decorPreferences": [
+      "live rock",
+      "rubble",
+      "empty shells",
+      "caves",
+      "crevices"
+    ],
+    "minSandDepthCm": null
   },
-
   "careLevel": "intermediate",
-
   "diet": {
-    "type":  "herbivore",
+    "type": "herbivore",
     "notes": "Diet should include vegetable matter; frozen and dried foods containing marine algae and blue-green algae are generally accepted. May also pick at small invertebrates opportunistically."
   },
-
   "compatibility": {
-    "temperament":  "semi-aggressive",
-    "grouping":     "solitary",
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith":     ["peaceful reef fish", "dartfish", "small wrasses", "gobies"],
-    "avoidWith":    ["similarly shaped blennies", "other Omobranchus species", "small ornamental clams (when underfed)"]
+    "goodWith": [
+      "peaceful reef fish",
+      "dartfish",
+      "small wrasses",
+      "gobies"
+    ],
+    "avoidWith": [
+      "similarly shaped blennies",
+      "other Omobranchus species",
+      "small ornamental clams (when underfed)"
+    ]
   },
-
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
+    "primaryImage": null,
+    "gallery": [],
     "imageCandidates": null
   },
-
   "summary": "A small Australian blenny with a distinctive sail-like dorsal fin and fleshy crest; tends to inhabit oyster shells and rubble in cool-to-temperate estuarine tanks, and is generally considered semi-aggressive toward similar-looking fish.",
-
   "careNotes": "Brachiosaurus Blenny is endemic to eastern Australia, ranging from the Gulf of Carpentaria to Spencer Gulf. It tends to inhabit dead oyster shells and shallow estuarine rubble areas, and tanks are generally advised to replicate this with plenty of scattered rock, empty shells, and hiding spots. The species has been noted to potentially pick at clam mantles and fleshy large-polyp stony corals when underfed, so keeping it well-fed on algae-based foods is commonly recommended for reef tanks. Males possess a pronounced fleshy crest and elaborate dorsal fin. The species has been reported to tolerate a relatively wide and cool temperature range (down to about 16°C), making it suitable for cooler-running systems. FishBase documents adults occurring in pairs in dead oyster shells; captive breeding may be possible given this pairing tendency, though it has not been widely documented in the hobby. Escape risk should be considered high — blennies in general have been known to jump from open tanks, and a tight-fitting lid is strongly advised.",
-
   "breedingNotes": "FishBase records this species as oviparous with distinct pairing; eggs are demersal and adhesive, and larvae are planktonic in coastal waters. Captive breeding has not been widely reported in the hobby literature, though the pairing behavior and habitat use of empty shells suggest in-tank spawning may be feasible.",
-
   "sources": {
     "primary": {
       "name": "LiveAquaria",
-      "url":  "https://www.liveaquaria.com/products/brachiosaurus-blenny",
+      "url": "https://www.liveaquaria.com/products/brachiosaurus-blenny",
       "accessedDate": "2026-06-03",
       "notes": null
     },
     "additional": [
       {
         "name": "FishBase",
-        "url":  "https://www.fishbase.se/summary/Omobranchus-anolius",
+        "url": "https://www.fishbase.se/summary/Omobranchus-anolius",
         "accessedDate": "2026-06-03",
         "notes": "Cross-checked adult size (FishBase: 7.5 cm TL vs LiveAquaria: 3.5 in / 8.89 cm — averaged to 8.2 cm max), temperature range (FishBase: 14.8–25.2°C vs LiveAquaria: 64–77°F / 17.8–25°C — averaged to min 16°C / max 25°C), and native range (confirmed eastern Australia, Gulf of Carpentaria to Spencer Gulf). Reef2Reef wiki and BlueZoo Aquatics both returned 403 Forbidden; TFH Magazine search returned 404; AquaticCommunity page not found. Minimum two-source confirmation achieved with LiveAquaria + FishBase."
       }
     ]
   },
-
   "fish": {
-    "breedingDifficulty":         "difficult",
-    "breedingNotes":              "Oviparous with distinct pairing; demersal adhesive eggs; larvae planktonic. Captive breeding not widely reported.",
-    "conspecificAggression":      "high",
-    "finNippy":                   false,
-    "reefSafe":                   "with caution",
-    "escapeRisk":                 "high",
-    "venomousSpines":             false,
-    "protogynous":                null,
-    "haremic":                    null,
-    "caudalScalpel":              false,
-    "nocturnal":                  false,
-    "juvenileColorPhase":         false,
-    "copperSensitive":            null,
+    "breedingDifficulty": "difficult",
+    "breedingNotes": "Oviparous with distinct pairing; demersal adhesive eggs; larvae planktonic. Captive breeding not widely reported.",
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "with caution",
+    "escapeRisk": "high",
+    "venomousSpines": false,
+    "sexChange": null,
+    "haremic": null,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": null,
     "speciesOnlyTankRecommended": false,
-    "requiresHitchingPost":       false,
-    "monogamousPairing":          null,
-    "hlleSusceptible":            false,
-    "toxicToTank":                false,
-    "feedingDifficulty":          "moderate"
+    "requiresHitchingPost": false,
+    "monogamousPairing": null,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": true
   },
-
-  "crustacean":   null,
-  "coral":        null,
-  "mollusc":      null,
-  "echinoderm":   null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
   "other-invert": null,
-  "plant":        null,
-  "macroalgae":   null,
-
+  "plant": null,
+  "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus":    "researched",
-  "lastReviewed":  "2026-06-03"
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-03"
 }

@@ -45,7 +45,11 @@
       "Australia"
     ],
     "habitat": "Reef-associated species inhabiting reef flats and outer reef slopes of continental reefs at depths of roughly 1–50 m. Has been documented occupying holes and crevices, often shared with cleaner organisms.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 1,
+      "max": 50
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -81,7 +85,8 @@
       "tightly sealed, weighted or mechanically secured lid with no gaps",
       "sand substrate",
       "long footprint over depth — at least ~240 cm length is generally advised for adult housing"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "expert",
   "diet": {
@@ -156,7 +161,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": false,
     "nocturnal": true,
@@ -167,7 +172,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

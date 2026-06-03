@@ -39,7 +39,11 @@
       "New Caledonia"
     ],
     "habitat": "Reef-associated; tends to hide in sandy rubble, burrows, and crevices on coral reefs, often with only the head protruding. Depth range 1–67 m.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 1,
+      "max": 67
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -78,7 +82,8 @@
       "PVC pipe hideaways",
       "live rock overhangs",
       "secure tight-fitting lid"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "expert",
   "diet": {
@@ -183,7 +188,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "high",
     "venomousSpines": null,
-    "protogynous": null,
+    "sexChange": "protandrous",
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -194,7 +199,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

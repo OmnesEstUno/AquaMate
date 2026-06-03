@@ -33,7 +33,11 @@
       "Australia"
     ],
     "habitat": "Shallow coral reefs, weed and rubble areas, and seagrass beds typically at 2–15 m depth",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 2,
+      "max": 15
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -50,7 +54,7 @@
       "max": 12
     },
     "salinity": {
-      "min": 1.020,
+      "min": 1.02,
       "max": 1.025
     }
   },
@@ -72,7 +76,8 @@
       "macroalgae",
       "mature reef substrate",
       "open swimming space"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -102,7 +107,9 @@
   },
   "media": {
     "primaryImage": null,
-    "gallery": ["https://www.reef2reef.com/attachments/22216aec-0062-4de6-ae6c-daf7371e4137-jpeg.872735/"],
+    "gallery": [
+      "https://www.reef2reef.com/attachments/22216aec-0062-4de6-ae6c-daf7371e4137-jpeg.872735/"
+    ],
     "imageCandidates": null
   },
   "summary": "A small Indo-Pacific filefish popular for its taste for Aiptasia and Majano nuisance anemones. Generally hardy and peaceful, but commonly considered reef-safe only with caution — individuals have been known to nip soft corals, zoanthids, and feather dusters.",
@@ -138,7 +145,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "low",
     "venomousSpines": null,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -149,7 +156,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": "moderate"
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

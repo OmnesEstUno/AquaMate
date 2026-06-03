@@ -28,7 +28,11 @@
       "Papua New Guinea"
     ],
     "habitat": "Coastal reefs and estuaries, commonly observed on jetty pylons and rocky bays; depth range approximately 1–10 m. Recorded from Darnley Island (Torres Strait, Queensland) south to Bermagui, southern New South Wales.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 1,
+      "max": 10
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -45,7 +49,7 @@
       "max": 12
     },
     "salinity": {
-      "min": 1.020,
+      "min": 1.02,
       "max": 1.025
     }
   },
@@ -64,7 +68,8 @@
       "rubble substrate",
       "sand or fine gravel substrate",
       "hiding caves"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -140,7 +145,7 @@
     "reefSafe": "yes",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -151,7 +156,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": null,
     "toxicToTank": false,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": true
   },
   "crustacean": null,
   "coral": null,

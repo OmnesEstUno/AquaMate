@@ -27,7 +27,11 @@
       "Thailand"
     ],
     "habitat": "Reef-associated species found on tropical Indian Ocean reefs at depths of roughly 2-15 m, typically among rubble and rockwork that offers hiding places.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 2,
+      "max": 15
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -62,7 +66,8 @@
       "caves and crevices for hiding",
       "rubble patches",
       "open swimming space"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
@@ -137,7 +142,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": false,
+    "sexChange": "none",
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -148,7 +153,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

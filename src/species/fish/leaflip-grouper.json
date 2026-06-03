@@ -36,7 +36,8 @@
       "French Polynesia"
     ],
     "habitat": "Reef-associated; found on coral reef slopes prone to moderate currents, typically near large coral heads. Adults tend to occupy depths greater than 20 m; juveniles have been found in shallow lagoons and protected bays.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": null
   },
   "waterParameters": {
     "temperatureC": {
@@ -71,7 +72,8 @@
       "large overhangs",
       "open swimming areas",
       "secure lid"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "expert",
   "diet": {
@@ -140,7 +142,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "moderate",
     "venomousSpines": false,
-    "protogynous": true,
+    "sexChange": "protandrous",
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -151,7 +153,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": null,
     "toxicToTank": true,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

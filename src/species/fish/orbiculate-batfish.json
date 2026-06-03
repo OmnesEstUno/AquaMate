@@ -42,7 +42,8 @@
       "French Polynesia"
     ],
     "habitat": "Found across the Indo-Pacific in shallow protected coastal waters, lagoons, mangroves, and seaward reefs from the surface down to about 30 m. Juveniles tend to shelter among mangroves and silty lagoons, where they have been documented mimicking floating dead leaves; adults are reported to occur singly, in small groups, or occasionally in large schools over deeper reef areas.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": null
   },
   "waterParameters": {
     "temperatureC": {
@@ -81,7 +82,8 @@
       "deep tank front-to-back",
       "live rock with overhangs and caves",
       "sheltered areas for resting"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -155,7 +157,7 @@
     "reefSafe": "no",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": false,
@@ -166,7 +168,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": false,
-    "feedingDifficulty": "moderate"
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

@@ -33,7 +33,11 @@
       "Philippines"
     ],
     "habitat": "Clear coastal reef slopes, typically at depths of roughly 2–35 m. Observed as solitary individuals and in small loose aggregations over sandy patches near reef edges.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 2,
+      "max": 35
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -69,7 +73,8 @@
       "rocky crevices",
       "open swimming space",
       "tight-fitting lid"
-    ]
+    ],
+    "minSandDepthCm": 5
   },
   "careLevel": "intermediate",
   "diet": {
@@ -149,7 +154,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -160,7 +165,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

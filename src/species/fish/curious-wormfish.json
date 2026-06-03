@@ -34,7 +34,11 @@
       "French Polynesia"
     ],
     "habitat": "Has been reported over sand and rubble slopes and soft mud bottoms of outer reef environments, generally at depths of about 9–60 m. Adults are commonly observed singly or in pairs, retreating into burrows in soft substrate when disturbed.",
-    "biotope": "Reef-associated sand and rubble slopes with burrowable substrate"
+    "biotope": "Reef-associated sand and rubble slopes with burrowable substrate",
+    "depthRangeM": {
+      "min": 9,
+      "max": 60
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -51,7 +55,7 @@
       "max": 12
     },
     "salinity": {
-      "min": 1.020,
+      "min": 1.02,
       "max": 1.025
     }
   },
@@ -70,7 +74,8 @@
       "rubble",
       "caves",
       "overhangs"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "advanced",
   "diet": {
@@ -156,7 +161,7 @@
     "reefSafe": "yes",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": false,
+    "sexChange": "none",
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -167,7 +172,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "difficult"
+    "feedingDifficulty": "difficult",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": true,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

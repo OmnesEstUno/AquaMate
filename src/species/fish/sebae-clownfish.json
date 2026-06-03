@@ -30,7 +30,11 @@
       "Indonesia"
     ],
     "habitat": "Sandy lagoons, coastal flats, and reef-adjacent shallows at 2–25 m depth, typically in association with a host sea anemone (most commonly Stichodactyla haddoni in the wild)",
-    "biotope": "Reef-adjacent sandy lagoon"
+    "biotope": "Reef-adjacent sandy lagoon",
+    "depthRangeM": {
+      "min": 2,
+      "max": 25
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -65,7 +69,8 @@
       "sandy substrate",
       "live rock",
       "open swimming area near anemone"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
@@ -139,7 +144,7 @@
     "reefSafe": "yes",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": false,
+    "sexChange": "protandrous",
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -150,7 +155,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

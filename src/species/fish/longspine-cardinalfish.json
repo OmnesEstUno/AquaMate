@@ -36,7 +36,11 @@
       "New Caledonia"
     ],
     "habitat": "Reef-associated; typically encountered in sheltered bays and lagoons at depths of roughly 1-12 m, where it forms dense aggregations hovering above mounds of branching coral. Tends to shelter among branching corals (commonly Acropora) and emerges to forage at dusk.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 1,
+      "max": 12
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -72,7 +76,8 @@
       "caves and overhangs",
       "shaded retreats",
       "open swimming space above rockwork"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
@@ -144,7 +149,7 @@
     "reefSafe": "yes",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": false,
+    "sexChange": "none",
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": true,
@@ -155,7 +160,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": true,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

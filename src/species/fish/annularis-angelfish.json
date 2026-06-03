@@ -6,54 +6,105 @@
   "waterType": "saltwater",
   "commonName": "Annularis Angelfish",
   "scientificName": "Pomacanthus annularis",
-  "alsoKnownAs": ["Blue Ring Angelfish", "Bluering Angelfish", "Blue King Angelfish"],
+  "alsoKnownAs": [
+    "Blue Ring Angelfish",
+    "Bluering Angelfish",
+    "Blue King Angelfish"
+  ],
   "category": "Angelfish",
-
   "taxonomy": {
     "family": "Pomacanthidae",
     "order": "Acanthuriformes"
   },
-
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Indo-West Pacific"],
-    "countries": ["Indonesia", "Japan", "Australia", "India", "Philippines", "Papua New Guinea", "New Caledonia", "Tanzania", "Kenya", "Mozambique", "Sri Lanka", "Thailand", "Malaysia", "Vietnam"],
+    "regions": [
+      "Indo-Pacific",
+      "Indo-West Pacific"
+    ],
+    "countries": [
+      "Indonesia",
+      "Japan",
+      "Australia",
+      "India",
+      "Philippines",
+      "Papua New Guinea",
+      "New Caledonia",
+      "Tanzania",
+      "Kenya",
+      "Mozambique",
+      "Sri Lanka",
+      "Thailand",
+      "Malaysia",
+      "Vietnam"
+    ],
     "habitat": "Coastal rocky coral reefs, reef caves, wrecks; depths of 3–30 m. Juveniles tend to occupy shallow inshore areas with algae-covered substrates.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 3,
+      "max": 30
+    }
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 24.0, "max": 27.5 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 24,
+      "max": 27.5
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-
-  "adultSizeCm": { "min": 30.0, "max": 45.0 },
+  "adultSizeCm": {
+    "min": 30,
+    "max": 45
+  },
   "lifespanYears": null,
-
   "tank": {
     "minVolumeLiters": 1000,
     "minLengthCm": 240,
     "swimZone": "all",
-    "decorPreferences": ["live rock", "caves", "open swimming space"]
+    "decorPreferences": [
+      "live rock",
+      "caves",
+      "open swimming space"
+    ],
+    "minSandDepthCm": null
   },
-
   "careLevel": "advanced",
-
   "diet": {
     "type": "omnivore",
     "notes": "Feeds on sponges, tunicates, filamentous algae, and zooplankton in the wild. In captivity, generally accepts angelfish preparations containing sponge matter, frozen meaty foods (chopped seafood, mysis), and marine algae/nori. Newly acquired specimens may initially prefer live or fresh foods such as brine shrimp or chopped seafood before transitioning to prepared diets."
   },
-
   "compatibility": {
     "temperament": "semi-aggressive",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["large tangs", "large wrasses", "large groupers", "large hawkfish", "triggerfish"],
-    "avoidWith": ["other large angelfish", "small peaceful fish", "ornamental shrimp", "tridacnid clams", "corals", "nudibranchs", "small invertebrates"]
+    "goodWith": [
+      "large tangs",
+      "large wrasses",
+      "large groupers",
+      "large hawkfish",
+      "triggerfish"
+    ],
+    "avoidWith": [
+      "other large angelfish",
+      "small peaceful fish",
+      "ornamental shrimp",
+      "tridacnid clams",
+      "corals",
+      "nudibranchs",
+      "small invertebrates"
+    ]
   },
-
   "media": {
     "primaryImage": null,
     "gallery": [],
@@ -68,13 +119,9 @@
       }
     ]
   },
-
   "summary": "A large, striking Indo-Pacific angelfish featuring brilliant sapphire-blue ring markings over a golden-brown body. Generally considered one of the more demanding large Pomacanthus species, best suited for experienced keepers with a spacious, well-established system.",
-
   "careNotes": "The Annularis Angelfish (Pomacanthus annularis) is a large marine angelfish native to coastal reefs of the Indo-West Pacific, ranging from East Africa through Indonesia and New Guinea to New Caledonia, and north to southern Japan. Adults are documented reaching up to 45 cm total length in the wild, though aquarium specimens are commonly traded at 20–23 cm. The species tends to be semi-aggressive and may become territorial once established; tankmates should be of similar or larger size and similarly assertive temperament. It is generally not considered reef-safe: it has been known to nip at sessile invertebrates including corals, nudibranchs, and tridacnid clams and is best kept in a fish-only or fish-only-with-live-rock (FOWLR) system. This species is a sequential hermaphrodite (protogynous); males and females cannot be visually distinguished as adults. Juveniles undergo a dramatic multi-year color transformation so complete that they are sometimes not recognized as the same species: juveniles are dark with brilliant white and electric-blue vertical stripes, while adults display bold sapphire-blue ring markings and curved horizontal lines over a golden-brown body. Aquarists should be aware the fish purchased as a juvenile will look entirely different at maturity. The Annularis is documented as susceptible to Head and Lateral Line Erosion (HLLE), which tends to develop in poor water quality or when the diet lacks sufficient marine algae and vitamin-rich foods; a varied diet and pristine water parameters are generally advised to prevent this. Temperature guidance differs between aquarium trade sources and field data: LiveAquaria suggests 22–26°C while FishBase wild-population data indicates 26–29°C; a practical aquarium range of 24–27.5°C represents a reasonable middle ground, though individuals sourced from equatorial populations may prefer the warmer end. Adults have been observed in pairs inside reef caves in the wild.",
-
   "breedingNotes": "Not documented in captivity. In the wild, adults have been reported in pairs on coastal reef systems. As a protogynous hermaphrodite, the dominant individual in a social group transitions from female to male. Captive breeding of large Pomacanthus angelfishes is rarely achieved.",
-
   "sources": {
     "primary": {
       "name": "LiveAquaria",
@@ -97,7 +144,6 @@
       }
     ]
   },
-
   "fish": {
     "breedingDifficulty": "not in captivity",
     "breedingNotes": "No documented captive breeding. Protogynous hermaphrodite; dominant individual transitions from female to male. Adults occasionally observed in pairs in reef caves in the wild.",
@@ -106,7 +152,7 @@
     "reefSafe": "no",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": true,
+    "sexChange": "protogynous",
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -117,9 +163,13 @@
     "monogamousPairing": false,
     "hlleSusceptible": true,
     "toxicToTank": false,
-    "feedingDifficulty": "moderate"
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
-
   "crustacean": null,
   "coral": null,
   "mollusc": null,
@@ -127,7 +177,6 @@
   "other-invert": null,
   "plant": null,
   "macroalgae": null,
-
   "schemaVersion": 1,
   "dataStatus": "researched",
   "lastReviewed": "2026-06-03"

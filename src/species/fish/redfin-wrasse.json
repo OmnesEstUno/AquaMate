@@ -16,25 +16,57 @@
     "order": "Eupercaria"
   },
   "nativeRange": {
-    "regions": ["Western Central Pacific"],
-    "countries": ["Philippines", "Indonesia"],
+    "regions": [
+      "Western Central Pacific"
+    ],
+    "countries": [
+      "Philippines",
+      "Indonesia"
+    ],
     "habitat": "Rubble and low patch reefs in areas of current, typically on outer reef slopes",
-    "biotope": "Tropical reef rubble and patch-reef zones reported at roughly 2–40 m depth"
+    "biotope": "Tropical reef rubble and patch-reef zones reported at roughly 2–40 m depth",
+    "depthRangeM": {
+      "min": 2,
+      "max": 40
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 27 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 22,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 8, "max": 10 },
-  "lifespanYears": { "min": 4, "max": 8 },
+  "adultSizeCm": {
+    "min": 8,
+    "max": 10
+  },
+  "lifespanYears": {
+    "min": 4,
+    "max": 8
+  },
   "tank": {
     "minVolumeLiters": 300,
     "minLengthCm": 120,
     "swimZone": "mid",
-    "decorPreferences": ["live rock", "rubble", "open swimming space"]
+    "decorPreferences": [
+      "live rock",
+      "rubble",
+      "open swimming space"
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -45,8 +77,20 @@
     "temperament": "peaceful",
     "grouping": "pair",
     "minGroupSize": 1,
-    "goodWith": ["peaceful reef tankmates", "small to medium gobies", "cardinalfish", "clownfish", "corals", "ornamental shrimp"],
-    "avoidWith": ["large aggressive wrasses", "triggerfish", "lionfish", "other male fairy wrasses in the same tank"]
+    "goodWith": [
+      "peaceful reef tankmates",
+      "small to medium gobies",
+      "cardinalfish",
+      "clownfish",
+      "corals",
+      "ornamental shrimp"
+    ],
+    "avoidWith": [
+      "large aggressive wrasses",
+      "triggerfish",
+      "lionfish",
+      "other male fairy wrasses in the same tank"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -92,7 +136,7 @@
     "reefSafe": "yes",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": true,
+    "sexChange": "protandrous",
     "haremic": true,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -103,7 +147,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

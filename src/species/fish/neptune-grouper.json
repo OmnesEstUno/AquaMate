@@ -34,7 +34,11 @@
       "Australia"
     ],
     "habitat": "Deepwater coral reefs, seamounts, and offshore banks; recorded depth range generally 64–250 m (with reports to ~250 m / ~820 ft in Tahiti)",
-    "biotope": "Deep reef"
+    "biotope": "Deep reef",
+    "depthRangeM": {
+      "min": 64,
+      "max": 250
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -70,7 +74,8 @@
       "overhangs",
       "deep crevices",
       "subdued lighting"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "advanced",
   "diet": {
@@ -146,7 +151,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": "protandrous",
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -157,7 +162,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": "moderate"
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

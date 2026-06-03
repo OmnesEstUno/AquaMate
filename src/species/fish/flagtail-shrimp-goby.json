@@ -30,7 +30,11 @@
       "Papua New Guinea"
     ],
     "habitat": "Coastal sand flats, sand slopes and deep lagoons adjacent to reef structure, typically at depths of 3-35 m. Observed hovering at the entrance of a shared pistol-shrimp burrow on fine sand or coral rubble.",
-    "biotope": "Sandy reef slope burrow"
+    "biotope": "Sandy reef slope burrow",
+    "depthRangeM": {
+      "min": 3,
+      "max": 35
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -67,7 +71,8 @@
       "low to moderate flow over the burrow zone",
       "tight-fitting lid or canopy",
       "scattered live rock structure for cover"
-    ]
+    ],
+    "minSandDepthCm": 8
   },
   "careLevel": "intermediate",
   "diet": {
@@ -138,7 +143,7 @@
     "reefSafe": "yes",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -149,7 +154,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": true,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

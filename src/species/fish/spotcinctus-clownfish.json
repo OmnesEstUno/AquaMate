@@ -35,7 +35,11 @@
       "British Indian Ocean Territory"
     ],
     "habitat": "Coral reefs and lagoons at 1–30 m depth, typically associated with host sea anemones on outer reefs and reef slopes.",
-    "biotope": "Tropical Red Sea / Gulf of Aden coral reef with host anemone (Entacmaea quadricolor, Heteractis crispa, Heteractis magnifica)."
+    "biotope": "Tropical Red Sea / Gulf of Aden coral reef with host anemone (Entacmaea quadricolor, Heteractis crispa, Heteractis magnifica).",
+    "depthRangeM": {
+      "min": 1,
+      "max": 30
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -73,7 +77,8 @@
       "caves and overhangs",
       "host anemone (optional but appreciated)",
       "open swimming space near anemone"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -155,7 +160,7 @@
     "reefSafe": "yes",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": false,
+    "sexChange": "protandrous",
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -166,7 +171,12 @@
     "monogamousPairing": true,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

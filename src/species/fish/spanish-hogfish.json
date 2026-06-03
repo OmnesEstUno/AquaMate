@@ -38,7 +38,11 @@
       "Brazil"
     ],
     "habitat": "Rocky and coral reefs, typically at 3–70 m depth; juveniles often shelter in branching corals while adults patrol open reef structure and forage over sand and rubble.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 3,
+      "max": 70
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -74,7 +78,8 @@
       "overhangs",
       "open swimming space",
       "sandy substrate"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -148,7 +153,7 @@
     "reefSafe": "no",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": true,
+    "sexChange": "protandrous",
     "haremic": true,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -159,7 +164,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": true,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

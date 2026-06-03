@@ -44,7 +44,8 @@
       "Thailand"
     ],
     "habitat": "Muddy and sandy bottoms of estuaries, bays, and coastal shallows; occasionally found in seagrass areas. Generally demersal, occurring from the intertidal zone to roughly 73 m depth, most commonly between 9 and 27 m. Adults tend to inhabit muddy estuaries and have been observed partly buried in substrate.",
-    "biotope": "Sand and mud flats in coastal estuaries and bays"
+    "biotope": "Sand and mud flats in coastal estuaries and bays",
+    "depthRangeM": null
   },
   "waterParameters": {
     "temperatureC": {
@@ -81,7 +82,8 @@
       "refugium or live sand bed with abundant meiofauna",
       "low to moderate flow",
       "scattered seagrass or macroalgae for cover"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "expert",
   "diet": {
@@ -153,7 +155,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": false,
+    "sexChange": "none",
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -164,7 +166,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "difficult"
+    "feedingDifficulty": "difficult",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": true,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

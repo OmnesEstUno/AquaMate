@@ -45,7 +45,8 @@
       "French Polynesia (Tuamotu)"
     ],
     "habitat": "Coral reef channels, reef slopes, and rubble bottoms, generally between 3 and 60 m depth, often in small loose groups among brittle corals and coralline algae",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": null
   },
   "waterParameters": {
     "temperatureC": {
@@ -81,7 +82,8 @@
       "crevices",
       "coral rubble",
       "open swimming space"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -156,7 +158,7 @@
     "reefSafe": "with caution",
     "escapeRisk": null,
     "venomousSpines": null,
-    "protogynous": true,
+    "sexChange": "bidirectional",
     "haremic": true,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -167,7 +169,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": true,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

@@ -6,32 +6,75 @@
   "waterType": "saltwater",
   "commonName": "Two Spot Hawkfish",
   "scientificName": "Amblycirrhitus bimacula",
-  "alsoKnownAs": ["Twospot Hawkfish", "Two-Spot Hawkfish"],
+  "alsoKnownAs": [
+    "Twospot Hawkfish",
+    "Two-Spot Hawkfish"
+  ],
   "category": "Hawkfish",
   "taxonomy": {
     "family": "Cirrhitidae",
     "order": "Centrarchiformes"
   },
   "nativeRange": {
-    "regions": ["Indo-Pacific", "East Africa", "Hawaii", "Micronesia"],
-    "countries": ["Kenya", "Tanzania", "Mozambique", "Japan", "Taiwan", "United States (Hawaii)", "Marshall Islands", "French Polynesia"],
+    "regions": [
+      "Indo-Pacific",
+      "East Africa",
+      "Hawaii",
+      "Micronesia"
+    ],
+    "countries": [
+      "Kenya",
+      "Tanzania",
+      "Mozambique",
+      "Japan",
+      "Taiwan",
+      "United States (Hawaii)",
+      "Marshall Islands",
+      "French Polynesia"
+    ],
     "habitat": "Reef-associated; found in or near interstices of rock, coral, or rubble, typically at depths of 2–15 m in areas exposed to moderate surge or currents",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 2,
+      "max": 15
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 23.5, "max": 27.5 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 23.5,
+      "max": 27.5
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8.0, "max": 12.0 },
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 7.0, "max": 8.5 },
+  "adultSizeCm": {
+    "min": 7,
+    "max": 8.5
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 120,
     "minLengthCm": null,
     "swimZone": "bottom",
-    "decorPreferences": ["live rock", "rubble zones", "caves", "crevices", "overhangs"]
+    "decorPreferences": [
+      "live rock",
+      "rubble zones",
+      "caves",
+      "crevices",
+      "overhangs"
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
@@ -42,8 +85,19 @@
     "temperament": "semi-aggressive",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["peaceful large fish", "non-small invertebrate corals", "larger gobies", "tangs", "angelfish"],
-    "avoidWith": ["small ornamental shrimp", "small fish that fit in mouth", "larger aggressive hawkfish species", "aggressive triggers"]
+    "goodWith": [
+      "peaceful large fish",
+      "non-small invertebrate corals",
+      "larger gobies",
+      "tangs",
+      "angelfish"
+    ],
+    "avoidWith": [
+      "small ornamental shrimp",
+      "small fish that fit in mouth",
+      "larger aggressive hawkfish species",
+      "aggressive triggers"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -77,7 +131,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -88,7 +142,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

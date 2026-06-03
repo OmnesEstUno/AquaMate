@@ -26,7 +26,11 @@
       "Solomon Islands"
     ],
     "habitat": "Sand and rubble patches on steep seaward reef slopes; typically found at depths of 35–70 m (recorded range 30–85 m). Adults generally occur in pairs rather than aggregations.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 35,
+      "max": 70
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -62,7 +66,8 @@
       "tight-fitting lid or canopy",
       "open swimming space",
       "live rock with rubble piles at the base"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "advanced",
   "diet": {
@@ -138,7 +143,7 @@
     "reefSafe": "yes",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -149,7 +154,12 @@
     "monogamousPairing": true,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": true,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

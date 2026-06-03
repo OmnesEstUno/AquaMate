@@ -6,32 +6,67 @@
   "waterType": "saltwater",
   "commonName": "Caribbean Redspotted Hawkfish",
   "scientificName": "Amblycirrhitus pinos",
-  "alsoKnownAs": ["Redspotted Hawkfish", "Red-spotted Hawkfish"],
+  "alsoKnownAs": [
+    "Redspotted Hawkfish",
+    "Red-spotted Hawkfish"
+  ],
   "category": "Hawkfish",
   "taxonomy": {
     "family": "Cirrhitidae",
     "order": "Centrarchiformes"
   },
   "nativeRange": {
-    "regions": ["Caribbean", "Western Atlantic"],
-    "countries": ["United States", "Bahamas", "Brazil"],
+    "regions": [
+      "Caribbean",
+      "Western Atlantic"
+    ],
+    "countries": [
+      "United States",
+      "Bahamas",
+      "Brazil"
+    ],
     "habitat": "Rocky reef areas and rubble zones; tends to rest in crevices and shallow caves at depths of 2–46 m",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 2,
+      "max": 46
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 23.0, "max": 27.0 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 23,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8.0, "max": 12.0 },
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 7.0, "max": 9.5 },
+  "adultSizeCm": {
+    "min": 7,
+    "max": 9.5
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 120,
     "minLengthCm": null,
     "swimZone": "bottom",
-    "decorPreferences": ["live rock", "caves", "crevices", "rubble zones"]
+    "decorPreferences": [
+      "live rock",
+      "caves",
+      "crevices",
+      "rubble zones"
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
@@ -42,8 +77,16 @@
     "temperament": "semi-aggressive",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["larger peaceful reef fish", "corals (with monitoring)", "non-shrimp inverts"],
-    "avoidWith": ["small ornamental shrimp", "small fish that fit in mouth", "larger aggressive hawkfish of other species"]
+    "goodWith": [
+      "larger peaceful reef fish",
+      "corals (with monitoring)",
+      "non-shrimp inverts"
+    ],
+    "avoidWith": [
+      "small ornamental shrimp",
+      "small fish that fit in mouth",
+      "larger aggressive hawkfish of other species"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -77,7 +120,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": "protogynous",
     "haremic": null,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -88,7 +131,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

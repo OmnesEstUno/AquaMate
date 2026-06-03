@@ -6,32 +6,66 @@
   "waterType": "saltwater",
   "commonName": "Neon Goby",
   "scientificName": "Elacatinus oceanops",
-  "alsoKnownAs": ["Neon Blue Goby"],
+  "alsoKnownAs": [
+    "Neon Blue Goby"
+  ],
   "category": "Goby",
   "taxonomy": {
     "family": "Gobiidae",
     "order": "Gobiiformes"
   },
   "nativeRange": {
-    "regions": ["Western Central Atlantic", "Caribbean"],
-    "countries": ["United States", "Mexico", "Belize"],
+    "regions": [
+      "Western Central Atlantic",
+      "Caribbean"
+    ],
+    "countries": [
+      "United States",
+      "Mexico",
+      "Belize"
+    ],
     "habitat": "Marine reef-associated; coral heads on shallow tropical reefs.",
-    "biotope": "Tropical western Atlantic coral reefs, typically at 1-40 m depth."
+    "biotope": "Tropical western Atlantic coral reefs, typically at 1-40 m depth.",
+    "depthRangeM": {
+      "min": 1,
+      "max": 40
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 27 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 22,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
     "kH": null,
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 4, "max": 5 },
-  "lifespanYears": { "min": 1, "max": 2 },
+  "adultSizeCm": {
+    "min": 4,
+    "max": 5
+  },
+  "lifespanYears": {
+    "min": 1,
+    "max": 2
+  },
   "tank": {
     "minVolumeLiters": 75,
     "minLengthCm": 60,
     "swimZone": "all",
-    "decorPreferences": ["live rock", "coral heads", "crevices", "small caves"]
+    "decorPreferences": [
+      "live rock",
+      "coral heads",
+      "crevices",
+      "small caves"
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
@@ -42,8 +76,20 @@
     "temperament": "peaceful",
     "grouping": "pair",
     "minGroupSize": 1,
-    "goodWith": ["peaceful reef fish", "dwarf angels", "small wrasses", "clownfish", "corals", "ornamental shrimp"],
-    "avoidWith": ["conspecifics other than a mated pair", "large predatory fish", "aggressive dottybacks", "lionfish"]
+    "goodWith": [
+      "peaceful reef fish",
+      "dwarf angels",
+      "small wrasses",
+      "clownfish",
+      "corals",
+      "ornamental shrimp"
+    ],
+    "avoidWith": [
+      "conspecifics other than a mated pair",
+      "large predatory fish",
+      "aggressive dottybacks",
+      "lionfish"
+    ]
   },
   "media": {
     "primaryImage": "neon_goby.jpg",
@@ -77,7 +123,7 @@
     "reefSafe": "yes",
     "escapeRisk": "moderate",
     "venomousSpines": false,
-    "protogynous": false,
+    "sexChange": "none",
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -88,7 +134,12 @@
     "monogamousPairing": true,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": true,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

@@ -31,7 +31,11 @@
       "Australia"
     ],
     "habitat": "Coastal lagoons, bays, reef passes, and outer reef slopes over hard substrate with rubble and sand patches, typically 5–15 m (recorded down to 80 m); adults occupy burrows in the sand and feed on current-borne zooplankton up to a few metres above the substrate",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 5,
+      "max": 15
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -67,7 +71,8 @@
       "live rock with crevices for shelter",
       "tight-fitting lid required",
       "open swimming space above the substrate"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
@@ -138,7 +143,7 @@
     "reefSafe": "yes",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -149,7 +154,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": true,
+    "mouthbrooder": null,
+    "constantGrazer": true,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

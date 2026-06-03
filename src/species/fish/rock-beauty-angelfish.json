@@ -38,7 +38,8 @@
       "Brazil"
     ],
     "habitat": "Has been documented inhabiting rock jetties, rocky reefs, and coral-rich areas across the tropical western Atlantic, generally between roughly 3 and 35 m depth (occasionally recorded as deep as ~90 m). Juveniles tend to associate with fire corals and shelter in crevices.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": null
   },
   "waterParameters": {
     "temperatureC": {
@@ -74,7 +75,8 @@
       "large rock crevices",
       "open swimming space",
       "mature reef system"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "expert",
   "diet": {
@@ -141,7 +143,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": true,
+    "sexChange": "protogynous",
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -152,7 +154,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": true,
     "toxicToTank": null,
-    "feedingDifficulty": "difficult"
+    "feedingDifficulty": "difficult",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

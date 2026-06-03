@@ -36,11 +36,12 @@
       "United States (Hawaii)"
     ],
     "habitat": "Clear-water lagoon patch reefs and seaward reefs; typically found from the lower surge zone to approximately 45 m depth. Has been observed sheltering among sea grass, long-spined urchins, and rocky crevices during the day, emerging at night to forage.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": null
   },
   "waterParameters": {
     "temperatureC": {
-      "min": 23.0,
+      "min": 23,
       "max": 27.3
     },
     "pH": {
@@ -58,7 +59,7 @@
     }
   },
   "adultSizeCm": {
-    "min": 10.0,
+    "min": 10,
     "max": 15.5
   },
   "lifespanYears": null,
@@ -73,7 +74,8 @@
       "rocky overhangs",
       "sea grass",
       "long-spined urchins (natural shelter)"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
@@ -139,7 +141,7 @@
     "reefSafe": "yes",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": true,
@@ -150,7 +152,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "moderate"
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": true,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

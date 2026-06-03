@@ -36,7 +36,11 @@
       "Fiji"
     ],
     "habitat": "Coral reef environments, above coral outcrops or patch reefs of clear lagoons, channels, or outer reef slopes; depths of 0–55 m",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 0,
+      "max": 55
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -74,7 +78,8 @@
       "open swimming space",
       "moderate to strong flow",
       "subdued lighting"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -149,7 +154,7 @@
     "reefSafe": "yes",
     "escapeRisk": "moderate",
     "venomousSpines": null,
-    "protogynous": true,
+    "sexChange": "protogynous",
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -160,7 +165,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": true,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

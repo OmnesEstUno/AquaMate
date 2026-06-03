@@ -45,7 +45,11 @@
       "Ecuador"
     ],
     "habitat": "Reef-associated species documented on coral and rocky reef flats, protected shorelines, seaward reefs, and along drop-offs at depths of roughly 0–150 m. Has been reported as a benthic, solitary animal that typically rests with the head protruding from a crevice in the reef structure.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 0,
+      "max": 150
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -82,7 +86,8 @@
       "sand substrate",
       "long footprint over depth — at least ~240 cm length is generally advised for adult housing",
       "PVC tubes or artificial caves may be used to supplement live rock if needed for hide structure"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "expert",
   "diet": {
@@ -151,7 +156,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": false,
     "nocturnal": true,
@@ -162,7 +167,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

@@ -6,32 +6,60 @@
   "waterType": "saltwater",
   "commonName": "Black Cap Jawfish",
   "scientificName": "Opistognathus randalli",
-  "alsoKnownAs": ["Gold-specs Jawfish", "Moustache Jawfish", "Bali Black Cap Jawfish"],
+  "alsoKnownAs": [
+    "Gold-specs Jawfish",
+    "Moustache Jawfish",
+    "Bali Black Cap Jawfish"
+  ],
   "category": "Jawfish",
-
   "taxonomy": {
     "family": "Opistognathidae",
     "order": "Ovalentaria"
   },
-
   "nativeRange": {
-    "regions": ["Western Pacific", "Indo-Pacific"],
-    "countries": ["Indonesia", "Philippines", "Malaysia"],
+    "regions": [
+      "Western Pacific",
+      "Indo-Pacific"
+    ],
+    "countries": [
+      "Indonesia",
+      "Philippines",
+      "Malaysia"
+    ],
     "habitat": "Sand and rubble bottoms adjacent to coral reefs, typically at 5–32 m depth",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 5,
+      "max": 32
+    }
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 27 },
-    "pH":           { "min": 8.1, "max": 8.4 },
-    "gH":           null,
-    "kH":           { "min": 8, "max": 12 },
-    "salinity":     { "min": 1.020, "max": 1.025 }
+    "temperatureC": {
+      "min": 22,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-
-  "adultSizeCm":   { "min": 3, "max": 11 },
-  "lifespanYears": { "min": 5, "max": 8 },
-
+  "adultSizeCm": {
+    "min": 3,
+    "max": 11
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 8
+  },
   "tank": {
     "minVolumeLiters": 120,
     "minLengthCm": 75,
@@ -41,16 +69,14 @@
       "flat shell and rubble pieces for burrow lining",
       "rockwork placed on tank floor glass (not on sand) to prevent burrow collapse",
       "tight-fitting lid essential"
-    ]
+    ],
+    "minSandDepthCm": 8
   },
-
   "careLevel": "intermediate",
-
   "diet": {
     "type": "carnivore",
     "notes": "Generally advised to offer a variety of meaty frozen foods: mysis shrimp, marine flesh, brine shrimp, copepods, and small crustacean flesh. Multiple small feedings per day (2–3 times) have been reported to produce better results than single large meals; food is best directed near the burrow entrance, especially during the acclimation period."
   },
-
   "compatibility": {
     "temperament": "peaceful",
     "grouping": "solitary",
@@ -71,19 +97,14 @@
       "sand-digging species that disturb burrow territory"
     ]
   },
-
   "media": {
     "primaryImage": null,
     "gallery": [],
     "imageCandidates": null
   },
-
   "summary": "A peaceful, burrowing jawfish from the Western Pacific, generally considered reef-safe and suitable for sandy-substrate reef aquariums. Known for its black head cap, golden irises, and lively burrow-dwelling personality; tends to be territorial toward conspecific males.",
-
   "careNotes": "The Black Cap Jawfish (Opistognathus randalli) is a compact, charismatic jawfish native to sandy and rubble-bottom habitats in Indonesia, the Philippines, and eastern Borneo, generally found at 5–32 m depth.\n\nSubstrate is the single most important husbandry requirement: a deep sand bed of at least 8 cm blended with fine rubble, crushed coral, and small shell fragments is widely recommended, as the fish actively excavates and lines a burrow it uses as shelter and a retreat. Rocks and live rock should rest on the tank's glass bottom rather than on the sand, since the fish will undermine sand-supported structures through burrowing.\n\nEscape risk: the species is widely reported as a determined jumper, especially when startled or first introduced. A tight-fitting, weighted lid is considered essential.\n\nTemperament: peaceful toward most other fish species, but males have been documented engaging in jaw-locking combat with rival males to defend or seize burrow territories (FishBase, 2009). Two males in the same tank are generally inadvisable without a very large footprint and visually-separated territories.\n\nFeeding: tends to take prepared and frozen foods (mysis, marine flesh, brine shrimp, copepods) once settled, but newly introduced specimens have been known to remain in the burrow for extended periods and need food directed close to the burrow entrance. Feeding 2–3 times daily in small amounts has been reported to work better than single large meals.\n\nTemperature cross-source disagreement: LiveAquaria and several hobby retailers report an aquarium range of 72–78°F (22–26°C), while FishBase records a wild-occurrence temperature of 28.4–29.3°C for this species' native habitat in Indonesia. TankFacts reports 76–80°F (24–27°C). The 22–27°C range used here averages the hobby sources and partially overlaps the FishBase wild data; keeping toward the upper end of this range (25–27°C) may more closely reflect the fish's natural thermal environment.\n\nThe species is sometimes sold under the trade name 'Gold-specs Jawfish' (reflecting the golden iris) or 'Moustache Jawfish' (reflecting the black marking on the inner upper jaw). Specimens from Bali/Indonesia are occasionally listed as 'Bali Black Cap Jawfish'.\n\nBreeding has been documented in captivity; males are paternal mouthbrooders, incubating a sticky egg mass in the buccal cavity. The species is generally considered fully reef-safe; the main exception is small ornamental shrimp (under ~2 cm), which may be eaten.",
-
   "breedingNotes": "Breeding has been reported in captivity. The male is a paternal mouthbrooder — after spawning, the egg mass is held in the buccal cavity until the larvae hatch. Detailed captive-breeding protocols are not widely documented in hobby sources; the species is generally considered captive-spawn-capable under stable reef conditions with a mated pair.",
-
   "sources": {
     "primary": {
       "name": "LiveAquaria",
@@ -118,7 +139,6 @@
       }
     ]
   },
-
   "fish": {
     "breedingDifficulty": "moderate",
     "breedingNotes": "Paternal mouthbrooder; breeding reported in captivity under stable reef conditions with a mated pair.",
@@ -127,7 +147,7 @@
     "reefSafe": "yes",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -138,9 +158,13 @@
     "monogamousPairing": false,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "moderate"
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": true,
+    "constantGrazer": true,
+    "cleanerFish": null,
+    "euryhaline": null
   },
-
   "crustacean": null,
   "coral": null,
   "mollusc": null,
@@ -148,7 +172,6 @@
   "other-invert": null,
   "plant": null,
   "macroalgae": null,
-
   "schemaVersion": 1,
   "dataStatus": "researched",
   "lastReviewed": "2026-06-03"

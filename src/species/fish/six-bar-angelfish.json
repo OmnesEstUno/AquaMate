@@ -35,7 +35,8 @@
       "New Caledonia"
     ],
     "habitat": "Coral-rich lagoons and outer reef slopes between approximately 3 and 60 m, often in areas of high reef relief; juveniles tend to favour more sheltered inner reefs.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": null
   },
   "waterParameters": {
     "temperatureC": {
@@ -73,7 +74,8 @@
       "extensive rockwork",
       "deep caves",
       "open swimming space"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "advanced",
   "diet": {
@@ -139,7 +141,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": true,
+    "sexChange": "protandrous",
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -150,7 +152,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": true,
     "toxicToTank": false,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": true,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

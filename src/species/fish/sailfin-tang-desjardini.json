@@ -41,7 +41,11 @@
       "Indonesia"
     ],
     "habitat": "Lagoon and seaward reefs at depths of roughly 3-30 m; juveniles tend to shelter among staghorn corals in inner reef areas.",
-    "biotope": "Indo-Pacific coral reef"
+    "biotope": "Indo-Pacific coral reef",
+    "depthRangeM": {
+      "min": 3,
+      "max": 30
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -78,7 +82,8 @@
       "live rock with caves and overhangs",
       "open swimming space",
       "established algae growth"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -147,7 +152,7 @@
     "reefSafe": "yes",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": false,
     "caudalScalpel": true,
     "nocturnal": false,
@@ -158,7 +163,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": true,
     "toxicToTank": false,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

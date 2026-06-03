@@ -6,66 +6,107 @@
   "waterType": "saltwater",
   "commonName": "Vanderbilt Chromis",
   "scientificName": "Chromis vanderbilti",
-  "alsoKnownAs": ["Vanderbilt's Chromis", "Pycnochromis vanderbilti"],
+  "alsoKnownAs": [
+    "Vanderbilt's Chromis",
+    "Pycnochromis vanderbilti"
+  ],
   "category": "Damselfish",
-
   "taxonomy": {
     "family": "Pomacentridae",
     "order": "Perciformes"
   },
-
   "nativeRange": {
-    "regions": ["Central Pacific", "Western Pacific", "Eastern Indian Ocean"],
-    "countries": ["Tonga", "Fiji", "Cook Islands", "Hawaii (USA)", "Japan", "Taiwan", "Australia"],
+    "regions": [
+      "Central Pacific",
+      "Western Pacific",
+      "Eastern Indian Ocean"
+    ],
+    "countries": [
+      "Tonga",
+      "Fiji",
+      "Cook Islands",
+      "Hawaii (USA)",
+      "Japan",
+      "Taiwan",
+      "Australia"
+    ],
     "habitat": "Outer reef slopes and rocky inshore reefs; typically found at depths of 0–20 m in exposed, high-current areas",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 0,
+      "max": 20
+    }
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 22.2, "max": 27.2 },
-    "pH":           { "min": 8.1,  "max": 8.4  },
-    "gH":           null,
-    "kH":           { "min": 8.0,  "max": 12.0 },
-    "salinity":     { "min": 1.021, "max": 1.025 }
+    "temperatureC": {
+      "min": 22.2,
+      "max": 27.2
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.021,
+      "max": 1.025
+    }
   },
-
-  "adultSizeCm": { "min": 5.0, "max": 7.6 },
-  "lifespanYears": { "min": 8, "max": 15 },
-
+  "adultSizeCm": {
+    "min": 5,
+    "max": 7.6
+  },
+  "lifespanYears": {
+    "min": 8,
+    "max": 15
+  },
   "tank": {
     "minVolumeLiters": 120,
     "minLengthCm": 90,
     "swimZone": "mid",
-    "decorPreferences": ["live rock", "open swimming space", "moderate to high flow"]
+    "decorPreferences": [
+      "live rock",
+      "open swimming space",
+      "moderate to high flow"
+    ],
+    "minSandDepthCm": null
   },
-
   "careLevel": "beginner",
-
   "diet": {
     "type": "omnivore",
     "notes": "Primarily a zooplankton feeder in the wild (copepods and small crustaceans). In captivity tends to accept a wide variety of foods including frozen mysis shrimp, brine shrimp, cyclop-eeze, chopped krill, and vitamin-enriched flakes or pellets. Feeding once or twice daily is generally advised."
   },
-
   "compatibility": {
     "temperament": "peaceful",
     "grouping": "schooling",
     "minGroupSize": 3,
-    "goodWith": ["other peaceful reef fish", "corals", "invertebrates", "clownfish", "gobies", "cardinalfish", "smaller wrasses"],
-    "avoidWith": ["large aggressive fish", "highly territorial damsels", "predatory species large enough to swallow them"]
+    "goodWith": [
+      "other peaceful reef fish",
+      "corals",
+      "invertebrates",
+      "clownfish",
+      "gobies",
+      "cardinalfish",
+      "smaller wrasses"
+    ],
+    "avoidWith": [
+      "large aggressive fish",
+      "highly territorial damsels",
+      "predatory species large enough to swallow them"
+    ]
   },
-
   "media": {
     "primaryImage": null,
     "gallery": [],
     "imageCandidates": null
   },
-
   "summary": "A small, hardy, and strikingly coloured Pacific reef damselfish with alternating blue and yellow stripes. Generally considered reef-safe, peaceful, and well-suited to beginners when kept in groups of three or more.",
-
   "careNotes": "Vanderbilt Chromis tend to thrive in groups of three or more, where they form loose aggregations and display more natural behavior. Keeping a single specimen has been reported to lead to stress and subdued coloration. They generally fare well in reef aquariums and have not been known to nip at corals or disturb invertebrates. Vitamin-enriched foods are advised to help maintain their vivid blue-and-yellow striping. FishBase currently places this species under the revised genus Pycnochromis (as P. vanderbilti), but the aquarium trade and most hobby sources continue to use Chromis vanderbilti. Conspecific aggression has been reported when group sizes are too small (e.g., two individuals), so groups of five or more in larger systems tend to distribute dominance-related interactions more evenly. Water quality should be maintained consistently, as with all reef inhabitants — regular water changes and stable parameters are generally advisable.",
-
   "breedingNotes": "Reported to be oviparous with distinct pairing during breeding. Males have been documented guarding and aerating demersal egg clutches adhered to substrate. Captive breeding is uncommon in the hobby but has been reported. No widely documented captive breeding protocol is available.",
-
   "sources": {
     "primary": {
       "name": "LiveAquaria",
@@ -88,7 +129,6 @@
       }
     ]
   },
-
   "fish": {
     "breedingDifficulty": "difficult",
     "breedingNotes": "Reported to be oviparous with distinct pairing during breeding. Males have been documented guarding demersal egg clutches. Captive breeding is uncommon and no established protocol exists in the hobby.",
@@ -97,7 +137,7 @@
     "reefSafe": "yes",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -108,9 +148,13 @@
     "monogamousPairing": false,
     "hlleSusceptible": null,
     "toxicToTank": false,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
-
   "crustacean": null,
   "coral": null,
   "mollusc": null,
@@ -118,7 +162,6 @@
   "other-invert": null,
   "plant": null,
   "macroalgae": null,
-
   "schemaVersion": 1,
   "dataStatus": "researched",
   "lastReviewed": "2026-06-03"

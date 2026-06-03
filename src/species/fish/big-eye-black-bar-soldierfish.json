@@ -18,7 +18,11 @@
     "order": "Holocentriformes"
   },
   "nativeRange": {
-    "regions": ["Western Atlantic", "Eastern Atlantic", "Caribbean"],
+    "regions": [
+      "Western Atlantic",
+      "Eastern Atlantic",
+      "Caribbean"
+    ],
     "countries": [
       "United States",
       "Mexico",
@@ -30,36 +34,56 @@
       "Cape Verde"
     ],
     "habitat": "Coral and rocky reefs; sheltering in caves, ledges, and overhangs during the day and emerging to feed in open water at night.",
-    "biotope": "Tropical to subtropical Atlantic reef, typically 2–35 m depth"
+    "biotope": "Tropical to subtropical Atlantic reef, typically 2–35 m depth",
+    "depthRangeM": {
+      "min": 2,
+      "max": 35
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 26 },
-    "pH":           { "min": 8.1, "max": 8.4 },
-    "gH":           null,
-    "kH":           { "min": 8, "max": 12 },
-    "salinity":     { "min": 1.020, "max": 1.026 }
+    "temperatureC": {
+      "min": 22,
+      "max": 26
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.026
+    }
   },
-  "adultSizeCm":   { "min": 18, "max": 25 },
+  "adultSizeCm": {
+    "min": 18,
+    "max": 25
+  },
   "lifespanYears": null,
   "tank": {
-    "minVolumeLiters":  500,
-    "minLengthCm":      150,
-    "swimZone":         "mid",
+    "minVolumeLiters": 500,
+    "minLengthCm": 150,
+    "swimZone": "mid",
     "decorPreferences": [
       "live rock with caves and overhangs",
       "dim lighting or shaded refuges",
       "open mid-water swimming space",
       "tightly fitting lid"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
-    "type":  "carnivore",
+    "type": "carnivore",
     "notes": "Generally advised to feed a varied meaty diet — mysis, enriched brine, chopped marine shrimp/fish, and frozen carnivore preparations — once or twice daily. Has been reported to feed mainly on planktonic crustaceans in the wild. New arrivals often need live saltwater feeder shrimp to break onto prepared foods; feeding shortly after lights-out tends to elicit a stronger response."
   },
   "compatibility": {
-    "temperament":  "semi-aggressive",
-    "grouping":     "shoaling",
+    "temperament": "semi-aggressive",
+    "grouping": "shoaling",
     "minGroupSize": 1,
     "goodWith": [
       "larger peaceful community fish",
@@ -76,8 +100,8 @@
     ]
   },
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
+    "primaryImage": null,
+    "gallery": [],
     "imageCandidates": null
   },
   "summary": "Hardy nocturnal reef predator with oversized eyes and a distinctive dark bar behind the gill cover. Generally peaceful toward similar-sized tankmates but tends to eat small fish and shrimp.",
@@ -86,60 +110,65 @@
   "sources": {
     "primary": {
       "name": "LiveAquaria",
-      "url":  "https://www.liveaquaria.com/products/big-eye-black-bar-soldierfish",
+      "url": "https://www.liveaquaria.com/products/big-eye-black-bar-soldierfish",
       "accessedDate": "2026-06-02",
       "notes": "Primary source URL provided as a category page; resolved to the species product page for care-sheet data."
     },
     "additional": [
       {
         "name": "tankfacts.com",
-        "url":  "https://www.tankfacts.com/fish/saltwater/squirrelfish/big-eye-black-bar-soldierfish_65",
+        "url": "https://www.tankfacts.com/fish/saltwater/squirrelfish/big-eye-black-bar-soldierfish_65",
         "accessedDate": "2026-06-02",
         "notes": "Confirmed water-chemistry ranges (temperature, pH, SG, dKH, calcium, magnesium); husbandry prose was minimal."
       },
       {
         "name": "FishBase",
-        "url":  "https://www.fishbase.se/summary/Myripristis-jacobus.html",
+        "url": "https://www.fishbase.se/summary/Myripristis-jacobus.html",
         "accessedDate": "2026-06-02",
         "notes": "Taxonomy (Holocentridae, Holocentriformes), max length (25 cm TL), depth range (2–35 m typical), native range (Western and Eastern Atlantic), nocturnal/planktivorous wild diet."
       },
       {
         "name": "Reefapp encyclopedia",
-        "url":  "https://reefapp.net/en/encyclopedia/myripristis-jacobus",
+        "url": "https://reefapp.net/en/encyclopedia/myripristis-jacobus",
         "accessedDate": "2026-06-02",
         "notes": "Cross-checked tank-size (600 L recommended), predation risk to small fish/crustaceans, and net-handling warning. Tank-size spread: LiveAquaria 380 L vs Reefapp 600 L — biased larger and rounded to 500 L per playbook rule for an active nocturnal predator reaching ~25 cm."
       }
     ]
   },
   "fish": {
-    "breedingDifficulty":         "not in captivity",
-    "breedingNotes":              "Pelagic spawner with planktonic larvae; no documented home-aquarium breeding success.",
-    "conspecificAggression":      "moderate",
-    "finNippy":                   false,
-    "reefSafe":                   "with caution",
-    "escapeRisk":                 "moderate",
-    "venomousSpines":             null,
-    "protogynous":                null,
-    "haremic":                    null,
-    "caudalScalpel":              null,
-    "nocturnal":                  true,
-    "juvenileColorPhase":         null,
-    "copperSensitive":            null,
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "Pelagic spawner with planktonic larvae; no documented home-aquarium breeding success.",
+    "conspecificAggression": "moderate",
+    "finNippy": false,
+    "reefSafe": "with caution",
+    "escapeRisk": "moderate",
+    "venomousSpines": null,
+    "sexChange": null,
+    "haremic": null,
+    "caudalScalpel": null,
+    "nocturnal": true,
+    "juvenileColorPhase": null,
+    "copperSensitive": null,
     "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost":       null,
-    "monogamousPairing":          null,
-    "hlleSusceptible":            null,
-    "toxicToTank":                null,
-    "feedingDifficulty":          "moderate"
+    "requiresHitchingPost": null,
+    "monogamousPairing": null,
+    "hlleSusceptible": null,
+    "toxicToTank": null,
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
-  "crustacean":   null,
-  "coral":        null,
-  "mollusc":      null,
-  "echinoderm":   null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
   "other-invert": null,
-  "plant":        null,
-  "macroalgae":   null,
+  "plant": null,
+  "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus":    "researched",
-  "lastReviewed":  "2026-06-02"
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-02"
 }

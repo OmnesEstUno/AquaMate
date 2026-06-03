@@ -36,7 +36,11 @@
       "Israel"
     ],
     "habitat": "Typically inhabits deep coastal slopes and sheltered muddy or sandy substrates, usually at depths of 37–110 m; occasionally found shallower near seagrass beds with silty rubble. Has established itself in the southeastern Mediterranean via the Suez Canal.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 37,
+      "max": 110
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -71,7 +75,8 @@
       "low water flow",
       "live rock with hiding spots",
       "sand substrate"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "advanced",
   "diet": {
@@ -145,7 +150,7 @@
     "reefSafe": "no",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -156,7 +161,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": null,
     "toxicToTank": true,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

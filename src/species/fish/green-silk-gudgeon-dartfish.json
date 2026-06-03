@@ -34,7 +34,11 @@
       "French Polynesia"
     ],
     "habitat": "Lagoon and seaward reefs over rubble and sand bottoms, from shallow silty estuaries and inlets out to outer reef slopes; typically 1–10 m depth (recorded down to about 50 m). Adults occupy burrows (which they do not generally excavate themselves) and hover just above the substrate feeding on current-borne zooplankton, usually in monogamous pairs or small groups.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 1,
+      "max": 10
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -70,7 +74,8 @@
       "live rock with small caves and overhangs",
       "tight-fitting lid required",
       "open swimming space above the substrate"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
@@ -142,7 +147,7 @@
     "reefSafe": "yes",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -153,7 +158,12 @@
     "monogamousPairing": true,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": true,
+    "mouthbrooder": null,
+    "constantGrazer": true,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

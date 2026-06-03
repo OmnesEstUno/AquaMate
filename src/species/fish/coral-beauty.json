@@ -6,32 +6,66 @@
   "waterType": "saltwater",
   "commonName": "Coral Beauty Angelfish",
   "scientificName": "Centropyge bispinosa",
-  "alsoKnownAs": ["Coral Beauty", "Twospined Angelfish", "Dusky Angelfish"],
+  "alsoKnownAs": [
+    "Coral Beauty",
+    "Twospined Angelfish",
+    "Dusky Angelfish"
+  ],
   "category": "Angelfish",
   "taxonomy": {
     "family": "Pomacanthidae",
     "order": "Acanthuriformes"
   },
   "nativeRange": {
-    "regions": ["Indo-Pacific"],
+    "regions": [
+      "Indo-Pacific"
+    ],
     "countries": [],
     "habitat": "Lagoon and seaward reef slopes with rich coral growth, typically at depths of 0-60 m.",
-    "biotope": "Reef-associated, non-migratory; East Africa to the Tuamotu Islands, north to the Izu Islands, south to Lord Howe Island. Absent from the Red Sea, Hawaii, and the southern Pacific."
+    "biotope": "Reef-associated, non-migratory; East Africa to the Tuamotu Islands, north to the Izu Islands, south to Lord Howe Island. Absent from the Red Sea, Hawaii, and the southern Pacific.",
+    "depthRangeM": {
+      "min": 0,
+      "max": 60
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 28 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 23,
+      "max": 28
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.023, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.023,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 8, "max": 11.5 },
-  "lifespanYears": { "min": 7, "max": 12 },
+  "adultSizeCm": {
+    "min": 8,
+    "max": 11.5
+  },
+  "lifespanYears": {
+    "min": 7,
+    "max": 12
+  },
   "tank": {
     "minVolumeLiters": 300,
     "minLengthCm": 120,
     "swimZone": "all",
-    "decorPreferences": ["live rock", "rockwork with caves and overhangs", "hiding places", "established aquascape with algae growth"]
+    "decorPreferences": [
+      "live rock",
+      "rockwork with caves and overhangs",
+      "hiding places",
+      "established aquascape with algae growth"
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
@@ -42,8 +76,19 @@
     "temperament": "semi-aggressive",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["clownfish", "tangs", "wrasses", "gobies", "blennies", "most peaceful community reef fish"],
-    "avoidWith": ["other dwarf angelfishes in small tanks", "conspecifics in tanks under ~900 L", "very timid slow feeders"]
+    "goodWith": [
+      "clownfish",
+      "tangs",
+      "wrasses",
+      "gobies",
+      "blennies",
+      "most peaceful community reef fish"
+    ],
+    "avoidWith": [
+      "other dwarf angelfishes in small tanks",
+      "conspecifics in tanks under ~900 L",
+      "very timid slow feeders"
+    ]
   },
   "media": {
     "primaryImage": "coral_beauty.jpg",
@@ -82,7 +127,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": true,
+    "sexChange": "protandrous",
     "haremic": true,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -93,7 +138,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": null,
     "toxicToTank": false,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

@@ -39,7 +39,11 @@
       "Pitcairn Islands"
     ],
     "habitat": "Generally found on clear-water outer reef slopes and offshore reefs, typically at depths of about 15–200 m though the species' overall depth range extends from roughly 3 m to over 250 m; reported to favour islands and offshore reefs over continental shelves and is absent from the Persian Gulf and Hawaii.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 15,
+      "max": 200
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -78,7 +82,8 @@
       "rock overhangs",
       "open swimming space",
       "long footprint"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "advanced",
   "diet": {
@@ -156,7 +161,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": true,
+    "sexChange": "protandrous",
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -167,7 +172,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

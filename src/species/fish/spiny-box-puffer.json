@@ -29,7 +29,11 @@
       "Brazil"
     ],
     "habitat": "Generally reported from seagrass beds, coastal lagoons, bays, and shallow reef-associated habitats at depths of around 1–11 m.",
-    "biotope": "Tropical to warm-temperate Western Atlantic; coastal seagrass and reef margins."
+    "biotope": "Tropical to warm-temperate Western Atlantic; coastal seagrass and reef margins.",
+    "depthRangeM": {
+      "min": 1,
+      "max": 11
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -61,7 +65,8 @@
       "live rock",
       "hiding places",
       "sand substrate"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "expert",
   "diet": {
@@ -125,7 +130,7 @@
     "reefSafe": "no",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -136,7 +141,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": true,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

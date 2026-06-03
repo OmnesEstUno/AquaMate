@@ -6,32 +6,72 @@
   "waterType": "saltwater",
   "commonName": "Yellow Coris Wrasse",
   "scientificName": "Halichoeres chrysus",
-  "alsoKnownAs": ["Yellow Wrasse", "Canary Wrasse", "Golden Rainbowfish"],
+  "alsoKnownAs": [
+    "Yellow Wrasse",
+    "Canary Wrasse",
+    "Golden Rainbowfish"
+  ],
   "category": "Wrasse",
   "taxonomy": {
     "family": "Labridae",
     "order": "Eupercaria/misc"
   },
   "nativeRange": {
-    "regions": ["Eastern Indian Ocean", "Western Pacific"],
-    "countries": ["Australia", "Indonesia", "Japan", "Solomon Islands", "Tonga"],
+    "regions": [
+      "Eastern Indian Ocean",
+      "Western Pacific"
+    ],
+    "countries": [
+      "Australia",
+      "Indonesia",
+      "Japan",
+      "Solomon Islands",
+      "Tonga"
+    ],
     "habitat": "Reef edges with sand and rubble zones, typically at 15-60 m depth",
-    "biotope": "Tropical Indo-Pacific reef-edge sand and rubble flats"
+    "biotope": "Tropical Indo-Pacific reef-edge sand and rubble flats",
+    "depthRangeM": {
+      "min": 15,
+      "max": 60
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 27 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 23,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 10, "max": 12 },
-  "lifespanYears": { "min": 5, "max": 10 },
+  "adultSizeCm": {
+    "min": 10,
+    "max": 12
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 10
+  },
   "tank": {
     "minVolumeLiters": 200,
     "minLengthCm": 120,
     "swimZone": "all",
-    "decorPreferences": ["fine sand substrate 5-8 cm deep for burrowing", "live rock with crevices", "tight-fitting lid"]
+    "decorPreferences": [
+      "fine sand substrate 5-8 cm deep for burrowing",
+      "live rock with crevices",
+      "tight-fitting lid"
+    ],
+    "minSandDepthCm": 8
   },
   "careLevel": "intermediate",
   "diet": {
@@ -42,8 +82,21 @@
     "temperament": "peaceful",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["clownfish", "tangs", "dwarf angelfish", "gobies", "cardinalfish", "most peaceful reef community fish"],
-    "avoidWith": ["other Halichoeres wrasses", "conspecifics in smaller tanks", "ornamental shrimp", "feather dusters and fan worms", "small ornamental snails"]
+    "goodWith": [
+      "clownfish",
+      "tangs",
+      "dwarf angelfish",
+      "gobies",
+      "cardinalfish",
+      "most peaceful reef community fish"
+    ],
+    "avoidWith": [
+      "other Halichoeres wrasses",
+      "conspecifics in smaller tanks",
+      "ornamental shrimp",
+      "feather dusters and fan worms",
+      "small ornamental snails"
+    ]
   },
   "media": {
     "primaryImage": "yellow_coris_wrasse.jpg",
@@ -89,7 +142,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": true,
+    "sexChange": "protandrous",
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -100,7 +153,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

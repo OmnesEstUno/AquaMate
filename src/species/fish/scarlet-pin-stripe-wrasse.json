@@ -35,7 +35,8 @@
       "French Polynesia (Tuamotu Islands)"
     ],
     "habitat": "Cryptic species of seaward reef slopes; found among patches of rubble or among branching coral, generally from around 6 m down to at least 40 m. Rare in shallower water.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": null
   },
   "waterParameters": {
     "temperatureC": {
@@ -70,7 +71,8 @@
       "branching coral or rubble piles",
       "fine sand substrate at least 5 cm deep",
       "tight-fitting lid or mesh cover"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -149,7 +151,7 @@
     "reefSafe": "yes",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": true,
+    "sexChange": "protandrous",
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -160,7 +162,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

@@ -6,66 +6,99 @@
   "waterType": "saltwater",
   "commonName": "Assorted Flounder",
   "scientificName": "Bothus lunatus",
-  "alsoKnownAs": ["Plate Fish", "Peacock Flounder", "Lunate Flounder"],
+  "alsoKnownAs": [
+    "Plate Fish",
+    "Peacock Flounder",
+    "Lunate Flounder"
+  ],
   "category": "Miscellaneous Fish",
-
   "taxonomy": {
     "family": "Bothidae",
     "order": "Pleuronectiformes"
   },
-
   "nativeRange": {
-    "regions": ["Western Atlantic", "Eastern Atlantic"],
-    "countries": ["United States", "Bermuda", "Bahamas", "Brazil", "Saint Helena (Ascension Island)"],
+    "regions": [
+      "Western Atlantic",
+      "Eastern Atlantic"
+    ],
+    "countries": [
+      "United States",
+      "Bermuda",
+      "Bahamas",
+      "Brazil",
+      "Saint Helena (Ascension Island)"
+    ],
     "habitat": "Sandy areas near mangroves, seagrass beds, coral or rubble; benthic and reef-associated, typically found at 0–20 m depth",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 0,
+      "max": 20
+    }
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 27 },
-    "pH":           { "min": 8.1, "max": 8.4 },
-    "gH":           null,
-    "kH":           { "min": 8, "max": 12 },
-    "salinity":     { "min": 1.020, "max": 1.025 }
+    "temperatureC": {
+      "min": 24,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-
-  "adultSizeCm":   { "min": 20, "max": 41 },
+  "adultSizeCm": {
+    "min": 20,
+    "max": 41
+  },
   "lifespanYears": null,
-
   "tank": {
-    "minVolumeLiters":  500,
-    "minLengthCm":      150,
-    "swimZone":         "bottom",
-    "decorPreferences": ["fine sand substrate", "open sandy areas", "rock or rubble for cover"]
+    "minVolumeLiters": 500,
+    "minLengthCm": 150,
+    "swimZone": "bottom",
+    "decorPreferences": [
+      "fine sand substrate",
+      "open sandy areas",
+      "rock or rubble for cover"
+    ],
+    "minSandDepthCm": null
   },
-
   "careLevel": "intermediate",
-
   "diet": {
     "type": "carnivore",
     "notes": "Feeds primarily on small fish and crustaceans, and has been documented consuming octopuses in the wild. In captivity, tends to accept chopped marine meats (shrimp, squid, silversides); will generally consume most invertebrates and small fish within reach."
   },
-
   "compatibility": {
-    "temperament":  "semi-aggressive",
-    "grouping":     "solitary",
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith":     ["larger reef fish", "fish too large to be eaten"],
-    "avoidWith":    ["small fish", "small crustaceans", "ornamental shrimp", "nano fish", "slow-moving bottom dwellers"]
+    "goodWith": [
+      "larger reef fish",
+      "fish too large to be eaten"
+    ],
+    "avoidWith": [
+      "small fish",
+      "small crustaceans",
+      "ornamental shrimp",
+      "nano fish",
+      "slow-moving bottom dwellers"
+    ]
   },
-
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
+    "primaryImage": null,
+    "gallery": [],
     "imageCandidates": null
   },
-
   "summary": "A reef-associated flatfish that buries itself partially in sandy substrate to ambush prey. Generally considered suitable for intermediate saltwater keepers; tends to consume small tank inhabitants within reach.",
-
   "careNotes": "Bothus lunatus (Peacock Flounder / Plate Fish) is a laterally compressed flatfish that rests on its side on the aquarium floor, with both eyes migrating to the left side during development. A fine sandy substrate is generally considered essential for this species to engage in natural camouflage behavior and to reduce stress. It has been observed partially burying in sand while ambushing small fish and crustaceans. Care level is listed as 'easy' by some retailers, but the species' predatory nature and large adult size (up to ~46 cm per scientific records) suggest intermediate is a more realistic assessment for long-term care. The 'Assorted Flounder' trade name covers specimens from Western Atlantic populations (Florida, Bermuda, Bahamas to Brazil) and occasionally Eastern Atlantic variants (Ascension Island, Gulf of Guinea). LiveAquaria rates care level as 'easy' while the species' size and feeding requirements in practice align more with intermediate. Reef compatibility is noted as 'with caution' — the fish is not itself a coral predator, but will readily consume small ornamental invertebrates and any fish that fits in its mouth. Temperature disagreement between sources: LiveAquaria lists 72–78°F (22–26°C), while FishBase environmental modeling shows 25–28°C; values have been averaged to 24–27°C. Maximum size disagreement: LiveAquaria lists 14 in (~36 cm, likely aquarium/common length) while FishBase records biological maximum of 46 cm; range averaged accordingly.",
-
   "breedingNotes": null,
-
   "sources": {
     "primary": {
       "name": "LiveAquaria",
@@ -82,38 +115,40 @@
       }
     ]
   },
-
   "fish": {
-    "breedingDifficulty":          null,
-    "breedingNotes":               null,
-    "conspecificAggression":       "moderate",
-    "finNippy":                    false,
-    "reefSafe":                    "with caution",
-    "escapeRisk":                  "low",
-    "venomousSpines":              false,
-    "protogynous":                 null,
-    "haremic":                     null,
-    "caudalScalpel":               false,
-    "nocturnal":                   false,
-    "juvenileColorPhase":          false,
-    "copperSensitive":             null,
-    "speciesOnlyTankRecommended":  false,
-    "requiresHitchingPost":        false,
-    "monogamousPairing":           false,
-    "hlleSusceptible":             false,
-    "toxicToTank":                 false,
-    "feedingDifficulty":           "moderate"
+    "breedingDifficulty": null,
+    "breedingNotes": null,
+    "conspecificAggression": "moderate",
+    "finNippy": false,
+    "reefSafe": "with caution",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": null,
+    "haremic": null,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
-
-  "crustacean":  null,
-  "coral":       null,
-  "mollusc":     null,
-  "echinoderm":  null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
   "other-invert": null,
-  "plant":       null,
-  "macroalgae":  null,
-
+  "plant": null,
+  "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus":    "researched",
-  "lastReviewed":  "2026-06-03"
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-03"
 }

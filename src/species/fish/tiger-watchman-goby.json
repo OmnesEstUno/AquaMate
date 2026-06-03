@@ -24,7 +24,11 @@
     ],
     "countries": [],
     "habitat": "Sandy areas of shallow lagoon reefs and coastal bays on silty slopes; reported from 5–88 m, typically 5–20 m.",
-    "biotope": "Sand and rubble flats adjacent to reefs, usually as monogamous pairs sharing a burrow."
+    "biotope": "Sand and rubble flats adjacent to reefs, usually as monogamous pairs sharing a burrow.",
+    "depthRangeM": {
+      "min": 5,
+      "max": 88
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -62,7 +66,8 @@
       "live rock with caves",
       "open sand area for sifting",
       "tightly fitting lid"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -119,7 +124,7 @@
     "reefSafe": "yes",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -130,7 +135,12 @@
     "monogamousPairing": true,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

@@ -6,32 +6,73 @@
   "waterType": "saltwater",
   "commonName": "Azure Damselfish",
   "scientificName": "Chrysiptera hemicyanea",
-  "alsoKnownAs": ["Azure Damsel", "Azure Demoiselle", "Half-blue Demoiselle"],
+  "alsoKnownAs": [
+    "Azure Damsel",
+    "Azure Demoiselle",
+    "Half-blue Demoiselle"
+  ],
   "category": "Damsel",
   "taxonomy": {
     "family": "Pomacentridae",
     "order": "Ovalentaria incertae sedis"
   },
   "nativeRange": {
-    "regions": ["Indo-West Pacific", "Eastern Indian Ocean", "Coral Triangle"],
-    "countries": ["Indonesia", "Philippines", "Australia", "Solomon Islands"],
+    "regions": [
+      "Indo-West Pacific",
+      "Eastern Indian Ocean",
+      "Coral Triangle"
+    ],
+    "countries": [
+      "Indonesia",
+      "Philippines",
+      "Australia",
+      "Solomon Islands"
+    ],
     "habitat": "Lagoon and near-shore reefs, typically associated with branching corals at depths of roughly 1-38 m.",
-    "biotope": "Tropical coral reef among branching Acropora and similar corals, often in small aggregations."
+    "biotope": "Tropical coral reef among branching Acropora and similar corals, often in small aggregations.",
+    "depthRangeM": {
+      "min": 1,
+      "max": 38
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 27 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 22,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 6.5, "max": 8 },
-  "lifespanYears": { "min": 5, "max": 12 },
+  "adultSizeCm": {
+    "min": 6.5,
+    "max": 8
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 12
+  },
   "tank": {
     "minVolumeLiters": 120,
     "minLengthCm": 90,
     "swimZone": "mid",
-    "decorPreferences": ["live rock", "branching coral", "caves and crevices", "open swimming space"]
+    "decorPreferences": [
+      "live rock",
+      "branching coral",
+      "caves and crevices",
+      "open swimming space"
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
@@ -42,8 +83,20 @@
     "temperament": "semi-aggressive",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["larger semi-aggressive reef fish", "tangs", "wrasses", "angelfishes", "most reef invertebrates", "corals"],
-    "avoidWith": ["other damselfish in small tanks", "conspecifics in tanks under ~200 L", "very small or timid fish", "newly added tankmates after the damsel is established"]
+    "goodWith": [
+      "larger semi-aggressive reef fish",
+      "tangs",
+      "wrasses",
+      "angelfishes",
+      "most reef invertebrates",
+      "corals"
+    ],
+    "avoidWith": [
+      "other damselfish in small tanks",
+      "conspecifics in tanks under ~200 L",
+      "very small or timid fish",
+      "newly added tankmates after the damsel is established"
+    ]
   },
   "media": {
     "primaryImage": "azure_damsel.jpg",
@@ -83,7 +136,7 @@
     "reefSafe": "yes",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": false,
+    "sexChange": "none",
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -94,7 +147,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

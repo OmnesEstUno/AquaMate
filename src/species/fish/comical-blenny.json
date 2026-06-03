@@ -6,32 +6,67 @@
   "waterType": "saltwater",
   "commonName": "Comical Blenny",
   "scientificName": "Ecsenius opsifrontalis",
-  "alsoKnownAs": ["Latticed Blenny"],
+  "alsoKnownAs": [
+    "Latticed Blenny"
+  ],
   "category": "Blenny",
   "taxonomy": {
     "family": "Blenniidae",
     "order": "Blenniiformes"
   },
   "nativeRange": {
-    "regions": ["Pacific Ocean", "Micronesia", "Polynesia"],
-    "countries": ["Micronesia", "Kiribati", "Samoa", "Fiji", "Wallis and Futuna", "Philippines"],
+    "regions": [
+      "Pacific Ocean",
+      "Micronesia",
+      "Polynesia"
+    ],
+    "countries": [
+      "Micronesia",
+      "Kiribati",
+      "Samoa",
+      "Fiji",
+      "Wallis and Futuna",
+      "Philippines"
+    ],
     "habitat": "Coral-rich areas of lagoon and seaward reefs, from below the surge zone to at least 30 m depth; tends to shelter between corals, in crevices, and in shallow caves",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 28 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 24,
+      "max": 28
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.021, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.021,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 3.0, "max": 5.0 },
+  "adultSizeCm": {
+    "min": 3,
+    "max": 5
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 75,
     "minLengthCm": 60,
     "swimZone": "bottom",
-    "decorPreferences": ["live rock", "rubble substrate", "mixed gravel", "caves and crevices"]
+    "decorPreferences": [
+      "live rock",
+      "rubble substrate",
+      "mixed gravel",
+      "caves and crevices"
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
@@ -42,8 +77,19 @@
     "temperament": "peaceful",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["peaceful reef fish", "clownfish", "gobies", "dartfish", "cardinalfish", "small wrasses"],
-    "avoidWith": ["other Ecsenius blennies", "other blennies of the same genus", "large aggressive fish"]
+    "goodWith": [
+      "peaceful reef fish",
+      "clownfish",
+      "gobies",
+      "dartfish",
+      "cardinalfish",
+      "small wrasses"
+    ],
+    "avoidWith": [
+      "other Ecsenius blennies",
+      "other blennies of the same genus",
+      "large aggressive fish"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -77,7 +123,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -88,7 +134,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

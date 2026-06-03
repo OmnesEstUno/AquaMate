@@ -35,7 +35,11 @@
       "Tonga"
     ],
     "habitat": "Adults are generally encountered in deep water adjacent to reef drop-offs, hovering above sand and rubble slopes typically between 30–80 m (recorded range 18–100 m). They construct rubble burrows from shell fragments and coral debris and retreat into them when alarmed.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 30,
+      "max": 80
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -52,7 +56,7 @@
       "max": 12
     },
     "salinity": {
-      "min": 1.020,
+      "min": 1.02,
       "max": 1.025
     }
   },
@@ -73,7 +77,8 @@
       "subdued or dimmed lighting",
       "well-established mature aquarium with stable parameters",
       "rockwork with caves and crevices around the tank periphery"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "advanced",
   "diet": {
@@ -156,7 +161,7 @@
     "reefSafe": "yes",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -167,7 +172,12 @@
     "monogamousPairing": true,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "difficult"
+    "feedingDifficulty": "difficult",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": true,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

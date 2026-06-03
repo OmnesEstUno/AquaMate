@@ -6,32 +6,66 @@
   "waterType": "saltwater",
   "commonName": "Blue and Gold Blenny",
   "scientificName": "Ecsenius lividanalis",
-  "alsoKnownAs": ["Blackspot Coralblenny"],
+  "alsoKnownAs": [
+    "Blackspot Coralblenny"
+  ],
   "category": "Blenny",
   "taxonomy": {
     "family": "Blenniidae",
     "order": "Blenniiformes"
   },
   "nativeRange": {
-    "regions": ["Western Pacific", "Indo-Pacific"],
-    "countries": ["Philippines", "Indonesia", "Australia", "Papua New Guinea", "Solomon Islands"],
+    "regions": [
+      "Western Pacific",
+      "Indo-Pacific"
+    ],
+    "countries": [
+      "Philippines",
+      "Indonesia",
+      "Australia",
+      "Papua New Guinea",
+      "Solomon Islands"
+    ],
     "habitat": "Reef-associated; small groups among live corals of lagoons and sheltered coastal reefs at depths of roughly 1–12 m.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 1,
+      "max": 12
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 26 },
-    "pH": { "min": 8.0, "max": 8.4 },
+    "temperatureC": {
+      "min": 23,
+      "max": 26
+    },
+    "pH": {
+      "min": 8,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.021, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.021,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 5, "max": 9 },
+  "adultSizeCm": {
+    "min": 5,
+    "max": 9
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 120,
     "minLengthCm": 75,
     "swimZone": "bottom",
-    "decorPreferences": ["scattered live rock with crevices for perching and hiding", "mature reef rockwork"]
+    "decorPreferences": [
+      "scattered live rock with crevices for perching and hiding",
+      "mature reef rockwork"
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
@@ -42,8 +76,17 @@
     "temperament": "peaceful",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["small peaceful reef fish", "gobies", "cardinalfish", "small wrasses"],
-    "avoidWith": ["other Ecsenius blennies", "aggressive damselfish", "large predatory fish"]
+    "goodWith": [
+      "small peaceful reef fish",
+      "gobies",
+      "cardinalfish",
+      "small wrasses"
+    ],
+    "avoidWith": [
+      "other Ecsenius blennies",
+      "aggressive damselfish",
+      "large predatory fish"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -88,7 +131,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -99,7 +142,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

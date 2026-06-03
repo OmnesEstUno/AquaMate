@@ -22,11 +22,15 @@
       "Lesser Antilles"
     ],
     "habitat": "Coral reefs; coral-dwelling goby found in groups near coral heads at depths of 0–25 m.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 0,
+      "max": 25
+    }
   },
   "waterParameters": {
     "temperatureC": {
-      "min": 24.0,
+      "min": 24,
       "max": 27.5
     },
     "pH": {
@@ -39,13 +43,13 @@
       "max": 12
     },
     "salinity": {
-      "min": 1.020,
+      "min": 1.02,
       "max": 1.025
     }
   },
   "adultSizeCm": {
-    "min": 3.0,
-    "max": 4.0
+    "min": 3,
+    "max": 4
   },
   "lifespanYears": null,
   "tank": {
@@ -57,7 +61,8 @@
       "coral heads",
       "rocky crevices",
       "tight-fitting lid"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
@@ -135,7 +140,7 @@
     "reefSafe": "yes",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -146,7 +151,12 @@
     "monogamousPairing": true,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "moderate"
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": true,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

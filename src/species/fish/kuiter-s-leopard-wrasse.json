@@ -6,32 +6,65 @@
   "waterType": "saltwater",
   "commonName": "Kuiter's Leopard Wrasse",
   "scientificName": "Macropharyngodon kuiteri",
-  "alsoKnownAs": ["Black Leopard Wrasse", "Ear-spot Wrasse"],
+  "alsoKnownAs": [
+    "Black Leopard Wrasse",
+    "Ear-spot Wrasse"
+  ],
   "category": "Wrasse",
   "taxonomy": {
     "family": "Labridae",
     "order": "Eupercaria"
   },
   "nativeRange": {
-    "regions": ["Western Pacific", "Australia"],
-    "countries": ["Australia", "New Caledonia"],
+    "regions": [
+      "Western Pacific",
+      "Australia"
+    ],
+    "countries": [
+      "Australia",
+      "New Caledonia"
+    ],
     "habitat": "Inshore reef-associated areas with mixed sand, rubble, and algae; typically found at depths of 5–55 m",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 5,
+      "max": 55
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 26 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 22,
+      "max": 26
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 7, "max": 10 },
+  "adultSizeCm": {
+    "min": 7,
+    "max": 10
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 200,
     "minLengthCm": 120,
     "swimZone": "bottom",
-    "decorPreferences": ["fine sand bed (several inches deep)", "live rock", "open sand areas for burrowing"]
+    "decorPreferences": [
+      "fine sand bed (several inches deep)",
+      "live rock",
+      "open sand areas for burrowing"
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "expert",
   "diet": {
@@ -42,8 +75,18 @@
     "temperament": "peaceful",
     "grouping": "shoaling",
     "minGroupSize": 3,
-    "goodWith": ["peaceful reef fish", "other non-aggressive wrasses", "gobies", "clownfish", "basslets"],
-    "avoidWith": ["large aggressive fish", "fish that compete for sand-bed territory", "predators large enough to consume them"]
+    "goodWith": [
+      "peaceful reef fish",
+      "other non-aggressive wrasses",
+      "gobies",
+      "clownfish",
+      "basslets"
+    ],
+    "avoidWith": [
+      "large aggressive fish",
+      "fish that compete for sand-bed territory",
+      "predators large enough to consume them"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -77,7 +120,7 @@
     "reefSafe": "yes",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": true,
+    "sexChange": "protogynous",
     "haremic": true,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -88,7 +131,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "difficult"
+    "feedingDifficulty": "difficult",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

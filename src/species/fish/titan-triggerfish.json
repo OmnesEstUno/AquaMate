@@ -42,7 +42,11 @@
       "French Polynesia (Tuamotu, Line Islands)"
     ],
     "habitat": "Lagoons and seaward reefs from the surface down to roughly 50–60 m, with juveniles favoring isolated patches of branching coral or rubble in shallow sandy areas and adults occurring singly or in pairs on the slopes of deep lagoon or outer reefs.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 50,
+      "max": 60
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -81,7 +85,8 @@
       "no fragile decor — the fish will rearrange anything moveable",
       "no exposed glass heaters, airline tubing, or unsecured equipment",
       "sand substrate it can sift and blow"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "advanced",
   "diet": {
@@ -148,7 +153,7 @@
     "reefSafe": "no",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": false,
@@ -159,7 +164,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

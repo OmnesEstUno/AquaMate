@@ -41,7 +41,11 @@
       "French Polynesia"
     ],
     "habitat": "Clear outer lagoons and seaward reefs over hard bottoms, sand, and rubble; typically observed hovering in pairs near a shared burrow at 1–6 m depth",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 1,
+      "max": 6
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -80,7 +84,8 @@
       "secured rockwork with burrow sites",
       "attached populated refugium",
       "small rubble patches"
-    ]
+    ],
+    "minSandDepthCm": 0
   },
   "careLevel": "intermediate",
   "diet": {
@@ -151,7 +156,7 @@
     "reefSafe": "yes",
     "escapeRisk": "high",
     "venomousSpines": null,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -162,7 +167,12 @@
     "monogamousPairing": true,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": true,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

@@ -32,7 +32,11 @@
       "Peru"
     ],
     "habitat": "Reef-associated; commonly observed in rocky reef areas near the shore, generally reported from about 3 to 30 m depth, with occasional records down to 50 m. Adults are typically encountered in pairs or small groups; the species also enters mangrove and estuarine fringes along the eastern Pacific coast.",
-    "biotope": "Rocky reef"
+    "biotope": "Rocky reef",
+    "depthRangeM": {
+      "min": 3,
+      "max": 30
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -49,7 +53,7 @@
       "max": 12
     },
     "salinity": {
-      "min": 1.020,
+      "min": 1.02,
       "max": 1.025
     }
   },
@@ -69,7 +73,8 @@
       "live rock",
       "caves",
       "open swimming areas"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -146,7 +151,7 @@
     "reefSafe": "no",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -157,7 +162,12 @@
     "monogamousPairing": true,
     "hlleSusceptible": null,
     "toxicToTank": false,
-    "feedingDifficulty": "moderate"
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": true
   },
   "crustacean": null,
   "coral": null,

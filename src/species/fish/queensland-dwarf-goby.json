@@ -15,25 +15,62 @@
     "order": "Gobiiformes"
   },
   "nativeRange": {
-    "regions": ["Western Pacific"],
-    "countries": ["Australia", "Thailand", "Vanuatu", "Taiwan", "New Caledonia", "Tonga"],
+    "regions": [
+      "Western Pacific"
+    ],
+    "countries": [
+      "Australia",
+      "Thailand",
+      "Vanuatu",
+      "Taiwan",
+      "New Caledonia",
+      "Tonga"
+    ],
     "habitat": "Reef-associated; benthic species inhabiting rubble and algal-covered patches of dead reef in 1–6 m depth",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 1,
+      "max": 6
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 26.0, "max": 29.0 },
-    "pH": { "min": 8.0, "max": 8.4 },
+    "temperatureC": {
+      "min": 26,
+      "max": 29
+    },
+    "pH": {
+      "min": 8,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8.0, "max": 12.0 },
-    "salinity": { "min": 1.021, "max": 1.026 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.021,
+      "max": 1.026
+    }
   },
-  "adultSizeCm": { "min": 1.5, "max": 2.4 },
-  "lifespanYears": { "min": 0.1, "max": 0.5 },
+  "adultSizeCm": {
+    "min": 1.5,
+    "max": 2.4
+  },
+  "lifespanYears": {
+    "min": 0.1,
+    "max": 0.5
+  },
   "tank": {
     "minVolumeLiters": 75,
     "minLengthCm": 30,
     "swimZone": "bottom",
-    "decorPreferences": ["live rock", "coral rubble", "reef structure", "copepod-rich substrate"]
+    "decorPreferences": [
+      "live rock",
+      "coral rubble",
+      "reef structure",
+      "copepod-rich substrate"
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -44,8 +81,17 @@
     "temperament": "peaceful",
     "grouping": "shoaling",
     "minGroupSize": 1,
-    "goodWith": ["small peaceful reef fish", "corals", "ornamental shrimp", "nano reef inhabitants"],
-    "avoidWith": ["large predatory fish", "aggressive gobies", "piscivores"]
+    "goodWith": [
+      "small peaceful reef fish",
+      "corals",
+      "ornamental shrimp",
+      "nano reef inhabitants"
+    ],
+    "avoidWith": [
+      "large predatory fish",
+      "aggressive gobies",
+      "piscivores"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -85,7 +131,7 @@
     "reefSafe": "yes",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -96,7 +142,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "moderate"
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

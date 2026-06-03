@@ -6,32 +6,70 @@
   "waterType": "saltwater",
   "commonName": "Mulleri Butterflyfish",
   "scientificName": "Chelmon muelleri",
-  "alsoKnownAs": ["Muelleri Butterflyfish", "Blackfin Coralfish", "Muller's Butterflyfish", "Muller's Coralfish", "Highfin Coralfish"],
+  "alsoKnownAs": [
+    "Muelleri Butterflyfish",
+    "Blackfin Coralfish",
+    "Muller's Butterflyfish",
+    "Muller's Coralfish",
+    "Highfin Coralfish"
+  ],
   "category": "Butterflyfish",
   "taxonomy": {
     "family": "Chaetodontidae",
     "order": "Acanthuriformes"
   },
   "nativeRange": {
-    "regions": ["Western Pacific"],
-    "countries": ["Australia"],
+    "regions": [
+      "Western Pacific"
+    ],
+    "countries": [
+      "Australia"
+    ],
     "habitat": "Coastal reefs and estuaries of Queensland and, more recently, north-western Australia; typically encountered over algae-covered or muddy bottoms at depths of about 2–10 m.",
-    "biotope": "Reef-associated, non-migratory; often found in turbid coastal waters and estuaries, commonly observed in pairs in the wild."
+    "biotope": "Reef-associated, non-migratory; often found in turbid coastal waters and estuaries, commonly observed in pairs in the wild.",
+    "depthRangeM": {
+      "min": 2,
+      "max": 10
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 27 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 22,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 15, "max": 20 },
-  "lifespanYears": { "min": 5, "max": 10 },
+  "adultSizeCm": {
+    "min": 15,
+    "max": 20
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 10
+  },
   "tank": {
     "minVolumeLiters": 500,
     "minLengthCm": 180,
     "swimZone": "all",
-    "decorPreferences": ["live rock with crevices", "open swimming space", "established reef or FOWLR (6+ months)", "subdued tankmate activity"]
+    "decorPreferences": [
+      "live rock with crevices",
+      "open swimming space",
+      "established reef or FOWLR (6+ months)",
+      "subdued tankmate activity"
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "advanced",
   "diet": {
@@ -42,8 +80,25 @@
     "temperament": "peaceful",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["peaceful tangs", "wrasses", "cardinalfish", "clownfish", "small angelfish", "gobies"],
-    "avoidWith": ["other Chelmon or similar butterflyfish", "conspecifics", "aggressive damselfish", "triggers", "large angels", "ornamental anemones", "feather dusters", "tube worms", "prized LPS corals"]
+    "goodWith": [
+      "peaceful tangs",
+      "wrasses",
+      "cardinalfish",
+      "clownfish",
+      "small angelfish",
+      "gobies"
+    ],
+    "avoidWith": [
+      "other Chelmon or similar butterflyfish",
+      "conspecifics",
+      "aggressive damselfish",
+      "triggers",
+      "large angels",
+      "ornamental anemones",
+      "feather dusters",
+      "tube worms",
+      "prized LPS corals"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -82,7 +137,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": false,
+    "sexChange": "none",
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -93,7 +148,12 @@
     "monogamousPairing": true,
     "hlleSusceptible": true,
     "toxicToTank": false,
-    "feedingDifficulty": "difficult"
+    "feedingDifficulty": "difficult",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

@@ -33,7 +33,11 @@
       "Mozambique"
     ],
     "habitat": "Rubble areas near or within coral reefs, coastal sand slopes, and deep lagoons; typically found at 5–40 m depth in symbiotic association with alpheid pistol shrimps, most often Alpheus ochrostriatus.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 5,
+      "max": 40
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -50,13 +54,13 @@
       "max": 12
     },
     "salinity": {
-      "min": 1.020,
+      "min": 1.02,
       "max": 1.025
     }
   },
   "adultSizeCm": {
-    "min": 5.0,
-    "max": 10.0
+    "min": 5,
+    "max": 10
   },
   "lifespanYears": null,
   "tank": {
@@ -69,7 +73,8 @@
       "open sandy area in the foreground for observation",
       "tight-fitting lid to prevent jumping",
       "low-flow zone near the burrow entrance"
-    ]
+    ],
+    "minSandDepthCm": 8
   },
   "careLevel": "beginner",
   "diet": {
@@ -133,7 +138,7 @@
     "reefSafe": "yes",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -144,7 +149,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": true,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

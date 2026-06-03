@@ -8,64 +8,89 @@
   "scientificName": "Cirrhitichthys bleekeri",
   "alsoKnownAs": [],
   "category": "Hawkfish",
-
   "taxonomy": {
     "family": "Cirrhitidae",
     "order": "Centrarchiformes"
   },
-
   "nativeRange": {
-    "regions": ["Eastern Indian Ocean"],
-    "countries": ["India"],
+    "regions": [
+      "Eastern Indian Ocean"
+    ],
+    "countries": [
+      "India"
+    ],
     "habitat": "Reef-associated; found on rocky coral reefs and outer reef slopes, typically at depths of 5–40 m",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 5,
+      "max": 40
+    }
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 27 },
-    "pH":           { "min": 8.1, "max": 8.4 },
-    "gH":           null,
-    "kH":           { "min": 8, "max": 12 },
-    "salinity":     { "min": 1.020, "max": 1.025 }
+    "temperatureC": {
+      "min": 23,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-
-  "adultSizeCm":   { "min": 3.0, "max": 9.5 },
+  "adultSizeCm": {
+    "min": 3,
+    "max": 9.5
+  },
   "lifespanYears": null,
-
   "tank": {
-    "minVolumeLiters":  120,
-    "minLengthCm":      90,
-    "swimZone":         "bottom",
-    "decorPreferences": ["live rock", "rocky caves", "coral rubble", "hiding places"]
+    "minVolumeLiters": 120,
+    "minLengthCm": 90,
+    "swimZone": "bottom",
+    "decorPreferences": [
+      "live rock",
+      "rocky caves",
+      "coral rubble",
+      "hiding places"
+    ],
+    "minSandDepthCm": null
   },
-
   "careLevel": "intermediate",
-
   "diet": {
     "type": "carnivore",
     "notes": "Has been documented accepting a variety of crustacean and marine meats, Mysis shrimp, brine shrimp, and krill. Generally reported to adapt readily to frozen and prepared foods in captivity."
   },
-
   "compatibility": {
-    "temperament":  "semi-aggressive",
-    "grouping":     "solitary",
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith":     ["large reef fish", "non-aggressive fish of different body shape", "corals"],
-    "avoidWith":    ["small shrimp", "small ornamental fish", "other hawkfish", "aggressive species that may outcompete it for perching territory"]
+    "goodWith": [
+      "large reef fish",
+      "non-aggressive fish of different body shape",
+      "corals"
+    ],
+    "avoidWith": [
+      "small shrimp",
+      "small ornamental fish",
+      "other hawkfish",
+      "aggressive species that may outcompete it for perching territory"
+    ]
   },
-
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
+    "primaryImage": null,
+    "gallery": [],
     "imageCandidates": null
   },
-
   "summary": "An uncommon reef percher from the Eastern Indian Ocean, Bleeker's Hawkfish is generally considered easy to intermediate in care. It tends to perch on rockwork and ambush small prey, and is commonly kept with caution in reef tanks due to a tendency to prey on small shrimp and fish.",
-
   "careNotes": "Bleeker's Hawkfish (Cirrhitichthys bleekeri) is generally considered an uncommon species in the aquarium hobby. Like other cirrhitid hawkfishes, it tends to perch motionless on rockwork and coral heads, using thickened lower pectoral fin rays to anchor itself in current. It has been reported to prey on small crustaceans and smaller fish, so tank mates should be chosen with care — small ornamental shrimp are at risk. A well-sealed lid and adequate hiding places are advised.\n\nTemperament is semi-aggressive; it tends to be territorial toward conspecifics and similarly shaped fish but is generally peaceful toward dissimilar species. Sources indicate it is best kept singly in a reef tank with plenty of rockwork. Reef compatibility is generally described as 'with caution' — corals are typically left alone but small invertebrates may be consumed.\n\nCare level is rated easy by the primary retailer source, though its relative rarity in the trade makes adjustment data limited; intermediate is a more cautious designation until more captive-keeping data accumulates. Temperature cross-source disagreement noted: LiveAquaria lists 72–78°F (22.2–25.6°C), while FishBase genus-level data for congeners (C. falco, C. aprinus) suggests 24–28°C; the averaged range of 23–27°C was used. Named in honor of Dutch ichthyologist Dr. Pieter Bleeker (1819–1878).",
-
   "breedingNotes": null,
-
   "sources": {
     "primary": {
       "name": "LiveAquaria",
@@ -82,37 +107,39 @@
       }
     ]
   },
-
   "fish": {
-    "breedingDifficulty":         null,
-    "breedingNotes":               null,
-    "conspecificAggression":       "moderate",
-    "finNippy":                    false,
-    "reefSafe":                    "with caution",
-    "escapeRisk":                  "low",
-    "venomousSpines":              false,
-    "protogynous":                 null,
-    "haremic":                     false,
-    "caudalScalpel":               false,
-    "nocturnal":                   false,
-    "juvenileColorPhase":          false,
-    "copperSensitive":             false,
-    "speciesOnlyTankRecommended":  false,
-    "requiresHitchingPost":        false,
-    "monogamousPairing":           false,
-    "hlleSusceptible":             false,
-    "toxicToTank":                 false,
-    "feedingDifficulty":           "easy"
+    "breedingDifficulty": null,
+    "breedingNotes": null,
+    "conspecificAggression": "moderate",
+    "finNippy": false,
+    "reefSafe": "with caution",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": null,
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
-
-  "crustacean":   null,
-  "coral":        null,
-  "mollusc":      null,
-  "echinoderm":   null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
   "other-invert": null,
-  "plant":        null,
-  "macroalgae":   null,
-
+  "plant": null,
+  "macroalgae": null,
   "schemaVersion": 1,
   "dataStatus": "researched",
   "lastReviewed": "2026-06-03"

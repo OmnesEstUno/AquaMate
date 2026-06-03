@@ -27,7 +27,11 @@
       "Peru"
     ],
     "habitat": "Reef-associated rocky reefs, typically at depths of 6–12 m; non-migratory",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 6,
+      "max": 12
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -61,7 +65,8 @@
       "live rock",
       "caves",
       "open swimming space"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -92,8 +97,7 @@
     "imageCandidates": null
   },
   "summary": "A large Eastern Pacific angelfish reaching ~46 cm, with striking yellow-and-blue-banded juveniles transforming into blue-bodied adults with vertical yellow shoulder bands. Semi-aggressive; not reef safe.",
-  "careNotes": "The Cortez Angelfish (Pomacanthus zonipectus) is a large Eastern Pacific angelfish native to the Gulf of California south to Peru, occupying rocky reefs at moderate depths. Adults typically reach about 26 cm with a maximum recorded length around 46 cm TL, so a long, well-aquascaped tank in the 250+ US gallon / ~1000 L range with plentiful live rock for grazing and refuge is generally advised. Juveniles are dark with bright yellow and electric-blue vertical bands, while adults develop a blue body with a pale speckled mid-section, vertical yellow shoulder stripes, green-blue dorsal fins, and a blue head — the two phases look so different that juveniles are sometimes mistaken for a separate species. This species is not considered reef safe: it has been documented eating sponges, both stony and soft corals, and clam mantles. Only one angelfish (of any species) should be kept per tank, even at juvenile size, due to high conspecific aggression. In the wild, adults are generally observed in monogamous pairs or loose aggregations and breed midsummer through early fall. As a large Pomacanthus, it is reportedly susceptible to Head and Lateral Line Erosion (HLLE) when kept on poor water quality or a sponge-deficient diet, so vitamin-enriched marine-algae and sponge-containing foods are commonly recommended. Cross-source notes: LiveAquaria states 72–78°F (22.2–25.6°C) and FishBase reports wild waters of 20.4–29.1°C (mean ~25.9°C); the written range (22–26°C) reflects a moderate consensus aquarium target. Maximum size matches well across sources at ~46 cm TL (LiveAquaria 18 in / FishBase 46 cm)."
-,
+  "careNotes": "The Cortez Angelfish (Pomacanthus zonipectus) is a large Eastern Pacific angelfish native to the Gulf of California south to Peru, occupying rocky reefs at moderate depths. Adults typically reach about 26 cm with a maximum recorded length around 46 cm TL, so a long, well-aquascaped tank in the 250+ US gallon / ~1000 L range with plentiful live rock for grazing and refuge is generally advised. Juveniles are dark with bright yellow and electric-blue vertical bands, while adults develop a blue body with a pale speckled mid-section, vertical yellow shoulder stripes, green-blue dorsal fins, and a blue head — the two phases look so different that juveniles are sometimes mistaken for a separate species. This species is not considered reef safe: it has been documented eating sponges, both stony and soft corals, and clam mantles. Only one angelfish (of any species) should be kept per tank, even at juvenile size, due to high conspecific aggression. In the wild, adults are generally observed in monogamous pairs or loose aggregations and breed midsummer through early fall. As a large Pomacanthus, it is reportedly susceptible to Head and Lateral Line Erosion (HLLE) when kept on poor water quality or a sponge-deficient diet, so vitamin-enriched marine-algae and sponge-containing foods are commonly recommended. Cross-source notes: LiveAquaria states 72–78°F (22.2–25.6°C) and FishBase reports wild waters of 20.4–29.1°C (mean ~25.9°C); the written range (22–26°C) reflects a moderate consensus aquarium target. Maximum size matches well across sources at ~46 cm TL (LiveAquaria 18 in / FishBase 46 cm).",
   "breedingNotes": "In the wild, adults form monogamous pairs and spawn pelagically between midsummer and early fall. Captive breeding is not documented in any meaningful way for this species; breeding difficulty is best regarded as effectively not in captivity.",
   "sources": {
     "primary": {
@@ -119,7 +123,7 @@
     "reefSafe": "no",
     "escapeRisk": null,
     "venomousSpines": null,
-    "protogynous": true,
+    "sexChange": "protogynous",
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": false,
@@ -130,7 +134,12 @@
     "monogamousPairing": true,
     "hlleSusceptible": true,
     "toxicToTank": null,
-    "feedingDifficulty": "moderate"
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

@@ -31,7 +31,8 @@
       "Colombia"
     ],
     "habitat": "Shallow coastal waters, estuaries, and sandy bays; juveniles tend to be found in estuarine areas and off sandy beaches",
-    "biotope": "Coastal"
+    "biotope": "Coastal",
+    "depthRangeM": null
   },
   "waterParameters": {
     "temperatureC": {
@@ -68,7 +69,8 @@
       "open swimming space",
       "sparse decor",
       "sandy substrate"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "advanced",
   "diet": {
@@ -142,7 +144,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "moderate",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -153,7 +155,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": true
   },
   "crustacean": null,
   "coral": null,

@@ -52,7 +52,7 @@ function dedupeSlug(slug, usedSlugs) {
 function makeVariantStub(taxon) {
   switch (taxon) {
     case 'fish':
-      return { breedingDifficulty: null, breedingNotes: null, conspecificAggression: null, finNippy: null, reefSafe: null, escapeRisk: null, venomousSpines: null, protogynous: null, haremic: null, caudalScalpel: null, nocturnal: null, juvenileColorPhase: null, copperSensitive: null, speciesOnlyTankRecommended: null, requiresHitchingPost: null, monogamousPairing: null, hlleSusceptible: null, toxicToTank: null, feedingDifficulty: null };
+      return { breedingDifficulty: null, breedingNotes: null, conspecificAggression: null, finNippy: null, reefSafe: null, escapeRisk: null, venomousSpines: null, sexChange: null, haremic: null, caudalScalpel: null, nocturnal: null, juvenileColorPhase: null, copperSensitive: null, speciesOnlyTankRecommended: null, requiresHitchingPost: null, monogamousPairing: null, hlleSusceptible: null, toxicToTank: null, feedingDifficulty: null, symbioticShrimpPartner: null, mouthbrooder: null, constantGrazer: null, cleanerFish: null, euryhaline: null };
     case 'crustacean':
       return { copperSensitive: null, moltingFrequencyDays: null, moltingNotes: null, escapeRisk: null, breedingDifficulty: null, breedingNotes: null, speciesOnlyTankRecommended: null };
     case 'coral':
@@ -85,7 +85,7 @@ function makePlaceholderEntry({ legacyItem, kind, taxon, waterType, slug }) {
     alsoKnownAs: [],
     category: legacyItem.category || '',
     taxonomy: { family: null, order: null },
-    nativeRange: { regions: [], countries: [], habitat: null, biotope: null },
+    nativeRange: { regions: [], countries: [], habitat: null, biotope: null, depthRangeM: null },
     waterParameters: {
       temperatureC: null, pH: null, gH: null, kH: null, salinity: null
     },
@@ -93,7 +93,7 @@ function makePlaceholderEntry({ legacyItem, kind, taxon, waterType, slug }) {
     lifespanYears: null,
     tank: {
       minVolumeLiters: null, minLengthCm: null,
-      swimZone: null, decorPreferences: []
+      swimZone: null, decorPreferences: [], minSandDepthCm: null
     },
     careLevel: null,
     diet: null,

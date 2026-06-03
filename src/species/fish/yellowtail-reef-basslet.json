@@ -6,32 +6,65 @@
   "waterType": "saltwater",
   "commonName": "Yellowtail Reef Basslet",
   "scientificName": "Pseudanthias flavicauda",
-  "alsoKnownAs": ["Yellowtail Anthias", "Yellow-Tail Anthias"],
+  "alsoKnownAs": [
+    "Yellowtail Anthias",
+    "Yellow-Tail Anthias"
+  ],
   "category": "Anthias",
   "taxonomy": {
     "family": "Anthiadidae",
     "order": "Perciformes"
   },
   "nativeRange": {
-    "regions": ["Western Pacific"],
-    "countries": ["Fiji", "Tonga"],
+    "regions": [
+      "Western Pacific"
+    ],
+    "countries": [
+      "Fiji",
+      "Tonga"
+    ],
     "habitat": "Reef-associated; found at depths of approximately 30–61 m on coral reef slopes",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 30,
+      "max": 61
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 27 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 24,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 5.0, "max": 8.0 },
+  "adultSizeCm": {
+    "min": 5,
+    "max": 8
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 200,
     "minLengthCm": 100,
     "swimZone": "mid",
-    "decorPreferences": ["live rock", "caves", "overhangs", "open swimming space"]
+    "decorPreferences": [
+      "live rock",
+      "caves",
+      "overhangs",
+      "open swimming space"
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -42,8 +75,18 @@
     "temperament": "semi-aggressive",
     "grouping": "shoaling",
     "minGroupSize": 3,
-    "goodWith": ["peaceful reef fish", "corals", "other anthias (with caution)", "wrasses", "clownfish"],
-    "avoidWith": ["large aggressive fish", "predatory fish", "other dominant haremic males of the same species"]
+    "goodWith": [
+      "peaceful reef fish",
+      "corals",
+      "other anthias (with caution)",
+      "wrasses",
+      "clownfish"
+    ],
+    "avoidWith": [
+      "large aggressive fish",
+      "predatory fish",
+      "other dominant haremic males of the same species"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -83,7 +126,7 @@
     "reefSafe": "yes",
     "escapeRisk": "moderate",
     "venomousSpines": false,
-    "protogynous": true,
+    "sexChange": "protogynous",
     "haremic": true,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -94,7 +137,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "moderate"
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": true,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

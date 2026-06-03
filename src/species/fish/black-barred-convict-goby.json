@@ -29,12 +29,16 @@
       "United States (Phoenix Islands)"
     ],
     "habitat": "Coral reef crevices at depths of approximately 8–30 m, favoring sheltered microhabitats within rockwork where light intensity is low.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 8,
+      "max": 30
+    }
   },
   "waterParameters": {
     "temperatureC": {
-      "min": 24.0,
-      "max": 27.0
+      "min": 24,
+      "max": 27
     },
     "pH": {
       "min": 8.1,
@@ -46,7 +50,7 @@
       "max": 12
     },
     "salinity": {
-      "min": 1.020,
+      "min": 1.02,
       "max": 1.025
     }
   },
@@ -65,7 +69,8 @@
       "crevices",
       "overhangs",
       "rockwork hiding spots"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -123,7 +128,7 @@
     "reefSafe": "yes",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": false,
     "nocturnal": true,
@@ -134,7 +139,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": null,
     "toxicToTank": false,
-    "feedingDifficulty": "moderate"
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

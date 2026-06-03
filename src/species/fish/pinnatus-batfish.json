@@ -36,7 +36,11 @@
       "New Caledonia"
     ],
     "habitat": "Reef-associated; juveniles tend to shelter in mangroves, sheltered coastal reefs, caves, and under ledges. Adults are generally solitary under reef overhangs at depths of about 15–30 m.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 15,
+      "max": 30
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -76,7 +80,8 @@
       "overhangs",
       "live rock with hiding places",
       "tall aquascape (vertical clearance for tall-bodied fish)"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "expert",
   "diet": {
@@ -150,7 +155,7 @@
     "reefSafe": "no",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": false,
@@ -161,7 +166,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": "live-only"
+    "feedingDifficulty": "live-only",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

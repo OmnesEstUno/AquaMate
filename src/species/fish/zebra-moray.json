@@ -40,7 +40,11 @@
       "Galápagos Islands"
     ],
     "habitat": "Reef-associated; inhabits sandy and rocky bottoms, crevices and ledges of seaward reefs at depths typically 3–50 m, most often shallower than 4 m.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 3,
+      "max": 50
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -78,7 +82,8 @@
       "stable live rock structure (secure rockwork to prevent collapses)",
       "tight-fitting, weighted lid with no gaps",
       "PVC piping as supplementary hide"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -145,7 +150,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": "protandrous",
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": false,
@@ -156,7 +161,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

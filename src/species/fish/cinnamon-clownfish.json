@@ -35,7 +35,11 @@
       "Federated States of Micronesia"
     ],
     "habitat": "Reef-associated, found in lagoons and outer reef slopes at depths of roughly 1-18 m, typically sheltering inside a host anemone.",
-    "biotope": "Tropical Indo-Pacific reef and lagoon; coral and rocky reef areas hosting bubble-tip and leathery sea anemones."
+    "biotope": "Tropical Indo-Pacific reef and lagoon; coral and rocky reef areas hosting bubble-tip and leathery sea anemones.",
+    "depthRangeM": {
+      "min": 1,
+      "max": 18
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -72,7 +76,8 @@
       "live rock with caves and overhangs",
       "open mid-water swimming space to establish a territory",
       "host anemone optional (Entacmaea quadricolor bubble-tip preferred, Heteractis crispa also accepted)"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
@@ -149,7 +154,7 @@
     "reefSafe": "yes",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": false,
+    "sexChange": "protandrous",
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -160,7 +165,12 @@
     "monogamousPairing": true,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

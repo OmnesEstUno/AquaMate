@@ -41,7 +41,11 @@
       "Angola"
     ],
     "habitat": "Reef-associated and non-migratory; juveniles common in tide pools and intertidal areas, adults found over shallow coral and rocky reefs typically at 0–10 m and down to about 20–40 m",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 0,
+      "max": 10
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -79,7 +83,8 @@
       "open swimming space",
       "established marine aquascape",
       "rocky outcrops for territorial anchoring"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
@@ -149,7 +154,7 @@
     "reefSafe": "yes",
     "escapeRisk": null,
     "venomousSpines": null,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -160,7 +165,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

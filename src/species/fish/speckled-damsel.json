@@ -6,32 +6,74 @@
   "waterType": "saltwater",
   "commonName": "Speckled Damsel",
   "scientificName": "Pomacentrus bankanensis",
-  "alsoKnownAs": ["Speckled Damselfish", "Fire Damsel"],
+  "alsoKnownAs": [
+    "Speckled Damselfish",
+    "Fire Damsel"
+  ],
   "category": "Damsel",
   "taxonomy": {
     "family": "Pomacentridae",
     "order": "Ovalentaria incertae sedis"
   },
   "nativeRange": {
-    "regions": ["Western Pacific", "Eastern Indian Ocean", "Coral Triangle"],
-    "countries": ["Australia", "Indonesia", "Philippines", "Japan", "Fiji", "New Caledonia"],
+    "regions": [
+      "Western Pacific",
+      "Eastern Indian Ocean",
+      "Coral Triangle"
+    ],
+    "countries": [
+      "Australia",
+      "Indonesia",
+      "Philippines",
+      "Japan",
+      "Fiji",
+      "New Caledonia"
+    ],
     "habitat": "Lagoons, reef flats, passages, and outer reef slopes at depths of roughly 0-32 m, usually amongst coarse rubble or rock.",
-    "biotope": "Tropical Indo-West Pacific coral reefs and reef-associated rubble zones, where adults are typically seen solitarily or in small groups."
+    "biotope": "Tropical Indo-West Pacific coral reefs and reef-associated rubble zones, where adults are typically seen solitarily or in small groups.",
+    "depthRangeM": {
+      "min": 0,
+      "max": 32
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 28 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 23,
+      "max": 28
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.020, "max": 1.026 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.026
+    }
   },
-  "adultSizeCm": { "min": 6, "max": 9 },
-  "lifespanYears": { "min": 4, "max": 8 },
+  "adultSizeCm": {
+    "min": 6,
+    "max": 9
+  },
+  "lifespanYears": {
+    "min": 4,
+    "max": 8
+  },
   "tank": {
     "minVolumeLiters": 120,
     "minLengthCm": 90,
     "swimZone": "mid",
-    "decorPreferences": ["live rock", "caves and crevices", "rubble zones", "open swimming space"]
+    "decorPreferences": [
+      "live rock",
+      "caves and crevices",
+      "rubble zones",
+      "open swimming space"
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
@@ -42,8 +84,20 @@
     "temperament": "semi-aggressive",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["larger semi-aggressive reef fish", "tangs", "wrasses", "angelfishes", "established tankmates of similar size"],
-    "avoidWith": ["other damselfish in small tanks", "conspecifics in tanks under ~200 L", "very small or timid fish", "newly added tankmates after the damsel is established", "delicate sessile invertebrates if reef compatibility is a concern"]
+    "goodWith": [
+      "larger semi-aggressive reef fish",
+      "tangs",
+      "wrasses",
+      "angelfishes",
+      "established tankmates of similar size"
+    ],
+    "avoidWith": [
+      "other damselfish in small tanks",
+      "conspecifics in tanks under ~200 L",
+      "very small or timid fish",
+      "newly added tankmates after the damsel is established",
+      "delicate sessile invertebrates if reef compatibility is a concern"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -89,7 +143,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": false,
+    "sexChange": "none",
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -100,7 +154,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

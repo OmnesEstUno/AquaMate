@@ -26,7 +26,11 @@
       "Marshall Islands"
     ],
     "habitat": "Deeper fore-reef slopes, generally 27-180 m, often near black coral thickets and steep drop-offs",
-    "biotope": "Mesophotic coral reef"
+    "biotope": "Mesophotic coral reef",
+    "depthRangeM": {
+      "min": 27,
+      "max": 180
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -62,7 +66,8 @@
       "moderate lighting",
       "vertical structure mimicking reef slopes",
       "hiding caves and overhangs"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -126,7 +131,7 @@
     "reefSafe": "no",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -137,7 +142,12 @@
     "monogamousPairing": true,
     "hlleSusceptible": null,
     "toxicToTank": false,
-    "feedingDifficulty": "moderate"
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": true,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

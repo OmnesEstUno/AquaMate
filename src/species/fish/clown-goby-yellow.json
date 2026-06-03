@@ -32,7 +32,11 @@
       "Marshall Islands"
     ],
     "habitat": "Reef-associated; typically lives among branching staghorn Acropora corals in lagoons and outer reefs at depths of roughly 2-15 m, hovering among or perching directly on the coral branches. Generally encountered in small aggregations of 5-15 individuals.",
-    "biotope": "Lagoon"
+    "biotope": "Lagoon",
+    "depthRangeM": {
+      "min": 2,
+      "max": 15
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -49,7 +53,7 @@
       "max": 12
     },
     "salinity": {
-      "min": 1.020,
+      "min": 1.02,
       "max": 1.025
     }
   },
@@ -71,7 +75,8 @@
       "Acropora or similar staghorn structures",
       "caves and crevices",
       "tightly-fitting lid"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
@@ -142,7 +147,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": true,
+    "sexChange": "protogynous",
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -153,7 +158,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": true,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

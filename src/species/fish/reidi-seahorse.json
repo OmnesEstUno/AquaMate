@@ -39,7 +39,11 @@
       "Brazil"
     ],
     "habitat": "Reef-associated coastal waters; commonly found attached to gorgonian corals, seagrass beds, mangrove roots, and floating Sargassum. Depth range 0–55 m, with smaller individuals generally in shallower water.",
-    "biotope": "Coastal"
+    "biotope": "Coastal",
+    "depthRangeM": {
+      "min": 0,
+      "max": 55
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -79,7 +83,8 @@
       "artificial hitching posts",
       "seagrass",
       "low-flow zones"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "advanced",
   "diet": {
@@ -148,7 +153,7 @@
     "reefSafe": "yes",
     "escapeRisk": null,
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -159,7 +164,12 @@
     "monogamousPairing": true,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

@@ -6,129 +6,169 @@
   "waterType": "saltwater",
   "commonName": "Auriga Butterflyfish",
   "scientificName": "Chaetodon auriga",
-  "alsoKnownAs": ["Threadfin Butterflyfish"],
+  "alsoKnownAs": [
+    "Threadfin Butterflyfish"
+  ],
   "category": "Butterflyfish",
-
   "taxonomy": {
     "family": "Chaetodontidae",
     "order": "Acanthuriformes"
   },
-
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Red Sea", "East Africa", "Hawaii"],
-    "countries": ["Japan", "South Africa", "Egypt", "Australia"],
+    "regions": [
+      "Indo-Pacific",
+      "Red Sea",
+      "East Africa",
+      "Hawaii"
+    ],
+    "countries": [
+      "Japan",
+      "South Africa",
+      "Egypt",
+      "Australia"
+    ],
     "habitat": "Found across a variety of habitats including rich coral reefs, weedy areas, and rubble-covered zones; depth range 0–60 m; benthopelagic.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 0,
+      "max": 60
+    }
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 27 },
-    "pH":           { "min": 8.1, "max": 8.4 },
-    "gH":           null,
-    "kH":           { "min": 8, "max": 12 },
-    "salinity":     { "min": 1.021, "max": 1.023 }
+    "temperatureC": {
+      "min": 24,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.021,
+      "max": 1.023
+    }
   },
-
-  "adultSizeCm":   { "min": 15, "max": 23 },
+  "adultSizeCm": {
+    "min": 15,
+    "max": 23
+  },
   "lifespanYears": null,
-
   "tank": {
-    "minVolumeLiters":  500,
-    "minLengthCm":      150,
-    "swimZone":         "all",
-    "decorPreferences": ["live rock", "hiding places", "open swimming space", "caves and overhangs"]
+    "minVolumeLiters": 500,
+    "minLengthCm": 150,
+    "swimZone": "all",
+    "decorPreferences": [
+      "live rock",
+      "hiding places",
+      "open swimming space",
+      "caves and overhangs"
+    ],
+    "minSandDepthCm": null
   },
-
   "careLevel": "beginner",
-
   "diet": {
     "type": "omnivore",
     "notes": "Has been documented feeding on polychaete worms, sea anemones, coral polyps, and algae in the wild. In captivity, generally accepts meaty items such as mysis shrimp, chopped fish, crustacean flesh, and frozen marine preparations, as well as algae-based foods."
   },
-
   "compatibility": {
-    "temperament":  "peaceful",
-    "grouping":     "pair",
+    "temperament": "peaceful",
+    "grouping": "pair",
     "minGroupSize": 1,
-    "goodWith":     ["tangs", "angelfish", "wrasses", "hawkfish", "gobies", "blennies", "non-aggressive reef fish"],
-    "avoidWith":    ["corals", "sea anemones", "small ornamental shrimp", "obligate-coral species", "aggressive or fin-nipping fish"]
+    "goodWith": [
+      "tangs",
+      "angelfish",
+      "wrasses",
+      "hawkfish",
+      "gobies",
+      "blennies",
+      "non-aggressive reef fish"
+    ],
+    "avoidWith": [
+      "corals",
+      "sea anemones",
+      "small ornamental shrimp",
+      "obligate-coral species",
+      "aggressive or fin-nipping fish"
+    ]
   },
-
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
+    "primaryImage": null,
+    "gallery": [],
     "imageCandidates": [
       {
-        "url":         "https://upload.wikimedia.org/wikipedia/commons/4/43/Chaetodon_auriga.jpg",
-        "source":      "Wikimedia Commons",
-        "sourceType":  "wikimedia",
-        "license":     "CC BY-SA 3.0",
-        "notes":       "Photo by Philippe Bourjon, taken at Réunion, 2014. Clean side-profile specimen shot.",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Chaetodon_auriga.jpg",
+        "source": "Wikimedia Commons",
+        "sourceType": "wikimedia",
+        "license": "CC BY-SA 3.0",
+        "notes": "Photo by Philippe Bourjon, taken at Réunion, 2014. Clean side-profile specimen shot.",
         "recommended": true
       }
     ]
   },
-
   "summary": "A hardy, wide-ranging butterflyfish from the Indo-Pacific generally considered one of the more beginner-accessible chaetodontids. Not reef-safe due to a tendency to nip coral polyps and anemones; tends to do well in FOWLR setups with ample hiding places.",
-
   "careNotes": "The Auriga Butterflyfish is generally considered one of the hardier and more aquarium-adaptable butterflyfishes, making it a commonly recommended entry point for the family. It tends to be shy on introduction and benefits from multiple hiding spots among live rock. It is not reef-safe — it has been known to nip coral polyps, sea anemones, and small ornamental invertebrates, so a fish-only-with-live-rock (FOWLR) setup is generally advised. Color and markings vary by geographic origin; specimens from the Red Sea are sometimes noted to lack the characteristic eyespot (ocellus) on the dorsal fin that specimens from other regions display.\n\nLiveAquaria lists a maximum size of 8 in (approx. 20 cm), while FishBase reports a maximum total length of 25 cm — the discrepancy likely reflects the long trailing dorsal filament (the 'threadfin') included in FishBase's total-length measurement. A body length of 20–23 cm is a reasonable expectation for captive adults.\n\nTemperature recommendations also differ across sources: LiveAquaria suggests 72–78°F (22–26°C), while FishBase reports a preferred wild range of 25.5–29°C. An intermediate target of 24–27°C is advised, reflecting both captive hobbyist practice and wild thermal preference. The Auriga Butterflyfish has been documented to form monogamous pair bonds in the wild, and sourcing or keeping a mated pair may improve long-term welfare and behavior in larger aquariums.\n\nNote: FishBase mentions isolated reports of ciguatera poisoning association with this species in the wild, which is of relevance to those collecting wild specimens but does not affect normal captive husbandry.",
-
   "breedingNotes": "Captive breeding of butterflyfishes is rarely achieved. Chaetodon auriga has been documented as monogamous and pair-bonding in the wild. No established captive breeding protocol is widely documented for this species.",
-
   "sources": {
     "primary": {
-      "name":         "LiveAquaria",
-      "url":          "https://www.liveaquaria.com/products/auriga-butterflyfish",
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/auriga-butterflyfish",
       "accessedDate": "2026-06-03",
-      "notes":        null
+      "notes": null
     },
     "additional": [
       {
-        "name":         "FishBase",
-        "url":          "https://www.fishbase.se/summary/chaetodon-auriga",
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/chaetodon-auriga",
         "accessedDate": "2026-06-03",
-        "notes":        "Cross-checked adult size, temperature, native range, and taxonomy. FishBase gives max TL 25 cm vs LiveAquaria's 8 in (20.3 cm) — likely includes dorsal filament. FishBase temperature 25.5–29°C vs LiveAquaria 72–78°F (22.2–25.6°C); averaged to 24–27°C. FishBase confirms Indo-Pacific range and Chaetodontidae/Acanthuriformes taxonomy. Noted monogamous pairing behavior."
+        "notes": "Cross-checked adult size, temperature, native range, and taxonomy. FishBase gives max TL 25 cm vs LiveAquaria's 8 in (20.3 cm) — likely includes dorsal filament. FishBase temperature 25.5–29°C vs LiveAquaria 72–78°F (22.2–25.6°C); averaged to 24–27°C. FishBase confirms Indo-Pacific range and Chaetodontidae/Acanthuriformes taxonomy. Noted monogamous pairing behavior."
       },
       {
-        "name":         "Wikimedia Commons",
-        "url":          "https://commons.wikimedia.org/wiki/File:Chaetodon_auriga.jpg",
+        "name": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Chaetodon_auriga.jpg",
         "accessedDate": "2026-06-03",
-        "notes":        "Image candidate sourced for imageCandidates block; CC BY-SA 3.0 license, photographer Philippe Bourjon."
+        "notes": "Image candidate sourced for imageCandidates block; CC BY-SA 3.0 license, photographer Philippe Bourjon."
       }
     ]
   },
-
   "fish": {
-    "breedingDifficulty":         "not in captivity",
-    "breedingNotes":              "No established captive breeding protocol documented; rarely attempted in the hobby.",
-    "conspecificAggression":      "low",
-    "finNippy":                   false,
-    "reefSafe":                   "no",
-    "escapeRisk":                 "low",
-    "venomousSpines":             false,
-    "protogynous":                null,
-    "haremic":                    false,
-    "caudalScalpel":              false,
-    "nocturnal":                  false,
-    "juvenileColorPhase":         false,
-    "copperSensitive":            null,
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "No established captive breeding protocol documented; rarely attempted in the hobby.",
+    "conspecificAggression": "low",
+    "finNippy": false,
+    "reefSafe": "no",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": null,
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": null,
     "speciesOnlyTankRecommended": false,
-    "requiresHitchingPost":       false,
-    "monogamousPairing":          true,
-    "hlleSusceptible":            null,
-    "toxicToTank":                false,
-    "feedingDifficulty":          "easy"
+    "requiresHitchingPost": false,
+    "monogamousPairing": true,
+    "hlleSusceptible": null,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
-
-  "crustacean":   null,
-  "coral":        null,
-  "mollusc":      null,
-  "echinoderm":   null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
   "other-invert": null,
-  "plant":        null,
-  "macroalgae":   null,
-
+  "plant": null,
+  "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus":    "researched",
-  "lastReviewed":  "2026-06-03"
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-03"
 }

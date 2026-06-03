@@ -6,54 +6,98 @@
   "waterType": "saltwater",
   "commonName": "Tobacco Basslet",
   "scientificName": "Serranus tabacarius",
-  "alsoKnownAs": ["Tobacco Fish", "Tobaccofish", "Tobacco Bass"],
+  "alsoKnownAs": [
+    "Tobacco Fish",
+    "Tobaccofish",
+    "Tobacco Bass"
+  ],
   "category": "Basslet",
-
   "taxonomy": {
     "family": "Serranidae",
     "order": "Perciformes"
   },
-
   "nativeRange": {
-    "regions": ["Western Atlantic", "Caribbean"],
-    "countries": ["United States", "Bermuda", "Brazil", "Bahamas", "Barbados", "Jamaica", "Trinidad", "Honduras"],
+    "regions": [
+      "Western Atlantic",
+      "Caribbean"
+    ],
+    "countries": [
+      "United States",
+      "Bermuda",
+      "Brazil",
+      "Bahamas",
+      "Barbados",
+      "Jamaica",
+      "Trinidad",
+      "Honduras"
+    ],
     "habitat": "Rocky and coral reef bottoms in clear water, typically at depths of 4–70 m; reef-associated and often found in groups on deeper reefs",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 4,
+      "max": 70
+    }
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 23.0, "max": 27.0 },
-    "pH":           { "min": 8.1, "max": 8.4 },
-    "gH":           null,
-    "kH":           { "min": 8.0, "max": 12.0 },
-    "salinity":     { "min": 1.020, "max": 1.025 }
+    "temperatureC": {
+      "min": 23,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-
-  "adultSizeCm": { "min": 5.0, "max": 20.0 },
+  "adultSizeCm": {
+    "min": 5,
+    "max": 20
+  },
   "lifespanYears": null,
-
   "tank": {
     "minVolumeLiters": 300,
     "minLengthCm": 100,
     "swimZone": "mid",
-    "decorPreferences": ["live rock", "caves", "overhangs", "open swimming space"]
+    "decorPreferences": [
+      "live rock",
+      "caves",
+      "overhangs",
+      "open swimming space"
+    ],
+    "minSandDepthCm": null
   },
-
   "careLevel": "beginner",
-
   "diet": {
     "type": "carnivore",
     "notes": "Generally accepts meaty foods such as finely chopped fresh or frozen marine fish, squid, mysis shrimp, and enriched brine shrimp. In the wild, has been observed following goatfishes as they probe sand for invertebrates, suggesting opportunistic feeding on disturbed prey."
   },
-
   "compatibility": {
     "temperament": "semi-aggressive",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["large peaceful fish", "tangs", "angelfish", "larger wrasses", "moderate-sized dottybacks"],
-    "avoidWith": ["small gobies", "small blennies", "small damsels", "small ornamental shrimp", "small crustaceans"]
+    "goodWith": [
+      "large peaceful fish",
+      "tangs",
+      "angelfish",
+      "larger wrasses",
+      "moderate-sized dottybacks"
+    ],
+    "avoidWith": [
+      "small gobies",
+      "small blennies",
+      "small damsels",
+      "small ornamental shrimp",
+      "small crustaceans"
+    ]
   },
-
   "media": {
     "primaryImage": null,
     "gallery": [],
@@ -76,13 +120,9 @@
       }
     ]
   },
-
   "summary": "A colorful Western Atlantic basslet with a distinctive orange-banded pattern. Generally considered suitable for intermediate community reef tanks with caution around very small fish and ornamental crustaceans.",
-
   "careNotes": "The Tobacco Basslet (Serranus tabacarius) is a synchronous hermaphrodite — all individuals of the Serranus genus are capable of functioning as either male or female simultaneously. Multiple specimens can be kept together when introduced at the same time to reduce dominance hierarchies; territory disputes between established specimens tend to be more pronounced. Larger adults have been known to threaten small gobies, blennies, damselfish, and small ornamental crustaceans, so tankmate selection should account for adult size (~20 cm max). The species has been documented reef-associated in the wild but in captivity may investigate or nip at very small ornamental invertebrates, so reef compatibility is rated 'with caution' rather than fully safe. dKH of 8–12 is recommended for standard saltwater chemistry maintenance. LiveAquaria notes a care level of easy; this is reflected in the beginner rating, though keepers should still plan for the adult size and semi-aggressive tendencies. FishBase records a max TL of 22 cm versus LiveAquaria's 7-inch (~18 cm) figure; the averaged max of ~20 cm is used. Temperature range averaged across sources (LiveAquaria 22–26°C, FishBase 25–28°C) gives 23–27°C.",
-
   "breedingNotes": "Synchronous hermaphrodites; captive breeding has not been documented in hobby aquariums. Breeding difficulty is classified as not in captivity for practical purposes.",
-
   "sources": {
     "primary": {
       "name": "LiveAquaria",
@@ -99,7 +139,6 @@
       }
     ]
   },
-
   "fish": {
     "breedingDifficulty": "not in captivity",
     "breedingNotes": "Synchronous hermaphrodite; captive breeding not documented in hobbyist settings.",
@@ -108,7 +147,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": false,
+    "sexChange": "simultaneous",
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -119,9 +158,13 @@
     "monogamousPairing": false,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
-
   "crustacean": null,
   "coral": null,
   "mollusc": null,
@@ -129,7 +172,6 @@
   "other-invert": null,
   "plant": null,
   "macroalgae": null,
-
   "schemaVersion": 1,
   "dataStatus": "researched",
   "lastReviewed": "2026-06-03"

@@ -35,7 +35,11 @@
       "Tonga"
     ],
     "habitat": "Shallow sandy and silty substrates near inner reef lagoons, coastal waters, mangroves, and large tidal pools at depths of 0–18 m",
-    "biotope": "Lagoon"
+    "biotope": "Lagoon",
+    "depthRangeM": {
+      "min": 0,
+      "max": 18
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -70,7 +74,8 @@
       "live rock for shelter",
       "open substrate area for foraging",
       "PVC pipe or cave structures acceptable"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -154,7 +159,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -165,7 +170,12 @@
     "monogamousPairing": true,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": true,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

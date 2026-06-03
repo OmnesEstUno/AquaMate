@@ -26,7 +26,11 @@
       "Captive-bred (Sea & Reef Aquaculture, ORA, and similar facilities)"
     ],
     "habitat": "Does not occur in the wild — this fish is a captive-bred designer hybrid produced by aquaculture facilities by crossing Pseudochromis springeri (Springer's Dottyback, native to the Red Sea) with Pseudochromis aldabraensis (Neon / Orange Dottyback, native to the western Indian Ocean including Aldabra, the Persian Gulf, Gulf of Oman, Pakistan, and Sri Lanka). In the wild the parent species inhabit coral and rocky reefs at roughly 1–25 m depth.",
-    "biotope": "Reef (captive-bred for reef-aquarium use)"
+    "biotope": "Reef (captive-bred for reef-aquarium use)",
+    "depthRangeM": {
+      "min": 1,
+      "max": 25
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -65,7 +69,8 @@
       "crevices",
       "overhangs",
       "rockwork with defendable territory"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
@@ -145,7 +150,7 @@
     "reefSafe": "yes",
     "escapeRisk": "high",
     "venomousSpines": null,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -156,7 +161,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

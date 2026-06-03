@@ -13,25 +13,54 @@
     "order": "Perciformes"
   },
   "nativeRange": {
-    "regions": ["Caribbean", "Western Atlantic"],
-    "countries": ["United States", "Bahamas", "Honduras", "Virgin Islands"],
+    "regions": [
+      "Caribbean",
+      "Western Atlantic"
+    ],
+    "countries": [
+      "United States",
+      "Bahamas",
+      "Honduras",
+      "Virgin Islands"
+    ],
     "habitat": "Found over rubble, silty or sandy bottoms near coral rubble and conch shells; typically at depths of 18–90 m",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 18,
+      "max": 90
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22.8, "max": 26.8 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 22.8,
+      "max": 26.8
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
     "kH": null,
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 5.0, "max": 8.0 },
+  "adultSizeCm": {
+    "min": 5,
+    "max": 8
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 120,
     "minLengthCm": 90,
     "swimZone": "mid",
-    "decorPreferences": ["live rock", "caves", "rubble zones"]
+    "decorPreferences": [
+      "live rock",
+      "caves",
+      "rubble zones"
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
@@ -42,8 +71,14 @@
     "temperament": "semi-aggressive",
     "grouping": "shoaling",
     "minGroupSize": 1,
-    "goodWith": ["most reef fish", "peaceful to semi-aggressive tankmates", "larger shrimp and ornamental crustaceans"],
-    "avoidWith": ["small ornamental shrimp such as Periclimenes species (larger specimens have been known to attack them)"]
+    "goodWith": [
+      "most reef fish",
+      "peaceful to semi-aggressive tankmates",
+      "larger shrimp and ornamental crustaceans"
+    ],
+    "avoidWith": [
+      "small ornamental shrimp such as Periclimenes species (larger specimens have been known to attack them)"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -77,7 +112,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": false,
+    "sexChange": "simultaneous",
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -88,7 +123,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

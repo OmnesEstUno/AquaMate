@@ -6,32 +6,76 @@
   "waterType": "saltwater",
   "commonName": "Copperband Butterflyfish",
   "scientificName": "Chelmon rostratus",
-  "alsoKnownAs": ["Copperband Butterfly", "Beaked Coralfish", "Beaked Butterflyfish", "Orange Stripe Butterfly"],
+  "alsoKnownAs": [
+    "Copperband Butterfly",
+    "Beaked Coralfish",
+    "Beaked Butterflyfish",
+    "Orange Stripe Butterfly"
+  ],
   "category": "Butterflyfish",
   "taxonomy": {
     "family": "Chaetodontidae",
     "order": "Acanthuriformes"
   },
   "nativeRange": {
-    "regions": ["Western Pacific", "Indo-Pacific"],
-    "countries": ["Australia", "Indonesia", "Malaysia", "Philippines", "Japan", "Thailand", "Singapore"],
+    "regions": [
+      "Western Pacific",
+      "Indo-Pacific"
+    ],
+    "countries": [
+      "Australia",
+      "Indonesia",
+      "Malaysia",
+      "Philippines",
+      "Japan",
+      "Thailand",
+      "Singapore"
+    ],
     "habitat": "Rocky shores and coral reefs; also occurs in estuaries and silty inner reefs at depths of roughly 1–25 m.",
-    "biotope": "Reef-associated, non-migratory; typically encountered singly or in pairs."
+    "biotope": "Reef-associated, non-migratory; typically encountered singly or in pairs.",
+    "depthRangeM": {
+      "min": 1,
+      "max": 25
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 27 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 23,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 15, "max": 20 },
-  "lifespanYears": { "min": 5, "max": 10 },
+  "adultSizeCm": {
+    "min": 15,
+    "max": 20
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 10
+  },
   "tank": {
     "minVolumeLiters": 400,
     "minLengthCm": 150,
     "swimZone": "all",
-    "decorPreferences": ["live rock with crevices", "open swimming space", "established reef", "mature aquarium (6+ months)"]
+    "decorPreferences": [
+      "live rock with crevices",
+      "open swimming space",
+      "established reef",
+      "mature aquarium (6+ months)"
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "advanced",
   "diet": {
@@ -42,8 +86,25 @@
     "temperament": "peaceful",
     "grouping": "pair",
     "minGroupSize": 1,
-    "goodWith": ["peaceful tangs", "wrasses", "cardinalfish", "clownfish", "small angelfish", "gobies"],
-    "avoidWith": ["other Chelmon or similar butterflyfish", "aggressive damselfish", "triggers", "large angels", "ornamental shrimp", "feather dusters", "tube worms", "clams", "prized LPS corals"]
+    "goodWith": [
+      "peaceful tangs",
+      "wrasses",
+      "cardinalfish",
+      "clownfish",
+      "small angelfish",
+      "gobies"
+    ],
+    "avoidWith": [
+      "other Chelmon or similar butterflyfish",
+      "aggressive damselfish",
+      "triggers",
+      "large angels",
+      "ornamental shrimp",
+      "feather dusters",
+      "tube worms",
+      "clams",
+      "prized LPS corals"
+    ]
   },
   "media": {
     "primaryImage": "copperband_butterfly.jpg",
@@ -82,7 +143,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": false,
+    "sexChange": "none",
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -93,7 +154,12 @@
     "monogamousPairing": true,
     "hlleSusceptible": true,
     "toxicToTank": false,
-    "feedingDifficulty": "difficult"
+    "feedingDifficulty": "difficult",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

@@ -26,7 +26,11 @@
       "India"
     ],
     "habitat": "Shallow coral and rocky reefs, found solitary or in small loose groups on mixed coral and rubble areas of lagoons and outer slopes at depths of roughly 2–31 m.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 2,
+      "max": 31
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -61,7 +65,8 @@
       "open swimming space",
       "fine sand bed at least 5 cm deep for burrowing",
       "tightly fitting lid"
-    ]
+    ],
+    "minSandDepthCm": 5
   },
   "careLevel": "beginner",
   "diet": {
@@ -91,7 +96,9 @@
   },
   "media": {
     "primaryImage": null,
-    "gallery": ["https://upload.wikimedia.org/wikipedia/commons/7/7c/Adorned_wrasse%2C_terminal_phase_-_Halichoeres_cosmetus.jpg"],
+    "gallery": [
+      "https://upload.wikimedia.org/wikipedia/commons/7/7c/Adorned_wrasse%2C_terminal_phase_-_Halichoeres_cosmetus.jpg"
+    ],
     "imageCandidates": null
   },
   "summary": "A small, brightly coloured Western Indian Ocean wrasse with iridescent tangerine stripes over a bluish-green body. Generally hardy and considered reef-safe with caution, though it tends to predate on small ornamental invertebrates.",
@@ -127,7 +134,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": true,
+    "sexChange": "protandrous",
     "haremic": true,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -138,7 +145,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": null,
     "toxicToTank": false,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

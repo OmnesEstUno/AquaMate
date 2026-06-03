@@ -6,32 +6,60 @@
   "waterType": "saltwater",
   "commonName": "Ruby Longfin Fairy Wrasse",
   "scientificName": "Cirrhilabrus rubeus",
-  "alsoKnownAs": ["Blue and Red Fairy Wrasse"],
+  "alsoKnownAs": [
+    "Blue and Red Fairy Wrasse"
+  ],
   "category": "Wrasse",
   "taxonomy": {
     "family": "Labridae",
     "order": "Eupercaria"
   },
   "nativeRange": {
-    "regions": ["Central Indian Ocean"],
-    "countries": ["Sri Lanka", "Maldives"],
+    "regions": [
+      "Central Indian Ocean"
+    ],
+    "countries": [
+      "Sri Lanka",
+      "Maldives"
+    ],
     "habitat": "Reef-associated, tropical marine waters",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 26 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 22,
+      "max": 26
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 5, "max": 8 },
+  "adultSizeCm": {
+    "min": 5,
+    "max": 8
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 200,
     "minLengthCm": 90,
     "swimZone": "mid",
-    "decorPreferences": ["open swimming space", "live rock", "caves and overhangs"]
+    "decorPreferences": [
+      "open swimming space",
+      "live rock",
+      "caves and overhangs"
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
@@ -42,8 +70,17 @@
     "temperament": "peaceful",
     "grouping": "pair",
     "minGroupSize": 1,
-    "goodWith": ["reef-safe fish", "corals", "invertebrates", "other fairy wrasses (introduced simultaneously)", "peaceful community saltwater fish"],
-    "avoidWith": ["aggressive fish", "large predatory fish"]
+    "goodWith": [
+      "reef-safe fish",
+      "corals",
+      "invertebrates",
+      "other fairy wrasses (introduced simultaneously)",
+      "peaceful community saltwater fish"
+    ],
+    "avoidWith": [
+      "aggressive fish",
+      "large predatory fish"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -77,7 +114,7 @@
     "reefSafe": "yes",
     "escapeRisk": "moderate",
     "venomousSpines": false,
-    "protogynous": true,
+    "sexChange": "protogynous",
     "haremic": true,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -88,7 +125,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

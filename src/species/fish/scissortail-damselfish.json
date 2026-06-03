@@ -38,7 +38,11 @@
       "Papua New Guinea"
     ],
     "habitat": "Reef-associated, inhabiting inshore and offshore coral reefs as well as harbors and protected outer reef slopes; depth range approximately 5–30 m. Has been documented forming loose shoals in current-prone habitats. An established invasive population has been reported in the Gulf of Mexico and Caribbean since around 2013.",
-    "biotope": "Coral reef"
+    "biotope": "Coral reef",
+    "depthRangeM": {
+      "min": 5,
+      "max": 30
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -76,7 +80,8 @@
       "open swimming space",
       "caves",
       "rubble"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
@@ -158,7 +163,7 @@
     "reefSafe": "yes",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": false,
@@ -169,7 +174,12 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

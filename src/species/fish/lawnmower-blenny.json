@@ -25,7 +25,11 @@
     ],
     "countries": [],
     "habitat": "Shallow reef flats, lagoons, and intertidal zones with mixed coral, sand, and rubble; usually 0-8 m depth.",
-    "biotope": "Algae-covered rocky rubble on shallow tropical reefs."
+    "biotope": "Algae-covered rocky rubble on shallow tropical reefs.",
+    "depthRangeM": {
+      "min": 0,
+      "max": 8
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -62,7 +66,8 @@
       "live rock with algae growth",
       "rubble and rockwork crevices",
       "tightly fitted lid"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -128,7 +133,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": false,
+    "sexChange": "none",
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -139,7 +144,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": null
+    "feedingDifficulty": null,
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

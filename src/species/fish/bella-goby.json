@@ -26,12 +26,16 @@
       "Indonesia"
     ],
     "habitat": "Coastal reefs with rubble, rock, and sand bottoms at depths of approximately 12–35 m; typically encountered singly or in pairs.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 12,
+      "max": 35
+    }
   },
   "waterParameters": {
     "temperatureC": {
-      "min": 24.0,
-      "max": 28.0
+      "min": 24,
+      "max": 28
     },
     "pH": {
       "min": 8.1,
@@ -43,12 +47,12 @@
       "max": 12
     },
     "salinity": {
-      "min": 1.020,
+      "min": 1.02,
       "max": 1.025
     }
   },
   "adultSizeCm": {
-    "min": 5.0,
+    "min": 5,
     "max": 7.6
   },
   "lifespanYears": null,
@@ -61,7 +65,8 @@
       "stable live rock arranged on tank bottom (not atop sand)",
       "sparse open sand areas for foraging",
       "tight-fitting lid to prevent jumping"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -131,7 +136,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": false,
+    "sexChange": "none",
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -142,7 +147,12 @@
     "monogamousPairing": true,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "moderate"
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": null,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,

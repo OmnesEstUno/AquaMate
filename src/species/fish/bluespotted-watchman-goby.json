@@ -18,20 +18,48 @@
     "order": "Gobiiformes"
   },
   "nativeRange": {
-    "regions": ["Western Central Pacific", "Indo-Pacific"],
-    "countries": ["Indonesia", "Fiji"],
+    "regions": [
+      "Western Central Pacific",
+      "Indo-Pacific"
+    ],
+    "countries": [
+      "Indonesia",
+      "Fiji"
+    ],
     "habitat": "Coastal seafloors at depths of about 1–15 m, generally over sand and rubble adjacent to reefs.",
-    "biotope": "Reef"
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 1,
+      "max": 15
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 27 },
-    "pH": { "min": 8.0, "max": 8.4 },
+    "temperatureC": {
+      "min": 24,
+      "max": 27
+    },
+    "pH": {
+      "min": 8,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.022, "max": 1.026 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.022,
+      "max": 1.026
+    }
   },
-  "adultSizeCm": { "min": 12, "max": 15 },
-  "lifespanYears": { "min": 3, "max": 5 },
+  "adultSizeCm": {
+    "min": 12,
+    "max": 15
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 120,
     "minLengthCm": 90,
@@ -42,7 +70,8 @@
       "rockwork with caves and overhangs",
       "open swimming space along the bottom",
       "tight-fitting lid to prevent jumping"
-    ]
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
@@ -109,7 +138,7 @@
     "reefSafe": "yes",
     "escapeRisk": "high",
     "venomousSpines": false,
-    "protogynous": null,
+    "sexChange": null,
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -120,7 +149,12 @@
     "monogamousPairing": false,
     "hlleSusceptible": false,
     "toxicToTank": false,
-    "feedingDifficulty": "easy"
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": true,
+    "mouthbrooder": null,
+    "constantGrazer": null,
+    "cleanerFish": null,
+    "euryhaline": null
   },
   "crustacean": null,
   "coral": null,
