@@ -1,0 +1,136 @@
+{
+  "id": "sw-fish-548",
+  "slug": "tobacco-basslet",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Tobacco Basslet",
+  "scientificName": "Serranus tabacarius",
+  "alsoKnownAs": ["Tobacco Fish", "Tobaccofish", "Tobacco Bass"],
+  "category": "Basslet",
+
+  "taxonomy": {
+    "family": "Serranidae",
+    "order": "Perciformes"
+  },
+
+  "nativeRange": {
+    "regions": ["Western Atlantic", "Caribbean"],
+    "countries": ["United States", "Bermuda", "Brazil", "Bahamas", "Barbados", "Jamaica", "Trinidad", "Honduras"],
+    "habitat": "Rocky and coral reef bottoms in clear water, typically at depths of 4–70 m; reef-associated and often found in groups on deeper reefs",
+    "biotope": "Reef"
+  },
+
+  "waterParameters": {
+    "temperatureC": { "min": 23.0, "max": 27.0 },
+    "pH":           { "min": 8.1, "max": 8.4 },
+    "gH":           null,
+    "kH":           { "min": 8.0, "max": 12.0 },
+    "salinity":     { "min": 1.020, "max": 1.025 }
+  },
+
+  "adultSizeCm": { "min": 5.0, "max": 20.0 },
+  "lifespanYears": null,
+
+  "tank": {
+    "minVolumeLiters": 300,
+    "minLengthCm": 100,
+    "swimZone": "mid",
+    "decorPreferences": ["live rock", "caves", "overhangs", "open swimming space"]
+  },
+
+  "careLevel": "beginner",
+
+  "diet": {
+    "type": "carnivore",
+    "notes": "Generally accepts meaty foods such as finely chopped fresh or frozen marine fish, squid, mysis shrimp, and enriched brine shrimp. In the wild, has been observed following goatfishes as they probe sand for invertebrates, suggesting opportunistic feeding on disturbed prey."
+  },
+
+  "compatibility": {
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["large peaceful fish", "tangs", "angelfish", "larger wrasses", "moderate-sized dottybacks"],
+    "avoidWith": ["small gobies", "small blennies", "small damsels", "small ornamental shrimp", "small crustaceans"]
+  },
+
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": [
+      {
+        "url": "https://www.fishbase.se/images/species/Setab_u4.jpg",
+        "source": "FishBase",
+        "sourceType": "fishbase",
+        "license": "All rights reserved (Steele, M.A.)",
+        "notes": "FishBase professional photo, Jamaica, photographer M.A. Steele. Full URL constructed from thumbnail path tn_Setab_u4.jpg on the species summary page (ID 3349).",
+        "recommended": true
+      },
+      {
+        "url": "https://www.fishbase.se/images/species/Setab_u2.jpg",
+        "source": "FishBase",
+        "sourceType": "fishbase",
+        "license": "All rights reserved (Pialek, L.)",
+        "notes": "FishBase professional photo, Saint Vincent and Grenadines, photographer L. Pialek.",
+        "recommended": false
+      }
+    ]
+  },
+
+  "summary": "A colorful Western Atlantic basslet with a distinctive orange-banded pattern. Generally considered suitable for intermediate community reef tanks with caution around very small fish and ornamental crustaceans.",
+
+  "careNotes": "The Tobacco Basslet (Serranus tabacarius) is a synchronous hermaphrodite — all individuals of the Serranus genus are capable of functioning as either male or female simultaneously. Multiple specimens can be kept together when introduced at the same time to reduce dominance hierarchies; territory disputes between established specimens tend to be more pronounced. Larger adults have been known to threaten small gobies, blennies, damselfish, and small ornamental crustaceans, so tankmate selection should account for adult size (~20 cm max). The species has been documented reef-associated in the wild but in captivity may investigate or nip at very small ornamental invertebrates, so reef compatibility is rated 'with caution' rather than fully safe. dKH of 8–12 is recommended for standard saltwater chemistry maintenance. LiveAquaria notes a care level of easy; this is reflected in the beginner rating, though keepers should still plan for the adult size and semi-aggressive tendencies. FishBase records a max TL of 22 cm versus LiveAquaria's 7-inch (~18 cm) figure; the averaged max of ~20 cm is used. Temperature range averaged across sources (LiveAquaria 22–26°C, FishBase 25–28°C) gives 23–27°C.",
+
+  "breedingNotes": "Synchronous hermaphrodites; captive breeding has not been documented in hobby aquariums. Breeding difficulty is classified as not in captivity for practical purposes.",
+
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/tobacco-basslet",
+      "accessedDate": "2026-06-03",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Serranus-tabacarius.html",
+        "accessedDate": "2026-06-03",
+        "notes": "Cross-checked adult size (FishBase max 22 cm TL vs LiveAquaria 7 in / ~18 cm), temperature range (FishBase 24.8–28°C vs LiveAquaria 72–78°F / 22–26°C), native distribution, taxonomy, and diet. Size and temperature values averaged across both sources. FishBase species ID 3349."
+      }
+    ]
+  },
+
+  "fish": {
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "Synchronous hermaphrodite; captive breeding not documented in hobbyist settings.",
+    "conspecificAggression": "moderate",
+    "finNippy": false,
+    "reefSafe": "with caution",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "protogynous": false,
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy"
+  },
+
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-03"
+}

@@ -1,0 +1,109 @@
+{
+  "id": "sw-fish-546",
+  "slug": "swales-swissguard-basslet",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Swales Swissguard Basslet",
+  "scientificName": "Liopropoma swalesi",
+  "alsoKnownAs": ["Swalesi Basslet", "Swale's Swissguard"],
+  "category": "Basslet",
+  "taxonomy": {
+    "family": "Liopropomatidae",
+    "order": "Perciformes"
+  },
+  "nativeRange": {
+    "regions": ["Indo-Pacific", "Western Pacific"],
+    "countries": ["Vanuatu", "Philippines", "Indonesia", "Papua New Guinea"],
+    "habitat": "Reef-associated; tends to be found at moderate to greater depths among dense coral formations",
+    "biotope": "Reef"
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 24, "max": 27 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.020, "max": 1.025 }
+  },
+  "adultSizeCm": { "min": 3, "max": 6 },
+  "lifespanYears": null,
+  "tank": {
+    "minVolumeLiters": 120,
+    "minLengthCm": null,
+    "swimZone": "bottom",
+    "decorPreferences": ["live rock", "caves", "crevices", "overhangs"]
+  },
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Generally accepts marine fish flesh, crustacean flesh, mysis shrimp, and quality frozen preparations. Has been known to accept a variety of meaty foods once acclimated."
+  },
+  "compatibility": {
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["peaceful reef fish", "larger invertebrates", "corals"],
+    "avoidWith": ["small ornamental crustaceans that fit in its mouth", "aggressive fish"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A small, secretive reef basslet from the Indo-Pacific, generally considered reef-safe and noted for striking orange and purple horizontal striping. Tends to occupy caves and rockwork and may pose a risk to very small ornamental crustaceans.",
+  "careNotes": "Liopropoma swalesi is generally considered reef-safe and tends to shelter within live rock caves and crevices; providing ample rockwork with hiding spots is strongly advised. Has been reported to potentially threaten very small ornamental crustaceans that fit within its mouth. Sources differ on care level — LiveAquaria rates it moderate while BlueZoo Aquatics rates it beginner; intermediate is a reasonable middle ground given its secretive habits and need for stable reef water quality. Temperature recommendations also varied between sources: LiveAquaria suggests 72–78°F (22–26°C) while FishBase reports a preferred wild range of approximately 26–29°C; a target of 24–27°C is suggested to cover both. Note on family: LiveAquaria lists the family as Grammidae, but FishBase and current taxonomy place the species in Liopropomatidae — the latter is used here. FishBase records a maximum total length of 5.6 cm; hobby sources report up to approximately 3 inches (7.6 cm).",
+  "breedingNotes": null,
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/swales-swissguard-basslet",
+      "accessedDate": "2026-06-03",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "BlueZoo Aquatics",
+        "url": "https://www.bluezooaquatics.com/productDetail.asp?did=1&cid=11&pid=354",
+        "accessedDate": "2026-06-03",
+        "notes": "Cross-checked adult size, tank size, temperament, and care level. BlueZoo reports 2.5 in adult size (vs LiveAquaria 3 in), 30 gal minimum tank (vs LiveAquaria 10 gal), peaceful temperament (vs LiveAquaria semi-aggressive), and beginner care level (vs LiveAquaria moderate)."
+      },
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Liopropoma-swalesi.html",
+        "accessedDate": "2026-06-03",
+        "notes": "Cross-checked adult size (5.6 cm TL), taxonomy (family Liopropomatidae, order Perciformes), preferred temperature range (26.4–28.6°C), and native range (Vanuatu, Philippines, Indonesia, Papua New Guinea). FishBase is authoritative on taxonomy and was used to correct the family name from Grammidae to Liopropomatidae."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": null,
+    "breedingNotes": null,
+    "conspecificAggression": "moderate",
+    "finNippy": false,
+    "reefSafe": "with caution",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "protogynous": null,
+    "haremic": null,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "moderate"
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-03"
+}

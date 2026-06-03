@@ -1,0 +1,103 @@
+{
+  "id": "sw-fish-554",
+  "slug": "zebra-catalina-goby",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Zebra Catalina Goby",
+  "scientificName": "Lythrypnus zebra",
+  "alsoKnownAs": ["Manybanded Goby", "Zebra Goby"],
+  "category": "Goby",
+  "taxonomy": {
+    "family": "Gobiidae",
+    "order": "Gobiiformes"
+  },
+  "nativeRange": {
+    "regions": ["Eastern Pacific"],
+    "countries": ["United States", "Mexico"],
+    "habitat": "Rocky areas, caves and crevices; intertidal to depths around 97 m",
+    "biotope": "Coastal"
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 13.0, "max": 24.0 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": null,
+    "salinity": { "min": 1.020, "max": 1.025 }
+  },
+  "adultSizeCm": { "min": 3.0, "max": 5.7 },
+  "lifespanYears": { "min": 1.0, "max": 3.0 },
+  "tank": {
+    "minVolumeLiters": 75,
+    "minLengthCm": 60,
+    "swimZone": "bottom",
+    "decorPreferences": ["live rock", "caves", "crevices", "rockwork"]
+  },
+  "careLevel": "expert",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Tends to accept most prepared carnivore foods, mysis shrimp, table shrimp, and vitamin-enriched brine shrimp. Feeding twice daily has been recommended."
+  },
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "shoaling",
+    "minGroupSize": 1,
+    "goodWith": ["peaceful reef fish", "small invertebrates", "other gobies of similar size"],
+    "avoidWith": ["large aggressive fish", "conspecifics in small tanks"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A small, vividly striped goby from the temperate Eastern Pacific, with a red body marked by many narrow vertical blue bands. Generally considered a challenging species due to its preference for cooler water than typical tropical marine aquariums.",
+  "careNotes": "The Zebra Catalina Goby is a temperate species native to rocky coastal waters from central California to Mexico, where it shelters in caves and crevices. It is most commonly advised to keep this species at cooler temperatures (roughly 13–24°C), well below the warmer conditions of most tropical reef systems — exposure to sustained tropical temperatures has been associated with reduced disease resistance and shortened lifespan. A tight-fitting lid is strongly recommended as gobies in general have been observed to jump. In the aquarium it has been reported to dart through rockwork and perch at favored lookout spots. Small groups can be kept together, though quarrels among conspecifics may occur in undersized tanks. This species is a simultaneous hermaphrodite, capable of sex change in both directions; males guard eggs attached to shelter roofs. Also sold under the trade name 'Manybanded Goby'. FishBase records a maximum reported age of approximately 1 year in the wild; captive lifespans may be longer under optimal cool-water conditions. Note: do not confuse with the closely related Catalina Goby (Lythrypnus dalli, Bluebanded Goby), which co-occurs in the same range and is sometimes sold under overlapping trade names.",
+  "breedingNotes": "Oviparous simultaneous hermaphrodite. Males have been observed guarding eggs attached to the roof of shelter crevices. Captive breeding has not been well-documented in hobby literature.",
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/zebra-catalina-goby-expert-only",
+      "accessedDate": "2026-06-03",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/lythrypnus-zebra",
+        "accessedDate": "2026-06-03",
+        "notes": "Cross-checked adult size (max 5.7 cm TL), temperature range (13.2–26.9°C wild preference), native range (Eastern Pacific, Carmel Bay CA to Clarión Island Mexico), taxonomy, reproductive behavior (simultaneous hermaphrodite, male egg-guarding). FishBase wild temperature range is broader than LiveAquaria's aquarium recommendation of 68–75°F (20–24°C); aquarium guidance from LiveAquaria used for upper bound; wild lower bound of ~13°C retained. Size: LiveAquaria states 2 in (5.08 cm), FishBase max 5.7 cm; FishBase value used as maximum."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "difficult",
+    "breedingNotes": "Simultaneous hermaphrodite capable of bi-directional sex change. Males guard eggs in shelter roofs. Captive breeding is not well-documented.",
+    "conspecificAggression": "low",
+    "finNippy": false,
+    "reefSafe": "yes",
+    "escapeRisk": "high",
+    "venomousSpines": false,
+    "protogynous": false,
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy"
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-03"
+}

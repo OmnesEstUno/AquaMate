@@ -1,0 +1,115 @@
+{
+  "id": "sw-fish-547",
+  "slug": "ternate-damselfish",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Ternate Damselfish",
+  "scientificName": "Amblyglyphidodon ternatensis",
+  "alsoKnownAs": ["Ternate Damsel"],
+  "category": "Damselfish",
+  "taxonomy": {
+    "family": "Pomacentridae",
+    "order": "Ovalentaria"
+  },
+  "nativeRange": {
+    "regions": ["Western Pacific", "Indo-Pacific"],
+    "countries": ["Indonesia", "Solomon Islands", "Japan", "Palau"],
+    "habitat": "Coral-rich sheltered coastal reefs; associated with algae and staghorn/dead coral sections at depths of 1–15 m",
+    "biotope": "Reef"
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 24.0, "max": 28.0 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": { "min": 8.0, "max": 12.0 },
+    "salinity": { "min": 1.020, "max": 1.025 }
+  },
+  "adultSizeCm": { "min": 5.0, "max": 10.0 },
+  "lifespanYears": null,
+  "tank": {
+    "minVolumeLiters": 120,
+    "minLengthCm": 90,
+    "swimZone": "mid",
+    "decorPreferences": ["live rock", "coral rubble", "dead coral branches", "caves", "crevices"]
+  },
+  "careLevel": "beginner",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Has been documented accepting meaty foods, herbivore flakes, and frozen preparations. Generally adapts well to prepared aquarium foods. Wild diet consists of zooplankton and algae."
+  },
+  "compatibility": {
+    "temperament": "semi-aggressive",
+    "grouping": "pair",
+    "minGroupSize": 1,
+    "goodWith": ["peaceful reef fish", "corals", "invertebrates"],
+    "avoidWith": ["other damselfishes", "similarly-sized semi-aggressive fish", "slow or timid fish"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A small Indo-Pacific damselfish from sheltered coral reefs, generally considered reef-safe and relatively easy to keep; tends to become territorial as it matures, particularly toward conspecifics.",
+  "careNotes": "Generally considered an easy damselfish suitable for intermediate-to-beginner marine aquarists. Has been reported to become increasingly territorial with age, particularly toward conspecifics and similarly-sized tankmates. Plenty of live rock with multiple hiding places and territories is advised to reduce aggression. Spawning pairs have been known to deposit eggs on coral skeletons and cleared dead coral sections; male guards and aerates the eggs. Adults have been documented aggregating with the related species Amblyglyphidodon curacao. This species is presently uncommon in the aquarium trade.\n\nNote on temperature: LiveAquaria lists 72–78°F (22.2–25.6°C), while FishBase wild-habitat data indicates 27.4–29.3°C. The FishBase range reflects actual Indo-Pacific reef conditions; the aquarium-hobby range may reflect broader captive tolerance. A working range of 24–28°C is used here, but a reviewer should verify which end of the spectrum is safe for long-term captive husbandry.\n\nNote on size: LiveAquaria lists 3 inches (~7.6 cm) as the typical aquarium size; FishBase records a maximum of 10.0 cm SL (standard length). Both figures are credible — the FishBase value represents the maximum recorded in the wild, while the LiveAquaria figure may reflect common captive adult size. Range of 5–10 cm is used.",
+  "breedingNotes": "Has been reported to breed in captivity similarly to other damselfishes. Pairs claim a small territory on the reef and deposit eggs on cleared flat surfaces, typically dead coral branches or rubble. The male guards and aerates the eggs until hatching. Breeding pairs may become notably more aggressive toward tankmates during spawning.",
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/ternate-damselfish",
+      "accessedDate": "2026-06-03",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Amblyglyphidodon-ternatensis.html",
+        "accessedDate": "2026-06-03",
+        "notes": "Cross-checked adult size (10.0 cm SL vs LiveAquaria's 3 in/7.6 cm), temperature range (27.4–29.3°C vs LiveAquaria's 72–78°F/22.2–25.6°C), native range, taxonomy, and behavior. Significant temperature disagreement flagged in careNotes."
+      },
+      {
+        "name": "Reef2Reef wiki",
+        "url": "https://www.reef2reef.com/wiki/Amblyglyphidodon_ternatensis",
+        "accessedDate": "2026-06-03",
+        "notes": "Attempted access — returned HTTP 403 Forbidden. No data retrieved."
+      },
+      {
+        "name": "BlueZoo Aquatics",
+        "url": "https://www.bluezooaquatics.com/",
+        "accessedDate": "2026-06-03",
+        "notes": "Attempted as tertiary secondary — no species-specific page found for this species."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "moderate",
+    "breedingNotes": "Oviparous; pairs form and deposit eggs on dead coral or rubble; male guards and aerates eggs. Has been reported to breed in suitably sized reef aquariums.",
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "with caution",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "protogynous": null,
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy"
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "needs_review",
+  "lastReviewed": "2026-06-03"
+}
