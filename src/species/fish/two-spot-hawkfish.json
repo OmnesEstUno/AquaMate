@@ -1,0 +1,103 @@
+{
+  "id": "sw-fish-427",
+  "slug": "two-spot-hawkfish",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Two Spot Hawkfish",
+  "scientificName": "Amblycirrhitus bimacula",
+  "alsoKnownAs": ["Twospot Hawkfish", "Two-Spot Hawkfish"],
+  "category": "Hawkfish",
+  "taxonomy": {
+    "family": "Cirrhitidae",
+    "order": "Centrarchiformes"
+  },
+  "nativeRange": {
+    "regions": ["Indo-Pacific", "East Africa", "Hawaii", "Micronesia"],
+    "countries": ["Kenya", "Tanzania", "Mozambique", "Japan", "Taiwan", "United States (Hawaii)", "Marshall Islands", "French Polynesia"],
+    "habitat": "Reef-associated; found in or near interstices of rock, coral, or rubble, typically at depths of 2–15 m in areas exposed to moderate surge or currents",
+    "biotope": "Reef"
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 23.5, "max": 27.5 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": { "min": 8.0, "max": 12.0 },
+    "salinity": { "min": 1.020, "max": 1.025 }
+  },
+  "adultSizeCm": { "min": 7.0, "max": 8.5 },
+  "lifespanYears": null,
+  "tank": {
+    "minVolumeLiters": 120,
+    "minLengthCm": null,
+    "swimZone": "bottom",
+    "decorPreferences": ["live rock", "rubble zones", "caves", "crevices", "overhangs"]
+  },
+  "careLevel": "beginner",
+  "diet": {
+    "type": "carnivore",
+    "notes": "In the wild, tends to feed on small crustaceans. In captivity, has been documented accepting a variety of marine meats, frozen mysis, and prepared meaty foods; live feeder shrimp may be offered to encourage feeding in newly acquired specimens."
+  },
+  "compatibility": {
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["peaceful large fish", "non-small invertebrate corals", "larger gobies", "tangs", "angelfish"],
+    "avoidWith": ["small ornamental shrimp", "small fish that fit in mouth", "larger aggressive hawkfish species", "aggressive triggers"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A secretive, perch-and-ambush predator from Indo-Pacific reefs, generally considered hardy and suitable for beginner reef keepers with caution around small shrimp and tiny fish.",
+  "careNotes": "Two Spot Hawkfish are generally considered hardy and relatively straightforward to keep. They tend to perch motionless on rockwork or rubble, lunging at passing prey rather than actively swimming. Plenty of hiding places and rockwork crevices are advised, as the species has been reported to be secretive and territorial about its preferred perch. They have been known to consume small ornamental shrimp and small fish that fit in their mouth, so reef compatibility is generally listed as 'with caution'. Should not be housed with larger, more aggressive hawkfish species. Temperature sources disagree slightly: LiveAquaria recommends 72–78°F (22.2–25.6°C) while FishBase wild-habitat data indicates 25.2–29.3°C; the written range of 23.5–27.5°C represents the averaged midpoint. Adult size also shows minor source variation: LiveAquaria states 3 in (7.62 cm) and FishBase records a maximum of 8.5 cm standard length. The species is identified on FishBase as Amblycirrhitus bimacula (Jenkins, 1903); LiveAquaria uses the alternate spelling Amblycirrhites bimacula, which appears to be a trade-name variant. Cirrhitidae hawkfish are not known to be copper-sensitive unlike scaleless fish, but standard caution with invertebrates applies.",
+  "breedingNotes": null,
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/two-spot-hawkfish",
+      "accessedDate": "2026-06-03",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/5829",
+        "accessedDate": "2026-06-03",
+        "notes": "Cross-checked adult size, temperature range, native range, taxonomy, and habitat. FishBase records adult size as 8.5 cm SL and temperature range 25.2–29.3°C (mean 28.4°C). Temperature averaged with LiveAquaria's 22.2–25.6°C to produce final range of 23.5–27.5°C."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": null,
+    "breedingNotes": null,
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "with caution",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "protogynous": null,
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy"
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-03"
+}

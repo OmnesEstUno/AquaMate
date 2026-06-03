@@ -1,0 +1,119 @@
+{
+  "id": "sw-fish-444",
+  "slug": "assorted-wartskin-angler",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Assorted Wartskin Angler",
+  "scientificName": "Antennarius maculatus",
+  "alsoKnownAs": ["Wartskin Frogfish", "Warty Frogfish", "Clown Frogfish", "Wartskin Anglerfish"],
+  "category": "Anglers & Frogfish",
+
+  "taxonomy": {
+    "family": "Antennariidae",
+    "order": "Lophiiformes"
+  },
+
+  "nativeRange": {
+    "regions": ["Indo-Pacific", "West Pacific"],
+    "countries": ["Maldives", "Mauritius", "Indonesia", "Singapore", "Philippines", "Papua New Guinea", "Solomon Islands", "New Caledonia"],
+    "habitat": "Sheltered rocky reefs, commonly found among sponges, soft corals, and algae at depths of 1–15 m",
+    "biotope": "Reef"
+  },
+
+  "waterParameters": {
+    "temperatureC": { "min": 23, "max": 28 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.020, "max": 1.025 }
+  },
+
+  "adultSizeCm": { "min": 2.5, "max": 15 },
+  "lifespanYears": null,
+
+  "tank": {
+    "minVolumeLiters": 75,
+    "minLengthCm": 60,
+    "swimZone": "bottom",
+    "decorPreferences": ["live rock", "sponges", "coral ledges", "caves", "rubble zones"]
+  },
+
+  "careLevel": "intermediate",
+
+  "diet": {
+    "type": "carnivore",
+    "notes": "An ambush predator that feeds primarily on fish and crustaceans; tends to lunge and swallow prey whole. Newly acquired specimens generally need live saltwater feeder shrimp or small ghost shrimp to initiate a feeding response; many individuals can eventually be weaned onto frozen meaty foods such as silversides or frozen shrimp offered on a feeding stick. Overfeeding should be avoided, as satiated individuals have been known to refuse food for extended periods."
+  },
+
+  "compatibility": {
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["larger docile fish that cannot fit in the angler's mouth", "non-aggressive fish of similar or larger size"],
+    "avoidWith": ["small fish", "ornamental shrimp", "small crustaceans", "fish small enough to be swallowed whole", "conspecifics unless well-fed and closely monitored"]
+  },
+
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+
+  "summary": "A master of camouflage, the Wartskin Angler uses a worm-like lure to ambush prey. Generally considered reef-safe with caution; best kept with tankmates too large to swallow. Feeding can require patience initially.",
+
+  "careNotes": "The Wartskin Angler (Antennarius maculatus) is generally considered an intermediate-level species due primarily to its specialized feeding requirements rather than water-quality demands — it tends to be hardy once established. The species is found solitary among sponges and soft corals on sheltered Indo-Pacific reefs, and tends to remain nearly motionless for extended periods, making it well-suited to smaller aquariums despite its predatory nature. It has a remarkable chameleonic ability to change color to blend with surrounding substrates, and is sold in a variety of color morphs including pink, yellow, white, orange, and black. Specimens are best kept species-only or with fish and invertebrates too large to be consumed; a newly introduced specimen has been known to consume tankmates significantly larger than expected. A tightly fitting lid is advisable as individuals have occasionally been observed leaving the water. Live rock with sponge growth, caves, and coral ledges provide natural perching and hunting habitat.\n\nCross-source note on temperature: LiveAquaria recommends 72–78°F (22–26°C), while FishBase wild-habitat data records 25.2–29.3°C in the Indo-Pacific. The values used here (23–28°C) represent an averaged range; aquarists in warmer reef systems (26–28°C) report good results. The 22°C lower bound from LiveAquaria may reflect temperature tolerance rather than the species' preferred wild range.\n\nCross-source note on adult size: LiveAquaria lists 4 inches (~10 cm) while FishBase records a scientific maximum of 15 cm TL. The 15 cm figure is the documented wild maximum; most aquarium specimens are sold and remain at 5–10 cm.",
+
+  "breedingNotes": "Oviparous; eggs are enclosed in a ribbon-like egg raft of gelatinous mucus. Breeding in captivity has been reported but is considered uncommon; detailed captive breeding documentation is limited.",
+
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/wartskin-angler",
+      "accessedDate": "2026-06-03",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Antennarius-maculatus.html",
+        "accessedDate": "2026-06-03",
+        "notes": "Cross-checked adult size (15 cm TL), temperature range (25.2–29.3°C), native range (Indo-West Pacific), and taxonomy (Antennariidae / Lophiiformes). Temperature range differs from LiveAquaria (22–26°C vs 25–29°C); averaged to 23–28°C. Size differs (10 cm vs 15 cm); used FishBase scientific maximum. Reef2Reef wiki returned 403; BlueZoo had no species page; TFHMagazine returned 404 — FishBase used as secondary."
+      }
+    ]
+  },
+
+  "fish": {
+    "breedingDifficulty": "advanced",
+    "breedingNotes": "Oviparous with gelatinous egg raft; captive spawning reported but uncommon and difficult to replicate reliably.",
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "with caution",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "protogynous": null,
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": true,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": true,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "difficult"
+  },
+
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-03"
+}

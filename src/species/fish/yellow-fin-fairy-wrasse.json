@@ -1,0 +1,115 @@
+{
+  "id": "sw-fish-435",
+  "slug": "yellow-fin-fairy-wrasse",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Yellow Fin Fairy Wrasse",
+  "scientificName": "Cirrhilabrus flavidorsalis",
+  "alsoKnownAs": ["Yellowfin Fairy Wrasse", "Yellow-Fin Fairy Wrasse"],
+  "category": "Wrasse",
+  "taxonomy": {
+    "family": "Labridae",
+    "order": "Eupercaria"
+  },
+  "nativeRange": {
+    "regions": ["Western Central Pacific", "Indo-Pacific"],
+    "countries": ["Indonesia", "Malaysia", "Philippines"],
+    "habitat": "Reef-associated; tends to inhabit finely branching corals on protected coral and rubble slopes, typically at depths of 6–40 m",
+    "biotope": "Reef"
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 23.0, "max": 27.0 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": { "min": 8.0, "max": 12.0 },
+    "salinity": { "min": 1.020, "max": 1.025 }
+  },
+  "adultSizeCm": { "min": 6.5, "max": 8.0 },
+  "lifespanYears": { "min": 5.0, "max": 8.0 },
+  "tank": {
+    "minVolumeLiters": 250,
+    "minLengthCm": 120,
+    "swimZone": "mid",
+    "decorPreferences": ["live rock", "sandy substrate", "shaded areas", "open swimming space"]
+  },
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Tends to accept a varied diet of meaty frozen foods such as vitamin-enriched mysis shrimp, brine shrimp, krill, and finely chopped seafood. Has been reported to take high-quality marine flake and pellet foods as well."
+  },
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "shoaling",
+    "minGroupSize": 1,
+    "goodWith": ["reef corals", "invertebrates", "peaceful community fish", "clownfish", "gobies", "cardinalfish", "basslets"],
+    "avoidWith": ["aggressive wrasses", "large predatory fish", "other male fairy wrasses in small tanks"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A vibrant, peaceful reef wrasse from the Western Pacific, generally considered reef-safe and known for striking color variation in males. Tends to do well in community tanks with a secure lid due to jumping tendency.",
+  "careNotes": "The Yellow Fin Fairy Wrasse is generally considered reef-safe and has been reported to leave corals and invertebrates alone. Males tend to display highly variable coloration — the dorsal fin can range from yellow to red or blue, and body coloration from red, pink, or white — with changes tied to mood or maturity. Females are typically less colorful and less commonly available commercially. The species tends to form loose aggregations in the wild and may be kept as a pair or small group in larger tanks, though conspecific aggression has been noted in confined spaces. A tight-fitting canopy is advisable, as these fish have been documented jumping from open aquariums. A shaded area with live rock is recommended for retreat. Temperature note: FishBase documents wild habitat temperatures of 28–29°C, which is somewhat warmer than the 23–26°C range suggested by most aquarium trade sources; a range of 23–27°C is used here as a reasonable average across sources. The species is documented as a protogynous hermaphrodite (female-first sex changer) and tends to form harems of one dominant male and multiple females in the wild.",
+  "breedingNotes": "Breeding in captivity has been documented but is considered difficult. The species is a protogynous hermaphrodite — individuals begin as females and the dominant individual can transition to a male. Distinct pairing behavior has been observed during spawning events in the wild.",
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/product/1640/?pcatid=1640",
+      "accessedDate": "2026-06-03",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "BlueZoo Aquatics",
+        "url": "https://www.bluezooaquatics.com/productDetail.asp?did=1&pid=956&cid=290",
+        "accessedDate": "2026-06-03",
+        "notes": "Cross-checked adult size, temperament, diet, reef safety, and care level. BlueZoo listed 30 gal minimum tank vs LiveAquaria's 60 gal; adult size given as 2.75 in vs LiveAquaria's 3 in."
+      },
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Cirrhilabrus-flavidorsalis.html",
+        "accessedDate": "2026-06-03",
+        "notes": "Cross-checked adult size (6.5 cm TL), native range (Eastern Indonesia, Malaysia, Philippines), habitat depth (6–40 m), and wild temperature (28–29°C). FishBase temperature is higher than trade-source recommendations; averaged in final temperatureC range."
+      },
+      {
+        "name": "SaltwaterFish.com",
+        "url": "https://www.saltwaterfish.com/product-yellow-fin-fairy-wrasse-male",
+        "accessedDate": "2026-06-03",
+        "notes": "Cross-checked adult size (3–4 in), minimum tank size (40 gal), water parameters (74–78°F, pH 8.1–8.4, SG 1.020–1.025), care level (moderate), temperament (peaceful), and reef safety (yes). Tank size disagreement: 40 gal vs LiveAquaria 60 gal vs BlueZoo 30 gal; biased toward larger (60 gal / 250 L) per playbook rule for active swimmers."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "difficult",
+    "breedingNotes": "Protogynous hermaphrodite; has been documented spawning in captivity but rearing larvae to settlement is rarely achieved. Females can transition to males when the dominant male is absent.",
+    "conspecificAggression": "moderate",
+    "finNippy": false,
+    "reefSafe": "yes",
+    "escapeRisk": "high",
+    "venomousSpines": false,
+    "protogynous": true,
+    "haremic": true,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy"
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-03"
+}

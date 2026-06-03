@@ -1,0 +1,112 @@
+{
+  "id": "sw-fish-434",
+  "slug": "yellow-eye-combtooth-blenny",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Yellow Eye Combtooth Blenny",
+  "scientificName": "Ecsenius ops",
+  "alsoKnownAs": ["Eye-spot Blenny"],
+  "category": "Blenny",
+  "taxonomy": {
+    "family": "Blenniidae",
+    "order": "Blenniiformes"
+  },
+  "nativeRange": {
+    "regions": ["Western Central Pacific"],
+    "countries": ["Indonesia"],
+    "habitat": "Clear coastal to outer reef slopes and sheltered reefs, typically perched on live corals; depth range approximately 4-20 m.",
+    "biotope": "Reef"
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 22, "max": 26 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.020, "max": 1.025 }
+  },
+  "adultSizeCm": { "min": 4, "max": 7 },
+  "lifespanYears": null,
+  "tank": {
+    "minVolumeLiters": 75,
+    "minLengthCm": 60,
+    "swimZone": "bottom",
+    "decorPreferences": ["live rock", "rock caves", "crevices", "rubble zones"]
+  },
+  "careLevel": "beginner",
+  "diet": {
+    "type": "herbivore",
+    "notes": "Primarily herbivorous; diet should include vegetable matter such as frozen and dried foods containing marine and blue-green algae. Has been documented grazing on microalgae growing on live rock in the aquarium. When underfed on algae-based foods, individuals have been known to pick at clam mantles and fleshy LPS coral polyps."
+  },
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["peaceful reef fish", "clownfish", "gobies", "small wrasses", "cardinalfish"],
+    "avoidWith": ["other Ecsenius blennies (may be territorial toward conspecifics)", "fang blennies", "aggressive species"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": [
+      {
+        "url": "https://www.fishbase.se/photos/UploadedBy/medium/c5b316c22a_6930.jpg",
+        "source": "FishBase",
+        "sourceType": "fishbase",
+        "license": "CC-BY-NC",
+        "notes": "Photo by Michael Henke, taken in Bali/Menjangan, Indonesia, September 2008.",
+        "recommended": true
+      }
+    ]
+  },
+  "summary": "A small, peaceful reef blenny from Indonesian waters, typically reaching 5-7 cm, that perches on live rock and grazes on algae; generally considered reef-safe with caution when well-fed.",
+  "careNotes": "Yellow Eye Combtooth Blenny (Ecsenius ops) is a small Indo-Pacific blenny named for the distinctive bright yellow ring in the iris of its large eyes. It is generally considered an easy, peaceful species for reef aquariums. Plenty of scattered live rock with crevices and overhangs should be provided for perching and hiding. It tends to graze on microalgae growing on rock surfaces and should receive algae-based frozen or dried foods regularly. When insufficiently fed on vegetable matter, individual fish have been known to nip at clam mantles and fleshy LPS coral polyps, so a generous algae-based diet is recommended to reduce this risk. It may show territorial behavior toward other members of the same genus (Ecsenius), so it is generally best kept one per tank unless in a very large system. As with other blennies, a tightly fitted lid is strongly advised as this species is considered an escape risk. Size note: FishBase records a maximum total length of 5.5 cm, while LiveAquaria states 3 inches (~7.6 cm); the true adult size is likely in the 5-7 cm range. Trophic level of 2.0 (FishBase) confirms herbivorous/detritivorous feeding ecology.",
+  "breedingNotes": "Oviparous with distinct pairing; eggs are demersal and adhesive, attached via adhesive pads to substrate. Larvae are planktonic. Captive breeding has not been widely documented in the hobby literature.",
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/yellow-eye-combtooth-blenny",
+      "accessedDate": "2026-06-03",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/61238",
+        "accessedDate": "2026-06-03",
+        "notes": "Cross-checked scientific name, adult size (5.5 cm TL vs LiveAquaria 3 in/7.6 cm), taxonomy, native range, and reproductive mode. Size disagreement noted: FishBase 5.5 cm, LiveAquaria ~7.6 cm; final range set to 4-7 cm reflecting the average. Reef2Reef wiki returned 403; BlueZoo did not have a matching product page; Fishkeeping World 404'd for this species."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "difficult",
+    "breedingNotes": "Oviparous with distinct pairing; eggs demersal and adhesive. Captive breeding not well documented; classified as difficult due to lack of established hobby protocols.",
+    "conspecificAggression": "moderate",
+    "finNippy": false,
+    "reefSafe": "with caution",
+    "escapeRisk": "high",
+    "venomousSpines": false,
+    "protogynous": null,
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy"
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-03"
+}
