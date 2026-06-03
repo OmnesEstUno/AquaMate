@@ -1,0 +1,108 @@
+{
+  "id": "sw-fish-399",
+  "slug": "red-scooter-dragonet",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Red Scooter Dragonet",
+  "scientificName": "Synchiropus stellatus",
+  "alsoKnownAs": ["Starry Dragonet", "Stellate Dragonet", "Red Scooter Blenny"],
+  "category": "Dragonet",
+  "taxonomy": {
+    "family": "Callionymidae",
+    "order": "Callionymiformes"
+  },
+  "nativeRange": {
+    "regions": ["Indo-Pacific", "Indian Ocean"],
+    "countries": ["Indonesia", "Maldives", "Sri Lanka", "Tanzania", "Kenya"],
+    "habitat": "Coastal protected reefs over rubble or algal-covered rocks, typically at depths of 10–20 m.",
+    "biotope": "Reef-associated tropical waters from East Africa to Sumatra and adjacent oceanic islands."
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 23, "max": 27 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.020, "max": 1.025 }
+  },
+  "adultSizeCm": { "min": 5, "max": 7.5 },
+  "lifespanYears": { "min": 2, "max": 4 },
+  "tank": {
+    "minVolumeLiters": 200,
+    "minLengthCm": 90,
+    "swimZone": "bottom",
+    "decorPreferences": ["mature live rock", "live sand substrate", "refugium for pod production", "rubble zones", "low-flow grazing areas"]
+  },
+  "careLevel": "advanced",
+  "diet": {
+    "type": "planktivore",
+    "notes": "Specialist micropredator: primarily takes live copepods and amphipods picked off live rock and sand. May accept frozen brine shrimp, bloodworms, and glassworms once settled, but many specimens refuse prepared foods initially. A well-established refugium or regular pod dosing is generally advised."
+  },
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "pair",
+    "minGroupSize": 1,
+    "goodWith": ["small peaceful reef fish", "non-competing gobies", "clownfish", "corals", "ornamental shrimp", "snails"],
+    "avoidWith": ["other male Synchiropus", "aggressive tankmates", "fast feeders that outcompete for pods (anthias, wrasses, dragonet-eating dottybacks)", "predatory fish"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A small, peaceful Indo-Pacific dragonet with intricate red-and-cream stellate markings. Generally considered advanced to keep because of its reliance on live copepods.",
+  "careNotes": "Red Scooter Dragonets are deliberate, slow-moving micropredators that graze live rock and sand for copepods and amphipods. They are commonly considered difficult because newly-acquired specimens often refuse prepared foods and slowly starve in tanks without an established pod population. Hobby sources generally advise housing only in mature reef systems (around 6–8 months established) with abundant live rock and, ideally, an attached refugium continually seeding pods. Although LiveAquaria lists a 30-gallon (~114 L) minimum and other sources recommend 55+ gallons (~208 L) for stable feeding, the larger figure has been adopted here to reflect the species' reliance on a sustained pod population. Scaleless skin makes this fish highly sensitive to copper-based medications; quarantine without copper if treatment is needed. Males are strongly intolerant of conspecific males and will generally fight to the death, so keep singly or as one male with 2–3 females introduced simultaneously. Reef-safe with corals and ornamental invertebrates.",
+  "breedingNotes": "Pelagic spawners that perform a dusk courtship ascent during which gametes are released into the water column. Captive breeding has been reported but is considered difficult; rearing the tiny pelagic larvae on appropriately sized live foods is the main hurdle.",
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/red-scooter-dragonet",
+      "accessedDate": "2026-06-03"
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Synchiropus-stellatus.html",
+        "accessedDate": "2026-06-03",
+        "notes": "Used for taxonomy (family Callionymidae, order Callionymiformes), maximum size (7.5 cm), native range (East Africa to Sumatra), and wild temperature range (24.6–28.7°C). Designated Reef2Reef wiki secondary returned HTTP 403; swapped to FishBase per playbook fallback."
+      },
+      {
+        "name": "Aquatics Unlimited",
+        "url": "https://aquaticsunlimited.com/product/dragonet-scooter-red-synchiropus-stellatus/",
+        "accessedDate": "2026-06-03",
+        "notes": "Cross-checked tank size (55 gal minimum), water parameters, diet specifics, and intra-specific male aggression. Confirmed copper sensitivity context is implicit (advanced care, scaleless dragonet)."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "advanced",
+    "breedingNotes": "Pelagic-spawning; larval rearing is the limiting factor in captivity.",
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "yes",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "protogynous": null,
+    "haremic": true,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": true,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": null,
+    "toxicToTank": false,
+    "feedingDifficulty": "difficult"
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-03"
+}

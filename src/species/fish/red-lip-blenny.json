@@ -1,0 +1,126 @@
+{
+  "id": "sw-fish-396",
+  "slug": "red-lip-blenny",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Red Lip Blenny",
+  "scientificName": "Ophioblennius macclurei",
+  "alsoKnownAs": [
+    "Redlip Blenny",
+    "Atlantic Redlip Blenny",
+    "Horseface Blenny",
+    "Red-Lipped Caribbean Blenny"
+  ],
+  "category": "Blenny",
+  "taxonomy": {
+    "family": "Blenniidae",
+    "order": "Blenniiformes"
+  },
+  "nativeRange": {
+    "regions": ["Western Central Atlantic", "Caribbean"],
+    "countries": ["United States", "Bahamas", "Cuba", "Jamaica", "Mexico", "Belize", "Honduras", "Venezuela"],
+    "habitat": "Shallow, clear tropical reefs over coral or rocky bottoms; perches and hops among rockwork.",
+    "biotope": "Reef"
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 22, "max": 26 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.020, "max": 1.025 }
+  },
+  "adultSizeCm": { "min": 10, "max": 13 },
+  "lifespanYears": null,
+  "tank": {
+    "minVolumeLiters": 150,
+    "minLengthCm": 90,
+    "swimZone": "bottom",
+    "decorPreferences": ["live rock", "rockwork with caves", "open swimming space", "tight-fitting lid"]
+  },
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "herbivore",
+    "notes": "Grazes on microalgae across rockwork. Diet should be supplemented with marine algae, nori, spirulina, and algae-based prepared foods 2–3 times daily, particularly if natural algae growth is limited."
+  },
+  "compatibility": {
+    "temperament": "territorial",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["larger peaceful or semi-aggressive fish", "tangs", "angelfish", "hardy reef fish that do not resemble blennies"],
+    "avoidWith": ["other blennies", "gobies", "dartfish", "small slow-moving fish", "small-polyp stony corals", "tridacnid clams"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "Caribbean reef blenny with bright red lips and a blunt, horse-like head. Perches and hops over rockwork grazing on algae; generally territorial and best kept singly.",
+  "careNotes": "Generally considered an algae-grazing 'utility' fish for established reef tanks with substantial live rock. Tends to be territorial — particularly toward other blennies, gobies, and dartfish — and is best kept as the only blenny in the system unless paired in a larger tank. Has been reported to nip at small-polyped stony corals and clam mantles, so reef-safety is best described as 'with caution'. Like most blennies, has been known to jump from open tanks; a tight-fitting lid is generally advised. Sources disagree substantially on minimum tank size: LiveAquaria lists 30 US gal (~114 L), Quality Marine lists 70 US gal (~265 L), Fishkeeping World cites 20–29 US gal, and saltwaterfish.com lists 75 US gal. A cautious 150 L (~40 US gal) is used here, reflecting the species' territoriality, adult body length (around 12 cm), and active hopping/perching behavior; reviewers may want to revisit this. LiveAquaria sells this species under the older name *Ophioblennius atlanticus*, but FishBase now treats Caribbean populations as a distinct species, *O. macclurei* (Silvester, 1915); *O. atlanticus* sensu stricto is the East Atlantic population.",
+  "breedingNotes": "Oviparous with distinct pairing; eggs are demersal and adhesive, attached to a substrate. Captive breeding is not commonly reported.",
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/red-lip-blenny",
+      "accessedDate": "2026-06-03",
+      "notes": "Listed under the legacy name Ophioblennius atlanticus."
+    },
+    "additional": [
+      {
+        "name": "Reef2Reef wiki",
+        "url": "https://www.reef2reef.com/threads/redlip-blenny-ophioblennius-atlanticus.63968/",
+        "accessedDate": "2026-06-03",
+        "notes": "Assigned secondary returned HTTP 403; cross-verification fell through to FishBase, Quality Marine, and Fishkeeping World."
+      },
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Ophioblennius-macclurei.html",
+        "accessedDate": "2026-06-03",
+        "notes": "Confirmed scientific name (Ophioblennius macclurei, Silvester 1915), family Blenniidae, max length 12.2 cm TL, temperature 26.2–28.2°C wild, Caribbean/Western Central Atlantic range, territorial, oviparous with distinct pairing."
+      },
+      {
+        "name": "Quality Marine",
+        "url": "https://www.qualitymarine.com/quality-marine/fish/blennies/ophioblennius/red-lipped-caribbean-12538/",
+        "accessedDate": "2026-06-03",
+        "notes": "Recommends a 70 US gal minimum (~265 L) and describes the species as very aggressive/territorial toward smaller tankmates — the high end of the source spread."
+      },
+      {
+        "name": "Fishkeeping World",
+        "url": "https://www.fishkeepingworld.com/redlip-blenny/",
+        "accessedDate": "2026-06-03",
+        "notes": "Care summary aggregated via web search snippet (page itself 404'd): 10–13 cm adult length, 22–26°C, pH 8.0–8.5, SG 1.020–1.026, algae-grazing diet, jumping risk."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "advanced",
+    "breedingNotes": "Oviparous with distinct pairing; eggs demersal and adhesive. Captive breeding is uncommon and not well documented for the home aquarium.",
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "with caution",
+    "escapeRisk": "high",
+    "venomousSpines": false,
+    "protogynous": null,
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": null,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy"
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "needs_review",
+  "lastReviewed": "2026-06-03"
+}
