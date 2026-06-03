@@ -1,0 +1,103 @@
+{
+  "id": "sw-fish-463",
+  "slug": "chalk-bass",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Chalk Bass",
+  "scientificName": "Serranus tortugarum",
+  "alsoKnownAs": [],
+  "category": "Basslet",
+  "taxonomy": {
+    "family": "Serranidae",
+    "order": "Perciformes"
+  },
+  "nativeRange": {
+    "regions": ["Caribbean", "Western Atlantic"],
+    "countries": ["United States", "Bahamas", "Honduras", "Virgin Islands"],
+    "habitat": "Found over rubble, silty or sandy bottoms near coral rubble and conch shells; typically at depths of 18–90 m",
+    "biotope": "Reef"
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 22.8, "max": 26.8 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": null,
+    "salinity": { "min": 1.020, "max": 1.025 }
+  },
+  "adultSizeCm": { "min": 5.0, "max": 8.0 },
+  "lifespanYears": null,
+  "tank": {
+    "minVolumeLiters": 120,
+    "minLengthCm": 90,
+    "swimZone": "mid",
+    "decorPreferences": ["live rock", "caves", "rubble zones"]
+  },
+  "careLevel": "beginner",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Generally accepts chopped meaty foods, frozen mysis shrimp, vitamin-enriched brine shrimp, and flake foods. Tends to be an eager feeder in captivity."
+  },
+  "compatibility": {
+    "temperament": "semi-aggressive",
+    "grouping": "shoaling",
+    "minGroupSize": 1,
+    "goodWith": ["most reef fish", "peaceful to semi-aggressive tankmates", "larger shrimp and ornamental crustaceans"],
+    "avoidWith": ["small ornamental shrimp such as Periclimenes species (larger specimens have been known to attack them)"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A small, hardy Caribbean basslet that is generally considered reef-safe with caution around small shrimp. Multiple specimens can be kept together if introduced simultaneously.",
+  "careNotes": "The Chalk Bass is generally considered one of the hardier small marine fish, tending to adapt readily to aquarium conditions. Provide plenty of live rock with caves and rubble zones for shelter. Multiple specimens can typically coexist if introduced to the tank simultaneously; adding individuals later to an established group may result in aggression from the resident fish. Larger specimens have been known to prey on very small ornamental shrimp such as Periclimenes species, so caution is advised in mixed reef systems with these invertebrates. Serranus tortugarum is a simultaneous (synchronous) hermaphrodite — each individual possesses both functional male and female reproductive organs and any two individuals can form a spawning pair regardless of size or coloration. This is distinct from protogynous (female-first) hermaphroditism seen in wrasses and angelfishes. In the wild, this species tends to be found in small groups hovering near specific rubble patches or conch shells at depths of 18–90 m.",
+  "breedingNotes": "Documented as a pelagic spawner in the wild; pairs release eggs and sperm into the water column. As a simultaneous hermaphrodite, any two individuals can potentially spawn. Captive breeding has not been commonly reported in the hobby and is generally considered difficult to achieve.",
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/chalk-bass",
+      "accessedDate": "2026-06-03",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Serranus-tortugarum",
+        "accessedDate": "2026-06-03",
+        "notes": "Cross-checked adult size (confirmed ~8.0 cm TL), temperature range (23.3–28°C vs LiveAquaria's 72–78°F = 22.2–25.6°C), native range, taxonomy, and hermaphroditism type (synchronous). Temperature averaged across both sources: min 22.8°C, max 26.8°C. FishBase did not specify pH or salinity in SG."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "difficult",
+    "breedingNotes": "Pelagic spawner; simultaneous hermaphrodite allowing any two individuals to pair. Captive breeding has not been commonly reported.",
+    "conspecificAggression": "moderate",
+    "finNippy": false,
+    "reefSafe": "with caution",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "protogynous": false,
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy"
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-03"
+}

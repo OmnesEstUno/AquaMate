@@ -1,0 +1,116 @@
+{
+  "id": "sw-fish-446",
+  "slug": "australian-multicolor-dottyback",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Australian Multicolor Dottyback",
+  "scientificName": "Ogilbyina novaehollandiae",
+  "alsoKnownAs": [
+    "Multicolored Dottyback",
+    "New Holland Multicolored Dottyback",
+    "Australian Pseudochromis",
+    "Red and Green Dottyback",
+    "Australian Dottyback",
+    "Multicolour Dottyback"
+  ],
+  "category": "Dottybacks",
+  "taxonomy": {
+    "family": "Pseudochromidae",
+    "order": "Perciformes"
+  },
+  "nativeRange": {
+    "regions": ["Western Central Pacific"],
+    "countries": ["Australia"],
+    "habitat": "Inshore reef environments at depths of around 10–20 m; has been observed in or near holes and crevices in reef structure",
+    "biotope": "Reef"
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 22.2, "max": 25.6 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.020, "max": 1.025 }
+  },
+  "adultSizeCm": { "min": 8.0, "max": 12.7 },
+  "lifespanYears": null,
+  "tank": {
+    "minVolumeLiters": 200,
+    "minLengthCm": 90,
+    "swimZone": "bottom",
+    "decorPreferences": ["live rock", "caves", "crevices", "hiding spots"]
+  },
+  "careLevel": "beginner",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Has been documented accepting meaty foods including brine shrimp, mysis shrimp, and prepared frozen foods. Will also consume small ornamental crustaceans and invertebrates found in the aquarium."
+  },
+  "compatibility": {
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["moderately aggressive fish larger than itself", "large non-ornamental invertebrates"],
+    "avoidWith": ["ornamental shrimp", "small peaceful fish", "conspecifics", "other dottybacks"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A vividly colored Australian dottyback reaching around 10–13 cm, generally considered reef-safe but has been known to consume ornamental shrimp. Best kept singly in tanks of 200 L or more with ample rockwork for retreat.",
+  "careNotes": "The Australian Multicolor Dottyback (Ogilbyina novaehollandiae) is found along the Great Barrier Reef at depths of roughly 10–20 m, typically sheltering in holes and crevices in reef structure. In captivity it tends to be semi-aggressive and is generally advised to be kept singly — conspecific aggression toward other dottybacks and similarly shaped fish is well-documented. It is commonly considered reef-safe with respect to corals and most sessile invertebrates, but has been known to consume ornamental shrimp and small crustaceans, so 'with caution' is a more accurate designation for mixed reef setups that include shrimp. The species is reported to accept prepared and frozen foods readily and is generally considered suitable for beginner marine aquarists who can provide adequate rockwork and hiding spots. Males and females differ in coloration: males tend toward grayish tones with reddish heads, while females are described as ranging from pinkish to bright yellow or greenish. Large individuals of both sexes may darken to near-black. The species has been reared in captivity, suggesting aquaculture potential. A tightly-fitting lid is advisable as dottybacks in general have been known to jump.",
+  "breedingNotes": "Ogilbyina novaehollandiae has been reared in captivity according to FishBase records, but detailed captive-breeding protocols are not widely documented in hobby literature. Specific breeding information was not available from consulted sources.",
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/australian-multicolor-dottyback",
+      "accessedDate": "2026-06-03",
+      "notes": "Species page confirmed via site search; primary source for water parameters, tank size (50 gal / ~189 L), temperament, care level, and diet notes including ornamental shrimp predation warning."
+    },
+    "additional": [
+      {
+        "name": "BlueZoo Aquatics",
+        "url": "https://www.bluezooaquatics.com/productDetail.asp?cid=21&pid=397&did=1",
+        "accessedDate": "2026-06-03",
+        "notes": "Cross-checked adult size (4 in / ~10 cm), minimum tank size (50 gal), temperament (semi-aggressive), care level (beginner), diet (carnivore), and reef compatibility. Adult size slightly smaller than LiveAquaria (4 in vs 5 in), consistent with FishBase max of 10 cm."
+      },
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Ogilbyina-novaehollandiae.html",
+        "accessedDate": "2026-06-03",
+        "notes": "Cross-checked taxonomy (family Pseudochromidae), maximum adult length (10.0 cm TL), native range (Western Central Pacific: Great Barrier Reef), depth range (10–20 m), and habitat (inshore reefs, holes/crevices). No water parameters or lifespan data available from this source."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "difficult",
+    "breedingNotes": "Has been reared in captivity; detailed captive-breeding protocols are not widely documented in the hobby literature.",
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "with caution",
+    "escapeRisk": "moderate",
+    "venomousSpines": false,
+    "protogynous": null,
+    "haremic": null,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy"
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-03"
+}

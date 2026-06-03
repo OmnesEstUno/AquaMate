@@ -1,0 +1,166 @@
+{
+  "id": "sw-fish-464",
+  "slug": "chilean-round-stingray",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Chilean Round Stingray",
+  "scientificName": "Urotrygon chilensis",
+  "alsoKnownAs": [
+    "Blotched Stingray",
+    "Chilean Round Ray",
+    "Thorny Round Stingray"
+  ],
+  "category": "Rays",
+  "taxonomy": {
+    "family": "Urotrygonidae",
+    "order": "Myliobatiformes"
+  },
+  "nativeRange": {
+    "regions": [
+      "Eastern Pacific",
+      "North America",
+      "Central America",
+      "South America"
+    ],
+    "countries": [
+      "Mexico",
+      "Guatemala",
+      "El Salvador",
+      "Nicaragua",
+      "Costa Rica",
+      "Panama",
+      "Colombia",
+      "Ecuador",
+      "Peru",
+      "Chile"
+    ],
+    "habitat": "Demersal species found on soft bottoms (sand, mud) in shallow coastal waters, typically at depths of 1–60 m. Generally associated with subtidal zones adjacent to beaches, bays, and estuaries in subtropical waters.",
+    "biotope": "Coastal"
+  },
+  "waterParameters": {
+    "temperatureC": {
+      "min": 20,
+      "max": 26
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.020,
+      "max": 1.025
+    }
+  },
+  "adultSizeCm": {
+    "min": 25,
+    "max": 42
+  },
+  "lifespanYears": null,
+  "tank": {
+    "minVolumeLiters": 700,
+    "minLengthCm": 180,
+    "swimZone": "bottom",
+    "decorPreferences": [
+      "Deep fine sand substrate (at least 10 cm)",
+      "Wide open sandy floor for foraging and burying",
+      "Long footprint preferred over height",
+      "Minimal sharp or abrasive rockwork",
+      "Rounded tank corners to reduce collision and stress",
+      "Secure lid (rays have been reported to occasionally launch from open-top systems)"
+    ]
+  },
+  "careLevel": "expert",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Feeds in the wild primarily on small crustaceans, polychaete worms, molluscs, and small fishes. In captivity, has been reported to accept small pieces of cleaned squid, live saltwater feeder shrimp, scallops, and fresh marine fish pieces. Newly acquired specimens frequently refuse prepared foods initially; offering live feeder shrimp on the substrate and reducing lighting have been reported to help trigger initial feeding responses."
+  },
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": [
+      "Large peaceful fish that occupy mid and upper water column",
+      "Tankmates too large to be considered prey"
+    ],
+    "avoidWith": [
+      "Shrimp, small crabs, and small molluscs (likely to be consumed)",
+      "Small fish that may be eaten",
+      "Aggressive or fin-nipping species",
+      "Other bottom-dwelling fish competing for floor space",
+      "Sea urchins and other spiny invertebrates that could injure the ray"
+    ]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "The Chilean Round Stingray (Urotrygon chilensis) is a compact subtropical Eastern Pacific elasmobranch found from the Gulf of California to Chile. An expert-only species, it demands a large-footprint sand-bed tank, stable water quality, and an experienced keeper willing to work through initial feeding reluctance.",
+  "careNotes": "TAXONOMIC NOTE: The manifest that generated this entry listed the scientific name as Urobatis marmoratus (a Data Deficient Chilean endemic reaching 141 cm TL with no known aquarium trade). Research consistently identifies the fish sold in the aquarium hobby as 'Chilean Round Stingray' as Urotrygon chilensis (Günther, 1872), a smaller subtropical species (max ~42 cm TL) ranging from the Gulf of California to Chile. FishBase lists Urotrygon chilensis under the common names 'Blotched stingray,' 'Chilean round ray,' and 'Thorny round stingray.' The scientificName field has been set to Urotrygon chilensis; dataStatus is needs_review pending human confirmation. If the manifest was intended to describe Urobatis marmoratus specifically, this file should be re-researched.\n\nAs an elasmobranch, this species is highly sensitive to copper-based medications, which must never be used. A large tank with a wide footprint and a deep fine-sand bed (at least 10 cm of fine-grade sand) is generally considered essential; the substrate must be smooth to avoid abrasion injury to the ray's ventral surface. Rounded tank corners are widely recommended.\n\nThe caudal spine is venomous and used defensively; care is advised during tank maintenance, netting, and acclimation. Footprint matters more than total volume for this benthic species — a long, shallow aquarium is generally preferred over a tall narrow one.\n\nNewly imported specimens commonly refuse to feed initially. Dimming aquarium lights and offering live feeder shrimp directly on the substrate has been reported to help stimulate feeding. Once feeding, they have been reported to accept cleaned squid, scallops, mussels, and fresh marine fish.\n\nCross-source temperature comparison: LiveAquaria recommends 68–75°F (20–24°C); FishBase records a preferred range of 19.4–28.6°C. The averaged range of 20–26°C was used; the lower end of this range may be more appropriate for long-term care of this subtropical species. pH and salinity parameters were sourced from LiveAquaria only (no secondary disagreement). Tank minimum of 700 L represents rounding up from the LiveAquaria-stated 180 US gallons (~681 L) to the nearest nice value on the caution side, consistent with a wide-footprint benthic species.",
+  "breedingNotes": "Ovoviviparous, consistent with other Urotrygonidae. Specific captive breeding data for Urotrygon chilensis are not documented in the sources consulted. Captive breeding of closely related round stingrays has been achieved in public aquarium settings but is not considered feasible for private aquariums.",
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/collections/rays",
+      "accessedDate": "2026-06-03",
+      "notes": "Primary source. Species listed as 'Chilean Round Stingray EXPERT ONLY'; LiveAquaria product page gives scientific name as Urotrygon chilensis — inconsistent with the manifest's Urobatis marmoratus. Care details extracted from the product listing: 16-inch max size, 68–75°F, pH 8.1–8.4, SG 1.020–1.025, dKH 8–12, 180 gal minimum, carnivore, peaceful."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Urotrygon-chilensis",
+        "accessedDate": "2026-06-03",
+        "notes": "Cross-verified scientific name (Urotrygon chilensis, Günther 1872), taxonomy (Urotrygonidae, Myliobatiformes), geographic range (Eastern Pacific: Gulf of California to Peru and Chile), depth range (1–60 m), max size (41.9 cm TL), temperature preference (19.4–28.6°C), diet (crustaceans, molluscs, polychaete worms, small fishes), reproduction (ovoviviparous), and IUCN status (Near Threatened). FishBase common names include 'Blotched stingray,' 'Chilean round ray,' and 'Thorny round stingray' — NOT 'Chilean Round Stingray,' though 'Chilean round ray' is very close."
+      },
+      {
+        "name": "FishBase — Urobatis marmoratus",
+        "url": "https://www.fishbase.se/summary/Urobatis-marmoratus",
+        "accessedDate": "2026-06-03",
+        "notes": "Consulted to verify identity of Urobatis marmoratus (the scientific name given in the manifest). FishBase records this as a distinct species: max 141 cm TL, Chile only (Southeast Pacific), Data Deficient IUCN status. This confirms that Urobatis marmoratus is NOT the 'Chilean Round Stingray' of the aquarium trade. Scientific name corrected to Urotrygon chilensis; dataStatus set to needs_review."
+      },
+      {
+        "name": "Reef2Reef wiki (designated secondary — failed)",
+        "url": "https://www.reef2reef.com/wiki/",
+        "accessedDate": "2026-06-03",
+        "notes": "Designated secondary source returned HTTP 403 Forbidden and could not be retrieved. Cross-verification was performed using FishBase instead."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "Ovoviviparous; no reliable private-aquarium captive breeding records found. Public aquarium breeding of related Urotrygonidae species has been documented.",
+    "conspecificAggression": "low",
+    "finNippy": false,
+    "reefSafe": "no",
+    "escapeRisk": "moderate",
+    "venomousSpines": true,
+    "protogynous": null,
+    "haremic": null,
+    "caudalScalpel": null,
+    "nocturnal": null,
+    "juvenileColorPhase": null,
+    "copperSensitive": true,
+    "speciesOnlyTankRecommended": null,
+    "requiresHitchingPost": null,
+    "monogamousPairing": null,
+    "hlleSusceptible": null,
+    "toxicToTank": null,
+    "feedingDifficulty": "difficult"
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "needs_review",
+  "lastReviewed": "2026-06-03"
+}

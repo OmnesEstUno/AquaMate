@@ -1,0 +1,109 @@
+{
+  "id": "sw-fish-455",
+  "slug": "blotched-anthias",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Blotched Anthias",
+  "scientificName": "Odontanthias borbonius",
+  "alsoKnownAs": ["Borbonius Anthias", "Blotchy Anthias", "Checked Swallowtail"],
+  "category": "Anthias",
+  "taxonomy": {
+    "family": "Anthiadidae",
+    "order": "Perciformes"
+  },
+  "nativeRange": {
+    "regions": ["Indo-Pacific", "Western Indian Ocean"],
+    "countries": ["South Africa", "Réunion", "Mauritius", "Japan", "Indonesia", "Palau"],
+    "habitat": "Deep reef slopes and walls, typically collected from depths exceeding 60 m; found in and around rocky caves and ledges in deeper water",
+    "biotope": "Reef"
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 22.8, "max": 25.6 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.022, "max": 1.025 }
+  },
+  "adultSizeCm": { "min": 8.0, "max": 15.0 },
+  "lifespanYears": { "min": 5, "max": 7 },
+  "tank": {
+    "minVolumeLiters": 500,
+    "minLengthCm": 150,
+    "swimZone": "mid",
+    "decorPreferences": ["live rock", "caves", "crevices", "open swimming areas"]
+  },
+  "careLevel": "advanced",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Generally best fed a varied diet of enriched frozen mysis shrimp, enriched frozen brine shrimp, and high-quality marine pellets. Has been known to accept prepared foods over time, but tends to require multiple small feedings throughout the day (3–5 times daily is commonly advised). A refugium producing copepods and amphipods is considered highly beneficial for long-term health."
+  },
+  "compatibility": {
+    "temperament": "semi-aggressive",
+    "grouping": "shoaling",
+    "minGroupSize": 1,
+    "goodWith": ["peaceful reef fish", "tangs", "wrasses", "non-anthias basslets"],
+    "avoidWith": ["conspecifics in small groups", "other anthias species", "overly aggressive fish"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A striking deep-water anthias with orange, pink, and yellow coloration and irregular golden markings; tends to be more expensive and challenging than typical anthias due to its deep-water origins and demanding feeding requirements.",
+  "careNotes": "Odontanthias borbonius is a deep-water species typically collected from depths greater than 60 m (approximately 200 ft), which contributes to its relative rarity and higher price in the trade. Its natural depth means it has been reported to prefer low to moderate lighting conditions, though it generally adapts to the stronger lighting found in modern reef tanks. Aquascaping with ample live rock to provide caves and crevices is generally advised while maintaining open swimming space in the water column. Adults have been known to quarrel with one another, and keeping two males in the same tank is typically not recommended. Groups are best structured as a single male with multiple females (harem). All individuals are born female; the dominant fish transforms into a male as needed (protogynous hermaphroditism). Because of its deep-water origins, this species tends to require attentive acclimation and stable, high-quality water parameters. Multiple small feedings per day are strongly recommended; the species has been reported to do best with a refugium supplying live copepods and amphipods. Feeding difficulty is moderate — it generally accepts enriched frozen foods but may require coaxing and variety. Reef-safe in most cases; no documented tendency to nip corals or harass invertebrates. FishBase currently places this species in family Anthiadidae (not Serranidae, as older retail sources list).",
+  "breedingNotes": "Captive breeding is not well-documented for this species. In the wild it is a protogynous hermaphrodite — all individuals are born female, and the dominant individual in a group transitions to male when needed. Harems can be maintained in captivity with a single male and multiple females, though spawning in home aquaria has not been commonly reported.",
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/blotched-anthias",
+      "accessedDate": "2026-06-03",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "saltwaterfish.com",
+        "url": "https://www.saltwaterfish.com/product-borbonius-blotchy-anthias-17665",
+        "accessedDate": "2026-06-03",
+        "notes": "Cross-checked sizing, water parameters, temperament, and social behavior. Disagreement on tank size (100 gal vs 130 gal from LiveAquaria) — biased toward larger per playbook; disagreement on temperament label ('peaceful' vs 'semi-aggressive') — both note conspecific aggression; 'semi-aggressive' adopted as overall characterization."
+      },
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Odontanthias-borbonius.html",
+        "accessedDate": "2026-06-03",
+        "notes": "Used for taxonomic confirmation (family Anthiadidae, order Perciformes), native range (South Africa to Palau), and adult size (15 cm SL). Wild temperature range (11.5–19.4 °C) reflects natural deep-water habitat and was not used for aquarium parameters."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "Captive spawning has not been reliably documented. Protogynous hermaphrodite; harems can be maintained (one male, multiple females) but successful captive reproduction is rare.",
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "yes",
+    "escapeRisk": "moderate",
+    "venomousSpines": false,
+    "protogynous": true,
+    "haremic": true,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "moderate"
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-03"
+}

@@ -1,0 +1,103 @@
+{
+  "id": "sw-fish-462",
+  "slug": "caribbean-redspotted-hawkfish",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Caribbean Redspotted Hawkfish",
+  "scientificName": "Amblycirrhitus pinos",
+  "alsoKnownAs": ["Redspotted Hawkfish", "Red-spotted Hawkfish"],
+  "category": "Hawkfish",
+  "taxonomy": {
+    "family": "Cirrhitidae",
+    "order": "Centrarchiformes"
+  },
+  "nativeRange": {
+    "regions": ["Caribbean", "Western Atlantic"],
+    "countries": ["United States", "Bahamas", "Brazil"],
+    "habitat": "Rocky reef areas and rubble zones; tends to rest in crevices and shallow caves at depths of 2–46 m",
+    "biotope": "Reef"
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 23.0, "max": 27.0 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": { "min": 8.0, "max": 12.0 },
+    "salinity": { "min": 1.020, "max": 1.025 }
+  },
+  "adultSizeCm": { "min": 7.0, "max": 9.5 },
+  "lifespanYears": null,
+  "tank": {
+    "minVolumeLiters": 120,
+    "minLengthCm": null,
+    "swimZone": "bottom",
+    "decorPreferences": ["live rock", "caves", "crevices", "rubble zones"]
+  },
+  "careLevel": "beginner",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Primarily feeds on small crustaceans including copepods, shrimps, shrimp larvae, crabs and crab larvae, and polychaetes. In captivity has been observed accepting a variety of marine meats, frozen preparations, and live feeder shrimp."
+  },
+  "compatibility": {
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["larger peaceful reef fish", "corals (with monitoring)", "non-shrimp inverts"],
+    "avoidWith": ["small ornamental shrimp", "small fish that fit in mouth", "larger aggressive hawkfish of other species"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A hardy, small Caribbean hawkfish that perches on rockwork and rubble. Generally considered suitable for beginners; tends to prey on small shrimp and tiny fish, so reef compatibility warrants caution with ornamental invertebrates.",
+  "careNotes": "Caribbean Redspotted Hawkfish are generally considered easy to keep and tend to adapt well to aquarium life. They characteristically perch on rock surfaces, often resting motionless for extended periods — behavior consistent with their ambush-predator lifestyle documented in the wild. They have been known to prey on small ornamental shrimp and small fish, so housing with valued shrimp species is generally not advised. The species has been reported to be semi-aggressive toward conspecifics and should typically be kept singly unless a mated pair is available. Plenty of rockwork with caves and crevices is advisable to provide perching and hiding spots.\n\nTemperature note: LiveAquaria recommends 72–78°F (22.2–25.6°C) while FishBase wild-habitat data suggests 25–28.4°C. The broader averaged range of 23–27°C used here reflects both aquarium-hobby practice and wild-range context; maintaining toward the upper end of this range is generally advised for long-term health.\n\nFishBase notes possible protogynous characteristics for this species, but states that histological confirmation is still pending as of the time of writing.",
+  "breedingNotes": "No documented captive breeding reports are available in the standard hobby literature. The species is noted as a pelagic spawner in the wild. FishBase suggests possible protogynous hermaphroditism, but this has not been confirmed histologically.",
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/caribbean-redspotted-hawkfish",
+      "accessedDate": "2026-06-03",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Amblycirrhitus-pinos",
+        "accessedDate": "2026-06-03",
+        "notes": "Cross-checked adult size (9.5 cm SL), native range (Western Atlantic: S. Florida, Bahamas, Caribbean, to Rio de Janeiro, Brazil), temperature range (25–28.4°C), taxonomy (Cirrhitidae / Centrarchiformes), and habitat (rocky reef/rubble, 2–46 m depth). Temperature disagreement with LiveAquaria (22.2–25.6°C vs 25–28.4°C): averaged to 23–27°C. Adult size: LiveAquaria states 3.5 in (8.9 cm), FishBase states 9.5 cm SL; upper bound of 9.5 cm used."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "No documented captive breeding records in the hobby literature. Pelagic spawner in the wild; possible protogynous hermaphroditism reported by FishBase but not yet histologically confirmed.",
+    "conspecificAggression": "moderate",
+    "finNippy": false,
+    "reefSafe": "with caution",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "protogynous": null,
+    "haremic": null,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy"
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-03"
+}

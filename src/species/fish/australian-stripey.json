@@ -1,0 +1,103 @@
+{
+  "id": "sw-fish-447",
+  "slug": "australian-stripey",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Australian Stripey",
+  "scientificName": "Microcanthus strigatus",
+  "alsoKnownAs": ["Stripey", "Stripey Sea Chub", "Stripey Fish"],
+  "category": "Miscellaneous Fish",
+  "taxonomy": {
+    "family": "Microcanthidae",
+    "order": "Centrarchiformes"
+  },
+  "nativeRange": {
+    "regions": ["Indo-Pacific", "Pacific Ocean"],
+    "countries": ["Australia", "Japan", "South Korea", "China", "Taiwan", "Hong Kong", "Hawaii (USA)", "New Caledonia"],
+    "habitat": "Rocky and coral reefs, coastal lagoons, estuarine and protected coastal waters; has been documented in dense aggregations under ledges and in caves",
+    "biotope": "Reef"
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 20, "max": 26 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": null,
+    "salinity": { "min": 1.020, "max": 1.025 }
+  },
+  "adultSizeCm": { "min": 8, "max": 16 },
+  "lifespanYears": null,
+  "tank": {
+    "minVolumeLiters": 500,
+    "minLengthCm": 150,
+    "swimZone": "mid",
+    "decorPreferences": ["live rock", "caves", "ledges", "open swimming space"]
+  },
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Generally accepts a varied diet in captivity; has been documented consuming small crustaceans, algae, and frozen/freeze-dried foods. Algae-based frozen foods are recommended alongside vitamin-enriched frozen mysis shrimp and brine shrimp."
+  },
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "schooling",
+    "minGroupSize": 3,
+    "goodWith": ["peaceful reef fish", "tangs", "wrasses", "angelfish", "chromis", "cardinalfish"],
+    "avoidWith": ["aggressive fish", "large predators that may consume small schooling fish"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A distinctive, deep-bodied schooling sea chub from the Indo-Pacific, known for its bold yellow and black diagonal stripes. Generally considered a peaceful community fish, though it tends not to be reef-safe with soft corals or invertebrates.",
+  "careNotes": "Australian Stripey (Microcanthus strigatus) is a member of family Microcanthidae (Stripeys), sometimes listed under the outdated family Kyphosidae by older hobby sources. FishBase recognizes the current classification as Microcanthidae within order Centrarchiformes. This species is naturally schooling and tends to be kept in groups of 3 or more in captivity; a single specimen may become stressed or reclusive. It has been observed assembling in dense aggregations under ledges and in caves in the wild. Temperature data shows a mild disagreement between sources: LiveAquaria recommends 72–78°F (22–26°C), while FishBase wild distribution data indicates a preferred range of approximately 17.5–26.4°C — the wider FishBase range likely reflects wild oceanographic conditions; the aquarium hobby range of 20–26°C is used here as a practical keeping target. LiveAquaria states this species is not reef-safe; aquarists have reported it may nip at soft corals and some invertebrates. A minimum tank of 120 US gallons (approximately 454 L) is recommended by LiveAquaria for a small group; this has been rounded up to 500 L on the nice-values list given the schooling nature and active swimming behavior. The fish has a somewhat compressed, deep body and is sometimes mistaken for a butterflyfish (family Chaetodontidae) in the trade, but it belongs to a completely different family.",
+  "breedingNotes": null,
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/australian-stripey",
+      "accessedDate": "2026-06-03",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Microcanthus-strigatus.html",
+        "accessedDate": "2026-06-03",
+        "notes": "Cross-checked adult size, temperature range, taxonomy, distribution, and habitat. FishBase classifies the species under family Microcanthidae (not Kyphosidae as in older hobby sources) within order Centrarchiformes. Temperature preferred range 17.5–26.4°C (wild data); max size 16.2 cm FL."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": null,
+    "breedingNotes": null,
+    "conspecificAggression": "low",
+    "finNippy": false,
+    "reefSafe": "no",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "protogynous": null,
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy"
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-03"
+}
