@@ -1,0 +1,103 @@
+{
+  "id": "sw-fish-482",
+  "slug": "orange-spotted-goby",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Orange Spotted Goby",
+  "scientificName": "Amblyeleotris guttata",
+  "alsoKnownAs": ["Spotted Prawn Goby", "Orange Spotted Shrimp Goby"],
+  "category": "Gobies",
+  "taxonomy": {
+    "family": "Gobiidae",
+    "order": "Gobiiformes"
+  },
+  "nativeRange": {
+    "regions": ["Western Pacific"],
+    "countries": ["Philippines", "Japan", "Australia", "Tonga", "Indonesia"],
+    "habitat": "Outer lagoon and seaward reef sand slopes; found on patches or expanses of coarse carbonate sand at depths of roughly 10–40 m",
+    "biotope": "Reef"
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 22.0, "max": 27.0 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": { "min": 8.0, "max": 12.0 },
+    "salinity": { "min": 1.020, "max": 1.025 }
+  },
+  "adultSizeCm": { "min": 3.0, "max": 10.0 },
+  "lifespanYears": null,
+  "tank": {
+    "minVolumeLiters": 75,
+    "minLengthCm": 60,
+    "swimZone": "bottom",
+    "decorPreferences": ["fine sand substrate", "loose coral rubble", "caves and crevices for hiding", "open sand patches for burrowing"]
+  },
+  "careLevel": "beginner",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Generally accepts a variety of frozen and prepared meaty foods such as mysis shrimp, vitamin-enriched brine shrimp, and finely chopped table shrimp. Feeding twice daily is commonly advised."
+  },
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "pair",
+    "minGroupSize": 1,
+    "goodWith": ["reef fish", "clownfish", "small wrasses", "dartfish", "shrimp (alpheid/pistol shrimp — symbiotic partner)", "other peaceful gobies"],
+    "avoidWith": ["aggressive fish", "large predatory fish", "small ornamental shrimp (may be threatened by this goby)"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A small, peaceful shrimp-goby from the Western Pacific that forms well-documented symbiotic partnerships with alpheid (pistol) shrimp, sharing a burrow in sandy reef substrate. Generally considered beginner-friendly and reef-safe.",
+  "careNotes": "The Orange Spotted Goby (Amblyeleotris guttata) is a burrowing goby native to sandy outer reef zones of the Western Pacific, ranging from the Philippines and Ryukyu Islands south to Australia and east to Tonga. It tends to be found at depths of roughly 10–40 m on coarse carbonate sand patches near reef slopes.\n\nIn the aquarium it generally does well with a sand substrate of at least a few centimetres depth and some loose coral rubble for shelter. It has been documented forming symbiotic partnerships with alpheid (pistol) shrimp — the shrimp maintains the burrow while the goby acts as a lookout — and this behaviour can be replicated in a well-set-up reef tank.\n\nA tight-fitting, well-sealed lid is strongly advised: like most gobies, this species has been known to jump from open aquariums.\n\nAdult coloration is pale whitish-grey with 4–5 dark brown to black bars on the body, and distinctive bright orange spots covering the head and body. The pelvic fins are notably blackish.\n\nWhile LiveAquaria recommends a minimum of 10 gallons (approximately 38 L), specialist reef-keeping guidance and the species' natural need for open sand territory and a shrimp partner suggest a more practical minimum of around 75 L (approximately 20 US gallons).\n\nAdult size sources differ: LiveAquaria gives a typical trade size of about 3.5 inches (~9 cm), while FishBase records a maximum standard length of 11.0 cm. A practical care range of 3–10 cm is used here.\n\nTemperature range is based on an average of LiveAquaria (22–26°C, converted from 72–78°F) and FishBase (22–28°C), yielding approximately 22–27°C.\n\nThe species is generally considered reef-safe but has been noted to pose a potential threat to very small, delicate ornamental shrimp (other than its symbiotic alpheid partner). Larger ornamental shrimp are typically unaffected.",
+  "breedingNotes": "Spawning has been reported to occur in captivity. Like other shrimp gobies, it has been documented depositing eggs inside its burrow; the male has been observed guarding the nest. Detailed captive breeding protocols are not widely documented in the hobby literature.",
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/orange-spotted-goby",
+      "accessedDate": "2026-06-03",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Amblyeleotris-guttata.html",
+        "accessedDate": "2026-06-03",
+        "notes": "Cross-checked adult size (11.0 cm SL vs LiveAquaria 3.5 in/8.9 cm — averaged to 10 cm max), temperature range (22–28°C vs LiveAquaria 22–26°C — averaged to 22–27°C), native range, family/order, and habitat. FishBase did not provide explicit pH or salinity SG values; marine standard applied."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "difficult",
+    "breedingNotes": "Spawning has been reported in well-maintained reef aquariums. Eggs are typically deposited inside the burrow and guarded by the male. Raising larvae to settlement is considered difficult; detailed captive-breeding protocols are not widely established in the hobby.",
+    "conspecificAggression": "low",
+    "finNippy": false,
+    "reefSafe": "yes",
+    "escapeRisk": "high",
+    "venomousSpines": false,
+    "protogynous": null,
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy"
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-03"
+}

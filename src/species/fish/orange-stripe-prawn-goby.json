@@ -1,0 +1,168 @@
+{
+  "id": "sw-fish-483",
+  "slug": "orange-stripe-prawn-goby",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Orange Stripe Prawn Goby",
+  "scientificName": "Amblyeleotris randalli",
+  "alsoKnownAs": ["Randall's Prawn Goby", "Randall's Shrimp Goby"],
+  "category": "Goby",
+
+  "taxonomy": {
+    "family": "Gobiidae",
+    "order": "Gobiiformes"
+  },
+
+  "nativeRange": {
+    "regions": ["Western Pacific", "Indo-Pacific"],
+    "countries": [
+      "Indonesia", "Japan", "Malaysia", "Philippines", "Australia",
+      "Papua New Guinea", "Solomon Islands", "Fiji", "Palau",
+      "New Caledonia", "Micronesia"
+    ],
+    "habitat": "Carbonate sand patches and rubble caves on clear-water coral reefs, typically at depths of 25–50 m",
+    "biotope": "Reef"
+  },
+
+  "waterParameters": {
+    "temperatureC": { "min": 22.0, "max": 28.0 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": null,
+    "salinity": { "min": 1.023, "max": 1.026 }
+  },
+
+  "adultSizeCm": { "min": 5.0, "max": 12.0 },
+  "lifespanYears": null,
+
+  "tank": {
+    "minVolumeLiters": 100,
+    "minLengthCm": 75,
+    "swimZone": "bottom",
+    "decorPreferences": [
+      "fine sand substrate (5+ cm deep for burrowing)",
+      "rubble or rock for cave formation",
+      "open sand patches for foraging"
+    ]
+  },
+
+  "careLevel": "intermediate",
+
+  "diet": {
+    "type": "carnivore",
+    "notes": "Has been documented feeding on small crustaceans, zooplankton, and meaty invertebrates near its burrow. In captivity tends to accept frozen mysis shrimp, brine shrimp, and finely chopped meaty foods; may require some coaxing initially. Target feeding near the burrow entrance is generally advised."
+  },
+
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "pair",
+    "minGroupSize": 1,
+    "goodWith": [
+      "peaceful reef fish",
+      "Alpheid pistol shrimp (symbiotic partner)",
+      "clownfish",
+      "cardinalfish",
+      "anthias",
+      "small wrasses"
+    ],
+    "avoidWith": [
+      "aggressive or territory-holding fish",
+      "large predatory fish",
+      "other Amblyeleotris gobies (unless mated pair)",
+      "small ornamental shrimp (may be consumed)"
+    ]
+  },
+
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": [
+      {
+        "url": "https://www.fishbase.se/images/thumbnails/jpg/tn_Amran_u4.jpg",
+        "source": "FishBase",
+        "sourceType": "fishbase",
+        "license": "All rights reserved (Petrinos, C.)",
+        "notes": "Thumbnail only; full-resolution rights reserved — confirm licensing before use.",
+        "recommended": false
+      },
+      {
+        "url": "https://www.fishbase.se/Photos/PicturesSummary.php?ID=7232&what=species",
+        "source": "FishBase",
+        "sourceType": "fishbase",
+        "license": "All rights reserved (Robert Yin, Jan 1996, Philippines)",
+        "notes": "Gallery page with 8 photos total; Amran_u2.jpg by Robert Yin is the first. All rights reserved — reviewer should check individual image terms.",
+        "recommended": false
+      }
+    ]
+  },
+
+  "summary": "A striking prawn goby from the Western Pacific that forms a well-known symbiotic partnership with pistol shrimp. Generally considered suitable for established reef aquariums with sandy substrates; tends to be peaceful toward dissimilar tankmates.",
+
+  "careNotes": "Orange Stripe Prawn Goby is best known for its fascinating symbiosis with Alpheid pistol shrimp (most often Alpheus ochrostriatus or similar species), with which it shares a burrow — the shrimp constructs and maintains the burrow while the goby watches for predators. Providing a compatible pistol shrimp in the aquarium is strongly encouraged, as this partnership appears to benefit both animals and encourages natural behavior.\n\nA minimum of 5 cm of fine sand substrate is generally recommended to allow burrowing. The species tends to occupy the bottom zone, spending most of its time hovering just above the sand near its burrow entrance.\n\nIn the wild this species has been collected from depths of 25–50 m on clear-water reefs. In captivity, stable, mature reef-system parameters (consistent temperature, salinity, and water quality) are generally advised.\n\nEscape risk is considered high: like most shrimp gobies, this species has been reported to jump from open aquaria — a well-fitted lid is advised. When startled or stressed, the goby is known to dart rapidly.\n\nConspecific aggression is moderate; two males in a small tank may fight for territory. A mated male–female pair tends to coexist more readily. The species is generally regarded as reef-safe, though small ornamental shrimp species may occasionally be at risk.\n\nFeeding in captivity tends to be moderately easy — most specimens will accept frozen mysis and Artemia once acclimated, though newly acquired individuals may initially be reluctant to feed away from their burrow. Wild depth (25–50 m) suggests this is not typically a brightly-lit shallow reef fish; moderate lighting is generally sufficient.\n\nSources tried for cross-verification: LiveAquaria (blocked — consistently returned homepage despite multiple URL attempts), Reef2Reef wiki (403 Forbidden), Fishkeeping World (404), TFH Magazine (404), BlueZoo Aquatics (no species page found). Cross-verification conducted using FishBase and Wikipedia, both of which confirmed the species identity and core biological parameters.",
+
+  "breedingNotes": null,
+
+  "sources": {
+    "primary": {
+      "name": "FishBase",
+      "url": "https://www.fishbase.se/summary/SpeciesSummary.php?ID=7232&genusname=Amblyeleotris&speciesname=randalli",
+      "accessedDate": "2026-06-03",
+      "notes": "Used as effective primary source. LiveAquaria (designated primary) was blocked — all attempts returned the homepage rather than any species product page. FishBase provided maximum size, temperature range, depth, native range, taxonomy, habitat, and trophic level."
+    },
+    "additional": [
+      {
+        "name": "LiveAquaria",
+        "url": "https://www.liveaquaria.com/collections/gobies",
+        "accessedDate": "2026-06-03",
+        "notes": "Designated primary source per manifest. Multiple URL patterns attempted (category browse, search, direct pcatid guesses) — all returned the LiveAquaria homepage without reaching a species product page. Swapped to FishBase as effective primary per playbook fallback rule."
+      },
+      {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Amblyeleotris_randalli",
+        "accessedDate": "2026-06-03",
+        "notes": "Cross-verification source. Confirmed species identity, symbiotic relationship with Alpheus ochrostriatus, carnivorous diet, Western Pacific range. Reported size as ~9 cm vs FishBase 12 cm SL — see careNotes. Used for taxonomy cross-check and biology confirmation."
+      },
+      {
+        "name": "FishBase (Country List)",
+        "url": "https://www.fishbase.se/Country/CountryList.php?ID=7232&GenusName=Amblyeleotris&SpeciesName=randalli",
+        "accessedDate": "2026-06-03",
+        "notes": "Confirmed native range across 13 territories in Western Pacific including Indonesia, Japan, Philippines, Australia, Palau, Solomon Islands, Fiji, Papua New Guinea, Malaysia, New Caledonia, Micronesia."
+      }
+    ]
+  },
+
+  "fish": {
+    "breedingDifficulty": null,
+    "breedingNotes": null,
+    "conspecificAggression": "moderate",
+    "finNippy": false,
+    "reefSafe": "with caution",
+    "escapeRisk": "high",
+    "venomousSpines": false,
+    "protogynous": null,
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "moderate"
+  },
+
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+
+  "schemaVersion": 1,
+  "dataStatus": "needs_review",
+  "lastReviewed": "2026-06-03"
+}

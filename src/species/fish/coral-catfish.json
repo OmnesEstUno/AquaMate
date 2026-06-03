@@ -1,0 +1,119 @@
+{
+  "id": "sw-fish-469",
+  "slug": "coral-catfish",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Coral Catfish",
+  "scientificName": "Plotosus lineatus",
+  "alsoKnownAs": ["Striped Eel Catfish", "Striped Catfish", "Lined Catfish"],
+  "category": "Miscellaneous Fish",
+
+  "taxonomy": {
+    "family": "Plotosidae",
+    "order": "Siluriformes"
+  },
+
+  "nativeRange": {
+    "regions": ["Indo-Pacific", "Red Sea", "East Africa", "Japan", "Australia", "Samoa"],
+    "countries": ["Australia", "Japan", "India", "Indonesia", "Philippines", "Egypt", "Kenya", "Tanzania", "Mozambique"],
+    "habitat": "Coastal benthic; found in coral reefs, estuaries, tide pools, and open coasts. Occasionally enters brackish and freshwater environments in East Africa and Madagascar.",
+    "biotope": "Reef"
+  },
+
+  "waterParameters": {
+    "temperatureC": { "min": 24.5, "max": 29.1 },
+    "pH":           { "min": 8.1,  "max": 8.4  },
+    "gH":           null,
+    "kH":           null,
+    "salinity":     { "min": 1.020, "max": 1.025 }
+  },
+
+  "adultSizeCm":   { "min": 20.0, "max": 32.0 },
+  "lifespanYears": null,
+
+  "tank": {
+    "minVolumeLiters": 300,
+    "minLengthCm": 150,
+    "swimZone": "bottom",
+    "decorPreferences": ["sandy substrate", "caves", "rock overhangs", "PVC pipe hiding spots"]
+  },
+
+  "careLevel": "intermediate",
+
+  "diet": {
+    "type": "carnivore",
+    "notes": "Benthic carnivore that tends to forage by searching and stirring the substrate for crustaceans, mollusks, worms, and small fish. In captivity, generally accepts a variety of fresh and frozen seafoods (shrimp, squid, mysis, silversides) and meaty flake or pellet foods fed at least twice daily."
+  },
+
+  "compatibility": {
+    "temperament": "aggressive",
+    "grouping": "schooling",
+    "minGroupSize": 6,
+    "goodWith": ["similarly sized peaceful to semi-aggressive saltwater fish", "larger robust fish that are not easily bullied"],
+    "avoidWith": ["small invertebrates", "small ornamental shrimp", "small crabs", "small fish that can be swallowed", "slow or fragile tankmates"]
+  },
+
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+
+  "summary": "The Coral Catfish is a venomous, schooling catfish from the Indo-Pacific, notable for forming dense ball-shaped aggregations as juveniles. Adults grow to around 30 cm and are generally considered aggressive predators best kept in large, predator-only aquariums.",
+
+  "careNotes": "Coral Catfish have highly venomous dorsal and pectoral fin spines capable of inflicting intensely painful wounds; handling should be done with extreme caution and thick gloves. Juveniles famously form dense ball-shaped schools of up to 100 individuals and tend not to do well when separated — they are generally advised to be kept in groups of 6 or more initially, though schooling behavior tends to diminish as they mature. Adults have been reported to become solitary or form smaller loose groups of around 20. Because juveniles must be kept in groups and adults grow quite large (commonly 25–30 cm), this species is best reserved for large aquariums of 300 liters or more.\n\nThe species has been documented to be sensitive to copper-based medications and similar treatments. A sandy substrate is recommended to support natural foraging behavior. Adults tend to hide under ledges and overhangs during daylight hours and become more active after dark. LiveAquaria lists this species under the synonym 'Phetusus angularis' (a garbled variant of the historical synonym Plotosus anguillaris Bloch, 1794); the accepted scientific name is Plotosus lineatus (Thunberg, 1787).\n\nNote on salinity: LiveAquaria lists a specific gravity of 1.017–1.019, which is lower than typical marine aquarium parameters. FishBase records the species from both marine and brackish environments across the Indo-Pacific. Standard marine aquarium SG of 1.020–1.025 is more commonly recommended and is used here; the species can likely tolerate mild salinity variation but changes should be kept to a minimum.",
+
+  "breedingNotes": "Males have been documented constructing nests under rocks and guarding demersal egg masses. Breeding in home aquaria is not well documented and is generally considered impractical due to the large group and tank size requirements.",
+
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/coral-catfish",
+      "accessedDate": "2026-06-03",
+      "notes": "Primary source. Lists species under synonym 'Phetusus angularis'; accepted name is Plotosus lineatus. Tank size stated as 70 gallons (265 L); rounded up to 300 L on the nice-values list given schooling/size requirements. Salinity listed as SG 1.017–1.019; adjusted to 1.020–1.025 to reflect standard marine aquarium parameters."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Plotosus-lineatus",
+        "accessedDate": "2026-06-03",
+        "notes": "Cross-verified scientific name (Plotosus lineatus, Thunberg 1787), family (Plotosidae), order (Siluriformes), adult size (max 35.2 cm TL, common 25 cm), temperature range (24.5–29.1°C), native range (Indo-Pacific, Red Sea to Samoa, Japan to Australia), habitat (coastal benthic, coral reefs, estuaries, tide pools), diet (crustaceans, mollusks, worms, fish), and schooling behavior. Temperature range from FishBase used in preference to LiveAquaria's narrower 25.6–26.7°C."
+      }
+    ]
+  },
+
+  "fish": {
+    "breedingDifficulty": "difficult",
+    "breedingNotes": "Males construct nests under rocks and guard egg clutches. Captive breeding is rarely reported and generally considered impractical due to large tank and group requirements.",
+    "conspecificAggression": "low",
+    "finNippy": false,
+    "reefSafe": "no",
+    "escapeRisk": "low",
+    "venomousSpines": true,
+    "protogynous": null,
+    "haremic": null,
+    "caudalScalpel": false,
+    "nocturnal": true,
+    "juvenileColorPhase": true,
+    "copperSensitive": true,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy"
+  },
+
+  "crustacean":   null,
+  "coral":        null,
+  "mollusc":      null,
+  "echinoderm":   null,
+  "other-invert": null,
+  "plant":        null,
+  "macroalgae":   null,
+
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-03"
+}

@@ -1,0 +1,119 @@
+{
+  "id": "sw-fish-475",
+  "slug": "miniatus-grouper",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Miniatus Grouper",
+  "scientificName": "Cephalopholis miniata",
+  "alsoKnownAs": ["Coral Hind", "Coral Grouper", "Miniata Grouper"],
+  "category": "Groupers",
+
+  "taxonomy": {
+    "family": "Epinephelidae",
+    "order": "Perciformes"
+  },
+
+  "nativeRange": {
+    "regions": ["Indo-Pacific", "Red Sea", "Indian Ocean", "Pacific Ocean"],
+    "countries": ["South Africa", "Maldives", "Indonesia", "Philippines", "Japan", "Australia", "Fiji", "Hawaii"],
+    "habitat": "Reef-associated; tends to be found in clear waters of coral reefs, more often in exposed rather than protected reef areas, at depths of 2–150 m",
+    "biotope": "Reef"
+  },
+
+  "waterParameters": {
+    "temperatureC": { "min": 23.0, "max": 27.0 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": { "min": 8.0, "max": 12.0 },
+    "salinity": { "min": 1.020, "max": 1.025 }
+  },
+
+  "adultSizeCm": { "min": 35.0, "max": 50.0 },
+  "lifespanYears": { "min": 10.0, "max": 30.0 },
+
+  "tank": {
+    "minVolumeLiters": 700,
+    "minLengthCm": 180,
+    "swimZone": "all",
+    "decorPreferences": ["live rock", "caves", "overhangs", "open swimming space"]
+  },
+
+  "careLevel": "intermediate",
+
+  "diet": {
+    "type": "carnivore",
+    "notes": "Naturally feeds on small fishes (reportedly up to 80% of diet) and crustaceans. In captivity has been documented accepting freeze-dried krill soaked in Selcon, frozen preparations, squid, and silversides. Some specimens may initially require live feeders for conditioning before accepting prepared foods."
+  },
+
+  "compatibility": {
+    "temperament": "aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["large peaceful fish", "large angelfish", "large wrasses", "tangs"],
+    "avoidWith": ["small fish", "small crustaceans", "ornamental shrimp", "conspecifics", "other groupers"]
+  },
+
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+
+  "summary": "A brilliantly colored Indo-Pacific grouper with a vivid orange-red body covered in electric-blue spots. Best kept by intermediate hobbyists with very large systems; tends to be aggressive toward smaller tankmates.",
+
+  "careNotes": "The Miniatus Grouper (also sold as Coral Hind or Coral Grouper) is considered one of the more attractive groupers in the trade, with a striking orange-red body covered in small blue spots. Wild specimens have been documented reaching 50 cm, while captive fish generally grow to around 35–40 cm. A tank of at least 700 liters (approximately 180 US gallons) is generally advised to accommodate an adult. Only one specimen per tank is typically recommended; conspecifics and other grouper species have been known to fight. This species is generally classified as reef-safe with caution — it will eat small fish and ornamental shrimp, but tends to leave corals undisturbed. Newly acquired specimens sometimes require live feeders initially, but have been reported to transition to frozen and prepared foods once acclimated. Water quality should be maintained at typical reef parameters (SG 1.020–1.025, pH 8.1–8.4, kH 8–12). This species is a protogynous hermaphrodite, forming haremic groups in the wild with a dominant male and 2–12 females occupying territories up to 475 square meters. Temperature disagreement between sources: LiveAquaria recommends 22–26°C, FishBase wild-data range is 23.7–29°C; averaged to 23–27°C for the data record.",
+
+  "breedingNotes": "Has been documented as a protogynous hermaphrodite — all individuals start as females, with the dominant individual in a group transitioning to male. Captive breeding is rarely reported. In the wild, males maintain haremic groups of 2–12 females. Captive spawning has not been reliably documented in home aquaria.",
+
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/collections/groupers/products/miniatus-grouper",
+      "accessedDate": "2026-06-03",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Cephalopholis-miniata.html",
+        "accessedDate": "2026-06-03",
+        "notes": "Cross-checked adult size (50 cm TL wild max vs 14 in/35.6 cm captive per LiveAquaria), temperature range (23.7–29°C vs 72–78°F/22.2–25.6°C — averaged to 23–27°C), native range, taxonomy, diet composition, and haremic social structure. FishBase also confirmed protogynous hermaphroditism and maximum reported age ~30 years."
+      }
+    ]
+  },
+
+  "fish": {
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "Protogynous hermaphrodite forming haremic groups in the wild; captive spawning not reliably documented.",
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "with caution",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "protogynous": true,
+    "haremic": true,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "moderate"
+  },
+
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-03"
+}

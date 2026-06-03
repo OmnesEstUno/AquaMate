@@ -1,0 +1,103 @@
+{
+  "id": "sw-fish-466",
+  "slug": "colin-s-angelfish",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Colin's Angelfish",
+  "scientificName": "Centropyge colini",
+  "alsoKnownAs": ["Cocos-Keeling Angelfish", "Colin's Pygmy Angelfish"],
+  "category": "Angelfish",
+  "taxonomy": {
+    "family": "Pomacanthidae",
+    "order": "Acanthuriformes"
+  },
+  "nativeRange": {
+    "regions": ["Indo-West Pacific"],
+    "countries": ["Indonesia", "Palau", "Guam", "Fiji", "Marshall Islands", "Cocos-Keeling Islands"],
+    "habitat": "Outer reef drop-offs; secretive dweller of crevices and clefts in caves, typically at depths of 20–110 m",
+    "biotope": "Reef"
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 24.0, "max": 27.0 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": null,
+    "salinity": { "min": 1.020, "max": 1.025 }
+  },
+  "adultSizeCm": { "min": 7.0, "max": 9.0 },
+  "lifespanYears": null,
+  "tank": {
+    "minVolumeLiters": 300,
+    "minLengthCm": 120,
+    "swimZone": "mid",
+    "decorPreferences": ["live rock", "caves", "crevices", "rubble zones"]
+  },
+  "careLevel": "expert",
+  "diet": {
+    "type": "omnivore",
+    "notes": "In the wild the natural diet is undocumented, but captive specimens are generally offered Spirulina, marine algae, high-quality angelfish preparations, frozen mysis shrimp, and other meaty items. Abundant live rock for microalgae grazing is considered important."
+  },
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "pair",
+    "minGroupSize": 1,
+    "goodWith": ["peaceful reef fish", "non-aggressive wrasses", "small reef-safe gobies"],
+    "avoidWith": ["other dwarf angelfish (Centropyge spp.)", "aggressive or large boisterous fish that may outcompete the initially reclusive specimen"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A rare and secretive Indo-West Pacific pygmy angelfish found on deep outer reef drop-offs; generally considered one of the most challenging dwarf angelfishes to keep, requiring expert-level care and a well-established, peaceful reef system.",
+  "careNotes": "Colin's Angelfish (also placed in the genus Paracentropyge by LiveAquaria and some older sources; current FishBase taxonomy accepts Centropyge colini) is rarely collected for the aquarium trade and is regarded as an expert-only species. Newly introduced specimens tend to be very shy and reclusive; they should be introduced to the tank before larger or more active fish are added. A large amount of live rock providing caves and crevices is considered essential for this species to feel secure and to graze on microalgae. Generally advised to keep only one dwarf angelfish per display; introducing a second Centropyge species is likely to cause conflict. In the wild, this species forms harems of 3–7 individuals (one dominant male + several females) and is a protogynous hermaphrodite; aquarists sometimes keep a single specimen or a proven pair. The species has been reported to occasionally nip at smaller SPS coral fragments, so reef compatibility is 'with caution' rather than fully reef-safe. NOTE — temperature disagreement: LiveAquaria recommends 72–78 °F (22.2–25.6 °C) while FishBase habitat data places the natural range at 26.2–28.7 °C; averaged to 24–27 °C here, but this field is flagged for human review.",
+  "breedingNotes": "Captive breeding of Centropyge colini has not been documented in the hobby literature. The species is a protogynous hermaphrodite that forms harems in the wild, with the dominant individual being male.",
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/colins-angelfish-expert-only",
+      "accessedDate": "2026-06-03",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Centropyge-colini",
+        "accessedDate": "2026-06-03",
+        "notes": "Cross-checked adult size (9.0 cm TL vs LiveAquaria 3 in / 7.62 cm — averaged to 7–9 cm range), temperature (26.2–28.7 °C vs LiveAquaria 22.2–25.6 °C — averaged to 24–27 °C, flagged needs_review), native range, taxonomy, and harem behavior. FishBase lists the species as Centropyge colini; LiveAquaria uses the older genus placement Paracentropyge colini."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "No documented captive breeding. Protogynous hermaphrodite forming harems in the wild.",
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "with caution",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "protogynous": true,
+    "haremic": true,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": true,
+    "toxicToTank": false,
+    "feedingDifficulty": "difficult"
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "needs_review",
+  "lastReviewed": "2026-06-03"
+}
