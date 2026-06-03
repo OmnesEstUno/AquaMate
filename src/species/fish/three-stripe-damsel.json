@@ -4,76 +4,103 @@
   "kind": "fauna",
   "taxon": "fish",
   "waterType": "saltwater",
-  "commonName": "Three-Stripe Damsel",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "commonName": "Three Stripe Damselfish",
+  "scientificName": "Dascyllus aruanus",
+  "alsoKnownAs": [
+    "Three-Stripe Damsel",
+    "Humbug Damselfish",
+    "Humbug Dascyllus",
+    "Whitetail Dascyllus",
+    "Three Striped Humbug"
+  ],
   "category": "Damsel",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Pomacentridae",
+    "order": "Ovalentaria incertae sedis"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null
+    "regions": ["Indo-Pacific", "Western Pacific"],
+    "countries": ["Indonesia", "Philippines", "Japan", "New Caledonia", "Australia", "Papua New Guinea", "Solomon Islands", "Marshall Islands", "French Polynesia"],
+    "habitat": "Shallow lagoons and subtidal reef flats, generally found at depths of 0–20 m, closely associated with branching coral thickets (especially Acropora and Pocillopora) for refuge.",
+    "biotope": "Indo-Pacific coral reef"
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
+    "temperatureC": { "min": 23, "max": 27 },
+    "pH": { "min": 8.1, "max": 8.4 },
     "gH": null,
-    "kH": null,
-    "salinity": null
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.020, "max": 1.025 }
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 7, "max": 10 },
+  "lifespanYears": { "min": 4, "max": 6 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": []
+    "minVolumeLiters": 150,
+    "minLengthCm": 90,
+    "swimZone": "mid",
+    "decorPreferences": ["dense rockwork", "branching coral or coral-skeleton refuges", "open swimming space above the rockwork"]
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "beginner",
+  "diet": {
+    "type": "omnivore",
+    "notes": "In the wild has been documented feeding on zooplankton, benthic invertebrates and algae. In the aquarium tends to readily take a varied diet of frozen meaty foods (mysis, brine), pellets/flakes, and herbivore preparations; small frequent meals are generally advised over a single large feeding."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "aggressive",
+    "grouping": "shoaling",
+    "minGroupSize": 1,
+    "goodWith": ["large angelfishes", "tangs", "triggerfishes", "lionfishes", "moray eels", "other robust semi-aggressive tankmates"],
+    "avoidWith": ["small peaceful fish", "fairy wrasses", "firefish", "small gobies", "other damselfish in undersized tanks", "shy reef fish"]
   },
   "media": {
     "primaryImage": "three_stripe_damsel.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Three-Stripe Damsel.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "Small black-and-white striped Indo-Pacific damselfish that is hardy and beginner-friendly, but tends to become highly territorial as it matures and is best added last to a tank of robust tankmates.",
+  "careNotes": "Cute, juvenile-looking humbug damsels are commonly considered one of the easiest marine fish to start with, but they have a strong reputation for growing into highly territorial adults that will harass smaller or more peaceful tankmates. Best kept either singly or in a group of 4–8 in a sufficiently large tank so dominance aggression is spread across the group rather than focused on one victim. Generally advised to add to an established tank last, after calmer tankmates are settled. Provides best results when given dense rockwork or branching coral structures as refuge plus open swimming space above. Generally considered reef-safe — does not nip corals and ignores most invertebrates — but its aggression can stress more sensitive reef tankmates. Water-parameter ranges shown are the typical aquarium hobby range; FishBase reports wild thermal range of roughly 25–29°C, so the upper-mid tropical reef range is well tolerated.",
+  "breedingNotes": "Has been bred in captivity, though not commonly as a target species. Oviparous demersal spawner: males clear and guard a nest site on hard substrate, court passing females, and tend the eggs (which generally hatch in 3–5 days) until pelagic larvae emerge. Rearing larvae requires live first-foods (rotifers progressing to Artemia) and is generally considered moderate in difficulty.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/three-stripe-damselfish",
+      "accessedDate": "2026-06-03",
+      "notes": "Aquarium-trade care sheet: 30 gal minimum, easy care level, omnivore diet, temp 72–78°F, pH 8.1–8.4, SG 1.020–1.025, dKH 8–12, adult size ~3.75 in."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Dascyllus-aruanus.html",
+        "accessedDate": "2026-06-03",
+        "notes": "Cross-checked taxonomy (Pomacentridae), max length (10 cm TL), distribution (Indo-West Pacific), wild thermal range (24.9–29.3°C), max reported age (6 yr), and reproductive biology."
+      },
+      {
+        "name": "Reef2Reef",
+        "url": "https://www.reef2reef.com/threads/humbug-dascyllus-striped-damselfish-dascyllus-aruanus.64018/",
+        "accessedDate": "2026-06-03",
+        "notes": "Aquarist-community context corroborating the highly territorial adult temperament and the recommendation to keep either singly or in a group of 4–8 to dilute aggression. Used to bias the minVolumeLiters above the LiveAquaria 30-gal floor toward 150 L given the prose cues (territorial, needs open swimming space + rockwork)."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
+    "breedingDifficulty": "moderate",
+    "breedingNotes": "Demersal spawner; males guard nest. Larvae are pelagic and require live first-foods (rotifers, Artemia) for rearing.",
+    "conspecificAggression": "high",
     "finNippy": null,
-    "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "protogynous": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
-    "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null
+    "reefSafe": "yes",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "protogynous": false,
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy"
   },
   "crustacean": null,
   "coral": null,
@@ -83,6 +110,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-03"
 }

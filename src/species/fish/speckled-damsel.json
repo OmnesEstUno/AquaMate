@@ -1,0 +1,115 @@
+{
+  "id": "sw-fish-416",
+  "slug": "speckled-damsel",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Speckled Damsel",
+  "scientificName": "Pomacentrus bankanensis",
+  "alsoKnownAs": ["Speckled Damselfish", "Fire Damsel"],
+  "category": "Damsel",
+  "taxonomy": {
+    "family": "Pomacentridae",
+    "order": "Ovalentaria incertae sedis"
+  },
+  "nativeRange": {
+    "regions": ["Western Pacific", "Eastern Indian Ocean", "Coral Triangle"],
+    "countries": ["Australia", "Indonesia", "Philippines", "Japan", "Fiji", "New Caledonia"],
+    "habitat": "Lagoons, reef flats, passages, and outer reef slopes at depths of roughly 0-32 m, usually amongst coarse rubble or rock.",
+    "biotope": "Tropical Indo-West Pacific coral reefs and reef-associated rubble zones, where adults are typically seen solitarily or in small groups."
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 23, "max": 28 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.020, "max": 1.026 }
+  },
+  "adultSizeCm": { "min": 6, "max": 9 },
+  "lifespanYears": { "min": 4, "max": 8 },
+  "tank": {
+    "minVolumeLiters": 120,
+    "minLengthCm": 90,
+    "swimZone": "mid",
+    "decorPreferences": ["live rock", "caves and crevices", "rubble zones", "open swimming space"]
+  },
+  "careLevel": "beginner",
+  "diet": {
+    "type": "omnivore",
+    "notes": "In the wild, has been documented feeding primarily on pelagic materials such as copepods, isopods, and pelagic tunicates, plus opportunistic algae grazing. In captivity, generally accepts a varied diet of quality marine flakes and pellets, frozen mysis and brine shrimp, finely chopped meaty seafoods, and algae-based foods such as spirulina. Feed once or twice daily, offering only what can be consumed in a few minutes."
+  },
+  "compatibility": {
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["larger semi-aggressive reef fish", "tangs", "wrasses", "angelfishes", "established tankmates of similar size"],
+    "avoidWith": ["other damselfish in small tanks", "conspecifics in tanks under ~200 L", "very small or timid fish", "newly added tankmates after the damsel is established", "delicate sessile invertebrates if reef compatibility is a concern"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "Hardy Indo-West Pacific damselfish that begins life as a vivid orange-and-blue juvenile (sometimes traded as 'Fire Damsel') and matures into a more subdued brown adult. Tends to become territorial with age, so generally kept singly in modest reef setups.",
+  "careNotes": "Generally considered one of the easier marine fish for beginners — tolerates a fairly wide range of conditions and accepts prepared foods readily. Juveniles show a striking orange dorsal half with bright blue horizontal lines on a brown body (the look that earned it the 'Fire Damsel' trade name), darkening to a mostly brown adult coloration with a white caudal fin. Has been reported to become noticeably more territorial as it matures, particularly toward conspecifics and other damselfishes; tends to do best as a single specimen or as a same-time-introduced bonded pair. Provide plenty of live rock with caves, crevices, and rubble for shelter, plus open swimming space in the mid water column. Reef compatibility is mixed across sources: LiveAquaria and Reeflings list it as reef-safe with monitoring, while Quality Marine flags occasional picking at benthic invertebrates — best treated as reef-safe with caution and watched around small ornamental inverts. Cross-source sizing spans roughly 2.5-3.5 inches (LiveAquaria 2.5 in, Reeflings 7 cm, FishBase 9 cm TL, Quality Marine ~4 in); 6-9 cm is the conservative envelope. Cross-source tank minimum spans 30 US gal (~114 L) to 100 L; bumped to 120 L because adults are territorial and benefit from extra footprint.",
+  "breedingNotes": "Oviparous, with distinct pairing during breeding. Eggs are demersal and adhere to the substrate; the male guards and aerates them until hatching. Rarely targeted by aquarium breeders, and larval rearing has not been widely documented for the hobby.",
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/speckled-damsel",
+      "accessedDate": "2026-06-03",
+      "notes": "Care level easy, semi-aggressive temperament, reef-compatible Yes, max 2.5 in, min 30 US gal, 72-78 F, pH 8.1-8.4, dKH 8-12, SG 1.020-1.025, omnivore. Catalog index page did not list the species so the direct product URL (found via search) was used in place of the slice's primary root."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://fishbase.se/summary/Pomacentrus-bankanensis.html",
+        "accessedDate": "2026-06-03",
+        "notes": "Confirmed taxonomy (Pomacentridae), max length 9.0 cm TL, depth 0-32 m, Western Pacific distribution (Christmas Island to Fiji, southern Japan to Rowley Shoals/New Caledonia), preferred 25.5-29.3 C, oviparous with male egg-guarding, IUCN Least Concern."
+      },
+      {
+        "name": "Reeflings",
+        "url": "https://reeflings.com/species/pomacentrus-bankanensis",
+        "accessedDate": "2026-06-03",
+        "notes": "Min 100 L (~26 US gal), 24-28 C, SG 1.023-1.026, pH 8-8.4, max 7 cm, reef-safe with monitoring, omnivore, semi-aggressive, male guards demersal eggs."
+      },
+      {
+        "name": "Quality Marine",
+        "url": "https://www.qualitymarine.com/quality-marine/fish/damsels/pomacentrus/speckled-bankenensis-15049/",
+        "accessedDate": "2026-06-03",
+        "notes": "Cross-checked tank (30 gal+), water parameters (72-78 F, pH 8.1-8.4, dKH 8-12, SG 1.020-1.025), max ~4 in, care level easy. Flagged as NOT reef-safe due to picking at benthic invertebrates — drove the 'with caution' reefSafe call."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "advanced",
+    "breedingNotes": "Pairs form during spawning; eggs are demersal and male-guarded. Rarely bred in the hobby; larval rearing has not been widely documented.",
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "with caution",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "protogynous": false,
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": true,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy"
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-03"
+}
