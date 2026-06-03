@@ -4,76 +4,97 @@
   "kind": "fauna",
   "taxon": "fish",
   "waterType": "saltwater",
-  "commonName": "Chainlink Moray",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "commonName": "Chain Moray",
+  "scientificName": "Echidna catenata",
+  "alsoKnownAs": ["Chainlink Moray", "Chain Eel", "Chainlink Eel", "Chain Moray Eel"],
   "category": "Eel",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Muraenidae",
+    "order": "Anguilliformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null
+    "regions": ["Western Atlantic", "Caribbean", "Eastern Atlantic"],
+    "countries": ["United States", "Bahamas", "Mexico", "Belize", "Brazil", "Cape Verde"],
+    "habitat": "Shallow tropical reefs and rocky shoreline crevices, generally from the intertidal zone to about 12 m depth.",
+    "biotope": "Coral reef and rocky reef hideouts with dense crevice structure."
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
+    "temperatureC": { "min": 23, "max": 27 },
+    "pH": { "min": 8.1, "max": 8.4 },
     "gH": null,
-    "kH": null,
-    "salinity": null
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.020, "max": 1.025 }
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 40, "max": 75 },
+  "lifespanYears": { "min": 10, "max": 20 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": []
+    "minVolumeLiters": 500,
+    "minLengthCm": 150,
+    "swimZone": "bottom",
+    "decorPreferences": ["live rock", "rock caves", "dense crevices", "tight-fitting lid"]
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Generally accepts large frozen meaty foods such as silversides, shrimp, squid, and pieces of fish. Wild diet is dominated by crustaceans (especially crabs) and cephalopods; offering occasional live or shell-on prey tends to be appreciated. New arrivals sometimes need a few days to start feeding and have been reported to respond best to scent-based, targeted feeding with tongs."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["large angelfishes", "tangs", "triggerfishes", "groupers", "other robust fish too large to swallow"],
+    "avoidWith": ["small shrimp", "small crabs", "ornamental crustaceans", "very small fish", "delicate clean-up crew"]
   },
   "media": {
     "primaryImage": "chainlink_moray.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Chainlink Moray.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "A boldly patterned Atlantic moray with a yellow-on-dark chain-link mosaic. Generally considered one of the more manageable morays, but still a predatory eel requiring a tight-fitting lid and tankmates too large to swallow.",
+  "careNotes": "Echidna catenata is sold under several trade names: Chain Moray, Chainlink Moray, Chain Eel, and Chainlink Eel are all the same species — this entry consolidates those variants. Generally regarded as one of the easier moray eels for an intermediate marine keeper, but it is still a long-lived predator that needs a large, well-sealed tank with dense rockwork. Typical captive adults reach 40-75 cm; FishBase records a rare maximum of around 165 cm but home-aquarium specimens are almost always well below that. A tight-fitting lid with no gaps is essential: this species is a strong escape risk like other morays. Generally considered reef-safe with caution toward sessile corals, but will eat ornamental shrimp, small crabs, and other clean-up-crew invertebrates. Wild diet leans heavily on crustaceans (crabs in particular) and cephalopods; in captivity it adapts to large frozen meaty foods (silversides, shrimp, squid, fish chunks) offered 2-3 times per week. Tends to be more active at dusk and after lights-out, though has been reported foraging during the day as well. Sources cross-checked: LiveAquaria (care guidance, parameters), FishBase (taxonomy, native range, temperature preference), Snorkel Things care write-up (lid requirement, diet specifics). Tank-size note: source spread was 90-125 US gal (340-473 L); the larger end was chosen with a small upward bias to account for the species' length and predatory swimming behavior, yielding the 500 L value from the allowed nice-values list.",
+  "breedingNotes": "Not known to have been bred in home aquariums. Like other moray eels, Echidna catenata is presumed to spawn pelagically and pass through a long leptocephalus larval stage that has not been successfully reared in captivity.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/collections/eels",
+      "accessedDate": "2026-06-02",
+      "notes": "Primary care-sheet level info: minimum tank size (125 US gal), temperament, reef-safe-with-caution rating, temperature 72-78°F, pH 8.1-8.4, SG 1.020-1.025, carnivore diet with live/frozen meaty foods."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Echidna-catenata",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked taxonomy (Muraenidae / Anguilliformes), native range (W. Atlantic Bermuda to Brazil + E. Atlantic Cape Verde/Ascension), depth 0-12 m, common length ~40 cm with rare max around 165 cm, preferred temperature 26.1-28.1°C."
+      },
+      {
+        "name": "Snorkel Things care write-up",
+        "url": "https://snorkelthings.com/chain-moray-eel/",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked diet (crustaceans and cephalopods, crab preference), escape risk (tight-fitting hood essential), behavior (active both day and night, relatively shy for a moray)."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
+    "breedingDifficulty": "not in captivity",
     "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
-    "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "with caution",
+    "escapeRisk": "high",
+    "venomousSpines": false,
     "protogynous": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
-    "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": true,
+    "juvenileColorPhase": false,
+    "copperSensitive": true,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "moderate"
   },
   "crustacean": null,
   "coral": null,
@@ -83,6 +104,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-02"
 }

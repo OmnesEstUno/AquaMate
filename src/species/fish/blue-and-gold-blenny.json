@@ -1,0 +1,114 @@
+{
+  "id": "sw-fish-300",
+  "slug": "blue-and-gold-blenny",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Blue and Gold Blenny",
+  "scientificName": "Ecsenius lividanalis",
+  "alsoKnownAs": ["Blackspot Coralblenny"],
+  "category": "Blenny",
+  "taxonomy": {
+    "family": "Blenniidae",
+    "order": "Blenniiformes"
+  },
+  "nativeRange": {
+    "regions": ["Western Pacific", "Indo-Pacific"],
+    "countries": ["Philippines", "Indonesia", "Australia", "Papua New Guinea", "Solomon Islands"],
+    "habitat": "Reef-associated; small groups among live corals of lagoons and sheltered coastal reefs at depths of roughly 1–12 m.",
+    "biotope": "Reef"
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 23, "max": 26 },
+    "pH": { "min": 8.0, "max": 8.4 },
+    "gH": null,
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.021, "max": 1.025 }
+  },
+  "adultSizeCm": { "min": 5, "max": 9 },
+  "lifespanYears": null,
+  "tank": {
+    "minVolumeLiters": 120,
+    "minLengthCm": 75,
+    "swimZone": "bottom",
+    "decorPreferences": ["scattered live rock with crevices for perching and hiding", "mature reef rockwork"]
+  },
+  "careLevel": "beginner",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Generally accepts a varied marine diet: vitamin-enriched frozen brine and mysis shrimp, finely chopped seafood, and quality marine flake or pellet foods. Combtooth blennies also benefit from grazing on natural film algae in a mature tank."
+  },
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["small peaceful reef fish", "gobies", "cardinalfish", "small wrasses"],
+    "avoidWith": ["other Ecsenius blennies", "aggressive damselfish", "large predatory fish"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "Small Western Pacific combtooth blenny with a striking blue head and yellow body. Has been reported to be peaceful with most tankmates and is generally considered reef-safe, with occasional SPS-polyp nipping noted.",
+  "careNotes": "Two color forms are commonly seen in the trade: one with a yellow body and blue head, and a dusky form that is pale blue overall with a yellow dorsal and caudal fin — both share the diagnostic black anal spot that gives the species its scientific name (lividanalis). Tends to spend much of its time hopping and perching out in the open between bouts of retreating into rockwork, so a scattered, crevice-rich aquascape is generally advised. Like most blennies, has been known to jump from open tanks, so a tightly sealed lid is strongly recommended. Considered reef-safe in most cases, but has been reported to occasionally nip at Acropora and other SPS coral polyps or bases; risk is higher in lightly stocked SPS displays. Tends to become territorial toward conspecifics and other members of genus Ecsenius, so best kept one per tank unless the system is very large. Sources disagree on tank size (LiveAquaria notes 10 gallons as an absolute minimum but recommends at least 30 gallons for proper care; Kraken Corals echoes 30 gallons); given the species' active perching behavior and need for sprawling rockwork territory, the larger end is generally advised. FishBase wild-temperature data (28–29°C) runs warmer than typical reef-aquarium ranges (23–26°C reported by hobby sources); the captive range above reflects aquarium-trade consensus.",
+  "breedingNotes": "Oviparous with demersal, adhesive eggs in the wild; males are reported to become more colorful and territorial during the breeding season. Captive spawning has been documented sporadically — eggs are reported to hatch in roughly 3–4 days, with fry reared on rotifers and newly hatched brine shrimp, but rearing is not routinely successful in home aquaria.",
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/blue-and-gold-blenny",
+      "accessedDate": "2026-06-02"
+    },
+    "additional": [
+      {
+        "name": "tankfacts.com",
+        "url": "https://www.tankfacts.com/fish/saltwater/blenny/blue-and-gold-blenny_805",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked sizing, water parameters, family, behavior, and breeding notes."
+      },
+      {
+        "name": "FishBase",
+        "url": "https://fishbase.se/summary/ecsenius-lividanalis",
+        "accessedDate": "2026-06-02",
+        "notes": "Confirmed scientific name, family (Blenniidae), order (Blenniiformes), max length 5 cm TL, depth range 1–12 m, and Western Pacific distribution (Philippines, Indonesia, Northern Australia, PNG, Solomon Islands). FishBase wild temperature (28–29.3°C) runs warmer than typical captive hobby ranges; captive value averaged across LiveAquaria + tankfacts."
+      },
+      {
+        "name": "Kraken Corals",
+        "url": "https://krakencorals.co.uk/blue-and-gold-blenny.html",
+        "accessedDate": "2026-06-02",
+        "notes": "Third opinion on minimum tank size — confirms 30 gallons (~120 L) as the practical minimum, supporting the cautious-larger pick over LiveAquaria's stated 10-gallon absolute minimum."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "difficult",
+    "breedingNotes": "Pelagic-larva rearing in home aquaria is reported as challenging; eggs are demersal and adhesive but the rotifer/brine-shrimp rearing phase has a low survival rate without dedicated grow-out systems.",
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "with caution",
+    "escapeRisk": "high",
+    "venomousSpines": false,
+    "protogynous": null,
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy"
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-02"
+}

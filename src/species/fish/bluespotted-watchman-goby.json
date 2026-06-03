@@ -1,0 +1,135 @@
+{
+  "id": "sw-fish-305",
+  "slug": "bluespotted-watchman-goby",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Bluespotted Watchman Goby",
+  "scientificName": "Cryptocentrus pavoninoides",
+  "alsoKnownAs": [
+    "Blackfinned Shrimp Goby",
+    "Peacock Shrimpgoby",
+    "Yellow Barred Shrimp Goby",
+    "Blue Spotted Watchman Goby"
+  ],
+  "category": "Goby",
+  "taxonomy": {
+    "family": "Gobiidae",
+    "order": "Gobiiformes"
+  },
+  "nativeRange": {
+    "regions": ["Western Central Pacific", "Indo-Pacific"],
+    "countries": ["Indonesia", "Fiji"],
+    "habitat": "Coastal seafloors at depths of about 1–15 m, generally over sand and rubble adjacent to reefs.",
+    "biotope": "Reef"
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 24, "max": 27 },
+    "pH": { "min": 8.0, "max": 8.4 },
+    "gH": null,
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.022, "max": 1.026 }
+  },
+  "adultSizeCm": { "min": 12, "max": 15 },
+  "lifespanYears": { "min": 3, "max": 5 },
+  "tank": {
+    "minVolumeLiters": 120,
+    "minLengthCm": 90,
+    "swimZone": "bottom",
+    "decorPreferences": [
+      "deep sandy substrate for burrowing",
+      "loose coral rubble",
+      "rockwork with caves and overhangs",
+      "open swimming space along the bottom",
+      "tight-fitting lid to prevent jumping"
+    ]
+  },
+  "careLevel": "beginner",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Generally accepts a varied diet of meaty marine foods; mysis shrimp, brine shrimp, chopped seafood, and quality pellets/flakes are commonly recommended. Tends to do best with several small feedings per day."
+  },
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": [
+      "most peaceful reef community fish",
+      "pistol shrimp (Alpheus spp.) symbiotic partners",
+      "corals and sessile invertebrates"
+    ],
+    "avoidWith": [
+      "other Cryptocentrus shrimp gobies",
+      "conspecifics (unless an established mated pair)",
+      "very small ornamental shrimp",
+      "large aggressive fish that may bully bottom-dwellers"
+    ]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "Indo-Pacific shrimp goby (Cryptocentrus pavoninoides), generally peaceful toward tankmates but territorial with its own kind; sand-dwelling burrower that often pairs with a pistol shrimp.",
+  "careNotes": "Generally considered a hardy, beginner-friendly shrimp goby and one of the larger Cryptocentrus species, reaching around 12–15 cm. Sources broadly agree it is peaceful toward unrelated tankmates but strongly territorial toward conspecifics and other shrimp gobies, so it is normally kept singly or as an established mated pair. Has been reported to form the classic symbiotic relationship with pistol shrimp (Alpheus spp.) — the shrimp digs and maintains a burrow that the goby uses as a refuge and lookout post. A deep sandy substrate (a few centimetres at minimum) plus loose coral rubble is generally advised so the pair can construct stable burrows; ample open bottom is also recommended for foraging and territorial spacing. Like most shrimp gobies, this species is a known jumper and a tightly-sealed lid is strongly recommended. Cross-source notes: BlueZoo Aquatics rates temperament as 'peaceful' while Live Rock 'N Reef lists it as 'semi-aggressive' and Tank Facts emphasises territoriality toward its own kind — the consensus interpretation is peaceful community-wide but high conspecific aggression. Minimum tank size ranged 29–30 US gal (110–114 L) across the retail sources; given the species' adult size, active bottom use, and need for a sand/rubble territory, 120 L (and a longer footprint of roughly 90 cm) is recommended as a more realistic minimum. Has been reported to be aggressive toward very small ornamental shrimp, so pairing with delicate sexy shrimp or anemone shrimp is generally discouraged.",
+  "breedingNotes": null,
+  "sources": {
+    "primary": {
+      "name": "BlueZoo Aquatics",
+      "url": "https://www.bluezooaquatics.com/productDetail.asp?did=1&pid=563&cid=18",
+      "accessedDate": "2026-06-02",
+      "notes": "Primary source after LiveAquaria did not list this species; BlueZoo is the listed manifest secondary and was used as primary for sizing/care level/temperament."
+    },
+    "additional": [
+      {
+        "name": "Live Rock N Reef",
+        "url": "https://www.liverocknreef.com/catalog/gobies/bluespotted-watchman-goby-cryptocentrus-pavoninoides-9409.html",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked water parameters (temperature 74–82°F, pH 7.9–8.5, SG 1.020–1.027), tank size (29 gal), reef-safe status, jumping behaviour, and sandy-substrate burrowing requirement."
+      },
+      {
+        "name": "Tank Facts",
+        "url": "https://www.tankfacts.com/fish/saltwater/gobies/bluespotted-watchman-goby_889",
+        "accessedDate": "2026-06-02",
+        "notes": "Independent third source for water parameters (76–80°F, pH 7.8–8.4, SG 1.023–1.026), conspecific territoriality, jumping risk, and additional trade-name synonyms (Peacock Shrimpgoby, Yellow Barred Shrimp Goby)."
+      },
+      {
+        "name": "Wikipedia (Cryptocentrus pavoninoides)",
+        "url": "https://en.wikipedia.org/wiki/Cryptocentrus_pavoninoides",
+        "accessedDate": "2026-06-02",
+        "notes": "Taxonomy (Gobiidae, Gobiiformes), maximum length 15 cm SL, depth range 1–15 m, native range Western Central Pacific, synonym Gobius pavoninoides Bleeker 1849."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": null,
+    "breedingNotes": null,
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "yes",
+    "escapeRisk": "high",
+    "venomousSpines": false,
+    "protogynous": null,
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy"
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-02"
+}

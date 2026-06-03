@@ -1,0 +1,172 @@
+{
+  "id": "sw-fish-308",
+  "slug": "bursa-triggerfish",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Bursa Triggerfish",
+  "scientificName": "Rhinecanthus verrucosus",
+  "alsoKnownAs": [
+    "Blackbelly Triggerfish",
+    "Black Patch Triggerfish",
+    "Blackpatch Triggerfish"
+  ],
+  "category": "Triggerfish",
+  "taxonomy": {
+    "family": "Balistidae",
+    "order": "Tetraodontiformes"
+  },
+  "nativeRange": {
+    "regions": [
+      "Indo-West Pacific"
+    ],
+    "countries": [
+      "Seychelles",
+      "Chagos Archipelago (British Indian Ocean Territory)",
+      "Indonesia",
+      "Philippines",
+      "Solomon Islands",
+      "Vanuatu",
+      "Japan",
+      "Australia"
+    ],
+    "habitat": "Subtidal reef flats and protected lagoons over rubble-algal substrate, typically at depths of 1–20 m",
+    "biotope": "Reef"
+  },
+  "waterParameters": {
+    "temperatureC": {
+      "min": 22,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
+  },
+  "adultSizeCm": {
+    "min": 19,
+    "max": 25
+  },
+  "lifespanYears": {
+    "min": 8,
+    "max": 20
+  },
+  "tank": {
+    "minVolumeLiters": 700,
+    "minLengthCm": 180,
+    "swimZone": "all",
+    "decorPreferences": [
+      "live rock",
+      "caves",
+      "sandy or fine coralline gravel substrate",
+      "secure anchored rockwork",
+      "open swimming space"
+    ]
+  },
+  "careLevel": "beginner",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Has been documented eating benthic invertebrates and some algae in the wild (trophic level ~3.5). In captivity tends to accept a varied diet of meaty marine foods including squid, krill, clams, mussels, hard-shelled shrimp, and chunks of fish. Offering hard-shelled foods is generally advised to help wear down the species' continuously growing teeth."
+  },
+  "compatibility": {
+    "temperament": "aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": [
+      "other large aggressive fish",
+      "large angelfish",
+      "tangs of similar or larger size",
+      "groupers",
+      "larger wrasses"
+    ],
+    "avoidWith": [
+      "other triggerfish",
+      "small or docile fish",
+      "ornamental shrimp and crustaceans",
+      "corals and sessile invertebrates",
+      "snails and clams"
+    ]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "An Indo-West Pacific triggerfish marked by a distinctive black belly patch and a half-white, half-yellow face; widely considered hardy in captivity but aggressive and not reef-safe.",
+  "careNotes": "The Bursa Triggerfish (also sold as the Blackbelly or Black Patch Triggerfish) is generally considered one of the hardier triggerfish species for fish-only-with-live-rock (FOWLR) setups, but it is decidedly not a community or reef fish. Adults can be shy initially but become territorial and highly aggressive toward conspecifics, other triggerfishes, and any similarly shaped or colored tankmates. They have been known to consume ornamental shrimp, snails, clams, and most other invertebrates, and may damage corals and sessile life — generally not reef-safe.\n\nThis species commonly rearranges live rock and sand and has been reported to make audible grunting vocalizations when threatened or feeding. Aquarists have also reported them biting plastic, silicone, and equipment; secure, well-anchored rockwork is generally advised. Like other balistids it has strong, continuously growing teeth that benefit from regular hard-shelled prey (whole clams, shell-on shrimp). Adults reach around 19–25 cm and can be long-lived, with reports of 15–20 years in well-maintained aquariums.\n\nTank-size disagreement: sources varied widely. FreshMarine listed 75 US gal (~284 L), LiveAquaria 130 US gal (~492 L), Tropical-Fish-Keeping 125 US gal (~473 L), and ReefApp 1,000 L. Given prose context that this species is territorial, active, and needs ample swimming space plus a long footprint to curb aggression, the larger end is generally advised; a value of 700 L was chosen to bias toward the larger sources while keeping to a nice round aquarium volume. dataStatus has been set to needs_review so a human can confirm the final minimum.\n\nTemperature disagreement: hobby sources cluster at 22–25.6°C (72–78°F); FishBase wild-temperature data centers higher, around 26–29°C. Range used: 22–27°C as a moderate average.\n\nLifespan: Sources commonly cite up to ~20 years in captivity for hardy triggerfishes of this size class. Lower bound of 8 years used to cover typical aquarium results.\n\nVenomous spines: Triggerfishes possess strong, lockable dorsal spines used defensively but these are not venomous — venomousSpines set to false.\n\nProtogyny: Rhinecanthus verrucosus is oviparous with distinct pairing; sequential hermaphroditism has not been documented in this species — protogynous set to false.",
+  "breedingNotes": "Oviparous with distinct pairing in the wild; in the wild has been reported to spawn in loose aggregations or as mated pairs over rubble-algal substrate. Captive breeding has not been meaningfully documented in the aquarium literature and is generally regarded as very difficult outside large public-aquarium settings.",
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/collections/triggerfish",
+      "accessedDate": "2026-06-02",
+      "notes": "Collection page used as entry; individual product page (liveaquaria.com/products/bursa-triggerfish) provided the bulk of the husbandry values (130 gal min tank, care level easy, temperament aggressive, reef-safe no, temperature 72–78°F, pH 8.1–8.4, SG 1.020–1.025, carnivore diet, 9-inch adult size)."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Rhinecanthus-verrucosus",
+        "accessedDate": "2026-06-02",
+        "notes": "Authoritative taxonomy (Balistidae, Tetraodontiformes), maximum size (23 cm TL, common 19 cm), wild temperature range (26.2–29.3°C), Indo-West Pacific distribution (Seychelles/Chagos to Vanuatu, south Japan), depth range 1–20 m, oviparous with distinct pairing, IUCN Least Concern. Diet listed as benthic invertebrates and algae at trophic level ~3.5."
+      },
+      {
+        "name": "ReefApp Encyclopedia",
+        "url": "https://reefapp.net/en/encyclopedia/rhinecanthus-verrucosus",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked size (23 cm), reef-safety (no), temperament (aggressive), and tank-size recommendation (1,000 L). Notes on rock-rearranging behavior, biting plastic/rubber, and grunting vocalizations. ReefApp's 1,000 L value sits at the high end of the source spread but matched the prose-context cues (territorial, needs space)."
+      },
+      {
+        "name": "FreshMarine",
+        "url": "https://www.freshmarine.com/bursa-trigger.html",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked water parameters (72–78°F, pH 8.1–8.4, SG 1.020–1.025), carnivore diet, reef-safe no, easy care level. Tank size (75 gal / 284 L) was on the low end of the spread; included in the average but biased away from for the final value."
+      },
+      {
+        "name": "Tropical Fish Keeping (search result)",
+        "url": "https://tropical-fish-keeping.com/bursa-triggerfish-rhinecanthus-verrucosus.html",
+        "accessedDate": "2026-06-02",
+        "notes": "WebFetch returned HTTP 429; data extracted via WebSearch snippet. Confirmed 125 gal (~473 L) minimum tank, water conditions 72–78°F / dKH 8–12 / pH 8.1–8.4 / SG 1.020–1.023, 9-inch adult size, lifespan up to ~20 years, aggressive temperament, carnivore diet, not reef-safe."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "Oviparous with distinct pairing in the wild; not meaningfully bred in home aquaria.",
+    "conspecificAggression": "high",
+    "finNippy": true,
+    "reefSafe": "no",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "protogynous": false,
+    "haremic": null,
+    "caudalScalpel": null,
+    "nocturnal": null,
+    "juvenileColorPhase": null,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": null,
+    "requiresHitchingPost": null,
+    "monogamousPairing": null,
+    "hlleSusceptible": null,
+    "toxicToTank": null,
+    "feedingDifficulty": "easy"
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "needs_review",
+  "lastReviewed": "2026-06-02"
+}

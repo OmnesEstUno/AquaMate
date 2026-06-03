@@ -1,0 +1,109 @@
+{
+  "id": "sw-fish-313",
+  "slug": "cloudy-damselfish",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Cloudy Damselfish",
+  "scientificName": "Dascyllus carneus",
+  "alsoKnownAs": ["Cloudy Dascyllus", "Indian Dascyllus", "Twobar Humbug"],
+  "category": "Damsel",
+  "taxonomy": {
+    "family": "Pomacentridae",
+    "order": "Ovalentaria incertae sedis"
+  },
+  "nativeRange": {
+    "regions": ["Western Indian Ocean", "Indian Ocean"],
+    "countries": ["Kenya", "Tanzania", "Mozambique", "South Africa", "Mauritius", "Réunion", "Seychelles", "Maldives", "Sri Lanka", "India", "Indonesia"],
+    "habitat": "Inshore and offshore coral reefs at depths of roughly 5-40 m, generally associated with branching corals.",
+    "biotope": "Tropical Indian Ocean coral reef among branching corals such as Acropora and Pocillopora, where small aggregations hover above the colonies to feed on zooplankton."
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 22, "max": 26 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.020, "max": 1.025 }
+  },
+  "adultSizeCm": { "min": 6.5, "max": 7.5 },
+  "lifespanYears": { "min": 5, "max": 10 },
+  "tank": {
+    "minVolumeLiters": 120,
+    "minLengthCm": 90,
+    "swimZone": "mid",
+    "decorPreferences": ["live rock", "branching coral", "caves and crevices", "open swimming space above rockwork"]
+  },
+  "careLevel": "beginner",
+  "diet": {
+    "type": "omnivore",
+    "notes": "In the wild this is a planktivore that hovers above branching corals picking zooplankton from the water column. In captivity it generally accepts a varied mix of marine flakes and pellets, frozen mysis and brine shrimp, finely chopped meaty seafoods, and occasional herbivore preparations such as spirulina or dried marine algae."
+  },
+  "compatibility": {
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["larger semi-aggressive reef fish", "tangs", "wrasses", "angelfishes", "most reef invertebrates", "corals"],
+    "avoidWith": ["small timid fish", "Chromis and cardinalfish in small tanks", "batfish and other slow feeders", "conspecifics in tanks under ~200 L", "newly added tankmates after the damsel is established"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "Small Indian Ocean damselfish, white-bodied with a dusky head and black-edged fins, that shoals over branching corals in the wild. Hardy and generally reef-safe, but tends to become territorial with age and is usually best kept singly.",
+  "careNotes": "Generally considered one of the easier marine fish for new saltwater keepers — hardy, accepts prepared foods readily, and is broadly reef-safe with corals and invertebrates. Sources widely report a 30 US gal (~114 L) minimum, but because adults tend to become territorial and need open swimming space above the rockwork, a 120 L (~32 gal) or larger tank with abundant live rock is generally advised. Juveniles can sometimes be kept in small groups or in a harem of one male with several females in larger tanks (roughly 200 L and up) with plenty of broken sight-lines; adults are more often kept singly because they tend to pick on conspecifics and on smaller, timid tankmates. May occasionally nibble at very small bottom-dwelling crustaceans but does not harm corals. Note: LiveAquaria's species page lists the family as Chaetodontidae, which is incorrect — FishBase and other taxonomic sources place this species in Pomacentridae (damselfishes), and that classification is used here. Wild reef temperatures (FishBase 25.9-29°C) run warmer than the aquarium-trade recommendation (~22-26°C); the husbandry range is used here as it reflects keeper consensus.",
+  "breedingNotes": "Oviparous with distinct pair formation around spawning; demersal eggs are attached to a hard substrate and guarded and aerated by the male until hatching. Captive spawning has been reported but rearing the pelagic larvae through metamorphosis is generally considered difficult and is rarely attempted by hobbyists; captive-bred specimens are seldom seen in the trade.",
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/collections/damselfish",
+      "accessedDate": "2026-06-02",
+      "notes": "Collection root for damselfish. Species' product page at /product/3207/ supplied care level (Easy), temperament (Aggressive), reef-compatible (Yes), water conditions (72-78°F, pH 8.1-8.4, dKH 8-12, SG 1.020-1.025), 30 US gal minimum, max ~3 in, omnivore diet. Note: LiveAquaria mislabels the family as Chaetodontidae — corrected here to Pomacentridae per FishBase."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Dascyllus-carneus",
+        "accessedDate": "2026-06-02",
+        "notes": "Confirmed taxonomy (Pomacentridae, Ovalentaria/misc), max length 7.0 cm TL, depth 5-40 m, Indian Ocean distribution (East Africa, Mauritius, Réunion, Seychelles, Maldives, Sri Lanka, Andaman Sea, Java Sea), wild reef temperature 25.9-29°C, planktivore (trophic level 2.7), oviparous with male egg-guarding, IUCN Least Concern."
+      },
+      {
+        "name": "Quality Marine — Cloudy Dascyllus",
+        "url": "https://www.qualitymarine.com/quality-marine/fish/damsels/dascyllus/cloudy-dascyllus-cc-15128/",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked size (~3 in), tank (30 gal minimum), temperament (peaceful for genus as juveniles, more territorial with age), diet (meaty + spirulina), water parameters matching LiveAquaria (72-78°F, pH 8.1-8.4, SG 1.020-1.025, 8-12 dKH), reef-safe. Notes rarity of captive-bred specimens and tendency to nibble very small bottom crustaceans."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "advanced",
+    "breedingNotes": "Pairs form on spawning sites and the male guards demersal eggs on the substrate. Larval rearing through the pelagic phase is generally considered difficult and captive-bred specimens are rarely available in the trade.",
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "yes",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "protogynous": false,
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy"
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-02"
+}

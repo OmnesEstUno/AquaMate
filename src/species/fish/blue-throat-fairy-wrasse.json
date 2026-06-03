@@ -1,0 +1,124 @@
+{
+  "id": "sw-fish-304",
+  "slug": "blue-throat-fairy-wrasse",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Blue Throat Fairy Wrasse",
+  "scientificName": "Cirrhilabrus cyanogularis",
+  "alsoKnownAs": [
+    "Blue Throat Sailfin Fairy Wrasse",
+    "Blue-throated Fairy Wrasse"
+  ],
+  "category": "Wrasse",
+  "taxonomy": {
+    "family": "Labridae",
+    "order": "Labriformes"
+  },
+  "nativeRange": {
+    "regions": ["Indo-West Pacific"],
+    "countries": ["Indonesia", "Philippines", "Malaysia"],
+    "habitat": "Outer reef rubble slopes",
+    "biotope": "Tropical reef rubble zones, typically reported around 4–30 m depth"
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 22, "max": 26 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.023, "max": 1.025 }
+  },
+  "adultSizeCm": { "min": 6, "max": 10 },
+  "lifespanYears": { "min": 4, "max": 8 },
+  "tank": {
+    "minVolumeLiters": 300,
+    "minLengthCm": 120,
+    "swimZone": "mid",
+    "decorPreferences": ["live rock", "rubble", "open swimming space"]
+  },
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Generally accepts vitamin-enriched frozen mysis and brine shrimp, finely chopped meaty foods, and high-quality marine flake or pellets. Feed several times per day given the species' active swimming. Has been documented foraging on small invertebrates including flatworms and polychaetes."
+  },
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "pair",
+    "minGroupSize": 1,
+    "goodWith": ["peaceful reef tankmates", "small to medium gobies", "cardinalfish", "clownfish", "corals", "ornamental shrimp"],
+    "avoidWith": ["large aggressive wrasses", "triggerfish", "lionfish", "other male fairy wrasses in the same tank"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A small, brightly colored fairy wrasse from Indonesia and the Philippines, generally considered a peaceful and reef-safe addition to medium-to-large mature reef aquariums.",
+  "careNotes": "Cirrhilabrus cyanogularis was formally described in 2018 and inhabits outer-reef rubble slopes from central Indonesia north into the southern Philippines, typically around 4–30 m depth. Sources report maximum size between roughly 6.2 cm SL (FishBase) and ~10 cm TL (LiveAquaria), with most retail specimens arriving at 7–9 cm. Tank-size recommendations diverge: saltwaterfish.com suggests ~190 L (50 gal) while LiveAquaria advises ~340 L (90 gal); we have leaned toward the larger end given the species' active mid-water swimming style and the value of a long footprint with open swimming lanes between rockwork. Generally peaceful and considered reef-safe; coral and ornamental-invert nipping is not commonly reported. Like most Cirrhilabrus, this species is a notable jumper — a tightly fitted lid or eurobrace is strongly recommended. Best kept as a single male, or as a male with one or more females introduced simultaneously; multiple males in the same tank tend to fight. As with other fairy wrasses, individuals are protogynous (female-first sequential hermaphrodites), and males display heightened color intensity during nuptial displays.",
+  "breedingNotes": null,
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/collections/wrasse-reef-safe",
+      "accessedDate": "2026-06-02",
+      "notes": "Species page at https://www.liveaquaria.com/product/6988/ used for water parameters, tank size (90 gal), diet, temperament, and reef-safe rating."
+    },
+    "additional": [
+      {
+        "name": "saltwaterfish.com",
+        "url": "https://www.saltwaterfish.com/product-blue-throat-sailfin-fairy-wrasse",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked sizing (3 in / ~7.6 cm) and tank size (50 gal / ~190 L). Disagreement with LiveAquaria's 90 gal recommendation noted; averaged toward the larger value per the playbook tank-size rule."
+      },
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Cirrhilabrus-cyanogularis.html",
+        "accessedDate": "2026-06-02",
+        "notes": "Confirmed max length 6.2 cm SL, family Labridae, order Eupercaria, depth ~4–30 m, distribution Indonesia/Philippines/Malaysia."
+      },
+      {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Cirrhilabrus_cyanogularis",
+        "accessedDate": "2026-06-02",
+        "notes": "Taxonomy and 2018 species description confirmed; etymology kyanos + gularis = 'blue throat'."
+      },
+      {
+        "name": "Reef Builders",
+        "url": "https://reefbuilders.com/2018/05/30/cirrhilabrus-cyanogularis-blue-throated-fairy-wrasse/",
+        "accessedDate": "2026-06-02",
+        "notes": "Original-description coverage; native range central-to-northern Indonesia into southern Philippines."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": null,
+    "conspecificAggression": "moderate",
+    "finNippy": false,
+    "reefSafe": "yes",
+    "escapeRisk": "high",
+    "venomousSpines": false,
+    "protogynous": true,
+    "haremic": true,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy"
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-02"
+}
