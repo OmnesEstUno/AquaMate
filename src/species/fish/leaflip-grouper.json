@@ -64,7 +64,7 @@
   },
   "lifespanYears": null,
   "tank": {
-    "minVolumeLiters": 1200,
+    "minVolumeLiters": 1500,
     "minLengthCm": 180,
     "swimZone": "all",
     "decorPreferences": [
@@ -104,7 +104,7 @@
     "imageCandidates": null
   },
   "summary": "A large Indo-Pacific soapfish (to ~35 cm) with striking spotted patterning, generally considered expert-level due to its predatory nature and a toxic skin secretion that can prove lethal to tank inhabitants if the fish is severely stressed or dies.",
-  "careNotes": "The Leaflip Grouper is a large, ambush-oriented predator that has been reported to grow to approximately 35 cm in well-kept aquariums. Tanks of at least 1200 L are generally advised to provide adequate territory and dilute bioload — note that LiveAquaria lists a minimum of 125 gallons (~473 L), while dedicated aquarium encyclopedias (ReefApp, Fishy.wiki) consistently recommend 1200 L; the larger figure is preferred here given the species' adult size and activity needs.\n\nThe species produces a toxic skin mucus (grammistin) that deters predators in the wild. In captivity this toxin has been known to be released in quantity when the fish is severely stressed or dying, and multiple reports indicate it can be lethal to all other inhabitants in the aquarium. A tight-fitting lid and stable water conditions are strongly recommended to minimize stress.\n\nJuveniles tend to be more skittish; adults generally become tamer over time. The species is best kept singly in a predator tank with large, robust tankmates of similar size. Small fish, shrimp, and crabs are typically treated as prey.\n\nWater-temperature data across sources shows some spread: LiveAquaria and Fishy.wiki suggest 22–26°C while FishBase records a wild range of 21–29°C; the filed range of 22–27°C represents an average across these references.\n\nThe minimum tank volume disagreement (473 L vs 1200 L) exceeds a 2× spread; dataStatus is set to needs_review so a human reviewer can confirm the appropriate recommendation.\n\nGroupers in general are protogynous hermaphrodites (female-first sex changers), and Pogonoperca punctata is believed to follow this pattern, though specific documentation for this species in captivity is limited.\n\nAlso sold under the trade names Clown Grouper, Spotted Soapfish, Snowflake Soapfish, and Leaflip Soapfish.",
+  "careNotes": "The Leaflip Grouper is a large, ambush-oriented predator that has been reported to grow to approximately 35 cm in well-kept aquariums. Tanks of at least 1500 L are recommended to provide adequate territory and dilute the heavy bioload this species produces.\n\nThe species produces a toxic skin mucus (grammistin) that deters predators in the wild. In captivity this toxin has been known to be released in quantity when the fish is severely stressed or dying, and multiple reports indicate it can be lethal to all other inhabitants in the aquarium. A tight-fitting lid and stable water conditions are strongly recommended to minimize stress.\n\nJuveniles tend to be more skittish; adults generally become tamer over time. The species is best kept singly in a predator tank with large, robust tankmates of similar size. Small fish, shrimp, and crabs are typically treated as prey.\n\nWater-temperature data across sources shows some spread: LiveAquaria and Fishy.wiki suggest 22–26°C while FishBase records a wild range of 21–29°C; the filed range of 22–27°C represents an average across these references.\n\nAs with other grammistids and groupers broadly, this species is protogynous (female-first sex changer); individuals mature as females and the dominant fish may transition to male.\n\nAlso sold under the trade names Clown Grouper, Spotted Soapfish, Snowflake Soapfish, and Leaflip Soapfish.\n\nRESOLVED 2026-06-03: The flagged tank-volume disagreement (473 L LiveAquaria vs 1200 L ReefApp/Fishy.wiki) is resolved in favour of the specialist-encyclopedia consensus. Both ReefApp (1200 L / 317 gal) and Fishy.wiki (1200 L) independently recommend the larger volume for a 35 cm heavy-bioload predator; retailer figures (75–125 gal) are considered undersized. minVolumeLiters rounded up to 1500 L (nearest allowed value above 1200 L) as the conservative and defensible recommendation. Additionally, the sexChange field was corrected from 'protandrous' to 'protogynous': all groupers and grammistids are documented female-first sex changers (Wikipedia: Grouper; multiple Serranidae/Epinephelinae literature sources), matching the careNotes text that already stated this correctly.",
   "breedingNotes": null,
   "sources": {
     "primary": {
@@ -142,7 +142,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "moderate",
     "venomousSpines": false,
-    "sexChange": "protandrous",
+    "sexChange": "protogynous",
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -168,6 +168,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "needs_review",
-  "lastReviewed": "2026-06-02"
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-03"
 }

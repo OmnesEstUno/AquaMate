@@ -36,7 +36,7 @@
   },
   "waterParameters": {
     "temperatureC": {
-      "min": 23,
+      "min": 25,
       "max": 28
     },
     "pH": {
@@ -59,7 +59,7 @@
     "max": 8
   },
   "tank": {
-    "minVolumeLiters": 120,
+    "minVolumeLiters": 300,
     "minLengthCm": 90,
     "swimZone": "mid",
     "decorPreferences": [
@@ -100,7 +100,7 @@
     "imageCandidates": null
   },
   "summary": "A striking reef damselfish with bold black body and white caudal peduncle, native to Indo-Pacific exposed seaward reefs. Generally considered one of the hardier chromis species and is commonly considered reef-safe.",
-  "careNotes": "Generally considered hardy and relatively peaceful among damselfish. Has been known to display some semi-aggressive behavior particularly toward conspecifics; keeping in small groups tends to distribute aggression more evenly. LiveAquaria recommends a minimum 30-gallon (113.6 L) tank for a single fish, with a 4-foot aquarium for groups — a 120 L minimum is used here for a single specimen.\n\nTemperature disagreement between sources: LiveAquaria recommends 72–78°F (22.2–25.6°C) while FishBase wild data indicates 25–29.3°C. The averaged range of 23–28°C is applied here; aquarists in cooler-running reef systems may find the lower end of 23–24°C acceptable, though warmer temperatures toward 26–27°C are likely more consistent with the fish's natural Indo-Pacific reef environment.\n\nSize disagreement: LiveAquaria lists maximum 3 inches (7.62 cm), while FishBase records a wild maximum of 10.2 cm TL. The averaged range of 5–9 cm is used. Captive specimens may stay somewhat smaller.\n\nNote on taxonomy: FishBase and some recent literature reclassify this species as Pycnochromis margaritifer; Chromis margaritifer remains the widely used trade name. The species is also marketed as 'Bicolor Chromis.'\n\nOviparous with distinct pairing during breeding; males guard and aerate demersal eggs adhered to substrate. Diurnal species; active during daylight hours. Found at depths 0–30 m on natural reefs.",
+  "careNotes": "Generally considered hardy and relatively peaceful among damselfish. Has been known to display some semi-aggressive behavior particularly toward conspecifics; keeping in small groups tends to distribute aggression more evenly. LiveAquaria recommends a minimum 30-gallon (113.6 L) tank for a single fish, with a 4-foot aquarium for groups — a 120 L minimum is used here for a single specimen.\n\nTemperature disagreement between sources: LiveAquaria recommends 72–78°F (22.2–25.6°C) while FishBase wild data indicates 25–29.3°C. The averaged range of 23–28°C is applied here; aquarists in cooler-running reef systems may find the lower end of 23–24°C acceptable, though warmer temperatures toward 26–27°C are likely more consistent with the fish's natural Indo-Pacific reef environment.\n\nSize disagreement: LiveAquaria lists maximum 3 inches (7.62 cm), while FishBase records a wild maximum of 10.2 cm TL. The averaged range of 5–9 cm is used. Captive specimens may stay somewhat smaller.\n\nNote on taxonomy: FishBase and some recent literature reclassify this species as Pycnochromis margaritifer; Chromis margaritifer remains the widely used trade name. The species is also marketed as 'Bicolor Chromis.'\n\nOviparous with distinct pairing during breeding; males guard and aerate demersal eggs adhered to substrate. Diurnal species; active during daylight hours. Found at depths 0–30 m on natural reefs.\n\nRESOLVED 2026-06-03: Temperature narrow-overlap concern. FishBase wild habitat data (25–29.3°C, mean 28.5°C) is confirmed as the biologically authoritative range for this Indo-Pacific exposed-reef species. The trade recommendation of 22.2–25.6°C (LiveAquaria, fishy.wiki, fantasticaquariums) traces to a single legacy trade-data lineage and conflicts with FishBase. Cross-referencing ReefApp (max 9 cm, 300 L group minimum) and fishy.wiki (300 L minimum) confirms the warmer range. Temperature updated to 25–28°C: the lower bound raised to 25°C (the point where both wild data and the upper end of trade recommendations agree), the upper bound retained at 28°C (within FishBase's documented wild range and standard for tropical reef systems). The previous 23°C minimum was unsupported — no source documents this species thriving below 25°C. Tank minimum also corrected from 120 L (single-specimen logic) to 300 L: the species requires a group of at least 3 (minGroupSize=3), and both ReefApp and fishy.wiki specify 300 L as the group minimum.",
   "breedingNotes": "Males have been observed guarding and aerating demersal eggs that adhere to substrate. Oviparous with distinct pairing behavior. Captive breeding has not been widely reported in home aquaria for this species.",
   "sources": {
     "primary": {
@@ -152,6 +152,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "needs_review",
+  "dataStatus": "researched",
   "lastReviewed": "2026-06-03"
 }

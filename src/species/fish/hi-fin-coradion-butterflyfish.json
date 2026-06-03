@@ -72,10 +72,10 @@
     ],
     "minSandDepthCm": null
   },
-  "careLevel": "intermediate",
+  "careLevel": "expert",
   "diet": {
-    "type": "carnivore",
-    "notes": "Tends to consume meaty foods including live or frozen brine shrimp, mysis shrimp, and other small invertebrates. Its elongated snout is adapted for probing crevices in search of food; pressing food into rock crevices has been reported to encourage feeding in captivity."
+    "type": "omnivore",
+    "notes": "Wild diet consists primarily of sponges, colonial ascidians, and hydroids; it is considered a sponge specialist. In captivity it can sometimes be transitioned to meaty foods including live or frozen brine shrimp, mysis shrimp, and other small invertebrates, but replicating the sponge-heavy natural diet is difficult and feeding reluctance is common. Its elongated snout is adapted for probing crevices in search of food; pressing food into rock crevices has been reported to encourage feeding in captivity."
   },
   "compatibility": {
     "temperament": "semi-aggressive",
@@ -103,8 +103,8 @@
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "A striking Indo-Pacific butterflyfish with silver-white coloration, dark brown vertical bars, and a yellow-orange posterior band. Generally considered an intermediate-level species; tends to pick at corals and invertebrates and is best kept singly or as a mated pair.",
-  "careNotes": "The Hi Fin Coradion Butterflyfish (Coradion altivelis) is considered uncommon in the aquarium trade and is generally regarded as a moderately challenging species. It tends to be territorial toward conspecifics and others of the same genus; it is generally advised to keep only one specimen or a confirmed male/female pair per tank. Sources disagree on reef compatibility: LiveAquaria rates it 'with caution', while Quality Marine explicitly states it is not reef-safe due to a documented tendency to nip at SPS, LPS, and soft corals, tube worms, crustaceans, and clam mantles. Given this disagreement, caution is warranted around coral-heavy reefs. Tank setup should include ample live rockwork with crevices for the fish to forage and hide; open swimming space is also beneficial given its active foraging behavior. Temperature sources show a moderate spread (hobby sources suggest 22–26°C, FishBase wild data extends to 29°C); a range of 22.5–27°C is used here as the averaged value. Minimum tank size: sources vary from 100 gal (379 L) to 125 gal (473 L); 500 L is used here to account for territorial behavior and active swimming. FishBase notes this species forms pair bonds during the breeding season, consistent with other butterflyfishes.",
+  "summary": "A striking Indo-Pacific butterflyfish with silver-white coloration, dark brown vertical bars, and a yellow-orange posterior band. An expert-level species whose wild diet centers on sponges and ascidians; not reef safe. Best kept singly or as a mated pair.",
+  "careNotes": "The Hi Fin Coradion Butterflyfish (Coradion altivelis) is considered uncommon in the aquarium trade and is generally regarded as a moderately challenging species. It tends to be territorial toward conspecifics and others of the same genus; it is generally advised to keep only one specimen or a confirmed male/female pair per tank. Sources disagree on reef compatibility: LiveAquaria rates it 'with caution', while Quality Marine explicitly states it is not reef-safe due to a documented tendency to nip at SPS, LPS, and soft corals, tube worms, crustaceans, and clam mantles. Given this disagreement, caution is warranted around coral-heavy reefs. Tank setup should include ample live rockwork with crevices for the fish to forage and hide; open swimming space is also beneficial given its active foraging behavior. Temperature sources show a moderate spread (hobby sources suggest 22–26°C, FishBase wild data extends to 29°C); a range of 22.5–27°C is used here as the averaged value. Minimum tank size: sources vary from 100 gal (379 L) to 125 gal (473 L); 500 L is used here to account for territorial behavior and active swimming. FishBase notes this species forms pair bonds during the breeding season, consistent with other butterflyfishes.\n\nRESOLVED 2026-06-03: The reef-safety disagreement between LiveAquaria ('with caution') and Quality Marine ('not reef safe') was investigated using ReefApp, Reeflex, Wikipedia, FishBase search data, and Reef2Reef forum records. The weight of evidence—including confirmation from Wikipedia and FishBase-sourced data that sponges, colonial ascidians, and hydroids form the major part of the wild diet—strongly supports 'not reef safe'. Multiple independent sources (Reeflex, Quality Marine, Orphek, Reef2Reef) confirm documented coral and invertebrate nipping. reef2reef field reports also record coral predation. ReefApp's 'often reef safe' rating appears to be an outlier relative to the broader literature. reefSafe updated to 'not reef safe'. Separately: wild diet is sponge-specialist (omnivore with primary sponge/ascidian component), not simply carnivore; diet type and notes updated accordingly. Care level upgraded from 'intermediate' to 'expert' following Reeflex and the inherent challenge of a sponge-specialist feeder in captivity.",
   "breedingNotes": "FishBase records the species as oviparous and notes it forms pair bonds during the breeding season, consistent with the monogamous pairing behavior typical of Chaetodontidae butterflyfishes. Captive breeding has not been documented in the hobby literature reviewed.",
   "sources": {
     "primary": {
@@ -125,6 +125,24 @@
         "url": "https://www.fishbase.se/summary/Coradion-altivelis.html",
         "accessedDate": "2026-06-02",
         "notes": "Used for taxonomy (family Chaetodontidae, order Acanthuriformes), max size (18 cm TL), wild temperature range (23.5–29.3°C), native range (Indo-West Pacific), and confirmation of oviparous pair-bonding reproduction."
+      },
+      {
+        "name": "ReefApp Encyclopedia",
+        "url": "https://reefapp.net/en/encyclopedia/coradion-altivelis",
+        "accessedDate": "2026-06-03",
+        "notes": "Rates as 'often reef safe'; notes tubeworm and clam consumption; minimum tank 400 L. Considered an outlier relative to other sources on reef safety."
+      },
+      {
+        "name": "Reeflex",
+        "url": "https://www.reeflex.net/tiere/1534_Coradion_altivelis.htm",
+        "accessedDate": "2026-06-03",
+        "notes": "Rates not reef safe; notes sponge specialist diet; recommends 1000 L minimum; expert care level."
+      },
+      {
+        "name": "Wikipedia – Coradion altivelis",
+        "url": "https://en.wikipedia.org/wiki/Coradion_altivelis",
+        "accessedDate": "2026-06-03",
+        "notes": "Confirms sponges are major component of wild diet; also consumes colonial ascidians and hydroids."
       }
     ]
   },
@@ -133,7 +151,7 @@
     "breedingNotes": "No documented captive breeding; forms pair bonds in the wild (oviparous per FishBase).",
     "conspecificAggression": "high",
     "finNippy": false,
-    "reefSafe": "with caution",
+    "reefSafe": "no",
     "escapeRisk": "low",
     "venomousSpines": false,
     "sexChange": null,
@@ -162,6 +180,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "needs_review",
-  "lastReviewed": "2026-06-02"
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-03"
 }

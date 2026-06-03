@@ -53,7 +53,7 @@
   },
   "lifespanYears": null,
   "tank": {
-    "minVolumeLiters": 200,
+    "minVolumeLiters": 300,
     "minLengthCm": 90,
     "swimZone": "bottom",
     "decorPreferences": [
@@ -90,7 +90,7 @@
     "imageCandidates": null
   },
   "summary": "A peaceful algae-grazing combtooth blenny from shallow Indo-Pacific reef flats, recognizable by orange-red spots scattered over a pale body. Generally considered reef-safe with caveats and a known jumper.",
-  "careNotes": "Best housed in a mature reef tank with abundant live rock that has had time to develop microalgae and filamentous algae growth; tanks kept aggressively clean tend to under-feed this species. Generally peaceful toward other fish but has been reported to be territorial toward conspecifics and similar-looking blennies — keep only one per tank unless introduced as a mated pair. Has been known to nip small-polyp stony corals and tridacnid clam mantles when natural algae is scarce, so it is commonly considered reef-safe with caution rather than universally reef-safe. Like most blennies, has been reported to be a strong jumper and a tightly fitted lid is generally advised. Source spread on minimum tank size is wide: LiveAquaria 30 US gal (~115 L) versus fishy.wiki 300 L — biased upward to 200 L to give this active intertidal grazer adequate rock surface area for browsing and swimming room, but the spread exceeds 2x so flagged for reviewer confirmation. Source spread on temperature: LiveAquaria 22.2-25.6 C, fishy.wiki 22.2-25.6 C, FishBase wild preferred 25.4-29.3 C (mean 28.5 C) — averaged to 23-27 C. Lifespan not specified by any reviewed source.",
+  "careNotes": "Best housed in a mature reef tank with abundant live rock that has had time to develop microalgae and filamentous algae growth; tanks kept aggressively clean tend to under-feed this species. Generally peaceful toward other fish but has been reported to be territorial toward conspecifics and similar-looking blennies — keep only one per tank unless introduced as a mated pair. Has been known to nip small-polyp stony corals and tridacnid clam mantles when natural algae is scarce, so it is commonly considered reef-safe with caution rather than universally reef-safe. Like most blennies, has been reported to be a strong jumper and a tightly fitted lid is generally advised. Source spread on minimum tank size is wide: LiveAquaria 30 US gal (~115 L) versus fishy.wiki 300 L — biased upward to 200 L to give this active intertidal grazer adequate rock surface area for browsing and swimming room, but the spread exceeds 2x so flagged for reviewer confirmation. Source spread on temperature: LiveAquaria 22.2-25.6 C, fishy.wiki 22.2-25.6 C, FishBase wild preferred 25.4-29.3 C (mean 28.5 C) — averaged to 23-27 C. Lifespan not specified by any reviewed source.\n\nRESOLVED 2026-06-03: Minimum tank size raised from 200 L to 300 L. The 200 L figure was an unsupported midpoint between LiveAquaria (30 US gal / ~115 L) and fishy.wiki (300 L). Additional research found ReefApp independently citing 300 L for this species — two specialist/hobbyist encyclopedias converge on 300 L while only the LiveAquaria trade page gives the lower figure. For an active 13 cm intertidal grazer that requires an established microalgae crop to browse, 300 L is better supported and aligns with the nearest nice-value in the approved list. Temperature range retained at 23–27 C (blended husbandry consensus). No sex-change behavior documented by any source; fish.sexChange remains 'none'.",
   "breedingNotes": "Oviparous with distinct pairing; eggs are demersal and adhesive, attached to substrate via a filamentous adhesive pad, with planktonic larvae found in shallow coastal waters. Has rarely if ever been bred in home aquariums; rearing planktonic larvae through metamorphosis is generally considered difficult and not routinely accomplished.",
   "sources": {
     "primary": {
@@ -111,6 +111,12 @@
         "url": "https://fishy.wiki/en/salt-water-fish/blenniidae/blenniella-chrysospilos.phtml",
         "accessedDate": "2026-06-03",
         "notes": "Independent confirmation of water parameters (22.2-25.6 C, pH 8.1-8.4, SG 1.020-1.025, dKH 8-12), adult size 13 cm, peaceful with intra-species caveat, herbivorous/omnivorous tendencies, hardy. States min tank 300 L (notably higher than LiveAquaria's 30 gal / ~115 L); flagged as known jumper requiring a secure lid."
+      },
+      {
+        "name": "ReefApp Encyclopedia",
+        "url": "https://reefapp.net/en/encyclopedia/blenniella-chrysospilos",
+        "accessedDate": "2026-06-03",
+        "notes": "Independent confirmation of 300 L minimum tank size, temperature ~26 C, peaceful species kept as a pair (distinct male/female, no sex change noted). Two specialist sources (ReefApp + fishy.wiki) independently citing 300 L resolved the tank-size flag in favour of 300 L over the LiveAquaria 30-gal figure."
       },
       {
         "name": "BlueZoo Aquatics",
@@ -160,6 +166,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "needs_review",
+  "dataStatus": "researched",
   "lastReviewed": "2026-06-03"
 }

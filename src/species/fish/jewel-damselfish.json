@@ -65,7 +65,7 @@
     "max": 6
   },
   "tank": {
-    "minVolumeLiters": 278,
+    "minVolumeLiters": 200,
     "minLengthCm": null,
     "swimZone": "all",
     "decorPreferences": [
@@ -106,7 +106,7 @@
     "imageCandidates": null
   },
   "summary": "A strikingly colored Caribbean damselfish, vivid electric-blue as a juvenile and transitioning to a brownish body with a bright yellow tail as an adult. Generally considered one of the more aggressive damselfish and is best kept singly in reef aquariums.",
-  "careNotes": "The Jewel Damselfish (also sold as the Yellowtail Damselfish) is widely regarded as one of the most aggressive members of the damselfish family. It is generally advised to house only one specimen per tank, and keeping it alongside smaller or more peaceful species tends to be problematic. The species is commonly considered reef-safe with respect to corals, though isolated reports of invertebrate nipping exist.\n\nJuveniles display a striking black body covered in iridescent blue spots; adults transition to a brownish-yellow body with a bright yellow caudal fin, and the blue spots become smaller and less distinct — buyers should be aware of this color change.\n\nIn the wild, juveniles have been documented performing cleaning-station behaviors, occasionally removing parasites from other fish.\n\nTemperature disagreement: hobbyist sources (LiveAquaria, ReefBay, TropicalFishKeeping) cite 72–78°F (22.2–25.6°C), while FishBase ecological modeling gives 26.1–28.2°C. The values here are the computed average across all four sources (min 23.2°C, max 26.3°C).\n\nAdult size disagreement: Hobbyist sources commonly cite 6 inches (~15 cm); FishBase and ReefApp list the scientific maximum as 21 cm. The range here spans the common captive size to the scientific maximum.\n\nMinimum tank size disagreement (wide spread — flagged for review): LiveAquaria 50 gal (189 L), ReefBay 30 gal (114 L), TropicalFishKeeping 55 gal (208 L), ReefApp 600 L. Computed average is ~278 L. The 600 L figure from ReefApp likely reflects the species' potential adult size and aggression range; the 30 gal figure is generally considered too small by most hobbyist sources. A reviewer should confirm the recommended minimum.",
+  "careNotes": "The Jewel Damselfish (also sold as the Yellowtail Damselfish) is widely regarded as one of the most aggressive members of the damselfish family. It is generally advised to house only one specimen per tank, and keeping it alongside smaller or more peaceful species tends to be problematic. The species is commonly considered reef-safe with respect to corals, though isolated reports of invertebrate nipping exist.\n\nJuveniles display a striking black body covered in iridescent blue spots; adults transition to a brownish-yellow body with a bright yellow caudal fin, and the blue spots become smaller and less distinct — buyers should be aware of this color change.\n\nIn the wild, juveniles have been documented performing cleaning-station behaviors, occasionally removing parasites from other fish.\n\nTemperature disagreement: hobbyist sources (LiveAquaria, ReefBay, TropicalFishKeeping) cite 72–78°F (22.2–25.6°C), while FishBase ecological modeling gives 26.1–28.2°C. The values here are the computed average across all four sources (min 23.2°C, max 26.3°C).\n\nAdult size disagreement: Hobbyist sources commonly cite 6 inches (~15 cm); FishBase and ReefApp list the scientific maximum as 21 cm. The range here spans the common captive size to the scientific maximum.\n\nRESOLVED 2026-06-03: Minimum tank size. Original value of 278 L was a naive average skewed by the ReefApp 600 L outlier. Re-consulted LiveAquaria (confirmed 50 gal / 189 L) and FishBase (no aquarium size given, but confirms max 21 cm and highly territorial behavior). The mainstream hobbyist consensus is 50–55 gal (189–208 L) for a single specimen; the 30 gal (114 L) figure from ReefBay is considered inadequate for a fish that can reach 21 cm, and the 600 L figure from ReefApp likely represents a community/territory allowance rather than a bare minimum. minVolumeLiters updated from 278 to 200 (the nearest nice-value to the 189–208 L consensus range).",
   "breedingNotes": "Has been documented breeding in captivity under exceptional conditions, with males guarding and aerating demersal eggs adhering to substrate surfaces. Considered very difficult to breed deliberately in home aquariums; no established captive-breeding protocol is widely documented.",
   "sources": {
     "primary": {
@@ -176,6 +176,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "needs_review",
-  "lastReviewed": "2026-05-25"
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-03"
 }

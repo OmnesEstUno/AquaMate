@@ -72,13 +72,13 @@
     ],
     "minSandDepthCm": 5
   },
-  "careLevel": "intermediate",
+  "careLevel": "beginner",
   "diet": {
     "type": "carnivore",
     "notes": "Has been documented feeding on small crustaceans, zooplankton, and meaty invertebrates near its burrow. In captivity tends to accept frozen mysis shrimp, brine shrimp, and finely chopped meaty foods; may require some coaxing initially. Target feeding near the burrow entrance is generally advised."
   },
   "compatibility": {
-    "temperament": "peaceful",
+    "temperament": "semi-aggressive",
     "grouping": "pair",
     "minGroupSize": 1,
     "goodWith": [
@@ -118,8 +118,8 @@
       }
     ]
   },
-  "summary": "A striking prawn goby from the Western Pacific that forms a well-known symbiotic partnership with pistol shrimp. Generally considered suitable for established reef aquariums with sandy substrates; tends to be peaceful toward dissimilar tankmates.",
-  "careNotes": "Orange Stripe Prawn Goby is best known for its fascinating symbiosis with Alpheid pistol shrimp (most often Alpheus ochrostriatus or similar species), with which it shares a burrow — the shrimp constructs and maintains the burrow while the goby watches for predators. Providing a compatible pistol shrimp in the aquarium is strongly encouraged, as this partnership appears to benefit both animals and encourages natural behavior.\n\nA minimum of 5 cm of fine sand substrate is generally recommended to allow burrowing. The species tends to occupy the bottom zone, spending most of its time hovering just above the sand near its burrow entrance.\n\nIn the wild this species has been collected from depths of 25–50 m on clear-water reefs. In captivity, stable, mature reef-system parameters (consistent temperature, salinity, and water quality) are generally advised.\n\nEscape risk is considered high: like most shrimp gobies, this species has been reported to jump from open aquaria — a well-fitted lid is advised. When startled or stressed, the goby is known to dart rapidly.\n\nConspecific aggression is moderate; two males in a small tank may fight for territory. A mated male–female pair tends to coexist more readily. The species is generally regarded as reef-safe, though small ornamental shrimp species may occasionally be at risk.\n\nFeeding in captivity tends to be moderately easy — most specimens will accept frozen mysis and Artemia once acclimated, though newly acquired individuals may initially be reluctant to feed away from their burrow. Wild depth (25–50 m) suggests this is not typically a brightly-lit shallow reef fish; moderate lighting is generally sufficient.\n\nSources tried for cross-verification: LiveAquaria (blocked — consistently returned homepage despite multiple URL attempts), Reef2Reef wiki (403 Forbidden), Fishkeeping World (404), TFH Magazine (404), BlueZoo Aquatics (no species page found). Cross-verification conducted using FishBase and Wikipedia, both of which confirmed the species identity and core biological parameters.",
+  "summary": "A striking prawn goby from the Western Pacific that forms a well-known symbiotic partnership with pistol shrimp. Beginner-friendly and reef-safe; best kept with a compatible pistol shrimp and a secure lid over a sand-substrate system.",
+  "careNotes": "Orange Stripe Prawn Goby is best known for its fascinating symbiosis with Alpheid pistol shrimp (most often Alpheus ochrostriatus or similar species), with which it shares a burrow — the shrimp constructs and maintains the burrow while the goby watches for predators. Providing a compatible pistol shrimp in the aquarium is strongly encouraged, as this partnership appears to benefit both animals and encourages natural behavior.\n\nA minimum of 5 cm of fine sand substrate is generally recommended to allow burrowing. The species tends to occupy the bottom zone, spending most of its time hovering just above the sand near its burrow entrance.\n\nIn the wild this species has been collected from depths of 25–50 m on clear-water reefs. In captivity, stable, mature reef-system parameters (consistent temperature, salinity, and water quality) are generally advised.\n\nEscape risk is considered high: like most shrimp gobies, this species has been reported to jump from open aquaria — a well-fitted lid is advised. When startled or stressed, the goby is known to dart rapidly.\n\nConspecific aggression is moderate; two males in a small tank may fight for territory. A mated male–female pair tends to coexist more readily.\n\nFeeding in captivity tends to be moderately easy — most specimens will accept frozen mysis and Artemia once acclimated, though newly acquired individuals may initially be reluctant to feed away from their burrow. BlueZoo Aquatics notes the specimen may not eat for several days during initial acclimation before adjusting to captivity. Wild depth (25–50 m) suggests this is not typically a brightly-lit shallow reef fish; moderate lighting is generally sufficient.\n\nSources tried for cross-verification: LiveAquaria (blocked — consistently returned homepage despite multiple URL attempts), Reef2Reef wiki (403 Forbidden), Fishkeeping World (404), TFH Magazine (404). Cross-verification conducted using FishBase, Wikipedia, and BlueZoo Aquatics.\n\nRESOLVED 2026-06-03: Original concern was that only FishBase and Wikipedia had been consulted, with no aquarium-trade source — failing the single-aquarium-source minimum rule. BlueZoo Aquatics was subsequently found to carry this species (listed as \"Randall's Goby\", product ID 546, also sold as a pistol-shrimp pair at ID 19888) and provided trade-level husbandry data: minimum tank 24 gallons (~91 L, mapping to nice-value 100 L — consistent with current entry), care level beginner, temperament semi-aggressive, reef compatible, diet carnivore accepting frozen mysis and prepared meaty foods. These cross-source findings allowed correction of careLevel (intermediate → beginner), temperament (peaceful → semi-aggressive), and reefSafe (with caution → yes). The aquarium-source gap is closed; dataStatus promoted to researched.",
   "breedingNotes": null,
   "sources": {
     "primary": {
@@ -146,6 +146,12 @@
         "url": "https://www.fishbase.se/Country/CountryList.php?ID=7232&GenusName=Amblyeleotris&SpeciesName=randalli",
         "accessedDate": "2026-06-03",
         "notes": "Confirmed native range across 13 territories in Western Pacific including Indonesia, Japan, Philippines, Australia, Palau, Solomon Islands, Fiji, Papua New Guinea, Malaysia, New Caledonia, Micronesia."
+      },
+      {
+        "name": "Blue Zoo Aquatics",
+        "url": "https://www.bluezooaquatics.com/productDetail.asp?did=1&pid=546&cid=18",
+        "accessedDate": "2026-06-03",
+        "notes": "Listed as \"Randall's Goby\" (product ID 546). Provided trade-level husbandry data: min tank 24 gallons, care level beginner, temperament semi-aggressive, reef compatible, adult size ~5 inches, diet carnivore accepting frozen mysis and prepared meaty foods. Also sold as a pistol-shrimp combo pair (product ID 19888). Used to resolve aquarium-source gap flagged in needs_review."
       }
     ]
   },
@@ -154,7 +160,7 @@
     "breedingNotes": null,
     "conspecificAggression": "moderate",
     "finNippy": false,
-    "reefSafe": "with caution",
+    "reefSafe": "yes",
     "escapeRisk": "high",
     "venomousSpines": false,
     "sexChange": null,
@@ -183,6 +189,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "needs_review",
+  "dataStatus": "researched",
   "lastReviewed": "2026-06-03"
 }

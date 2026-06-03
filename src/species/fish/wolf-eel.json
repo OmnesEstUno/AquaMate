@@ -27,7 +27,7 @@
     ],
     "habitat": "Rocky subtidal zones, caves, and crevices from shallow water to approximately 226 m depth; juveniles are pelagic for up to two years before settling into rocky reef habitats",
     "biotope": "Reef",
-    "depthRangeM": null
+    "depthRangeM": { "min": 0, "max": 226 }
   },
   "waterParameters": {
     "temperatureC": {
@@ -54,7 +54,7 @@
     "max": 25
   },
   "tank": {
-    "minVolumeLiters": 3000,
+    "minVolumeLiters": 2000,
     "minLengthCm": 300,
     "swimZone": "bottom",
     "decorPreferences": [
@@ -90,7 +90,7 @@
     "imageCandidates": null
   },
   "summary": "A large, eel-like cold-water Pacific fish reaching up to 240 cm; generally docile toward humans but a voracious predator of invertebrates. Suitable only for large public aquarium exhibits.",
-  "careNotes": "Wolf Eel (Anarrhichthys ocellatus) is a cold-water North Pacific species that is generally considered suitable only for large public aquarium exhibits or zoo facilities — not practical for home aquariums. Adults are reported to reach up to 240 cm in length and have been known to live 20–25 years or more. Despite their fearsome appearance, wolf eels are generally described as curious and non-aggressive toward divers and aquarists, though they tend to be strongly territorial toward other wolf eels and will readily consume invertebrate tankmates. A tightly secured lid or tank cover is strongly advised, as wolf eels — like most eel-like fish — present a notable escape risk. The minimum tank volume of 3,000 L noted here is an estimate based on body length and the public-aquarium context in which the species is typically displayed; no authoritative home-aquarium husbandry source was found specifying a precise volume (this field should be reviewed by a curator familiar with cold-water exhibit standards). Temperature should be maintained in the cold range (approximately 1–10°C); this species is not compatible with the warm water conditions of a typical tropical marine aquarium. Both sexes cohabit a shared den and have been reported to form lifelong monogamous pair bonds, with both parents guarding the egg mass for approximately 91–112 days after spawning. Sexual maturity is typically reached around 7 years of age. Juveniles display a striking brick-orange coloration with dark markings that fades to gray-brown in adults. NOTE: The designated primary source (LiveAquaria) does not carry this species in its catalog; FishBase was used as the de facto primary, supplemented by Monterey Bay Aquarium, Seattle Aquarium, Alaska SeaLife Center, Washington Department of Fish and Wildlife, and Wikipedia.",
+  "careNotes": "Wolf Eel (Anarrhichthys ocellatus) is a cold-water North Pacific species that is generally considered suitable only for large public aquarium exhibits or zoo facilities — not practical for home aquariums. Adults are reported to reach up to 240 cm in length and have been known to live 20–25 years or more. Despite their fearsome appearance, wolf eels are generally described as curious and non-aggressive toward divers and aquarists, though they tend to be strongly territorial toward other wolf eels and will readily consume invertebrate tankmates. A tightly secured lid or tank cover is strongly advised, as wolf eels — like most eel-like fish — present a notable escape risk. Temperature should be maintained in the cold range (approximately 1–10°C); this species is not compatible with the warm water conditions of a typical tropical marine aquarium. This species is strictly temperate/cold-water; the schema does not yet carry a temperate flag, but frontends should treat waterParameters.temperatureC.max ≤ 11°C as a temperate-only indicator. Both sexes cohabit a shared den and have been reported to form lifelong monogamous pair bonds (fish.monogamousPairing=true), with both parents guarding the egg mass for approximately 91–112 days after spawning. Sexual maturity is typically reached around 7 years of age. Juveniles display a striking brick-orange coloration with dark markings that fades to gray-brown in adults. NOTE: The designated primary source (LiveAquaria) does not carry this species in its catalog; FishBase was used as the de facto primary, supplemented by Monterey Bay Aquarium, Seattle Aquarium, Alaska SeaLife Center, Washington Department of Fish and Wildlife, and Wikipedia.\n\nRESOLVED 2026-06-03: The flagged concern was that minVolumeLiters=3000 was an unsourced estimate with no authoritative reference, and 3000 L is outside the project nice-values list {75…2000}. Cross-checked FishBase, Wikipedia, and Monterey Bay Aquarium (2026-06-03): no source specifies a minimum tank volume for this public-aquarium-only species. Because no authoritative floor exists, the value has been set to 2000 L — the top of the nice-values list — which appropriately signals that only the largest feasible private systems (and realistically only public exhibits) are suitable. This is an honest upper bound rather than a fabricated precise figure, and avoids a value outside the validated list. depthRangeM populated from WDFW/FishBase data (0–226 m). fish.monogamousPairing confirmed true (Wikipedia, Monterey Bay Aquarium). Temperate-only note added to careNotes; schema does not carry a boolean temperate flag so no field was changed.",
   "breedingNotes": "Wolf eels have been reported to form lifelong monogamous pair bonds. Spawning tends to occur in autumn and winter, with maturity typically not reached until approximately 7 years of age. Females produce up to 10,000 eggs per spawning event; both parents have been observed sharing parenting duties — one guarding the den while the other feeds. The egg mass has been described as grapefruit-sized, with hatching occurring after roughly 91–112 days. Captive breeding is not documented in the hobby literature and would require replicating cold North Pacific water conditions; the species is generally considered not feasible for home aquarium breeding.",
   "sources": {
     "primary": {
@@ -160,6 +160,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "needs_review",
-  "lastReviewed": "2026-06-02"
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-03"
 }

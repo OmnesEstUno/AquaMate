@@ -61,7 +61,7 @@
   },
   "lifespanYears": null,
   "tank": {
-    "minVolumeLiters": 300,
+    "minVolumeLiters": 400,
     "minLengthCm": 120,
     "swimZone": "all",
     "decorPreferences": [
@@ -106,7 +106,7 @@
     "imageCandidates": null
   },
   "summary": "A striking Indo-Pacific wrasse with a reddish-orange face and white posterior, known for its lyre-shaped tail. Juveniles act as cleaner fish; adults tend to be semi-aggressive and will consume most invertebrates.",
-  "careNotes": "The Lyretail Hogfish is generally considered an intermediate-level species. Juveniles are peaceful and have been observed removing parasites from tankmates, making them a useful early addition. As they mature, they tend to become semi-aggressive and should be housed with similarly robust, moderately aggressive tankmates. They have been known to target small fish, ornamental shrimp, snails, small clams, and worms — so are commonly considered incompatible with reef invertebrates. Isolated reports suggest they ignore corals directly, but their hunting of reef invertebrates generally earns them a 'with caution' reef designation.\n\nThis species revels in swimming and generally benefits from an aquarium with ample open water column space as well as rocky hiding places. Their sand-sifting hunting behavior can temporarily cloud the water and stir up detritus.\n\nTank size disagreement across sources: LiveAquaria recommends 70 gal (265 L), FreshMarine recommends 75 gal (284 L), and ReefApp recommends 600 L (158 gal). Given the wide spread (>2×) and the fish's active nature and 24 cm adult size, 300 L has been selected as a cautious round-number estimate. Reviewers may wish to reconsider.\n\nTemperature disagreement: LiveAquaria lists 72–78°F (22.2–25.6°C), FreshMarine lists 75–82°F (23.9–27.8°C), and FishBase records wild habitat temperatures of 24.4–28.9°C. Averaged across sources: approximately 23–27°C.",
+  "careNotes": "The Lyretail Hogfish is generally considered an intermediate-level species. Juveniles are peaceful and have been observed removing parasites from tankmates, making them a useful early addition. As they mature, they tend to become semi-aggressive and should be housed with similarly robust, moderately aggressive tankmates. They have been known to target small fish, ornamental shrimp, snails, small clams, and worms — so are commonly considered incompatible with reef invertebrates. Isolated reports suggest they ignore corals directly, but their hunting of reef invertebrates generally earns them a 'with caution' reef designation.\n\nThis species revels in swimming and generally benefits from an aquarium with ample open water column space as well as rocky hiding places. Their sand-sifting hunting behavior can temporarily cloud the water and stir up detritus. A tight-fitting lid is advised; multiple sources note this species has been known to jump from open-top aquariums.\n\nTemperature disagreement: LiveAquaria lists 72–78°F (22.2–25.6°C), FreshMarine lists 75–82°F (23.9–27.8°C), and FishBase records wild habitat temperatures of 24.4–28.9°C. Averaged across sources: approximately 23–27°C.\n\nRESOLVED 2026-06-03: Tank size disagreement investigated with two additional sources. ReefApp confirms 600 L; reeflex.net recommends 1300 L; a broader hobbyist consensus (UltimateReef, Aquatics Unlimited) references 100 gal (~380 L) as a practical minimum for adults. The original 300 L figure was at the extreme low end. Updated to 400 L — aligning with the ~100 gal community consensus and the nice-values list — as a defensible minimum for a juvenile that will reach 24 cm. Upgraded aquariums are still advisable for large adults. Also corrected escapeRisk from 'low' to 'medium' based on documented jumping behavior. Sex-change field (protogynous) confirmed correct by ReefApp: this species changes from female to male, consistent with the protogynous pattern common to Labridae.",
   "breedingNotes": "Reported to be oviparous with distinct pairing during breeding. As a member of the Labridae family, this species is likely protogynous. Breeding in captivity has not been well documented.",
   "sources": {
     "primary": {
@@ -142,7 +142,7 @@
     "conspecificAggression": "high",
     "finNippy": false,
     "reefSafe": "with caution",
-    "escapeRisk": "low",
+    "escapeRisk": "moderate",
     "venomousSpines": false,
     "sexChange": "protogynous",
     "haremic": false,
@@ -170,6 +170,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "needs_review",
-  "lastReviewed": "2026-06-02"
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-03"
 }

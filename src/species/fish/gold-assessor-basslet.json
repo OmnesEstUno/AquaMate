@@ -35,8 +35,8 @@
   },
   "waterParameters": {
     "temperatureC": {
-      "min": 23.4,
-      "max": 26.8
+      "min": 22.2,
+      "max": 25.6
     },
     "pH": {
       "min": 8.1,
@@ -61,7 +61,7 @@
     "max": 7
   },
   "tank": {
-    "minVolumeLiters": 113.6,
+    "minVolumeLiters": 120,
     "minLengthCm": null,
     "swimZone": "all",
     "decorPreferences": [
@@ -102,7 +102,7 @@
     "imageCandidates": null
   },
   "summary": "A small, entirely yellow reef fish from the Great Barrier Reef and Papua New Guinea, generally considered suitable for beginners and reef aquariums. Known for hanging upside down in caves and tend to be peaceful toward tankmates.",
-  "careNotes": "The Gold Assessor Basslet (Assessor flavissimus) is generally considered one of the more approachable small reef fish. It tends to spend much of its time near caves and overhangs, often swimming upside down — a natural behavior adapted to its cave-dwelling lifestyle. Ample live rock with caves and crevices is widely regarded as essential for this species' wellbeing.\n\nTemperament: Sources generally describe this fish as peaceful toward other species, though males have been known to be territorial and aggressive toward conspecific males or fish of similar shape occupying comparable tank spaces. Best kept singly or as a confirmed mated pair; multiple males in the same system tend to be problematic.\n\nTemperature note: Hobby sources consistently cite 72–78°F (22–26°C) as the target range, while FishBase's wild habitat data suggests 27–30°C for the Great Barrier Reef populations. The averaged range of 23.4–26.8°C reflects this spread; most hobbyists appear to keep them successfully at the lower end of typical reef temperatures (24–26°C). This field is flagged for reviewer attention.\n\nSize note: Sources range from 6.0 cm (FishBase) to 7.62 cm (LiveAquaria's 3-inch figure). The averaged max of 6.9 cm is used here; most aquarists report fish reaching 6–7 cm at full size.\n\nFamily note: LiveAquaria lists the family as Grammidae, but FishBase, ITIS, OBIS, and all major taxonomic authorities place Assessor flavissimus in Plesiopidae (Longfins/Roundheads). Plesiopidae is used here.\n\nReproduction: Males have been documented incubating egg masses in their mouths (paternal mouthbrooding), which has been successfully reproduced in captivity (ORA has produced captive-bred individuals). Captive-bred specimens are generally reported to acclimate more readily than wild-caught fish.\n\nCave-swimming behavior: This species routinely swims and rests upside down inside caves — this is normal and is an adaptation to their natural cave-dwelling habitat, not a sign of illness.\n\nFoods: Will generally accept a variety of frozen meaty foods; vitamin-enriched preparations are commonly recommended to maintain coloration and immune function. May also accept quality pellet or flake food over time.",
+  "careNotes": "The Gold Assessor Basslet (Assessor flavissimus) is generally considered one of the more approachable small reef fish. It tends to spend much of its time near caves and overhangs, often swimming upside down — a natural behavior adapted to its cave-dwelling lifestyle. Ample live rock with caves and crevices is widely regarded as essential for this species' wellbeing.\n\nTemperament: Sources generally describe this fish as peaceful toward other species, though males have been known to be territorial and aggressive toward conspecific males or fish of similar shape occupying comparable tank spaces. Best kept singly or as a confirmed mated pair; multiple males in the same system tend to be problematic.\n\nTemperature note: Hobby sources consistently cite 72–78°F (22–26°C) as the target range, while FishBase's wild habitat data suggests 27–30°C for the Great Barrier Reef populations. The averaged range of 23.4–26.8°C reflects this spread; most hobbyists appear to keep them successfully at the lower end of typical reef temperatures (24–26°C). This field is flagged for reviewer attention.\n\nSize note: Sources range from 6.0 cm (FishBase) to 7.62 cm (LiveAquaria's 3-inch figure). The averaged max of 6.9 cm is used here; most aquarists report fish reaching 6–7 cm at full size.\n\nFamily note: LiveAquaria lists the family as Grammidae, but FishBase, ITIS, OBIS, and all major taxonomic authorities place Assessor flavissimus in Plesiopidae (Longfins/Roundheads). Plesiopidae is used here.\n\nReproduction: Males have been documented incubating egg masses in their mouths (paternal mouthbrooding), which has been successfully reproduced in captivity (ORA has produced captive-bred individuals). Captive-bred specimens are generally reported to acclimate more readily than wild-caught fish.\n\nCave-swimming behavior: This species routinely swims and rests upside down inside caves — this is normal and is an adaptation to their natural cave-dwelling habitat, not a sign of illness.\n\nFoods: Will generally accept a variety of frozen meaty foods; vitamin-enriched preparations are commonly recommended to maintain coloration and immune function. May also accept quality pellet or flake food over time.\n\nRESOLVED 2026-06-03: Temperature range corrected to 22.2–25.6°C (72–78°F), matching the unanimous hobbyist consensus from LiveAquaria, Aquatics Unlimited, and the Aquarium Specialty/ORA captive-breeding article. FishBase's 26.5–30°C figure reflects ambient Great Barrier Reef sea-surface temperatures rather than aquarium-keeping targets — a well-known divergence for shallow tropical marine species. The previously averaged value of 23.4–26.8°C skewed too warm at the minimum (22.2°C is the correct lower bound) and too cool at the maximum (25.6°C is the correct upper bound per 78°F). The minVolumeLiters was also corrected from 113.6 L (raw 30-gal conversion) to 120 L (nearest approved nice value).",
   "breedingNotes": "Paternal mouthbrooding has been documented in the wild and in captivity; the male incubates the egg mass in his mouth. Captive breeding has been achieved (ORA has produced captive-bred specimens). Specific breeding difficulty is not well-documented in most hobby sources, but the species' successful captive propagation suggests it is feasible under the right conditions.",
   "sources": {
     "primary": {
@@ -172,6 +172,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "needs_review",
-  "lastReviewed": "2026-05-25"
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-03"
 }

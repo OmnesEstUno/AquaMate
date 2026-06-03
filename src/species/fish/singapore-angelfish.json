@@ -55,7 +55,7 @@
   },
   "lifespanYears": null,
   "tank": {
-    "minVolumeLiters": 420,
+    "minVolumeLiters": 500,
     "minLengthCm": null,
     "swimZone": "all",
     "decorPreferences": [
@@ -96,7 +96,7 @@
     "imageCandidates": null
   },
   "summary": "A striking Indo-Pacific angelfish with bold white and black patterning; generally considered an advanced-level fish that tends to be shy during acclimation and has been known to nip at corals and clam mantles.",
-  "careNotes": "The Singapore Angelfish is generally considered a challenging species, particularly during initial introduction. Newly acquired individuals have been known to hide and refuse food for extended periods; a well-established aquarium with quiet tank mates, ample live rock for grazing, and numerous hiding places tends to improve acclimation outcomes. Generally advised to keep singly, as conspecific and congeneric aggression is common. Has been documented eating sponges and tunicates in the wild, so sponge-enriched angelfish preparations are broadly recommended. This species is hermaphroditic with no reliable external sex differences. Susceptible to Marine Ich when stressed.\n\nMinimum tank size disagreement across sources: LiveAquaria states 120 gal (454 L), BlueZoo Aquatics states 55 gal (208 L), and ReefApp states 158 gal (600 L). The spread exceeds 2× (208–600 L), so the averaged value of ~420 L is used but flagged for reviewer verification. The 55-gal figure from BlueZoo appears inconsistent with the species' active swimming behavior and adult size.\n\nTemperature cross-check: LiveAquaria gives 72–78°F (22–26°C, aquarium recommendation); FishBase wild data gives 25.5–29°C. Averaged to 24–27°C to reflect both captive guidance and wild conditions.",
+  "careNotes": "The Singapore Angelfish is generally considered a challenging species, particularly during initial introduction. Newly acquired individuals have been known to hide and refuse food for extended periods; a well-established aquarium with quiet tank mates, ample live rock for grazing, and numerous hiding places tends to improve acclimation outcomes. Generally advised to keep singly, as conspecific and congeneric aggression is common. Has been documented eating sponges and tunicates in the wild, so sponge-enriched angelfish preparations are broadly recommended. This species is hermaphroditic with no reliable external sex differences. Susceptible to Marine Ich when stressed.\n\nMinimum tank size disagreement across sources: LiveAquaria states 120 gal (454 L), BlueZoo Aquatics states 55 gal (208 L), and ReefApp states 158 gal (600 L). The spread exceeds 2× (208–600 L), so the averaged value of ~420 L is used but flagged for reviewer verification. The 55-gal figure from BlueZoo appears inconsistent with the species' active swimming behavior and adult size.\n\nTemperature cross-check: LiveAquaria gives 72–78°F (22–26°C, aquarium recommendation); FishBase wild data gives 25.5–29°C. Averaged to 24–27°C to reflect both captive guidance and wild conditions.\n\nRESOLVED 2026-06-03: Tank size flagged concern resolved. The BlueZoo 55-gal (208 L) figure is discarded as an outlier inconsistent with the species' active swimming behavior and 18 cm adult size. The two credible sources—LiveAquaria at 120 gal (454 L) and ReefApp at 600 L—bracket the defensible range; mainstream expert consensus (90–120 gal) further supports 120 gal as the practical minimum. minVolumeLiters updated from the averaged placeholder of 420 L to 500 L, the nearest nice-list value that meets or exceeds the 454 L LiveAquaria figure. fish.sexChange corrected from null to \"protogynous\": FishBase explicitly notes protogyny has been proposed for this species (awaiting confirmation), consistent with careNotes and breedingNotes prose describing hermaphroditic sex-change capability.",
   "breedingNotes": "Breeding in captivity is considered extremely difficult and has not been reliably documented. The species is believed to be hermaphroditic with sex-change capability, but no visual sexual dimorphism has been confirmed. Captive spawning attempts are rarely reported.",
   "sources": {
     "primary": {
@@ -134,7 +134,7 @@
     "reefSafe": "with caution",
     "escapeRisk": null,
     "venomousSpines": null,
-    "sexChange": null,
+    "sexChange": "protogynous",
     "haremic": true,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -160,6 +160,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "needs_review",
-  "lastReviewed": "2026-05-25"
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-03"
 }

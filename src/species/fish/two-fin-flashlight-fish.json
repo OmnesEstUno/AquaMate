@@ -56,8 +56,8 @@
     }
   },
   "adultSizeCm": {
-    "min": 20,
-    "max": 30
+    "min": 15,
+    "max": 35
   },
   "lifespanYears": null,
   "tank": {
@@ -101,7 +101,7 @@
     "imageCandidates": null
   },
   "summary": "A peaceful nocturnal reef fish that produces light from symbiotic bacteria housed in rotating organs beneath each eye. Generally regarded as a specialist species best kept in small groups in dimly lit, expert-level aquariums.",
-  "careNotes": "Bioluminescent organs beneath each eye host symbiotic Vibrio bacteria that emit a steady glow; the fish can rotate the organ to flash the light on and off, using it for intraspecific signaling, prey detection, and predator evasion. Generally considered strictly nocturnal — hides during the day inside caves or overhangs and only emerges to feed after lights-out, so the display should provide ample shaded rockwork, deep caves, and subdued lighting (or a moonlight-only photoperiod). Best kept in a small group (three or more) with other nocturnal species; loners tend to do poorly. Reported to be extremely sensitive to copper-based medications and should never be exposed to them. Cross-source size disagreement was significant: LiveAquaria lists max ~23 cm (9 in), BlueZoo Aquatics lists ~36 cm (14 in), and FishBase, Wikipedia, and Reeflex all list a wild maximum of ~35 cm; captive specimens are typically reported to stay smaller (often around 10–20 cm), but the planning size used here reflects the larger consensus. Tank-size guidance also varies widely between sources: LiveAquaria 125 gal (~473 L), BlueZoo 150 gal (~568 L), Reeflex 2000 L. The 1000 L figure here biases toward the larger, specialist recommendation given the species' nocturnal schooling behavior and need for open swimming space and substantial dark refugia; this value should be sanity-checked by the reviewer.",
+  "careNotes": "Bioluminescent organs beneath each eye host symbiotic Vibrio bacteria that emit a steady glow; the fish can rotate the organ to flash the light on and off, using it for intraspecific signaling, prey detection, and predator evasion. Generally considered strictly nocturnal — hides during the day inside caves or overhangs and only emerges to feed after lights-out, so the display should provide ample shaded rockwork, deep caves, and subdued lighting (or a moonlight-only photoperiod). Best kept in a small group (three or more) with other nocturnal species; loners tend to do poorly. Reported to be extremely sensitive to copper-based medications and should never be exposed to them. RESOLVED 2026-06-03: Adult size disagreement resolved. LiveAquaria's 9 in (~23 cm) figure is an outlier; FishBase (35 cm TL), Wikipedia (35 cm TL max, average 10–30 cm), and BlueZoo Aquatics (~36 cm / 14 in) all agree on a biological maximum near 35 cm. adultSizeCm updated from 20–30 to 15–35 cm to match the FishBase/Wikipedia consensus — the lower bound reflects the small end of the Wikipedia average range, the upper bound reflects the confirmed wild maximum. Captive specimens are typically reported smaller (10–25 cm) but planning to the biological maximum is appropriate for a specialist exhibit. Tank-size guidance varies between sources (LiveAquaria 125 gal / ~473 L; BlueZoo 150 gal / ~568 L; Reeflex 2000 L); the 1000 L value is retained as a conservative specialist recommendation suited to a nocturnal schooling group requiring substantial dark refugia.",
   "breedingNotes": null,
   "sources": {
     "primary": {
@@ -171,6 +171,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "needs_review",
-  "lastReviewed": "2026-06-02"
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-03"
 }

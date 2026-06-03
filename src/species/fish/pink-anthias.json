@@ -87,7 +87,7 @@
     "imageCandidates": null
   },
   "summary": "A smaller anthias from subtropical Japanese reefs; generally kept in groups of one male and several females. Known for its protogynous sex-change behavior and need for frequent feeding.",
-  "careNotes": "Pink Anthias (*Pseudanthias taira*) is a reef-associated species endemic to the subtropical Northwest Pacific, most commonly reported from the Ryukyu Islands and Bonin Islands of Japan. It is a protogynous hermaphrodite — females can transition to male if the dominant male is lost. Groups are best kept as one male with multiple females; keeping multiple males together tends to result in significant aggression. Like most anthias, this species has been observed to benefit from frequent small feedings (2–3× daily) to maintain body condition. It is generally considered reef-safe and tends to coexist with corals and most peaceful invertebrates without issue. The species is not commonly available in the hobby and may require some patience to source; newly acquired specimens can sometimes take several days to begin accepting frozen foods, so targeted feeding with live or freshly thawed foods initially is advisable. Note: LiveAquaria's listing for this species describes a range spanning the Red Sea and Great Barrier Reef, which appears to be generic anthias care text and is not confirmed by FishBase, which restricts *P. taira* to the Northwest Pacific. The family placement has also been updated — modern taxonomy places it in Anthiadidae rather than Serranidae. FishBase lists the species as Data Deficient (IUCN DD, 2022), reflecting limited biological documentation.",
+  "careNotes": "Pink Anthias (*Pseudanthias taira*) is a reef-associated species endemic to the subtropical Northwest Pacific, most commonly reported from the Ryukyu Islands and Bonin Islands of Japan. It is a protogynous hermaphrodite — females can transition to male if the dominant male is lost. Groups are best kept as one male with multiple females; keeping multiple males together tends to result in significant aggression. Like most anthias, this species has been observed to benefit from frequent small feedings (2–3× daily) to maintain body condition. It is generally considered reef-safe and tends to coexist with corals and most peaceful invertebrates without issue. The species is not commonly available in the hobby and may require some patience to source; newly acquired specimens can sometimes take several days to begin accepting frozen foods, so targeted feeding with live or freshly thawed foods initially is advisable. Note: LiveAquaria's listing for this species describes a range spanning the Red Sea and Great Barrier Reef, which appears to be generic anthias care text and is not confirmed by FishBase, which restricts *P. taira* to the Northwest Pacific. The family placement has also been updated — modern taxonomy places it in Anthiadidae rather than Serranidae. FishBase lists the species as Data Deficient (IUCN DD, 2022), reflecting limited biological documentation.\n\nRESOLVED 2026-06-03: The flagged concern about LiveAquaria's boilerplate range (Red Sea / Great Barrier Reef) is confirmed spurious. FishBase country list (accessed 2026-06-03) lists exactly three native territories: Japan, Ryukyu Islands, and Bonin Islands — all Northwest Pacific. The nativeRange fields in this record already reflect the correct restricted distribution; no change to geographic data was required. Additionally confirmed via FishBase *Pseudanthias squamipinnis* ecology notes (type species for genus): all *Pseudanthias* are midwater planktivorous constant grazers (zooplankton feeders that feed continuously throughout the day), haremic, and protogynous — consistent with the 2–3× daily feeding guidance already in this record. fish.constantGrazer updated from null to true; fish.sexChange and fish.haremic were already correctly set.",
   "breedingNotes": "Pseudanthias taira is a protogynous sequential hermaphrodite. If the dominant male in a group is removed or dies, the largest, most dominant female will typically transition to male over a period of days to weeks. Successful captive breeding has not been well-documented for this species; aquarium spawning of anthias in general is considered advanced.",
   "sources": {
     "primary": {
@@ -133,7 +133,7 @@
     "feedingDifficulty": "moderate",
     "symbioticShrimpPartner": null,
     "mouthbrooder": null,
-    "constantGrazer": null,
+    "constantGrazer": true,
     "cleanerFish": null,
     "euryhaline": null
   },
@@ -145,6 +145,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "needs_review",
+  "dataStatus": "researched",
   "lastReviewed": "2026-06-03"
 }

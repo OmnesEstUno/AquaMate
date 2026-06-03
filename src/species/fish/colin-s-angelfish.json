@@ -37,7 +37,7 @@
   "waterParameters": {
     "temperatureC": {
       "min": 24,
-      "max": 27
+      "max": 28
     },
     "pH": {
       "min": 8.1,
@@ -92,7 +92,7 @@
     "imageCandidates": null
   },
   "summary": "A rare and secretive Indo-West Pacific pygmy angelfish found on deep outer reef drop-offs; generally considered one of the most challenging dwarf angelfishes to keep, requiring expert-level care and a well-established, peaceful reef system.",
-  "careNotes": "Colin's Angelfish (also placed in the genus Paracentropyge by LiveAquaria and some older sources; current FishBase taxonomy accepts Centropyge colini) is rarely collected for the aquarium trade and is regarded as an expert-only species. Newly introduced specimens tend to be very shy and reclusive; they should be introduced to the tank before larger or more active fish are added. A large amount of live rock providing caves and crevices is considered essential for this species to feel secure and to graze on microalgae. Generally advised to keep only one dwarf angelfish per display; introducing a second Centropyge species is likely to cause conflict. In the wild, this species forms harems of 3–7 individuals (one dominant male + several females) and is a protogynous hermaphrodite; aquarists sometimes keep a single specimen or a proven pair. The species has been reported to occasionally nip at smaller SPS coral fragments, so reef compatibility is 'with caution' rather than fully reef-safe. NOTE — temperature disagreement: LiveAquaria recommends 72–78 °F (22.2–25.6 °C) while FishBase habitat data places the natural range at 26.2–28.7 °C; averaged to 24–27 °C here, but this field is flagged for human review.",
+  "careNotes": "Colin's Angelfish (also placed in the genus Paracentropyge by LiveAquaria and some older sources; current FishBase taxonomy accepts Centropyge colini) is rarely collected for the aquarium trade and is regarded as an expert-only species. Newly introduced specimens tend to be very shy and reclusive; they should be introduced to the tank before larger or more active fish are added. A large amount of live rock providing caves and crevices is considered essential for this species to feel secure and to graze on microalgae. Generally advised to keep only one dwarf angelfish per display; introducing a second Centropyge species is likely to cause conflict. In the wild, this species forms harems of 3–7 individuals (one dominant male + several females) and is a protogynous hermaphrodite; aquarists sometimes keep a single specimen or a proven pair. The species has been reported to occasionally nip at smaller SPS coral fragments, so reef compatibility is 'with caution' rather than fully reef-safe. RESOLVED 2026-06-03: (1) Paracentropyge synonymy — LiveAquaria's use of Paracentropyge colini is a labeling carry-over from an older informal subgenus grouping; Paracentropyge (as currently understood) comprises only C. boylei, C. multifasciata, and C. venusta. FishBase, Wikipedia, WoRMS search results, and NCBI all accept Centropyge colini as the valid name with no formal transfer to Paracentropyge. Concern resolved: scientificName field is correct. (2) Temperature non-overlap — FishBase wild habitat: 26.2–28.7 °C; LiveAquaria recommendation: 72–78 °F (22.2–25.6 °C); broader hobbyist sources cite 21–27 °C. The LiveAquaria figure likely reflects a conservative aquarium target or shipping-acclimation range rather than the species' natural thermal preference. Updated temperatureC to 24–28 °C, encompassing the overlap of wild habitat data and established aquarium practice. Bali Aquarich (first captive breeding, 2020) noted temperature oscillation as a key larval-rearing stressor, consistent with the species being thermally sensitive at the warmer end.",
   "breedingNotes": "Captive breeding of Centropyge colini has not been documented in the hobby literature. The species is a protogynous hermaphrodite that forms harems in the wild, with the dominant individual being male.",
   "sources": {
     "primary": {
@@ -144,6 +144,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "needs_review",
+  "dataStatus": "researched",
   "lastReviewed": "2026-06-03"
 }

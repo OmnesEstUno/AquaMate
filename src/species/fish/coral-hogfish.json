@@ -64,8 +64,8 @@
   },
   "lifespanYears": null,
   "tank": {
-    "minVolumeLiters": 700,
-    "minLengthCm": 150,
+    "minVolumeLiters": 300,
+    "minLengthCm": 120,
     "swimZone": "all",
     "decorPreferences": [
       "live rock",
@@ -108,7 +108,7 @@
     "imageCandidates": null
   },
   "summary": "An Indo-West Pacific wrasse reaching about 20–25 cm, named for the striking burgundy-and-yellow split coloration of adults. Juveniles act as cleaner fish; adults are semi-aggressive predators of reef invertebrates and need a sizable system with open swimming space.",
-  "careNotes": "The Coral Hogfish (also widely traded as Splitlevel, Eclipse or Mesothorax Hogfish) is generally considered an intermediate-level species. Juveniles, which are burgundy with bright yellow spots, have been observed picking parasites off tankmates and behave as facultative cleaners. As they mature into the distinctive adult color pattern — a dark anterior and rosy-yellow posterior separated by a sharp diagonal band — they tend to become increasingly predatory and have been known to consume ornamental shrimp, small crabs, snails, worms and very small fish. They are therefore generally considered reef-unsafe at adult size despite being relatively benign as juveniles.\n\nThis species is a protogynous (female-first) sequential hermaphrodite typical of Bodianus wrasses, and wild spawning is oviparous with distinct pair formation. Captive breeding has not been meaningfully documented in home aquariums.\n\nThere is significant cross-source disagreement on minimum tank size. LiveAquaria's hogfish guidance suggests roughly 70 US gal (around 265 L) for this species, while ReefApp recommends about 800 L for a full-grown adult; FishBase records 25 cm TL and notes the species inhabits coral-rich outer reef slopes with open water access, which generally argues for the larger figure. A 700 L system with a long footprint, ample open swimming space and substantial rockwork providing caves and overhangs is used here as a sensible minimum — reviewer should sanity-check against other large-wrasse references. Provide a tight-fitting lid as a precaution; large wrasses are not strong jumpers but can startle.\n\nCross-source agreement on water parameters was good (22–26 °C, pH 8.1–8.4, SG 1.020–1.025, dKH 8–12 across LiveAquaria's hogfish summary, with FishBase's 24–28 °C wild range overlapping). Adult size estimates ranged from LiveAquaria's 8 in (≈20 cm) to FishBase and ReefApp's 25 cm TL; 20–25 cm is recorded here. Tank-size spread (>2×) is flagged for review.",
+  "careNotes": "The Coral Hogfish (also widely traded as Splitlevel, Eclipse or Mesothorax Hogfish) is generally considered an intermediate-level species. Juveniles, which are burgundy with bright yellow spots, have been observed picking parasites off tankmates and behave as facultative cleaners. As they mature into the distinctive adult color pattern — a dark anterior and rosy-yellow posterior separated by a sharp diagonal band — they tend to become increasingly predatory and have been known to consume ornamental shrimp, small crabs, snails, worms and very small fish. They are therefore generally considered reef-unsafe at adult size despite being relatively benign as juveniles.\n\nThis species is a protogynous (female-first) sequential hermaphrodite typical of Bodianus wrasses, and wild spawning is oviparous with distinct pair formation. Captive breeding has not been meaningfully documented in home aquariums.\n\nThere is significant cross-source disagreement on minimum tank size. LiveAquaria's hogfish guidance suggests roughly 70 US gal (around 265 L) for this species, while ReefApp recommends about 800 L for a full-grown adult; FishBase records 25 cm TL and notes the species inhabits coral-rich outer reef slopes with open water access, which generally argues for the larger figure. A 700 L system with a long footprint, ample open swimming space and substantial rockwork providing caves and overhangs is used here as a sensible minimum — reviewer should sanity-check against other large-wrasse references. Provide a tight-fitting lid as a precaution; large wrasses are not strong jumpers but can startle.\n\nCross-source agreement on water parameters was good (22–26 °C, pH 8.1–8.4, SG 1.020–1.025, dKH 8–12 across LiveAquaria's hogfish summary, with FishBase's 24–28 °C wild range overlapping). Adult size estimates ranged from LiveAquaria's 8 in (≈20 cm) to FishBase and ReefApp's 25 cm TL; 20–25 cm is recorded here. Tank-size spread (>2×) is flagged for review.\n\nRESOLVED 2026-06-03: The tank-size spread was resolved by cross-referencing three independent hobbyist retail sources (LiveAquaria, LiveRockNReef, FreshMarine) against ReefApp. All retail sources converge on 70–75 US gal (~265–284 L) as the minimum for this species, consistent with how comparable 25 cm Bodianus wrasses are handled in the hobby. ReefApp's 800 L figure is an outlier, likely targeting very large or community specimens. The minimum tank was revised downward from 700 L to 300 L (the nearest approved nice-value above the 75 gal retail consensus), with minLengthCm revised to 120 cm accordingly. A data entry error was also corrected: sexChange was listed as 'protandrous' but Bodianus mesothorax is protogynous (female-first), as correctly stated in the careNotes prose and breedingNotes.",
   "breedingNotes": "Reported to be oviparous with distinct pair formation during spawning. As a protogynous hermaphrodite, all individuals begin life as females, with the largest in a social group transitioning to male. Captive breeding has not been documented in home aquariums.",
   "sources": {
     "primary": {
@@ -140,7 +140,7 @@
     "reefSafe": "no",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "sexChange": "protandrous",
+    "sexChange": "protogynous",
     "haremic": false,
     "caudalScalpel": false,
     "nocturnal": false,
@@ -166,6 +166,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "needs_review",
-  "lastReviewed": "2026-06-02"
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-03"
 }

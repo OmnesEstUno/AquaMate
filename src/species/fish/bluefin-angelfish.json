@@ -71,7 +71,7 @@
     "max": 15
   },
   "tank": {
-    "minVolumeLiters": 214,
+    "minVolumeLiters": 300,
     "minLengthCm": null,
     "swimZone": "all",
     "decorPreferences": [
@@ -113,7 +113,7 @@
     "imageCandidates": null
   },
   "summary": "A striking Indo-Pacific dwarf angel generally regarded as intermediate in care, noted for its iridescent blue-tinged fins and tendency to graze on algae and small invertebrates. Generally advised to be kept singly with plenty of live rock in a well-established system.",
-  "careNotes": "The Bluefin Angelfish (Centropyge multispinis) is generally considered one of the hardier dwarf angelfish but tends to be semi-aggressive, particularly in smaller aquariums. It has been advised to be the last fish introduced to an established tank to reduce territorial behavior. Only one specimen should typically be kept per system unless a confirmed mated pair is available.\n\nThis species is commonly considered reef-safe with caution — isolated cases of nipping at soft and stony corals, clam mantles, feather dusters, and anemones have been reported. Well-fed individuals tend to exhibit less coral nipping.\n\nAmple live rock with crevices and overhangs is advised to provide both grazing surfaces (algae and detritus) and shelter. The species has been reported susceptible to common marine parasitic diseases (Ich/Velvet) and secondary bacterial infections if stressed.\n\nNote on minimum tank size: sources disagreed significantly — LiveAquaria and tropical-fish-keeping.com recommend a minimum of 70 gallons (264.95 L), while BlueZoo Aquatics suggests 30 gallons (113.55 L). The averaged estimate used here is approximately 57 gallons (214 L), but a conservative 70-gallon (265 L) minimum is more commonly recommended and likely preferable for long-term health and reduced aggression. Reviewer should verify.\n\nNote on adult size: FishBase records a maximum TL of 14 cm; hobby sources report 5.5–6 inches (14–15.24 cm). Average across four sources is approximately 14.6 cm. Values here reflect that consensus.\n\nWild specimens exhibit protogynous hermaphroditism — individuals are born female and dominant specimens may transition to male. Captive sex change has been noted but not reliably induced.",
+  "careNotes": "The Bluefin Angelfish (Centropyge multispinis) is generally considered one of the hardier dwarf angelfish but tends to be semi-aggressive, particularly in smaller aquariums. It has been advised to be the last fish introduced to an established tank to reduce territorial behavior. Only one specimen should typically be kept per system unless a confirmed mated pair is available.\n\nThis species is commonly considered reef-safe with caution — isolated cases of nipping at soft and stony corals, clam mantles, feather dusters, and anemones have been reported. Well-fed individuals tend to exhibit less coral nipping.\n\nAmple live rock with crevices and overhangs is advised to provide both grazing surfaces (algae and detritus) and shelter. The species has been reported susceptible to common marine parasitic diseases (Ich/Velvet) and secondary bacterial infections if stressed.\n\nNote on minimum tank size: sources disagreed significantly — LiveAquaria and tropical-fish-keeping.com recommend a minimum of 70 gallons (264.95 L), while BlueZoo Aquatics suggests 30 gallons (113.55 L). The averaged estimate used here is approximately 57 gallons (214 L), but a conservative 70-gallon (265 L) minimum is more commonly recommended and likely preferable for long-term health and reduced aggression. Reviewer should verify.\n\nNote on adult size: FishBase records a maximum TL of 14 cm; hobby sources report 5.5–6 inches (14–15.24 cm). Average across four sources is approximately 14.6 cm. Values here reflect that consensus.\n\nWild specimens exhibit protogynous hermaphroditism — individuals are born female and dominant specimens may transition to male. Captive sex change has been noted but not reliably induced.\n\nRESOLVED 2026-06-03: Two concerns addressed. (1) Minimum tank size: LiveAquaria recommends 70 gal (265 L); ReefApp explicitly states 300 L (79 gal); one source cited 700 L as optimal. Three independent sources thus bracket the minimum at 265–300 L. minVolumeLiters updated to 300 L (the nearest nice-list value at or above the consensus minimum). The BlueZoo 30-gal recommendation is an outlier and discarded. (2) sexChange field corrected from 'protandrous' to 'protogynous': Wikipedia and ReefApp both confirm Centropyge multispinis is a protogynous hermaphrodite (female-first, changing to male), not protandrous.",
   "breedingNotes": "Has been reported as very difficult to breed in captivity. Wild populations are protogynous hermaphrodites (female-first sex changers), with no reliably distinguishable external differences between males and females in captive specimens. Captive breeding attempts are rarely documented in the hobby literature.",
   "sources": {
     "primary": {
@@ -151,7 +151,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "low",
     "venomousSpines": false,
-    "sexChange": "protandrous",
+    "sexChange": "protogynous",
     "haremic": true,
     "caudalScalpel": null,
     "nocturnal": null,
@@ -177,6 +177,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "needs_review",
-  "lastReviewed": "2026-06-02"
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-03"
 }

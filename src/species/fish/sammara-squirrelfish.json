@@ -94,7 +94,7 @@
     "imageCandidates": null
   },
   "summary": "A nocturnal Indo-Pacific reef squirrelfish reaching about 30 cm; generally tolerant of tankmates of its own size but tends to prey on small fish and invertebrates, and carries a venomous preopercular spine.",
-  "careNotes": "The Sammara Squirrelfish is a nocturnal species and tends to hide in caves and overhangs during the day, becoming active at dusk. It can be kept singly or in small groups when introduced simultaneously to mitigate intraspecific aggression. A well-sealed lid is generally advised since squirrelfishes have been known to jump. Handling caution is warranted: the species carries a venomous preopercular spine that has been reported to inflict painful wounds, and additional opercular and dorsal spines easily catch in nets. Generally considered not strictly reef-safe — small fish, ornamental shrimp, serpent stars, and small worms tend to be consumed. Sources disagree significantly on minimum tank size: LiveAquaria and Quality Marine state 70 gal (~265 L), Reefapp lists 800 L, and Reeflex recommends 3000 L for advanced keepers; 500 L was chosen as a cautious round value reflecting the species' adult size (~30 cm), active swimming habits, and predator behavior. Adult size also varies across sources: LiveAquaria notes ~5 in in captivity, while FishBase, Quality Marine, Reefapp, and Reeflex confirm a wild max of ~32 cm (12.6 in). Care level is rated from easy (LiveAquaria) to advanced (Reeflex); intermediate is the averaged assessment. The species is documented as a protogynous Holocentridae (likely female-first sequential hermaphrodite based on family biology) but specific sex-change confirmation for Neoniphon sammara was not found in reviewed sources; not flagged in the typed field as a result.",
+  "careNotes": "The Sammara Squirrelfish is a nocturnal species and tends to hide in caves and overhangs during the day, becoming active at dusk. It can be kept singly or in small groups when introduced simultaneously to mitigate intraspecific aggression. A well-sealed lid is generally advised since squirrelfishes have been known to jump. Handling caution is warranted: the species carries a venomous preopercular spine that has been reported to inflict painful wounds, and additional opercular and dorsal spines easily catch in nets. Generally considered not strictly reef-safe — small fish, ornamental shrimp, serpent stars, and small worms tend to be consumed. Sources disagree significantly on minimum tank size: LiveAquaria and Quality Marine state 70 gal (~265 L), Reefapp lists 800 L, and Reeflex recommends 3000 L for advanced keepers; 500 L was chosen as a cautious round value reflecting the species' adult size (~30 cm), active swimming habits, and predator behavior. Adult size also varies across sources: LiveAquaria notes ~5 in in captivity, while FishBase, Quality Marine, Reefapp, and Reeflex confirm a wild max of ~32 cm (12.6 in). Care level is rated from easy (LiveAquaria) to advanced (Reeflex); intermediate is the averaged assessment. RESOLVED 2026-06-03: The tank size spread (265–3000 L) is genuine hobby disagreement rather than a data error; 500 L is retained as a defensible intermediate value for a 32 cm active predator. Sex change corrected: FishBase reproduction summary (species ID 4911) explicitly records Mode=dioecism, confirming this species does not change sex. The prior fish.sexChange value of 'protandrous' was wrong; set to null. The careNotes speculation about protogynous Holocentridae family biology does not apply to this species and has been retracted.",
   "breedingNotes": null,
   "sources": {
     "primary": {
@@ -138,7 +138,7 @@
     "reefSafe": "with caution",
     "escapeRisk": "moderate",
     "venomousSpines": true,
-    "sexChange": "protandrous",
+    "sexChange": null,
     "haremic": null,
     "caudalScalpel": null,
     "nocturnal": true,
@@ -164,6 +164,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "needs_review",
-  "lastReviewed": "2026-06-02"
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-03"
 }
