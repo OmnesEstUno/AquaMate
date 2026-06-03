@@ -1,0 +1,103 @@
+{
+  "id": "sw-fish-506",
+  "slug": "central-pacific-anthias",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Central Pacific Anthias",
+  "scientificName": "Pyronotanthias aurulentus",
+  "alsoKnownAs": ["Pseudanthias aurulentus", "Golden Anthias"],
+  "category": "Anthias",
+  "taxonomy": {
+    "family": "Anthiadidae",
+    "order": "Perciformes"
+  },
+  "nativeRange": {
+    "regions": ["Eastern Central Pacific", "Micronesia"],
+    "countries": ["Kiribati"],
+    "habitat": "Deep reef slopes and reef faces; tends to be found at greater depths than many other anthias, generally from around 30 to 60 m",
+    "biotope": "Reef"
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 22, "max": 26 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": null,
+    "salinity": { "min": 1.020, "max": 1.025 }
+  },
+  "adultSizeCm": { "min": 4, "max": 9 },
+  "lifespanYears": null,
+  "tank": {
+    "minVolumeLiters": 300,
+    "minLengthCm": 120,
+    "swimZone": "mid",
+    "decorPreferences": ["extensive live rock", "caves and overhangs", "open swimming space", "refugium with copepods"]
+  },
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "planktivore",
+    "notes": "Has been documented accepting enriched frozen mysis shrimp and enriched frozen brine shrimp; quality frozen and prepared foods are generally accepted, though newly-acquired specimens may need variety and frequent small feedings to acclimate. Supplementing with a refugium stocked with copepods and amphipods tends to improve condition."
+  },
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "shoaling",
+    "minGroupSize": 5,
+    "goodWith": ["peaceful reef fish", "other anthias", "small wrasses", "gobies", "clownfish"],
+    "avoidWith": ["large aggressive fish", "triggers", "large groupers", "dottybacks that may harass anthias"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A rare, deep-water anthias from isolated Central Pacific atolls, generally considered peaceful and reef-safe; tends to do best in small shoals with ample swimming space and enriched frozen foods.",
+  "careNotes": "Central Pacific Anthias (Pyronotanthias aurulentus, formerly Pseudanthias aurulentus) is collected from remote Central Pacific locales including the Line Islands and Fanning Island (Kiribati), typically at depths up to around 60 m. Because of these deep-water origins, newly-acquired specimens can be stressed by shipping and tend to prefer lower light conditions initially; they generally adapt to stronger reef lighting over time. Introducing them to the aquarium before more territorial or active species tends to reduce stress. Extensive live rock aquascaping with caves and overhangs provides needed refuge. A refugium supplying copepods and amphipods has been reported to support acclimation and long-term condition.\n\nAdult size is subject to some disagreement between sources: FishBase reports a maximum standard length of 4.6 cm (roughly 5–6 cm total length) based on scientific specimens, while LiveAquaria reports up to 3.5 inches (approximately 8.9 cm total length) for aquarium specimens. The true maximum size in captivity likely falls somewhere between these figures; aquarists should plan for individuals up to around 9 cm.\n\nLike other anthias, this species is a protogynous hermaphrodite: all individuals start as females, and the dominant fish in a group can transition to a fully functional male if the male is lost. Keeping a group of five or more individuals is generally advisable to allow natural social structure. The species has been reported to jump from open aquaria, so a tightly-fitted lid is recommended.",
+  "breedingNotes": "Protogynous hermaphrodite: all individuals begin as females; the dominant fish in a group transitions to a functional male over time if the male is lost. Captive spawning has not been documented for this species in the available literature.",
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/central-pacific-anthias",
+      "accessedDate": "2026-06-03",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Pseudanthias-aurulentus",
+        "accessedDate": "2026-06-03",
+        "notes": "Cross-checked taxonomy, scientific name (current accepted: Pyronotanthias aurulentus), native range (Line Islands, Fanning Island/Kiribati), adult size (4.6 cm SL per FishBase vs 3.5 in/8.9 cm per LiveAquaria — significant disagreement; adultSizeCm averaged to min:4 max:9 range spanning both estimates), depth (to ~52 m), and family (Anthiadidae, updated from Serranidae)."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "Protogynous hermaphrodite; captive spawning not documented in available sources.",
+    "conspecificAggression": "low",
+    "finNippy": false,
+    "reefSafe": "yes",
+    "escapeRisk": "high",
+    "venomousSpines": false,
+    "protogynous": true,
+    "haremic": true,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "moderate"
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-03"
+}

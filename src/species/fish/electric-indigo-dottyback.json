@@ -1,0 +1,131 @@
+{
+  "id": "sw-fish-512",
+  "slug": "electric-indigo-dottyback",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Electric Indigo Dottyback",
+  "scientificName": "Pseudochromis fridmani x sankeyi",
+  "alsoKnownAs": ["Captive-Bred Electric Indigo Dottyback", "Electric Indigo Pseudochromis"],
+  "category": "Dottyback",
+
+  "taxonomy": {
+    "family": "Pseudochromidae",
+    "order": "Ovalentaria"
+  },
+
+  "nativeRange": {
+    "regions": ["Western Indian Ocean", "Red Sea", "Gulf of Aden"],
+    "countries": ["Egypt", "Saudi Arabia", "Yemen", "Djibouti"],
+    "habitat": "Reef-associated; rocky overhangs, caves, and crevices",
+    "biotope": "Reef"
+  },
+
+  "waterParameters": {
+    "temperatureC": { "min": 23.0, "max": 27.0 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": null,
+    "salinity": { "min": 1.020, "max": 1.025 }
+  },
+
+  "adultSizeCm": { "min": 6.0, "max": 7.6 },
+  "lifespanYears": null,
+
+  "tank": {
+    "minVolumeLiters": 120,
+    "minLengthCm": 60,
+    "swimZone": "mid",
+    "decorPreferences": ["live rock", "caves", "crevices", "overhangs"]
+  },
+
+  "careLevel": "beginner",
+
+  "diet": {
+    "type": "carnivore",
+    "notes": "Generally accepts frozen and prepared carnivore foods including mysis shrimp, brine shrimp, and other meaty marine foods. Recommended to feed once daily in reef aquaria."
+  },
+
+  "compatibility": {
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["most reef fish", "corals", "large non-aggressive invertebrates"],
+    "avoidWith": ["conspecifics", "other dottybacks", "small ornamental shrimp", "small peaceful fish"]
+  },
+
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+
+  "summary": "A captive-bred hybrid of the Orchid and Striped Dottybacks, the Electric Indigo Dottyback displays a striking tricolor pattern and tends to be rather peaceful compared to other dottybacks, making it generally suitable for reef tanks.",
+
+  "careNotes": "The Electric Indigo Dottyback is a captive-bred hybrid cross between Pseudochromis fridmani (Orchid Dottyback, Red Sea) and Pseudochromis sankeyi (Striped/Schooling Dottyback, Red Sea and Gulf of Aden). It is exclusively produced by ORA (Oceans, Reefs & Aquariums) and is not found in the wild. Its tricolor pattern — turquoise-blue on top, a defined black midline band, and white on the lower portion — along with an elegant caudal filament derived from its P. sankeyi parentage, makes it visually distinctive. Like its parent species, it has been reported to change color depending on mood or comfort level. While generally considered more peaceful than most dottybacks, it tends to be semi-aggressive toward conspecifics and other dottybacks, and is generally advised to be kept singly unless the aquarium is particularly large. It has been described as posing minimal threat to ornamental shrimp, though caution with very small shrimp may be warranted. It tends to be best housed in an aquarium with ample rockwork for territory and hiding. Temperature range derived by averaging LiveAquaria's aquarium recommendation (72–78°F / 22–26°C) with FishBase wild data for parent species (23.7–29.3°C for P. fridmani; 24–27°C for P. sankeyi); applied range of 23–27°C reflects the consensus across both wild parent data and captive husbandry guidance. ORA listed this fish as 'Not In Production' at time of research.",
+
+  "breedingNotes": "This fish is a first-generation captive hybrid produced by ORA. It has not been documented breeding in home aquaria. Parent species P. sankeyi has been reared in captivity.",
+
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/captive-bred-electric-indigo-dottyback",
+      "accessedDate": "2026-06-03",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "orafarm.com",
+        "url": "https://www.orafarm.com/product/electric-indigo-dottyback/",
+        "accessedDate": "2026-06-03",
+        "notes": "Secondary source. Confirmed hybrid parentage (P. fridmani x P. sankeyi), tricolor description, and 'rather peaceful' temperament; no numeric parameters provided. Fish listed as Not In Production."
+      },
+      {
+        "name": "FishBase (Pseudochromis fridmani)",
+        "url": "https://www.fishbase.se/summary/Pseudochromis-fridmani.html",
+        "accessedDate": "2026-06-03",
+        "notes": "Used for cross-verification of adult size (max 6.3 cm), temperature range (23.7–29.3°C), native range (Red Sea), taxonomy (Pseudochromidae / Ovalentaria), and habitat (vertical rock faces, overhangs, reef-associated)."
+      },
+      {
+        "name": "FishBase (Pseudochromis sankeyi)",
+        "url": "https://www.fishbase.se/summary/Pseudochromis-sankeyi.html",
+        "accessedDate": "2026-06-03",
+        "notes": "Cross-verification of parent species data: max 7.0 cm, temperature 24–27°C, native range (southern Red Sea, Gulf of Aden, Socotra). Reef2Reef wiki returned 403; BlueZoo and Fishkeeping World returned 404 for this species."
+      }
+    ]
+  },
+
+  "fish": {
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "A captive-bred ORA hybrid; not documented breeding in home aquaria.",
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "yes",
+    "escapeRisk": "moderate",
+    "venomousSpines": false,
+    "protogynous": null,
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy"
+  },
+
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-03"
+}

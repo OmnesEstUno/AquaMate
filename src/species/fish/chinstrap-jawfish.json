@@ -1,0 +1,119 @@
+{
+  "id": "sw-fish-507",
+  "slug": "chinstrap-jawfish",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Chinstrap Jawfish",
+  "scientificName": "Opistognathus wassi",
+  "alsoKnownAs": ["Chinstrap Jaw Fish", "Opistognathus sp 6"],
+  "category": "Jawfish",
+
+  "taxonomy": {
+    "family": "Opistognathidae",
+    "order": "Ovalentaria"
+  },
+
+  "nativeRange": {
+    "regions": ["Indo-West Pacific"],
+    "countries": ["Japan", "Philippines", "Brunei", "Palau", "Indonesia", "Papua New Guinea", "Solomon Islands", "Australia", "Fiji", "American Samoa"],
+    "habitat": "Marine demersal; inhabits sandy and rubble-strewn reef areas at depths of roughly 6–52 m",
+    "biotope": "Reef"
+  },
+
+  "waterParameters": {
+    "temperatureC": { "min": 22.2, "max": 25.6 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": null,
+    "salinity": { "min": 1.020, "max": 1.025 }
+  },
+
+  "adultSizeCm": { "min": 5.0, "max": 7.5 },
+  "lifespanYears": null,
+
+  "tank": {
+    "minVolumeLiters": 120,
+    "minLengthCm": 60,
+    "swimZone": "bottom",
+    "decorPreferences": ["mixed substrate (sand and rubble)", "broken coral branches", "shells", "live rock rubble for den construction"]
+  },
+
+  "careLevel": "intermediate",
+
+  "diet": {
+    "type": "carnivore",
+    "notes": "Generally fed a variety of meaty foods including marine fish flesh, crustacean flesh, and mysis shrimp. Has been reported to readily accept frozen preparations. Tends to feed from the entrance of its burrow, snapping at passing prey."
+  },
+
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["peaceful reef fish", "small gobies", "dartfish", "clownfish", "wrasses (small peaceful species)", "coral"],
+    "avoidWith": ["aggressive fish", "conspecifics unless mated pair", "large predatory fish", "boisterous species that disturb substrate"]
+  },
+
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+
+  "summary": "A recently described Indo-Pacific jawfish with a distinctive black chin band, known for its burrowing behavior and generally peaceful disposition. Generally considered moderate difficulty due to substrate and escape-prevention requirements.",
+
+  "careNotes": "The Chinstrap Jawfish (Opistognathus wassi) was formally described by Smith-Vaniz in 2023 and is still sold under the trade name 'Opistognathus sp 6' or 'Opistognathus sp.' by some retailers. It is recognized by conspicuous large pale spots along the body, a prominent ocellus (eyespot) on the dorsal fin, and the distinctive black band extending from the lower jaw to the chin that gives it its common name.\n\nThis species tends to construct burrows in the substrate and will rearrange rubble, shells, and substrate material to fortify its den. A minimum of 7–10 cm (3–4 inches) of mixed substrate (fine sand combined with coarser rubble and shell fragments) is generally advised to allow natural burrowing behavior. Rocks and broken coral branches placed near the substrate have been noted as helpful den-reinforcement material.\n\nJawfish are well-documented jumpers and have been known to leap from aquariums, particularly when startled or newly introduced. A tight-fitting lid is strongly recommended. Escape risk is rated high for this species.\n\nGenerally peaceful with most reef inhabitants, but has been known to be territorial toward conspecifics. Only one specimen should be kept per tank unless a mated pair is available, and the tank should be large enough to provide distinct burrow territories if keeping a pair. May occasionally pose a minor threat to very small ornamental shrimp.\n\nScientific name confirmed via FishBase (O. wassi, Smith-Vaniz, 2023); LiveAquaria still uses the pre-description trade designation 'Opistognathus sp 6'. Temperature and salinity parameters sourced from LiveAquaria, consistent with the genus as a whole. No independent temperature data found on FishBase for this species — parameters treated as single-source (LiveAquaria), but consistent with all other jawfish in the genus.",
+
+  "breedingNotes": "Jawfish are reported to be mouthbrooders, with males typically incubating the egg mass in their mouths. Spawning has been documented in captivity for related species in the genus (notably the Yellowhead Jawfish). Captive breeding of the Chinstrap Jawfish specifically has not been widely documented in available hobbyist literature as of 2026.",
+
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/chinstrap-jawfish",
+      "accessedDate": "2026-06-03",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Opistognathus-wassi",
+        "accessedDate": "2026-06-03",
+        "notes": "Confirmed scientific name as Opistognathus wassi (Smith-Vaniz, 2023). Provided adult size (6.2 cm SL), native range countries, depth range (6–52 m), family, and order. Temperature/pH/salinity data not available on FishBase for this species — sourced from LiveAquaria only."
+      }
+    ]
+  },
+
+  "fish": {
+    "breedingDifficulty": "difficult",
+    "breedingNotes": "Mouthbrooding genus; males incubate eggs orally. Captive breeding has been documented for related jawfish species but is not widely reported for O. wassi specifically.",
+    "conspecificAggression": "moderate",
+    "finNippy": false,
+    "reefSafe": "yes",
+    "escapeRisk": "high",
+    "venomousSpines": false,
+    "protogynous": null,
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "moderate"
+  },
+
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+
+  "schemaVersion": 1,
+  "dataStatus": "needs_review",
+  "lastReviewed": "2026-06-03"
+}

@@ -1,0 +1,105 @@
+{
+  "id": "sw-fish-517",
+  "slug": "katherine-s-fairy-wrasse",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Katherine's Fairy Wrasse",
+  "scientificName": "Cirrhilabrus katherinae",
+  "alsoKnownAs": [
+    "Katherine's Wrasse"
+  ],
+  "category": "Wrasse",
+  "taxonomy": {
+    "family": "Labridae",
+    "order": "Eupercaria"
+  },
+  "nativeRange": {
+    "regions": ["Western Pacific"],
+    "countries": ["Japan", "Guam", "Philippines"],
+    "habitat": "Outer reef areas, typically at exposed reef slopes between roughly 10–50 m depth; reported to occur in aggregations",
+    "biotope": "Tropical Western Pacific reef slopes; associated with outer reef and rubble zones rather than sheltered lagoons"
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 24, "max": 27 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.020, "max": 1.025 }
+  },
+  "adultSizeCm": { "min": 7, "max": 10 },
+  "lifespanYears": null,
+  "tank": {
+    "minVolumeLiters": 300,
+    "minLengthCm": 120,
+    "swimZone": "mid",
+    "decorPreferences": ["live rock", "open swimming space", "sandy substrate", "rubble zones"]
+  },
+  "careLevel": "beginner",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Generally accepts vitamin-enriched frozen mysis shrimp, frozen brine shrimp, and other meaty foods; has been reported to also take high-quality marine flake and pellet food. In the wild, tends to forage as a planktivore/carnivore above the reef substrate in aggregations."
+  },
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "pair",
+    "minGroupSize": 1,
+    "goodWith": ["peaceful reef fish", "cardinalfish", "gobies", "clownfish", "small dartfish", "corals", "ornamental shrimp"],
+    "avoidWith": ["aggressive wrasses", "triggerfish", "lionfish", "other male fairy wrasses in the same tank", "dottybacks", "basslets"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A small Western Pacific fairy wrasse with vivid sexual dichromatism; females and juveniles are orange-red while adult males develop brilliant blue-banded fins. Generally considered peaceful and reef-safe.",
+  "careNotes": "Cirrhilabrus katherinae is described by FishBase as occurring in the Western Pacific including Miyake-jima and the Izu Islands of Japan, Guam, and the Mariana Islands; trade specimens are also reported from the Philippines. Adults typically reach around 7–10 cm total length (FishBase records 7.1 cm SL; LiveAquaria lists 4 in ~10 cm TL). Temperature recommendations diverge between sources: FishBase records a mean of 27.7°C for its natural range (25.5–28.9°C), while LiveAquaria recommends the standard reef range of 72–78°F (22–26°C); we have averaged these to a working range of 24–27°C. LiveAquaria recommends a minimum tank of 90 US gallons (~340 L); we have rounded to 300 L on the nice-values list as the nearest appropriate value given the species' moderate body size, while acknowledging that more space is generally better for an active mid-water swimmer. A tightly fitted lid or eurobrace is essential — this species, like most fairy wrasses, has been known to jump. Best kept as a single male or as a male with one or more females introduced simultaneously to establish a harem; adding females after the male is settled may provoke territorial behavior. Juveniles and females are nearly uniformly orange-red; males develop elongate pelvic fins and brilliant blue bands on the dorsal and anal fins, making sexual identification straightforward. Distinct pairing behavior has been documented during breeding. Like all Cirrhilabrus, this species is a protogynous hermaphrodite (female-first) and can form harems in larger systems.",
+  "breedingNotes": "Captive breeding is not commonly reported. FishBase notes distinct pairing during the breeding season in the wild. Like most fairy wrasses, haremic spawning with a dominant male is expected; replicating this social structure in a large reef system may encourage nuptial display behavior.",
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/katherines-fairy-wrasse",
+      "accessedDate": "2026-06-03",
+      "notes": "Species product page (currently sold out) confirmed: care level easy, temperament peaceful, reef compatible yes, minimum tank 90 gal, temperature 72–78°F, SG 1.020–1.025, pH 8.1–8.4, dKH 8–12, diet carnivore (mysis/brine/meaty foods + marine flake/pellet), adult size 4 in, native locale Philippines. Confirmed a covered tank is required due to jumping behavior."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Cirrhilabrus-katherinae",
+        "accessedDate": "2026-06-03",
+        "notes": "Cross-checked: max size 7.1 cm SL, native range Western Pacific (Izu Islands Japan, Guam, Mariana Islands), depth 10–50 m outer reef, temperature 25.5–28.9°C (mean 27.7°C), family Labridae, order Eupercaria, occurs in aggregations, distinct pairing during breeding, sexual dichromatism (females/juveniles orange-red; males develop blue-banded fins and elongate pelvic fins). IUCN: Least Concern. Temperature ranges show moderate spread vs LiveAquaria's 22–26°C; averaged to 24–27°C. Reef2Reef wiki returned HTTP 403; BlueZoo Aquatics had no species page for this species — FishBase used as primary cross-verification source."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": null,
+    "conspecificAggression": "moderate",
+    "finNippy": false,
+    "reefSafe": "yes",
+    "escapeRisk": "high",
+    "venomousSpines": false,
+    "protogynous": true,
+    "haremic": true,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy"
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-03"
+}

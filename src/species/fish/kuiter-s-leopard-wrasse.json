@@ -1,0 +1,103 @@
+{
+  "id": "sw-fish-518",
+  "slug": "kuiter-s-leopard-wrasse",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Kuiter's Leopard Wrasse",
+  "scientificName": "Macropharyngodon kuiteri",
+  "alsoKnownAs": ["Black Leopard Wrasse", "Ear-spot Wrasse"],
+  "category": "Wrasse",
+  "taxonomy": {
+    "family": "Labridae",
+    "order": "Eupercaria"
+  },
+  "nativeRange": {
+    "regions": ["Western Pacific", "Australia"],
+    "countries": ["Australia", "New Caledonia"],
+    "habitat": "Inshore reef-associated areas with mixed sand, rubble, and algae; typically found at depths of 5–55 m",
+    "biotope": "Reef"
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 22, "max": 26 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.020, "max": 1.025 }
+  },
+  "adultSizeCm": { "min": 7, "max": 10 },
+  "lifespanYears": null,
+  "tank": {
+    "minVolumeLiters": 200,
+    "minLengthCm": 120,
+    "swimZone": "bottom",
+    "decorPreferences": ["fine sand bed (several inches deep)", "live rock", "open sand areas for burrowing"]
+  },
+  "careLevel": "expert",
+  "diet": {
+    "type": "carnivore",
+    "notes": "In nature has been documented consuming small invertebrates such as foraminiferans and amphiopods found on live rock and in sand. In captivity tends to accept vitamin-enriched frozen mysis shrimp, frozen brine shrimp, and other meaty foods, but typically requires a well-established tank with abundant live rock microorganism populations to thrive long-term."
+  },
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "shoaling",
+    "minGroupSize": 3,
+    "goodWith": ["peaceful reef fish", "other non-aggressive wrasses", "gobies", "clownfish", "basslets"],
+    "avoidWith": ["large aggressive fish", "fish that compete for sand-bed territory", "predators large enough to consume them"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A striking and challenging Western Pacific wrasse, generally considered expert-level due to its dependence on a mature, microorganism-rich sand bed and live rock. Typically kept in groups of three or more.",
+  "careNotes": "Kuiter's Leopard Wrasse is widely regarded as expert-level and is best suited to aquarists with established reef systems. It relies heavily on foraminiferans, amphiopods, and other small invertebrates found in mature live rock and deep, undisturbed sand beds — a new or sterile system tends to lead to starvation. Introduction in groups of three or more (with appropriate sex ratio) is generally advised; juveniles are reported to acclimate more readily than adults. The species is a burrower and has been known to sleep buried in the sand, so a fine sand bed several inches deep is considered essential. A protein skimmer and good water movement have been noted to benefit long-term health. FishBase identifies this species as ranging from New Caledonia to the southern Great Barrier Reef and New South Wales. It is a protogynous hermaphrodite typical of Labridae wrasses: individuals typically start as females and the dominant fish transitions to male. Male coloration (orangish-red with green mottling) differs noticeably from female coloration (white or pale with dark spots). The common trade name 'Black Leopard Wrasse' refers to the species' characteristic large black opercular spot; 'Ear-spot Wrasse' is used by FishBase.",
+  "breedingNotes": "FishBase documents the species as oviparous with distinct pairing during spawning, typical of Labridae. Captive breeding has not been documented in the aquarium hobby literature reviewed.",
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/kuiters-leopard-wrasse-expert-only",
+      "accessedDate": "2026-06-03",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Macropharyngodon-kuiteri",
+        "accessedDate": "2026-06-03",
+        "notes": "Cross-checked adult size (10 cm TL confirmed), temperature range (21.5–27°C vs LiveAquaria 22.2–25.6°C — averaged to 22–26°C), native range (Western Pacific: New Caledonia to southern GBR and NSW, Australia), taxonomy (Labridae), and diet type (carnivore, trophic level 3.4). FishBase species ID 13141."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "Captive breeding not documented; oviparous with distinct pairing during spawning per FishBase. Protogynous hermaphrodite.",
+    "conspecificAggression": "low",
+    "finNippy": false,
+    "reefSafe": "yes",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "protogynous": true,
+    "haremic": true,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": true,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "difficult"
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-03"
+}

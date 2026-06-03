@@ -1,0 +1,103 @@
+{
+  "id": "sw-fish-524",
+  "slug": "marcella-butterflyfish",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Marcella Butterflyfish",
+  "scientificName": "Prognathodes marcellae",
+  "alsoKnownAs": ["Diamond Butterflyfish", "French Butterflyfish"],
+  "category": "Butterflyfish",
+  "taxonomy": {
+    "family": "Chaetodontidae",
+    "order": "Acanthuriformes"
+  },
+  "nativeRange": {
+    "regions": ["Eastern Atlantic"],
+    "countries": ["Senegal", "Cape Verde", "Guinea", "Ghana", "Nigeria", "Cameroon", "Gabon", "Congo", "Angola"],
+    "habitat": "Reef-associated; found at depths of 12–140 m, frequently over soft bottoms near reef structures",
+    "biotope": "Reef"
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 22.0, "max": 26.0 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": { "min": 8.0, "max": 12.0 },
+    "salinity": { "min": 1.020, "max": 1.025 }
+  },
+  "adultSizeCm": { "min": 10.0, "max": 12.7 },
+  "lifespanYears": null,
+  "tank": {
+    "minVolumeLiters": 500,
+    "minLengthCm": 150,
+    "swimZone": "all",
+    "decorPreferences": ["live rock", "open swimming space", "rock caves and crevices"]
+  },
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Tends to accept frozen meaty preparations and algae-based foods in captivity. Naturally feeds on small invertebrates and has been documented eating Aiptasia anemones. Features a specialized elongated snout with fine hairlike teeth suited for picking food from crevices; some individuals may need targeted feeding with varied offerings to become fully conditioned."
+  },
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "pair",
+    "minGroupSize": 1,
+    "goodWith": ["peaceful angelfish", "tangs", "wrasses", "gobies", "hawkfish", "peaceful damselfish"],
+    "avoidWith": ["other Prognathodes species", "similarly-patterned butterflyfishes", "aggressive species", "corals", "small ornamental invertebrates"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A striking Eastern Atlantic butterflyfish with a silvery-yellow body and two bold black bars, generally considered intermediate in difficulty; best kept in a fish-only or FOWLR system with ample open swimming space.",
+  "careNotes": "Marcella Butterflyfish have been described as needing plenty of room to swim and are generally advised for fish-only with live rock (FOWLR) setups, as they tend to nip coral polyps and small ornamental invertebrates and are not considered reef-safe. They can be kept singly or as a mated pair, but have been known to show aggression toward other Prognathodes species and similarly-patterned butterflyfishes.\n\nFeeding: specimens generally accept frozen meaty foods (mysis, krill, chopped marine flesh) and algae-based preparations. Their specialized elongated snout and fine teeth allow them to pick food from rockwork crevices; varied offerings and spot-feeding with a turkey baster may help condition newly acquired individuals.\n\nTemperature note: FishBase wild-habitat data records this species across 18.3–25.9°C at depths of 12–140 m, reflecting cooler deep-water conditions; aquarium care sources advise a narrower range of 22–26°C as more appropriate for captive maintenance.\n\nPairing: FishBase documents pair formation during breeding, consistent with the general butterflyfish tendency toward monogamous pair bonds. Purchasing as an already-bonded pair when possible is advisable.\n\nThe species is also sold under the trade names Diamond Butterflyfish and French Butterflyfish.",
+  "breedingNotes": "Reported to form pairs during breeding in the wild (FishBase); spawning is oviparous. Captive breeding has not been documented in the aquarium hobby literature reviewed.",
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/marcella-butterflyfish",
+      "accessedDate": "2026-06-03",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Prognathodes-marcellae",
+        "accessedDate": "2026-06-03",
+        "notes": "Cross-checked adult size (11.6 cm TL vs LiveAquaria 5 in/12.7 cm — close agreement), temperature range (FishBase wild range 18.3–25.9°C vs LiveAquaria aquarium recommendation 22.2–25.6°C — diverge at lower end, averaged upper end to 26°C, used LiveAquaria minimum for aquarium guidance), native range (Eastern Atlantic, Senegal to Angola), taxonomy, and breeding behavior (forms pairs, oviparous)."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "No documented captive breeding in available aquarium hobby sources. Forms pairs in the wild and is oviparous; deep-water collection range (12–140 m) makes wild-caught broodstock the likely only source.",
+    "conspecificAggression": "moderate",
+    "finNippy": false,
+    "reefSafe": "no",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "protogynous": null,
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": true,
+    "hlleSusceptible": null,
+    "toxicToTank": false,
+    "feedingDifficulty": "moderate"
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-03"
+}

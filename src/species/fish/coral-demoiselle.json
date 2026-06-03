@@ -1,0 +1,149 @@
+{
+  "id": "sw-fish-509",
+  "slug": "coral-demoiselle",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Coral Demoiselle",
+  "scientificName": "Neopomacentrus nemurus",
+  "alsoKnownAs": [],
+  "category": "Damsel",
+  "taxonomy": {
+    "family": "Pomacentridae",
+    "order": "Ovalentaria incertae sedis"
+  },
+  "nativeRange": {
+    "regions": [
+      "Western Central Pacific"
+    ],
+    "countries": [
+      "Indonesia",
+      "Philippines",
+      "Palau",
+      "Papua New Guinea",
+      "Solomon Islands",
+      "Vanuatu"
+    ],
+    "habitat": "Lagoon and inshore coral reefs, particularly in areas where silting is prevalent; generally found at depths of 1–10 m. Adults have been documented aggregating over coral outcrops in shallow reef environments.",
+    "biotope": "Reef"
+  },
+  "waterParameters": {
+    "temperatureC": {
+      "min": 23,
+      "max": 28
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
+  },
+  "adultSizeCm": {
+    "min": 5,
+    "max": 8
+  },
+  "lifespanYears": null,
+  "tank": {
+    "minVolumeLiters": 200,
+    "minLengthCm": 90,
+    "swimZone": "mid",
+    "decorPreferences": [
+      "live rock",
+      "coral structures",
+      "open swimming space",
+      "caves"
+    ]
+  },
+  "careLevel": "beginner",
+  "diet": {
+    "type": "planktivore",
+    "notes": "In the wild, has been documented aggregating over coral outcrops to feed on zooplankton. In captivity, generally accepts small crustaceans such as mysis, brine shrimp, and krill, along with zooplankton-based foods such as cyclops and copepods; frozen and prepared marine foods are commonly accepted."
+  },
+  "compatibility": {
+    "temperament": "semi-aggressive",
+    "grouping": "shoaling",
+    "minGroupSize": 3,
+    "goodWith": [
+      "clownfish",
+      "tangs",
+      "wrasses",
+      "gobies",
+      "cardinalfish",
+      "small angelfish"
+    ],
+    "avoidWith": [
+      "other damselfishes (territory disputes)",
+      "very timid or slow-feeding species",
+      "other similar-looking damsels in small tanks"
+    ]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A small Western Pacific damselfish found in shallow, silty reef lagoons. Generally considered reef-safe and hardy; tends to be territorial toward similar species but is commonly kept by beginner and experienced hobbyists alike.",
+  "careNotes": "Adults reach approximately 8 cm total length and are native to shallow lagoon and inshore reef habitats across the Western Central Pacific (Indonesia, Philippines, Palau, Papua New Guinea, Solomon Islands, and Vanuatu), typically at depths of 1–10 m. The species is generally considered hardy and reef-safe, with most aquarium sources noting it will not bother corals or most invertebrates.\n\nThe Coral Demoiselle tends to be territorial, particularly toward conspecifics and similar-looking species; adequate tank space and simultaneous introduction of conspecifics are commonly advised to reduce aggression. Providing ample live rock and coral structure for hiding reduces stress-related territorial behavior.\n\nIn the wild the species feeds by aggregating over coral outcrops to pick zooplankton from the water column. In captivity it has been reported to readily accept a variety of small frozen and prepared foods including mysis, brine shrimp, krill, cyclops, and copepods.\n\nCross-source disagreements (documented for reviewer):\n• Temperature: FishBase wild-data range is 25–29.3°C (mean 28.6°C); fishy.wiki aquarium-care range is 22.2–25.6°C. These barely overlap at ~25°C. The adopted range of 23–28°C represents a practical captive compromise that covers the upper fishy.wiki bound and lower FishBase wild bound. Reviewer may wish to tighten this range.\n• Tank minimum: Only fishy.wiki provided a specific volume (200 L). This is consistent with a small ~8 cm shoaling damsel needing some open swimming space; 200 L selected from the nice-values list as appropriate for a small group.",
+  "breedingNotes": "Oviparous with distinct pairing reported. Eggs are demersal and adhere to the substrate; males have been documented guarding and aerating the eggs. Captive breeding is considered possible but is not commonly reported among hobbyists.",
+  "sources": {
+    "primary": {
+      "name": "FishBase",
+      "url": "https://www.fishbase.se/summary/Neopomacentrus-nemurus",
+      "accessedDate": "2026-06-03",
+      "notes": "Used as primary source after LiveAquaria collection page (https://www.liveaquaria.com/collections/damselfish) did not carry a listing for Neopomacentrus nemurus. FishBase provided taxonomy, max size (8.0 cm), native range (Western Central Pacific), temperature (25–29.3°C), depth range (1–10 m), habitat description, diet (zooplankton), breeding biology (oviparous, male egg-guard), and IUCN Least Concern status."
+    },
+    "additional": [
+      {
+        "name": "fishy.wiki",
+        "url": "https://fishy.wiki/en/salt-water-fish/pomacentridae/neopomacentrus-nemurus.phtml",
+        "accessedDate": "2026-06-03",
+        "notes": "Secondary source with species-specific aquarium care data. Confirmed adult size (8.0 cm), reef-safe status, tank minimum (200 L), temperature range (22.2–25.6°C), pH (8.1–8.4), salinity (SG 1.020–1.025), KH (8–12), diet (mysis, brine shrimp, krill, zooplankton), and beginner-suitable hardiness. Temperament noted as aggressive toward similar species. Temperature disagreement with FishBase wild data documented in careNotes."
+      },
+      {
+        "name": "LiveAquaria",
+        "url": "https://www.liveaquaria.com/collections/damselfish",
+        "accessedDate": "2026-06-03",
+        "notes": "Designated primary source (per manifest); no listing found for Neopomacentrus nemurus on the damselfish collection page at time of access. Role swapped to FishBase as primary per playbook fallback rule."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "difficult",
+    "breedingNotes": "Oviparous with male nest-guarding of demersal adhesive eggs. Captive breeding is reported as possible but is not commonly achieved by hobbyists.",
+    "conspecificAggression": "moderate",
+    "finNippy": false,
+    "reefSafe": "yes",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "protogynous": null,
+    "haremic": null,
+    "caudalScalpel": null,
+    "nocturnal": false,
+    "juvenileColorPhase": null,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": null,
+    "requiresHitchingPost": null,
+    "monogamousPairing": null,
+    "hlleSusceptible": null,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy"
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-03"
+}

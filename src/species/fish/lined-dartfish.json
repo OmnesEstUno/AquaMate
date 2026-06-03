@@ -1,0 +1,115 @@
+{
+  "id": "sw-fish-520",
+  "slug": "lined-dartfish",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Lined Dartfish",
+  "scientificName": "Ptereleotris grammica",
+  "alsoKnownAs": ["Lined Gudgeon Dartfish"],
+  "category": "Dartfish",
+  "taxonomy": {
+    "family": "Microdesmidae",
+    "order": "Gobiiformes"
+  },
+  "nativeRange": {
+    "regions": ["Indo-West Pacific"],
+    "countries": ["Mauritius", "Maldives", "Philippines", "Solomon Islands", "Japan", "Australia"],
+    "habitat": "Rubble or sandy areas of seaward reefs, typically at depths of 30–60 m",
+    "biotope": "Reef"
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 22, "max": 26 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.020, "max": 1.026 }
+  },
+  "adultSizeCm": { "min": 7, "max": 11 },
+  "lifespanYears": null,
+  "tank": {
+    "minVolumeLiters": 120,
+    "minLengthCm": 90,
+    "swimZone": "mid",
+    "decorPreferences": ["loose coral rubble", "sand substrate", "hiding spots (PVC pipe or rockwork caves)", "tight-fitting lid"]
+  },
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Generally accepts frozen and prepared foods including mysis shrimp, brine shrimp, and finely chopped seafood. Tends to require feeding several times daily, especially during initial acclimation; may be shy about approaching food in the presence of more active tankmates."
+  },
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "pair",
+    "minGroupSize": 2,
+    "goodWith": ["small peaceful reef fish", "gobies", "small wrasses", "clownfish", "peaceful damsels", "cardinalfish"],
+    "avoidWith": ["groupers", "triggerfishes", "aggressive dottybacks", "large aggressive angelfishes", "lionfish", "any fish that may outcompete for food"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A rare and beautifully striped dartfish from the Indo-West Pacific, generally considered peaceful and reef-safe. Best kept as a bonded pair in a 120 L or larger aquarium with plenty of hiding spots and a tightly sealed lid.",
+  "careNotes": "Lined Dartfish are shy and docile and tend to be easily intimidated by more active or aggressive tankmates. They have been reported to do well as bonded pairs, and some sources suggest small groups can be maintained if adequate space and hiding spots are provided — though conspecific aggression can occur in smaller tanks without defined territories. This species cannot dig its own burrows, so the aquarist should provide suitable hiding places such as 3/4\" PVC pipe segments leading to a chamber with multiple exits, or natural rockwork caves. A tight-fitting lid is essential, as Ptereleotris species are well-documented jumpers. Native to the deeper seaward reef slopes (typically 30–60 m depth), this species is collected sporadically and is not always available in the trade. It may take time to settle in and begin feeding confidently; providing dither fish of similar peaceful temperament can help ease acclimation. Specimens are generally considered reef-safe with no documented harm to corals or invertebrates. LiveAquaria lists maximum size as 5 inches (~12.7 cm) while FishBase records a maximum of 10 cm TL; the discrepancy may reflect differences between aquarium growth and wild maximum — FishBase and ReefApp both cite 10 cm and are considered more reliable for scientific max size.",
+  "breedingNotes": null,
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/product/2254/?pcatid=2254",
+      "accessedDate": "2026-06-03",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Ptereleotris-grammica",
+        "accessedDate": "2026-06-03",
+        "notes": "Cross-checked adult size (10 cm TL), temperature range (22–27°C), taxonomy (Microdesmidae / Gobiiformes), and native range (Indo-West Pacific, Mauritius/Maldives to Solomon Islands). FishBase and ReefApp both state 10 cm max vs. LiveAquaria's 5 inches (12.7 cm); final adultSizeCm max set to 11 cm as a rounded average across sources."
+      },
+      {
+        "name": "ReefApp Encyclopedia",
+        "url": "https://reefapp.net/en/encyclopedia/ptereleotris-grammica",
+        "accessedDate": "2026-06-03",
+        "notes": "Cross-checked adult size (10 cm), minimum tank volume (100 L), salinity (~1.026), native range, and reef-safe status. Tank volume averaged between LiveAquaria (30 gal ≈ 114 L) and ReefApp (100 L) then rounded up to 120 L on the nice-values list given the species' need for open swimming space and pair housing."
+      },
+      {
+        "name": "Reef Builders",
+        "url": "https://reefbuilders.com/2013/09/26/awesome-fish-spotlight-ptereleotris-gram-mica/",
+        "accessedDate": "2026-06-03",
+        "notes": "Supplementary source providing trade availability notes, grouping behavior, and acclimation guidance. Confirms peaceful temperament and reef-safe status."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": null,
+    "breedingNotes": null,
+    "conspecificAggression": "low",
+    "finNippy": false,
+    "reefSafe": "yes",
+    "escapeRisk": "high",
+    "venomousSpines": false,
+    "protogynous": null,
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": null,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "moderate"
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-03"
+}

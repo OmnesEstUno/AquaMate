@@ -1,0 +1,131 @@
+{
+  "id": "sw-fish-510",
+  "slug": "decorated-goby",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Decorated Goby",
+  "scientificName": "Istigobius decoratus",
+  "alsoKnownAs": ["Decorated Sandgoby"],
+  "category": "Gobies",
+
+  "taxonomy": {
+    "family": "Gobiidae",
+    "order": "Gobiiformes"
+  },
+
+  "nativeRange": {
+    "regions": ["Indo-Pacific", "Red Sea", "Persian Gulf"],
+    "countries": ["Australia", "Japan", "Taiwan", "Samoa", "Indonesia", "Philippines", "Papua New Guinea"],
+    "habitat": "Coralline sand areas of clear lagoon and seaward reefs, at depths of 1–25 m",
+    "biotope": "Reef"
+  },
+
+  "waterParameters": {
+    "temperatureC": { "min": 23, "max": 29 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": null,
+    "salinity": { "min": 1.020, "max": 1.026 }
+  },
+
+  "adultSizeCm": { "min": 8, "max": 13 },
+  "lifespanYears": null,
+
+  "tank": {
+    "minVolumeLiters": 75,
+    "minLengthCm": 60,
+    "swimZone": "bottom",
+    "decorPreferences": ["sandy substrate", "live rock", "open sand areas"]
+  },
+
+  "careLevel": "intermediate",
+
+  "diet": {
+    "type": "carnivore",
+    "notes": "Has been documented feeding on small invertebrates and benthic organisms consistent with a trophic level of 3.4. In captivity tends to accept meaty frozen foods such as mysis shrimp, brine shrimp, and chopped seafood; smaller prey items are generally preferred."
+  },
+
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["peaceful reef fish", "small wrasses", "dartfish", "cardinalfish", "clownfish"],
+    "avoidWith": ["aggressive fish", "large predatory fish", "dottybacks that may harass smaller gobies"]
+  },
+
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+
+  "summary": "A reef-associated benthic goby from the Indo-Pacific, the Decorated Goby inhabits sandy areas of clear lagoons and seaward reefs. It generally does well in reef aquariums with a sandy substrate and peaceful tankmates.",
+
+  "careNotes": "The Decorated Goby (Istigobius decoratus) is a mid-sized benthic goby reaching around 13 cm, found across the Indo-West Pacific from the Persian Gulf and Red Sea east to Samoa, north to Taiwan, and south to Lord Howe Island. In the wild it tends to be found singly on coralline sand of clear lagoon and seaward reefs at depths of 1–25 m. A sandy substrate in the aquarium is strongly recommended as this species commonly rests on and sifts through sand. It generally adapts reasonably well to captive conditions and tends to accept frozen meaty foods. Standard reef water conditions (temperature 23–29°C, SG 1.020–1.026, pH 8.1–8.4) are generally adequate. Gobies as a group tend to be jumpers; a well-fitted aquarium lid is advisable. This species tends to be kept singly; conspecific aggression in confined spaces has been noted with other benthic gobies sharing the same territory. Note: dedicated aquarium hobby sources with specific husbandry data for this species were unavailable during research; all high-stakes parameters were sourced from FishBase only and should be verified by a reviewer. LiveAquaria (primary source) did not carry this species; Reef2Reef wiki (403), Fishkeeping World (404), Aquatic Community (404), and TFH Magazine (404) also did not have a species-specific page.",
+
+  "breedingNotes": null,
+
+  "sources": {
+    "primary": {
+      "name": "FishBase",
+      "url": "https://www.fishbase.se/summary/Istigobius-decoratus",
+      "accessedDate": "2026-06-03",
+      "notes": "Swapped in as primary source — LiveAquaria (designated primary) does not carry this species. FishBase confirmed scientific name, taxonomy, adult size (13.0 cm TL), native range (Indo-West Pacific: Persian Gulf/Red Sea to Samoa), habitat (coralline sand, clear lagoon and seaward reefs), temperature range (23–29°C), diet (carnivorous, trophic level 3.4), and IUCN Least Concern status."
+    },
+    "additional": [
+      {
+        "name": "LiveAquaria",
+        "url": "https://www.liveaquaria.com/collections/gobies",
+        "accessedDate": "2026-06-03",
+        "notes": "Designated primary source; Decorated Goby (Istigobius decoratus) is not listed among the 61 goby products on this collection page. No species-specific data available."
+      },
+      {
+        "name": "Reef2Reef wiki",
+        "url": "https://www.reef2reef.com/wiki/Istigobius_decoratus",
+        "accessedDate": "2026-06-03",
+        "notes": "Returned 403 Forbidden; no data available."
+      },
+      {
+        "name": "Fishkeeping World",
+        "url": "https://www.fishkeepingworld.com/decorated-goby/",
+        "accessedDate": "2026-06-03",
+        "notes": "Returned 404 Not Found; no data available."
+      }
+    ]
+  },
+
+  "fish": {
+    "breedingDifficulty": null,
+    "breedingNotes": null,
+    "conspecificAggression": "moderate",
+    "finNippy": false,
+    "reefSafe": "yes",
+    "escapeRisk": "moderate",
+    "venomousSpines": false,
+    "protogynous": null,
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "moderate"
+  },
+
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+
+  "schemaVersion": 1,
+  "dataStatus": "needs_review",
+  "lastReviewed": "2026-06-03"
+}

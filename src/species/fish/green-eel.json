@@ -1,0 +1,103 @@
+{
+  "id": "sw-fish-515",
+  "slug": "green-eel",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Green Eel",
+  "scientificName": "Gymnothorax prasinus",
+  "alsoKnownAs": ["Yellow Moray", "Yellow Moray Eel", "Green Moray Eel"],
+  "category": "Eel",
+  "taxonomy": {
+    "family": "Muraenidae",
+    "order": "Anguilliformes"
+  },
+  "nativeRange": {
+    "regions": ["Southwest Pacific", "Oceania"],
+    "countries": ["New Zealand", "Australia"],
+    "habitat": "Reef-associated; inhabits holes and crevices in rocky and coral reef substrates",
+    "biotope": "Reef"
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 15.7, "max": 23.6 },
+    "pH": { "min": 8.0, "max": 8.4 },
+    "gH": null,
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.020, "max": 1.025 }
+  },
+  "adultSizeCm": { "min": 60.0, "max": 91.5 },
+  "lifespanYears": null,
+  "tank": {
+    "minVolumeLiters": 300,
+    "minLengthCm": 150,
+    "swimZone": "bottom",
+    "decorPreferences": ["live rock", "caves", "overhangs", "PVC pipe hides", "crevices"]
+  },
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Has been documented feeding mainly on crabs and fish in the wild. In captivity tends to accept fresh or frozen meaty foods such as silversides, shrimp, and squid; live food may be used to entice newly acquired specimens."
+  },
+  "compatibility": {
+    "temperament": "aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["large robust fish", "large angelfish", "large tangs"],
+    "avoidWith": ["small fish", "ornamental shrimp", "crabs", "other eels", "small invertebrates"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A temperate SW Pacific moray eel reaching around 90 cm, commonly traded as the Green Eel. Generally considered suitable for intermediate-level marine keepers who can provide cool, well-oxygenated water and substantial rockwork.",
+  "careNotes": "Gymnothorax prasinus is a temperate species native to New Zealand, the Kermadec Islands, and southern Australia, and is reported by FishBase to prefer water temperatures between roughly 16–24°C — cooler than most tropical marine aquarium species. Aquarists keeping this species may need a chiller to maintain appropriate temperature. The species has been reported to stay in holes and crevices during the day and tend to be most active at night (nocturnal), so feeding in the evening is generally advised. Like most moray eels, it has been known to be an escape artist and a tightly sealed, weighted lid is strongly recommended. The species tends to be aggressive toward smaller tankmates and small invertebrates. It is generally considered reef-unsafe with crustaceans (crabs, shrimp) as these form a natural part of its diet. Note: this species is sometimes sold as 'Yellow Moray' and should not be confused with the much larger Green Moray (Gymnothorax funebris), which can exceed 2.4 m and requires vastly larger systems. Copper-based medications should be avoided as morays lack true scales and tend to be sensitive to copper treatments.",
+  "breedingNotes": null,
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/collections/eels",
+      "accessedDate": "2026-06-03",
+      "notes": "Green Eel listed at $198.99; care level Moderate, Reef Compatible With Caution. The /products/green-eel detail URL returned data for Gymnothorax funebris (the large Green Moray), not G. prasinus — a possible catalog error. Product listing attributes (care level, reef compatibility) were used; sizing and range data deferred to FishBase."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Gymnothorax-prasinus.html",
+        "accessedDate": "2026-06-03",
+        "notes": "Primary data source for confirmed scientific identification, max size (91.5 cm TL), native range (New Zealand, Kermadec Islands, southern Australia), temperature range (15.7–23.6°C mean 18°C), diet (mainly crabs and fish), habitat (reef-associated, nocturnal, stays in crevices). Species ID 10146. Reef2Reef wiki returned HTTP 403; BlueZoo Aquatics returned HTTP 403."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": null,
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "with caution",
+    "escapeRisk": "high",
+    "venomousSpines": false,
+    "protogynous": null,
+    "haremic": null,
+    "caudalScalpel": false,
+    "nocturnal": true,
+    "juvenileColorPhase": false,
+    "copperSensitive": true,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "moderate"
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "needs_review",
+  "lastReviewed": "2026-06-03"
+}

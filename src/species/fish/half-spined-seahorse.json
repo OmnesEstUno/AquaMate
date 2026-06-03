@@ -1,0 +1,115 @@
+{
+  "id": "sw-fish-516",
+  "slug": "half-spined-seahorse",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Half-Spined Seahorse",
+  "scientificName": "Hippocampus semispinosus",
+  "alsoKnownAs": ["Halfspine Seahorse", "Half-spined Seahorse"],
+  "category": "Seahorse",
+  "taxonomy": {
+    "family": "Syngnathidae",
+    "order": "Syngnathiformes"
+  },
+  "nativeRange": {
+    "regions": ["Indo-Pacific", "West Pacific"],
+    "countries": ["Indonesia", "Australia"],
+    "habitat": "Muddy substrates near mangroves, deeper muddy channels, and continental shelf environments; occasionally associated with coral reef fringes and seagrass beds",
+    "biotope": "Coastal"
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 22, "max": 26 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.020, "max": 1.025 }
+  },
+  "adultSizeCm": { "min": 3, "max": 14 },
+  "lifespanYears": { "min": 2, "max": 5 },
+  "tank": {
+    "minVolumeLiters": 120,
+    "minLengthCm": 60,
+    "swimZone": "mid",
+    "decorPreferences": ["branching gorgonians", "macroalgae", "seagrass", "live rock with branching structure", "artificial hitching posts"]
+  },
+  "careLevel": "advanced",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Generally advised to feed frozen Mysis shrimp as the staple; vitamin-enriched adult brine shrimp are acceptable as a supplement but should not form the majority of the diet. Captive-bred specimens tend to adapt more readily to frozen foods. Amphipods and small crustaceans from live rock supplement the diet. Slow, deliberate feeders that benefit from two or more small target-feedings per day."
+  },
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "pair",
+    "minGroupSize": 2,
+    "goodWith": ["other seahorses", "pipefish", "small gobies", "dragonets", "firefish"],
+    "avoidWith": ["aggressive fish", "fast-moving fish", "large crustaceans", "anemones", "corals with stinging tentacles", "brain corals"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A peaceful, mid-water Indonesian seahorse that tends to do best in a dedicated species tank with slow flow, plenty of hitching structures, and steady twice-daily feedings of frozen Mysis shrimp.",
+  "careNotes": "Half-Spined Seahorse (Hippocampus semispinosus Kuiter 2001) is a relatively small seahorse native to the tropical West Pacific, with confirmed records from the East Alas Strait, Sumbawa (Indonesia), and the Timor Sea/NW Australian shelf. It inhabits muddy substrates near mangroves at depths of 10–80 m. Taxonomic note: FishBase currently treats H. semispinosus as a synonym of H. spinosissimus Weber 1913 (following Lourie et al. 2016); however, Fishes of Australia and several aquarium trade sources continue to list it as a distinct taxon. The holotype (NTM S10749-006, Sumbawa) is physically distinct in morphology (shorter trunk, smaller coronet) from the larger H. spinosissimus. Husbandry data used here applies to captive-bred specimens sold under the name H. semispinosus.\n\nKeeping notes: Specimens have been observed to vary naturally in coloration from dark red to yellow with grey saddle-like blotches (females) and dark brown with creamy-white lateral patches (males). They use their prehensile tails to hitch to branching gorgonians, macroalgae, or artificial structures. Water flow should be kept gentle — spray bars or diffused outlets are generally advised over powerheads aimed directly into the tank. Daily removal of uneaten food and detritus is recommended. Tank temperature is generally advised not to exceed 26°C, as warmer water has been associated with increased susceptibility to bacterial infections (Vibrio spp.) in captive seahorses.\n\nAcquisition note: Captive-bred specimens are strongly preferred over wild-caught as they are typically already adapted to frozen Mysis shrimp and have better survival rates. All seahorse species are listed under CITES Appendix II, with H. semispinosus also protected under Australia's EPBC Act 1999.",
+  "breedingNotes": "Males brood offspring in an abdominal brood pouch located beneath the tail. The species has been bred in captivity, though fry production is not large enough to fully meet trade demand. Captive breeding follows the general seahorse pattern: the female transfers eggs into the male's brood pouch during courtship; males carry the developing young and give live birth to juveniles. Specific gestation periods for this species are not well-documented in the aquarium literature.",
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/product/6795/",
+      "accessedDate": "2026-06-03",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Hippocampus-semispinosus.html",
+        "accessedDate": "2026-06-03",
+        "notes": "FishBase URL for H. semispinosus redirects to H. spinosissimus (Lourie et al. 2016 synonymy). Temperature range from H. spinosissimus data (22–27°C) used for cross-check; other parameters from aquarium sources."
+      },
+      {
+        "name": "Fishes of Australia",
+        "url": "https://fishesofaustralia.net.au/home/species/1550",
+        "accessedDate": "2026-06-03",
+        "notes": "Used for adult size (max 137 mm/13.7 cm per holotype description), native range (East Alas Strait, Timor Sea, NW Australian shelf), and taxonomic status. Treated as valid species here per Kuiter 2001 description."
+      },
+      {
+        "name": "OceansGarden Aquaculture",
+        "url": "https://www.oceansgarden.com/product/half-spined-seahorse-captive-bred/",
+        "accessedDate": "2026-06-03",
+        "notes": "Confirmed care level (easy/difficult split with LiveAquaria — see disagreement note), minimum tank size (30 gal), temperament (peaceful), reef safe (yes)."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "difficult",
+    "breedingNotes": "Males brood fry in an abdominal pouch; captive breeding has been achieved but production is limited. Detailed gestation data not widely documented for this species specifically.",
+    "conspecificAggression": "none",
+    "finNippy": false,
+    "reefSafe": "with caution",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "protogynous": false,
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": true,
+    "speciesOnlyTankRecommended": true,
+    "requiresHitchingPost": true,
+    "monogamousPairing": true,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "difficult"
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-03"
+}
