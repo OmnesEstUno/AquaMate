@@ -1,0 +1,131 @@
+{
+  "id": "sw-fish-384",
+  "slug": "panda-goby",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Panda Goby",
+  "scientificName": "Paragobiodon lacunicolus",
+  "alsoKnownAs": ["Blackfin Coral Goby", "Panda Clown Goby", "Panda Coral Goby"],
+  "category": "Gobies",
+  "taxonomy": {
+    "family": "Gobiidae",
+    "order": "Gobiiformes"
+  },
+  "nativeRange": {
+    "regions": ["Indo-Pacific"],
+    "countries": ["Seychelles", "Japan", "Australia", "Micronesia", "French Polynesia"],
+    "habitat": "Tropical coral reefs, typically among the branches of Pocillopora damicornis and related SPS coral colonies, at depths from shallow waters down to about 20 m (occasional records to 80 m).",
+    "biotope": "Obligate SPS coral associate — almost always found sheltering within live branching Pocillopora, Acropora, or Stylophora colonies."
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 22, "max": 26 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.020, "max": 1.025 }
+  },
+  "adultSizeCm": { "min": 2.5, "max": 3.5 },
+  "lifespanYears": { "min": 4, "max": 5 },
+  "tank": {
+    "minVolumeLiters": 75,
+    "minLengthCm": 60,
+    "swimZone": "bottom",
+    "decorPreferences": [
+      "live branching SPS coral host (Pocillopora damicornis preferred; Acropora or Stylophora acceptable)",
+      "mature reef rockwork with shaded crevices",
+      "fine coralline sand or live sand substrate",
+      "stable reef-quality water flow around the host colony"
+    ]
+  },
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Micro-carnivore that has been documented taking baby brine shrimp, finely minced frozen mysis, rotifers, copepods, and small carnivore preparations. Generally advised to feed small portions 2–3 times daily, since the fish rarely strays far from its host coral to forage."
+  },
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "pair",
+    "minGroupSize": 2,
+    "goodWith": [
+      "other peaceful nano-reef fish",
+      "small gobies and blennies",
+      "firefish and dartfish",
+      "ornamental shrimp and reef-safe invertebrates",
+      "LPS and soft corals"
+    ],
+    "avoidWith": [
+      "aggressive or large predatory fish",
+      "conspecifics outside an established mated pair",
+      "other Paragobiodon species competing for the same coral host",
+      "fish that pick at small bottom-dwellers (hawkfish, dottybacks)"
+    ]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A tiny black-finned coral goby that lives almost exclusively among the branches of Pocillopora corals. Peaceful, hardy when settled, and best kept as a mated pair in an established nano-reef.",
+  "careNotes": "The Panda Goby is an obligate coral associate — in the wild it is almost never found away from a live branching SPS colony (most commonly Pocillopora damicornis, also Acropora and Stylophora). For best results the tank should be a mature reef with at least one healthy SPS host colony for the goby to inhabit; without a host coral the fish tends to remain stressed and hidden. Retailers commonly list a 10-gallon (38 L) minimum, but because the species needs a healthy SPS-keeping reef around it, a more realistic minimum is a small but mature reef system of around 75 L or larger. The fish is reef-safe in the conventional sense, though there are isolated reports of nipping at SPS coral polyps; it does not harm fish tankmates. Coloration is striking — a pale yellow to white body with rosy/orange hues on the head and large rounded jet-black dorsal, anal and caudal fins. Cross-source size estimates range from about 1 inch (2.5 cm) to 1.5 inches (3.8 cm); FishBase lists 3.0 cm TL as the documented maximum. Generally advised to keep around 22–26 °C, pH 8.1–8.4, salinity SG 1.020–1.025, and dKH 8–12. Has been reported to live 4–5 years in well-kept reef tanks.",
+  "breedingNotes": "Forms strong, socially monogamous pairs that occupy a single coral colony for life. Has been bred in specialised aquarium settings; larvae are pelagic and require rotifers and microalgae during the planktonic phase, making rearing difficult outside dedicated larval-rearing setups. The species is a sequential hermaphrodite capable of sex change, which allows two unsexed juveniles introduced together to typically settle into a functional mated pair.",
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/product/2230/?pcatid=2230",
+      "accessedDate": "2026-06-03",
+      "notes": "Panda Goby (sold as 'Clown Goby, Panda') species page — source of care level, water parameters, diet, reef-safe status, and 10-gallon retail tank guidance."
+    },
+    "additional": [
+      {
+        "name": "BlueZoo Aquatics",
+        "url": "https://www.bluezooaquatics.com/productDetail.asp?cid=18&pid=584&did=1",
+        "accessedDate": "2026-06-03",
+        "notes": "Confirmed scientific name Paragobiodon lacunicolus, peaceful temperament, carnivore diet, Indo-Pacific origin, and intermediate care level. Reported a smaller 1-inch adult size which was averaged with other sources."
+      },
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Paragobiodon-lacunicolus.html",
+        "accessedDate": "2026-06-03",
+        "notes": "Used for canonical taxonomy (Gobiidae / Gobiiformes), distribution (Indo-Pacific from the Seychelles to Tuamoto Islands, Ryukyu to Lord Howe), and documented maximum size of 3.0 cm TL. Confirmed obligate association with Pocillopora damicornis."
+      },
+      {
+        "name": "Tropical Fish Keeping",
+        "url": "https://tropical-fish-keeping.com/panda-goby-paragobiodon-lacunicolus.html",
+        "accessedDate": "2026-06-03",
+        "notes": "Cross-checked water parameters, confirmed peaceful temperament, monogamous pair-forming behaviour, and provided the 4–5 year lifespan estimate. Also confirmed micro-carnivore feeding regime."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "difficult",
+    "breedingNotes": "Pairs spawn readily inside their host coral, but the pelagic larval phase requires dedicated rotifer/microalgae culture and is rarely completed outside specialised breeding setups.",
+    "conspecificAggression": "low",
+    "finNippy": false,
+    "reefSafe": "yes",
+    "escapeRisk": "moderate",
+    "venomousSpines": false,
+    "protogynous": false,
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": true,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "moderate"
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-03"
+}
