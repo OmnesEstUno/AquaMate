@@ -4,76 +4,96 @@
   "kind": "fauna",
   "taxon": "fish",
   "waterType": "saltwater",
-  "commonName": "Coral Beauty",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "commonName": "Coral Beauty Angelfish",
+  "scientificName": "Centropyge bispinosa",
+  "alsoKnownAs": ["Coral Beauty", "Twospined Angelfish", "Dusky Angelfish"],
   "category": "Angelfish",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Pomacanthidae",
+    "order": "Acanthuriformes"
   },
   "nativeRange": {
-    "regions": [],
+    "regions": ["Indo-Pacific"],
     "countries": [],
-    "habitat": null,
-    "biotope": null
+    "habitat": "Lagoon and seaward reef slopes with rich coral growth, typically at depths of 0-60 m.",
+    "biotope": "Reef-associated, non-migratory; East Africa to the Tuamotu Islands, north to the Izu Islands, south to Lord Howe Island. Absent from the Red Sea, Hawaii, and the southern Pacific."
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
+    "temperatureC": { "min": 23, "max": 28 },
+    "pH": { "min": 8.1, "max": 8.4 },
     "gH": null,
-    "kH": null,
-    "salinity": null
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.023, "max": 1.025 }
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 8, "max": 11.5 },
+  "lifespanYears": { "min": 7, "max": 12 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": []
+    "minVolumeLiters": 300,
+    "minLengthCm": 120,
+    "swimZone": "all",
+    "decorPreferences": ["live rock", "rockwork with caves and overhangs", "hiding places", "established aquascape with algae growth"]
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "beginner",
+  "diet": {
+    "type": "omnivore",
+    "notes": "In the wild it grazes primarily on algae and detritus, but in captivity it generally accepts a varied diet of spirulina, marine algae, high-quality angelfish preparations, mysis shrimp, and other meaty frozen foods. Small frequent feedings tend to be advised."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["clownfish", "tangs", "wrasses", "gobies", "blennies", "most peaceful community reef fish"],
+    "avoidWith": ["other dwarf angelfishes in small tanks", "conspecifics in tanks under ~900 L", "very timid slow feeders"]
   },
   "media": {
     "primaryImage": "coral_beauty.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Coral Beauty.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "A widely-kept Indo-Pacific dwarf angelfish with deep blue flanks and orange iridescence. Generally considered one of the hardier marine angels but has been known to nip stony and soft corals.",
+  "careNotes": "The Coral Beauty is among the more readily-kept dwarf angelfishes and is commonly recommended for aquarists making their first attempt at a Centropyge. It tends to do best in a mature tank with plenty of live rock for grazing and multiple caves or overhangs to retreat into, as it is somewhat shy when first introduced. Reef compatibility is mixed: many individuals leave corals alone, but the species has been documented nipping at LPS polyps, soft corals, and clam mantles, so it is generally classed as reef-safe with caution. Like other Centropyge, it is a protogynous (female-first) sequential hermaphrodite and naturally forms small harems of one dominant male with several females; in captivity it is most often kept singly, and harems require very large tanks (roughly 900 L / 240 US gal or more) started with juveniles of similar size. Conspecific and same-genus aggression is generally high, so only one dwarf angel per typical reef tank is advised. Source agreement on water parameters was good; tank size recommendations clustered around 70 US gallons (~265 L), rounded up to 300 L here per the larger-is-safer convention used for Centropyge in long-term care.",
+  "breedingNotes": "Pelagic spawning of small eggs at dusk has been observed in the wild, but the species is not commonly bred in home aquaria; rearing the planktonic larvae through metamorphosis is generally considered beyond hobbyist setups.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/coral-beauty-angelfish",
+      "accessedDate": "2026-06-02"
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Centropyge-bispinosa",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked taxonomy, distribution, max length (11.5 cm TL), preferred temperature (24.6–28.8°C, mean 27.5°C), and harem-forming social structure (3–7 individuals)."
+      },
+      {
+        "name": "Saltwater Aquarium World",
+        "url": "https://saltwateraquariumworld.com/home/saltwater-fish/coral-beauty-angelfish-care-guide/",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked pH (8.0–8.4), specific gravity (1.025), captive lifespan (8–10 yr, up to ~15 in the wild), care level (beginner), and reef-safe-with-caution rating."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
-    "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "protogynous": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
-    "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
+    "breedingDifficulty": "advanced",
+    "breedingNotes": "Rarely bred in captivity; pelagic eggs and planktonic larvae have been described from wild spawning, but the larval rearing protocol is generally considered impractical for hobbyists.",
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "with caution",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "protogynous": true,
+    "haremic": true,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
     "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null
+    "toxicToTank": false,
+    "feedingDifficulty": "easy"
   },
   "crustacean": null,
   "coral": null,
@@ -83,6 +103,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-02"
 }

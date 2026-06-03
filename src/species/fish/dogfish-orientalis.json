@@ -1,0 +1,171 @@
+{
+  "id": "sw-fish-325",
+  "slug": "dogfish-orientalis",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Dogfish Orientalis",
+  "scientificName": "Plectorhinchus lineatus",
+  "alsoKnownAs": [
+    "Yellowbanded Sweetlips",
+    "Yellow-banded Sweetlips",
+    "Lined Sweetlips",
+    "Oriental Sweetlips",
+    "Oriental Dogfish",
+    "Diagonal-banded Sweetlips",
+    "Goldman's Sweetlips",
+    "Many-lined Sweetlips",
+    "Oblique-banded Sweetlips"
+  ],
+  "category": "Grunts & Sweetlips",
+  "taxonomy": {
+    "family": "Haemulidae",
+    "order": "Eupercaria"
+  },
+  "nativeRange": {
+    "regions": [
+      "Indo-West Pacific",
+      "Western Pacific"
+    ],
+    "countries": [
+      "Japan",
+      "Indonesia",
+      "Philippines",
+      "Papua New Guinea",
+      "Australia",
+      "New Caledonia",
+      "Fiji"
+    ],
+    "habitat": "Reef-associated; tends to inhabit deep inner to outer reef habitats and coral slopes of clear lagoons and seaward reefs at depths of roughly 1-50 m. Juveniles are commonly observed singly on shallow protected reefs, while adults often gather in resting aggregations under ledges by day and disperse to forage over sand flats and seagrass beds at night.",
+    "biotope": "Reef"
+  },
+  "waterParameters": {
+    "temperatureC": {
+      "min": 22,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
+  },
+  "adultSizeCm": {
+    "min": 60,
+    "max": 86
+  },
+  "lifespanYears": null,
+  "tank": {
+    "minVolumeLiters": 2000,
+    "minLengthCm": 240,
+    "swimZone": "mid",
+    "decorPreferences": [
+      "live rock",
+      "rocky overhangs",
+      "caves",
+      "ample open swimming space",
+      "long footprint"
+    ]
+  },
+  "careLevel": "expert",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Carnivorous; in the wild has been documented foraging at night on benthic invertebrates including shrimp, crabs, polychaete worms, snails, and small fishes (trophic level ~3.9). Newly-acquired specimens are widely reported to refuse prepared foods initially, so live saltwater feeder shrimp (or freshwater ghost shrimp, blackworms) are commonly used to trigger a feeding response. Once feeding, most individuals will transition to a varied carnivore diet of frozen mysis, krill, chopped marine shrimp and fish, and prepared carnivore formulas."
+  },
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": [
+      "larger peaceful tankmates",
+      "tangs",
+      "larger angelfish",
+      "wrasses",
+      "groupers of comparable size"
+    ],
+    "avoidWith": [
+      "small ornamental shrimp",
+      "small crustaceans",
+      "fireworms",
+      "serpent stars",
+      "small snails",
+      "polychaete worms",
+      "highly aggressive or territorial species"
+    ]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A very large Indo-West Pacific reef fish with a striking juvenile-to-adult color change, growing to almost 90 cm. Generally considered an expert-only species due to its enormous adult footprint and well-documented initial-feeding difficulty.",
+  "careNotes": "Plectorhinchus lineatus (Yellowbanded Sweetlips, sold by LiveAquaria as 'Dogfish Orientalis') is one of the largest sweetlips offered in the trade, reaching around 70-86 cm total length in the wild. Adults tend to occupy deep inner to outer reef slopes and clear-lagoon coral habitat across the Western Pacific from the Ryukyu Islands south to the Great Barrier Reef and east to Fiji and New Caledonia. The species is generally nocturnal, resting conspicuously in groups under ledges during the day and feeding on benthic invertebrates over open sand and seagrass at night.\n\nJuveniles and adults differ so dramatically in coloration that they are sometimes mistaken for different fish. Juveniles tend to be solid dark brown to black on the dorsal half with three tan 'saddles' and a tan ventral surface, transitioning as they mature to a silver-white body with a yellow mouth and fins overlaid with black dots and diagonal horizontal stripes from head to tail.\n\nThe most commonly reported husbandry challenge is initial feeding. Newly imported specimens are widely reported to refuse prepared foods on arrival, and live saltwater feeder shrimp, freshwater ghost shrimp, or blackworms are typically used to trigger a feeding response. Aquarium prose around this species consistently warns that it is prone to starvation if a live-prey acclimation is not offered, which is why the schema's feedingDifficulty is set to 'live-only' even though most established specimens will eventually accept frozen meaty foods.\n\nThe species is not generally considered reef-safe: while it ignores stony and soft corals, it has been documented preying on smaller crustaceans, fireworms, serpent stars, small snails, and polychaete worms.\n\nCross-source disagreements:\n- Adult size: LiveAquaria 34 in (~86 cm); FreshMarine ~33.9 in (~86 cm); FishBase 72 cm TL (max); aquarium prose notes specimens commonly reach 28-30 in (~70-76 cm) in captivity. Recorded as 60-86 cm to span typical aquarium-grown to wild-max sizes.\n- Minimum tank: LiveAquaria 500 US gal (~1893 L); AquariumDomain 400-500 US gal with an 8x4 ft footprint; FreshMarine 150 US gal (~568 L); reefapp.net suggests 40,000 L as suitable for adult specimens (public-aquarium scale). Given the species' adult size and explicit prose cues ('rapid growth to almost three feet', 'ample swimming room and plenty of hiding places', 'larger tank is needed'), the higher figure was preferred and rounded up to 2000 L, the largest nice-value tank in the schema's allowed list. This still understates the long-term requirement for an adult specimen.\n- Care level: LiveAquaria rates 'Expert Only'; FreshMarine also 'Expert Only' (and excluded from arrive-guaranteed warranty). Adopted 'expert' as consensus.\n- Temperature: LiveAquaria/FreshMarine 22-26 °C; FishBase wild data 24.4-29.3 °C (mean 28.4); averaged to 22-27 °C reflecting typical aquarium-keeping spectrum.\n- Lifespan: not stated in any consulted source; left null.\n\nIUCN status is Least Concern (assessed 2023). The LiveAquaria trade name 'Dogfish Orientalis' is a marketing label; the same species is more widely known in aquarium and ichthyological literature as Yellowbanded Sweetlips or Lined Sweetlips.",
+  "breedingNotes": null,
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/dogfish-orientalis",
+      "accessedDate": "2026-06-02",
+      "notes": "Provided water parameters (72-78 °F, pH 8.1-8.4, SG 1.020-1.025, dKH 8-12), 500 US gal minimum, max size 34 in, peaceful temperament, not reef compatible, carnivore diet, expert-only care level, and live-feeder-shrimp acclimation guidance. Confirmed scientific name Plectorhinchus lineatus."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Plectorhinchus-lineatus",
+        "accessedDate": "2026-06-02",
+        "notes": "Confirmed taxonomy (Haemulidae, Eupercaria), 72 cm TL max wild size, native range Western Pacific (Ryukyu Islands to GBR and New Caledonia), depth 1-50 m, wild temperature 24.4-29.3 °C, trophic level 3.9, nocturnal foraging behavior, and IUCN Least Concern (2023). Common name listed as Yellowbanded sweetlips."
+      },
+      {
+        "name": "FreshMarine",
+        "url": "https://www.freshmarine.com/dogfish-sweetlips.html",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked aquarium care info: adult size ~86 cm, peaceful temperament, expert-only care, diet (live ghost/marine shrimp/blackworms to start, then varied frozen carnivore foods), and confirmed water-parameter ranges. Tank-size minimum listed lower (150 gal) than LiveAquaria's 500 gal; the larger figure was preferred per the playbook's tank-sizing bias."
+      },
+      {
+        "name": "AquariumDomain.com",
+        "url": "https://www.aquariumdomain.com/SpeciesProfiles/MarineFish/YellowbandedSweetlips.shtml",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked tank-size guidance (400-500 US gal with an 8x4 ft footprint preferable), shy/docile temperament, and feeding difficulty (live brine/glass shrimp commonly required to start newcomers feeding)."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": null,
+    "conspecificAggression": "low",
+    "finNippy": false,
+    "reefSafe": "no",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "protogynous": null,
+    "haremic": null,
+    "caudalScalpel": null,
+    "nocturnal": true,
+    "juvenileColorPhase": true,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": null,
+    "requiresHitchingPost": null,
+    "monogamousPairing": null,
+    "hlleSusceptible": null,
+    "toxicToTank": null,
+    "feedingDifficulty": "live-only"
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-02"
+}

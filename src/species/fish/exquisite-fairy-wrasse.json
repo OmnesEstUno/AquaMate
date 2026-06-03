@@ -1,0 +1,117 @@
+{
+  "id": "sw-fish-330",
+  "slug": "exquisite-fairy-wrasse",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Exquisite Fairy Wrasse",
+  "scientificName": "Cirrhilabrus exquisitus",
+  "alsoKnownAs": [
+    "Exquisite Wrasse"
+  ],
+  "category": "Wrasse",
+  "taxonomy": {
+    "family": "Labridae",
+    "order": "Eupercaria"
+  },
+  "nativeRange": {
+    "regions": ["Indo-Pacific"],
+    "countries": ["South Africa", "Maldives", "Fiji", "New Caledonia", "French Polynesia"],
+    "habitat": "Outer reef rubble and low patch reefs",
+    "biotope": "Tropical Indo-Pacific reef slopes, typically reported between roughly 6–40 m depth"
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 22, "max": 26 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.020, "max": 1.025 }
+  },
+  "adultSizeCm": { "min": 10, "max": 15 },
+  "lifespanYears": { "min": 4, "max": 8 },
+  "tank": {
+    "minVolumeLiters": 300,
+    "minLengthCm": 120,
+    "swimZone": "mid",
+    "decorPreferences": ["live rock", "rubble", "open swimming space", "sandy substrate"]
+  },
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Generally accepts vitamin-enriched frozen mysis and brine shrimp, finely chopped meaty seafood, and high-quality marine flake or pellets. Has been reported to prefer live foods on first arrival, and is commonly advised to be fed 3–4 small meals per day, especially for younger specimens. Documented as a zooplanktivore in the wild, foraging in open water above the substrate."
+  },
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "pair",
+    "minGroupSize": 1,
+    "goodWith": ["peaceful reef tankmates", "small to medium gobies", "cardinalfish", "clownfish", "corals", "ornamental shrimp"],
+    "avoidWith": ["other male fairy wrasses in the same tank", "dottybacks", "basslets", "longfins", "large aggressive wrasses", "triggerfish", "lionfish"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A widely distributed Indo-Pacific fairy wrasse with vivid, mood-dependent coloration; generally considered peaceful and reef-safe, and well suited to medium-to-large mature reef aquariums.",
+  "careNotes": "Cirrhilabrus exquisitus has one of the broadest ranges of any fairy wrasse, spanning the Indo-Pacific from East Africa and South Africa's Sodwana Bay eastward through the Maldives, Fiji, New Caledonia and out to the Tuamotu Islands; regional color forms differ noticeably and are sometimes sold as locale-specific variants. Adult size estimates vary across sources: FishBase records 12 cm SL, LiveAquaria advertises around 5 in (~12.7 cm), and AquaticCommunity reports up to 6 in (~15 cm) — we have used a 10–15 cm range that brackets these figures. Tank-size recommendations also diverge widely: AquaticCommunity suggests 30–40 US gal (~115–150 L) while LiveAquaria recommends 90 US gal (~340 L); we have leaned toward the larger end given the species' active mid-water swimming and the value of a long footprint with open lanes between rockwork, settling at 300 L. Generally peaceful and reef-safe — coral and ornamental-invert nipping is not commonly reported — but males have been documented to be aggressive toward dottybacks, basslets, longfins and other male fairy wrasses, so plan stocking accordingly. Like most Cirrhilabrus, this species is a notable jumper, and a tightly fitted lid or eurobrace is strongly advised. Best kept as a single male, or as a male with one or more females added simultaneously to form a harem; introducing females after the male is established tends to provoke aggression. Individuals are protogynous (female-first sequential hermaphrodites), and males display heightened nuptial coloration during courtship.",
+  "breedingNotes": "Captive spawning is rarely reported. In the wild, the species spawns in harems with a dominant male over groups of females; replicating this social structure may encourage nuptial display behavior in large reef systems.",
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/collections/wrasse-reef-safe",
+      "accessedDate": "2026-06-02",
+      "notes": "Species page at https://www.liveaquaria.com/products/exquisite-fairy-wrasse used for water parameters, 90 gal tank-size recommendation, diet, peaceful temperament, and 'easy' care level. Distribution noted as multi-locale (Africa, Indo-Pacific, Fiji, Maldives, New Caledonia)."
+    },
+    "additional": [
+      {
+        "name": "Reef2Reef wiki",
+        "url": "https://www.reef2reef.com/threads/exquisite-fairy-wrasse-cirrhilabrus-exquisitus.64663/",
+        "accessedDate": "2026-06-02",
+        "notes": "Designated secondary source returned HTTP 403 to WebFetch; verification swapped to FishBase and AquaticCommunity."
+      },
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Cirrhilabrus-exquisitus.html",
+        "accessedDate": "2026-06-02",
+        "notes": "Confirmed max length 12 cm SL, family Labridae, order Eupercaria, depth ~6–40 m, distribution East Africa to the Tuamotu Islands, zooplanktivorous diet, distinct pairing during breeding. IUCN: Data Deficient."
+      },
+      {
+        "name": "AquaticCommunity",
+        "url": "https://www.aquaticcommunity.com/Wrasses/Exquisite.php",
+        "accessedDate": "2026-06-02",
+        "notes": "Reports adult size up to 6 in (~15 cm), minimum tank 30–40 gal (~115–150 L), water parameters matching LiveAquaria, conspecific male aggression and hostility toward dottybacks/basslets/longfins, harem spawning, protogynous hermaphroditism. Significant tank-size disagreement with LiveAquaria — leaned toward larger value per playbook rule."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": null,
+    "conspecificAggression": "moderate",
+    "finNippy": false,
+    "reefSafe": "yes",
+    "escapeRisk": "high",
+    "venomousSpines": false,
+    "protogynous": true,
+    "haremic": true,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy"
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-02"
+}

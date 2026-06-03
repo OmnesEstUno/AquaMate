@@ -4,76 +4,96 @@
   "kind": "fauna",
   "taxon": "fish",
   "waterType": "saltwater",
-  "commonName": "Copperband Butterfly",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "commonName": "Copperband Butterflyfish",
+  "scientificName": "Chelmon rostratus",
+  "alsoKnownAs": ["Copperband Butterfly", "Beaked Coralfish", "Beaked Butterflyfish", "Orange Stripe Butterfly"],
   "category": "Butterflyfish",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Chaetodontidae",
+    "order": "Acanthuriformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null
+    "regions": ["Western Pacific", "Indo-Pacific"],
+    "countries": ["Australia", "Indonesia", "Malaysia", "Philippines", "Japan", "Thailand", "Singapore"],
+    "habitat": "Rocky shores and coral reefs; also occurs in estuaries and silty inner reefs at depths of roughly 1–25 m.",
+    "biotope": "Reef-associated, non-migratory; typically encountered singly or in pairs."
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
+    "temperatureC": { "min": 23, "max": 27 },
+    "pH": { "min": 8.1, "max": 8.4 },
     "gH": null,
-    "kH": null,
-    "salinity": null
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.020, "max": 1.025 }
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 15, "max": 20 },
+  "lifespanYears": { "min": 5, "max": 10 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": []
+    "minVolumeLiters": 400,
+    "minLengthCm": 150,
+    "swimZone": "all",
+    "decorPreferences": ["live rock with crevices", "open swimming space", "established reef", "mature aquarium (6+ months)"]
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "advanced",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Generally accepts a variety of meaty foods once settled — mysis shrimp, brine shrimp, finely chopped seafood, and frozen carnivore preparations are commonly used. New arrivals are often shy and deliberate feeders; live foods (live brine, live blackworms) are commonly required to start them eating. Renowned for picking at Aiptasia (glass anemones)."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "peaceful",
+    "grouping": "pair",
+    "minGroupSize": 1,
+    "goodWith": ["peaceful tangs", "wrasses", "cardinalfish", "clownfish", "small angelfish", "gobies"],
+    "avoidWith": ["other Chelmon or similar butterflyfish", "aggressive damselfish", "triggers", "large angels", "ornamental shrimp", "feather dusters", "tube worms", "clams", "prized LPS corals"]
   },
   "media": {
     "primaryImage": "copperband_butterfly.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Copperband Butterfly.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "Elegant Indo-Pacific butterflyfish prized for its copper-banded body and long snout, often used to control Aiptasia. Generally considered an advanced fish due to feeding challenges.",
+  "careNotes": "Best housed in a mature, well-established reef or FOWLR aquarium (commonly advised at six months or older) with peaceful tankmates and ample live rock providing crevices for grazing. Generally kept singly unless a confirmed mated pair is acquired together; conspecifics and similar butterflyfishes are usually quarrelsome. Reef compatibility is rated 'with caution' — has been reported to pick at feather dusters, tube worms, clams, ornamental shrimp, and occasionally LPS polyps, while frequently consuming Aiptasia. Feeding the new arrival is the chief husbandry hurdle; many specimens refuse prepared foods initially and require live brine or live blackworms to be coaxed onto frozen mysis and chopped seafood. Tank-size sources spread widely (75–130 US gal / 284–492 L); 400 L (~105 US gal) was chosen on the cautious side to give an active, deliberate hunter swimming room and a long footprint. Most sources advise water temperatures around 24–27 °C; LiveAquaria's range (72–78 °F / 22–26 °C) skews cooler than FishBase's wild data (~24.7–29.3 °C, mean 28.5 °C), so the recorded range averages across both. Reported aquarium lifespan varies (~4 years on the low end to 6–10 years with excellent care).",
+  "breedingNotes": "Has rarely if ever been bred in home aquaria. Forms monogamous pair bonds in the wild; pair-bonded individuals should not be separated.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/copperband-butterflyfish",
+      "accessedDate": "2026-06-02"
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Chelmon-rostratus",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked taxonomy (family Chaetodontidae, order Acanthuriformes), max length (20 cm TL), wild temperature range (24.7–29.3 °C), and Western Pacific distribution."
+      },
+      {
+        "name": "Aquarium Source",
+        "url": "https://www.aquariumsource.com/copperband-butterflyfish/",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked tank-size guidance (sources spread 75–130 US gal). Reports captive lifespan ~6–10 years and recommends introduction only to tanks established 6+ months."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
+    "breedingDifficulty": "not in captivity",
     "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
-    "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "protogynous": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
-    "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "with caution",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "protogynous": false,
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": true,
+    "hlleSusceptible": true,
+    "toxicToTank": false,
+    "feedingDifficulty": "difficult"
   },
   "crustacean": null,
   "coral": null,
@@ -83,6 +103,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-02"
 }

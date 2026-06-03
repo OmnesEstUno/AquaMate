@@ -5,75 +5,137 @@
   "taxon": "fish",
   "waterType": "saltwater",
   "commonName": "Percula Clownfish",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "scientificName": "Amphiprion percula",
+  "alsoKnownAs": [
+    "True Percula Clownfish",
+    "Orange Clownfish",
+    "Clown Anemonefish",
+    "Picasso Percula Clownfish",
+    "Extreme Picasso Percula Clownfish",
+    "Platinum Percula Clownfish",
+    "Onyx Percula Clownfish"
+  ],
   "category": "Clownfish",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Pomacentridae",
+    "order": "Blenniiformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null
+    "regions": [
+      "Western Pacific",
+      "Indo-Pacific",
+      "Coral Triangle"
+    ],
+    "countries": [
+      "Australia",
+      "Papua New Guinea",
+      "Solomon Islands",
+      "Vanuatu"
+    ],
+    "habitat": "Reef-associated; lagoon and seaward reefs at 1–15 m depth. Obligate symbiont of host anemones, primarily Heteractis magnifica and Stichodactyla gigantea, occasionally Heteractis crispa.",
+    "biotope": "Reef"
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
-    "kH": null,
-    "salinity": null
+    "temperatureC": { "min": 24, "max": 27 },
+    "pH":           { "min": 8.1, "max": 8.4 },
+    "gH":           null,
+    "kH":           { "min": 8, "max": 12 },
+    "salinity":     { "min": 1.020, "max": 1.025 }
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 8, "max": 11 },
+  "lifespanYears": { "min": 6, "max": 12 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": []
+    "minVolumeLiters": 75,
+    "minLengthCm": 60,
+    "swimZone": "mid",
+    "decorPreferences": [
+      "live rock",
+      "host anemone (optional)",
+      "open swimming space",
+      "sheltered nooks"
+    ]
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "beginner",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Accepts most prepared foods. A varied diet of high-quality marine pellets, flakes, and enriched frozen foods (mysis, brine) is generally advised to support coloration and immune function."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "peaceful",
+    "grouping": "pair",
+    "minGroupSize": 1,
+    "goodWith": [
+      "most peaceful reef fish",
+      "corals",
+      "host anemones",
+      "small gobies",
+      "cardinalfish",
+      "blennies"
+    ],
+    "avoidWith": [
+      "other clownfish species",
+      "established conspecific pairs",
+      "large aggressive predators",
+      "very large angelfish"
+    ]
   },
   "media": {
     "primaryImage": "percula_clownfish.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Percula Clownfish.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "A small, peaceful anemonefish from the western Pacific. Generally considered one of the most beginner-friendly marine fish; widely captive-bred in a range of designer color morphs.",
+  "careNotes": "One entry covers Amphiprion percula and all its captive-bred designer morphs. Trade names like 'Picasso', 'Extreme Picasso', 'Platinum', and 'Onyx' refer to selectively bred color/pattern variants — the 'Extreme Picasso' grade is the most heavily white-marked and is described by suppliers as having unique markings on every individual. These morphs do not occur in the wild and share the husbandry of the wild form.\n\nGenerally considered beginner-friendly. Best kept singly or as a mated pair; have been known to be aggressive toward other clownfish species and toward unfamiliar conspecifics, so introduce pairs as juveniles or buy a bonded pair. Does not require a host anemone in captivity, though it will host one if a compatible species (typically Heteractis magnifica, Stichodactyla gigantea, or sometimes carpet/bubble-tip anemones) is offered.\n\nLike all clownfish, Amphiprion percula is a protandrous sequential hermaphrodite — every fish is born male, and the largest fish in a group becomes the dominant female. Within a group there is a strict size-based hierarchy of one breeding female, one breeding male, and several non-breeding subordinates.\n\nSource spread on the upper temperature was modest: aquaticsunlimited gave 22–26°C (72–78°F) for captive husbandry, while FishBase wild-temperature data centres around 25.5–28.4°C. The 24–27°C range written here averages the two."
+,
+  "breedingNotes": "Has been bred extensively in captivity and is one of the easiest marine fish to breed. Spawns demersally — pairs lay adhesive eggs on a hard surface near their host anemone, and the male tends the clutch. Larvae are pelagic and require rotifer-grade feeds initially, then enriched Artemia.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "aquaticsunlimited.com",
+      "url": "https://aquaticsunlimited.com/product/clown-picasso-extreme-aquacultured-amphiprion-percula/",
+      "accessedDate": "2026-06-02",
+      "notes": "Species page for the Extreme Picasso variant; provided the captive husbandry parameters (size, temperature, pH, salinity, tank size, diet, temperament, care level)."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Amphiprion-percula.html",
+        "accessedDate": "2026-06-02",
+        "notes": "Confirmed taxonomy (Pomacentridae), wild distribution (Queensland, Melanesia, GBR, New Guinea, Solomon Islands, Vanuatu), wild temperature range (25.5–28.4°C, mean 27.3°C), depth (1–15 m), and host-anemone associations."
+      },
+      {
+        "name": "Wikipedia (Orange clownfish)",
+        "url": "https://en.wikipedia.org/wiki/Orange_clownfish",
+        "accessedDate": "2026-06-02",
+        "notes": "Confirmed maximum length 11 cm (avg 8 cm), breeding-female tenure ~12 years, protandrous sex-change biology, and pair-bonded social structure with size-based hierarchy."
+      },
+      {
+        "name": "LiveAquaria",
+        "url": "https://www.liveaquaria.com/collections/clownfish",
+        "accessedDate": "2026-06-02",
+        "notes": "Manifest primary source; the collections page is a catalog index rather than a species page and did not list per-species husbandry details. Cross-verification fell to FishBase + Wikipedia."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
-    "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "protogynous": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
-    "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null
+    "breedingDifficulty": "moderate",
+    "breedingNotes": "Pairs spawn readily in mature reef tanks. Rearing larvae is moderate-difficulty — they require rotifers as a first food before transitioning to enriched Artemia.",
+    "conspecificAggression": "moderate",
+    "finNippy": false,
+    "reefSafe": "yes",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "protogynous": false,
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": true,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy"
   },
   "crustacean": null,
   "coral": null,
@@ -83,6 +145,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-02"
 }

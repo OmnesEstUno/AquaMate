@@ -1,0 +1,163 @@
+{
+  "id": "sw-fish-323",
+  "slug": "crosshatch-triggerfish",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "saltwater",
+  "commonName": "Crosshatch Triggerfish",
+  "scientificName": "Xanthichthys mento",
+  "alsoKnownAs": [
+    "Blue Cheekline Triggerfish",
+    "Redtail Triggerfish (FishBase)",
+    "Crosshatch Trigger"
+  ],
+  "category": "Triggerfish",
+  "taxonomy": {
+    "family": "Balistidae",
+    "order": "Tetraodontiformes"
+  },
+  "nativeRange": {
+    "regions": [
+      "Pacific Ocean (antitropical)"
+    ],
+    "countries": [
+      "Japan",
+      "Hawaii (USA)",
+      "California (USA)",
+      "Mexico (Revillagigedo Islands)",
+      "Clipperton Island (France)",
+      "Easter Island (Chile)",
+      "Pitcairn Islands (UK)"
+    ],
+    "habitat": "Reef-associated, benthopelagic; occurs in schools above reef drop-offs around oceanic islands and along continental coasts, typically at depths from roughly 6–130 m",
+    "biotope": "Reef"
+  },
+  "waterParameters": {
+    "temperatureC": {
+      "min": 22,
+      "max": 26
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.026
+    }
+  },
+  "adultSizeCm": {
+    "min": 18,
+    "max": 29
+  },
+  "lifespanYears": {
+    "min": 8,
+    "max": 15
+  },
+  "tank": {
+    "minVolumeLiters": 700,
+    "minLengthCm": 180,
+    "swimZone": "all",
+    "decorPreferences": [
+      "live rock",
+      "caves",
+      "open swimming space",
+      "rocky overhangs"
+    ]
+  },
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Feeds primarily on zooplankton in the wild (FishBase trophic level ~4.0) and has been documented schooling above reef drop-offs to pick plankton. In captivity it is generally advised to offer varied meaty foods — chopped shrimp, squid, krill, mysis, clams, and small fish — two or three times daily. Krill is commonly recommended as a regular item because of its carotenoid content, which tends to help maintain the species' bright yellow and red coloration. Periodically offering hard-shelled foods is generally advised to help wear down continuously growing teeth."
+  },
+  "compatibility": {
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": [
+      "large peaceful fish",
+      "tangs",
+      "large angelfish",
+      "other semi-aggressive fish of similar or larger size",
+      "robust wrasses"
+    ],
+    "avoidWith": [
+      "small ornamental shrimp",
+      "small docile fish",
+      "other triggerfish (especially conspecifics outside a bonded pair)",
+      "tiny placid tankmates"
+    ]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A planktivorous Pacific triggerfish prized for its yellow body, dark crosshatch pattern, blue facial lines, and (in males) red caudal fin; among the more reef-tolerant Balistids though still risky with small shrimp.",
+  "careNotes": "The Crosshatch Triggerfish (Xanthichthys mento) is widely considered one of the more reef-compatible members of the family Balistidae — it has been documented largely ignoring sessile invertebrates and even most corals, though larger individuals have been reported eating ornamental shrimp and small crustaceans. Reef-keepers generally treat it as 'reef-safe with caution' rather than fully reef-safe. The species is strikingly sexually dimorphic: males develop a vivid red caudal fin and more intense yellow flanks, while juveniles and females have yellow tails. Males also tend to be slightly larger.\n\nIn the wild the species occurs in an unusual antitropical Pacific distribution (southern Japan and Hawaii in the north; southern California, the Revillagigedos, Clipperton, Easter Island and the Pitcairns in the south), schooling above reef drop-offs and feeding on zooplankton. This planktivorous ecology is partly why it is more peaceful in captivity than most triggers, though it still has been known to rearrange rockwork and substrate, bite tank equipment (including silicone and rubber), and produce audible grunting sounds when alarmed.\n\nTemperament reports vary. LiveAquaria lists the species as 'Aggressive,' while specialist hobby sources (Fishkeeper UK, ReefApp) describe it as moderately aggressive or even relatively peaceful for a triggerfish — averaging the sources lands on semi-aggressive, with a strong caveat that intra-genus and intra-species aggression has been reported. A single male can be kept with one or more females; multiple males in the same tank are generally not advised. Pairs have been bred in captivity rarely.\n\nAdult size disagreement: LiveAquaria cites 11 in (~28 cm); FishBase records 30 cm; Fishkeeper UK and ReefApp both quote 29 cm. The averaged max of ~29 cm is used; minimum reflects typical purchased/young-adult size (~18 cm).\n\nTank size disagreement: LiveAquaria recommends 180 gal (~681 L) for a single specimen, with 90 gal+ for an established pair. ReefApp's encyclopedia gives 1,500 L (likely a lifetime / pair recommendation). Biasing toward the cautious-larger side per the playbook tank rule and rounding to a nice-values bin, 700 L is used as a sensible single-fish minimum that leaves room for the active swimming and territorial behavior this species exhibits. A long-footprint tank (>=180 cm) is generally advised over a tall one.\n\nTemperature disagreement: aquarium-hobby sources converge on 22.2–25.6°C (72–78°F), while FishBase wild data spans 21.1–29°C. Averaged hobby range of 22–26°C used, with an understanding that brief excursions are tolerated.\n\nVenomous spines: like all Balistidae, the species has strong lockable dorsal spines used defensively but they are not venomous — venomousSpines set to false.\n\nProtogyny: Xanthichthys mento has not been documented as a protogynous hermaphrodite; males establish discrete spawning territories and the sexes are visibly distinct from maturity, suggesting stable gonochorism — protogynous set to false. Note that some triggerfishes have territorial parental care during spawning, with males guarding the nest and females (or both) tending the eggs.",
+  "breedingNotes": "Captive breeding has been reported only rarely in private hobbyist tanks. In the wild, males establish spawning and parental-care territories while only females actively tend the eggs (both parents may guard). Fecundity has been estimated at roughly 32,000 eggs per cluster (FishBase). Pairs can be set up by housing one male with one or more females in a large aquarium with abundant rockwork.",
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/collections/triggerfish",
+      "accessedDate": "2026-06-02",
+      "notes": "Collection page confirmed listing; the species product page (liveaquaria.com/product/1418) returned full husbandry details — care level (easy), temperament (aggressive), max size 11 in, min tank 180 gal, temp 72–78°F, pH 8.1–8.4, SG 1.020–1.025, dKH 8–12, diet (carnivore meaty), reef-safe with caution."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Xanthichthys-mento",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked taxonomy (Balistidae / Tetraodontiformes), max size 30 cm, depth 6–130 m, antitropical Pacific distribution, planktivorous diet (trophic level 4.0), wild temperature 21.1–29°C, and breeding behaviour (male territorial spawning, ~32,000 eggs/cluster). FishBase uses 'Redtail Triggerfish' as the English vernacular for X. mento — distinct from X. ringens 'Red-Tail Trigger'; the aquarium-trade common name 'Crosshatch Triggerfish' is used here."
+      },
+      {
+        "name": "ReefApp Encyclopedia",
+        "url": "https://reefapp.net/en/encyclopedia/xanthichthys-mento",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked max size 29 cm, salinity ~1.026, water temperature ~26°C, distribution. Reported minimum tank 1,500 L (treated as a long-term / pair recommendation and averaged with LiveAquaria's 180 gal; final value biased toward the larger side per playbook). Confirmed reef-safe with caution and that pairs have bred in captivity."
+      },
+      {
+        "name": "Fishkeeper UK",
+        "url": "https://www.fishkeeper.co.uk/fish/marine/miscellaneous-fish/crosshatch-triggerfish",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked adult size 29 cm, temperature 23–26°C, pH 8.1–8.4, SG 1.020–1.025, reef-safe with caution, diet (frozen meaty + spirulina), sexual dimorphism (males red caudal, females yellow), and moderately-aggressive temperament. Helped average temperament toward semi-aggressive."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "difficult",
+    "breedingNotes": "Captive breeding has been reported only rarely. The species is oviparous with male territorial spawning and female (or biparental) egg guarding; pairs may be set up by housing one male with one or more females.",
+    "conspecificAggression": "moderate",
+    "finNippy": false,
+    "reefSafe": "with caution",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "protogynous": false,
+    "haremic": null,
+    "caudalScalpel": null,
+    "nocturnal": null,
+    "juvenileColorPhase": null,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": null,
+    "requiresHitchingPost": null,
+    "monogamousPairing": null,
+    "hlleSusceptible": null,
+    "toxicToTank": null,
+    "feedingDifficulty": "easy"
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-02"
+}

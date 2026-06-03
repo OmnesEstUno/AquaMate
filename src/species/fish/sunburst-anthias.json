@@ -5,75 +5,95 @@
   "taxon": "fish",
   "waterType": "saltwater",
   "commonName": "Sunburst Anthias",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "scientificName": "Serranocirrhitus latus",
+  "alsoKnownAs": ["Fathead Sunburst Anthias", "Fathead Anthias", "Hawkfish Anthias"],
   "category": "Anthias",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Anthiadidae",
+    "order": "Perciformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null
+    "regions": ["Western Pacific", "Indo-Pacific"],
+    "countries": ["Indonesia", "Philippines", "Japan", "Taiwan", "Fiji", "New Caledonia", "Australia", "Tonga"],
+    "habitat": "Inshore coral reef walls and drop-offs, typically near caves, ledges and overhangs at 15–70 m depth.",
+    "biotope": "Deeper reef ledges and cave entrances"
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
+    "temperatureC": { "min": 22, "max": 26 },
+    "pH": { "min": 8.1, "max": 8.4 },
     "gH": null,
-    "kH": null,
-    "salinity": null
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.020, "max": 1.025 }
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 11, "max": 13 },
+  "lifespanYears": { "min": 5, "max": 8 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": []
+    "minVolumeLiters": 300,
+    "minLengthCm": 120,
+    "swimZone": "bottom",
+    "decorPreferences": ["live rock with caves and overhangs", "subdued lighting", "moderate to strong flow", "open water near rockwork"]
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Planktivorous in the wild; generally takes frozen mysis, enriched brine, copepods and amphipods in captivity, and over time tends to accept high-quality pellets and flakes. Multiple small feedings per day are commonly advised, and a refugium seeded with pods is often recommended."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "peaceful",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["peaceful reef fish", "small wrasses", "gobies", "clownfish", "corals", "shrimp"],
+    "avoidWith": ["aggressive or boisterous tankmates", "large angels", "triggerfish", "groupers", "lionfish"]
   },
   "media": {
     "primaryImage": "sunburst_anthias.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Sunburst Anthias.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "A shy, deep-reef anthias generally kept singly along rockwork in dimly lit reef tanks; reef-safe and accepts most frozen foods once settled.",
+  "careNotes": "Trade name 'Fathead Sunburst Anthias' (and the shorter 'Fathead Anthias') is sold as the same species as the regular 'Sunburst Anthias' — both refer to Serranocirrhitus latus, with the fathead label simply emphasising the species' characteristically deep, blunt-headed body. Unlike most schooling anthias, this species is commonly kept singly; pairs or small harems can work in larger aquaria but only one male should be present, and groups are generally advised to be introduced simultaneously. It is a protogynous hermaphrodite — the dominant female will tend to transition to male if the resident male is lost. Bottom-dwelling and shy, it appreciates plenty of live rock with caves, overhangs and subdued or shaded areas to retreat into; tanks with strong open-top lighting are often dimmed in the lower zones to keep this fish visible. Cross-source notes: LiveAquaria cites ~12.7 cm (5 in) maximum, FishBase records 13.0 cm — recorded here as 11–13 cm. Temperature range averaged across LiveAquaria (22–26 °C) and FishBase (22–27 °C). Minimum tank size in sources ranges 70–75 US gal (~265–285 L); rounded up to the next nice value of 300 L (~80 US gal) to give an active bottom-zone swimmer with multiple rockwork retreats adequate footprint.",
+  "breedingNotes": "Rarely bred in captivity. Protogynous hermaphrodite forming loose harems on wild reefs; captive breeding reports are sparse.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/fathead-sunburst-anthias",
+      "accessedDate": "2026-06-02"
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Serranocirrhitus-latus.html",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked taxonomy (Anthiadidae, Perciformes), max size (13.0 cm), native range (Western Pacific: Moluccas to Fiji, north to Izu Islands and Taiwan, south to New Caledonia and Great Barrier Reef; recently Tonga), depth (15–70 m), and temperature (22–27 °C). Designated secondary Reef2Reef wiki returned 403; swapped to FishBase."
+      },
+      {
+        "name": "ReefBay care guide (via web search)",
+        "url": "https://reefbay.com/guides/complete-anthias-care-guide-the-stunning-schooling-fish-for-reef-tanks",
+        "accessedDate": "2026-06-02",
+        "notes": "Cross-checked minimum tank size (75 US gal, vs. LiveAquaria's 70 US gal), peaceful/shy temperament, reef-safe, feeding regime (multiple small feedings; needs variety), and behavior (bottom-dwelling, prefers live rock and subdued light, single male per tank)."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
-    "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "protogynous": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
+    "breedingDifficulty": "advanced",
+    "breedingNotes": "Captive breeding is rarely reported; sourcing is virtually all wild-collected.",
+    "conspecificAggression": "moderate",
+    "finNippy": false,
+    "reefSafe": "yes",
+    "escapeRisk": "high",
+    "venomousSpines": false,
+    "protogynous": true,
+    "haremic": true,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
     "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
     "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null
+    "toxicToTank": false,
+    "feedingDifficulty": "moderate"
   },
   "crustacean": null,
   "coral": null,
@@ -83,6 +103,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-02"
 }
