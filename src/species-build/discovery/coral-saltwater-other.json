@@ -1,33 +1,72 @@
 {
   "meta": {
-    "discoveryDate": "2026-05-20",
+    "discoveryDate": "2026-06-04",
     "taxon": "coral",
     "waterType": "saltwater",
     "primarySource": {
-      "name": "World Wide Corals",
-      "indexUrl": "https://www.worldwidecorals.com/collections/all-frags"
+      "name": "LiveAquaria",
+      "indexUrl": "https://www.liveaquaria.com/pages/corals"
     },
     "secondarySources": [
-      { "name": "Reef2Reef wiki", "url": "https://www.reef2reef.com/wiki/" },
-      { "name": "Bulk Reef Supply", "url": "https://www.bulkreefsupply.com/" },
-      { "name": "LiveAquaria", "url": "https://www.liveaquaria.com/" }
+      {
+        "name": "World Wide Corals",
+        "url": "https://www.worldwidecorals.com/"
+      },
+      {
+        "name": "Bulk Reef Supply",
+        "url": "https://www.bulkreefsupply.com/"
+      },
+      {
+        "name": "Reef2Reef wiki",
+        "url": "https://www.reef2reef.com/wiki/"
+      },
+      {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/"
+      }
     ],
-    "dedupListSize": 113,
-    "candidateCount": 1
+    "dedupListSize": 3,
+    "candidateCount": 3
   },
   "entries": [
     {
-      "commonName": "Rock Flower Anemone",
-      "scientificName": "Phymanthus sp.",
+      "commonName": "Australian Brain Coral",
+      "scientificName": null,
       "popularityScore": 0,
       "wikipediaUrl": null,
       "wikipediaPageviewsMonthly": 0,
       "wikipediaArticleSizeBytes": null,
-      "sourceCoverageCount": 2,
-      "primarySourceUrl": "https://www.worldwidecorals.com/blogs/news/rock-flower-anemones",
-      "secondarySourceUrl": "https://www.liveaquaria.com/product/3619/?pcatid=3619",
+      "sourceCoverageCount": 1,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/australian-brain-coral-versiopora-pineapple",
+      "secondarySourceUrl": "https://en.wikipedia.org/wiki/Coral",
       "taxonFitConfidence": "low",
-      "notes": "LiveAquaria classifies as Saltwater Aquarium Invertebrates, not coral. Phymanthidae family anemone from Caribbean. Suggested correct taxon: other-invert. Surfaced in WWC editorial blog, not the coral product catalog filter categories."
+      "notes": "Common name too vague; could refer to Trachyphyllia, Wellsophyllia, Symphyllia, Goniastrea, or others."
+    },
+    {
+      "commonName": "Photosynthetic Plating Blue Sponge",
+      "scientificName": null,
+      "popularityScore": 0,
+      "wikipediaUrl": null,
+      "wikipediaPageviewsMonthly": 0,
+      "wikipediaArticleSizeBytes": null,
+      "sourceCoverageCount": 1,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/liveaquaria%C2%AE-ccgc-aquacultured-photosynthetic-plating-blue-sponge",
+      "secondarySourceUrl": "https://en.wikipedia.org/wiki/Coral",
+      "taxonFitConfidence": "low",
+      "notes": "Sponge (Porifera), not a coral. Excluded from coral catalog."
+    },
+    {
+      "commonName": "Tree Coral",
+      "scientificName": null,
+      "popularityScore": 0,
+      "wikipediaUrl": null,
+      "wikipediaPageviewsMonthly": 0,
+      "wikipediaArticleSizeBytes": null,
+      "sourceCoverageCount": 1,
+      "primarySourceUrl": "https://www.liveaquaria.com/products/tree-coral-assorted",
+      "secondarySourceUrl": "https://en.wikipedia.org/wiki/Coral",
+      "taxonFitConfidence": "low",
+      "notes": "Common name too vague without scientific name; cannot route to a species."
     }
   ]
 }
