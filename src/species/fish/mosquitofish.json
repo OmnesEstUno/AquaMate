@@ -1,0 +1,156 @@
+{
+  "id": "fw-fish-204",
+  "slug": "mosquitofish",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "freshwater",
+  "commonName": "Mosquitofish",
+  "scientificName": "Gambusia affinis",
+  "alsoKnownAs": [
+    "Western Mosquitofish"
+  ],
+  "category": "Livebearer",
+  "taxonomy": {
+    "family": "Poeciliidae",
+    "order": "Cyprinodontiformes"
+  },
+  "nativeRange": {
+    "regions": ["North America"],
+    "countries": ["United States", "Mexico"],
+    "habitat": "Shallow, heavily-vegetated marginal zones in still or slow-flowing freshwater and brackish systems; ponds, lakes, backwaters, quiet stream pools, ditches, and coastal drainages",
+    "biotope": "Lowland stream / pond margin",
+    "depthRangeM": { "min": 0, "max": 1 }
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 12, "max": 29 },
+    "pH": { "min": 6.0, "max": 8.0 },
+    "gH": { "min": 5, "max": 30 },
+    "kH": null,
+    "salinity": null
+  },
+  "adultSizeCm": { "min": 1.6, "max": 7.0 },
+  "lifespanYears": { "min": 1, "max": 3 },
+  "tank": {
+    "minVolumeLiters": 40,
+    "minLengthCm": 60,
+    "swimZone": "top",
+    "decorPreferences": [
+      "dense surface and marginal planting (hornwort, water sprite, floating plants) for fry refuge",
+      "open swimming lanes near the surface",
+      "fine-leaf plants to break lines of sight between males",
+      "minimal flow — still or very gentle filtration preferred"
+    ],
+    "minSandDepthCm": null
+  },
+  "careLevel": "beginner",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Unfussy opportunistic predator; accepts high-quality micro-pellets, flake, and frozen or live small invertebrates (brine shrimp, daphnia, mosquito larvae). Wild fish consume zooplankton, insect larvae (including mosquito larvae), small beetles, mayfly nymphs, and detritus. Despite the common name, mosquito larvae make up a relatively small proportion of natural diet. Will consume fry of own and other species."
+  },
+  "compatibility": {
+    "temperament": "aggressive",
+    "grouping": "shoaling",
+    "minGroupSize": 4,
+    "goodWith": [
+      "own species in a species-only setup with heavy planting",
+      "robust fast-moving surface fish of similar size in large, well-planted tanks"
+    ],
+    "avoidWith": [
+      "long-finned or slow-moving fish (notorious fin nipper)",
+      "small or juvenile fish (predation and harassment)",
+      "dwarf shrimp and invertebrates (eaten)",
+      "nano fish",
+      "peaceful community species",
+      "any species unable to defend against persistent fin-nipping"
+    ]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Gambusia_affinis.jpg/1200px-Gambusia_affinis.jpg",
+        "source": "Wikimedia Commons",
+        "sourceType": "wikimedia",
+        "license": "CC BY-SA 3.0",
+        "notes": "Female specimen showing typical body form and gravid spot. Clear image, good species ID value.",
+        "recommended": true
+      },
+      {
+        "url": "https://www.fishbase.se/images/species/Gaaff_u0.jpg",
+        "source": "FishBase",
+        "sourceType": "fishbase",
+        "license": null,
+        "notes": "FishBase species image; confirm license before use.",
+        "recommended": false
+      }
+    ]
+  },
+  "summary": "Tiny but ferocious livebearer from the southern US and Mexico, introduced worldwide for malaria biocontrol. Listed by the IUCN as one of the 100 World's Worst Invasive Alien Species. Aggressive, fin-nippy, and coldwater-tolerant; rarely kept as a hobby fish despite occasional sale.",
+  "careNotes": "Mosquitofish are seldom recommended as aquarium fish: they are aggressive, relentless fin-nippers, and will consume the fry of other species. A species-only or same-species setup with dense planting is strongly advised. Males (up to 4 cm) are notably smaller than females (up to 7 cm); keep multiple females per male to distribute harassment. The species tolerates a remarkably wide temperature range (12–29 °C), making it one of the most cold-hardy livebearers available, and can briefly tolerate near-freezing temperatures. It also tolerates brackish and low-oxygen conditions. Filtration flow should be gentle — the fish naturally inhabit still or slow water. Despite the name, mosquito larvae form only a minor part of the natural diet.\n\nConservation note: Gambusia affinis is listed by the IUCN Invasive Species Specialist Group as one of the \"100 World's Worst Invasive Alien Species.\" It has been introduced to every inhabited continent for malaria and West Nile virus mosquito biocontrol and is now considered invasive outside its native US/Mexico range, causing severe harm to native fish, amphibian, and invertebrate populations through predation and competition. In the EU, import, breeding, transport, and release are prohibited. In Australia it is classified as a noxious pest. Aquarists must never release specimens into natural waterways. Easily confused with the Eastern Mosquitofish (Gambusia holbrooki), the Atlantic-slope sister species; G. affinis is native west of the Appalachians. Many commercially sold \"mosquitofish\" may be G. holbrooki.",
+  "breedingNotes": "Prolific livebearer — breeding is described as nearly impossible to prevent when mixed sexes are present. Gestation is 16–28 days (shorter at warmer temperatures), yielding 10–100 fry per brood; a single female can produce several hundred fry per year. No parental care is given; adults will readily consume their own offspring. Dense floating and fine-leaf planting substantially improves fry survival. Males mature in 43–62 days; females in as little as 21–28 days when born early in the season. Males possess a gonopodium for internal fertilisation. Females can store sperm and produce multiple broods from a single mating.",
+  "sources": {
+    "primary": {
+      "name": "SeriouslyFish — Gambusia affinis",
+      "url": "https://www.seriouslyfish.com/species/gambusia-affinis/",
+      "accessedDate": "2026-06-08",
+      "notes": "Primary husbandry source. Provided adult size (male 4 cm, female 7.5 cm), temperature 18–27°C, pH 6.0–8.0, hardness 5–30°H, minimum tank 30×20×20 cm (~12.5 L for a pair), diet, temperament, and breeding notes. Noted highly aggressive, notorious fin nipper, unsuitable for community tanks."
+    },
+    "additional": [
+      {
+        "name": "FishBase — Gambusia affinis",
+        "url": "https://www.fishbase.se/summary/Gambusia-affinis.html",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked adult size (male 5.1 cm TL, female 7.0 cm TL), temperature range (subtropical, 12–29°C), pH 6.0–8.0, native range (Mississippi basin, Indiana/Illinois south to Gulf of Mexico and NE Mexico), taxonomy (Poeciliidae, Cyprinodontiformes), habitat (standing to slow-flowing vegetated ponds and backwaters), and maximum reported age (3 years). FishBase male max of 5.1 cm used over SeriouslyFish 4 cm for adultSizeCm.min."
+      },
+      {
+        "name": "Wikipedia — Gambusia affinis",
+        "url": "https://en.wikipedia.org/wiki/Gambusia_affinis",
+        "accessedDate": "2026-06-08",
+        "notes": "Confirmed IUCN '100 World's Worst Invasive Alien Species' listing, EU prohibition on import/breeding/transport/release, Australia noxious-pest status, temperature extremes (survives up to 42°C briefly, stops growing below 10°C), gestation 16–28 days, male maturity 43–62 days, female 21–28 days, fry count ~60 per brood, wild lifespan under 1 year typical with captive max ~3 years. Diet: zooplankton, beetles, mayflies, caddisflies, invertebrates."
+      },
+      {
+        "name": "IUCN Global Invasive Species Database — Gambusia affinis",
+        "url": "https://www.iucngisd.org/gisd/species.php?sc=60",
+        "accessedDate": "2026-06-08",
+        "notes": "Confirmed listing among 100 World's Worst Invasive Alien Species; global introduction history for malaria biocontrol; documented impacts on native fish, amphibians, and invertebrates."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "easy",
+    "breedingNotes": "Virtually impossible to prevent when both sexes are present. Gestation 16–28 days; 10–100 fry per brood; no parental care. Dense planting required for fry survival as adults cannibalise freely. Females store sperm for multiple broods from one mating.",
+    "conspecificAggression": "high",
+    "finNippy": true,
+    "reefSafe": null,
+    "escapeRisk": "moderate",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": true,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": true
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": null
+}

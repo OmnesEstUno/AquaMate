@@ -1,0 +1,145 @@
+{
+  "id": "fw-fish-203",
+  "slug": "moonlight-gourami",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "freshwater",
+  "commonName": "Moonlight Gourami",
+  "scientificName": "Trichopodus microlepis",
+  "alsoKnownAs": [
+    "Moonbeam Gourami"
+  ],
+  "category": "Gourami",
+  "taxonomy": {
+    "family": "Osphronemidae",
+    "order": "Anabantiformes"
+  },
+  "nativeRange": {
+    "regions": ["Southeast Asia"],
+    "countries": ["Thailand", "Cambodia", "Vietnam"],
+    "habitat": "Slow-moving or still waters including swamps, marshes, floodplains, and densely vegetated lowland rivers and ponds; typically found near the surface among floating and emergent vegetation",
+    "biotope": "Floodplain",
+    "depthRangeM": { "min": 0, "max": 2 }
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 24, "max": 30 },
+    "pH": { "min": 6.0, "max": 7.5 },
+    "gH": { "min": 2, "max": 18 },
+    "kH": { "min": 1, "max": 8 },
+    "salinity": null
+  },
+  "adultSizeCm": { "min": 12.0, "max": 15.0 },
+  "lifespanYears": { "min": 4, "max": 6 },
+  "tank": {
+    "minVolumeLiters": 150,
+    "minLengthCm": 100,
+    "swimZone": "top",
+    "decorPreferences": [
+      "floating plants (water lettuce, Amazon frogbit) for surface cover and bubble-nest anchoring",
+      "dense background planting (vallisneria, water wisteria, tall Hygrophila)",
+      "driftwood and leaf litter for tannins and hiding spots",
+      "open midwater swimming space",
+      "subdued lighting or floating cover to reduce skittishness"
+    ],
+    "minSandDepthCm": null
+  },
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Accepts a wide range of foods. Offer high-quality flake or pellet as a staple alongside regular frozen or live foods: bloodworms, brine shrimp, daphnia, and mosquito larvae. Will also graze on soft aquatic plants and algae. Feed small amounts 1–2 times daily; variety improves colouration and breeding condition."
+  },
+  "compatibility": {
+    "temperament": "semi-aggressive",
+    "grouping": "pair",
+    "minGroupSize": 1,
+    "goodWith": [
+      "corydoras catfish",
+      "bristlenose and other peaceful plecos",
+      "mid-sized tetras (black skirt, bleeding heart)",
+      "rainbowfish",
+      "peaceful barbs (cherry barb, gold barb)",
+      "loaches (kuhli loach, hillstream loach)",
+      "peaceful cichlids of similar size",
+      "larger rasboras"
+    ],
+    "avoidWith": [
+      "other male Moonlight Gouramis (territorial fighting)",
+      "other large gourami species (inter-species aggression)",
+      "nippy barbs (tiger barb) — will nip the trailing ventral filaments",
+      "small nano fish that may be bullied or eaten",
+      "very aggressive cichlids"
+    ]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A large, silver-bodied labyrinth fish from Southeast Asia reaching ~15 cm. Males develop a striking orange-red ventral filament and build bubble nests among floating vegetation. Calm but can be semi-aggressive toward conspecifics; best kept as a single male or a proven pair in a well-planted tank.",
+  "careNotes": "The Moonlight Gourami (formerly Trichogaster microlepis) is one of the larger gourami species, with adults reaching 12–15 cm. Its uniform silver-white colouration, which appears to glow under aquarium lighting, gives it its common name. Males are distinguished by orange-red ventral (pelvic) filaments; females’ filaments are colourless or pale yellow. A tank of at least 150 L with a minimum 100 cm footprint is recommended to give adults adequate swimming space and territorial buffer. As a labyrinth fish, it breathes atmospheric air at the surface — ensure the gap between the water surface and the lid is warm and humid to prevent chilling the labyrinth organ; avoid cold draughts. Floating plants are strongly recommended both to anchor bubble nests during breeding and to reduce the fish’s natural skittishness in open conditions. Males can be aggressive toward other males and toward other large gourami species; keeping a single male or a single true pair is advisable in most community setups. Maintain warm, slightly soft to moderately hard, slightly acidic to neutral water; the species is less tolerant of cool temperatures than some other gouramis. Formerly placed in the genus Trichogaster — both names appear widely in hobby literature.",
+  "breedingNotes": "A bubble-nest builder. Condition a pair with live and frozen foods for 1–2 weeks before introducing them to a dedicated breeding tank (80–120 L minimum) with 25–30 cm water depth, floating plants, and very gentle filtration (sponge filter). The male constructs a substantial bubble nest under floating vegetation, then courts the female with lateral displays. After an embrace-style spawning, the male guards and tends the nest aggressively; the female should be removed to prevent injury. Eggs hatch in 24–48 hours and fry become free-swimming in 3–4 days. Feed fry infusoria or commercial fry food initially, transitioning to micro-worms and baby brine shrimp as they grow. Breeding difficulty is moderate due to the need for a separate setup and the specific water and decor conditions required.",
+  "sources": {
+    "primary": {
+      "name": "SeriouslyFish — Trichopodus microlepis",
+      "url": "https://www.seriouslyfish.com/species/trichopodus-microlepis/",
+      "accessedDate": "2026-06-08",
+      "notes": "Primary source. Provided adult size (to 15 cm), temperature range (24–30°C), pH (6.0–7.5), hardness (2–18°H), native range (Thailand, Cambodia, Vietnam), habitat (floodplains, swamps, still vegetated waters), diet, breeding behaviour (bubble-nester, embrace spawning, paternal nest guarding), taxonomy (Osphronemidae, Anabantiformes), and synonym Trichogaster microlepis."
+    },
+    "additional": [
+      {
+        "name": "FishBase — Trichopodus microlepis",
+        "url": "https://www.fishbase.se/summary/Trichopodus-microlepis.html",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked adult size (to 15 cm TL), temperature (22–28°C reported; wider tolerance), native range (Mekong and Chao Phraya basins, Thailand, Cambodia, Vietnam), taxonomy, and labyrinth organ confirmation. pH and hardness parameters aligned with SeriouslyFish. FishBase upper temperature 28°C; SeriouslyFish cites 30°C for breeding condition — used 30°C as max per trade consensus."
+      },
+      {
+        "name": "Aquarium Co-Op — Gourami Care Guide",
+        "url": "https://www.aquariumcoop.com/blogs/aquarium/gourami-care-guide",
+        "accessedDate": "2026-06-08",
+        "notes": "Trade-facing care guidance used to inform tank size recommendations (minimum 30 gallons / ~115 L for larger gouramis), diet (accepts flake, pellets, frozen foods), compatibility notes (semi-aggressive toward own species; avoid fin-nippers), and labyrinth-organ surface-breathing note. Tank minimum rounded up to 150 L for a species reaching 15 cm per playbook guidance."
+      },
+      {
+        "name": "Practical Fishkeeping — Moonlight Gourami profile",
+        "url": "https://www.practicalfishkeeping.co.uk/fish-of-the-month/moonlight-gourami/",
+        "accessedDate": "2026-06-08",
+        "notes": "Supplementary source for sexual dimorphism detail (male orange-red ventral filaments vs. female pale/colourless filaments), skittishness in open tanks, floating-plant recommendation for stress reduction, and bubble-nest breeding notes including male aggression toward female post-spawning and recommendation to remove female."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "moderate",
+    "breedingNotes": "Bubble-nest builder requiring a separate breeding tank with floating plants, shallow water (~25–30 cm), and minimal flow. Male guards nest; female must be removed after spawning. Fry need infusoria or commercial fry food initially.",
+    "conspecificAggression": "moderate",
+    "finNippy": false,
+    "reefSafe": null,
+    "escapeRisk": "moderate",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": null
+}
