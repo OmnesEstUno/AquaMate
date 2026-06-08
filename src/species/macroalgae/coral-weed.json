@@ -1,0 +1,119 @@
+{
+  "id": "sw-algae-031",
+  "slug": "coral-weed",
+  "kind": "flora",
+  "taxon": "macroalgae",
+  "waterType": "saltwater",
+  "commonName": "Coral Weed",
+  "scientificName": "Corallina officinalis",
+  "alsoKnownAs": [],
+  "category": "Articulated Coralline Algae",
+
+  "taxonomy": {
+    "family": "Corallinaceae",
+    "order": "Corallinales"
+  },
+
+  "nativeRange": {
+    "regions": ["North Atlantic", "North Pacific", "Southern Hemisphere"],
+    "countries": ["Norway", "Morocco", "Greenland", "Argentina", "Japan", "China", "Australia", "New Zealand", "United Kingdom", "United States"],
+    "habitat": "Rocky shores in the lower and mid-littoral zones; tide pool rims, shallow crevices, and sub-tidal rocky substrates to ~33 m depth",
+    "biotope": "Tide Pool",
+    "depthRangeM": { "min": 0, "max": 33 }
+  },
+
+  "waterParameters": {
+    "temperatureC": { "min": 22, "max": 26 },
+    "pH":           { "min": 8.1, "max": 8.4 },
+    "gH":           null,
+    "kH":           { "min": 8, "max": 12 },
+    "salinity":     { "min": 1.024, "max": 1.026 }
+  },
+
+  "adultSizeCm": { "min": 5, "max": 12 },
+  "lifespanYears": null,
+
+  "tank": {
+    "minVolumeLiters": 40,
+    "minLengthCm": null,
+    "swimZone": null,
+    "decorPreferences": ["live rock", "rocky substrate", "solid anchor surface"],
+    "minSandDepthCm": null
+  },
+
+  "careLevel": "intermediate",
+
+  "diet": null,
+
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["reef fish", "snails", "hermit crabs", "shrimp", "SPS corals", "LPS corals"],
+    "avoidWith": ["sea urchins (may graze heavily on calcareous algae)", "aggressive herbivores"]
+  },
+
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": [
+      {
+        "url": "https://mosaicmacros.com/cdn/shop/files/IMG-9484.jpg",
+        "source": "Mosaic Macros",
+        "sourceType": "research-site",
+        "license": "All rights reserved",
+        "notes": "Product image from Mosaic Macros listing for Coral Weed (Corallina officinalis)",
+        "recommended": true
+      }
+    ]
+  },
+
+  "summary": "Corallina officinalis is an articulated (upright, jointed) calcareous red alga that forms attractive pink-purple tufts in reef displays. It requires stable calcium and magnesium levels for its calcified skeleton, distinguishing it from encrusting coralline crusts (Hydrolithon, Lithothamnion).",
+
+  "careNotes": "Coral Weed is an articulated coralline alga — it grows as upright, jointed, fern-like tufts reaching up to ~12 cm, distinct from encrusting coralline algae (sheet-form genera like Hydrolithon and Lithothamnion) that coat rock surfaces. Both growth forms belong to family Corallinaceae (order Corallinales, division Rhodophyta), but Corallina officinalis is an articulated (geniculate) species with a jointed, pinnately-branching calcareous thallus.\n\nCalcium and magnesium are essential for skeletal calcification; generally advised to maintain Ca 400–440 ppm and Mg 1,250–1,400 ppm. Alkalinity around 8–12 dKH supports carbonate availability. Phosphate and nitrate should be kept low (phosphate < 0.05 ppm, nitrate < 5 ppm) as elevated nutrients have been reported to inhibit coralline growth.\n\nLighting should be moderate to high; high-intensity reef lighting tends to support robust growth. Growth rate is slow, which makes it manageable in a display tank. Propagation is typically by fragmentation — small pieces that detach and settle on rock can establish new colonies. Reproductive spores also contribute to colonisation in mature reef systems.\n\nMosaic Macros is the only specialty aquarium hobby source currently offering this species as a cultured specimen. Care parameters are extrapolated from well-documented coralline algae husbandry practices across the family. Regular water changes help replenish calcium, carbonates, and trace elements for sustained growth.",
+
+  "breedingNotes": "Propagation in captivity is primarily by fragmentation; detached thallus segments can attach to rock and grow new colonies. Sexual reproduction via gametophyte-sporophyte alternation also occurs but is not commonly observed in closed aquarium systems.",
+
+  "sources": {
+    "primary": {
+      "name": "Mosaic Macros",
+      "url": "https://mosaicmacros.com/products/coral-weed-algae-corallina-officinalis",
+      "accessedDate": "2026-06-08",
+      "notes": "Primary trade source; confirmed species identity (Corallina officinalis), growth form, and availability as aquarium specimen. Limited husbandry details on product page."
+    },
+    "additional": [
+      {
+        "name": "Wikipedia — Corallina officinalis",
+        "url": "https://en.wikipedia.org/wiki/Corallina_officinalis",
+        "accessedDate": "2026-06-08",
+        "notes": "Confirmed taxonomy (Corallinaceae, Corallinales), articulated growth form, native distribution (North Atlantic, North Pacific, southern hemisphere), depth range 0–33 m, and adult size up to 120 mm. Cross-checked size and native range."
+      },
+      {
+        "name": "AlgaeBarn — What are Coralline Algae?",
+        "url": "https://www.algaebarn.com/blog/beginners/what-are-coralline-algae/",
+        "accessedDate": "2026-06-08",
+        "notes": "Secondary source confirming coralline algae water parameters: pH 8.2–8.3, Ca 415–425 ppm, Mg ~1,250 ppm, alkalinity ~10 dKH; confirmed articulated vs encrusting distinction; confirmed slow growth rate and fragmentation propagation."
+      }
+    ]
+  },
+
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": {
+    "lighting":       "high",
+    "growthRate":     "slow",
+    "form":           "calcareous",
+    "placement":      "display",
+    "nutrientUptake": "low",
+    "propagation":    ["fragmentation", "gametophyte-sporophyte alternation"]
+  },
+
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
+}

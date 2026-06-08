@@ -1,0 +1,89 @@
+{
+  "id": "sw-algae-026",
+  "slug": "cactus-halimeda",
+  "kind": "flora",
+  "taxon": "macroalgae",
+  "waterType": "saltwater",
+  "commonName": "Cactus Halimeda",
+  "scientificName": "Halimeda monile",
+  "alsoKnownAs": [],
+  "category": "Calcareous Macroalgae",
+  "taxonomy": {
+    "family": "Halimedaceae",
+    "order": "Bryopsidales"
+  },
+  "nativeRange": {
+    "regions": ["Indo-Pacific", "Caribbean", "Tropical Atlantic"],
+    "countries": [],
+    "habitat": "Tropical reef environments including lagoons, backreefs, and fore-reef slopes; typically anchored in sandy or rubble substrates with holdfast. Found throughout the photic zone in warm tropical seas.",
+    "biotope": "Reef",
+    "depthRangeM": { "min": 1, "max": 30 }
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 24, "max": 27 },
+    "pH": { "min": 8.1, "max": 8.3 },
+    "gH": null,
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.023, "max": 1.026 }
+  },
+  "adultSizeCm": { "min": 2.5, "max": 15 },
+  "lifespanYears": null,
+  "tank": {
+    "minVolumeLiters": 40,
+    "minLengthCm": null,
+    "swimZone": null,
+    "decorPreferences": ["rockwork anchor point or sandy substrate for holdfast", "stable placement away from strong direct flow", "open display area with strong overhead lighting"],
+    "minSandDepthCm": 5
+  },
+  "careLevel": "advanced",
+  "diet": null,
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["peaceful reef fish", "snails", "hermit crabs", "shrimp", "corals"],
+    "avoidWith": ["large herbivorous fish such as tangs that may graze heavily", "urchins that may dislodge the holdfast"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A calcified segmented green macroalgae with stacked disc-like segments resembling cactus pads. Generally considered unpalatable to most reef fish; requires stable calcium and magnesium to maintain its CaCO3 skeleton.",
+  "careNotes": "Halimeda monile is a heavily calcified green macroalgae in the family Halimedaceae, belonging to the order Bryopsidales. Its distinctive stacked disc-like (moniliform) segments give it a cactus-like appearance, distinguishing it from the more sprawling H. opuntia or the forked H. incrassata. The calcified thallus comprises roughly 60–80% aragonite, making stable calcium and magnesium levels critical for healthy growth.\n\nCalcium consumption is a notable husbandry consideration: actively growing Halimeda colonies sequester significant calcium carbonate, and larger colonies have been documented depleting tank calcium levels noticeably over time. Keepers with established colonies generally find that supplemental calcium dosing (two-part, calcium reactor, or kalkwasser) is beneficial, especially as colonies mature. Maintaining calcium in the 400–450 ppm range and magnesium above 1300 ppm is commonly advised. Alkalinity (kH 8–12 dKH) should be kept stable alongside calcium, as the two are interlinked.\n\nLighting should be strong — generally advised to replicate the high-intensity light of shallow tropical reef zones. Specimens tend to grow slowly due to the energetic cost of CaCO3 deposition; visible segment additions may occur over weeks rather than days. Upon arrival, specimens commonly appear white or pale as chloroplasts retreat into tissue during shipping darkness; coloration typically returns within hours of light exposure.\n\nThis species is generally considered unpalatable to most marine fish and invertebrates due to its calcareous structure. Propagation in aquariums is typically by fragmentation, though fragments may take time to establish a new holdfast and resume growth.\n\nCactus Halimeda is available exclusively through Mosaic Macros at the time of research; no AlgaeBarn or Top Shelf Aquatics listing was found for this specific species. AlgaeBase was inaccessible (CAPTCHA) during research; taxonomy is sourced from Wikipedia's Halimeda article (family Halimedaceae, order Bryopsidales, class Ulvophyceae, division Chlorophyta) which is consistent with published literature. Water parameters reflect standard reef chemistry recommendations for calcareous green macroalgae.",
+  "breedingNotes": null,
+  "sources": {
+    "primary": {
+      "name": "Mosaic Macros",
+      "url": "https://mosaicmacros.com/products/cactus-halimeda-halimeda-monile",
+      "accessedDate": "2026-06-08",
+      "notes": "Sole hobby trade source found for this species. Confirmed scientific name Halimeda monile. Product description notes heavy calcification, substrate growth habit, and general unpalatability to fish. Size grades 1–2\" small, 3–4\" medium, 5\"+ large."
+    },
+    "additional": [
+      {
+        "name": "Wikipedia — Halimeda",
+        "url": "https://en.wikipedia.org/wiki/Halimeda",
+        "accessedDate": "2026-06-08",
+        "notes": "Taxonomy verification: family Halimedaceae, order Bryopsidales, class Ulvophyceae. Distribution: tropical globally, lagoons and backreefs. CaCO3 production data for genus (H. opuntia up to 54.37 g CaCO3 m⁻¹ yr⁻¹). AlgaeBase was inaccessible (CAPTCHA blocks) — Wikipedia used as taxonomy fallback per playbook."
+      }
+    ]
+  },
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": {
+    "lighting": "high",
+    "growthRate": "slow",
+    "form": "calcareous",
+    "placement": "display",
+    "nutrientUptake": "low",
+    "propagation": ["fragmentation"]
+  },
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
+}

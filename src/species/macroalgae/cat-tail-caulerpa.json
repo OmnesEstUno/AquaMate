@@ -1,0 +1,113 @@
+{
+  "id": "sw-algae-028",
+  "slug": "cat-tail-caulerpa",
+  "kind": "flora",
+  "taxon": "macroalgae",
+  "waterType": "saltwater",
+  "commonName": "Cat Tail Caulerpa",
+  "scientificName": "Caulerpa lanuginosa",
+  "alsoKnownAs": [],
+  "category": "Macroalgae",
+
+  "taxonomy": {
+    "family": "Caulerpaceae",
+    "order": "Bryopsidales"
+  },
+
+  "nativeRange": {
+    "regions": ["Indo-Pacific", "Caribbean", "Atlantic"],
+    "countries": [],
+    "habitat": "Shallow tropical and subtropical coastal marine environments; rocky substrate, reef flats, and sandy areas in the photic zone",
+    "biotope": "Marine benthic; anchors via rhizoids into rock, rubble, or sand substrate",
+    "depthRangeM": { "min": 0, "max": 30 }
+  },
+
+  "waterParameters": {
+    "temperatureC": { "min": 22.0, "max": 26.0 },
+    "pH":           { "min": 8.1, "max": 8.4 },
+    "gH":           null,
+    "kH":           { "min": 8, "max": 12 },
+    "salinity":     { "min": 1.023, "max": 1.025 }
+  },
+
+  "adultSizeCm": { "min": 5, "max": 20 },
+  "lifespanYears": null,
+
+  "tank": {
+    "minVolumeLiters": 40,
+    "minLengthCm": null,
+    "swimZone": null,
+    "decorPreferences": ["live rock for holdfast anchoring", "sandbed or rubble substrate"],
+    "minSandDepthCm": null
+  },
+
+  "careLevel": "beginner",
+
+  "diet": null,
+
+  "compatibility": {
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["reef fish", "most corals (with distance)", "invertebrates"],
+    "avoidWith": ["sensitive SPS corals (direct contact)", "herbivorous fish (tangs, rabbitfish, sea urchins)", "tanks with no photoperiod control"]
+  },
+
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": [
+      {
+        "url": "https://mosaicmacros.com/cdn/shop/files/IMG-2393.jpg",
+        "source": "Mosaic Macros",
+        "sourceType": "research-site",
+        "license": "All rights reserved",
+        "notes": "Mosaic Macros product image — sole hobby trade source for this species. Shows upright fuzzy cylindrical blade form.",
+        "recommended": true
+      }
+    ]
+  },
+
+  "summary": "A rare specialty Caulerpa with upright, fuzzy, cylindrical fronds resembling cat tails. Slower-growing than most Caulerpa relatives; suited for display tanks. Shares genus-level allelopathy and crash risk.",
+
+  "careNotes": "Cat Tail Caulerpa (Caulerpa lanuginosa) is a siphonous green macroalgae distinguished by its upright, fuzzy, cylindrical blades — a distinctly textured form that sets it apart from the flat blades of C. prolifera or the grape-cluster uprights of C. racemosa. It is considered rarer in the hobby than most other Caulerpa, and Mosaic Macros is currently the primary (and likely sole) hobby trade source.\n\nGROWTH RATE: Unlike most Caulerpa species commonly described as fast-growing, Mosaic Macros explicitly notes that C. lanuginosa is 'fairly slow growing.' This has practical implications: nutrient-export capacity is lower than fast-growing relatives; the colony should not be harvested as aggressively; and establishing a new cutting may take longer than with C. prolifera or C. racemosa.\n\nALLELOPATHY: As with all Caulerpa, this species is considered capable of releasing secondary metabolites — including caulerpin and caulerpenyne — into the water column. These compounds have been documented to inhibit coral growth and cause stress in sensitive invertebrates. Physical separation from SPS corals is generally advisable; activated carbon use in the system is commonly recommended as a precaution.\n\nGOING SEXUAL / REPRODUCTIVE CRASH: Caulerpa species can undergo holocarpy — a mass reproductive event in which the entire organism converts its cytoplasm to gametes, effectively dying and releasing a large pulse of organic matter into the tank. Triggers include sharp nutrient drops (running nitrate/phosphate to near zero), disrupted photoperiod, or rapid temperature swings. Mitigation strategies include: maintaining a continuous 24-hour lighting schedule in refugium settings; harvesting regularly to keep the colony in active vegetative growth; keeping nutrients at stable low-to-moderate levels (not zero); and removing any specimen immediately upon detecting reproductive structures (white or translucent fronds, milky water discharge).\n\nINVASIVE CONCERN: All Caulerpa species are considered potentially invasive in non-native marine environments. Captive specimens must never be released into natural waterways. Sale is banned in California; Mosaic Macros cannot ship to that state.\n\nPOST-SHIPMENT APPEARANCE: Freshly arrived specimens commonly appear white or translucent due to chloroplast displacement during transit darkness. This is normal and typically reverses within hours of light exposure.\n\nCROSS-REFERENCE: See also caulerpa-prolifera (sw-algae-004, blade-form), sea-grapes (sw-algae-016, C. racemosa, grape-cluster form), and cactus-caulerpa (sw-algae-025, C. cupressoides, cactus-branch form) for closely related Caulerpa siblings sharing these allelopathy, crash, and invasive caveats.",
+
+  "breedingNotes": "Propagates via fragmentation and vegetative tip growth along the stolon, consistent with the Caulerpa genus. Due to its slow growth rate relative to other Caulerpa, re-establishment of cuttings may take longer than keepers familiar with faster relatives would expect. Sexual reproduction (holocarpy) is a destructive stress-triggered event and not a managed propagation method; see careNotes for prevention strategies.",
+
+  "sources": {
+    "primary": {
+      "name": "Mosaic Macros",
+      "url": "https://mosaicmacros.com/products/cat-tail-caulerpa-caulerpa-sp",
+      "accessedDate": "2026-06-08",
+      "notes": "Sole hobby trade source identified for this species. Confirms scientific name Caulerpa lanuginosa, fuzzy cylindrical blade morphology, slow growth rate relative to other Caulerpa, invasive/California-ban warning, and standard Caulerpa post-shipment appearance note."
+    },
+    "additional": [
+      {
+        "name": "Caulerpa prolifera (sibling species, cross-reference)",
+        "url": "https://aquamate.me/species/macroalgae/caulerpa-prolifera",
+        "accessedDate": "2026-06-08",
+        "notes": "Sibling Caulerpa (sw-algae-004). Water parameters, allelopathy documentation, crash behavior, and invasive caveats cross-referenced from the researched prolifera entry. Family Caulerpaceae, Order Bryopsidales confirmed consistent across genus."
+      }
+    ]
+  },
+
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": {
+    "lighting":       "high",
+    "growthRate":     "slow",
+    "form":           "macroalgae",
+    "placement":      "display",
+    "nutrientUptake": "moderate",
+    "propagation":    ["fragmentation", "vegetative tip growth"]
+  },
+
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
+}

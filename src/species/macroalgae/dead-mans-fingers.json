@@ -1,0 +1,119 @@
+{
+  "id": "sw-algae-032",
+  "slug": "dead-mans-fingers",
+  "kind": "flora",
+  "taxon": "macroalgae",
+  "waterType": "saltwater",
+  "commonName": "Dead Man's Fingers",
+  "scientificName": "Codium fragile",
+  "alsoKnownAs": ["Green Sea Fingers", "Velvet Horns", "Oyster Thief"],
+  "category": "Macroalgae",
+
+  "taxonomy": {
+    "family": "Codiaceae",
+    "order": "Bryopsidales"
+  },
+
+  "nativeRange": {
+    "regions": ["Indo-Pacific", "Northeast Atlantic", "Mediterranean"],
+    "countries": ["Japan", "Netherlands", "United Kingdom", "Ireland", "France", "Spain", "Portugal", "Italy", "Greece", "New Zealand"],
+    "habitat": "Low intertidal zone and subtidal rocky reef; attaches to hard substrate. Introduced populations established in northeastern North America (invasive).",
+    "biotope": "Reef",
+    "depthRangeM": { "min": 0, "max": 30 }
+  },
+
+  "waterParameters": {
+    "temperatureC": { "min": 10, "max": 24 },
+    "pH": { "min": 8.1, "max": 8.3 },
+    "gH": null,
+    "kH": null,
+    "salinity": { "min": 1.020, "max": 1.026 }
+  },
+
+  "adultSizeCm": { "min": 10, "max": 45 },
+  "lifespanYears": null,
+
+  "tank": {
+    "minVolumeLiters": 40,
+    "minLengthCm": null,
+    "swimZone": null,
+    "decorPreferences": ["live rock", "hard substrate for holdfast attachment"],
+    "minSandDepthCm": null
+  },
+
+  "careLevel": "intermediate",
+
+  "diet": null,
+
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["reef fish", "snails", "hermit crabs", "shrimp", "corals"],
+    "avoidWith": ["herbivorous fish that may consume macroalgae (e.g. tangs, rabbitfish)", "sea urchins"]
+  },
+
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": [
+      {
+        "url": "https://mosaicmacros.com/cdn/shop/files/IMG-9499.jpg",
+        "source": "Mosaic Macros",
+        "sourceType": "research-site",
+        "license": "All rights reserved",
+        "notes": "Mosaic Macros product page image — the dispatch manifest image for this entry. May be a generic placeholder; verify before use.",
+        "recommended": true
+      }
+    ]
+  },
+
+  "summary": "Codium fragile (Dead Man's Fingers) is a spongy, dichotomously branching dark-green macroalgae known for its distinctive finger-like fronds. It generally prefers cooler reef temperatures (10–24°C) and tends to struggle above 24–25°C.",
+
+  "careNotes": "Dead Man's Fingers is a cool-water macroalgae that has been reported to show stress at typical reef temperatures above 24–25°C; aquarists keeping it in warm reef systems (26°C+) should monitor it closely. It grows as a siphonous green alga with a spongy texture — despite belonging to Bryopsidales it is NOT calcified (unlike Halimeda or Penicillus). It typically attaches via a holdfast to hard substrate and can be propagated by fragmentation.\n\nIMPORTANT — INVASIVE STATUS: Codium fragile subsp. fragile (and the closely related subsp. tomentosoides) is listed as invasive in the North Atlantic, where it was introduced from the Pacific (origin: Japan/NW Pacific). It has established along the eastern coasts of North America and parts of Europe, where it smothers shellfish beds and carries young oysters and mussels away — earning the trade name 'Oyster Thief.' Aquarists in Atlantic coastal regions should ensure no live material enters local waterways; never dispose of live specimens in coastal environments or drain systems connected to the sea.\n\nMosaic Macros is the primary trade source for this species in the aquarium hobby. The product page notes possible hitchhiker organisms (anemones, echinoderms, annelids, crustaceans) arriving with cuttings — inspect new specimens carefully before introduction to established systems.",
+
+  "breedingNotes": "In the wild, Codium fragile reproduces sexually via separate male and female plants producing gametes; no persistent gametophyte stage is reported. In aquarium settings, fragmentation is the practical propagation method — frond fragments can establish on hard substrate if given moderate flow and lighting.",
+
+  "sources": {
+    "primary": {
+      "name": "Mosaic Macros",
+      "url": "https://mosaicmacros.com/products/dead-man-s-fingers-codium-sp",
+      "accessedDate": "2026-06-08",
+      "notes": "Primary trade source. Product description confirms species identity and finger-like morphology; limited quantitative care parameters. Mosaic is the sole aquarium trade source identified for this entry."
+    },
+    "additional": [
+      {
+        "name": "Wikipedia — Codium fragile",
+        "url": "https://en.wikipedia.org/wiki/Codium_fragile",
+        "accessedDate": "2026-06-08",
+        "notes": "Taxonomic authority and ecological reference. Confirmed: Pacific origin, invasive in NE Atlantic (subsp. tomentosoides introduced to New York from Europe 1957), intertidal/subtidal rocky reef habitat, dichotomous branching, fronds to 40+ cm, 'oyster thief' common name. Used for native range, invasion history, morphology, and reproductive mode."
+      },
+      {
+        "name": "Seaweed.ie — Codium fragile",
+        "url": "https://www.seaweed.ie/descriptions/Codium_fragile.php",
+        "accessedDate": "2026-06-08",
+        "notes": "Secondary botanical reference. Confirmed: spongy dichotomously branched light-green velvety morphology, NE Atlantic distribution (Netherlands, Britain, Ireland, France, Spain, Azores, Mediterranean). Noted genetic research questioning subspecific invasive status in some Atlantic populations."
+      }
+    ]
+  },
+
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": {
+    "lighting": "medium",
+    "growthRate": "medium",
+    "form": "macroalgae",
+    "placement": "display",
+    "nutrientUptake": "moderate",
+    "propagation": ["fragmentation"]
+  },
+
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
+}

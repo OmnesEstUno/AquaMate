@@ -1,0 +1,113 @@
+{
+  "id": "sw-algae-022",
+  "slug": "bristletooth-comb",
+  "kind": "flora",
+  "taxon": "macroalgae",
+  "waterType": "saltwater",
+  "commonName": "Bristletooth Comb",
+  "scientificName": "Alsidium triquetrum",
+  "alsoKnownAs": [
+    "Red Bristle Comb",
+    "Bryothamnion triquetrum"
+  ],
+  "category": "Red Macroalgae",
+  "taxonomy": {
+    "family": "Rhodomelaceae",
+    "order": "Ceramiales"
+  },
+  "nativeRange": {
+    "regions": ["Caribbean", "Western Atlantic", "Eastern Atlantic"],
+    "countries": ["Barbados", "Martinique", "Curaçao", "Colombia", "Brazil", "Cape Verde"],
+    "habitat": "Shallow marine coastal waters; found on rocky substrates and reef areas in the photic zone",
+    "biotope": "Reef",
+    "depthRangeM": { "min": 0, "max": 30 }
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 22, "max": 28 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.023, "max": 1.026 }
+  },
+  "adultSizeCm": { "min": 5, "max": 15 },
+  "lifespanYears": null,
+  "tank": {
+    "minVolumeLiters": 40,
+    "minLengthCm": null,
+    "swimZone": null,
+    "decorPreferences": ["rockwork", "rubble", "plug attachment"],
+    "minSandDepthCm": null
+  },
+  "careLevel": "intermediate",
+  "diet": null,
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["reef fish", "corals", "invertebrates", "snails", "hermit crabs", "shrimp"],
+    "avoidWith": ["aggressive herbivores that may consume it"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": [
+      {
+        "url": "https://mosaicmacros.com/cdn/shop/files/IMG-2572.jpg",
+        "source": "Mosaic Macros",
+        "sourceType": "research-site",
+        "license": "All rights reserved",
+        "notes": "Product photo from Mosaic Macros listing for Red Bristle Comb Macroalgae (Alsidium triquetrum).",
+        "recommended": true
+      }
+    ]
+  },
+  "summary": "A decorative red macroalgae from the Caribbean with a distinctive branching form and serrated, bristle-like edges. Generally kept as a display specimen in established reef aquariums.",
+  "careNotes": "Alsidium triquetrum (synonym: Bryothamnion triquetrum) is a red macroalgae in family Rhodomelaceae, order Ceramiales. As of 2026 it is sold primarily through Mosaic Macros under the trade name 'Red Bristle Comb'; no AlgaeBarn or Top Shelf Aquatics listings were found, making Mosaic the sole documented hobby source. Specific aquarium care data is limited in the hobby literature — the following is extrapolated from family-level characteristics of Rhodomelaceae and general tropical reef macroalgae husbandry. Medium lighting is generally advised (comparable to other ornamental red macros in the family). Growth rate tends to be medium for Rhodomelaceae filamentous forms. It has been documented in Caribbean and tropical Atlantic waters (Barbados, Martinique, Curaçao, Colombia, Brazil, Cape Verde), so standard reef parameters (salinity SG 1.023–1.026, temperature 22–28°C, pH 8.1–8.4) are appropriate. Nutrient uptake is low relative to refugium-grade species such as Chaetomorpha — it is best suited as an ornamental display piece rather than a nutrient-export workhorse. Propagation is typically achieved by fragmentation. The species is generally considered reef-safe and compatible with typical reef invertebrates. Scientific literature (≥140 papers indexed on Google Scholar) documents it as a component of Caribbean shallow reef communities and as a subject of agar-production studies. Single-source trade data: cross-verification against a second hobby source was not possible; dataStatus remains 'researched' because taxonomy and family-level husbandry are well-established.",
+  "breedingNotes": null,
+  "sources": {
+    "primary": {
+      "name": "Mosaic Macros",
+      "url": "https://mosaicmacros.com/products/red-bristle-comb-macroalgae-alsidium-triquetrum",
+      "accessedDate": "2026-06-08",
+      "notes": "Sole hobby trade source identified. Confirms species identity as Alsidium triquetrum, describes branching red macroalgae with serrated edges, sold as 1–2\" cutting or 5\"+ cutting."
+    },
+    "additional": [
+      {
+        "name": "World Register of Marine Species (WoRMS)",
+        "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=654275",
+        "accessedDate": "2026-06-08",
+        "notes": "Confirmed accepted taxonomy: Family Rhodomelaceae, Order Ceramiales, Class Florideophyceae, Phylum Rhodophyta. Synonyms include Bryothamnion triquetrum (M.Howe, 1915) and Fucus triqueter S.G.Gmelin, 1768 (basionym)."
+      },
+      {
+        "name": "NCBI Taxonomy Browser",
+        "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?name=Alsidium+triquetrum",
+        "accessedDate": "2026-06-08",
+        "notes": "Confirmed Family Rhodomelaceae, Order Ceramiales. Homotypic synonym Bryothamnion triquetrum (S.G.Gmelin) M.Howe 1915 noted."
+      },
+      {
+        "name": "Google Scholar — distribution literature",
+        "url": "https://scholar.google.com/scholar?q=Bryothamnion+triquetrum+distribution+Caribbean+Atlantic",
+        "accessedDate": "2026-06-08",
+        "notes": "Multiple peer-reviewed papers confirm Caribbean and tropical Atlantic distribution (Barbados, Martinique, Curaçao, Colombia, Brazil, Cape Verde). Species studied for temperature responses and agar production."
+      }
+    ]
+  },
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": {
+    "lighting": "medium",
+    "growthRate": "medium",
+    "form": "macroalgae",
+    "placement": "display",
+    "nutrientUptake": "low",
+    "propagation": ["fragmentation"]
+  },
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
+}

@@ -1,0 +1,113 @@
+{
+  "id": "sw-algae-018",
+  "slug": "blue-scroll",
+  "kind": "flora",
+  "taxon": "macroalgae",
+  "waterType": "saltwater",
+  "commonName": "Blue Scroll",
+  "scientificName": "Padina sp.",
+  "alsoKnownAs": ["Blue Scroll Macroalgae", "Blue Scroll Algae"],
+  "category": "Macroalgae",
+
+  "taxonomy": {
+    "family": "Dictyotaceae",
+    "order": "Dictyotales"
+  },
+
+  "nativeRange": {
+    "regions": ["Indo-Pacific", "Tropical Atlantic", "Caribbean"],
+    "countries": [],
+    "habitat": "Shallow reef and rocky subtidal zones, intertidal to subtidal, attached to hard substrate or as epiphyte on larger seaweeds",
+    "biotope": "Reef",
+    "depthRangeM": { "min": 0, "max": 30 }
+  },
+
+  "waterParameters": {
+    "temperatureC": { "min": 24, "max": 26 },
+    "pH":           { "min": 8.1, "max": 8.4 },
+    "gH":           null,
+    "kH":           { "min": 8, "max": 12 },
+    "salinity":     { "min": 1.023, "max": 1.026 }
+  },
+
+  "adultSizeCm": { "min": 5, "max": 20 },
+  "lifespanYears": null,
+
+  "tank": {
+    "minVolumeLiters": 40,
+    "minLengthCm": null,
+    "swimZone": null,
+    "decorPreferences": ["live rock", "open display placement", "moderate flow areas"],
+    "minSandDepthCm": null
+  },
+
+  "careLevel": "intermediate",
+
+  "diet": null,
+
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["peaceful reef fish", "invertebrates", "corals"],
+    "avoidWith": ["herbivorous fish that graze heavily on macroalgae (e.g. tangs, rabbitfish in small tanks)"]
+  },
+
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": [
+      {
+        "url": "https://mosaicmacros.com/cdn/shop/files/IMG-9483.jpg",
+        "source": "Mosaic Macros",
+        "sourceType": "research-site",
+        "license": "All rights reserved",
+        "notes": "Product image from Mosaic Macros listing for Blue Scroll Algae (Padina sp.). Sole hobby-trade source for this specialty entry.",
+        "recommended": true
+      }
+    ]
+  },
+
+  "summary": "A specialty brown macroalga (family Dictyotaceae) forming thin, scrolling fan-shaped fronds with concentric banding that exhibit a blue iridescent shimmer under full-spectrum reef lighting. Lightly calcareous; suited to display reef tanks.",
+
+  "careNotes": "Blue Scroll (Padina sp.) is a specialty ornamental brown macroalga in the family Dictyotaceae, order Dictyotales — one of the very few calcareous members of the brown algae. Its thallus grows as a thin, fan- or scroll-shaped frond with characteristic concentric banding and marginal hair zones, typical of the Padina genus. The distinctive blue iridescent shimmer is a structural coloration effect visible under full-spectrum aquarium lighting; the alga tends to appear predominantly brown under lower or narrow-spectrum illumination. The species-level identification is not resolved from the trade listing (sold as Padina sp.); the Padina genus encompasses numerous tropical and subtropical marine species distributed widely across the Indo-Pacific and Atlantic. Standard reef water parameters are generally advised: temperature around 24–26°C, pH 8.1–8.4, alkalinity 8–12 dKH, and specific gravity 1.023–1.026. Medium lighting is recommended to elicit the characteristic blue shimmer; inadequate illumination tends to suppress the iridescence. Husbandry values for growth rate (medium) and nutrient uptake (low) are extrapolated from published Dictyotaceae family-level care standards, as species-specific captive data is limited in the broader hobby literature. Propagation in the aquarium is typically achieved by fragmentation of healthy frond sections. As a display specimen, placement on exposed rockwork in moderate flow is generally recommended. Note that Padina is lightly calcareous — it deposits a thin layer of calcium carbonate on its fronds, which may contribute minimally to alkalinity consumption in the tank. Source coverage caveat: this entry is based on a single specialty trade source (Mosaic Macros) plus family-level taxonomic extrapolation from Wikipedia and published Dictyotaceae ecology. Mosaic Macros is the sole known hobby-trade source for this specific form at the time of this entry.",
+
+  "breedingNotes": "Propagation in captivity is generally accomplished by fragmentation — breaking or cutting healthy frond sections and wedging them among rockwork or attaching to a plug. Sexual reproduction (alternating gametophyte–sporophyte lifecycle typical of brown algae) has not been documented in hobby aquaria for this species.",
+
+  "sources": {
+    "primary": {
+      "name": "Mosaic Macros",
+      "url": "https://mosaicmacros.com/products/blue-scroll-algae-padina-sp",
+      "accessedDate": "2026-06-08",
+      "notes": "Sole hobby-trade source for this specialty form. Product listing for 'Blue Scroll Algae' (Padina sp.). Provides identification, imagery, morphology description (blue shimmer under full-spectrum lighting, brown macroalga with scroll form), and general reef compatibility context."
+    },
+    "additional": [
+      {
+        "name": "Wikipedia — Padina (alga)",
+        "url": "https://en.wikipedia.org/wiki/Padina_(alga)",
+        "accessedDate": "2026-06-08",
+        "notes": "Used for taxonomic classification (Dictyotaceae / Dictyotales / Phaeophyceae), morphology confirmation (fan-shaped fronds, concentric banding, lightly calcareous), and native range (tropical to temperate, Indo-Pacific to Atlantic, intertidal to ~30 m typical photic zone). No aquarium husbandry parameters provided."
+      }
+    ]
+  },
+
+  "fish":        null,
+  "crustacean":  null,
+  "coral":       null,
+  "mollusc":     null,
+  "echinoderm":  null,
+  "other-invert": null,
+  "plant":       null,
+  "macroalgae": {
+    "lighting":       "medium",
+    "growthRate":     "medium",
+    "form":           "macroalgae",
+    "placement":      "display",
+    "nutrientUptake": "low",
+    "propagation":    ["fragmentation"]
+  },
+
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
+}
