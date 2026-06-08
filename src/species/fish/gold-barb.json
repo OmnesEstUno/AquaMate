@@ -5,82 +5,109 @@
   "taxon": "fish",
   "waterType": "freshwater",
   "commonName": "Gold Barb",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "scientificName": "Barbodes semifasciolatus",
+  "alsoKnownAs": ["Chinese Barb", "Green Barb", "Schubert's Barb", "Puntius semifasciolatus", "Puntius schuberti"],
   "category": "Barb",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Cyprinidae",
+    "order": "Cypriniformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
-    "depthRangeM": null
+    "regions": ["Southeast Asia", "East Asia"],
+    "countries": ["Vietnam", "China", "Taiwan", "Laos"],
+    "habitat": "Slower-flowing tributaries and standing water bodies such as swamps and irrigation channels with dense aquatic or riparian vegetation",
+    "biotope": "Subtropical lowland freshwater; often found near substrate in schools",
+    "depthRangeM": { "min": 0, "max": 5 }
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
-    "kH": null,
+    "temperatureC": { "min": 16, "max": 24 },
+    "pH": { "min": 6.0, "max": 8.0 },
+    "gH": { "min": 5, "max": 20 },
+    "kH": { "min": 3, "max": 12 },
     "salinity": null
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 5.0, "max": 7.5 },
+  "lifespanYears": { "min": 5, "max": 7 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 100,
+    "minLengthCm": 90,
+    "swimZone": "mid",
+    "decorPreferences": ["live plants", "floating plants", "driftwood", "dark substrate", "open swimming area"],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "beginner",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Readily accepts quality flake and pellet foods. Has been documented eating small live and frozen foods such as bloodworms, daphnia, and brine shrimp, as well as plant-based foods including algae wafers. Appreciates dietary variety."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "peaceful",
+    "grouping": "schooling",
+    "minGroupSize": 6,
+    "goodWith": ["danios", "tetras", "peaceful cyprinids", "corydoras", "loaches", "dwarf gouramis", "small rasboras"],
+    "avoidWith": ["aggressive species", "fin-nippers", "large predatory fish"]
   },
   "media": {
     "primaryImage": "gold_barb.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Gold Barb.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "A hardy, cool-tolerant schooling barb selectively bred for its golden coloration. Generally peaceful and easy to keep, making it well suited for community tanks and cooler subtropical setups.",
+  "careNotes": "The Gold Barb is the selectively-bred ornamental form of Barbodes semifasciolatus, first developed in the 1960s and commonly sold in the trade as 'Puntius schuberti' (not a valid scientific name — coined after Thomas Schubert who popularised the strain). The wild form has green-silver coloration with faint banding and is rarely seen in the hobby. An albino variant also exists.\n\nCool-water tolerance (down to around 16°C) makes this species compatible with goldfish-temperature tanks and temperate community setups; no heater is needed in most temperate homes. It tends to do best in the 18–24°C range.\n\nKeep in schools of 6 or more — smaller groups can lead to skittish behaviour and increased conspecific squabbling. Active mid-water swimmer; provide both open swimming space and planted areas for cover. Commercially-produced specimens have sometimes been noted to show reduced fin size or minor deformities associated with inbreeding, so source from reputable suppliers where possible.\n\nGenerally less nippy than Tiger Barbs, but faster or more boisterous than the very placid Cherry Barb. Tank footprint (at least 90 cm long) is more important than raw volume for this active swimmer.",
+  "breedingNotes": "Egg-scattering free spawner with no parental care. Breeding is generally considered moderate in difficulty. Conditioning with live/frozen foods and a slight temperature increase toward the upper end of the range (around 22–24°C) tend to trigger spawning. A separate breeding tank with a mesh or marbles base layer is often recommended to prevent egg predation by adults. Eggs typically hatch within 24–48 hours; fry become free-swimming within another day or so and can be started on infusoria or commercial liquid fry foods before progressing to baby brine shrimp.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "SeriouslyFish",
+      "url": "https://www.seriouslyfish.com/species/barbodes-semifasciolatus/",
+      "accessedDate": "2026-06-08",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Barbodes-semifasciolatus",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked adult size (7.6 cm max), temperature (18-24°C), pH (6.0-8.0), hardness (dH 5-19), native range, and depth range. Minor disagreement on temperature minimum (FishBase 18°C vs SeriouslyFish 16°C); averaged toward SeriouslyFish's lower value given known cool-water tolerance documented across multiple hobby sources."
+      },
+      {
+        "name": "Fishkeeping World",
+        "url": "https://www.fishkeepingworld.com/gold-barbs/",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked adult size (3 in / 7.6 cm), temperature (64-75°F = 17.8-23.9°C), pH (6.0-8.0), tank size (20 gal / 76L for 5-6 fish), lifespan (5-7 years), and temperament (peaceful). Tank volume slightly lower than SeriouslyFish footprint guidance; final minVolumeLiters set to 100L as cautious round number suitable for a school of 6+ active swimmers."
+      },
+      {
+        "name": "Aquarium Co-Op",
+        "url": "https://www.aquariumcoop.com/blogs/aquarium/top-10-barbs",
+        "accessedDate": "2026-06-08",
+        "notes": "Confirms adult size (3 in / 7.6 cm) and 29-gallon (110L) minimum for a school, consistent with more conservative tank sizing. Confirms omnivorous diet and schooling active behaviour."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
+    "breedingDifficulty": "moderate",
     "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
+    "conspecificAggression": "low",
+    "finNippy": false,
     "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
     "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -90,6 +117,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
 }

@@ -5,82 +5,124 @@
   "taxon": "fish",
   "waterType": "freshwater",
   "commonName": "Kuhli Loach",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "scientificName": "Pangio kuhlii",
+  "alsoKnownAs": ["Coolie Loach", "Khuli Loach", "Prickly Eye"],
   "category": "Loach",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Cobitidae",
+    "order": "Cypriniformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
+    "regions": ["Southeast Asia"],
+    "countries": ["Indonesia", "Malaysia", "Thailand", "Singapore"],
+    "habitat": "Hill streams, lowland forest canals, and peat swamp rivers with soft acidic water and leaf-litter substrate",
+    "biotope": "Blackwater",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
-    "kH": null,
+    "temperatureC": { "min": 23, "max": 28 },
+    "pH": { "min": 5.5, "max": 7.0 },
+    "gH": { "min": 0, "max": 5 },
+    "kH": { "min": 0, "max": 5 },
     "salinity": null
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 7.5, "max": 10 },
+  "lifespanYears": { "min": 7, "max": 14 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
-    "minSandDepthCm": null
+    "minVolumeLiters": 75,
+    "minLengthCm": 60,
+    "swimZone": "bottom",
+    "decorPreferences": [
+      "fine sand substrate for burrowing",
+      "PVC tubes or cave hides",
+      "dense plants (java moss, java fern)",
+      "driftwood and twisted roots",
+      "leaf litter (peat moss optional)"
+    ],
+    "minSandDepthCm": 3
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "beginner",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Sinking pellets, frozen or live bloodworms and blackworms, frozen daphnia, and small crustaceans; will also accept blanched vegetables. Tends to scavenge the substrate at night. Has been documented ignoring algae, plants, and snails."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "peaceful",
+    "grouping": "shoaling",
+    "minGroupSize": 4,
+    "goodWith": [
+      "Tetras",
+      "Rasboras",
+      "Danios",
+      "Corydoras",
+      "Gouramis (non-aggressive)",
+      "Guppies",
+      "Mollies",
+      "Cherry Shrimp",
+      "Other small peaceful community fish"
+    ],
+    "avoidWith": [
+      "Large aggressive cichlids",
+      "Tiger Barbs",
+      "Red Tail Sharks",
+      "Fin-nippers"
+    ]
   },
   "media": {
     "primaryImage": "kuhli_loach.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Kuhli Loach.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "Eel-like, nocturnal bottom-dweller from SE Asian blackwaters. Best kept in groups of 4+ with a tight lid, soft sand substrate, and plenty of hides. Hardy and generally beginner-friendly.",
+  "careNotes": "Kuhli loaches spend most of the day buried in substrate or tucked inside tubes and dense planting — they are often visible only at dusk or during nighttime feeding. A soft, fine sand substrate is strongly advised; coarse gravel can damage their barbels and scaleless underside. A tightly sealed lid is essential, as their eel-like shape allows them to exploit any gap (escape risk: high). Provide PVC tubes, bamboo, or similar narrow hides in addition to plants. They tend to be more active and less skittish when kept in groups of 4–6 or more conspecifics.\n\nDue to the near-absence of scales, they tend to be more susceptible to Ich and other skin conditions, and should not be treated with copper-based medications. Dose any medication at half the standard rate as a precaution.\n\nNote on similar species: Pangio anguillaris (Black Kuhli Loach) is a separate species frequently sold under the same 'Kuhli Loach' trade name; it is uniformly dark brown-black rather than banded. Both species have similar care requirements and can be kept together. P. oblonga is another commonly confused species.",
+  "breedingNotes": "Breeding in captivity has been reported but is considered difficult. Egg-scattering species; females can produce up to several hundred small bright green eggs among fine-leaved plants or java moss near the water surface. Parents have been known to consume eggs and fry if not separated. Eggs reportedly hatch within roughly 24–48 hours; fry are very small and require infusoria or commercial fry foods. A separate, densely planted breeding tank with slightly warmer, very soft acidic water is generally recommended.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "Aquarium Co-Op",
+      "url": "https://www.aquariumcoop.com/blogs/aquarium/kuhli-loach-care-guide",
+      "accessedDate": "2026-06-08",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "Fishkeeping World",
+        "url": "https://www.fishkeepingworld.com/kuhli-loach/",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked sizing, water parameters, temperament, lifespan, grouping, and breeding notes. SeriouslyFish (first secondary) returned 404; swapped to Fishkeeping World."
+      },
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Pangio-kuhlii.html",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked scientific name, family (Cobitidae), order (Cypriniformes), native distribution, max size (12 cm TL), and temperature/pH range. FishBase pH 5.5–6.5 is slightly narrower than the 5.5–7.0 aquarium-hobby consensus; used the broader range to reflect captive tolerance documented across sources."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
+    "breedingDifficulty": "difficult",
+    "breedingNotes": "Egg-scatterer; rarely bred in home aquaria. Requires soft acidic water, fine plants, and separate rearing tank. Fry are small and need targeted feeding.",
+    "conspecificAggression": "none",
+    "finNippy": false,
     "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
-    "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "escapeRisk": "high",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": true,
+    "juvenileColorPhase": false,
+    "copperSensitive": true,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -90,6 +132,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
+  "dataStatus": "researched",
   "lastReviewed": null
 }

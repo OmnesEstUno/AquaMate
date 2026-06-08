@@ -5,82 +5,109 @@
   "taxon": "fish",
   "waterType": "freshwater",
   "commonName": "Denison Barb",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "scientificName": "Sahyadria denisonii",
+  "alsoKnownAs": ["Roseline Shark", "Red Line Torpedo Barb", "Bleeding Eye Barb", "Miss Kerala", "Denisonii Barb", "Puntius denisonii"],
   "category": "Barb",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Cyprinidae",
+    "order": "Cypriniformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
+    "regions": ["South Asia", "Western Ghats"],
+    "countries": ["India"],
+    "habitat": "Fast-flowing, highly oxygenated hill streams and rivers with rocky pools, thick riparian vegetation, and pristine water quality. Found in Kerala and Karnataka states.",
+    "biotope": "Stream",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
-    "kH": null,
+    "temperatureC": { "min": 15, "max": 25 },
+    "pH": { "min": 6.5, "max": 7.8 },
+    "gH": { "min": 5, "max": 25 },
+    "kH": { "min": 4, "max": 15 },
     "salinity": null
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 10, "max": 15 },
+  "lifespanYears": { "min": 5, "max": 8 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 200,
+    "minLengthCm": 120,
+    "swimZone": "mid",
+    "decorPreferences": ["open swimming space", "sand or fine gravel substrate", "live plants (Anubias, Java Fern)", "driftwood", "rocks", "strong water flow", "high oxygenation"],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Tends to accept most high-quality dried foods (flakes, pellets) and benefits from regular offerings of frozen or live foods such as bloodworm, Daphnia, and brine shrimp. Blanched vegetables and spirulina-enriched foods support coloration. Sinking foods are often preferred."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "peaceful",
+    "grouping": "schooling",
+    "minGroupSize": 6,
+    "goodWith": ["rainbowfish", "large tetras", "danios", "other barbs", "kribensis cichlids", "rosy barbs", "apistogramma"],
+    "avoidWith": ["slow-moving or delicate-finned fish", "very small fish that may be outcompeted", "aggressive cichlids"]
   },
   "media": {
     "primaryImage": "denison_barb.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Denison Barb.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "A large, fast-moving schooling barb from India's Western Ghats known for its bold red and black lateral stripe. Generally considered intermediate care due to cool-water needs and IUCN Endangered status.",
+  "careNotes": "IUCN Endangered (EN) — this species has been heavily impacted by wild collection for the aquarium trade. Captive-bred stock from Indian and Thai commercial farms is increasingly available and is strongly preferred over wild-caught. The reclassification from Puntius denisonii to Sahyadria denisonii was published in 2012. Sometimes sold under multiple trade names including 'Roseline Shark' and 'Red Line Torpedo Barb' — these all refer to the same species.\n\nRequires excellent water quality; tends to be intolerant of organic waste accumulation. Weekly water changes of 30–50% are generally advised. A tightly sealed lid is recommended, as this species has been reported to jump. Strong filtration with high water flow (4–5× tank turnover) and good oxygenation reflect its native hill-stream habitat. Uprooting of plants has been documented — robust or rhizome-attached plants are better suited.",
+  "breedingNotes": "Breeding in home aquariums is considered very difficult and has rarely been achieved without hormone stimulation. Commercial farms in Thailand and India produce captive-bred stock via hormonal induction. Specific triggering conditions are not well-documented for hobbyist settings.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "SeriouslyFish",
+      "url": "https://www.seriouslyfish.com/species/sahyadria-denisonii/",
+      "accessedDate": "2026-06-08",
+      "notes": "Primary source used after Aquarium Co-Op returned 404. SeriouslyFish provided detailed taxonomic, water parameter, and husbandry data. Cross-checked temperature, pH, hardness, tank dimensions, and native range against FishKeepingWorld, FishBase, and AquariumSource."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Sahyadria-denisonii.html",
+        "accessedDate": "2026-06-08",
+        "notes": "Confirmed scientific name Sahyadria denisonii, max length 15 cm TL, temperature 15–25°C, pH 6.8–7.8, Cyprinidae/Cypriniformes, IUCN Endangered. Consistent with other sources."
+      },
+      {
+        "name": "Fishkeeping World",
+        "url": "https://www.fishkeepingworld.com/denison-barb/",
+        "accessedDate": "2026-06-08",
+        "notes": "Confirmed 15 cm adult size, 15–25°C, pH 6.6–7.8, 55 gal min tank, schooling group of 6, omnivore diet, peaceful temperament, lifespan up to 5 years. Used for lifespan lower bound and care level cross-check (rated 'easy' vs. 'intermediate' on other sources — averaged to intermediate)."
+      },
+      {
+        "name": "AquariumSource",
+        "url": "https://www.aquariumsource.com/denison-barb/",
+        "accessedDate": "2026-06-08",
+        "notes": "Confirmed 15 cm, gH 5–25 dGH (aligns with SeriouslyFish 90–447 ppm hardness), 16–25°C, pH 6.6–7.8, escape risk (reported jumping), lifespan up to 5 years. kH from web search aggregate (4–10); combined with user key data (5–15) to yield kH 4–15. Lifespan upper bound 8 years from web search aggregate (5–8 range)."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
+    "breedingDifficulty": "difficult",
+    "breedingNotes": "Rarely bred in captivity without hormone stimulation; commercial production relies on hormonal induction at farms in Thailand and India.",
+    "conspecificAggression": "low",
+    "finNippy": false,
     "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
+    "escapeRisk": "high",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
     "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -90,6 +117,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
 }

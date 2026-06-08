@@ -5,82 +5,117 @@
   "taxon": "fish",
   "waterType": "freshwater",
   "commonName": "Frontosa",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "scientificName": "Cyphotilapia frontosa",
+  "alsoKnownAs": ["Humphead Cichlid", "Frontosa Cichlid", "Cyphotilapia"],
   "category": "Cichlid",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Cichlidae",
+    "order": "Cichliformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
-    "depthRangeM": null
+    "regions": ["East Africa", "Great Rift Valley"],
+    "countries": ["Democratic Republic of Congo", "Tanzania", "Zambia", "Burundi"],
+    "habitat": "Rocky deepwater zones of Lake Tanganyika, typically found in the northern portion of the lake at depth over rocky/sandy substrates",
+    "biotope": "Rift lake deepwater",
+    "depthRangeM": { "min": 6, "max": 120 }
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
-    "kH": null,
+    "temperatureC": { "min": 23, "max": 27 },
+    "pH": { "min": 7.8, "max": 9.0 },
+    "gH": { "min": 10, "max": 25 },
+    "kH": { "min": 10, "max": 20 },
     "salinity": null
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 30, "max": 35 },
+  "lifespanYears": { "min": 15, "max": 25 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 500,
+    "minLengthCm": 180,
+    "swimZone": "bottom",
+    "decorPreferences": [
+      "Large cave formations or overhanging rockwork",
+      "Sandy substrate",
+      "Open swimming areas between rock structures",
+      "Dim or moderate lighting"
+    ],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Primarily accepts frozen and prepared meaty foods — krill, mysis shrimp, silversides, prawns, and earthworms are commonly recommended. High-quality sinking cichlid pellets are generally well-accepted. Feeder fish and mammalian/avian meat products are best avoided to reduce disease risk and inappropriate fat content."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "semi-aggressive",
+    "grouping": "shoaling",
+    "minGroupSize": 5,
+    "goodWith": [
+      "Other large Tanganyikan cichlids (Altolamprologus, Julidochromis, Lepidiolamprologus)",
+      "Larger Tropheus species (in sufficiently large tanks)",
+      "Synodontis catfish"
+    ],
+    "avoidWith": [
+      "Small fish that fit in its mouth (predatory of small fish)",
+      "Fin-nipping species",
+      "Mbuna-type cichlids (incompatible water chemistry preferences and aggression mismatch)",
+      "Malawi and Victoria cichlids"
+    ]
   },
   "media": {
     "primaryImage": "frontosa.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Frontosa.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "An iconic deepwater cichlid from Lake Tanganyika, known for its distinctive nuchal hump and striking blue-and-white striped patterning. Long-lived and generally slow-moving; best kept as a harem group in a large, hard alkaline aquarium.",
+  "careNotes": "Cyphotilapia frontosa is endemic to Lake Tanganyika and requires hard, alkaline rift-lake water chemistry — untreated soft tap water is generally unsuitable without buffering. This species is noted as a deepwater fish in the wild (typically 15–70 m, with records down to 120 m), and tends to prefer lower light levels and a calm aquarium environment. A minimum group of 5 is broadly recommended, with 8–12 being closer to what larger sources suggest for stable social dynamics; the classic harem structure is one dominant male with multiple females.\n\nSeveral geographic color variants are recognized in the trade: 'Burundi' (classic 6-stripe blue/white), 'Mpimbwe' (blue stripes on white/gray body, found in southern Tanzania), 'Zaire Blue' or 'Zaire' (more extensive blue coloration), and 'Kigoma' (broader dark bars). A specialized blue-fluorescent captive-bred strain has also emerged in the hobby. These variants are sometimes sold under their location names and command a price premium.\n\nThis species is predatory toward fish small enough to swallow — small tetras, danios, and juvenile cichlids are at risk in the same tank. It is NOT suitable for a general community setup. Its large adult size (commonly 30–35 cm in aquaria, with wild specimens reportedly reaching ~40 cm) and group requirements mean substantial tank footprint (180+ cm length, 500+ L) is needed for a proper harem.\n\nFrontosa are notably long-lived — 15–25 years in well-maintained aquaria is commonly reported, making this a significant long-term commitment. Growth is slow; juveniles may take several years to develop the characteristic nuchal hump, which is more pronounced in males.",
+  "breedingNotes": "Maternal mouthbrooder. The female broods eggs buccally for approximately 35–50 days (some sources cite up to 6 weeks). Clutch sizes are relatively small — typically 10–50 eggs — compared to many other cichlids. Females practice 'buccal feeding,' passing food to fry while still holding them. Breeding in captivity is considered moderately difficult; a well-conditioned harem group in a stable, mature tank is the typical approach. The male-to-female ratio of the group (1M:4–6F) and patience are key factors cited by keepers.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "SeriouslyFish",
+      "url": "https://www.seriouslyfish.com/species/cyphotilapia-frontosa/",
+      "accessedDate": "2026-06-08",
+      "notes": "Primary source used in place of Aquarium Co-Op, which has no dedicated Frontosa care page. SeriouslyFish provides the most comprehensive species-specific data for this taxon."
+    },
+    "additional": [
+      {
+        "name": "Fishkeeping World",
+        "url": "https://www.fishkeepingworld.com/frontosa-cichlid/",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked size (30–35 cm), temperature (22–28°C), pH (8.0–9.0), tank size, and lifespan (15–25 years). Minor disagreement on minimum tank size (125 gal / ~473 L vs SeriouslyFish's 864 L for a group); biased toward the larger SeriouslyFish recommendation given the group-living and predatory size requirements. Breeding difficulty listed as 'easy' vs SeriouslyFish 'moderately challenging'; resolved to 'moderate' consistent with user-provided key data."
+      },
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Cyphotilapia-frontosa.html",
+        "accessedDate": "2026-06-08",
+        "notes": "Taxonomy cross-check: confirms Cichlidae, Cichliformes (modern classification). Max TL 33 cm consistent with captive range. IUCN Near Threatened status noted. Hardness range 8–12 dH on FishBase is narrower than hobby sources; hobby sources used for aquarium parameters."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
+    "breedingDifficulty": "moderate",
+    "breedingNotes": "Maternal mouthbrooder; buccal incubation 35–50 days; clutch 10–50 eggs. Requires established harem group and stable water for reliable spawning.",
+    "conspecificAggression": "moderate",
+    "finNippy": false,
     "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": true,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
     "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
     "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": true,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -90,6 +125,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
 }

@@ -5,82 +5,131 @@
   "taxon": "fish",
   "waterType": "freshwater",
   "commonName": "Angelfish",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "scientificName": "Pterophyllum scalare",
+  "alsoKnownAs": ["Freshwater Angelfish", "Common Angelfish", "Scalare"],
   "category": "Cichlid",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Cichlidae",
+    "order": "Cichliformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
+    "regions": ["South America"],
+    "countries": ["Brazil", "Peru", "Colombia", "Guyana", "Suriname", "French Guiana"],
+    "habitat": "Slow-moving rivers, flooded forests, and swampy areas with dense aquatic vegetation; often found in still backwaters and tributaries of the Amazon basin",
+    "biotope": "Amazon basin — dense vegetation, leaf litter, dark tannin-stained water",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
-    "kH": null,
+    "temperatureC": { "min": 24, "max": 30 },
+    "pH": { "min": 6.5, "max": 7.5 },
+    "gH": { "min": 3, "max": 15 },
+    "kH": { "min": 3, "max": 12 },
     "salinity": null
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 12, "max": 15 },
+  "lifespanYears": { "min": 8, "max": 12 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 200,
+    "minLengthCm": 100,
+    "swimZone": "mid",
+    "decorPreferences": [
+      "tall leafy plants (Amazon sword, anubias, vallisneria)",
+      "driftwood",
+      "low to moderate flow",
+      "dark substrate preferred",
+      "open midwater swimming space",
+      "vertical surfaces for spawning (slate, broad-leaved plants)"
+    ],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Readily accepts quality flakes and pellets. Benefits from regular frozen or live foods such as bloodworms, brine shrimp, daphnia, and krill. Occasional blanched vegetables (spinach, zucchini) can supplement the diet. Feeds 2–3 times daily; smaller meals preferred."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "semi-aggressive",
+    "grouping": "shoaling",
+    "minGroupSize": 1,
+    "goodWith": [
+      "medium-sized tetras (black skirt, cardinal, rummy nose)",
+      "corydoras catfish",
+      "plecos",
+      "dwarf gouramis",
+      "rasboras",
+      "discus",
+      "peaceful cichlids of similar size"
+    ],
+    "avoidWith": [
+      "Tiger Barbs",
+      "Serpae Tetras",
+      "other confirmed fin-nipping species",
+      "very small nano fish (will be eaten)",
+      "small shrimp and invertebrates (prey risk)",
+      "fast aggressive species that may outcompete"
+    ]
   },
   "media": {
     "primaryImage": "angelfish.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Angelfish.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "Iconic tall-bodied cichlid from the Amazon basin. Captive-bred in many color and fin varieties; needs a tall tank (60+ cm height) and generally considered intermediate-level care. Pairs form monogamous bonds.",
+  "careNotes": "Tank height is critical: the tall compressed body requires at least 60 cm of vertical swim space — standard low-profile tanks are generally unsuitable. A minimum of 200 L tall-format tank is advised, especially for pairs or groups. Most trade specimens are captive-bred, commonly hybrids between P. scalare and related forms. The Altum Angelfish (P. altum) is a distinct and larger species (up to 25–30 cm tall) occasionally available at specialist retailers and should not be confused with the common aquarium angelfish.\n\nAngels can be kept singly, in pairs, or in groups of 6+; keeping 2–5 fish tends to result in one dominant fish harassing the rest. When kept as a group, the largest aquarium feasible is recommended to allow subdominant fish to establish territories.\n\nSpawning pairs become notably semi-aggressive, defending a chosen spawning site against all tankmates. Tiger Barbs, Serpae Tetras, and other confirmed fin-nippers should be strictly avoided — angels' long trailing fins are highly susceptible to nipping damage.\n\nAdult body length is typically around 12–15 cm; total height including extended dorsal and ventral fins can reach approximately 20–25 cm. Body size data varies across sources (FishBase reports 10.5 cm TL for wild specimens; captive-bred individuals generally grow larger).\n\nCaptive-bred individuals have often been acclimated to harder, more neutral water than wild-caught fish; most community-tank water conditions (pH 6.5–7.5, moderate hardness) are generally well tolerated.",
+  "breedingNotes": "Angelfish are generally considered moderate in breeding difficulty. Pairs typically form naturally from a group of 6+ juveniles allowed to grow out together. Once a mated pair forms, they tend to bond monogamously. Spawning occurs on cleaned vertical surfaces — slate tiles, broad-leaved plants, or the aquarium glass. Clutch sizes of 100–300+ eggs are common; eggs hatch in approximately 2–3 days at 28°C, and fry are free-swimming within another 3–5 days. Both parents tend to guard eggs and early fry vigorously (biparental care). Fry accept freshly hatched brine shrimp as a first food. Some pairs resort to eating their first few spawns before settling into reliable parental care; separating eggs to a hatching tank is an option but may impair future parental instinct.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "SeriouslyFish",
+      "url": "https://www.seriouslyfish.com/species/pterophyllum-scalare/",
+      "accessedDate": "2026-06-08",
+      "notes": "Used as primary due to Aquarium Co-Op URL 404. SeriouslyFish provided tank dimensions, temperature, pH, hardness, size, diet, behavior, and breeding notes."
+    },
+    "additional": [
+      {
+        "name": "Aquarium Co-Op",
+        "url": "https://www.aquariumcoop.com/blogs/aquarium/angelfish",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked temperature (78–86°F / 25.6–30°C), pH (6.0–8.0), adult size (15 cm body / 20 cm total), lifespan (8–12 years), tankmate guidance, and breeding notes. Consistent with primary."
+      },
+      {
+        "name": "Fishkeeping World",
+        "url": "https://www.fishkeepingworld.com/freshwater-angelfish/",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked temperature (75–82°F / 24–28°C), pH (6.8–7.0), hardness (4–12 dGH), diet, lifespan (10–12 years). Reported adult body size (3–4 inches body, 6 inches height) is a lower outlier than other sources; other sources converge on 15 cm body. Minimum tank size quoted (20 gal / 76 L) is not representative of a proper long-term setup for this species."
+      },
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Pterophyllum-scalare.html",
+        "accessedDate": "2026-06-08",
+        "notes": "Confirmed taxonomy (Cichlidae / Cichliformes), native range (Amazon basin: Brazil, Peru, Colombia, Guyana, Suriname, French Guiana), temperature (24–30°C), pH (6.0–8.0), hardness (5–13 dH). Wild max TL reported as 10.5–15 cm."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
+    "breedingDifficulty": "moderate",
+    "breedingNotes": "Pairs form from groups of 6+ juveniles; biparental substrate spawners on vertical surfaces. Moderate difficulty due to pair-bond dynamics and variable parental reliability in early spawns.",
+    "conspecificAggression": "moderate",
+    "finNippy": false,
     "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
     "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": true,
     "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -90,6 +139,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
 }

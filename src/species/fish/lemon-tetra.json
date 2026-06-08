@@ -5,82 +5,122 @@
   "taxon": "fish",
   "waterType": "freshwater",
   "commonName": "Lemon Tetra",
-  "scientificName": "",
+  "scientificName": "Hyphessobrycon pulchripinnis",
   "alsoKnownAs": [],
   "category": "Tetra",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Characidae",
+    "order": "Characiformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
+    "regions": ["South America"],
+    "countries": ["Brazil"],
+    "habitat": "Minor tributaries, smaller rivers, oxbows, and flooded forests; tends to avoid main river channels. Sandy substrate with fine-leaved vegetation and leaf litter.",
+    "biotope": "Blackwater/clearwater Amazonian tributaries; Rio Tapajós basin and lower Rio Xingu system, Pará state.",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
-    "kH": null,
+    "temperatureC": { "min": 22, "max": 28 },
+    "pH": { "min": 5.5, "max": 7.5 },
+    "gH": { "min": 3, "max": 15 },
+    "kH": { "min": 2, "max": 12 },
     "salinity": null
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 3.5, "max": 4.5 },
+  "lifespanYears": { "min": 5, "max": 8 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 75,
+    "minLengthCm": 80,
+    "swimZone": "mid",
+    "decorPreferences": [
+      "sandy substrate",
+      "driftwood roots and branches",
+      "fine-leaved plants",
+      "dried leaf litter",
+      "subdued or dappled lighting"
+    ],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "beginner",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Accepts a wide range of foods including quality flake and micro-pellet; benefits from regular offerings of live or frozen foods such as bloodworm, mosquito larvae, Daphnia, and Moina. Wild diet includes small invertebrates, crustaceans, filamentous algae, and fallen fruit."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "peaceful",
+    "grouping": "schooling",
+    "minGroupSize": 6,
+    "goodWith": [
+      "similarly-sized characids",
+      "small rasboras",
+      "small danios",
+      "Corydoras catfish",
+      "small loaches",
+      "dwarf cichlids (non-predatory)",
+      "small gasteropelecids",
+      "lebiasinids"
+    ],
+    "avoidWith": [
+      "large aggressive cichlids",
+      "fin-nipping species",
+      "predatory fish that can swallow small tetras"
+    ]
   },
   "media": {
     "primaryImage": "lemon_tetra.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Lemon Tetra.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "Hardy, peaceful yellow tetra from Brazil's Tapajós basin. Beginner-friendly and long-lived (5–8 yrs) with bright yellow body and distinctive black-edged fins. Best kept in schools of 6 or more.",
+  "careNotes": "The Lemon Tetra is generally considered one of the more straightforward tetras for beginners. Yellow body coloration with vivid yellow and black fin accents intensifies noticeably in well-maintained water and in larger schools. Captive-bred at scale, making wild-caught specimens uncommon in the trade. Schools of 8–10 or more have been observed to show notably better coloration and more natural behavior than smaller groups. A planted setup with driftwood and some leaf litter tends to bring out the best color and reduce shyness. This species has not been reported to nip fins. Water parameters are tolerant across a fairly wide range, though softer and slightly acidic conditions closer to the Rio Tapajós origin may improve long-term health and breeding success.",
+  "breedingNotes": "Egg-scatterer with no parental care; adults will eat eggs if not removed. Breeding is considered moderately straightforward: a separate, dimly lit breeding tank with fine-leaved plants or mesh substrate to protect eggs is recommended. Slightly acidic to neutral pH with temperature toward the upper end of the range tends to encourage spawning. Fry hatch within 24–36 hours and are initially tiny; first foods of Paramecium or infusoria, progressing to Artemia nauplii and microworms as fry grow. Males have been observed defending loose spawning territories briefly.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "SeriouslyFish",
+      "url": "https://www.seriouslyfish.com/species/hyphessobrycon-pulchripinnis/",
+      "accessedDate": "2026-06-08",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Hyphessobrycon-pulchripinnis.html",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked size (3.8 cm SL max), temperature (23–28°C), pH (5.5–8.0), hardness (≤25 dGH), and native range (Tapajós basin). Size averaged with SeriouslyFish (35–40 mm SL) to give 3.5–4.5 cm. Aquarium Co-Op (primary source per source-urls.json) had no species-specific page for this species; SeriouslyFish promoted to primary."
+      },
+      {
+        "name": "Fishkeeping World",
+        "url": "https://www.fishkeepingworld.com/lemon-tetra/",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked size (~5 cm / 2 in), temperature (72–82°F = 22–28°C), pH (5.5–8.0), lifespan (6–8 yrs), tank size (20 gal = 76 L). Temperature and pH consistent with other sources. Size slightly higher at 5 cm; averaged down to 4.5 cm max. Lifespan source for min value of 5 yrs (combined with controller key data of 5–8 yrs)."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
+    "breedingDifficulty": "moderate",
+    "breedingNotes": "Egg-scatterer; adults consume eggs. Separate breeding tank with mesh or fine plants recommended. Fry are initially tiny and require infusoria or Paramecium as first food.",
+    "conspecificAggression": "low",
+    "finNippy": false,
     "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
     "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -90,6 +130,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
+  "dataStatus": "researched",
   "lastReviewed": null
 }

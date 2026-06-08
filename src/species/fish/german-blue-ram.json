@@ -5,82 +5,129 @@
   "taxon": "fish",
   "waterType": "freshwater",
   "commonName": "German Blue Ram",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "scientificName": "Mikrogeophagus ramirezi",
+  "alsoKnownAs": ["Ram Cichlid", "Butterfly Cichlid", "Blue Ram", "Ramirezi"],
   "category": "Cichlid",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Cichlidae",
+    "order": "Cichliformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
+    "regions": ["South America"],
+    "countries": ["Venezuela", "Colombia"],
+    "habitat": "Shallow, slow-moving, warm savannah streams and pools in the Llanos; often heavily vegetated with leaf litter and sandy substrate; subject to extreme seasonal fluctuation",
+    "biotope": "Blackwater",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
-    "kH": null,
+    "temperatureC": { "min": 27, "max": 30 },
+    "pH": { "min": 5.0, "max": 7.0 },
+    "gH": { "min": 0, "max": 10 },
+    "kH": { "min": 0, "max": 5 },
     "salinity": null
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 5.0, "max": 7.0 },
+  "lifespanYears": { "min": 2, "max": 4 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 80,
+    "minLengthCm": 60,
+    "swimZone": "bottom",
+    "decorPreferences": [
+      "fine sand substrate",
+      "driftwood roots and branches",
+      "leaf litter",
+      "flat rocks or smooth stones for spawning sites",
+      "caves or terracotta pots as shelters",
+      "dense planting (Cryptocoryne, Microsorum, Anubias, mosses)",
+      "dim lighting with floating plants"
+    ],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Benthic feeder; tends to accept live and frozen foods such as bloodworm, brine shrimp, daphnia, and grindal worm readily. Sinking micropellets and high-quality flake also accepted. Variety is important for conditioning breeding pairs."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "peaceful",
+    "grouping": "pair",
+    "minGroupSize": 2,
+    "goodWith": [
+      "small peaceful tetras (Cardinal Tetra, Rummynose Tetra)",
+      "Corydoras catfish",
+      "small Ancistrus/bristlenose plecos",
+      "small rasboras",
+      "peaceful small livebearers"
+    ],
+    "avoidWith": [
+      "aggressive or territorial cichlids",
+      "fast-moving boisterous fish that outcompete at feeding",
+      "fin-nippers",
+      "species requiring harder or cooler water",
+      "large predatory fish"
+    ]
   },
   "media": {
     "primaryImage": "german_blue_ram.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for German Blue Ram.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "Iconic dwarf cichlid from the Venezuelan/Colombian Llanos; known for vivid color and devoted biparental care. Needs warm, soft, acidic water and a compatible pair; commercial farm stock tends to be fragile.",
+  "careNotes": "Temperature is the most common husbandry failure point — many community tanks run too cool (22-25°C) for this species. Rams generally do best at 27-30°C; sustained temperatures below 26°C have been associated with increased disease susceptibility and shortened lifespan. Soft, slightly acidic water (pH 5.5-6.8, gH under 10) is strongly preferred, especially for breeding and long-term health; harder water is tolerated short-term by some individuals but is generally associated with reduced vigour.\n\nCommercially farmed stock (the vast majority sold in the trade, much of it from Asian fish farms) is widely reported by hobbyists and specialist sources to have significantly compressed lifespans (often 1-2 years vs the 3-4 achievable with quality stock) and elevated susceptibility to disease — particularly fish tuberculosis (Mycobacterium), columnaris, and parasitic infections. Wild-caught or EU/specialist-bred stock tends to be considerably hardier. Selectively bred colour morphs (Electric Blue Ram, Gold Ram, Longfin Ram) are generally considered more delicate still.\n\nThe Bolivian Ram (Mikrogeophagus altispinosus) is a hardier, cooler-water alternative (22-26°C), better suited to standard community temperatures and beginners.\n\nRams are pair-bonded substrate spawners. A compatible pair is essential — incompatible fish will fight. Each breeding pair needs a territory; in larger tanks a second pair can be kept if sight lines are broken. Adults become territorial near spawning sites. Despite their reputation as a poor community fish, they can coexist well with small, non-competitive tankmates in a well-planted tank with adequate space.\n\nBiotope setup with fine sand, driftwood, leaf litter, and dense planting significantly reduces stress and brings out best colouration and behaviour. Avoid strong water flow — gentle circulation (4-5x turnover) is preferred. The species has been documented to recognise individual keepers and may display to them.",
+  "breedingNotes": "Biparental substrate spawner. Pairs typically choose a flat stone, broad leaf, or cleared sandy patch as a spawning site. Clutches tend to be 150-300 eggs; incubation has been reported at 2-3 days at 28-30°C, followed by a free-swimming stage within 5-7 days. Both parents share guarding duties. Raising eggs can be challenging — eggs are prone to fungal infection, particularly in harder or less pristine water. Soft, slightly acidic water with low bacterial load gives the best hatch rates. First foods: infusoria or commercial fry powder, then Artemia nauplii. Commercial farm-bred pairs sometimes eat their first few spawns before settling into reliable parental behaviour.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "SeriouslyFish",
+      "url": "https://www.seriouslyfish.com/species/mikrogeophagus-ramirezi/",
+      "accessedDate": "2026-06-08",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "Aquarium Co-Op",
+        "url": "https://www.aquariumcoop.com/blogs/aquarium/ram-cichlid-care-guide",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked temperature, tank size, diet, and tankmate guidance. Size cited as 2-2.5 inches (5-6 cm); minimum tank 20 gal (76L) for a pair."
+      },
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Mikrogeophagus-ramirezi.html",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked taxonomy (Cichliformes confirmed), native range, water parameters (27-30°C, pH 5.0-6.0, dH 5-12), and max size (4.2 cm SL). Trade/display sizes larger due to including fins and caudal extension."
+      },
+      {
+        "name": "Fishkeeping World",
+        "url": "https://www.fishkeepingworld.com/german-blue-ram/",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked size (5-7.6 cm), tank size (20 gal / 76L), temperature (26-30°C), pH (5.0-7.0), gH (6-14 dGH). Noted disease susceptibility to fish tuberculosis and ich. Listed lifespan as 2-3 years (vs Aquarium Co-Op 4 years; averaged to 2-4 range)."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
+    "breedingDifficulty": "moderate",
+    "breedingNotes": "Biparental substrate spawner; eggs prone to fungal infection; fry need infusoria then nauplii. Commercial stock pairs sometimes unreliable initially. Best results with soft acidic water above 28°C.",
+    "conspecificAggression": "moderate",
+    "finNippy": false,
     "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
     "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": true,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -90,6 +137,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
+  "dataStatus": "researched",
   "lastReviewed": null
 }

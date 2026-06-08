@@ -5,82 +5,109 @@
   "taxon": "fish",
   "waterType": "freshwater",
   "commonName": "Ember Tetra",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "scientificName": "Hyphessobrycon amandae",
+  "alsoKnownAs": ["Amanda's Tetra", "Dwarf Red Tetra", "Red Tetra", "Fire Tetra"],
   "category": "Tetra",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Characidae",
+    "order": "Characiformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
+    "regions": ["South America", "Central-Western Brazil"],
+    "countries": ["Brazil"],
+    "habitat": "Slow-flowing minor tributaries, backwaters, and oxbow lakes in the Araguaia drainage; soft, acidic water with leaf litter, submerged wood, and dense aquatic vegetation",
+    "biotope": "Blackwater / leaf-litter",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
-    "kH": null,
+    "temperatureC": { "min": 20, "max": 28 },
+    "pH": { "min": 5.0, "max": 7.0 },
+    "gH": { "min": 1, "max": 10 },
+    "kH": { "min": 1, "max": 8 },
     "salinity": null
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 1.5, "max": 2.0 },
+  "lifespanYears": { "min": 2, "max": 4 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 40,
+    "minLengthCm": 45,
+    "swimZone": "mid",
+    "decorPreferences": ["dense planting", "dark substrate", "floating plants", "driftwood", "leaf litter"],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "beginner",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Micropredator by nature; readily accepts high-quality micro-pellets, crushed flakes, and nano-sized prepared foods. Benefits from regular small live or frozen foods such as baby brine shrimp, Daphnia, Moina, and micro-worms to enhance coloration and condition."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "peaceful",
+    "grouping": "schooling",
+    "minGroupSize": 8,
+    "goodWith": ["small peaceful tetras", "rasboras", "pygmy corydoras", "otocinclus", "hatchetfish", "pencilfish", "dwarf cichlids", "nerite snails", "dwarf shrimp (adults safe)"],
+    "avoidWith": ["large predatory fish", "boisterous or fin-nipping species", "aggressive bettas or gouramis"]
   },
   "media": {
     "primaryImage": "ember_tetra.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Ember Tetra.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "Tiny orange-red micro-tetra from the Araguaia basin in Brazil; a nano-tank favorite well-suited to beginners. Colors tend to intensify in planted tanks with dark substrates. Generally considered safe with adult dwarf shrimp.",
+  "careNotes": "Ember Tetras tend to show their best coloration — a bright fiery orange-red — when kept in well-planted tanks with dark substrates and subdued lighting that mimics their blackwater origin. A school of 8 or more is generally advised for natural schooling behavior and full color display; smaller groups have been known to be more subdued and skittish. They are generally safe companions for adult dwarf shrimp (Neocaridina, Caridina), though fry and very small juveniles may be at risk. Gentle filtration is recommended — strong flow has been reported to stress them. Avoid keeping with boisterous or substantially larger tankmates. Water quality stability tends to matter more than hitting precise parameter targets within the recommended range.",
+  "breedingNotes": "Egg-scattering free-spawner with no parental care. Breeding has been reported achievable in a dedicated 10–20L tank with mesh or fine-leaf plants over the substrate to catch eggs, dimly lit conditions, soft slightly acidic water (pH ~6.5–7.0), and temperatures toward the upper end of their range (26–28°C). Live or frozen conditioning foods fed for ~2 weeks prior have been documented to improve spawn success. Eggs typically hatch within 24–48 hours; fry initially require infusoria or very fine powdered food, progressing to baby brine shrimp nauplii. Adults will eat eggs and fry if left in the spawning tank.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "Aquarium Co-Op",
+      "url": "https://www.aquariumcoop.com/blogs/aquarium/ember-tetra",
+      "accessedDate": "2026-06-08",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "SeriouslyFish",
+        "url": "https://www.seriouslyfish.com/species/hyphessobrycon-amandae/",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked taxonomy, native range, water parameters, minimum tank dimensions, grouping, and breeding behavior. gH given as 18–179 ppm (≈1–10 dGH); temperature range 20–28°C confirmed."
+      },
+      {
+        "name": "Fishkeeping World",
+        "url": "https://www.fishkeepingworld.com/ember-tetra/",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked tank size (10 gal / ~38L), lifespan (up to 2 years), pH and temperature. Lifespan averaged with ModestFish 2–4 year figure."
+      },
+      {
+        "name": "ModestFish",
+        "url": "https://modestfish.com/ember-tetra/",
+        "accessedDate": "2026-06-08",
+        "notes": "Confirmed kH 4–8, gH 5–17 dGH (upper end), lifespan 2–4 years, temperature 23–29°C. Values averaged across all four sources for final figures."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
+    "breedingDifficulty": "moderate",
     "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
+    "conspecificAggression": "none",
+    "finNippy": false,
     "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
     "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -90,6 +117,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
 }

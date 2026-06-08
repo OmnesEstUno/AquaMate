@@ -4,83 +4,120 @@
   "kind": "fauna",
   "taxon": "fish",
   "waterType": "freshwater",
-  "commonName": "Endler’s Livebearer",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "commonName": "Endler's Livebearer",
+  "scientificName": "Poecilia wingei",
+  "alsoKnownAs": ["Endler's Guppy", "Endler Guppy"],
   "category": "Livebearer",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Poeciliidae",
+    "order": "Cyprinodontiformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
-    "depthRangeM": null
+    "regions": ["South America"],
+    "countries": ["Venezuela"],
+    "habitat": "Shallow, warm, hard lagoon waters with dense aquatic vegetation; type locality is Laguna de Patos on the Paria Peninsula of northeastern Venezuela.",
+    "biotope": "Lagoon",
+    "depthRangeM": { "min": 0, "max": 1 }
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
-    "kH": null,
+    "temperatureC": { "min": 22, "max": 28 },
+    "pH": { "min": 7.0, "max": 8.5 },
+    "gH": { "min": 10, "max": 25 },
+    "kH": { "min": 4, "max": 15 },
     "salinity": null
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 1.0, "max": 4.5 },
+  "lifespanYears": { "min": 1, "max": 3 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 40,
+    "minLengthCm": 45,
+    "swimZone": "mid",
+    "decorPreferences": [
+      "Dense planted areas for fry cover",
+      "Floating plants to reduce light and provide additional shelter",
+      "Open swimming space in the foreground",
+      "Fine-leaved plants such as Java moss or guppy grass"
+    ],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "beginner",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Accepts a wide variety of foods including quality flake, micropellets, frozen or live daphnia, brine shrimp, and bloodworms. Will graze on algae opportunistically. Feed small amounts once or twice daily; their small mouths require appropriately sized particles — finely crushed flake or purpose-made micro food is recommended."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "peaceful",
+    "grouping": "shoaling",
+    "minGroupSize": 3,
+    "goodWith": [
+      "Small peaceful tetras",
+      "Pygmy or dwarf corydoras",
+      "Rasboras",
+      "Freshwater snails",
+      "Small peaceful livebearers (non-Poecilia species to avoid hybridisation)"
+    ],
+    "avoidWith": [
+      "Guppies (Poecilia reticulata) — will hybridise freely",
+      "Fin-nipping species such as tiger barbs",
+      "Cichlids and other aggressive fish",
+      "Large fish that may predate on them"
+    ]
   },
   "media": {
     "primaryImage": "endlers_livebearer.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Endler’s Livebearer.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "Tiny, brilliantly coloured livebearer from a single Venezuelan lagoon. Males are among the most vivid freshwater fish at under 2.5 cm. Beginner-friendly and prolific; purity class matters to enthusiasts.",
+  "careNotes": "Hard, alkaline water is generally preferred — the type locality (Laguna de Patos) is warm and hard. While they tend to tolerate a fairly wide parameter range, conditions leaning toward higher pH and hardness typically produce the best colour and health.\n\nA ratio of one male per two or three females is commonly advised to distribute mating pressure on females. All-male tanks are a practical and visually striking option when breeding is not desired.\n\nBreeding is prolific; females give birth to small broods (typically 5–25 fry) roughly every 23–30 days. Dense planting or a separate rearing container markedly improves fry survival, as adults and tankmates have been known to consume fry.\n\nPurity is a significant concern in the hobby. Most fish sold as 'Endler's Livebearer' are Guppy/Endler hybrids rather than pure Poecilia wingei. The Endlers International Society uses a purity classification system: Class N (pure wild-caught or documented pure strain), Class P (pure lineage, captive-bred), and Class K (known hybrid). Keepers interested in conservation or pure breeding should source fish from reputable breeders offering documented pedigree. Do not house with Guppies if purity is a goal — the two species hybridise freely and produce fertile offspring.\n\nThe wild population is critically endangered and is believed to be restricted to a very small area around Laguna de Patos; some accounts suggest the wild form may be extinct due to industrial pollution. Captive breeding programs contribute to conservation.\n\nEndler's Livebearers are generally considered easier to keep than fancy Guppies, as most strains have not been selectively weakened by intensive ornamental line-breeding.",
+  "breedingNotes": "Live-bearing (viviparous). Gestation is approximately 23–30 days at optimal temperatures. Broods are small by livebearer standards, typically 5–25 fry per drop. Fry are free-swimming immediately at birth and can accept finely crushed flake or purpose-made fry food from day one. Males develop adult colouration within 3–5 weeks; females reach sexual maturity at around 2 months. Population growth can be rapid — manage sex ratios or maintain an all-male group to control numbers.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "Aquarium Co-Op",
+      "url": "https://www.aquariumcoop.com/blogs/aquarium/endlers-livebearer-care-guide",
+      "accessedDate": "2026-06-08",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "SeriouslyFish",
+        "url": "https://www.seriouslyfish.com/species/poecilia-wingei/",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked adult size (males 2.5 cm, females 4.5 cm), water parameters (temp 24–30°C, pH 7.0–8.5, hardness 15–35 dH), tank minimum (40.5 L), native range (Campoma and Buena Vista lagoons, northeastern Venezuela), breeding interval (23–24 days). Fishkeeping World returned HTTP 404 and was unavailable; SeriouslyFish used as first secondary."
+      },
+      {
+        "name": "FishBase",
+        "url": "https://fishbase.se/summary/Poecilia-wingei.html",
+        "accessedDate": "2026-06-08",
+        "notes": "Confirmed taxonomy: family Poeciliidae, order Cyprinodontiformes; native range Venezuela (Campoma and Buena Vista lagoons). Maximum size listed as 2.0 cm SL (standard length, smaller than total length) — consistent with the 2.5 cm TL figure from AC-Op and SeriouslyFish."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
+    "breedingDifficulty": "easy",
+    "breedingNotes": "Prolific livebearer; one of the easiest freshwater fish to breed. Small brood size (5–25 fry) compared to Guppies, but gestation is short at 23–30 days. Population management — rather than breeding difficulty — is the primary concern. Keep all-male to prevent reproduction.",
+    "conspecificAggression": "low",
+    "finNippy": false,
     "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
     "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -90,6 +127,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
 }

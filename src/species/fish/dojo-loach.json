@@ -1,0 +1,135 @@
+{
+  "id": "fw-116",
+  "slug": "dojo-loach",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "freshwater",
+  "commonName": "Dojo Loach",
+  "scientificName": "Misgurnus anguillicaudatus",
+  "alsoKnownAs": ["Weather Loach", "Oriental Weather Loach", "Pond Loach"],
+  "category": "Loach",
+  "taxonomy": {
+    "family": "Cobitidae",
+    "order": "Cypriniformes"
+  },
+  "nativeRange": {
+    "regions": ["East Asia", "Southeast Asia"],
+    "countries": ["China", "Japan", "South Korea", "North Korea", "Russia", "Vietnam"],
+    "habitat": "Shallow, slow-moving or still freshwater — rivers, lakes, ponds, swamps, and rice paddies with muddy or silty bottoms",
+    "biotope": "Pond",
+    "depthRangeM": null
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 5, "max": 25 },
+    "pH": { "min": 6.0, "max": 8.0 },
+    "gH": { "min": 5, "max": 15 },
+    "kH": { "min": 2, "max": 15 },
+    "salinity": null
+  },
+  "adultSizeCm": { "min": 10, "max": 25 },
+  "lifespanYears": { "min": 7, "max": 10 },
+  "tank": {
+    "minVolumeLiters": 200,
+    "minLengthCm": 120,
+    "swimZone": "bottom",
+    "decorPreferences": [
+      "soft sand or fine gravel substrate (essential for burrowing)",
+      "driftwood",
+      "rocks and caves for hiding",
+      "hardy rooted plants",
+      "dim lighting or floating cover",
+      "tight-fitting lid (mandatory — confirmed jumpers)"
+    ],
+    "minSandDepthCm": 5
+  },
+  "careLevel": "beginner",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Tends to forage along the substrate for insect larvae, worms, small crustaceans, and organic detritus in the wild. In the aquarium, has been found to accept sinking pellets, sinking wafers, frozen or live bloodworms, daphnia, brine shrimp, and blanched vegetables such as zucchini or cucumber. Generally not difficult to feed."
+  },
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "shoaling",
+    "minGroupSize": 3,
+    "goodWith": [
+      "other peaceful coldwater fish",
+      "goldfish",
+      "white cloud mountain minnows",
+      "hillstream loaches",
+      "larger rasboras",
+      "danios"
+    ],
+    "avoidWith": [
+      "very small fish or fry (may be consumed)",
+      "fish eggs in shared tanks",
+      "tropical-only species requiring consistently warm water",
+      "aggressive or fin-nipping species"
+    ]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A long-bodied, eel-like coldwater loach from East Asia, famous for spiking activity before barometric pressure drops — hence 'Weather Loach'. Hardy and beginner-friendly; best kept in groups of 3+ in a 200L+ tank with a tight lid.",
+  "careNotes": "Activity has been documented to increase noticeably before storms or barometric-pressure drops, a sensitivity likely linked to changes in dissolved oxygen — hence the common name 'Weather Loach'. This behaviour is considered a natural 'barometer' by some keepers.\n\nThe eel-like body and strong swimming ability make this species a confirmed jumper; a tight, fully-sealed lid is considered mandatory. Even small gaps around filter tubes or heater cables have been used to escape.\n\nWhile technically capable of surviving in unheated tanks (documented range 5–25°C), the species has been reported to live longer and behave more actively at the cooler end of the range (around 18–22°C). Sustained temperatures above 25°C are generally advised against.\n\nThe species is listed as invasive in the United States, Australia, and several other regions; aquarium release is strongly discouraged. Common colour forms available in the trade include the wild-type olive-brown, the Golden (xanthic) morph, and the Albino morph — all are the same species.\n\nAs a scaleless or lightly-scaled fish, dojo loaches have been considered copper-sensitive and generally respond poorly to copper-based medications; alternative treatments are commonly recommended. The species is a facultative air-breather and may be observed gulping air at the surface, particularly in warmer or oxygen-depleted water — this is normal.\n\nSeriouslyFish notes the Hokkaido population is triploid and reproduces via gynogenesis (all-female, egg stimulated by sperm from other species without genetic contribution). Captive breeding is rarely achieved outside specialist facilities; hormone induction is sometimes cited.",
+  "breedingNotes": "Captive breeding is rarely accomplished without hormone induction. Egg-scattering behaviour has been reported in well-conditioned pairs after a simulated cool-season followed by gradual temperature increase. The Hokkaido island population is documented as an all-female, gynogenetic triploid strain and reproduces differently from the standard diploid form.",
+  "sources": {
+    "primary": {
+      "name": "SeriouslyFish",
+      "url": "https://www.seriouslyfish.com/species/misgurnus-anguillicaudatus/",
+      "accessedDate": "2026-06-08",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Misgurnus-anguillicaudatus.html",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked scientific name, family/order, adult size (max 28 cm SL), temperature range (5–25°C), and native distribution. Aquarium Co-Op (primary for fish-freshwater slice) had no dojo loach species page; SeriouslyFish promoted to primary."
+      },
+      {
+        "name": "Fishkeeping World",
+        "url": "https://www.fishkeepingworld.com/dojo-loach/",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked adult size (15–30 cm), temperature (18–24°C ideal, 10–27°C tolerated), pH (6.5–8.0), hardness (5–12 dGH), tank size (55 gal / ~208 L), lifespan (7–10 years), diet, and grouping recommendations. Minor disagreements: pH min (6.0 vs 6.5) averaged to 6.0; tank size both sources converged near 200 L."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "difficult",
+    "breedingNotes": "Rarely bred in captivity; hormone induction usually required. Egg-scatterer. Hokkaido triploid population is gynogenetic.",
+    "conspecificAggression": "none",
+    "finNippy": false,
+    "reefSafe": null,
+    "escapeRisk": "high",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": true,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
+}
