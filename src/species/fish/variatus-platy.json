@@ -5,82 +5,109 @@
   "taxon": "fish",
   "waterType": "freshwater",
   "commonName": "Variatus Platy",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "scientificName": "Xiphophorus variatus",
+  "alsoKnownAs": ["Variable Platy", "Variegated Platy", "Sunset Platy", "Variatus"],
   "category": "Livebearer",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Poeciliidae",
+    "order": "Cyprinodontiformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
+    "regions": ["Central America", "North America"],
+    "countries": ["Mexico"],
+    "habitat": "Warm springs, weedy canals, ditches, slow-moving lowland streams from southern Tamaulipas to northern Veracruz on the Atlantic slope",
+    "biotope": "Stream",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
-    "kH": null,
+    "temperatureC": { "min": 18, "max": 26 },
+    "pH": { "min": 7.0, "max": 8.2 },
+    "gH": { "min": 10, "max": 25 },
+    "kH": { "min": 6, "max": 15 },
     "salinity": null
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 5, "max": 7 },
+  "lifespanYears": { "min": 3, "max": 5 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 75,
+    "minLengthCm": 60,
+    "swimZone": "mid",
+    "decorPreferences": ["dense planting", "floating plants", "open swimming space", "fine-leaved vegetation"],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "beginner",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Readily accepts high-quality flake and pellet foods; benefits from variety including frozen or live foods such as bloodworms and brine shrimp, along with vegetable matter. Tends to graze on algae and plant matter in addition to meaty foods."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "peaceful",
+    "grouping": "shoaling",
+    "minGroupSize": 3,
+    "goodWith": ["tetras", "rasboras", "corydoras", "danios", "small livebearers", "peaceful dwarf cichlids", "freshwater snails", "freshwater shrimp (caution with fry)"],
+    "avoidWith": ["fin nippers", "large aggressive cichlids", "large predatory fish"]
   },
   "media": {
     "primaryImage": "variatus_platy.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Variatus Platy.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "Hardy, peaceful livebearer from Mexico; notably more cold-tolerant than most livebearers. Highly variable coloration and compatible with most community fish. Suitable for beginners.",
+  "careNotes": "Xiphophorus variatus is endemic to the Atlantic slope of Mexico (southern Tamaulipas to northern Veracruz) and is distinct from the common Platy (X. maculatus) — it tends to be slightly larger and more elongate in body form, and is generally considered more cold-tolerant, reportedly doing well at room temperature without supplemental heating in temperate climates. Wild populations display extensive natural color variation; captive trade stocks include numerous selectively bred color morphs sold under names such as Sunset Platy, Variegated Platy, and others. The species hybridizes readily with X. maculatus (common Platy) and X. helleri (Swordtail) in captivity — care should be taken if maintaining pure strains. Males have been known to harass females persistently; maintaining at least 2–3 females per male is generally advised to distribute attention. The species is not strongly demanding about water chemistry, but tends to do best in moderately hard, slightly alkaline conditions — soft or acidic water is generally not recommended. Many commercially produced specimens have been reported to show reduced hardiness compared to wild-type or quality-bred stock, likely due to inbreeding pressure in mass production.",
+  "breedingNotes": "Prolific livebearer; females give birth to live fry roughly every 4–7 weeks. Broods have been reported to exceed 100 fry. Females can store sperm for several months, meaning a single mating may produce multiple successive broods. Fry are large enough at birth to accept newly hatched brine shrimp and finely crushed flake. No parental care is provided and adults may eat fry; dense planting or a separate breeding/fry tank is generally advised for raising fry to adulthood.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "SeriouslyFish",
+      "url": "https://www.seriouslyfish.com/species/xiphophorus-variatus/",
+      "accessedDate": "2026-06-08",
+      "notes": "Primary care reference for this entry; provided taxonomy, water parameters, sizing, tank dimensions, and breeding information."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Xiphophorus-variatus.html",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked scientific name, family, order, native range (confirmed endemic Mexico, Tamaulipas to Veracruz), adult size (max 7 cm), and temperature range (15–25°C). FishBase temperature floor of 15°C is lower than hobby sources; averaged with hobby guidance to yield 18°C floor."
+      },
+      {
+        "name": "aqua-fish.net",
+        "url": "https://en.aqua-fish.net/fish/variegated-platy",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked adult size (6–7 cm), temperature (21–26°C), pH (7–8), hardness (7–26 dH), swim zone (middle), lifespan (3–5 years), and diet. Consistent with primary on all high-stakes fields."
+      },
+      {
+        "name": "Aquarium Co-Op",
+        "url": "https://www.aquariumcoop.com/blogs/aquarium/platy-care-guide",
+        "accessedDate": "2026-06-08",
+        "notes": "General platy care guide with variatus-specific notes on cold-tolerance; confirmed tank size guidance (10–20 gal / 38–76 L), pH tolerance (6.8–8.5), preference for harder water, omnivore diet, beginner care level, and 3–4 year lifespan range."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
+    "breedingDifficulty": "easy",
+    "breedingNotes": "Prolific livebearer; breeds readily in most community conditions. Controlling breeding is the more common challenge for keepers — separating sexes or rehoming fry is often necessary.",
+    "conspecificAggression": "low",
+    "finNippy": false,
     "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
     "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -90,6 +117,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
+  "dataStatus": "researched",
   "lastReviewed": null
 }

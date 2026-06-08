@@ -5,82 +5,129 @@
   "taxon": "fish",
   "waterType": "freshwater",
   "commonName": "Blue Gourami",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "scientificName": "Trichopodus trichopterus",
+  "alsoKnownAs": [
+    "Three-Spot Gourami",
+    "Opaline Gourami",
+    "Gold Gourami",
+    "Lavender Gourami",
+    "Cosby Gourami",
+    "Trichogaster trichopterus"
+  ],
   "category": "Gourami",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Osphronemidae",
+    "order": "Anabantiformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
+    "regions": ["Southeast Asia"],
+    "countries": ["China", "Vietnam", "Laos", "Cambodia", "Thailand", "Myanmar", "Malaysia", "Indonesia"],
+    "habitat": "Shallow, heavily vegetated freshwater environments including rice paddies, ditches, marshes, ponds, and slow-moving rivers. Tolerates low-oxygen water via labyrinth organ.",
+    "biotope": "Other",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
-    "kH": null,
+    "temperatureC": { "min": 22, "max": 29 },
+    "pH": { "min": 6.0, "max": 8.0 },
+    "gH": { "min": 5, "max": 25 },
+    "kH": { "min": 4, "max": 15 },
     "salinity": null
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 10, "max": 15 },
+  "lifespanYears": { "min": 4, "max": 6 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 150,
+    "minLengthCm": 90,
+    "swimZone": "top",
+    "decorPreferences": [
+      "Dense planting at margins for female retreat and hiding spots",
+      "Open swimming area in center",
+      "Floating plants for bubble-nest building",
+      "Subdued or diffused lighting"
+    ],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "beginner",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Accepts most prepared foods including flakes and pellets. Benefits from variety: live or frozen daphnia, brine shrimp, bloodworm, and blanched vegetable matter. Has been documented grazing on algae and plant matter in the wild."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "semi-aggressive",
+    "grouping": "pair",
+    "minGroupSize": 2,
+    "goodWith": [
+      "Barbs (peaceful/medium)",
+      "Medium characins",
+      "Loricariid catfish",
+      "Loaches",
+      "Other medium-to-large gouramis",
+      "Corydoras"
+    ],
+    "avoidWith": [
+      "Other male Blue/Three-Spot Gouramis",
+      "Small fin-nipping fish",
+      "Slow-finned species (bettas, fancy goldfish)",
+      "Very small nano fish",
+      "Dwarf Gourami (size/territory overlap)",
+      "Aggressive cichlids"
+    ]
   },
   "media": {
     "primaryImage": "blue_gourami.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Blue Gourami.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "Hardy labyrinth fish from SE Asia; one of the classic first gouramis. Males tend to be territorial, so a 1M:2F+ ratio in a well-planted 150L+ tank is generally advised.",
+  "careNotes": "The Three-Spot Gourami (*Trichopodus trichopterus*) is widely available under several trade names: the 'Blue Gourami' (silver-blue base color), 'Opaline Gourami' (mottled blue-black marbled pattern), 'Gold Gourami' (yellow-gold morph), and 'Lavender Gourami' (pale pastel morph). The 'Cosby Gourami' is a marbled pattern strain. All are the same biological species sharing identical care requirements.\n\nThe common name 'Three-Spot Gourami' refers to two dark body spots plus the eye, which counts as the third. Wild-type fish display this pattern most clearly.\n\nThis species has been reclassified from *Trichogaster trichopterus* to *Trichopodus trichopterus*; both names appear in older literature and trade.\n\nMale aggression toward conspecifics can range from mild to severe. Males have been known to become increasingly territorial with maturity, and serious injury to females can occur in undersized tanks. A 1M:2F+ ratio with dense planting and visual barriers is generally advised; a 1M:1F pair-only setup in a well-planted 150L tank is workable but requires monitoring. Multiple males are not recommended except in large display tanks (250L+) with heavily broken sight lines.\n\nAs a labyrinth fish, the Blue Gourami breathes atmospheric air at the surface; access to warm, humid air above the waterline is important — cold drafts at the surface have been linked to labyrinth organ inflammation. A tight-fitting lid also addresses the moderate-to-high jump risk.\n\nTemperature notes: SeriouslyFish documents an upper range of 30°C; FishBase and most hobbyist sources agree on 22–28°C. A working range of 22–29°C is used here as a conservative average.\n\npH tolerance is notably wide; this species has been reported to adapt to pH from 5.5 to 8.5 over time, though 6.0–8.0 is the generally advised stable range.\n\ngH notes: SeriouslyFish lists 3–35 dH (very wide); FishBase lists 5–19 dH. A working range of 5–25 dH is used here as an average; the species is genuinely tolerant of a wide hardness range.\n\nThis is considered one of the iconic 'first labyrinth fish' for new aquarists alongside the Dwarf Gourami and Honey Gourami, but its semi-aggressive male temperament makes tankmate selection more important than its beginner rating might suggest.",
+  "breedingNotes": "Males build a floating bubble nest among surface vegetation. Spawning typically involves the male wrapping around the female; eggs (500–1,200 per spawn) are collected by the male and placed in the nest. Eggs hatch in approximately 20–30 hours at typical aquarium temperatures. The male guards the nest; the female should be removed after spawning to prevent harassment. The male is generally removed once fry become free-swimming to prevent predation. Fry are initially very small and have been reported to require infusoria or similarly fine first foods; baby brine shrimp can be introduced after roughly a week. Breeding is generally considered easy for an experienced beginner using a dedicated breeding tank.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "SeriouslyFish",
+      "url": "https://www.seriouslyfish.com/species/trichopodus-trichopterus/",
+      "accessedDate": "2026-06-08",
+      "notes": "Primary source. Full species profile including water parameters, native range, breeding, and compatibility."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Trichopodus-trichopterus.html",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked temperature (22–28°C), pH (6.0–8.0), gH (5–19 dH), adult size (max 15 cm), taxonomy (Osphronemidae / Anabantiformes), and reclassification from Trichogaster. Confirmed native range in Mekong basin."
+      },
+      {
+        "name": "Fishkeeping World",
+        "url": "https://www.fishkeepingworld.com/blue-gourami/",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked temperature (22–28°C), adult size (12.7–15.2 cm), lifespan (~5 years), escape risk (explicit 'sturdy lid' warning), care level (easy/beginner), and compatibility notes. Minimum tank 20 gal (76L) for community — lower than key-data 150L; 150L used for responsible pair-keeping."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
+    "breedingDifficulty": "easy",
+    "breedingNotes": "Bubble-nester; spawns readily in a species or breeding tank with floating plants. 500–1,200 eggs per spawn; eggs hatch in 20–30 hours. Remove female post-spawn; remove male when fry are free-swimming.",
+    "conspecificAggression": "high",
+    "finNippy": false,
     "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
+    "escapeRisk": "high",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
     "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -90,6 +137,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
 }

@@ -3,84 +3,111 @@
   "slug": "archerfish",
   "kind": "fauna",
   "taxon": "fish",
-  "waterType": "freshwater",
+  "waterType": "brackish",
   "commonName": "Archerfish",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "scientificName": "Toxotes jaculatrix",
+  "alsoKnownAs": ["Banded Archerfish", "Spinner"],
   "category": "Oddball",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Toxotidae",
+    "order": "Carangaria"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
-    "depthRangeM": null
+    "regions": ["South Asia", "Southeast Asia", "Oceania"],
+    "countries": ["India", "Myanmar", "Thailand", "Malaysia", "Philippines", "Indonesia", "Papua New Guinea", "Solomon Islands", "Vanuatu", "Australia", "China"],
+    "habitat": "Brackish mangrove estuaries, tidal rivers, coastal lagoons, and the lower reaches of freshwater streams",
+    "biotope": "Mangrove estuary",
+    "depthRangeM": { "min": 0, "max": 3 }
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
-    "kH": null,
-    "salinity": null
+    "temperatureC": { "min": 24, "max": 30 },
+    "pH": { "min": 7.0, "max": 8.5 },
+    "gH": { "min": 10, "max": 25 },
+    "kH": { "min": 5, "max": 15 },
+    "salinity": { "min": 1.005, "max": 1.015 }
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 20, "max": 30 },
+  "lifespanYears": { "min": 5, "max": 10 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 300,
+    "minLengthCm": 120,
+    "swimZone": "top",
+    "decorPreferences": ["mangrove roots", "overhanging vegetation", "floating plants", "tight-fitting lid"],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "advanced",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Primarily insectivorous; in the wild targets terrestrial and aquatic invertebrates knocked from overhanging vegetation by water jets. In captivity tends to accept floating pellets, freeze-dried and live or frozen insects (crickets, mealworms, cockroaches, flies), frozen bloodworm, and brine shrimp. Training to spit at hand-held prey is common practice; live insect enrichment several times weekly encourages natural behaviour."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "semi-aggressive",
+    "grouping": "schooling",
+    "minGroupSize": 4,
+    "goodWith": ["Scats", "Monos", "Bumblebee Gobies", "Green Chromides", "other robust brackish species of similar size"],
+    "avoidWith": ["small fish that may be eaten", "aggressive fin-nippers", "pure freshwater species", "full marine species"]
   },
   "media": {
     "primaryImage": "archerfish.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Archerfish.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "Brackish-water specialist from Indo-Pacific mangroves, famous for spitting water jets up to 2 m to knock insects off overhanging vegetation. Best kept in groups of 4+ in a large brackish setup with a tight lid.",
+  "careNotes": "Brackish conditions (SG 1.005–1.015) are generally considered essential for long-term health; pure freshwater has been reported to cause chronic stress, reduced immunity, and shortened lifespan. Groups of four or more tend to display more natural behaviour and reduce conspecific sparring, though larger individuals may monopolise feeding if size disparity exists. A tightly sealed lid is critical — archerfish have been documented jumping at height and will readily launch water at overhead lights or decorations. Allow 15–20 cm of air space between the water surface and the lid. Overhanging live or artificial vegetation is recommended to encourage spitting behaviour; hand-feeding crickets or mealworms above the water surface is a popular enrichment activity. Water quality should be kept in excellent condition with strong biological filtration and regular partial water changes. The species is sometimes confused in trade with T. chatareus (Clouded Archerfish, which bears smaller, less defined spots) and T. microlepis (Smallscale Archerfish, which has banded rather than spotted markings); care requirements across Toxotes spp. are broadly similar. No confirmed captive breeding reports exist — wild-caught specimens are the trade norm.",
+  "breedingNotes": "Captive breeding has not been documented. It is believed that spawning may require migration to higher-salinity or full marine conditions. Sexually dimorphic characteristics are not reliably known. Aquarists should assume this species is not reproducible in home aquaria.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "SeriouslyFish",
+      "url": "https://www.seriouslyfish.com/species/toxotes-jaculatrix/",
+      "accessedDate": "2026-06-08",
+      "notes": "Primary source; used for size, temperature, pH, tank dimensions, diet, temperament, and native range. Aquarium Co-Op (slice primary) has no dedicated Toxotes jaculatrix care page."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Toxotes-jaculatrix.html",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked adult size (30 cm TL), temperature (25–30°C), and habitat description (brackish mangrove estuaries). Confirmed family Toxotidae."
+      },
+      {
+        "name": "Gensou Premium Aquascaping",
+        "url": "https://gensou.sg/archerfish-care-guide/",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked size (20–25 cm), temperature (24–28°C), pH (7.5–8.0), gH (12–20 dGH), salinity (SG 1.005–1.010), min tank (300L+), lifespan (up to 10 years), escape risk (high), schooling (groups of 4–6)."
+      },
+      {
+        "name": "AquaSnack",
+        "url": "https://aquasnack.co.uk/toxotes-jaculatrix/",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked temperature (24–28°C), pH (7.5–8.5), salinity (SG 1.005–1.015), tank size (55–100 gal / ~208–380L), diet, and escape risk (high). Confirmed brackish requirement."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
-    "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "No confirmed captive breeding; believed to require higher-salinity conditions for spawning. All traded specimens are wild-caught.",
+    "conspecificAggression": "moderate",
+    "finNippy": false,
+    "reefSafe": "no",
+    "escapeRisk": "high",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
     "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": true
   },
   "crustacean": null,
   "coral": null,
@@ -90,6 +117,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
 }

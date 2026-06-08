@@ -1,0 +1,122 @@
+{
+  "id": "fw-fish-059",
+  "slug": "black-arowana",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "freshwater",
+  "commonName": "Black Arowana",
+  "scientificName": "Osteoglossum ferreirai",
+  "alsoKnownAs": ["Black Arawana", "Blue Arowana", "Black/Blue Arowana"],
+  "category": "Oddball",
+  "taxonomy": {
+    "family": "Osteoglossidae",
+    "order": "Osteoglossiformes"
+  },
+  "nativeRange": {
+    "regions": ["South America"],
+    "countries": ["Brazil"],
+    "habitat": "Blackwater flooded forests, slow-moving tannin-stained rivers and floodplains with very soft, acidic water; surface-oriented predator near overhanging vegetation",
+    "biotope": "Blackwater",
+    "depthRangeM": { "min": 0, "max": 5 }
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 24, "max": 29 },
+    "pH": { "min": 4.5, "max": 6.5 },
+    "gH": { "min": 0, "max": 8 },
+    "kH": { "min": 0, "max": 3 },
+    "salinity": null
+  },
+  "adultSizeCm": { "min": 70, "max": 100 },
+  "lifespanYears": { "min": 10, "max": 20 },
+  "tank": {
+    "minVolumeLiters": 2000,
+    "minLengthCm": 270,
+    "swimZone": "top",
+    "decorPreferences": ["open surface swimming space", "long tank footprint prioritized over depth", "tight-fitting heavy cover essential — no gaps", "driftwood and leaf litter to replicate blackwater biotope", "dim lighting or floating plants to diffuse light", "peat or blackwater extract filtration recommended"],
+    "minSandDepthCm": null
+  },
+  "careLevel": "advanced",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Primarily surface predator. Adults tend to accept large floating pellets, frozen krill, silversides, jumbo shrimp, crickets, and mealworms. Juveniles generally do well on bloodworms, brine shrimp, and small live or frozen foods. Feeder fish are best avoided due to disease risk and nutritional imbalance. Mammalian or avian meat (chicken livers, beef heart) should be avoided long-term. Feeding frequency for adults is generally every other day."
+  },
+  "compatibility": {
+    "temperament": "aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["large armored catfish", "large plecos", "large Cichla species", "pacus", "bichirs"],
+    "avoidWith": ["any fish under ~30cm", "shrimp", "snails", "other arowanas", "surface-dwelling fish competing for the same zone"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A striking Rio Negro endemic that is black with bright yellow stripes as a juvenile and transitions to silvery-black as an adult — a strict blackwater specialist requiring 2000L+ with very soft, acidic conditions and an escape-proof cover.",
+  "careNotes": "Black Arowana is a strict blackwater specialist endemic to the Rio Negro basin, Brazil. Unlike the Silver Arowana (Osteoglossum bicirrhosum), which tolerates a wider pH range (5.0–7.5), the Black Arowana is generally considered to require consistently acidic, very soft water (pH 4.5–6.5, gH 0–8, kH 0–3). Keeping it in neutral or hard tap water has been reported to shorten lifespan and cause health problems. Peat filtration, driftwood, and commercial blackwater extracts are widely recommended to maintain appropriate water chemistry.\n\nJuvenile color phase: juveniles are dramatically different in appearance from adults — black body with bright yellow/gold lateral stripes and yellow-tipped fins. This color pattern fades as the fish grows beyond approximately 30cm, transitioning to a silvery-black adult coloration. Juveniles are sometimes sold under the name 'blue arowana' or 'black/blue arowana' due to the iridescent sheen.\n\nEscape risk is extreme: like the Silver Arowana, this species is an extraordinary jumper capable of leaping significant distances to catch prey. A heavy, tight-fitting lid with no gaps is non-negotiable. Even a momentary opening when feeding is a hazard.\n\nAdults are solitary and highly aggressive toward conspecifics. They will consume any fish that fits in their mouth. Community tanks are only feasible in very large setups with large, robust tankmates (armored catfish, large cichlids, pacus).\n\nThe species is not commercially bred in captivity in meaningful numbers; the aquarium trade is almost entirely supplied by wild-collected fry from the Rio Negro. It is considered a strictly Rio Negro endemic — not found in the broader Amazon basin. Compare to Silver Arowana which has a much wider South American distribution.\n\nDropped eye syndrome is a common captivity complaint in arowanas generally; feeding from the surface and avoiding habitual downward-looking behavior reduces risk.\n\nSource note: pH cross-source disagreement was significant. aqua-fish.net and tropicalfreshwaterfish.com give 5.0–7.0; petzonesd gives 6.0–7.5; fishlaboratory gives 6.7–7.5 (this source also erroneously states the species is found in Asia, Australia, and Africa, which applies to Asian Arowana not this species — its pH and range data are unreliable for this species). The user-supplied specialist brief (pH 4.5–6.5) is consistent with the strict blackwater ecology of the Rio Negro and the species' known sensitivity to alkaline conditions. This entry uses pH 4.5–6.5. Temperature range 24–30°C per FishBase and aqua-fish.net; fishlaboratory and petzonesd upper ends of 27–28°C averaged to 29°C used here as upper bound.",
+  "breedingNotes": "Paternal mouthbrooder; males incubate eggs and brood fry orally. Typical brood size is reported as approximately 10–30 fry. Captive breeding has not been reliably documented in home aquaria; the trade is supplied by wild fry collection from the Rio Negro during flood season. Successful breeding would require very large tanks (upward of 4000L) with carefully managed blackwater conditions and simulation of seasonal flood/dry cycles. Eggs are large (~12mm diameter) relative to most freshwater fish.",
+  "sources": {
+    "primary": {
+      "name": "aqua-fish.net",
+      "url": "https://en.aqua-fish.net/fish/black-arowana",
+      "accessedDate": "2026-06-08",
+      "notes": "Used as primary after Aquarium Co-Op had no species page; SeriouslyFish returned 404 for this species. aqua-fish.net provided tank dimensions, pH 5.0–7.0, temperature 24–30°C, hardness 0–12°N, native range (Rio Negro), and care level."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Osteoglossum-ferreirai.html",
+        "accessedDate": "2026-06-08",
+        "notes": "Confirmed scientific name (Osteoglossum ferreirai Kanazawa, 1966), family Osteoglossidae, order Osteoglossiformes, max size 90cm TL, native range Rio Negro basin, temperature 24–30°C."
+      },
+      {
+        "name": "Pet Zone Tropical Fish",
+        "url": "https://www.petzonesd.com/blogblack-arowana-osteoglossum-ferreirai/",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked size (90–120cm wild), lifespan (15–20 years), temperature (24–28°C), pH (6.0–7.5 — wider than used here; specialist brief and ecology favor 4.5–6.5), gH 1–8 dGH, blackwater biotope, diet, and breeding behavior. Minimum tank 300 gal / ~1136L — biased to 2000L per playbook large-predator rule."
+      },
+      {
+        "name": "TropicalFreshwaterFish",
+        "url": "https://tropicalfreshwaterfish.com/species/Osteoglossum_ferreirai.html",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked pH 5.0–7.0, gH 1–10 dH, temperature 24–30°C, adult size 80cm captive / 102cm wild. Native range stated as Rio Branca (tributary of Rio Negro) — consistent with Rio Negro basin."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "No confirmed home-aquarium breeding; wild fry collection supplies the trade. Paternal mouthbrooder with brood of ~10–30 fry.",
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": null,
+    "escapeRisk": "high",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": true,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": true,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
+}

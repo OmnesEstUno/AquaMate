@@ -1,0 +1,131 @@
+{
+  "id": "fw-fish-054",
+  "slug": "american-flagfish",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "freshwater",
+  "commonName": "American Flagfish",
+  "scientificName": "Jordanella floridae",
+  "alsoKnownAs": ["Florida Flagfish", "Flagfish"],
+  "category": "Killifish",
+  "taxonomy": {
+    "family": "Cyprinodontidae",
+    "order": "Cyprinodontiformes"
+  },
+  "nativeRange": {
+    "regions": ["North America"],
+    "countries": ["United States"],
+    "habitat": "Shallow, weedy freshwater habitats — backwaters, marshes, canals, ditches, and slow-moving swampy areas across peninsular Florida",
+    "biotope": "Florida swamp / weedy freshwater",
+    "depthRangeM": null
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 18, "max": 28 },
+    "pH":           { "min": 6.5, "max": 8.5 },
+    "gH":           { "min": 5, "max": 20 },
+    "kH":           { "min": 3, "max": 15 },
+    "salinity":     null
+  },
+  "adultSizeCm": { "min": 4.0, "max": 6.0 },
+  "lifespanYears": null,
+  "tank": {
+    "minVolumeLiters": 75,
+    "minLengthCm": 60,
+    "swimZone": "all",
+    "decorPreferences": [
+      "dense planting with hardy species (java fern, java moss, fast growers)",
+      "open swimming areas",
+      "visual breaks and line-of-sight blockers to reduce male aggression",
+      "floating plants appreciated"
+    ],
+    "minSandDepthCm": null
+  },
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Accepts a wide variety of foods including flakes, pellets, frozen foods (Artemia, Daphnia, bloodworm), and live invertebrates. Heavy plant matter component is important — algae wafers, spirulina flakes, blanched vegetables (zucchini), and gel foods are all recommended. Notably effective at consuming hair algae and black beard algae directly from surfaces."
+  },
+  "compatibility": {
+    "temperament": "semi-aggressive",
+    "grouping": "pair",
+    "minGroupSize": 2,
+    "goodWith": [
+      "zebra danios",
+      "corydoras catfish",
+      "loaches",
+      "livebearers",
+      "robust mid-water community fish"
+    ],
+    "avoidWith": [
+      "fancy-finned fish (bettas, fancy guppies, angelfish)",
+      "dwarf shrimp (cherry shrimp, ghost shrimp) — tend to be preyed upon",
+      "slow or timid fish susceptible to fin-nipping"
+    ]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A hardy North American native killifish from Florida swamps, well known as an effective algae eater (especially hair algae). Males display vivid red, blue, and white flag-like coloration. Best kept as a pair or 1M:2F trio; males tend to be territorial and are generally not suited to tanks with fancy-finned fish.",
+  "careNotes": "The American Flagfish is a native Florida pupfish and one of the few freshwater fish genuinely effective at consuming filamentous algae, including hair algae and black beard algae — a useful addition to planted tanks with algae problems. It is coldwater-tolerant and can be kept in unheated aquariums in temperate climates, though it thrives across a broad 18–28°C range.\n\nMales are conspicuously colored with red, blue, and white markings reminiscent of the US flag, especially vivid during breeding. They are territorial during spawning and can become aggressive toward conspecifics and fin-nipping toward long-finned tankmates. A 1M:2F ratio spread across a 75L+ tank with visual breaks generally moderates aggression adequately. Suitable tankmates are robust, short-finned species such as danios, corydoras, and livebearers.\n\nThis species is NOT recommended for tanks containing fancy guppies, bettas, angelfish, or other long-finned fish — fin-nipping is a documented risk, particularly when the fish are underprovided with territory or companions. Dwarf shrimp tend to be treated as food.\n\nBreeding is relatively straightforward: males form temporary territories and guard eggs (paternal care); eggs hatch in 7–14 days depending on temperature. A tight-fitting lid is advisable as the species has been known to jump.",
+  "breedingNotes": "Fractional spawner that deposits eggs continuously when water temperatures are warm. Males establish and defend territories, and provide paternal care by fanning and guarding the egg mass. Incubation is temperature-dependent, typically 7–14 days. Fry are free-swimming shortly after hatching and accept Artemia nauplii. Best bred in a species-only or pair-only setup, as males can be disruptive to other tank inhabitants during spawning.",
+  "sources": {
+    "primary": {
+      "name": "Aquarium Co-Op",
+      "url": "https://www.aquariumcoop.com/blogs/aquarium/american-flagfish",
+      "accessedDate": "2026-06-08",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "SeriouslyFish",
+        "url": "https://www.seriouslyfish.com/species/jordanella-floridae/",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked size (50–55 mm), temperature (18–30°C), pH (6.5–8.5), hardness (36–357 ppm / ~gH 2–20), tank footprint (60×30 cm base for pair), and breeding behavior. Taxonomy (Cyprinodontiformes / Cyprinodontidae) confirmed."
+      },
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Jordanella-floridae.html",
+        "accessedDate": "2026-06-08",
+        "notes": "Confirmed max TL 6.5 cm, native range (peninsular Florida, St. Johns and Ochlocknee River drainages south), taxonomy, and wild temperature range (18–22°C). FishBase wild temp max is narrower than hobby consensus (30°C); temperature ceiling averaged across all three sources to 28°C."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "easy",
+    "breedingNotes": "Males guard and fan eggs; fractional spawner; fry accept Artemia nauplii upon becoming free-swimming.",
+    "conspecificAggression": "moderate",
+    "finNippy": true,
+    "reefSafe": null,
+    "escapeRisk": "moderate",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
+}

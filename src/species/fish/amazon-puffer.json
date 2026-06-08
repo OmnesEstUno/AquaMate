@@ -1,0 +1,125 @@
+{
+  "id": "fw-fish-053",
+  "slug": "amazon-puffer",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "freshwater",
+  "commonName": "Amazon Puffer",
+  "scientificName": "Colomesus asellus",
+  "alsoKnownAs": ["South American Puffer", "Asellus Puffer"],
+  "category": "Pufferfish",
+
+  "taxonomy": {
+    "family": "Tetraodontidae",
+    "order": "Tetraodontiformes"
+  },
+
+  "nativeRange": {
+    "regions": ["South America"],
+    "countries": ["Brazil", "Colombia", "Peru", "Ecuador", "Guyana", "Venezuela"],
+    "habitat": "River main channels, floodplain lakes, sandbars, and vegetated banks; tends to prefer high-oxygen environments and is not typically found in acidic blackwater systems.",
+    "biotope": "River",
+    "depthRangeM": null
+  },
+
+  "waterParameters": {
+    "temperatureC": { "min": 21, "max": 27 },
+    "pH":           { "min": 5.5, "max": 7.5 },
+    "gH":           { "min": 4, "max": 15 },
+    "kH":           { "min": 3, "max": 10 },
+    "salinity":     null
+  },
+
+  "adultSizeCm":   { "min": 8, "max": 12.8 },
+  "lifespanYears": { "min": 5, "max": 10 },
+
+  "tank": {
+    "minVolumeLiters":  200,
+    "minLengthCm":      120,
+    "swimZone":         "mid",
+    "decorPreferences": ["open swimming space", "sand substrate", "live plants (optional)", "driftwood", "hiding spots"],
+    "minSandDepthCm":   null
+  },
+
+  "careLevel": "intermediate",
+
+  "diet": {
+    "type": "carnivore",
+    "notes": "Snails are essential for wearing down ever-growing fused teeth — without regular hard-shelled prey, teeth can overgrow and impair feeding. Supplement with frozen bloodworms, brine shrimp, chopped mussel, cockle, and earthworms. Aufwuchs and algae may be grazed opportunistically in the wild."
+  },
+
+  "compatibility": {
+    "temperament":  "semi-aggressive",
+    "grouping":     "schooling",
+    "minGroupSize": 4,
+    "goodWith":     ["medium-to-large robust tetras", "cichlids of similar size", "larger catfish"],
+    "avoidWith":    ["small fish", "fin-nipped slow swimmers", "invertebrates (will eat snails used for tooth maintenance if not dosed deliberately)", "other pufferfish species"]
+  },
+
+  "media": {
+    "primaryImage":    null,
+    "gallery":         [],
+    "imageCandidates": null
+  },
+
+  "summary": "The Amazon Puffer is regarded as the only schooling puffer species, best kept in groups of 4 or more. A true freshwater species requiring snails for dental wear and suitably robust, medium-to-large tankmates.",
+
+  "careNotes": "The Amazon Puffer is widely considered the only known schooling puffer species (family Tetraodontidae) — a notable exception in a family otherwise characterized by solitary or territorial behavior. Groups of 4+ are generally advised; SeriouslyFish recommends 6+ for best results, as solitary specimens have been reported to become nervous and stressed. A group of 4–6 in 200 L is a reasonable starting point, with larger tanks preferred for larger groups.\n\nSnails are essential to the husbandry: this species' teeth grow continuously and require regular contact with hard-shelled prey (pond snails, bladder snails, nerite snails) to wear them down. Overgrown teeth are a documented welfare concern and can be trimmed by an experienced keeper, but prevention via regular snail provision is strongly preferred.\n\nThis is a true freshwater species — unlike many puffers in the trade it does not require or benefit from brackish conditions. FishBase notes some coastal freshwater tolerance, but aquarium husbandry sources consistently treat it as strictly freshwater.\n\nThe species is predominantly wild-caught; captive-bred specimens are rare in the trade. Wild imports have been noted to be prone to white spot (ich) and may require extended quarantine. Water quality must be excellent — the species is intolerant of elevated organics.\n\nFin-nipping of smaller or slower tankmates has been documented; avoid housing with small tetras, rasboras, or long-finned varieties. Robust medium-to-large fish are better companions. Tank-raised snails intended for tooth maintenance should be provided in a controlled way to ensure availability; note that the puffer will consume any snail it can find.\n\nWater temperature disagreement between sources: SeriouslyFish (20–26°C) vs FishBase (22–28°C). Averaged to 21–27°C.",
+
+  "breedingNotes": "Captive breeding has not been recorded. In the wild, spawning is reported to occur in main river channels and tributary mouths during high-water periods, with larvae developing in floodplain nursery zones. No practical captive breeding protocol is documented in hobby sources.",
+
+  "sources": {
+    "primary": {
+      "name": "SeriouslyFish",
+      "url": "https://www.seriouslyfish.com/species/colomesus-asellus/",
+      "accessedDate": "2026-06-08",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Colomesus-asellus.html",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked adult size (12.8 cm SL), native range (Amazon basin Peru to Marajó Island, Orinoco/Essequibo basins), water temperature (22–28°C), pH (5.5–7.2), and hardness (5–15 dH). Temperature range averaged with SeriouslyFish (20–26°C) to produce 21–27°C. Aquarium Co-Op (primary in source-urls.json) returned 404; SeriouslyFish promoted to primary."
+      }
+    ]
+  },
+
+  "fish": {
+    "breedingDifficulty":         "not in captivity",
+    "breedingNotes":              "No captive breeding documented. Wild spawning occurs in main channels during high-water season.",
+    "conspecificAggression":      "low",
+    "finNippy":                   true,
+    "reefSafe":                   null,
+    "escapeRisk":                 "low",
+    "venomousSpines":             false,
+    "sexChange":                  "none",
+    "haremic":                    false,
+    "caudalScalpel":              false,
+    "nocturnal":                  false,
+    "juvenileColorPhase":         false,
+    "copperSensitive":            null,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost":       false,
+    "monogamousPairing":          false,
+    "hlleSusceptible":            false,
+    "toxicToTank":                false,
+    "feedingDifficulty":          "difficult",
+    "symbioticShrimpPartner":     false,
+    "mouthbrooder":               false,
+    "constantGrazer":             false,
+    "cleanerFish":                false,
+    "euryhaline":                 false
+  },
+  "crustacean":   null,
+  "coral":        null,
+  "mollusc":      null,
+  "echinoderm":   null,
+  "other-invert": null,
+  "plant":        null,
+  "macroalgae":   null,
+
+  "schemaVersion": 1,
+  "dataStatus":    "researched",
+  "lastReviewed":  "2026-06-08"
+}

@@ -5,82 +5,126 @@
   "taxon": "fish",
   "waterType": "freshwater",
   "commonName": "Zebra Loach",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "scientificName": "Botia striata",
+  "alsoKnownAs": ["Striped Loach"],
   "category": "Loach",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Botiidae",
+    "order": "Cypriniformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
+    "regions": ["Western Ghats", "South Asia"],
+    "countries": ["India"],
+    "habitat": "Rocky streams and rivers with bedrock, boulders, cobbles, and good forest cover; clear, well-oxygenated upland water with moderate flow. Rivers include the Tunga, Bhadra, Koyna, Panchganga, and other tributaries of the Krishna River drainage in Karnataka, Maharashtra, and Andhra Pradesh.",
+    "biotope": "South Asian hill stream",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
-    "kH": null,
+    "temperatureC": { "min": 22, "max": 26 },
+    "pH": { "min": 6.0, "max": 7.5 },
+    "gH": { "min": 5, "max": 12 },
+    "kH": { "min": 3, "max": 10 },
     "salinity": null
   },
-  "adultSizeCm": null,
+  "adultSizeCm": { "min": 7, "max": 9 },
   "lifespanYears": null,
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 120,
+    "minLengthCm": 120,
+    "swimZone": "bottom",
+    "decorPreferences": [
+      "fine sand or smooth rounded gravel substrate",
+      "smooth water-worn rocks and pebbles",
+      "driftwood for cover and shelter",
+      "robust low-light plants (Java fern, Anubias, mosses)",
+      "caves and hiding spots"
+    ],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Accepts a wide variety of sinking foods. Sinking pellets, frozen or live bloodworm, Tubifex, and brine shrimp are generally taken readily. Has been known to eagerly consume snails, small invertebrates, and soft-bodied prey. Blanched vegetables (cucumber, courgette, spinach, melon) can supplement the diet. Broad variety is advisable to meet nutritional needs."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "peaceful",
+    "grouping": "shoaling",
+    "minGroupSize": 5,
+    "goodWith": [
+      "peaceful cyprinids (rasboras, danios, tetras)",
+      "other Botia species",
+      "nemacheilid and cobitid loaches",
+      "mid-water or upper-level community fish",
+      "robust catfish (bristlenose plecos)"
+    ],
+    "avoidWith": [
+      "slow-moving long-finned fish (bettas, fancy guppies, angels)",
+      "very small nano fish that may be outcompeted",
+      "delicate Corydoras (can be pestered)",
+      "ornamental shrimp (snails and small inverts are prey)"
+    ]
   },
   "media": {
     "primaryImage": "zebra_loach.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Zebra Loach.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "A small, sociable loach from the Western Ghats of India, distinguished by bold vertical striping and a gentle temperament. Best kept in groups of five or more in a mature, well-filtered aquarium. IUCN Endangered due to over-collection and habitat loss.",
+  "careNotes": "Zebra Loach (Botia striata) are generally considered one of the more peaceful members of the Botia genus, making them a good choice for community setups when tankmates are chosen carefully. They form complex social hierarchies within the group and tend to exhibit interesting behaviors including 'shadowing' (mimicking the movements of dominant fish), audible clicking sounds, and spirited group activity that hobbyists sometimes call the 'loachy dance'.\n\nA mature, biologically stable aquarium is strongly advisable before adding this species. They tend to be intolerant of organic waste accumulation and do not adapt well to new or cycling tanks. Weekly water changes of 30–50% are generally recommended. Good flow and oxygenation are beneficial.\n\nSub-ocular erectile spines are present and can entangle nets; a soft net or container is preferable when moving these fish. Escape risk is moderate to high — a tightly-fitting lid is advised.\n\nNewly imported specimens have been known to carry 'skinny disease' (nematode or protozoan wasting). Quarantine of new arrivals is recommended.\n\nCONSERVATION NOTE: Botia striata is listed as Endangered (EN) on the IUCN Red List (assessed 2011, criteria B2ab(iii)), threatened by over-collection for the aquarium trade and ongoing habitat degradation across its Western Ghats range. Captive-bred stock is preferred where available; hobbyists are encouraged to source from responsible suppliers. Commercial breeding via hormone induction occurs but captive breeding in home aquaria has not been reliably documented.\n\nCross-reference with sibling species: [clown-loach] is much larger and more demanding; [yoyo-loach] is larger and somewhat more assertive; [dwarf-chain-loach] is smaller and arguably the most peaceful Botia available.",
+  "breedingNotes": "Not reliably documented in home aquaria. Commercial production reportedly uses hormonal induction. Breeding difficulty is rated 'not in captivity' for hobbyist purposes.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "SeriouslyFish",
+      "url": "https://www.seriouslyfish.com/species/botia-striata/",
+      "accessedDate": "2026-06-08",
+      "notes": "Primary species page; detailed habitat, water parameters, tank requirements, compatibility, and behavioral notes."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/SpeciesSummary.php?id=12255",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked adult size (7.8 cm SL), temperature (23–26°C), pH (6.0–8.0), hardness (5–12 dH), IUCN Endangered status, and native range. Temperature minimum raised to 22°C averaging SeriouslyFish (21°C) and FishBase/PFK (23°C) values."
+      },
+      {
+        "name": "Aquarium Co-Op — Top 10 Loaches",
+        "url": "https://www.aquariumcoop.com/blogs/aquarium/loaches",
+        "accessedDate": "2026-06-08",
+        "notes": "Brief species mention confirming 9 cm adult size, 30-gallon (≈114 L) minimum tank, group of 6+, and snail-eating diet. No dedicated species page found."
+      },
+      {
+        "name": "Practical Fishkeeping — Quick guide to loaches",
+        "url": "https://www.practicalfishkeeping.co.uk/features/quick-guide-to-loaches/",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked pH (6.5–7.5) and temperature (23–26°C); confirmed group size minimum of 5. Noted potential incompatibility with Corydoras."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "Not reliably bred in home aquaria; commercial supply relies on hormonal induction.",
+    "conspecificAggression": "low",
+    "finNippy": true,
     "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
-    "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "escapeRisk": "moderate",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": true,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -90,6 +134,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
 }
