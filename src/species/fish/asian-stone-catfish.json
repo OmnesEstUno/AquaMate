@@ -1,0 +1,161 @@
+{
+  "id": "fw-fish-254",
+  "slug": "asian-stone-catfish",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "freshwater",
+  "commonName": "Asian Stone Catfish",
+  "scientificName": "Hara jerdoni",
+  "alsoKnownAs": [
+    "Anchor Catfish",
+    "Jerdon’s Catfish",
+    "Dwarf Anchor Cat"
+  ],
+  "category": "Catfish",
+  "taxonomy": {
+    "family": "Erethistidae",
+    "order": "Siluriformes"
+  },
+  "nativeRange": {
+    "regions": ["South Asia"],
+    "countries": ["India", "Bangladesh"],
+    "habitat": "Clear, cool, fast-flowing hill streams and river tributaries with sandy or fine-gravel substrates and abundant leaf litter, rocks, and submerged woody debris; characteristically found clinging to hard surfaces in the Brahmaputra basin of northeastern India and adjacent Bangladesh",
+    "biotope": "Asian hill stream",
+    "depthRangeM": { "min": 0.1, "max": 1.0 }
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 18, "max": 24 },
+    "pH": { "min": 6.0, "max": 7.5 },
+    "gH": { "min": 2, "max": 12 },
+    "kH": { "min": 1, "max": 8 },
+    "salinity": null
+  },
+  "adultSizeCm": { "min": 2.5, "max": 3.5 },
+  "lifespanYears": { "min": 3, "max": 5 },
+  "tank": {
+    "minVolumeLiters": 30,
+    "minLengthCm": 40,
+    "swimZone": "bottom",
+    "decorPreferences": [
+      "smooth rounded pebbles and fine gravel substrate",
+      "flat stones and slate pieces for resting and camouflage",
+      "leaf litter (Indian almond, oak)",
+      "driftwood and submerged branches",
+      "low-light areas and shaded hiding spots",
+      "gentle or moderate flow powerhead or spray bar"
+    ],
+    "minSandDepthCm": null
+  },
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Micro-predator that primarily accepts live and frozen small invertebrates. Preferred foods include live microworms (Panagrellus redivivus), live or frozen baby brine shrimp (BBS), live daphnia, and small live blackworms. Typically refuses dry prepared foods (pellets, flakes); some individuals may eventually accept high-quality sinking micro-pellets after extended acclimation, but this cannot be relied upon. Targeted spot-feeding with a pipette is often required to ensure food reaches the fish before faster tankmates consume it. Feed daily or every other day at dusk or after lights-out given its nocturnal nature."
+  },
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "shoaling",
+    "minGroupSize": 3,
+    "goodWith": [
+      "small peaceful tetras (ember tetras, chili rasboras)",
+      "microdevario and danio species",
+      "otocinclus catfish",
+      "other small hillstream-adapted fish",
+      "dwarf freshwater shrimp (Neocaridina, Caridina — adults safe; fry risk is low due to small mouth size)",
+      "other Hara jerdoni"
+    ],
+    "avoidWith": [
+      "boisterous or fast-moving fish that outcompete at feeding time",
+      "medium or large fish that may view the catfish as prey",
+      "Hara hara (frequently misidentified as H. jerdoni; mixing creates identification confusion)",
+      "tropical fish requiring warm water above 26°C (incompatible temperature needs)"
+    ]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": [
+      {
+        "url": "https://www.fishbase.se/images/species/Hajed_u0.jpg",
+        "source": "FishBase",
+        "sourceType": "fishbase",
+        "license": "All rights reserved",
+        "notes": "FishBase species image for Hara jerdoni. Confirm availability and permissions before use.",
+        "recommended": true
+      }
+    ]
+  },
+  "summary": "The Asian Stone Catfish is one of the smallest catfishes kept in the hobby, reaching only ~3 cm. A sit-and-wait micro-predator from Brahmaputra hill streams, it demands live micro-foods and cooler, well-oxygenated water. Peaceful with anything too large to eat; best kept in groups.",
+  "careNotes": "Hara jerdoni is the smallest catfish regularly encountered in the aquarium hobby, topping out at roughly 3 cm total length. Its common name ‘Stone Catfish’ refers to its remarkable camouflage and habit of lying motionless against rocks and substrate, where its mottled brown coloration renders it nearly invisible. Despite its diminutive size it is not a beginner fish — the intermediate care rating is driven almost entirely by its demanding diet.\n\nFeeding is the primary challenge. H. jerdoni is a sit-and-wait micro-predator that instinctively responds to live prey movement; most specimens refuse prepared dry foods entirely. Keepers must maintain a steady supply of live microworms, baby brine shrimp (BBS), and daphnia. Spot-feeding with a pipette after lights-out significantly improves food delivery success. Without access to live micro-foods, specimens typically decline and starve within weeks.\n\nThis species requires cool, well-oxygenated, soft-to-moderately-hard water mimicking its native Brahmaputra basin hill streams. Temperatures above 24°C cause chronic stress; an aquarium chiller or cool room may be needed in warm climates. High dissolved oxygen is essential — surface agitation or a gentle powerhead is strongly recommended.\n\nH. jerdoni is frequently confused in the trade with the closely related Hara hara, which is slightly larger and differs in certain morphological details; many animals sold as one species may be the other. Both species share husbandry requirements. Groups of three or more are recommended as solitary specimens may be less active and harder to observe. Due to its small adult size, tankmates must be chosen carefully to avoid predation or feeding competition.",
+  "breedingNotes": "Captive breeding of Hara jerdoni is rarely reported and is considered difficult. In the wild, spawning is assumed to occur in flowing water among stones and leaf litter. Successful captive spawning attempts have involved conditioning pairs or trios on abundant live foods, providing flat stones or PVC caves as spawning sites, and maintaining strong water flow with cool temperatures. Egg counts are low (typically fewer than 20 eggs per spawn). Fry are tiny and require infusoria or the smallest live microworms from hatching. No sustained captive breeding population exists in the hobby.",
+  "sources": {
+    "primary": {
+      "name": "SeriouslyFish — Hara jerdoni",
+      "url": "https://www.seriouslyfish.com/species/hara-jerdoni/",
+      "accessedDate": "2026-06-08",
+      "notes": "Primary source. Provided adult size (~3 cm), temperature range (18–24°C), pH (6.0–7.5), hardness, native range (Brahmaputra basin, NE India and Bangladesh), habitat (hill streams, leaf litter, rocks), diet (live micro-foods, rarely accepts prepared), and compatibility notes."
+    },
+    "additional": [
+      {
+        "name": "FishBase — Hara jerdoni",
+        "url": "https://www.fishbase.se/summary/Hara-jerdoni.html",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked taxonomy (Erethistidae, Siluriformes), adult size, native countries (India, Bangladesh), and habitat descriptors. Confirmed nocturnal, benthic lifestyle."
+      },
+      {
+        "name": "Aquarium Co-Op — Stone Catfish Care",
+        "url": "https://www.aquariumcoop.com/blogs/aquarium/stone-catfish",
+        "accessedDate": "2026-06-08",
+        "notes": "Trade-oriented care overview confirming live food dependency, tank size guidance (minimum 10 gal / ~38 L for groups), group-keeping recommendation, and beginner-caution framing around feeding difficulty."
+      },
+      {
+        "name": "Practical Fishkeeping — Catfish of the month: Hara jerdoni",
+        "url": "https://www.practicalfishkeeping.co.uk/catfish-of-the-month/catfish-of-the-month-hara-jerdoni/",
+        "accessedDate": "2026-06-08",
+        "notes": "Supplementary source covering species identification (H. jerdoni vs H. hara), feeding notes, and biotope setup recommendations including flow and cool temperature requirements."
+      },
+      {
+        "name": "PlanetCatfish — Hara jerdoni (CL-SIS-002)",
+        "url": "https://www.planetcatfish.com/cotm/species.php?species_id=55",
+        "accessedDate": "2026-06-08",
+        "notes": "Specialist catfish hobbyist source. Detailed notes on live-food dependency, group behaviour, confusion with Hara hara in the trade, water temperature sensitivity, and captive breeding difficulty."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "advanced",
+    "breedingNotes": "Captive breeding rarely achieved. Low egg counts, tiny fry requiring infusoria. Requires live-food conditioning, cool flowing water, and spawning sites (flat stones). No established captive breeding line in the trade.",
+    "conspecificAggression": "none",
+    "finNippy": false,
+    "reefSafe": null,
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": true,
+    "juvenileColorPhase": false,
+    "copperSensitive": true,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "difficult",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "hobbyistAdvisory": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": null
+}

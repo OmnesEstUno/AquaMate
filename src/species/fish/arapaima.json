@@ -1,0 +1,167 @@
+{
+  "id": "fw-fish-252",
+  "slug": "arapaima",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "freshwater",
+  "commonName": "Arapaima",
+  "scientificName": "Arapaima gigas",
+  "alsoKnownAs": [
+    "Pirarucu",
+    "Paiche"
+  ],
+  "category": "Large Predatory Fish",
+  "taxonomy": {
+    "family": "Arapaimidae",
+    "order": "Osteoglossiformes"
+  },
+  "nativeRange": {
+    "regions": ["South America"],
+    "countries": ["Brazil", "Peru", "Colombia", "Guyana", "Bolivia"],
+    "habitat": "Large, slow-moving rivers, floodplain lakes (várzea), and seasonally flooded forest pools of the Amazon and Essequibo river basins; shallow, oxygen-poor backwaters where obligate air-breathing is advantageous",
+    "biotope": "Amazon floodplain",
+    "depthRangeM": { "min": 0, "max": 4 }
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 24, "max": 30 },
+    "pH": { "min": 6.0, "max": 7.5 },
+    "gH": { "min": 1, "max": 12 },
+    "kH": { "min": 1, "max": 8 },
+    "salinity": null
+  },
+  "adultSizeCm": { "min": 200, "max": 300 },
+  "lifespanYears": { "min": 20, "max": 40 },
+  "tank": {
+    "minVolumeLiters": 75000,
+    "minLengthCm": 1500,
+    "swimZone": "all",
+    "decorPreferences": [
+      "open unobstructed swimming lanes (adult fish need room to turn)",
+      "minimal hard decor to avoid injury from rapid surface lunges",
+      "subdued lighting to reduce stress",
+      "secure tight-fitting lid or cover (powerful jumpers)",
+      "large smooth substrate — coarse sand or fine gravel"
+    ],
+    "minSandDepthCm": null
+  },
+  "careLevel": "expert",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Apex piscivore in the wild; consumes large live fish, crustaceans, and occasionally terrestrial animals that fall into the water. In public-aquarium settings fed whole fish (tilapia, trout), large prawns, squid, and chunk meats. May be trained to accept dead prey presented on tongs. Juveniles accept live feeder fish and large worms. Feeding 2–3 times per week is typical for adults; overfeeding pollutes large systems rapidly."
+  },
+  "compatibility": {
+    "temperament": "aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": [
+      "very large robust cichlids (with extreme caution, similar size only)",
+      "large stingrays in sufficiently oversized public exhibits",
+      "large plecos as bottom dither (>40 cm)"
+    ],
+    "avoidWith": [
+      "any fish that fits in its mouth — virtually all aquarium fish",
+      "invertebrates",
+      "conspecifics unless in very large paired exhibits with careful monitoring",
+      "slow-moving fish unable to escape ambush"
+    ]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": [
+      {
+        "url": "https://www.fishbase.se/images/species/Araig_u0.jpg",
+        "source": "FishBase",
+        "sourceType": "fishbase",
+        "license": "All rights reserved",
+        "notes": "FishBase species image for Arapaima gigas; shows adult coloration with distinctive red-edged scales on posterior body.",
+        "recommended": true
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Arapaima_gigas.jpg/1280px-Arapaima_gigas.jpg",
+        "source": "Wikimedia Commons",
+        "sourceType": "wikimedia",
+        "license": "CC BY-SA 3.0",
+        "notes": "Large adult specimen photographed in public aquarium; good dorsal profile showing scale pattern and body shape.",
+        "recommended": false
+      }
+    ]
+  },
+  "summary": "One of the world’s largest freshwater fish, reaching 2–3 m and over 200 kg. An obligate air-breather surfacing every 5–20 minutes. CITES Appendix II. Restricted to public aquariums; unsuitable for any home setup.",
+  "careNotes": "The Arapaima (Arapaima gigas) is one of the largest strictly freshwater fish on Earth, routinely documented at 2–3 metres and exceeding 200 kg in the wild. It is an obligate air-breather, possessing a highly vascularised swim bladder that functions as a lung; specimens must surface every 5–20 minutes to gulp air and will drown if prevented from doing so. This physiological trait evolved as an adaptation to the seasonally hypoxic várzea floodplains of the Amazon basin.\n\nA 2013 systematic revision by Stewart split the formerly monotypic A. gigas into four species: A. gigas, A. agassizii, A. leptosoma, and A. arapaima. Most public-aquarium specimens predate this revision and may represent any of these taxa; genetic and morphological confirmation is often lacking.\n\nArapaima are listed on CITES Appendix II since 1975, meaning all international trade requires permits. They are a critical food fish in Brazil and Peru, where regulated aquaculture programmes produce them commercially. Wild populations have been severely reduced by overfishing; the species is assessed as Vulnerable by the IUCN.\n\nIn public-aquarium settings, Arapaima require enormous purpose-built exhibits — typically hundreds of thousands of litres — with very long unobstructed swim lanes. They are powerful jumpers and will clear any uncovered tank. Water temperature should be maintained at 24–30°C; pH 6.0–7.5 reflecting soft Amazonian blackwater and whitewater conditions. They are extremely sensitive to handling and netting; large specimens require sedation for any veterinary procedure. Keepers must stand well clear during feeding, as Arapaima strike with explosive force. Life expectancy exceeds 30 years in managed care.",
+  "breedingNotes": "Arapaima are seasonal breeders tied to the Amazon flood cycle, typically spawning at the start of the dry season (March–May) when water levels begin to drop. Pairs construct a nest depression in sandy substrate in shallow water and provide biparental nest guarding. Eggs hatch in 2–3 days; both parents actively defend the fry school, which clusters near the male’s head, apparently attracted by a pheromone secreted from glands near the head. Breeding in captivity has been achieved at select public institutions with very large shallow exhibits and matched pairs, but is considered extremely difficult to replicate. Aquaculture facilities in Brazil and Peru breed Arapaima at scale for food production, using large earthen ponds that approximate flood-cycle cues.",
+  "sources": {
+    "primary": {
+      "name": "FishBase — Arapaima gigas",
+      "url": "https://www.fishbase.se/summary/Arapaima-gigas.html",
+      "accessedDate": "2026-06-08",
+      "notes": "Primary reference. Adult size to 300 cm TL, weight to 200 kg; temperature 24–30°C; pH 6.0–7.5; native range (Amazon and Essequibo basins); obligate air-breather biology; CITES Appendix II status; lifespan data; taxonomy (Arapaimidae, Osteoglossiformes). Stewart 2013 multi-species revision noted."
+    },
+    "additional": [
+      {
+        "name": "SeriouslyFish — Arapaima gigas",
+        "url": "https://www.seriouslyfish.com/species/arapaima-gigas/",
+        "accessedDate": "2026-06-08",
+        "notes": "Detailed species account confirming obligate air-breathing physiology, floodplain habitat (várzea), piscivore diet, breeding behaviour (biparental nest guarding, pheromone fry attraction), CITES II, and Stewart 2013 taxonomy revision. Tank requirements confirm no home-aquarium suitability."
+      },
+      {
+        "name": "Aquarium Co-Op — Arapaima Fish: The Largest Freshwater Fish in the World",
+        "url": "https://www.aquariumcoop.com/blogs/aquarium/arapaima",
+        "accessedDate": "2026-06-08",
+        "notes": "Hobbyist-oriented overview confirming adult size (2–3 m, 200+ kg), obligate air-breathing (surface every 5–20 min), piscivore diet, aggressive temperament, public-aquarium-only suitability, and CITES Appendix II regulatory status."
+      },
+      {
+        "name": "Practical Fishkeeping — Arapaima gigas species profile",
+        "url": "https://www.practicalfishkeeping.co.uk/features/arapaima-gigas/",
+        "accessedDate": "2026-06-08",
+        "notes": "Species profile confirming extreme adult size, public-aquarium requirements, air-breathing biology, floodplain ecology, feeding on whole fish, CITES listing, and aquaculture use in South America. Corroborated breeding behaviour and long lifespan (30+ years)."
+      },
+      {
+        "name": "CITES species database — Arapaima gigas",
+        "url": "https://cites.org/eng/app/appendices.php",
+        "accessedDate": "2026-06-08",
+        "notes": "Confirms Arapaima gigas listing on CITES Appendix II since 1975 (all international commercial trade requires export and import permits). Relevant for hobbyist advisory regulatory basis."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "Breeding achieved only at select public institutions with very large shallow exhibits matched to flood-cycle seasonality. Biparental: pair constructs sand nest, male guards and herds fry school; pheromone secretion from cephalic glands attracts fry to the male’s head. Commercial aquaculture breeding uses large earthen ponds in Brazil and Peru. Not reproducible in standard aquarium conditions.",
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": null,
+    "escapeRisk": "high",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": true,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "difficult",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "hobbyistAdvisory": {
+    "level": "public-aquarium-only",
+    "reason": "One of the world’s largest freshwater fish, reaching 2–3 meters and 200+ kg. Public-aquarium installations only. CITES Appendix II since 1975; trade regulated. Threatened by overfishing in native Amazon range."
+  },
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": null
+}

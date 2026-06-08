@@ -1,0 +1,168 @@
+{
+  "id": "fw-fish-238",
+  "slug": "walking-catfish",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "freshwater",
+  "commonName": "Walking Catfish",
+  "scientificName": "Clarias batrachus",
+  "alsoKnownAs": [
+    "Clarias Catfish",
+    "Broadhead Catfish",
+    "Whitespotted Walking Catfish"
+  ],
+  "category": "Catfish",
+  "taxonomy": {
+    "family": "Clariidae",
+    "order": "Siluriformes"
+  },
+  "nativeRange": {
+    "regions": ["Southeast Asia", "South Asia"],
+    "countries": ["Thailand", "Myanmar", "Laos", "Cambodia", "Vietnam", "Malaysia", "Indonesia", "India", "Sri Lanka", "Bangladesh"],
+    "habitat": "Slow-moving or stagnant lowland waters: ponds, swamps, rice paddies, flooded fields, rivers, and canals; tolerates low-oxygen environments via air-breathing organ",
+    "biotope": "Tropical lowland swamp",
+    "depthRangeM": { "min": 0, "max": 2 }
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 22, "max": 28 },
+    "pH": { "min": 6.0, "max": 8.0 },
+    "gH": { "min": 5, "max": 20 },
+    "kH": { "min": 3, "max": 12 },
+    "salinity": null
+  },
+  "adultSizeCm": { "min": 30.0, "max": 60.0 },
+  "lifespanYears": { "min": 8, "max": 15 },
+  "tank": {
+    "minVolumeLiters": 500,
+    "minLengthCm": 180,
+    "swimZone": "bottom",
+    "decorPreferences": [
+      "large caves or PVC pipe hides proportionate to adult size",
+      "robust or artificial plants (will uproot live plants)",
+      "smooth substrate (sand or fine gravel) — scaleless belly is abrasion-sensitive",
+      "very secure tight-fitting lid (walks out of open tanks)",
+      "subdued lighting with plenty of cover"
+    ],
+    "minSandDepthCm": 5
+  },
+  "careLevel": "advanced",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Voracious opportunistic predator and scavenger; in the wild eats fish, frogs, invertebrates, and organic detritus. In captivity accepts large sinking pellets, carnivore sticks, earthworms, cut fish, shrimp, mussel, and other meaty foods. Will attempt to consume any tankmate small enough to fit in its mouth. Feed sparingly — becomes obese easily. Avoid feeder goldfish (thiaminase risk)."
+  },
+  "compatibility": {
+    "temperament": "aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": [
+      "similarly sized robust catfish of comparable size (with caution)",
+      "large cichlids above 30 cm (with caution and ample space)"
+    ],
+    "avoidWith": [
+      "any fish small enough to be eaten (virtually all community fish)",
+      "invertebrates (will be consumed)",
+      "plants (will be uprooted and may be eaten)",
+      "conspecifics in confined spaces (territorial and cannibalistic)",
+      "copper-treated systems (scaleless; copper highly toxic)"
+    ]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": [
+      {
+        "url": "https://www.fishbase.se/images/species/Clbat_u2.jpg",
+        "source": "FishBase",
+        "sourceType": "fishbase",
+        "license": "All rights reserved",
+        "notes": "Standard FishBase species photo; typical wild-type brown colouration with pale lateral spots.",
+        "recommended": true
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Clarias_batrachus.jpg/1200px-Clarias_batrachus.jpg",
+        "source": "Wikimedia Commons",
+        "sourceType": "wikimedia",
+        "license": "CC BY-SA 3.0",
+        "notes": "Clear lateral view of adult specimen; good detail of flattened head and barbels.",
+        "recommended": false
+      }
+    ]
+  },
+  "summary": "The Walking Catfish is a large (60 cm+), air-breathing predatory catfish from Southeast Asia, capable of ‘walking’ overland on its pectoral spines. Established as an invasive species across Florida and banned in many US states. Scaleless and copper-sensitive. Specialist-only; legally restricted in numerous jurisdictions.",
+  "careNotes": "The Walking Catfish is one of the most notorious invasive fish species in the United States, having established wild populations throughout Florida following aquarium releases in the 1960s. It is currently banned for import, sale, or possession in Florida, Hawaii, and several other US states, as well as being restricted in various countries. Prospective keepers must verify local legality before acquisition.\n\nThis species possesses a suprabranchial accessory breathing organ that functions analogously to a labyrinth organ, allowing it to breathe atmospheric air and survive in severely hypoxic water or even out of water for extended periods (hours to days in humid conditions). This same adaptation enables it to ‘walk’ across damp land using its strong, spiny pectoral fins to lever itself forward — escaping open-top tanks is a serious and well-documented hazard. A very heavy, tight-fitting lid with no gaps is non-negotiable.\n\nAdult size reaches 30–60 cm (occasionally reported larger in optimal conditions), requiring a tank of at least 500 L with a 180 cm footprint. It is entirely scaleless, making it highly sensitive to copper-based medications — any copper treatments in a shared system can be lethal. Substrate should be soft sand or fine smooth gravel to prevent abrasion of the unprotected belly.\n\nIt is an ambush predator and voracious scavenger. Any fish, crustacean, or invertebrate small enough to be swallowed will be eaten. Even similarly-sized conspecifics carry cannibalism risk in confined quarters. This is effectively a species-only specimen fish requiring an advanced keeper with a very large, dedicated setup.",
+  "breedingNotes": "Clarias batrachus has been bred in aquaculture extensively across Asia for food production, but captive breeding in hobbyist aquaria is extremely rare and not practical in a home setting. In the wild, spawning is triggered by the onset of the monsoon season; males guard nests in flooded vegetation. Hormonal injection (HCG or carp pituitary extract) is routinely used in commercial aquaculture to induce spawning. Captive hobbyist breeding is not realistically achievable without specialist aquaculture facilities; rate this as not feasible in a home aquarium context.",
+  "sources": {
+    "primary": {
+      "name": "SeriouslyFish — Clarias batrachus",
+      "url": "https://www.seriouslyfish.com/species/clarias-batrachus/",
+      "accessedDate": "2026-06-08",
+      "notes": "Primary source. Provided adult size (to 60 cm), temperature range, pH, hardness, native range, diet, air-breathing organ biology, and invasive-status notes for Florida and other regions."
+    },
+    "additional": [
+      {
+        "name": "FishBase — Clarias batrachus",
+        "url": "https://www.fishbase.se/summary/Clarias-batrachus.html",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked taxonomy (Clariidae, Siluriformes), adult size (to 60 cm TL), temperature (22–28°C), native range countries, and confirmed obligate air-breather status. Lifespan and invasive range data also referenced."
+      },
+      {
+        "name": "Aquarium Co-Op — Walking Catfish Care Guide",
+        "url": "https://www.aquariumcoop.com/blogs/aquarium/walking-catfish",
+        "accessedDate": "2026-06-08",
+        "notes": "Hobbyist-facing care summary. Confirmed escape risk, copper sensitivity (scaleless), tank size requirements, diet recommendations, and specialist-only designation."
+      },
+      {
+        "name": "USGS Nonindigenous Aquatic Species — Clarias batrachus",
+        "url": "https://nas.er.usgs.gov/queries/factsheet.aspx?SpeciesID=527",
+        "accessedDate": "2026-06-08",
+        "notes": "US Geological Survey invasive species database. Documents established Florida populations, history of aquarium-trade introductions beginning 1960s, and state-level legal restrictions across Florida, Hawaii, and other states."
+      },
+      {
+        "name": "Practical Fishkeeping — Walking Catfish profile",
+        "url": "https://www.practicalfishkeeping.co.uk/features/walking-catfish/",
+        "accessedDate": "2026-06-08",
+        "notes": "UK hobbyist source. Confirmed care level (advanced/specialist), walking behaviour via pectoral spines, air-breathing organ description, minimum tank footprint guidance, and legal-restriction advisory."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "Commercially bred via hormonal induction in Asian aquaculture but not feasibly reproducible in home aquaria. Monsoon-triggered spawning behaviour; male nest-guards in flooded vegetation. Home hobbyist breeding is not realistically achievable.",
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": null,
+    "escapeRisk": "high",
+    "venomousSpines": true,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": true,
+    "juvenileColorPhase": false,
+    "copperSensitive": true,
+    "speciesOnlyTankRecommended": true,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "hobbyistAdvisory": {
+    "level": "legally-restricted",
+    "reason": "Established invasive in Florida; import/possession banned in many US states (e.g., Florida, Hawaii) and globally. Reaches 60+ cm; obligate air-breather capable of crossing dry land between bodies of water."
+  },
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": null
+}
