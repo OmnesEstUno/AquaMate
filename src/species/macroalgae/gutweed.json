@@ -6,7 +6,11 @@
   "waterType": "saltwater",
   "commonName": "Gutweed",
   "scientificName": "Ulva intestinalis",
-  "alsoKnownAs": ["Green Bait Weed", "Grass Kelp", "Enteromorpha intestinalis"],
+  "alsoKnownAs": [
+    "Green Bait Weed",
+    "Grass Kelp",
+    "Enteromorpha intestinalis"
+  ],
   "category": "Macroalgae",
   "taxonomy": {
     "family": "Ulvaceae",
@@ -22,27 +26,52 @@
       "Bering Sea / North Pacific"
     ],
     "countries": [
-      "United States", "Japan", "Korea", "Russia", "Mexico",
-      "Philippines", "Israel", "New Zealand", "United Kingdom"
+      "United States",
+      "Japan",
+      "Korea",
+      "Russia",
+      "Mexico",
+      "Philippines",
+      "Israel",
+      "New Zealand",
+      "United Kingdom"
     ],
     "habitat": "Intertidal and shallow subtidal rocky and sandy shores; estuaries, tide pools, and brackish coastal waters; tolerant of wide salinity fluctuations",
     "biotope": "Estuary",
-    "depthRangeM": { "min": 0, "max": 10 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 10
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 10, "max": 28 },
-    "pH": { "min": 7.5, "max": 8.4 },
+    "temperatureC": {
+      "min": 10,
+      "max": 28
+    },
+    "pH": {
+      "min": 7.5,
+      "max": 8.4
+    },
     "gH": null,
     "kH": null,
-    "salinity": { "min": 1.005, "max": 1.026 }
+    "salinity": {
+      "min": 1.005,
+      "max": 1.026
+    }
   },
-  "adultSizeCm": { "min": 10, "max": 30 },
+  "adultSizeCm": {
+    "min": 10,
+    "max": 30
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 40,
     "minLengthCm": null,
     "swimZone": null,
-    "decorPreferences": ["refugium with moderate tumbling flow", "live rock anchor point"],
+    "decorPreferences": [
+      "refugium with moderate tumbling flow",
+      "live rock anchor point"
+    ],
     "minSandDepthCm": null
   },
   "careLevel": "beginner",
@@ -51,7 +80,15 @@
     "temperament": "peaceful",
     "grouping": "solitary",
     "minGroupSize": null,
-    "goodWith": ["tangs", "rabbitfish", "herbivorous fish", "hermit crabs", "snails", "shrimp", "copepods"],
+    "goodWith": [
+      "tangs",
+      "rabbitfish",
+      "herbivorous fish",
+      "hermit crabs",
+      "snails",
+      "shrimp",
+      "copepods"
+    ],
     "avoidWith": []
   },
   "media": {
@@ -81,6 +118,12 @@
         "url": "https://www.algaebarn.com/shop/macroalgae/clean-sea-lettuce/",
         "accessedDate": "2026-06-08",
         "notes": "Cross-reference for Ulva genus husbandry: confirms fast growth, refugium placement, high nutrient uptake, herbivore food value, shallow rocky reef habitat. Water parameters for U. intestinalis inferred at genus level — brackish tolerance differentiated from U. lactuca based on Wikipedia ecological data."
+      },
+      {
+        "name": "Mosaic Macros general macroalgae care guide",
+        "url": "https://mosaicmacros.com/blogs/macroalgae-care-sheets-compatibility/macroalgae-care-the-basics-of-keeping-macroalgae-in-your-reef",
+        "accessedDate": "2026-06-08",
+        "notes": "Slice-wide secondary source — provides authoritative Mosaic-wide parameter targets (temp 22-26°C, pH 8.1-8.4, Ca 400-450 ppm, Mg 1250-1350 ppm, NO3 5-20 ppm, PO4 0.02-0.1 ppm) and the 4-method propagation standard. Added retroactively 2026-06-08."
       }
     ]
   },
@@ -97,7 +140,12 @@
     "form": "macroalgae",
     "placement": "refugium",
     "nutrientUptake": "high",
-    "propagation": ["fragmentation", "gametophyte-sporophyte alternation"]
+    "propagation": [
+      "fragmentation",
+      "wedging",
+      "zip-tie/fishing line",
+      "gametophyte-sporophyte alternation"
+    ]
   },
   "schemaVersion": 1,
   "dataStatus": "researched",

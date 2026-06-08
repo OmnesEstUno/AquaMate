@@ -13,26 +13,52 @@
     "order": "Bryopsidales"
   },
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Caribbean", "Tropical Atlantic"],
+    "regions": [
+      "Indo-Pacific",
+      "Caribbean",
+      "Tropical Atlantic"
+    ],
     "countries": [],
     "habitat": "Tropical reef environments including lagoons, backreefs, and fore-reef slopes; typically anchored in sandy or rubble substrates with holdfast. Found throughout the photic zone in warm tropical seas.",
     "biotope": "Reef",
-    "depthRangeM": { "min": 1, "max": 30 }
+    "depthRangeM": {
+      "min": 1,
+      "max": 30
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 27 },
-    "pH": { "min": 8.1, "max": 8.3 },
+    "temperatureC": {
+      "min": 24,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.3
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.023, "max": 1.026 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.023,
+      "max": 1.026
+    }
   },
-  "adultSizeCm": { "min": 2.5, "max": 15 },
+  "adultSizeCm": {
+    "min": 2.5,
+    "max": 15
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 40,
     "minLengthCm": null,
     "swimZone": null,
-    "decorPreferences": ["rockwork anchor point or sandy substrate for holdfast", "stable placement away from strong direct flow", "open display area with strong overhead lighting"],
+    "decorPreferences": [
+      "rockwork anchor point or sandy substrate for holdfast",
+      "stable placement away from strong direct flow",
+      "open display area with strong overhead lighting"
+    ],
     "minSandDepthCm": 5
   },
   "careLevel": "advanced",
@@ -41,8 +67,17 @@
     "temperament": "peaceful",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["peaceful reef fish", "snails", "hermit crabs", "shrimp", "corals"],
-    "avoidWith": ["large herbivorous fish such as tangs that may graze heavily", "urchins that may dislodge the holdfast"]
+    "goodWith": [
+      "peaceful reef fish",
+      "snails",
+      "hermit crabs",
+      "shrimp",
+      "corals"
+    ],
+    "avoidWith": [
+      "large herbivorous fish such as tangs that may graze heavily",
+      "urchins that may dislodge the holdfast"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -65,6 +100,12 @@
         "url": "https://en.wikipedia.org/wiki/Halimeda",
         "accessedDate": "2026-06-08",
         "notes": "Taxonomy verification: family Halimedaceae, order Bryopsidales, class Ulvophyceae. Distribution: tropical globally, lagoons and backreefs. CaCO3 production data for genus (H. opuntia up to 54.37 g CaCO3 m⁻¹ yr⁻¹). AlgaeBase was inaccessible (CAPTCHA blocks) — Wikipedia used as taxonomy fallback per playbook."
+      },
+      {
+        "name": "Mosaic Macros general macroalgae care guide",
+        "url": "https://mosaicmacros.com/blogs/macroalgae-care-sheets-compatibility/macroalgae-care-the-basics-of-keeping-macroalgae-in-your-reef",
+        "accessedDate": "2026-06-08",
+        "notes": "Slice-wide secondary source — provides authoritative Mosaic-wide parameter targets (temp 22-26°C, pH 8.1-8.4, Ca 400-450 ppm, Mg 1250-1350 ppm, NO3 5-20 ppm, PO4 0.02-0.1 ppm) and the 4-method propagation standard. Added retroactively 2026-06-08."
       }
     ]
   },
@@ -81,7 +122,12 @@
     "form": "calcareous",
     "placement": "display",
     "nutrientUptake": "low",
-    "propagation": ["fragmentation"]
+    "propagation": [
+      "fragmentation",
+      "wedging",
+      "zip-tie/fishing line",
+      "sand-bed"
+    ]
   },
   "schemaVersion": 1,
   "dataStatus": "researched",

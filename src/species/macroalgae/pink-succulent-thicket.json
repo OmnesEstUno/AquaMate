@@ -8,72 +8,95 @@
   "scientificName": "Galaxaura oblongata",
   "alsoKnownAs": [],
   "category": "Macroalgae",
-
   "taxonomy": {
     "family": "Galaxauraceae",
     "order": "Nemaliales"
   },
-
   "nativeRange": {
-    "regions": ["Caribbean", "Tropical Atlantic"],
+    "regions": [
+      "Caribbean",
+      "Tropical Atlantic"
+    ],
     "countries": [],
     "habitat": "Shallow to subtidal reef zones on rocky and rubble substrate; photic zone",
     "biotope": "Marine reef",
-    "depthRangeM": { "min": 0, "max": 30 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 30
+    }
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 24.0, "max": 27.0 },
-    "pH":           { "min": 8.1, "max": 8.4 },
-    "gH":           null,
-    "kH":           { "min": 8, "max": 12 },
-    "salinity":     { "min": 1.023, "max": 1.026 }
+    "temperatureC": {
+      "min": 24,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.023,
+      "max": 1.026
+    }
   },
-
-  "adultSizeCm":   { "min": 2.5, "max": 12.5 },
+  "adultSizeCm": {
+    "min": 2.5,
+    "max": 12.5
+  },
   "lifespanYears": null,
-
   "tank": {
     "minVolumeLiters": 40,
-    "minLengthCm":     null,
-    "swimZone":        null,
-    "decorPreferences": ["live rock", "rubble substrate", "high-light placement", "stable medium flow", "open placement for light access"],
-    "minSandDepthCm":  null
+    "minLengthCm": null,
+    "swimZone": null,
+    "decorPreferences": [
+      "live rock",
+      "rubble substrate",
+      "high-light placement",
+      "stable medium flow",
+      "open placement for light access"
+    ],
+    "minSandDepthCm": null
   },
-
   "careLevel": "advanced",
-
   "diet": null,
-
   "compatibility": {
-    "temperament":  "peaceful",
-    "grouping":     "solitary",
+    "temperament": "peaceful",
+    "grouping": "solitary",
     "minGroupSize": null,
-    "goodWith":     ["reef fish", "corals", "non-herbivorous invertebrates"],
-    "avoidWith":    ["tangs", "rabbitfish", "sea urchins", "herbivorous fish"]
+    "goodWith": [
+      "reef fish",
+      "corals",
+      "non-herbivorous invertebrates"
+    ],
+    "avoidWith": [
+      "tangs",
+      "rabbitfish",
+      "sea urchins",
+      "herbivorous fish"
+    ]
   },
-
   "media": {
     "primaryImage": null,
-    "gallery":      [],
+    "gallery": [],
     "imageCandidates": [
       {
-        "url":         "https://mosaicmacros.com/cdn/shop/files/IMG-2519.jpg",
-        "source":      "Mosaic Macros",
-        "sourceType":  "research-site",
-        "license":     "All rights reserved",
-        "notes":       "Primary product photo from Mosaic Macros listing — sole hobby source for this species",
+        "url": "https://mosaicmacros.com/cdn/shop/files/IMG-2519.jpg",
+        "source": "Mosaic Macros",
+        "sourceType": "research-site",
+        "license": "All rights reserved",
+        "notes": "Primary product photo from Mosaic Macros listing — sole hobby source for this species",
         "recommended": true
       }
     ]
   },
-
   "summary": "Rare calcareous red macroalgae (Galaxauraceae) with thick, upright reddish-pink branching fronds in a spherical growth form; distinguished from sibling G. rugosa by its more open, succulent-looking branches. Available almost exclusively through Mosaic Macros; demands stable calcium, alkalinity, and high light.",
-
-  "careNotes": "Pink Succulent Thicket is a calcareous red macroalgae in the genus Galaxaura (family Galaxauraceae, order Nemaliales, class Florideophyceae, division Rhodophyta). It is sold under the scientific name Galaxaura oblongata by Mosaic Macros, who describe its thick upright branching form as notably distinct from the more compact growth of the related Galaxaura rugosa ('Tubular Thicket'). The thallus is reddish-pink and grows in a broadly spherical arrangement of succulent-looking branches, reaching approximately 2.5–12.5 cm depending on the cutting; Mosaic sells it in 1–2.5\" plug cuts and 5\"+ larger portions. As a fully calcified red alga, G. oblongata deposits calcium carbonate into its thallus; stable calcium (generally advised around 400–450 ppm) and magnesium (around 1250–1350 ppm) are considered important for long-term health and are extrapolated from family-level Galaxauraceae husbandry since no species-specific aquarium data exist. Standard reef parameters are advised: SG 1.023–1.026, temperature 24–27°C, pH 8.1–8.4, kH 8–12 dKH. High lighting tends to be beneficial for this growth form; placement in a well-lit area of the display tank is commonly recommended for calcified red macroalgae. Growth rate is generally slow, consistent with the metabolic cost of skeletal calcification. Propagation in the aquarium is typically by fragmentation of the branching thallus. Mosaic Macros notes this species is sensitive to shipping and does not cover it under their live arrival guarantee unless shipped via UPS 2-Day Express or faster. Mosaic Macros is currently the sole documented hobby source; no AlgaeBarn or Top Shelf Aquatics listing was found. Care data are extrapolated from genus- and family-level knowledge of Galaxauraceae and comparison with sibling specimens Galaxaura sp. ('Bramble Thicket', sw-algae-020) and Dichotomaria marginata ('Flat-Branched Pink Thicket', sw-algae-041); individual results may vary. Caribbean distribution is inferred from the family's known range and consistent with other aquarium Galaxauraceae specimens; the exact regional provenance of aquarium specimens may vary.",
-
+  "careNotes": "Pink Succulent Thicket is a calcareous red macroalgae in the genus Galaxaura (family Galaxauraceae, order Nemaliales, class Florideophyceae, division Rhodophyta). It is sold under the scientific name Galaxaura oblongata by Mosaic Macros, who describe its thick upright branching form as notably distinct from the more compact growth of the related Galaxaura rugosa ('Tubular Thicket'). The thallus is reddish-pink and grows in a broadly spherical arrangement of succulent-looking branches, reaching approximately 2.5–12.5 cm depending on the cutting; Mosaic sells it in 1–2.5\" plug cuts and 5\"+ larger portions. As a fully calcified red alga, G. oblongata deposits calcium carbonate into its thallus; stable calcium (generally advised around 400–450 ppm) and magnesium (around 1250–1350 ppm) are considered important for long-term health and are extrapolated from family-level Galaxauraceae husbandry since no species-specific aquarium data exist. Standard reef parameters are advised: SG 1.023–1.026, temperature 24–27°C, pH 8.1–8.4, kH 8–12 dKH. High lighting tends to be beneficial for this growth form; placement in a well-lit area of the display tank is commonly recommended for calcified red macroalgae. Growth rate is generally slow, consistent with the metabolic cost of skeletal calcification. Propagation in the aquarium is typically by fragmentation of the branching thallus. Mosaic Macros notes this species is sensitive to shipping and does not cover it under their live arrival guarantee unless shipped via UPS 2-Day Express or faster. Mosaic Macros is currently the sole documented hobby source; no AlgaeBarn or Top Shelf Aquatics listing was found. Care data are extrapolated from genus- and family-level knowledge of Galaxauraceae and comparison with sibling specimens Galaxaura sp. ('Bramble Thicket', sw-algae-020) and Dichotomaria marginata ('Flat-Branched Pink Thicket', sw-algae-041); individual results may vary. Caribbean distribution is inferred from the family's known range and consistent with other aquarium Galaxauraceae specimens; the exact regional provenance of aquarium specimens may vary. Per Mosaic care guide guidance: as a red or brown alga, this species will MELT at the base if buried in sand — attach to rock via superglue, zip-tie/fishing line, or wedging instead. (Sand-bed acceptance per Mosaic is limited to Caulerpa, Halimeda, Penicillus, Rhipocephalus, and Udotea genera, plus some calcified Dasycladales.)",
   "breedingNotes": null,
-
   "sources": {
     "primary": {
       "name": "Mosaic Macros",
@@ -93,26 +116,34 @@
         "url": "https://mosaicmacros.com/products/flat-branched-pink-thicket-dichomaria-marginata",
         "accessedDate": "2026-06-08",
         "notes": "Sister genus Dichotomaria marginata (Galaxauraceae). Used for family-level husbandry extrapolation, lighting (high), and Caribbean distribution confirmation."
+      },
+      {
+        "name": "Mosaic Macros general macroalgae care guide",
+        "url": "https://mosaicmacros.com/blogs/macroalgae-care-sheets-compatibility/macroalgae-care-the-basics-of-keeping-macroalgae-in-your-reef",
+        "accessedDate": "2026-06-08",
+        "notes": "Slice-wide secondary source — provides authoritative Mosaic-wide parameter targets (temp 22-26°C, pH 8.1-8.4, Ca 400-450 ppm, Mg 1250-1350 ppm, NO3 5-20 ppm, PO4 0.02-0.1 ppm) and the 4-method propagation standard. Added retroactively 2026-06-08."
       }
     ]
   },
-
-  "fish":        null,
-  "crustacean":  null,
-  "coral":       null,
-  "mollusc":     null,
-  "echinoderm":  null,
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
   "other-invert": null,
-  "plant":       null,
+  "plant": null,
   "macroalgae": {
-    "lighting":       "high",
-    "growthRate":     "slow",
-    "form":           "calcareous",
-    "placement":      "display",
+    "lighting": "high",
+    "growthRate": "slow",
+    "form": "calcareous",
+    "placement": "display",
     "nutrientUptake": "low",
-    "propagation":    ["fragmentation"]
+    "propagation": [
+      "fragmentation",
+      "wedging",
+      "zip-tie/fishing line"
+    ]
   },
-
   "schemaVersion": 1,
   "dataStatus": "researched",
   "lastReviewed": "2026-06-08"

@@ -6,53 +6,87 @@
   "waterType": "saltwater",
   "commonName": "Green Ogo",
   "scientificName": "Gracilaria tikvahiae",
-  "alsoKnownAs": ["Red Spike Sphere", "Mocha Spike Sphere", "Mocha Ogo"],
+  "alsoKnownAs": [
+    "Red Spike Sphere",
+    "Mocha Spike Sphere",
+    "Mocha Ogo"
+  ],
   "category": "Macroalgae",
-
   "taxonomy": {
     "family": "Gracilariaceae",
     "order": "Gracilariales"
   },
-
   "nativeRange": {
-    "regions": ["Western Atlantic", "Caribbean", "Gulf of Mexico"],
-    "countries": ["United States", "Canada", "Mexico", "Brazil", "Bermuda"],
+    "regions": [
+      "Western Atlantic",
+      "Caribbean",
+      "Gulf of Mexico"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Brazil",
+      "Bermuda"
+    ],
     "habitat": "Intertidal and shallow subtidal zones; commonly found in estuaries, lagoons, and sheltered coastal areas on soft substrate or attached to shells and rubble",
     "biotope": "Shallow marine and estuarine; intertidal to shallow subtidal, often in nutrient-enriched coastal waters",
-    "depthRangeM": { "min": 0, "max": 10 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 10
+    }
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 22.2, "max": 25.6 },
-    "pH":           { "min": 7.8,  "max": 8.4 },
-    "gH":           null,
-    "kH":           { "min": 8,    "max": 12 },
-    "salinity":     { "min": 1.023, "max": 1.025 }
+    "temperatureC": {
+      "min": 22.2,
+      "max": 25.6
+    },
+    "pH": {
+      "min": 7.8,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.023,
+      "max": 1.025
+    }
   },
-
-  "adultSizeCm": { "min": 5.0, "max": 10.0 },
+  "adultSizeCm": {
+    "min": 5,
+    "max": 10
+  },
   "lifespanYears": null,
-
   "tank": {
     "minVolumeLiters": 40,
     "minLengthCm": null,
     "swimZone": null,
-    "decorPreferences": ["open water column or refugium tumbling", "rockwork anchor point for holdfast attachment"],
+    "decorPreferences": [
+      "open water column or refugium tumbling",
+      "rockwork anchor point for holdfast attachment"
+    ],
     "minSandDepthCm": null
   },
-
   "careLevel": "beginner",
-
   "diet": null,
-
   "compatibility": {
     "temperament": "peaceful",
     "grouping": "solitary",
     "minGroupSize": null,
-    "goodWith": ["reef fish", "corals", "invertebrates", "herbivorous tang as live food source"],
-    "avoidWith": ["aggressive herbivores that may overgraze", "sea urchins in large numbers"]
+    "goodWith": [
+      "reef fish",
+      "corals",
+      "invertebrates",
+      "herbivorous tang as live food source"
+    ],
+    "avoidWith": [
+      "aggressive herbivores that may overgraze",
+      "sea urchins in large numbers"
+    ]
   },
-
   "media": {
     "primaryImage": null,
     "gallery": [],
@@ -91,13 +125,9 @@
       }
     ]
   },
-
   "summary": "Fast-growing reef macroalgae sold under four color-morph trade names (Green Ogo, Red Spike Sphere, Mocha Spike Sphere, Mocha Ogo). Color is determined by light intensity and nutrient levels rather than genetics — all four are the same species.",
-
-  "careNotes": "FOUR COLOR MORPHS, ONE SPECIES: Green Ogo, Red Spike Sphere, Mocha Spike Sphere, and Mocha Ogo are all Gracilaria tikvahiae. Color is determined by light intensity and nutrient stress, not by genetic difference. Higher light and higher nutrients tend to promote green coloration; lower light and lower nutrients tend to produce red, mocha, and brown tones. Aquarists sometimes purchase the same species twice under different trade names without realizing it.\n\nCARE: Generally regarded as one of the most beginner-friendly reef macroalgae. Does well both in a refugium (tumbled gently with moderate flow) and as a display specimen. Accepts a range of saltwater conditions typical of established reef systems. Supplemental iron, iodine, and trace elements may support growth in nutrient-lean systems, but established tanks usually provide sufficient nutrients naturally.\n\nNUTRIENT EXPORT: Consumes nitrates and phosphates effectively. Fast growth rate makes it a useful refugium worker, though growth rate depends on available nutrients and light.\n\nFEEDING: Reef-safe; trimmings are palatable to tangs and other herbivorous fish and can be offered as live food.\n\nALGAEBARN CARE LEVEL NOTE: AlgaeBarn rates this species as 'moderate' on their product pages, likely reflecting their general rating system for marine macroalgae. The broader reef-keeping hobby widely considers Gracilaria species to be beginner-accessible given their hardiness and tolerance of normal reef parameters.\n\nSIBLING SPECIES IN TRADE: Related Gracilaria species sold separately include Thick Ogo (G. sp., sw-macro-003), Red Ogo (G. parvispora, sw-macro-007), Pom Pom (G. hayi, sw-macro-006), Red Spaghetti (G. pacifica, sw-macro-015), and Monkey Finger (G. salicornia, sw-macro-014).",
-
+  "careNotes": "FOUR COLOR MORPHS, ONE SPECIES: Green Ogo, Red Spike Sphere, Mocha Spike Sphere, and Mocha Ogo are all Gracilaria tikvahiae. Color is determined by light intensity and nutrient stress, not by genetic difference. Higher light and higher nutrients tend to promote green coloration; lower light and lower nutrients tend to produce red, mocha, and brown tones. Aquarists sometimes purchase the same species twice under different trade names without realizing it.\n\nCARE: Generally regarded as one of the most beginner-friendly reef macroalgae. Does well both in a refugium (tumbled gently with moderate flow) and as a display specimen. Accepts a range of saltwater conditions typical of established reef systems. Supplemental iron, iodine, and trace elements may support growth in nutrient-lean systems, but established tanks usually provide sufficient nutrients naturally.\n\nNUTRIENT EXPORT: Consumes nitrates and phosphates effectively. Fast growth rate makes it a useful refugium worker, though growth rate depends on available nutrients and light.\n\nFEEDING: Reef-safe; trimmings are palatable to tangs and other herbivorous fish and can be offered as live food.\n\nALGAEBARN CARE LEVEL NOTE: AlgaeBarn rates this species as 'moderate' on their product pages, likely reflecting their general rating system for marine macroalgae. The broader reef-keeping hobby widely considers Gracilaria species to be beginner-accessible given their hardiness and tolerance of normal reef parameters.\n\nSIBLING SPECIES IN TRADE: Related Gracilaria species sold separately include Thick Ogo (G. sp., sw-macro-003), Red Ogo (G. parvispora, sw-macro-007), Pom Pom (G. hayi, sw-macro-006), Red Spaghetti (G. pacifica, sw-macro-015), and Monkey Finger (G. salicornia, sw-macro-014). Per Mosaic care guide guidance: as a red or brown alga, this species will MELT at the base if buried in sand — attach to rock via superglue, zip-tie/fishing line, or wedging instead. (Sand-bed acceptance per Mosaic is limited to Caulerpa, Halimeda, Penicillus, Rhipocephalus, and Udotea genera, plus some calcified Dasycladales.)",
   "breedingNotes": "Reproduces readily in the aquarium by fragmentation — broken or trimmed pieces can reattach and grow into new colonies. Gracilaria species also undergo alternation of generations (gametophyte-sporophyte life cycle) in natural settings, but hobbyist propagation is primarily through physical fragmentation.",
-
   "sources": {
     "primary": {
       "name": "AlgaeBarn — Green Ogo",
@@ -129,26 +159,34 @@
         "url": "https://en.wikipedia.org/wiki/Gracilaria",
         "accessedDate": "2026-06-08",
         "notes": "Confirmed family Gracilariaceae, order Gracilariales. Genus distribution described as warm waters worldwide with diversity center in Western Pacific; G. tikvahiae specifically is a well-documented western Atlantic species from scientific literature."
+      },
+      {
+        "name": "Mosaic Macros general macroalgae care guide",
+        "url": "https://mosaicmacros.com/blogs/macroalgae-care-sheets-compatibility/macroalgae-care-the-basics-of-keeping-macroalgae-in-your-reef",
+        "accessedDate": "2026-06-08",
+        "notes": "Slice-wide secondary source — provides authoritative Mosaic-wide parameter targets (temp 22-26°C, pH 8.1-8.4, Ca 400-450 ppm, Mg 1250-1350 ppm, NO3 5-20 ppm, PO4 0.02-0.1 ppm) and the 4-method propagation standard. Added retroactively 2026-06-08."
       }
     ]
   },
-
-  "fish":        null,
-  "crustacean":  null,
-  "coral":       null,
-  "mollusc":     null,
-  "echinoderm":  null,
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
   "other-invert": null,
-  "plant":       null,
+  "plant": null,
   "macroalgae": {
-    "lighting":       "medium",
-    "growthRate":     "fast",
-    "form":           "macroalgae",
-    "placement":      "display",
+    "lighting": "medium",
+    "growthRate": "fast",
+    "form": "macroalgae",
+    "placement": "display",
     "nutrientUptake": "high",
-    "propagation":    ["fragmentation"]
+    "propagation": [
+      "fragmentation",
+      "wedging",
+      "zip-tie/fishing line"
+    ]
   },
-
   "schemaVersion": 1,
   "dataStatus": "researched",
   "lastReviewed": "2026-06-08"

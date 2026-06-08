@@ -11,63 +11,89 @@
     "Gracilaria pacifica"
   ],
   "category": "Macroalgae",
-
   "taxonomy": {
     "family": "Gracilariaceae",
     "order": "Gracilariales"
   },
-
   "nativeRange": {
-    "regions": ["Eastern Pacific", "North America"],
-    "countries": ["United States", "Canada", "Mexico"],
+    "regions": [
+      "Eastern Pacific",
+      "North America"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico"
+    ],
     "habitat": "Rocky subtidal environments; shallow and well protected from strong currents along the Pacific coast",
     "biotope": "Coastal",
-    "depthRangeM": { "min": 0, "max": 20 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 20
+    }
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 18.0, "max": 26.0 },
-    "pH":           { "min": 7.8, "max": 8.4 },
-    "gH":           null,
-    "kH":           { "min": 8.0, "max": 12.0 },
-    "salinity":     { "min": 1.023, "max": 1.025 }
+    "temperatureC": {
+      "min": 18,
+      "max": 26
+    },
+    "pH": {
+      "min": 7.8,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.023,
+      "max": 1.025
+    }
   },
-
-  "adultSizeCm":   { "min": 10.0, "max": 50.0 },
+  "adultSizeCm": {
+    "min": 10,
+    "max": 50
+  },
   "lifespanYears": null,
-
   "tank": {
     "minVolumeLiters": 40,
-    "minLengthCm":     null,
-    "swimZone":        null,
-    "decorPreferences": ["refugium with moderate flow", "rock attachment", "free-floating or tumbling in sump", "shaded display tank area"],
-    "minSandDepthCm":  null
+    "minLengthCm": null,
+    "swimZone": null,
+    "decorPreferences": [
+      "refugium with moderate flow",
+      "rock attachment",
+      "free-floating or tumbling in sump",
+      "shaded display tank area"
+    ],
+    "minSandDepthCm": null
   },
-
   "careLevel": "beginner",
-
   "diet": null,
-
   "compatibility": {
-    "temperament":  "peaceful",
-    "grouping":     "solitary",
+    "temperament": "peaceful",
+    "grouping": "solitary",
     "minGroupSize": null,
-    "goodWith":     ["reef fish", "corals", "invertebrates", "tangs (as food source)", "rabbitfish", "herbivorous fish"],
-    "avoidWith":    ["large herbivorous fish if display use — tangs, rabbitfish, and angelfish will consume it readily"]
+    "goodWith": [
+      "reef fish",
+      "corals",
+      "invertebrates",
+      "tangs (as food source)",
+      "rabbitfish",
+      "herbivorous fish"
+    ],
+    "avoidWith": [
+      "large herbivorous fish if display use — tangs, rabbitfish, and angelfish will consume it readily"
+    ]
   },
-
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
+    "primaryImage": null,
+    "gallery": [],
     "imageCandidates": null
   },
-
   "summary": "A thin, spaghetti-like red macroalgae from the American Pacific coast, valued for fast nutrient export in refugiums and as a palatable live food for herbivorous fish. Generally considered easy to keep in typical reef parameters.",
-
-  "careNotes": "Red Spaghetti (Gracilaria pacifica) is a rhodophyte in family Gracilariaceae, native to the American Pacific coast from Alaska to northern Mexico. Its thallus consists of thin, tube-like strands about 2 mm wide with shorter lateral branches, growing to roughly 50 cm in length; established clumps tend to reach around 15–18 cm in diameter in the aquarium. The 'spaghetti' trade name describes the stringy, pasta-like appearance.\n\nAs a cool-temperate Pacific species it tends to perform best in systems not prone to summer temperature spikes. AlgaeBarn lists 78°F (25.6°C) as its care temperature, though the same source notes that cooler conditions are preferred; a range of 18–26°C (64–78°F) is generally advised, erring toward the cooler end of a typical reef system. Standard reef pH (7.8–8.4), alkalinity (dKH 8–12), and salinity (SG 1.023–1.025) are appropriate.\n\nGrowth rate tends to be faster than many other Gracilaria species, making it an effective nutrient exporter (nitrates and phosphates). Most established reef systems have sufficient dissolved nutrients and trace elements to support it without supplementation, though iron and iodine top-ups may enhance growth in nutrient-lean systems. Regular harvesting is generally advised rather than allowing the refugium to become overcrowded.\n\nPlacement in a sump refugium is the most common approach; moderate flow and a quality horticulture-spectrum LED (e.g., Kessil H-series) with an 8-hour photoperiod are typical recommendations. It can also be kept in a display tank provided large herbivores are absent. Blennies, rabbitfish, angelfish, and tangs have been observed consuming it readily, making it a useful live food supplement in tanks with these species.\n\nPropagation in captivity is by fragmentation. Trimmed portions can be replanted or fed directly to herbivorous fish. No gametophyte-sporophyte alternation propagation is practiced in the hobby.\n\nFor genus-level Gracilaria context and related sibling species, see [thick-ogo] (Gracilaria sp. aggregate), [red-ogo] (G. parvispora), [pom-pom] (G. hayi), [monkey-finger] (G. salicornia), and [green-ogo-gracilaria-tikvahiae] (G. tikvahiae).",
-
+  "careNotes": "Red Spaghetti (Gracilaria pacifica) is a rhodophyte in family Gracilariaceae, native to the American Pacific coast from Alaska to northern Mexico. Its thallus consists of thin, tube-like strands about 2 mm wide with shorter lateral branches, growing to roughly 50 cm in length; established clumps tend to reach around 15–18 cm in diameter in the aquarium. The 'spaghetti' trade name describes the stringy, pasta-like appearance.\n\nAs a cool-temperate Pacific species it tends to perform best in systems not prone to summer temperature spikes. AlgaeBarn lists 78°F (25.6°C) as its care temperature, though the same source notes that cooler conditions are preferred; a range of 18–26°C (64–78°F) is generally advised, erring toward the cooler end of a typical reef system. Standard reef pH (7.8–8.4), alkalinity (dKH 8–12), and salinity (SG 1.023–1.025) are appropriate.\n\nGrowth rate tends to be faster than many other Gracilaria species, making it an effective nutrient exporter (nitrates and phosphates). Most established reef systems have sufficient dissolved nutrients and trace elements to support it without supplementation, though iron and iodine top-ups may enhance growth in nutrient-lean systems. Regular harvesting is generally advised rather than allowing the refugium to become overcrowded.\n\nPlacement in a sump refugium is the most common approach; moderate flow and a quality horticulture-spectrum LED (e.g., Kessil H-series) with an 8-hour photoperiod are typical recommendations. It can also be kept in a display tank provided large herbivores are absent. Blennies, rabbitfish, angelfish, and tangs have been observed consuming it readily, making it a useful live food supplement in tanks with these species.\n\nPropagation in captivity is by fragmentation. Trimmed portions can be replanted or fed directly to herbivorous fish. No gametophyte-sporophyte alternation propagation is practiced in the hobby.\n\nFor genus-level Gracilaria context and related sibling species, see [thick-ogo] (Gracilaria sp. aggregate), [red-ogo] (G. parvispora), [pom-pom] (G. hayi), [monkey-finger] (G. salicornia), and [green-ogo-gracilaria-tikvahiae] (G. tikvahiae). Per Mosaic care guide guidance: as a red or brown alga, this species will MELT at the base if buried in sand — attach to rock via superglue, zip-tie/fishing line, or wedging instead. (Sand-bed acceptance per Mosaic is limited to Caulerpa, Halimeda, Penicillus, Rhipocephalus, and Udotea genera, plus some calcified Dasycladales.)",
   "breedingNotes": "Propagated in captivity by thallus fragmentation. Cuttings readily establish new growth when placed in moderate flow. No sexual propagation (gametophyte-sporophyte alternation) is documented as a practical aquarium technique.",
-
   "sources": {
     "primary": {
       "name": "AlgaeBarn",
@@ -93,26 +119,34 @@
         "url": "https://en.wikipedia.org/wiki/Gracilaria",
         "accessedDate": "2026-06-08",
         "notes": "Taxonomy confirmed: Family Gracilariaceae, Order Gracilariales, Class Florideophyceae, Division Rhodophyta. G. pacifica I.A.Abbott listed as a valid species. AlgaeBase blocked by CAPTCHA — Wikipedia used as taxonomy fallback."
+      },
+      {
+        "name": "Mosaic Macros general macroalgae care guide",
+        "url": "https://mosaicmacros.com/blogs/macroalgae-care-sheets-compatibility/macroalgae-care-the-basics-of-keeping-macroalgae-in-your-reef",
+        "accessedDate": "2026-06-08",
+        "notes": "Slice-wide secondary source — provides authoritative Mosaic-wide parameter targets (temp 22-26°C, pH 8.1-8.4, Ca 400-450 ppm, Mg 1250-1350 ppm, NO3 5-20 ppm, PO4 0.02-0.1 ppm) and the 4-method propagation standard. Added retroactively 2026-06-08."
       }
     ]
   },
-
-  "fish":        null,
-  "crustacean":  null,
-  "coral":       null,
-  "mollusc":     null,
-  "echinoderm":  null,
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
   "other-invert": null,
-  "plant":       null,
+  "plant": null,
   "macroalgae": {
-    "lighting":       "medium",
-    "growthRate":     "fast",
-    "form":           "macroalgae",
-    "placement":      "refugium",
+    "lighting": "medium",
+    "growthRate": "fast",
+    "form": "macroalgae",
+    "placement": "refugium",
     "nutrientUptake": "high",
-    "propagation":    ["fragmentation"]
+    "propagation": [
+      "fragmentation",
+      "wedging",
+      "zip-tie/fishing line"
+    ]
   },
-
   "schemaVersion": 1,
   "dataStatus": "researched",
   "lastReviewed": "2026-06-08"

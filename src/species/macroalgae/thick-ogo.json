@@ -34,26 +34,55 @@
     "order": "Gracilariales"
   },
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Atlantic", "Mediterranean", "Caribbean", "Tropical Pacific", "Subtropical"],
+    "regions": [
+      "Indo-Pacific",
+      "Atlantic",
+      "Mediterranean",
+      "Caribbean",
+      "Tropical Pacific",
+      "Subtropical"
+    ],
     "countries": [],
     "habitat": "Shallow warm coastal waters, tide pools, reef flats, and lagoons. Found in all oceans except the Arctic.",
     "biotope": "Reef",
-    "depthRangeM": { "min": 0, "max": 30 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 30
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22.0, "max": 28.3 },
-    "pH": { "min": 7.8, "max": 8.4 },
+    "temperatureC": {
+      "min": 22,
+      "max": 28.3
+    },
+    "pH": {
+      "min": 7.8,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8.0, "max": 12.0 },
-    "salinity": { "min": 1.023, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.023,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 5.0, "max": 30.5 },
+  "adultSizeCm": {
+    "min": 5,
+    "max": 30.5
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 40,
     "minLengthCm": null,
     "swimZone": null,
-    "decorPreferences": ["refugium", "rock attachment", "tumbling in flow"],
+    "decorPreferences": [
+      "refugium",
+      "rock attachment",
+      "tumbling in flow"
+    ],
     "minSandDepthCm": null
   },
   "careLevel": "beginner",
@@ -62,8 +91,16 @@
     "temperament": "peaceful",
     "grouping": "solitary",
     "minGroupSize": null,
-    "goodWith": ["reef fish", "tangs", "herbivores", "invertebrates", "corals"],
-    "avoidWith": ["aggressive tang and herbivore fish if display use — tangs and other herbivores will consume the algae"]
+    "goodWith": [
+      "reef fish",
+      "tangs",
+      "herbivores",
+      "invertebrates",
+      "corals"
+    ],
+    "avoidWith": [
+      "aggressive tang and herbivore fish if display use — tangs and other herbivores will consume the algae"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -112,7 +149,7 @@
     ]
   },
   "summary": "A popular genus-level Gracilaria entry representing numerous trade forms (thick, branching, and ornamental red macroalgae) widely used for nutrient export in refugiums and as tang food.",
-  "careNotes": "Thick Ogo is a genus-level trade entry (Gracilaria sp.) consolidating the AlgaeBarn 'Thick Ogo' listing alongside ~18 additional Gracilaria sp. trade forms from Top Shelf Aquatics and Mosaic Macros (Bird's Nest, Purple Whip, Red Bamboo, Orange Thornbush, Pink Fan, Corky Whip, Succulent Orange, Cream Knobby, Crimson Tumbleweed, Corky Bamboo, Green Ivy, Pink Serpent Tongue, and others — see alsoKnownAs). No species epithet is applied per genus-level trade convention; see [red-ogo] (G. parvispora), [pom-pom] (G. hayi), [green-ogo-gracilaria-tikvahiae] (G. tikvahiae), [red-spaghetti] (G. pacifica), and [monkey-finger] (G. salicornia) for named Gracilaria siblings with species-level identification.\n\nGracilaria is one of the most widely cultivated macroalgae genera in the hobby. It tends to grow rapidly in well-lit, high-flow refugiums and is generally considered among the best nutrient export macroalgae for reef tanks. Clippings can be fed directly to tangs, surgeonfish, and other marine herbivores as a highly palatable food source.\n\nThe genus is distributed across all major tropical and subtropical oceans (absent from Arctic waters). It generally prefers water temperatures above 22°C and may decline at lower temperatures. Water parameters should be maintained in typical reef ranges: temperature 22–28°C, salinity SG 1.023–1.025, pH 7.8–8.4, alkalinity dKH 8–12. Trace supplementation with iron and iodine has been reported to support growth when natural aquarium nutrients are insufficient, though this is rarely necessary in established reef systems.\n\nRefugium placement is most common — tumbling freely in high flow under a grow light. Can also be placed in display tanks as an ornamental red macro, but tangs and other herbivores will consume it readily. Propagation is by simple fragmentation; trimming to harvest for tang feeding also naturally controls spread. No sexual propagation is typically attempted in captivity.",
+  "careNotes": "Thick Ogo is a genus-level trade entry (Gracilaria sp.) consolidating the AlgaeBarn 'Thick Ogo' listing alongside ~18 additional Gracilaria sp. trade forms from Top Shelf Aquatics and Mosaic Macros (Bird's Nest, Purple Whip, Red Bamboo, Orange Thornbush, Pink Fan, Corky Whip, Succulent Orange, Cream Knobby, Crimson Tumbleweed, Corky Bamboo, Green Ivy, Pink Serpent Tongue, and others — see alsoKnownAs). No species epithet is applied per genus-level trade convention; see [red-ogo] (G. parvispora), [pom-pom] (G. hayi), [green-ogo-gracilaria-tikvahiae] (G. tikvahiae), [red-spaghetti] (G. pacifica), and [monkey-finger] (G. salicornia) for named Gracilaria siblings with species-level identification.\n\nGracilaria is one of the most widely cultivated macroalgae genera in the hobby. It tends to grow rapidly in well-lit, high-flow refugiums and is generally considered among the best nutrient export macroalgae for reef tanks. Clippings can be fed directly to tangs, surgeonfish, and other marine herbivores as a highly palatable food source.\n\nThe genus is distributed across all major tropical and subtropical oceans (absent from Arctic waters). It generally prefers water temperatures above 22°C and may decline at lower temperatures. Water parameters should be maintained in typical reef ranges: temperature 22–28°C, salinity SG 1.023–1.025, pH 7.8–8.4, alkalinity dKH 8–12. Trace supplementation with iron and iodine has been reported to support growth when natural aquarium nutrients are insufficient, though this is rarely necessary in established reef systems.\n\nRefugium placement is most common — tumbling freely in high flow under a grow light. Can also be placed in display tanks as an ornamental red macro, but tangs and other herbivores will consume it readily. Propagation is by simple fragmentation; trimming to harvest for tang feeding also naturally controls spread. No sexual propagation is typically attempted in captivity. Per Mosaic care guide guidance: as a red or brown alga, this species will MELT at the base if buried in sand — attach to rock via superglue, zip-tie/fishing line, or wedging instead. (Sand-bed acceptance per Mosaic is limited to Caulerpa, Halimeda, Penicillus, Rhipocephalus, and Udotea genera, plus some calcified Dasycladales.)",
   "breedingNotes": "Propagated in captivity exclusively by thallus fragmentation. Trim and replant cuttings. No aquarium-level gametophyte/sporophyte alternation propagation documented.",
   "sources": {
     "primary": {
@@ -145,6 +182,12 @@
         "url": "https://en.wikipedia.org/wiki/Gracilaria",
         "accessedDate": "2026-06-08",
         "notes": "Taxonomy confirmed: Family Gracilariaceae, Order Gracilariales, Class Florideophyceae, Division Rhodophyta. Distribution: all oceans except Arctic; cannot survive below 10°C. AlgaeBase blocked by CAPTCHA verification — Wikipedia used as taxonomy fallback."
+      },
+      {
+        "name": "Mosaic Macros general macroalgae care guide",
+        "url": "https://mosaicmacros.com/blogs/macroalgae-care-sheets-compatibility/macroalgae-care-the-basics-of-keeping-macroalgae-in-your-reef",
+        "accessedDate": "2026-06-08",
+        "notes": "Slice-wide secondary source — provides authoritative Mosaic-wide parameter targets (temp 22-26°C, pH 8.1-8.4, Ca 400-450 ppm, Mg 1250-1350 ppm, NO3 5-20 ppm, PO4 0.02-0.1 ppm) and the 4-method propagation standard. Added retroactively 2026-06-08."
       }
     ]
   },
@@ -161,7 +204,11 @@
     "form": "macroalgae",
     "placement": "refugium",
     "nutrientUptake": "high",
-    "propagation": ["fragmentation"]
+    "propagation": [
+      "fragmentation",
+      "wedging",
+      "zip-tie/fishing line"
+    ]
   },
   "schemaVersion": 1,
   "dataStatus": "researched",

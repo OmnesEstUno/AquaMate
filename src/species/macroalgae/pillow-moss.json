@@ -6,33 +6,62 @@
   "waterType": "saltwater",
   "commonName": "Pillow Moss",
   "scientificName": "Chlorodesmis sp.",
-  "alsoKnownAs": ["Maiden's Hair", "Turtle Weed (genus-level)"],
+  "alsoKnownAs": [
+    "Maiden's Hair",
+    "Turtle Weed (genus-level)"
+  ],
   "category": "Macroalgae",
   "taxonomy": {
     "family": "Udoteaceae",
     "order": "Bryopsidales"
   },
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Eastern Caribbean", "Australia", "South Pacific"],
-    "countries": ["Australia"],
+    "regions": [
+      "Indo-Pacific",
+      "Eastern Caribbean",
+      "Australia",
+      "South Pacific"
+    ],
+    "countries": [
+      "Australia"
+    ],
     "habitat": "Rocky substrates and coral reef flats in the photic zone; tends to form turf-like clumps on hard surfaces such as live rock and coral skeleton.",
     "biotope": "Tropical saltwater reef",
-    "depthRangeM": { "min": 3, "max": 15 }
+    "depthRangeM": {
+      "min": 3,
+      "max": 15
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22.0, "max": 27.0 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 22,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
     "kH": null,
-    "salinity": { "min": 1.023, "max": 1.025 }
+    "salinity": {
+      "min": 1.023,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 2.0, "max": 20.0 },
+  "adultSizeCm": {
+    "min": 2,
+    "max": 20
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 40,
     "minLengthCm": null,
     "swimZone": null,
-    "decorPreferences": ["live rock", "hard substrate", "rock rubble"],
+    "decorPreferences": [
+      "live rock",
+      "hard substrate",
+      "rock rubble"
+    ],
     "minSandDepthCm": null
   },
   "careLevel": "advanced",
@@ -41,8 +70,18 @@
     "temperament": "semi-aggressive",
     "grouping": "solitary",
     "minGroupSize": null,
-    "goodWith": ["reef fish", "snails", "hermit crabs", "shrimp", "copepods", "amphipods"],
-    "avoidWith": ["stony corals (nearby contact)", "herbivorous fish that may sample it"]
+    "goodWith": [
+      "reef fish",
+      "snails",
+      "hermit crabs",
+      "shrimp",
+      "copepods",
+      "amphipods"
+    ],
+    "avoidWith": [
+      "stony corals (nearby contact)",
+      "herbivorous fish that may sample it"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -100,6 +139,12 @@
         "url": "https://en.wikipedia.org/wiki/Chlorodesmis",
         "accessedDate": "2026-06-08",
         "notes": "Taxonomy source: family Udoteaceae, order Bryopsidales, class Ulvophyceae, division Chlorophyta. Also documented chlorodesmin toxin and coral interaction."
+      },
+      {
+        "name": "Mosaic Macros general macroalgae care guide",
+        "url": "https://mosaicmacros.com/blogs/macroalgae-care-sheets-compatibility/macroalgae-care-the-basics-of-keeping-macroalgae-in-your-reef",
+        "accessedDate": "2026-06-08",
+        "notes": "Slice-wide secondary source — provides authoritative Mosaic-wide parameter targets (temp 22-26°C, pH 8.1-8.4, Ca 400-450 ppm, Mg 1250-1350 ppm, NO3 5-20 ppm, PO4 0.02-0.1 ppm) and the 4-method propagation standard. Added retroactively 2026-06-08."
       }
     ]
   },
@@ -116,7 +161,12 @@
     "form": "macroalgae",
     "placement": "display",
     "nutrientUptake": "moderate",
-    "propagation": ["fragmentation", "sporulation"]
+    "propagation": [
+      "fragmentation",
+      "wedging",
+      "zip-tie/fishing line",
+      "sporulation"
+    ]
   },
   "schemaVersion": 1,
   "dataStatus": "researched",

@@ -8,51 +8,76 @@
   "scientificName": "Lobophora variegata",
   "alsoKnownAs": [],
   "category": "Macroalgae",
-
   "taxonomy": {
     "family": "Dictyotaceae",
     "order": "Dictyotales"
   },
-
   "nativeRange": {
-    "regions": ["Tropical Atlantic", "Caribbean", "Mediterranean", "Indian Ocean", "Indo-Pacific"],
+    "regions": [
+      "Tropical Atlantic",
+      "Caribbean",
+      "Mediterranean",
+      "Indian Ocean",
+      "Indo-Pacific"
+    ],
     "countries": [],
     "habitat": "Intertidal to subtidal rocky reef, back reef, coral rubble, seagrass meadow, and mangrove environments",
     "biotope": "Reef",
-    "depthRangeM": { "min": 0, "max": 90 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 90
+    }
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 27 },
-    "pH":           { "min": 8.1, "max": 8.4 },
-    "gH":           null,
-    "kH":           { "min": 8, "max": 12 },
-    "salinity":     { "min": 1.023, "max": 1.026 }
+    "temperatureC": {
+      "min": 24,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.023,
+      "max": 1.026
+    }
   },
-
-  "adultSizeCm": { "min": 3, "max": 20 },
+  "adultSizeCm": {
+    "min": 3,
+    "max": 20
+  },
   "lifespanYears": null,
-
   "tank": {
     "minVolumeLiters": 40,
     "minLengthCm": null,
     "swimZone": null,
-    "decorPreferences": ["live rock", "open display placement", "moderate flow areas"],
+    "decorPreferences": [
+      "live rock",
+      "open display placement",
+      "moderate flow areas"
+    ],
     "minSandDepthCm": null
   },
-
   "careLevel": "intermediate",
-
   "diet": null,
-
   "compatibility": {
     "temperament": "peaceful",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["peaceful reef fish", "invertebrates", "corals"],
-    "avoidWith": ["herbivorous fish that actively graze macroalgae (e.g. tangs, rabbitfish) in small tanks"]
+    "goodWith": [
+      "peaceful reef fish",
+      "invertebrates",
+      "corals"
+    ],
+    "avoidWith": [
+      "herbivorous fish that actively graze macroalgae (e.g. tangs, rabbitfish) in small tanks"
+    ]
   },
-
   "media": {
     "primaryImage": null,
     "gallery": [],
@@ -67,13 +92,9 @@
       }
     ]
   },
-
   "summary": "A pantropical brown macroalga (family Dictyotaceae) with attractive ruffled, foliose fronds. Generally suited to reef display tanks; L. variegata is the most commonly traded form in the hobby.",
-
-  "careNotes": "Brown Ruffles (Lobophora variegata, family Dictyotaceae, order Dictyotales) is a brown macroalga widely distributed across tropical and warm-temperate marine waters — Caribbean, Atlantic, Mediterranean, Indian Ocean, and Pacific. In the wild, L. variegata grows from the intertidal zone to depths of approximately 90 m on rocky reefs, coral rubble, back-reef areas, and seagrass beds. The genus displays three morphological growth forms: an erect ruffled type forming ball-like clumps of wavy fronds (the form sold as 'Brown Ruffles'), a decumbent overlapping-blade form, and an encrusting form. Thalli generally reach up to 20 cm and are light to dark brown in color.\n\nIn aquarium keeping, this species is documented primarily through Mosaic Macros, which is the sole known hobby-trade source at the time of this entry (2026-06-08). Standard reef water parameters are generally advised: temperature around 24–27°C, pH 8.1–8.4, alkalinity 8–12 dKH, and specific gravity 1.023–1.026. Husbandry values for lighting (medium), growth rate (medium), and nutrient uptake (low) are extrapolated from published care standards for Dictyotaceae brown macroalgae in general, as species-specific captive care data is sparse in the broader hobby literature.\n\nLobophora species have been documented to be grazed by herbivorous fish (tangs, rabbitfish, urchins) in reef systems; in smaller aquariums, heavy grazers may consume the specimen faster than it can recover. Placement in a display tank rather than a refugium is recommended to showcase the ornamental ruffled form. Propagation in captivity is generally accomplished by fragmentation.\n\nSource coverage caveat: this entry is based on a single specialty trade source (Mosaic Macros) plus Wikipedia/taxonomic-literature extrapolation. No AlgaeBase direct species data was retrievable at time of research (verification screen). Aquarists seeking corroborating care guidance should consult AlgaeBase for full taxonomic context and monitor specialist reef forums for emerging captive care reports.",
-
+  "careNotes": "Brown Ruffles (Lobophora variegata, family Dictyotaceae, order Dictyotales) is a brown macroalga widely distributed across tropical and warm-temperate marine waters — Caribbean, Atlantic, Mediterranean, Indian Ocean, and Pacific. In the wild, L. variegata grows from the intertidal zone to depths of approximately 90 m on rocky reefs, coral rubble, back-reef areas, and seagrass beds. The genus displays three morphological growth forms: an erect ruffled type forming ball-like clumps of wavy fronds (the form sold as 'Brown Ruffles'), a decumbent overlapping-blade form, and an encrusting form. Thalli generally reach up to 20 cm and are light to dark brown in color.\n\nIn aquarium keeping, this species is documented primarily through Mosaic Macros, which is the sole known hobby-trade source at the time of this entry (2026-06-08). Standard reef water parameters are generally advised: temperature around 24–27°C, pH 8.1–8.4, alkalinity 8–12 dKH, and specific gravity 1.023–1.026. Husbandry values for lighting (medium), growth rate (medium), and nutrient uptake (low) are extrapolated from published care standards for Dictyotaceae brown macroalgae in general, as species-specific captive care data is sparse in the broader hobby literature.\n\nLobophora species have been documented to be grazed by herbivorous fish (tangs, rabbitfish, urchins) in reef systems; in smaller aquariums, heavy grazers may consume the specimen faster than it can recover. Placement in a display tank rather than a refugium is recommended to showcase the ornamental ruffled form. Propagation in captivity is generally accomplished by fragmentation.\n\nSource coverage caveat: this entry is based on a single specialty trade source (Mosaic Macros) plus Wikipedia/taxonomic-literature extrapolation. No AlgaeBase direct species data was retrievable at time of research (verification screen). Aquarists seeking corroborating care guidance should consult AlgaeBase for full taxonomic context and monitor specialist reef forums for emerging captive care reports. Per Mosaic care guide guidance: as a red or brown alga, this species will MELT at the base if buried in sand — attach to rock via superglue, zip-tie/fishing line, or wedging instead. (Sand-bed acceptance per Mosaic is limited to Caulerpa, Halimeda, Penicillus, Rhipocephalus, and Udotea genera, plus some calcified Dasycladales.)",
   "breedingNotes": "Propagation in captivity is generally accomplished by fragmentation — breaking off healthy frond sections and positioning them among rockwork. Sexual reproduction (alternating gametophyte–sporophyte lifecycle typical of brown algae) has not been documented in hobby aquaria.",
-
   "sources": {
     "primary": {
       "name": "Mosaic Macros",
@@ -93,26 +114,34 @@
         "url": "https://en.wikipedia.org/wiki/Lobophora_(alga)",
         "accessedDate": "2026-06-08",
         "notes": "Genus-level taxonomic confirmation: family Dictyotaceae, order Dictyotales, class Phaeophyceae. Adult size up to 20 cm."
+      },
+      {
+        "name": "Mosaic Macros general macroalgae care guide",
+        "url": "https://mosaicmacros.com/blogs/macroalgae-care-sheets-compatibility/macroalgae-care-the-basics-of-keeping-macroalgae-in-your-reef",
+        "accessedDate": "2026-06-08",
+        "notes": "Slice-wide secondary source — provides authoritative Mosaic-wide parameter targets (temp 22-26°C, pH 8.1-8.4, Ca 400-450 ppm, Mg 1250-1350 ppm, NO3 5-20 ppm, PO4 0.02-0.1 ppm) and the 4-method propagation standard. Added retroactively 2026-06-08."
       }
     ]
   },
-
-  "fish":        null,
-  "crustacean":  null,
-  "coral":       null,
-  "mollusc":     null,
-  "echinoderm":  null,
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
   "other-invert": null,
-  "plant":       null,
+  "plant": null,
   "macroalgae": {
-    "lighting":       "medium",
-    "growthRate":     "medium",
-    "form":           "macroalgae",
-    "placement":      "display",
+    "lighting": "medium",
+    "growthRate": "medium",
+    "form": "macroalgae",
+    "placement": "display",
     "nutrientUptake": "low",
-    "propagation":    ["fragmentation"]
+    "propagation": [
+      "fragmentation",
+      "wedging",
+      "zip-tie/fishing line"
+    ]
   },
-
   "schemaVersion": 1,
   "dataStatus": "researched",
   "lastReviewed": "2026-06-08"

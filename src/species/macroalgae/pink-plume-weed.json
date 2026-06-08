@@ -6,33 +6,62 @@
   "waterType": "saltwater",
   "commonName": "Pink Plume Weed",
   "scientificName": "Dasya sp.",
-  "alsoKnownAs": ["Pink Feather Weed", "Chenille Weed"],
+  "alsoKnownAs": [
+    "Pink Feather Weed",
+    "Chenille Weed"
+  ],
   "category": "Macroalgae",
   "taxonomy": {
     "family": "Dasyaceae",
     "order": "Ceramiales"
   },
   "nativeRange": {
-    "regions": ["Tropical Atlantic", "Indo-Pacific", "Caribbean"],
+    "regions": [
+      "Tropical Atlantic",
+      "Indo-Pacific",
+      "Caribbean"
+    ],
     "countries": [],
     "habitat": "Marine subtidal zones; typically found on hard substrate and reef rock in moderate-to-high flow environments.",
     "biotope": "Coral reef",
-    "depthRangeM": { "min": 0, "max": 30 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 30
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 24.4, "max": 26.7 },
-    "pH": { "min": 7.8, "max": 8.4 },
+    "temperatureC": {
+      "min": 24.4,
+      "max": 26.7
+    },
+    "pH": {
+      "min": 7.8,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.023, "max": 1.026 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.023,
+      "max": 1.026
+    }
   },
-  "adultSizeCm": { "min": 5, "max": 15 },
+  "adultSizeCm": {
+    "min": 5,
+    "max": 15
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 40,
     "minLengthCm": null,
     "swimZone": null,
-    "decorPreferences": ["live rock", "rubble substrate for holdfast attachment", "high-flow placement"],
+    "decorPreferences": [
+      "live rock",
+      "rubble substrate for holdfast attachment",
+      "high-flow placement"
+    ],
     "minSandDepthCm": null
   },
   "careLevel": "intermediate",
@@ -41,8 +70,21 @@
     "temperament": "peaceful",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["peaceful reef fish", "non-herbivorous invertebrates", "corals", "copepods", "amphipods"],
-    "avoidWith": ["herbivorous fish", "turbo snails", "emerald crabs", "sea urchins", "rabbitfish", "tangs"]
+    "goodWith": [
+      "peaceful reef fish",
+      "non-herbivorous invertebrates",
+      "corals",
+      "copepods",
+      "amphipods"
+    ],
+    "avoidWith": [
+      "herbivorous fish",
+      "turbo snails",
+      "emerald crabs",
+      "sea urchins",
+      "rabbitfish",
+      "tangs"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -75,7 +117,7 @@
     ]
   },
   "summary": "A feathery, soft-textured ornamental red macroalgae (Rhodophyta, Dasyaceae) with intricately-branching pink to rose-red plume-like fronds. Suited for display reef tanks with strong flow. Sold under multiple trade names by Mosaic Macros.",
-  "careNotes": "Pink Plume Weed belongs to the genus Dasya (family Dasyaceae, order Ceramiales), the same family as the closely related Flamingo Feather (Heterosiphonia gibbesii). Mosaic Macros consolidates at least three SKUs under this genus: Pink Plume Weed, Pink Feather Weed, and Chenille Weed — all identified as Dasya sp. and sharing the same fuzzy, intricately-branching plume-like growth form. Coloration may vary from pink to rose-red; the Chenille Weed form has been noted in red, pink, or yellow coloration. Strong, turbulent water flow is generally recommended. The species has been noted as sensitive to shipping stress; Mosaic Macros advises Next-Day Air for live arrival coverage. Water parameters should conform to standard reef conditions (temp ~24–27°C, SG 1.023–1.026, pH 7.8–8.4), extrapolated from family-level data and the closely related flamingo-feather sibling entry (sw-algae-039). Herbivorous fish (tangs, rabbitfish), turbo snails, emerald crabs, and sea urchins tend to graze on delicate red macroalgae and are best kept away from display specimens. Mosaic Macros is the sole identified hobby trade source for this genus in the AquaMate dataset.",
+  "careNotes": "Pink Plume Weed belongs to the genus Dasya (family Dasyaceae, order Ceramiales), the same family as the closely related Flamingo Feather (Heterosiphonia gibbesii). Mosaic Macros consolidates at least three SKUs under this genus: Pink Plume Weed, Pink Feather Weed, and Chenille Weed — all identified as Dasya sp. and sharing the same fuzzy, intricately-branching plume-like growth form. Coloration may vary from pink to rose-red; the Chenille Weed form has been noted in red, pink, or yellow coloration. Strong, turbulent water flow is generally recommended. The species has been noted as sensitive to shipping stress; Mosaic Macros advises Next-Day Air for live arrival coverage. Water parameters should conform to standard reef conditions (temp ~24–27°C, SG 1.023–1.026, pH 7.8–8.4), extrapolated from family-level data and the closely related flamingo-feather sibling entry (sw-algae-039). Herbivorous fish (tangs, rabbitfish), turbo snails, emerald crabs, and sea urchins tend to graze on delicate red macroalgae and are best kept away from display specimens. Mosaic Macros is the sole identified hobby trade source for this genus in the AquaMate dataset. Per Mosaic care guide guidance: as a red or brown alga, this species will MELT at the base if buried in sand — attach to rock via superglue, zip-tie/fishing line, or wedging instead. (Sand-bed acceptance per Mosaic is limited to Caulerpa, Halimeda, Penicillus, Rhipocephalus, and Udotea genera, plus some calcified Dasycladales.)",
   "breedingNotes": "Propagated in the aquarium hobby by fragmentation — separating branch sections and attaching to new substrate. No documented gametophytic reproduction in captive settings.",
   "sources": {
     "primary": {
@@ -102,6 +144,12 @@
         "url": "https://mosaicmacros.com/products/flamingo-feather-algae-heterosiphonia-gibbesii",
         "accessedDate": "2026-06-08",
         "notes": "Cross-reference for family Dasyaceae / order Ceramiales taxonomy and reef water parameter ranges (temp 24.4–26.7°C, pH 7.8–8.4, SG 1.023–1.026, kH 8–12), applied at family level for this Dasya sp. entry."
+      },
+      {
+        "name": "Mosaic Macros general macroalgae care guide",
+        "url": "https://mosaicmacros.com/blogs/macroalgae-care-sheets-compatibility/macroalgae-care-the-basics-of-keeping-macroalgae-in-your-reef",
+        "accessedDate": "2026-06-08",
+        "notes": "Slice-wide secondary source — provides authoritative Mosaic-wide parameter targets (temp 22-26°C, pH 8.1-8.4, Ca 400-450 ppm, Mg 1250-1350 ppm, NO3 5-20 ppm, PO4 0.02-0.1 ppm) and the 4-method propagation standard. Added retroactively 2026-06-08."
       }
     ]
   },
@@ -118,7 +166,11 @@
     "form": "macroalgae",
     "placement": "display",
     "nutrientUptake": "low",
-    "propagation": ["fragmentation"]
+    "propagation": [
+      "fragmentation",
+      "wedging",
+      "zip-tie/fishing line"
+    ]
   },
   "schemaVersion": 1,
   "dataStatus": "researched",

@@ -6,53 +6,88 @@
   "waterType": "saltwater",
   "commonName": "Mermaid's Wine Glass",
   "scientificName": "Acetabularia sp.",
-  "alsoKnownAs": ["Mermaid's Wine Glass Macroalgae"],
+  "alsoKnownAs": [
+    "Mermaid's Wine Glass Macroalgae"
+  ],
   "category": "Macroalgae",
-
   "taxonomy": {
     "family": "Polyphysaceae",
     "order": "Dasycladales"
   },
-
   "nativeRange": {
-    "regions": ["Mediterranean Sea", "Atlantic Ocean", "Indo-Pacific"],
-    "countries": ["Italy", "Spain", "Greece", "France", "Caribbean nations"],
+    "regions": [
+      "Mediterranean Sea",
+      "Atlantic Ocean",
+      "Indo-Pacific"
+    ],
+    "countries": [
+      "Italy",
+      "Spain",
+      "Greece",
+      "France",
+      "Caribbean nations"
+    ],
     "habitat": "Shallow rocky and rubble substrates in clear, well-lit subtropical and tropical marine waters",
     "biotope": "Shallow subtropical reef and rocky shoreline",
-    "depthRangeM": { "min": 0, "max": 5 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 5
+    }
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 26 },
-    "pH":           { "min": 8.1, "max": 8.4 },
-    "gH":           null,
-    "kH":           { "min": 8, "max": 12 },
-    "salinity":     { "min": 1.023, "max": 1.026 }
+    "temperatureC": {
+      "min": 23,
+      "max": 26
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.023,
+      "max": 1.026
+    }
   },
-
-  "adultSizeCm": { "min": 4, "max": 10 },
+  "adultSizeCm": {
+    "min": 4,
+    "max": 10
+  },
   "lifespanYears": null,
-
   "tank": {
     "minVolumeLiters": 40,
     "minLengthCm": null,
     "swimZone": null,
-    "decorPreferences": ["live rock", "rock rubble", "stable substrate for rhizoid attachment", "low-flow placement to protect delicate caps"],
+    "decorPreferences": [
+      "live rock",
+      "rock rubble",
+      "stable substrate for rhizoid attachment",
+      "low-flow placement to protect delicate caps"
+    ],
     "minSandDepthCm": null
   },
-
   "careLevel": "expert",
-
   "diet": null,
-
   "compatibility": {
     "temperament": "peaceful",
     "grouping": "solitary",
     "minGroupSize": null,
-    "goodWith": ["peaceful reef fish", "shrimp", "snails", "hermit crabs"],
-    "avoidWith": ["herbivorous fish (tangs, rabbitfish, angels)", "sea urchins", "strong turbulent flow equipment"]
+    "goodWith": [
+      "peaceful reef fish",
+      "shrimp",
+      "snails",
+      "hermit crabs"
+    ],
+    "avoidWith": [
+      "herbivorous fish (tangs, rabbitfish, angels)",
+      "sea urchins",
+      "strong turbulent flow equipment"
+    ]
   },
-
   "media": {
     "primaryImage": null,
     "gallery": [],
@@ -67,13 +102,9 @@
       }
     ]
   },
-
   "summary": "A remarkably delicate calcareous green alga forming coin-like caps on spindly white stalks. A famous cell-biology model organism (Hammerling 1930s) and notoriously short-lived in captivity; expert-level care only.",
-
   "careNotes": "Acetabularia is one of the most biologically extraordinary organisms in the hobby: it is a giant unicellular green alga, with the entire plant — rhizoid, stalk, and cap — forming a single cell. The nucleus resides exclusively in the rhizoid at the base. This architecture made it famous in cell biology through Joachim Hammerling's landmark 1930s–1950s nuclear-transplantation experiments, which demonstrated that genetic information controlling development resides in the nucleus, helping establish the foundations of molecular biology.\n\nIn aquarium keeping, Acetabularia is generally considered one of the most difficult calcareous green macroalgae to maintain long-term. Captive lifespans tend to be short; specimens frequently decline over a period of weeks to months even under seemingly optimal conditions. The delicate disc-shaped green caps are particularly fragile and sensitive to shipping stress — Mosaic Macros notes that cap integrity cannot be guaranteed on arrival, though stalks that remain attached to the substrate can regenerate caps under good conditions.\n\nSuccessful husbandry typically requires: high-intensity full-spectrum lighting (similar to SPS coral requirements); strict calcium supplementation (generally advised around 400–450 ppm) and maintained alkalinity (8–12 dKH), as the stalk and rhizoid are heavily calcified; stable specific gravity and temperature; low to moderate, non-turbulent flow to avoid mechanical damage to the caps; and avoidance of all herbivorous tankmates. Phosphate and nitrate suppression consistent with a mature reef are generally recommended.\n\nMosaic Macros is currently the primary hobby trade source for this species. Family-level care (Polyphysaceae calcareous greens, alongside Penicillus and Halimeda relatives) suggests similar sensitivity to calcium/magnesium balance as other calcified Dasycladales. Propagation in captivity is documented primarily through fragmentation of the rhizoid/stalk; the complex alternation-of-generations sexual cycle has not been practically replicated in hobby settings.\n\nDue to the short captive lifespan and high husbandry bar, this species is recommended only for experienced reef keepers with stable, mature reef systems who wish to display a living piece of biology history.",
-
   "breedingNotes": "In the wild, Acetabularia undergoes a complex sexual cycle: as the cap matures, the single nucleus undergoes repeated divisions producing thousands of haploid nuclei that migrate into the cap branches and are released as gametes into open water. This cycle has not been replicated in hobby aquariums. Captive propagation, when successful, relies on fragmentation — detached stalk fragments with intact rhizoids anchored to rubble substrate have been reported to form new growth under optimal conditions.",
-
   "sources": {
     "primary": {
       "name": "Mosaic Macros",
@@ -93,26 +124,35 @@
         "url": "https://en.wikipedia.org/wiki/Acetabularia_acetabulum",
         "accessedDate": "2026-06-08",
         "notes": "Type species detail: Mediterranean distribution, 1–2 m depth, ~5 cm stem with 1.2 cm cap disc. Confirms model-organism status in developmental biology. Used to extrapolate native range and size data for genus."
+      },
+      {
+        "name": "Mosaic Macros general macroalgae care guide",
+        "url": "https://mosaicmacros.com/blogs/macroalgae-care-sheets-compatibility/macroalgae-care-the-basics-of-keeping-macroalgae-in-your-reef",
+        "accessedDate": "2026-06-08",
+        "notes": "Slice-wide secondary source — provides authoritative Mosaic-wide parameter targets (temp 22-26°C, pH 8.1-8.4, Ca 400-450 ppm, Mg 1250-1350 ppm, NO3 5-20 ppm, PO4 0.02-0.1 ppm) and the 4-method propagation standard. Added retroactively 2026-06-08."
       }
     ]
   },
-
-  "fish":        null,
-  "crustacean":  null,
-  "coral":       null,
-  "mollusc":     null,
-  "echinoderm":  null,
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
   "other-invert": null,
-  "plant":       null,
+  "plant": null,
   "macroalgae": {
-    "lighting":       "high",
-    "growthRate":     "slow",
-    "form":           "calcareous",
-    "placement":      "display",
+    "lighting": "high",
+    "growthRate": "slow",
+    "form": "calcareous",
+    "placement": "display",
     "nutrientUptake": "low",
-    "propagation":    ["fragmentation"]
+    "propagation": [
+      "fragmentation",
+      "wedging",
+      "zip-tie/fishing line",
+      "sand-bed"
+    ]
   },
-
   "schemaVersion": 1,
   "dataStatus": "researched",
   "lastReviewed": "2026-06-08"

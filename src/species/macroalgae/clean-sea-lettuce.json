@@ -6,7 +6,11 @@
   "waterType": "saltwater",
   "commonName": "Clean Sea Lettuce",
   "scientificName": "Ulva lactuca",
-  "alsoKnownAs": ["Sea Lettuce", "Green Laver", "Lettuce Algae"],
+  "alsoKnownAs": [
+    "Sea Lettuce",
+    "Green Laver",
+    "Lettuce Algae"
+  ],
   "category": "Macroalgae",
   "taxonomy": {
     "family": "Ulvaceae",
@@ -14,28 +18,51 @@
   },
   "nativeRange": {
     "regions": [
-      "Cosmopolitan — Atlantic", "Indo-Pacific", "Mediterranean",
-      "Caribbean", "Pacific", "Indian Ocean"
+      "Cosmopolitan — Atlantic",
+      "Indo-Pacific",
+      "Mediterranean",
+      "Caribbean",
+      "Pacific",
+      "Indian Ocean"
     ],
     "countries": [],
     "habitat": "Intertidal and shallow subtidal rocky shores; thrives in nutrient-rich coastal and estuarine waters",
     "biotope": "Reef",
-    "depthRangeM": { "min": 0, "max": 10 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 10
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 20, "max": 26 },
-    "pH": { "min": 7.9, "max": 8.4 },
+    "temperatureC": {
+      "min": 20,
+      "max": 26
+    },
+    "pH": {
+      "min": 7.9,
+      "max": 8.4
+    },
     "gH": null,
     "kH": null,
-    "salinity": { "min": 1.021, "max": 1.026 }
+    "salinity": {
+      "min": 1.021,
+      "max": 1.026
+    }
   },
-  "adultSizeCm": { "min": 5, "max": 30 },
+  "adultSizeCm": {
+    "min": 5,
+    "max": 30
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 40,
     "minLengthCm": null,
     "swimZone": null,
-    "decorPreferences": ["refugium with tumbling flow", "live rock attachment point", "display tank with herbivores"],
+    "decorPreferences": [
+      "refugium with tumbling flow",
+      "live rock attachment point",
+      "display tank with herbivores"
+    ],
     "minSandDepthCm": null
   },
   "careLevel": "beginner",
@@ -44,7 +71,14 @@
     "temperament": "peaceful",
     "grouping": "solitary",
     "minGroupSize": null,
-    "goodWith": ["tangs", "rabbitfish", "herbivorous fish", "emerald crabs", "copepods", "amphipods"],
+    "goodWith": [
+      "tangs",
+      "rabbitfish",
+      "herbivorous fish",
+      "emerald crabs",
+      "copepods",
+      "amphipods"
+    ],
     "avoidWith": []
   },
   "media": {
@@ -86,6 +120,12 @@
         "url": "https://www.saltyunderground.com/article/lettuce-algae-ulva-lactuca",
         "accessedDate": "2026-06-08",
         "notes": "Additional confirmation of thallus size (up to 12 in / ~30 cm), fast growth, bright-spectrum light preference, tang/rabbitfish food value, iron supplementation benefit."
+      },
+      {
+        "name": "Mosaic Macros general macroalgae care guide",
+        "url": "https://mosaicmacros.com/blogs/macroalgae-care-sheets-compatibility/macroalgae-care-the-basics-of-keeping-macroalgae-in-your-reef",
+        "accessedDate": "2026-06-08",
+        "notes": "Slice-wide secondary source — provides authoritative Mosaic-wide parameter targets (temp 22-26°C, pH 8.1-8.4, Ca 400-450 ppm, Mg 1250-1350 ppm, NO3 5-20 ppm, PO4 0.02-0.1 ppm) and the 4-method propagation standard. Added retroactively 2026-06-08."
       }
     ]
   },
@@ -102,7 +142,12 @@
     "form": "macroalgae",
     "placement": "refugium",
     "nutrientUptake": "high",
-    "propagation": ["fragmentation", "gametophyte-sporophyte alternation"]
+    "propagation": [
+      "fragmentation",
+      "wedging",
+      "zip-tie/fishing line",
+      "gametophyte-sporophyte alternation"
+    ]
   },
   "schemaVersion": 1,
   "dataStatus": "researched",

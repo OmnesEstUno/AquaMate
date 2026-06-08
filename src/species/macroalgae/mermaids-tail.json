@@ -6,33 +6,62 @@
   "waterType": "saltwater",
   "commonName": "Mermaid's Tail",
   "scientificName": "Udotea sp.",
-  "alsoKnownAs": ["Mermaid's Fan", "Mermaid Fan Algae"],
+  "alsoKnownAs": [
+    "Mermaid's Fan",
+    "Mermaid Fan Algae"
+  ],
   "category": "Calcareous Macroalgae",
   "taxonomy": {
     "family": "Udoteaceae",
     "order": "Bryopsidales"
   },
   "nativeRange": {
-    "regions": ["Caribbean", "Tropical Atlantic", "Indo-Pacific"],
+    "regions": [
+      "Caribbean",
+      "Tropical Atlantic",
+      "Indo-Pacific"
+    ],
     "countries": [],
     "habitat": "Shallow tropical reefs, sandy seagrass beds, and lagoon margins; anchors in sandy or rubble substrate via uncalcified rhizoids. Found throughout the photic zone in warm tropical seas.",
     "biotope": "Reef",
-    "depthRangeM": { "min": 0, "max": 23 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 23
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 27 },
-    "pH": { "min": 8.1, "max": 8.3 },
+    "temperatureC": {
+      "min": 24,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.3
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.023, "max": 1.026 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.023,
+      "max": 1.026
+    }
   },
-  "adultSizeCm": { "min": 2.5, "max": 20 },
+  "adultSizeCm": {
+    "min": 2.5,
+    "max": 20
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 40,
     "minLengthCm": null,
     "swimZone": null,
-    "decorPreferences": ["sandy substrate at least 5 cm deep for rhizoid anchoring", "open display placement with strong overhead lighting", "stable low-flow zone to prevent uprooting"],
+    "decorPreferences": [
+      "sandy substrate at least 5 cm deep for rhizoid anchoring",
+      "open display placement with strong overhead lighting",
+      "stable low-flow zone to prevent uprooting"
+    ],
     "minSandDepthCm": 5
   },
   "careLevel": "expert",
@@ -41,8 +70,18 @@
     "temperament": "peaceful",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["peaceful reef fish", "snails", "hermit crabs", "shrimp", "corals"],
-    "avoidWith": ["large herbivorous fish such as tangs that may graze or dislodge", "urchins that may uproot the rhizoid holdfast", "strong powerhead flow that dislodges unestablished specimens"]
+    "goodWith": [
+      "peaceful reef fish",
+      "snails",
+      "hermit crabs",
+      "shrimp",
+      "corals"
+    ],
+    "avoidWith": [
+      "large herbivorous fish such as tangs that may graze or dislodge",
+      "urchins that may uproot the rhizoid holdfast",
+      "strong powerhead flow that dislodges unestablished specimens"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -74,6 +113,12 @@
         "url": "https://en.wikipedia.org/wiki/Udotea",
         "accessedDate": "2026-06-08",
         "notes": "Taxonomy verification: family Udoteaceae, order Bryopsidales, class Ulvophyceae, division Chlorophyta. Size range 8–20 cm. Habitat: seagrass areas and shallow reefs to ~23 m depth. Distribution: Caribbean, tropical Atlantic, Indo-Pacific. Notes that Udotea is not currently cultivated for aquaculture. AlgaeBase was inaccessible (CAPTCHA blocks) — Wikipedia used as taxonomy fallback per playbook."
+      },
+      {
+        "name": "Mosaic Macros general macroalgae care guide",
+        "url": "https://mosaicmacros.com/blogs/macroalgae-care-sheets-compatibility/macroalgae-care-the-basics-of-keeping-macroalgae-in-your-reef",
+        "accessedDate": "2026-06-08",
+        "notes": "Slice-wide secondary source — provides authoritative Mosaic-wide parameter targets (temp 22-26°C, pH 8.1-8.4, Ca 400-450 ppm, Mg 1250-1350 ppm, NO3 5-20 ppm, PO4 0.02-0.1 ppm) and the 4-method propagation standard. Added retroactively 2026-06-08."
       }
     ]
   },
@@ -90,7 +135,12 @@
     "form": "calcareous",
     "placement": "display",
     "nutrientUptake": "low",
-    "propagation": ["fragmentation"]
+    "propagation": [
+      "fragmentation",
+      "wedging",
+      "zip-tie/fishing line",
+      "sand-bed"
+    ]
   },
   "schemaVersion": 1,
   "dataStatus": "researched",

@@ -6,53 +6,81 @@
   "waterType": "saltwater",
   "commonName": "Green Bulb Caulerpa",
   "scientificName": "Caulerpa racemosa var. macrophysa",
-  "alsoKnownAs": ["Green Dot Caulerpa", "Macrophysa Sea Grapes"],
+  "alsoKnownAs": [
+    "Green Dot Caulerpa",
+    "Macrophysa Sea Grapes"
+  ],
   "category": "Macroalgae",
-
   "taxonomy": {
     "family": "Caulerpaceae",
     "order": "Bryopsidales"
   },
-
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Caribbean", "Atlantic"],
+    "regions": [
+      "Indo-Pacific",
+      "Caribbean",
+      "Atlantic"
+    ],
     "countries": [],
     "habitat": "Shallow tropical and subtropical seas; rocky substrate, sandy areas, and reef flats in the photic zone",
     "biotope": "Reef",
-    "depthRangeM": { "min": 0, "max": 30 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 30
+    }
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 22.0, "max": 26.0 },
-    "pH":           { "min": 8.1, "max": 8.4 },
-    "gH":           null,
-    "kH":           { "min": 8, "max": 12 },
-    "salinity":     { "min": 1.023, "max": 1.025 }
+    "temperatureC": {
+      "min": 22,
+      "max": 26
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.023,
+      "max": 1.025
+    }
   },
-
-  "adultSizeCm": { "min": 5, "max": 30 },
+  "adultSizeCm": {
+    "min": 5,
+    "max": 30
+  },
   "lifespanYears": null,
-
   "tank": {
     "minVolumeLiters": 40,
     "minLengthCm": null,
     "swimZone": null,
-    "decorPreferences": ["live rock for holdfast anchoring", "sandbed or rubble substrate", "moderate water flow"],
+    "decorPreferences": [
+      "live rock for holdfast anchoring",
+      "sandbed or rubble substrate",
+      "moderate water flow"
+    ],
     "minSandDepthCm": null
   },
-
   "careLevel": "beginner",
-
   "diet": null,
-
   "compatibility": {
     "temperament": "semi-aggressive",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["reef fish", "most corals (with distance)", "invertebrates"],
-    "avoidWith": ["sensitive SPS corals (direct contact)", "herbivorous fish (tangs, rabbitfish, sea urchins)", "tanks with no photoperiod control"]
+    "goodWith": [
+      "reef fish",
+      "most corals (with distance)",
+      "invertebrates"
+    ],
+    "avoidWith": [
+      "sensitive SPS corals (direct contact)",
+      "herbivorous fish (tangs, rabbitfish, sea urchins)",
+      "tanks with no photoperiod control"
+    ]
   },
-
   "media": {
     "primaryImage": null,
     "gallery": [],
@@ -67,13 +95,9 @@
       }
     ]
   },
-
   "summary": "A display-tank variety of Sea Grapes with notably larger, rounder bulbous fronds than the parent species. Fast-growing and beginner-accessible, but allelopathic and an invasive concern — never release into natural waterways.",
-
   "careNotes": "Green Bulb Caulerpa (Caulerpa racemosa var. macrophysa) is a variety of the widely kept Sea Grapes (C. racemosa, sw-algae-016) distinguished by its notably larger, rounder, more pronounced bulbous side-shoots that give the fronds a 'green dot' appearance. Growth form is otherwise identical to the parent species: a creeping stolon anchors into substrate or rockwork via rhizoids, with upright branching axes bearing the characteristic grape-cluster fronds. Mosaic Macros describes fronds as 'prolifically growing' and the product ships as 3–5\" cuttings.\n\nMosaic Macros is currently the only documented aquarium trade source for this specific variety. Water parameters, lighting, and husbandry have been extrapolated from the parent species (C. racemosa) and genus-level Caulerpa care standards; no variety-specific parameter data was found in available sources.\n\nALLELOPATHY: As a C. racemosa variety, this algae is documented to release secondary metabolites including caulerpenyne and caulerpin into the water column. These compounds have demonstrated inhibitory effects on corals and competing algae in research settings. Physical separation from sensitive SPS corals, activated carbon use, and regular harvesting are generally advisable.\n\nGOING SEXUAL / REPRODUCTIVE CRASH: Like all Caulerpa species, var. macrophysa can undergo holocarpy — a mass reproductive event triggered by sharp nutrient crashes, disrupted photoperiod, or rapid temperature swings. This converts the organism's cytoplasm into gametes and releases organic matter and gametes into the tank, potentially causing an acute water-quality crisis. Mitigations include: running refugium lighting on a 24-hour photoperiod; regular harvesting to keep the colony in active vegetative growth; maintaining stable (non-zero) nutrient levels; and immediately removing any specimen showing reproductive structures (white or translucent fronds, turbid discharge).\n\nINVASIVE CONCERN: C. racemosa and its varieties are documented invasive species, particularly in the Mediterranean (var. cylindracea). Captive specimens must never be released into natural waterways. Mosaic Macros notes that Caulerpa species are banned in California; similar restrictions may apply in other jurisdictions.\n\nGENERAL CARE: Prefers high reef-quality lighting (5,000K or higher spectrum) with a stable photoperiod. Moderate water flow is generally advised. Compatible with snails, hermit crabs, shrimp, and fish; herbivorous fish (tangs, rabbitfish, sea urchins) will readily graze it. Suited to display placement due to its ornamental grape-cluster frond structure. Freshly arrived cuttings may show white or translucent fronds from transport darkness — normal coloration typically returns within hours of light exposure.\n\nCROSS-REFERENCE: See sea-grapes (sw-algae-016) for the parent species C. racemosa with full source documentation; and caulerpa-prolifera (sw-algae-004) for the Atlantic blade-form sibling species, both of which share the allelopathy, holocarpy, and invasive caveats documented here.",
-
   "breedingNotes": "Propagates readily via fragmentation — broken pieces have been reported to establish into new plants — and by vegetative tip growth along the stolon. Sexual reproduction (holocarpy) is a stress-triggered destructive event rather than a managed propagation method; aquarists should take active steps to prevent triggering it (see careNotes).",
-
   "sources": {
     "primary": {
       "name": "Mosaic Macros",
@@ -93,10 +117,15 @@
         "url": "https://aquamate.me/species/caulerpa-prolifera",
         "accessedDate": "2026-06-08",
         "notes": "Sibling species cross-reference (sw-algae-004). Confirms genus-level allelopathy, holocarpy risk, and invasive classification for Caulerpa as a genus."
+      },
+      {
+        "name": "Mosaic Macros general macroalgae care guide",
+        "url": "https://mosaicmacros.com/blogs/macroalgae-care-sheets-compatibility/macroalgae-care-the-basics-of-keeping-macroalgae-in-your-reef",
+        "accessedDate": "2026-06-08",
+        "notes": "Slice-wide secondary source — provides authoritative Mosaic-wide parameter targets (temp 22-26°C, pH 8.1-8.4, Ca 400-450 ppm, Mg 1250-1350 ppm, NO3 5-20 ppm, PO4 0.02-0.1 ppm) and the 4-method propagation standard. Added retroactively 2026-06-08."
       }
     ]
   },
-
   "fish": null,
   "crustacean": null,
   "coral": null,
@@ -105,14 +134,19 @@
   "other-invert": null,
   "plant": null,
   "macroalgae": {
-    "lighting":       "high",
-    "growthRate":     "fast",
-    "form":           "macroalgae",
-    "placement":      "display",
+    "lighting": "high",
+    "growthRate": "fast",
+    "form": "macroalgae",
+    "placement": "display",
     "nutrientUptake": "high",
-    "propagation":    ["fragmentation", "vegetative tip growth"]
+    "propagation": [
+      "fragmentation",
+      "wedging",
+      "zip-tie/fishing line",
+      "sand-bed",
+      "vegetative tip growth"
+    ]
   },
-
   "schemaVersion": 1,
   "dataStatus": "researched",
   "lastReviewed": "2026-06-08"

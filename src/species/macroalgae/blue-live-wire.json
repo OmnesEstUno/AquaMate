@@ -6,53 +6,77 @@
   "waterType": "saltwater",
   "commonName": "Blue Live Wire",
   "scientificName": "Coelothrix irregularis",
-  "alsoKnownAs": ["Iridescent Wire Algae"],
+  "alsoKnownAs": [
+    "Iridescent Wire Algae"
+  ],
   "category": "Macroalgae",
-
   "taxonomy": {
     "family": "Champiaceae",
     "order": "Rhodymeniales"
   },
-
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Tropical Atlantic"],
+    "regions": [
+      "Indo-Pacific",
+      "Tropical Atlantic"
+    ],
     "countries": [],
     "habitat": "Shallow reef and rocky subtidal zones, typically in the photic zone",
     "biotope": "Reef",
-    "depthRangeM": { "min": 0, "max": 30 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 30
+    }
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 26 },
-    "pH":           { "min": 8.1, "max": 8.4 },
-    "gH":           null,
-    "kH":           { "min": 8, "max": 12 },
-    "salinity":     { "min": 1.023, "max": 1.026 }
+    "temperatureC": {
+      "min": 24,
+      "max": 26
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.023,
+      "max": 1.026
+    }
   },
-
-  "adultSizeCm": { "min": 5, "max": 15 },
+  "adultSizeCm": {
+    "min": 5,
+    "max": 15
+  },
   "lifespanYears": null,
-
   "tank": {
     "minVolumeLiters": 40,
     "minLengthCm": null,
     "swimZone": null,
-    "decorPreferences": ["live rock", "open display placement", "moderate to high flow areas"],
+    "decorPreferences": [
+      "live rock",
+      "open display placement",
+      "moderate to high flow areas"
+    ],
     "minSandDepthCm": null
   },
-
   "careLevel": "intermediate",
-
   "diet": null,
-
   "compatibility": {
     "temperament": "peaceful",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["peaceful reef fish", "invertebrates", "corals"],
-    "avoidWith": ["herbivorous fish that graze heavily on macroalgae (e.g. tangs, rabbitfish in small tanks)"]
+    "goodWith": [
+      "peaceful reef fish",
+      "invertebrates",
+      "corals"
+    ],
+    "avoidWith": [
+      "herbivorous fish that graze heavily on macroalgae (e.g. tangs, rabbitfish in small tanks)"
+    ]
   },
-
   "media": {
     "primaryImage": null,
     "gallery": [],
@@ -67,13 +91,9 @@
       }
     ]
   },
-
   "summary": "A rare red macroalga (family Champiaceae) with thin, tubular, irregularly branching thalli that exhibit a striking blue iridescence under aquarium lighting. Generally suited to display reef tanks with moderate lighting.",
-
-  "careNotes": "Blue Live Wire (Coelothrix irregularis) is a specialty ornamental red macroalga in the family Champiaceae, order Rhodymeniales. Its most distinctive trait is a vivid blue iridescence on the thin, wiry, irregularly branching thallus — a structural coloration effect common in the genus. In aquarium keeping, this species is documented almost exclusively through Mosaic Macros, which is the sole known hobby-trade source at the time of this entry (2026-06-08). Standard reef water parameters are generally advised: temperature around 24–26°C, pH 8.1–8.4, alkalinity 8–12 dKH, and specific gravity 1.023–1.026. Husbandry values for lighting (medium), growth rate (medium), and nutrient uptake (low) are extrapolated from published care standards for red macroalgae in the Champiaceae family, as species-specific captive care data is not available in the broader hobby literature. Propagation in the aquarium is typically achieved by fragmentation. Placement in the display tank is recommended to showcase the iridescent coloration. Source coverage caveat: this entry is based on a single specialty trade source (Mosaic Macros) plus family-level taxonomic extrapolation. Aquarists seeking corroborating care guidance should consult AlgaeBase for taxonomic context and monitor specialist reef forums for emerging captive care reports.",
-
+  "careNotes": "Blue Live Wire (Coelothrix irregularis) is a specialty ornamental red macroalga in the family Champiaceae, order Rhodymeniales. Its most distinctive trait is a vivid blue iridescence on the thin, wiry, irregularly branching thallus — a structural coloration effect common in the genus. In aquarium keeping, this species is documented almost exclusively through Mosaic Macros, which is the sole known hobby-trade source at the time of this entry (2026-06-08). Standard reef water parameters are generally advised: temperature around 24–26°C, pH 8.1–8.4, alkalinity 8–12 dKH, and specific gravity 1.023–1.026. Husbandry values for lighting (medium), growth rate (medium), and nutrient uptake (low) are extrapolated from published care standards for red macroalgae in the Champiaceae family, as species-specific captive care data is not available in the broader hobby literature. Propagation in the aquarium is typically achieved by fragmentation. Placement in the display tank is recommended to showcase the iridescent coloration. Source coverage caveat: this entry is based on a single specialty trade source (Mosaic Macros) plus family-level taxonomic extrapolation. Aquarists seeking corroborating care guidance should consult AlgaeBase for taxonomic context and monitor specialist reef forums for emerging captive care reports. Per Mosaic care guide guidance: as a red or brown alga, this species will MELT at the base if buried in sand — attach to rock via superglue, zip-tie/fishing line, or wedging instead. (Sand-bed acceptance per Mosaic is limited to Caulerpa, Halimeda, Penicillus, Rhipocephalus, and Udotea genera, plus some calcified Dasycladales.)",
   "breedingNotes": "Propagation in captivity is generally accomplished by fragmentation — breaking off healthy branch tips and attaching or wedging them among rockwork. Sexual reproduction (alternating gametophyte–sporophyte lifecycle typical of red algae) has not been documented in hobby aquaria.",
-
   "sources": {
     "primary": {
       "name": "Mosaic Macros",
@@ -81,25 +101,34 @@
       "accessedDate": "2026-06-08",
       "notes": "Sole hobby-trade source for this species. Product listing for 'Iridescent Wire Algae' (Coelothrix irregularis). Provides identification, imagery, and general reef suitability context."
     },
-    "additional": []
+    "additional": [
+      {
+        "name": "Mosaic Macros general macroalgae care guide",
+        "url": "https://mosaicmacros.com/blogs/macroalgae-care-sheets-compatibility/macroalgae-care-the-basics-of-keeping-macroalgae-in-your-reef",
+        "accessedDate": "2026-06-08",
+        "notes": "Slice-wide secondary source — provides authoritative Mosaic-wide parameter targets (temp 22-26°C, pH 8.1-8.4, Ca 400-450 ppm, Mg 1250-1350 ppm, NO3 5-20 ppm, PO4 0.02-0.1 ppm) and the 4-method propagation standard. Added retroactively 2026-06-08."
+      }
+    ]
   },
-
-  "fish":        null,
-  "crustacean":  null,
-  "coral":       null,
-  "mollusc":     null,
-  "echinoderm":  null,
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
   "other-invert": null,
-  "plant":       null,
+  "plant": null,
   "macroalgae": {
-    "lighting":       "medium",
-    "growthRate":     "medium",
-    "form":           "macroalgae",
-    "placement":      "display",
+    "lighting": "medium",
+    "growthRate": "medium",
+    "form": "macroalgae",
+    "placement": "display",
     "nutrientUptake": "low",
-    "propagation":    ["fragmentation"]
+    "propagation": [
+      "fragmentation",
+      "wedging",
+      "zip-tie/fishing line"
+    ]
   },
-
   "schemaVersion": 1,
   "dataStatus": "researched",
   "lastReviewed": "2026-06-08"

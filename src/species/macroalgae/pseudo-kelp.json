@@ -6,65 +6,95 @@
   "waterType": "saltwater",
   "commonName": "Pseudo-Kelp",
   "scientificName": "Sargassum sp.",
-  "alsoKnownAs": ["Zig-Zag Kelp", "Plating Gulfweed", "Gulfweed"],
+  "alsoKnownAs": [
+    "Zig-Zag Kelp",
+    "Plating Gulfweed",
+    "Gulfweed"
+  ],
   "category": "Macroalgae",
-
   "taxonomy": {
     "family": "Sargassaceae",
     "order": "Fucales"
   },
-
   "nativeRange": {
-    "regions": ["Atlantic Ocean", "Sargasso Sea", "Caribbean Sea", "Tropical Atlantic", "Indo-Pacific", "Tropical Pacific"],
+    "regions": [
+      "Atlantic Ocean",
+      "Sargasso Sea",
+      "Caribbean Sea",
+      "Tropical Atlantic",
+      "Indo-Pacific",
+      "Tropical Pacific"
+    ],
     "countries": [],
     "habitat": "Pelagic open ocean (free-floating holopelagic forms) and attached to hard substrate in shallow coastal reef zones; intertidal to subtidal",
     "biotope": "Tropical and subtropical open-ocean drift communities and shallow reef zones",
-    "depthRangeM": { "min": 0, "max": 30 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 30
+    }
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 27 },
-    "pH":           { "min": 8.1, "max": 8.4 },
-    "gH":           null,
-    "kH":           { "min": 8, "max": 12 },
-    "salinity":     { "min": 1.023, "max": 1.026 }
+    "temperatureC": {
+      "min": 22,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.023,
+      "max": 1.026
+    }
   },
-
-  "adultSizeCm": { "min": 5, "max": 40 },
+  "adultSizeCm": {
+    "min": 5,
+    "max": 40
+  },
   "lifespanYears": null,
-
   "tank": {
     "minVolumeLiters": 120,
     "minLengthCm": null,
     "swimZone": null,
-    "decorPreferences": ["live rock anchor point", "rockwork", "rubble substrate for holdfast attachment", "high-flow area"],
+    "decorPreferences": [
+      "live rock anchor point",
+      "rockwork",
+      "rubble substrate for holdfast attachment",
+      "high-flow area"
+    ],
     "minSandDepthCm": null
   },
-
   "careLevel": "intermediate",
-
   "diet": null,
-
   "compatibility": {
     "temperament": "peaceful",
     "grouping": "solitary",
     "minGroupSize": null,
-    "goodWith": ["reef fish", "snails", "hermit crabs", "shrimp", "most reef invertebrates", "tangs (as forage)"],
-    "avoidWith": ["heavy herbivorous grazers that may consume it before it establishes"]
+    "goodWith": [
+      "reef fish",
+      "snails",
+      "hermit crabs",
+      "shrimp",
+      "most reef invertebrates",
+      "tangs (as forage)"
+    ],
+    "avoidWith": [
+      "heavy herbivorous grazers that may consume it before it establishes"
+    ]
   },
-
   "media": {
     "primaryImage": null,
     "gallery": [],
     "imageCandidates": null
   },
-
   "summary": "A large-form brown macroalga with distinctive gas-bladder floats (pneumatocysts), mimicking true kelp in display tanks. Sold in multiple morphs including a zig-zag-branched form and a bladder-free plating variant (Plating Gulfweed).",
-
-  "careNotes": "Sargassum is a genus of brown macroalgae (class Phaeophyceae, order Fucales, family Sargassaceae) notable for its kelp-like stature and distinctive pneumatocysts — small, spherical, gas-filled bladders that keep fronds buoyant and upright. In the wild, holopelagic species such as S. natans and S. fluitans drift freely across the Sargasso Sea and Atlantic, forming the Great Atlantic Sargassum Belt, a phenomenon that intensified dramatically from 2011 onward as large blooms became an annual event tied to elevated nutrient loading from land. Aquarium-suitable Sargassum are typically holdfast-forming species (not the pelagic free-drifters) and attach to live rock or rubble in the display tank.\n\nMosaic Macros offers this genus under three trade forms: Pseudo-Kelp (typical upright, branching form with pneumatocysts; yellow to gold to brown coloration), Zig-Zag Kelp (thin, zig-zag branching structure with pneumatocysts; similarly sparse habit), and Plating Gulfweed (a notably different morph that grows in a flat, plating fashion with a defined midrib and does NOT form air bladders; described as fairly small and slow-growing). The species identification is left at genus level (Sargassum sp.) as Mosaic does not specify the exact species. The Plating Gulfweed variant may represent a distinct species from the other two.\n\nFor the typical Pseudo-Kelp and Zig-Zag Kelp morphs, high lighting is generally advised consistent with the genus' preference for sun-exposed surface waters. The Plating Gulfweed is specifically described by Mosaic as preferring high lighting and having a slow growth rate — diverging from the genus norm of fast growth. The upright morphs tend toward faster growth; all three morphs appear sparse rather than bushy in captivity.\n\nSargassum is generally considered suitable forage for herbivorous tangs and surgeonfish. Mosaic Macros notes that macroalgae are generally safe with snails, hermit crabs, shrimp, and most reef fish, though heavy grazers may consume it faster than it can establish. A larger tank (120 L or more) is advisable to give the specimen room to reach meaningful size and to buffer grazing pressure.\n\nPropagation in captivity is typically by fragmentation — detaching a branch and anchoring it to rockwork. All three Mosaic SKUs were consolidated into this single entry (Pseudo-Kelp, Zig-Zag Kelp, Plating Gulfweed) as they are all Sargassum sp. with divergent morphological descriptions. Water parameters follow standard tropical reef values; no source provided species-specific deviations.",
-
+  "careNotes": "Sargassum is a genus of brown macroalgae (class Phaeophyceae, order Fucales, family Sargassaceae) notable for its kelp-like stature and distinctive pneumatocysts — small, spherical, gas-filled bladders that keep fronds buoyant and upright. In the wild, holopelagic species such as S. natans and S. fluitans drift freely across the Sargasso Sea and Atlantic, forming the Great Atlantic Sargassum Belt, a phenomenon that intensified dramatically from 2011 onward as large blooms became an annual event tied to elevated nutrient loading from land. Aquarium-suitable Sargassum are typically holdfast-forming species (not the pelagic free-drifters) and attach to live rock or rubble in the display tank.\n\nMosaic Macros offers this genus under three trade forms: Pseudo-Kelp (typical upright, branching form with pneumatocysts; yellow to gold to brown coloration), Zig-Zag Kelp (thin, zig-zag branching structure with pneumatocysts; similarly sparse habit), and Plating Gulfweed (a notably different morph that grows in a flat, plating fashion with a defined midrib and does NOT form air bladders; described as fairly small and slow-growing). The species identification is left at genus level (Sargassum sp.) as Mosaic does not specify the exact species. The Plating Gulfweed variant may represent a distinct species from the other two.\n\nFor the typical Pseudo-Kelp and Zig-Zag Kelp morphs, high lighting is generally advised consistent with the genus' preference for sun-exposed surface waters. The Plating Gulfweed is specifically described by Mosaic as preferring high lighting and having a slow growth rate — diverging from the genus norm of fast growth. The upright morphs tend toward faster growth; all three morphs appear sparse rather than bushy in captivity.\n\nSargassum is generally considered suitable forage for herbivorous tangs and surgeonfish. Mosaic Macros notes that macroalgae are generally safe with snails, hermit crabs, shrimp, and most reef fish, though heavy grazers may consume it faster than it can establish. A larger tank (120 L or more) is advisable to give the specimen room to reach meaningful size and to buffer grazing pressure.\n\nPropagation in captivity is typically by fragmentation — detaching a branch and anchoring it to rockwork. All three Mosaic SKUs were consolidated into this single entry (Pseudo-Kelp, Zig-Zag Kelp, Plating Gulfweed) as they are all Sargassum sp. with divergent morphological descriptions. Water parameters follow standard tropical reef values; no source provided species-specific deviations. Per Mosaic care guide guidance: as a red or brown alga, this species will MELT at the base if buried in sand — attach to rock via superglue, zip-tie/fishing line, or wedging instead. (Sand-bed acceptance per Mosaic is limited to Caulerpa, Halimeda, Penicillus, Rhipocephalus, and Udotea genera, plus some calcified Dasycladales.)",
   "breedingNotes": "Propagation in aquariums is generally achieved through fragmentation of the thallus. Sexual reproduction in Sargassum follows an alternation of generations (sporophyte-dominant lifecycle), but this has not been documented as a practical propagation pathway in hobby settings.",
-
   "sources": {
     "primary": {
       "name": "Mosaic Macros",
@@ -90,26 +120,34 @@
         "url": "https://en.wikipedia.org/wiki/Sargassum",
         "accessedDate": "2026-06-08",
         "notes": "Taxonomy cross-check: confirms order Fucales; confirms pneumatocyst biology, Sargasso Sea origin, and 2011+ Great Atlantic Sargassum Belt events. Not a husbandry source."
+      },
+      {
+        "name": "Mosaic Macros general macroalgae care guide",
+        "url": "https://mosaicmacros.com/blogs/macroalgae-care-sheets-compatibility/macroalgae-care-the-basics-of-keeping-macroalgae-in-your-reef",
+        "accessedDate": "2026-06-08",
+        "notes": "Slice-wide secondary source — provides authoritative Mosaic-wide parameter targets (temp 22-26°C, pH 8.1-8.4, Ca 400-450 ppm, Mg 1250-1350 ppm, NO3 5-20 ppm, PO4 0.02-0.1 ppm) and the 4-method propagation standard. Added retroactively 2026-06-08."
       }
     ]
   },
-
-  "fish":        null,
-  "crustacean":  null,
-  "coral":       null,
-  "mollusc":     null,
-  "echinoderm":  null,
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
   "other-invert": null,
-  "plant":       null,
+  "plant": null,
   "macroalgae": {
-    "lighting":       "high",
-    "growthRate":     "fast",
-    "form":           "macroalgae",
-    "placement":      "display",
+    "lighting": "high",
+    "growthRate": "fast",
+    "form": "macroalgae",
+    "placement": "display",
     "nutrientUptake": "high",
-    "propagation":    ["fragmentation"]
+    "propagation": [
+      "fragmentation",
+      "wedging",
+      "zip-tie/fishing line"
+    ]
   },
-
   "schemaVersion": 1,
   "dataStatus": "researched",
   "lastReviewed": "2026-06-08"

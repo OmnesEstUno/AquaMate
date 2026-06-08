@@ -18,26 +18,61 @@
     "order": "Dasycladales"
   },
   "nativeRange": {
-    "regions": ["Caribbean", "Western Atlantic", "Gulf of Mexico"],
-    "countries": ["United States", "Mexico", "Belize", "Costa Rica", "Panama", "Venezuela", "Puerto Rico", "Bermuda"],
+    "regions": [
+      "Caribbean",
+      "Western Atlantic",
+      "Gulf of Mexico"
+    ],
+    "countries": [
+      "United States",
+      "Mexico",
+      "Belize",
+      "Costa Rica",
+      "Panama",
+      "Venezuela",
+      "Puerto Rico",
+      "Bermuda"
+    ],
     "habitat": "Shallow tropical marine and estuarine environments; commonly found in mangrove lagoons, protected bays, coastal canals, and shallow reef flats",
     "biotope": "Tropical reef and lagoon",
-    "depthRangeM": { "min": 0, "max": 5 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 5
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 27 },
-    "pH": { "min": 8.1, "max": 8.3 },
+    "temperatureC": {
+      "min": 23,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.3
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.023, "max": 1.026 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.023,
+      "max": 1.026
+    }
   },
-  "adultSizeCm": { "min": 3, "max": 15 },
+  "adultSizeCm": {
+    "min": 3,
+    "max": 15
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 40,
     "minLengthCm": null,
     "swimZone": null,
-    "decorPreferences": ["live rock", "rubble substrate", "open rockwork for attachment"],
+    "decorPreferences": [
+      "live rock",
+      "rubble substrate",
+      "open rockwork for attachment"
+    ],
     "minSandDepthCm": null
   },
   "careLevel": "intermediate",
@@ -46,8 +81,17 @@
     "temperament": "peaceful",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["reef fish", "snails", "hermit crabs", "shrimp", "corals"],
-    "avoidWith": ["herbivorous fish (may graze on thallus)", "urchins (may graze heavily)"]
+    "goodWith": [
+      "reef fish",
+      "snails",
+      "hermit crabs",
+      "shrimp",
+      "corals"
+    ],
+    "avoidWith": [
+      "herbivorous fish (may graze on thallus)",
+      "urchins (may graze heavily)"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -113,6 +157,12 @@
         "url": "https://invasions.si.edu/nemesis/species_summary/-1143",
         "accessedDate": "2026-06-08",
         "notes": "Native range confirmed: tropical West Atlantic — Florida, Texas, Venezuela, Caribbean. Habitat: shallow brackish coastal ponds and estuaries, mangrove lagoons."
+      },
+      {
+        "name": "Mosaic Macros general macroalgae care guide",
+        "url": "https://mosaicmacros.com/blogs/macroalgae-care-sheets-compatibility/macroalgae-care-the-basics-of-keeping-macroalgae-in-your-reef",
+        "accessedDate": "2026-06-08",
+        "notes": "Slice-wide secondary source — provides authoritative Mosaic-wide parameter targets (temp 22-26°C, pH 8.1-8.4, Ca 400-450 ppm, Mg 1250-1350 ppm, NO3 5-20 ppm, PO4 0.02-0.1 ppm) and the 4-method propagation standard. Added retroactively 2026-06-08."
       }
     ]
   },
@@ -129,7 +179,12 @@
     "form": "calcareous",
     "placement": "display",
     "nutrientUptake": "moderate",
-    "propagation": ["fragmentation"]
+    "propagation": [
+      "fragmentation",
+      "wedging",
+      "zip-tie/fishing line",
+      "sand-bed"
+    ]
   },
   "schemaVersion": 1,
   "dataStatus": "researched",

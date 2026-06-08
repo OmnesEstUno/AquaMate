@@ -6,53 +6,95 @@
   "waterType": "saltwater",
   "commonName": "Indo-Pacific Grape Caulerpa",
   "scientificName": "Caulerpa lentillifera",
-  "alsoKnownAs": ["Sea Grapes", "Green Caviar", "Umi-Budo", "Grape Caulerpa", "Lato", "Arosep", "Rong Nho"],
+  "alsoKnownAs": [
+    "Sea Grapes",
+    "Green Caviar",
+    "Umi-Budo",
+    "Grape Caulerpa",
+    "Lato",
+    "Arosep",
+    "Rong Nho"
+  ],
   "category": "Macroalgae",
-
   "taxonomy": {
     "family": "Caulerpaceae",
     "order": "Bryopsidales"
   },
-
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Southeast Asia", "East Asia"],
-    "countries": ["Philippines", "Japan", "Vietnam", "Indonesia", "Malaysia", "Taiwan", "China", "South Korea"],
+    "regions": [
+      "Indo-Pacific",
+      "Southeast Asia",
+      "East Asia"
+    ],
+    "countries": [
+      "Philippines",
+      "Japan",
+      "Vietnam",
+      "Indonesia",
+      "Malaysia",
+      "Taiwan",
+      "China",
+      "South Korea"
+    ],
     "habitat": "Shallow tropical coastal waters; sandy substrates, seagrass beds, and sheltered reef flats in the photic zone",
     "biotope": "Marine benthic; anchors via rhizoids into sand or rubble; commonly found in warm, nutrient-influenced inshore waters where commercial aquaculture now supplements wild harvest",
-    "depthRangeM": { "min": 0, "max": 20 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 20
+    }
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 22.0, "max": 27.0 },
-    "pH":           { "min": 8.1, "max": 8.4 },
-    "gH":           null,
-    "kH":           { "min": 8, "max": 12 },
-    "salinity":     { "min": 1.022, "max": 1.026 }
+    "temperatureC": {
+      "min": 22,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.022,
+      "max": 1.026
+    }
   },
-
-  "adultSizeCm": { "min": 10, "max": 30 },
+  "adultSizeCm": {
+    "min": 10,
+    "max": 30
+  },
   "lifespanYears": null,
-
   "tank": {
     "minVolumeLiters": 40,
     "minLengthCm": null,
     "swimZone": null,
-    "decorPreferences": ["live rock for holdfast anchoring", "sandbed or rubble substrate", "moderate water flow"],
+    "decorPreferences": [
+      "live rock for holdfast anchoring",
+      "sandbed or rubble substrate",
+      "moderate water flow"
+    ],
     "minSandDepthCm": null
   },
-
   "careLevel": "beginner",
-
   "diet": null,
-
   "compatibility": {
     "temperament": "semi-aggressive",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["reef fish", "most corals (with distance)", "invertebrates"],
-    "avoidWith": ["sensitive SPS corals (direct contact)", "herbivorous fish (tangs, rabbitfish, sea urchins)", "tanks with no photoperiod control"]
+    "goodWith": [
+      "reef fish",
+      "most corals (with distance)",
+      "invertebrates"
+    ],
+    "avoidWith": [
+      "sensitive SPS corals (direct contact)",
+      "herbivorous fish (tangs, rabbitfish, sea urchins)",
+      "tanks with no photoperiod control"
+    ]
   },
-
   "media": {
     "primaryImage": null,
     "gallery": [],
@@ -67,13 +109,9 @@
       }
     ]
   },
-
   "summary": "The edible Asian 'sea grapes' (umi-budo) of Okinawa and Philippine cuisine — a fast-growing display Caulerpa with distinctive grape-cluster fronds; beginner-friendly but allelopathic. Distinct from Caribbean C. racemosa.",
-
   "careNotes": "Caulerpa lentillifera is a siphonous green macroalgae producing branching uprights with characteristic small spherical or ovoid side-shoots that closely resemble bunches of miniature grapes, reaching reported lengths of up to 30 cm. It is best known outside the aquarium hobby as a major food crop across Southeast Asia and East Asia — consumed raw in salads, with ponzu sauce, as sushi, or on its own. In the Philippines it is called latô or arosep; in Okinawa, Japan, it is called umi-budō (海ぶどう, 'sea grapes'); in Vietnam, rong nho. Commercial cultivation began in the Philippines in the 1950s and expanded to Okinawa by 1986; it is now farmed across Vietnam, Taiwan, and China as well. Wikipedia notes it is particularly prized for the 'bubbles that burst in the mouth, releasing an umami taste,' and is rich in iodine.\n\nDISTINCTION FROM CARIBBEAN SEA GRAPES: Caulerpa lentillifera is commonly called 'sea grapes' in English, but this name is also applied to the unrelated Caribbean/Atlantic species Caulerpa racemosa (sw-algae-016). The two look superficially similar but are distinct species with different native ranges. C. lentillifera is the Indo-Pacific edible species with deep culinary tradition in Asian markets; C. racemosa is the wider-ranging Atlantic/Caribbean species more commonly stocked in US/European reef trade. When purchasing 'sea grapes' from a US vendor, confirm the scientific name.\n\nSOURCE NOTE: Mosaic Macros is the sole hobby trade source identified for this entry. The Mosaic product page confirms the grape-like form, describes it as 'prolifically growing' and 'most often used in the display aquarium due to their attractive grape-like blades,' and notes it as 'much rarer' compared to other Caulerpa varieties. No AlgaeBarn or Top Shelf Aquatics listing was found. Water parameters, temperament, and general Caulerpa care conventions have been extrapolated from the well-documented sister species C. prolifera (sw-algae-004) and C. racemosa (sw-algae-016), which share the same family (Caulerpaceae), order (Bryopsidales), and fundamental growth biology.\n\nALLELOPATHY: As with all Caulerpa species, C. lentillifera has been associated with allelopathic activity — release of secondary metabolites (caulerpin and related compounds) that can inhibit growth of or stress nearby corals and competing algae. The allelopathic potency of C. lentillifera is generally considered lower than highly invasive relatives like C. taxifolia, and its status as an edible food species suggests a somewhat lower secondary-metabolite load. However, physical separation from sensitive SPS corals and activated carbon use in the system are generally advisable precautions for any Caulerpa genus member.\n\nGOING SEXUAL / REPRODUCTIVE CRASH: Like all Caulerpa species, C. lentillifera can undergo holocarpy — a mass reproductive event in which the entire organism converts its cytoplasm to gametes and effectively dies. This process releases large quantities of organic matter into the water column and can cause a severe acute water-quality crash (ammonia spike, oxygen depletion) capable of killing tank inhabitants. Triggers typically include: sharp nutrient drops (running nitrate/phosphate to zero), disrupted photoperiod, or rapid temperature changes. Mitigation strategies include running continuous 24-hour lighting for refugium use, harvesting regularly to keep the colony in active vegetative growth, maintaining stable (not zero) nutrient levels, and promptly removing any specimen showing reproductive structures (white or translucent fronds, turbid discharge).\n\nINVASIVE CONCERN: All Caulerpa species, including C. lentillifera, are considered potentially invasive if released into non-native marine environments. Sale is restricted or prohibited in California and Hawaii. Captive specimens must never be released into natural waterways.\n\nGENERAL CARE: Mosaic Macros notes that specimens arriving after shipping may appear white or translucent due to chloroplast displacement in darkness; this is normal and reverses within a few hours of light exposure. The species is described as prolifically growing under suitable conditions. High-intensity reef lighting (8+ hours, or continuous 24-hour for refugium use) and moderate flow are generally advised for Caulerpa. Optional trace element and iron supplementation may support growth. Herbivorous fish (tangs, rabbitfish, sea urchins) will readily consume it, so placement away from dedicated herbivores is advisable. C. lentillifera is suitable for both display tanks (primary trade use) and refugium nutrient-export roles.",
-
   "breedingNotes": "Propagates readily via fragmentation — small pieces have been reported to establish into new plants — and by vegetative tip growth along the stolon. Commercial cultivation in the Philippines and Okinawa relies on these vegetative growth modes; harvest occurs roughly every two weeks once established. Sexual reproduction (holocarpy) is a stress-triggered destructive event rather than a managed propagation method; aquarists should take active steps to prevent it (see careNotes).",
-
   "sources": {
     "primary": {
       "name": "Mosaic Macros",
@@ -99,10 +137,15 @@
         "url": "https://aquamate.me/species/macroalgae/sea-grapes",
         "accessedDate": "2026-06-08",
         "notes": "Cross-reference confirming C. racemosa is the Caribbean/Atlantic 'sea grapes' distinct from C. lentillifera, per AlgaeBarn's own product note. Water parameters, temperament, and placement conventions cross-checked for consistency across the Caulerpa genus in this dataset."
+      },
+      {
+        "name": "Mosaic Macros general macroalgae care guide",
+        "url": "https://mosaicmacros.com/blogs/macroalgae-care-sheets-compatibility/macroalgae-care-the-basics-of-keeping-macroalgae-in-your-reef",
+        "accessedDate": "2026-06-08",
+        "notes": "Slice-wide secondary source — provides authoritative Mosaic-wide parameter targets (temp 22-26°C, pH 8.1-8.4, Ca 400-450 ppm, Mg 1250-1350 ppm, NO3 5-20 ppm, PO4 0.02-0.1 ppm) and the 4-method propagation standard. Added retroactively 2026-06-08."
       }
     ]
   },
-
   "fish": null,
   "crustacean": null,
   "coral": null,
@@ -111,14 +154,19 @@
   "other-invert": null,
   "plant": null,
   "macroalgae": {
-    "lighting":       "high",
-    "growthRate":     "fast",
-    "form":           "macroalgae",
-    "placement":      "display",
+    "lighting": "high",
+    "growthRate": "fast",
+    "form": "macroalgae",
+    "placement": "display",
     "nutrientUptake": "high",
-    "propagation":    ["fragmentation", "vegetative tip growth"]
+    "propagation": [
+      "fragmentation",
+      "wedging",
+      "zip-tie/fishing line",
+      "sand-bed",
+      "vegetative tip growth"
+    ]
   },
-
   "schemaVersion": 1,
   "dataStatus": "researched",
   "lastReviewed": "2026-06-08"

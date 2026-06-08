@@ -19,26 +19,51 @@
     "order": "Cladophorales"
   },
   "nativeRange": {
-    "regions": ["Worldwide", "Indo-Pacific", "Atlantic", "Caribbean", "Mediterranean"],
+    "regions": [
+      "Worldwide",
+      "Indo-Pacific",
+      "Atlantic",
+      "Caribbean",
+      "Mediterranean"
+    ],
     "countries": [],
     "habitat": "Marine coastal waters, tide pools, intertidal and shallow subtidal zones, estuaries, and brackish lagoons. Typically found growing free-floating or loosely attached to substrate in nutrient-enriched shallow waters.",
     "biotope": "Coastal",
-    "depthRangeM": { "min": 0, "max": 30 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 30
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 28 },
-    "pH": { "min": 7.8, "max": 8.5 },
+    "temperatureC": {
+      "min": 22,
+      "max": 28
+    },
+    "pH": {
+      "min": 7.8,
+      "max": 8.5
+    },
     "gH": null,
     "kH": null,
-    "salinity": { "min": 1.023, "max": 1.027 }
+    "salinity": {
+      "min": 1.023,
+      "max": 1.027
+    }
   },
-  "adultSizeCm": { "min": 5, "max": 30 },
+  "adultSizeCm": {
+    "min": 5,
+    "max": 30
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 40,
     "minLengthCm": null,
     "swimZone": null,
-    "decorPreferences": ["refugium sump", "tumbling water flow", "strong circulation"],
+    "decorPreferences": [
+      "refugium sump",
+      "tumbling water flow",
+      "strong circulation"
+    ],
     "minSandDepthCm": null
   },
   "careLevel": "beginner",
@@ -47,8 +72,19 @@
     "temperament": "peaceful",
     "grouping": null,
     "minGroupSize": null,
-    "goodWith": ["reef fish", "corals", "shrimp", "snails", "hermit crabs", "copepods", "amphipods", "isopods"],
-    "avoidWith": ["large herbivorous fish that will graze it heavily in display tanks"]
+    "goodWith": [
+      "reef fish",
+      "corals",
+      "shrimp",
+      "snails",
+      "hermit crabs",
+      "copepods",
+      "amphipods",
+      "isopods"
+    ],
+    "avoidWith": [
+      "large herbivorous fish that will graze it heavily in display tanks"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -111,7 +147,12 @@
     "form": "filamentous",
     "placement": "refugium",
     "nutrientUptake": "high",
-    "propagation": ["fragmentation", "zoospore release"]
+    "propagation": [
+      "fragmentation",
+      "wedging",
+      "zip-tie/fishing line",
+      "zoospore release"
+    ]
   },
   "schemaVersion": 1,
   "dataStatus": "researched",

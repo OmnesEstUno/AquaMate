@@ -8,51 +8,74 @@
   "scientificName": "Fauchea sp.",
   "alsoKnownAs": [],
   "category": "Macroalgae",
-
   "taxonomy": {
     "family": "Faucheaceae",
     "order": "Rhodymeniales"
   },
-
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Tropical Atlantic", "Mediterranean"],
+    "regions": [
+      "Indo-Pacific",
+      "Tropical Atlantic",
+      "Mediterranean"
+    ],
     "countries": [],
     "habitat": "Shallow reef and rocky subtidal zones within the photic zone",
     "biotope": "Reef",
-    "depthRangeM": { "min": 0, "max": 30 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 30
+    }
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 26 },
-    "pH":           { "min": 8.1, "max": 8.3 },
-    "gH":           null,
-    "kH":           { "min": 8, "max": 12 },
-    "salinity":     { "min": 1.023, "max": 1.026 }
+    "temperatureC": {
+      "min": 24,
+      "max": 26
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.3
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.023,
+      "max": 1.026
+    }
   },
-
-  "adultSizeCm": { "min": 5, "max": 15 },
+  "adultSizeCm": {
+    "min": 5,
+    "max": 15
+  },
   "lifespanYears": null,
-
   "tank": {
     "minVolumeLiters": 40,
     "minLengthCm": null,
     "swimZone": null,
-    "decorPreferences": ["live rock", "open display placement", "moderate flow areas"],
+    "decorPreferences": [
+      "live rock",
+      "open display placement",
+      "moderate flow areas"
+    ],
     "minSandDepthCm": null
   },
-
   "careLevel": "intermediate",
-
   "diet": null,
-
   "compatibility": {
     "temperament": "peaceful",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["peaceful reef fish", "invertebrates", "corals"],
-    "avoidWith": ["heavy herbivores (tangs, rabbitfish) in small systems"]
+    "goodWith": [
+      "peaceful reef fish",
+      "invertebrates",
+      "corals"
+    ],
+    "avoidWith": [
+      "heavy herbivores (tangs, rabbitfish) in small systems"
+    ]
   },
-
   "media": {
     "primaryImage": null,
     "gallery": [],
@@ -67,13 +90,9 @@
       }
     ]
   },
-
   "summary": "A rare ornamental red macroalga (family Faucheaceae) with rubbery, branching thalli in rich reddish-purple, developing a bluish-purple iridescent shimmer under full-spectrum aquarium lighting.",
-
-  "careNotes": "Purple Fauchea (Fauchea sp.) is a specialty ornamental red macroalga in the family Faucheaceae, order Rhodymeniales (phylum Rhodophyta). Mosaic Macros describes it as growing in a rubbery branching pattern with a reddish-purple coloration that develops a bluish-purple shimmer under full-spectrum lighting, and notes it is \"one of the only truly purple algae in the hobby.\" At the time of this entry (2026-06-08), Mosaic Macros is the sole known hobby-trade source; AlgaeBarn and Top Shelf Aquatics do not carry Fauchea. Standard reef water parameters are generally advised: temperature around 24–26°C, pH 8.1–8.3, alkalinity 8–12 dKH, and specific gravity 1.023–1.026. Husbandry values for lighting (medium), growth rate (medium), and nutrient uptake (low) are extrapolated from published care standards for ornamental red macroalgae in the Rhodymeniales order, as species-specific captive care data is not available in broader hobby literature. The genus Fauchea is known from reef and rocky subtidal habitats in the Indo-Pacific, Tropical Atlantic, and Mediterranean, typically within the photic zone (0–30 m). Propagation in the aquarium is generally accomplished by fragmentation. Display placement is recommended to showcase the iridescent coloration. Source coverage caveat: this entry is based on a single specialty trade source (Mosaic Macros) plus family-level taxonomic extrapolation. Aquarists seeking corroborating care guidance should consult AlgaeBase for taxonomic context and monitor specialist reef forums for emerging captive care reports.",
-
+  "careNotes": "Purple Fauchea (Fauchea sp.) is a specialty ornamental red macroalga in the family Faucheaceae, order Rhodymeniales (phylum Rhodophyta). Mosaic Macros describes it as growing in a rubbery branching pattern with a reddish-purple coloration that develops a bluish-purple shimmer under full-spectrum lighting, and notes it is \"one of the only truly purple algae in the hobby.\" At the time of this entry (2026-06-08), Mosaic Macros is the sole known hobby-trade source; AlgaeBarn and Top Shelf Aquatics do not carry Fauchea. Standard reef water parameters are generally advised: temperature around 24–26°C, pH 8.1–8.3, alkalinity 8–12 dKH, and specific gravity 1.023–1.026. Husbandry values for lighting (medium), growth rate (medium), and nutrient uptake (low) are extrapolated from published care standards for ornamental red macroalgae in the Rhodymeniales order, as species-specific captive care data is not available in broader hobby literature. The genus Fauchea is known from reef and rocky subtidal habitats in the Indo-Pacific, Tropical Atlantic, and Mediterranean, typically within the photic zone (0–30 m). Propagation in the aquarium is generally accomplished by fragmentation. Display placement is recommended to showcase the iridescent coloration. Source coverage caveat: this entry is based on a single specialty trade source (Mosaic Macros) plus family-level taxonomic extrapolation. Aquarists seeking corroborating care guidance should consult AlgaeBase for taxonomic context and monitor specialist reef forums for emerging captive care reports. Per Mosaic care guide guidance: as a red or brown alga, this species will MELT at the base if buried in sand — attach to rock via superglue, zip-tie/fishing line, or wedging instead. (Sand-bed acceptance per Mosaic is limited to Caulerpa, Halimeda, Penicillus, Rhipocephalus, and Udotea genera, plus some calcified Dasycladales.)",
   "breedingNotes": "Propagation in captivity is generally accomplished by fragmentation — detaching healthy branch segments and wedging or attaching them to rockwork. Sexual reproduction (the alternating gametophyte–sporophyte lifecycle typical of red algae in Rhodymeniales) has not been documented in hobby aquaria.",
-
   "sources": {
     "primary": {
       "name": "Mosaic Macros",
@@ -81,25 +100,34 @@
       "accessedDate": "2026-06-08",
       "notes": "Sole hobby-trade source for this species. Product listing for 'Purple Fauchea' (Fauchea sp.). Provides identification, imagery, morphology description, and general reef suitability context. AlgaeBarn and Top Shelf Aquatics do not list Fauchea. AlgaeBase (nominal primary per source-urls.json) was inaccessible due to CAPTCHA blocking during this research session; taxonomy was confirmed via the task brief (Faucheaceae, Rhodymeniales) and cross-checked against Rhodymeniales family-level literature."
     },
-    "additional": []
+    "additional": [
+      {
+        "name": "Mosaic Macros general macroalgae care guide",
+        "url": "https://mosaicmacros.com/blogs/macroalgae-care-sheets-compatibility/macroalgae-care-the-basics-of-keeping-macroalgae-in-your-reef",
+        "accessedDate": "2026-06-08",
+        "notes": "Slice-wide secondary source — provides authoritative Mosaic-wide parameter targets (temp 22-26°C, pH 8.1-8.4, Ca 400-450 ppm, Mg 1250-1350 ppm, NO3 5-20 ppm, PO4 0.02-0.1 ppm) and the 4-method propagation standard. Added retroactively 2026-06-08."
+      }
+    ]
   },
-
-  "fish":        null,
-  "crustacean":  null,
-  "coral":       null,
-  "mollusc":     null,
-  "echinoderm":  null,
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
   "other-invert": null,
-  "plant":       null,
+  "plant": null,
   "macroalgae": {
-    "lighting":       "medium",
-    "growthRate":     "medium",
-    "form":           "macroalgae",
-    "placement":      "display",
+    "lighting": "medium",
+    "growthRate": "medium",
+    "form": "macroalgae",
+    "placement": "display",
     "nutrientUptake": "low",
-    "propagation":    ["fragmentation"]
+    "propagation": [
+      "fragmentation",
+      "wedging",
+      "zip-tie/fishing line"
+    ]
   },
-
   "schemaVersion": 1,
   "dataStatus": "researched",
   "lastReviewed": "2026-06-08"

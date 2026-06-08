@@ -11,63 +11,86 @@
     "Salicornia Ogo"
   ],
   "category": "Macroalgae",
-
   "taxonomy": {
     "family": "Gracilariaceae",
     "order": "Gracilariales"
   },
-
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Indian Ocean", "Tropical Pacific"],
+    "regions": [
+      "Indo-Pacific",
+      "Indian Ocean",
+      "Tropical Pacific"
+    ],
     "countries": [],
     "habitat": "Shallow tidepools and reef flats; intertidal and subtidal zones with moderate illumination",
     "biotope": "Tropical reef flat / tidepool",
-    "depthRangeM": { "min": 0, "max": 10 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 10
+    }
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 22.8, "max": 28.3 },
-    "pH":           { "min": 7.8, "max": 8.4 },
-    "gH":           null,
-    "kH":           { "min": 8, "max": 12 },
-    "salinity":     { "min": 1.023, "max": 1.025 }
+    "temperatureC": {
+      "min": 22.8,
+      "max": 28.3
+    },
+    "pH": {
+      "min": 7.8,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.023,
+      "max": 1.025
+    }
   },
-
-  "adultSizeCm":   { "min": 2.5, "max": 10 },
+  "adultSizeCm": {
+    "min": 2.5,
+    "max": 10
+  },
   "lifespanYears": null,
-
   "tank": {
     "minVolumeLiters": 40,
-    "minLengthCm":     null,
-    "swimZone":        null,
-    "decorPreferences": ["refugium sump", "low to moderate flow", "long shallow vessel", "no strong wave action"],
-    "minSandDepthCm":  null
+    "minLengthCm": null,
+    "swimZone": null,
+    "decorPreferences": [
+      "refugium sump",
+      "low to moderate flow",
+      "long shallow vessel",
+      "no strong wave action"
+    ],
+    "minSandDepthCm": null
   },
-
   "careLevel": "beginner",
-
   "diet": null,
-
   "compatibility": {
-    "temperament":  "peaceful",
-    "grouping":     "solitary",
+    "temperament": "peaceful",
+    "grouping": "solitary",
     "minGroupSize": null,
-    "goodWith":     ["reef fish", "corals", "invertebrates"],
-    "avoidWith":    ["tangs", "rabbitfish", "sea urchins", "herbivorous fish"]
+    "goodWith": [
+      "reef fish",
+      "corals",
+      "invertebrates"
+    ],
+    "avoidWith": [
+      "tangs",
+      "rabbitfish",
+      "sea urchins",
+      "herbivorous fish"
+    ]
   },
-
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
+    "primaryImage": null,
+    "gallery": [],
     "imageCandidates": null
   },
-
   "summary": "Stubby, segmented bushy red macroalgae that grows quickly and excels at nutrient export in refugiums. INVASIVE in Hawaii — captive specimens must never be released into the ocean.",
-
-  "careNotes": "Monkey Finger (Gracilaria salicornia) is a rhodophyte (red alga) with a distinctive stubby, segmented, branching thallus that resembles small fingers or sausage-like cylinders. Despite being classified as a red alga, it tends to be pigmented more like a kelp and is shaped more like a green alga. It generally reaches around 4 inches (approximately 10 cm) in diameter at maturity in aquarium settings.\n\nIn captivity it is broadly considered a beginner-friendly species. AlgaeBarn recommends temperatures in the range of 22.8–28.3°C (73–83°F), salinity SG 1.023–1.025, pH 7.8–8.4, and alkalinity 8–12 dKH — standard reef parameters. It has been reported to tolerate a wide range of light environments, but AlgaeBarn notes it tends to require slightly more intense light than most other Gracilaria species. Medium-high lighting is generally advised.\n\nGrowth is fast; the species forms dense mats in the wild and has been documented doing so in refugia as well. It is best suited to long, shallow refugium vessels with low to moderate water flow. Strong wave action or powerful powerhead currents are generally not advised, as this species occurs naturally in tidepool and reef-flat environments rather than high-surge zones. Periodic harvesting is recommended to export absorbed nutrients and prevent mat overgrowth.\n\nKnobby texture and crunchy consistency have been noted by some keepers as a mild deterrent to herbivory compared to softer Gracilaria species, though tangs, rabbitfish, and sea urchins may still graze it.\n\nOptional iron and iodine supplementation may support growth in nutrient-limited systems.\n\n**INVASIVE STATUS — CRITICAL BIOSECURITY NOTE:** Gracilaria salicornia is listed by the IUCN Global Invasive Species Database as a major invasive species in Hawaii, where it has smothered native reef communities. At Waikiki and other impacted sites it has become the single most dominant benthic organism in areas that previously supported over 60 macroalgae species. It spreads readily by fragmentation, is physiologically very resilient (notably resistant to temperature, salinity, and chemical control measures), and can form mats 5–40 cm thick. Captive specimens must NEVER be released into the ocean or any waterway. Dispose of harvest material by drying and composting or placing in sealed trash — not down drains.\n\nSibling Gracilaria species in the same genus include Red Ogo (Gracilaria parvispora, sw-macro-001 — check existing ID), Pom Pom (Gracilaria hayi, sw-macro-006), Thick Ogo (Gracilaria sp., sw-macro-003), Green Ogo (Gracilaria tikvahiae, sw-macro-013), Red Spaghetti (Gracilaria pacifica, sw-macro-015), and Flat-Branched Striped Gracilaria (Gracilaria mammaralis, sw-macro-042).",
-
+  "careNotes": "Monkey Finger (Gracilaria salicornia) is a rhodophyte (red alga) with a distinctive stubby, segmented, branching thallus that resembles small fingers or sausage-like cylinders. Despite being classified as a red alga, it tends to be pigmented more like a kelp and is shaped more like a green alga. It generally reaches around 4 inches (approximately 10 cm) in diameter at maturity in aquarium settings.\n\nIn captivity it is broadly considered a beginner-friendly species. AlgaeBarn recommends temperatures in the range of 22.8–28.3°C (73–83°F), salinity SG 1.023–1.025, pH 7.8–8.4, and alkalinity 8–12 dKH — standard reef parameters. It has been reported to tolerate a wide range of light environments, but AlgaeBarn notes it tends to require slightly more intense light than most other Gracilaria species. Medium-high lighting is generally advised.\n\nGrowth is fast; the species forms dense mats in the wild and has been documented doing so in refugia as well. It is best suited to long, shallow refugium vessels with low to moderate water flow. Strong wave action or powerful powerhead currents are generally not advised, as this species occurs naturally in tidepool and reef-flat environments rather than high-surge zones. Periodic harvesting is recommended to export absorbed nutrients and prevent mat overgrowth.\n\nKnobby texture and crunchy consistency have been noted by some keepers as a mild deterrent to herbivory compared to softer Gracilaria species, though tangs, rabbitfish, and sea urchins may still graze it.\n\nOptional iron and iodine supplementation may support growth in nutrient-limited systems.\n\n**INVASIVE STATUS — CRITICAL BIOSECURITY NOTE:** Gracilaria salicornia is listed by the IUCN Global Invasive Species Database as a major invasive species in Hawaii, where it has smothered native reef communities. At Waikiki and other impacted sites it has become the single most dominant benthic organism in areas that previously supported over 60 macroalgae species. It spreads readily by fragmentation, is physiologically very resilient (notably resistant to temperature, salinity, and chemical control measures), and can form mats 5–40 cm thick. Captive specimens must NEVER be released into the ocean or any waterway. Dispose of harvest material by drying and composting or placing in sealed trash — not down drains.\n\nSibling Gracilaria species in the same genus include Red Ogo (Gracilaria parvispora, sw-macro-001 — check existing ID), Pom Pom (Gracilaria hayi, sw-macro-006), Thick Ogo (Gracilaria sp., sw-macro-003), Green Ogo (Gracilaria tikvahiae, sw-macro-013), Red Spaghetti (Gracilaria pacifica, sw-macro-015), and Flat-Branched Striped Gracilaria (Gracilaria mammaralis, sw-macro-042). Per Mosaic care guide guidance: as a red or brown alga, this species will MELT at the base if buried in sand — attach to rock via superglue, zip-tie/fishing line, or wedging instead. (Sand-bed acceptance per Mosaic is limited to Caulerpa, Halimeda, Penicillus, Rhipocephalus, and Udotea genera, plus some calcified Dasycladales.)",
   "breedingNotes": "Propagation in captivity is primarily by fragmentation — small thallus fragments regenerate readily into new colonies. In the wild, alternation of gametophyte and sporophyte generations is documented, but this cycle is not typically observed or managed in aquarium settings.",
-
   "sources": {
     "primary": {
       "name": "AlgaeBarn",
@@ -81,26 +104,34 @@
         "url": "https://www.iucngisd.org/gisd/species.php?sc=1026",
         "accessedDate": "2026-06-08",
         "notes": "Confirmed invasive status in Hawaii and wider Indo-Pacific introduction range. Provided mat thickness (5–40 cm), fragmentation propagation, and environmental resilience notes. Used for native range and invasive range documentation."
+      },
+      {
+        "name": "Mosaic Macros general macroalgae care guide",
+        "url": "https://mosaicmacros.com/blogs/macroalgae-care-sheets-compatibility/macroalgae-care-the-basics-of-keeping-macroalgae-in-your-reef",
+        "accessedDate": "2026-06-08",
+        "notes": "Slice-wide secondary source — provides authoritative Mosaic-wide parameter targets (temp 22-26°C, pH 8.1-8.4, Ca 400-450 ppm, Mg 1250-1350 ppm, NO3 5-20 ppm, PO4 0.02-0.1 ppm) and the 4-method propagation standard. Added retroactively 2026-06-08."
       }
     ]
   },
-
-  "fish":        null,
-  "crustacean":  null,
-  "coral":       null,
-  "mollusc":     null,
-  "echinoderm":  null,
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
   "other-invert": null,
-  "plant":       null,
+  "plant": null,
   "macroalgae": {
-    "lighting":       "high",
-    "growthRate":     "fast",
-    "form":           "macroalgae",
-    "placement":      "refugium",
+    "lighting": "high",
+    "growthRate": "fast",
+    "form": "macroalgae",
+    "placement": "refugium",
     "nutrientUptake": "high",
-    "propagation":    ["fragmentation"]
+    "propagation": [
+      "fragmentation",
+      "wedging",
+      "zip-tie/fishing line"
+    ]
   },
-
   "schemaVersion": 1,
   "dataStatus": "researched",
   "lastReviewed": "2026-06-08"

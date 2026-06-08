@@ -6,65 +6,93 @@
   "waterType": "saltwater",
   "commonName": "Sea Grapes",
   "scientificName": "Caulerpa racemosa",
-  "alsoKnownAs": ["Grape Caulerpa", "Sea Pearl Caulerpa"],
+  "alsoKnownAs": [
+    "Grape Caulerpa",
+    "Sea Pearl Caulerpa"
+  ],
   "category": "Macroalgae",
-
   "taxonomy": {
     "family": "Caulerpaceae",
     "order": "Bryopsidales"
   },
-
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Caribbean", "Atlantic"],
-    "countries": ["United States (Florida)", "Brazil", "Bermuda"],
+    "regions": [
+      "Indo-Pacific",
+      "Caribbean",
+      "Atlantic"
+    ],
+    "countries": [
+      "United States (Florida)",
+      "Brazil",
+      "Bermuda"
+    ],
     "habitat": "Shallow tropical and subtropical seas; rocky substrate, sandy areas, and reef flats in the photic zone",
     "biotope": "Marine benthic; anchors via rhizoids into sand, rubble, or rock; broadly tolerant of varied substrate types",
-    "depthRangeM": { "min": 0, "max": 30 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 30
+    }
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 22.0, "max": 26.0 },
-    "pH":           { "min": 8.1, "max": 8.4 },
-    "gH":           null,
-    "kH":           { "min": 8, "max": 12 },
-    "salinity":     { "min": 1.023, "max": 1.025 }
+    "temperatureC": {
+      "min": 22,
+      "max": 26
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.023,
+      "max": 1.025
+    }
   },
-
-  "adultSizeCm": { "min": 5, "max": 30 },
+  "adultSizeCm": {
+    "min": 5,
+    "max": 30
+  },
   "lifespanYears": null,
-
   "tank": {
     "minVolumeLiters": 40,
     "minLengthCm": null,
     "swimZone": null,
-    "decorPreferences": ["live rock for holdfast anchoring", "sandbed or rubble substrate", "moderate water flow"],
+    "decorPreferences": [
+      "live rock for holdfast anchoring",
+      "sandbed or rubble substrate",
+      "moderate water flow"
+    ],
     "minSandDepthCm": null
   },
-
   "careLevel": "beginner",
-
   "diet": null,
-
   "compatibility": {
     "temperament": "semi-aggressive",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["reef fish", "most corals (with distance)", "invertebrates"],
-    "avoidWith": ["sensitive SPS corals (direct contact)", "herbivorous fish (tangs, rabbitfish, sea urchins)", "tanks with no photoperiod control"]
+    "goodWith": [
+      "reef fish",
+      "most corals (with distance)",
+      "invertebrates"
+    ],
+    "avoidWith": [
+      "sensitive SPS corals (direct contact)",
+      "herbivorous fish (tangs, rabbitfish, sea urchins)",
+      "tanks with no photoperiod control"
+    ]
   },
-
   "media": {
     "primaryImage": null,
     "gallery": [],
     "imageCandidates": null
   },
-
   "summary": "Popular display Caulerpa with distinctive grape-cluster fronds; fast-growing and beginner-friendly for nutrient export in reef and refugium setups. Allelopathic and an invasive concern outside its native range.",
-
   "careNotes": "Sea Grapes (Caulerpa racemosa) is a siphonous green macroalgae named for its characteristic spherical or ovate side-shoots that grow from branching uprights resembling bunches of grapes. Branches have been reported to reach up to 30 cm in height. It is widely used both as a display specimen in show tanks and as a refugium nutrient-export workhorse, and is generally considered one of the more beginner-accessible Caulerpa species.\n\nALLELOPATHY: Like other members of the genus, C. racemosa is documented to release secondary metabolites — primarily caulerpenyne and caulerpin — into the water column. These compounds have demonstrated cytotoxic and growth-inhibitory effects on corals and other algae in research settings. Wikipedia notes that caulerpenyne concentrations in C. racemosa tend to be lower than in C. taxifolia, but the concern is still material for sensitive SPS corals placed in close proximity. Physical separation, activated carbon use, or a dedicated refugium compartment is generally advisable.\n\nGOING SEXUAL / REPRODUCTIVE CRASH: As with all Caulerpa species, C. racemosa can undergo holocarpy — a mass reproductive event in which the entire organism converts its cytoplasm into gametes, effectively dying and releasing large amounts of organic matter into the tank. Triggers include sharp drops in nutrients (running nitrate/phosphate to zero), disrupted photoperiod, or rapid temperature swings. AlgaeBarn specifically warns against sharp nutrient crashes for this species. Mitigation strategies include: running refugium lighting on a continuous 24-hour photoperiod; harvesting regularly to keep the colony in active vegetative growth; maintaining stable (not zero) nutrient levels; and removing any specimen immediately upon detecting reproductive structures (white or translucent fronds, turbid discharge).\n\nINVASIVE CONCERN: C. racemosa is a documented invasive species in the Mediterranean Sea — the var. cylindracea strain that appeared off Libya in 1990 has spread more widely than even C. taxifolia. Captive specimens must never be released into natural waterways. Sale is restricted or prohibited in California (AB 655) and Hawaii due to invasive risk. AlgaeBarn notes this species is cultivated in US facilities with compliance measures and cannot ship to those states.\n\nDISTINCT FROM ASIAN SEA GRAPES: AlgaeBarn notes that C. racemosa is distinct from Caulerpa lentillifera ('Asian sea grapes'), which is the edible species widely consumed in Southeast Asian cuisine. The two look similar but are different species.\n\nGENERAL CARE: AlgaeBarn recommends a minimum 60W bulb at 5,000K or higher spectrum with an 8-hour photoperiod (or continuous 24-hour lighting for refugium use). Moderate water flow is generally advised. Optional supplementation with magnesium, trace elements, and iron may benefit growth. Freshly arrived specimens may show white or translucent fronds from transport darkness; this is normal and typically reverses within hours of light exposure. It is palatable to herbivorous fish — tangs, rabbitfish, and sea urchins will graze it readily, so placement away from dedicated herbivores is advised.\n\nCROSS-REFERENCE: See also caulerpa-prolifera (sw-algae-004) for the sibling Atlantic/Mediterranean blade-form Caulerpa, which shares the allelopathy, holocarpy risk, and invasive cautions documented here.",
-
   "breedingNotes": "Propagates readily in the aquarium via fragmentation — small broken pieces have been reported to establish into new plants — and by vegetative tip growth along the stolon. Sexual reproduction (holocarpy) is a stress-triggered destructive event rather than a managed propagation method; aquarists should take active steps to prevent it (see careNotes).",
-
   "sources": {
     "primary": {
       "name": "AlgaeBarn",
@@ -84,10 +112,15 @@
         "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=144471",
         "accessedDate": "2026-06-08",
         "notes": "Cross-check of Caulerpaceae / Bryopsidales classification via genus-level WoRMS entry. Confirms family and order used for this entry."
+      },
+      {
+        "name": "Mosaic Macros general macroalgae care guide",
+        "url": "https://mosaicmacros.com/blogs/macroalgae-care-sheets-compatibility/macroalgae-care-the-basics-of-keeping-macroalgae-in-your-reef",
+        "accessedDate": "2026-06-08",
+        "notes": "Slice-wide secondary source — provides authoritative Mosaic-wide parameter targets (temp 22-26°C, pH 8.1-8.4, Ca 400-450 ppm, Mg 1250-1350 ppm, NO3 5-20 ppm, PO4 0.02-0.1 ppm) and the 4-method propagation standard. Added retroactively 2026-06-08."
       }
     ]
   },
-
   "fish": null,
   "crustacean": null,
   "coral": null,
@@ -96,14 +129,19 @@
   "other-invert": null,
   "plant": null,
   "macroalgae": {
-    "lighting":       "high",
-    "growthRate":     "fast",
-    "form":           "macroalgae",
-    "placement":      "display",
+    "lighting": "high",
+    "growthRate": "fast",
+    "form": "macroalgae",
+    "placement": "display",
     "nutrientUptake": "high",
-    "propagation":    ["fragmentation", "vegetative tip growth"]
+    "propagation": [
+      "fragmentation",
+      "wedging",
+      "zip-tie/fishing line",
+      "sand-bed",
+      "vegetative tip growth"
+    ]
   },
-
   "schemaVersion": 1,
   "dataStatus": "researched",
   "lastReviewed": "2026-06-08"

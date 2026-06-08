@@ -8,51 +8,75 @@
   "scientificName": "Caulerpa subserrulata",
   "alsoKnownAs": [],
   "category": "Macroalgae",
-
   "taxonomy": {
     "family": "Caulerpaceae",
     "order": "Bryopsidales"
   },
-
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Tropical Atlantic"],
+    "regions": [
+      "Indo-Pacific",
+      "Tropical Atlantic"
+    ],
     "countries": [],
     "habitat": "Shallow marine benthic zones; anchors into sandbed or rockwork via rhizoids and stolons",
     "biotope": "Marine benthic; siphonous green alga attaching via rhizoids to hard substrate or sandbed in well-lit shallow reef zones",
-    "depthRangeM": { "min": 0, "max": 30 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 30
+    }
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 22.2, "max": 26.7 },
-    "pH":           { "min": 8.1, "max": 8.4 },
-    "gH":           null,
-    "kH":           { "min": 8, "max": 12 },
-    "salinity":     { "min": 1.023, "max": 1.026 }
+    "temperatureC": {
+      "min": 22.2,
+      "max": 26.7
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.023,
+      "max": 1.026
+    }
   },
-
-  "adultSizeCm": { "min": 5, "max": 20 },
+  "adultSizeCm": {
+    "min": 5,
+    "max": 20
+  },
   "lifespanYears": null,
-
   "tank": {
     "minVolumeLiters": 40,
     "minLengthCm": null,
     "swimZone": null,
-    "decorPreferences": ["sandbed for stolon anchoring", "rockwork", "rubble substrate"],
+    "decorPreferences": [
+      "sandbed for stolon anchoring",
+      "rockwork",
+      "rubble substrate"
+    ],
     "minSandDepthCm": null
   },
-
   "careLevel": "beginner",
-
   "diet": null,
-
   "compatibility": {
     "temperament": "semi-aggressive",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["reef fish", "invertebrates", "most corals (with distance)", "seahorses"],
-    "avoidWith": ["sensitive SPS corals (direct contact)", "tanks without light schedule control"]
+    "goodWith": [
+      "reef fish",
+      "invertebrates",
+      "most corals (with distance)",
+      "seahorses"
+    ],
+    "avoidWith": [
+      "sensitive SPS corals (direct contact)",
+      "tanks without light schedule control"
+    ]
   },
-
   "media": {
     "primaryImage": null,
     "gallery": [],
@@ -67,13 +91,9 @@
       }
     ]
   },
-
   "summary": "A small, fast-growing blade-form Caulerpa with attractive serrated-edge fronds, suited to display tanks. Like all Caulerpa, it tends to grow prolifically and has been noted as allelopathic; the standard Caulerpa caveats around crash risk and invasiveness apply.",
-
   "careNotes": "Caulerpa subserrulata is a siphonous green macroalga producing a long creeping stolon from which small, serrated blade-like fronds emerge. Mosaic Macros describes growth as prolific and notes the species is well-suited to display aquarium placement in addition to refugium use.\n\nALLELOPATHY: As with other Caulerpa species, C. subserrulata is generally considered capable of releasing secondary metabolites (including caulerpin and caulerpenyne) into the water column. These compounds have been shown to stress nearby corals and other algae. Positioning at a physical distance from sensitive SPS corals is generally advisable; running activated carbon has been commonly recommended by reef keepers as a precaution.\n\nGOING SEXUAL / REPRODUCTIVE CRASH: Caulerpa species including this one can undergo holocarpy under stress — the entire organism converts its cytoplasm to gametes and effectively dies, releasing organic matter and gametes into the water column. This can cause an acute water-quality event (ammonia spike, oxygen depletion) capable of crashing a reef tank. Standard mitigations: run refugium lighting on an uninterrupted 24-hour photoperiod to suppress reproductive triggering; harvest regularly to keep the colony in active growth phase; maintain stable nutrient levels; and promptly remove any specimen showing reproductive structures (translucent or white fronds, turbid release into water).\n\nINVASIVE CONCERN: Like all Caulerpa, this species is potentially invasive. Mosaic Macros explicitly flags it as such. Captive specimens must never be released into natural waterways. Sale and possession is banned in California.\n\nSHIPPING NOTE: Post-shipment white or translucent coloration is normal; chloroplasts migrate deeper in darkness. Coloration typically recovers within hours of light exposure. Mosaic Macros recommends UPS 2-Day Express for shipping viability coverage.\n\nSIZE: Sold as 2–3\" cuttings (4–5 blades) or 4\"+ cuttings (6+ blades). Full-grown colonies can spread considerably via stolon growth.",
-
   "breedingNotes": "Propagates readily via fragmentation — cuttings re-anchor and resume vegetative growth. Also spreads by vegetative tip growth along the stolon. Sexual reproduction (holocarpy) occurs rarely under stress and is destructive to the colony; aquarists should take active steps to prevent triggering it (see careNotes).",
-
   "sources": {
     "primary": {
       "name": "Mosaic Macros",
@@ -87,10 +107,15 @@
         "url": "https://aquamate.me/species/caulerpa-prolifera",
         "accessedDate": "2026-06-08",
         "notes": "Cross-reference for Caulerpa genus-level water parameters, allelopathy documentation, crash/holocarpy behaviour, invasive caveats, and propagation. Taxonomy (Caulerpaceae, Bryopsidales) confirmed consistent across genus."
+      },
+      {
+        "name": "Mosaic Macros general macroalgae care guide",
+        "url": "https://mosaicmacros.com/blogs/macroalgae-care-sheets-compatibility/macroalgae-care-the-basics-of-keeping-macroalgae-in-your-reef",
+        "accessedDate": "2026-06-08",
+        "notes": "Slice-wide secondary source — provides authoritative Mosaic-wide parameter targets (temp 22-26°C, pH 8.1-8.4, Ca 400-450 ppm, Mg 1250-1350 ppm, NO3 5-20 ppm, PO4 0.02-0.1 ppm) and the 4-method propagation standard. Added retroactively 2026-06-08."
       }
     ]
   },
-
   "fish": null,
   "crustacean": null,
   "coral": null,
@@ -99,14 +124,19 @@
   "other-invert": null,
   "plant": null,
   "macroalgae": {
-    "lighting":       "high",
-    "growthRate":     "fast",
-    "form":           "macroalgae",
-    "placement":      "display",
+    "lighting": "high",
+    "growthRate": "fast",
+    "form": "macroalgae",
+    "placement": "display",
     "nutrientUptake": "high",
-    "propagation":    ["fragmentation", "vegetative tip growth"]
+    "propagation": [
+      "fragmentation",
+      "wedging",
+      "zip-tie/fishing line",
+      "sand-bed",
+      "vegetative tip growth"
+    ]
   },
-
   "schemaVersion": 1,
   "dataStatus": "researched",
   "lastReviewed": "2026-06-08"

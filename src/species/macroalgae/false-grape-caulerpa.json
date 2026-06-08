@@ -8,51 +8,89 @@
   "scientificName": "Caulerpa cupressoides var. lycopodium",
   "alsoKnownAs": [],
   "category": "Macroalgae",
-
   "taxonomy": {
     "family": "Caulerpaceae",
     "order": "Bryopsidales"
   },
-
   "nativeRange": {
-    "regions": ["Atlantic", "Caribbean", "Indo-Pacific", "Indian Ocean"],
-    "countries": ["United States (Florida)", "Mexico", "Brazil", "Caribbean islands", "South Africa", "Australia", "Philippines", "Indonesia"],
+    "regions": [
+      "Atlantic",
+      "Caribbean",
+      "Indo-Pacific",
+      "Indian Ocean"
+    ],
+    "countries": [
+      "United States (Florida)",
+      "Mexico",
+      "Brazil",
+      "Caribbean islands",
+      "South Africa",
+      "Australia",
+      "Philippines",
+      "Indonesia"
+    ],
     "habitat": "Shallow sandy-bottomed protected areas, reef flats, and rocky substrates in tropical and subtropical coastal waters",
     "biotope": "Marine benthic; anchors via rhizoids (holdfasts) into sandbed or rockwork; found in the photic zone in sheltered coastal environments",
-    "depthRangeM": { "min": 0, "max": 30 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 30
+    }
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 22.0, "max": 26.0 },
-    "pH":           { "min": 8.1, "max": 8.4 },
-    "gH":           null,
-    "kH":           { "min": 8, "max": 12 },
-    "salinity":     { "min": 1.023, "max": 1.025 }
+    "temperatureC": {
+      "min": 22,
+      "max": 26
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.023,
+      "max": 1.025
+    }
   },
-
-  "adultSizeCm": { "min": 2, "max": 25 },
+  "adultSizeCm": {
+    "min": 2,
+    "max": 25
+  },
   "lifespanYears": null,
-
   "tank": {
     "minVolumeLiters": 40,
     "minLengthCm": null,
     "swimZone": null,
-    "decorPreferences": ["sandbed for holdfast anchoring", "rockwork for attachment", "moderate water flow"],
+    "decorPreferences": [
+      "sandbed for holdfast anchoring",
+      "rockwork for attachment",
+      "moderate water flow"
+    ],
     "minSandDepthCm": null
   },
-
   "careLevel": "beginner",
-
   "diet": null,
-
   "compatibility": {
     "temperament": "semi-aggressive",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["reef fish", "most corals (with distance)", "invertebrates", "snails", "hermit crabs", "shrimp"],
-    "avoidWith": ["sensitive SPS corals (direct contact)", "herbivorous fish (tangs, rabbitfish, sea urchins)", "tanks with no photoperiod control"]
+    "goodWith": [
+      "reef fish",
+      "most corals (with distance)",
+      "invertebrates",
+      "snails",
+      "hermit crabs",
+      "shrimp"
+    ],
+    "avoidWith": [
+      "sensitive SPS corals (direct contact)",
+      "herbivorous fish (tangs, rabbitfish, sea urchins)",
+      "tanks with no photoperiod control"
+    ]
   },
-
   "media": {
     "primaryImage": null,
     "gallery": [],
@@ -67,13 +105,9 @@
       }
     ]
   },
-
   "summary": "A quick-growing display Caulerpa variety with distinctive grape-like upright blade formations. A variety of C. cupressoides suited to ornamental reef displays; allelopathic and invasive-concern species, banned in California.",
-
   "careNotes": "False-Grape Caulerpa (Caulerpa cupressoides var. lycopodium) is a variety of Cactus Caulerpa distinguished by its grape-like cluster blade formations on upright fronds, rather than the denser cactus-spine branching of the parent species. Mosaic Macros describes it as a quick-growing green macroalgae prized for its attractive, grape-like blade formations. Wikipedia confirms var. lycopodium as one of five recognized varieties of C. cupressoides (alongside var. cupressoides, elegans, flabellata, and mamillosa). Carbohydrate-binding proteins (lectins) with anti-inflammatory properties have been isolated from specimens of var. lycopodium collected in Brazil, though this has no direct bearing on aquarium husbandry.\n\nSOURCE NOTE: As of the research date (2026-06-08), Mosaic Macros is the sole hobby trade source carrying this variety. Taxonomy and distribution data were supplemented from Wikipedia. Water parameters and general care are inherited from the parent species C. cupressoides (see sibling entry cactus-caulerpa, sw-algae-025), which shares the same family-level Caulerpa husbandry standards. Growth rate is documented by Mosaic as \"quick-growing,\" in contrast to the parent species' \"slow-growing\" characterization — this variety is assessed as \"fast\" in the variant block accordingly.\n\nALLELOPATHY: Like all Caulerpa species, this variety is expected to release secondary metabolites (caulerpenyne, sesquiterpenes) as chemical defenses. These compounds can stress corals and competing algae when released into the water column. Physical separation from sensitive SPS corals and use of activated carbon are generally advisable precautions.\n\nGOING SEXUAL / REPRODUCTIVE CRASH: All Caulerpa species can undergo holocarpy — a mass reproductive event in which the organism converts its cytoplasm into gametes and effectively dies. This can release large quantities of organic matter, causing an acute water-quality event capable of crashing a reef tank. Triggers include sharp nutrient drops, disrupted photoperiod, or rapid temperature swings. Mitigations: run refugium or tank lighting on a consistent schedule (some keepers use 24-hour lighting to suppress reproductive triggering); harvest regularly to keep the colony in active vegetative growth; maintain stable (not zero) nutrient levels; remove any specimen showing reproductive structures (white/translucent fronds, turbid release) immediately.\n\nINVASIVE CONCERN: Mosaic Macros notes this species is a potentially invasive species in the aquarium hobby context and is completely banned for shipment to California. Captive specimens must never be released into natural waterways.\n\nGENERAL CARE: Mosaic Macros notes that, like other Caulerpas, fronds will appear white or translucent immediately after shipping due to chloroplast movement in darkness — this is normal and reverses within hours of light exposure. High lighting is generally considered preferable. Moderate water flow is generally advised. Standard reef water parameters (NSW-level salinity, consistent temperature) are recommended.\n\nCROSS-REFERENCE: See cactus-caulerpa (sw-algae-025) for the parent species C. cupressoides and caulerpa-prolifera (sw-algae-004) for the Atlantic/Mediterranean blade-form sibling sharing allelopathy and crash caveats.",
-
   "breedingNotes": "Propagates in the aquarium via fragmentation — cuttings of the stolon or upright fronds have been reported to establish as new plants — and by vegetative tip growth along the stolon. Sexual reproduction (holocarpy) is a stress-triggered destructive event rather than a managed propagation method; aquarists should take active steps to prevent it (see careNotes).",
-
   "sources": {
     "primary": {
       "name": "Mosaic Macros",
@@ -87,10 +121,15 @@
         "url": "https://en.wikipedia.org/wiki/Caulerpa_cupressoides",
         "accessedDate": "2026-06-08",
         "notes": "Taxonomy confirmed: Family Caulerpaceae, Order Bryopsidales, Class Ulvophyceae. Variety lycopodium confirmed as one of five recognized varieties. Native range (global tropical/subtropical: Americas, Africa, Indo-Pacific, Australia) confirmed. Sesquiterpene allelopathy documented. Lectins with anti-inflammatory properties isolated from var. lycopodium specimens (Pacheco, Brazil)."
+      },
+      {
+        "name": "Mosaic Macros general macroalgae care guide",
+        "url": "https://mosaicmacros.com/blogs/macroalgae-care-sheets-compatibility/macroalgae-care-the-basics-of-keeping-macroalgae-in-your-reef",
+        "accessedDate": "2026-06-08",
+        "notes": "Slice-wide secondary source — provides authoritative Mosaic-wide parameter targets (temp 22-26°C, pH 8.1-8.4, Ca 400-450 ppm, Mg 1250-1350 ppm, NO3 5-20 ppm, PO4 0.02-0.1 ppm) and the 4-method propagation standard. Added retroactively 2026-06-08."
       }
     ]
   },
-
   "fish": null,
   "crustacean": null,
   "coral": null,
@@ -99,14 +138,19 @@
   "other-invert": null,
   "plant": null,
   "macroalgae": {
-    "lighting":       "high",
-    "growthRate":     "fast",
-    "form":           "macroalgae",
-    "placement":      "display",
+    "lighting": "high",
+    "growthRate": "fast",
+    "form": "macroalgae",
+    "placement": "display",
     "nutrientUptake": "high",
-    "propagation":    ["fragmentation", "vegetative tip growth"]
+    "propagation": [
+      "fragmentation",
+      "wedging",
+      "zip-tie/fishing line",
+      "sand-bed",
+      "vegetative tip growth"
+    ]
   },
-
   "schemaVersion": 1,
   "dataStatus": "researched",
   "lastReviewed": "2026-06-08"

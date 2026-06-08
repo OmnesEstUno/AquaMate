@@ -8,51 +8,80 @@
   "scientificName": "Eucheuma sp.",
   "alsoKnownAs": [],
   "category": "Red Macroalgae",
-
   "taxonomy": {
     "family": "Solieriaceae",
     "order": "Gigartinales"
   },
-
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Eastern Africa", "Tropical Pacific"],
-    "countries": ["Philippines", "Indonesia", "Malaysia", "Tanzania", "Guam"],
+    "regions": [
+      "Indo-Pacific",
+      "Eastern Africa",
+      "Tropical Pacific"
+    ],
+    "countries": [
+      "Philippines",
+      "Indonesia",
+      "Malaysia",
+      "Tanzania",
+      "Guam"
+    ],
     "habitat": "Subtidal coral reef zones, growing on sand to rocky seafloor where water movement is slow to moderate; below low-tide mark to upper subtidal.",
     "biotope": "Tropical coral reef",
-    "depthRangeM": { "min": 0, "max": 10 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 10
+    }
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 30 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 24,
+      "max": 30
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
     "kH": null,
-    "salinity": { "min": 1.023, "max": 1.026 }
+    "salinity": {
+      "min": 1.023,
+      "max": 1.026
+    }
   },
-
-  "adultSizeCm": { "min": 5, "max": 25 },
+  "adultSizeCm": {
+    "min": 5,
+    "max": 25
+  },
   "lifespanYears": null,
-
   "tank": {
     "minVolumeLiters": 40,
     "minLengthCm": null,
     "swimZone": null,
-    "decorPreferences": ["live rock", "rubble substrate", "open placement for water flow"],
+    "decorPreferences": [
+      "live rock",
+      "rubble substrate",
+      "open placement for water flow"
+    ],
     "minSandDepthCm": null
   },
-
   "careLevel": "advanced",
-
   "diet": null,
-
   "compatibility": {
     "temperament": "peaceful",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["reef fish", "invertebrates", "corals"],
-    "avoidWith": ["herbivorous fish", "tangs", "sea urchins", "rabbitfish"]
+    "goodWith": [
+      "reef fish",
+      "invertebrates",
+      "corals"
+    ],
+    "avoidWith": [
+      "herbivorous fish",
+      "tangs",
+      "sea urchins",
+      "rabbitfish"
+    ]
   },
-
   "media": {
     "primaryImage": null,
     "gallery": [],
@@ -67,13 +96,9 @@
       }
     ]
   },
-
   "summary": "A rare red macroalgae (Eucheuma sp.) that displays a green coloration due to reduced red pigmentation, growing erect spiny branches. Considered one of the more challenging macroalgae to maintain in captivity; rarely offered in the hobby. The Eucheuma genus is a major commercial source of carrageenan.",
-
-  "careNotes": "Despite the trade name 'Green Spiny Seaweed', Eucheuma is a red alga (Rhodophyta, family Solieriaceae) — the green coloration results from a lack of the usual red pigment rather than belonging to the green algae lineage. Mosaic Macros notes this species is 'rarely offered due to its difficulty' and requires expedited shipping (UPS 2-Day Express) to qualify for live arrival guarantee, indicating sensitivity to shipping stress. In the wild, Eucheuma thrives in warm Indo-Pacific tropical reefs (within ~20° of the equator), anchored to rubble or rocky substrate in moderate flow. Standard reef water parameters are generally appropriate: temperature around 27–30°C, salinity around SG 1.023–1.026, and stable alkalinity. Moderate lighting is typically recommended for this genus. The genus Eucheuma (especially E. denticulatum and E. cottonii / Kappaphycus alvarezii) is commercially farmed at massive scale in the Philippines, Indonesia, and Tanzania as a carrageenan source used in food, cosmetics, and pharmaceuticals. Aquarium propagation is typically by fragmentation, mirroring commercial farming practice. Herbivorous tankmates — including tangs, rabbitfish, and sea urchins — may consume or damage this alga. This is a Mosaic Macros specialty species; no AlgaeBarn or Top Shelf Aquatics listing was found, confirming it as a Mosaic-exclusive offering in the hobby trade.",
-
+  "careNotes": "Despite the trade name 'Green Spiny Seaweed', Eucheuma is a red alga (Rhodophyta, family Solieriaceae) — the green coloration results from a lack of the usual red pigment rather than belonging to the green algae lineage. Mosaic Macros notes this species is 'rarely offered due to its difficulty' and requires expedited shipping (UPS 2-Day Express) to qualify for live arrival guarantee, indicating sensitivity to shipping stress. In the wild, Eucheuma thrives in warm Indo-Pacific tropical reefs (within ~20° of the equator), anchored to rubble or rocky substrate in moderate flow. Standard reef water parameters are generally appropriate: temperature around 27–30°C, salinity around SG 1.023–1.026, and stable alkalinity. Moderate lighting is typically recommended for this genus. The genus Eucheuma (especially E. denticulatum and E. cottonii / Kappaphycus alvarezii) is commercially farmed at massive scale in the Philippines, Indonesia, and Tanzania as a carrageenan source used in food, cosmetics, and pharmaceuticals. Aquarium propagation is typically by fragmentation, mirroring commercial farming practice. Herbivorous tankmates — including tangs, rabbitfish, and sea urchins — may consume or damage this alga. This is a Mosaic Macros specialty species; no AlgaeBarn or Top Shelf Aquatics listing was found, confirming it as a Mosaic-exclusive offering in the hobby trade. Per Mosaic care guide guidance: as a red or brown alga, this species will MELT at the base if buried in sand — attach to rock via superglue, zip-tie/fishing line, or wedging instead. (Sand-bed acceptance per Mosaic is limited to Caulerpa, Halimeda, Penicillus, Rhipocephalus, and Udotea genera, plus some calcified Dasycladales.)",
   "breedingNotes": "In nature, Eucheuma has a triphasic life cycle (gametophyte, carposporophyte, sporophyte stages). Aquarium propagation is generally by fragmentation — detaching healthy branch tips and allowing them to attach to rubble or mesh. Sexual reproduction has not been documented in home aquaria.",
-
   "sources": {
     "primary": {
       "name": "Mosaic Macros",
@@ -87,10 +112,15 @@
         "url": "https://en.wikipedia.org/wiki/Eucheuma",
         "accessedDate": "2026-06-08",
         "notes": "Confirmed taxonomy (Solieriaceae, Gigartinales, Rhodophyta), native range (Indo-Pacific tropical), habitat (subtidal reef, 0–10m), temperature range (27–30°C), salinity (30–35 ppt → SG 1.023–1.026), carrageenan commercial use, and fragmentation propagation. Used as cross-verification source for all high-stakes fields."
+      },
+      {
+        "name": "Mosaic Macros general macroalgae care guide",
+        "url": "https://mosaicmacros.com/blogs/macroalgae-care-sheets-compatibility/macroalgae-care-the-basics-of-keeping-macroalgae-in-your-reef",
+        "accessedDate": "2026-06-08",
+        "notes": "Slice-wide secondary source — provides authoritative Mosaic-wide parameter targets (temp 22-26°C, pH 8.1-8.4, Ca 400-450 ppm, Mg 1250-1350 ppm, NO3 5-20 ppm, PO4 0.02-0.1 ppm) and the 4-method propagation standard. Added retroactively 2026-06-08."
       }
     ]
   },
-
   "fish": null,
   "crustacean": null,
   "coral": null,
@@ -104,9 +134,12 @@
     "form": "macroalgae",
     "placement": "display",
     "nutrientUptake": "moderate",
-    "propagation": ["fragmentation"]
+    "propagation": [
+      "fragmentation",
+      "wedging",
+      "zip-tie/fishing line"
+    ]
   },
-
   "schemaVersion": 1,
   "dataStatus": "researched",
   "lastReviewed": "2026-06-08"

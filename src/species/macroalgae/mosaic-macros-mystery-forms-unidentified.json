@@ -28,31 +28,43 @@
     "Brittle Sea Lettuce"
   ],
   "category": "Macroalgae",
-
   "taxonomy": {
     "family": null,
     "order": null
   },
-
   "nativeRange": {
-    "regions": ["unknown"],
+    "regions": [
+      "unknown"
+    ],
     "countries": [],
     "habitat": "Mosaic Macros sources from undocumented locales",
     "biotope": null,
     "depthRangeM": null
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 26 },
-    "pH":           { "min": 8.1, "max": 8.4 },
-    "gH":           null,
-    "kH":           { "min": 8, "max": 12 },
-    "salinity":     { "min": 1.023, "max": 1.026 }
+    "temperatureC": {
+      "min": 24,
+      "max": 26
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.023,
+      "max": 1.026
+    }
   },
-
-  "adultSizeCm": { "min": 2, "max": 20 },
+  "adultSizeCm": {
+    "min": 2,
+    "max": 20
+  },
   "lifespanYears": null,
-
   "tank": {
     "minVolumeLiters": 40,
     "minLengthCm": null,
@@ -60,11 +72,8 @@
     "decorPreferences": [],
     "minSandDepthCm": null
   },
-
   "careLevel": "intermediate",
-
   "diet": null,
-
   "compatibility": {
     "temperament": "peaceful",
     "grouping": "solitary",
@@ -72,7 +81,6 @@
     "goodWith": [],
     "avoidWith": []
   },
-
   "media": {
     "primaryImage": null,
     "gallery": [],
@@ -119,13 +127,9 @@
       }
     ]
   },
-
   "summary": "Aggregate entry covering 19 Mosaic Macros specialty SKUs with no genus-level taxonomic identification. Listed for trade completeness.",
-
-  "careNotes": "This is a catch-all entry covering ~19 Mosaic Macros SKUs sold under various colorful trade names but without genus-level taxonomic identification. Mosaic themselves do not provide scientific names for these specimens. Real Stage C research is not possible without first identifying the species. Treat this entry as a placeholder showing the existence of specialty unidentified Mosaic stock. Individual SKU URLs in `sources.additional` allow keepers to browse the catalog. Recommended path: future research could subspecialize this entry as taxonomy becomes known.",
-
+  "careNotes": "This is a catch-all entry covering ~19 Mosaic Macros SKUs sold under various colorful trade names but without genus-level taxonomic identification. Mosaic themselves do not provide scientific names for these specimens. Real Stage C research is not possible without first identifying the species. Treat this entry as a placeholder showing the existence of specialty unidentified Mosaic stock. Individual SKU URLs in `sources.additional` allow keepers to browse the catalog. Recommended path: future research could subspecialize this entry as taxonomy becomes known. Per Mosaic care guide guidance: as a red or brown alga, this species will MELT at the base if buried in sand — attach to rock via superglue, zip-tie/fishing line, or wedging instead. (Sand-bed acceptance per Mosaic is limited to Caulerpa, Halimeda, Penicillus, Rhipocephalus, and Udotea genera, plus some calcified Dasycladales.)",
   "breedingNotes": null,
-
   "sources": {
     "primary": {
       "name": "Mosaic Macros (aggregate)",
@@ -157,26 +161,34 @@
         "url": "https://mosaicmacros.com/products/rainbow-finger-macroalgae-unknown-sp",
         "accessedDate": "2026-06-08",
         "notes": null
+      },
+      {
+        "name": "Mosaic Macros general macroalgae care guide",
+        "url": "https://mosaicmacros.com/blogs/macroalgae-care-sheets-compatibility/macroalgae-care-the-basics-of-keeping-macroalgae-in-your-reef",
+        "accessedDate": "2026-06-08",
+        "notes": "Slice-wide secondary source — provides authoritative Mosaic-wide parameter targets (temp 22-26°C, pH 8.1-8.4, Ca 400-450 ppm, Mg 1250-1350 ppm, NO3 5-20 ppm, PO4 0.02-0.1 ppm) and the 4-method propagation standard. Added retroactively 2026-06-08."
       }
     ]
   },
-
-  "fish":         null,
-  "crustacean":   null,
-  "coral":        null,
-  "mollusc":      null,
-  "echinoderm":   null,
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
   "other-invert": null,
-  "plant":        null,
+  "plant": null,
   "macroalgae": {
-    "lighting":       null,
-    "growthRate":     null,
-    "form":           null,
-    "placement":      null,
+    "lighting": null,
+    "growthRate": null,
+    "form": null,
+    "placement": null,
     "nutrientUptake": null,
-    "propagation":    []
+    "propagation": [
+      "fragmentation",
+      "wedging",
+      "zip-tie/fishing line"
+    ]
   },
-
   "schemaVersion": 1,
   "dataStatus": "needs_review",
   "lastReviewed": "2026-06-08"

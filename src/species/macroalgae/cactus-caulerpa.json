@@ -6,53 +6,93 @@
   "waterType": "saltwater",
   "commonName": "Cactus Caulerpa",
   "scientificName": "Caulerpa cupressoides",
-  "alsoKnownAs": ["Cactus Tree Caulerpa"],
+  "alsoKnownAs": [
+    "Cactus Tree Caulerpa"
+  ],
   "category": "Macroalgae",
-
   "taxonomy": {
     "family": "Caulerpaceae",
     "order": "Bryopsidales"
   },
-
   "nativeRange": {
-    "regions": ["Atlantic", "Caribbean", "Indo-Pacific", "Indian Ocean"],
-    "countries": ["United States (Florida)", "Mexico", "Brazil", "Caribbean islands", "South Africa", "Australia", "Philippines", "Indonesia"],
+    "regions": [
+      "Atlantic",
+      "Caribbean",
+      "Indo-Pacific",
+      "Indian Ocean"
+    ],
+    "countries": [
+      "United States (Florida)",
+      "Mexico",
+      "Brazil",
+      "Caribbean islands",
+      "South Africa",
+      "Australia",
+      "Philippines",
+      "Indonesia"
+    ],
     "habitat": "Shallow sandy-bottomed protected areas, reef flats, and rocky substrates in tropical and subtropical coastal waters",
     "biotope": "Marine benthic; anchors via rhizoids (holdfasts) into sandbed or rockwork; found in the photic zone in sheltered coastal environments",
-    "depthRangeM": { "min": 0, "max": 30 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 30
+    }
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 22.0, "max": 26.0 },
-    "pH":           { "min": 8.1, "max": 8.4 },
-    "gH":           null,
-    "kH":           { "min": 8, "max": 12 },
-    "salinity":     { "min": 1.023, "max": 1.025 }
+    "temperatureC": {
+      "min": 22,
+      "max": 26
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.023,
+      "max": 1.025
+    }
   },
-
-  "adultSizeCm": { "min": 2, "max": 25 },
+  "adultSizeCm": {
+    "min": 2,
+    "max": 25
+  },
   "lifespanYears": null,
-
   "tank": {
     "minVolumeLiters": 40,
     "minLengthCm": null,
     "swimZone": null,
-    "decorPreferences": ["sandbed for holdfast anchoring", "rockwork for attachment", "moderate water flow"],
+    "decorPreferences": [
+      "sandbed for holdfast anchoring",
+      "rockwork for attachment",
+      "moderate water flow"
+    ],
     "minSandDepthCm": null
   },
-
   "careLevel": "beginner",
-
   "diet": null,
-
   "compatibility": {
     "temperament": "semi-aggressive",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["reef fish", "most corals (with distance)", "invertebrates", "snails", "hermit crabs", "shrimp"],
-    "avoidWith": ["sensitive SPS corals (direct contact)", "herbivorous fish (tangs, rabbitfish, sea urchins)", "tanks with no photoperiod control"]
+    "goodWith": [
+      "reef fish",
+      "most corals (with distance)",
+      "invertebrates",
+      "snails",
+      "hermit crabs",
+      "shrimp"
+    ],
+    "avoidWith": [
+      "sensitive SPS corals (direct contact)",
+      "herbivorous fish (tangs, rabbitfish, sea urchins)",
+      "tanks with no photoperiod control"
+    ]
   },
-
   "media": {
     "primaryImage": null,
     "gallery": [],
@@ -67,13 +107,9 @@
       }
     ]
   },
-
   "summary": "A slow-growing display Caulerpa with distinctive cactus-like upright branching fronds. Suited to display tanks as an ornamental specimen; allelopathic and an invasive concern outside its native range.",
-
   "careNotes": "Cactus Caulerpa (Caulerpa cupressoides) is a siphonous green macroalgae named for its cactus-like appearance: long stolons give rise to thick upright stalks that branch into heavy uprights lined with rows of short, dense branchlets. Wikipedia describes the frond architecture as resembling cypress foliage (the species name means 'cypress-like'). Size has been reported to range from 2 to 25 cm depending on growth conditions and variety; several varieties exist (var. cupressoides, elegans, flabellata, lycopodium, mamillosa).\n\nSOURCE NOTE: As of the research date (2026-06-08), Mosaic Macros is the sole hobby trade source carrying this species. No AlgaeBarn, Top Shelf Aquatics, or other trade listing was found. Taxonomy and distribution data were supplemented from Wikipedia and genus-level knowledge of Caulerpaceae. Care parameters are extrapolated from genus-level Caulerpa husbandry standards documented in sibling entries (sw-algae-004 C. prolifera; sw-algae-016 C. racemosa).\n\nALLELOPATHY: Like all Caulerpa species, C. cupressoides produces secondary metabolites (caulerpenyne, sesquiterpenes, and other phytochemicals) as chemical defenses against herbivory. Wikipedia notes the genus resists herbivorous fish predation through high sesquiterpene content. These compounds can stress corals and competing algae when released into the water column. Physical separation from sensitive SPS corals and use of activated carbon in the system are generally advisable precautions.\n\nGOING SEXUAL / REPRODUCTIVE CRASH: All Caulerpa species can undergo holocarpy — a mass reproductive event in which the organism converts its cytoplasm into gametes and effectively dies. This can release large quantities of organic matter, causing an acute water-quality event capable of crashing a reef tank. Triggers include sharp nutrient drops, disrupted photoperiod, or rapid temperature swings. Mitigations: run refugium lighting on a 24-hour cycle to suppress reproductive triggering; harvest regularly to keep the colony in active vegetative growth; maintain stable (not zero) nutrient levels; remove any specimen showing reproductive structures (white/translucent fronds, turbid release) immediately.\n\nINVASIVE CONCERN: Mosaic Macros notes this species is a potentially invasive species in the aquarium hobby context and is completely banned for shipment to California. Captive specimens must never be released into natural waterways.\n\nGENERAL CARE: Mosaic Macros notes that, like other Caulerpas, fronds will appear white or translucent immediately after shipping due to chloroplast movement in darkness — this is normal and reverses within hours of light exposure. High lighting is generally considered preferable. Moderate water flow is generally advised. Stable reef water parameters (NSW-level salinity, consistent temperature) are recommended, consistent with standard Caulerpa care.\n\nGROWTH RATE NOTE: Mosaic Macros characterizes this species as slow-growing relative to other Caulerpas (such as C. prolifera or C. racemosa), making it better suited as a display specimen than as a primary nutrient-export workhorse.\n\nCROSS-REFERENCE: See also caulerpa-prolifera (sw-algae-004) for the Atlantic/Mediterranean blade-form sibling sharing allelopathy and crash caveats, and sea-grapes (sw-algae-016) for the grape-cluster display Caulerpa.",
-
   "breedingNotes": "Propagates in the aquarium via fragmentation — cuttings of the stolon or upright fronds have been reported to establish as new plants — and by vegetative tip growth along the stolon. Sexual reproduction (holocarpy) is a stress-triggered destructive event rather than a managed propagation method; aquarists should take active steps to prevent it (see careNotes).",
-
   "sources": {
     "primary": {
       "name": "Mosaic Macros",
@@ -87,10 +123,15 @@
         "url": "https://en.wikipedia.org/wiki/Caulerpa_cupressoides",
         "accessedDate": "2026-06-08",
         "notes": "Taxonomy confirmed: Family Caulerpaceae, Order Bryopsidales, Class Ulvophyceae. Native range (global tropical/subtropical: Americas, Africa, Indo-Pacific, Australia) confirmed. Morphology: coenocytic, stolon-based with cactus-like branching uprights, 2–25 cm. Sesquiterpene allelopathy documented as herbivore deterrent. Varieties: var. cupressoides, elegans, flabellata, lycopodium, mamillosa."
+      },
+      {
+        "name": "Mosaic Macros general macroalgae care guide",
+        "url": "https://mosaicmacros.com/blogs/macroalgae-care-sheets-compatibility/macroalgae-care-the-basics-of-keeping-macroalgae-in-your-reef",
+        "accessedDate": "2026-06-08",
+        "notes": "Slice-wide secondary source — provides authoritative Mosaic-wide parameter targets (temp 22-26°C, pH 8.1-8.4, Ca 400-450 ppm, Mg 1250-1350 ppm, NO3 5-20 ppm, PO4 0.02-0.1 ppm) and the 4-method propagation standard. Added retroactively 2026-06-08."
       }
     ]
   },
-
   "fish": null,
   "crustacean": null,
   "coral": null,
@@ -99,14 +140,19 @@
   "other-invert": null,
   "plant": null,
   "macroalgae": {
-    "lighting":       "high",
-    "growthRate":     "slow",
-    "form":           "macroalgae",
-    "placement":      "display",
+    "lighting": "high",
+    "growthRate": "slow",
+    "form": "macroalgae",
+    "placement": "display",
     "nutrientUptake": "high",
-    "propagation":    ["fragmentation", "vegetative tip growth"]
+    "propagation": [
+      "fragmentation",
+      "wedging",
+      "zip-tie/fishing line",
+      "sand-bed",
+      "vegetative tip growth"
+    ]
   },
-
   "schemaVersion": 1,
   "dataStatus": "researched",
   "lastReviewed": "2026-06-08"

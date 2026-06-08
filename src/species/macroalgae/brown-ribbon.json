@@ -6,53 +6,83 @@
   "waterType": "saltwater",
   "commonName": "Brown Ribbon",
   "scientificName": "Dictyota sp.",
-  "alsoKnownAs": ["Iridescent Forked", "Stubby Forked", "Brown Forked Algae"],
+  "alsoKnownAs": [
+    "Iridescent Forked",
+    "Stubby Forked",
+    "Brown Forked Algae"
+  ],
   "category": "Macroalgae",
-
   "taxonomy": {
     "family": "Dictyotaceae",
     "order": "Dictyotales"
   },
-
   "nativeRange": {
-    "regions": ["Tropical Atlantic", "Caribbean", "Mediterranean", "Indo-Pacific"],
+    "regions": [
+      "Tropical Atlantic",
+      "Caribbean",
+      "Mediterranean",
+      "Indo-Pacific"
+    ],
     "countries": [],
     "habitat": "Tropical and subtropical intertidal to shallow subtidal hard-bottom and reef environments; prefers high-flow areas",
     "biotope": "Reef",
-    "depthRangeM": { "min": 0, "max": 30 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 30
+    }
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 27 },
-    "pH":           { "min": 8.1, "max": 8.4 },
-    "gH":           null,
-    "kH":           { "min": 8, "max": 12 },
-    "salinity":     { "min": 1.023, "max": 1.026 }
+    "temperatureC": {
+      "min": 23,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.023,
+      "max": 1.026
+    }
   },
-
-  "adultSizeCm": { "min": 5, "max": 20 },
+  "adultSizeCm": {
+    "min": 5,
+    "max": 20
+  },
   "lifespanYears": null,
-
   "tank": {
     "minVolumeLiters": 40,
     "minLengthCm": null,
     "swimZone": null,
-    "decorPreferences": ["live rock", "rockwork for attachment", "areas with turbulent flow"],
+    "decorPreferences": [
+      "live rock",
+      "rockwork for attachment",
+      "areas with turbulent flow"
+    ],
     "minSandDepthCm": null
   },
-
   "careLevel": "intermediate",
-
   "diet": null,
-
   "compatibility": {
     "temperament": "peaceful",
     "grouping": "solitary",
     "minGroupSize": null,
-    "goodWith": ["reef fish", "snails", "hermit crabs", "shrimp", "most reef invertebrates"],
-    "avoidWith": ["aggressive herbivorous fish that may overgraze"]
+    "goodWith": [
+      "reef fish",
+      "snails",
+      "hermit crabs",
+      "shrimp",
+      "most reef invertebrates"
+    ],
+    "avoidWith": [
+      "aggressive herbivorous fish that may overgraze"
+    ]
   },
-
   "media": {
     "primaryImage": null,
     "gallery": [],
@@ -75,13 +105,9 @@
       }
     ]
   },
-
   "summary": "A fast-growing brown macroalga with flat, ribbon-like forked thalli in yellow-gold-brown tones and iridescent blue-green tips. Exclusively available as a display specimen through specialty vendors like Mosaic Macros; noted as a potential nuisance in reef tanks if left unchecked.",
-
-  "careNotes": "Dictyota sp. is a brown alga (class Phaeophyceae) in the family Dictyotaceae, order Dictyotales. The genus encompasses approximately 237 species with flat, ribbon-like thalli that fork dichotomously (hence the trade names 'Brown Forked,' 'Iridescent Forked,' and 'Stubby Forked'). Coloration tends toward yellow, gold, and brown, and specimens have been reported to display striking blue-green iridescent tips under optimal conditions.\n\nMosaic Macros sells three morphological forms under this consolidated entry: Brown Forked Algae (taller variety), Iridescent Dictyota (smaller clumping form with more pronounced iridescence), and Stubby Forked (compact variety). All are genus-level identifications only — no species epithet has been confirmed for the aquarium trade specimens. The genus is widely distributed across tropical and subtropical marine environments worldwide, with particular dominance on Caribbean reef systems; Dictyota has been documented comprising roughly 70% of benthic biomass in the Florida Keys reef tract.\n\n**Invasive/nuisance caveat:** Dictyota is widely considered a nuisance alga in reef aquariums. Under favorable conditions (moderate lighting, elevated nutrients, turbulent flow) it tends to grow rapidly and can overgrow corals or other invertebrates. The genus produces terpenoids that inhibit grazing by sea urchins, herbivorous amphipods, and many fish, making biological control less effective than with other algae. Keepers intentionally cultivating it as an ornamental display specimen are advised to monitor growth closely and trim regularly. Adding it to an established reef should be done with caution.\n\nAs a Mosaic Macros specialty item, this species is not currently stocked by AlgaeBarn or Top Shelf Aquatics; Mosaic Macros is the sole documented hobby source. The brown-ribbon.json entry consolidates three Mosaic SKUs (Brown Forked, Iridescent Forked, Stubby Forked) all identified as Dictyota sp.\n\nThis alga appreciates turbulent water flow, standard reef water parameters, and moderate lighting. It generally does not require supplemental fertilization in an established reef system. Propagation is readily achieved through fragmentation — detached pieces attach to rockwork and resume growth.",
-
+  "careNotes": "Dictyota sp. is a brown alga (class Phaeophyceae) in the family Dictyotaceae, order Dictyotales. The genus encompasses approximately 237 species with flat, ribbon-like thalli that fork dichotomously (hence the trade names 'Brown Forked,' 'Iridescent Forked,' and 'Stubby Forked'). Coloration tends toward yellow, gold, and brown, and specimens have been reported to display striking blue-green iridescent tips under optimal conditions.\n\nMosaic Macros sells three morphological forms under this consolidated entry: Brown Forked Algae (taller variety), Iridescent Dictyota (smaller clumping form with more pronounced iridescence), and Stubby Forked (compact variety). All are genus-level identifications only — no species epithet has been confirmed for the aquarium trade specimens. The genus is widely distributed across tropical and subtropical marine environments worldwide, with particular dominance on Caribbean reef systems; Dictyota has been documented comprising roughly 70% of benthic biomass in the Florida Keys reef tract.\n\n**Invasive/nuisance caveat:** Dictyota is widely considered a nuisance alga in reef aquariums. Under favorable conditions (moderate lighting, elevated nutrients, turbulent flow) it tends to grow rapidly and can overgrow corals or other invertebrates. The genus produces terpenoids that inhibit grazing by sea urchins, herbivorous amphipods, and many fish, making biological control less effective than with other algae. Keepers intentionally cultivating it as an ornamental display specimen are advised to monitor growth closely and trim regularly. Adding it to an established reef should be done with caution.\n\nAs a Mosaic Macros specialty item, this species is not currently stocked by AlgaeBarn or Top Shelf Aquatics; Mosaic Macros is the sole documented hobby source. The brown-ribbon.json entry consolidates three Mosaic SKUs (Brown Forked, Iridescent Forked, Stubby Forked) all identified as Dictyota sp.\n\nThis alga appreciates turbulent water flow, standard reef water parameters, and moderate lighting. It generally does not require supplemental fertilization in an established reef system. Propagation is readily achieved through fragmentation — detached pieces attach to rockwork and resume growth. Per Mosaic care guide guidance: as a red or brown alga, this species will MELT at the base if buried in sand — attach to rock via superglue, zip-tie/fishing line, or wedging instead. (Sand-bed acceptance per Mosaic is limited to Caulerpa, Halimeda, Penicillus, Rhipocephalus, and Udotea genera, plus some calcified Dasycladales.)",
   "breedingNotes": "Propagation in aquariums is typically achieved by fragmentation. Wild Dictyota populations alternate between isomorphic gametophyte and sporophyte generations (sexual reproduction), but alternation-of-generations has not been reported as a meaningful propagation path in the hobby.",
-
   "sources": {
     "primary": {
       "name": "Mosaic Macros",
@@ -113,26 +139,34 @@
         "url": "https://en.wikipedia.org/wiki/Dictyotales",
         "accessedDate": "2026-06-08",
         "notes": "Confirms Dictyotaceae family. Notes Dictyota dominates ~70% of benthic biomass in Florida Keys reef tract and produces grazer-deterring terpenoids — supports nuisance/invasive caveat."
+      },
+      {
+        "name": "Mosaic Macros general macroalgae care guide",
+        "url": "https://mosaicmacros.com/blogs/macroalgae-care-sheets-compatibility/macroalgae-care-the-basics-of-keeping-macroalgae-in-your-reef",
+        "accessedDate": "2026-06-08",
+        "notes": "Slice-wide secondary source — provides authoritative Mosaic-wide parameter targets (temp 22-26°C, pH 8.1-8.4, Ca 400-450 ppm, Mg 1250-1350 ppm, NO3 5-20 ppm, PO4 0.02-0.1 ppm) and the 4-method propagation standard. Added retroactively 2026-06-08."
       }
     ]
   },
-
-  "fish":        null,
-  "crustacean":  null,
-  "coral":       null,
-  "mollusc":     null,
-  "echinoderm":  null,
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
   "other-invert": null,
-  "plant":       null,
+  "plant": null,
   "macroalgae": {
-    "lighting":       "medium",
-    "growthRate":     "fast",
-    "form":           "macroalgae",
-    "placement":      "display",
+    "lighting": "medium",
+    "growthRate": "fast",
+    "form": "macroalgae",
+    "placement": "display",
     "nutrientUptake": "moderate",
-    "propagation":    ["fragmentation"]
+    "propagation": [
+      "fragmentation",
+      "wedging",
+      "zip-tie/fishing line"
+    ]
   },
-
   "schemaVersion": 1,
   "dataStatus": "researched",
   "lastReviewed": "2026-06-08"

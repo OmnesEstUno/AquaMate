@@ -11,63 +11,88 @@
     "Aquacultured Dragon's Tongue Algae"
   ],
   "category": "Macroalgae",
-
   "taxonomy": {
     "family": "Halymeniaceae",
     "order": "Halymeniales"
   },
-
   "nativeRange": {
-    "regions": ["Gulf of Mexico", "Caribbean", "Tropical Atlantic", "Red Sea"],
+    "regions": [
+      "Gulf of Mexico",
+      "Caribbean",
+      "Tropical Atlantic",
+      "Red Sea"
+    ],
     "countries": [],
     "habitat": "Rocky subtidal reef environments; grows on hard substrate or free-floating in moderate to high flow zones",
     "biotope": "Reef",
-    "depthRangeM": { "min": 1, "max": 30 }
+    "depthRangeM": {
+      "min": 1,
+      "max": 30
+    }
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 22.0, "max": 27.0 },
-    "pH":           { "min": 7.8, "max": 8.4 },
-    "gH":           null,
-    "kH":           { "min": 8, "max": 12 },
-    "salinity":     { "min": 1.023, "max": 1.025 }
+    "temperatureC": {
+      "min": 22,
+      "max": 27
+    },
+    "pH": {
+      "min": 7.8,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.023,
+      "max": 1.025
+    }
   },
-
-  "adultSizeCm":   { "min": 5, "max": 45 },
+  "adultSizeCm": {
+    "min": 5,
+    "max": 45
+  },
   "lifespanYears": null,
-
   "tank": {
     "minVolumeLiters": 40,
-    "minLengthCm":     null,
-    "swimZone":        null,
-    "decorPreferences": ["live rock for attachment", "moderate to high flow", "open areas for free-floating specimens"],
-    "minSandDepthCm":  null
+    "minLengthCm": null,
+    "swimZone": null,
+    "decorPreferences": [
+      "live rock for attachment",
+      "moderate to high flow",
+      "open areas for free-floating specimens"
+    ],
+    "minSandDepthCm": null
   },
-
   "careLevel": "intermediate",
-
   "diet": null,
-
   "compatibility": {
-    "temperament":  "peaceful",
-    "grouping":     "solitary",
+    "temperament": "peaceful",
+    "grouping": "solitary",
     "minGroupSize": null,
-    "goodWith":     ["reef fish", "corals", "invertebrates", "seahorses"],
-    "avoidWith":    ["tangs", "rabbitfish", "angelfish", "sea urchins", "herbivorous fish"]
+    "goodWith": [
+      "reef fish",
+      "corals",
+      "invertebrates",
+      "seahorses"
+    ],
+    "avoidWith": [
+      "tangs",
+      "rabbitfish",
+      "angelfish",
+      "sea urchins",
+      "herbivorous fish"
+    ]
   },
-
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
+    "primaryImage": null,
+    "gallery": [],
     "imageCandidates": null
   },
-
   "summary": "Red ornamental macroalgae with deeply furcated, flame-shaped fronds ranging from pink to deep red; generally kept as a display specimen and slow nutrient exporter. Closely related to Dragon's Breath (H. durvillei) and Leafy Ogo (H. maculata).",
-
-  "careNotes": "Dragon's Tongue (Halymenia dilatata) is an ornamental red macroalgae prized for its deeply lobed, flame-shaped thallus colored pink to bright red — the origin of its common name. It is closely related to Dragon's Breath (Halymenia durvillei) and Leafy Ogo (Halymenia maculata), all three sharing the same family (Halymeniaceae) and order (Halymeniales). Unlike Dragon's Breath, Dragon's Tongue is native to the Gulf of Mexico, Caribbean, and Tropical Atlantic (including the Red Sea as the type locality), whereas the sibling H. durvillei is Indo-Pacific. AlgaeBarn describes it as tolerating lower light conditions and flourishing in shadier or deeper tank areas, though other sources rate its lighting requirement as medium to medium-high; moderate lighting is generally considered appropriate. Growth rate is described as slow by AlgaeBarn and slow-to-medium in hobby experience, though fishy.wiki rates it fast under optimal conditions — medium is the consensus middle ground. Temperature recommendations vary across sources: AlgaeBarn lists 78–83°F (25.6–28.3°C), fishy.wiki lists 20–27°C, and sibling Halymenia species are typically kept at 22–26°C; an averaged range of approximately 22–27°C is used here. pH 7.8–8.4 and salinity SG 1.023–1.025 are consistent across all sources. Alkalinity 8–12 dKH is recommended. Iron and iodine supplementation may support coloration and growth in some systems. The species can grow free-floating or attached to rock; attached specimens have been reported to exceed 45 cm (1.5 ft) in height. It is generally considered reef-safe but is extremely palatable to tangs, rabbitfish, and many herbivorous fish; placement away from dedicated herbivores is strongly advised. Both nano reef and refugium placement are documented, though its ornamental value makes it most suitable for display. Trident's Cove describes the care level as beginner-friendly, while AlgaeBarn and fishy.wiki rate it as moderate/intermediate; intermediate is used here as the consensus. Propagation in the hobby is primarily by fragmentation (clipping pieces from established colonies). Supplementation with magnesium, iron, and trace elements is beneficial. The AlgaeBase species_id is 1999; the synonym Sebdenia dilatata (Zanardini) De Toni, 1900 is no longer accepted. Note: some trade sources (e.g., K&P Aquaculture) incorrectly apply the \"Dragon's Tongue\" common name to H. durvillei — this entry follows AlgaeBarn's explicit identification of Dragon's Tongue as H. dilatata.",
-
+  "careNotes": "Dragon's Tongue (Halymenia dilatata) is an ornamental red macroalgae prized for its deeply lobed, flame-shaped thallus colored pink to bright red — the origin of its common name. It is closely related to Dragon's Breath (Halymenia durvillei) and Leafy Ogo (Halymenia maculata), all three sharing the same family (Halymeniaceae) and order (Halymeniales). Unlike Dragon's Breath, Dragon's Tongue is native to the Gulf of Mexico, Caribbean, and Tropical Atlantic (including the Red Sea as the type locality), whereas the sibling H. durvillei is Indo-Pacific. AlgaeBarn describes it as tolerating lower light conditions and flourishing in shadier or deeper tank areas, though other sources rate its lighting requirement as medium to medium-high; moderate lighting is generally considered appropriate. Growth rate is described as slow by AlgaeBarn and slow-to-medium in hobby experience, though fishy.wiki rates it fast under optimal conditions — medium is the consensus middle ground. Temperature recommendations vary across sources: AlgaeBarn lists 78–83°F (25.6–28.3°C), fishy.wiki lists 20–27°C, and sibling Halymenia species are typically kept at 22–26°C; an averaged range of approximately 22–27°C is used here. pH 7.8–8.4 and salinity SG 1.023–1.025 are consistent across all sources. Alkalinity 8–12 dKH is recommended. Iron and iodine supplementation may support coloration and growth in some systems. The species can grow free-floating or attached to rock; attached specimens have been reported to exceed 45 cm (1.5 ft) in height. It is generally considered reef-safe but is extremely palatable to tangs, rabbitfish, and many herbivorous fish; placement away from dedicated herbivores is strongly advised. Both nano reef and refugium placement are documented, though its ornamental value makes it most suitable for display. Trident's Cove describes the care level as beginner-friendly, while AlgaeBarn and fishy.wiki rate it as moderate/intermediate; intermediate is used here as the consensus. Propagation in the hobby is primarily by fragmentation (clipping pieces from established colonies). Supplementation with magnesium, iron, and trace elements is beneficial. The AlgaeBase species_id is 1999; the synonym Sebdenia dilatata (Zanardini) De Toni, 1900 is no longer accepted. Note: some trade sources (e.g., K&P Aquaculture) incorrectly apply the \"Dragon's Tongue\" common name to H. durvillei — this entry follows AlgaeBarn's explicit identification of Dragon's Tongue as H. dilatata. Per Mosaic care guide guidance: as a red or brown alga, this species will MELT at the base if buried in sand — attach to rock via superglue, zip-tie/fishing line, or wedging instead. (Sand-bed acceptance per Mosaic is limited to Caulerpa, Halimeda, Penicillus, Rhipocephalus, and Udotea genera, plus some calcified Dasycladales.)",
   "breedingNotes": null,
-
   "sources": {
     "primary": {
       "name": "AlgaeBarn",
@@ -99,26 +124,34 @@
         "url": "https://reeflings.com/species/halymenia-floresii",
         "accessedDate": "2026-06-08",
         "notes": "Used as sibling-species reference for temperature cross-check only (H. floresii: 22–26°C). pH 8.1–8.4 and SG 1.023–1.025 consistent with primary sources."
+      },
+      {
+        "name": "Mosaic Macros general macroalgae care guide",
+        "url": "https://mosaicmacros.com/blogs/macroalgae-care-sheets-compatibility/macroalgae-care-the-basics-of-keeping-macroalgae-in-your-reef",
+        "accessedDate": "2026-06-08",
+        "notes": "Slice-wide secondary source — provides authoritative Mosaic-wide parameter targets (temp 22-26°C, pH 8.1-8.4, Ca 400-450 ppm, Mg 1250-1350 ppm, NO3 5-20 ppm, PO4 0.02-0.1 ppm) and the 4-method propagation standard. Added retroactively 2026-06-08."
       }
     ]
   },
-
-  "fish":        null,
-  "crustacean":  null,
-  "coral":       null,
-  "mollusc":     null,
-  "echinoderm":  null,
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
   "other-invert": null,
-  "plant":       null,
+  "plant": null,
   "macroalgae": {
-    "lighting":       "medium",
-    "growthRate":     "medium",
-    "form":           "macroalgae",
-    "placement":      "display",
+    "lighting": "medium",
+    "growthRate": "medium",
+    "form": "macroalgae",
+    "placement": "display",
     "nutrientUptake": "moderate",
-    "propagation":    ["fragmentation"]
+    "propagation": [
+      "fragmentation",
+      "wedging",
+      "zip-tie/fishing line"
+    ]
   },
-
   "schemaVersion": 1,
   "dataStatus": "researched",
   "lastReviewed": "2026-06-08"

@@ -8,51 +8,80 @@
   "scientificName": "Jania adhaerens",
   "alsoKnownAs": [],
   "category": "Articulated Coralline Algae",
-
   "taxonomy": {
     "family": "Corallinaceae",
     "order": "Corallinales"
   },
-
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Atlantic", "Mediterranean", "Caribbean"],
+    "regions": [
+      "Indo-Pacific",
+      "Atlantic",
+      "Mediterranean",
+      "Caribbean"
+    ],
     "countries": [],
     "habitat": "Rocky reef substrates, coral rubble, and coarse sand in the shallow photic zone; also epiphytic on other algae and seagrasses",
     "biotope": "Reef",
-    "depthRangeM": { "min": 0, "max": 30 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 30
+    }
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 26 },
-    "pH":           { "min": 8.1, "max": 8.4 },
-    "gH":           null,
-    "kH":           { "min": 8, "max": 12 },
-    "salinity":     { "min": 1.024, "max": 1.026 }
+    "temperatureC": {
+      "min": 22,
+      "max": 26
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.024,
+      "max": 1.026
+    }
   },
-
-  "adultSizeCm": { "min": 2, "max": 8 },
+  "adultSizeCm": {
+    "min": 2,
+    "max": 8
+  },
   "lifespanYears": null,
-
   "tank": {
     "minVolumeLiters": 40,
     "minLengthCm": null,
     "swimZone": null,
-    "decorPreferences": ["live rock", "rocky substrate", "coral rubble", "solid anchor surface"],
+    "decorPreferences": [
+      "live rock",
+      "rocky substrate",
+      "coral rubble",
+      "solid anchor surface"
+    ],
     "minSandDepthCm": null
   },
-
   "careLevel": "intermediate",
-
   "diet": null,
-
   "compatibility": {
     "temperament": "peaceful",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["reef fish", "snails", "hermit crabs", "shrimp", "SPS corals", "LPS corals"],
-    "avoidWith": ["sea urchins (may graze heavily on calcareous algae)", "aggressive herbivores"]
+    "goodWith": [
+      "reef fish",
+      "snails",
+      "hermit crabs",
+      "shrimp",
+      "SPS corals",
+      "LPS corals"
+    ],
+    "avoidWith": [
+      "sea urchins (may graze heavily on calcareous algae)",
+      "aggressive herbivores"
+    ]
   },
-
   "media": {
     "primaryImage": null,
     "gallery": [],
@@ -67,13 +96,9 @@
       }
     ]
   },
-
   "summary": "Jania adhaerens is an articulated calcareous red alga forming dense, bushy pink-purple spheres with fine dichotomously forking branches. Like its sibling Coral Weed (Corallina officinalis), it requires stable reef calcium and magnesium for its calcified skeleton.",
-
-  "careNotes": "Finefork Coralline is an articulated (geniculate) coralline alga in the family Corallinaceae, closely related to Coral Weed (Corallina officinalis). It grows as a dense, spherical bushy tuft of finely forking branches with characteristic pink-purple coloration and white branch tips. Individual thalli typically reach 2–8 cm and can be purchased as 2–3\" clumps or larger cuttings that develop the characteristic spherical form over time.\n\nAs a calcareous alga, stable calcium and magnesium are essential for skeletal calcification; reef parameters of Ca 400–440 ppm and Mg 1,250–1,400 ppm are generally advised, consistent with broad coralline algae husbandry in the family. Alkalinity around 8–12 dKH supports carbonate availability for growth. Elevated phosphate and nitrate have been reported to inhibit coralline algae calcification; maintaining phosphate < 0.05 ppm and nitrate < 5 ppm tends to support better performance.\n\nLighting should be moderate to high — high-intensity reef lighting generally supports healthy articulated coralline growth. The species grows slowly, making it manageable in a display reef. Attach fragments to live rock or coral rubble using a cyanoacrylate frag glue or tuck into rock crevices; detached fragments that settle on rocky substrate can establish new colonies.\n\nMosaic Macros is the sole specialty aquarium hobby source currently offering this species as a cultured specimen. Husbandry parameters are extrapolated from well-documented Corallinaceae family-level care and corroborated by the sibling species Corallina officinalis; both are articulated corallines sharing the same calcification requirements. Regular water changes help replenish calcium, carbonates, and trace elements. The species is generally considered cosmopolitan in tropical and subtropical seas.",
-
+  "careNotes": "Finefork Coralline is an articulated (geniculate) coralline alga in the family Corallinaceae, closely related to Coral Weed (Corallina officinalis). It grows as a dense, spherical bushy tuft of finely forking branches with characteristic pink-purple coloration and white branch tips. Individual thalli typically reach 2–8 cm and can be purchased as 2–3\" clumps or larger cuttings that develop the characteristic spherical form over time.\n\nAs a calcareous alga, stable calcium and magnesium are essential for skeletal calcification; reef parameters of Ca 400–440 ppm and Mg 1,250–1,400 ppm are generally advised, consistent with broad coralline algae husbandry in the family. Alkalinity around 8–12 dKH supports carbonate availability for growth. Elevated phosphate and nitrate have been reported to inhibit coralline algae calcification; maintaining phosphate < 0.05 ppm and nitrate < 5 ppm tends to support better performance.\n\nLighting should be moderate to high — high-intensity reef lighting generally supports healthy articulated coralline growth. The species grows slowly, making it manageable in a display reef. Attach fragments to live rock or coral rubble using a cyanoacrylate frag glue or tuck into rock crevices; detached fragments that settle on rocky substrate can establish new colonies.\n\nMosaic Macros is the sole specialty aquarium hobby source currently offering this species as a cultured specimen. Husbandry parameters are extrapolated from well-documented Corallinaceae family-level care and corroborated by the sibling species Corallina officinalis; both are articulated corallines sharing the same calcification requirements. Regular water changes help replenish calcium, carbonates, and trace elements. The species is generally considered cosmopolitan in tropical and subtropical seas. Per Mosaic care guide guidance: as a red or brown alga, this species will MELT at the base if buried in sand — attach to rock via superglue, zip-tie/fishing line, or wedging instead. (Sand-bed acceptance per Mosaic is limited to Caulerpa, Halimeda, Penicillus, Rhipocephalus, and Udotea genera, plus some calcified Dasycladales.)",
   "breedingNotes": "Propagation in captivity is primarily by fragmentation — detached thallus segments can attach to rock and establish new growth. Sexual reproduction via alternation of gametophyte and sporophyte generations also occurs but is not commonly observed in closed aquarium systems.",
-
   "sources": {
     "primary": {
       "name": "Mosaic Macros",
@@ -87,10 +112,15 @@
         "url": "https://mosaicmacros.com/products/coral-weed-algae-corallina-officinalis",
         "accessedDate": "2026-06-08",
         "notes": "Corallina officinalis is a congeneric articulated coralline (family Corallinaceae, order Corallinales). Water parameters, lighting, growth rate, placement, care level, and calcification requirements extrapolated from this sibling per playbook guidance for Mosaic-only entries with no independent secondary source. Both species are geniculate corallines sharing identical calcification chemistry."
+      },
+      {
+        "name": "Mosaic Macros general macroalgae care guide",
+        "url": "https://mosaicmacros.com/blogs/macroalgae-care-sheets-compatibility/macroalgae-care-the-basics-of-keeping-macroalgae-in-your-reef",
+        "accessedDate": "2026-06-08",
+        "notes": "Slice-wide secondary source — provides authoritative Mosaic-wide parameter targets (temp 22-26°C, pH 8.1-8.4, Ca 400-450 ppm, Mg 1250-1350 ppm, NO3 5-20 ppm, PO4 0.02-0.1 ppm) and the 4-method propagation standard. Added retroactively 2026-06-08."
       }
     ]
   },
-
   "fish": null,
   "crustacean": null,
   "coral": null,
@@ -99,14 +129,18 @@
   "other-invert": null,
   "plant": null,
   "macroalgae": {
-    "lighting":       "high",
-    "growthRate":     "slow",
-    "form":           "calcareous",
-    "placement":      "display",
+    "lighting": "high",
+    "growthRate": "slow",
+    "form": "calcareous",
+    "placement": "display",
     "nutrientUptake": "low",
-    "propagation":    ["fragmentation", "gametophyte-sporophyte alternation"]
+    "propagation": [
+      "fragmentation",
+      "wedging",
+      "zip-tie/fishing line",
+      "gametophyte-sporophyte alternation"
+    ]
   },
-
   "schemaVersion": 1,
   "dataStatus": "researched",
   "lastReviewed": "2026-06-08"

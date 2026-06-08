@@ -8,51 +8,74 @@
   "scientificName": "Caulerpa sp.",
   "alsoKnownAs": [],
   "category": "Macroalgae",
-
   "taxonomy": {
     "family": "Caulerpaceae",
     "order": "Bryopsidales"
   },
-
   "nativeRange": {
-    "regions": ["Tropical/subtropical marine (genus-wide distribution)"],
+    "regions": [
+      "Tropical/subtropical marine (genus-wide distribution)"
+    ],
     "countries": [],
     "habitat": "Shallow coastal reef environments, rocky substrates, and sandy areas in the photic zone",
     "biotope": "Marine benthic; anchors via rhizoids into substrate; siphonous green macroalgae typical of warm, well-lit reef zones",
-    "depthRangeM": { "min": 0, "max": 30 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 30
+    }
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 22.0, "max": 26.0 },
-    "pH":           { "min": 8.1, "max": 8.4 },
-    "gH":           null,
-    "kH":           { "min": 8, "max": 12 },
-    "salinity":     { "min": 1.023, "max": 1.025 }
+    "temperatureC": {
+      "min": 22,
+      "max": 26
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.023,
+      "max": 1.025
+    }
   },
-
-  "adultSizeCm": { "min": 5, "max": 30 },
+  "adultSizeCm": {
+    "min": 5,
+    "max": 30
+  },
   "lifespanYears": null,
-
   "tank": {
     "minVolumeLiters": 40,
     "minLengthCm": null,
     "swimZone": null,
-    "decorPreferences": ["rockwork for holdfast anchoring", "sandbed", "rubble substrate"],
+    "decorPreferences": [
+      "rockwork for holdfast anchoring",
+      "sandbed",
+      "rubble substrate"
+    ],
     "minSandDepthCm": null
   },
-
   "careLevel": "beginner",
-
   "diet": null,
-
   "compatibility": {
     "temperament": "semi-aggressive",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["reef fish", "most corals (with distance)", "invertebrates", "seahorses"],
-    "avoidWith": ["sensitive SPS corals (direct contact)", "tanks with no light schedule control"]
+    "goodWith": [
+      "reef fish",
+      "most corals (with distance)",
+      "invertebrates",
+      "seahorses"
+    ],
+    "avoidWith": [
+      "sensitive SPS corals (direct contact)",
+      "tanks with no light schedule control"
+    ]
   },
-
   "media": {
     "primaryImage": null,
     "gallery": [],
@@ -67,13 +90,9 @@
       }
     ]
   },
-
   "summary": "A distinctive Caulerpa with succulent, thick lobed blades reminiscent of a fern frond — an unidentified species available exclusively through Mosaic Macros. Fast-growing, beginner-friendly, and allelopathic; banned in California.",
-
   "careNotes": "Lobe-Bladed Fern Caulerpa is a trade name applied by Mosaic Macros to an unidentified Caulerpa sp. with distinctive succulent, thick lobed blades described by the seller as growth comparable to Caulerpa mexicana. No species-level identification has been published; this entry remains at genus level. Mosaic Macros is the sole known hobby trade source.\n\nThis algae is sold in cuttings of 2–3\" (4–5 blades) or 4\"+ (6+ blades). It is suitable for both display tank use (as an ornamental specimen) and refugium placement for nutrient export.\n\nALLELOPATHY: Like all Caulerpa species, this macroalgae is considered to produce secondary metabolites including caulerpin and caulerpenyne. These compounds have been documented to inhibit or stress nearby corals and competing algae. It is generally advised to maintain physical separation from sensitive SPS corals; running activated carbon in the system is a commonly recommended precaution. Refugium placement limits direct allelopathic exposure to display corals.\n\nGOING SEXUAL / REPRODUCTIVE CRASH: Under stress — particularly from nutrient crashes, disrupted photoperiod, or rapid temperature swings — Caulerpa species can undergo holocarpy, converting the entire thallus to gametes and effectively dying. This releases organic matter and gametes into the water column, creating a severe acute water-quality risk (ammonia spike, oxygen depletion) capable of crashing a reef tank. Recommended mitigations: run refugium lighting on a 24-hour cycle to suppress reproductive triggering; harvest regularly to keep the colony in active vegetative growth; maintain stable moderate nutrient levels rather than running nutrients to zero; immediately remove any specimen showing white/translucent fronds or turbid gamete release.\n\nINVASIVE CONCERN: The Caulerpa genus includes several documented marine invasive species (notably C. taxifolia in the Mediterranean, C. racemosa in various locations). All Caulerpa are banned for sale in California. Captive specimens must never be released into natural waterways.\n\nWATER PARAMETERS: Standard reef parameters are generally advised — 22–26°C, salinity SG 1.023–1.025, pH 8.1–8.4, alkalinity 8–12 dKH. Parameters are extrapolated from genus-level Caulerpa standards consistent with sibling entries (caulerpa-prolifera, feather-caulerpa) in the absence of species-specific published data.\n\nGENERAL CARE: Tends to thrive under high reef lighting (5,000K or higher, 8+ hours photoperiod, or 24-hour continuous for refugium use). Tolerates moderate water flow; gentle tumbling works well in a refugium chamber.\n\nUPON ARRIVAL: Fronds may appear white or translucent after dark shipping due to chloroplast displacement. This is normal; coloration typically recovers within a few hours of light exposure.",
-
   "breedingNotes": "Propagates readily via fragmentation — severed frond pieces have been reported to establish as new plants. Vegetative tip growth along the stolon is the primary growth mode in captivity. Sexual reproduction (holocarpy) is destructive and should be actively prevented (see careNotes).",
-
   "sources": {
     "primary": {
       "name": "Mosaic Macros",
@@ -87,10 +106,15 @@
         "url": "https://mosaicmacros.com/products/seagrass-caulerpa-caulerpa-prolifera",
         "accessedDate": "2026-06-08",
         "notes": "Cross-reference for genus-level husbandry standards: water parameters, allelopathy (caulerpin/caulerpenyne), holocarpy/crash behavior, invasive caveats, and propagation methods. Consistent with feather-caulerpa (sw-algae-035) sibling."
+      },
+      {
+        "name": "Mosaic Macros general macroalgae care guide",
+        "url": "https://mosaicmacros.com/blogs/macroalgae-care-sheets-compatibility/macroalgae-care-the-basics-of-keeping-macroalgae-in-your-reef",
+        "accessedDate": "2026-06-08",
+        "notes": "Slice-wide secondary source — provides authoritative Mosaic-wide parameter targets (temp 22-26°C, pH 8.1-8.4, Ca 400-450 ppm, Mg 1250-1350 ppm, NO3 5-20 ppm, PO4 0.02-0.1 ppm) and the 4-method propagation standard. Added retroactively 2026-06-08."
       }
     ]
   },
-
   "fish": null,
   "crustacean": null,
   "coral": null,
@@ -99,14 +123,19 @@
   "other-invert": null,
   "plant": null,
   "macroalgae": {
-    "lighting":       "high",
-    "growthRate":     "fast",
-    "form":           "macroalgae",
-    "placement":      "display",
+    "lighting": "high",
+    "growthRate": "fast",
+    "form": "macroalgae",
+    "placement": "display",
     "nutrientUptake": "high",
-    "propagation":    ["fragmentation", "vegetative tip growth"]
+    "propagation": [
+      "fragmentation",
+      "wedging",
+      "zip-tie/fishing line",
+      "sand-bed",
+      "vegetative tip growth"
+    ]
   },
-
   "schemaVersion": 1,
   "dataStatus": "researched",
   "lastReviewed": "2026-06-08"

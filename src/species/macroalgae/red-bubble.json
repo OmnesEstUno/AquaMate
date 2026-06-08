@@ -6,33 +6,70 @@
   "waterType": "saltwater",
   "commonName": "Red Bubble",
   "scientificName": "Botryocladia skottsbergii",
-  "alsoKnownAs": ["Red Valonia", "Red Grape", "Red Berry"],
+  "alsoKnownAs": [
+    "Red Valonia",
+    "Red Grape",
+    "Red Berry"
+  ],
   "category": "Macroalgae",
   "taxonomy": {
     "family": "Rhodymeniaceae",
     "order": "Rhodymeniales"
   },
   "nativeRange": {
-    "regions": ["Caribbean", "Indo-Pacific", "Atlantic"],
-    "countries": ["United States (Hawaii)", "Maldives", "Fiji", "Australia", "Philippines", "Japan"],
+    "regions": [
+      "Caribbean",
+      "Indo-Pacific",
+      "Atlantic"
+    ],
+    "countries": [
+      "United States (Hawaii)",
+      "Maldives",
+      "Fiji",
+      "Australia",
+      "Philippines",
+      "Japan"
+    ],
     "habitat": "Shallow reef environments and rubble zones in tropical and subtropical marine waters",
     "biotope": "Marine reef",
-    "depthRangeM": { "min": 0, "max": 30 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 30
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 27 },
-    "pH": { "min": 8.0, "max": 8.5 },
+    "temperatureC": {
+      "min": 24,
+      "max": 27
+    },
+    "pH": {
+      "min": 8,
+      "max": 8.5
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.023, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.023,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 1, "max": 3 },
+  "adultSizeCm": {
+    "min": 1,
+    "max": 3
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 40,
     "minLengthCm": null,
     "swimZone": null,
-    "decorPreferences": ["live rock attachment", "rubble substrate", "plug mount"],
+    "decorPreferences": [
+      "live rock attachment",
+      "rubble substrate",
+      "plug mount"
+    ],
     "minSandDepthCm": null
   },
   "careLevel": "intermediate",
@@ -41,8 +78,18 @@
     "temperament": "peaceful",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["reef fish", "snails", "hermit crabs", "shrimp", "corals"],
-    "avoidWith": ["herbivorous fish (tangs, rabbitfish)", "sea urchins", "sea hares"]
+    "goodWith": [
+      "reef fish",
+      "snails",
+      "hermit crabs",
+      "shrimp",
+      "corals"
+    ],
+    "avoidWith": [
+      "herbivorous fish (tangs, rabbitfish)",
+      "sea urchins",
+      "sea hares"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -59,7 +106,7 @@
     ]
   },
   "summary": "A tiny Caribbean red alga with distinctive fluid-filled bubble clusters resembling a bunch of grapes; bladders tend to display fluorescent-orange spots under actinic lighting, making it a striking display specimen.",
-  "careNotes": "Botryocladia skottsbergii is offered by Mosaic Macros as a display specimen on a plug, generally suited to nano and small reef tanks given its maximum size of about 1–3 cm. Standard reef parameters are generally advised: salinity around SG 1.023–1.025, temperature 24–27°C, and pH 8.0–8.5. Medium lighting tends to suit this genus well, though it has been observed in lower-light conditions in the wild. Growth is considered slow compared to other Botryocladia species, making it well-suited for display without aggressive pruning. The fluid-filled bladders will burst and release spores if mechanically damaged — handle with care and avoid placing with aggressive grazers. Hobbyist reports indicate that some Botryocladia species can become persistent in tanks if bubbles rupture repeatedly, so it is generally recommended to keep the specimen contained and remove dislodged fragments promptly. Nutrient export capacity is considered low given the small size and slow growth. No documented allelopathy. Mosaic Macros is the primary hobby source for this species; it is not commonly carried by AlgaeBarn or Top Shelf Aquatics. Some older hobbyist references label this species as 'not suitable for home aquaria' due to its invasive potential in unmanaged systems — this concern applies to unintentional infestations, not intentional display culture on a plug in a well-managed reef.",
+  "careNotes": "Botryocladia skottsbergii is offered by Mosaic Macros as a display specimen on a plug, generally suited to nano and small reef tanks given its maximum size of about 1–3 cm. Standard reef parameters are generally advised: salinity around SG 1.023–1.025, temperature 24–27°C, and pH 8.0–8.5. Medium lighting tends to suit this genus well, though it has been observed in lower-light conditions in the wild. Growth is considered slow compared to other Botryocladia species, making it well-suited for display without aggressive pruning. The fluid-filled bladders will burst and release spores if mechanically damaged — handle with care and avoid placing with aggressive grazers. Hobbyist reports indicate that some Botryocladia species can become persistent in tanks if bubbles rupture repeatedly, so it is generally recommended to keep the specimen contained and remove dislodged fragments promptly. Nutrient export capacity is considered low given the small size and slow growth. No documented allelopathy. Mosaic Macros is the primary hobby source for this species; it is not commonly carried by AlgaeBarn or Top Shelf Aquatics. Some older hobbyist references label this species as 'not suitable for home aquaria' due to its invasive potential in unmanaged systems — this concern applies to unintentional infestations, not intentional display culture on a plug in a well-managed reef. Per Mosaic care guide guidance: as a red or brown alga, this species will MELT at the base if buried in sand — attach to rock via superglue, zip-tie/fishing line, or wedging instead. (Sand-bed acceptance per Mosaic is limited to Caulerpa, Halimeda, Penicillus, Rhipocephalus, and Udotea genera, plus some calcified Dasycladales.)",
   "breedingNotes": "Propagates in the wild via spore release when bladders rupture. In the aquarium, fragmentation of healthy thallus tissue is the documented method for propagation. Spore release upon bladder rupture can lead to secondary growth if conditions are favorable.",
   "sources": {
     "primary": {
@@ -86,6 +133,12 @@
         "url": "https://reeflings.com/species/botryocladia-botryoides",
         "accessedDate": "2026-06-08",
         "notes": "Genus-level husbandry cross-reference for Botryocladia. Confirms temperature 24–28°C, SG 1.023–1.025, pH 8.0–8.5, medium lighting (50–150 PAR), fragmentation propagation, and reef-safe compatibility. B. botryoides grows faster; B. skottsbergii is smaller and slower per Mosaic."
+      },
+      {
+        "name": "Mosaic Macros general macroalgae care guide",
+        "url": "https://mosaicmacros.com/blogs/macroalgae-care-sheets-compatibility/macroalgae-care-the-basics-of-keeping-macroalgae-in-your-reef",
+        "accessedDate": "2026-06-08",
+        "notes": "Slice-wide secondary source — provides authoritative Mosaic-wide parameter targets (temp 22-26°C, pH 8.1-8.4, Ca 400-450 ppm, Mg 1250-1350 ppm, NO3 5-20 ppm, PO4 0.02-0.1 ppm) and the 4-method propagation standard. Added retroactively 2026-06-08."
       }
     ]
   },
@@ -102,7 +155,11 @@
     "form": "macroalgae",
     "placement": "display",
     "nutrientUptake": "low",
-    "propagation": ["fragmentation"]
+    "propagation": [
+      "fragmentation",
+      "wedging",
+      "zip-tie/fishing line"
+    ]
   },
   "schemaVersion": 1,
   "dataStatus": "researched",

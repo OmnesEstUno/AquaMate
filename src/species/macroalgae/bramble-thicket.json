@@ -8,72 +8,95 @@
   "scientificName": "Galaxaura sp.",
   "alsoKnownAs": [],
   "category": "Macroalgae",
-
   "taxonomy": {
     "family": "Galaxauraceae",
     "order": "Nemaliales"
   },
-
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Caribbean", "Tropical Atlantic"],
+    "regions": [
+      "Indo-Pacific",
+      "Caribbean",
+      "Tropical Atlantic"
+    ],
     "countries": [],
     "habitat": "Rocky and rubble substrate in shallow to subtidal reef zones; photic zone",
     "biotope": "Marine reef",
-    "depthRangeM": { "min": 0, "max": 30 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 30
+    }
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 24.0, "max": 27.0 },
-    "pH":           { "min": 8.1, "max": 8.4 },
-    "gH":           null,
-    "kH":           { "min": 8, "max": 12 },
-    "salinity":     { "min": 1.023, "max": 1.026 }
+    "temperatureC": {
+      "min": 24,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.023,
+      "max": 1.026
+    }
   },
-
-  "adultSizeCm":   { "min": 2, "max": 8 },
+  "adultSizeCm": {
+    "min": 2,
+    "max": 8
+  },
   "lifespanYears": null,
-
   "tank": {
     "minVolumeLiters": 40,
-    "minLengthCm":     null,
-    "swimZone":        null,
-    "decorPreferences": ["live rock", "rubble substrate", "stable medium flow", "open placement for light access"],
-    "minSandDepthCm":  null
+    "minLengthCm": null,
+    "swimZone": null,
+    "decorPreferences": [
+      "live rock",
+      "rubble substrate",
+      "stable medium flow",
+      "open placement for light access"
+    ],
+    "minSandDepthCm": null
   },
-
   "careLevel": "advanced",
-
   "diet": null,
-
   "compatibility": {
-    "temperament":  "peaceful",
-    "grouping":     "solitary",
+    "temperament": "peaceful",
+    "grouping": "solitary",
     "minGroupSize": null,
-    "goodWith":     ["reef fish", "corals", "non-herbivorous invertebrates"],
-    "avoidWith":    ["tangs", "rabbitfish", "sea urchins", "herbivorous fish"]
+    "goodWith": [
+      "reef fish",
+      "corals",
+      "non-herbivorous invertebrates"
+    ],
+    "avoidWith": [
+      "tangs",
+      "rabbitfish",
+      "sea urchins",
+      "herbivorous fish"
+    ]
   },
-
   "media": {
     "primaryImage": null,
-    "gallery":      [],
+    "gallery": [],
     "imageCandidates": [
       {
-        "url":         "https://mosaicmacros.com/cdn/shop/files/IMG-6319.jpg",
-        "source":      "Mosaic Macros",
-        "sourceType":  "research-site",
-        "license":     "All rights reserved",
-        "notes":       "Primary product photo from Mosaic Macros listing — sole hobby source for this species",
+        "url": "https://mosaicmacros.com/cdn/shop/files/IMG-6319.jpg",
+        "source": "Mosaic Macros",
+        "sourceType": "research-site",
+        "license": "All rights reserved",
+        "notes": "Primary product photo from Mosaic Macros listing — sole hobby source for this species",
         "recommended": true
       }
     ]
   },
-
   "summary": "Rare calcareous red macroalgae (Galaxauraceae) with a branching, fuzzy thallus reaching only a few centimetres; available almost exclusively through specialty retailers like Mosaic Macros. Demands stable calcium and alkalinity and is generally considered advanced-care.",
-
-  "careNotes": "Bramble Thicket is a calcareous red macroalgae in the genus Galaxaura (family Galaxauraceae, order Nemaliales), distinguished by fine filaments along its reddish-pink branching thallus that give it a fuzzy or bristly appearance reminiscent of brambles. It reportedly maxes out at only a couple of inches (roughly 5–8 cm), making it compact compared to many display macroalgae. As a calcified red alga, it deposits calcium carbonate into its thallus and is therefore likely to benefit from — and respond to — stable calcium (400–450 ppm) and magnesium (1250–1350 ppm) levels consistent with a well-maintained reef system; this is extrapolated from family-level husbandry of other calcareous macroalgae (Haliptilon, Jania, Corallina) since species-specific data are not available. Standard reef water parameters (SG 1.023–1.026, temp 24–27°C, pH 8.1–8.4, kH 8–12 dKH) are advised. Medium light intensity is generally recommended for calcareous reds; intense lighting has been reported to bleach calcified macroalgae in some systems. Growth rate is generally slow, consistent with the metabolic costs of skeletal calcification. Propagation in the aquarium is typically by fragmentation of the branching thallus. This species is noted as 'not commonly available in the hobby' by Mosaic Macros, where it is sold as a specialty display specimen on a plug or as a larger cutting. Mosaic Macros is currently the sole documented hobby source; no AlgaeBarn or Top Shelf Aquatics listing exists. Care data are therefore extrapolated from genus- and family-level knowledge of Galaxauraceae; individual results may vary. Sibling species Galaxaura rugosa ('Tubular Thicket') shares similar calcified morphology and reef husbandry requirements.",
-
+  "careNotes": "Bramble Thicket is a calcareous red macroalgae in the genus Galaxaura (family Galaxauraceae, order Nemaliales), distinguished by fine filaments along its reddish-pink branching thallus that give it a fuzzy or bristly appearance reminiscent of brambles. It reportedly maxes out at only a couple of inches (roughly 5–8 cm), making it compact compared to many display macroalgae. As a calcified red alga, it deposits calcium carbonate into its thallus and is therefore likely to benefit from — and respond to — stable calcium (400–450 ppm) and magnesium (1250–1350 ppm) levels consistent with a well-maintained reef system; this is extrapolated from family-level husbandry of other calcareous macroalgae (Haliptilon, Jania, Corallina) since species-specific data are not available. Standard reef water parameters (SG 1.023–1.026, temp 24–27°C, pH 8.1–8.4, kH 8–12 dKH) are advised. Medium light intensity is generally recommended for calcareous reds; intense lighting has been reported to bleach calcified macroalgae in some systems. Growth rate is generally slow, consistent with the metabolic costs of skeletal calcification. Propagation in the aquarium is typically by fragmentation of the branching thallus. This species is noted as 'not commonly available in the hobby' by Mosaic Macros, where it is sold as a specialty display specimen on a plug or as a larger cutting. Mosaic Macros is currently the sole documented hobby source; no AlgaeBarn or Top Shelf Aquatics listing exists. Care data are therefore extrapolated from genus- and family-level knowledge of Galaxauraceae; individual results may vary. Sibling species Galaxaura rugosa ('Tubular Thicket') shares similar calcified morphology and reef husbandry requirements. Per Mosaic care guide guidance: as a red or brown alga, this species will MELT at the base if buried in sand — attach to rock via superglue, zip-tie/fishing line, or wedging instead. (Sand-bed acceptance per Mosaic is limited to Caulerpa, Halimeda, Penicillus, Rhipocephalus, and Udotea genera, plus some calcified Dasycladales.)",
   "breedingNotes": null,
-
   "sources": {
     "primary": {
       "name": "Mosaic Macros",
@@ -87,26 +110,34 @@
         "url": "https://en.wikipedia.org/wiki/Galaxaura",
         "accessedDate": "2026-06-08",
         "notes": "Confirmed family Galaxauraceae, order Nemaliales, class Florideophyceae (Rhodophyta). Cosmopolitan marine distribution. Used for taxonomy and distribution only — no aquarium husbandry data."
+      },
+      {
+        "name": "Mosaic Macros general macroalgae care guide",
+        "url": "https://mosaicmacros.com/blogs/macroalgae-care-sheets-compatibility/macroalgae-care-the-basics-of-keeping-macroalgae-in-your-reef",
+        "accessedDate": "2026-06-08",
+        "notes": "Slice-wide secondary source — provides authoritative Mosaic-wide parameter targets (temp 22-26°C, pH 8.1-8.4, Ca 400-450 ppm, Mg 1250-1350 ppm, NO3 5-20 ppm, PO4 0.02-0.1 ppm) and the 4-method propagation standard. Added retroactively 2026-06-08."
       }
     ]
   },
-
-  "fish":        null,
-  "crustacean":  null,
-  "coral":       null,
-  "mollusc":     null,
-  "echinoderm":  null,
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
   "other-invert": null,
-  "plant":       null,
+  "plant": null,
   "macroalgae": {
-    "lighting":       "medium",
-    "growthRate":     "slow",
-    "form":           "calcareous",
-    "placement":      "display",
+    "lighting": "medium",
+    "growthRate": "slow",
+    "form": "calcareous",
+    "placement": "display",
     "nutrientUptake": "low",
-    "propagation":    ["fragmentation"]
+    "propagation": [
+      "fragmentation",
+      "wedging",
+      "zip-tie/fishing line"
+    ]
   },
-
   "schemaVersion": 1,
   "dataStatus": "researched",
   "lastReviewed": "2026-06-08"
