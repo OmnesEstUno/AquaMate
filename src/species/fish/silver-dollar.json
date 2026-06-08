@@ -1,0 +1,167 @@
+{
+  "id": "fw-fish-225",
+  "slug": "silver-dollar",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "freshwater",
+  "commonName": "Silver Dollar",
+  "scientificName": "Metynnis argenteus",
+  "alsoKnownAs": [
+    "Silver Dollar Fish",
+    "Common Silver Dollar"
+  ],
+  "category": "Characin",
+  "taxonomy": {
+    "family": "Serrasalmidae",
+    "order": "Characiformes"
+  },
+  "nativeRange": {
+    "regions": ["South America"],
+    "countries": ["Brazil", "Guyana", "Paraguay", "Venezuela"],
+    "habitat": "Slow-moving, soft, acidic blackwater rivers and flooded forest margins; heavily vegetated areas with submerged and emergent plant growth",
+    "biotope": "Blackwater",
+    "depthRangeM": { "min": 0, "max": 5 }
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 24, "max": 28 },
+    "pH": { "min": 5.5, "max": 7.5 },
+    "gH": { "min": 2, "max": 15 },
+    "kH": { "min": 1, "max": 8 },
+    "salinity": null
+  },
+  "adultSizeCm": { "min": 12.0, "max": 15.0 },
+  "lifespanYears": { "min": 8, "max": 12 },
+  "tank": {
+    "minVolumeLiters": 300,
+    "minLengthCm": 150,
+    "swimZone": "mid",
+    "decorPreferences": [
+      "driftwood and roots for cover and visual breaks",
+      "large smooth rocks",
+      "dim lighting with floating plants (e.g., water lettuce, Amazon frogbit) to reduce skittishness",
+      "artificial plants or robust species such as Java fern, Anubias, or Bolbitis — live plants will be eaten",
+      "open mid-water swimming space for shoaling"
+    ],
+    "minSandDepthCm": null
+  },
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "herbivore",
+    "notes": "Dedicated herbivore that consumes plant matter ravenously — will rapidly destroy a planted aquarium. Primary diet: spirulina flakes, algae wafers, blanched vegetables (zucchini, cucumber, romaine lettuce, peas, spinach), vegetable-based pellets. Also accepts fruit (melon, banana pieces) and aquatic plants. Supplement with occasional treats such as freeze-dried spirulina or high-quality colour-enhancing flakes. Will nibble at most soft-leaved plants in the tank; only very tough-leaved plants (Java fern, Anubias, large Amazon swords briefly) may survive."
+  },
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "shoaling",
+    "minGroupSize": 6,
+    "goodWith": [
+      "large peaceful characins (e.g., Congo tetras, larger tetra species)",
+      "medium-to-large peaceful cichlids (e.g., oscars, severums, geophagus) provided the cichlids are not overly aggressive",
+      "large peaceful barbs (e.g., tinfoil barbs, spanner barbs)",
+      "large plecos and catfish (e.g., common pleco, royal pleco)",
+      "large gouramis"
+    ],
+    "avoidWith": [
+      "live aquatic plants — will be consumed",
+      "very small fish (tetras, rasboras, nano species) — risk of being intimidated or accidentally outcompeted at feeding",
+      "piranhas and other aggressive Serrasalmidae",
+      "overly boisterous or aggressive tankmates that may cause skittish bolting and injury",
+      "fin-nipping species"
+    ]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": [
+      {
+        "url": "https://www.fishbase.se/photos/PicturesSummary.php?StartRow=0&ID=4163&what=species",
+        "source": "FishBase",
+        "sourceType": "fishbase",
+        "license": "All rights reserved",
+        "notes": "FishBase species photo page for Metynnis argenteus (ID 4163). Multiple contributor images available; verify individual image licenses before use.",
+        "recommended": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Metynnis_argenteus",
+        "source": "Wikimedia Commons",
+        "sourceType": "wikimedia",
+        "license": "CC BY-SA 3.0",
+        "notes": "Wikimedia Commons category for Metynnis argenteus. Check specific file license on the detail page.",
+        "recommended": false
+      }
+    ]
+  },
+  "summary": "The Silver Dollar is a large, disc-shaped characin from South American blackwater rivers. Peaceful and shoaling, it belongs to the piranha family but is a dedicated herbivore that will devastate a planted aquarium. Kept in groups of 6+ in tanks of 300 L or more.",
+  "careNotes": "Silver Dollars (Metynnis argenteus) are large, laterally compressed characins whose bright, mirror-like flanks give them their common name. Despite membership in the family Serrasalmidae — the piranha family — they are entirely peaceful herbivores. Their plant-eating habit is the single most important care consideration: Silver Dollars will consume virtually all soft-leaved aquatic plants within days. Only very tough-leaved species such as Java fern (Microsorum pteropus), Anubias, or Bolbitis have a reasonable chance of surviving, and even these may be nibbled. Artificial plants or a bare/driftwood-only hardscape is strongly recommended. Keep in shoals of at least 6 individuals; smaller groups produce noticeably skittish behaviour, with fish prone to panicked bolting that can result in impact injuries or escape attempts. A tight-fitting lid is essential — Silver Dollars are strong jumpers. Dim lighting, floating plant cover, and plenty of visual structure (driftwood, rocks) help reduce stress. Water should be warm (24–28°C), soft to moderately hard (gH 2–15), and slightly acidic to neutral (pH 5.5–7.5), matching their Amazonian blackwater origins. Regular water changes of 25–30% weekly are important given the large bioload of a 6+ fish group. Often confused with the Spotted Silver Dollar (Metynnis lippincottianus), which has small dark spots across the flanks, and the Red-Hook Silver Dollar (Myloplus rubripinnis, formerly Myleus rubripinnis), which has a distinctive red anal fin. Confirm genus and species before purchase if a specific species is desired. Note: no eatsPlants boolean field exists in the schema; plant destruction is addressed in diet.notes and here in careNotes.",
+  "breedingNotes": "Egg-scatterers that breed in the mid-water column or over plants. A large, species-specific breeding tank (400 L+) with dim lighting, soft acidic water (pH 6.0–6.5, gH 2–4, temperature 27–28°C), and fine-leaved plants or spawning mops is recommended. A well-conditioned pair or group will spawn seasonally, scattering up to 2,000 adhesive eggs among plants. Eggs hatch in approximately 3 days and fry become free-swimming after a further 4–5 days. Remove adults after spawning as eggs and fry may be eaten. First foods: infusoria, micro-worms, then finely powdered spirulina flake and baby brine shrimp as fry grow. Breeding in captivity is possible but not commonly attempted in home aquaria due to the tank size required.",
+  "sources": {
+    "primary": {
+      "name": "SeriouslyFish — Metynnis argenteus",
+      "url": "https://www.seriouslyfish.com/species/metynnis-argenteus/",
+      "accessedDate": "2026-06-08",
+      "notes": "Primary source. Provided adult size, water parameters (pH 5.5–7.5, temperature 24–28°C, hardness 36–179 ppm/2–10 dH), native range (Tapajós and Paraguay river basins, northern South America), diet (herbivore), shoaling requirement (6+), breeding notes, and tankmate guidance."
+    },
+    "additional": [
+      {
+        "name": "FishBase — Metynnis argenteus",
+        "url": "https://www.fishbase.se/summary/Metynnis-argenteus.html",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked adult size (to 14 cm TL per FishBase, extended to 15 cm per broader literature and hobbyist reports), taxonomy (Serrasalmidae, Characiformes), native range (Tapajós, upper Paraguay basins; Brazil, Bolivia, Argentina), and diet (herbivore, primarily plant material). FishBase lists max TL ~14 cm; 15 cm used as practical aquarium maximum consistent with SeriouslyFish and hobby sources."
+      },
+      {
+        "name": "Aquarium Co-Op — Silver Dollar Fish Care",
+        "url": "https://www.aquariumcoop.com/blogs/aquarium/silver-dollar-fish",
+        "accessedDate": "2026-06-08",
+        "notes": "Confirmed herbivore diet, plant-destruction warning, shoaling (6+) requirement, tank size recommendation (75–100 gal / ~285–380 L), escape risk, and peaceful temperament. Also noted common confusion with M. lippincottianus (spotted) and Myloplus rubripinnis (red hook)."
+      },
+      {
+        "name": "Practical Fishkeeping — Silver Dollar",
+        "url": "https://www.practicalfishkeeping.co.uk/features/fish-of-the-month-silver-dollar/",
+        "accessedDate": "2026-06-08",
+        "notes": "Confirmed Serrasalmidae family, peaceful herbivore status, 15 cm adult size, blackwater habitat preference, minimum group of 5–6, 300 L+ tank requirement, and jump risk (tight lid essential). Also confirmed species confusion with M. lippincottianus."
+      },
+      {
+        "name": "TFH Magazine — Silver Dollar Species Profile",
+        "url": "https://www.tfhmagazine.com/articles/freshwater/silver-dollars",
+        "accessedDate": "2026-06-08",
+        "notes": "Additional confirmation of diet (strict herbivore, plant tank incompatible), water parameters (pH 6.0–7.5, temperature 24–28°C), shoaling requirement, and breeding overview (egg scatterer, 2000 eggs, ~3-day hatch). Lifespan noted as up to 10 years in good conditions."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "moderate",
+    "breedingNotes": "Egg-scatterers requiring a dedicated large breeding tank with soft, acidic water. Spawning is triggered by seasonal conditioning and slight temperature rise. Up to 2,000 eggs; hatch in ~3 days. Remove adults post-spawn. Fry start on infusoria, then micro-worms and baby brine shrimp.",
+    "conspecificAggression": "none",
+    "finNippy": false,
+    "reefSafe": null,
+    "escapeRisk": "high",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "hobbyistAdvisory": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": null
+}
