@@ -1,0 +1,127 @@
+{
+  "id": "sw-algae-004",
+  "slug": "caulerpa-prolifera",
+  "kind": "flora",
+  "taxon": "macroalgae",
+  "waterType": "saltwater",
+  "commonName": "Caulerpa prolifera",
+  "scientificName": "Caulerpa prolifera",
+  "alsoKnownAs": ["Seagrass Caulerpa", "Fern Caulerpa", "Leafy Caulerpa"],
+  "category": "Macroalgae",
+
+  "taxonomy": {
+    "family": "Caulerpaceae",
+    "order": "Bryopsidales"
+  },
+
+  "nativeRange": {
+    "regions": ["Atlantic", "Caribbean", "Mediterranean"],
+    "countries": ["United States (eastern seaboard)", "Mexico", "Brazil", "Spain", "Italy", "Greece", "Mediterranean basin"],
+    "habitat": "Shallow sandy areas, seagrass beds, and rocky substrates in sheltered coastal waters",
+    "biotope": "Marine benthic; anchors via rhizoids into sand or rubble; tolerates low-light and turbid conditions typical of seagrass meadows",
+    "depthRangeM": { "min": 0, "max": 30 }
+  },
+
+  "waterParameters": {
+    "temperatureC": { "min": 22.2, "max": 25.6 },
+    "pH":           { "min": 8.1, "max": 8.4 },
+    "gH":           null,
+    "kH":           { "min": 8, "max": 12 },
+    "salinity":     { "min": 1.023, "max": 1.025 }
+  },
+
+  "adultSizeCm": { "min": 10, "max": 30 },
+  "lifespanYears": null,
+
+  "tank": {
+    "minVolumeLiters": 40,
+    "minLengthCm": null,
+    "swimZone": null,
+    "decorPreferences": ["sandbed", "rubble substrate", "rockwork for holdfast anchoring"],
+    "minSandDepthCm": null
+  },
+
+  "careLevel": "beginner",
+
+  "diet": null,
+
+  "compatibility": {
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["reef fish", "most corals (with distance)", "invertebrates", "seahorses"],
+    "avoidWith": ["sensitive SPS corals (direct contact)", "tanks with no light schedule control"]
+  },
+
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": [
+      {
+        "url": "https://www.algaebarn.com/wp-content/uploads/2023/02/Caulerpa_Prolifera_-_11.10.2022.jpg",
+        "source": "AlgaeBarn",
+        "sourceType": "research-site",
+        "license": "All rights reserved",
+        "notes": "Primary product image from AlgaeBarn listing. Clean, well-lit specimen shot.",
+        "recommended": true
+      },
+      {
+        "url": "https://mosaicmacros.com/cdn/shop/files/IMG-9499.jpg",
+        "source": "Mosaic Macros",
+        "sourceType": "research-site",
+        "license": "All rights reserved",
+        "notes": "Mosaic Macros product image. Secondary candidate.",
+        "recommended": false
+      }
+    ]
+  },
+
+  "summary": "A blade-form green macroalgae native to Atlantic and Mediterranean waters, widely used in refugiums for nitrate and phosphate export. Fast-growing and beginner-friendly, but allelopathic — best kept at distance from sensitive corals.",
+
+  "careNotes": "Caulerpa prolifera is a siphonous green macroalgae with long, flat, strap-like fronds (resembling seagrass) growing from a creeping stolon that anchors into sand or rubble via rhizoids. It is popular both as a refugium nutrient-export species and as a display tank specimen.\n\nALLELOPATHY: This species is documented to release secondary metabolites including caulerpin and caulerpenyne into the water column. These compounds have been shown in research literature to inhibit growth of or stress nearby corals and other algae. Placement near sensitive SPS corals is generally not advised; physical separation or activated carbon use in the system is commonly recommended by experienced keepers.\n\nGOING SEXUAL / REPRODUCTIVE CRASH: Under stress conditions — particularly sharp drops in nutrients, disrupted photoperiod, or rapid temperature changes — Caulerpa species including C. prolifera can undergo holocarpy, a reproductive event in which the entire organism converts its cytoplasm to gametes and effectively dies. This process can release large quantities of organic matter and gametes into the water column, causing a severe acute water-quality event (ammonia spike, oxygen depletion) capable of crashing a reef tank. Mitigations include: running refugium lighting on a 24-hour cycle (no photoperiod) to suppress reproductive triggering; harvesting regularly to prevent overgrowth and keep the colony in active growth phase; maintaining stable nutrient levels (avoid running nutrients to zero); and immediately removing any specimen showing reproductive structures (white/translucent fronds, turbid release).\n\nINVASIVE CONCERN: Caulerpa prolifera and close relatives (notably C. taxifolia and C. racemosa) have become serious marine invasive species in the Mediterranean. Captive specimens must NEVER be released into natural waterways. Sale is prohibited in some US states (California, Hawaii) due to invasive risk.\n\nGENERAL CARE: Grows rapidly under medium-to-high reef lighting (5,000K or higher, 8+ hours photoperiod or 24-hour for refugium). Tolerates moderate water flow; gentle tumbling works well in a refugium chamber. Supplementing with iron, magnesium, and trace elements is generally considered beneficial but not strictly required in a healthy reef system. AlgaeBarn notes the species does not tolerate sharp nutrient crashes; consistent, moderate nutrient levels support stable vegetative growth.\n\nUPON ARRIVAL: Fronds may appear white/translucent after shipping due to chloroplast displacement in darkness. This is normal and typically reverses within hours of light exposure.",
+
+  "breedingNotes": "Propagates readily via fragmentation — pieces as small as a few millimetres have been reported to grow into new plants. Also spreads by vegetative tip growth along the stolon. Sexual reproduction (holocarpy) occurs rarely under stress and is destructive to the colony; aquarists should take active steps to prevent triggering it (see careNotes).",
+
+  "sources": {
+    "primary": {
+      "name": "AlgaeBarn",
+      "url": "https://www.algaebarn.com/shop/macroalgae/caulerpa-prolifera/",
+      "accessedDate": "2026-06-08",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "Mosaic Macros",
+        "url": "https://mosaicmacros.com/products/seagrass-caulerpa-caulerpa-prolifera",
+        "accessedDate": "2026-06-08",
+        "notes": "Secondary trade source. Product page has minimal care data; confirms growth form (seagrass-like blades), refugium/display suitability, prolific growth, and invasive designation. Corroborates AlgaeBarn primary."
+      },
+      {
+        "name": "Wikipedia — Caulerpa prolifera",
+        "url": "https://en.wikipedia.org/wiki/Caulerpa_prolifera",
+        "accessedDate": "2026-06-08",
+        "notes": "Taxonomic cross-check: Family Caulerpaceae, Order Bryopsidales, Class Ulvophyceae confirmed. Native range (Atlantic, Mediterranean) confirmed. Holocarpy (going sexual) behavior documented, including Hurricane Wilma 2005 mass spawning event triggered by rapid temperature drop. Fragmentation reproduction confirmed."
+      }
+    ]
+  },
+
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": {
+    "lighting":       "high",
+    "growthRate":     "fast",
+    "form":           "macroalgae",
+    "placement":      "refugium",
+    "nutrientUptake": "high",
+    "propagation":    ["fragmentation", "vegetative tip growth"]
+  },
+
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
+}

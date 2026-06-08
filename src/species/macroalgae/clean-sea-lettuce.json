@@ -1,0 +1,110 @@
+{
+  "id": "sw-algae-011",
+  "slug": "clean-sea-lettuce",
+  "kind": "flora",
+  "taxon": "macroalgae",
+  "waterType": "saltwater",
+  "commonName": "Clean Sea Lettuce",
+  "scientificName": "Ulva lactuca",
+  "alsoKnownAs": ["Sea Lettuce", "Green Laver", "Lettuce Algae"],
+  "category": "Macroalgae",
+  "taxonomy": {
+    "family": "Ulvaceae",
+    "order": "Ulvales"
+  },
+  "nativeRange": {
+    "regions": [
+      "Cosmopolitan — Atlantic", "Indo-Pacific", "Mediterranean",
+      "Caribbean", "Pacific", "Indian Ocean"
+    ],
+    "countries": [],
+    "habitat": "Intertidal and shallow subtidal rocky shores; thrives in nutrient-rich coastal and estuarine waters",
+    "biotope": "Reef",
+    "depthRangeM": { "min": 0, "max": 10 }
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 20, "max": 26 },
+    "pH": { "min": 7.9, "max": 8.4 },
+    "gH": null,
+    "kH": null,
+    "salinity": { "min": 1.021, "max": 1.026 }
+  },
+  "adultSizeCm": { "min": 5, "max": 30 },
+  "lifespanYears": null,
+  "tank": {
+    "minVolumeLiters": 40,
+    "minLengthCm": null,
+    "swimZone": null,
+    "decorPreferences": ["refugium with tumbling flow", "live rock attachment point", "display tank with herbivores"],
+    "minSandDepthCm": null
+  },
+  "careLevel": "beginner",
+  "diet": null,
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "solitary",
+    "minGroupSize": null,
+    "goodWith": ["tangs", "rabbitfish", "herbivorous fish", "emerald crabs", "copepods", "amphipods"],
+    "avoidWith": []
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A cosmopolitan green sheet macroalgae widely considered one of the best refugium nutrient-export species and a top natural food source for tangs and herbivores. Fast-growing and beginner-friendly.",
+  "careNotes": "Ulva lactuca is a thin, flat two-cell-thick sheet thallus that has been reported to grow up to ~30 cm across under good conditions. It is generally regarded as one of the fastest-growing macroalgae available in the hobby and can roughly double in mass within a couple of weeks when nutrient levels and lighting are adequate.\n\nIn the aquarium it tends to thrive in moderate to high light — literature suggests 250+ PAR with broad-spectrum illumination for best growth, though it has been observed surviving at lower intensities. Moderate flow is generally advised to tumble the thallus and prevent self-smothering; kreisel-style refugium chambers are often cited as ideal.\n\nUlva is widely valued as a nutrient export workhorse. It aggressively assimilates ammonia first, then nitrate and phosphate, and some sources note it can also bioabsorb trace heavy metals. Regular harvesting (removing a portion of the mass) is recommended to export nutrients and prevent density-driven dieback.\n\nAs a herbivore food it is generally considered one of the most palatable and nutritious macroalgae available in the hobby — tangs (yellow tang, powder blue tang), rabbitfish, foxface, and blennies have been documented accepting it eagerly. Because it is vitamin-rich, it has been used as a dietary supplement to support the long-term gut microbiome health of herbivorous reef fish and is commonly cited as beneficial for reducing HLLE (Head and Lateral Line Erosion) risk when included regularly in the diet of tang species.\n\nCare level is generally considered beginner — tolerant of a wide parameter range (survives from cool temperate to tropical conditions in the wild). For reef aquarium use a temperature of roughly 20–26°C, SG 1.021–1.026, and pH 8.0–8.4 is advised. Iron supplementation has been noted as potentially beneficial for sustained growth.\n\nThe species has a complex diplohaplontic life cycle alternating between diploid sporophyte and haploid gametophyte generations, though in captivity asexual propagation by fragmentation is the primary means of spread. Occasional spawning (zoospore/gamete release) can occur under certain conditions; the released cells are harmless but may cloud water briefly.\n\nSold commercially as AlgaeBarn's 'Clean Sea Lettuce' (cultured to be free of pest hitchhikers). Specimens sourced from outside this clean-culture supply should be quarantined or rinsed before introduction to prevent nuisance pest introduction.",
+  "breedingNotes": "Reproduces readily by fragmentation in the aquarium — any piece with intact thallus tissue will grow into a new plant. Also capable of sexual reproduction (release of biflagellate zoospores and isogametes) under triggering conditions, but this is rarely managed deliberately in captivity.",
+  "sources": {
+    "primary": {
+      "name": "AlgaeBarn",
+      "url": "https://www.algaebarn.com/shop/macroalgae/clean-sea-lettuce/",
+      "accessedDate": "2026-06-08",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "Reeflings",
+        "url": "https://reeflings.com/species/ulva-lactuca",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked temperature (10–28°C), salinity (SG 1.020–1.030), pH (7.5–8.4), lighting (moderate-high), and placement. Values used as basis for parameter ranges."
+      },
+      {
+        "name": "Wikipedia — Ulva lactuca",
+        "url": "https://en.wikipedia.org/wiki/Ulva_lactuca",
+        "accessedDate": "2026-06-08",
+        "notes": "Confirmed taxonomy (Ulvaceae / Ulvales), cosmopolitan distribution, thallus size up to 30 cm, two-cell-thick morphology, and diplohaplontic life cycle."
+      },
+      {
+        "name": "Pod Your Reef — Ulva lactuca benefits",
+        "url": "https://www.podyourreef.com/blogs/care/ulva-lactuca-the-many-benefits-of-reef-grown-sea-lettuce",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked lighting (250+ PAR), nutrient export mechanism (ammonia-first then NO3/PO4), herbivore food value, and propagation by cuttings/fragmentation."
+      },
+      {
+        "name": "Salty Underground — Lettuce Algae",
+        "url": "https://www.saltyunderground.com/article/lettuce-algae-ulva-lactuca",
+        "accessedDate": "2026-06-08",
+        "notes": "Additional confirmation of thallus size (up to 12 in / ~30 cm), fast growth, bright-spectrum light preference, tang/rabbitfish food value, iron supplementation benefit."
+      }
+    ]
+  },
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": {
+    "lighting": "high",
+    "growthRate": "fast",
+    "form": "macroalgae",
+    "placement": "refugium",
+    "nutrientUptake": "high",
+    "propagation": ["fragmentation", "gametophyte-sporophyte alternation"]
+  },
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
+}

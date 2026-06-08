@@ -1,0 +1,110 @@
+{
+  "id": "sw-algae-007",
+  "slug": "red-ogo",
+  "kind": "flora",
+  "taxon": "macroalgae",
+  "waterType": "saltwater",
+  "commonName": "Red Ogo",
+  "scientificName": "Gracilaria parvispora",
+  "alsoKnownAs": ["Red Ogo Gracilaria", "Ogo"],
+  "category": "Macroalgae",
+
+  "taxonomy": {
+    "family": "Gracilariaceae",
+    "order": "Gracilariales"
+  },
+
+  "nativeRange": {
+    "regions": ["Pacific Ocean", "Hawaii"],
+    "countries": ["United States (Hawaii)"],
+    "habitat": "Shallow reef flats and intertidal zones; wild populations documented in Hawaiian coastal waters",
+    "biotope": "Tropical Indo-Pacific shallow reef",
+    "depthRangeM": { "min": 0, "max": 15 }
+  },
+
+  "waterParameters": {
+    "temperatureC": { "min": 22, "max": 26 },
+    "pH":           { "min": 8.1, "max": 8.4 },
+    "gH":           null,
+    "kH":           { "min": 8, "max": 12 },
+    "salinity":     { "min": 1.023, "max": 1.025 }
+  },
+
+  "adultSizeCm": { "min": 5, "max": 20 },
+  "lifespanYears": null,
+
+  "tank": {
+    "minVolumeLiters": 40,
+    "minLengthCm": null,
+    "swimZone": null,
+    "decorPreferences": ["refugium sump", "live rock rubble", "tumbling free-floating in medium flow"],
+    "minSandDepthCm": null
+  },
+
+  "careLevel": "beginner",
+
+  "diet": null,
+
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "solitary",
+    "minGroupSize": null,
+    "goodWith": ["reef fish", "tangs", "snails", "hermit crabs", "shrimp", "most reef invertebrates"],
+    "avoidWith": ["heavily grazing herbivores that may consume the entire specimen before it can grow out"]
+  },
+
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+
+  "summary": "A fast-growing Hawaiian red macroalgae prized as both a refugium nutrient exporter and a live food supplement for tangs and other herbivorous fish. Thrives under moderate flow with medium lighting.",
+
+  "careNotes": "Gracilaria parvispora, commonly known as Red Ogo or Ogo, is a rhodophyte (red alga) native to Hawaiian coastal waters, where it has been documented growing on shallow reef flats. It is one of the most widely kept Gracilaria species in the marine hobby due to its fast growth, tolerance for typical reef parameters, and dual-use value as both a nutrient-export macroalgae and a live food source.\n\nAlgaeBarn recommends moderate medium flow — free tumbling in a refugium or loose placement in a display tank. Water temperature is generally advised in the range of 22–26°C (72–78°F). Salinity of 1.023–1.025 SG is broadly confirmed across trade sources. Alkalinity is typically kept at 8–12 dKH, consistent with standard reef parameters.\n\nGrowth form is a short, bushy, densely branched thallus with bright red to burgundy coloration. Under well-maintained reef conditions, it has been reported to grow rapidly — one keeper documented harvesting approximately two softball-sized clumps within a month while maintaining a healthy base culture. Periodic harvesting is advised to prevent overgrowth and to export the nutrients it has absorbed.\n\nRed Ogo is commonly grown in refugiums for nitrate and phosphate export, but it is also kept in display tanks for its ornamental appearance. Tangs and other herbivorous fish are known to graze it readily as a supplemental live food, making it popular in systems with high herbivore bioload.\n\nNo copper-based medications should be introduced to any system containing macroalgae. Optional supplementation with magnesium, trace elements, and iron is noted by AlgaeBarn but is generally not required in established reef systems.\n\nAlgaeBarn classifies this species as 'Moderate' difficulty in the context of overall reef-system requirements; however, in terms of raw macroalgae husbandry, it is broadly considered one of the easier species to cultivate and maintain. The 'beginner' care classification reflects its low demands relative to other macroalgae.\n\nSibling Gracilaria species in the same genus include Pom Pom (Gracilaria hayi, sw-macro-006), Thick Ogo (Gracilaria sp., sw-macro-003), Green Ogo (Gracilaria tikvahiae, sw-macro-013), Monkey Finger (Gracilaria salicornia, sw-macro-014), Red Spaghetti (Gracilaria pacifica, sw-macro-015), and Flat-Branched Striped Gracilaria (Gracilaria mammaralis, sw-macro-042).",
+
+  "breedingNotes": "In captivity, propagation is achieved through simple fragmentation: portions of the thallus that detach or are clipped will form new growth points when placed in appropriate flow and lighting. Sexual reproduction via alternation of gametophyte and sporophyte generations occurs in the wild but is not a documented propagation path in hobby aquariums.",
+
+  "sources": {
+    "primary": {
+      "name": "AlgaeBarn",
+      "url": "https://www.algaebarn.com/shop/macroalgae/red-ogo/",
+      "accessedDate": "2026-06-08",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "Top Shelf Aquatics",
+        "url": "https://topshelfaquatics.com/products/red-ogo-gracilaria-macroalgae",
+        "accessedDate": "2026-06-08",
+        "notes": "Confirms refugium tumbling placement and nutrient-export function; limited numeric parameter data. Cross-verified placement and care approach."
+      },
+      {
+        "name": "Mosaic Macros",
+        "url": "https://mosaicmacros.com/products/red-ogo-gracilaria-gracilaria-parvispora",
+        "accessedDate": "2026-06-08",
+        "notes": "Confirms scientific name Gracilaria parvispora and thin-branching growth form. Minimal husbandry data provided."
+      }
+    ]
+  },
+
+  "fish":        null,
+  "crustacean":  null,
+  "coral":       null,
+  "mollusc":     null,
+  "echinoderm":  null,
+  "other-invert": null,
+  "plant":       null,
+  "macroalgae": {
+    "lighting":       "medium",
+    "growthRate":     "fast",
+    "form":           "macroalgae",
+    "placement":      "refugium",
+    "nutrientUptake": "high",
+    "propagation":    ["fragmentation"]
+  },
+
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
+}

@@ -1,0 +1,125 @@
+{
+  "id": "sw-algae-010",
+  "slug": "clean-chaeto",
+  "kind": "flora",
+  "taxon": "macroalgae",
+  "waterType": "saltwater",
+  "commonName": "Clean Chaeto",
+  "scientificName": "Chaetomorpha linum",
+  "alsoKnownAs": ["Chaeto", "Spaghetti Algae", "Chaetomorpha Algae"],
+  "category": "Macroalgae",
+
+  "taxonomy": {
+    "family": "Cladophoraceae",
+    "order": "Cladophorales"
+  },
+
+  "nativeRange": {
+    "regions": ["Atlantic", "Pacific", "Mediterranean", "Cosmopolitan"],
+    "countries": ["United Kingdom", "Ireland", "United States", "Mediterranean coastal nations"],
+    "habitat": "Coastal marine and brackish intertidal and shallow subtidal zones; both attached (tufts on substrate) and free-floating unattached forms documented",
+    "biotope": "Shallow coastal marine, estuarine, and brackish photic zone",
+    "depthRangeM": { "min": 0, "max": 10 }
+  },
+
+  "waterParameters": {
+    "temperatureC": { "min": 22, "max": 27 },
+    "pH":           { "min": 8.1, "max": 8.4 },
+    "gH":           null,
+    "kH":           { "min": 8, "max": 12 },
+    "salinity":     { "min": 1.023, "max": 1.026 }
+  },
+
+  "adultSizeCm": { "min": 5, "max": 30 },
+  "lifespanYears": null,
+
+  "tank": {
+    "minVolumeLiters": 40,
+    "minLengthCm": null,
+    "swimZone": null,
+    "decorPreferences": ["refugium sump", "algae scrubber", "tumbling in high flow", "open water or loose on rubble"],
+    "minSandDepthCm": null
+  },
+
+  "careLevel": "beginner",
+
+  "diet": null,
+
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "solitary",
+    "minGroupSize": null,
+    "goodWith": ["reef fish", "snails", "hermit crabs", "shrimp", "copepods", "amphipods", "most reef invertebrates"],
+    "avoidWith": ["aggressive herbivorous fish such as rabbitfish or surgeonfish that may graze it heavily"]
+  },
+
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": [
+      {
+        "url": "https://www.algaebarn.com/wp-content/uploads/2017/01/Chaeto-2-600x600.png",
+        "source": "AlgaeBarn",
+        "sourceType": "research-site",
+        "license": "All rights reserved",
+        "notes": "Product photo from AlgaeBarn Clean Chaeto listing; shows dense green filamentous clump characteristic of the species.",
+        "recommended": true
+      }
+    ]
+  },
+
+  "summary": "The most widely used refugium macroalga in the reef hobby. Fast-growing, filamentous, and highly effective at nutrient export; the tangled clump structure also provides excellent habitat for copepods and amphipods.",
+
+  "careNotes": "Chaetomorpha linum is a cosmopolitan green macroalga in family Cladophoraceae, occurring naturally in marine, brackish, and occasionally freshwater coastal habitats across the Atlantic, Pacific, and Mediterranean. In the aquarium hobby it is sold under the AlgaeBarn trade name \"Clean Chaeto,\" indicating parasite- and pest-free verified aquaculture stock.\n\nThe species forms dense, intertwined clumps of wiry, unbranched filaments that resemble a green scouring pad. This tangled structure is valuable not only for nutrient uptake but also as copepod, amphipod, and isopod habitat — the interior spaces provide refuge for microfauna that seed the main display tank.\n\nChaeto is generally considered among the easiest macroalgae to keep. It tends to thrive under medium-to-high full-spectrum lighting and regular water flow; tumbling freely in a refugium sump is the most common and effective setup. Under adequate lighting, growth is reported to be fast — doubling in size within weeks is commonly documented by hobbyists. Excess chaeto is regularly harvested and discarded (or traded), which is the primary mechanism for nutrient export from the system.\n\nStandard reef water parameters are advised: salinity around SG 1.023–1.026, temperature 22–27°C, pH 8.1–8.4, and alkalinity 8–12 dKH. No supplemental CO2 or specialized fertilization is typically required; the alga obtains nutrients directly from the water column.\n\nThe species has also been noted tolerant of somewhat lower salinity (brackish conditions), consistent with its wide natural distribution in estuarine environments. There is ongoing taxonomic debate as to whether Chaetomorpha linum and Chaetomorpha aerea represent the same taxon; for aquarium purposes this distinction is not practically significant.\n\nPropagation in captivity is simple: pieces that fragment naturally or are manually separated will develop into new growth.",
+
+  "breedingNotes": "Propagation in captivity is achieved almost exclusively through fragmentation — detached filament masses readily continue growing when placed in suitable conditions. Sexual reproduction (alternation of gametophyte and sporophyte generations involving biflagellate gametes and zoospores) occurs in the wild but has not been reported as a meaningful propagation pathway in hobby aquariums.",
+
+  "sources": {
+    "primary": {
+      "name": "AlgaeBarn",
+      "url": "https://www.algaebarn.com/shop/macroalgae/clean-chaeto/",
+      "accessedDate": "2026-06-08",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "Wikipedia — Chaetomorpha linum",
+        "url": "https://en.wikipedia.org/wiki/Chaetomorpha_linum",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-confirmed taxonomy: family Cladophoraceae, order Cladophorales. Confirmed native range includes British Isles, Europe, Mediterranean, Atlantic North America, and California. Noted unbranched uniseriate filament morphology and cosmopolitan distribution. Confirmed brackish and freshwater tolerance. Documents taxonomic debate with C. aerea."
+      },
+      {
+        "name": "Wikipedia — Chaetomorpha",
+        "url": "https://en.wikipedia.org/wiki/Chaetomorpha",
+        "accessedDate": "2026-06-08",
+        "notes": "Confirmed genus is cosmopolitan marine/brackish; confirmed filamentous unbranched uniseriate morphology and fragmentation as asexual propagation vector."
+      },
+      {
+        "name": "Mosaic Macros",
+        "url": "https://mosaicmacros.com/products/chaetomorpha-macroalgae-chaetomorpha-sp",
+        "accessedDate": "2026-06-08",
+        "notes": "Independently confirms fast growth rate, beginner care level, refugium tumbling as primary use, and nutrient-absorbing capacity. Also notes brackish water compatibility."
+      }
+    ]
+  },
+
+  "fish":        null,
+  "crustacean":  null,
+  "coral":       null,
+  "mollusc":     null,
+  "echinoderm":  null,
+  "other-invert": null,
+  "plant":       null,
+  "macroalgae": {
+    "lighting":       "high",
+    "growthRate":     "fast",
+    "form":           "filamentous",
+    "placement":      "refugium",
+    "nutrientUptake": "high",
+    "propagation":    ["fragmentation"]
+  },
+
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
+}

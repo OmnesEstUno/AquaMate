@@ -1,0 +1,135 @@
+{
+  "id": "sw-algae-001",
+  "slug": "blue-hypnea",
+  "kind": "flora",
+  "taxon": "macroalgae",
+  "waterType": "saltwater",
+  "commonName": "Blue Hypnea",
+  "scientificName": "Hypnea pannosa",
+  "alsoKnownAs": ["Blue Hypnea"],
+  "category": "Macroalgae",
+
+  "taxonomy": {
+    "family": "Cystocloniaceae",
+    "order": "Gigartinales"
+  },
+
+  "nativeRange": {
+    "regions": ["Indo-Pacific", "Tropical Pacific", "Indian Ocean"],
+    "countries": ["Australia", "Micronesia", "Singapore"],
+    "habitat": "Intertidal and shallow subtidal hard-bottom zones in brightly lit, high-flow areas",
+    "biotope": "Tropical reef intertidal/shallow subtidal",
+    "depthRangeM": { "min": 0, "max": 10 }
+  },
+
+  "waterParameters": {
+    "temperatureC": { "min": 24, "max": 26 },
+    "pH":           { "min": 8.1, "max": 8.4 },
+    "gH":           null,
+    "kH":           { "min": 8, "max": 12 },
+    "salinity":     { "min": 1.023, "max": 1.026 }
+  },
+
+  "adultSizeCm": { "min": 3, "max": 10 },
+  "lifespanYears": null,
+
+  "tank": {
+    "minVolumeLiters": 40,
+    "minLengthCm": null,
+    "swimZone": null,
+    "decorPreferences": ["live rock", "rock rubble", "open water placement or loose attachment to rockwork"],
+    "minSandDepthCm": null
+  },
+
+  "careLevel": "intermediate",
+
+  "diet": null,
+
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "solitary",
+    "minGroupSize": null,
+    "goodWith": ["reef fish", "snails", "hermit crabs", "shrimp", "most reef invertebrates"],
+    "avoidWith": ["aggressive herbivorous fish that may graze it heavily"]
+  },
+
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": [
+      {
+        "url": "https://www.algaebarn.com/wp-content/uploads/2018/09/IMG_1110-2-rotated-600x600.jpg",
+        "source": "AlgaeBarn",
+        "sourceType": "research-site",
+        "license": "All rights reserved",
+        "notes": "Clear specimen shot showing vivid blue coloration under full-spectrum lighting.",
+        "recommended": true
+      },
+      {
+        "url": "https://topshelfaquatics.com/cdn/shop/files/top-shelf-aquatics-blue-hypnea-macroalgae-1160089542.jpg?width=3840",
+        "source": "Top Shelf Aquatics",
+        "sourceType": "research-site",
+        "license": "All rights reserved",
+        "notes": "Product photo from Top Shelf Aquatics listing.",
+        "recommended": false
+      },
+      {
+        "url": "https://mosaicmacros.com/cdn/shop/files/IMG-9323.jpg",
+        "source": "Mosaic Macros",
+        "sourceType": "research-site",
+        "license": "All rights reserved",
+        "notes": "Product photo from Mosaic Macros listing.",
+        "recommended": false
+      }
+    ]
+  },
+
+  "summary": "A striking red macroalga with iridescent blue coloration, prized for display tanks. Generally kept under moderate lighting to preserve the blue color; higher light may cause browning.",
+
+  "careNotes": "Hypnea pannosa is a rhodophyte (red alga) in family Cystocloniaceae, notable for its vivid iridescent blue to blue-violet coloration under full-spectrum lighting. The blue appearance results from light reflection rather than fluorescence, so it will not appear blue under actinic-only lighting. Newly arrived specimens often appear grey and tend to color up within a few days once placed under adequate full-spectrum light.\n\nAlgaeBarn recommends moderate-to-high full-spectrum lighting for best coloration and growth; however, many keepers report that excessively high PAR causes the specimen to shift toward reddish-brown. For display-tank color preservation, moderate lighting is generally advised. Top Shelf Aquatics characterizes it as a slow-growing species preferring higher flow.\n\nGrowth form is dense, spiky, and highly branched, maturing into loosely attached clumps or mats. No supplemental fertilization is typically needed, though occasional iron and iodine dosing may be beneficial. Generally considered reef-safe and compatible with most reef inhabitants, including snails, hermit crabs, shrimp, and reef fish. The branched structure may harbor hitchhiker organisms from wild-collected stock. Propagation is by simple fragmentation — pieces that detach will form new growth points when placed on rockwork.",
+
+  "breedingNotes": "In captivity, propagation is typically achieved through fragmentation: detaching a portion of the thallus and anchoring it to rockwork or rubble. Sexual reproduction (gametophyte-sporophyte alternation of generations) occurs in the wild but has not been documented as a meaningful propagation path in hobby aquariums.",
+
+  "sources": {
+    "primary": {
+      "name": "AlgaeBarn",
+      "url": "https://www.algaebarn.com/shop/macroalgae/blue-hypnea/",
+      "accessedDate": "2026-06-08",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "Top Shelf Aquatics",
+        "url": "https://topshelfaquatics.com/products/blue-hypnea-macroalgae",
+        "accessedDate": "2026-06-08",
+        "notes": "Confirms slow growth rate and preference for higher flow; limited parameter data."
+      },
+      {
+        "name": "Mosaic Macros",
+        "url": "https://mosaicmacros.com/products/blue-hypnea-hypnea-pannosa",
+        "accessedDate": "2026-06-08",
+        "notes": "Confirms scientific name Hypnea pannosa, iridescent blue coloration mechanism, and grey-on-arrival coloration note. No numeric parameters provided."
+      }
+    ]
+  },
+
+  "fish":        null,
+  "crustacean":  null,
+  "coral":       null,
+  "mollusc":     null,
+  "echinoderm":  null,
+  "other-invert": null,
+  "plant":       null,
+  "macroalgae": {
+    "lighting":       "medium",
+    "growthRate":     "medium",
+    "form":           "macroalgae",
+    "placement":      "display",
+    "nutrientUptake": "moderate",
+    "propagation":    ["fragmentation"]
+  },
+
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
+}

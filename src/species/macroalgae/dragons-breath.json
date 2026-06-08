@@ -1,0 +1,145 @@
+{
+  "id": "sw-algae-002",
+  "slug": "dragons-breath",
+  "kind": "flora",
+  "taxon": "macroalgae",
+  "waterType": "saltwater",
+  "commonName": "Dragon's Breath",
+  "scientificName": "Halymenia durvillei",
+  "alsoKnownAs": [
+    "Super Saiyan Dragon's Breath"
+  ],
+  "category": "Macroalgae",
+
+  "taxonomy": {
+    "family": "Halymeniaceae",
+    "order": "Halymeniales"
+  },
+
+  "nativeRange": {
+    "regions": ["Indo-Pacific"],
+    "countries": [],
+    "habitat": "Hard substrate areas in moderately turbulent waters; subtidal rocky reef zones",
+    "biotope": "Marine reef",
+    "depthRangeM": { "min": 1, "max": 30 }
+  },
+
+  "waterParameters": {
+    "temperatureC": { "min": 25.6, "max": 28.3 },
+    "pH":           { "min": 7.8, "max": 8.4 },
+    "gH":           null,
+    "kH":           { "min": 8, "max": 12 },
+    "salinity":     { "min": 1.023, "max": 1.025 }
+  },
+
+  "adultSizeCm":   { "min": 5, "max": 30 },
+  "lifespanYears": null,
+
+  "tank": {
+    "minVolumeLiters": 40,
+    "minLengthCm":     null,
+    "swimZone":        null,
+    "decorPreferences": ["live rock", "open water for tumbling", "moderate flow"],
+    "minSandDepthCm":  null
+  },
+
+  "careLevel": "intermediate",
+
+  "diet": null,
+
+  "compatibility": {
+    "temperament":  "peaceful",
+    "grouping":     "solitary",
+    "minGroupSize": null,
+    "goodWith":     ["reef fish", "corals", "invertebrates"],
+    "avoidWith":    ["tangs", "rabbitfish", "sea urchins", "herbivorous fish"]
+  },
+
+  "media": {
+    "primaryImage": null,
+    "gallery":      [],
+    "imageCandidates": [
+      {
+        "url":         "https://www.algaebarn.com/wp-content/uploads/2019/02/fulljar1-600x453.png",
+        "source":      "AlgaeBarn",
+        "sourceType":  "research-site",
+        "license":     "All rights reserved",
+        "notes":       "Primary product photo from AlgaeBarn listing",
+        "recommended": true
+      },
+      {
+        "url":         "https://mosaicmacros.com/cdn/shop/files/IMG-9324.jpg",
+        "source":      "Mosaic Macros",
+        "sourceType":  "research-site",
+        "license":     "All rights reserved",
+        "notes":       "Product photo from Mosaic Macros listing",
+        "recommended": false
+      },
+      {
+        "url":         "https://topshelfaquatics.com/cdn/shop/files/top-shelf-aquatics-dragon-s-breath-macroalgae-1160089545.jpg?v=1746049809&width=3840",
+        "source":      "Top Shelf Aquatics",
+        "sourceType":  "research-site",
+        "license":     "All rights reserved",
+        "notes":       "Product photo from Top Shelf Aquatics listing",
+        "recommended": false
+      },
+      {
+        "url":         "https://topshelfaquatics.com/cdn/shop/files/top-shelf-aquatics-super-saiyan-macroalgae-1204602365.jpg?v=1762983829&width=3840",
+        "source":      "Top Shelf Aquatics",
+        "sourceType":  "research-site",
+        "license":     "All rights reserved",
+        "notes":       "Top Shelf Aquatics 'Super Saiyan' variant product photo",
+        "recommended": false
+      }
+    ]
+  },
+
+  "summary": "Vivid red ornamental macroalgae prized for its flame-like branching thallus; generally kept as a display specimen rather than a nutrient-export workhorse. Color retention tends to require moderate, blue-spectrum lighting.",
+
+  "careNotes": "Dragon's Breath (Halymenia durvillei) is a popular ornamental red macroalgae known for its intensely colored, branching thallus that resembles dancing flames — the origin of its trade name. It tends to grow either free-floating or attached to rock; attached specimens have been reported to reach over 30 cm in height. In captivity it is generally considered an intermediate-care species because maintaining its vivid red-to-pink coloration requires attention to lighting: moderate blue-spectrum light is typically advised, as high-intensity lighting has been observed to cause browning. AlgaeBarn recommends temperatures of 25.6–28.3°C (78–83°F), pH 7.8–8.4, and salinity SG 1.023–1.025, with alkalinity around 8–12 dKH. Iron and iodine supplementation may support coloration in some systems. It is considered reef-safe but has been noted as a palatable food source for herbivorous fish (tangs, rabbitfish, sea urchins); it is generally advised to keep it away from dedicated herbivores. Propagation in the aquarium hobby is primarily by fragmentation. AlgaeBarn notes it is sensitive to shipping stress. Mosaic Macros describes the tips as fluorescent orange-hued, consistent with the flame appearance. AlgaeBarn depth data suggests 30–50 m in the wild; however, the species is broadly found across the Indo-Pacific photic zone (1–30 m typical for the genus), so a 1–30 m range is used here as consistent with the family. The 'Super Saiyan Dragon's Breath' trade name (Top Shelf Aquatics) refers to the same species.",
+
+  "breedingNotes": null,
+
+  "sources": {
+    "primary": {
+      "name": "AlgaeBarn",
+      "url": "https://www.algaebarn.com/shop/macroalgae/premium/dragons-breath-macroalgae/",
+      "accessedDate": "2026-06-08",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "Mosaic Macros",
+        "url": "https://mosaicmacros.com/products/dragon-s-breath-halymenia-durvillei",
+        "accessedDate": "2026-06-08",
+        "notes": "Confirmed species ID (Halymenia durvillei); minimal husbandry data — described as very sensitive to shipping, flame-like fluorescent orange tips."
+      },
+      {
+        "name": "Top Shelf Aquatics",
+        "url": "https://topshelfaquatics.com/products/dragons-breath-macroalgae",
+        "accessedDate": "2026-06-08",
+        "notes": "Confirmed species as red macroalgae for nutrient control and display; noted herbivore palatability. Minimal parameter data."
+      }
+    ]
+  },
+
+  "fish":        null,
+  "crustacean":  null,
+  "coral":       null,
+  "mollusc":     null,
+  "echinoderm":  null,
+  "other-invert": null,
+  "plant":       null,
+  "macroalgae": {
+    "lighting":       "medium",
+    "growthRate":     "medium",
+    "form":           "macroalgae",
+    "placement":      "display",
+    "nutrientUptake": "moderate",
+    "propagation":    ["fragmentation"]
+  },
+
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
+}
