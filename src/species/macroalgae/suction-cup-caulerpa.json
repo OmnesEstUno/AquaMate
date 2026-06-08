@@ -1,0 +1,113 @@
+{
+  "id": "sw-algae-097",
+  "slug": "suction-cup-caulerpa",
+  "kind": "flora",
+  "taxon": "macroalgae",
+  "waterType": "saltwater",
+  "commonName": "Suction Cup Caulerpa",
+  "scientificName": "Caulerpa racemosa var. peltata",
+  "alsoKnownAs": ["Peltata Sea Grapes"],
+  "category": "Macroalgae",
+
+  "taxonomy": {
+    "family": "Caulerpaceae",
+    "order": "Bryopsidales"
+  },
+
+  "nativeRange": {
+    "regions": ["Indo-Pacific", "Caribbean", "Atlantic"],
+    "countries": [],
+    "habitat": "Shallow tropical and subtropical seas; sandy areas, rubble zones, and reef flats in the photic zone",
+    "biotope": "Marine benthic; anchors via rhizoids into sand or rockwork",
+    "depthRangeM": { "min": 0, "max": 30 }
+  },
+
+  "waterParameters": {
+    "temperatureC": { "min": 22.0, "max": 26.0 },
+    "pH":           { "min": 8.1, "max": 8.4 },
+    "gH":           null,
+    "kH":           { "min": 8, "max": 12 },
+    "salinity":     { "min": 1.023, "max": 1.025 }
+  },
+
+  "adultSizeCm": { "min": 5, "max": 30 },
+  "lifespanYears": null,
+
+  "tank": {
+    "minVolumeLiters": 40,
+    "minLengthCm": null,
+    "swimZone": null,
+    "decorPreferences": ["sandbed or rubble substrate", "live rock for holdfast anchoring", "moderate water flow"],
+    "minSandDepthCm": null
+  },
+
+  "careLevel": "beginner",
+
+  "diet": null,
+
+  "compatibility": {
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["reef fish", "most corals (with distance)", "invertebrates"],
+    "avoidWith": ["sensitive SPS corals (direct contact)", "herbivorous fish (tangs, rabbitfish, sea urchins)", "tanks with no photoperiod control"]
+  },
+
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": [
+      {
+        "url": "https://mosaicmacros.com/cdn/shop/files/IMG-9499.jpg",
+        "source": "Mosaic Macros",
+        "sourceType": "research-site",
+        "license": "All rights reserved",
+        "notes": "Primary product image from Mosaic Macros listing for Suction Cup Caulerpa.",
+        "recommended": true
+      }
+    ]
+  },
+
+  "summary": "A display-tank variety of Sea Grapes with distinctive suction-cup-shaped fronds rather than spherical grape-like ones. Fast-growing and beginner-accessible; allelopathic and an invasive concern — banned in California.",
+
+  "careNotes": "Suction Cup Caulerpa (Caulerpa racemosa var. peltata) is a variety of the widely kept Sea Grapes (C. racemosa, sw-algae-016), distinguished by its flat, disc- or suction-cup-shaped side-shoots rather than the rounded grape-like fronds of the parent species. Growth form is otherwise characteristic of the genus: a creeping stolon anchors into substrate or rockwork via rhizoids, with upright branching axes bearing the signature frond clusters. Mosaic Macros describes the growth as prolific, and the product ships as 3–4\" or 4\"+ cuttings.\n\nMosaic Macros is currently the only documented aquarium trade source for this specific variety. Water parameters, lighting, and husbandry have been derived from the parent species (C. racemosa, sw-algae-016), the sibling variety Green Bulb Caulerpa (sw-algae-049), and the Mosaic Macros general macroalgae care guide.\n\nALLELOPATHY: As a C. racemosa variety, this algae has been documented to release secondary metabolites including caulerpenyne and caulerpin into the water column. These compounds have demonstrated inhibitory effects on corals and competing algae in research settings. Physical separation from sensitive SPS corals, use of activated carbon, and regular harvesting are generally advisable.\n\nGOING SEXUAL / REPRODUCTIVE CRASH: Like all Caulerpa species, var. peltata can undergo holocarpy — a mass reproductive event triggered by sharp nutrient crashes, disrupted photoperiod, or rapid temperature swings. This converts the organism's cytoplasm into gametes and releases organic matter into the tank, potentially causing an acute water-quality crisis. Mitigations include: running refugium lighting on a 24-hour photoperiod; regular harvesting to keep the colony in active vegetative growth; maintaining stable (non-zero) nutrient levels; and immediately removing any specimen showing reproductive structures (white or translucent fronds, turbid discharge).\n\nINVASIVE CONCERN: C. racemosa and its varieties are documented invasive species, particularly in the Mediterranean. Captive specimens must never be released into natural waterways. Mosaic Macros explicitly notes this species is banned in the state of California; similar restrictions may apply in other jurisdictions.\n\nSAND-BED PLACEMENT: Caulerpa is one of the few macroalgae genera that can be placed in a sand bed per Mosaic Macros care guidance. The stolon and rhizoids can anchor naturally into sand substrate without the base-melt risk seen in red and brown algae.\n\nGENERAL CARE: Full-spectrum LED lighting at reef intensities is generally advised. Actinic-only spectrums are not sufficient for this species. Moderate water flow (similar to a soft-coral tank) is recommended. Weekly dosing of iron, iodine, and other trace elements has been recommended by Mosaic Macros to support healthy growth. Freshly arrived cuttings may show white or translucent fronds from transport darkness — normal coloration typically returns within hours of light exposure.\n\nCROSS-REFERENCE: See sea-grapes (sw-algae-016) for the parent species C. racemosa with full source documentation; and green-bulb-caulerpa (sw-algae-049) for the sibling variety C. racemosa var. macrophysa, both of which share the allelopathy, holocarpy, and invasive caveats documented here.",
+
+  "breedingNotes": "Propagates readily via fragmentation — broken pieces have been reported to establish into new plants — and by vegetative tip growth along the stolon. Being a Caulerpa, it is also sand-bed-compatible and can be placed in substrate to anchor naturally. Sexual reproduction (holocarpy) is a stress-triggered destructive event rather than a managed propagation method; aquarists should take active steps to prevent triggering it (see careNotes).",
+
+  "sources": {
+    "primary": {
+      "name": "Mosaic Macros",
+      "url": "https://mosaicmacros.com/products/suction-cup-caulerpa-caulerpa-racemosa-var-peltata",
+      "accessedDate": "2026-06-08",
+      "notes": "Sole aquarium trade source for this variety. Confirms common name, scientific name (C. racemosa var. peltata), display placement, prolific growth, invasive designation (banned in California), and suction-cup-shaped frond morphology. Ships as 3-4\" or 4\"+ cuttings."
+    },
+    "additional": [
+      {
+        "name": "Mosaic Macros — Macroalgae Care: The Basics of Keeping Macroalgae in Your Reef",
+        "url": "https://mosaicmacros.com/blogs/macroalgae-care-sheets-compatibility/macroalgae-care-the-basics-of-keeping-macroalgae-in-your-reef",
+        "accessedDate": "2026-06-08",
+        "notes": "Secondary source. Provides canonical water parameters: temp 22-26°C, pH 8.1-8.4, Ca 400-450 ppm, Mg 1250-1350 ppm, NO3 5-20 ppm, PO4 0.02-0.1 ppm. Confirms Caulerpa is sand-bed-compatible. Documents propagation methods, lighting (full-spectrum LED), flow (soft-coral-equivalent), and weekly iron/iodine trace element dosing recommendation."
+      }
+    ]
+  },
+
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": {
+    "lighting":       "high",
+    "growthRate":     "fast",
+    "form":           "macroalgae",
+    "placement":      "display",
+    "nutrientUptake": "high",
+    "propagation":    ["fragmentation", "wedging", "zip-tie/fishing line", "sand-bed"]
+  },
+
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
+}

@@ -1,0 +1,121 @@
+{
+  "id": "sw-algae-099",
+  "slug": "thin-branching-coralline",
+  "kind": "flora",
+  "taxon": "macroalgae",
+  "waterType": "saltwater",
+  "commonName": "Thin Branching Coralline",
+  "scientificName": "Corallina sp.",
+  "alsoKnownAs": ["Orange Encrusting Coralline"],
+  "category": "Articulated Coralline Algae",
+
+  "taxonomy": {
+    "family": "Corallinaceae",
+    "order": "Corallinales"
+  },
+
+  "nativeRange": {
+    "regions": ["Indo-Pacific", "Atlantic", "Caribbean", "Mediterranean"],
+    "countries": [],
+    "habitat": "Rocky reef substrates, coral rubble, and coarse sand in the shallow photic zone; frequently epiphytic on other algae and hard substrates",
+    "biotope": "Reef",
+    "depthRangeM": { "min": 0, "max": 30 }
+  },
+
+  "waterParameters": {
+    "temperatureC": { "min": 22, "max": 26 },
+    "pH":           { "min": 8.1, "max": 8.4 },
+    "gH":           null,
+    "kH":           { "min": 8, "max": 12 },
+    "salinity":     { "min": 1.024, "max": 1.026 }
+  },
+
+  "adultSizeCm": { "min": 2, "max": 8 },
+  "lifespanYears": null,
+
+  "tank": {
+    "minVolumeLiters": 40,
+    "minLengthCm": null,
+    "swimZone": null,
+    "decorPreferences": ["live rock", "rocky substrate", "coral rubble", "solid anchor surface"],
+    "minSandDepthCm": null
+  },
+
+  "careLevel": "intermediate",
+
+  "diet": null,
+
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["reef fish", "snails", "hermit crabs", "shrimp", "SPS corals", "LPS corals"],
+    "avoidWith": ["sea urchins (may graze heavily on calcareous algae)", "aggressive herbivores"]
+  },
+
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": [
+      {
+        "url": "https://mosaicmacros.com/cdn/shop/files/IMG-5603.jpg",
+        "source": "Mosaic Macros",
+        "sourceType": "research-site",
+        "license": "All rights reserved",
+        "notes": "Primary product image from Mosaic Macros listing for Thin Branching Coralline (Corallina sp.); shows lavender-purple thin articulated branches.",
+        "recommended": true
+      },
+      {
+        "url": "https://mosaicmacros.com/cdn/shop/files/IMG-2575.jpg",
+        "source": "Mosaic Macros",
+        "sourceType": "research-site",
+        "license": "All rights reserved",
+        "notes": "Secondary product image from consolidated Mosaic listing (Orange Encrusting Coralline variant, Corallina sp.).",
+        "recommended": false
+      }
+    ]
+  },
+
+  "summary": "Corallina sp. 'Thin Branching Coralline' is a heavily calcified articulated red alga with slender lavender-purple branches resembling SPS coral growth. It requires stable reef calcium and magnesium and benefits from high full-spectrum lighting.",
+
+  "careNotes": "Thin Branching Coralline is a genus-level Corallina species in the family Corallinaceae (order Corallinales), closely related to Coral Weed (C. officinalis, sw-algae-031) but distinguished by noticeably thinner, more delicate articulated branches with a lavender-purple coloration. Mosaic Macros describes the growth form as resembling an SPS coral in its calcified branching architecture. Cuttings are typically sold at 1.5–2\" on a plug or 5\"+ frags; individual thalli generally reach 2–8 cm.\n\nAs a calcareous (geniculate) red alga, stable calcium and magnesium are essential for skeletal calcification. Mosaic's general care guide advises Ca 400–450 ppm and Mg 1,250–1,350 ppm; alkalinity around 8–12 dKH is generally advised to support carbonate availability. Mosaic also recommends keeping NO3 in the 5–20 ppm range and PO4 at 0.02–0.1 ppm — notably, coralline algae tend to benefit from some measurable nutrients, though very high phosphate has been reported to inhibit calcification.\n\nLighting should be high intensity and full-spectrum. Mosaic Macros explicitly cautions against actinic-only spectrum, as it generally cannot support demanding species. Flow should be gentle to moderate, comparable to a soft-coral tank, with some surface agitation but not enough to tear fragile branches.\n\nAs a red alga (Rhodophyta), this species must NOT be buried in sand — placing the base in substrate tends to cause melting at the attachment point. Secure fragments to live rock or coral rubble using wedging (preferred, least stressful), zip-tie/fishing line (applied loosely), or superglue gel. Over time the holdfast will naturally attach to the rock surface.\n\nWeekly dosing of an all-around micronutrient fertilizer containing iron and iodine is recommended by Mosaic Macros for all macroalgae, including this species. The dispatch manifest notes an 'Orange Encrusting Coralline' variant (Corallina sp.) consolidated into this entry — this likely represents a color or growth-form variant of the same genus; both are sold by Mosaic as Corallina sp. siblings in the articulated coralline group alongside Finefork Coralline (Jania adhaerens, sw-algae-037), Red Fern (Haliptilon sp., sw-algae-080), and Staghorn Coralline (Neogoniolithon strictum, sw-algae-093).\n\nGrowth rate is slow, making this species a manageable and attractive display specimen rather than a fast-growing refugium macro. It is generally considered reef-safe with standard invertebrates; sea urchins and aggressive herbivores have been known to graze calcareous algae heavily.",
+
+  "breedingNotes": "Propagation in captivity is primarily by fragmentation — detached thallus segments can attach to hard substrate and establish new growth. Preferred methods are wedging into rock crevices, loose zip-tie/fishing line attachment, or superglue gel to a frag plug. Sexual reproduction via gametophyte-sporophyte alternation occurs in the wild but is not commonly observed in closed aquarium systems.",
+
+  "sources": {
+    "primary": {
+      "name": "Mosaic Macros — Thin Branching Coralline",
+      "url": "https://mosaicmacros.com/products/thin-branching-coralline-corallina-sp",
+      "accessedDate": "2026-06-08",
+      "notes": "Sole specialty hobby trade source for this species. Confirmed genus (Corallina sp.), growth form (thin lavender-purple articulated branches, SPS-like calcification), and size range (1.5–2\" plug to 5\"+ cuttings). Product page lacks explicit water parameter specifications; parameters sourced from Mosaic care guide."
+    },
+    "additional": [
+      {
+        "name": "Mosaic Macros — Macroalgae Care: The Basics of Keeping Macroalgae in Your Reef",
+        "url": "https://mosaicmacros.com/blogs/macroalgae-care-sheets-compatibility/macroalgae-care-the-basics-of-keeping-macroalgae-in-your-reef",
+        "accessedDate": "2026-06-08",
+        "notes": "Slice-wide secondary source for all Mosaic-only entries. Provided canonical parameter targets: temp 22–26°C (72–78°F), pH 8.1–8.4, Ca 400–450 ppm, Mg 1,250–1,350 ppm, NO3 5–20 ppm, PO4 0.02–0.1 ppm. Also confirmed propagation methods (wedging, zip-tie/fishing line, superglue), red algae sand-bed melt warning, full-spectrum lighting preference, and weekly micronutrient dosing recommendation. Meets playbook 2-source minimum for Mosaic-only entries."
+      }
+    ]
+  },
+
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": {
+    "lighting":       "high",
+    "growthRate":     "slow",
+    "form":           "calcareous",
+    "placement":      "display",
+    "nutrientUptake": "low",
+    "propagation":    ["fragmentation", "wedging", "zip-tie/fishing line"]
+  },
+
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
+}

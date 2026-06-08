@@ -1,0 +1,110 @@
+{
+  "id": "sw-algae-101",
+  "slug": "turtle-weed",
+  "kind": "flora",
+  "taxon": "macroalgae",
+  "waterType": "saltwater",
+  "commonName": "Turtle Weed",
+  "scientificName": "Chlorodesmis fastigiata",
+  "alsoKnownAs": ["Maiden's Hair"],
+  "category": "Macroalgae",
+  "taxonomy": {
+    "family": "Udoteaceae",
+    "order": "Bryopsidales"
+  },
+  "nativeRange": {
+    "regions": ["Indo-Pacific", "Eastern Caribbean", "Australia", "South Pacific"],
+    "countries": ["Australia"],
+    "habitat": "Rocky substrates and coral reef flats in the photic zone; forms stiff, hairy tufts on hard surfaces such as live rock and coral skeleton.",
+    "biotope": "Tropical saltwater reef",
+    "depthRangeM": { "min": 3, "max": 15 }
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 22.0, "max": 27.0 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": null,
+    "salinity": { "min": 1.023, "max": 1.025 }
+  },
+  "adultSizeCm": { "min": 2.0, "max": 20.0 },
+  "lifespanYears": null,
+  "tank": {
+    "minVolumeLiters": 40,
+    "minLengthCm": null,
+    "swimZone": null,
+    "decorPreferences": ["live rock", "hard substrate", "rock rubble"],
+    "minSandDepthCm": null
+  },
+  "careLevel": "advanced",
+  "diet": null,
+  "compatibility": {
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": null,
+    "goodWith": ["reef fish", "snails", "hermit crabs", "shrimp", "copepods", "amphipods"],
+    "avoidWith": ["stony corals (nearby contact)", "herbivorous fish that may sample it"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": [
+      {
+        "url": "https://mosaicmacros.com/cdn/shop/files/IMG-6653.jpg",
+        "source": "Mosaic Macros",
+        "sourceType": "research-site",
+        "license": "All rights reserved",
+        "notes": "Turtle Weed product listing image from Mosaic Macros — hairy green tufts on plug.",
+        "recommended": true
+      }
+    ]
+  },
+  "summary": "A stiff, hairy-tufted green macroalgae (Udoteaceae) native to Indo-Pacific reefs. Produces chlorodesmin, a diterpene toxin that tends to deter herbivores but may stress adjacent corals. Generally considered specialty and advanced to keep.",
+  "careNotes": "Chlorodesmis fastigiata forms dense, turf-like tufts of stiff green filaments on live rock and hard substrate; Mosaic Macros describes them as 'elegant, hairy tufts that sway in the aquarium.' Growth rate is generally moderate under ideal conditions per AquariumDomain, though both AquariumDomain and Marine Plant Book rate the species at advanced-to-expert difficulty, citing sensitivity to elevated nitrates and any detectable dissolved copper. High-intensity, full-spectrum lighting is commonly recommended; actinic-only spectrum has been noted by Mosaic Macros to be insufficient for more difficult species. Flow should be moderate to strong — strong current facilitates waste removal and respiration. The species produces chlorodesmin, a toxic diterpene compound; this has been known to deter most herbivorous fish, but the toxin may also stress or inhibit corals placed in direct contact — maintain a gap between clumps and adjacent coral colonies. Semi-aggressive temperament rating reflects this allelopathic chemical production, not physical aggression. AquariumDomain notes the plant can grow outward onto nearby rocks, corals, and sessile invertebrates, so positioning with open sand gaps around it is advisable. Weekly dosing of iron, iodine, and other trace elements is generally advised. This is the species-level entry for Chlorodesmis fastigiata; the sibling genus-level entry sw-algae-070 (Pillow Moss / Chlorodesmis sp.) covers specimens sold without species identification. As a green macroalgae with a holdfast attachment, Turtle Weed should be attached to rock via wedging, zip-tie/fishing line, or similar method — do not bury the base in sand. Sporulation has been documented in natural populations but fragmentation is the standard captive propagation method. Rarely available in the US aquarium trade; sourced primarily through specialty vendors such as Mosaic Macros. No dissolved copper should be present in the system.",
+  "breedingNotes": "Propagation in captivity is most reliably achieved by simple fragmentation — breaking off a clump and attaching it to a new rock or hard surface via wedging or zip-tie. Sporulation has been documented in natural populations but is not commonly used in captive settings.",
+  "sources": {
+    "primary": {
+      "name": "Mosaic Macros — Turtle Weed",
+      "url": "https://mosaicmacros.com/products/turtle-weed-macroalgae-chlorodesmis-fastigiata",
+      "accessedDate": "2026-06-08",
+      "notes": "Primary trade source. Confirms species identity (Chlorodesmis fastigiata), growth form (hairy tufts), and non-invasive nature. Product page has minimal numerical parameters; supplemented by secondary sources."
+    },
+    "additional": [
+      {
+        "name": "Mosaic Macros — Macroalgae Care Guide",
+        "url": "https://mosaicmacros.com/blogs/macroalgae-care-sheets-compatibility/macroalgae-care-the-basics-of-keeping-macroalgae-in-your-reef",
+        "accessedDate": "2026-06-08",
+        "notes": "Slice-wide secondary source. Provides canonical parameters: temp 72–78°F, pH 8.1–8.4, Ca 400–450 ppm, Mg 1250–1350 ppm, NO3 5–20 ppm, PO4 0.02–0.1 ppm. Also confirms attachment methods and sand-bed guidance."
+      },
+      {
+        "name": "AquariumDomain — Turtle Weed Species Profile",
+        "url": "https://www.aquariumdomain.com/SpeciesProfiles/MarinePlants/TurtleWeed.shtml",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-reference for C. fastigiata specifically. Provided temp 72–81°F, SG 1.023–1.025, pH 8.1–8.4, high lighting, expert care level, propagation by fragmentation/sporulation, max 8 in height, chlorodesmin toxin deterrence noted."
+      },
+      {
+        "name": "Marine Plant Book — Turtle Weed",
+        "url": "https://www.marineplantbook.com/marinebookturtleweed.htm",
+        "accessedDate": "2026-06-08",
+        "notes": "Second cross-reference for genus Chlorodesmis. Confirmed high lighting, 72–80°F, advanced care level, moderate growth, 8 in max height, native range Australia/Eastern Caribbean/S. Pacific, depth ~3–15 m, good nutrient uptake, allelopathic toxin affecting coral growth."
+      }
+    ]
+  },
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": {
+    "lighting": "high",
+    "growthRate": "medium",
+    "form": "macroalgae",
+    "placement": "display",
+    "nutrientUptake": "moderate",
+    "propagation": ["fragmentation", "wedging", "zip-tie/fishing line"]
+  },
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
+}

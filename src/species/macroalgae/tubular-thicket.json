@@ -1,0 +1,113 @@
+{
+  "id": "sw-algae-100",
+  "slug": "tubular-thicket",
+  "kind": "flora",
+  "taxon": "macroalgae",
+  "waterType": "saltwater",
+  "commonName": "Tubular Thicket",
+  "scientificName": "Galaxaura rugosa",
+  "alsoKnownAs": [],
+  "category": "Macroalgae",
+
+  "taxonomy": {
+    "family": "Galaxauraceae",
+    "order": "Nemaliales"
+  },
+
+  "nativeRange": {
+    "regions": ["Caribbean", "Tropical Atlantic"],
+    "countries": [],
+    "habitat": "Shallow to subtidal reef zones on rocky and rubble substrate; photic zone",
+    "biotope": "Marine reef",
+    "depthRangeM": { "min": 0, "max": 30 }
+  },
+
+  "waterParameters": {
+    "temperatureC": { "min": 22.0, "max": 26.0 },
+    "pH":           { "min": 8.1, "max": 8.4 },
+    "gH":           null,
+    "kH":           { "min": 8, "max": 12 },
+    "salinity":     { "min": 1.023, "max": 1.026 }
+  },
+
+  "adultSizeCm":   { "min": 5, "max": 13 },
+  "lifespanYears": null,
+
+  "tank": {
+    "minVolumeLiters": 40,
+    "minLengthCm":     null,
+    "swimZone":        null,
+    "decorPreferences": ["live rock attachment", "rubble substrate", "high-light placement", "stable medium flow", "open placement for light access"],
+    "minSandDepthCm":  null
+  },
+
+  "careLevel": "advanced",
+
+  "diet": null,
+
+  "compatibility": {
+    "temperament":  "peaceful",
+    "grouping":     "solitary",
+    "minGroupSize": null,
+    "goodWith":     ["reef fish", "corals", "non-herbivorous invertebrates"],
+    "avoidWith":    ["tangs", "rabbitfish", "sea urchins", "herbivorous fish"]
+  },
+
+  "media": {
+    "primaryImage": null,
+    "gallery":      [],
+    "imageCandidates": [
+      {
+        "url":         "https://mosaicmacros.com/cdn/shop/files/IMG-0990.jpg",
+        "source":      "Mosaic Macros",
+        "sourceType":  "research-site",
+        "license":     "All rights reserved",
+        "notes":       "Primary product photo from Mosaic Macros listing — sole hobby source for this species",
+        "recommended": true
+      }
+    ]
+  },
+
+  "summary": "Rare lightly calcified red macroalgae (Galaxauraceae) with a tubular-branching reddish-pink thallus growing in a compact spherical form; available almost exclusively through specialty retailers like Mosaic Macros. Demands stable calcium, alkalinity, and high lighting; generally considered advanced-care.",
+
+  "careNotes": "Tubular Thicket is a lightly calcified red macroalgae in the genus Galaxaura (family Galaxauraceae, order Nemaliales, class Florideophyceae, division Rhodophyta). Mosaic Macros identifies it as Galaxaura rugosa and describes the thallus as reddish-pink, growing in a spherical form with a distinctly tubular branching structure. Cutting sizes range from 2–3\" on a plug to 5\"+ larger portions. As a calcified red alga, G. rugosa deposits calcium carbonate into its thallus; stable calcium (generally advised around 400–450 ppm) and magnesium (around 1250–1350 ppm) are considered beneficial for long-term health. These targets align with Mosaic Macros' general care guide guidance for all macroalgae they stock. Standard reef parameters are advised: SG 1.023–1.026, temperature 22–26°C (72–78°F), pH 8.1–8.4. High lighting tends to be beneficial for this Galaxauraceae growth form; full-spectrum LED is recommended and actinic-only spectrum has been noted to be insufficient for more demanding species. Flow should be gentle and comparable to a soft-coral tank — excessive flow has been known to damage delicate branching forms. Growth rate is generally slow, consistent with the metabolic cost of skeletal calcification. As a red alga, this species should not be buried in sand — Mosaic Macros explicitly notes that red and brown algae will melt at the base if submerged in substrate. Attachment to live rock via wedging or zip-tie/fishing line is strongly preferred; wedging is generally considered the least stressful method. Weekly dosing of iron, iodine, and other trace elements is recommended by Mosaic Macros for all macroalgae. Propagation is by fragmentation of the branching thallus. This species is periodically sold out at Mosaic Macros, which is currently the sole documented hobby source. Care data are extrapolated from genus- and family-level knowledge of Galaxauraceae and the Mosaic care guide; individual results may vary. Sibling display specimens in the same family include Galaxaura sp. ('Bramble Thicket', sw-algae-020), Galaxaura oblongata ('Pink Succulent Thicket', sw-algae-074), and Dichotomaria marginata ('Flat-Branched Pink Thicket', sw-algae-041), all sharing calcified morphology and similar reef husbandry requirements.",
+
+  "breedingNotes": null,
+
+  "sources": {
+    "primary": {
+      "name": "Mosaic Macros",
+      "url": "https://mosaicmacros.com/products/tubular-thicket-galaxaura-sp",
+      "accessedDate": "2026-06-08",
+      "notes": "Sole hobby trade source. Confirmed scientific name Galaxaura rugosa, trade name, morphology (tubular-branching, reddish-pink, spherical growth form, lightly calcified), and cutting size tiers (2–3\" plug, 5\"+). Minimal explicit husbandry parameters on product page."
+    },
+    "additional": [
+      {
+        "name": "Mosaic Macros — Macroalgae Care Guide",
+        "url": "https://mosaicmacros.com/blogs/macroalgae-care-sheets-compatibility/macroalgae-care-the-basics-of-keeping-macroalgae-in-your-reef",
+        "accessedDate": "2026-06-08",
+        "notes": "Slice-wide secondary source. Provided authoritative water parameter targets (temp 22–26°C, pH 8.1–8.4, Ca 400–450 ppm, Mg 1250–1350 ppm, NO3 5–20 ppm, PO4 0.02–0.1 ppm), lighting guidance (full-spectrum LED; no actinic-only), flow guidance, rock-attachment requirement for red algae (no sand-bed burial), propagation methods (wedging, zip-tie/fishing line, fragmentation), and micronutrient dosing recommendations."
+      }
+    ]
+  },
+
+  "fish":        null,
+  "crustacean":  null,
+  "coral":       null,
+  "mollusc":     null,
+  "echinoderm":  null,
+  "other-invert": null,
+  "plant":       null,
+  "macroalgae": {
+    "lighting":       "high",
+    "growthRate":     "slow",
+    "form":           "calcareous",
+    "placement":      "display",
+    "nutrientUptake": "low",
+    "propagation":    ["fragmentation", "wedging", "zip-tie/fishing line"]
+  },
+
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
+}

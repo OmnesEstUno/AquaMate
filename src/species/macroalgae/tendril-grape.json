@@ -1,0 +1,98 @@
+{
+  "id": "sw-algae-098",
+  "slug": "tendril-grape",
+  "kind": "flora",
+  "taxon": "macroalgae",
+  "waterType": "saltwater",
+  "commonName": "Tendril Grape",
+  "scientificName": "Botryocladia sp.",
+  "alsoKnownAs": ["Red Grape Caulerpa", "False String of Pearls"],
+  "category": "Macroalgae",
+  "taxonomy": {
+    "family": "Rhodymeniaceae",
+    "order": "Rhodymeniales"
+  },
+  "nativeRange": {
+    "regions": ["Tropical marine waters"],
+    "countries": [],
+    "habitat": "Shallow reef environments and hard substrate in tropical marine waters",
+    "biotope": "Marine reef",
+    "depthRangeM": { "min": 0, "max": 30 }
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 22, "max": 26 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": null,
+    "salinity": { "min": 1.023, "max": 1.025 }
+  },
+  "adultSizeCm": { "min": 2.5, "max": 10 },
+  "lifespanYears": null,
+  "tank": {
+    "minVolumeLiters": 40,
+    "minLengthCm": null,
+    "swimZone": null,
+    "decorPreferences": ["live rock attachment", "rubble wedging", "plug mount", "zip-tie to rockwork"],
+    "minSandDepthCm": null
+  },
+  "careLevel": "intermediate",
+  "diet": null,
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["reef fish", "snails", "hermit crabs", "shrimp", "corals"],
+    "avoidWith": ["herbivorous fish (tangs, rabbitfish)", "sea urchins", "sea hares"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": [
+      {
+        "url": "https://mosaicmacros.com/cdn/shop/files/IMG-9326.jpg",
+        "source": "Mosaic Macros",
+        "sourceType": "research-site",
+        "license": "All rights reserved",
+        "notes": "Product image from Mosaic Macros listing; shows spiraling tendril branches with grape-like bladder clusters",
+        "recommended": true
+      }
+    ]
+  },
+  "summary": "A genus-level Botryocladia entry covering Mosaic's tendril-form grape macroalgae; spiraling branches bear fluid-filled bladder clusters that distinguish this from the rounder-cluster sibling species.",
+  "careNotes": "Botryocladia sp. 'Tendril Grape' is an ornamental red macroalga offered by Mosaic Macros as a display specimen, characterized by spiraling tendril-like branches with grape-like fluid-filled bladders that rarely branch into secondary branchlets — a morphologically distinct form from the rounder-cluster sibling species B. skottsbergii (Red Bubble, sw-algae-079) and B. occidentalis (Red Grape, sw-algae-081). Also sold under the trade names 'Red Grape Caulerpa' and 'False String of Pearls,' though it is unrelated to Caulerpa.\n\nStandard reef parameters are generally advised: temperature 22–26°C (72–78°F), pH 8.1–8.4, salinity SG 1.023–1.025, calcium 400–450 ppm, magnesium 1250–1350 ppm, nitrate 5–20 ppm, and phosphate 0.02–0.1 ppm. Medium, full-spectrum lighting is generally recommended; actinic-only spectra are considered insufficient and are not advised. Flow should be moderate, resembling a soft-coral tank environment — strong direct flow can tear the delicate tendril branches and bladder clusters.\n\nWARNING — SAND BED PLACEMENT: As a red alga, this species will melt at the base if buried in a sand bed. It must be attached to hard substrate only — via superglue, zip-tie or fishing line, wedging between rocks, or on a plug secured to rockwork. Do not place in an open sand bed.\n\nGrowth tends to be slow, making this well-suited to a display tank without requiring aggressive pruning. Nutrient export capacity is considered low given the slow growth rate. Weekly dosing of iron, iodine, and other trace elements is generally recommended to support long-term health. The fluid-filled bladders may burst if handled roughly or grazed; it is generally advised to keep the specimen away from aggressive grazers and to remove dislodged fragments promptly. No documented allelopathy.",
+  "breedingNotes": "In the aquarium, propagation is typically achieved by fragmentation — detaching a healthy thallus section and re-attaching it to rock via superglue, zip-tie, wedging, or on a frag plug. Bladder rupture can also release spores that may establish secondary growth under favorable conditions.",
+  "sources": {
+    "primary": {
+      "name": "Mosaic Macros",
+      "url": "https://mosaicmacros.com/products/tendril-grape-macroalgae-botryocladia-sp",
+      "accessedDate": "2026-06-08",
+      "notes": "Sole hobby trade source for this genus-level entry. Confirms spiraling tendril morphology with grape-like bladder clusters. Sold as 1–3\" cutting on plug or 4\"+ branching plant. Trade names: Red Grape Caulerpa, False String of Pearls."
+    },
+    "additional": [
+      {
+        "name": "Mosaic Macros — Macroalgae Care Guide",
+        "url": "https://mosaicmacros.com/blogs/macroalgae-care-sheets-compatibility/macroalgae-care-the-basics-of-keeping-macroalgae-in-your-reef",
+        "accessedDate": "2026-06-08",
+        "notes": "Slice-wide secondary source. Provides authoritative parameter targets: temp 22–26°C (72–78°F), pH 8.1–8.4, Ca 400–450 ppm, Mg 1250–1350 ppm, NO3 5–20 ppm, PO4 0.02–0.1 ppm. Explicitly states red algae will melt at base if placed in sand beds; must attach to rock only. Notes Botryocladia is a thicker, tougher species suitable for superglue attachment."
+      }
+    ]
+  },
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": {
+    "lighting": "medium",
+    "growthRate": "slow",
+    "form": "macroalgae",
+    "placement": "display",
+    "nutrientUptake": "low",
+    "propagation": ["fragmentation", "wedging", "zip-tie/fishing line"]
+  },
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
+}
