@@ -1,0 +1,160 @@
+{
+  "id": "fw-fish-200",
+  "slug": "lesser-spiny-eel",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "freshwater",
+  "commonName": "Lesser Spiny Eel",
+  "scientificName": "Macrognathus siamensis",
+  "alsoKnownAs": [
+    "Peacock Eel",
+    "Siamese Spiny Eel"
+  ],
+  "category": "Spiny Eel",
+  "taxonomy": {
+    "family": "Mastacembelidae",
+    "order": "Synbranchiformes"
+  },
+  "nativeRange": {
+    "regions": ["Southeast Asia"],
+    "countries": ["Thailand", "Cambodia", "Vietnam", "Laos", "Malaysia"],
+    "habitat": "Slow-moving or still lowland waters: rice paddies, floodplains, swamps, shallow streams, and irrigation canals; typically over soft muddy or sandy substrate with abundant leaf litter and aquatic vegetation",
+    "biotope": "Floodplain / Rice paddy",
+    "depthRangeM": { "min": 0, "max": 1 }
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 22, "max": 28 },
+    "pH": { "min": 6.5, "max": 7.5 },
+    "gH": { "min": 5, "max": 15 },
+    "kH": { "min": 3, "max": 10 },
+    "salinity": null
+  },
+  "adultSizeCm": { "min": 25.0, "max": 35.0 },
+  "lifespanYears": { "min": 5, "max": 10 },
+  "tank": {
+    "minVolumeLiters": 150,
+    "minLengthCm": 120,
+    "swimZone": "bottom",
+    "decorPreferences": [
+      "soft sand substrate (fine, smooth — essential for burrowing and abrasion-free movement)",
+      "dense planting or leaf litter to provide daytime hiding cover",
+      "PVC tubes, bamboo canes, or slate caves as refuge",
+      "driftwood and roots for additional cover",
+      "dim lighting or floating plants to reduce light intensity"
+    ],
+    "minSandDepthCm": 5
+  },
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Primarily invertivore in the wild — feeds on small worms, insect larvae, crustaceans, and other benthic invertebrates. In captivity accepts frozen/thawed bloodworms, tubifex, brine shrimp, daphnia, and small earthworm pieces. Can be trained to accept sinking carnivore pellets and wafers over time. Nocturnal feeder — target feeding after lights out reduces competition and ensures adequate food intake. Live foods are useful for newly acquired or reluctant feeders."
+  },
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": [
+      "medium peaceful community fish (tetras, rasboras, danios)",
+      "rainbowfish",
+      "corydoras catfish",
+      "bristlenose plecos",
+      "gouramis (larger)",
+      "peaceful barbs (non-fin-nipping)"
+    ],
+    "avoidWith": [
+      "very small fish (under 3 cm) — risk of predation",
+      "small shrimp and small invertebrates (will be eaten)",
+      "large aggressive cichlids",
+      "fin-nippers (tiger barbs) — spiny eels' soft body and elongated fins are vulnerable",
+      "other spiny eels (territorial skirmishes, especially in smaller tanks)",
+      "copper-based medication tanks — highly sensitive"
+    ]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": [
+      {
+        "url": "https://www.fishbase.se/images/species/Masiam_u4.jpg",
+        "source": "FishBase",
+        "sourceType": "fishbase",
+        "license": "All rights reserved",
+        "notes": "FishBase specimen photo of Macrognathus siamensis showing characteristic ocelli along dorsal fin base.",
+        "recommended": true
+      }
+    ]
+  },
+  "summary": "The most beginner-friendly spiny eel; smaller (25–35 cm) than the Tire Track or Fire Eel. Distinguished by a row of eye-spot ocelli along the dorsal fin — hence the trade name 'Peacock Eel'. Requires soft sand for burrowing and secure lid due to high escape risk. Often confused with M. aculeatus; siamensis is the species most commonly traded.",
+  "careNotes": "Macrognathus siamensis is widely considered the most accessible spiny eel for the hobby, remaining manageable at 25–35 cm versus the 50–90 cm of Tire Track (Mastacembelus armatus) or Fire Eel (M. erythrotaenia). Like all mastacembelids, it possesses a scaleless or near-scaleless body and lacks a functional gill plate — making it highly sensitive to copper-based medications and most standard ich treatments. Always use copper-free alternatives (e.g., heat treatment, salt-based, or formalin/malachite-green products applied at reduced dose with close observation). A soft, fine sand substrate of at least 5 cm is essential: the fish buries itself completely for security and rests partially submerged in sand during the day. Coarse gravel causes abrasion to the delicate skin and should be avoided. A tightly fitted lid with no gaps is mandatory — M. siamensis is a confirmed escape artist and can squeeze through surprisingly small openings. The species is strictly nocturnal; daytime feeding attempts are usually ignored. Target feed with sinking foods (bloodworms, tubifex, earthworm pieces) after lights-out. Multiple ocelli (black eye-spots ringed with yellow/cream) are arranged along the base of the dorsal fin — the primary visual feature distinguishing siamensis from the similar M. aculeatus (True Peacock Eel), which has fewer, more irregular spots and a more elongated snout. The species is less piscivorous than larger mastacembelids and can be housed safely with medium-sized peaceful community fish, though very small fish (<3 cm) and ornamental shrimp are at risk of predation. Conspecific aggression is low in larger tanks with multiple refuges; in small tanks competition for burrow sites can cause stress. Water quality must remain stable and clean — spiny eels are prone to bacterial skin infections and bacterial septicaemia in degraded conditions.",
+  "breedingNotes": "Rarely bred in captivity. In the wild, spawning is associated with seasonal flooding and rising water levels. Aquarium breeding has been reported occasionally in large, well-planted tanks with soft water, simulated rainy-season conditioning (water changes with slightly cooler, softer water), and abundant cover. Eggs are scattered among fine-leaved plants. No parental care is provided. Fry are very small and require infusoria or micro worms as first foods. Commercial aquaculture breeding occurs in parts of Southeast Asia, so most trade specimens are wild-caught or farm-raised in production facilities rather than hobbyist-bred.",
+  "sources": {
+    "primary": {
+      "name": "SeriouslyFish — Macrognathus siamensis",
+      "url": "https://www.seriouslyfish.com/species/macrognathus-siamensis/",
+      "accessedDate": "2026-06-08",
+      "notes": "Primary source. Provided adult size (to 35 cm), temperature range, pH, hardness, native range (Thailand, Cambodia, Vietnam), habitat (slow-moving/still lowland waters, rice paddies), diet (invertivores — worms, crustaceans, insect larvae), care notes (soft sand, nocturnal, copper sensitivity, escape risk), and taxonomic confirmation (Mastacembelidae, Synbranchiformes). Species identity note: SeriouslyFish confirms M. siamensis is the commonly traded 'Peacock Eel', distinct from M. aculeatus."
+    },
+    "additional": [
+      {
+        "name": "FishBase — Macrognathus siamensis",
+        "url": "https://www.fishbase.se/summary/Macrognathus-siamensis.html",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked adult size (max reported 35 cm TL), native range (Mekong basin: Thailand, Cambodia, Laos, Vietnam; also Malay Peninsula), taxonomy (Mastacembelidae, Synbranchiformes), habitat (benthopelagic, freshwater, 22–28°C), and diet (invertivore). Confirmed common name 'Peacock Eel' listed in synonymy alongside 'Siamese Spiny Eel'."
+      },
+      {
+        "name": "Aquarium Co-Op — Spiny Eel Care Guide",
+        "url": "https://www.aquariumcoop.com/blogs/aquarium/spiny-eel",
+        "accessedDate": "2026-06-08",
+        "notes": "Trade/hobby care perspective. Confirmed soft sand substrate requirement, high escape risk, nocturnal feeding, copper sensitivity (scaleless classification), and recommendation as most beginner-friendly spiny eel in the genus. Tank size guidance (55+ gallon / ~210 L for larger spiny eels; lesser spiny eel manageable at 40 gal / 150 L). Noted species confusion between M. siamensis and M. aculeatus in the trade."
+      },
+      {
+        "name": "Practical Fishkeeping — Spiny Eels species profile",
+        "url": "https://www.practicalfishkeeping.co.uk/features/spiny-eels/",
+        "accessedDate": "2026-06-08",
+        "notes": "Confirmed genus-level care notes for Macrognathus: soft substrate essential, copperSensitive due to scaleless/thin-skinned body, strict nocturnal activity pattern, high escape risk, preference for carnivorous diet (worms, larvae). Noted ocelli pattern on dorsal fin as key identification feature for siamensis in the trade. Verified temperature range 24–28°C and pH 6.5–7.5 consistent with SeriouslyFish data."
+      },
+      {
+        "name": "FishBase — Macrognathus aculeatus (comparison)",
+        "url": "https://www.fishbase.se/summary/Macrognathus-aculeatus.html",
+        "accessedDate": "2026-06-08",
+        "notes": "Consulted for species-confusion disambiguation. M. aculeatus (True Peacock Eel) reaches similar length but has a broader native range (South and Southeast Asia including India and Sri Lanka) and fewer, more irregular dorsal ocelli. M. siamensis has a distinct row of clearly defined, consistently spaced eye-spots bordered with yellow/cream. Taxonomic note: both species share the common name 'Peacock Eel' in trade, but siamensis is confirmed as the more commonly exported species from Thailand/Vietnam farms."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "difficult",
+    "breedingNotes": "Rarely bred in captivity; most trade specimens are wild-caught or aquaculture-farmed. Seasonal conditioning with cooler, softer water changes may trigger spawning in large planted tanks. Eggs scattered among vegetation; no parental care.",
+    "conspecificAggression": "low",
+    "finNippy": false,
+    "reefSafe": null,
+    "escapeRisk": "high",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": true,
+    "juvenileColorPhase": false,
+    "copperSensitive": true,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": null
+}
