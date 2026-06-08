@@ -1,0 +1,126 @@
+{
+  "id": "fw-fish-085",
+  "slug": "mbu-puffer",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "freshwater",
+  "commonName": "MBU Puffer",
+  "scientificName": "Tetraodon mbu",
+  "alsoKnownAs": ["Giant Freshwater Puffer", "Giant Puffer", "Mbu Puffer Fish"],
+  "category": "Pufferfish",
+
+  "taxonomy": {
+    "family": "Tetraodontidae",
+    "order": "Tetraodontiformes"
+  },
+
+  "nativeRange": {
+    "regions": ["Central Africa", "East Africa"],
+    "countries": ["Democratic Republic of Congo", "Republic of Congo", "Tanzania", "Zambia", "Burundi", "Cameroon"],
+    "habitat": "Large rivers and lakes; occurs in Lake Tanganyika and throughout the Congo River basin, including estuarine zones",
+    "biotope": "Rift Lake",
+    "depthRangeM": null
+  },
+
+  "waterParameters": {
+    "temperatureC": { "min": 24, "max": 27 },
+    "pH":           { "min": 6.8, "max": 8.0 },
+    "gH":           { "min": 7,   "max": 22 },
+    "kH":           { "min": 4,   "max": 15 },
+    "salinity":     null
+  },
+
+  "adultSizeCm":   { "min": 60, "max": 75 },
+  "lifespanYears": null,
+
+  "tank": {
+    "minVolumeLiters": 2000,
+    "minLengthCm":     240,
+    "swimZone":        "all",
+    "decorPreferences": ["open swimming space", "sandy substrate", "smooth rocks", "driftwood"],
+    "minSandDepthCm":  null
+  },
+
+  "careLevel": "advanced",
+
+  "diet": {
+    "type": "carnivore",
+    "notes": "Requires hard-shelled foods to wear down continuously growing teeth — frozen large prawns, mussels, crab claws, and snails are strongly recommended. Softer foods (fish flesh, worms) can supplement but cannot replace hard-shell items. Dental overgrowth leads to starvation if hard foods are not regularly provided."
+  },
+
+  "compatibility": {
+    "temperament":  "aggressive",
+    "grouping":     "solitary",
+    "minGroupSize": 1,
+    "goodWith":     [],
+    "avoidWith":    ["all other fish", "invertebrates", "conspecifics"]
+  },
+
+  "media": {
+    "primaryImage":    null,
+    "gallery":         [],
+    "imageCandidates": null
+  },
+
+  "summary": "The largest known freshwater puffer, reaching up to 75 cm, native to Lake Tanganyika and the Congo basin. Highly intelligent and interactive with keepers, but demands a 2000 L+ custom setup and a strict hard-shell diet — suitable only for the most dedicated specialist aquarists.",
+
+  "careNotes": "The MBU puffer is widely considered the largest freshwater puffer species, with reported lengths of up to 75 cm (SeriouslyFish) and a FishBase-documented maximum of 67 cm — keepers should plan for the larger end. A minimum tank of 2000 L (approximately 96\" x 36\" x 36\") is generally regarded as the absolute floor for a single adult; many experienced keepers recommend larger. The species must be kept alone — its beak-like fused teeth inflict serious injuries on any tankmate. Hard-shelled prey (mussels, crab claws, whole snails) must be offered regularly to prevent dental overgrowth; overgrown teeth are a leading cause of starvation in captive specimens. MBU puffers have been widely reported as highly intelligent and able to recognise individual keepers, often displaying interactive begging behaviour. They are sold as appealing juveniles at a few centimetres but grow very quickly and ultimately require a custom-built system — impulse purchases are a serious welfare concern. Tetrodotoxin is present in the flesh (as in all puffers) and is a concern only for human consumption; the species does not release toxins into the water column. Water chemistry should span the natural range of both their Lake Tanganyika habitat (harder, more alkaline) and Congo River populations (softer, more neutral); pH 6.8–8.0 with moderate hardness is broadly accepted. Temperature source agreement was strong at 24–26°C; 27°C is a conservative upper limit to allow for natural variation. gH range averaged across sources: SeriouslyFish cites 10–25°H, keeper brief cites 5–20; a pragmatic 7–22 range is used. No breeding in captivity has been documented.",
+
+  "breedingNotes": "No successful captive breeding has been documented. The sheer volume of water required and the species' aggressive nature make controlled breeding exceptionally difficult; captive specimens are wild-caught or F1 offspring.",
+
+  "sources": {
+    "primary": {
+      "name": "SeriouslyFish",
+      "url": "https://www.seriouslyfish.com/species/tetraodon-mbu/",
+      "accessedDate": "2026-06-08",
+      "notes": "Primary source used after Aquarium Co-Op (designated primary for fish-freshwater slice) returned HTTP 404 for this species. SeriouslyFish provides comprehensive peer-reviewed husbandry data including tank dimensions, water parameters, diet and compatibility."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Tetraodon-mbu.html",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked adult size (max 67 cm vs SeriouslyFish 75 cm — spread acceptable, used 60-75 cm range), temperature (24-26°C agrees), native range (Lake Tanganyika + Congo basin confirmed), taxonomy (Order Tetraodontiformes confirmed)."
+      }
+    ]
+  },
+
+  "fish": {
+    "breedingDifficulty":         "not in captivity",
+    "breedingNotes":               "No captive breeding documented; specimens in trade are wild-caught.",
+    "conspecificAggression":       "high",
+    "finNippy":                    true,
+    "reefSafe":                    null,
+    "escapeRisk":                  "low",
+    "venomousSpines":              false,
+    "sexChange":                   "none",
+    "haremic":                     false,
+    "caudalScalpel":               false,
+    "nocturnal":                   false,
+    "juvenileColorPhase":          false,
+    "copperSensitive":             true,
+    "speciesOnlyTankRecommended":  true,
+    "requiresHitchingPost":        false,
+    "monogamousPairing":           false,
+    "hlleSusceptible":             false,
+    "toxicToTank":                 false,
+    "feedingDifficulty":           "difficult",
+    "symbioticShrimpPartner":      false,
+    "mouthbrooder":                false,
+    "constantGrazer":              false,
+    "cleanerFish":                 false,
+    "euryhaline":                  false
+  },
+
+  "crustacean":   null,
+  "coral":        null,
+  "mollusc":      null,
+  "echinoderm":   null,
+  "other-invert": null,
+  "plant":        null,
+  "macroalgae":   null,
+
+  "schemaVersion": 1,
+  "dataStatus":    "researched",
+  "lastReviewed":  "2026-06-08"
+}

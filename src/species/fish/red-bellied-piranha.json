@@ -1,0 +1,126 @@
+{
+  "id": "fw-fish-089",
+  "slug": "red-bellied-piranha",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "freshwater",
+  "commonName": "Red-Bellied Piranha",
+  "scientificName": "Pygocentrus nattereri",
+  "alsoKnownAs": ["Red Piranha", "Natterer's Piranha"],
+  "category": "Piranha",
+
+  "taxonomy": {
+    "family": "Serrasalmidae",
+    "order": "Characiformes"
+  },
+
+  "nativeRange": {
+    "regions": ["South America"],
+    "countries": ["Brazil", "Bolivia", "Peru", "Ecuador", "Venezuela", "Guyana", "Argentina", "Paraguay", "Uruguay"],
+    "habitat": "Large rivers, flooded forests, and connected lakes of the Amazon basin and associated drainages",
+    "biotope": "Blackwater",
+    "depthRangeM": null
+  },
+
+  "waterParameters": {
+    "temperatureC": { "min": 24, "max": 28 },
+    "pH":           { "min": 5.5, "max": 7.5 },
+    "gH":           { "min": 2, "max": 15 },
+    "kH":           { "min": 2, "max": 10 },
+    "salinity":     null
+  },
+
+  "adultSizeCm":   { "min": 25, "max": 35 },
+  "lifespanYears": { "min": 8, "max": 15 },
+
+  "tank": {
+    "minVolumeLiters":  500,
+    "minLengthCm":      150,
+    "swimZone":         "mid",
+    "decorPreferences": ["driftwood", "dim lighting", "leaf litter", "subdued decor", "sturdy heater guards"],
+    "minSandDepthCm":   null
+  },
+
+  "careLevel": "advanced",
+
+  "diet": {
+    "type": "carnivore",
+    "notes": "In the wild, opportunistic generalists consuming fish, invertebrates, insects, nuts, seeds, and fruits. In captivity, generally advised to feed frozen large prawns, silversides, krill, mussels, and strips of fish flesh. Avoid feeder fish (disease risk) and mammalian/avian meats."
+  },
+
+  "compatibility": {
+    "temperament":  "aggressive",
+    "grouping":     "schooling",
+    "minGroupSize": 5,
+    "goodWith":     [],
+    "avoidWith":    ["small fish", "invertebrates", "slow-moving tankmates"]
+  },
+
+  "media": {
+    "primaryImage":    null,
+    "gallery":         [],
+    "imageCandidates": null
+  },
+
+  "summary": "Famous Amazon schooling predator with an exaggerated reputation; mostly scavengers that tend to be shy in smaller groups. Requires a school of 5+ in a 500 L+ tank. Illegal in many US states and countries — verify local laws before acquiring.",
+
+  "careNotes": "LEGAL NOTICE: Pygocentrus nattereri is illegal to own in many US states (including Alabama, Alaska, Arizona, Arkansas, California, Colorado, Florida, Georgia, Hawaii, Kansas, Kentucky, Louisiana, Mississippi, Missouri, Montana, Nevada, New Jersey, New Mexico, New York, North Carolina, North Dakota, Oklahoma, South Carolina, Tennessee, Texas, Utah, Virginia, Washington, and others) and in numerous countries. Always verify local regulations before acquiring. The 'piranha frenzy' reputation is largely exaggerated; in the wild these fish tend to be cautious scavengers, though they are opportunistic predators capable of rapid feeding. Schooling is mandatory — a solo specimen tends to be stressed and more aggressive; groups of 5 or more generally establish dominance hierarchies and settle into calmer behavior. Powerful jaws and sharp teeth require handler caution during maintenance. Heater guards are strongly recommended as adults have been known to damage submerged equipment. Requires high-turnover filtration (4–5x tank volume per hour) and regular large water changes (30–50% weekly). Bare-bottom or standard substrate is acceptable. Avoid live feeder fish due to disease transmission risk. The commonly reported 50 cm maximum length is a wild record outlier; aquarium specimens generally reach 25–35 cm.",
+
+  "breedingNotes": "Breeding has been reported in captivity. Males are reported to create substrate pits; eggs typically hatch within 2–3 days. Sexual maturity tends to occur around 1 year at approximately 10–15 cm. Fry become increasingly cannibalistic as they grow and have been known to require separation by size class.",
+
+  "sources": {
+    "primary": {
+      "name": "SeriouslyFish",
+      "url": "https://www.seriouslyfish.com/species/pygocentrus-nattereri/",
+      "accessedDate": "2026-06-08",
+      "notes": "Primary source used after Aquarium Co-Op returned 404 for this species."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Pygocentrus-nattereri.html",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked size, temperature, pH, and taxonomy. FishBase reports max 50 cm (wild record outlier); SeriouslyFish hobby range of 25–35 cm used for adultSizeCm. Temperature averaged: SeriouslyFish 24–28°C, FishBase 23–27°C → {min:24, max:28}. pH 5.5–7.5 agreed exactly."
+      }
+    ]
+  },
+
+  "fish": {
+    "breedingDifficulty":         "difficult",
+    "breedingNotes":              "Breeding has been reported but requires a dedicated species tank and size-grading fry to prevent cannibalism.",
+    "conspecificAggression":      "moderate",
+    "finNippy":                   null,
+    "reefSafe":                   null,
+    "escapeRisk":                 "low",
+    "venomousSpines":             false,
+    "sexChange":                  "none",
+    "haremic":                    false,
+    "caudalScalpel":              false,
+    "nocturnal":                  false,
+    "juvenileColorPhase":         false,
+    "copperSensitive":            null,
+    "speciesOnlyTankRecommended": true,
+    "requiresHitchingPost":       false,
+    "monogamousPairing":          false,
+    "hlleSusceptible":            false,
+    "toxicToTank":                false,
+    "feedingDifficulty":          "moderate",
+    "symbioticShrimpPartner":     false,
+    "mouthbrooder":               false,
+    "constantGrazer":             false,
+    "cleanerFish":                false,
+    "euryhaline":                 false
+  },
+
+  "crustacean":   null,
+  "coral":        null,
+  "mollusc":      null,
+  "echinoderm":   null,
+  "other-invert": null,
+  "plant":        null,
+  "macroalgae":   null,
+
+  "schemaVersion": 1,
+  "dataStatus":    "researched",
+  "lastReviewed":  "2026-06-08"
+}

@@ -1,0 +1,116 @@
+{
+  "id": "fw-fish-083",
+  "slug": "lemon-cichlid",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "freshwater",
+  "commonName": "Lemon Cichlid",
+  "scientificName": "Neolamprologus leleupi",
+  "alsoKnownAs": ["Yellow Leleupi", "Orange Leleupi", "Leleupi Cichlid"],
+  "category": "Cichlid",
+  "taxonomy": {
+    "family": "Cichlidae",
+    "order": "Cichliformes"
+  },
+  "nativeRange": {
+    "regions": ["East Africa", "Great Rift Valley"],
+    "countries": ["Democratic Republic of Congo", "Zambia", "Tanzania"],
+    "habitat": "Rocky shoreline zones in Lake Tanganyika; inhabits cracks and crevices in rockwork along the southern half of the lake",
+    "biotope": "Lake Tanganyika rocky littoral",
+    "depthRangeM": null
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 23, "max": 27 },
+    "pH": { "min": 7.5, "max": 9.0 },
+    "gH": { "min": 10, "max": 25 },
+    "kH": { "min": 8, "max": 20 },
+    "salinity": null
+  },
+  "adultSizeCm": { "min": 8, "max": 10 },
+  "lifespanYears": { "min": 6, "max": 10 },
+  "tank": {
+    "minVolumeLiters": 150,
+    "minLengthCm": 90,
+    "swimZone": "mid",
+    "decorPreferences": ["extensive rockwork", "caves and crevices", "sandy substrate", "aragonite sand for pH buffering", "minimal or no open planting"],
+    "minSandDepthCm": null
+  },
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Primarily accepts high-quality cichlid pellets and frozen foods (brine shrimp, bloodworms, mysis). Live foods are eagerly taken. Some vegetable matter such as spirulina flakes can be offered occasionally. Carotenoid-rich foods (krill, colour-enhancing pellets) tend to intensify and maintain the vivid yellow-orange colouration."
+  },
+  "compatibility": {
+    "temperament": "territorial",
+    "grouping": "pair",
+    "minGroupSize": 2,
+    "goodWith": ["Julidochromis species", "Altolamprologus species", "Cyprichromis species", "Neolamprologus brichardi", "other similarly-sized Tanganyikan cichlids occupying different tank zones"],
+    "avoidWith": ["Mbuna cichlids", "very small or passive fish", "other Neolamprologus leleupi (except bonded pair)", "fin-nipping species"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A striking Lake Tanganyika cichlid known for its intense lemon-yellow to orange colouration. Pair-bonded cave spawners best kept as a mated pair in a well-structured rock aquarium; intermediate care due to water quality and conspecific aggression requirements.",
+  "careNotes": "Neolamprologus leleupi is endemic to the southern half of Lake Tanganyika, where it tends to inhabit rocky crevices and recesses. The vivid yellow to orange colouration is believed to be enhanced by carotenoid-rich foods; a diet including krill-based or colour-enhancing pellets is generally advised to maintain intensity. This species tends to be aggressive toward conspecifics, and keeping more than a single bonded pair is generally only advisable in tanks well over 300 L with heavy rockwork to break sightlines. During spawning the pair can become notably aggressive toward any tankmate that ventures near the chosen cave. Water quality stability is important — this species tends to show stress or colour loss with sudden parameter shifts. The Rift lake parameters (hard, alkaline water) should be maintained consistently; aragonite sand is commonly recommended as a substrate to buffer pH and kH. Two natural colour morphs are documented: a bright lemon-yellow form and a deeper orange form; both are the same species and have the same care requirements. Captive-bred stock is readily available and hardier than wild-caught individuals.",
+  "breedingNotes": "Biparental cave spawners. A bonded pair will select a small cave or rock crevice and the female typically lays 50–150 eggs. Eggs hatch in approximately 3–4 days and fry tend to be free-swimming at 8–10 days. Both parents actively defend the brood. Newly free-swimming fry can usually be raised on freshly hatched brine shrimp nauplii. Generally considered easy to breed once a compatible pair is established; the main challenge tends to be forming the initial pair bond, as introducing two fish simultaneously as juveniles has been reported to work more reliably than adding adults.",
+  "sources": {
+    "primary": {
+      "name": "SeriouslyFish",
+      "url": "https://www.seriouslyfish.com/species/neolamprologus-leleupi/",
+      "accessedDate": "2026-06-08",
+      "notes": "Used as primary in place of Aquarium Co-Op, which returned 404 for this species. SeriouslyFish is the first listed secondary for the fish-freshwater slice and provided the most complete husbandry dataset."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Neolamprologus-leleupi.html",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked adult size (10 cm TL), temperature (24-26°C), pH (7.5-8.0), hardness (dH 12-15), and native range. FishBase pH upper end of 8.0 is narrower than SeriouslyFish/Aqua-fish; final pH max of 9.0 follows SeriouslyFish and the broader Rift lake consensus."
+      },
+      {
+        "name": "Aqua-fish.net",
+        "url": "https://en.aqua-fish.net/fish/lemon-cichlid",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked size (8-10 cm), temperature (23-26°C), pH (7.6-8.9), hardness (18-30°N), lifespan (up to 8 years), minimum tank 100 L for a pair. Tank minimum set to 150 L (biased toward cautious per playbook given territorial pair-bonded nature)."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "easy",
+    "breedingNotes": "Cave spawner; biparental guarding. Pair should be conditioned with frozen foods. Fry can be raised on brine shrimp nauplii.",
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": null,
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": true,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
+}

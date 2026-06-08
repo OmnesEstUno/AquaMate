@@ -4,83 +4,104 @@
   "kind": "fauna",
   "taxon": "fish",
   "waterType": "freshwater",
-  "commonName": "Corydoras panda",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "commonName": "Panda Cory",
+  "scientificName": "Corydoras panda",
+  "alsoKnownAs": ["Panda Corydoras", "Panda Catfish", "Hoplisoma panda"],
   "category": "Catfish",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Callichthyidae",
+    "order": "Siluriformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
+    "regions": ["South America"],
+    "countries": ["Peru"],
+    "habitat": "Clear and blackwater streams and tributaries with sandy substrates, often influenced by cool Andean snowmelt runoff",
+    "biotope": "Rio Ucayali basin (Aquas River), upper Amazon drainage",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
-    "kH": null,
+    "temperatureC": { "min": 20, "max": 25 },
+    "pH": { "min": 6.0, "max": 7.5 },
+    "gH": { "min": 2, "max": 15 },
+    "kH": { "min": 2, "max": 10 },
     "salinity": null
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 3.5, "max": 5.0 },
+  "lifespanYears": { "min": 5, "max": 10 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
-    "minSandDepthCm": null
+    "minVolumeLiters": 75,
+    "minLengthCm": 60,
+    "swimZone": "bottom",
+    "decorPreferences": ["fine sand substrate", "driftwood", "leaf litter", "caves", "dense planting"],
+    "minSandDepthCm": 3
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Readily accepts sinking pellets and wafers as a staple. Benefits from regular supplementation with frozen or live foods such as bloodworm, Daphnia, and brine shrimp nauplii."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "peaceful",
+    "grouping": "schooling",
+    "minGroupSize": 6,
+    "goodWith": ["small tetras", "small rasboras", "dwarf cichlids", "other peaceful bottom dwellers", "small livebearers"],
+    "avoidWith": ["large aggressive cichlids", "fin-nipping species", "warm-water tropical fish (35°C+)"]
   },
   "media": {
     "primaryImage": "corydoras_panda.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Corydoras panda.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "A small, peaceful schooling catfish from cool Andean streams in Peru, recognized by its white body and distinctive black panda-style eye mask. Prefers cooler water than most Corydoras.",
+  "careNotes": "Prefers cooler water (20–25°C) than many popular tropical Corydoras — notably cooler than C. sterbai (which thrives at 25–30°C). This cooler preference should be considered carefully when choosing tankmates. Requires a minimum school of 6 and tends to be more active and confident in larger groups. A soft sand substrate (at least 3 cm deep) is important to protect the delicate barbels, which are prone to erosion in coarse gravel or dirty conditions. Sensitive to poor water quality and accumulated detritus. Regular water changes and substrate vacuuming are advised. Copper-sensitive: do not use copper-based medications in the same system. Often confused or sold mixed with Adolfo's Cory (C. adolfoi), which has an orange blaze behind the eye mask — verify species at point of purchase. FishBase (2024+) reclassifies this species as Hoplisoma panda; the aquarium trade still widely uses Corydoras panda. The distinctive panda mask (large black eye patches, black dorsal saddle, and black caudal base) makes field identification straightforward. Seasonal spawner in captivity; eggs may take several months to years before adults condition and breed. Cross-reference: corydoras-aeneus (warmer, hardier), corydoras-sterbai (warm-water), corydoras-julii (similar patterning).",
+  "breedingNotes": "Seasonal spawner. Conditioning with frequent live/frozen food feedings and a slight temperature drop (simulating Andean wet season) tends to trigger spawning. Eggs are typically laid on tank glass or broad plant leaves. Adults have been known to consume eggs if not removed promptly. Eggs generally hatch in 3–5 days at target temperature. Fry are small and accept microworm and brine shrimp nauplii as first foods. A ratio of approximately 2 males per female is commonly recommended. Sexual maturity may take a year or more.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "SeriouslyFish",
+      "url": "https://www.seriouslyfish.com/species/corydoras-panda/",
+      "accessedDate": "2026-06-08",
+      "notes": "Primary husbandry source. Provided water parameters, size, tank dimensions, diet, native range, and breeding notes."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Corydoras-panda.html",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked taxonomy (family Callichthyidae, order Siluriformes), size (3.8 cm SL), temperature range (20–25°C), and native range (upper Amazon, Peru). FishBase now lists the accepted name as Hoplisoma panda; Corydoras panda retained as trade/common synonym. Size discrepancy resolved: FishBase 3.8 cm is standard length (no caudal fin), SeriouslyFish 5 cm is total length — both correct for their measurement convention."
+      },
+      {
+        "name": "Aquarium Co-Op",
+        "url": "https://www.aquariumcoop.com/blogs/aquarium/cory-catfish-care-guide",
+        "accessedDate": "2026-06-08",
+        "notes": "General Corydoras care guide; confirms group size minimum of 6, sinking food preference, and soft substrate requirement. No panda-specific parameter page found on this source."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
+    "breedingDifficulty": "moderate",
     "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
+    "conspecificAggression": "none",
+    "finNippy": false,
     "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
-    "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": true,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -90,6 +111,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
+  "dataStatus": "researched",
   "lastReviewed": null
 }

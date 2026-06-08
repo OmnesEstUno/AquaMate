@@ -1,0 +1,116 @@
+{
+  "id": "fw-fish-086",
+  "slug": "multifasciatus-shell-dweller",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "freshwater",
+  "commonName": "Multifasciatus Shell Dweller",
+  "scientificName": "Neolamprologus multifasciatus",
+  "alsoKnownAs": ["Multi Shell Dweller", "Multis", "Shell Cichlid", "Many-banded Lamprologus"],
+  "category": "Cichlid",
+  "taxonomy": {
+    "family": "Cichlidae",
+    "order": "Cichliformes"
+  },
+  "nativeRange": {
+    "regions": ["East Africa", "Great Rift Valley"],
+    "countries": ["Democratic Republic of the Congo", "Tanzania", "Zambia", "Burundi"],
+    "habitat": "Sandy shoreline shallows of Lake Tanganyika, particularly areas where empty shells of Neothauma tanganyicense snails accumulate",
+    "biotope": "Rift Lake",
+    "depthRangeM": { "min": 6, "max": 12 }
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 24, "max": 27 },
+    "pH":           { "min": 7.8, "max": 9.0 },
+    "gH":           { "min": 10, "max": 25 },
+    "kH":           { "min": 8, "max": 20 },
+    "salinity": null
+  },
+  "adultSizeCm": { "min": 3.0, "max": 4.5 },
+  "lifespanYears": { "min": 3, "max": 5 },
+  "tank": {
+    "minVolumeLiters": 75,
+    "minLengthCm": 60,
+    "swimZone": "bottom",
+    "decorPreferences": ["fine sand substrate 5+ cm deep", "20+ empty snail shells (Escargot or Neothauma-style)", "open sandy floor", "minimal tall decor — low-profile rocks acceptable as territory dividers"],
+    "minSandDepthCm": 5
+  },
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Accepts live and frozen small foods readily — frozen daphnia, baby brine shrimp, cyclops, and bloodworms are well-accepted. Crushed small cichlid pellets and nano pellets are typically taken. In the wild, tends to feed on plankton drifting above the colony."
+  },
+  "compatibility": {
+    "temperament": "territorial",
+    "grouping": "shoaling",
+    "minGroupSize": 6,
+    "goodWith": ["open-water Tanganyikan fish (Cyprichromis, Paracyprichromis)", "rock-dwelling Tanganyikans (Julies, Altolamprologus) in larger tanks", "species not competing for bottom/sand space"],
+    "avoidWith": ["other shell-dwelling cichlids (territory competition)", "boisterous or large cichlids that disturb shells", "aggressive bottom-dwellers", "species requiring soft acidic water"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "The world's smallest cichlid, endemic to Lake Tanganyika, where colonies live in and around empty snail shells. A rewarding nano Rift Lake species that breeds readily in captivity and displays fascinating territorial behavior.",
+  "careNotes": "Generally best kept as a colony of 6+ fish with at least 2–3 females per male. A minimum of 20 empty snail shells is commonly recommended — Escargot snail shells (cooked and thoroughly cleaned) are widely reported as an excellent substitute for the native Neothauma tanganyicense shells. Shells should be distributed across a sand floor at least 5 cm deep. Each fish tends to claim its own shell and vigorously defends a small territory around it; despite their tiny size, these fish have been known to be surprisingly bold and assertive. Rift Lake water chemistry is important: hard, alkaline water in the pH 7.8–9.0 range is generally advised, maintained with crushed coral or aragonite sand substrate. Species-only setups or Tanganyikan biotope tanks with open-water species are usually recommended to avoid shell disturbance. Sexing: males are noticeably larger than females — at 4–4.5 cm vs ~3 cm for females. Cross-reference: Neolamprologus similis (similis shell dweller) and Neolamprologus ocellatus (ocellatus shell dweller) are closely related shell-dwelling species with similar care requirements.",
+  "breedingNotes": "Breeding is generally considered easy and often occurs without special intervention once a colony is established. Females deposit eggs inside their chosen shell, and males fertilize from outside. The female tends the eggs and guards the fry within the shell for the first week or two. Multiple females in a colony typically breed simultaneously. Fry are usually large enough to accept baby brine shrimp or microworms once free-swimming. Parents have been known to remain tolerant of growing fry within the colony, though older juveniles may eventually need to be removed as the colony expands and shell competition increases.",
+  "sources": {
+    "primary": {
+      "name": "SeriouslyFish",
+      "url": "https://www.seriouslyfish.com/species/neolamprologus-multifasciatus/",
+      "accessedDate": "2026-06-08",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "Aquarium Co-Op",
+        "url": "https://www.aquariumcoop.com/blogs/aquarium/shell-dwellers",
+        "accessedDate": "2026-06-08",
+        "notes": "Shell-dweller care guide covering N. multifasciatus. Tank size recommendation 10–20 gal; this entry uses 75L (20 gal long) as minimum appropriate for a colony per user brief and SeriouslyFish guidance."
+      },
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Neolamprologus-multifasciatus.html",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked taxonomy (Cichliformes), size (4.0 cm max), depth range (6–12 m), native range (Lake Tanganyika endemic), and water parameters. Size across sources: SeriouslyFish 4.5 cm males / 3.5 cm females; FishBase 4.0 cm; user brief 4 cm males / 3 cm females. Used 3.0–4.5 cm range."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "easy",
+    "breedingNotes": "Shell brooder — female deposits eggs inside a snail shell; spawning occurs readily in a well-maintained colony with adequate shells.",
+    "conspecificAggression": "moderate",
+    "finNippy": false,
+    "reefSafe": null,
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": true,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
+}

@@ -1,0 +1,116 @@
+{
+  "id": "fw-fish-087",
+  "slug": "pygmy-cory",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "freshwater",
+  "commonName": "Pygmy Cory",
+  "scientificName": "Corydoras pygmaeus",
+  "alsoKnownAs": ["Pygmy Corydoras", "Pygmy Catfish", "Micro Cory"],
+  "category": "Catfish",
+  "taxonomy": {
+    "family": "Callichthyidae",
+    "order": "Siluriformes"
+  },
+  "nativeRange": {
+    "regions": ["South America"],
+    "countries": ["Brazil"],
+    "habitat": "Slow-moving streams and tributaries with sandy substrate and leaf litter",
+    "biotope": "Whitewater",
+    "depthRangeM": null
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 22, "max": 26 },
+    "pH":           { "min": 6.0, "max": 7.5 },
+    "gH":           { "min": 2, "max": 15 },
+    "kH":           { "min": 2, "max": 10 },
+    "salinity":     null
+  },
+  "adultSizeCm": { "min": 2.0, "max": 3.0 },
+  "lifespanYears": { "min": 3, "max": 5 },
+  "tank": {
+    "minVolumeLiters": 60,
+    "minLengthCm": 60,
+    "swimZone": "mid",
+    "decorPreferences": ["fine sand substrate", "leaf litter", "driftwood", "dense planting", "open mid-water swimming space"],
+    "minSandDepthCm": null
+  },
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Requires micro-sized foods due to their tiny mouths. Accepts crushed flakes, micropellets, sinking micro wafers, and frozen baby brine shrimp, micro worms, and Artemia nauplii. They tend not to be effective scavengers at the bottom and generally need targeted mid-water feeding."
+  },
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "schooling",
+    "minGroupSize": 10,
+    "goodWith": ["small peaceful tetras", "small rasboras", "dwarf cichlids", "otocinclus", "small livebearers", "other nano fish"],
+    "avoidWith": ["angelfish", "gouramis", "larger catfish", "any fish large enough to swallow them", "boisterous or fin-nipping species"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "One of the smallest Corydoras species at 2–3 cm, the Pygmy Cory is unusual among cories for schooling actively in mid-water rather than the bottom. Groups of 10+ are generally advised for confident behavior.",
+  "careNotes": "Unlike most bottom-dwelling Corydoras, the Pygmy Cory tends to school at mid-water level, making open swimming space above the substrate important. Groups of 10 or more are generally advised — smaller groups have been known to be shy and retreat to cover. Their mouths are tiny and standard sinking wafers are often too large; crushed or micro-sized foods are needed. They are sensitive to copper-based medications. A fine sand substrate is preferred, though they spend less time foraging the bottom than larger cory species. They are facultative air breathers and have been documented periodically surfacing to gulp air. Sharp pectoral spines can catch in nets — use a container to catch them. Sister species C. hastatus (Hasta Cory) and C. habrosus (Salt-and-Pepper Cory) share the tiny-body and mid-water schooling trait; C. hastatus is distinguished by a caudal-peduncle spot rather than a lateral stripe.",
+  "breedingNotes": "Has been bred in captivity with moderate success. Conditioning with live and frozen foods encourages spawning. A temperature drop simulating a cool-season rain event can trigger spawning. The female holds 2–4 eggs between her pelvic fins for fertilization, then attaches them to plant leaves, glass, or other surfaces. Clutches are typically around 50–100 eggs; eggs hatch in approximately 3–5 days. Fry are very small and require infusoria or commercial fry foods initially, graduating to micro worms and Artemia nauplii.",
+  "sources": {
+    "primary": {
+      "name": "SeriouslyFish",
+      "url": "https://www.seriouslyfish.com/species/corydoras-pygmaeus/",
+      "accessedDate": "2026-06-08",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Corydoras-pygmaeus.html",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked native range, taxonomy, temperature, and pH. FishBase lists max SL as 2.1 cm (standard length); SeriouslyFish gives 3 cm total length — both consistent with the 2–3 cm total-length range used here. FishBase pH range of 6.0–8.0 is wider than SeriouslyFish's 6.4–7.4; used 6.0–7.5 per cross-source average and user brief."
+      },
+      {
+        "name": "Aquarium Co-Op",
+        "url": "https://www.aquariumcoop.com/blogs/aquarium/corydoras-care-guide",
+        "accessedDate": "2026-06-08",
+        "notes": "Confirmed mid-water swim behavior, 10-gallon (38L) minimum, school of 6+ as baseline; 60L used here to support a school of 10+ as recommended by specialist sources."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "moderate",
+    "breedingNotes": null,
+    "conspecificAggression": "none",
+    "finNippy": false,
+    "reefSafe": null,
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": true,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
+}

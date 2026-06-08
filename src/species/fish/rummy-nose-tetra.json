@@ -5,82 +5,126 @@
   "taxon": "fish",
   "waterType": "freshwater",
   "commonName": "Rummy Nose Tetra",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "scientificName": "Hemigrammus rhodostomus",
+  "alsoKnownAs": ["True Rummy Nose Tetra", "Firehead Tetra (H. bleheri)", "False Rummy Nose Tetra (Petitella georgiae)", "Rummy-Nose Tetra"],
   "category": "Tetra",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Characidae",
+    "order": "Characiformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
+    "regions": ["South America"],
+    "countries": ["Brazil", "Venezuela"],
+    "habitat": "Blackwater rivers and tributaries; tannin-stained, warm, soft, acidic waters with leaf litter substrate and dense riparian vegetation",
+    "biotope": "Blackwater",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
-    "kH": null,
+    "temperatureC": { "min": 24, "max": 28 },
+    "pH": { "min": 5.5, "max": 7.0 },
+    "gH": { "min": 1, "max": 12 },
+    "kH": { "min": 1, "max": 5 },
     "salinity": null
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 4.5, "max": 5.0 },
+  "lifespanYears": { "min": 5, "max": 8 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 100,
+    "minLengthCm": 90,
+    "swimZone": "mid",
+    "decorPreferences": [
+      "dense planting or floating plants for diffused light",
+      "dark substrate",
+      "driftwood and leaf litter for tannins",
+      "open midwater swimming space"
+    ],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Accepts most small prepared foods including nano pellets, micro flakes, and frozen or live foods such as baby brine shrimp, daphnia, and bloodworms. Small mouth requires appropriately sized food particles. Color-enhancing foods can help maintain vivid red coloration."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "peaceful",
+    "grouping": "schooling",
+    "minGroupSize": 8,
+    "goodWith": [
+      "other small peaceful tetras",
+      "pencilfish",
+      "Corydoras catfish",
+      "Apistogramma dwarf cichlids",
+      "discus",
+      "rasboras",
+      "small Anabantoids",
+      "West African dwarf cichlids",
+      "small loaches",
+      "dwarf gourami",
+      "freshwater snails",
+      "freshwater shrimp (adult-sized)"
+    ],
+    "avoidWith": [
+      "large aggressive fish",
+      "boisterous or fast-moving fish causing stress",
+      "fish with mouths large enough to consume them",
+      "fin-nipping species"
+    ]
   },
   "media": {
     "primaryImage": "rummy_nose_tetra.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Rummy Nose Tetra.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "Iconic schooling tetra with a vivid red head and black-and-white striped tail; tends to school tightly and is often used as a natural water-quality indicator since the red coloration fades noticeably in poor conditions.",
+  "careNotes": "One of the most uniformly schooling freshwater fish in the hobby — groups of 10 or more tend to display tighter, more synchronized behavior. The red head coloration has been observed to fade noticeably in response to elevated nitrates, ammonia, or pH swings, making this species a useful informal water-quality indicator. Regular partial water changes are generally advised to maintain color and health.\n\nThree species are commonly sold under the name \"Rummy Nose Tetra\": Hemigrammus rhodostomus (true or common rummy nose, most frequently seen in trade), Hemigrammus bleheri (firehead tetra, distinguished by red extending further down the body), and Petitella georgiae (false rummy nose, distinguishable by lateral line pattern and caudal markings). Husbandry requirements are similar across all three; H. rhodostomus is the most common trade species.\n\nThis species tends to prefer soft, acidic blackwater conditions consistent with its native lower Amazon and Orinoco basin habitat. While it has been reported to adapt to slightly harder water, keeping pH below 7.0 and hardness low generally yields better coloration and long-term health. Dimmed lighting, dark substrate, and the addition of driftwood or botanicals are commonly recommended to mimic natural conditions and reduce stress.\n\nCan opportunistically consume very small fry and baby shrimp; generally considered safe with adult dwarf shrimp but may predate on freshly hatched shrimp or larvae.",
+  "breedingNotes": "Generally considered difficult to breed in captivity. Egg scatterers that tend to spawn in the evening; a separate breeding tank with very soft, acidic water (pH below 6.5), minimal lighting, a mesh or spawning mop substrate to protect eggs from adults, and a sponge filter is commonly recommended. Adults have been known to consume eggs and should generally be removed after spawning. Eggs typically hatch within 24–36 hours; fry are very small and may require infusoria or commercially available micro fry foods initially before accepting baby brine shrimp. Sexing is difficult without close inspection — females tend to be slightly rounder in the body when gravid.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "Aquarium Co-Op",
+      "url": "https://www.aquariumcoop.com/blogs/aquarium/rummy-nose-tetra",
+      "accessedDate": "2026-06-08",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "SeriouslyFish",
+        "url": "https://www.seriouslyfish.com/species/hemigrammus-rhodostomus/",
+        "accessedDate": "2026-06-08",
+        "notes": "Primary cross-verification source. Confirmed scientific name, size 5 cm, temperature 24–27°C, pH 5.5–7.0, gH 2–15, tank length 90 cm for 10+ fish, mid-water swim zone, omnivorous diet, peaceful temperament, minimum group 10. Also confirmed three-species trade confusion and tight schooling behavior."
+      },
+      {
+        "name": "Fishkeeping World",
+        "url": "https://www.fishkeepingworld.com/rummy-nose-tetra/",
+        "accessedDate": "2026-06-08",
+        "notes": "Secondary cross-verification. Confirmed omnivore, peaceful, schooling, min group 6 (used 8 as averaged conservative value). Gave temperature 75–84°F (24–29°C) and pH 6.2–7.0; lifespan 6–8 years; kH 2–10 (used 1–5 per blackwater species brief). Minor disagreement on pH minimum (6.2 vs 5.5); retained 5.5 as more consistent with blackwater biotope per SeriouslyFish and species brief."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
+    "breedingDifficulty": "difficult",
     "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
+    "conspecificAggression": "none",
+    "finNippy": false,
     "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
     "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -90,6 +134,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
+  "dataStatus": "researched",
   "lastReviewed": null
 }
