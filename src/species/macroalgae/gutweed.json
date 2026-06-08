@@ -1,0 +1,105 @@
+{
+  "id": "sw-algae-051",
+  "slug": "gutweed",
+  "kind": "flora",
+  "taxon": "macroalgae",
+  "waterType": "saltwater",
+  "commonName": "Gutweed",
+  "scientificName": "Ulva intestinalis",
+  "alsoKnownAs": ["Green Bait Weed", "Grass Kelp", "Enteromorpha intestinalis"],
+  "category": "Macroalgae",
+  "taxonomy": {
+    "family": "Ulvaceae",
+    "order": "Ulvales"
+  },
+  "nativeRange": {
+    "regions": [
+      "Cosmopolitan — Atlantic",
+      "Indo-Pacific",
+      "Mediterranean",
+      "Baltic Sea",
+      "Pacific",
+      "Bering Sea / North Pacific"
+    ],
+    "countries": [
+      "United States", "Japan", "Korea", "Russia", "Mexico",
+      "Philippines", "Israel", "New Zealand", "United Kingdom"
+    ],
+    "habitat": "Intertidal and shallow subtidal rocky and sandy shores; estuaries, tide pools, and brackish coastal waters; tolerant of wide salinity fluctuations",
+    "biotope": "Estuary",
+    "depthRangeM": { "min": 0, "max": 10 }
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 10, "max": 28 },
+    "pH": { "min": 7.5, "max": 8.4 },
+    "gH": null,
+    "kH": null,
+    "salinity": { "min": 1.005, "max": 1.026 }
+  },
+  "adultSizeCm": { "min": 10, "max": 30 },
+  "lifespanYears": null,
+  "tank": {
+    "minVolumeLiters": 40,
+    "minLengthCm": null,
+    "swimZone": null,
+    "decorPreferences": ["refugium with moderate tumbling flow", "live rock anchor point"],
+    "minSandDepthCm": null
+  },
+  "careLevel": "beginner",
+  "diet": null,
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "solitary",
+    "minGroupSize": null,
+    "goodWith": ["tangs", "rabbitfish", "herbivorous fish", "hermit crabs", "snails", "shrimp", "copepods"],
+    "avoidWith": []
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A cosmopolitan estuarine-intertidal green macroalgae with distinctive tubular hollow fronds. Fast-growing refugium nutrient-export species; brackish-tolerant and considered beginner-friendly.",
+  "careNotes": "Gutweed (Ulva intestinalis) is the tubular-frond member of the Ulva genus, distinguished from its sibling Clean Sea Lettuce (Ulva lactuca, sw-algae-011) by its hollow, intestine-like cylindrical fronds rather than flat sheet thallus. Fronds have been documented reaching 10–30 cm in length and 6–18 mm in width, with rounded tips and irregularly arranged cells.\n\nTaxonomic note: the species was formerly classified as Enteromorpha intestinalis and placed in the now-synonymised genus Enteromorpha. Reclassification to Ulva intestinalis occurred following genetic work completed in the early 2000s (commonly cited as ~2003), which demonstrated that the tubular and flat Ulva/Enteromorpha forms are not phylogenetically distinct. The old name Enteromorpha intestinalis persists in much of the aquarium hobby literature and some older AlgaeBase references.\n\nIn the aquarium, Mosaic Macros notes that the tubular filaments will need to be anchored — unlike the round tumbling mass of Chaetomorpha, Gutweed grows in somewhat directional hair-like to string-like fronds that benefit from attachment to a holdfast point or rock rubble. Moderate flow is generally advised.\n\nThe species is naturally cosmopolitan and highly euryhaline: wild populations are commonly documented in estuaries, tide pools, and brackish coastal waters spanning salinity ranges from near-freshwater to full marine. For refugium use, standard reef parameters (SG 1.023–1.026, 24–26°C, pH 8.0–8.4) are appropriate, though the species has been reported tolerating SG as low as 1.005 in its natural estuarine habitat.\n\nGrowth rate is generally fast — consistent with Ulva genus performance. As a nutrient exporter it has been described as effective at assimilating nitrate and phosphate; regular harvesting is advised to export accumulated nutrients. It is less commonly offered in the hobby than U. lactuca (sea lettuce) or Chaetomorpha and is sold primarily through specialty suppliers such as Mosaic Macros. Mosaic is currently the sole documented aquarium hobby source for this species; water parameters and husbandry guidance are extrapolated from genus-level Ulva data and wild ecological records.",
+  "breedingNotes": "Propagates readily by fragmentation in the aquarium — detached frond segments will regrow under suitable conditions. Also undergoes sexual reproduction via isomorphic alternation of gametophyte and sporophyte generations, consistent with the broader Ulva life cycle; deliberate management of this in captivity is not documented.",
+  "sources": {
+    "primary": {
+      "name": "Mosaic Macros",
+      "url": "https://mosaicmacros.com/products/copy-sea-lettuce-ulva-sp",
+      "accessedDate": "2026-06-08",
+      "notes": "Sole aquarium hobby source. Confirms scientific name Ulva intestinalis, common name Gutweed, tubular/hair-like filament form, refugium placement, nutrient-export function. Specific water parameters not provided on product page."
+    },
+    "additional": [
+      {
+        "name": "Wikipedia — Ulva intestinalis",
+        "url": "https://en.wikipedia.org/wiki/Ulva_intestinalis",
+        "accessedDate": "2026-06-08",
+        "notes": "Confirmed taxonomy (Ulvaceae / Ulvales), synonym Enteromorpha intestinalis, reclassification via early-2000s genetic work, cosmopolitan distribution, tubular frond morphology (10–30 cm, 6–18 mm wide), brackish/estuarine habitat, isomorphic alternation of generations life cycle. Used as basis for size range, native range, and salinity tolerance."
+      },
+      {
+        "name": "AlgaeBarn — Clean Sea Lettuce (Ulva lactuca sibling reference)",
+        "url": "https://www.algaebarn.com/shop/macroalgae/clean-sea-lettuce/",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-reference for Ulva genus husbandry: confirms fast growth, refugium placement, high nutrient uptake, herbivore food value, shallow rocky reef habitat. Water parameters for U. intestinalis inferred at genus level — brackish tolerance differentiated from U. lactuca based on Wikipedia ecological data."
+      }
+    ]
+  },
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": {
+    "lighting": "medium",
+    "growthRate": "fast",
+    "form": "macroalgae",
+    "placement": "refugium",
+    "nutrientUptake": "high",
+    "propagation": ["fragmentation", "gametophyte-sporophyte alternation"]
+  },
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
+}

@@ -1,0 +1,119 @@
+{
+  "id": "sw-algae-057",
+  "slug": "mega-fern-caulerpa",
+  "kind": "flora",
+  "taxon": "macroalgae",
+  "waterType": "saltwater",
+  "commonName": "Mega Fern Caulerpa",
+  "scientificName": "Caulerpa ashmeadii",
+  "alsoKnownAs": ["Large Fern Caulerpa"],
+  "category": "Macroalgae",
+
+  "taxonomy": {
+    "family": "Caulerpaceae",
+    "order": "Bryopsidales"
+  },
+
+  "nativeRange": {
+    "regions": ["Atlantic", "Caribbean"],
+    "countries": ["United States (Florida)", "Bahamas", "Caribbean basin"],
+    "habitat": "Shallow coastal sandy areas, rubble zones, and seagrass-bed margins in warm Atlantic waters",
+    "biotope": "Coastal",
+    "depthRangeM": { "min": 0, "max": 20 }
+  },
+
+  "waterParameters": {
+    "temperatureC": { "min": 22.0, "max": 26.0 },
+    "pH":           { "min": 8.1, "max": 8.4 },
+    "gH":           null,
+    "kH":           { "min": 8, "max": 12 },
+    "salinity":     { "min": 1.023, "max": 1.025 }
+  },
+
+  "adultSizeCm": { "min": 8, "max": 40 },
+  "lifespanYears": null,
+
+  "tank": {
+    "minVolumeLiters": 40,
+    "minLengthCm": null,
+    "swimZone": null,
+    "decorPreferences": ["rockwork for holdfast anchoring", "sandbed", "rubble substrate"],
+    "minSandDepthCm": null
+  },
+
+  "careLevel": "beginner",
+
+  "diet": null,
+
+  "compatibility": {
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["reef fish", "most corals (with distance)", "invertebrates", "snails", "hermit crabs", "shrimp"],
+    "avoidWith": ["sensitive SPS corals (direct contact)", "tanks with no light schedule control"]
+  },
+
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": [
+      {
+        "url": "https://mosaicmacros.com/cdn/shop/files/IMG-9499.jpg",
+        "source": "Mosaic Macros",
+        "sourceType": "research-site",
+        "license": "All rights reserved",
+        "notes": "Mosaic Macros product image. Sole available trade source image at time of research.",
+        "recommended": true
+      }
+    ]
+  },
+
+  "summary": "A large, feathery fern-form green macroalgae from the Atlantic, generally slower-growing than most Caulerpa but valued as a striking display specimen. Allelopathic like all Caulerpa; banned in California.",
+
+  "careNotes": "Caulerpa ashmeadii (Mega Fern Caulerpa) is a siphonous green macroalgae bearing large, fern-like fronds considerably bigger than those of the closely related Feather Caulerpa (C. sertularioides, sw-algae-035). The thallus grows from a creeping stolon that anchors into sand, rubble, or rockwork via rhizoids. Mosaic Macros, the sole current hobby trade source, notes the species is slower-growing relative to other Caulerpa and is primarily suited to display use, though refugium placement is also feasible.\n\nMosaic Macros is currently the only known hobby source for this species. Water parameters and general husbandry are extrapolated from genus-level Caulerpa standards, corroborated by the sibling entries Caulerpa prolifera (sw-algae-004) and Feather Caulerpa (sw-algae-035). Users should cross-reference those entries for shared genus-level considerations.\n\nALLELOPATHY: Like all Caulerpa species, C. ashmeadii is expected to release secondary metabolites including caulerpin and caulerpenyne into the water column. These compounds have been shown to inhibit or stress nearby corals and competing algae. Physical separation from sensitive SPS corals is generally advised; activated carbon use is commonly recommended by experienced keepers to mitigate allelopathic load.\n\nGOING SEXUAL / REPRODUCTIVE CRASH: Under stress — particularly nutrient crashes, disrupted photoperiod, or rapid temperature swings — Caulerpa species can undergo holocarpy, converting the entire thallus to gametes and effectively dying. This releases organic matter and gametes into the water column, posing a severe acute water-quality risk (ammonia spike, oxygen depletion) capable of crashing a reef tank. Mitigations: run refugium lighting on a 24-hour cycle; harvest or prune regularly to keep the colony in active vegetative growth; maintain stable moderate nutrient levels; remove any specimen showing white/translucent fronds or turbid gamete release immediately.\n\nINVASIVE CONCERN: The genus Caulerpa includes several documented marine invasive species. Captive specimens must never be released into natural waterways. This species is banned for sale in California and cannot be shipped there.\n\nSIZE NOTE: Mosaic sells cuttings in 2–3\" (2–3 blades) and 5\"+ (4+ blades) grades. The large frond size (\"Mega Fern\") is the primary ornamental appeal of this species versus smaller fern-form Caulerpa.\n\nUPON ARRIVAL: Mosaic Macros notes that newly shipped specimens nearly always appear white or translucent (bleached) due to chloroplast displacement during dark shipping. Coloration is expected to recover within hours under appropriate lighting.",
+
+  "breedingNotes": "Propagates primarily via fragmentation — separated frond or stolon pieces have been documented to establish as new plants in the Caulerpa genus. Vegetative tip growth along the stolon is the primary growth mode in captivity. Sexual reproduction (holocarpy) is destructive and should be actively prevented (see careNotes).",
+
+  "sources": {
+    "primary": {
+      "name": "Mosaic Macros",
+      "url": "https://mosaicmacros.com/products/large-fern-caulerpa-caulerpa-ashmeadii",
+      "accessedDate": "2026-06-08",
+      "notes": "Sole known hobby trade source for this species at time of research. Product page confirms scientific name (Caulerpa ashmeadii), display suitability, large fern-like frond morphology, slower growth rate relative to other Caulerpa, California ban, and typical arrival bleaching. Water parameters and detailed husbandry extrapolated from genus-level Caulerpa standards."
+    },
+    "additional": [
+      {
+        "name": "Wikipedia — Caulerpa (genus)",
+        "url": "https://en.wikipedia.org/wiki/Caulerpa",
+        "accessedDate": "2026-06-08",
+        "notes": "Confirms C. ashmeadii Harvey, 1858 as a recognized species in the genus list. Confirms Family Caulerpaceae, Order Bryopsidales. Notes genus-level secondary metabolites (caulerpin, caulerpenyne) and fast growth / nitrate-absorbing characteristics."
+      },
+      {
+        "name": "AquaMate cross-reference: Caulerpa prolifera (sw-algae-004)",
+        "url": "https://mosaicmacros.com/products/seagrass-caulerpa-caulerpa-prolifera",
+        "accessedDate": "2026-06-08",
+        "notes": "Sister Atlantic Caulerpa species used to corroborate standard reef water parameters (temp 22–26°C, pH 8.1–8.4, salinity 1.023–1.025, kH 8–12) and Caulerpa-specific caveats (allelopathy, reproductive crash, invasive concern). Parameters applied to this entry as genus-level extrapolation."
+      }
+    ]
+  },
+
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": {
+    "lighting":       "high",
+    "growthRate":     "fast",
+    "form":           "macroalgae",
+    "placement":      "display",
+    "nutrientUptake": "high",
+    "propagation":    ["fragmentation", "vegetative tip growth"]
+  },
+
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
+}

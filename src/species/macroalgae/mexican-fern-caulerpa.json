@@ -1,0 +1,113 @@
+{
+  "id": "sw-algae-061",
+  "slug": "mexican-fern-caulerpa",
+  "kind": "flora",
+  "taxon": "macroalgae",
+  "waterType": "saltwater",
+  "commonName": "Mexican Fern Caulerpa",
+  "scientificName": "Caulerpa mexicana",
+  "alsoKnownAs": ["Mexican Fern Algae"],
+  "category": "Macroalgae",
+
+  "taxonomy": {
+    "family": "Caulerpaceae",
+    "order": "Bryopsidales"
+  },
+
+  "nativeRange": {
+    "regions": ["Gulf of Mexico", "Caribbean", "Atlantic"],
+    "countries": ["Mexico", "United States (Florida, Gulf Coast)", "Brazil", "Bahamas", "Caribbean Islands"],
+    "habitat": "Shallow tropical and subtropical coastal waters; typically found on sandy and rubble substrates, reef flats, and seagrass-adjacent zones in the photic zone",
+    "biotope": "Coastal",
+    "depthRangeM": { "min": 0, "max": 30 }
+  },
+
+  "waterParameters": {
+    "temperatureC": { "min": 22.0, "max": 26.0 },
+    "pH":           { "min": 8.1, "max": 8.4 },
+    "gH":           null,
+    "kH":           { "min": 8, "max": 12 },
+    "salinity":     { "min": 1.023, "max": 1.025 }
+  },
+
+  "adultSizeCm": { "min": 5, "max": 30 },
+  "lifespanYears": null,
+
+  "tank": {
+    "minVolumeLiters": 40,
+    "minLengthCm": null,
+    "swimZone": null,
+    "decorPreferences": ["sandbed for stolon anchoring", "rubble substrate", "rockwork for holdfast attachment"],
+    "minSandDepthCm": null
+  },
+
+  "careLevel": "beginner",
+
+  "diet": null,
+
+  "compatibility": {
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["reef fish", "most corals (with distance)", "invertebrates", "snails", "hermit crabs", "shrimp"],
+    "avoidWith": ["sensitive SPS corals (direct contact)", "herbivorous fish (tangs, rabbitfish, sea urchins)", "tanks with no photoperiod control"]
+  },
+
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": [
+      {
+        "url": "https://mosaicmacros.com/cdn/shop/files/IMG-9499.jpg",
+        "source": "Mosaic Macros",
+        "sourceType": "research-site",
+        "license": "All rights reserved",
+        "notes": "Primary product image from Mosaic Macros listing. Sole hobby trade source for this species.",
+        "recommended": true
+      }
+    ]
+  },
+
+  "summary": "A feathery fern-like green macroalgae from the Gulf of Mexico and Caribbean, with attractive pinnate fronds growing from a creeping stolon. Fast-growing, beginner-friendly, and allelopathic like all Caulerpa; banned in California.",
+
+  "careNotes": "Caulerpa mexicana (Mexican Fern Caulerpa) is a siphonous green macroalgae producing attractive, fern-like pinnate blades arising from a creeping stolon that anchors into sandbed or rockwork via rhizoids. The fronds are described by Mosaic Macros as particularly ornamental, making it suitable for display placements alongside refugium use. Growth is described as prolific — typical of the Caulerpa genus — and in the right conditions it may expand rapidly.\n\nMOSAIC-ONLY SOURCE: At time of research, Mexican Fern Caulerpa is carried exclusively by Mosaic Macros in the hobby trade. AlgaeBarn and Top Shelf Aquatics do not appear to stock it. Water parameters, care level, and husbandry standards below are extrapolated from Caulerpa genus-level data corroborated by sibling entries in this dataset (see caulerpa-prolifera sw-algae-004, feather-caulerpa sw-algae-035).\n\nALLELOPATHY: Like all Caulerpa species, C. mexicana is expected to release secondary metabolites — including caulerpin and caulerpenyne — into the water column. These compounds have been shown to inhibit or stress nearby corals and competing algae in research settings. Physical separation from sensitive SPS corals is generally advised, and running activated carbon in the system is a common mitigation. Refugium placement limits direct allelopathic exposure to display corals.\n\nGOING SEXUAL / REPRODUCTIVE CRASH: As with all Caulerpa species, C. mexicana can undergo holocarpy — a stress-triggered event in which the entire organism converts its cytoplasm to gametes and effectively dies, releasing large quantities of organic matter into the water column. Triggers include sharp nutrient crashes (running nitrate/phosphate to zero), disrupted photoperiod, or rapid temperature swings. Mitigations: run refugium lighting on a continuous 24-hour cycle; harvest regularly to keep the colony in active vegetative growth; maintain stable (not zero) nutrient levels; and immediately remove any specimen showing white or translucent fronds or turbid gamete release.\n\nINVASIVE CONCERN: Mosaic Macros explicitly designates this species as potentially invasive, consistent with the broader Caulerpa genus profile. Captive specimens must never be released into natural waterways. The species is banned for sale in the state of California (Mosaic will not ship to CA).\n\nGENERAL CARE: Standard high-intensity reef lighting (5,000K or higher; 8+ hour photoperiod for display, or 24-hour for refugium) is generally recommended for Caulerpa species. Moderate water flow is broadly suitable; gentle tumbling suits refugium deployment. Freshly arrived specimens may appear white or translucent due to chloroplast displacement during dark shipping — this is normal and coloration recovers within hours of light exposure. Herbivorous tankmates (tangs, rabbitfish, sea urchins) will readily graze this species.\n\nCROSS-REFERENCE: See feather-caulerpa (sw-algae-035, Caulerpa sertularioides) and mega-fern-caulerpa (sw-algae-057, Caulerpa ashmeadii) for sibling fern-form Caulerpa species with similar morphology and husbandry requirements.",
+
+  "breedingNotes": "Propagates readily via fragmentation — detached frond pieces have been reported to establish as new plants across the Caulerpa genus. Vegetative tip growth along the stolon is the primary growth mode in captivity. Sexual reproduction (holocarpy) is a destructive stress response rather than a useful propagation method; aquarists should take active steps to prevent triggering it (see careNotes).",
+
+  "sources": {
+    "primary": {
+      "name": "Mosaic Macros",
+      "url": "https://mosaicmacros.com/products/mexican-fern-caulerpa-caulerpa-mexicana",
+      "accessedDate": "2026-06-08",
+      "notes": "Sole known hobby trade source at time of research. Confirms species identity (Caulerpa mexicana), fern-like morphology, prolific growth, display suitability, invasive designation, and California ban. Water parameters and detailed husbandry extrapolated from Caulerpa genus standards."
+    },
+    "additional": [
+      {
+        "name": "Wikipedia — Caulerpa (genus)",
+        "url": "https://en.wikipedia.org/wiki/Caulerpa",
+        "accessedDate": "2026-06-08",
+        "notes": "Confirmed taxonomy (Family Caulerpaceae, Order Bryopsidales, Class Ulvophyceae, Division Chlorophyta). Confirmed C. mexicana as a recognized species in the genus. General genus characteristics: siphonous unicellular structure, tropical distribution, photic zone (0–100 m), secondary metabolites (caulerpin, caulerpenyne), and invasive designations for the broader genus. Species-specific data for C. mexicana not available at the genus article level."
+      }
+    ]
+  },
+
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": {
+    "lighting":       "high",
+    "growthRate":     "fast",
+    "form":           "macroalgae",
+    "placement":      "display",
+    "nutrientUptake": "high",
+    "propagation":    ["fragmentation", "vegetative tip growth"]
+  },
+
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
+}

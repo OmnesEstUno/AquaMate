@@ -1,0 +1,119 @@
+{
+  "id": "sw-algae-053",
+  "slug": "intricate-laurencia",
+  "kind": "flora",
+  "taxon": "macroalgae",
+  "waterType": "saltwater",
+  "commonName": "Intricate Laurencia",
+  "scientificName": "Laurencia intricata",
+  "alsoKnownAs": [],
+  "category": "Macroalgae",
+
+  "taxonomy": {
+    "family": "Rhodomelaceae",
+    "order": "Ceramiales"
+  },
+
+  "nativeRange": {
+    "regions": ["Caribbean Sea", "Tropical Atlantic", "Indo-Pacific"],
+    "countries": [],
+    "habitat": "Shallow reef habitats and rocky intertidal to subtidal zones; typically found attached to hard substrates such as rock, rubble, and dead coral in the photic zone",
+    "biotope": "Marine reef / hard substrate",
+    "depthRangeM": { "min": 0, "max": 30 }
+  },
+
+  "waterParameters": {
+    "temperatureC": { "min": 24, "max": 27 },
+    "pH": { "min": 7.8, "max": 8.4 },
+    "gH": null,
+    "kH": null,
+    "salinity": { "min": 1.023, "max": 1.026 }
+  },
+
+  "adultSizeCm": { "min": 5, "max": 13 },
+  "lifespanYears": null,
+
+  "tank": {
+    "minVolumeLiters": 40,
+    "minLengthCm": null,
+    "swimZone": null,
+    "decorPreferences": ["live rock", "limestone rubble", "aragonite substrate"],
+    "minSandDepthCm": null
+  },
+
+  "careLevel": "intermediate",
+
+  "diet": null,
+
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["peaceful reef fish", "corals", "invertebrates", "cleaner shrimp", "hermit crabs"],
+    "avoidWith": ["herbivorous fish likely to graze heavily on macroalgae", "sea urchins in macroalgae displays"]
+  },
+
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": [
+      {
+        "url": "https://mosaicmacros.com/cdn/shop/files/IMG-4254.jpg",
+        "source": "Mosaic Macros",
+        "sourceType": "research-site",
+        "license": "All rights reserved",
+        "notes": "Primary product photo from Mosaic Macros listing for Intricate Laurencia; shows compact branching red thallus with knobbed tips.",
+        "recommended": true
+      }
+    ]
+  },
+
+  "summary": "A very compact red macroalgae (family Rhodomelaceae) with dense, intricately branching thalli tipped with small knobs; available in red, yellow, and pink color forms. Generally suited to display placement in established reef tanks.",
+
+  "careNotes": "Intricate Laurencia (Laurencia intricata, family Rhodomelaceae, order Ceramiales) is a species-level entry distinct from the genus-level sibling sw-algae-040 (Flat Purple Laurencia, Laurencia sp.) and the Color-Shifting Laurencia sw-algae-030 (Yuzurua iridescens). The Mosaic Macros product page describes it as a very small, erect-branching red macroalgae with small knobs at the branch tips, available in red, yellow, or pink coloration; cuttings are sold on plugs or as 5\"+ loose fragments.\n\nThe species is noted by Mosaic as VERY sensitive to shipping, requiring expedited air shipping (UPS 2nd-Day or Next-Day Air) to qualify for the live arrival guarantee — this is unusual even among specialty macroalgae and suggests sensitivity to temperature fluctuation and physical stress during transit. Acclimation care is therefore advisable.\n\nWater parameters are extrapolated from family-level (Rhodomelaceae) and genus-level (Laurencia) care knowledge, consistent with the sibling entries: temperature generally advised around 24–27°C, salinity 1.023–1.026 SG, and pH 7.8–8.4. Standard reef water quality is expected. Moderate lighting (medium intensity) tends to be recommended for ornamental red macroalgae of this family. Secure anchoring of the holdfast to live rock or rubble tends to improve long-term success; good water flow has been reported to benefit health in related Laurencia species.\n\nNutrient uptake is generally considered low; this is an ornamental display specimen rather than a refugium nutrient exporter. Propagation in the aquarium is typically by fragmentation. Herbivorous fish and sea urchins may graze on Laurencia; isolation from heavy grazers is generally advisable for ornamental display use. Mosaic Macros is currently the sole identified specialty hobby source for this species.",
+
+  "breedingNotes": null,
+
+  "sources": {
+    "primary": {
+      "name": "Mosaic Macros",
+      "url": "https://mosaicmacros.com/products/intricate-laurencia-macroalgae-laurencia-intricata",
+      "accessedDate": "2026-06-08",
+      "notes": "Sole hobby source for this species. Product page confirms Laurencia intricata scientific name, compact knobby branching morphology, red/yellow/pink color forms, and extreme shipping sensitivity requiring expedited air shipping."
+    },
+    "additional": [
+      {
+        "name": "AquaMate – Color-Shifting Laurencia (sw-algae-030, Yuzurua iridescens)",
+        "url": "https://mosaicmacros.com/products/iridescent-laurencia-laurencia-iridescens",
+        "accessedDate": "2026-06-08",
+        "notes": "Sibling Laurencia entry (family Rhodomelaceae, order Ceramiales) used as cross-reference for water parameters, care level, and placement conventions. Species-level researched entry."
+      },
+      {
+        "name": "AquaMate – Flat Purple Laurencia (sw-algae-040, Laurencia sp.)",
+        "url": "https://mosaicmacros.com/products/flat-purple-laurencia-laurencia-sp",
+        "accessedDate": "2026-06-08",
+        "notes": "Genus-level sibling Laurencia consolidation entry used as secondary cross-reference for family-level husbandry parameters."
+      }
+    ]
+  },
+
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": {
+    "lighting": "medium",
+    "growthRate": "medium",
+    "form": "macroalgae",
+    "placement": "display",
+    "nutrientUptake": "low",
+    "propagation": ["fragmentation"]
+  },
+
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
+}

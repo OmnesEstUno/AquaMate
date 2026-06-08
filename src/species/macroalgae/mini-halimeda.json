@@ -1,0 +1,119 @@
+{
+  "id": "sw-algae-063",
+  "slug": "mini-halimeda",
+  "kind": "flora",
+  "taxon": "macroalgae",
+  "waterType": "saltwater",
+  "commonName": "Mini Halimeda",
+  "scientificName": "Halimeda tuna",
+  "alsoKnownAs": ["Tuna Halimeda"],
+  "category": "Calcareous Macroalgae",
+
+  "taxonomy": {
+    "family": "Halimedaceae",
+    "order": "Bryopsidales"
+  },
+
+  "nativeRange": {
+    "regions": ["Caribbean", "Tropical Atlantic", "Indo-Pacific", "Mediterranean Sea"],
+    "countries": [],
+    "habitat": "Rocky reef and hard substrate in shallow subtidal and deeper slope environments; anchors via holdfast to rock surfaces rather than burying into sand. Found in shallow back-reef zones, fore-reef slopes, and dimly-lit rocky habitats to considerable depth.",
+    "biotope": "Reef",
+    "depthRangeM": { "min": 1, "max": 70 }
+  },
+
+  "waterParameters": {
+    "temperatureC": { "min": 24, "max": 27 },
+    "pH":           { "min": 8.1, "max": 8.3 },
+    "gH":           null,
+    "kH":           { "min": 8, "max": 12 },
+    "salinity":     { "min": 1.023, "max": 1.026 }
+  },
+
+  "adultSizeCm": { "min": 2, "max": 5 },
+  "lifespanYears": null,
+
+  "tank": {
+    "minVolumeLiters": 40,
+    "minLengthCm": null,
+    "swimZone": null,
+    "decorPreferences": ["rockwork or live rock for holdfast anchoring", "stable high-light placement", "open display area away from direct strong powerhead flow"],
+    "minSandDepthCm": null
+  },
+
+  "careLevel": "intermediate",
+
+  "diet": null,
+
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["peaceful reef fish", "corals", "snails", "hermit crabs", "shrimp"],
+    "avoidWith": ["urchins that may dislodge or consume calcified segments", "large herbivorous fish such as tangs that may graze heavily in smaller tanks"]
+  },
+
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": [
+      {
+        "url": "https://mosaicmacros.com/cdn/shop/files/IMG-9453.jpg",
+        "source": "Mosaic Macros",
+        "sourceType": "research-site",
+        "license": "All rights reserved",
+        "notes": "Primary product image from Mosaic Macros listing for Mini Halimeda (Halimeda tuna). Sole hobby-trade source image for this specialty entry.",
+        "recommended": true
+      }
+    ]
+  },
+
+  "summary": "A compact calcareous green macroalgae (family Halimedaceae) with small flattened disc-like segments, maxing out around 5 cm. Rock-anchored; generally unpalatable to most reef fish. Requires stable calcium, magnesium, and high lighting.",
+
+  "careNotes": "Mini Halimeda (Halimeda tuna) is a heavily calcified green macroalga in the family Halimedaceae, order Bryopsidales, class Ulvophyceae. It is distinguished from other Halimeda species by its notably small, flattened, disc- or kidney-shaped segments and its compact overall size — specimens tend to max out around 2 inches (~5 cm) in aquaria, making it the smallest of the Halimeda species commonly kept in the reef hobby. Unlike Forked Halimeda (H. incrassata), which uses a sand-buried holdfast, H. tuna attaches directly to hard substrate (rock surfaces), making it well-suited for display placement directly on live rock without requiring a deep sand bed.\n\nCALCIUM AND ALKALINITY: As a calcareous alga, H. tuna deposits calcium carbonate (aragonite) into each segment, with calcareous macroalgae in the Halimedaceae family documented at approximately 60–80% aragonite by dry mass. Maintaining standard reef calcium (380–450 ppm Ca), stable magnesium (1,250–1,350 ppm Mg), and alkalinity (8–12 dKH) is generally advised. Drops in calcium or alkalinity can stall growth and cause segment whitening. Supplemental calcium dosing (two-part, calcium reactor, or kalkwasser) may be beneficial in tanks with larger established colonies.\n\nLIGHTING: High-intensity lighting is generally advised for calcareous Halimeda species. H. tuna does possess photosynthetic pigments (carotenoids siphonein and siphonaxanthin in addition to chlorophyll) that enable some adaptation to lower light in deeper natural habitats, but aquarium specimens are generally reported to perform best under reef-grade high light conditions.\n\nGROWTH RATE: Growth tends to be slow, reflecting the metabolic cost of CaCO3 deposition into each new segment. This is normal and should not be interpreted as decline.\n\nSHIPPING WHITENING: Halimeda commonly arrives appearing white or pale following shipment, as chloroplasts migrate deeper into tissue in darkness. Coloration typically returns within a few hours of light exposure — this is well-documented behavior in the genus.\n\nGRAZING RESISTANCE: The calcified segments are generally considered unpalatable to most marine fish and invertebrates. Urchins and some larger herbivorous fish have been reported to consume Halimeda segments in aquaria.\n\nDEPTH RANGE NOTE: H. tuna is documented in the wild at depths to approximately 70 m — a broader range than most Halimeda siblings. This reflects its photosynthetic pigment adaptations; in captivity standard high-light reef conditions are still recommended.\n\nSOURCE CAVEAT: This entry is based primarily on the Mosaic Macros product page (sole known hobby-trade source at time of writing, 2026-06-08) and Wikipedia's Halimeda tuna article, supplemented by genus-level and sibling-species care data (cactus-halimeda H. monile, coin-halimeda H. discoidea, forked-halimeda H. incrassata, carpeting-halimeda H. opuntia). Water parameters are consistent with standard reef chemistry recommendations applied consistently across the Halimeda slice. AlgaeBase was inaccessible (CAPTCHA) — Wikipedia used as taxonomy fallback per playbook.\n\nSIBLING SPECIES: See also cactus-halimeda (H. monile, cylindrical stacked segments), carpeting-halimeda (H. opuntia, flat segments creeping across rockwork), coin-halimeda (H. discoidea, large rounded coin-shaped segments), and forked-halimeda (H. incrassata, three-lobed forked segments with sand-buried holdfast).",
+
+  "breedingNotes": "Propagation in captivity is typically achieved by fragmentation — detaching a healthy segment chain and placing it against rockwork until it establishes a new holdfast. Sexual reproduction (alternating gametophyte–sporophyte lifecycle typical of green algae) has not been documented in hobby aquaria. H. tuna is documented to reproduce sexually in nature via synchronised gametangium development, but this is not a practical captive propagation method.",
+
+  "sources": {
+    "primary": {
+      "name": "Mosaic Macros",
+      "url": "https://mosaicmacros.com/products/mini-halimeda-macroalgae-halimeda-tuna",
+      "accessedDate": "2026-06-08",
+      "notes": "Sole hobby-trade source found for this specialty entry. Confirms scientific name Halimeda tuna, maximum size ~2 inches, heavily calcified, grows up from substrate, generally unpalatable to most fish, shipping whitening behavior. Sold as 1–2\" cutting on plug."
+    },
+    "additional": [
+      {
+        "name": "Wikipedia — Halimeda tuna",
+        "url": "https://en.wikipedia.org/wiki/Halimeda_tuna",
+        "accessedDate": "2026-06-08",
+        "notes": "Taxonomy confirmed: family Halimedaceae, order Bryopsidales, class Ulvophyceae, division Chlorophyta. Distribution: Caribbean, Indo-Pacific, Mediterranean. Habitat: shallow subtidal rocky reef to ~70 m depth. Morphology: flattened disc-like segments, calcium carbonate and aragonite deposits. Photosynthetic pigments siphonein and siphonaxanthin noted. AlgaeBase was inaccessible (CAPTCHA) — Wikipedia used as taxonomy fallback per playbook."
+      },
+      {
+        "name": "Sibling Halimeda entries (cactus-halimeda, carpeting-halimeda, coin-halimeda, forked-halimeda)",
+        "url": "https://mosaicmacros.com/products/cactus-halimeda-halimeda-monile",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-referenced already-researched sibling species files (H. monile, H. opuntia, H. discoidea, H. incrassata) to ensure consistent water parameters, macroalgae variant block values, and husbandry guidance across the Halimeda slice. Parameters align with genus-level reef husbandry standards confirmed across all four siblings."
+      }
+    ]
+  },
+
+  "fish":        null,
+  "crustacean":  null,
+  "coral":       null,
+  "mollusc":     null,
+  "echinoderm":  null,
+  "other-invert": null,
+  "plant":       null,
+  "macroalgae": {
+    "lighting":       "high",
+    "growthRate":     "slow",
+    "form":           "calcareous",
+    "placement":      "display",
+    "nutrientUptake": "low",
+    "propagation":    ["fragmentation"]
+  },
+
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
+}

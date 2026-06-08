@@ -1,0 +1,104 @@
+{
+  "id": "sw-algae-055",
+  "slug": "jointed-tuft",
+  "kind": "flora",
+  "taxon": "macroalgae",
+  "waterType": "saltwater",
+  "commonName": "Jointed Tuft",
+  "scientificName": "Cymopolia barbata",
+  "alsoKnownAs": [],
+  "category": "Macroalgae",
+  "taxonomy": {
+    "family": "Dasycladaceae",
+    "order": "Dasycladales"
+  },
+  "nativeRange": {
+    "regions": ["Caribbean", "Western Atlantic"],
+    "countries": ["United States", "Mexico", "Belize", "Jamaica", "Cuba", "Puerto Rico", "Bahamas", "Bermuda", "Venezuela"],
+    "habitat": "Shallow tropical marine environments; typically found anchored in sandy substrates near reef flats, rubble zones, and sheltered lagoons",
+    "biotope": "Tropical reef and sandy lagoon",
+    "depthRangeM": { "min": 0, "max": 20 }
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 23, "max": 27 },
+    "pH": { "min": 8.1, "max": 8.3 },
+    "gH": null,
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.023, "max": 1.026 }
+  },
+  "adultSizeCm": { "min": 4, "max": 15 },
+  "lifespanYears": null,
+  "tank": {
+    "minVolumeLiters": 40,
+    "minLengthCm": null,
+    "swimZone": null,
+    "decorPreferences": ["sandy substrate for anchoring", "open display placement", "moderate flow area"],
+    "minSandDepthCm": 5
+  },
+  "careLevel": "advanced",
+  "diet": null,
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["reef fish", "snails", "hermit crabs", "shrimp", "corals"],
+    "avoidWith": ["herbivorous fish (may graze on thallus)", "urchins (may heavily graze)"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": [
+      {
+        "url": "https://mosaicmacros.com/cdn/shop/files/IMG-5271.jpg",
+        "source": "Mosaic Macros",
+        "sourceType": "research-site",
+        "license": "All rights reserved",
+        "notes": "Primary Mosaic Macros product image for Jointed Tuft (Cymopolia barbata)",
+        "recommended": true
+      }
+    ]
+  },
+  "summary": "Jointed Tuft is a heavily calcified Caribbean green macroalgae (Dasycladaceae) with distinctive segmented joints tipped by small green tufts. Generally considered advanced; requires stable calcium, alkalinity, and high lighting.",
+  "careNotes": "Jointed Tuft (Cymopolia barbata) is a heavily calcified green macroalgae in the family Dasycladaceae (Order Dasycladales), closely related to Batophora sp. (Fern Finger, sw-algae-036) within the same family. Its most recognisable feature is a series of calcified, jointed segments each topped by a small green tuft of branchlets — the source of both its scientific epithet (barbata, meaning bearded) and its common name.\n\nIn the wild, Cymopolia barbata tends to occur in shallow Caribbean and Western Atlantic waters, anchored in sandy or rubble substrates near reef margins, lagoons, and sheltered coastal zones, generally from the surface down to roughly 20 m. It is a Caribbean specialty and has been reported from Florida, the Bahamas, Cuba, Jamaica, Puerto Rico, Belize, Bermuda, and Venezuela.\n\nAs a heavily calcified green alga, Cymopolia is generally considered more demanding than most non-calcified macroalgae and more difficult than its Dasycladaceae sibling Batophora. Stable calcium (400–450 ppm) and alkalinity (kH 8–12) are widely regarded as important for maintaining the calcified skeleton; fluctuations in these parameters tend to result in segment bleaching or tissue decline. High lighting is generally advised — low-light conditions are commonly associated with arrested growth or gradual deterioration. Growth rate is typically described as slow, consistent with the energy cost of calcification.\n\nThis species is sand-anchored in nature and tends to perform best when given at least 5 cm of sand substrate to anchor its holdfast. Mosaic Macros sells it as 1.5–2\" cuttings on plug or as 4\"+ branching cuttings.\n\nMosaic Macros is the sole identified aquarium hobby source for this species. Care guidance has been extrapolated from Mosaic product notes, Dasycladaceae family-level husbandry knowledge (cross-referenced with the closely related Batophora sp. entry), and general calcareous green macroalgae literature. Only a single hobby-trade source was available; dataStatus is researched based on the strength of family-level cross-reference, but a reviewer may wish to verify water parameter ranges independently.",
+  "breedingNotes": null,
+  "sources": {
+    "primary": {
+      "name": "Mosaic Macros",
+      "url": "https://mosaicmacros.com/products/jointed-tuft-algae-cymopolia-barbata",
+      "accessedDate": "2026-06-08",
+      "notes": "Sole aquarium hobby source for this species. Product description confirms heavy calcification, segmented joints with green tufts, and sand-anchored growth habit."
+    },
+    "additional": [
+      {
+        "name": "Wikipedia — Cymopolia",
+        "url": "https://en.wikipedia.org/wiki/Cymopolia",
+        "accessedDate": "2026-06-08",
+        "notes": "Taxonomy confirmed: Family Dasycladaceae, Order Dasycladales. Minimal species-level detail available."
+      },
+      {
+        "name": "AquaMate — Fern Finger (sw-algae-036, Batophora sp.)",
+        "url": "https://mosaicmacros.com/products/ringed-finger-algae-neomeris-sp",
+        "accessedDate": "2026-06-08",
+        "notes": "Same family (Dasycladaceae) sibling entry used for cross-reference of water parameters, native range, and calcareous green husbandry conventions. Cymopolia barbata is more heavily calcified than Batophora, consistent with the advanced careLevel designation."
+      }
+    ]
+  },
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": {
+    "lighting": "high",
+    "growthRate": "slow",
+    "form": "calcareous",
+    "placement": "display",
+    "nutrientUptake": "low",
+    "propagation": ["fragmentation"]
+  },
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
+}
