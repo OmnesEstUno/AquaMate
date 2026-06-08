@@ -373,7 +373,22 @@
 
     "schemaVersion": { "type": "integer", "minimum": 1 },
     "dataStatus":    { "type": "string", "enum": ["placeholder", "researched", "needs_review", "reviewed"] },
-    "lastReviewed":  { "type": ["string", "null"], "format": "date" }
+    "lastReviewed":  { "type": ["string", "null"], "format": "date" },
+
+    "hobbyistAdvisory": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "required": ["level", "reason"],
+      "description": "Marks species that warrant a hobbyist-suitability warning banner on the public website. Absent/null = no advisory (standard hobby fish). Set when a species is included for completeness but should NOT be taken on by a typical home aquarist.",
+      "properties": {
+        "level": {
+          "type": "string",
+          "enum": ["public-aquarium-only", "specialist-only", "pond-only", "legally-restricted"],
+          "description": "\"public-aquarium-only\" = inappropriate for any home setup (extreme adult size, public-aquarium habitat needs, severe danger). \"specialist-only\" = possible at home but requires an advanced specialist commitment (very large tank, single-fish species-only, demanding diet). \"pond-only\" = outgrows aquaria but suitable for outdoor ponds at adult size. \"legally-restricted\" = legal/regulatory barriers in major jurisdictions (CITES, invasive-species bans, etc.) regardless of husbandry feasibility."
+        },
+        "reason": { "type": "string", "minLength": 1, "description": "Short human-readable explanation of why this species triggers the advisory; shown alongside the warning banner." }
+      }
+    }
   },
   "allOf": [
     {

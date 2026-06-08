@@ -16,21 +16,55 @@
     "order": "Tetraodontiformes"
   },
   "nativeRange": {
-    "regions": ["Africa"],
-    "countries": ["Egypt", "Sudan", "Ethiopia", "Mali", "Nigeria", "Cameroon", "Chad", "Senegal", "Ghana", "Guinea"],
+    "regions": [
+      "Africa"
+    ],
+    "countries": [
+      "Egypt",
+      "Sudan",
+      "Ethiopia",
+      "Mali",
+      "Nigeria",
+      "Cameroon",
+      "Chad",
+      "Senegal",
+      "Ghana",
+      "Guinea"
+    ],
     "habitat": "Large rivers, floodplains, and associated lakes with sandy or muddy substrates; the Nile River and its tributaries, as well as other major West and East African river systems including the Niger, Volta, Gambia, and Geba basins",
     "biotope": "Large river",
-    "depthRangeM": { "min": 0, "max": 10 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 10
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 28 },
-    "pH": { "min": 7.0, "max": 8.0 },
-    "gH": { "min": 8, "max": 20 },
-    "kH": { "min": 5, "max": 15 },
+    "temperatureC": {
+      "min": 24,
+      "max": 28
+    },
+    "pH": {
+      "min": 7,
+      "max": 8
+    },
+    "gH": {
+      "min": 8,
+      "max": 20
+    },
+    "kH": {
+      "min": 5,
+      "max": 15
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 35.0, "max": 45.0 },
-  "lifespanYears": { "min": 8, "max": 15 },
+  "adultSizeCm": {
+    "min": 35,
+    "max": 45
+  },
+  "lifespanYears": {
+    "min": 8,
+    "max": 15
+  },
   "tank": {
     "minVolumeLiters": 500,
     "minLengthCm": 180,
@@ -148,5 +182,9 @@
   "macroalgae": null,
   "schemaVersion": 1,
   "dataStatus": "researched",
-  "lastReviewed": null
+  "lastReviewed": null,
+  "hobbyistAdvisory": {
+    "level": "specialist-only",
+    "reason": "Reaches 40–45 cm and requires a strictly species-only tank with no viable tankmates; specialist single-fish setup only."
+  }
 }

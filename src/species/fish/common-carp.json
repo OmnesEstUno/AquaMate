@@ -18,21 +18,56 @@
     "order": "Cypriniformes"
   },
   "nativeRange": {
-    "regions": ["Europe", "Central Asia", "East Asia"],
-    "countries": ["China", "Russia", "Kazakhstan", "Ukraine", "Germany", "Hungary", "Romania", "Austria", "Poland"],
+    "regions": [
+      "Europe",
+      "Central Asia",
+      "East Asia"
+    ],
+    "countries": [
+      "China",
+      "Russia",
+      "Kazakhstan",
+      "Ukraine",
+      "Germany",
+      "Hungary",
+      "Romania",
+      "Austria",
+      "Poland"
+    ],
     "habitat": "Large rivers, floodplain lakes, reservoirs, and slow-moving or standing freshwater bodies with soft substrates; tolerates turbid, oxygen-poor water and wide temperature swings",
     "biotope": "Floodplain lake / large lowland river",
-    "depthRangeM": { "min": 0.5, "max": 10 }
+    "depthRangeM": {
+      "min": 0.5,
+      "max": 10
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 4, "max": 24 },
-    "pH": { "min": 6.5, "max": 8.5 },
-    "gH": { "min": 5, "max": 25 },
-    "kH": { "min": 3, "max": 15 },
+    "temperatureC": {
+      "min": 4,
+      "max": 24
+    },
+    "pH": {
+      "min": 6.5,
+      "max": 8.5
+    },
+    "gH": {
+      "min": 5,
+      "max": 25
+    },
+    "kH": {
+      "min": 3,
+      "max": 15
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 60, "max": 120 },
-  "lifespanYears": { "min": 20, "max": 65 },
+  "adultSizeCm": {
+    "min": 60,
+    "max": 120
+  },
+  "lifespanYears": {
+    "min": 20,
+    "max": 65
+  },
   "tank": {
     "minVolumeLiters": 5000,
     "minLengthCm": 400,
@@ -164,5 +199,9 @@
   "macroalgae": null,
   "schemaVersion": 1,
   "dataStatus": "researched",
-  "lastReviewed": null
+  "lastReviewed": null,
+  "hobbyistAdvisory": {
+    "level": "pond-only",
+    "reason": "Reaches 60–120 cm and lives 40+ years; pond-only at maturity. Koi varieties are the domesticated form of this species."
+  }
 }

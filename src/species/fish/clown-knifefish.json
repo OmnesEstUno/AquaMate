@@ -17,21 +17,50 @@
     "order": "Osteoglossiformes"
   },
   "nativeRange": {
-    "regions": ["Southeast Asia"],
-    "countries": ["Thailand", "Cambodia", "Laos", "Vietnam", "Myanmar"],
+    "regions": [
+      "Southeast Asia"
+    ],
+    "countries": [
+      "Thailand",
+      "Cambodia",
+      "Laos",
+      "Vietnam",
+      "Myanmar"
+    ],
     "habitat": "Large rivers, lakes, and floodplains; sluggish or standing water with abundant cover — submerged roots, overhanging vegetation, and flooded forest margins; often hides in crevices or under debris during the day",
     "biotope": "Large river / floodplain",
-    "depthRangeM": { "min": 0, "max": 5 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 5
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 30 },
-    "pH": { "min": 6.0, "max": 7.5 },
-    "gH": { "min": 2, "max": 15 },
-    "kH": { "min": 2, "max": 10 },
+    "temperatureC": {
+      "min": 24,
+      "max": 30
+    },
+    "pH": {
+      "min": 6,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 2,
+      "max": 15
+    },
+    "kH": {
+      "min": 2,
+      "max": 10
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 60.0, "max": 100.0 },
-  "lifespanYears": { "min": 10, "max": 15 },
+  "adultSizeCm": {
+    "min": 60,
+    "max": 100
+  },
+  "lifespanYears": {
+    "min": 10,
+    "max": 15
+  },
   "tank": {
     "minVolumeLiters": 800,
     "minLengthCm": 240,
@@ -155,5 +184,9 @@
   "macroalgae": null,
   "schemaVersion": 1,
   "dataStatus": "researched",
-  "lastReviewed": null
+  "lastReviewed": null,
+  "hobbyistAdvisory": {
+    "level": "public-aquarium-only",
+    "reason": "Reaches 80–100 cm; predatory and established invasive in Florida via aquarium releases. Hobby-unsuitable at adult size."
+  }
 }

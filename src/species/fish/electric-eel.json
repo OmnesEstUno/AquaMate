@@ -15,21 +15,54 @@
     "order": "Gymnotiformes"
   },
   "nativeRange": {
-    "regions": ["South America"],
-    "countries": ["Brazil", "Venezuela", "Guyana", "Suriname", "French Guiana", "Colombia", "Peru", "Ecuador", "Bolivia"],
+    "regions": [
+      "South America"
+    ],
+    "countries": [
+      "Brazil",
+      "Venezuela",
+      "Guyana",
+      "Suriname",
+      "French Guiana",
+      "Colombia",
+      "Peru",
+      "Ecuador",
+      "Bolivia"
+    ],
     "habitat": "Slow-moving, murky rivers, floodplains, swamps, and creek margins of the Amazon and Orinoco basins; prefers soft, warm, poorly-oxygenated blackwater and whitewater lowland tributaries with muddy substrates and submerged debris",
     "biotope": "Blackwater / Amazonian floodplain",
-    "depthRangeM": { "min": 0, "max": 5 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 5
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 28 },
-    "pH": { "min": 6.0, "max": 8.0 },
-    "gH": { "min": 1, "max": 15 },
-    "kH": { "min": 1, "max": 10 },
+    "temperatureC": {
+      "min": 23,
+      "max": 28
+    },
+    "pH": {
+      "min": 6,
+      "max": 8
+    },
+    "gH": {
+      "min": 1,
+      "max": 15
+    },
+    "kH": {
+      "min": 1,
+      "max": 10
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 100, "max": 250 },
-  "lifespanYears": { "min": 10, "max": 22 },
+  "adultSizeCm": {
+    "min": 100,
+    "max": 250
+  },
+  "lifespanYears": {
+    "min": 10,
+    "max": 22
+  },
   "tank": {
     "minVolumeLiters": 3800,
     "minLengthCm": 400,
@@ -154,5 +187,9 @@
   "macroalgae": null,
   "schemaVersion": 1,
   "dataStatus": "researched",
-  "lastReviewed": null
+  "lastReviewed": null,
+  "hobbyistAdvisory": {
+    "level": "public-aquarium-only",
+    "reason": "Reaches 2 m+ and delivers 600 V+ electric discharges; public-aquarium handling protocols and insulated husbandry mandatory."
+  }
 }

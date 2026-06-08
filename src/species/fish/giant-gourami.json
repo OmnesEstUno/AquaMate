@@ -18,21 +18,52 @@
     "order": "Anabantiformes"
   },
   "nativeRange": {
-    "regions": ["Southeast Asia"],
-    "countries": ["Indonesia", "Malaysia", "Thailand", "Cambodia", "Vietnam", "Myanmar", "Laos"],
+    "regions": [
+      "Southeast Asia"
+    ],
+    "countries": [
+      "Indonesia",
+      "Malaysia",
+      "Thailand",
+      "Cambodia",
+      "Vietnam",
+      "Myanmar",
+      "Laos"
+    ],
     "habitat": "Slow-moving and still waters: large rivers, lakes, swamps, floodplains, rice paddies, and peat-swamp forests; prefers heavily vegetated, warm, shallow areas with soft substrates and access to surface air",
     "biotope": "Tropical freshwater floodplain / peat swamp",
-    "depthRangeM": { "min": 0, "max": 5 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 5
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 28 },
-    "pH": { "min": 6.5, "max": 8.0 },
-    "gH": { "min": 5, "max": 20 },
-    "kH": { "min": 3, "max": 12 },
+    "temperatureC": {
+      "min": 22,
+      "max": 28
+    },
+    "pH": {
+      "min": 6.5,
+      "max": 8
+    },
+    "gH": {
+      "min": 5,
+      "max": 20
+    },
+    "kH": {
+      "min": 3,
+      "max": 12
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 45.0, "max": 70.0 },
-  "lifespanYears": { "min": 15, "max": 25 },
+  "adultSizeCm": {
+    "min": 45,
+    "max": 70
+  },
+  "lifespanYears": {
+    "min": 15,
+    "max": 25
+  },
   "tank": {
     "minVolumeLiters": 1500,
     "minLengthCm": 300,
@@ -158,5 +189,9 @@
   "macroalgae": null,
   "schemaVersion": 1,
   "dataStatus": "researched",
-  "lastReviewed": null
+  "lastReviewed": null,
+  "hobbyistAdvisory": {
+    "level": "public-aquarium-only",
+    "reason": "Reaches ~70 cm; needs 1500 L+ tanks. Juveniles sold under the same common name mask the adult size."
+  }
 }

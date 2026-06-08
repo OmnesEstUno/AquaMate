@@ -16,25 +16,59 @@
     "order": "Siluriformes"
   },
   "nativeRange": {
-    "regions": ["Africa"],
+    "regions": [
+      "Africa"
+    ],
     "countries": [
-      "Egypt", "Sudan", "Ethiopia", "Uganda", "Kenya", "Tanzania",
-      "Democratic Republic of the Congo", "Cameroon", "Nigeria",
-      "Senegal", "Gambia", "Chad", "Niger", "Mali"
+      "Egypt",
+      "Sudan",
+      "Ethiopia",
+      "Uganda",
+      "Kenya",
+      "Tanzania",
+      "Democratic Republic of the Congo",
+      "Cameroon",
+      "Nigeria",
+      "Senegal",
+      "Gambia",
+      "Chad",
+      "Niger",
+      "Mali"
     ],
     "habitat": "Slow-moving and standing waters: rivers, lakes, swamps, and floodplains; prefers muddy or sandy substrates with abundant cover such as submerged roots, dense vegetation, and rock crevices; nocturnal ambush predator resting in sheltered spots by day",
     "biotope": "River",
-    "depthRangeM": { "min": 0, "max": 10 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 10
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 28 },
-    "pH": { "min": 6.5, "max": 7.8 },
-    "gH": { "min": 5, "max": 20 },
-    "kH": { "min": 2, "max": 12 },
+    "temperatureC": {
+      "min": 23,
+      "max": 28
+    },
+    "pH": {
+      "min": 6.5,
+      "max": 7.8
+    },
+    "gH": {
+      "min": 5,
+      "max": 20
+    },
+    "kH": {
+      "min": 2,
+      "max": 12
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 40.0, "max": 60.0 },
-  "lifespanYears": { "min": 8, "max": 15 },
+  "adultSizeCm": {
+    "min": 40,
+    "max": 60
+  },
+  "lifespanYears": {
+    "min": 8,
+    "max": 15
+  },
   "tank": {
     "minVolumeLiters": 400,
     "minLengthCm": 150,
@@ -161,5 +195,9 @@
   "macroalgae": null,
   "schemaVersion": 1,
   "dataStatus": "researched",
-  "lastReviewed": null
+  "lastReviewed": null,
+  "hobbyistAdvisory": {
+    "level": "public-aquarium-only",
+    "reason": "Reaches 60+ cm and generates 300–400 V discharges; strict species-only tank with handler shock-hazard protocols."
+  }
 }

@@ -19,21 +19,51 @@
     "order": "Osteoglossiformes"
   },
   "nativeRange": {
-    "regions": ["Southeast Asia"],
-    "countries": ["Indonesia", "Malaysia", "Thailand", "Vietnam", "Cambodia", "Myanmar"],
+    "regions": [
+      "Southeast Asia"
+    ],
+    "countries": [
+      "Indonesia",
+      "Malaysia",
+      "Thailand",
+      "Vietnam",
+      "Cambodia",
+      "Myanmar"
+    ],
     "habitat": "Slow-moving blackwater rivers, oxbow lakes, peat swamps, and flooded forest margins; typically near the surface in heavily shaded, tannin-stained, low-pH water with overhanging riparian vegetation",
     "biotope": "Blackwater / Peat Swamp",
-    "depthRangeM": { "min": 0, "max": 3 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 3
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 30 },
-    "pH": { "min": 6.0, "max": 7.0 },
-    "gH": { "min": 1, "max": 10 },
-    "kH": { "min": 0, "max": 4 },
+    "temperatureC": {
+      "min": 24,
+      "max": 30
+    },
+    "pH": {
+      "min": 6,
+      "max": 7
+    },
+    "gH": {
+      "min": 1,
+      "max": 10
+    },
+    "kH": {
+      "min": 0,
+      "max": 4
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 60.0, "max": 90.0 },
-  "lifespanYears": { "min": 10, "max": 20 },
+  "adultSizeCm": {
+    "min": 60,
+    "max": 90
+  },
+  "lifespanYears": {
+    "min": 10,
+    "max": 20
+  },
   "tank": {
     "minVolumeLiters": 1500,
     "minLengthCm": 300,
@@ -158,5 +188,9 @@
   "macroalgae": null,
   "schemaVersion": 1,
   "dataStatus": "researched",
-  "lastReviewed": null
+  "lastReviewed": null,
+  "hobbyistAdvisory": {
+    "level": "public-aquarium-only",
+    "reason": "Reaches ~90 cm and requires 1500 L+ tanks; CITES Appendix I + US Endangered Species Act import ban regardless of farm origin."
+  }
 }

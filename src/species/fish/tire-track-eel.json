@@ -18,7 +18,10 @@
     "order": "Synbranchiformes"
   },
   "nativeRange": {
-    "regions": ["South Asia", "Southeast Asia"],
+    "regions": [
+      "South Asia",
+      "Southeast Asia"
+    ],
     "countries": [
       "India",
       "Sri Lanka",
@@ -36,17 +39,38 @@
     ],
     "habitat": "Slow to moderate-flowing rivers, streams, floodplains, and paddy fields; silty or sandy substrates with leaf litter and submerged woody debris; highly vegetated margins and muddy river banks",
     "biotope": "South/Southeast Asian river",
-    "depthRangeM": { "min": 0, "max": 5 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 5
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 28 },
-    "pH": { "min": 6.5, "max": 7.5 },
-    "gH": { "min": 5, "max": 15 },
-    "kH": { "min": 3, "max": 10 },
+    "temperatureC": {
+      "min": 22,
+      "max": 28
+    },
+    "pH": {
+      "min": 6.5,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 5,
+      "max": 15
+    },
+    "kH": {
+      "min": 3,
+      "max": 10
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 50, "max": 90 },
-  "lifespanYears": { "min": 8, "max": 18 },
+  "adultSizeCm": {
+    "min": 50,
+    "max": 90
+  },
+  "lifespanYears": {
+    "min": 8,
+    "max": 18
+  },
   "tank": {
     "minVolumeLiters": 500,
     "minLengthCm": 180,
@@ -173,5 +197,9 @@
   "macroalgae": null,
   "schemaVersion": 1,
   "dataStatus": "researched",
-  "lastReviewed": null
+  "lastReviewed": null,
+  "hobbyistAdvisory": {
+    "level": "specialist-only",
+    "reason": "Reaches 60–90 cm in aquaria; needs 500 L+ tank with deep sand substrate and tight-sealed gaps. Specialist commitment."
+  }
 }

@@ -15,21 +15,44 @@
     "order": "Cyprinodontiformes"
   },
   "nativeRange": {
-    "regions": ["North America"],
-    "countries": ["United States", "Mexico"],
+    "regions": [
+      "North America"
+    ],
+    "countries": [
+      "United States",
+      "Mexico"
+    ],
     "habitat": "Shallow, heavily-vegetated marginal zones in still or slow-flowing freshwater and brackish systems; ponds, lakes, backwaters, quiet stream pools, ditches, and coastal drainages",
     "biotope": "Lowland stream / pond margin",
-    "depthRangeM": { "min": 0, "max": 1 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 1
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 12, "max": 29 },
-    "pH": { "min": 6.0, "max": 8.0 },
-    "gH": { "min": 5, "max": 30 },
+    "temperatureC": {
+      "min": 12,
+      "max": 29
+    },
+    "pH": {
+      "min": 6,
+      "max": 8
+    },
+    "gH": {
+      "min": 5,
+      "max": 30
+    },
     "kH": null,
     "salinity": null
   },
-  "adultSizeCm": { "min": 1.6, "max": 7.0 },
-  "lifespanYears": { "min": 1, "max": 3 },
+  "adultSizeCm": {
+    "min": 1.6,
+    "max": 7
+  },
+  "lifespanYears": {
+    "min": 1,
+    "max": 3
+  },
   "tank": {
     "minVolumeLiters": 40,
     "minLengthCm": 60,
@@ -152,5 +175,9 @@
   "macroalgae": null,
   "schemaVersion": 1,
   "dataStatus": "researched",
-  "lastReviewed": null
+  "lastReviewed": null,
+  "hobbyistAdvisory": {
+    "level": "legally-restricted",
+    "reason": "IUCN-listed among the 100 World’s Worst Invasive Alien Species; import/release banned in the EU, Australia, and other jurisdictions."
+  }
 }
