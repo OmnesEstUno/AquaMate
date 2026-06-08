@@ -1,0 +1,139 @@
+{
+  "id": "fw-fish-070",
+  "slug": "elephant-nose-fish",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "freshwater",
+  "commonName": "Elephant Nose Fish",
+  "scientificName": "Gnathonemus petersii",
+  "alsoKnownAs": ["Elephantnose Fish", "Peter's Elephant Nose", "Ubangi Mormyrid"],
+  "category": "Oddball / Electric Fish",
+  "taxonomy": {
+    "family": "Mormyridae",
+    "order": "Osteoglossiformes"
+  },
+  "nativeRange": {
+    "regions": ["West Africa", "Central Africa"],
+    "countries": ["Nigeria", "Benin", "Mali", "Niger", "Chad", "Cameroon", "Central African Republic", "Republic of Congo", "Democratic Republic of Congo", "Zambia"],
+    "habitat": "Slow-moving rivers and streams with dark, muddy substrates and dense vegetation; typically murky, shaded environments",
+    "biotope": "River",
+    "depthRangeM": null
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 23, "max": 28 },
+    "pH": { "min": 6.0, "max": 7.5 },
+    "gH": { "min": 5, "max": 15 },
+    "kH": { "min": 3, "max": 12 },
+    "salinity": null
+  },
+  "adultSizeCm": { "min": 23, "max": 25 },
+  "lifespanYears": { "min": 6, "max": 10 },
+  "tank": {
+    "minVolumeLiters": 200,
+    "minLengthCm": 120,
+    "swimZone": "bottom",
+    "decorPreferences": [
+      "soft sand substrate (critical for schnauzenorgan probing)",
+      "smooth rocks and driftwood",
+      "dense low-light plants (Anubias, Java fern, Vallisneria)",
+      "floating plants to diffuse lighting",
+      "caves and hiding spots",
+      "avoid sharp or abrasive substrates"
+    ],
+    "minSandDepthCm": 5
+  },
+  "careLevel": "advanced",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Primarily accepts live and frozen meaty foods — blackworms, bloodworms, tubifex, small earthworms, and daphnia are preferred. Many specimens initially refuse dried/prepared foods and need targeted feeding with live food before transitioning to frozen. Some individuals can be trained to accept sinking pellets over time, but this is not guaranteed."
+  },
+  "compatibility": {
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": [
+      "Congo tetras",
+      "Synodontis catfish",
+      "African butterfly fish",
+      "smaller bichirs",
+      "Ctenopoma species",
+      "peaceful cichlids (Angelfish, Satanoperca, Geophagus)",
+      "large gouramis",
+      "discus"
+    ],
+    "avoidWith": [
+      "other Elephant Nose Fish (unless in very large tanks with extensive cover — minimum group of 5+)",
+      "other mormyrids",
+      "small or shy fish that cannot compete",
+      "fin nippers",
+      "invertebrates and small shrimp (will be eaten)",
+      "very active or aggressive species"
+    ]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A remarkable West/Central African electric fish with an extraordinary brain-to-body ratio and a sensitive chin appendage (schnauzenorgan) used to probe substrate for prey. Best kept singly in a dimly lit, well-planted 200 L+ tank with soft sand; tends to refuse prepared foods and is sensitive to water quality and medications.",
+  "careNotes": "The Elephant Nose Fish is one of the most cognitively complex freshwater fish available in the hobby, with a brain-to-body mass ratio rivaling that of some primates. It generates a weak electrical organ discharge (EOD) used for navigation, object detection, conspecific communication, and sex recognition — this makes it particularly sensitive to electromagnetic interference from external equipment.\n\nSoft sand substrate is essential: the proboscis-like chin extension (schnauzenorgan) is used to probe sediment for prey, and abrasive substrates can damage this delicate organ. A minimum sand depth of ~5 cm is generally advised.\n\nThis species is strictly nocturnal and tends to hide during the day; providing ample caves, driftwood, and low-light conditions will significantly reduce stress. Bright lighting without cover has been known to cause chronic stress and may lead to premature decline.\n\nFeeding can be challenging: newly acquired specimens often refuse prepared and frozen foods, requiring live blackworms or bloodworms to trigger a feeding response. Over weeks to months, some individuals can be transitioned to frozen foods with patient conditioning; a minority never accept non-live prey.\n\nConspecific aggression is notable — keeping two individuals in anything short of a very large, heavily decorated tank typically results in conflict. If a group must be kept, a minimum of five individuals in a 400 L+ setup with abundant structure is generally considered necessary to distribute aggression.\n\nHighly sensitive to copper-based medications and salt additions — copper treatments should never be used in tanks housing this species. It is also considered an indicator species for water quality and has been known to be among the first to show signs of deteriorating conditions.\n\nHas been reported to recognize individual keepers and show distinct behavioral responses to familiar versus unfamiliar people — a trait documented in scientific research on mormyrid cognition.",
+  "breedingNotes": "Captive breeding of Gnathonemus petersii has not been reliably documented in aquarium conditions and is generally considered not achievable by hobbyists. Sexual dimorphism is subtle and not well established for captive identification. No specialized breeding protocols are currently known.",
+  "sources": {
+    "primary": {
+      "name": "SeriouslyFish",
+      "url": "https://www.seriouslyfish.com/species/gnathonemus-petersii/",
+      "accessedDate": "2026-06-08",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "Fishkeeping World",
+        "url": "https://www.fishkeepingworld.com/elephant-nose-fish/",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked tank size (50 gal / 189 L vs SeriouslyFish 255 L — used 200 L as cautious midpoint), adult size, temperature, pH, hardness, lifespan (6–9 years), diet, and temperament. Minor pH disagreement (6.5–7.2 vs 6.0–7.5); used the broader SeriouslyFish range supported by FishBase."
+      },
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Gnathonemus-petersii.html",
+        "accessedDate": "2026-06-08",
+        "notes": "Confirmed taxonomy (Order: Osteoglossiformes, Family: Mormyridae), temperature range (22–28°C), pH (6.0–8.0), hardness (5–19 dH), and native range. FishBase maximum size of 35 cm SL is wild-record; captive specimens typically reach 22–25 cm per other sources."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "Not documented in captivity. No reliable breeding protocol exists for hobbyists.",
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": null,
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": true,
+    "juvenileColorPhase": false,
+    "copperSensitive": true,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "difficult",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
+}

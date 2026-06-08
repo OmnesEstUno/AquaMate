@@ -5,82 +5,103 @@
   "taxon": "fish",
   "waterType": "freshwater",
   "commonName": "Kissing Gourami",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "scientificName": "Helostoma temminkii",
+  "alsoKnownAs": ["Kissing Fish", "Kisser Fish"],
   "category": "Gourami",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Helostomatidae",
+    "order": "Anabantiformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
-    "depthRangeM": null
+    "regions": ["Southeast Asia"],
+    "countries": ["Thailand", "Vietnam", "Cambodia", "Malaysia", "Indonesia"],
+    "habitat": "Slow-moving rivers, lakes, and floodplains with dense aquatic vegetation",
+    "biotope": "Tropical freshwater; benthopelagic; prefers areas with floating vegetation",
+    "depthRangeM": { "min": 0, "max": 5 }
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
-    "kH": null,
+    "temperatureC": { "min": 22, "max": 28 },
+    "pH": { "min": 6.0, "max": 8.0 },
+    "gH": { "min": 5, "max": 20 },
+    "kH": { "min": 3, "max": 15 },
     "salinity": null
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 20, "max": 30 },
+  "lifespanYears": { "min": 5, "max": 25 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 200,
+    "minLengthCm": 150,
+    "swimZone": "mid",
+    "decorPreferences": ["dense vegetation", "floating plants", "open swimming space", "driftwood"],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Microphagous filter-feeder by nature; tends to graze on algae, biofilm, and soft plant matter. Has been documented accepting quality flake foods, small pellets, Spirulina-based foods, and live or frozen items such as daphnia, bloodworms, brine shrimp, and mosquito larvae. Vegetable matter (blanched lettuce, zucchini, spinach) is generally well received."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "semi-aggressive",
+    "grouping": "pair",
+    "minGroupSize": 2,
+    "goodWith": ["Tiger Barbs", "Congo Tetras", "Rosy Barbs", "Swordtails", "large Catfish", "large Characins", "robust Cichlids"],
+    "avoidWith": ["small fish", "other Gourami species", "invertebrates", "fin-nipping targets", "similarly-shaped fish of comparable size"]
   },
   "media": {
     "primaryImage": "kissing_gourami.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Kissing Gourami.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "Large SE Asian labyrinth fish famous for its \"kissing\" behavior, which is actually a territorial display. Requires a spacious tank (200L+); tolerant of a wide pH and hardness range. Pink form is a selectively-bred leucistic variant.",
+  "careNotes": "The \"kissing\" lip-to-lip contact this species is named for has been documented as a territorial or dominance display — not affectionate behavior. The pink form widely sold in the trade is a selectively-bred leucistic morph; the wild green/olive form is rarely encountered commercially. Short-bodied (\"balloon\") variants tend to have significantly shorter lifespans and are generally not recommended. This species is atypical among gouramis in being an egg-scatterer rather than a bubble-nester. It grows large (up to 30 cm) and tends to become territorial as it matures, so a tank of at least 200 L with a 150 cm footprint is generally advised. Groups should ideally be introduced simultaneously as juveniles; pairs can be aggressive toward each other with limited space. Sources describe it as capable of living in excess of 20 years in well-maintained aquaria. Possesses a labyrinth organ and needs access to the water surface to breathe atmospheric air; the air gap should be kept warm to avoid respiratory stress. A secure lid is advised. Water parameters: temp 22–28°C, pH 6.0–8.0, gH 5–20, kH 3–15.",
+  "breedingNotes": "Breeding has been reported as rarely achieved by aquarists. Spawning occurs near the surface under floating vegetation; the male wraps around the female and thousands of buoyant eggs are scattered — no parental care follows. Eggs have been reported to hatch within 24–36 hours. Fry require infusoria or very fine foods initially. Sexual maturity is typically reached at around 120–150 mm standard length.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "SeriouslyFish",
+      "url": "https://www.seriouslyfish.com/species/helostoma-temminkii/",
+      "accessedDate": "2026-06-08",
+      "notes": "Primary source for taxonomy, range, water parameters, tank dimensions, behavioral notes, and breeding."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Helostoma-temminkii.html",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked scientific name, family, order, native range, temperature (22–28°C), pH (6.0–8.0), hardness (5–19 dH), adult size (30 cm). Confirmed minimum tank length of 150 cm. Minor disagreement on max temp (28°C vs SeriouslyFish 30°C) — used 28°C as the average of all three sources."
+      },
+      {
+        "name": "Fishkeeping World",
+        "url": "https://www.fishkeepingworld.com/kissing-gourami/",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked size (up to 12 in / ~30 cm), temperature (72–82°F / 22–28°C), pH (6–8), hardness (5–20 dGH), minimum tank (50 gal / ~189 L for a pair), semi-aggressive temperament, lifespan (5–7 years, some to 25 years), omnivore diet, and egg-scattering breeding behavior. Min tank biased toward 200 L over the stated 189 L per playbook caution rule given large adult size and territorial behavior."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
+    "breedingDifficulty": "moderate",
+    "breedingNotes": "Egg-scatterer; spawns near the surface under floating vegetation. Rarely bred in captivity. No parental care. Thousands of buoyant eggs hatch within 24–36 hours.",
+    "conspecificAggression": "moderate",
+    "finNippy": false,
     "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
+    "escapeRisk": "high",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
     "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -90,6 +111,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
+  "dataStatus": "researched",
   "lastReviewed": null
 }

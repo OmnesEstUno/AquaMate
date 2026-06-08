@@ -4,83 +4,110 @@
   "kind": "fauna",
   "taxon": "fish",
   "waterType": "freshwater",
-  "commonName": "Corydoras julii",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "commonName": "Julii Cory",
+  "scientificName": "Corydoras julii",
+  "alsoKnownAs": ["Leopard Cory", "Julii Corydoras", "False Julii Cory (trade misidentification)"],
   "category": "Catfish",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Callichthyidae",
+    "order": "Siluriformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
+    "regions": ["South America", "Northeastern Brazil"],
+    "countries": ["Brazil"],
+    "habitat": "Coastal rivers and smaller tributaries of northeastern Brazil, including the rios Parnaíba, Guamá, Maracanã, and Mearim; typically inhabits shallow, slow-moving water over fine sandy or muddy substrate",
+    "biotope": "South American coastal river",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
-    "kH": null,
+    "temperatureC": { "min": 22, "max": 26 },
+    "pH": { "min": 6.0, "max": 7.5 },
+    "gH": { "min": 2, "max": 15 },
+    "kH": { "min": 2, "max": 10 },
     "salinity": null
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 4.5, "max": 5.5 },
+  "lifespanYears": { "min": 5, "max": 7 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
-    "minSandDepthCm": null
+    "minVolumeLiters": 75,
+    "minLengthCm": 90,
+    "swimZone": "bottom",
+    "decorPreferences": ["fine sand substrate", "driftwood", "leaf litter", "low-growing plants", "gentle flow areas"],
+    "minSandDepthCm": 3
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "beginner",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Readily accepts sinking pellets, wafers, frozen bloodworms, tubifex, brine shrimp, and daphnia. Has been documented rooting through substrate for food using sensitive barbels. Should not be expected to subsist on leftover food from surface feeders — dedicated bottom feeding is required."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "peaceful",
+    "grouping": "schooling",
+    "minGroupSize": 6,
+    "goodWith": ["small tetras", "rasboras", "small danios", "peaceful livebearers", "dwarf cichlids", "other corydoras", "small plecos", "freshwater shrimp (larger species)"],
+    "avoidWith": ["large aggressive cichlids", "predatory catfish", "fin-nipping barbs", "large carnivorous species"]
   },
   "media": {
     "primaryImage": "corydoras_julii.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Corydoras julii.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "A small, peaceful schooling catfish from NE Brazil known for fine spotted markings. Often confused in trade with C. trilineatus (Three-Stripe Cory). True julii has isolated spots; copper-sensitive; best kept in groups of 6+.",
+  "careNotes": "WIDESPREAD TRADE CONFUSION: Most fish sold as 'Julii Cory' in aquarium stores are actually Corydoras trilineatus (Three-Stripe Cory / False Julii Cory). True C. julii has fine, isolated dark spots on the body and head that do not connect into stripes or a maze-like pattern; C. trilineatus displays three prominent horizontal lines or a connected reticulated pattern. True C. julii is considerably rarer in the trade.\n\nFine sand substrate is strongly recommended — coarse gravel or sharp substrate can damage the sensitive barbels, which tend to erode and may lead to infection. A minimum substrate depth of around 3 cm allows natural foraging behavior.\n\nCorydoras are facultative air-breathers and have been observed making short dashes to the surface to gulp atmospheric air; this is normal behavior and does not indicate oxygen deficiency, though well-oxygenated water is still preferred.\n\nCopper sensitivity: this species, like other callichthyid catfishes, is sensitive to copper-based medications (e.g., copper sulfate treatments for ich). Standard ich medications with copper should be avoided; alternatives such as heat treatment or ich-X (formalin-based) are generally better tolerated.\n\nC. julii produces a mild toxin from its axillary gland as a defense mechanism; this is not harmful under normal aquarium conditions but handling should be done carefully as the hardened pectoral spines can pierce skin.\n\nTends to be more active and less shy when kept in groups of 6 or more. Groups smaller than 4 have been reported to show increased stress and hiding behavior. Compatible with other Corydoras species, which may shoal together loosely.\n\nSee also: [corydoras-aeneus], [corydoras-sterbai], [corydoras-panda] for sibling species with similar care requirements.",
+  "breedingNotes": "Egg-layer. Spawning has been reported to be triggered by significant (50–70%) water changes using slightly cooler water, simulating the onset of the rainy season. Males pursue the female, who holds 2–4 eggs between her pelvic fins (the T-position spawning embrace); the female then places adhesive eggs on glass, broad plant leaves, or other surfaces. A ratio of 2–3 males per female is generally recommended. Eggs typically hatch within 3–5 days; newly hatched fry accept microworms and newly hatched brine shrimp nauplii. Adults may eat eggs if left in the tank — a separate breeding tank or egg removal is advisable.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "SeriouslyFish",
+      "url": "https://www.seriouslyfish.com/species/corydoras-julii/",
+      "accessedDate": "2026-06-08",
+      "notes": "Primary source; Aquarium Co-Op (slice primary) returned 404 for a dedicated C. julii page — SeriouslyFish used as primary per playbook fallback. Covers native range, water parameters, tank size, diet, behavior, and breeding in detail."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Corydoras-julii.html",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked adult size (max 5.2 cm SL), temperature range (23–26°C), pH (6.0–8.0), native range (lower Amazon + NE Brazil coastal rivers), family/order, and habitat. FishBase pH max of 8.0 is slightly higher than SeriouslyFish (7.5) and user brief (7.5); majority of sources agree on 7.5 as practical upper bound so 7.5 retained."
+      },
+      {
+        "name": "Fish Laboratory",
+        "url": "https://www.fishlaboratory.com/fish/julii-cory/",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked size (2–2.5 in = ~5.1–6.4 cm), lifespan (5–7 years), min tank (20 gal = 76 L), pH (6.0–7.5), kH (3–10°), diet, grouping (6+). Temperature upper end noted as 29°C — higher than SeriouslyFish/FishBase consensus; likely accounts for acclimated aquarium specimens. Upper bound averaged to 26°C per SeriouslyFish + FishBase agreement."
+      },
+      {
+        "name": "Aquarium Co-Op (blog — general Cory care)",
+        "url": "https://www.aquariumcoop.com/blogs/aquarium/cory-catfish-care-guide",
+        "accessedDate": "2026-06-08",
+        "notes": "Species-specific page not found; general Corydoras care guide used for supplementary diet, substrate, and tank-size guidance. Notes that 'Julii Cory' in trade is frequently C. trilineatus."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
+    "breedingDifficulty": "moderate",
+    "breedingNotes": "Egg-layer spawning triggered by large cool water changes; T-position embrace; 3–5 day hatch; fry fed microworms and nauplii.",
+    "conspecificAggression": "none",
+    "finNippy": false,
     "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
-    "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": true,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -90,6 +117,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
 }

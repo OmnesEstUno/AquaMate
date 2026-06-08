@@ -1,0 +1,150 @@
+{
+  "id": "fw-fish-077",
+  "slug": "glass-catfish",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "freshwater",
+  "commonName": "Glass Catfish",
+  "scientificName": "Kryptopterus vitreolus",
+  "alsoKnownAs": ["Ghost Catfish", "Ghost Fish", "Phantom Catfish", "Kryptopterus minor"],
+  "category": "Catfish",
+
+  "taxonomy": {
+    "family": "Siluridae",
+    "order": "Siluriformes"
+  },
+
+  "nativeRange": {
+    "regions": ["Southeast Asia"],
+    "countries": ["Thailand"],
+    "habitat": "Slow-moving to standing waters; turbid or acidic blackwater conditions with dense riparian vegetation",
+    "biotope": "Blackwater",
+    "depthRangeM": null
+  },
+
+  "waterParameters": {
+    "temperatureC": { "min": 22, "max": 27 },
+    "pH":           { "min": 6.0, "max": 7.0 },
+    "gH":           { "min": 2, "max": 12 },
+    "kH":           { "min": 2, "max": 10 },
+    "salinity":     null
+  },
+
+  "adultSizeCm":   { "min": 5.0, "max": 8.0 },
+  "lifespanYears": { "min": 6, "max": 8 },
+
+  "tank": {
+    "minVolumeLiters": 100,
+    "minLengthCm":     90,
+    "swimZone":        "mid",
+    "decorPreferences": [
+      "Dense planting with floating plants for diffused lighting",
+      "Driftwood and leaf litter for blackwater simulation",
+      "Fine sand or smooth gravel substrate",
+      "Open mid-water swimming space in the front"
+    ],
+    "minSandDepthCm": null
+  },
+
+  "careLevel": "intermediate",
+
+  "diet": {
+    "type": "carnivore",
+    "notes": "Feeds on small invertebrates, zooplankton, and small worms in the wild. In the aquarium, tends to prefer live and frozen foods such as brine shrimp, daphnia, bloodworms, and grindal worms; has been known to be reluctant with dry prepared foods, though some individuals can be coaxed onto micro-pellets or flake over time. Shy feeders — monitoring is advisable in mixed community tanks to ensure they receive adequate food before more assertive tankmates consume it."
+  },
+
+  "compatibility": {
+    "temperament":  "peaceful",
+    "grouping":     "schooling",
+    "minGroupSize": 6,
+    "goodWith": [
+      "Small peaceful tetras",
+      "Rasboras",
+      "Celestial Pearl Danios",
+      "Corydoras",
+      "Small loaches",
+      "Peaceful dwarf cichlids",
+      "Harlequin Rasboras",
+      "Trigonostigma species"
+    ],
+    "avoidWith": [
+      "Large or boisterous cichlids (Oscars, Jack Dempseys)",
+      "Nippy species (Tiger Barbs)",
+      "Aggressive or fast-moving tankmates that outcompete at feeding",
+      "Sharks (e.g., Bala Shark in confined spaces)"
+    ]
+  },
+
+  "media": {
+    "primaryImage":    null,
+    "gallery":         [],
+    "imageCandidates": null
+  },
+
+  "summary": "A ghostly mid-water schooling catfish from Thailand, notable for its fully transparent body with visible internal organs. Needs groups of 6+ and soft, slightly acidic water; generally considered intermediate-level due to schooling requirements and feeding pickiness.",
+
+  "careNotes": "Glass Catfish are highly gregarious — keeping fewer than 6 individuals is generally inadvisable, as isolated or small-group specimens tend to become stressed and decline. Unlike most catfish, they swim openly in the mid-water column rather than hugging the bottom. They appear to prefer dimly lit, well-planted tanks with some open swimming space; floating plants and driftwood help recreate their native blackwater habitat.\n\nFeeding can require patience: many specimens refuse dry prepared foods initially and do best on live or frozen small invertebrates (brine shrimp, daphnia, bloodworms). Some individuals adapt to micro-pellets or flake with time. They are shy feeders and may lose out to faster tankmates, so targeted feeding is advisable.\n\nThey are sensitive to copper-based medications (scaleless fish). Water chemistry stability is important — avoid biologically immature aquariums.\n\nTaxonomic note: reclassified from *Kryptopterus minor* to *K. vitreolus* by Ng & Kottelat in 2013 following ~80 years of misidentification. Often confused in trade with *K. macrocephalus* (Striped Glass Catfish), which is a distinct and rarer species. *K. bicirrhis* (Giant Glass Catfish, reaching ~15 cm) is another separate species also sometimes mislabeled in the trade.\n\nNative range is restricted to coastal river basins of Peninsular Thailand draining into the Gulf of Thailand, south of the Isthmus of Kra; a reported Penang, Malaysia occurrence has not been definitively confirmed.",
+
+  "breedingNotes": "Reproduction in captivity has not been reliably recorded. In the wild, spawning is believed to occur seasonally during heavy rains, with females depositing eggs on aquatic plants. Attempts to trigger spawning in captivity have involved lowering temperature slightly, mimicking rain with regular top-off water additions, and providing abundant live foods — but consistent success has not been widely reported in the hobby.",
+
+  "sources": {
+    "primary": {
+      "name": "SeriouslyFish",
+      "url": "https://www.seriouslyfish.com/species/kryptopterus-vitreolus/",
+      "accessedDate": "2026-06-08",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Kryptopterus-vitreolus.html",
+        "accessedDate": "2026-06-08",
+        "notes": "Confirmed scientific name, adult size (6.5 cm SL max), native range (Peninsular and southeastern Thailand), taxonomy, and habitat description. Used as cross-verification source."
+      },
+      {
+        "name": "Fishkeeping World",
+        "url": "https://www.fishkeepingworld.com/glass-catfish/",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked water parameters, tank size, lifespan (7–8 years), and grouping requirements. Note: size claim of 5 inches (~12.7 cm) is likely an error or conflation with a larger Kryptopterus species; SeriouslyFish and FishBase both cap the species at ~6.5 cm SL and were preferred for size. Temperature range (24–27°C) and pH (6.5–7.0) averaged with SeriouslyFish values."
+      }
+    ]
+  },
+
+  "fish": {
+    "breedingDifficulty":         "not in captivity",
+    "breedingNotes":              "Not reliably achieved in captivity; wild spawning seasonal, triggered by rainfall.",
+    "conspecificAggression":      "none",
+    "finNippy":                   false,
+    "reefSafe":                   null,
+    "escapeRisk":                 "low",
+    "venomousSpines":             false,
+    "sexChange":                  "none",
+    "haremic":                    false,
+    "caudalScalpel":              false,
+    "nocturnal":                  false,
+    "juvenileColorPhase":         false,
+    "copperSensitive":            true,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost":       false,
+    "monogamousPairing":          false,
+    "hlleSusceptible":            false,
+    "toxicToTank":                false,
+    "feedingDifficulty":          "difficult",
+    "symbioticShrimpPartner":     false,
+    "mouthbrooder":               false,
+    "constantGrazer":             false,
+    "cleanerFish":                false,
+    "euryhaline":                 false
+  },
+  "crustacean":   null,
+  "coral":        null,
+  "mollusc":      null,
+  "echinoderm":   null,
+  "other-invert": null,
+  "plant":        null,
+  "macroalgae":   null,
+
+  "schemaVersion": 1,
+  "dataStatus":    "researched",
+  "lastReviewed":  "2026-06-08"
+}

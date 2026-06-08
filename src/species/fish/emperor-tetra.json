@@ -1,0 +1,116 @@
+{
+  "id": "fw-fish-072",
+  "slug": "emperor-tetra",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "freshwater",
+  "commonName": "Emperor Tetra",
+  "scientificName": "Nematobrycon palmeri",
+  "alsoKnownAs": ["Rainbow Emperor Tetra"],
+  "category": "Tetra",
+  "taxonomy": {
+    "family": "Characidae",
+    "order": "Characiformes"
+  },
+  "nativeRange": {
+    "regions": ["South America"],
+    "countries": ["Colombia"],
+    "habitat": "Slow-moving rivers and streams with dense vegetation, soft acidic water, and leaf litter",
+    "biotope": "Blackwater",
+    "depthRangeM": null
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 22, "max": 27 },
+    "pH":           { "min": 5.0, "max": 7.5 },
+    "gH":           { "min": 2, "max": 15 },
+    "kH":           { "min": 2, "max": 10 },
+    "salinity":     null
+  },
+  "adultSizeCm":   { "min": 3.5, "max": 4.5 },
+  "lifespanYears": { "min": 4, "max": 6 },
+  "tank": {
+    "minVolumeLiters": 75,
+    "minLengthCm": 80,
+    "swimZone": "mid",
+    "decorPreferences": ["dense planting", "dark substrate", "floating plants for subdued lighting", "driftwood", "leaf litter"],
+    "minSandDepthCm": null
+  },
+  "careLevel": "beginner",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Accepts quality dried foods readily; benefits from regular offerings of small live or frozen foods such as Daphnia, Artemia, and mosquito larvae for optimal coloration and conditioning for breeding."
+  },
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "schooling",
+    "minGroupSize": 6,
+    "goodWith": ["small tetras", "danios", "rasboras", "Corydoras", "small loricariids", "gouramis", "dwarf cichlids", "livebearers", "pencilfish"],
+    "avoidWith": ["aggressive fish", "large predatory fish", "fin-nipping species", "fish large enough to eat them"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A striking Colombian tetra prized for the males' iridescent purple sheen and extended trident-shaped caudal fin. Generally considered a beginner-friendly schooling fish that does well in soft, slightly acidic, planted community tanks.",
+  "careNotes": "Males develop spectacular elongated dorsal, anal, and caudal fin filaments — the caudal rays extend to form a distinctive trident shape — along with a vivid purple-blue iridescent body sheen. Females have shorter fins and a more yellow-brown body tone, and tend to display greener irises while males typically show blue. Males can be mildly territorial toward one another, so groups of 6 or more with a skewed female ratio tend to reduce conflict. The closely related Rainbow Emperor Tetra (Nematobrycon lacortei) is sometimes confused in the trade; N. lacortei has a rainbow-iridescent body and lacks the trident caudal extension. Best kept in a well-planted aquarium with dark substrate and subdued lighting to bring out their coloration. Slow current preferred. Regular partial water changes (approximately 25% every 1–2 weeks) help keep them in good health.",
+  "breedingNotes": "Egg-scatterers that generally breed without much difficulty in a well-conditioned aquarium. Conditioning with live or frozen foods and providing fine-leaved plants or spawning mops helps trigger spawning. Soft, slightly acidic water (pH 6.0–7.0, gH 1–5) and temperatures around 25–26°C are typically recommended for breeding. Parents tend to eat eggs, so removing adults after spawning or using a separate breeding tank is advisable. Fry are small and initially require infusoria or finely powdered foods before graduating to baby brine shrimp.",
+  "sources": {
+    "primary": {
+      "name": "SeriouslyFish",
+      "url": "https://www.seriouslyfish.com/species/nematobrycon-palmeri/",
+      "accessedDate": "2026-06-08",
+      "notes": "Primary source; Aquarium Co-Op URL 404'd so SeriouslyFish used as primary. Covers taxonomy, parameters, tank size, breeding, and compatibility in detail."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Nematobrycon-palmeri.html",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked adult size (max 4.2 cm SL confirmed) and temperature/pH ranges. FishBase listed family as Acestrorhamphidae which appears to be a database error; Characidae confirmed by SeriouslyFish and wider taxonomic consensus."
+      },
+      {
+        "name": "Fishkeeping World",
+        "url": "https://www.fishkeepingworld.com/emperor-tetra/",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked size, temperature, pH, lifespan (~5 years), and compatibility. Size claim of ~2–2.5 inches (5–6.3 cm) appears overstated relative to FishBase and SeriouslyFish; averaged toward the more authoritative 3.5–4.5 cm range."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "moderate",
+    "breedingNotes": "Egg-scatterers; breed without great difficulty when well-conditioned. Soft acidic water and fine-leaved plants or spawning mops recommended. Parents will eat eggs.",
+    "conspecificAggression": "low",
+    "finNippy": false,
+    "reefSafe": null,
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
+}

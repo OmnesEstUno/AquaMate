@@ -5,82 +5,128 @@
   "taxon": "fish",
   "waterType": "freshwater",
   "commonName": "Glowlight Tetra",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "scientificName": "Hemigrammus erythrozonus",
+  "alsoKnownAs": ["Glow Tetra", "Glow Light Tetra"],
   "category": "Tetra",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Characidae",
+    "order": "Characiformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
+    "regions": ["South America"],
+    "countries": ["Guyana", "Suriname"],
+    "habitat": "Forested tributaries and blackwater streams with tannin-stained, soft and acidic water; typically found in areas with dense riparian vegetation.",
+    "biotope": "Blackwater",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
-    "kH": null,
+    "temperatureC": { "min": 24, "max": 28 },
+    "pH": { "min": 5.5, "max": 7.5 },
+    "gH": { "min": 2, "max": 12 },
+    "kH": { "min": 1, "max": 8 },
     "salinity": null
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 3.5, "max": 4.0 },
+  "lifespanYears": { "min": 2, "max": 4 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 75,
+    "minLengthCm": 60,
+    "swimZone": "mid",
+    "decorPreferences": [
+      "dense planting",
+      "driftwood",
+      "floating plants for diffused light",
+      "dark substrate",
+      "open swimming space in the foreground"
+    ],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "beginner",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Readily accepts small live and frozen foods such as bloodworm, Daphnia and brine shrimp, as well as dried flakes, micropellets and granules. A varied diet tends to bring out the best coloration."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "peaceful",
+    "grouping": "schooling",
+    "minGroupSize": 6,
+    "goodWith": [
+      "other small tetras",
+      "rasboras",
+      "danios",
+      "livebearers",
+      "Corydoras",
+      "smaller Loricariids",
+      "peaceful gouramis",
+      "dwarf cichlids"
+    ],
+    "avoidWith": [
+      "large predatory fish",
+      "angelfish (may nip or be eaten)",
+      "aggressive or fin-nipping species"
+    ]
   },
   "media": {
     "primaryImage": "glowlight_tetra.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Glowlight Tetra.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "A hardy, peaceful schooling tetra from Guyanese blackwater streams, recognised by its vivid orange-red horizontal stripe. Suitable for most community setups and generally considered an excellent beginner fish.",
+  "careNotes": "Best kept in groups of 6 or more — smaller groups tend to be shy and stressed. The species generally does well in most community tanks, though it tends to look its most vibrant in planted aquariums with a dark substrate and some tannin staining. While adaptable, it is commonly considered to show better coloration in soft, slightly acidic water. An albino captive-bred form is occasionally available in the hobby.\n\nNot to be confused with the Glowlight Rasbora (Trigonostigma hengeli), which is a completely different family (Cyprinidae), or with GloFish — the latter are genetically modified Zebra Danios (Danio rerio) with no relation to this species.\n\nNote on taxonomy: traditionally classified in family Characidae; some 2024 phylogenomic revisions have proposed placement in Acestrorhamphidae, but the vast majority of aquarium hobby sources and FishBase retain the Characidae assignment for practical purposes.",
+  "breedingNotes": "Breeding has been reported as moderately achievable in captivity with a dedicated breeding setup. A separate, heavily planted or mesh-bottomed tank with soft, acidic, warm water (around 26-28°C) is generally recommended. Spawning is egg-scattering; adults have been known to eat eggs and fry, so separating adults after spawning is advisable. Typical broods of 100-150 fry have been documented, with eggs hatching within approximately 24-36 hours. Fry are small and generally require infusoria or very fine foods initially.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "SeriouslyFish",
+      "url": "https://www.seriouslyfish.com/species/hemigrammus-erythrozonus/",
+      "accessedDate": "2026-06-08",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/10642",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked size, temperature, pH, hardness, and native range. FishBase lists max TL as 3.3 cm; aquarium hobby sources consistently report up to 4 cm. Temperature and hardness broadly consistent. pH range slightly wider on FishBase (6.0-8.0) vs SeriouslyFish (5.5-7.5); used SeriouslyFish range as it is more aligned with the species' natural blackwater habitat and aquarium hobby consensus."
+      },
+      {
+        "name": "Fishkeeping World",
+        "url": "https://www.fishkeepingworld.com/glowlight-tetra/",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked size (3.8 cm), temperature (23-28°C), hardness (6-15 dGH), lifespan (2-4 years), and grouping minimum. Minimum tank volume listed as 38L (10 gal) — considered too low for a school of 6+; SeriouslyFish 70L and brief guidance of 75L used instead."
+      },
+      {
+        "name": "Aquarium Co-Op",
+        "url": "https://www.aquariumcoop.com/blogs/aquarium/top-10-tetras",
+        "accessedDate": "2026-06-08",
+        "notes": "Confirmed size (~4 cm), community suitability, and natural habitat description (tannin-filled South American waters). No detailed parameter data available on this page; used as supporting context only."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
+    "breedingDifficulty": "moderate",
+    "breedingNotes": "Egg scatterer; spawns in soft, acidic, warm water. Parents eat eggs — remove adults after spawning. Fry require very fine foods initially.",
+    "conspecificAggression": "none",
+    "finNippy": false,
     "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
     "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -90,6 +136,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
 }

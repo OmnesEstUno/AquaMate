@@ -1,0 +1,110 @@
+{
+  "id": "fw-fish-074",
+  "slug": "featherfin-squeaker",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "freshwater",
+  "commonName": "Featherfin Squeaker",
+  "scientificName": "Synodontis eupterus",
+  "alsoKnownAs": ["Featherfin Synodontis", "Network Catfish"],
+  "category": "Catfish",
+  "taxonomy": {
+    "family": "Mochokidae",
+    "order": "Siluriformes"
+  },
+  "nativeRange": {
+    "regions": ["West Africa", "Central Africa", "East Africa"],
+    "countries": ["Nigeria", "Cameroon", "Mali", "Ghana", "Sudan", "Chad", "Niger"],
+    "habitat": "Varies; has been documented in slow to moderate rivers and lakes over muddy and rocky substrates.",
+    "biotope": "African river",
+    "depthRangeM": null
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 22, "max": 27 },
+    "pH": { "min": 6.2, "max": 7.5 },
+    "gH": { "min": 5, "max": 20 },
+    "kH": { "min": 4, "max": 15 },
+    "salinity": null
+  },
+  "adultSizeCm": { "min": 15, "max": 25 },
+  "lifespanYears": { "min": 10, "max": 15 },
+  "tank": {
+    "minVolumeLiters": 200,
+    "minLengthCm": 120,
+    "swimZone": "bottom",
+    "decorPreferences": ["driftwood", "rocks", "caves", "twisted roots", "floating vegetation"],
+    "minSandDepthCm": null
+  },
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Generally unfussy; tends to accept sinking pellets, frozen and live foods (bloodworm, brine shrimp), and occasional vegetable matter such as blanched peas or cucumber. Snails and small invertebrates have been reported taken opportunistically."
+  },
+  "compatibility": {
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["robust tetras", "West African cichlids", "mormyrids", "larger barbs", "large rasboras", "gouramis", "knifefish"],
+    "avoidWith": ["small fish that fit in mouth", "other Synodontis in small tanks", "dwarf cichlids", "small invertebrates"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "African catfish with a striking feathered dorsal fin that develops with age. Known for audible stridulation when stressed, earning its 'squeaker' name. Crepuscular and territorial; intermediate care.",
+  "careNotes": "The dorsal fin feathering is most pronounced in mature adults and is one of the most distinctive features in the hobby. 'Squeaker' refers to audible stridulation produced via pectoral spine friction when the fish is handled or stressed — a defense mechanism. Tends to be more active at dusk and dawn (crepuscular) rather than strictly nocturnal, and will learn to emerge at feeding time. Can become territorial toward conspecifics as it matures, particularly in smaller tanks; pairs may be workable in 200L+ with ample hiding places. Juveniles are sometimes sold as 'Network Catfish' due to their distinctly patterned juvenile coloration, which differs considerably from the adult spotted pattern. As a scaleless catfish, generally considered sensitive to copper-based medications — avoid copper treatments unless no alternative exists. SeriouslyFish notes a wild maximum around 30 cm, though 15–25 cm is the typical captive range; FishBase records a max of 22.2 cm. Cross-reference related Mochokidae siblings: synodontis-multipunctatus, synodontis-petricola, upside-down-catfish.",
+  "breedingNotes": "Breeding has generally not been achieved under natural aquarium conditions without hormonal intervention. Reported to be an egg scatterer with no parental care. Hormone injection protocols used in commercial fish farms. Not a common aquarium breeding project.",
+  "sources": {
+    "primary": {
+      "name": "SeriouslyFish",
+      "url": "https://www.seriouslyfish.com/species/synodontis-euptera/",
+      "accessedDate": "2026-06-08",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Synodontis-eupterus.html",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked adult size (22.2 cm max vs. SeriouslyFish 30 cm max), temperature (22–26°C), pH (6.2–7.5), distribution (White Nile, Niger, Volta, Chad, Kwa Ibo, Cross basins), family/order confirmed. Size discrepancy: FishBase 22.2 cm, SeriouslyFish up to 30 cm — aquarium range of 15–25 cm used as consensus. Aquarium Co-Op had no page for this species."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "advanced",
+    "breedingNotes": "Generally requires hormonal intervention; not reliably bred under normal aquarium conditions.",
+    "conspecificAggression": "moderate",
+    "finNippy": false,
+    "reefSafe": null,
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": true,
+    "copperSensitive": true,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
+}

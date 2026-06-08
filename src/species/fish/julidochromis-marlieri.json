@@ -1,0 +1,126 @@
+{
+  "id": "fw-fish-082",
+  "slug": "julidochromis-marlieri",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "freshwater",
+  "commonName": "Marlier's Julie",
+  "scientificName": "Julidochromis marlieri",
+  "alsoKnownAs": ["Chequered Julie", "Marlieri Cichlid"],
+  "category": "Cichlid",
+  "taxonomy": {
+    "family": "Cichlidae",
+    "order": "Cichliformes"
+  },
+  "nativeRange": {
+    "regions": ["East Africa", "Great Rift Valley"],
+    "countries": ["Democratic Republic of Congo", "Tanzania", "Burundi"],
+    "habitat": "Rocky shoreline of northwestern Lake Tanganyika; typically found hugging rock faces and crevices in the littoral zone",
+    "biotope": "Rift lake rocky shore",
+    "depthRangeM": { "min": 3, "max": 9 }
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 23, "max": 27 },
+    "pH": { "min": 7.8, "max": 9.0 },
+    "gH": { "min": 10, "max": 25 },
+    "kH": { "min": 8, "max": 20 },
+    "salinity": null
+  },
+  "adultSizeCm": { "min": 8, "max": 15 },
+  "lifespanYears": { "min": 5, "max": 10 },
+  "tank": {
+    "minVolumeLiters": 150,
+    "minLengthCm": 100,
+    "swimZone": "bottom",
+    "decorPreferences": [
+      "Extensive rock piles and cave formations for shelter and spawning",
+      "PVC tubes or clay rockwork as spawning sites",
+      "Sandy substrate",
+      "Well-oxygenated water with moderate flow",
+      "Open areas between rock structures"
+    ],
+    "minSandDepthCm": null
+  },
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Tends to accept high-quality cichlid pellets, frozen foods (mysis shrimp, brine shrimp, cyclops), and spirulina-enriched foods. Vegetable matter such as blanched spinach or spirulina flakes is generally recommended alongside meaty foods. Does not typically surface-feed; sinking or mid-water foods are preferred."
+  },
+  "compatibility": {
+    "temperament": "territorial",
+    "grouping": "pair",
+    "minGroupSize": 2,
+    "goodWith": [
+      "Other Tanganyikan cichlids of similar size (Altolamprologus, Cyprichromis, Synodontis catfish)",
+      "Shellies (Lamprologus ocellatus, Neolamprologus multifasciatus) in sufficiently large tanks",
+      "Cyphotilapia frontosa (in large tanks only)"
+    ],
+    "avoidWith": [
+      "Conspecifics outside of an established pair (highly aggressive toward unpaired conspecifics)",
+      "Other Julidochromis species (hybridization risk and aggression)",
+      "Mbuna-type cichlids (incompatible water chemistry and aggression profile)",
+      "Small, timid fish that may be harassed",
+      "Malawi or Victoria cichlids"
+    ]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A striking chequered cichlid endemic to Lake Tanganyika's rocky shores. Forms lifelong pair bonds and tends to spawn in crevices; pairs are generally manageable but are known to be aggressive toward unpaired conspecifics.",
+  "careNotes": "Julidochromis marlieri is one of the larger members of its genus (up to ~15 cm), endemic to the northwestern rocky shores of Lake Tanganyika. Hard, alkaline rift-lake chemistry is essential — soft or acidic tap water is unsuitable without buffering to replicate Tanganyikan conditions (pH 7.8–9.0, gH 10–25, kH 8–20).\n\nAround 4–5 Julidochromis species are found in the trade (marlieri, transcriptus, ornatus, regani, dickfeldi), and cross-species hybridization is possible and common — best practice is to keep only one species per tank or system to avoid unintentional hybrids.\n\nThis species forms stable pair bonds that tend to endure long-term; pairs engage in shared biparental brood care. However, unpaired individuals — or fish from outside the established pair — are treated with significant aggression. Introducing new fish to an established pair's territory can result in injury or death. A 150 L+ tank with abundant rockwork for the pair is broadly recommended; larger tanks are needed if other Tanganyikan species are to be added.\n\nJulidochromis marlieri characteristically swims close to rock surfaces regardless of tank orientation — the fish can often be seen hugging vertical or even overhanging rock faces. Rock piles with caves, PVC tubes, or clay structures should be provided as both territory anchors and spawning sites. Avoid large water changes with an established, spawning pair as sudden chemistry shifts can disrupt breeding activity.\n\nFishBase records a wild depth range of 3–9 m on rocky substrate; the species is considered endemic to the northwestern portion of the lake (DRC, Tanzania, Burundi border region). Several geographic color variants exist; the classic marlieri pattern is white body with dark-brown/black checkerboard markings.",
+  "breedingNotes": "Breeding is generally considered easy for an established, bonded pair. Pairs spawn secretively inside caves or crevices, with females typically depositing 50–100 eggs on cave walls or rocky surfaces. Both parents guard eggs and fry (biparental cave-spawning cichlid). Fry are mobile shortly after hatching and accept brine shrimp nauplii from day one. Brood care tends to be extended — fry often remain in the parents' territory until they reach approximately 2–3 cm. The main challenge is forming a compatible pair; purchasing a group of 4–6 juveniles and allowing natural pairing is commonly recommended.",
+  "sources": {
+    "primary": {
+      "name": "SeriouslyFish",
+      "url": "https://www.seriouslyfish.com/species/julidochromis-marlieri/",
+      "accessedDate": "2026-06-08",
+      "notes": "Primary source used in place of Aquarium Co-Op (404 on all tested URL patterns). SeriouslyFish provides comprehensive species-specific husbandry data for this taxon."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Julidochromis-marlieri.html",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked size (max 13 cm TL vs SeriouslyFish 15 cm — averaged to min 8 cm, max 15 cm range reflecting hobbyist and wild data), temperature (FishBase 22–25°C vs SeriouslyFish 23–27°C — used 23–27°C as the hobby-consensus range), pH (both agree 7.5–9.0; used 7.8 as practical Tanganyika floor per trade convention), depth 3–9 m, and taxonomy (Cichlidae, Cichliformes confirmed). Hardness: FishBase reports 3–9 dH (wild measurement) vs hobby standard 10–25 dH; used hobby parameters aligned with Tanganyika aquarium practice. Frontosa entry cross-referenced for Tanganyika parameter consensus."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "easy",
+    "breedingNotes": "Cave-spawning biparental mouthbrooder; pairs spawn on cave walls or rock crevices; 50–100 eggs per clutch; extended brood care. Forming a compatible pair is the main challenge — start with a juvenile group and allow natural pairing.",
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": null,
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": true,
+    "hlleSusceptible": null,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
+}
