@@ -1,0 +1,121 @@
+{
+  "id": "sw-algae-090",
+  "slug": "sea-plume",
+  "kind": "flora",
+  "taxon": "macroalgae",
+  "waterType": "saltwater",
+  "commonName": "Sea Plume",
+  "scientificName": "Asparagopsis taxiformis",
+  "alsoKnownAs": ["Red Sea Plume", "Limu Kohu"],
+  "category": "Macroalgae",
+
+  "taxonomy": {
+    "family": "Bonnemaisoniaceae",
+    "order": "Bonnemaisoniales"
+  },
+
+  "nativeRange": {
+    "regions": ["Indo-Pacific", "Mediterranean", "Tropical Atlantic", "Temperate Pacific"],
+    "countries": [],
+    "habitat": "Shallow reef zones and rock substrates in the photic zone",
+    "biotope": "Coastal rocky reef, hard substrate attachment",
+    "depthRangeM": { "min": 0, "max": 30 }
+  },
+
+  "waterParameters": {
+    "temperatureC": { "min": 22, "max": 26 },
+    "pH":           { "min": 8.1, "max": 8.4 },
+    "gH":           null,
+    "kH":           null,
+    "salinity":     { "min": 1.023, "max": 1.026 }
+  },
+
+  "adultSizeCm": { "min": 5, "max": 15 },
+  "lifespanYears": null,
+
+  "tank": {
+    "minVolumeLiters": 40,
+    "minLengthCm": null,
+    "swimZone": null,
+    "decorPreferences": ["Rock attachment via wedging between rockwork", "Zip-tie or fishing line to frag plug or live rock", "Superglue gel to rock surface (temporary)"],
+    "minSandDepthCm": null
+  },
+
+  "careLevel": "intermediate",
+
+  "diet": null,
+
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["Reef tanks with stable parameters", "Other ornamental macroalgae", "Peaceful reef fish"],
+    "avoidWith": ["Herbivorous fish that graze heavily on macroalgae (tangs, rabbitfish)", "Strong turbulent flow that may dislodge specimens", "Sand bed placement"]
+  },
+
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": [
+      {
+        "url": "https://mosaicmacros.com/cdn/shop/files/IMG-9598.jpg",
+        "source": "Mosaic Macros",
+        "sourceType": "research-site",
+        "license": "All rights reserved",
+        "notes": "Primary product image from Mosaic Macros listing. Shows feathery plume form.",
+        "recommended": true
+      },
+      {
+        "url": "https://mosaicmacros.com/cdn/shop/files/IMG-9599.jpg",
+        "source": "Mosaic Macros",
+        "sourceType": "research-site",
+        "license": "All rights reserved",
+        "notes": "Secondary product image from Mosaic Macros listing.",
+        "recommended": false
+      }
+    ]
+  },
+
+  "summary": "A feathery, intricately-branching red macroalga prized for its ornamental plume form. Notable for producing bromoform and other halogenated compounds linked to livestock methane reduction research. Invasive in the Mediterranean and parts of the temperate Pacific.",
+
+  "careNotes": "Asparagopsis taxiformis is a delicate ornamental red alga with fuzzy, intricately-branching growth resembling a plume. Coloration is variable — typically pale reddish-pink or cream, though red, orange, and tan forms have been observed. It tends to form dense bushy colonies under good conditions. Turbulent but not excessive flow is generally advisable; too much current can tear delicate fronds.\n\nRock attachment is required. As a red alga (Rhodophyta), it will melt at the base if buried in sand — do not place it directly in a sand bed. Attach via wedging between rockwork (preferred), zip-ties or fishing line to a frag plug, or superglue gel to a rock surface. Mosaic Macros recommends weekly dosing of iron, iodine, and trace elements for best results. Avoid actinic-only lighting; full-spectrum LED is preferred.\n\nWater parameters broadly in line with standard reef chemistry: temperature 22–26°C, pH 8.1–8.4, calcium 400–450 ppm, magnesium 1250–1350 ppm, nitrate 5–20 ppm, phosphate 0.02–0.1 ppm.\n\nThis species is exceptionally sensitive to shipping stress and generally requires Next-Day Air shipping to survive transit; standard 2-day shipping is typically not sufficient per Mosaic Macros' own guidance.\n\nNotable biology: A. taxiformis is well-documented as a source of bromoform (CHBr₃) and other halogenated organic compounds. Research has shown that supplementing cattle feed with small quantities of this alga can significantly reduce enteric methane emissions — a finding that has attracted scientific attention for livestock climate impact mitigation.\n\nInvasive status: A. taxiformis has established invasive populations in the Mediterranean Sea and parts of the temperate Pacific (notably California and other eastern Pacific coastal zones), where it outcompetes native algal communities. Aquarists in these regions should take appropriate precautions to prevent any discharge of tank water or algal material into local waterways.",
+
+  "breedingNotes": "In the wild, Asparagopsis taxiformis has a heteromorphic alternation of generations life cycle — the feathery gametophyte (the form sold in the aquarium trade) alternates with a smaller crustose sporophyte stage (Falkenbergia phase). In the aquarium context, propagation is generally accomplished by fragmentation: healthy fronds can be carefully divided and attached to new rock surfaces. Successful gametophyte-to-sporophyte cycling in captivity has not been widely documented in the hobby literature.",
+
+  "sources": {
+    "primary": {
+      "name": "Mosaic Macros",
+      "url": "https://mosaicmacros.com/products/sea-plume-macroalgae-asparagopsis-taxiformis",
+      "accessedDate": "2026-06-08",
+      "notes": "Product page: form description, flow guidance, shipping sensitivity, image candidates."
+    },
+    "additional": [
+      {
+        "name": "Mosaic Macros — Macroalgae Care: The Basics",
+        "url": "https://mosaicmacros.com/blogs/macroalgae-care-sheets-compatibility/macroalgae-care-the-basics-of-keeping-macroalgae-in-your-reef",
+        "accessedDate": "2026-06-08",
+        "notes": "Slice-wide secondary source. Provided canonical water parameter targets (temp 22–26°C, pH 8.1–8.4, Ca 400–450 ppm, Mg 1250–1350 ppm, NO3 5–20 ppm, PO4 0.02–0.1 ppm), lighting guidance (full-spectrum preferred, avoid actinic-only), flow guidance, and sand-bed melt warning for red/brown algae."
+      }
+    ]
+  },
+
+  "fish":        null,
+  "crustacean":  null,
+  "coral":       null,
+  "mollusc":     null,
+  "echinoderm":  null,
+  "other-invert": null,
+  "plant":       null,
+  "macroalgae": {
+    "lighting":       "medium",
+    "growthRate":     "medium",
+    "form":           "macroalgae",
+    "placement":      "display",
+    "nutrientUptake": "low",
+    "propagation":    ["fragmentation", "wedging", "zip-tie/fishing line"]
+  },
+
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
+}

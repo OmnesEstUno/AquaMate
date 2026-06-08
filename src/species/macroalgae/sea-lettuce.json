@@ -1,0 +1,105 @@
+{
+  "id": "sw-algae-089",
+  "slug": "sea-lettuce",
+  "kind": "flora",
+  "taxon": "macroalgae",
+  "waterType": "saltwater",
+  "commonName": "Sea Lettuce",
+  "scientificName": "Ulva sp.",
+  "alsoKnownAs": ["Green Laver", "Sea Lettuce (unspecified Ulva)"],
+  "category": "Macroalgae",
+  "taxonomy": {
+    "family": "Ulvaceae",
+    "order": "Ulvales"
+  },
+  "nativeRange": {
+    "regions": [
+      "Cosmopolitan — Atlantic",
+      "Indo-Pacific",
+      "Mediterranean",
+      "Caribbean",
+      "Pacific",
+      "Indian Ocean"
+    ],
+    "countries": [],
+    "habitat": "Intertidal and shallow subtidal rocky shores; also estuaries and tide pools depending on species within the genus",
+    "biotope": "Reef",
+    "depthRangeM": { "min": 0, "max": 10 }
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 22, "max": 26 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": null,
+    "salinity": { "min": 1.023, "max": 1.026 }
+  },
+  "adultSizeCm": { "min": 5, "max": 30 },
+  "lifespanYears": null,
+  "tank": {
+    "minVolumeLiters": 40,
+    "minLengthCm": null,
+    "swimZone": null,
+    "decorPreferences": ["refugium with moderate tumbling flow", "live rock anchor point"],
+    "minSandDepthCm": null
+  },
+  "careLevel": "beginner",
+  "diet": null,
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "solitary",
+    "minGroupSize": null,
+    "goodWith": ["tangs", "rabbitfish", "herbivorous fish", "hermit crabs", "snails", "shrimp"],
+    "avoidWith": []
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": [
+      {
+        "url": "https://mosaicmacros.com/cdn/shop/files/IMG-9427.jpg?v=1745366375",
+        "source": "Mosaic Macros",
+        "sourceType": "research-site",
+        "license": "All rights reserved",
+        "notes": "Mosaic Macros product page image for Sea Lettuce (Ulva sp.) listing.",
+        "recommended": true
+      }
+    ]
+  },
+  "summary": "A genus-level entry for Mosaic Macros' untyped Ulva 'Sea Lettuce' listings — flat, mat-forming green macroalgae suitable for the refugium. Fast-growing, high nutrient exporter, and palatable to most herbivores.",
+  "careNotes": "This entry covers Mosaic Macros' Sea Lettuce listings sold as Ulva sp. without species-level identification, and serves as a genus-level umbrella distinct from the species-level entries for Ulva lactuca (Clean Sea Lettuce, sw-algae-011) and Ulva intestinalis (Gutweed, sw-algae-051).\n\nMosaic describes Sea Lettuce as 'an attractive, green macro algae that grows in a mat-like pattern' and notes it is 'palatable to almost all invertebrates and herbivorous fish.' It is commonly considered one of the easier macroalgae to keep, tolerating a range of standard reef water conditions.\n\nFor water parameters, Mosaic's general macroalgae care guide recommends temperature 22–26°C (72–78°F), pH 8.1–8.4, calcium 400–450 ppm, magnesium 1250–1350 ppm, nitrate 5–20 ppm, and phosphate 0.02–0.1 ppm. These targets are consistent with standard reef chemistry and are generally advised for all Ulva-genus macroalgae in reef aquariums.\n\nLighting should be full-spectrum; Mosaic explicitly advises against actinic-only spectra, noting it cannot support many species. Freshwater-planted LEDs are generally considered acceptable. Flow should be similar to a soft-coral tank — moderate, with some surface agitation, but not so strong as to tear the thallus.\n\nAs a refugium nutrient exporter, Ulva species tend to assimilate nitrate and phosphate efficiently. Regular harvesting of a portion of the clump is generally advised to export accumulated nutrients from the system. The thallus is highly palatable and is commonly used as a natural food supplement for tangs, rabbitfish, and other herbivorous reef fish.\n\nMosaic recommends weekly dosing of iron, iodine, and other trace elements for macroalgae health. Propagation in the aquarium is straightforward — detached thallus fragments will regrow under suitable conditions.",
+  "breedingNotes": "Propagates readily by fragmentation in the aquarium. Ulva species also undergo sexual reproduction via isomorphic alternation of gametophyte and sporophyte generations, though deliberate management of this cycle in captivity is not documented in the hobby.",
+  "sources": {
+    "primary": {
+      "name": "Mosaic Macros — Sea Lettuce (Ulva sp.)",
+      "url": "https://mosaicmacros.com/products/sea-lettuce-ulva-sp",
+      "accessedDate": "2026-06-08",
+      "notes": "Sole aquarium hobby source for this genus-level Ulva sp. listing. Confirms mat-forming green macroalgae, palatable to herbivores and invertebrates. No specific water parameters on product page — supplemented by Mosaic care guide."
+    },
+    "additional": [
+      {
+        "name": "Mosaic Macros — Macroalgae Care: The Basics",
+        "url": "https://mosaicmacros.com/blogs/macroalgae-care-sheets-compatibility/macroalgae-care-the-basics-of-keeping-macroalgae-in-your-reef",
+        "accessedDate": "2026-06-08",
+        "notes": "Slice-wide secondary source. Provides canonical parameter targets: temp 22–26°C, pH 8.1–8.4, Ca 400–450 ppm, Mg 1250–1350 ppm, NO3 5–20 ppm, PO4 0.02–0.1 ppm. Also covers lighting (full-spectrum, no actinic-only), flow (soft-coral-equivalent), attachment methods, and weekly iron/iodine/trace dosing recommendation."
+      }
+    ]
+  },
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": {
+    "lighting": "medium",
+    "growthRate": "fast",
+    "form": "macroalgae",
+    "placement": "refugium",
+    "nutrientUptake": "high",
+    "propagation": ["fragmentation"]
+  },
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
+}

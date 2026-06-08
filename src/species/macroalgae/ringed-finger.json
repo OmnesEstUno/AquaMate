@@ -1,0 +1,98 @@
+{
+  "id": "sw-algae-085",
+  "slug": "ringed-finger",
+  "kind": "flora",
+  "taxon": "macroalgae",
+  "waterType": "saltwater",
+  "commonName": "Ringed Finger",
+  "scientificName": "Neomeris annulata",
+  "alsoKnownAs": [],
+  "category": "Macroalgae",
+  "taxonomy": {
+    "family": "Dasycladaceae",
+    "order": "Dasycladales"
+  },
+  "nativeRange": {
+    "regions": ["Caribbean", "Western Atlantic", "Indo-Pacific"],
+    "countries": ["United States", "Mexico", "Belize", "Jamaica", "Cuba", "Puerto Rico", "Bahamas", "Bermuda", "Venezuela", "Brazil"],
+    "habitat": "Shallow tropical marine environments; typically anchored in sandy or rubble substrates near reef flats, sheltered lagoons, and coastal shallows",
+    "biotope": "Tropical reef and sandy lagoon",
+    "depthRangeM": { "min": 0, "max": 20 }
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 22, "max": 26 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.023, "max": 1.026 }
+  },
+  "adultSizeCm": { "min": 2, "max": 8 },
+  "lifespanYears": null,
+  "tank": {
+    "minVolumeLiters": 40,
+    "minLengthCm": null,
+    "swimZone": null,
+    "decorPreferences": ["sandy substrate for anchoring (minimum 5 cm sand bed)", "open display placement", "moderate flow area"],
+    "minSandDepthCm": 5
+  },
+  "careLevel": "advanced",
+  "diet": null,
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["reef fish", "snails", "hermit crabs", "shrimp", "corals"],
+    "avoidWith": ["herbivorous fish (may graze on thallus)", "urchins (may heavily graze)"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": [
+      {
+        "url": "https://mosaicmacros.com/cdn/shop/files/IMG-3836.jpg",
+        "source": "Mosaic Macros",
+        "sourceType": "research-site",
+        "license": "All rights reserved",
+        "notes": "Primary Mosaic Macros product image for Ringed Finger (Neomeris annulata)",
+        "recommended": true
+      }
+    ]
+  },
+  "summary": "Ringed Finger is a lightly calcified Caribbean green macroalgae (Dasycladaceae) forming upright, finger-like growths with distinctive concentric banding. Generally considered advanced; can spread aggressively once established.",
+  "careNotes": "Ringed Finger (Neomeris annulata) is a lightly calcified green macroalgae in the family Dasycladaceae (Order Dasycladales), the same family as Batophora sp. (Fern Finger, sw-algae-036) and Cymopolia barbata (Jointed Tuft, sw-algae-055). It produces erect, cylindrical finger-like thalli with distinctive concentric banding — the source of both the species epithet (annulata, meaning ringed) and its common name. The thallus is lightly to moderately calcified with calcium carbonate deposits in concentric zones.\n\nMosaic Macros explicitly warns that Neomeris annulata \"can be very invasive, and very hard to get rid of\" once introduced to a reef system. Keepers should consider this carefully before introduction to display tanks; it tends to spread from its initial placement and may be difficult to remove from rockwork or substrate. Mosaic disclaims responsibility if the species becomes invasive.\n\nAs a calcareous green alga in the Dasycladales, stable calcium (400–450 ppm) and alkalinity (kH 8–12) are generally regarded as important for maintaining healthy calcification. Fluctuations in these parameters have been associated with tissue bleaching or decline in related species. High lighting is generally recommended, consistent with its shallow-water Caribbean habitat. Growth rate is typically described as slow — calcareous deposition is energetically costly — though once established this species may spread actively via new thalli from the holdfast.\n\nThis species is sand-anchored in nature and tends to be sold on rock with 5+ individual growths. Providing a sand bed of at least 5 cm is generally advisable to allow natural anchoring. It can also be wedged into rockwork. Mosaic Macros sells it as a 1–3\" rock with multiple growths at $9.99.\n\nMosaic Macros is the sole identified aquarium hobby source for this species. Water parameters are sourced from the Mosaic Macros general macroalgae care guide (temp 22–26°C, pH 8.1–8.4, Ca 400–450 ppm, Mg 1250–1350 ppm, NO3 5–20 ppm, PO4 0.02–0.1 ppm), consistent with parameters applied to Dasycladaceae siblings in this dataset. Weekly dosing of iron, iodine, and other trace elements is generally recommended for calcareous macroalgae per Mosaic guidance. Full-spectrum LED lighting is advised; actinic-only spectra are generally insufficient for demanding species like this. Flow should be gentle to moderate — excessive flow may tear or dislodge growths.",
+  "breedingNotes": null,
+  "sources": {
+    "primary": {
+      "name": "Mosaic Macros",
+      "url": "https://mosaicmacros.com/products/ringed-finger-macroalgae-neomeris-annulata",
+      "accessedDate": "2026-06-08",
+      "notes": "Sole aquarium hobby source for this species. Product description confirms lightly calcified upright thalli, sold on rock with 5+ growths, and includes invasiveness warning."
+    },
+    "additional": [
+      {
+        "name": "Mosaic Macros — General Macroalgae Care Guide",
+        "url": "https://mosaicmacros.com/blogs/macroalgae-care-sheets-compatibility/macroalgae-care-the-basics-of-keeping-macroalgae-in-your-reef",
+        "accessedDate": "2026-06-08",
+        "notes": "Slice-wide secondary source providing canonical water parameter targets (temp 22–26°C, pH 8.1–8.4, Ca 400–450 ppm, Mg 1250–1350 ppm, NO3 5–20 ppm, PO4 0.02–0.1 ppm), lighting, flow, and sand-bed acceptance guidance. Meets 2-source minimum for Mosaic-only entries per playbook."
+      }
+    ]
+  },
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": {
+    "lighting": "high",
+    "growthRate": "slow",
+    "form": "calcareous",
+    "placement": "display",
+    "nutrientUptake": "low",
+    "propagation": ["fragmentation", "sand-bed"]
+  },
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
+}

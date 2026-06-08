@@ -1,0 +1,101 @@
+{
+  "id": "sw-algae-095",
+  "slug": "string-of-pearls",
+  "kind": "flora",
+  "taxon": "macroalgae",
+  "waterType": "saltwater",
+  "commonName": "String-of-Pearls",
+  "scientificName": "Coelarthrum sp.",
+  "alsoKnownAs": [],
+  "category": "Macroalgae",
+  "taxonomy": {
+    "family": "Rhodymeniaceae",
+    "order": "Rhodymeniales"
+  },
+  "nativeRange": {
+    "regions": ["Indo-Pacific", "Tropical Atlantic"],
+    "countries": [],
+    "habitat": "Shallow reef environments, typically found on hard substrates in the photic zone",
+    "biotope": "Tropical marine reef",
+    "depthRangeM": { "min": 0, "max": 30 }
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 22, "max": 26 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": null,
+    "salinity": { "min": 1.023, "max": 1.026 }
+  },
+  "adultSizeCm": { "min": 5, "max": 15 },
+  "lifespanYears": null,
+  "tank": {
+    "minVolumeLiters": 40,
+    "minLengthCm": null,
+    "swimZone": null,
+    "decorPreferences": [
+      "Attach to live rock via wedging, zip-tie/fishing line, or superglue",
+      "Do not bury in sand — red algae will melt at the base if buried"
+    ],
+    "minSandDepthCm": null
+  },
+  "careLevel": "intermediate",
+  "diet": null,
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "solitary",
+    "minGroupSize": null,
+    "goodWith": ["reef fish", "snails", "hermit crabs", "shrimp", "most invertebrates"],
+    "avoidWith": ["strong herbivorous fish that may consume macroalgae"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": [
+      {
+        "url": "https://mosaicmacros.com/cdn/shop/files/IMG-9283.jpg",
+        "source": "Mosaic Macros",
+        "sourceType": "research-site",
+        "license": "All rights reserved",
+        "notes": "Product page image from Mosaic Macros listing for String-of-Pearls (Coelarthrum sp.).",
+        "recommended": true
+      }
+    ]
+  },
+  "summary": "An ornamental red macroalgae with distinctive grape-like, fluid-filled bladders resembling a string of pearls. Generally suited for display in reef tanks; tends to grow slowly and is typically kept attached to rockwork.",
+  "careNotes": "Coelarthrum sp. 'String-of-Pearls' is a red macroalga (Rhodophyta) with characteristic round, fluid-filled bladders reminiscent of Botryocladia, but lacking a pronounced stolon. It is generally considered an intermediate-level display macroalgae. As a red alga, it must be attached to rock rather than planted in sand — placing it in a sand bed will cause the base to melt, per Mosaic Macros guidance. Recommended attachment methods include wedging between rocks, securing with zip-tie or fishing line (tied loosely to avoid damaging the thallus), or short-term superglue gel to a rock plug. Lighting should be full-spectrum; actinic-only spectra are generally inadequate. Flow should be gentle to moderate, similar to a soft-coral display tank — excessive flow has been known to tear delicate thalli. Weekly dosing of an all-around micronutrient supplement (iron, iodine, and trace elements) is advised. Calcium 400–450 ppm and magnesium 1250–1350 ppm targets help maintain a stable reef environment. Nitrate 5–20 ppm and phosphate 0.02–0.1 ppm provide adequate nutrition for growth. Macroalgae sold by Mosaic Macros may arrive with hitchhiking organisms; inspect upon receipt. Adult size estimate (5–15 cm) is based on typical fragment sizes offered (4\"+ cuttings) and general Coelarthrum growth habit; no precise published size data was located during research — reviewer may wish to verify.",
+  "breedingNotes": "Propagation in captivity is primarily by fragmentation — breaking off healthy branch segments and re-attaching them to rock. Coelarthrum also undergoes gametophyte-sporophyte alternation in the wild, but this life-cycle phase is not typically managed in aquarium settings.",
+  "sources": {
+    "primary": {
+      "name": "Mosaic Macros",
+      "url": "https://mosaicmacros.com/products/string-of-pearls-algae-coelarthrum-sp",
+      "accessedDate": "2026-06-08",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "Mosaic Macros — Macroalgae Care Guide",
+        "url": "https://mosaicmacros.com/blogs/macroalgae-care-sheets-compatibility/macroalgae-care-the-basics-of-keeping-macroalgae-in-your-reef",
+        "accessedDate": "2026-06-08",
+        "notes": "Slice-wide secondary source. Provided water parameter targets (temp 22–26°C, pH 8.1–8.4, Ca 400–450 ppm, Mg 1250–1350 ppm, NO3 5–20 ppm, PO4 0.02–0.1 ppm), lighting guidance (full-spectrum), flow guidance, and the sand-bed melt warning for red algae. Cross-verified as the authoritative secondary for Mosaic-only entries per playbook."
+      }
+    ]
+  },
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": {
+    "lighting": "medium",
+    "growthRate": "slow",
+    "form": "macroalgae",
+    "placement": "display",
+    "nutrientUptake": "low",
+    "propagation": ["fragmentation", "wedging", "zip-tie/fishing line"]
+  },
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
+}

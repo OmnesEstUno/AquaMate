@@ -1,0 +1,113 @@
+{
+  "id": "sw-algae-092",
+  "slug": "spiny-seaweed",
+  "kind": "flora",
+  "taxon": "macroalgae",
+  "waterType": "saltwater",
+  "commonName": "Spiny Seaweed",
+  "scientificName": "Eucheuma isiforme",
+  "alsoKnownAs": [],
+  "category": "Red Macroalgae",
+
+  "taxonomy": {
+    "family": "Solieriaceae",
+    "order": "Gigartinales"
+  },
+
+  "nativeRange": {
+    "regions": ["Indo-Pacific", "Caribbean", "Tropical Atlantic"],
+    "countries": ["Philippines", "Indonesia", "Malaysia", "United States (Florida)", "Mexico"],
+    "habitat": "Subtidal coral reef zones and rubble areas; tends to grow anchored to hard substrate or rubble in moderate water movement.",
+    "biotope": "Tropical coral reef",
+    "depthRangeM": { "min": 0, "max": 15 }
+  },
+
+  "waterParameters": {
+    "temperatureC": { "min": 22, "max": 26 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": null,
+    "salinity": { "min": 1.023, "max": 1.026 }
+  },
+
+  "adultSizeCm": { "min": 5, "max": 25 },
+  "lifespanYears": null,
+
+  "tank": {
+    "minVolumeLiters": 40,
+    "minLengthCm": null,
+    "swimZone": null,
+    "decorPreferences": ["live rock attachment", "rubble substrate for anchoring", "moderate flow"],
+    "minSandDepthCm": null
+  },
+
+  "careLevel": "advanced",
+
+  "diet": null,
+
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["reef fish", "invertebrates", "corals", "snails", "hermit crabs", "shrimp"],
+    "avoidWith": ["herbivorous fish", "tangs", "sea urchins", "rabbitfish"]
+  },
+
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": [
+      {
+        "url": "https://mosaicmacros.com/cdn/shop/files/IMG-2573.jpg",
+        "source": "Mosaic Macros",
+        "sourceType": "research-site",
+        "license": "All rights reserved",
+        "notes": "Product image from Mosaic Macros listing for Eucheuma isiforme; sole hobby trade source for this species.",
+        "recommended": true
+      }
+    ]
+  },
+
+  "summary": "A rare display-grade red macroalgae with erect, spiny branches and highly variable coloration — specimens may arrive red, orange, or yellow. One of the more challenging macroalgae to maintain; rarely offered in the hobby trade.",
+
+  "careNotes": "Eucheuma isiforme is a red alga (Rhodophyta, family Solieriaceae) despite trade names that may suggest otherwise. Mosaic Macros describes this species as 'rarely offered due to its difficulty' and requires Next-Day Air shipping for the live arrival guarantee, indicating greater sensitivity to shipping stress than many other macroalgae. Color is highly variable — specimens may be red, orange, or yellow depending on collection location and tank conditions. As a red alga, E. isiforme must NOT be buried in sand; burying the base will cause it to melt. It is generally advised to attach it to live rock or rubble using wedging (positioning between rocks) or zip-tie/fishing line; superglue has been documented to cause base melt in some macroalgae and should be used with caution. Moderate, indirect flow is preferable — too much direct current can damage the spiny thallus. Full-spectrum LED lighting is recommended; actinic-only spectrum has been noted by Mosaic to be insufficient for more demanding species. Weekly dosing of iron, iodine, and trace micronutrients is generally advised. Target water chemistry: temperature 22–26°C, pH 8.1–8.4, calcium 400–450 ppm, magnesium 1250–1350 ppm, nitrate 5–20 ppm, phosphate 0.02–0.1 ppm. Herbivorous tankmates — including tangs, rabbitfish, and sea urchins — have been known to consume this alga. A sibling entry, Green Spiny Seaweed (sw-algae-050, Eucheuma sp.), represents the unidentified green-coloration form of this genus sold separately by Mosaic.",
+
+  "breedingNotes": "Aquarium propagation is typically by fragmentation — detaching healthy branch segments and allowing them to anchor to rubble or rock. Sexual reproduction (gametophyte/sporophyte alternation) has not been documented in home aquaria.",
+
+  "sources": {
+    "primary": {
+      "name": "Mosaic Macros",
+      "url": "https://mosaicmacros.com/products/spiny-seaweed-euchema-spinnosum",
+      "accessedDate": "2026-06-08",
+      "notes": "Sole hobby trade source; confirmed species identity as Eucheuma isiforme, coloration variability (red/orange/yellow), care level (difficult), and shipping sensitivity requiring Next-Day Air."
+    },
+    "additional": [
+      {
+        "name": "Mosaic Macros — Macroalgae Care Guide",
+        "url": "https://mosaicmacros.com/blogs/macroalgae-care-sheets-compatibility/macroalgae-care-the-basics-of-keeping-macroalgae-in-your-reef",
+        "accessedDate": "2026-06-08",
+        "notes": "Slice-wide secondary source. Confirmed water parameters (temp 22–26°C, pH 8.1–8.4, Ca 400–450 ppm, Mg 1250–1350 ppm, NO3 5–20 ppm, PO4 0.02–0.1 ppm), propagation guidance (wedging preferred, zip-tie/fishing line acceptable), red-algae sand-bed melt warning, full-spectrum lighting requirement, and weekly micronutrient dosing recommendation."
+      }
+    ]
+  },
+
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": {
+    "lighting": "medium",
+    "growthRate": "medium",
+    "form": "macroalgae",
+    "placement": "display",
+    "nutrientUptake": "moderate",
+    "propagation": ["fragmentation", "wedging", "zip-tie/fishing line"]
+  },
+
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
+}
