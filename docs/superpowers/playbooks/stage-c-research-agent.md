@@ -146,6 +146,29 @@ From whichever source has them (primary preferred; cross-check only if it feels 
 - **tank** has a typed sand-depth field:
   - `tank.minSandDepthCm` — `<number> | null`. Minimum sand-bed depth (cm) for burrowing/sand-sifting species (garden eels, jawfish, sleeper gobies, wrasses that bury at night). Distinct from `decorPreferences` prose.
 
+**Macroalgae variant block (`macroalgae.*`):**
+  - `macroalgae.lighting` — `"low"` | `"medium"` | `"high"` | null. Light intensity preference. Refugium chaeto and most green macros are medium; red ornamental macros are typically low-medium; calcareous greens (Halimeda, Penicillus, Udotea) often need medium-high.
+  - `macroalgae.growthRate` — `"slow"` | `"medium"` | `"fast"` | null. Filamentous greens (Chaetomorpha, Ulva) and refugium chaeto are fast; ornamental red macros (Halymenia, Botryocladia) are typically slow-medium; calcareous greens are slow.
+  - `macroalgae.form` — `"macroalgae"` (default — free-floating or holdfast-attached upright thallus) | `"filamentous"` (hair-like / wiry forms — Chaetomorpha, some Bryopsis) | `"calcareous"` (CaCO₃-deposit greens — Halimeda, Penicillus, Udotea, Acetabularia, Codium has soft form not calcareous) | `"encrusting"` (coralline algae growth form — sheet-like over rock substrate) | null.
+  - `macroalgae.placement` — `"refugium"` (nutrient-export workhorses kept in sump refugium — Chaetomorpha, Ulva, Gracilaria refugium varieties) | `"display"` (ornamental show-tank specimens — red macros, calcareous greens, decorative caulerpas) | `"sump"` (generic sump utility) | null.
+  - `macroalgae.nutrientUptake` — `"low"` | `"moderate"` | `"high"` | null. Nitrate/phosphate scavenging capacity. Refugium chaeto and Ulva are high; ornamental red macros typically low-moderate; calcareous greens typically low.
+  - `macroalgae.propagation` — `string[]`. Methods documented in sources. Common values: `"fragmentation"`, `"gametophyte-sporophyte alternation"`, `"vegetative tip growth"`, `"holdfast division"`, `"thallus fragmentation"`. Most aquarium propagation is by simple fragmentation.
+
+**Macroalgae-specific source hierarchy:**
+- Primary trade sources: **AlgaeBarn**, **Top Shelf Aquatics**, **Mosaic Macros** (specialty/rare). Mosaic Macros may be the ONLY source for many specialty entries — accept this and document accordingly.
+- Taxonomic authority: **AlgaeBase.org** (www.algaebase.org) is the canonical macroalgae taxonomy database (parallel to FishBase for fish). Use for family/order verification and synonymy.
+- Wikipedia useful for popular genera (Caulerpa, Halimeda, Chaetomorpha, Sargassum, Gracilaria) but stubby or absent for specialty genera (Coelarthrum, Fauchea, Haliptilon, Scinaia, etc.).
+- For Mosaic-only entries, the Mosaic product page + AlgaeBase taxonomy + family-level care extrapolation is the playbook. Document Mosaic as the sole hobby source in careNotes.
+- **Image acquisition**: use the manifest's `primaryImageUrl` + `additionalImageUrls` to populate `media.imageCandidates`. Each candidate gets `sourceType: "research-site"` (AlgaeBarn/TSA/Mosaic) or `"other"`. Set `recommended: true` on exactly one — prefer AlgaeBarn imagery for popular species, Mosaic for specialty. License is typically "All rights reserved" for trade-source images unless the source states otherwise.
+
+**Macroalgae conventions:**
+- `tank.minVolumeLiters`: most macroalgae are tolerant of any reef-capable tank; use 40L (nano-reef) as a reasonable floor unless source specifies larger. Refugium-only species can document "any size sump with light" in careNotes.
+- `compatibility.temperament`: macroalgae has no temperament in the animal sense. Default to `"peaceful"` unless the source documents allelopathy (Caulerpa is notable here — releases caulerpin/caulerpenyne; some keepers report coral stress). For allelopathic genera, set semi-aggressive and document.
+- `compatibility.grouping`: macroalgae default to `"solo"` (one specimen per placement); refugium macros are typically `"loose group"` (a clump). Schooling/pair terminology doesn't apply.
+- `nativeRange.depthRangeM`: most marine macros occur in the 0-30 m photic zone. Calcareous greens go deeper (some Halimeda to 80 m). Red macros vary.
+- `careLevel`: most macroalgae are `"beginner"` or `"intermediate"`. `"advanced"` only for specialty species with documented difficulty (some calcareous greens are notoriously hard to grow in captivity — Acetabularia, Penicillus, Udotea, Rhipocephalus).
+- For the **Mosaic Mystery Forms aggregate entry (sw-macro-009)**: set `dataStatus: "needs_review"` and document that this entry aggregates ~19 Mosaic SKUs with no genus identification. No real research is possible. The frontend can display it as a "specialty unidentified" category.
+
 **Prose style — avoid deterministic language about environmental and behavioral specs.**
 
 Aquarium husbandry is rarely precise. Most parameters are spectrums; many are poorly understood. Sources often write in confident absolutes that overstate certainty. When you write `summary`, `careNotes`, or `breedingNotes`, **do not copy deterministic phrasing verbatim** — translate to hedged language that reflects the actual uncertainty:
