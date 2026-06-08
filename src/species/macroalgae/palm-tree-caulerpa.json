@@ -1,0 +1,113 @@
+{
+  "id": "sw-algae-068",
+  "slug": "palm-tree-caulerpa",
+  "kind": "flora",
+  "taxon": "macroalgae",
+  "waterType": "saltwater",
+  "commonName": "Palm Tree Caulerpa",
+  "scientificName": "Caulerpa paspaloides",
+  "alsoKnownAs": [],
+  "category": "Macroalgae",
+
+  "taxonomy": {
+    "family": "Caulerpaceae",
+    "order": "Bryopsidales"
+  },
+
+  "nativeRange": {
+    "regions": ["Indo-Pacific", "Atlantic", "Caribbean", "Mediterranean"],
+    "countries": [],
+    "habitat": "Shallow coastal marine waters, often on sandy or rubble substrates with moderate light",
+    "biotope": "Marine benthic; anchors via rhizoids into sand or rubble; photic zone of tropical and subtropical reef-adjacent habitats",
+    "depthRangeM": { "min": 0, "max": 30 }
+  },
+
+  "waterParameters": {
+    "temperatureC": { "min": 22.0, "max": 26.0 },
+    "pH":           { "min": 8.1, "max": 8.4 },
+    "gH":           null,
+    "kH":           { "min": 8, "max": 12 },
+    "salinity":     { "min": 1.023, "max": 1.025 }
+  },
+
+  "adultSizeCm": { "min": 5, "max": 15 },
+  "lifespanYears": null,
+
+  "tank": {
+    "minVolumeLiters": 40,
+    "minLengthCm": null,
+    "swimZone": null,
+    "decorPreferences": ["sandbed", "rubble substrate", "open rockwork for holdfast anchoring"],
+    "minSandDepthCm": null
+  },
+
+  "careLevel": "beginner",
+
+  "diet": null,
+
+  "compatibility": {
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["reef fish", "most corals (with distance)", "invertebrates"],
+    "avoidWith": ["sensitive SPS corals (direct contact)", "tanks with no light schedule control"]
+  },
+
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": [
+      {
+        "url": "https://mosaicmacros.com/cdn/shop/files/IMG-9499.jpg",
+        "source": "Mosaic Macros",
+        "sourceType": "research-site",
+        "license": "All rights reserved",
+        "notes": "Primary product image from Mosaic Macros listing. Only known trade source for this species.",
+        "recommended": true
+      }
+    ]
+  },
+
+  "summary": "A slow-growing, upright display Caulerpa with distinctive palm-tree-like fronds. Best suited to the display tank rather than the refugium. Like all Caulerpa, it is considered allelopathic and a potential invasive species.",
+
+  "careNotes": "Caulerpa paspaloides is a siphonous green macroalgae notable for its palm-tree-like upright fronds — each frond bears lateral pinnules arranged along a central stipe, giving it a feathery, arboreal appearance. Mosaic Macros describes it as a slower-growing Caulerpa relative, making it more suited to decorative display tank use than high-output refugium nutrient export.\n\nLIGHTING: Generally advised to provide high-intensity reef lighting (5,000K or higher, 8+ hours photoperiod). Like other display Caulerpa, moderate-to-high PAR appears to support healthy growth, though published PAR targets for this species specifically are not well-documented in the hobby literature.\n\nALLELOPATHY: As a member of Caulerpaceae, C. paspaloides is considered allelopathic — it has been documented in related species that caulerpin and caulerpenyne metabolites are released into the water column and can inhibit nearby corals and competing algae. Placement near sensitive SPS corals is generally not advised; maintaining physical separation and running activated carbon are commonly recommended by experienced reef keepers.\n\nGOING SEXUAL / REPRODUCTIVE CRASH: Caulerpa species can undergo holocarpy — a reproductive event in which the organism converts its cytoplasm to gametes — typically triggered by stress (sharp nutrient crash, disrupted photoperiod, rapid temperature change). This effectively destroys the specimen and can cause an acute water-quality event (ammonia spike, oxygen depletion). Mitigations include regular harvesting to keep the colony in active growth, maintaining stable nutrient levels, and immediately removing any fronds showing pale/translucent reproductive coloration.\n\nINVASIVE CONCERN: Caulerpa species are documented marine invasives. Captive specimens must never be released into natural waterways. Sale is prohibited in California and Hawaii; Mosaic Macros notes that orders to California will be cancelled.\n\nSOURCE NOTE: Mosaic Macros is the sole known hobby trade source for this species. Standard Caulerpa water parameters and care have been extrapolated from well-documented sibling species (principally C. prolifera) and general Caulerpaceae family husbandry guidance.\n\nSHIPPING: Fronds may appear white or translucent upon arrival due to chloroplast displacement in darkness. This is normal and typically reverses within a few hours of light exposure.",
+
+  "breedingNotes": "Propagates via fragmentation — cuttings with at least one blade and a section of stolon tend to establish readily under appropriate lighting. Also spreads by vegetative stolon tip growth. Sexual reproduction (holocarpy) occurs rarely under stress and is destructive to the colony (see careNotes).",
+
+  "sources": {
+    "primary": {
+      "name": "Mosaic Macros",
+      "url": "https://mosaicmacros.com/products/palm-tree-caulerpa-caulerpa-paspaloides",
+      "accessedDate": "2026-06-08",
+      "notes": "Sole hobby trade source for this species. Confirmed: palm-tree-like growth form, slower growth rate, display tank placement, invasive designation, California sales ban. Water parameters not specified — extrapolated from Caulerpa family care guidelines and sibling species C. prolifera."
+    },
+    "additional": [
+      {
+        "name": "Caulerpa prolifera (AquaMate sibling entry sw-algae-004)",
+        "url": "https://mosaicmacros.com/products/seagrass-caulerpa-caulerpa-prolifera",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-reference for Caulerpaceae family care norms: water parameters, allelopathy caveats, holocarpy (going-sexual) risk, invasive status, and propagation methods. Same family and order; directly applicable husbandry baseline."
+      }
+    ]
+  },
+
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": {
+    "lighting":       "high",
+    "growthRate":     "slow",
+    "form":           "macroalgae",
+    "placement":      "display",
+    "nutrientUptake": "high",
+    "propagation":    ["fragmentation", "vegetative tip growth"]
+  },
+
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
+}

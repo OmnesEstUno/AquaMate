@@ -1,0 +1,122 @@
+{
+  "id": "sw-algae-066",
+  "slug": "orange-galaxy",
+  "kind": "flora",
+  "taxon": "macroalgae",
+  "waterType": "saltwater",
+  "commonName": "Orange Galaxy",
+  "scientificName": "Halymenia stipitata",
+  "alsoKnownAs": [
+    "Orange Galaxy Macroalgae",
+    "Atomic Broccoli Algae"
+  ],
+  "category": "Macroalgae",
+
+  "taxonomy": {
+    "family": "Halymeniaceae",
+    "order": "Halymeniales"
+  },
+
+  "nativeRange": {
+    "regions": ["Indo-Pacific"],
+    "countries": [],
+    "habitat": "Rocky subtidal reef environments; grows on hard substrate in the photic zone",
+    "biotope": "Marine reef",
+    "depthRangeM": { "min": 1, "max": 30 }
+  },
+
+  "waterParameters": {
+    "temperatureC": { "min": 24.0, "max": 28.0 },
+    "pH":           { "min": 7.8, "max": 8.4 },
+    "gH":           null,
+    "kH":           { "min": 8, "max": 12 },
+    "salinity":     { "min": 1.023, "max": 1.025 }
+  },
+
+  "adultSizeCm":   { "min": 2.5, "max": 7.6 },
+  "lifespanYears": null,
+
+  "tank": {
+    "minVolumeLiters": 40,
+    "minLengthCm":     null,
+    "swimZone":        null,
+    "decorPreferences": ["live rock for attachment", "moderate flow", "open display area"],
+    "minSandDepthCm":  null
+  },
+
+  "careLevel": "intermediate",
+
+  "diet": null,
+
+  "compatibility": {
+    "temperament":  "peaceful",
+    "grouping":     "solitary",
+    "minGroupSize": null,
+    "goodWith":     ["reef fish", "corals", "invertebrates"],
+    "avoidWith":    ["tangs", "rabbitfish", "sea urchins", "herbivorous fish"]
+  },
+
+  "media": {
+    "primaryImage":    null,
+    "gallery":         [],
+    "imageCandidates": [
+      {
+        "url":         "https://mosaicmacros.com/cdn/shop/files/IMG-9294.jpg",
+        "source":      "Mosaic Macros",
+        "sourceType":  "research-site",
+        "license":     "All rights reserved",
+        "notes":       "Primary product photo from Mosaic Macros listing; sole hobby trade source for this species.",
+        "recommended": true
+      }
+    ]
+  },
+
+  "summary": "Rare ornamental red macroalgae forming a small, round bushy thallus; fleshy blades display vivid orange fluorescent dots under actinic lighting, creating a galaxy-like appearance. Seldom seen in the hobby.",
+
+  "careNotes": "Orange Galaxy (Halymenia stipitata) is a specialty ornamental red macroalgae in family Halymeniaceae, order Halymeniales — the same family as its better-known siblings Dragon's Breath (H. durvillei), Leafy Ogo (H. maculata), and Dragon's Tongue (H. dilatata). It is among the rarest Halymenia species available in the aquarium hobby and is described by Mosaic Macros as \"seldom seen.\" The thallus forms a small, round bushy shape with fleshy blades; under actinic lighting, orange fluorescent dots become visible, creating a star-field or galaxy appearance — the origin of the trade name. Mosaic Macros also markets it under the trade name \"Atomic Broccoli Algae.\" The synonym Augophyllum wysorii has been applied to this species in some trade contexts. Maximum size as reported by Mosaic is approximately 2–3 inches (~5–8 cm) in diameter, making it notably smaller than sibling species like Dragon's Breath or Dragon's Tongue. As a Mosaic-only specialty species, detailed husbandry parameters are not stated on the product page; standard reef parameters consistent with the Halymenia genus are generally advisable: temperature approximately 24–28°C, pH 7.8–8.4, salinity SG 1.023–1.025, and alkalinity 8–12 dKH. These are extrapolated from sibling Halymenia species care data (H. durvillei and H. maculata siblings documented at 25.6–28.3°C; H. dilatata documented at 22–27°C; a 24–28°C range is used as a reasonable consensus for this genus). Lighting is generally advised at medium intensity; high-intensity lighting has been associated with browning in related Halymenia species, so moderate blue-spectrum lighting tends to be preferred. Growth rate for ornamental red Halymenia is typically slow to medium. Propagation in the aquarium hobby is primarily by fragmentation. The species is generally considered reef-safe but, like other Halymenia, is likely palatable to herbivorous fish (tangs, rabbitfish, sea urchins); it is generally advisable to keep it away from dedicated herbivores. Mosaic Macros notes it is highly sensitive to shipping stress and recommends overnight shipping only for live arrival guarantees. Iron and iodine supplementation may support coloration, consistent with general guidance for red macroalgae. This entry is based solely on the Mosaic Macros product page plus family-level extrapolation from sibling Halymenia species; a specialist reviewer may wish to confirm parameter details when additional sources become available.",
+
+  "breedingNotes": null,
+
+  "sources": {
+    "primary": {
+      "name": "Mosaic Macros",
+      "url": "https://mosaicmacros.com/products/orange-galaxy-algae-augophyllum-wysorii",
+      "accessedDate": "2026-06-08",
+      "notes": "Sole hobby trade source for this species. Confirmed scientific name Halymenia stipitata (synonym Augophyllum wysorii); described as small round bushy thallus with orange fluorescent dots under actinic, ~2–3 inches max diameter, seldom seen in hobby, highly sensitive to shipping."
+    },
+    "additional": [
+      {
+        "name": "Dragon's Breath sibling reference (H. durvillei)",
+        "url": "https://www.algaebarn.com/shop/macroalgae/premium/dragons-breath-macroalgae/",
+        "accessedDate": "2026-06-08",
+        "notes": "Used for family-level water parameter extrapolation (Halymeniaceae). H. durvillei: temp 25.6–28.3°C, pH 7.8–8.4, SG 1.023–1.025, kH 8–12."
+      },
+      {
+        "name": "Dragon's Tongue sibling reference (H. dilatata)",
+        "url": "https://www.algaebarn.com/shop/macroalgae/premium/dragons-tongue/",
+        "accessedDate": "2026-06-08",
+        "notes": "Used for family-level temperature cross-check. H. dilatata: temp 22–27°C. Averaged with H. durvillei 25.6–28.3°C to derive 24–28°C for H. stipitata."
+      }
+    ]
+  },
+
+  "fish":        null,
+  "crustacean":  null,
+  "coral":       null,
+  "mollusc":     null,
+  "echinoderm":  null,
+  "other-invert": null,
+  "plant":       null,
+  "macroalgae": {
+    "lighting":       "medium",
+    "growthRate":     "medium",
+    "form":           "macroalgae",
+    "placement":      "display",
+    "nutrientUptake": "low",
+    "propagation":    ["fragmentation"]
+  },
+
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
+}

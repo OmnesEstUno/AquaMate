@@ -1,0 +1,126 @@
+{
+  "id": "sw-algae-073",
+  "slug": "pink-plume-weed",
+  "kind": "flora",
+  "taxon": "macroalgae",
+  "waterType": "saltwater",
+  "commonName": "Pink Plume Weed",
+  "scientificName": "Dasya sp.",
+  "alsoKnownAs": ["Pink Feather Weed", "Chenille Weed"],
+  "category": "Macroalgae",
+  "taxonomy": {
+    "family": "Dasyaceae",
+    "order": "Ceramiales"
+  },
+  "nativeRange": {
+    "regions": ["Tropical Atlantic", "Indo-Pacific", "Caribbean"],
+    "countries": [],
+    "habitat": "Marine subtidal zones; typically found on hard substrate and reef rock in moderate-to-high flow environments.",
+    "biotope": "Coral reef",
+    "depthRangeM": { "min": 0, "max": 30 }
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 24.4, "max": 26.7 },
+    "pH": { "min": 7.8, "max": 8.4 },
+    "gH": null,
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.023, "max": 1.026 }
+  },
+  "adultSizeCm": { "min": 5, "max": 15 },
+  "lifespanYears": null,
+  "tank": {
+    "minVolumeLiters": 40,
+    "minLengthCm": null,
+    "swimZone": null,
+    "decorPreferences": ["live rock", "rubble substrate for holdfast attachment", "high-flow placement"],
+    "minSandDepthCm": null
+  },
+  "careLevel": "intermediate",
+  "diet": null,
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["peaceful reef fish", "non-herbivorous invertebrates", "corals", "copepods", "amphipods"],
+    "avoidWith": ["herbivorous fish", "turbo snails", "emerald crabs", "sea urchins", "rabbitfish", "tangs"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": [
+      {
+        "url": "https://mosaicmacros.com/cdn/shop/files/IMG-6024.jpg",
+        "source": "Mosaic Macros",
+        "sourceType": "research-site",
+        "license": "All rights reserved",
+        "notes": "Primary product image from Mosaic Macros Pink Plume Weed listing.",
+        "recommended": true
+      },
+      {
+        "url": "https://mosaicmacros.com/cdn/shop/files/IMG-9808.jpg",
+        "source": "Mosaic Macros",
+        "sourceType": "research-site",
+        "license": "All rights reserved",
+        "notes": "Product image from Mosaic Macros Pink Feather Weed listing (same genus).",
+        "recommended": false
+      },
+      {
+        "url": "https://mosaicmacros.com/cdn/shop/files/IMG-9876.jpg",
+        "source": "Mosaic Macros",
+        "sourceType": "research-site",
+        "license": "All rights reserved",
+        "notes": "Product image from Mosaic Macros Chenille Weed listing (same genus).",
+        "recommended": false
+      }
+    ]
+  },
+  "summary": "A feathery, soft-textured ornamental red macroalgae (Rhodophyta, Dasyaceae) with intricately-branching pink to rose-red plume-like fronds. Suited for display reef tanks with strong flow. Sold under multiple trade names by Mosaic Macros.",
+  "careNotes": "Pink Plume Weed belongs to the genus Dasya (family Dasyaceae, order Ceramiales), the same family as the closely related Flamingo Feather (Heterosiphonia gibbesii). Mosaic Macros consolidates at least three SKUs under this genus: Pink Plume Weed, Pink Feather Weed, and Chenille Weed — all identified as Dasya sp. and sharing the same fuzzy, intricately-branching plume-like growth form. Coloration may vary from pink to rose-red; the Chenille Weed form has been noted in red, pink, or yellow coloration. Strong, turbulent water flow is generally recommended. The species has been noted as sensitive to shipping stress; Mosaic Macros advises Next-Day Air for live arrival coverage. Water parameters should conform to standard reef conditions (temp ~24–27°C, SG 1.023–1.026, pH 7.8–8.4), extrapolated from family-level data and the closely related flamingo-feather sibling entry (sw-algae-039). Herbivorous fish (tangs, rabbitfish), turbo snails, emerald crabs, and sea urchins tend to graze on delicate red macroalgae and are best kept away from display specimens. Mosaic Macros is the sole identified hobby trade source for this genus in the AquaMate dataset.",
+  "breedingNotes": "Propagated in the aquarium hobby by fragmentation — separating branch sections and attaching to new substrate. No documented gametophytic reproduction in captive settings.",
+  "sources": {
+    "primary": {
+      "name": "Mosaic Macros",
+      "url": "https://mosaicmacros.com/products/pink-plume-weed-macroalgae-dasya-sp",
+      "accessedDate": "2026-06-08",
+      "notes": "Sole hobby trade source; confirms genus Dasya, plume-like morphology, flow preference, and shipping sensitivity. No numeric water parameters provided."
+    },
+    "additional": [
+      {
+        "name": "Mosaic Macros — Pink Feather Weed",
+        "url": "https://mosaicmacros.com/products/pink-feather-weed-macroalgae-dasya-sp",
+        "accessedDate": "2026-06-08",
+        "notes": "Consolidated SKU — same genus, feather variant. Confirms Dasya sp., turbulent flow preference, and shipping sensitivity."
+      },
+      {
+        "name": "Mosaic Macros — Chenille Weed",
+        "url": "https://mosaicmacros.com/products/chenille-weed-macroalgae-dasya-sp",
+        "accessedDate": "2026-06-08",
+        "notes": "Consolidated SKU — same genus, chenille variant. Notes red/pink/yellow color variation within the genus."
+      },
+      {
+        "name": "AquaMate sibling entry: Flamingo Feather (sw-algae-039)",
+        "url": "https://mosaicmacros.com/products/flamingo-feather-algae-heterosiphonia-gibbesii",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-reference for family Dasyaceae / order Ceramiales taxonomy and reef water parameter ranges (temp 24.4–26.7°C, pH 7.8–8.4, SG 1.023–1.026, kH 8–12), applied at family level for this Dasya sp. entry."
+      }
+    ]
+  },
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": {
+    "lighting": "medium",
+    "growthRate": "medium",
+    "form": "macroalgae",
+    "placement": "display",
+    "nutrientUptake": "low",
+    "propagation": ["fragmentation"]
+  },
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
+}

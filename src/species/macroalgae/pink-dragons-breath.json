@@ -1,0 +1,135 @@
+{
+  "id": "sw-algae-072",
+  "slug": "pink-dragons-breath",
+  "kind": "flora",
+  "taxon": "macroalgae",
+  "waterType": "saltwater",
+  "commonName": "Pink Dragon's Breath",
+  "scientificName": "Halymenia floresia",
+  "alsoKnownAs": [],
+  "category": "Macroalgae",
+
+  "taxonomy": {
+    "family": "Halymeniaceae",
+    "order": "Halymeniales"
+  },
+
+  "nativeRange": {
+    "regions": ["Indo-Pacific", "Tropical Atlantic"],
+    "countries": [],
+    "habitat": "Rocky subtidal environments and reef-associated zones within the photic zone",
+    "biotope": "Reef",
+    "depthRangeM": { "min": 1, "max": 30 }
+  },
+
+  "waterParameters": {
+    "temperatureC": { "min": 25.6, "max": 28.3 },
+    "pH":           { "min": 7.8, "max": 8.4 },
+    "gH":           null,
+    "kH":           { "min": 8, "max": 12 },
+    "salinity":     { "min": 1.023, "max": 1.025 }
+  },
+
+  "adultSizeCm":   { "min": 5, "max": 20 },
+  "lifespanYears": null,
+
+  "tank": {
+    "minVolumeLiters": 40,
+    "minLengthCm":     null,
+    "swimZone":        null,
+    "decorPreferences": ["live rock", "moderate flow", "display placement"],
+    "minSandDepthCm":  null
+  },
+
+  "careLevel": "intermediate",
+
+  "diet": null,
+
+  "compatibility": {
+    "temperament":  "peaceful",
+    "grouping":     "solitary",
+    "minGroupSize": null,
+    "goodWith":     ["reef fish", "corals", "invertebrates"],
+    "avoidWith":    ["tangs", "rabbitfish", "sea urchins", "dedicated herbivores"]
+  },
+
+  "media": {
+    "primaryImage":    null,
+    "gallery":         [],
+    "imageCandidates": [
+      {
+        "url":         "https://mosaicmacros.com/cdn/shop/files/IMG-0509.jpg",
+        "source":      "Mosaic Macros",
+        "sourceType":  "research-site",
+        "license":     "All rights reserved",
+        "notes":       "Primary product photo from Mosaic Macros Pink Dragon's Breath listing",
+        "recommended": true
+      },
+      {
+        "url":         "https://mosaicmacros.com/cdn/shop/files/IMG-0588.jpg",
+        "source":      "Mosaic Macros",
+        "sourceType":  "research-site",
+        "license":     "All rights reserved",
+        "notes":       "Secondary product photo from Mosaic Macros listing",
+        "recommended": false
+      },
+      {
+        "url":         "https://mosaicmacros.com/cdn/shop/files/IMG-1098.jpg",
+        "source":      "Mosaic Macros",
+        "sourceType":  "research-site",
+        "license":     "All rights reserved",
+        "notes":       "Third product photo from Mosaic Macros listing",
+        "recommended": false
+      }
+    ]
+  },
+
+  "summary": "Pink-form Halymenia with fleshy, delicate blades in reddish-pink; a close sibling to the red Dragon's Breath (H. durvillei). Display specimen for reef tanks; tends to be very sensitive to shipping stress.",
+
+  "careNotes": "Pink Dragon's Breath (Halymenia floresia) is a red macroalgae in family Halymeniaceae, order Halymeniales — the same family as sibling species Dragon's Breath (H. durvillei), Dragon's Tongue (H. dilatata), Leafy Ogo (H. maculata), and Orange Galaxy (H. stipitata). It is distinguished from the more common red Dragon's Breath by its softer pink coloration and fleshy, blade-like thallus rather than the intensely branched, flame-like form of H. durvillei. Wikipedia lists H. floresia (also cited as H. floresii in older literature) among the primary representative species of the genus. Mosaic Macros is the sole aquarium hobby source identified for this species during this research pass; they describe it as 'an attractive reddish-pink macroalgae that grows in fleshy, delicate blades.' Mosaic notes it is VERY sensitive to shipping and requires overnight delivery for live arrival guarantees, consistent with other Halymenia species in the hobby. No species-specific husbandry parameters are published by Mosaic; parameters here are extrapolated from well-documented siblings (H. durvillei via AlgaeBarn and H. maculata) and represent standard reef conditions: temperature generally advised around 25.6–28.3°C (78–83°F), pH 7.8–8.4, salinity SG 1.023–1.025, and alkalinity 8–12 dKH. Moderate lighting is generally recommended for Halymenia spp. to maintain coloration without browning. Herbivorous fish (tangs, rabbitfish) and sea urchins have been known to consume Halymenia species readily; it is generally advised to keep this species away from dedicated herbivores. Propagation in the aquarium hobby is primarily by fragmentation. As a photosynthetic organism it does not require direct feeding; trace element supplementation may support coloration in some systems. Growth rate for ornamental Halymenia species tends toward medium; this species lacks species-specific growth rate data in available sources.",
+
+  "breedingNotes": null,
+
+  "sources": {
+    "primary": {
+      "name": "Mosaic Macros",
+      "url": "https://mosaicmacros.com/products/pink-dragon-s-breath-halymenia-floresia",
+      "accessedDate": "2026-06-08",
+      "notes": "Sole hobby trade source found for this species. Confirmed scientific name Halymenia floresia; described as reddish-pink fleshy blades; noted as VERY sensitive to shipping. No specific water parameter data provided."
+    },
+    "additional": [
+      {
+        "name": "Wikipedia — Halymenia",
+        "url": "https://en.wikipedia.org/wiki/Halymenia",
+        "accessedDate": "2026-06-08",
+        "notes": "Confirmed genus taxonomy: family Halymeniaceae, order Halymeniales, class Florideophyceae. H. floresia listed as a representative species of the genus with worldwide warm-temperate and tropical distribution. No aquarium husbandry data."
+      },
+      {
+        "name": "AlgaeBarn — Dragon's Breath (H. durvillei)",
+        "url": "https://www.algaebarn.com/shop/macroalgae/premium/dragons-breath-macroalgae/",
+        "accessedDate": "2026-06-08",
+        "notes": "Sibling species cross-reference. Water parameters (25.6–28.3°C, pH 7.8–8.4, SG 1.023–1.025, kH 8–12), care level, and lighting recommendation extrapolated from this well-documented congener for H. floresia, which lacks its own hobby parameter data."
+      }
+    ]
+  },
+
+  "fish":        null,
+  "crustacean":  null,
+  "coral":       null,
+  "mollusc":     null,
+  "echinoderm":  null,
+  "other-invert": null,
+  "plant":       null,
+  "macroalgae": {
+    "lighting":       "medium",
+    "growthRate":     "medium",
+    "form":           "macroalgae",
+    "placement":      "display",
+    "nutrientUptake": "low",
+    "propagation":    ["fragmentation"]
+  },
+
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
+}

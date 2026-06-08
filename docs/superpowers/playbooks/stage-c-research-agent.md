@@ -155,11 +155,18 @@ From whichever source has them (primary preferred; cross-check only if it feels 
   - `macroalgae.propagation` — `string[]`. Methods documented in sources. Common values: `"fragmentation"`, `"gametophyte-sporophyte alternation"`, `"vegetative tip growth"`, `"holdfast division"`, `"thallus fragmentation"`. Most aquarium propagation is by simple fragmentation.
 
 **Macroalgae-specific source hierarchy:**
-- Primary trade sources: **AlgaeBarn**, **Top Shelf Aquatics**, **Mosaic Macros** (specialty/rare). Mosaic Macros may be the ONLY source for many specialty entries — accept this and document accordingly.
-- Taxonomic authority: **AlgaeBase.org** (www.algaebase.org) is the canonical macroalgae taxonomy database (parallel to FishBase for fish). Use for family/order verification and synonymy.
+- Primary trade sources: **AlgaeBarn**, **Top Shelf Aquatics**, **Mosaic Macros** (specialty/rare). Mosaic Macros may be the ONLY product-page source for many specialty entries.
+- **Mosaic Macros general care guide** (https://mosaicmacros.com/blogs/macroalgae-care-sheets-compatibility/macroalgae-care-the-basics-of-keeping-macroalgae-in-your-reef) — slice-wide SECONDARY source for all Mosaic-only entries. Provides authoritative parameter targets: temp 22-26°C, pH 8.1-8.4, Ca 400-450 ppm, Mg 1250-1350 ppm, NO3 5-20 ppm, PO4 0.02-0.1 ppm. Always cite this URL as a second source alongside the Mosaic product page for Mosaic-only entries — that meets the playbook's 2-source minimum without needing extrapolation.
+- Taxonomic authority: **AlgaeBase.org** (www.algaebase.org) is the canonical macroalgae taxonomy database (parallel to FishBase for fish). Use for family/order verification and synonymy. Note: AlgaeBase often returns CAPTCHA walls — fall back to WoRMS or Wikipedia.
 - Wikipedia useful for popular genera (Caulerpa, Halimeda, Chaetomorpha, Sargassum, Gracilaria) but stubby or absent for specialty genera (Coelarthrum, Fauchea, Haliptilon, Scinaia, etc.).
-- For Mosaic-only entries, the Mosaic product page + AlgaeBase taxonomy + family-level care extrapolation is the playbook. Document Mosaic as the sole hobby source in careNotes.
 - **Image acquisition**: use the manifest's `primaryImageUrl` + `additionalImageUrls` to populate `media.imageCandidates`. Each candidate gets `sourceType: "research-site"` (AlgaeBarn/TSA/Mosaic) or `"other"`. Set `recommended: true` on exactly one — prefer AlgaeBarn imagery for popular species, Mosaic for specialty. License is typically "All rights reserved" for trade-source images unless the source states otherwise.
+
+**Mosaic care guide canonical guidance (per 2026-06-08 source addition):**
+- **Sand bed acceptance** is genus-strict per Mosaic's own guidance: ONLY Caulerpa, Halimeda, Penicillus, Rhipocephalus, Udotea tolerate being buried in sand. **All red algae and all brown algae will MELT at the base** if buried — must be attached to rock via superglue, zip-tie/fishing line, or wedging instead. For red/brown algae entries with `placement: "display"`, document this melt-warning in careNotes and set `decorPreferences` to rock-attachment language instead of sand.
+- **Propagation methods** (4 official): "superglue", "zip-tie/fishing line", "wedging", "sand bed" (sand bed only for the 5 accepted genera above). Use these standardized values in `macroalgae.propagation` arrays going forward. For species accepting all 4, use `["fragmentation", "wedging", "zip-tie/fishing line"]`. Sand-bed-acceptors add `"sand-bed"` to the array.
+- **Micronutrients**: Mosaic recommends weekly dosing of iron + iodine + other trace elements. Document this in careNotes for all macroalgae entries (or in a slice-wide convention note).
+- **Lighting**: AVOID actinic-only spectrum — Mosaic explicitly notes it cannot support difficult species. Full-spectrum LED preferred; freshwater-planted LEDs are acceptable.
+- **Flow**: soft-coral-tank-equivalent (gentle, some surface agitation). Too much flow tears delicate species.
 
 **Macroalgae conventions:**
 - `tank.minVolumeLiters`: most macroalgae are tolerant of any reef-capable tank; use 40L (nano-reef) as a reasonable floor unless source specifies larger. Refugium-only species can document "any size sump with light" in careNotes.

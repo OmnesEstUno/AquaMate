@@ -1,0 +1,110 @@
+{
+  "id": "sw-algae-079",
+  "slug": "red-bubble",
+  "kind": "flora",
+  "taxon": "macroalgae",
+  "waterType": "saltwater",
+  "commonName": "Red Bubble",
+  "scientificName": "Botryocladia skottsbergii",
+  "alsoKnownAs": ["Red Valonia", "Red Grape", "Red Berry"],
+  "category": "Macroalgae",
+  "taxonomy": {
+    "family": "Rhodymeniaceae",
+    "order": "Rhodymeniales"
+  },
+  "nativeRange": {
+    "regions": ["Caribbean", "Indo-Pacific", "Atlantic"],
+    "countries": ["United States (Hawaii)", "Maldives", "Fiji", "Australia", "Philippines", "Japan"],
+    "habitat": "Shallow reef environments and rubble zones in tropical and subtropical marine waters",
+    "biotope": "Marine reef",
+    "depthRangeM": { "min": 0, "max": 30 }
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 24, "max": 27 },
+    "pH": { "min": 8.0, "max": 8.5 },
+    "gH": null,
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.023, "max": 1.025 }
+  },
+  "adultSizeCm": { "min": 1, "max": 3 },
+  "lifespanYears": null,
+  "tank": {
+    "minVolumeLiters": 40,
+    "minLengthCm": null,
+    "swimZone": null,
+    "decorPreferences": ["live rock attachment", "rubble substrate", "plug mount"],
+    "minSandDepthCm": null
+  },
+  "careLevel": "intermediate",
+  "diet": null,
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["reef fish", "snails", "hermit crabs", "shrimp", "corals"],
+    "avoidWith": ["herbivorous fish (tangs, rabbitfish)", "sea urchins", "sea hares"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": [
+      {
+        "url": "https://mosaicmacros.com/cdn/shop/files/IMG-7763.jpg",
+        "source": "Mosaic Macros",
+        "sourceType": "research-site",
+        "license": "All rights reserved",
+        "notes": "Product image from Mosaic Macros listing; shows grape-cluster bubble form on plug",
+        "recommended": true
+      }
+    ]
+  },
+  "summary": "A tiny Caribbean red alga with distinctive fluid-filled bubble clusters resembling a bunch of grapes; bladders tend to display fluorescent-orange spots under actinic lighting, making it a striking display specimen.",
+  "careNotes": "Botryocladia skottsbergii is offered by Mosaic Macros as a display specimen on a plug, generally suited to nano and small reef tanks given its maximum size of about 1–3 cm. Standard reef parameters are generally advised: salinity around SG 1.023–1.025, temperature 24–27°C, and pH 8.0–8.5. Medium lighting tends to suit this genus well, though it has been observed in lower-light conditions in the wild. Growth is considered slow compared to other Botryocladia species, making it well-suited for display without aggressive pruning. The fluid-filled bladders will burst and release spores if mechanically damaged — handle with care and avoid placing with aggressive grazers. Hobbyist reports indicate that some Botryocladia species can become persistent in tanks if bubbles rupture repeatedly, so it is generally recommended to keep the specimen contained and remove dislodged fragments promptly. Nutrient export capacity is considered low given the small size and slow growth. No documented allelopathy. Mosaic Macros is the primary hobby source for this species; it is not commonly carried by AlgaeBarn or Top Shelf Aquatics. Some older hobbyist references label this species as 'not suitable for home aquaria' due to its invasive potential in unmanaged systems — this concern applies to unintentional infestations, not intentional display culture on a plug in a well-managed reef.",
+  "breedingNotes": "Propagates in the wild via spore release when bladders rupture. In the aquarium, fragmentation of healthy thallus tissue is the documented method for propagation. Spore release upon bladder rupture can lead to secondary growth if conditions are favorable.",
+  "sources": {
+    "primary": {
+      "name": "Mosaic Macros",
+      "url": "https://mosaicmacros.com/products/red-bubble-macroalgae-botryocladia-skottsbergii",
+      "accessedDate": "2026-06-08",
+      "notes": "Sole hobby trade source for this species. Confirms grape-cluster bubble morphology, actinic fluorescence, and small size (~1\" max). Sold as display specimen on plug."
+    },
+    "additional": [
+      {
+        "name": "WoRMS (World Register of Marine Species)",
+        "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=371425",
+        "accessedDate": "2026-06-08",
+        "notes": "Confirmed taxonomy: Family Rhodymeniaceae, Order Rhodymeniales, Class Florideophyceae, Phylum Rhodophyta. Original name Chrysymenia skottsbergii Børgesen, 1924."
+      },
+      {
+        "name": "Reeflex.net",
+        "url": "https://www.reeflex.net/tiere/6197_Botryocladia_skottsbergii.htm",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-referenced adult size (1–3 cm), temperature max (27°C), distribution (Indo-Pacific and Atlantic). Notes invasive potential in pest-infestation context. Water parameters: temp up to 27°C, SG 1.023–1.025, pH 8.1–8.4, dKH 8–12."
+      },
+      {
+        "name": "Reeflings (Botryocladia botryoides — genus cross-reference)",
+        "url": "https://reeflings.com/species/botryocladia-botryoides",
+        "accessedDate": "2026-06-08",
+        "notes": "Genus-level husbandry cross-reference for Botryocladia. Confirms temperature 24–28°C, SG 1.023–1.025, pH 8.0–8.5, medium lighting (50–150 PAR), fragmentation propagation, and reef-safe compatibility. B. botryoides grows faster; B. skottsbergii is smaller and slower per Mosaic."
+      }
+    ]
+  },
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": {
+    "lighting": "medium",
+    "growthRate": "slow",
+    "form": "macroalgae",
+    "placement": "display",
+    "nutrientUptake": "low",
+    "propagation": ["fragmentation"]
+  },
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
+}

@@ -1,0 +1,119 @@
+{
+  "id": "sw-algae-065",
+  "slug": "mosaic-snakeskin",
+  "kind": "flora",
+  "taxon": "macroalgae",
+  "waterType": "saltwater",
+  "commonName": "Mosaic Snakeskin",
+  "scientificName": "Dictyosphaeria cavernosa",
+  "alsoKnownAs": ["Green Bubble Algae", "Mosaic Snakeskin Macroalgae"],
+  "category": "Green Macroalgae",
+
+  "taxonomy": {
+    "family": "Siphonocladaceae",
+    "order": "Cladophorales"
+  },
+
+  "nativeRange": {
+    "regions": ["Indo-Pacific", "Hawaiian Islands", "Southeast Asia"],
+    "countries": ["United States (Hawaii)", "Japan", "Australia", "Philippines"],
+    "habitat": "Shallow reef environments; rocky substrates, crevices, and reef flats. Has been documented forming extensive bubbly mats on Hawaiian reefs, most notably in Kaneohe Bay.",
+    "biotope": "Reef",
+    "depthRangeM": { "min": 0, "max": 20 }
+  },
+
+  "waterParameters": {
+    "temperatureC": { "min": 23, "max": 28 },
+    "pH":           { "min": 8.1, "max": 8.4 },
+    "gH":           null,
+    "kH":           { "min": 8, "max": 12 },
+    "salinity":     { "min": 1.023, "max": 1.026 }
+  },
+
+  "adultSizeCm": { "min": 3, "max": 12 },
+  "lifespanYears": null,
+
+  "tank": {
+    "minVolumeLiters": 40,
+    "minLengthCm": null,
+    "swimZone": null,
+    "decorPreferences": ["live rock", "reef rubble", "open rockwork for attachment"],
+    "minSandDepthCm": null
+  },
+
+  "careLevel": "intermediate",
+
+  "diet": null,
+
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "solitary",
+    "minGroupSize": null,
+    "goodWith": ["reef fish", "corals", "invertebrates", "snails", "hermit crabs", "shrimp"],
+    "avoidWith": ["herbivorous fish that graze macroalgae heavily (e.g., tangs, rabbitfish)"]
+  },
+
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": [
+      {
+        "url": "https://mosaicmacros.com/cdn/shop/files/IMG-9415.jpg",
+        "source": "Mosaic Macros",
+        "sourceType": "research-site",
+        "license": "All rights reserved",
+        "notes": "Product photo from Mosaic Macros listing for Mosaic Snakeskin (Dictyosphaeria cavernosa).",
+        "recommended": true
+      }
+    ]
+  },
+
+  "summary": "A stiff green macroalgae with small mosaic-like venations along the thallus resembling scales or snakeskin; the namesake species of Mosaic Macros. Forms hollow bubble-like structures up to ~12 cm on tropical reefs.",
+
+  "careNotes": "Dictyosphaeria cavernosa is the species that gives Mosaic Macros its name — the company's 'mosaic' branding is derived from this alga's distinctive mosaic-patterned thallus. It is also sometimes called 'Green Bubble Algae,' though it is distinct from the invasive bubble algae Valonia species. In the wild it has been documented forming extensive mats on Hawaiian reefs (particularly Kaneohe Bay) under elevated nutrient conditions, historically associated with sewage-driven eutrophication events in the 1960s–1970s. In aquaria it is generally considered display-appropriate at intermediate care level; available husbandry literature is limited and Mosaic Macros is the primary hobby source. Standard reef water quality is generally advised: stable salinity around SG 1.023–1.026, temperature 23–28°C, and pH 8.1–8.4. Medium lighting is typically recommended for this genus. Growth is expected to be medium-paced under adequate conditions. Propagation in captivity occurs by fragmentation. As with many macroalgae, specimens may carry hitchhiker organisms. Allelopathic effects have not been documented for this genus.",
+
+  "breedingNotes": "In aquaria, propagation occurs readily by fragmentation — detached thallus pieces can reattach and grow. Wild reproduction involves the alternation of gametophyte and sporophyte generations typical of Chlorophyta, but this cycle is not observed in captive settings.",
+
+  "sources": {
+    "primary": {
+      "name": "Mosaic Macros",
+      "url": "https://mosaicmacros.com/products/mosaic-snakeskin-macroalgae-dictyosphaeria-cavernosa",
+      "accessedDate": "2026-06-08",
+      "notes": "Sole hobby trade source. Product page confirms common name, scientific name, and specimen size (1-3\" cutting on plug). Description: 'stiff green macroalgae that grows with small mosaic-like venations along the thallus, resembling scales.'"
+    },
+    "additional": [
+      {
+        "name": "Wikipedia — Dictyosphaeria cavernosa",
+        "url": "https://en.wikipedia.org/wiki/Dictyosphaeria_cavernosa",
+        "accessedDate": "2026-06-08",
+        "notes": "Confirmed taxonomy (Siphonocladaceae / Cladophorales / Ulvophyceae), morphology (hollow bubble-like structure, up to ~12 cm diameter), native range (Indo-Pacific, SE Asia, Hawaiian Kaneohe Bay), and shallow reef habitat. Single-source confirmation for biological parameters; no aquarium-specific husbandry data available."
+      },
+      {
+        "name": "Wikipedia — Siphonocladaceae",
+        "url": "https://en.wikipedia.org/wiki/Siphonocladaceae",
+        "accessedDate": "2026-06-08",
+        "notes": "Confirmed family placement (Siphonocladaceae, order Cladophorales) and that Dictyosphaeria is a recognized genus within the family."
+      }
+    ]
+  },
+
+  "fish":        null,
+  "crustacean":  null,
+  "coral":       null,
+  "mollusc":     null,
+  "echinoderm":  null,
+  "other-invert": null,
+  "plant":       null,
+  "macroalgae": {
+    "lighting":       "medium",
+    "growthRate":     "medium",
+    "form":           "macroalgae",
+    "placement":      "display",
+    "nutrientUptake": "low",
+    "propagation":    ["fragmentation"]
+  },
+
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
+}
