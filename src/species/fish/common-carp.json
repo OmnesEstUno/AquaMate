@@ -1,0 +1,168 @@
+{
+  "id": "fw-fish-165",
+  "slug": "common-carp",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "freshwater",
+  "commonName": "Common Carp",
+  "scientificName": "Cyprinus carpio",
+  "alsoKnownAs": [
+    "European Carp",
+    "Koi",
+    "Mirror Carp",
+    "Leather Carp"
+  ],
+  "category": "Cyprinid",
+  "taxonomy": {
+    "family": "Cyprinidae",
+    "order": "Cypriniformes"
+  },
+  "nativeRange": {
+    "regions": ["Europe", "Central Asia", "East Asia"],
+    "countries": ["China", "Russia", "Kazakhstan", "Ukraine", "Germany", "Hungary", "Romania", "Austria", "Poland"],
+    "habitat": "Large rivers, floodplain lakes, reservoirs, and slow-moving or standing freshwater bodies with soft substrates; tolerates turbid, oxygen-poor water and wide temperature swings",
+    "biotope": "Floodplain lake / large lowland river",
+    "depthRangeM": { "min": 0.5, "max": 10 }
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 4, "max": 24 },
+    "pH": { "min": 6.5, "max": 8.5 },
+    "gH": { "min": 5, "max": 25 },
+    "kH": { "min": 3, "max": 15 },
+    "salinity": null
+  },
+  "adultSizeCm": { "min": 60, "max": 120 },
+  "lifespanYears": { "min": 20, "max": 65 },
+  "tank": {
+    "minVolumeLiters": 5000,
+    "minLengthCm": 400,
+    "swimZone": "all",
+    "decorPreferences": [
+      "large pond with natural substrate",
+      "clay or soil bottom for rooting",
+      "large rocks and submerged logs",
+      "emergent and submerged aquatic plants (though heavy planting will be uprooted)",
+      "open swimming areas at least 3–4x body length across"
+    ],
+    "minSandDepthCm": 10
+  },
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Opportunistic bottom feeder. In the wild: invertebrates, insect larvae (chironomids, mayflies), worms, snails, crustaceans, plant material, algae, and detritus. In captivity: readily accepts sinking pellets, wheat-germ-based pond sticks, bloodworm, earthworms, and vegetables (peas, maize, bread). Feed reduced or halted below 10°C as metabolism slows. Highly efficient at rooting through substrate with protrusible mouth to extract food."
+  },
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "shoaling",
+    "minGroupSize": 2,
+    "goodWith": [
+      "other large cyprinids (tench, bream, chub)",
+      "large goldfish (pond setting)",
+      "koi (same species/closely related form)",
+      "rudd",
+      "large native pond fish of similar size"
+    ],
+    "avoidWith": [
+      "small fish that may be consumed or harassed",
+      "delicate aquatic plants (will be uprooted)",
+      "invertebrates (eaten by foraging behaviour)",
+      "fish in confined aquarium — not suitable",
+      "species requiring warm tropical temperatures"
+    ]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": [
+      {
+        "url": "https://www.fishbase.se/images/species/Cycca_u0.jpg",
+        "source": "FishBase",
+        "sourceType": "fishbase",
+        "license": "All rights reserved",
+        "notes": "FishBase species photo of Cyprinus carpio; representative wild-type scaled form.",
+        "recommended": true
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Cyprinus_carpio.jpeg",
+        "source": "Wikimedia Commons",
+        "sourceType": "wikimedia",
+        "license": "CC BY-SA 3.0",
+        "notes": "Wikimedia Commons image of common carp; good lateral profile showing scale pattern.",
+        "recommended": false
+      }
+    ]
+  },
+  "summary": "The Common Carp is a large, long-lived cool-water cyprinid reaching 60–120 cm, native to Europe and Central Asia but globally invasive. Unsuitable for aquarium keeping at any stage beyond juvenile; adults require outdoor ponds of 5,000 L or more. Koi are the ornamental domesticated form.",
+  "careNotes": "POND-ONLY ADVISORY: Common Carp are among the largest freshwater fish encountered in the aquarium hobby and are fundamentally unsuitable for indoor aquarium keeping past the juvenile stage. Adults routinely reach 60–90 cm and can exceed 120 cm in well-managed ponds; even juveniles require progressively larger volumes. A minimum pond capacity of 5,000 L with a footprint of at least 4 m in length is a commonly cited starting point for a small group, though larger is strongly preferred. The species is a cool-water specialist (4–24°C) that does not thrive at tropical aquarium temperatures; water above 28–30°C causes stress, suppressed immunity, and oxygen depletion. Carp are extremely disruptive to pond ecology — their constant bottom-rooting behaviour stirs sediment, uproots all but the most firmly anchored plants, and dramatically increases turbidity. Water quality management (robust filtration, regular water changes, aeration during warm months) is critical at stocking densities typical in ornamental ponds. Despite their hardiness and wide pH/hardness tolerance, carp produce large waste loads that overwhelm undersized filter systems rapidly. Lifespan routinely exceeds 20–40 years; exceptional individuals and the closely related ornamental Koi form (historically classified as Cyprinus carpio carpio; modern taxonomy frequently treats Koi as Cyprinus rubrofuscus) are documented to 70+ years. The Koi — which represents millennia of selective breeding in East Asia for colour and pattern — requires identical care parameters to wild common carp. Mirror Carp and Leather Carp are scale-reduced domestic strains of the same species, not separate taxa. As an invasive species in North America, Australia, South Africa, and many other regions, release into natural waterways is illegal and ecologically catastrophic. Feeding is best suspended or greatly reduced at water temperatures below 10°C, as digestion becomes inefficient and uneaten food rapidly degrades water quality.",
+  "breedingNotes": "Prolific and relatively straightforward to breed in large outdoor ponds during spring and early summer. Spawning is triggered by rising water temperatures (ideally 16–22°C) combined with the presence of submerged vegetation or spawning mats to receive adhesive eggs. A typical spawning event involves 1–2 males chasing and nudging a single female in shallow margins; females may produce 100,000–300,000 eggs per kilogram of body weight. Eggs are adhesive and hatch in 3–7 days depending on temperature. Fry require fine live foods (infusoria, Artemia nauplii) initially before transitioning to prepared micro-pellets. Parental care is absent; adults will consume eggs and fry given the opportunity. Breeding in aquarium settings is not practical due to space and temperature requirements. Commercial aquaculture breeding typically uses hormone injection (hypophysation) to induce synchronized spawning.",
+  "sources": {
+    "primary": {
+      "name": "SeriouslyFish — Cyprinus carpio",
+      "url": "https://www.seriouslyfish.com/species/cyprinus-carpio/",
+      "accessedDate": "2026-06-08",
+      "notes": "Primary source. Provided adult size, temperature range (4–20°C field; 6–22°C optimal), pH 6.5–8.5, hardness tolerances, native range (Europe and Central Asia), habitat description, diet, and behavioural notes. Classified as unsuitable for aquarium keeping at adult size. Notes on disruptive substrate rooting and plant destruction."
+    },
+    "additional": [
+      {
+        "name": "FishBase — Cyprinus carpio",
+        "url": "https://www.fishbase.se/summary/Cyprinus-carpio.html",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked maximum size (120 cm TL, common to 60 cm), lifespan (recorded to 47 years in wild, exceptionally longer in cultivation), temperature range (3–35°C tolerance; 17–25°C optimal), native range and global introduction status. Confirms omnivorous diet; bottom-feeder morphology (protrusible mouth, barbels). Taxonomy: Cypriniformes, Cyprinidae."
+      },
+      {
+        "name": "Aquarium Co-Op — Koi and Common Carp",
+        "url": "https://www.aquariumcoop.com/blogs/aquarium/koi-care",
+        "accessedDate": "2026-06-08",
+        "notes": "Aquarium Co-Op pond/koi care resource. Confirms pond-only suitability for adult fish, minimum pond volumes, temperature parameters (45–85°F / 7–29°C), and feeding behaviour. Notes Koi as the domesticated ornamental form. Emphasises robust filtration requirement and cool-water preference."
+      },
+      {
+        "name": "Practical Fishkeeping — Common Carp species profile",
+        "url": "https://www.practicalfishkeeping.co.uk/features/common-carp-cyprinus-carpio/",
+        "accessedDate": "2026-06-08",
+        "notes": "UK-based hobbyist/angling publication. Confirmed Mirror Carp and Leather Carp as scale-reduced domestic strains; noted maximum recorded weight of 40+ kg; discussed invasive status in UK and globally; provided corroboration for 4–24°C preferred temperature range for outdoor pond management. Noted lifespan exceeding 40 years in favourable conditions."
+      },
+      {
+        "name": "FishBase — Cyprinus rubrofuscus (Koi)",
+        "url": "https://www.fishbase.se/summary/Cyprinus-rubrofuscus.html",
+        "accessedDate": "2026-06-08",
+        "notes": "FishBase entry for Cyprinus rubrofuscus, the species name currently applied to most ornamental Koi under modern taxonomic revision splitting East Asian wild carp from European C. carpio. Confirms near-identical care parameters. Documents the taxonomic uncertainty: many authorities still treat Koi as C. carpio domesticus. Used to document the Koi taxonomy note in careNotes."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "moderate",
+    "breedingNotes": "Feasible in large outdoor ponds at 16–22°C in spring/early summer. Females produce 100,000–300,000 eggs/kg body weight; eggs adhesive, deposited on submerged vegetation. Hatching in 3–7 days. Hormone injection used commercially. Not practical in aquarium conditions.",
+    "conspecificAggression": "low",
+    "finNippy": false,
+    "reefSafe": null,
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": null
+}

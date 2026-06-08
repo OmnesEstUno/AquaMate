@@ -1,0 +1,158 @@
+{
+  "id": "fw-fish-174",
+  "slug": "electric-eel",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "freshwater",
+  "commonName": "Electric Eel",
+  "scientificName": "Electrophorus electricus",
+  "alsoKnownAs": [
+    "Poraqué"
+  ],
+  "category": "Knifefish",
+  "taxonomy": {
+    "family": "Gymnotidae",
+    "order": "Gymnotiformes"
+  },
+  "nativeRange": {
+    "regions": ["South America"],
+    "countries": ["Brazil", "Venezuela", "Guyana", "Suriname", "French Guiana", "Colombia", "Peru", "Ecuador", "Bolivia"],
+    "habitat": "Slow-moving, murky rivers, floodplains, swamps, and creek margins of the Amazon and Orinoco basins; prefers soft, warm, poorly-oxygenated blackwater and whitewater lowland tributaries with muddy substrates and submerged debris",
+    "biotope": "Blackwater / Amazonian floodplain",
+    "depthRangeM": { "min": 0, "max": 5 }
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 23, "max": 28 },
+    "pH": { "min": 6.0, "max": 8.0 },
+    "gH": { "min": 1, "max": 15 },
+    "kH": { "min": 1, "max": 10 },
+    "salinity": null
+  },
+  "adultSizeCm": { "min": 100, "max": 250 },
+  "lifespanYears": { "min": 10, "max": 22 },
+  "tank": {
+    "minVolumeLiters": 3800,
+    "minLengthCm": 400,
+    "swimZone": "bottom",
+    "decorPreferences": [
+      "large open-bottom swimming lanes",
+      "submerged PVC or ceramic tube hides (diameter ≥ 20 cm)",
+      "dimly lit environment — low PAR or covered tank",
+      "minimal hard décor to reduce electric-discharge injury risk",
+      "bare-bottom or fine soft-substrate"
+    ],
+    "minSandDepthCm": null
+  },
+  "careLevel": "expert",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Apex predator. In the wild feeds on fish, crustaceans, amphibians, birds, and small mammals stunned by electric discharge. In public aquarium settings: large feeder fish, whole thawed fish (smelt, tilapia), earthworms, and large prawns. Does not accept pellets or flake. Hand-feeding is extremely dangerous and must be performed with long tongs; keeper injuries from electric shock during feeding are documented."
+  },
+  "compatibility": {
+    "temperament": "aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": [],
+    "avoidWith": [
+      "all fish (will prey upon or electrocute tankmates)",
+      "invertebrates",
+      "any animals sharing the tank — this species must be kept alone",
+      "human hands (severe shock hazard)"
+    ]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Electrophorus_electricus2.jpg",
+        "source": "Wikimedia Commons",
+        "sourceType": "wikimedia",
+        "license": "CC BY-SA 3.0",
+        "notes": "Full-body lateral view of adult specimen in aquarium setting; good scale reference.",
+        "recommended": true
+      },
+      {
+        "url": "https://www.fishbase.se/images/species/Elele_u0.jpg",
+        "source": "FishBase",
+        "sourceType": "fishbase",
+        "license": null,
+        "notes": "FishBase species photo; check rights before use.",
+        "recommended": false
+      }
+    ]
+  },
+  "summary": "The Electric Eel is not a true eel but a knifefish (Gymnotiformes) capable of producing 600+ V discharges — the highest bioelectric output of any known animal. Reaching 2.5 m in the wild, it is a public-aquarium-only species wholly inappropriate for the home hobby.",
+  "careNotes": "IMPORTANT — PUBLIC AQUARIUM ONLY: The Electric Eel is not appropriate for home aquaria under any circumstances. It is a knifefish (order Gymnotiformes, family Gymnotidae), not a true eel. Specimens regularly exceed 2 m (max ~2.5 m) and require enormous custom exhibits (minimum footprint ~4 m length, 3,800 L as an absolute floor for a public-facility juvenile; adults require considerably larger enclosures). The species generates electric organ discharges of 100–600+ V (average predatory discharge ~600 V, averaging 1 A — enough current to cause serious injury or cardiac events in adult humans). Keeper shock injuries and fatalities have been recorded at zoological institutions. All husbandry must be performed by trained staff using insulated gloves, rubber-soled boots, and long tongs; draining the exhibit before entry is standard protocol at responsible facilities. Water conductivity must be monitored — the eel uses low-voltage (10 Hz) electrolocation pulses continuously; incorrect conductivity disturbs electrolocation and stresses the animal. This species is scaleless, making it sensitive to copper-based medications (copper sulfate and chelated copper treatments must never be used). It is an obligate air-breather: it surfaces to gulp atmospheric air every 10–15 minutes and will drown if prevented from surfacing — exhibits must leave at least 5–10 cm of airspace above water. TAXONOMIC NOTE (2019): Cuesta-Reig & de Santana (2019, Nature Communications) split the traditional single species Electrophorus electricus into three: E. electricus (Guiana Shield / northern range), E. voltai (Brazilian Shield — produces the highest recorded discharge, >860 V), and E. varii (Amazon floodplains — low-discharge, deep-water form). Most aquarium specimens have historically been labelled E. electricus sensu lato; accurate identification now requires origin data.",
+  "breedingNotes": "Not bred in captivity outside of specialised zoo/research programmes. Seasonal breeding in the wild tied to Amazonian flood cycles; males construct foam nests from mouth secretions. Clutches of up to 17,000 eggs have been reported; males guard the nest. Not achievable in public aquarium settings; captive breeding is not a realistic goal.",
+  "sources": {
+    "primary": {
+      "name": "SeriouslyFish — Electrophorus electricus",
+      "url": "https://www.seriouslyfish.com/species/electrophorus-electricus/",
+      "accessedDate": "2026-06-08",
+      "notes": "Primary husbandry source. Provided temperature (23–28°C), pH (6.0–8.0), hardness, adult size (to 250 cm TL), diet, electrolocation notes, air-breathing requirement, and public-aquarium-only guidance."
+    },
+    "additional": [
+      {
+        "name": "FishBase — Electrophorus electricus",
+        "url": "https://www.fishbase.se/summary/Electrophorus-electricus.html",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked adult size (max 250 cm), native range (Amazon / Orinoco basins), taxonomy (Gymnotidae, Gymnotiformes), lifespan data, and diet. Confirms electric organ discharge physiology."
+      },
+      {
+        "name": "de Santana et al. (2019) — Unexpected species diversity in electric eels — Nature Communications",
+        "url": "https://www.nature.com/articles/s41467-019-11690-z",
+        "accessedDate": "2026-06-08",
+        "notes": "Peer-reviewed species revision splitting E. electricus into three species (E. electricus, E. voltai, E. varii). E. voltai recorded producing 860+ V — highest bioelectric discharge of any known animal. Essential taxonomic reference for 2019 reclassification noted in careNotes."
+      },
+      {
+        "name": "Practical Fishkeeping — Electric Eel profile",
+        "url": "https://www.practicalfishkeeping.co.uk/features/electric-eel/",
+        "accessedDate": "2026-06-08",
+        "notes": "Trade press summary of husbandry challenges, discharge voltages, air-breathing biology, and public-aquarium-only status. Corroborated size, diet, and keeper safety protocols."
+      },
+      {
+        "name": "Aquarium Co-Op — Knifefish & Electric Eel overview",
+        "url": "https://www.aquariumcoop.com/blogs/aquarium/knifefish",
+        "accessedDate": "2026-06-08",
+        "notes": "General knifefish care blog; notes that electric eels are Gymnotiformes (not true eels), briefly addresses electric discharge hazard and why the species is unsuitable for home aquaria. Used for corroboration of taxonomic classification and scaleless/copper-sensitivity note."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "Seasonal nest-builder in the wild (flood-triggered, foam nest, male-guarded). Clutches to ~17,000 eggs reported. Not achieved in standard captivity; specialised research programmes only.",
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": null,
+    "escapeRisk": "high",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": true,
+    "juvenileColorPhase": false,
+    "copperSensitive": true,
+    "speciesOnlyTankRecommended": true,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "difficult",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": null
+}
