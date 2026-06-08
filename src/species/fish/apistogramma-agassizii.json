@@ -4,83 +4,130 @@
   "kind": "fauna",
   "taxon": "fish",
   "waterType": "freshwater",
-  "commonName": "Apistogramma agassizii",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "commonName": "Agassiz's Dwarf Cichlid",
+  "scientificName": "Apistogramma agassizii",
+  "alsoKnownAs": ["Apistogramma agassizii", "Agassiz Apisto", "Fire Red Apisto", "Double Red Apisto"],
   "category": "Cichlid",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Cichlidae",
+    "order": "Cichliformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
+    "regions": ["South America", "Amazon Basin"],
+    "countries": ["Brazil", "Peru", "Colombia"],
+    "habitat": "Slow-moving blackwater streams, flooded forest margins, and leaf-litter zones with soft, acidic water",
+    "biotope": "Amazon blackwater",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
-    "kH": null,
+    "temperatureC": { "min": 24, "max": 29 },
+    "pH": { "min": 5.0, "max": 7.0 },
+    "gH": { "min": 1, "max": 8 },
+    "kH": { "min": 0, "max": 4 },
     "salinity": null
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 5.0, "max": 8.0 },
+  "lifespanYears": { "min": 3, "max": 5 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 80,
+    "minLengthCm": 60,
+    "swimZone": "bottom",
+    "decorPreferences": [
+      "caves (coconut shells, clay pots)",
+      "driftwood",
+      "dried catappa/Indian almond leaves",
+      "dense planting",
+      "sand substrate",
+      "dim lighting or floating plants for shade"
+    ],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Primarily insectivorous in the wild. In the aquarium, tends to accept frozen or live daphnia, baby brine shrimp, bloodworms, and cyclops readily. Some individuals have been reported to accept small sinking pellets or micro-pellets, though live and frozen foods are generally preferred."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "semi-aggressive",
+    "grouping": "pair",
+    "minGroupSize": 2,
+    "goodWith": [
+      "small tetras (ember, neon, rummy nose)",
+      "pencilfish",
+      "rasboras",
+      "pygmy corydoras",
+      "otocinclus",
+      "small peaceful bottom-dwellers"
+    ],
+    "avoidWith": [
+      "other Apistogramma species (territorial overlap)",
+      "fin-nipping barbs",
+      "large or aggressive cichlids",
+      "crayfish and large crabs",
+      "shrimp (especially when breeding female is present)"
+    ]
   },
   "media": {
     "primaryImage": "apistogramma_agassizii.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Apistogramma agassizii.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "Classic Amazon blackwater dwarf cichlid known for its striking lyretail (males) and vivid yellow female coloration when guarding fry. Intermediate care due to water chemistry needs; rewarding cave-spawner for soft-water setups.",
+  "careNotes": "Generally advised to keep in soft, slightly acidic water; water chemistry is the primary care challenge — commercially bred specimens tend to be more tolerant than wild-caught fish, but acidic, low-hardness conditions are still broadly recommended for best coloration and breeding success. Males are noticeably larger and develop elongated lyretail fin extensions; females remain smaller and turn bright yellow when guarding eggs or fry, at which point they can be quite aggressive toward the male and other tank inhabitants.\n\nMultiple color forms are widely traded, including 'Fire Red', 'Double Red', 'Tefe', 'Blue', 'Gold', and 'Electric Blue'. These are all the same species (Apistogramma agassizii) and share identical care requirements.\n\nBest kept as a harem group (one male with two or three females) in a tank of 80 L or more, with a clearly defined territory per female (dense planting, caves, and hardscape to break line of sight). In smaller tanks or pairs, the male may need to be removed during spawning as the guarding female can harass him severely. Dither fish — small, active mid-water species like tetras or rasboras — are often recommended to make timid individuals bolder and distribute female aggression.\n\nWild specimens from blackwater systems (Rio Negro, Rio Madeira) may require pH as low as 4.0–5.0 for successful breeding, while commercially produced fish have been reported to spawn at pH 6.0–7.0. Indian almond/catappa leaves, peat filtration, or blackwater extract are commonly used to achieve target water chemistry.\n\nThe species inhabits shallow, slow-moving or near-still waters close to the substrate; powerful filtration or high flow is generally not appropriate. Ammonia and nitrite must be maintained at zero; nitrate ideally below 20–40 ppm.",
+  "breedingNotes": "Cave spawner with strong maternal care. Females typically lay 20–150 eggs on the ceiling or walls of a cave; incubation takes approximately 48–72 hours at 26–28°C. The female guards eggs and wrigglers closely, and may become aggressive enough to require the male's removal from smaller tanks. Fry are free-swimming after roughly 5–7 days and generally achieve independence within two weeks. Optimal breeding water is soft and acidic (pH 6.0–6.6, gH 1–4). Females may spawn multiple times per season. Sexing is straightforward once mature: males are considerably larger with extended finnage; females are smaller and yellow-bodied.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "Aquarium Co-Op",
+      "url": "https://www.aquariumcoop.com/blogs/aquarium/apistogramma-dwarf-cichlid",
+      "accessedDate": "2026-06-08",
+      "notes": "General Apistogramma genus care guide; agassizii-specific data extracted. Primary source for this slice."
+    },
+    "additional": [
+      {
+        "name": "SeriouslyFish",
+        "url": "https://www.seriouslyfish.com/species/apistogramma-agassizii/",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked adult size (7.5 cm male, 5 cm female), water parameters, native range, and tank dimensions. Confirmed taxonomy (Cichlidae, Cichliformes). Temperature range 22–29°C; pH down to 3–4 for wild specimens."
+      },
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Apistogramma-agassizii.html",
+        "accessedDate": "2026-06-08",
+        "notes": "Taxonomic authority. Confirmed family Cichlidae, order Cichliformes. Max SL 4.4 cm (standard length, excluding fins); native range Amazon basin from Peru to Capim River, Brazil. Temperature 26–29°C, pH 5.0–7.0."
+      },
+      {
+        "name": "Shrimp and Snail Breeder (aquariumbreeder.com)",
+        "url": "https://aquariumbreeder.com/apistogramma-agassizii-detailed-guide-care-diet-and-breeding/",
+        "accessedDate": "2026-06-08",
+        "notes": "Additional cross-check on lifespan (3–5 years), gH 1–8, kH 1–6, breeding egg counts (20–250), and diet. Size confirmed at 5–7.5 cm total length. Temperature 22–28°C, pH 5.5–7.0."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
+    "breedingDifficulty": "moderate",
+    "breedingNotes": "Cave spawner; female guards eggs and fry aggressively. Readily breeds in captivity with appropriate water chemistry (soft, acidic). Male may need temporary removal in smaller tanks during female brooding.",
+    "conspecificAggression": "high",
+    "finNippy": false,
     "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": true,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
     "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -90,6 +137,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
 }

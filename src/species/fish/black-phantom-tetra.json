@@ -5,82 +5,123 @@
   "taxon": "fish",
   "waterType": "freshwater",
   "commonName": "Black Phantom Tetra",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "scientificName": "Hyphessobrycon megalopterus",
+  "alsoKnownAs": ["Phantom Tetra"],
   "category": "Tetra",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Characidae",
+    "order": "Characiformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
+    "regions": ["South America"],
+    "countries": ["Bolivia", "Brazil", "Paraguay"],
+    "habitat": "Slow-moving, heavily vegetated blackwater streams and tributaries with leaf litter and tannin-stained water",
+    "biotope": "Blackwater / clearwater stream",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
-    "kH": null,
+    "temperatureC": { "min": 22, "max": 28 },
+    "pH": { "min": 6.0, "max": 7.5 },
+    "gH": { "min": 2, "max": 15 },
+    "kH": { "min": 2, "max": 12 },
     "salinity": null
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 3.5, "max": 4.5 },
+  "lifespanYears": { "min": 3, "max": 5 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 75,
+    "minLengthCm": 60,
+    "swimZone": "mid",
+    "decorPreferences": [
+      "dense planted areas for cover",
+      "open swimming space",
+      "driftwood",
+      "leaf litter (optional)",
+      "dark substrate",
+      "low to moderate lighting"
+    ],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "beginner",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Readily accepts high-quality flakes, nano pellets, and freeze-dried foods. Benefits from regular variety including frozen or live daphnia, cyclops, bloodworms, and brine shrimp. In the wild tends to consume insect larvae, small worms, and crustaceans."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "peaceful",
+    "grouping": "schooling",
+    "minGroupSize": 6,
+    "goodWith": [
+      "tetras",
+      "danios",
+      "pencilfish",
+      "corydoras",
+      "otocinclus",
+      "honey gouramis",
+      "dwarf cichlids",
+      "rasboras"
+    ],
+    "avoidWith": [
+      "long-finned slow-moving fish (e.g. halfmoon bettas)",
+      "dwarf shrimp (may be eaten)",
+      "highly aggressive or territorial species"
+    ]
   },
   "media": {
     "primaryImage": "black_phantom_tetra.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Black Phantom Tetra.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "A hardy, peaceful tetra from South American blackwater streams, known for its distinctive iridescent black shoulder spot and tall dorsal fin. Males tend to display to each other with fin-spreading — non-violent but visually striking. A good choice for community tanks.",
+  "careNotes": "Generally considered one of the easier tetras to keep. Best maintained in schools of 6 or more, which encourages natural shoaling and the characteristic male display behaviour (deeper black coloration and extended dorsal fin during conspecific encounters — non-violent sparring). A well-planted tank with some open swimming space suits them well; dark substrate and subdued lighting tend to bring out richer coloration. Males display DEEPER black coloration during encounters and extend their dorsal fin; this is purely visual sparring and does not typically result in physical harm. Fish are likely to consume dwarf shrimp and small fry. Closely related to the Red Phantom Tetra (Hyphessobrycon sweglesi) — a distinct species with similar care requirements but red/orange coloration rather than black. Sources give adult size as 3.6–4.5 cm across FishBase, Aquarium Co-Op, and Fishkeeping World; 3.5–4.5 cm range used here. Temperature range: one source reports a low of 21°C; 22°C used as the practical floor consistent with the majority of sources.",
+  "breedingNotes": "Generally considered moderately difficult to breed with intention but will scatter eggs spontaneously in planted community tanks (adults usually eat the eggs). For deliberate breeding: condition adults separately with live/frozen foods, then move to a dedicated spawning tank with slightly acidic water (pH ~5.5–6.5), warmer temperature (upper end of range), java moss or fine-leaved plants as spawning substrate, and a sponge filter to avoid fry loss. Females may deposit up to ~300 eggs. Remove adults after spawning. Fry require microscopic foods (infusoria) initially, progressing to baby brine shrimp after approximately two weeks.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "Aquarium Co-Op",
+      "url": "https://www.aquariumcoop.com/blogs/aquarium/red-and-black-phantom-tetras",
+      "accessedDate": "2026-06-08",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/Summary/SpeciesSummary.php?id=10658&lang=english",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked size (3.6 cm SL), temperature (22–28°C), pH (6.0–7.5), hardness (up to 18 dH), native range (upper Paraguay and Guaporé basins). SeriouslyFish returned HTTP 520 (Cloudflare block) and was unavailable; FishBase used as first secondary. Family confirmed as Characidae, Order Characiformes (FishBase extraction returned an artefact — taxonomy confirmed via iNaturalist/GBIF cross-check)."
+      },
+      {
+        "name": "Fishkeeping World",
+        "url": "https://www.fishkeepingworld.com/black-phantom-tetra/",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked size (~1.75 in / ~4.4 cm), temperature (72–82°F / 22–28°C), pH (6–7.5), lifespan (~5 years), diet, and tank size (10 gal minimum cited — lower than other sources; 75 L used as cautious floor for a school of 6)."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
+    "breedingDifficulty": "moderate",
     "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
+    "conspecificAggression": "low",
+    "finNippy": false,
     "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
     "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -90,6 +131,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
+  "dataStatus": "researched",
   "lastReviewed": null
 }

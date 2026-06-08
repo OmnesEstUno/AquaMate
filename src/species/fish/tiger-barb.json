@@ -5,82 +5,109 @@
   "taxon": "fish",
   "waterType": "freshwater",
   "commonName": "Tiger Barb",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "scientificName": "Puntigrus tetrazona",
+  "alsoKnownAs": ["Sumatra Barb", "Puntius tetrazona", "Capoeta tetrazona", "Systomus tetrazona", "Green Tiger Barb", "Albino Tiger Barb", "Moss Barb"],
   "category": "Barb",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Cyprinidae",
+    "order": "Cypriniformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
+    "regions": ["Southeast Asia"],
+    "countries": ["Indonesia"],
+    "habitat": "Forest streams and tributaries with clear water, sand, and rock or pebble substrates. Recorded from river systems in Sumatra (Indragiri, Batang Hari, Musi drainages) and Borneo.",
+    "biotope": "Blackwater",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
-    "kH": null,
+    "temperatureC": { "min": 20, "max": 26 },
+    "pH": { "min": 6.0, "max": 8.0 },
+    "gH": { "min": 5, "max": 19 },
+    "kH": { "min": 4, "max": 10 },
     "salinity": null
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 5.0, "max": 7.0 },
+  "lifespanYears": { "min": 5, "max": 7 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 110,
+    "minLengthCm": 80,
+    "swimZone": "mid",
+    "decorPreferences": ["dense planting", "driftwood", "open swimming space in center", "subdued lighting"],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "beginner",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Readily accepts flakes, small pellets, freeze-dried, and frozen foods. Has been documented eating algae, small invertebrates, plant matter, worms, daphnia, and bloodworms. Benefits from vegetable roughage such as blanched zucchini or cucumber."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "semi-aggressive",
+    "grouping": "schooling",
+    "minGroupSize": 6,
+    "goodWith": ["zebra danios", "silver tip tetras", "clown loaches", "corydoras", "rainbowfishes", "robust similarly-sized cyprinids", "balitorid loaches", "cobitid loaches"],
+    "avoidWith": ["bettas", "angelfish", "guppies", "long-finned species", "slow or timid fish", "small invertebrates", "livebearers"]
   },
   "media": {
     "primaryImage": "tiger_barb.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Tiger Barb.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "A rowdy, active schooling barb with a well-known reputation for fin-nipping. Generally best kept in groups of 8 or more to distribute aggression, in a tank of at least 110 L with faster, similarly-sized tankmates.",
+  "careNotes": "Taxonomy note: reclassified through several genera — Barbus → Capoeta → Systomus → Puntigrus tetrazona (Kottelat, 2013 revision). The scientific name Puntigrus tetrazona is current as of 2026.\n\nFin-nipping tendency is severe and well-documented. Long-finned species (bettas, angelfish, fancy guppies, long-fin danios) and slow or timid tankmates tend to suffer significant fin damage and stress. Groups of 8–12 individuals generally distribute intra-school aggression more evenly and reduce targeted nipping at other species, though the behavior is never fully eliminated.\n\nSeveral selectively-bred variants are commonly available in the hobby: Green Tiger Barb (also called Moss Barb — a green-black color morph), Albino Tiger Barb (pale pinkish-gold with red fins), Golden/leucistic, Platinum, and Blushing strains. All are the same species (Puntigrus tetrazona) and have identical care requirements. GloFish Tiger Barb fluorescent-dye lines are also commercially available.\n\nWild-caught specimens are rarely traded; most aquarium stock is captive-bred and may be commercially farmed. Some sources note that mass-farmed stock can be genetically weaker and more prone to disease than fish bred in quality facilities. Artificially dye-injected specimens ('painted' or 'tattooed' barbs) are occasionally sold — these practices are considered harmful.\n\nSeriouslyFish documents the species as probably endemic to central and southern Sumatra, with Borneo records that may reflect introductions. FishBase lists both Sumatra and Borneo in the native range.\n\nWater parameter spread across sources: temperature ranged 20–28°C (AquaCoop high at 28°C; SeriouslyFish and FishBase agree on 20–26°C — used here). pH ranged 5.0–8.0 across sources; 6.0–8.0 is the majority consensus. Hardness: FishBase gives dH 5–19; key-data brief listed gH 5–15, kH 4–10 — used FishBase range for gH (5–19) as more authoritative; kH 4–10 retained from brief (no direct contradiction in sources).\n\nMinimum group size: AquaCoop recommends 7 (prefer 12+), SeriouslyFish recommends 8–10. A school of 6 is the set minimum; 8–12 is strongly advisable for behavioral stability.",
+  "breedingNotes": "Egg-scattering free spawner with no parental care. Sexing: females tend to be larger and rounder-bodied; males show brighter red coloration on the nose and fin edges. Spawning is typically triggered by placing a well-conditioned pair or small group in a separate shallow spawning tank over a substrate of fine-leaf plants or a spawning mesh to protect eggs from being consumed by the adults. Eggs are adhesive and hatch in roughly 36–48 hours at 26°C; fry become free-swimming within a few days and require infusoria or commercial fry foods initially. Breeding difficulty is generally considered moderate — the fish spawn readily but egg-eating and fry survival require active management.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "Aquarium Co-Op",
+      "url": "https://www.aquariumcoop.com/blogs/aquarium/tiger-barb",
+      "accessedDate": "2026-06-08",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "SeriouslyFish",
+        "url": "https://www.seriouslyfish.com/species/puntigrus-tetrazona/",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked scientific name, taxonomy, native range, water parameters, size, grouping requirements, and temperament. SeriouslyFish documents Sumatra endemic range with Borneo as possibly introduced."
+      },
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Puntigrus-tetrazona.html",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked adult size (max 7.0 cm), temperature (20–26°C), pH (6.0–8.0), and hardness (dH 5–19). Also confirmed native range: Sumatra and Borneo."
+      },
+      {
+        "name": "Fishkeeping World",
+        "url": "https://www.fishkeepingworld.com/tiger-barb/",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked lifespan (5–7 years), temperament, tankmate guidance, and breeding notes."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
+    "breedingDifficulty": "moderate",
     "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
+    "conspecificAggression": "moderate",
+    "finNippy": true,
     "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
     "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -90,6 +117,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
+  "dataStatus": "researched",
   "lastReviewed": null
 }

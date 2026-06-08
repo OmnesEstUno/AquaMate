@@ -5,82 +5,109 @@
   "taxon": "fish",
   "waterType": "freshwater",
   "commonName": "Sparkling Gourami",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "scientificName": "Trichopsis pumila",
+  "alsoKnownAs": ["Pygmy Gourami", "Dwarf Croaking Gourami"],
   "category": "Gourami",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Osphronemidae",
+    "order": "Anabantiformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
+    "regions": ["Southeast Asia"],
+    "countries": ["Thailand", "Laos", "Vietnam", "Cambodia"],
+    "habitat": "Still and slow-moving waters including swamps, peat swamps, floodplains, rice paddies, and irrigation canals with dense aquatic vegetation",
+    "biotope": "Blackwater",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
-    "kH": null,
+    "temperatureC": { "min": 22, "max": 28 },
+    "pH": { "min": 6.0, "max": 7.5 },
+    "gH": { "min": 5, "max": 19 },
+    "kH": { "min": 4, "max": 15 },
     "salinity": null
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 3.0, "max": 4.0 },
+  "lifespanYears": { "min": 4, "max": 5 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 40,
+    "minLengthCm": 45,
+    "swimZone": "all",
+    "decorPreferences": ["dense planting", "floating plants", "Java moss", "leaf litter", "driftwood", "subdued lighting"],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "beginner",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Micro-carnivore. Readily takes frozen or live daphnia, baby brine shrimp, and chironomid larvae. Has been documented accepting micro-pellets and fine granules in captivity. Will naturally hunt and consume seed shrimp, detritus worms, small invertebrates, and hydra within the tank."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "peaceful",
+    "grouping": "pair",
+    "minGroupSize": 2,
+    "goodWith": ["nano rasboras", "Boraras spp.", "Microdevario spp.", "Trigonostigma spp.", "small Corydoras", "Otocinclus", "small peaceful loaches", "Pangio spp."],
+    "avoidWith": ["bettas", "tiger barbs", "fin-nipping tetras", "aggressive or large fish", "Neocaridina shrimp", "Caridina shrimp", "fish fry"]
   },
   "media": {
     "primaryImage": "sparkling_gourami.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Sparkling Gourami.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "A tiny labyrinth fish from SE Asian rice paddies, the Sparkling Gourami is known for its iridescent blue-spotted flanks and the audible clicking it produces during courtship and sparring — one of the few aquarium fish heard as well as seen.",
+  "careNotes": "A labyrinth organ lets this fish breathe atmospheric air; ensure a warm, humid air gap above the water surface and keep the tank tightly covered — they are capable jumpers. Generally advised to keep in pairs or small trios (1 male : 2–3 females) in a heavily planted tank of at least 40 L with subdued lighting and low flow. Males will display and occasionally spar but serious injury is uncommon in a well-structured setup. Has been known to predate very small shrimp (Neocaridina, Caridina, shrimplets) — use with caution in shrimp tanks. The distinctive clicking/croaking sound is produced by specialised pectoral-fin tendons and is particularly audible during courtship or conspecific displays. Genus Trichopsis also includes the Croaking Gourami (T. vittata) and Three-stripe Gourami (T. schalleri), which share the same sound-producing mechanism and similar care requirements.",
+  "breedingNotes": "A bubble-nester; males build foam nests among floating plants, under leaves, or in tube-like structures. After spawning, the male tends the nest and guards eggs. Eggs tend to hatch within 24–48 hours. Fry are very small and generally require infusoria or commercial fry foods initially, followed by microworms and baby brine shrimp nauplii. Breeding is considered moderate difficulty: conditioning adults on live/frozen foods, a separate breeding tank, and fry care all require attentiveness.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "SeriouslyFish",
+      "url": "https://www.seriouslyfish.com/species/trichopsis-pumila/",
+      "accessedDate": "2026-06-08",
+      "notes": "Primary husbandry source. Provides tank volume (41 L), temperature (22–28°C), pH (5.0–7.5), hardness, native range, diet, and breeding notes."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Trichopsis-pumila.html",
+        "accessedDate": "2026-06-08",
+        "notes": "Used as taxonomic authority (Order: Anabantiformes confirmed over outdated Perciformes). Confirms adult size ≤4 cm, temperature 25–28°C, pH 6.0–7.0, gH 5–19 dH, native distribution through Thailand, Laos, Vietnam, Cambodia to Indonesia."
+      },
+      {
+        "name": "Fishkeeping World",
+        "url": "https://www.fishkeepingworld.com/sparkling-gourami/",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-verification of water parameters (temp 22–27°C, pH 6–8, hardness 5–18 dH), lifespan 4–5 years, tank size ~57 L minimum per source. Confirmed bubble-nesting behaviour and micro-carnivore diet."
+      },
+      {
+        "name": "Aquarium Co-Op",
+        "url": "https://www.aquariumcoop.com/blogs/aquarium/top-5-gouramis",
+        "accessedDate": "2026-06-08",
+        "notes": "Confirmed adult size ~4 cm, micropredator diet (daphnia, baby brine shrimp, fine granules), peaceful temperament, audible croaking mechanism. Limited water-parameter data."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
+    "breedingDifficulty": "moderate",
+    "breedingNotes": "Bubble-nester with paternal care; fry are very small and require infusoria initially. Moderate difficulty owing to fry feeding demands and need for a warm, stable setup.",
+    "conspecificAggression": "low",
+    "finNippy": false,
     "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
+    "escapeRisk": "moderate",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
     "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -90,6 +117,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
 }

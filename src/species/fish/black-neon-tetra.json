@@ -5,82 +5,127 @@
   "taxon": "fish",
   "waterType": "freshwater",
   "commonName": "Black Neon Tetra",
-  "scientificName": "",
+  "scientificName": "Hyphessobrycon herbertaxelrodi",
   "alsoKnownAs": [],
   "category": "Tetra",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Characidae",
+    "order": "Characiformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
+    "regions": ["South America"],
+    "countries": ["Brazil"],
+    "habitat": "Slow-moving blackwater streams and tributaries in the upper Paraguay River basin, often among leaf litter and dense vegetation.",
+    "biotope": "Blackwater/clearwater; upper Paraguai basin (Mato Grosso and Mato Grosso do Sul states), with possible extension into the upper Guaporé basin.",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
-    "kH": null,
+    "temperatureC": { "min": 22, "max": 27 },
+    "pH": { "min": 5.0, "max": 7.5 },
+    "gH": { "min": 2, "max": 15 },
+    "kH": { "min": 2, "max": 12 },
     "salinity": null
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 2.5, "max": 4.0 },
+  "lifespanYears": { "min": 3, "max": 5 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 60,
+    "minLengthCm": 80,
+    "swimZone": "mid",
+    "decorPreferences": [
+      "dense planting",
+      "floating plants for shade",
+      "dark substrate",
+      "driftwood",
+      "leaf litter (optional biotope)"
+    ],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "beginner",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Readily accepts most prepared foods including micro pellets, nano flakes, and krill flakes. Benefits from regular supplements of frozen or live foods such as daphnia, cyclops, brine shrimp, bloodworm, and mosquito larvae."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "peaceful",
+    "grouping": "schooling",
+    "minGroupSize": 6,
+    "goodWith": [
+      "small tetras",
+      "rasboras",
+      "corydoras",
+      "otocinclus",
+      "small gouramis",
+      "small non-predatory cichlids (e.g. apistogramma)",
+      "dwarf shrimp (adults)"
+    ],
+    "avoidWith": [
+      "large predatory fish",
+      "fin-nipping species (tiger barbs)",
+      "aggressive cichlids"
+    ]
   },
   "media": {
     "primaryImage": "black_neon_tetra.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Black Neon Tetra.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "A striking 4 cm schooling tetra from the Paraguay basin with a bold black body, white iridescent stripe, and red-tipped eye. Generally considered one of the more tolerant and beginner-friendly tetras available.",
+  "careNotes": "Generally advised to keep in groups of 6 or more; larger schools of 10–15 tend to show more natural schooling behavior and bolder coloration. Tolerates a wide pH range (5.0–7.5) and moderate hardness, making it more forgiving than Cardinal or Neon Tetras. Often confused with the Common Neon Tetra (Paracheirodon innesi), which has a bright red band extending from mid-body to the tail — the Black Neon instead has a white horizontal iridescent stripe above a black longitudinal band, with red pigmentation limited to the upper eye. An albino/golden color variant is occasionally available in the trade, featuring reduced or absent black pigmentation with a yellowish-gold body and pink/red eyes. Females tend to be noticeably deeper-bodied and slightly larger than males. Prefers a well-planted tank with some shaded areas; dark substrate and floating plants help replicate its blackwater biotope and encourage bolder behavior. Minimum tank footprint of 80 × 30 cm is generally advised for a school.",
+  "breedingNotes": "An egg-scattering free spawner that exhibits no parental care. Conditioning with live or frozen foods encourages spawning. A separate breeding tank with soft, slightly acidic water (pH ~6.0, temperature ~26°C), dim lighting, fine-leaved plants (java moss, spawning mops), and catappa leaves or peat filtration tends to produce best results. Eggs typically hatch in roughly 22–26 hours; fry are very small and have been reported to require infusoria or commercial fry foods initially, transitioning to micro worms and baby brine shrimp as they grow. Adults will consume eggs and fry, so parents should be removed after spawning. Spawning itself has been reported as moderately straightforward, but raising fry to juvenile stage is considered the harder part.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "Aquarium Co-Op",
+      "url": "https://www.aquariumcoop.com/blogs/aquarium/black-neon-tetra",
+      "accessedDate": "2026-06-08",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "SeriouslyFish",
+        "url": "https://www.seriouslyfish.com/species/hyphessobrycon-herbertaxelrodi/",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked all high-stakes fields. Confirmed scientific name, family/order, Paraguay basin origin, schooling behavior, peaceful temperament, and egg-scatterer breeding mode. SeriouslyFish lists temperature 20–28°C (slightly wider), pH 5.0–7.5, hardness 18–215 ppm (≈1–12 dGH), tank base 80×30 cm, minimum group 8–10 specimens. Tank minVolumeLiters set to 60L (80×30×30 footprint) consistent with SF recommendation. pH max averaged across sources to 7.5."
+      },
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Hyphessobrycon-herbertaxelrodi.html",
+        "accessedDate": "2026-06-08",
+        "notes": "Confirmed Paraguay River basin native range, adult size max 3.2 cm SL, temperature 23–27°C, pH 5.5–7.5, hardness 0–15 dH. Minimum aquarium length 60 cm noted. Benthopelagic, swims middle and upper water layers."
+      },
+      {
+        "name": "Fishkeeping World",
+        "url": "https://www.fishkeepingworld.com/black-neon-tetra/",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-check for lifespan (~5 years), diet details, breeding notes (eggs hatch 22–26 hours), and pH 5.5–7.0. Adult size up to ~4 cm including fins. Hardness 2–4 dGH cited for breeding conditions."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
+    "breedingDifficulty": "moderate",
+    "breedingNotes": "Egg-scatterer; spawning is reasonably achievable in a dedicated breeding setup with soft acidic water, but fry are small and challenging to raise successfully.",
+    "conspecificAggression": "none",
+    "finNippy": false,
     "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
     "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -90,6 +135,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
 }

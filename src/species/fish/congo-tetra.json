@@ -5,82 +5,97 @@
   "taxon": "fish",
   "waterType": "freshwater",
   "commonName": "Congo Tetra",
-  "scientificName": "",
+  "scientificName": "Phenacogrammus interruptus",
   "alsoKnownAs": [],
   "category": "Tetra",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Alestidae",
+    "order": "Characiformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
+    "regions": ["Central Africa"],
+    "countries": ["Democratic Republic of the Congo", "Republic of the Congo"],
+    "habitat": "Slow-moving rivers and streams with dense vegetation and soft, acidic to neutral water",
+    "biotope": "Congo River basin",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
-    "kH": null,
+    "temperatureC": { "min": 23, "max": 27 },
+    "pH": { "min": 6.0, "max": 7.5 },
+    "gH": { "min": 4, "max": 18 },
+    "kH": { "min": 2, "max": 12 },
     "salinity": null
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 6.0, "max": 9.0 },
+  "lifespanYears": { "min": 3, "max": 5 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 150,
+    "minLengthCm": 100,
+    "swimZone": "mid",
+    "decorPreferences": ["dense planting", "open swimming area", "dark substrate", "subdued lighting"],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Accepts flake, pellet, and frozen foods readily. Has been documented eating small invertebrates, worms, brine shrimp, and plant matter in the wild. Benefits from variety including high-quality flake, frozen bloodworms, and occasional live foods."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "peaceful",
+    "grouping": "schooling",
+    "minGroupSize": 6,
+    "goodWith": ["other tetras", "corydoras catfish", "small peaceful community fish", "rasboras", "dwarf cichlids"],
+    "avoidWith": ["fin-nippers", "aggressive species", "large cichlids", "bettas"]
   },
   "media": {
     "primaryImage": "congo_tetra.webp",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Congo Tetra.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "Striking African tetra from the Congo River basin. Males display iridescent blue-gold flanks with extended dorsal, anal, and caudal fin filaments. Peaceful schooling species; best kept in groups of 6 or more in a spacious planted tank.",
+  "careNotes": "Often mistakenly categorized as a Characid — Phenacogrammus interruptus belongs to the African tetra family Alestidae, not Characidae. Males are notably more colorful, showing iridescent purple, blue, and gold flanks with characteristic extended fin filaments on the dorsal, anal, and caudal fins; body length reaches up to 9 cm with fin extensions potentially reaching 10 cm or more. Females tend to be silvery and smaller (around 6 cm). Groups of fewer than 6 fish tend to become shy and may not display their full coloration — a school of 6 or more is generally recommended. Sensitive to poor water quality; regular water changes and good filtration are advisable. Prefers some subdued or diffuse lighting and appreciates a mix of open swimming space and planted areas. Not considered a fin-nipper in the typical sense, though minor fin-nipping has occasionally been reported, particularly in undersized groups or with very long-finned tankmates.",
+  "breedingNotes": "Egg-scatterer; fertilization tends to happen as the pair or group gradually drops eggs across fine-leafed plants or a spawning mop over several hours. Reported to spawn in slightly acidic, soft water with good filtration and some morning light. Eggs are adhesive and typically hatch in approximately 6 days at optimal temperature. Breeding is considered moderately difficult — conditioning on live and frozen foods is generally advised before spawning attempts. Reported spawns can include up to 300 or more eggs. Fry are small; infusoria or commercial fry foods are typically used for first feeding.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "FishBase",
+      "url": "https://www.fishbase.se/summary/Phenacogrammus-interruptus.html",
+      "accessedDate": "2026-06-08",
+      "notes": "Primary source used in place of Aquarium Co-Op (no species page found) and SeriouslyFish (HTTP 520). Provides taxonomy, native range, water parameters, size, and behavioral data."
+    },
+    "additional": [
+      {
+        "name": "Fishkeeping World",
+        "url": "https://www.fishkeepingworld.com/congo-tetra/",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked size (males 3.5 in / ~8.9 cm, females 2.5–2.75 in), temperature (73–82°F = 22.8–27.8°C), pH (6.0–8.0), hardness (3–18 dGH), tank size (20–30 gal), lifespan (3–5 years), diet, temperament, and grouping. Minor disagreement on tank minimum (20 gal / 76L vs. FishBase 100 cm tank length); biased toward 150L per playbook caution for an active schooling species."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
+    "breedingDifficulty": "moderate",
+    "breedingNotes": "Egg-scatterer that gradually drops eggs across plants. Fertilization is relatively straightforward but raising fry to maturity requires conditioning the breeders and providing fine-leafed plants or a mop. Hatching typically occurs around 6 days post-spawn.",
+    "conspecificAggression": "low",
+    "finNippy": false,
     "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
     "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -90,6 +105,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
 }

@@ -5,82 +5,109 @@
   "taxon": "fish",
   "waterType": "freshwater",
   "commonName": "Zebra Danio",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "scientificName": "Danio rerio",
+  "alsoKnownAs": ["Zebrafish", "Striped Danio", "Brachydanio rerio", "GloFish Danio"],
   "category": "Danio",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Danionidae",
+    "order": "Cypriniformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
+    "regions": ["South Asia"],
+    "countries": ["India", "Bangladesh", "Nepal", "Bhutan", "Myanmar", "Pakistan"],
+    "habitat": "Slow-moving and standing freshwater — rice paddies, streams, ponds, and seasonal pools with dense vegetation",
+    "biotope": "Subtropical freshwater; benthopelagic open-water column",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
-    "kH": null,
+    "temperatureC": { "min": 18, "max": 25 },
+    "pH": { "min": 6.0, "max": 8.0 },
+    "gH": { "min": 5, "max": 20 },
+    "kH": { "min": 2, "max": 15 },
     "salinity": null
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 4.5, "max": 5.5 },
+  "lifespanYears": { "min": 3, "max": 5 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 75,
+    "minLengthCm": 60,
+    "swimZone": "mid",
+    "decorPreferences": ["dense planting along sides and back", "open swimming space in center", "fine-leaved plants or marbles for spawning", "sand or fine gravel substrate"],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "beginner",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Readily accepts most prepared foods including flakes, nano/micro pellets, and freeze-dried foods. Benefits from variety — frozen bloodworms, daphnia, and live baby brine shrimp are eagerly taken and help condition fish for breeding. In the wild tends to feed on worms, small crustaceans, and insect larvae."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "peaceful",
+    "grouping": "schooling",
+    "minGroupSize": 6,
+    "goodWith": ["rasboras", "livebearers", "corydoras", "loaches", "tetras", "rainbowfish", "barbs", "peaceful gouramis", "small plecos"],
+    "avoidWith": ["slow-moving long-finned fish (bettas, fancy guppies, angelfish)", "large predatory fish", "dwarf shrimp (may nip)", "timid species outcompeted at feeding"]
   },
   "media": {
     "primaryImage": "zebra_danio.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Zebra Danio.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "A hardy, active schooling fish from South Asia and one of the most beginner-friendly freshwater species available. Tolerates a wide range of water parameters and can thrive in unheated tanks in temperate climates. Also a major model organism in developmental biology.",
+  "careNotes": "Zebra Danios are among the most tolerant freshwater aquarium fish, adapting to a wide range of water parameters. They are best kept in schools of 6 or more in a tank with a long footprint — their energetic swimming style benefits from horizontal space. A tight-fitting lid is advisable as they have been known to jump, particularly when startled.\n\nTemperature tolerance is notably broad: they tend to do well from about 18°C up to 25°C, making them suitable for unheated aquariums in temperate climates. Cooler temperatures (18–20°C) are sometimes used by breeders during conditioning.\n\nFin-nipping behavior has been reported, particularly toward slow-moving fish with long, flowing fins. Keeping them in adequate school size and providing sufficient space generally reduces this tendency.\n\nGloFish: The GloFish varieties sold in the US (red, green, orange, blue, purple, pink) are genetically modified Danio rerio carrying fluorescent protein genes derived from jellyfish and coral. They have the same care requirements as standard Zebra Danios. Sale of GloFish is restricted or prohibited in some countries (including Australia and the European Union). The long-fin (\"veil tail\") selectively-bred variety is also widely available and has the same care requirements.\n\nZebra Danio is one of the most extensively studied vertebrates in biomedical research — its transparent embryos and rapid development make it a premier model organism for developmental biology and genetics.\n\nConspecific aggression is generally low within a properly sized school; dominance hierarchies exist but are rarely harmful. Crowding or very small groups can increase stress-related skirmishing.",
+  "breedingNotes": "Zebra Danios are among the easiest egg-scattering freshwater fish to breed in captivity and are a common first breeding project for aquarists. Spawning is triggered by slightly raising temperature and feeding high-protein live or frozen foods. A separate breeding tank with marbles or a mesh bottom over fine plants helps protect eggs from being eaten by adults, who do not provide parental care.\n\nFemales scatter adhesive eggs (reported numbers range from around 100 to over 400 per spawning) that fall between marbles or settle in plant leaves. Eggs typically hatch within 2–3 days at ~25–27°C. Fry become free-swimming at around 5 days and accept infusoria or commercial liquid fry food initially, transitioning to baby brine shrimp and micro-foods as they grow. Sexual maturity is reached at approximately 3 months of age.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "Aquarium Co-Op",
+      "url": "https://www.aquariumcoop.com/blogs/aquarium/zebra-danio-care-guide",
+      "accessedDate": "2026-06-08",
+      "notes": "Primary source for husbandry; covers diet, temperament, tank size, schooling requirements, and variant notes (GloFish, long-fin)."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Danio-rerio.html",
+        "accessedDate": "2026-06-08",
+        "notes": "Authoritative taxonomy (Danionidae / Cypriniformes), native range confirmation (India, Bangladesh, Nepal, Myanmar, Pakistan, Bhutan), temperature 18–24°C, pH 6–8, hardness 5–19 dH, adult SL 3.8 cm. Cross-checked high-stakes fields."
+      },
+      {
+        "name": "Fishkeeping World",
+        "url": "https://www.fishkeepingworld.com/zebra-danio/",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked: temperature 18–25°C, pH 6.8–8.0, gH 5–19, size 4–6 cm, lifespan 3–5 years, minimum 10 gal (38L) for small groups. Confirmed fin-nipping tendency and conspecific dominance hierarchy notes."
+      },
+      {
+        "name": "Shrimp and Snail Breeder (AquariumBreeder.com)",
+        "url": "https://aquariumbreeder.com/danio-rerio-detailed-guide-care-diet-and-breeding/",
+        "accessedDate": "2026-06-08",
+        "notes": "Additional cross-check: temperature given as 24–28°C (slightly higher than other sources — possibly reflects lab/breeding conditions); pH 7–8, gH 10–20; tank 60L for 6–8 fish; breeding notes confirm egg-scatterer with up to 700 eggs. Temperature max averaged down per playbook averaging rule."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
+    "breedingDifficulty": "easy",
+    "breedingNotes": "Egg-scatterer; spawns readily in captivity with minimal intervention. Standard beginner breeding project. See breedingNotes for full protocol.",
+    "conspecificAggression": "low",
+    "finNippy": true,
     "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
+    "escapeRisk": "moderate",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
     "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -90,6 +117,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
 }

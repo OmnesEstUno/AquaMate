@@ -37,14 +37,17 @@
       "max": 28
     },
     "pH": {
-      "min": 6.5,
-      "max": 7.5
+      "min": 6.0,
+      "max": 8.0
     },
     "gH": {
       "min": 5,
+      "max": 19
+    },
+    "kH": {
+      "min": 4,
       "max": 15
     },
-    "kH": null,
     "salinity": null
   },
   "adultSizeCm": {
@@ -56,8 +59,8 @@
     "max": 15
   },
   "tank": {
-    "minVolumeLiters": 208,
-    "minLengthCm": 120,
+    "minVolumeLiters": 380,
+    "minLengthCm": 150,
     "swimZone": "bottom",
     "decorPreferences": [
       "caves",
@@ -69,10 +72,10 @@
     ],
     "minSandDepthCm": null
   },
-  "careLevel": "intermediate",
+  "careLevel": "advanced",
   "diet": {
     "type": "carnivore",
-    "notes": "Primarily feeds on insect larvae, frozen/freeze-dried bloodworms, blackworms, brine shrimp, and appropriately sized sinking pellets. Avoid relying solely on flake foods. Nocturnal feeder — feed after lights out."
+    "notes": "Feeds primarily on insect larvae, frozen/freeze-dried bloodworms, blackworms, brine shrimp, krill, and sinking pellets. Has been known to accept earthworms and small silversides. Tends to avoid dry flake foods. Nocturnal feeder — best offered food after lights out."
   },
   "compatibility": {
     "temperament": "semi-aggressive",
@@ -86,8 +89,8 @@
       "peaceful fish larger than 15 cm"
     ],
     "avoidWith": [
-      "other Black Ghost Knifefish (territorial conspecific aggression)",
-      "nano fish under 6 cm",
+      "other Black Ghost Knifefish (high conspecific aggression)",
+      "nano fish under 6 cm (predation risk)",
       "aggressive cichlids",
       "fast nippy fish like some rainbowfish"
     ]
@@ -97,50 +100,56 @@
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "A striking 18-inch South American oddball that uses weak electric fields to navigate. Needs a large, heavily-decorated tank with caves and dim lighting; generally peaceful with fish too large to eat.",
-  "careNotes": "The Black Ghost Knifefish is a nocturnal, electroreceptive fish that uses weak electrical pulses for navigation and communication (poses no danger to humans or tankmates). Juveniles can start in a 55-gallon (208 L) tank but adults require 120–180 gallons (450–680 L) for long-term health. Provide plenty of hiding places — caves, PVC pipes, and driftwood — as this species is shy and stress-prone without shelter. Keep lighting subdued; floating plants help diffuse light. Peaceful toward most tankmates but becomes predatory toward small fish (under ~6 cm) as it matures, and is highly territorial toward conspecifics. Do not house two Black Ghost Knifefish together unless in a very large (200+ gallon) tank with visual barriers. Feed after lights out. Sensitive to water quality; maintain good filtration and perform regular water changes. Note on water parameters: Aquarium Co-Op cites pH 6.8–7.8 while FishBase records 6.0–8.0; a conservative middle range of 6.5–7.5 is used here. Adult size: Aquarium Co-Op cites 35–45 cm; FishBase records maximum 50 cm — both figures are reflected in the adultSizeCm range. Noteworthy trait: this species is capable of jumping from open tanks; a tight-fitting lid is strongly recommended.",
-  "breedingNotes": "Breeding in captivity is extremely rare and not documented under typical home aquarium conditions. No reliable captive breeding protocol is established; wild-caught individuals make up the vast majority of the trade.",
+  "summary": "A striking South American oddball that generates a weak electric field to navigate and communicate. Needs a large, heavily-decorated tank with caves, dim lighting, and no small tankmates it might predate.",
+  "careNotes": "The Black Ghost Knifefish is a nocturnal, electroreceptive species that uses weak electrical pulses for navigation and communication — no danger to humans or tankmates. Juveniles can start in a smaller tank but adults generally require at least 100 gallons (380 L) for long-term health; a 120-gallon (450 L) or larger footprint is commonly recommended for specimens reaching full size. Provide caves, PVC tubes, and driftwood as this species tends to be shy and stress-prone without adequate shelter. Floating plants and subdued or blue-spectrum lighting are appreciated. Generally peaceful toward fish too large to eat, but has been known to predate on smaller fish (under ~6 cm) as it matures; keep with same-sized or larger tankmates. Highly territorial toward conspecifics — generally best kept singly unless the tank is very large (200+ gallons) with visual barriers. Feed after lights out. Sensitive to water quality; maintain good filtration and perform regular water changes. Do NOT use copper-based medications — this species lacks true scales and is highly sensitive to copper. A tight-fitting lid is strongly recommended; this species has been documented jumping from open tanks (escape risk: high). Long-lived — has been reported to reach 15+ years in well-kept aquariums. pH tolerance is relatively wide (6.0–8.0 across multiple sources), though softer, slightly acidic water closer to its blackwater origin tends to be preferred. Electrical organ navigation may be disrupted by electromagnetic interference from high-current devices near the tank; avoid placing multiple high-draw electrical devices directly against the tank wall.",
+  "breedingNotes": "Breeding in captivity is rarely documented under typical home aquarium conditions. Eggs are reported to be laid in cave-like structures and are described as small and yellowish, hatching in roughly 3 days under favorable conditions. Parents have been known to consume eggs if not separated after spawning. No reliable captive breeding protocol is widely established; wild-caught individuals make up the majority of the trade.",
   "sources": {
     "primary": {
       "name": "Aquarium Co-Op",
       "url": "https://www.aquariumcoop.com/blogs/aquarium/black-ghost-knifefish",
-      "accessedDate": "2026-05-21",
+      "accessedDate": "2026-06-08",
       "notes": null
     },
     "additional": [
       {
         "name": "FishBase",
         "url": "https://www.fishbase.se/summary/Apteronotus-albifrons",
-        "accessedDate": "2026-05-21",
-        "notes": "Cross-checked sizing and water parameters. FishBase records max size 50 cm (vs. 35–45 cm from primary) and pH 6.0–8.0 (vs. 6.8–7.8 from primary). Conservative values adopted; discrepancies noted in careNotes. FishBase was unreachable directly; data retrieved via web search cache."
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked size (max 50 cm), temperature (23–28°C), pH (6.0–8.0), and hardness (5–19 dH). FishBase pH and gH widths used as they matched Fishkeeping World and superseded the narrower Aquarium Co-Op figures."
+      },
+      {
+        "name": "Fishkeeping World",
+        "url": "https://www.fishkeepingworld.com/black-ghost-knifefish/",
+        "accessedDate": "2026-06-08",
+        "notes": "Confirmed copper sensitivity (explicit warning), nocturnal behavior, pH 6.0–8.0, gH 5–19 dGH, 100-gallon minimum, care level intermediate-to-advanced, and provided additional breeding details (cave spawning, ~3 day hatch). SeriouslyFish (first secondary) returned 404; Fishkeeping World used as replacement."
       }
     ]
   },
   "fish": {
     "breedingDifficulty": "not in captivity",
-    "breedingNotes": "Breeding in captivity is extremely rare and not reliably documented. No established home aquarium breeding protocol exists.",
+    "breedingNotes": "Breeding in captivity is rarely documented. Eggs reported laid in caves, hatching in approximately 3 days; parents should be separated post-spawning to prevent egg predation. No established home aquarium breeding protocol exists.",
     "conspecificAggression": "high",
     "finNippy": false,
     "reefSafe": "no",
     "escapeRisk": "high",
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
-    "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": true,
+    "juvenileColorPhase": false,
+    "copperSensitive": true,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -151,5 +160,5 @@
   "macroalgae": null,
   "schemaVersion": 1,
   "dataStatus": "researched",
-  "lastReviewed": "2026-05-21"
+  "lastReviewed": "2026-06-08"
 }

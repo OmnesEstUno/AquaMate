@@ -4,83 +4,119 @@
   "kind": "fauna",
   "taxon": "fish",
   "waterType": "freshwater",
-  "commonName": "Betta splendens",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "commonName": "Siamese Fighting Fish",
+  "scientificName": "Betta splendens",
+  "alsoKnownAs": ["Betta", "Betta Fish", "Fighting Fish"],
   "category": "Oddball",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Osphronemidae",
+    "order": "Anabantiformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
-    "depthRangeM": null
+    "regions": ["Southeast Asia"],
+    "countries": ["Thailand", "Cambodia", "Laos", "Vietnam"],
+    "habitat": "Standing and slow-moving freshwater — rice paddies, floodplain pools, canals, and shallow streams",
+    "biotope": "Tropical lowland freshwater; densely vegetated margins with warm, often low-oxygen water",
+    "depthRangeM": { "min": 0, "max": 1 }
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
-    "kH": null,
+    "temperatureC": { "min": 24, "max": 30 },
+    "pH":           { "min": 6.0, "max": 7.5 },
+    "gH":           { "min": 5, "max": 20 },
+    "kH":           { "min": 3, "max": 15 },
     "salinity": null
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 5, "max": 7.5 },
+  "lifespanYears": { "min": 2, "max": 4 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 20,
+    "minLengthCm": 40,
+    "swimZone": "top",
+    "decorPreferences": [
+      "dense planting or silk plants",
+      "floating plants for surface cover",
+      "caves or hides for retreat",
+      "gentle/sponge filtration — avoid strong flow",
+      "tight-fitting lid mandatory"
+    ],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "beginner",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Insectivorous in the wild, feeding on zooplankton, mosquito larvae, and other small invertebrates. In captivity, generally does well on Betta-specific pellets or micro-pellets as a staple; benefits from variety including frozen or freeze-dried bloodworms, brine shrimp, and daphnia. Have been known to refuse flake food. Overfeeding is a common cause of constipation and bloat — one small meal per day or two small meals is typically sufficient."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": [
+      "small peaceful nano fish (tetras, rasboras, corydoras) in sufficiently large, well-planted tanks",
+      "snails",
+      "small peaceful bottom dwellers"
+    ],
+    "avoidWith": [
+      "other male Betta splendens",
+      "fin-nipping species (tiger barbs, serpae tetras)",
+      "similarly colourful or long-finned fish that may trigger aggression",
+      "aggressive cichlids"
+    ]
   },
   "media": {
     "primaryImage": "betta_splendens.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Betta splendens.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "Iconic labyrinth fish from Southeast Asian rice paddies, selectively bred over centuries for vivid colours and flowing fins. Males are solitary and highly aggressive toward one another; generally considered beginner-suitable but require a heater, adequate space, and a tight lid.",
+  "careNotes": "Heater is non-negotiable — Betta splendens is a tropical species that generally does poorly below 24°C, becoming lethargic and disease-prone. Despite a pervasive myth, small bowls and bud vases are inadequate; 20L is a practical minimum for a solo male, though 40L+ tends to be associated with better health and more natural behaviour. A tight-fitting lid is mandatory — labyrinth fish are strong jumpers and escapes are common.\n\nMales must never be housed together; even reflections in glass can trigger sustained threat displays and fin damage. Females may sometimes be kept in 'sorority' groups of 5 or more in well-planted tanks of 75L+, though aggression hierarchies are inherently stressful and this arrangement requires careful monitoring.\n\nGentle, low-flow filtration (sponge filters are a popular choice) is important — strong currents stress this species and can damage finnage. The labyrinth organ allows the fish to breathe atmospheric air directly; surface access must never be blocked.\n\nTail-fin varieties encountered in the trade include: Veiltail (the most common), Halfmoon, Crowntail, Plakat (short-fin, closest to wild type), Double Tail, Delta, Rosetail, Dragon Scale, and others. Wild and near-wild forms such as B. imbellis (Peaceful Betta), B. mahachaiensis, and B. smaragdina (Emerald Betta) are sometimes mislabelled as B. splendens. Captive-bred selectively-bred lines tend to have shorter lifespans than wild-type fish — 2–3 years is a common expectation, though some specimens reach 4+ years under good conditions.\n\nBetta splendens is listed as Vulnerable on the IUCN Red List; wild populations in Thailand have been significantly impacted by habitat loss.",
+  "breedingNotes": "Bubble-nest builder with paternal care — the male constructs a floating nest of mucus-coated bubbles at the surface, courts the female, and after spawning wraps around her to fertilise eggs, which are then collected and placed into the nest. The male guards the nest and tends fry until they are free-swimming. Female should be removed post-spawning to prevent the male from attacking her. Fry require infusoria or commercially prepared fry foods initially. Breeding is generally considered straightforward and well-documented; conditioning on live or frozen foods tends to improve spawn success. Egg numbers typically range from 100 to several hundred per spawn.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "Aquarium Co-Op",
+      "url": "https://www.aquariumcoop.com/blogs/aquarium/betta-fish",
+      "accessedDate": "2026-06-08",
+      "notes": "General care guidance; provided temperature (~27°C), minimum tank size (5–10 gal), diet, and temperament notes."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Betta-splendens.html",
+        "accessedDate": "2026-06-08",
+        "notes": "Confirmed family (Osphronemidae), order (Anabantiformes), temperature range (24–30°C), pH range (6.0–8.0), adult size (max 6.5 cm TL), native range (Mekong basin / SE Asia), and diet (zooplankton, insect larvae). IUCN Vulnerable status confirmed."
+      },
+      {
+        "name": "Fishkeeping World",
+        "url": "https://www.fishkeepingworld.com/betta-fish/",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked temperature (22–30°C), pH (6.5–7.0), size (5–7.5 cm), lifespan (2–4 years), minimum tank (2 gal stated minimum, 5–10 gal recommended), diet (carnivore/insectivore), temperament (aggressive, solitary males), and fin variety catalogue. SeriouslyFish returned HTTP 520; Practical Fishkeeping returned 403; this source used as first working secondary."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
+    "breedingDifficulty": "easy",
+    "breedingNotes": "Bubble-nest builder; paternal care; well-documented in the hobby. Female must be removed post-spawn. Fry require small live or prepared foods initially.",
+    "conspecificAggression": "high",
+    "finNippy": false,
     "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
+    "escapeRisk": "high",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
     "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -90,6 +126,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
 }

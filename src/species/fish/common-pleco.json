@@ -5,82 +5,103 @@
   "taxon": "fish",
   "waterType": "freshwater",
   "commonName": "Common Pleco",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "scientificName": "Hypostomus plecostomus",
+  "alsoKnownAs": ["Common Plecostomus", "Suckermouth Catfish", "Armored Catfish", "Pleco"],
   "category": "Catfish",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Loricariidae",
+    "order": "Siluriformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
+    "regions": ["South America"],
+    "countries": ["Suriname", "Guyana", "French Guiana", "Brazil"],
+    "habitat": "Rivers and streams from the lower Oyapock River basin to the Essequibo River basin; lower tidal-influenced river sections, quiet-flowing water with muddy substrate, and swamps.",
+    "biotope": "Riverine/demersal; bottom-associated in slow to moderate current over muddy or rocky substrate.",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
-    "kH": null,
+    "temperatureC": { "min": 22, "max": 28 },
+    "pH": { "min": 6.5, "max": 8.0 },
+    "gH": { "min": 5, "max": 25 },
+    "kH": { "min": 3, "max": 20 },
     "salinity": null
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 40, "max": 50 },
+  "lifespanYears": { "min": 10, "max": 15 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 500,
+    "minLengthCm": 180,
+    "swimZone": "bottom",
+    "decorPreferences": ["driftwood", "caves", "smooth rocks", "sandy or fine-gravel substrate", "hardy plants (Java fern, Anubias — avoid soft-leafed plants which may be consumed)"],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "advanced",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Primarily plant-based diet; has been documented eating algae wafers, blanched vegetables (zucchini, cucumber, spinach, peas), sinking pellets, and driftwood (for dietary fiber and rasping behavior). Occasional protein supplementation with frozen bloodworms or gel food is generally advised. Does not subsist on aquarium algae or fish waste alone. Feeds nocturnally, so food should be offered in the evening."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "territorial",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["medium to large peaceful community fish", "mollies", "guppies", "corydoras", "gouramis", "platies", "swordtails", "larger cichlids"],
+    "avoidWith": ["other plecos (territorial with conspecifics)", "small fish that fit in mouth", "delicate soft-leafed plants (will consume)", "goldfish (incompatible temperature needs)", "discus (temperature mismatch and sensitivity differences)"]
   },
   "media": {
     "primaryImage": "common_pleco.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Common Pleco.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "The Common Pleco grows to 40–50 cm and tends to be one of the most commonly surrendered aquarium fish — juveniles are sold cheaply but adults require 500L+ tanks. Strongly considered for experienced keepers only; smaller pleco species are recommended for most hobbyists.",
+  "careNotes": "IMPORTANT: The Common Pleco is widely considered one of the most frequently abandoned and dumped aquarium fish. Juveniles are mass-produced in Asia and sold at very low cost, leading to widespread over-purchase by inexperienced hobbyists who are not prepared for the adult size of 40–50 cm. Adults generally require a minimum of 500L and ideally 1000L+ for a full-sized specimen.\n\nFor most hobbyists, smaller pleco alternatives are strongly recommended: Bristlenose Pleco (Ancistrus spp., ~15 cm, 100–120L), Clown Pleco (Panaqolus maccus, ~10 cm, 75–80L), Rubber Lip Pleco (Chaetostoma spp., ~18 cm, 150L), and Otocinclus (Otocinclus spp., ~5 cm, 40L+).\n\nThe Common Pleco is an established invasive species in Florida, Texas, and Hawaii (USA), as well as other warm-water regions globally, as a result of aquarium dumping. It has been documented displacing native species and altering habitat. Releasing this fish into open water is illegal in many jurisdictions and ecologically harmful.\n\nNote on scientific name: FishBase lists Hypostomus plecostomus (Linnaeus, 1758) at ~25 cm SL / 28 cm TL — the 'true' species from the Guianas coastal region. However, the aquarium trade commonly sells numerous Hypostomus species under the 'Common Pleco' label, many of which reach 40–50 cm. Tank and care advice here reflects the hobby-trade animal.\n\nTank requires robust filtration — this species produces significant waste. Driftwood should be provided as a dietary supplement and behavioral enrichment (rasping behavior). Will consume soft-leafed plants; Hardy plants only (Java fern, Anubias). Nocturnal by nature — most active after lights out.\n\nCopper-based medications are generally considered harmful to this species (as with most Loricariids) despite their bony armor plates. Copper sensitivity should be treated as for scaleless fish.",
+  "breedingNotes": "Breeding in home aquaria has been reported but is considered difficult due to the space requirements. In the wild they breed in burrows in river banks. Cave-breeding behavior has been documented in aquaria; the male guards the eggs. A temperature reduction of a few degrees Celsius is sometimes used to trigger spawning. Not considered a realistic target for typical home aquarium breeders given the tank size requirements.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "Aquarium Co-Op",
+      "url": "https://www.aquariumcoop.com/blogs/aquarium/pleco-care-guide",
+      "accessedDate": "2026-06-08",
+      "notes": "Primary source for the fish-freshwater slice. Covers Common Pleco within a broader pleco care guide. Tank size guidance: start in 75-gal (284L), ultimately needs 180–500+ gal (681–1893L). Temperature 74–80°F (23–27°C), pH 6.5–7.8. Emphasizes invasive status and recommends smaller alternatives."
+    },
+    "additional": [
+      {
+        "name": "Fishkeeping World",
+        "url": "https://www.fishkeepingworld.com/plecostomus/",
+        "accessedDate": "2026-06-08",
+        "notes": "Secondary source. Reports adult size 20–24 inches (~51–61 cm) in aquaria; lifespan 10–15 years; temperature 72–86°F (22–30°C); pH 6.5–8.0; hardness 20–35 dGH. Minimum tank 30 gal (114L) — likely understatement for retailers. gH/kH values were softer than controller key data; hardness range averaged with key data to produce final ranges."
+      },
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Hypostomus-plecostomus.html",
+        "accessedDate": "2026-06-08",
+        "notes": "Taxonomic cross-reference. Confirms Hypostomus plecostomus (Linnaeus, 1758), Family Loricariidae, Order Siluriformes. Lists max size 25 cm SL / 28 cm TL for the wild Guianas population — significantly smaller than the hobby 'common pleco' which includes multiple Hypostomus spp. Temperature 20–28°C, pH 6.2–8.2, dH up to 28. Native range: Oyapock to Essequibo river basins. SeriouslyFish was inaccessible (HTTP 520); Practical Fishkeeping returned 403. FishBase used as third cross-check source."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
+    "breedingDifficulty": "advanced",
+    "breedingNotes": "Cave-breeding species; male guards eggs. Requires large tank, burrow/cave structure, and temperature drop to trigger spawning. Rarely accomplished in home aquaria at this species' required scale.",
+    "conspecificAggression": "high",
+    "finNippy": false,
     "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
-    "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": true,
+    "juvenileColorPhase": false,
+    "copperSensitive": true,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -90,6 +111,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
 }

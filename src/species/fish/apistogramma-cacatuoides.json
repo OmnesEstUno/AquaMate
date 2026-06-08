@@ -4,83 +4,104 @@
   "kind": "fauna",
   "taxon": "fish",
   "waterType": "freshwater",
-  "commonName": "Apistogramma cacatuoides",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "commonName": "Cockatoo Dwarf Cichlid",
+  "scientificName": "Apistogramma cacatuoides",
+  "alsoKnownAs": ["Apistogramma cacatuoides", "Cockatoo Cichlid", "Double Red Apistogramma", "Triple Red Apistogramma", "Orange Flash Apistogramma", "Super Red Apistogramma"],
   "category": "Cichlid",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Cichlidae",
+    "order": "Cichliformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
+    "regions": ["South America", "Upper Amazon Basin"],
+    "countries": ["Peru", "Brazil", "Colombia"],
+    "habitat": "Slow-moving and standing water in floodplain forests, pools, and small tributaries; typically over soft substrate with leaf litter and submerged wood",
+    "biotope": "Whitewater",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
-    "kH": null,
+    "temperatureC": { "min": 23, "max": 28 },
+    "pH": { "min": 5.5, "max": 7.5 },
+    "gH": { "min": 2, "max": 15 },
+    "kH": { "min": 2, "max": 10 },
     "salinity": null
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 5, "max": 8 },
+  "lifespanYears": { "min": 3, "max": 5 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 75,
+    "minLengthCm": 60,
+    "swimZone": "bottom",
+    "decorPreferences": ["caves", "coconut huts", "driftwood", "leaf litter", "dense planting", "sandy substrate", "catappa leaves"],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Primarily micropredatory; have been documented readily accepting frozen and live foods such as baby brine shrimp, daphnia, bloodworms, and cyclops. Generally adapt well to high-quality small pellets or gel foods over time."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "semi-aggressive",
+    "grouping": "shoaling",
+    "minGroupSize": 3,
+    "goodWith": ["small tetras", "corydoras", "rasboras", "otocinclus", "small loaches", "pencilfish"],
+    "avoidWith": ["large aggressive cichlids", "fin-nipping species", "other Apistogramma males (without sufficient space and territory)"]
   },
   "media": {
     "primaryImage": "apistogramma_cacatuoides.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Apistogramma cacatuoides.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "The most popular and arguably hardiest Apistogramma; an excellent gateway dwarf cichlid. Males develop spectacular extended dorsal fin rays and vivid color forms. Captive-bred lines tend to tolerate neutral pH and moderate hardness.",
+  "careNotes": "Considered the most beginner-accessible Apistogramma, often recommended as a first dwarf cichlid. Males are significantly larger and more colorful than females, and develop elongated dorsal fin spines resembling a cockatoo crest. Naturally haremic — best kept as one male with two to three females in a well-decorated 75 L or larger tank with multiple cave spawning sites. Females become highly territorial and may aggressively defend fry; in smaller tanks the male may need to be temporarily separated during broodcare.\n\nMany distinct trade color forms have been developed through selective captive breeding: 'Double Red', 'Triple Red', 'Orange Flash', 'Super Red', 'Gold', and 'Albino', among others. These captive-bred strains tend to be notably more tolerant of neutral pH and moderately hard water than wild-type populations, which typically inhabit soft, acidic blackwater or whitewater tributaries in the Ucayali–Amazon–Solimões drainage of Peru and western Brazil.\n\nFemales turn a vivid yellow-orange coloration when actively guarding eggs or fry, which is both a spawning cue and a warning signal to tankmates. Provide sandy substrate, leaf litter, and multiple caves or coconut huts to encourage natural behavior and reduce inter-female aggression. Compatible with small, peaceful community fish such as tetras, corydoras, and rasboras that occupy different tank zones.\n\nWater quality should be kept stable; though captive-bred lines are more forgiving, large swings in pH or temperature have been known to trigger stress. Regular partial water changes are generally advised. Feeding multiple small portions per day is preferable to one large feeding.\n\nNote on taxonomy: sources differ on order assignment — SeriouslyFish lists Perciformes (traditional classification), while FishBase uses Cichliformes (modern classification following 2016 Nelson revision). Cichliformes is used here as FishBase is the taxonomic authority.",
+  "breedingNotes": "Cave spawner with strong maternal brood care. Females deposit eggs on the ceiling or interior of caves, coconut huts, or similar sheltered structures. Clutch sizes have been reported at 40–80 eggs. Females guard and fan the eggs; larvae typically hatch within 48–72 hours and become free-swimming within another few days. The female tends to aggressively defend the fry territory against all tankmates, including the male. In smaller tanks, removing the male after spawning is often advisable. Fry can be raised on infusoria and newly hatched brine shrimp initially, progressing to finely crushed dry foods. Breeding is generally considered easy — A. cacatuoides has well-established commercial captive-breeding lines and has been reported as the most prolifically bred Apistogramma in the hobby.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "SeriouslyFish",
+      "url": "https://www.seriouslyfish.com/species/apistogramma-cacatuoides/",
+      "accessedDate": "2026-06-08",
+      "notes": "Primary husbandry and taxonomy reference. Wild pH range 5.0–6.0; captive tolerance broader. Male size 7.5 cm per this source."
+    },
+    "additional": [
+      {
+        "name": "Aquarium Co-Op",
+        "url": "https://www.aquariumcoop.com/blogs/aquarium/apistogramma-dwarf-cichlid",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked tank size (20 gal / 76 L for pairs), water parameters (27–28°C, pH acidic–neutral, gH 4–8 dGH), adult size (males 8–9 cm), temperament, diet, and grouping. Specific cacatuoides care page 404'd; general Apistogramma guide covers cacatuoides extensively as the flagship species."
+      },
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Apistogramma-cacatuoides.html",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked taxonomy (Cichliformes/Cichlidae), native range (Ucayali–Amazon–Solimões drainage, Peru to western Brazil), water parameters (24–25°C, pH 6.0–8.0, dH 5–19), and max size (5 cm SL, the female standard length). Used Cichliformes order per FishBase modern classification over SeriouslyFish's Perciformes (legacy)."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
+    "breedingDifficulty": "easy",
+    "breedingNotes": "Well-established commercial captive-breeding lines; generally considered the most prolific and beginner-accessible Apistogramma for breeding. Cave spawner with strong female brood care.",
+    "conspecificAggression": "moderate",
+    "finNippy": false,
     "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": true,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
     "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -90,6 +111,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
+  "dataStatus": "researched",
   "lastReviewed": null
 }

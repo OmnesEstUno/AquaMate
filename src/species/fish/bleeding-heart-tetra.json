@@ -5,82 +5,109 @@
   "taxon": "fish",
   "waterType": "freshwater",
   "commonName": "Bleeding Heart Tetra",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "scientificName": "Hyphessobrycon erythrostigma",
+  "alsoKnownAs": ["Bleeding-Heart Tetra"],
   "category": "Tetra",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Characidae",
+    "order": "Characiformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
+    "regions": ["South America", "Upper Amazon Basin"],
+    "countries": ["Brazil", "Peru", "Colombia"],
+    "habitat": "Sluggish tributaries, side arms, and forest lakes with submerged woody structures; tends toward boundary zones between shallow and deeper water. Naturally found in soft, acidic blackwater conditions with leaf litter and dim lighting.",
+    "biotope": "Blackwater",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
-    "kH": null,
+    "temperatureC": { "min": 22, "max": 28 },
+    "pH": { "min": 5.5, "max": 7.5 },
+    "gH": { "min": 2, "max": 12 },
+    "kH": { "min": 2, "max": 10 },
     "salinity": null
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 5.5, "max": 6.5 },
+  "lifespanYears": { "min": 3, "max": 5 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 100,
+    "minLengthCm": 90,
+    "swimZone": "mid",
+    "decorPreferences": ["dense planting", "driftwood", "leaf litter", "dark substrate", "subdued lighting"],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "omnivore",
+    "notes": "In the wild, tends to consume fruit remains, aquatic insects, and invertebrate larvae. In captivity, generally accepts high-quality flakes or pellets and does well with regular offerings of small live or frozen foods such as bloodworms, Daphnia, and brine shrimp."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "peaceful",
+    "grouping": "schooling",
+    "minGroupSize": 6,
+    "goodWith": ["similarly-sized tetras", "rasboras", "danios", "corydoras", "smaller loaches", "dwarf cichlids", "small catfishes", "freshwater shrimp (larger species)", "freshwater snails"],
+    "avoidWith": ["fin-nipping species", "large aggressive fish", "slow-moving long-finned fish", "very small nano fish that may be chased"]
   },
   "media": {
     "primaryImage": "bleeding_heart_tetra.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Bleeding Heart Tetra.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "A larger tetra from the upper Amazon, recognised by its vivid red 'bleeding heart' marking on the flank. Generally peaceful in groups of 6+, though males have been known to display toward one another. Best suited to a soft, acidic, planted setup.",
+  "careNotes": "One of the larger commonly kept tetras, reaching around 5.5–6.5 cm — noticeably bigger than most small Hyphessobrycon species. Should not be confused with Hyphessobrycon socolofi (Lesser Bleeding Heart Tetra), which is smaller and sometimes sold under the same common name. H. erythrostigma is native to the Tres Fronteras region of the upper Amazon where the borders of Brazil, Peru, and Colombia meet, including the rio Purus and the Nanay watershed near Iquitos.\n\nThis species tends to do best in soft, acidic water that mimics its blackwater origin — pH around 5.5–6.5 is often cited as the sweet spot for long-term health and colour, though it has been reported to tolerate up to pH 7.5 in well-maintained tanks. Hard alkaline water should be avoided. The species has been noted to be intolerant of accumulated organic pollutants; regular water changes (weekly) are generally advised.\n\nPrefers dim lighting, dark substrate, driftwood, and leaf litter. An open mid-water swimming area alongside dense planting is a good balance. Adult males have been known to display territorial behaviour toward other males, particularly during competitive courtship; providing sufficient space and visual breaks helps reduce this. The species is generally considered peaceful toward other tank inhabitants but has occasionally been noted to nip fins of slow-moving or long-finned fish when stressed or underschooled — keeping groups of 6 or more tends to distribute this behaviour.\n\nNote on 'gold scale' discolouration: Like some other small characids, individuals sometimes develop a metallic gold sheen on the scales. The cause is not well understood — it may be parasitic or environmental — but affected fish are generally reported to remain in good health with normal lifespan.",
+  "breedingNotes": "Breeding in captivity has been described as advanced — while spawning has been achieved, it is not commonly accomplished and requires specific conditions. The species is an egg-scatterer with no parental care; adults will consume eggs if not removed. Spawning is typically triggered by a separate, well-planted breeding tank with very soft, slightly acidic water and a small temperature reduction (around 22–24°C). Males are usually introduced first and conditioned with live or frozen foods before the female is added. Eggs have been reported to hatch in roughly 2–3 days, with free-swimming fry a few days later. Fry are generally fed infusoria or fine powdered food initially, then moved to small live foods such as baby brine shrimp.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "SeriouslyFish",
+      "url": "https://www.seriouslyfish.com/species/hyphessobrycon-erythrostigma/",
+      "accessedDate": "2026-06-08",
+      "notes": "Primary specialist source; provided native range, habitat, water parameters, size, tank footprint, schooling requirements, and diet."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Hyphessobrycon-erythrostigma.html",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked taxonomy, size (6.1 cm SL), temperature (23–28°C), pH (5.6–7.2), hardness (up to 12 dH), and minimum aquarium length (80 cm). Size and parameters consistent with SeriouslyFish."
+      },
+      {
+        "name": "Fishkeeping World",
+        "url": "https://www.fishkeepingworld.com/bleeding-heart-tetra/",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked size (up to 6.4 cm), temperature (22–28°C), pH (6.0–6.5 — narrower than specialist sources), hardness (3–12 dGH), lifespan (5 years), and minimum tank (20 gal / 76 L). Care level rated 'easy' here — overridden to 'intermediate' per water quality demands documented by SeriouslyFish."
+      },
+      {
+        "name": "AquariumSource",
+        "url": "https://www.aquariumsource.com/bleeding-heart-tetra/",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked size (5–7.5 cm), temperature (22–27°C), pH (6.0–6.5), kH (4–8), lifespan (3–5 years), minimum tank (20 gal). Breeding described as achievable in captivity with separate setup."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
+    "breedingDifficulty": "advanced",
+    "breedingNotes": "Egg-scatterer; no parental care. Requires separate soft, acidic, well-planted breeding tank with cool temperature trigger. Adults eat eggs; remove after spawning. Rarely bred commercially in captivity.",
+    "conspecificAggression": "low",
+    "finNippy": true,
     "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
     "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -90,6 +117,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
 }

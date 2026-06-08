@@ -4,83 +4,104 @@
   "kind": "fauna",
   "taxon": "fish",
   "waterType": "freshwater",
-  "commonName": "Corydoras aeneus",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "commonName": "Bronze Corydoras",
+  "scientificName": "Corydoras aeneus",
+  "alsoKnownAs": ["Albino Corydoras", "Bronze Cory", "Albino Cory", "Green Corydoras", "Bronze Catfish"],
   "category": "Catfish",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Callichthyidae",
+    "order": "Siluriformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
+    "regions": ["South America", "Caribbean"],
+    "countries": ["Trinidad", "Colombia", "Venezuela", "Brazil", "Peru", "Bolivia", "Argentina", "Paraguay", "Uruguay"],
+    "habitat": "Quiet, shallow freshwaters with soft substrates; also found in flowing streams. Benthic dweller, typically in schools near the bottom.",
+    "biotope": "River",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
-    "kH": null,
+    "temperatureC": { "min": 22, "max": 27 },
+    "pH": { "min": 6.0, "max": 8.0 },
+    "gH": { "min": 2, "max": 20 },
+    "kH": { "min": 2, "max": 15 },
     "salinity": null
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 5, "max": 7.5 },
+  "lifespanYears": { "min": 5, "max": 10 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
-    "minSandDepthCm": null
+    "minVolumeLiters": 75,
+    "minLengthCm": 80,
+    "swimZone": "bottom",
+    "decorPreferences": ["smooth sand substrate", "driftwood", "caves", "leaf litter", "dense planting at edges"],
+    "minSandDepthCm": 3
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "beginner",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Accepts sinking pellets and wafers, frozen or live bloodworms, tubifex, brine shrimp, and blanched vegetables. Requires regular targeted feeding — tends not to thrive on leftover food from tankmates alone. Benefits from variety in the diet."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "peaceful",
+    "grouping": "schooling",
+    "minGroupSize": 6,
+    "goodWith": ["small tetras", "rasboras", "small livebearers", "dwarf cichlids", "small danios", "other peaceful community fish", "snails", "freshwater shrimp"],
+    "avoidWith": ["large aggressive cichlids", "oscar", "predatory fish that can swallow them", "fish requiring salt or high hardness"]
   },
   "media": {
     "primaryImage": "corydoras_aeneus.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Corydoras aeneus.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "One of the most popular and hardy beginner catfish. The Bronze Corydoras (including its Albino form) is a peaceful schooling bottom-dweller that tends to thrive in groups of 6 or more in a community aquarium.",
+  "careNotes": "Generally considered one of the best beginner fish in the hobby due to its hardiness and tolerance of a wide parameter range. Two commercially available color forms exist: the wild-type bronze (olive-gold iridescent) and the Albino (pink/cream body with red eyes) — the albino is a selectively bred genetic variant of the same species, not a separate species, and has no additional health concerns. Both forms have the same care requirements and can be kept together.\n\nSubstrate is critical: smooth sand is strongly preferred over gravel. Sharp or coarse gravel tends to damage the sensitive barbels (whiskers), which can lead to infection and decline. A minimum of 3 cm of sand depth is recommended.\n\nCorydoras aeneus is a facultative air-breather and will occasionally dash to the surface to gulp air — this is normal behavior and not a sign of distress, though persistent surface gulping in well-oxygenated water may indicate gill irritation.\n\nThe pectoral fin spines are sharp and can pierce skin when handling; use a soft net and handle with care. These spines can also become entangled in nets.\n\nCopper-based medications (commonly used for ich and parasites) should be avoided — this species, like most scaled catfish, has been documented as sensitive to copper at therapeutic doses. Use copper-free alternatives.\n\nLikes to school tightly, especially when newly introduced or if feeling threatened. Solo specimens or very small groups tend to become reclusive and stressed; groups of 6 or more are strongly advised. A school of 6 in a 75L tank is a reasonable minimum; larger groups in larger tanks are generally preferred.",
+  "breedingNotes": "Breeding is generally considered moderate difficulty and can be achieved in home aquaria. Condition the group with high-quality live or frozen foods (bloodworms, tubifex). Spawning is typically triggered by a large (50–70%) water change using cooler water (a few degrees below tank temperature), mimicking seasonal rainfall patterns. A ratio of 2 males per female is commonly recommended. The characteristic 'T-position' mating is distinctive: the male grasps the female's barbels with his pectoral fins while she collects sperm in a cupped ventral fin pouch, then deposits eggs on glass, plants, or other surfaces. Eggs hatch in approximately 3–5 days depending on temperature. Fry can be fed microworms and baby brine shrimp once the yolk sac is absorbed. Adults may eat eggs if not removed.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "SeriouslyFish",
+      "url": "https://www.seriouslyfish.com/species/corydoras-aeneus/",
+      "accessedDate": "2026-06-08",
+      "notes": "Primary source used in place of Aquarium Co-Op (which returned 404 for the species-specific URL). SeriouslyFish is the slice's first listed secondary and is a well-regarded specialist reference for freshwater fish."
+    },
+    "additional": [
+      {
+        "name": "Aquarium Co-Op",
+        "url": "https://www.aquariumcoop.com/blogs/aquarium/corydoras",
+        "accessedDate": "2026-06-08",
+        "notes": "Care guide blog post covering Corydoras general care and C. aeneus specifically. Confirmed tank size (20 gal / 76L), group size (6+), diet, temperament, and substrate preferences."
+      },
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Corydoras-aeneus.html",
+        "accessedDate": "2026-06-08",
+        "notes": "Confirmed max size 7.5 cm SL, temperature 25–28°C, pH 6.0–8.0, hardness 5–19 dH, native range (Colombia and Trinidad to La Plata basin east of Andes), family Callichthyidae, order Siluriformes."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
+    "breedingDifficulty": "moderate",
+    "breedingNotes": "Egg-layer; deposits eggs on glass and plants. Spawning triggered by cool water changes. 'T-position' mating. Moderate difficulty in captivity.",
+    "conspecificAggression": "none",
+    "finNippy": false,
     "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
-    "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": true,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -90,6 +111,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
+  "dataStatus": "researched",
   "lastReviewed": null
 }
