@@ -5,82 +5,103 @@
   "taxon": "fish",
   "waterType": "freshwater",
   "commonName": "Oscar",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "scientificName": "Astronotus ocellatus",
+  "alsoKnownAs": ["Tiger Oscar", "Red Oscar", "Albino Oscar", "Velvet Cichlid", "Marble Cichlid"],
   "category": "Cichlid",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Cichlidae",
+    "order": "Cichliformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
+    "regions": ["South America"],
+    "countries": ["Brazil", "Peru", "Colombia", "Venezuela", "Argentina", "Paraguay", "Uruguay", "French Guiana", "Suriname"],
+    "habitat": "Slow-moving shallow waters with muddy or sandy bottoms; canals, ponds, and floodplain lakes of the Amazon and Orinoco basins",
+    "biotope": "Amazonian floodplain",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
-    "kH": null,
+    "temperatureC": { "min": 22, "max": 27 },
+    "pH": { "min": 6.0, "max": 8.0 },
+    "gH": { "min": 5, "max": 20 },
+    "kH": { "min": 4, "max": 20 },
     "salinity": null
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 25, "max": 45 },
+  "lifespanYears": { "min": 10, "max": 20 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 400,
+    "minLengthCm": 150,
+    "swimZone": "mid",
+    "decorPreferences": ["open swimming space", "large smooth rocks", "driftwood", "robust or plastic plants (real plants will be uprooted)", "caves or overhangs"],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Primarily accepts sinking cichlid pellets as a staple. Frozen krill, silversides, mysis, and live or frozen earthworms are suitable supplements. Feeder goldfish and other feeder fish are generally advised against due to disease transmission risk and thiaminase content."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["large South American cichlids of similar size", "silver dollars", "large plecos (e.g. sailfin pleco)", "bichirs", "large armored catfish"],
+    "avoidWith": ["small fish (will be eaten)", "invertebrates (shrimp, crabs)", "angelfish", "community fish", "slow-moving or long-finned species"]
   },
   "media": {
     "primaryImage": "oscar.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Oscar.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "A large, iconic South American cichlid renowned for its bold personality—Oscars tend to recognize their keepers, beg at the glass, and redecorate their tanks. Best kept singly or as a bonded pair in a spacious, well-filtered aquarium.",
+  "careNotes": "Oscars are generally considered one of the most interactive freshwater fish in the hobby; they have been reported to recognize individual keepers and can sometimes be trained to accept food from the hand. They tend to rearrange decorations and uproot plants, so robust or artificial plants and securely wedged hardscape are advised. A famous but not fully understood behavior sometimes called 'playing dead' has been documented—fish may lie on their side motionless, especially when stressed or after introduction to a new tank.\n\nBecause Oscars are messy, high-waste fish, strong filtration (oversized canister or sump) is generally advised, with regular partial water changes. Hole-in-the-head disease (hexamitiasis / HLLE) has been widely reported and is thought to be associated with poor water quality, nutritional deficiency, and activated carbon use; a varied diet and clean water are the standard preventive approach.\n\nOscars are best kept singly or as a confirmed true pair; two unmatched fish can result in severe aggression. A bonded pair will engage in biparental substrate spawning and guard eggs and fry intensively. Do not keep with small fish—they are predators and have been known to eat fish up to half their own body size.\n\nThe species has established invasive populations in Florida (USA) and parts of Asia due to aquarium releases; responsible disposal is essential.\n\nSelectively bred color morphs include Tiger, Red, Albino, Black, and Lemon Oscar variants. Captive specimens typically reach 25–35 cm; wild individuals have been recorded to 45 cm TL. FishBase records max length as 45.7 cm TL.\n\nkH data: Aquarium Co-Op and FishBase did not specify kH; Fishkeeping World listed 5–20 dkH, which is broader than some specialist sources (4–10). The range 4–20 is used here to encompass both; caregivers maintaining tighter Amazonian biotope parameters may aim for the lower end.",
+  "breedingNotes": "Oscars are biparental substrate spawners. Sexing is difficult as the species is monomorphic—pairs generally form through group grow-out and natural pairing. Females have been reported to lay up to 3,000 eggs on a flat substrate; both parents guard the eggs and fry vigorously. Eggs typically hatch within 2–4 days at recommended temperatures. Breeding has been reported to occur in captivity with some regularity, and is generally rated moderate difficulty—the main challenge is identifying and acquiring a compatible pair rather than the spawning behavior itself.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "Aquarium Co-Op",
+      "url": "https://www.aquariumcoop.com/blogs/aquarium/oscar-fish",
+      "accessedDate": "2026-06-08",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Astronotus-ocellatus.html",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked scientific name, taxonomy (Cichlidae / Cichliformes), native range (Amazon + Orinoco basins), max size (45.7 cm TL), water parameters (22–25°C, pH 6–8, dH 5–19), and diet (carnivore). SeriouslyFish returned HTTP 520 and was skipped."
+      },
+      {
+        "name": "Fishkeeping World",
+        "url": "https://www.fishkeepingworld.com/oscar-fish/",
+        "accessedDate": "2026-06-08",
+        "notes": "Third source cross-check. Confirmed temperature 23–27°C, pH 6–8, gH 5–20, kH 5–20, size 25–30 cm captive, lifespan 8–15 years. Minimum tank listed as 55 gal (208 L) — significantly below the specialist-recommended 400 L; the larger value was retained per playbook tank-size bias rule. Countries of origin list used from this source."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
+    "breedingDifficulty": "moderate",
+    "breedingNotes": "Biparental substrate spawner; main challenge is obtaining a compatible bonded pair from a group. Once paired, spawning tends to occur readily. Both parents guard eggs and fry aggressively.",
+    "conspecificAggression": "high",
+    "finNippy": false,
     "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
     "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": true,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -90,6 +111,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
 }

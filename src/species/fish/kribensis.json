@@ -5,82 +5,126 @@
   "taxon": "fish",
   "waterType": "freshwater",
   "commonName": "Kribensis",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "scientificName": "Pelvicachromis pulcher",
+  "alsoKnownAs": ["Krib", "Rainbow Krib", "Purple Cichlid", "West African Dwarf Cichlid"],
   "category": "Cichlid",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Cichlidae",
+    "order": "Cichliformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
+    "regions": ["West Africa", "Central Africa"],
+    "countries": ["Nigeria", "Cameroon", "Benin"],
+    "habitat": "Slow-moving to still streams, river margins, and coastal drainages; often with dense vegetation and soft, tannin-stained water; native streams can be brackish-influenced near the coast.",
+    "biotope": "West African rainforest stream",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
-    "kH": null,
+    "temperatureC": { "min": 24, "max": 27 },
+    "pH": { "min": 6.0, "max": 7.5 },
+    "gH": { "min": 5, "max": 15 },
+    "kH": { "min": 4, "max": 10 },
     "salinity": null
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 6, "max": 11 },
+  "lifespanYears": { "min": 5, "max": 8 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 75,
+    "minLengthCm": 60,
+    "swimZone": "bottom",
+    "decorPreferences": [
+      "caves (coconut shells, halved clay pots, dedicated cave ornaments)",
+      "fine sand or smooth gravel substrate",
+      "driftwood",
+      "dense planting around cave sites",
+      "multiple cave options to allow pair to choose"
+    ],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "beginner",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Generally accepts most aquarium foods readily. A quality sinking cichlid pellet or granule as a staple is recommended, supplemented with frozen or live foods (bloodworm, brine shrimp, daphnia) and occasional vegetable matter. Varied diet has been reported to support conditioning and spawning."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "semi-aggressive",
+    "grouping": "pair",
+    "minGroupSize": 2,
+    "goodWith": [
+      "Corydoras catfish",
+      "peaceful tetras and rasboras (mid/upper water)",
+      "peaceful barbs",
+      "bristlenose plecos",
+      "other bottom-dwellers that don't compete for caves"
+    ],
+    "avoidWith": [
+      "slow-moving fish with long trailing fins (fin-nipping risk, especially during breeding)",
+      "other cave-spawning cichlid pairs in tanks under 200L",
+      "large or aggressive cichlids",
+      "very small fish that may be perceived as threats near fry"
+    ]
   },
   "media": {
     "primaryImage": "kribensis.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Kribensis.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "A pair-bonded West African dwarf cichlid prized for its vivid coloration and willingness to breed in community setups. Females display a bright purple-pink belly when ready to spawn; pairs cave-spawn and share biparental fry care.",
+  "careNotes": "Kribensis are generally considered one of the more beginner-friendly cichlids. A mated pair tends to be peaceful in a community tank but can become territorial around their chosen cave, particularly during spawning and fry-rearing. Providing multiple cave options (coconut shell halves, clay pots) allows the pair to select a preferred site. Conspecific aggression between pairs is notable — two pairs in a tank under roughly 200L have been known to fight severely; a single pair per tank is advisable unless the tank is large with visual barriers. Female is often more colorful than the male, displaying a vivid rose or purple belly that intensifies when ready to spawn; she courts the male with belly-displays rather than the reverse. The species has been documented in slightly brackish coastal streams in its native range and tolerates minor salt additions, though this is not required in captivity. Water from southern Nigeria and Cameroon can be soft and acidic, but tank-bred specimens (the vast majority in the hobby) tend to adapt well to neutral, moderately hard water. Soft, slightly acidic water is generally advised for conditioning toward spawning. Fin-nipping toward slow-moving or fancy-finned tankmates has been reported, especially when the pair is guarding fry.",
+  "breedingNotes": "Kribensis are widely regarded as among the easiest cichlids to breed in captivity — pairs have been known to spawn in community tanks with minimal preparation. Provide at least one snug cave; the female typically selects the site and retreats inside to spawn. Clutches generally range from 50 to 300 eggs. Eggs typically hatch within 2–4 days and fry are often free-swimming within a further 5–10 days. Both parents share fry defense actively. Sex ratio of fry has been reported to shift with water pH — softer, more acidic water tends to produce more females, while harder alkaline water tends toward males. Pair bonds are typically lifelong; splitting established pairs is generally advised against.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "FishBase",
+      "url": "https://www.fishbase.se/summary/Pelvicachromis-pulcher.html",
+      "accessedDate": "2026-06-08",
+      "notes": "Primary taxonomic and parameter source. Aquarium Co-Op (designated primary) returned 404 for dedicated kribensis care page; FishBase used as substitute primary per playbook fallback rule."
+    },
+    "additional": [
+      {
+        "name": "SeriouslyFish",
+        "url": "https://www.seriouslyfish.com/species/pelvicachromis-pulcher/",
+        "accessedDate": "2026-06-08",
+        "notes": "Species page returned HTTP 520; data retrieved via web search cache. Cross-checked sizing (male 10cm, female 7.5cm), tank size (71L for pair), temperature (24–27°C), pH. Consistent with FishBase."
+      },
+      {
+        "name": "Fishkeeping World",
+        "url": "https://www.fishkeepingworld.com/kribensis/",
+        "accessedDate": "2026-06-08",
+        "notes": "Confirmed adult size, lifespan 5–8 years, tank size 76L minimum, temperament, diet, compatibility. Minor note: listed 20gal minimum which converts to ~76L, rounded to 75L alongside 71L from SeriouslyFish."
+      },
+      {
+        "name": "TFH Magazine",
+        "url": "https://www.tfhmagazine.com/articles/freshwater/keeping-kribs-the-culture-of-pelvicachromis-cichlids-full",
+        "accessedDate": "2026-06-08",
+        "notes": "Confirmed natural temperature 24–26°C, natural pH 5.6–6.9, male 10cm, female 8cm, lifespan ~5 years, breeding behavior, clutch size 50–300 eggs. Also confirmed Ethiope River / Niger Delta range."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
+    "breedingDifficulty": "easy",
+    "breedingNotes": "Biparental cave-spawner; pairs will spawn readily in any suitable cave without special conditioning. Sex ratio of fry is pH-influenced (acidic water → more females; alkaline → more males).",
+    "conspecificAggression": "moderate",
+    "finNippy": true,
     "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
     "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": true,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": true
   },
   "crustacean": null,
   "coral": null,
@@ -90,6 +134,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
 }

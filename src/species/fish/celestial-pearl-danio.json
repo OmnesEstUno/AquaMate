@@ -5,91 +5,134 @@
   "taxon": "fish",
   "waterType": "freshwater",
   "commonName": "Celestial Pearl Danio",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "scientificName": "Danio margaritatus",
+  "alsoKnownAs": ["Galaxy Rasbora", "Fireworks Rasbora"],
   "category": "Danio",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Danionidae",
+    "order": "Cypriniformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
-    "depthRangeM": null
+    "regions": ["Southeast Asia"],
+    "countries": ["Myanmar"],
+    "habitat": "Shallow ponds and small streams fed by seepage or springs, at most 30 cm deep, with dense submerged aquatic vegetation; associated with the Salween river basin and Shan Plateau.",
+    "biotope": "Pond",
+    "depthRangeM": { "min": 0, "max": 1 }
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
-    "kH": null,
-    "salinity": null
+    "temperatureC": { "min": 22, "max": 26 },
+    "pH":           { "min": 6.5, "max": 7.5 },
+    "gH":           { "min": 2, "max": 8 },
+    "kH":           { "min": 1, "max": 8 },
+    "salinity":     null
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm":   { "min": 2.0, "max": 2.5 },
+  "lifespanYears": { "min": 3, "max": 5 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 40,
+    "minLengthCm":     45,
+    "swimZone":        "mid",
+    "decorPreferences": [
+      "dense live plants (Java moss, Java fern, floating plants)",
+      "fine dark substrate",
+      "gentle flow only — avoid strong currents",
+      "rocks and hiding spots for retreating males"
+    ],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Micropredator in the wild. Accepts micro-pellets, finely crushed flakes, baby brine shrimp, micro worms, frozen cyclops, daphnia, and Moina. Has a small mouth — standard flake food must be crushed fine. Feed 2–3 times daily in small amounts."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament":  "peaceful",
+    "grouping":     "shoaling",
+    "minGroupSize": 6,
+    "goodWith": [
+      "small tetras",
+      "Corydoras catfish",
+      "kuhli loaches",
+      "pygmy hatchetfish",
+      "ember tetras",
+      "small rasboras",
+      "cherry shrimp (adults; may eat fry)",
+      "Amano shrimp",
+      "snails",
+      "killifish"
+    ],
+    "avoidWith": [
+      "cichlids",
+      "large predatory fish",
+      "tiger barbs",
+      "aggressive bettas",
+      "fish large enough to eat 2 cm fish"
+    ]
   },
   "media": {
-    "primaryImage": "celestial_pearl_danio.webp",
-    "gallery": [],
+    "primaryImage":    "celestial_pearl_danio.webp",
+    "gallery":         [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Celestial Pearl Danio.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "Tiny jewel of a micro-fish from Myanmar's shallow ponds, reaching around 2 cm. Males display stunning iridescent pearl spots on a deep blue-green body with vivid orange-red fins, making it a popular choice for planted nano tanks.",
+  "careNotes": "Best kept in groups of 6 or more — ideally 10+ — in a heavily planted nano tank of at least 40 L. Males tend to display and chase each other actively during spawning periods; keeping more females than males (roughly 2:1) reduces harassment. Prone to stress in sparsely decorated or high-flow setups. Small mouth requires micro-sized foods; standard flake must be crushed before offering. Newly acquired specimens may initially be reluctant to accept prepared foods — live or frozen micro-foods help with the transition. Avoid keeping with large or nippy tankmates. First described to science in 2006 from Myanmar and originally placed in the genus Celestichthys before being reclassified as Danio; still widely sold under the older trade name 'Galaxy Rasbora'.",
+  "breedingNotes": "Among the easier egg-scatterers to breed in captivity. Males court females with fin displays and brief chases. Eggs are scattered over fine-leaved plants or spawning mops (Java moss works well). Parents and other adults will eat eggs and fry — a separate breeding container or dense moss clumps are generally recommended to improve fry survival. Eggs typically hatch within a few days at 24°C. Fry need infusoria or commercial micro-fry foods for the first week or two before graduating to baby brine shrimp. Fish are reported to reach sexual maturity at around 3–4 months.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "Aquarium Co-Op",
+      "url": "https://www.aquariumcoop.com/blogs/aquarium/celestial-pearl-danio",
+      "accessedDate": "2026-06-08",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Danio-margaritatus.html",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked adult size (2.1 cm SL), family (Danionidae), order (Cypriniformes), native range (Myanmar), and depth range (0–1 m). SeriouslyFish returned HTTP 520 and was unavailable."
+      },
+      {
+        "name": "Fishkeeping World",
+        "url": "https://www.fishkeepingworld.com/celestial-pearl-danio/",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked water parameters (temp 21.6–25.5°C, pH 6.5–7.5, gH 1–5), lifespan (3–5 years), tank size, diet, temperament, and breeding notes. Used as secondary after SeriouslyFish 520 failure."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
-    "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
-    "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "breedingDifficulty":         "moderate",
+    "breedingNotes":              "Egg-scatterer; adults eat own eggs and fry. Spawning mop or dense Java moss needed. Relatively straightforward once conditioning is established.",
+    "conspecificAggression":      "low",
+    "finNippy":                   false,
+    "reefSafe":                   null,
+    "escapeRisk":                 "low",
+    "venomousSpines":             false,
+    "sexChange":                  "none",
+    "haremic":                    false,
+    "caudalScalpel":              false,
+    "nocturnal":                  false,
+    "juvenileColorPhase":         false,
+    "copperSensitive":            null,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost":       false,
+    "monogamousPairing":          false,
+    "hlleSusceptible":            false,
+    "toxicToTank":                false,
+    "feedingDifficulty":          "moderate",
+    "symbioticShrimpPartner":     false,
+    "mouthbrooder":               false,
+    "constantGrazer":             false,
+    "cleanerFish":                false,
+    "euryhaline":                 false
   },
-  "crustacean": null,
-  "coral": null,
-  "mollusc": null,
-  "echinoderm": null,
+  "crustacean":  null,
+  "coral":       null,
+  "mollusc":     null,
+  "echinoderm":  null,
   "other-invert": null,
-  "plant": null,
-  "macroalgae": null,
+  "plant":       null,
+  "macroalgae":  null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus":    "researched",
+  "lastReviewed":  null
 }

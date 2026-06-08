@@ -5,82 +5,130 @@
   "taxon": "fish",
   "waterType": "freshwater",
   "commonName": "Cherry Barb",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "scientificName": "Puntius titteya",
+  "alsoKnownAs": ["Crimson Barb"],
   "category": "Barb",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Cyprinidae",
+    "order": "Cypriniformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
+    "regions": ["South Asia"],
+    "countries": ["Sri Lanka"],
+    "habitat": "Heavily shaded, shallow, slow-flowing lowland rainforest streams and rivulets with silt substrate, leaf litter, and leaf debris; found in the southwestern wet zone (Kelani to Nilwala river basins).",
+    "biotope": "Sri Lankan rainforest stream",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
-    "kH": null,
+    "temperatureC": { "min": 22, "max": 27 },
+    "pH": { "min": 6.0, "max": 7.5 },
+    "gH": { "min": 2, "max": 18 },
+    "kH": { "min": 2, "max": 12 },
     "salinity": null
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 4.0, "max": 5.0 },
+  "lifespanYears": { "min": 4, "max": 6 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 75,
+    "minLengthCm": 60,
+    "swimZone": "mid",
+    "decorPreferences": [
+      "dense planting",
+      "dark substrate",
+      "floating plants",
+      "driftwood",
+      "leaf litter"
+    ],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "beginner",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Readily accepts a wide variety of foods. Offer a mix of quality dried flakes or nano pellets, frozen or live foods such as daphnia, brine shrimp, bloodworms, and micro worms, along with spirulina-based or vegetable-based foods. Wild populations forage on diatoms, algae, detritus, small insects, worms, crustaceans, and zooplankton."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "peaceful",
+    "grouping": "shoaling",
+    "minGroupSize": 6,
+    "goodWith": [
+      "small tetras",
+      "danios",
+      "cory catfish",
+      "small loaches",
+      "small livebearers",
+      "rainbowfish",
+      "pencilfish",
+      "anabantoids",
+      "small plecos",
+      "Amano shrimp (adult-sized)"
+    ],
+    "avoidWith": [
+      "large aggressive fish",
+      "fin-nipping species that may stress them",
+      "very small shrimp (may be picked at)"
+    ]
   },
   "media": {
     "primaryImage": "cherry_barb.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Cherry Barb.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "A peaceful, beginner-friendly Sri Lankan endemic known for the brilliant red coloration of adult males. Generally considered community-safe and notably non-nippy compared to other barb species; best kept in groups of 6 or more.",
+  "careNotes": "Cherry Barbs are a Sri Lanka endemic currently listed as Vulnerable on the IUCN Red List due to habitat loss and historical collection pressure, though most aquarium stock is commercially bred. They are widely regarded as one of the most community-safe barb species and tend to show little to no fin-nipping behavior — a notable contrast to Tiger Barbs. Males develop vivid cherry-red coloration and tend to display and spar gently in the presence of rival males or females, though this rarely escalates to harm. Maintaining a ratio of more females than males, or keeping a larger group, tends to spread out any competitive attention. The species has been documented tolerating a fairly broad range of water conditions; farm-raised stock in particular tends to adapt well to a wide pH and hardness range. A densely planted tank with darker substrate and floating cover tends to bring out the best coloration and encourage natural foraging behavior. Albino and long-finned ornamental strains are available in the hobby.",
+  "breedingNotes": "Cherry Barbs are egg-scatterers that breed without parental care; adults will readily consume eggs and fry if not separated. A conditioned pair or trio (one male, two females) can be moved to a dedicated spawning tank with fine-leaved plants or spawning mops over a mesh bottom to catch falling eggs. Spawning has been reported to produce 200–300 eggs, which typically hatch within 24–48 hours at optimal temperature. Fry are tiny and generally require infusoria or commercial fry foods initially before graduating to micro worms and baby brine shrimp. The species is generally rated moderate difficulty for breeding due to the fry-rearing demands, though triggering the spawn itself tends not to require special conditioning beyond a good varied diet.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "Aquarium Co-Op",
+      "url": "https://www.aquariumcoop.com/blogs/aquarium/cherry-barb",
+      "accessedDate": "2026-06-08",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "SeriouslyFish",
+        "url": "https://www.seriouslyfish.com/species/puntius-titteya/",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked size, water parameters, native range, temperament, and schooling requirements. Designated primary secondary source. Gives hardness as 36–357 ppm (approx. 2–20 dGH); temperature 20–27°C; minimum tank base 60×30 cm."
+      },
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Puntius-titteya.html",
+        "accessedDate": "2026-06-08",
+        "notes": "Confirmed size (5 cm TL), taxonomy (Cyprinidae / Cypriniformes), native range (Kelani to Nilwala basins, Sri Lanka), temperature 23–27°C, pH 6.0–8.0. IUCN Vulnerable status confirmed."
+      },
+      {
+        "name": "Fishkeeping World",
+        "url": "https://www.fishkeepingworld.com/cherry-barb/",
+        "accessedDate": "2026-06-08",
+        "notes": "Confirmed lifespan 4–6 years, gH 2–18 dGH, temperature 23–26°C, pH 6.0–7.0. Notes that cherry barbs rarely exhibit fin-nipping behavior unlike many other barb species."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
+    "breedingDifficulty": "moderate",
+    "breedingNotes": "Egg-scatterer; spawns readily in a conditioned planted tank with fine-leaved plants or spawning mop. Adults consume eggs — remove parents post-spawn. Fry are small and require infusoria initially.",
+    "conspecificAggression": "low",
+    "finNippy": false,
     "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
     "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -90,6 +138,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
 }

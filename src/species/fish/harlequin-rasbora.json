@@ -5,82 +5,131 @@
   "taxon": "fish",
   "waterType": "freshwater",
   "commonName": "Harlequin Rasbora",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "scientificName": "Trigonostigma heteromorpha",
+  "alsoKnownAs": ["Rasbora Het", "Harlequin Fish", "Red Rasbora"],
   "category": "Rasbora",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Danionidae",
+    "order": "Cypriniformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
+    "regions": ["Southeast Asia"],
+    "countries": ["Malaysia", "Singapore", "Indonesia", "Thailand"],
+    "habitat": "Forested peat swamp streams and slow-moving blackwater; typically heavily tannin-stained water with low mineral content and leaf litter substrate",
+    "biotope": "Blackwater peat swamp",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
-    "kH": null,
+    "temperatureC": { "min": 22, "max": 27 },
+    "pH": { "min": 5.0, "max": 7.5 },
+    "gH": { "min": 1, "max": 12 },
+    "kH": { "min": 1, "max": 8 },
     "salinity": null
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 3.5, "max": 5.0 },
+  "lifespanYears": { "min": 5, "max": 8 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 75,
+    "minLengthCm": 60,
+    "swimZone": "mid",
+    "decorPreferences": [
+      "Dense planting with broad-leaved plants (Cryptocoryne, Anubias, Microsorium)",
+      "Dark substrate",
+      "Dim or diffused lighting",
+      "Driftwood and leaf litter for tannins",
+      "Open midwater swimming space"
+    ],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "beginner",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Readily accepts high-quality flake and micropellet foods; benefits from regular supplementation with small live or frozen foods such as Daphnia, Artemia, and bloodworm"
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "peaceful",
+    "grouping": "schooling",
+    "minGroupSize": 8,
+    "goodWith": [
+      "Small tetras (neon, cardinal, rummy-nose)",
+      "Other rasboras (Trigonostigma espei, T. hengeli)",
+      "Dwarf gouramis",
+      "Honey gouramis",
+      "Dwarf cichlids (Apistogramma, Bolivian rams)",
+      "Corydoras catfish",
+      "Kuhli loaches",
+      "Cherry barbs",
+      "Bettas (in sufficiently large tanks)",
+      "Freshwater shrimp",
+      "Snails"
+    ],
+    "avoidWith": [
+      "Large predatory fish",
+      "Aggressive fin-nippers",
+      "Very boisterous or fast-feeding species that may outcompete them"
+    ]
   },
   "media": {
     "primaryImage": "harlequin_rasbora.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Harlequin Rasbora.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "Iconic SE Asian schooling fish with a distinctive black triangle marking; peaceful, hardy, and generally considered an excellent choice for planted community aquariums.",
+  "careNotes": "Harlequin Rasboras tend to show their best colors and most natural behavior when kept in schools of 8 or more in a well-planted aquarium with soft, slightly acidic water. They are generally very tolerant of a wide parameter range, but have been reported to thrive most notably in softer, more acidic conditions that reflect their blackwater peat swamp origins (pH 5.5–6.5, gH 1–5 preferred). A dark substrate and subdued or diffused lighting appear to reduce stress and encourage more confident schooling. Driftwood and Indian almond leaves can help lower pH and add beneficial tannins. Mid-level swimmers that tend to congregate in the open water column. They are sometimes sold under the trade names 'Rasbora Het' or 'Red Rasbora'. Taxonomy note: FishBase places this species in family Danionidae (a subfamily of Cyprinidae elevated to family status in some classifications); older literature commonly lists it under Cyprinidae.",
+  "breedingNotes": "Generally considered moderately challenging to breed in captivity. Spawning tends to occur most successfully in soft, acidic conditioning water (pH 5.3–6.0, gH 1–3, temperature 24–27°C). A distinguishing and unusual trait is that eggs are deposited on the underside of broad-leaved plants — Cryptocoryne species are commonly used, with the fish swimming inverted briefly to adhere eggs to the leaf surface. Typically 80–100 eggs per spawning; eggs have been reported to hatch within 24–48 hours and fry become free-swimming within roughly a week. Parents should be removed after spawning as they may consume eggs and fry. Older, well-conditioned adults (1+ years) tend to breed more successfully than juveniles.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "SeriouslyFish",
+      "url": "https://www.seriouslyfish.com/species/trigonostigma-heteromorpha/",
+      "accessedDate": "2026-06-08",
+      "notes": "Primary source used after Aquarium Co-Op returned 404 for all attempted species-page URLs; SeriouslyFish is the first listed secondary for fish-freshwater slice and was used as primary. Most comprehensive source for water parameters, tank sizing, and breeding behavior."
+    },
+    "additional": [
+      {
+        "name": "Fishkeeping World",
+        "url": "https://www.fishkeepingworld.com/harlequin-rasbora/",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked adult size (1.75–2 in = 4.4–5.1 cm, consistent with SeriouslyFish 3.5–4.5 cm), temperature (22–27°C consistent), pH (6.0–7.8 — slightly wider upper bound). Tank min of 10 gal (38L) cited for 6 fish; 20–30 gal preferred. Lifespan 5–8 years sourced here."
+      },
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Trigonostigma-heteromorpha.html",
+        "accessedDate": "2026-06-08",
+        "notes": "Confirmed scientific name, family (Danionidae), order (Cypriniformes), native range (Malay Peninsula, Singapore, Indonesia). Max size 5.0 cm. Temperature 22–25°C, pH 5.0–7.0, hardness 5–12 dH — consistent with other sources on lower-end parameters."
+      },
+      {
+        "name": "Aquarium Co-Op",
+        "url": "https://www.aquariumcoop.com/blogs/aquarium/rasbora-hets-and-espei-rasboras-great-for-planted-aquariums",
+        "accessedDate": "2026-06-08",
+        "notes": "Article covering T. heteromorpha and T. espei together. Confirmed omnivore, schooling, beginner-level care, 10-gal minimum for 6 fish, mid-to-upper swim zone, need for live plants. Temperature ~76°F (~24°C), pH ~7.2 cited — pH higher than other sources, likely reflecting hobbyist tap-water keeping rather than ideal conditions."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
+    "breedingDifficulty": "advanced",
+    "breedingNotes": "Unusual inverted egg-adhesion behavior: eggs deposited on the underside of broad plant leaves (Cryptocoryne preferred). Requires soft acidic conditioning water. Parents eat eggs and fry; remove after spawning.",
+    "conspecificAggression": "none",
+    "finNippy": false,
     "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
     "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -90,6 +139,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
 }

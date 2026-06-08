@@ -5,82 +5,108 @@
   "taxon": "fish",
   "waterType": "freshwater",
   "commonName": "Dwarf Gourami",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "scientificName": "Trichogaster lalius",
+  "alsoKnownAs": ["Colisa lalia", "Dwarf Gourami (Powder Blue)", "Dwarf Gourami (Flame)"],
   "category": "Gourami",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Osphronemidae",
+    "order": "Anabantiformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
+    "regions": ["South Asia"],
+    "countries": ["India", "Bangladesh", "Pakistan"],
+    "habitat": "Slow-moving streams, rivulets, ponds, rice fields, and lakes with dense surface and aquatic vegetation.",
+    "biotope": "Stream",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
-    "kH": null,
-    "salinity": null
+    "temperatureC": { "min": 22, "max": 28 },
+    "pH":           { "min": 6.0, "max": 8.0 },
+    "gH":           { "min": 4, "max": 19 },
+    "kH":           { "min": 2, "max": 10 },
+    "salinity":     null
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 4, "max": 9 },
+  "lifespanYears": { "min": 2, "max": 5 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 75,
+    "minLengthCm": 60,
+    "swimZone": "all",
+    "decorPreferences": [
+      "dense aquatic vegetation",
+      "floating plants",
+      "driftwood or hiding spots",
+      "slow water flow"
+    ],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Generally accepts a variety of prepared foods including flakes, pellets, gel foods, and frozen or live foods such as bloodworms, daphnia, and brine shrimp. Vegetable-based foods are a useful supplement."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "semi-aggressive",
+    "grouping": "pair",
+    "minGroupSize": 1,
+    "goodWith": ["corydoras", "tetras", "rasboras", "loaches", "platies", "peaceful community fish of similar size"],
+    "avoidWith": ["other male dwarf gouramis", "bettas and other labyrinth fish", "fin-nipping species", "shrimp (may be eaten)", "other gourami species"]
   },
   "media": {
     "primaryImage": "dwarf_gourami.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Dwarf Gourami.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "A colorful, small labyrinth fish from South Asian slow waters. Generally peaceful in community tanks, though males tend to be highly territorial with one another. Captive stocks are commonly affected by Dwarf Gourami Iridovirus (DGIV).",
+  "careNotes": "Males are generally kept singly or as a male-female pair; keeping multiple males together tends to result in persistent aggression, chasing, and fin damage. Females are less colorful and somewhat calmer than males.\n\nCRITICAL — Dwarf Gourami Iridovirus (DGIV) is widespread in commercial aquaculture stocks, particularly those originating from Singapore farms. Reported prevalence in wild-caught and commercial stocks has reached approximately 22%. The virus causes progressive wasting, dark coloration, lethargy, and weight loss, and has no known cure. Wild-caught or aquaculture-certified disease-free stock is recommended where available. Quarantining new arrivals for 4–6 weeks before introducing them to established tanks is strongly advised.\n\nAs a labyrinth fish, the Dwarf Gourami has an accessory breathing organ and tends to breathe at the water surface; some surface access should be available at all times. The air above the water should not be significantly cooler than the water temperature, as cold drafts can damage the labyrinth organ.\n\nSeveral color morphs are sold in the hobby — including Powder Blue, Flame, Neon, and Banded variants — all of which are the same species and have identical care requirements.\n\nThis species is somewhat sensitive to water quality; regular water changes and stable parameters are generally advised.",
+  "breedingNotes": "A bubble-nest builder with paternal care. Males construct a nest of bubbles and plant material at the water surface, typically among floating plants. Spawning is generally triggered by raising the temperature to around 26–28°C and shallowing the water to roughly 15–20 cm. The male wraps around the female during spawning and fertilizes eggs as they float upward into the nest. After spawning, the male guards the nest and tends the eggs; the female should be removed to avoid male aggression. Eggs typically hatch within 24–36 hours and fry become free-swimming within 2–3 days. The male can usually be removed once fry are free-swimming. Fry are initially very small and benefit from infusoria or commercial fry foods before graduating to larger foods. Commonly bred in the hobby and considered moderate in difficulty.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "Aquarium Co-Op",
+      "url": "https://www.aquariumcoop.com/blogs/aquarium/dwarf-gourami",
+      "accessedDate": "2026-06-08",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Trichogaster-lalius.html",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked adult size (9.5 cm TL), temperature (25–28°C), pH (6–8), gH (5–19 dH), native range (India, Bangladesh, Pakistan), and minimum tank length (60 cm). Size and temperature lower bound shows minor spread; ranges averaged across sources."
+      },
+      {
+        "name": "Fishkeeping World",
+        "url": "https://www.fishkeepingworld.com/dwarf-gourami/",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked water parameters, size, lifespan, diet, temperament, DGIV notes, and breeding info. SeriouslyFish (first designated secondary) returned HTTP 520 and was unavailable; Fishkeeping World used as replacement per playbook fallback procedure."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
+    "breedingDifficulty": "moderate",
+    "breedingNotes": "Bubble-nest builder with paternal care; male guards eggs and fry. Commonly bred by hobbyists with moderate setup effort.",
+    "conspecificAggression": "high",
+    "finNippy": false,
     "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
     "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -90,6 +116,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
 }

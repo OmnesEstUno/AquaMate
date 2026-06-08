@@ -5,82 +5,103 @@
   "taxon": "fish",
   "waterType": "freshwater",
   "commonName": "Cardinal Tetra",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "scientificName": "Paracheirodon axelrodi",
+  "alsoKnownAs": ["Red Neon Tetra"],
   "category": "Tetra",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Characidae",
+    "order": "Characiformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
+    "regions": ["South America"],
+    "countries": ["Brazil", "Venezuela", "Colombia"],
+    "habitat": "Forest streams, slow-moving minor tributaries, igapó and igarapé flooded forest ecosystems; blackwater with tannin-stained, highly acidic, very soft water",
+    "biotope": "Blackwater",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
-    "kH": null,
+    "temperatureC": { "min": 23, "max": 28 },
+    "pH": { "min": 4.0, "max": 7.0 },
+    "gH": { "min": 0, "max": 10 },
+    "kH": { "min": 0, "max": 2 },
     "salinity": null
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 2.5, "max": 3.5 },
+  "lifespanYears": { "min": 2, "max": 5 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 75,
+    "minLengthCm": 60,
+    "swimZone": "mid",
+    "decorPreferences": ["dense live plants", "driftwood", "dried leaf litter", "floating vegetation", "dark substrate", "dim lighting"],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Micropredator omnivore that tends to accept most small prepared foods readily, including flakes, nano/micropellets, freeze-dried tubifex, and frozen foods such as baby brine shrimp, daphnia, cyclops, and bloodworm. Live foods are generally relished."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "peaceful",
+    "grouping": "schooling",
+    "minGroupSize": 8,
+    "goodWith": ["similarly-sized characids", "pencilfish", "hatchetfish", "corydoras catfish", "otocinclus", "kuhli loaches", "bristlenose plecos", "discus", "German blue rams", "apistogramma cichlids", "non-predatory cichlids", "small snails"],
+    "avoidWith": ["large or predatory fish", "fin-nipping species", "boisterous tankmates that cause stress"]
   },
   "media": {
     "primaryImage": "cardinal_tetra.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Cardinal Tetra.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "An iconic Amazonian schooling fish prized for its vivid full-length red belly and brilliant iridescent blue stripe. Generally considered intermediate in difficulty due to sensitivity to poor water quality and a preference for soft, acidic conditions.",
+  "careNotes": "Cardinal tetras tend to do best in mature, well-filtered aquariums with stable water chemistry — sudden parameter swings are generally more harmful than absolute values. Wild-caught specimens are significantly more demanding than captive-bred individuals and often require pH well below 6.0 with very soft water to acclimate properly. Captive-bred stock is considerably hardier and more tolerant of slightly harder, more neutral water (up to ~pH 7.0 and ~10 dGH). A school of at least 8 is advisable for natural schooling behavior and reduced stress; 10–15 is preferable in larger setups. The species is commonly confused with the Neon Tetra (Paracheirodon innesi), which is smaller and has red colouration only on the rear half of the body — the Cardinal's red extends the full body length. Note on taxonomy: FishBase (2024 onward) places this species in family Acestrorhamphidae rather than the traditional Characidae; most aquarium hobby sources and SeriouslyFish still list Characidae.",
+  "breedingNotes": "Reported to be advanced in captivity. Breeding has been documented but is considered challenging: a dedicated species tank is generally needed with very soft (near-zero hardness), acidic water (pH 5.0–6.0), dim or blackout lighting, and a temperature drop of a few degrees to trigger spawning. Spawning tends to occur nocturnally (often around midnight). Eggs are light-sensitive and hatch in roughly 24–36 hours; fry become free-swimming within 3–4 days. Raising fry is considered the hardest part as they require infusoria and very fine foods. Most aquarium Cardinal Tetras are wild-caught from the Rio Negro.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "Aquarium Co-Op",
+      "url": "https://www.aquariumcoop.com/blogs/aquarium/cardinal-tetra-care-guide",
+      "accessedDate": "2026-06-08",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "SeriouslyFish",
+        "url": "https://www.seriouslyfish.com/species/paracheirodon-axelrodi/",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked sizing, water parameters, native range, tank dimensions, and breeding notes. Hardness given as 18–215 ppm (≈1–12 dGH); lower end recommended for wild/breeding stock. pH 3.5–7.5 with lower end preferred."
+      },
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Paracheirodon-axelrodi.html",
+        "accessedDate": "2026-06-08",
+        "notes": "Confirmed adult size 3.0 cm SL, temperature 23–27°C, pH 4.0–6.0, native range Upper Orinoco and Negro River basins. FishBase classifies family as Acestrorhamphidae (post-reclassification); hobby sources retain Characidae."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
+    "breedingDifficulty": "advanced",
+    "breedingNotes": "Requires dedicated breeding tank with very soft, acidic blackwater conditions, dim/blackout lighting, and slight temperature reduction. Nocturnal spawner; eggs light-sensitive.",
+    "conspecificAggression": "none",
+    "finNippy": false,
     "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
     "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -90,6 +111,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
 }

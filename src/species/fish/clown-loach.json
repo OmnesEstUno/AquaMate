@@ -5,82 +5,117 @@
   "taxon": "fish",
   "waterType": "freshwater",
   "commonName": "Clown Loach",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "scientificName": "Chromobotia macracanthus",
+  "alsoKnownAs": ["Tiger Botia", "Clown Botia"],
   "category": "Loach",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Botiidae",
+    "order": "Cypriniformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
+    "regions": ["Southeast Asia"],
+    "countries": ["Indonesia"],
+    "habitat": "Main river channels and smaller tributaries; floodplain swamp forests with leaf litter substrate and tea-colored water through rainforest. Native to Borneo (Kalimantan provinces) and Sumatra (Jambi, South Sumatra, Lampung provinces).",
+    "biotope": "Blackwater",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
-    "kH": null,
+    "temperatureC": { "min": 24, "max": 30 },
+    "pH": { "min": 5.5, "max": 7.5 },
+    "gH": { "min": 2, "max": 12 },
+    "kH": { "min": 2, "max": 10 },
     "salinity": null
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 15, "max": 30 },
+  "lifespanYears": { "min": 20, "max": 25 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 380,
+    "minLengthCm": 150,
+    "swimZone": "bottom",
+    "decorPreferences": [
+      "driftwood",
+      "leaf litter",
+      "caves and hiding spots",
+      "smooth substrate",
+      "dense planting along edges",
+      "dim areas or shaded zones"
+    ],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Readily accepts sinking pellets, frozen/live bloodworm, Tubifex, and Artemia. Has been documented consuming aquatic snails (useful for pest snail control). Blanched vegetables (zucchini, cucumber, spinach) are generally accepted. Tends not to be a picky eater once settled."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "peaceful",
+    "grouping": "schooling",
+    "minGroupSize": 5,
+    "goodWith": [
+      "peaceful cyprinids",
+      "rainbowfish",
+      "Congo tetras",
+      "other loaches and botiids",
+      "mid-to-large catfish",
+      "tiger barbs",
+      "African cichlids (as dither fish)"
+    ],
+    "avoidWith": [
+      "small fish that fit in their mouths",
+      "slow-moving long-finned species (bettas, fancy guppies)",
+      "snails intended for display",
+      "small invertebrates (shrimp)"
+    ]
   },
   "media": {
     "primaryImage": "clown_loach.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Clown Loach.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "Large, iconic schooling loach from Borneo and Sumatra; known for audible clicking, side-sleeping, and pest-snail control. Needs groups of 5+ and a spacious, well-maintained aquarium.",
+  "careNotes": "Clown Loaches are best maintained in groups of at least 5, with 10 or more generally considered ideal for stable social hierarchies. Solitary specimens tend to become stressed and may show increased susceptibility to disease. Tank size is a significant consideration — juveniles can be started in smaller tanks but adults tend to reach 15–20 cm in captivity (up to 30 cm has been reported) and have been known to live 20+ years, making a 380 L or larger aquarium appropriate for long-term keeping.\n\nThey are highly prone to ich (white spot disease), especially when water temperatures drop or water quality lapses. Keeping the temperature stable in the warmer part of their range (around 27–30°C) is generally advised as a preventive measure. Critically, Clown Loaches lack true scales and are highly sensitive to copper-based medications — standard ich treatments containing copper can be lethal. Salt, raised temperature, and copper-free treatments should be used instead.\n\nThey exhibit several distinctive behaviors: audible clicking sounds are commonly heard during social interaction, specimens often rest on their sides which can alarm new keepers, and they are active primarily at dusk and dawn (crepuscular). Sharp retractable sub-ocular spines can catch in nets — use a container to transfer them. Two geographic populations exist (Bornean and Sumatran) with slight morphological differences. Weekly water changes of 30–50% are generally advised to maintain the water quality this species tends to need.",
+  "breedingNotes": "Captive breeding by private hobbyists has rarely if ever been documented. Commercial production is understood to rely on hormonal injection. Conditioning in softer, slightly acidic water at temperatures around 27°C has been suggested in the literature, but successful spawning outcomes in home aquaria remain exceptional and unconfirmed.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "Aquarium Co-Op",
+      "url": "https://www.aquariumcoop.com/blogs/aquarium/clown-loach-care-guide",
+      "accessedDate": "2026-06-08",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "SeriouslyFish",
+        "url": "https://www.seriouslyfish.com/species/chromobotia-macracanthus/",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked taxonomy, native range, water parameters, sizing, lifespan, grouping, and tank dimensions. SF gives temperature 24–30°C vs Co-Op 28–30°C — used the broader 24–30°C range. SF gives pH 5.0–7.0; Co-Op implies ~6.2–7.5 for general keeping; used 5.5–7.5 per brief guidance. SF specifies 180×60 cm base (~648 L) for adults; used 380 L as a practical minimum per brief. Lifespan 20+ years confirmed by SF."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
+    "breedingDifficulty": "advanced",
+    "breedingNotes": "Virtually never bred in home aquaria; commercial production relies on hormonal induction. No documented spontaneous captive spawning by private hobbyists.",
+    "conspecificAggression": "none",
+    "finNippy": false,
     "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
-    "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": true,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -90,6 +125,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
 }

@@ -5,82 +5,127 @@
   "taxon": "fish",
   "waterType": "freshwater",
   "commonName": "Odessa Barb",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "scientificName": "Pethia padamya",
+  "alsoKnownAs": ["Puntius padamya", "Scarlet Barb"],
   "category": "Barb",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Cyprinidae",
+    "order": "Cypriniformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
+    "regions": ["Southeast Asia"],
+    "countries": ["Myanmar"],
+    "habitat": "High-altitude ponds, rivers, and streams; notably the Anisakan Falls pond near Pyin Oo Lwin and the lower Chindwin River drainage, Mandalay Division",
+    "biotope": "Heavily vegetated still or slow-moving water with dark substrate, leaf litter, and submerged plants",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
-    "kH": null,
+    "temperatureC": { "min": 18, "max": 26 },
+    "pH": { "min": 6.5, "max": 7.5 },
+    "gH": { "min": 4, "max": 18 },
+    "kH": { "min": 3, "max": 10 },
     "salinity": null
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 4.5, "max": 6.0 },
+  "lifespanYears": { "min": 3, "max": 5 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 80,
+    "minLengthCm": 80,
+    "swimZone": "mid",
+    "decorPreferences": [
+      "dense planting",
+      "dark substrate",
+      "floating plants",
+      "driftwood",
+      "open swimming space"
+    ],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "beginner",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Readily accepts good-quality flakes and pellets; benefits from occasional live or frozen foods such as bloodworm, Daphnia, and brine shrimp to bring out best coloration. Has been known to graze on vegetable matter."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "peaceful",
+    "grouping": "schooling",
+    "minGroupSize": 6,
+    "goodWith": [
+      "similarly-sized cyprinids",
+      "small loaches",
+      "rasboras",
+      "tetras",
+      "Corydoras catfish",
+      "Cherry Barbs",
+      "danios"
+    ],
+    "avoidWith": [
+      "long-finned species (guppies, angelfish, bettas)",
+      "very slow or timid fish",
+      "small invertebrates that may be outcompeted at feeding"
+    ]
   },
   "media": {
     "primaryImage": "odessa_barb.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Odessa Barb.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "A striking schooling barb from Myanmar; males display brilliant red flanks during display. Peaceful, hardy, and beginner-friendly in groups of 6+. Tolerates cooler temperatures than most tropical barbs.",
+  "careNotes": "Reclassified from Puntius padamya to Pethia padamya per the 2007 generic revision by Pethiyagoda et al. Males develop spectacular bright red horizontal banding over iridescent scales edged in black, particularly vivid during courtship displays; coloration tends to be less intense at rest. Females are less colorful with a more rounded body. Generally less fin-nippy than Tiger Barbs, though individual variation exists and long-finned tankmates are still best avoided. Tends to be active and fast-moving; slower or more timid fish may be outcompeted during feeding. Wild populations are restricted to a small area in Myanmar (Mandalay Division), including a single artificial pond near Anisakan Falls — the species has a naturally limited range. Prefers some water movement and well-oxygenated conditions. Temperature tolerance extends cooler than most tropical barbs (documented down to 16°C in some sources), making them suitable for unheated tanks in warmer climates. Sources disagree modestly on pH upper limit (6.5–7.5 per conservative hobbyist sources vs. 6.5–8.5 per Aquarium Co-Op and SeriouslyFish); the narrower range is used here as a safer recommendation for long-term health.",
+  "breedingNotes": "Egg-scattering spawner with no parental care. Males pursue females vigorously; females may scatter 150–200 adhesive eggs among fine-leaved plants. Parents tend to eat their own eggs, so breeders generally remove adults after spawning or use a separate, densely-planted breeding tank with a spawning grid. Fry hatch in approximately 24–48 hours and become free-swimming a few days later; initial foods are infusoria or fine powder fry food, transitioning to baby brine shrimp. SeriouslyFish recommends a mixed-sex group of 8–10 for best breeding behavior. Breeding difficulty is generally considered moderate.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "SeriouslyFish",
+      "url": "https://www.seriouslyfish.com/species/pethia-padamya/",
+      "accessedDate": "2026-06-08",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "Aquarium Co-Op",
+        "url": "https://www.aquariumcoop.com/blogs/aquarium/top-10-barbs",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked size (6cm), pH (6.5–8.5), tank size (29 gal / ~110L for school of 6), and temperament. No dedicated species page found; data from species-coverage blog post."
+      },
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Pethia-padamya.html",
+        "accessedDate": "2026-06-08",
+        "notes": "Confirmed taxonomy (Cyprinidae, Cypriniformes, subfamily Smiliogastrinae), max SL 4.6cm, native range Myanmar. Used for taxonomy and size cross-check."
+      },
+      {
+        "name": "Fish Laboratory",
+        "url": "https://www.fishlaboratory.com/fish/odessa-barb/",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked lifespan (3–5 years), temperature (23–26°C), diet, and breeding notes. Size stated as 3–4 inches which is on the high end; deferred to SeriouslyFish and FishBase for size."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
+    "breedingDifficulty": "moderate",
+    "breedingNotes": "Egg-scatterer; adults eat eggs; breeding tank with fine plants or spawning grid recommended. Fry require infusoria transitioning to baby brine shrimp.",
+    "conspecificAggression": "low",
+    "finNippy": false,
     "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
     "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -90,6 +135,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
+  "dataStatus": "researched",
   "lastReviewed": null
 }

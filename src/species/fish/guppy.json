@@ -5,82 +5,112 @@
   "taxon": "fish",
   "waterType": "freshwater",
   "commonName": "Guppy",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "scientificName": "Poecilia reticulata",
+  "alsoKnownAs": ["Fancy Guppy", "Million Fish", "Rainbow Fish"],
   "category": "Livebearer",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Poeciliidae",
+    "order": "Cyprinodontiformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
-    "depthRangeM": null
+    "regions": ["South America", "Caribbean"],
+    "countries": ["Venezuela", "Trinidad and Tobago", "Guyana", "Barbados"],
+    "habitat": "Streams, rivers, coastal lagoons, and brackish estuaries; tends toward shallow, slow-to-moderately-flowing water with dense vegetation.",
+    "biotope": "Stream",
+    "depthRangeM": { "min": 0, "max": 1 }
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
-    "kH": null,
+    "temperatureC": { "min": 22, "max": 28 },
+    "pH": { "min": 6.8, "max": 8.0 },
+    "gH": { "min": 8, "max": 25 },
+    "kH": { "min": 4, "max": 15 },
     "salinity": null
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 3, "max": 6 },
+  "lifespanYears": { "min": 1.5, "max": 3.5 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 40,
+    "minLengthCm": 45,
+    "swimZone": "mid",
+    "decorPreferences": [
+      "Dense planted areas for fry cover",
+      "Open swimming space in foreground",
+      "Floating plants to diffuse light and provide additional shelter"
+    ],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "beginner",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Accepts a wide variety of foods including quality flake, micro-pellets, frozen or live brine shrimp, daphnia, and bloodworms. Blanched vegetables such as spinach or zucchini are also taken. Feed small amounts once or twice daily; fry benefit from 3–5 smaller feedings per day."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "peaceful",
+    "grouping": "shoaling",
+    "minGroupSize": 3,
+    "goodWith": [
+      "Corydoras catfish",
+      "Neon tetras and other small peaceful tetras",
+      "Rasboras",
+      "Snails",
+      "Freshwater shrimp (larger species)"
+    ],
+    "avoidWith": [
+      "Tiger barbs and other fin-nippers",
+      "Cichlids (most species)",
+      "Aggressive or large fish that may predate on guppies",
+      "Bala sharks"
+    ]
   },
   "media": {
     "primaryImage": "guppy.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Guppy.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "Hardy, colourful livebearer from South American streams; one of the most popular beginner fish. Males are smaller and vividly coloured; females are larger and plainly marked. Breeds prolifically — population management is essential.",
+  "careNotes": "Generally tolerant of a wide parameter range, making them well-suited for new aquarists. A ratio of 2–3 females per male is commonly advised to distribute male harassment. Females can store sperm and produce fry for several months after a single mating, so even an all-female group may produce offspring if they were housed with males before purchase.\n\nBreeding rate is extremely high — a single female can produce 20–100 fry every 4–6 weeks. Overstocking risk is significant if breeding is not managed; an all-male tank is a practical solution when fry are not desired.\n\nSelectively bred fancy varieties tend to be more delicate than feeder or wild-type stock; many commercial line strains have increased susceptibility to diseases including Mycobacteriosis (fish TB) and Columnaris. Quarantine new arrivals.\n\nGuppies are euryhaline and tolerate low-end brackish conditions (SG roughly 1.005–1.015), which is sometimes used to manage certain parasites, though freshwater conditions are standard.\n\nThis species has become invasive in many tropical and subtropical regions through aquarium release. Do not release into natural waterways.",
+  "breedingNotes": "Live-bearing (viviparous). Females give birth to fully formed fry roughly every 4–6 weeks at optimal temperatures. Gestation is approximately 26–31 days. Broods typically range from 20 to 100+ fry depending on female size and age. Parents and tankmates will often eat fry; dense planting or a separate rearing tank markedly improves survival rates. Fry are free-swimming immediately at birth and can accept finely crushed flake or purpose-made fry food from day one.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "Aquarium Co-Op",
+      "url": "https://www.aquariumcoop.com/blogs/aquarium/guppy-fish-care-guide",
+      "accessedDate": "2026-06-08",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "Fishkeeping World",
+        "url": "https://www.fishkeepingworld.com/guppy/",
+        "accessedDate": "2026-06-08",
+        "notes": "Confirmed family Poeciliidae and Trinidad/South American native range. SeriouslyFish returned HTTP 520 and was unavailable; Fishkeeping World used as first fallback secondary."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
+    "breedingDifficulty": "easy",
+    "breedingNotes": "Prolific livebearer; one of the easiest aquarium fish to breed. Population management is the primary concern rather than breeding difficulty. Keep as all-male group or separate sexes to prevent uncontrolled reproduction.",
+    "conspecificAggression": "low",
+    "finNippy": false,
     "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
     "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": true
   },
   "crustacean": null,
   "coral": null,
@@ -90,6 +120,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
+  "dataStatus": "researched",
   "lastReviewed": null
 }

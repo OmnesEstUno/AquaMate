@@ -5,82 +5,119 @@
   "taxon": "fish",
   "waterType": "freshwater",
   "commonName": "Pea Puffer",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "scientificName": "Carinotetraodon travancoricus",
+  "alsoKnownAs": ["Dwarf Puffer", "Indian Dwarf Puffer", "Malabar Puffer", "Pygmy Puffer"],
   "category": "Oddball",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Tetraodontidae",
+    "order": "Tetraodontiformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
+    "regions": ["South Asia"],
+    "countries": ["India"],
+    "habitat": "Freshwater rivers, lakes, and backwaters of Kerala (southwestern India); demersal in densely vegetated slow-moving water",
+    "biotope": "Kerala freshwater — soft substrate with heavy aquatic vegetation; slow to moderate current",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
-    "kH": null,
+    "temperatureC": { "min": 22, "max": 28 },
+    "pH": { "min": 6.5, "max": 7.5 },
+    "gH": { "min": 4, "max": 15 },
+    "kH": { "min": 4, "max": 10 },
     "salinity": null
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 2.5, "max": 3.5 },
+  "lifespanYears": { "min": 3, "max": 5 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 40,
+    "minLengthCm": 45,
+    "swimZone": "all",
+    "decorPreferences": [
+      "Dense live planting (Java fern, Hornwort, Amazon sword, floating plants)",
+      "Multiple visual barriers and territory breaks",
+      "Driftwood and hiding spots",
+      "Pest snail colony (as supplemental food and enrichment)",
+      "Gentle filtration — sponge filter preferred"
+    ],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Tends to refuse dried/prepared foods; generally requires live or frozen protein. Frozen bloodworms, daphnia, brine shrimp, and copepods are commonly accepted. Live or frozen blackworms are relished. Pest snails (ramshorn, bladder snails) are important for dental health — beak/teeth overgrowth has been reported without hard-shelled prey. Variety is important; single-food diets have been associated with nutritional decline."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "aggressive",
+    "grouping": "shoaling",
+    "minGroupSize": 3,
+    "goodWith": [
+      "Fast-moving small tetras (ember tetra, chili rasbora) in larger tanks with dense cover",
+      "Otocinclus (reported to be largely ignored in many setups)",
+      "Other species-only pea puffer groups"
+    ],
+    "avoidWith": [
+      "Long-finned or slow-moving fish (bettas, guppies, angelfish)",
+      "Shrimp (will be hunted and eaten)",
+      "Other pufferfish species",
+      "Large or fast fish that may stress the puffer",
+      "Snails intended as tank inhabitants (will be eaten)"
+    ]
   },
   "media": {
     "primaryImage": "pea_puffer.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Pea Puffer.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "The world's smallest pufferfish — a Kerala endemic under 3.5 cm — known for its bold personality, insatiable curiosity, and strict live/frozen carnivore diet. Best kept in a species-only planted tank with a 1M:2-3F ratio.",
+  "careNotes": "IUCN Vulnerable (VU, assessed 2010) due to over-collection for the aquarium trade and habitat degradation; wild-caught specimens are the norm as captive breeding at commercial scale has not been established. Hobbyists are encouraged to source from reputable captive-bred breeders when available.\n\nDespite being a member of Tetraodontidae, C. travancoricus is a true freshwater species and should NOT be kept in brackish or marine conditions.\n\nConspecific aggression: males are territorial and will fight, inflicting bite wounds. A ratio of 1 male to 2–3 females and dense planting to break sightlines is widely advised. Injuries should be monitored; isolate wounded fish promptly.\n\nTeeth/beak overgrowth (\"lockjaw\") has been documented in specimens fed only soft foods. Regular access to hard-shelled prey — pest snails (ramshorn, bladder snails) or frozen shellfish — helps wear down the beak naturally.\n\nToxicity note: Like other tetraodontids, this species likely carries tetrodotoxin (TTX) derived from its wild diet. In captivity on frozen/live foods, TTX accumulation is generally considered minimal, but the species is not commonly reported to pose a tank-kill toxin risk in the way boxfishes do.\n\npH range note: Sources disagree — FishBase cites 7.5–8.3 (possibly reflecting wild Kerala alkaline river data), while hobbyist sources converge on 6.5–7.5 as a practical captive target. The range recorded here (6.5–7.5) reflects hobbyist consensus and the species brief.\n\nGrouping: A trio minimum (1M:2F or 1M:3F) is the commonly recommended starting configuration; solo keeping is possible but the fish tends to be more withdrawn.",
+  "breedingNotes": "Egg-layer; spawning in captivity has been documented with moderate frequency. Males typically display vivid green/yellow coloration and dark belly patches as breeding condition indicators. Eggs are scattered into fine-leaved plants or Java moss; parents do not guard the eggs. Eggs hatch in approximately 5–7 days. Fry are very small and have been reported to require infusoria or paramecia initially, followed by baby brine shrimp nauplii as they grow. Separating eggs or fry from adults is advisable as adults may eat them.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "Aquarium Co-Op",
+      "url": "https://www.aquariumcoop.com/blogs/aquarium/pea-puffer",
+      "accessedDate": "2026-06-08",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Carinotetraodon-travancoricus.html",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked taxonomy (family Tetraodontidae, order Tetraodontiformes), size (max 3.5 cm TL), temperature (22–28°C), pH (7.5–8.3 — wider than hobbyist consensus; retained hobbyist range 6.5–7.5 for captive target), IUCN Vulnerable status, demersal/potamodromous habit, egg-laying in vegetation."
+      },
+      {
+        "name": "Fishkeeping World",
+        "url": "https://www.fishkeepingworld.com/pea-puffer/",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked size (1.4 in ≈ 3.6 cm consistent with FishBase), lifespan (up to 4 years), diet (carnivore — live/frozen), care level (intermediate), swim zone (all), compatible species (ember tetra, neon tetra with caution), avoid shrimp. pH cited as 6.5–7.0, narrower than other sources — used as lower-end confirmation."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
+    "breedingDifficulty": "moderate",
+    "breedingNotes": "Egg-scatterer in fine plants; no parental care. Fry require infusoria then baby brine shrimp. Separating spawning adults or removing eggs improves yield.",
+    "conspecificAggression": "moderate",
+    "finNippy": true,
     "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
     "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "speciesOnlyTankRecommended": true,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "difficult",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -90,6 +127,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
+  "dataStatus": "researched",
   "lastReviewed": null
 }

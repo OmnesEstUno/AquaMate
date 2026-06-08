@@ -5,82 +5,126 @@
   "taxon": "fish",
   "waterType": "freshwater",
   "commonName": "Honey Gourami",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "scientificName": "Trichogaster chuna",
+  "alsoKnownAs": ["Sunset Honey Gourami", "Red Honey Gourami", "Honey Dwarf Gourami", "Colisa chuna"],
   "category": "Gourami",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Osphronemidae",
+    "order": "Anabantiformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
+    "regions": ["South Asia"],
+    "countries": ["India", "Bangladesh"],
+    "habitat": "Slow-moving or still waters including ponds, ditches, pools, and heavily vegetated rivers and lakes",
+    "biotope": "Shallow, heavily vegetated standing or slow-moving freshwater with soft, often acidic conditions",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
-    "kH": null,
-    "salinity": null
+    "temperatureC": { "min": 22, "max": 28 },
+    "pH":           { "min": 6.0, "max": 7.5 },
+    "gH":           { "min": 4, "max": 15 },
+    "kH":           { "min": 3, "max": 10 },
+    "salinity":     null
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 4.0, "max": 5.5 },
+  "lifespanYears": { "min": 4, "max": 8 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 75,
+    "minLengthCm": 60,
+    "swimZone": "mid",
+    "decorPreferences": [
+      "Dense planting — tall stem plants and floating plants for surface cover",
+      "Leaf litter or driftwood for tannins and shelter",
+      "Dark substrate to reduce stress and bring out colour"
+    ],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "beginner",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Readily accepts high-quality flake and micro-pellet foods. Benefits from regular variety including frozen or live Daphnia, Artemia, bloodworm, and small insects such as fruit flies. Tends to feed at or near the surface."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "peaceful",
+    "grouping": "shoaling",
+    "minGroupSize": 2,
+    "goodWith": [
+      "Small peaceful tetras (e.g. ember tetras, green neon tetras)",
+      "Rasboras (e.g. chili rasboras, harlequin rasboras)",
+      "Corydoras catfish",
+      "Small loaches (e.g. kuhli loach, dwarf chain loach)",
+      "Otocinclus",
+      "Adult dwarf shrimp (cherry shrimp, Amano shrimp) with caution",
+      "Other small peaceful gouramis"
+    ],
+    "avoidWith": [
+      "Aggressive or fin-nipping fish (e.g. tiger barbs)",
+      "Large boisterous fish that will outcompete or intimidate",
+      "Dwarf Gourami — may compete for territory and territory overlap can cause stress",
+      "Small shrimp fry (may be eaten)"
+    ]
   },
   "media": {
     "primaryImage": "honey_gourami.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Honey Gourami.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "A gentle, beginner-friendly labyrinth fish from India and Bangladesh. Generally considered less aggressive and hardier than the Dwarf Gourami, making it one of the more forgiving gourami choices for new aquarists.",
+  "careNotes": "The Honey Gourami (Trichogaster chuna, formerly Colisa chuna) is a labyrinth fish native to slow-moving and still waters of India and Bangladesh. It possesses a labyrinth organ allowing it to breathe atmospheric air — a tight-fitting lid is advisable to prevent escape and to keep warm air above the water surface.\n\nMales tend to be more colourful, displaying rich honey-orange to red-orange colouration, and develop a dark blue-black throat patch when breeding or displaying. Females are generally smaller and more subdued in colour. Several selectively bred colour strains are sold in the hobby — notably the 'Sunset Honey Gourami' (vivid orange) and 'Red Honey Gourami' (deeper red-orange); wild-caught specimens tend to be more drab.\n\nThis species is notably healthier than the Dwarf Gourami in the hobby trade, owing to less intensive inbreeding in captive lines. It is generally less prone to the viral disease (Iridovirus/DGIV) that commonly affects Dwarf Gouramis.\n\nMales are mildly territorial toward each other but far less so than Dwarf Gourami. In tanks of 75L or more a pair or small group (1 male + 1-2 females) generally coexists without significant conflict. A group of 4-6 specimens is reported to produce more natural behaviour and better colouration displays. Dense planting reduces aggression by breaking sightlines. Floating plants are particularly valued as they provide cover near the surface where the fish naturally patrol.\n\nThe species tends to be shy and slow-moving; fast or boisterous tankmates may intimidate it and suppress feeding. Best kept with similarly-paced peaceful community fish.",
+  "breedingNotes": "Bubble nest builder. Males construct floating nests among surface plants or under broad leaves. Conditioning with live or frozen foods tends to trigger spawning behaviour. After spawning the male guards the nest aggressively; removing the female is generally recommended to reduce stress. Eggs typically hatch within 24–36 hours depending on temperature. Fry are initially very small and have been reported to require infusoria or commercially prepared fry powder before graduating to baby brine shrimp nauplii at around 2 weeks of age. Breeding is considered moderate in difficulty — the bubble-nest requirement and small fry size are the primary challenges.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "Aquarium Co-Op",
+      "url": "https://www.aquariumcoop.com/blogs/aquarium/honey-gourami",
+      "accessedDate": "2026-06-08",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "SeriouslyFish",
+        "url": "https://www.seriouslyfish.com/species/trichogaster-chuna/",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked sizing (45–55 mm body), water parameters, native range, grouping minimum (4-6 recommended), and habitat description. pH upper end 7.5 consistent with this source — used 7.5 rather than AqCoop's 8.0. Minimum tank base 60×30 cm (~54L) referenced; rounded up to 75L given grouping and activity space recommendations."
+      },
+      {
+        "name": "Fishkeeping World",
+        "url": "https://www.fishkeepingworld.com/honey-gourami/",
+        "accessedDate": "2026-06-08",
+        "notes": "Confirmed lifespan 4–8 years, gH 4–15 dGH, pH 6.0–7.5, temperature 71–82°F (21.7–27.8°C), beginner care level. FishBase reports 13.7 cm TL which likely includes elongated filamentous rays; hobby consensus of 4–5.5 cm body length used."
+      },
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Trichogaster-chuna.html",
+        "accessedDate": "2026-06-08",
+        "notes": "Taxonomy confirmed: family Osphronemidae, order Anabantiformes. Native range India and Bangladesh. Temperature 22–28°C. Max TL 13.7 cm noted but not used for adultSizeCm — TL measurement likely includes fin filaments; standard body length consistent with hobby sources (~4–5.5 cm)."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
+    "breedingDifficulty": "moderate",
+    "breedingNotes": "Paternal bubble-nest builder. Male guards nest; female should be removed post-spawning. Fry require infusoria or powdered fry food initially.",
+    "conspecificAggression": "low",
+    "finNippy": false,
     "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
+    "escapeRisk": "moderate",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
     "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -90,6 +134,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
 }

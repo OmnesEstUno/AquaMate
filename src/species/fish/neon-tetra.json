@@ -5,82 +5,103 @@
   "taxon": "fish",
   "waterType": "freshwater",
   "commonName": "Neon Tetra",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "scientificName": "Paracheirodon innesi",
+  "alsoKnownAs": ["Neon Fish"],
   "category": "Tetra",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Characidae",
+    "order": "Characiformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
+    "regions": ["South America", "Amazon Basin"],
+    "countries": ["Brazil", "Peru", "Colombia"],
+    "habitat": "Forest streams and minor tributaries with soft, acidic blackwater; sandy substrate with leaf litter, driftwood, and dense riparian vegetation",
+    "biotope": "Blackwater",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
-    "kH": null,
+    "temperatureC": { "min": 20, "max": 26 },
+    "pH": { "min": 5.0, "max": 7.0 },
+    "gH": { "min": 1, "max": 10 },
+    "kH": { "min": 0, "max": 10 },
     "salinity": null
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 2.0, "max": 3.0 },
+  "lifespanYears": { "min": 5, "max": 8 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 60,
+    "minLengthCm": 60,
+    "swimZone": "mid",
+    "decorPreferences": ["dense planting", "driftwood", "leaf litter", "low-light areas", "dark substrate"],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "beginner",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Accepts a wide variety of foods including high-quality micro pellets, flake food, and frozen/live small invertebrates such as daphnia, bloodworm, and brine shrimp nauplii. Variety is recommended to maintain condition and colour."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "peaceful",
+    "grouping": "schooling",
+    "minGroupSize": 8,
+    "goodWith": ["small characins", "small rasboras", "corydoras", "small loricariid catfish", "dwarf cichlids", "peaceful small barbs", "freshwater shrimp (adults)", "small peaceful gouramis"],
+    "avoidWith": ["large predatory fish", "aggressive cichlids", "fin-nipping species", "any fish large enough to swallow them"]
   },
   "media": {
     "primaryImage": "neon_tetra.webp",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Neon Tetra.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "A classic beginner schooling fish from the Amazon, known for its vivid blue-and-red iridescent stripe. Peaceful, hardy, and widely captive-bred; best kept in groups of 8 or more in a planted tank.",
+  "careNotes": "Neon Tetras are among the most commonly kept freshwater aquarium fish and are generally considered one of the more forgiving tetras for beginners. They tend to do best in soft, slightly acidic water that mimics their blackwater origin, though captive-bred strains have been adapted over generations and commonly tolerate neutral to mildly alkaline tap water.\n\nNeon Tetra Disease (NTD) is a well-documented threat: caused by the microsporidian parasite Pleistophora hyphessobryconis (sometimes cited as P. hyalinum in older literature), it presents as restless swimming, fading or loss of the characteristic blue stripe, white body patches, and eventual spinal curvature. There is no reliable cure once advanced; affected fish are typically euthanised. Commercial farms have historically been a vector — rigorous quarantine of all new fish additions is strongly recommended.\n\nA superficially similar condition, 'False NTD', is caused by the bacterium Flavobacterium columnare and can look nearly identical in early stages, but responds to antibacterial treatment.\n\nNeons are also susceptible to ich (white spot) in cooler or fluctuating temperatures. Years of intensive commercial breeding have led to reduced genetic vigour in some ornamental strains; inspecting fish carefully for deformities and dull colouration at the point of purchase is advised.\n\nSeveral selectively-bred ornamental strains exist, including albino, long-finned, short-bodied ('balloon'), diamond, and leucistic 'golden' forms. The species is distinguished from the closely related Cardinal Tetra (Paracheirodon axelrodi) by its shorter red stripe, which runs only from the mid-body to the tail, compared to the Cardinal's full-body red stripe. Neons are generally hardier and more tolerant of a wider parameter range than Cardinals.",
+  "breedingNotes": "Breeding is considered moderately difficult to challenging. A dedicated, dimly lit species tank is required; eggs and fry are sensitive to light and must be kept in near-darkness. Soft, acidic water (pH 5.5–6.5, gH 1–5, temperature around 24–26°C) has been reported to produce best results, though some breeders raise temperature slightly to 26–28°C to trigger spawning. Egg scatterers — adults must be removed after spawning as they consume eggs. Eggs typically hatch within 24–36 hours; fry become free-swimming after a further 3–4 days. Initial food is infusoria, graduating to microworm and newly hatched brine shrimp nauplii. Conditioning both sexes on live or frozen foods prior to breeding is generally advised. Females are typically fuller-bodied than males when gravid.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "SeriouslyFish",
+      "url": "https://www.seriouslyfish.com/species/paracheirodon-innesi/",
+      "accessedDate": "2026-06-08",
+      "notes": "Primary source; comprehensive taxonomy, water parameters, native range, breeding notes, and disease information."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Paracheirodon-innesi.html",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked adult size (2.5 cm SL), temperature range (20–26°C), pH (5.0–7.0), and native range. Minor disagreement on pH upper bound: FishBase gives 7.0 vs SeriouslyFish 7.5; averaged to 7.0. Family listed as Acestrorhamphidae on FishBase page but Characidae is the accepted placement per higher taxonomy consensus and SeriouslyFish."
+      },
+      {
+        "name": "Fishkeeping World",
+        "url": "https://www.fishkeepingworld.com/neon-tetra/",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked size (1–1.5 in ≈ 2.5–3.8 cm), temperature (21–27°C), pH (6.0–7.0), gH (2–10), lifespan (6–8 years), and tank size (10 gal = 38 L). Tank size biased toward larger 60 L per playbook guidance and key data brief for proper schooling group. Size, temperature, and pH consistent across sources within averaging range."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
+    "breedingDifficulty": "difficult",
+    "breedingNotes": "Egg-scatterer requiring dedicated soft-acidic dimly-lit spawn tank; light-sensitive eggs and fry; adults must be removed post-spawning. See breedingNotes field for detail.",
+    "conspecificAggression": "none",
+    "finNippy": false,
     "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
     "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -90,6 +111,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
 }

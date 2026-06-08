@@ -5,82 +5,125 @@
   "taxon": "fish",
   "waterType": "freshwater",
   "commonName": "Lambchop Rasbora",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "scientificName": "Trigonostigma espei",
+  "alsoKnownAs": ["Espei Rasbora", "False Harlequin Rasbora"],
   "category": "Rasbora",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Danionidae",
+    "order": "Cypriniformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
+    "regions": ["Southeast Asia"],
+    "countries": ["Thailand", "Cambodia"],
+    "habitat": "Slow-moving and still waters including ponds, pools, marshes, and swamps with heavy submerged aquatic plant growth; commonly associated with soft blackwater conditions.",
+    "biotope": "Blackwater / soft-water woodland stream",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
-    "kH": null,
+    "temperatureC": { "min": 23, "max": 28 },
+    "pH": { "min": 6.0, "max": 7.0 },
+    "gH": { "min": 2, "max": 12 },
+    "kH": { "min": 2, "max": 8 },
     "salinity": null
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 3.0, "max": 4.0 },
+  "lifespanYears": { "min": 3, "max": 5 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 60,
+    "minLengthCm": 60,
+    "swimZone": "mid",
+    "decorPreferences": [
+      "Dense planted areas with broad-leaved plants (e.g. Cryptocoryne, Anubias) for natural behavior and egg-laying",
+      "Driftwood and bogwood to create tannin-stained water",
+      "Dark substrate to reduce stress and bring out coloration",
+      "Open mid-water swimming space for schooling"
+    ],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "beginner",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Readily accepts high-quality micro flake or micro pellet foods as a staple. Condition and color are generally enhanced with regular offerings of small live or frozen foods such as daphnia, baby brine shrimp, micro worms, and mosquito larvae."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "peaceful",
+    "grouping": "schooling",
+    "minGroupSize": 8,
+    "goodWith": [
+      "Other small peaceful rasboras (e.g. Harlequin Rasbora)",
+      "Small tetras",
+      "Dwarf gouramis",
+      "Corydoras catfish",
+      "Small peaceful bottom-dwellers",
+      "Dwarf shrimp (larger, adult specimens generally tolerated)"
+    ],
+    "avoidWith": [
+      "Large or aggressive fish",
+      "Fast, boisterous species that may outcompete them at feeding",
+      "Fin-nippers"
+    ]
   },
   "media": {
     "primaryImage": "lambchop_rasbora.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Lambchop Rasbora.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "A slender, small schooling fish native to Thai and Cambodian blackwaters, recognised by its distinctive lambchop-shaped black flank marking on a warm orange-red body. Generally considered a good beginner fish that does best in soft, slightly acidic water in groups of 8 or more.",
+  "careNotes": "Trigonostigma espei is closely related to the Harlequin Rasbora (T. heteromorpha) but tends to be slimmer-bodied, slightly smaller, and more orange-red in coloration; the black marking is also a slimmer, more elongated lambchop shape rather than the broader triangle of the Harlequin. Best kept in schools of at least 8 — smaller groups tend to show stress and subdued activity. Prefer subdued lighting, a dark substrate, and the presence of tannins (driftwood, catappa leaves) to bring out natural coloration and reduce shyness. Note: Family taxonomy has been revised — FishBase (2024) places this species in Danionidae rather than the older Cyprinidae classification sometimes cited in hobby sources. FishBase maximum published size is 2.5 cm SL (standard length); total length in aquarium conditions is commonly reported at 3.5–4 cm by hobby sources. Aquaticcommunity.com notes these fish are excellent jumpers — a tight-fitting lid is advisable. pH discrepancy between sources: FishBase gives 6.0–6.5, hobby sources generally 6.0–7.5; 6.0–7.0 used as a conservative average.",
+  "breedingNotes": "Breeding in captivity is generally considered moderately difficult. Spawning tends to require very soft, acidic water (pH around 5.9–6.5), elevated temperature (25–28°C), and dim lighting. Eggs are typically deposited on the undersides of broad leaves or in plant thickets; parents may eat eggs so a separate breeding tank is advisable. Eggs generally hatch within 24–36 hours. Fry are very small and initially require infusoria or vinegar eels before transitioning to baby brine shrimp and micro foods.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "Aquarium Co-Op",
+      "url": "https://www.aquariumcoop.com/blogs/aquarium/rasbora-hets-and-espei-rasboras-great-for-planted-aquariums",
+      "accessedDate": "2026-06-08",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Trigonostigma-espei.html",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked scientific name, family (Danionidae), size (2.5 cm SL), temperature 23–28°C, pH 6.0–6.5, hardness up to 12 dH, native range Thailand and Cambodia."
+      },
+      {
+        "name": "AquaticCommunity",
+        "url": "https://www.aquaticcommunity.com/barbs/lambchop-rasbora.php",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked temperature 23–28°C, pH 5–7, tank minimum 50L, min school 6–10, jumping behaviour noted. Size given as 4–5 cm (likely total length vs FishBase SL 2.5 cm)."
+      },
+      {
+        "name": "Aqua-fish.net",
+        "url": "https://en.aqua-fish.net/fish/lambchop-rasbora",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked temperature 22–26°C, pH 6–7, gH 2–10, size 4–5 cm, lifespan 3–5 years, min tank 40L. Care level listed as moderate due to water stability requirements, though general consensus across sources is beginner."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
+    "breedingDifficulty": "difficult",
+    "breedingNotes": "Requires soft acidic water (pH ~5.9–6.5), elevated temperature, and dim lighting with broad-leaved plants. Eggs hatch in 24–36 hours; fry need infusoria initially.",
+    "conspecificAggression": "none",
+    "finNippy": false,
     "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
+    "escapeRisk": "high",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
     "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -90,6 +133,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
 }

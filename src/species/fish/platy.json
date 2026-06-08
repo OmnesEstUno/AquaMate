@@ -5,82 +5,103 @@
   "taxon": "fish",
   "waterType": "freshwater",
   "commonName": "Platy",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "scientificName": "Xiphophorus maculatus",
+  "alsoKnownAs": ["Southern Platyfish", "Moon Fish", "Mickey Mouse Platy", "Red Wagtail Platy", "Sunset Platy", "Sailfin Platy"],
   "category": "Livebearer",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Poeciliidae",
+    "order": "Cyprinodontiformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
+    "regions": ["Central America", "North America"],
+    "countries": ["Mexico", "Belize", "Guatemala", "Honduras"],
+    "habitat": "Slow-moving warm springs, canals, ditches, creeks, and swamps with silt bottoms and weedy banks",
+    "biotope": "Hardwater streams and lowland waterways with dense vegetation",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
-    "kH": null,
+    "temperatureC": { "min": 21, "max": 26 },
+    "pH": { "min": 6.8, "max": 8.0 },
+    "gH": { "min": 10, "max": 25 },
+    "kH": { "min": 6, "max": 15 },
     "salinity": null
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 4, "max": 6 },
+  "lifespanYears": { "min": 2, "max": 4 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 75,
+    "minLengthCm": 60,
+    "swimZone": "mid",
+    "decorPreferences": ["dense planting", "floating plants", "open swimming space", "fine-leaved plants for fry shelter"],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "beginner",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Readily accepts high-quality flakes and pellets as a staple. Benefits from variety — frozen or live foods such as brine shrimp and bloodworms, along with vegetable matter (blanched spinach, cucumber, spirulina-based foods). Juveniles tend to do better with 2–3 small meals per day."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "peaceful",
+    "grouping": "shoaling",
+    "minGroupSize": 3,
+    "goodWith": ["tetras", "rasboras", "corydoras", "guppies", "mollies", "swordtails", "snails", "freshwater shrimp", "bristlenose plecos", "gouramis", "danios"],
+    "avoidWith": ["aggressive species", "fin-nippers (tiger barbs) when keeping long-finned sailfin varieties", "large predatory fish"]
   },
   "media": {
     "primaryImage": "platy.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Platy.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "A hardy, colorful livebearer from Mexican and Central American hardwater streams. Peaceful, prolific, and beginner-friendly; available in dozens of selectively-bred color varieties.",
+  "careNotes": "Platys tend to do best in hard, alkaline water (gH 10–25, kH 6–15, pH 7.0–8.2), making them well-suited for keepers with hard tap water. They are one of the easier fish to sex — males have a modified anal fin (gonopodium); females are larger and rounder. A ratio of at least 2 females per male is generally advised to reduce harassment. Commercially available varieties include Mickey Mouse, Red Wagtail, Sunset, and Sailfin (longer fins); the Sailfin morph can be more susceptible to fin-nipping from barbs or similar species. Platys are prolific livebearers — females can produce 20–50 fry per month and store sperm for multiple broods. Dense planting or a separate breeding container is useful for fry survival, as adults may eat newborns. Commonly kept alongside mollies and swordtails, which share similar water parameter preferences. Note: Xiphophorus maculatus (Southern Platyfish) is one of two platy species regularly sold; the other is X. variatus (Variable Platy / Variatus Platy), which tends to tolerate slightly cooler temperatures. Hybridization between the two is common in the trade. Platys are also closely related to swordtails (X. helleri) and will readily hybridize with them. FishBase cites a lower temperature floor of 18°C; aquarium hobby sources generally advise a working range of 21–26°C for reliable health and breeding.",
+  "breedingNotes": "Platys are among the easiest livebearers to breed in captivity. Females give birth to 20–80 live fry after a gestation period of approximately 4–6 weeks. Fry are free-swimming immediately and large enough to accept crushed flake food or fry powder. Adults tend to eat newborns, so dense vegetation or a separate breeding container helps improve fry survival rates. A single fertilization can yield multiple broods due to sperm storage.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "Aquarium Co-Op",
+      "url": "https://www.aquariumcoop.com/blogs/aquarium/platy-care-guide",
+      "accessedDate": "2026-06-08",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Xiphophorus-maculatus.html",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked scientific name, taxonomy, native range, adult size, and temperature range. FishBase reports 18–25°C; aquarium-hobby sources average to 21–26°C as working range."
+      },
+      {
+        "name": "Fishkeeping World",
+        "url": "https://www.fishkeepingworld.com/platy-fish/",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked adult size (males 5 cm, females 7.6 cm), pH (6.8–8.0), gH (10–28 dGH), tank size (10 gal / 38L for 5–6 fish), lifespan (2–3 years), temperament, breeding data. Minor pH upper-end disagreement (AqCoop states 8.5; FishBase and FKW agree on 8.0 — used 8.0)."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
+    "breedingDifficulty": "easy",
+    "breedingNotes": "Prolific livebearer; females can store sperm and produce multiple broods from a single mating. Fry are large enough to eat crushed flake immediately.",
+    "conspecificAggression": "low",
+    "finNippy": false,
     "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
     "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -90,6 +111,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
 }
