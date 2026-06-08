@@ -1,0 +1,116 @@
+{
+  "id": "fw-fish-064",
+  "slug": "bucktooth-tetra",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "freshwater",
+  "commonName": "Bucktooth Tetra",
+  "scientificName": "Exodon paradoxus",
+  "alsoKnownAs": [],
+  "category": "Tetra",
+  "taxonomy": {
+    "family": "Characidae",
+    "order": "Characiformes"
+  },
+  "nativeRange": {
+    "regions": ["South America"],
+    "countries": ["Brazil", "Guyana"],
+    "habitat": "Pelagic freshwater; Amazon and Tocantins river basins, Rio Branco, and Guyana river systems",
+    "biotope": "Whitewater",
+    "depthRangeM": null
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 23, "max": 28 },
+    "pH":           { "min": 5.5, "max": 7.5 },
+    "gH":           { "min": 5, "max": 15 },
+    "kH":           { "min": 2, "max": 12 },
+    "salinity":     null
+  },
+  "adultSizeCm":   { "min": 8, "max": 15 },
+  "lifespanYears": { "min": 8, "max": 10 },
+  "tank": {
+    "minVolumeLiters":  200,
+    "minLengthCm":      120,
+    "swimZone":         "mid",
+    "decorPreferences": ["plants", "driftwood", "caves", "open swimming space"],
+    "minSandDepthCm":   null
+  },
+  "careLevel": "intermediate",
+  "diet": {
+    "type":  "carnivore",
+    "notes": "Accepts frozen meaty foods such as bloodworm, chopped prawn, mussel, and earthworms. Most individuals will take high-quality dried pellets alongside frozen foods. Feed multiple small meals daily."
+  },
+  "compatibility": {
+    "temperament":  "aggressive",
+    "grouping":     "schooling",
+    "minGroupSize": 12,
+    "goodWith":     [],
+    "avoidWith":    ["all other fish species"]
+  },
+  "media": {
+    "primaryImage":    null,
+    "gallery":         [],
+    "imageCandidates": null
+  },
+  "summary": "A striking scale-eating characin from the Amazon basin, best kept as a species-only school of 12 or more. Famous for its predatory nature — has been known to strip scales and fins from virtually any tankmate.",
+  "careNotes": "SPECIES-ONLY tank required. Exodon paradoxus is a scale-eater and extreme fin-nipper that should never be housed with any other fish. In groups smaller than about 12, aggression tends to concentrate on the weakest individuals and the group can self-destruct through attrition; larger schools (25–50 individuals have been suggested by some sources) distribute aggression more evenly. Most specimens available in the trade are wild-caught, so acclimatisation to captive foods may take some patience. Aquarium Co-Op did not have a dedicated species page at time of research; SeriouslyFish notes potential compatibility with scaleless fish (loaches, Loricariids) but considers results unpredictable and species-only remains the strongly recommended approach.",
+  "breedingNotes": "An egg-scatterer that has been bred in captivity, though rarely. A separate, densely planted spawning tank with soft, slightly acidic water is typically used. Eggs and fry are highly vulnerable to being eaten by adults; eggs should be removed promptly after spawning. Fry have been reported to hatch within approximately 3 days.",
+  "sources": {
+    "primary": {
+      "name": "SeriouslyFish",
+      "url": "https://www.seriouslyfish.com/species/exodon-paradoxus/",
+      "accessedDate": "2026-06-08",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Exodon-paradoxus.html",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked scientific name, family/order, native range, temperature, and pH. Adult size listed as 7.5 cm standard length (SL) — excludes caudal fin; total length aligns with the 8–15 cm range across sources."
+      },
+      {
+        "name": "Fishkeeping World",
+        "url": "https://www.fishkeepingworld.com/bucktooth-tetra/",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked tank size (55 gal / ~208 L for 12 fish), water parameters, diet, lifespan (up to 10 years), and group/compatibility requirements. Aquarium Co-Op (primary for fw-fish slice) returned 404 for this species; SeriouslyFish used as primary, with FishBase and Fishkeeping World as secondaries."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty":         "difficult",
+    "breedingNotes":              "Egg-scatterer; rarely bred in captivity. Requires dedicated spawning tank; eggs must be removed immediately to prevent cannibalism.",
+    "conspecificAggression":      "moderate",
+    "finNippy":                   true,
+    "reefSafe":                   null,
+    "escapeRisk":                 "low",
+    "venomousSpines":             false,
+    "sexChange":                  "none",
+    "haremic":                    false,
+    "caudalScalpel":              false,
+    "nocturnal":                  false,
+    "juvenileColorPhase":         false,
+    "copperSensitive":            null,
+    "speciesOnlyTankRecommended": true,
+    "requiresHitchingPost":       false,
+    "monogamousPairing":          false,
+    "hlleSusceptible":            false,
+    "toxicToTank":                false,
+    "feedingDifficulty":          "moderate",
+    "symbioticShrimpPartner":     false,
+    "mouthbrooder":               false,
+    "constantGrazer":             false,
+    "cleanerFish":                false,
+    "euryhaline":                 false
+  },
+  "crustacean":   null,
+  "coral":        null,
+  "mollusc":      null,
+  "echinoderm":   null,
+  "other-invert": null,
+  "plant":        null,
+  "macroalgae":   null,
+  "schemaVersion": 1,
+  "dataStatus":   "researched",
+  "lastReviewed": "2026-06-08"
+}

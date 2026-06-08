@@ -5,82 +5,114 @@
   "taxon": "fish",
   "waterType": "freshwater",
   "commonName": "Croaking Gourami",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "scientificName": "Trichopsis vittata",
+  "alsoKnownAs": ["Croaking Gourami"],
   "category": "Gourami",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Osphronemidae",
+    "order": "Anabantiformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
+    "regions": ["Southeast Asia"],
+    "countries": ["Thailand", "Vietnam", "Cambodia", "Laos", "Myanmar", "Malaysia", "Singapore", "Indonesia"],
+    "habitat": "Shallow, still to slow-moving lowland waters including swamp forest, peat swamps, floodplains, rice paddies, irrigation canals, and roadside ditches with dense aquatic vegetation",
+    "biotope": "Blackwater",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
-    "kH": null,
+    "temperatureC": { "min": 22, "max": 28 },
+    "pH": { "min": 6.0, "max": 7.5 },
+    "gH": { "min": 5, "max": 19 },
+    "kH": { "min": 4, "max": 15 },
     "salinity": null
   },
-  "adultSizeCm": null,
+  "adultSizeCm": { "min": 5.0, "max": 7.0 },
   "lifespanYears": null,
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 75,
+    "minLengthCm": 60,
+    "swimZone": "all",
+    "decorPreferences": [
+      "dense planting",
+      "surface vegetation cover",
+      "driftwood",
+      "leaf litter",
+      "clay pots or piping for shelter",
+      "low flow"
+    ],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Primarily carnivorous in the wild, feeding on zooplankton, small crustaceans, and insect larvae. In captivity tends to accept small live and frozen foods such as Daphnia, Artemia nauplii, and bloodworm readily; generally also adapts to high-quality micro-pellets and crushed flake."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "peaceful",
+    "grouping": "pair",
+    "minGroupSize": 2,
+    "goodWith": [
+      "small peaceful tetras",
+      "small rasboras",
+      "pygmy corydoras",
+      "small loaches",
+      "Trichopsis pumila (Sparkling Gourami)"
+    ],
+    "avoidWith": [
+      "aggressive or nippy fish",
+      "large boisterous species",
+      "conspecific males in small tanks"
+    ]
   },
   "media": {
     "primaryImage": "croaking_gourami.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Croaking Gourami.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "The largest of the Trichopsis genus, the Croaking Gourami is best known for its audible croaking vocalizations produced during courtship and territorial displays. A peaceful labyrinth fish suited to well-planted community setups.",
+  "careNotes": "Named for its remarkable ability to produce audible croaking sounds via a specialized pectoral-fin mechanism — modified tendons and muscles are plucked like guitar strings during sparring and courtship. Both sexes vocalize; females are notably one of the only fish species documented to acoustically initiate spawning. A labyrinth organ allows it to breathe atmospheric air directly from the surface, making surface access essential. Tends to be peaceful toward other species but same-sex males can be territorial in confined spaces; a pair or trio in an adequately sized tank generally works well. A tight-fitting lid is strongly advised as this species has been reported to be a capable jumper. Decor with low flow, surface plant cover, and ample hiding spots is generally advised to replicate its native slow-water habitat. This species is the larger sibling of the Sparkling Gourami (Trichopsis pumila) and shares the genus with the Three-Stripe Gourami (T. schalleri). Sources differ slightly on pH range: SeriouslyFish reports 5.0–7.5 while FishBase records 6.0–8.0; the conservative overlap of 6.0–7.5 is used here. Escape risk: SeriouslyFish explicitly notes this species is an excellent jumper requiring a tightly-sealed lid; the user brief characterizes escape risk as moderate. High escape risk is recorded here based on source language.",
+  "breedingNotes": "A bubble-nest builder. The male typically constructs a nest beneath surface vegetation or a floating leaf. Slightly raised temperature and soft, acidic water have been reported to encourage spawning. Females produce distinctive purring sounds during courtship — the only fish species known to initiate spawning acoustically. Clutch size can range from a handful to roughly 200 eggs depending on conditions; eggs and fry are guarded by the male. Newly hatched fry are very small and tend to require infusoria or commercial fry foods initially before graduating to baby brine shrimp. Generally considered moderate difficulty for a labyrinth fish.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "SeriouslyFish",
+      "url": "https://www.seriouslyfish.com/species/trichopsis-vittata/",
+      "accessedDate": "2026-06-08",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://fishbase.se/summary/4728",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked adult size, temperature range, pH, gH, native range, and taxonomy. FishBase gives max 8.0 cm TL and pH 6.0–8.0; SeriouslyFish gives 6–7 cm and pH 5.0–7.5. adultSizeCm uses 5.0–7.0 (standard body length), pH uses 6.0–7.5 as conservative overlap. FishBase records order as Anabantiformes (modern classification), adopted over older Perciformes."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
+    "breedingDifficulty": "moderate",
+    "breedingNotes": "Bubble-nest builder; male guards eggs and fry. Female acoustically initiates spawning. Soft, slightly acidic water with elevated temperature generally encourages spawning behavior.",
+    "conspecificAggression": "moderate",
+    "finNippy": false,
     "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
+    "escapeRisk": "high",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
     "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -90,6 +122,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
+  "dataStatus": "researched",
   "lastReviewed": null
 }

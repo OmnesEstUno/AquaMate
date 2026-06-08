@@ -1,0 +1,122 @@
+{
+  "id": "fw-fish-063",
+  "slug": "brilliant-rasbora",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "freshwater",
+  "commonName": "Brilliant Rasbora",
+  "scientificName": "Rasbora borapetensis",
+  "alsoKnownAs": ["Red-tailed Rasbora", "Blackline Rasbora", "Black-line Rasbora", "Magnificent Rasbora"],
+  "category": "Rasboras",
+  "taxonomy": {
+    "family": "Cyprinidae",
+    "order": "Cypriniformes"
+  },
+  "nativeRange": {
+    "regions": ["Southeast Asia", "Mekong drainage", "Chao Phraya drainage", "Mae Klong drainage"],
+    "countries": ["Thailand", "Cambodia", "Laos", "Vietnam", "Malaysia"],
+    "habitat": "Shallow margins of gently flowing or still waters including ponds, ditches, reservoirs, canals, and swamps; often in turbid or slightly tannin-stained water",
+    "biotope": "River",
+    "depthRangeM": { "min": 0, "max": 2 }
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 22, "max": 26 },
+    "pH": { "min": 6.0, "max": 7.5 },
+    "gH": { "min": 2, "max": 12 },
+    "kH": { "min": 2, "max": 10 },
+    "salinity": null
+  },
+  "adultSizeCm": { "min": 4.0, "max": 6.0 },
+  "lifespanYears": null,
+  "tank": {
+    "minVolumeLiters": 75,
+    "minLengthCm": 75,
+    "swimZone": "mid",
+    "decorPreferences": ["dense planting along sides and back", "dark substrate", "floating plants for shade", "driftwood or roots for shaded areas", "gentle filtration"],
+    "minSandDepthCm": null
+  },
+  "careLevel": "beginner",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Readily accepts dried flake and pellet foods; benefits from regular offerings of small live or frozen foods such as Daphnia, Artemia, and micro-worms, which tend to bring out best colouration."
+  },
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "schooling",
+    "minGroupSize": 8,
+    "goodWith": ["small cyprinids", "small tetras", "livebearers", "rainbowfish", "anabantoids", "small catfish", "small loaches"],
+    "avoidWith": ["large or aggressive fish", "fin-nipping species"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A lively, peaceful schooling fish with a silvery body and a distinctive bright red caudal fin tip. Generally considered beginner-friendly and well suited to community aquariums with soft, slightly acidic water.",
+  "careNotes": "The Brilliant Rasbora is most commonly known in the trade under the names Red-tailed Rasbora and Blackline Rasbora; the latter name refers to the thin black lateral stripe running from the gill plate to the caudal peduncle. It tends to do best when kept in tight schools of 8 or more — smaller groups have been observed to become nervous and prone to hiding. A well-planted setup with a dark substrate, floating plants for diffused lighting, and gentle flow generally produces the best colouration and activity. Bright lighting and strong current are best avoided. The species is described as hardy and tolerant of a wide parameter range, making it particularly suitable for newcomers to the hobby. Males have been reported to display vivid colours and compete actively when in the presence of females or rival males.",
+  "breedingNotes": "An egg-scattering continuous spawner that exhibits no parental care. Breeding is considered moderate in difficulty. Conditioning with small live foods (Daphnia, Artemia) is commonly advised before a spawn attempt. A separate breeding tank with fine-leafed plants or a mesh bottom layer to protect eggs from being eaten is generally recommended. Fry are typically reported to accept infusorians initially, progressing to newly hatched brine shrimp after one to two weeks.",
+  "sources": {
+    "primary": {
+      "name": "SeriouslyFish",
+      "url": "https://www.seriouslyfish.com/species/rasbora-borapetensis/",
+      "accessedDate": "2026-06-08",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "Aquarium Co-Op",
+        "url": "https://www.aquariumcoop.com/blogs/aquarium/top-10-rasboras",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked size (5–6 cm), temperature (22–26°C), pH (below 7.0), and schooling requirements. Aquarium Co-Op primary root used for fw-fish slice but no dedicated species page found; blog article used instead."
+      },
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/rasbora-borapetensis.html",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked native range, temperature (22–26°C), pH (6.5–7.0), hardness (up to 12 dH), and depth range. FishBase lists total length up to 10 cm; hobby sources consistently report 5 cm standard length — discrepancy attributed to TL vs SL measurement convention. Hobby SL values used for adultSizeCm."
+      },
+      {
+        "name": "AquaticCommunity",
+        "url": "https://aquaticcommunity.com/fish/brilliant-rasbora.php",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked size (5 cm), temperature (22–26°C), pH (6.0–7.0), and breeding notes."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "moderate",
+    "breedingNotes": "Egg-scattering continuous spawner; no parental care. Condition breeders with live foods. Use a mesh-bottom or fine-leafed plant setup to protect eggs. Fry need infusorians, then newly hatched brine shrimp.",
+    "conspecificAggression": "low",
+    "finNippy": false,
+    "reefSafe": null,
+    "escapeRisk": "moderate",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
+}

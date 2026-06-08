@@ -5,82 +5,103 @@
   "taxon": "fish",
   "waterType": "freshwater",
   "commonName": "Diamond Tetra",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "scientificName": "Makunaima pittieri",
+  "alsoKnownAs": ["Moenkhausia pittieri", "Diamond Characin", "Pittier's Tetra", "Brilliant Tetra"],
   "category": "Tetra",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Acestrorhamphidae",
+    "order": "Characiformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
+    "regions": ["South America"],
+    "countries": ["Venezuela"],
+    "habitat": "Shallow, slow-moving waters with abundant vegetation and leaf litter; also tributary rivers including the Rio Tiquiritu and Rio Bue draining into Lake Valencia",
+    "biotope": "Lake",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
-    "kH": null,
+    "temperatureC": { "min": 22, "max": 28 },
+    "pH": { "min": 6.0, "max": 7.0 },
+    "gH": { "min": 4, "max": 12 },
+    "kH": { "min": 2, "max": 12 },
     "salinity": null
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 5, "max": 6 },
+  "lifespanYears": { "min": 3, "max": 6 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 100,
+    "minLengthCm": 80,
+    "swimZone": "mid",
+    "decorPreferences": ["dense planting", "floating plants for diffused lighting", "driftwood", "leaf litter", "open swimming space in the center"],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Readily tends to accept most offered foods. A varied diet including quality flake or micro-pellet foods alongside live and frozen foods such as bloodworm, Daphnia, and brine shrimp has been reported to bring out the best color and condition. Plant-based foods such as blanched spinach or zucchini are also accepted."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "peaceful",
+    "grouping": "schooling",
+    "minGroupSize": 6,
+    "goodWith": ["tetras", "rasboras", "danios", "livebearers", "Corydoras catfish", "dwarf cichlids", "gouramis", "peaceful bottom-dwellers", "small loricariids"],
+    "avoidWith": ["long-finned slow-swimming species", "large aggressive fish", "fin-heavy species like bettas or angelfish when understocked"]
   },
   "media": {
     "primaryImage": "diamond_tetra.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Diamond Tetra.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "A larger, silver-iridescent schooling tetra endemic to Lake Valencia, Venezuela. Males develop extended dorsal, anal, and caudal fins with a violet sheen at maturity. Best kept in groups of 6 or more.",
+  "careNotes": "Diamond Tetras tend to do well in most well-maintained community tanks, though they generally prefer densely planted setups with softer lighting rather than bright, bare environments. Fin-nipping behavior, for which the species has a mild reputation, has been reported to diminish significantly when kept in proper schools of six or more. The species is sexually dimorphic: males typically develop noticeably extended dorsal, anal, and caudal fins along with a striking iridescent silver and violet coloration, while females remain shorter-finned with a more rounded body. Full adult coloration in males tends to develop around 9–12 months of age. Native to Lake Valencia in Venezuela and a few draining tributaries; the lake is considered a closed, heavily modified basin. Taxonomic note: formerly classified as Moenkhausia pittieri (Characidae); reclassified to Makunaima pittieri within family Acestrorhamphidae following phylogenomic studies (Terán et al. 2020; confirmed Melo et al. 2024). Most hobby sources still use the old name. The species is listed as Endangered (EN) on the IUCN Red List (2022 assessment) due to the heavily degraded state of Lake Valencia.",
+  "breedingNotes": "Has been bred successfully in captivity with moderate effort. Spawning is typically triggered in a separate breeding tank of around 75–80 liters with soft, acidic water (pH 5.5–6.5, gH 1–5) and a temperature around 26–29°C. Egg-scatterers; spawning mops or fine-leaved plants such as Java moss are commonly used as egg substrates. Eggs generally hatch within 24–36 hours and fry become free-swimming around 3–4 days after hatching. Adults have been known to eat eggs and should be removed after spawning. Fry can be raised on infusoria and then finely crushed flake or baby brine shrimp.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "SeriouslyFish",
+      "url": "https://www.seriouslyfish.com/species/moenkhausia-pittieri/",
+      "accessedDate": "2026-06-08",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "Fishkeeping World",
+        "url": "https://www.fishkeepingworld.com/diamond-tetra/",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked sizing (5–6.4 cm), temperature (22–28°C), pH (6.0–7.5), KH (4–8), lifespan (3–6 yr), tank size, diet, and breeding notes. Minor disagreements on pH upper bound (7.5 vs SeriouslyFish 7.0) — averaged to 7.0."
+      },
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Makunaima-pittieri",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked size (6.0 cm SL), temperature (24–28°C), pH (6.0–7.0), hardness (5–12 dH). Confirmed reclassification to Makunaima pittieri within Acestrorhamphidae. IUCN Endangered (EN) status noted."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
+    "breedingDifficulty": "moderate",
     "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
+    "conspecificAggression": "low",
+    "finNippy": true,
     "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
     "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -90,6 +111,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
 }

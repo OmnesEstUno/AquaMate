@@ -4,83 +4,111 @@
   "kind": "fauna",
   "taxon": "fish",
   "waterType": "freshwater",
-  "commonName": "Demasoni",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "commonName": "Demasoni Cichlid",
+  "scientificName": "Chindongo demasoni",
+  "alsoKnownAs": ["Demasoni", "Pseudotropheus demasoni", "Dwarf Mbuna"],
   "category": "Cichlid",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Cichlidae",
+    "order": "Cichliformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
+    "regions": ["East Africa", "Lake Malawi"],
+    "countries": ["Tanzania"],
+    "habitat": "Rocky littoral zone of Lake Malawi; endemic to Pombo Rocks off the Tanzanian coast. Demersal; associated with boulder-strewn rock surfaces and crevices.",
+    "biotope": "Rift Lake",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
-    "kH": null,
+    "temperatureC": { "min": 24, "max": 28 },
+    "pH": { "min": 7.6, "max": 8.8 },
+    "gH": { "min": 10, "max": 25 },
+    "kH": { "min": 8, "max": 20 },
     "salinity": null
   },
-  "adultSizeCm": null,
+  "adultSizeCm": { "min": 5, "max": 8 },
   "lifespanYears": null,
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 200,
+    "minLengthCm": 120,
+    "swimZone": "mid",
+    "decorPreferences": [
+      "Heavy rockwork with many caves and crevices",
+      "Sand substrate",
+      "Open swimming space between rock structures",
+      "Minimal or no plants (will be uprooted)"
+    ],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "herbivore",
+    "notes": "Primarily vegetable matter — spirulina flakes, blanched spinach, nori, and quality Mbuna pellets are generally advised. Avoid meaty foods (red meat, bloodworms) as these have been associated with bloat (Malawi bloat), which can be fatal. Occasional live or frozen invertebrates in small amounts are sometimes offered but meaty protein should be kept to a minimum."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "aggressive",
+    "grouping": "shoaling",
+    "minGroupSize": 12,
+    "goodWith": [
+      "Robust mbuna of similar size and different coloration/pattern (e.g. Labidochromis caeruleus, Cynotilapia afra, Metriaclima species)",
+      "Other Lake Malawi cichlids with comparable aggression levels"
+    ],
+    "avoidWith": [
+      "Peaceful cichlids (Peacock cichlids, Utaka/haplochromines)",
+      "Slow or timid fish",
+      "Similar-looking mbuna (triggers heightened aggression)",
+      "Conspecifics in groups smaller than 10–12 (aggression concentrates on individuals)"
+    ]
   },
   "media": {
     "primaryImage": "demasoni.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Demasoni.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "Electric-blue-and-black-barred Mbuna from Pombo Rocks, Lake Malawi — among the most aggressive small cichlids in the hobby. Tends to self-destruct in small groups; generally advised to keep 12+ individuals to distribute aggression.",
+  "careNotes": "Chindongo demasoni (formerly Pseudotropheus demasoni) is one of the most aggressive Mbuna in the hobby despite its small size (~7–8 cm). The key challenge is group dynamics: small groups (fewer than ~10) concentrate aggression on a handful of subordinate individuals, which are often harassed to death. Keeping 12 or more specimens — ideally in a species-only or robust-mbuna-only setup — tends to distribute aggression enough that no single fish bears the brunt. The 200 L minimum is an absolute floor for a group; 300 L or more is generally preferred for long-term success.\n\nSexing is extremely difficult — males and females appear virtually identical in coloration and pattern as adults, which complicates stocking ratios. A captive-bred long-fin morph exists and is occasionally available in the hobby.\n\nThe species is a strict herbivore; a protein-heavy diet has been associated with Malawi bloat, a potentially fatal digestive condition. Meaty foods (bloodworms, red meat) should be avoided or used only in trace amounts.\n\nWater must be hard and alkaline to match Rift Lake conditions. The species is vulnerable to acidic or soft water. Tank décor should replicate the rocky shoreline biotope with extensive cave structures; the fish have been observed swimming upside-down along rock surfaces — a normal feeding/territorial behavior, not a sign of illness.\n\nIUCN Red List status: Vulnerable (VU), assessed 2018. Endemic to Pombo Rocks, Tanzania — a very restricted range.",
+  "breedingNotes": "Maternal mouthbrooder. Spawning typically occurs over flat rock surfaces; females incubate fertilized eggs orally for approximately 3 weeks before releasing free-swimming fry. Fry generally accept newly hatched brine shrimp nauplii and powdered spirulina foods. Breeding difficulty is generally considered easy once a colony is established — the main challenge is identifying the sex of individuals to build a reasonable female-heavy ratio. A species-only tank with 6–8 young fish of mixed sex is a commonly recommended starting approach.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "SeriouslyFish",
+      "url": "https://www.seriouslyfish.com/species/pseudotropheus-demasoni/",
+      "accessedDate": "2026-06-08",
+      "notes": "Primary source for husbandry parameters (size, water parameters, tank dimensions, diet, temperament, breeding). Note: page still listed under former name Pseudotropheus demasoni; current valid name is Chindongo demasoni per FishBase 2026."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Chindongo-demasoni.html",
+        "accessedDate": "2026-06-08",
+        "notes": "Confirmed current valid scientific name Chindongo demasoni (Konings, 1994); family Cichlidae, order Cichliformes; max SL 6.3 cm; native range Lake Malawi, Tanzania. IUCN Vulnerable status noted."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
+    "breedingDifficulty": "easy",
+    "breedingNotes": "Maternal mouthbrooder; females incubate eggs ~3 weeks. Sexing is difficult as males and females are nearly identical in coloration. Easy once colony established.",
+    "conspecificAggression": "high",
+    "finNippy": false,
     "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
     "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "speciesOnlyTankRecommended": true,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": true,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -90,6 +118,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
 }

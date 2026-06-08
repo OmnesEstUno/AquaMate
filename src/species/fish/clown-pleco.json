@@ -5,82 +5,109 @@
   "taxon": "fish",
   "waterType": "freshwater",
   "commonName": "Clown Pleco",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "scientificName": "Panaqolus maccus",
+  "alsoKnownAs": ["Clown Panaque", "L104", "L162", "L262"],
   "category": "Catfish",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Loricariidae",
+    "order": "Siluriformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
+    "regions": ["South America"],
+    "countries": ["Venezuela"],
+    "habitat": "Fast-flowing rivers and streams with submerged driftwood and rocky substrates; Apuré and Caroní River basins (Orinoco drainage)",
+    "biotope": "South American riverine",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
-    "kH": null,
+    "temperatureC": { "min": 22, "max": 28 },
+    "pH": { "min": 6.5, "max": 7.5 },
+    "gH": { "min": 5, "max": 15 },
+    "kH": { "min": 4, "max": 12 },
     "salinity": null
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 7, "max": 10 },
+  "lifespanYears": { "min": 10, "max": 12 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 75,
+    "minLengthCm": 60,
+    "swimZone": "bottom",
+    "decorPreferences": ["driftwood (essential)", "caves/PVC tubes", "rocky hiding spots", "dim areas", "smooth substrate"],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "beginner",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Xylivorous (wood-eating) — driftwood is essential for digestion and cellulose intake, not merely decoration. Supplement with algae wafers, blanched vegetables (zucchini, cucumber, peas), and occasional protein treats (bloodworm, daphnia). Tends to graze biofilm and algae from surfaces. Feed primarily after lights out as this species is largely nocturnal."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "peaceful",
+    "grouping": "pair",
+    "minGroupSize": 1,
+    "goodWith": ["small tetras", "rasboras", "corydoras", "dwarf gouramis", "danios", "livebearers", "mystery snails", "small shrimp (with caution)", "other peaceful South American species"],
+    "avoidWith": ["aggressive cichlids", "large predatory fish", "multiple male plecos in small tanks without sufficient caves", "common pleco (territory competition)"]
   },
   "media": {
     "primaryImage": "clown_pleco.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Clown Pleco.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "A dwarf xylivorous pleco from Venezuela's Orinoco drainage, generally reaching around 7–10 cm. Driftwood is essential — not optional — for digestion. An excellent, beginner-friendly alternative to the Common Pleco.",
+  "careNotes": "Driftwood is essential for the Clown Pleco's wellbeing — it provides cellulose for digestion and surfaces to graze biofilm from. Multiple pieces of wood should be available at all times. Largely nocturnal; tends to hide in caves or under wood during the day and become active after lights out. Males have been known to be territorial over cave sites, particularly during breeding; providing one cave per fish generally reduces conflict. Sold in the trade under several L-numbers — L104 and L162 are the most commonly encountered, with L262 also in circulation; L448, L206, and the larger 'Mega Clown' (L340) are separate but closely related variants sometimes confused at point of sale. Copper-based medications should be avoided as with most catfish. An excellent small-tank alternative to the Common Pleco (Hypostomus plecostomus), which can exceed 50 cm.",
+  "breedingNotes": "Cave spawner — the male selects and guards a small cave or tube. Mimicking a rainy-season trigger (slight temperature drop, water change with softer water) has been reported to encourage spawning. The male tends the eggs and newly hatched fry until they are free-swimming. Has been bred in captivity with moderate success; a species-only or low-competition setup tends to improve results.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "Fishkeeping World",
+      "url": "https://www.fishkeepingworld.com/clown-pleco/",
+      "accessedDate": "2026-06-08",
+      "notes": "Primary source used in place of Aquarium Co-Op (no dedicated Clown Pleco species page found). Provides comprehensive species-level husbandry data."
+    },
+    "additional": [
+      {
+        "name": "Fish Laboratory",
+        "url": "https://www.fishlaboratory.com/fish/clown-pleco/",
+        "accessedDate": "2026-06-08",
+        "notes": "Secondary cross-check. Confirmed adult size 8.75–10 cm, temperature 23–28°C, pH 6.8–7.6, lifespan 10–12 years, cave-spawning breeding behavior, and nocturnal habits."
+      },
+      {
+        "name": "Tankarium",
+        "url": "https://www.tankarium.com/clown-pleco/",
+        "accessedDate": "2026-06-08",
+        "notes": "Additional cross-check. Confirmed native range (Apuré and Caroní basins, Venezuela), L-number variants (L104, L162, L448), driftwood essentiality, and peaceful temperament."
+      },
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Panaqolus-maccus.html",
+        "accessedDate": "2026-06-08",
+        "notes": "Taxonomic authority. Confirms scientific name Panaqolus maccus (Schaefer & Stewart, 1993), family Loricariidae, order Siluriformes, max size 8.8 cm SL, native to Apuré and Caroní River basins in Venezuela. IUCN Least Concern."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
+    "breedingDifficulty": "moderate",
+    "breedingNotes": "Cave spawner; male guards eggs in a selected cave or tube. Breeding trigger involves mimicking rainy-season conditions (temperature drop, soft-water change). Has been bred in captivity with some regularity in appropriate setups.",
+    "conspecificAggression": "moderate",
+    "finNippy": false,
     "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
-    "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": true,
+    "juvenileColorPhase": false,
+    "copperSensitive": true,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -90,6 +117,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
 }

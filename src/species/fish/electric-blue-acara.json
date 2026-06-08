@@ -5,82 +5,116 @@
   "taxon": "fish",
   "waterType": "freshwater",
   "commonName": "Electric Blue Acara",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "scientificName": "Andinoacara pulcher",
+  "alsoKnownAs": ["EBA", "Blue Acara", "Electric Blue Acara Cichlid"],
   "category": "Cichlid",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Cichlidae",
+    "order": "Perciformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
+    "regions": ["Central America", "South America", "Caribbean"],
+    "countries": ["Venezuela", "Trinidad and Tobago"],
+    "habitat": "Adaptable to a variety of freshwater habitats, including murky still waters, slow-flowing rivers, streams, and clearwater channels",
+    "biotope": "Tropical freshwater rivers and streams, often sheltered and heavily vegetated",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
-    "kH": null,
+    "temperatureC": { "min": 21, "max": 28 },
+    "pH": { "min": 6.0, "max": 8.0 },
+    "gH": { "min": 5, "max": 20 },
+    "kH": { "min": 4, "max": 15 },
     "salinity": null
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 14, "max": 18 },
+  "lifespanYears": { "min": 10, "max": 20 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 200,
+    "minLengthCm": 120,
+    "swimZone": "mid",
+    "decorPreferences": [
+      "soft fine sand or rounded gravel substrate",
+      "driftwood",
+      "rocks and caves for territory and spawning sites",
+      "hardy epiphyte plants (Anubias, Java fern, Java moss) — rooted plants may be uprooted due to digging",
+      "floating plants for diffused lighting"
+    ],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Accepts high-quality cichlid pellets or granules as a staple. Benefits from regular offerings of frozen or live foods such as bloodworms, brine shrimp, chopped mussel, prawn, and earthworms. Occasional vegetable-based flake or blanched greens help round out the diet. Twice-daily feeding is commonly advised."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "semi-aggressive",
+    "grouping": "pair",
+    "minGroupSize": 2,
+    "goodWith": [
+      "medium-sized characins",
+      "Corydoras catfish",
+      "loricariid catfish (plecos)",
+      "peaceful mid-sized cichlids",
+      "dwarf crayfish",
+      "robust snails (Nerite)",
+      "Amano shrimp (with caution)"
+    ],
+    "avoidWith": [
+      "small fish that may be predated",
+      "highly aggressive large cichlids",
+      "very timid or slow species",
+      "delicate shrimp during breeding periods"
+    ]
   },
   "media": {
     "primaryImage": "electric_blue_acara.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Electric Blue Acara.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "The Electric Blue Acara is a selectively bred color morph of the Blue Acara (Andinoacara pulcher), renowned for its vivid iridescent blue body. Considered one of the more approachable medium cichlids, it tends to be calmer than most of its family and breeds reliably in captivity.",
+  "careNotes": "The Electric Blue Acara is a selectively bred captive line of Andinoacara pulcher; wild-caught Blue Acaras are less intensely colored. The genus was reclassified from Aequidens to Andinoacara in 2009. This species tends to be notably hardy and tolerant of a wide pH and hardness range compared to many other cichlids, making it a good 'next step' cichlid beyond Rams and Apistogrammas. However, it remains sensitive to deteriorating water quality, so efficient biological filtration and consistent water changes are generally advised. The fish is known to dig, so rooted plants are best replaced with epiphytes (Anubias, Java fern) attached to hardscape. Territorial behavior is most pronounced during spawning; a spacious tank with clearly defined zones or line-of-sight breaks can reduce aggression toward tankmates. Pairs tend to bond strongly and will cooperatively guard their eggs and fry. While sometimes labeled as a hybrid in the hobby, current evidence treats it as a selectively bred line of A. pulcher rather than a true interspecific hybrid.",
+  "breedingNotes": "Pair-bonding substrate-spawners; pairs have been reported to mate for life and will defend spawning sites vigorously. The female typically lays 150–200 adhesive eggs on a flat, cleaned surface (rock, broad leaf, or substrate depression). Eggs generally hatch within 48–72 hours at typical aquarium temperatures, and fry are reported to become free-swimming around 4–5 days after hatching. Both parents guard and fan the eggs and continue to herd fry for approximately 2 weeks. Sexual maturity is commonly reached at 8–10 months or around 10 cm body length. Breeding is generally considered easy for a cichlid of this size.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "SeriouslyFish",
+      "url": "https://www.seriouslyfish.com/species/andinoacara-pulcher/",
+      "accessedDate": "2026-06-08",
+      "notes": "Used as primary source after Aquarium Co-Op blog returned 404. SeriouslyFish is the first available secondary per slice source-urls.json. Provided scientific name, taxonomy, native range, water parameters, tank dimensions, diet, temperament, and breeding data."
+    },
+    "additional": [
+      {
+        "name": "Fishkeeping World",
+        "url": "https://fishkeepingworld.com/electric-blue-acara/",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-verification secondary. Confirmed scientific name, family, pH 6.0–7.5 (slightly narrower than SeriouslyFish 6.5–8.0; averaged to 6.0–8.0), temperature 20–27°C (averaged with SeriouslyFish 22–28°C to yield 21–28°C), hardness 6–20 dGH. Tank size listed as 30 gal (114L) for a single fish; conservative pair minimum of 200L adopted per playbook bias-toward-larger rule and community consensus from Aquarium Co-Op forum. Lifespan 10–20 years from this source only."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
+    "breedingDifficulty": "easy",
+    "breedingNotes": "Reliable pair-bonding biparental substrate-spawner. Female lays 150–200 eggs; hatch in 48–72 h; fry free-swimming ~4–5 days post-hatch. Both parents guard actively for ~2 weeks.",
+    "conspecificAggression": "moderate",
+    "finNippy": false,
     "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
     "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": true,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -90,6 +124,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
 }

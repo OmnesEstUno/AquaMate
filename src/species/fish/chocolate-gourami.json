@@ -1,0 +1,135 @@
+{
+  "id": "fw-fish-066",
+  "slug": "chocolate-gourami",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "freshwater",
+  "commonName": "Chocolate Gourami",
+  "scientificName": "Sphaerichthys osphromenoides",
+  "alsoKnownAs": [],
+  "category": "Gourami",
+  "taxonomy": {
+    "family": "Osphronemidae",
+    "order": "Anabantiformes"
+  },
+  "nativeRange": {
+    "regions": ["Southeast Asia"],
+    "countries": ["Indonesia", "Malaysia"],
+    "habitat": "Peat swamp forests, blackwater streams, and slow-moving forest rivers with highly acidic, tannin-stained water over leaf litter substrate.",
+    "biotope": "Blackwater",
+    "depthRangeM": null
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 25, "max": 29 },
+    "pH": { "min": 4.0, "max": 6.5 },
+    "gH": { "min": 0, "max": 5 },
+    "kH": { "min": 0, "max": 2 },
+    "salinity": null
+  },
+  "adultSizeCm": { "min": 4.0, "max": 6.0 },
+  "lifespanYears": { "min": 5, "max": 8 },
+  "tank": {
+    "minVolumeLiters": 75,
+    "minLengthCm": 60,
+    "swimZone": "mid",
+    "decorPreferences": [
+      "dense planting",
+      "driftwood and leaf litter",
+      "dim lighting with floating plants",
+      "peat substrate or peat filtration",
+      "Indian Almond leaves"
+    ],
+    "minSandDepthCm": null
+  },
+  "careLevel": "advanced",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Micropredator. Primarily accepts live and frozen micro-foods: daphnia, baby brine shrimp (Artemia nauplii), blackworms, grindal worms, and mosquito larvae. Many specimens initially refuse prepared or pellet foods; some eventually adapt to high-quality micropellets with patient conditioning. Feeding with live food is strongly advised, especially when first acquired."
+  },
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "shoaling",
+    "minGroupSize": 3,
+    "goodWith": [
+      "small peaceful rasboras (Trigonostigma, Boraras spp.)",
+      "Microdevario spp.",
+      "Danionella spp.",
+      "Pangio kuhli loaches",
+      "Kottelatlimia spp.",
+      "small corydoras in same pH range"
+    ],
+    "avoidWith": [
+      "boisterous or fast-moving fish",
+      "competitive feeders",
+      "fish requiring harder or neutral water",
+      "Sphaerichthys selatanensis (hybridization risk)",
+      "large or aggressive species"
+    ]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A striking blackwater specialist from Borneo and Sumatra peat swamps, considered one of the more challenging freshwater gouramis due to strict water chemistry requirements and disease susceptibility. Notable as a maternal mouthbrooder — atypical for the family.",
+  "careNotes": "STRICT blackwater specialist — not a typical gourami and should not be treated as one. Requires RO/DI water remineralized to near-zero hardness, supplemented with Indian Almond leaves, peat extract, or peat filtration to achieve pH 4.0–6.5 and gH under 5. Tap water with any hardness is generally unsuitable without conditioning. The species tends to be highly susceptible to bacterial infections, with Mycobacterium (fish tuberculosis) reported frequently in the hobby; pristine water quality and stress-free conditions are essential. Maintains a subdued internal hierarchy within groups; keeping a trio (1M:2F) or larger group of 6+ is generally advised to distribute social tension. The tank should be dimly lit with a tightly-fitting lid — fry require access to warm, humid air above the water surface to properly develop their labyrinth organ. Will often refuse prepared foods initially; live or frozen micro-foods should be offered exclusively until the fish settles in. Maternal mouthbrooding is atypical within Osphronemidae; the female incubates 10–40 eggs orally for approximately 7–20 days, releasing fully-formed juveniles.",
+  "breedingNotes": "Maternal mouthbrooder — the female orally incubates eggs for approximately 7–20 days, releasing 10–40 fully-formed juveniles. Conditioning with live foods is generally needed to trigger spawning. Soft, acidic, warm water (pH 4.5–5.5, 27–29°C) with minimal flow and heavy planting tends to encourage breeding. The female should not be disturbed during the brooding period. Fry are relatively large at release and can typically accept newly hatched brine shrimp or microworms immediately. A tightly sealed tank cover is important so that humid air above the water surface supports proper labyrinth organ development in fry.",
+  "sources": {
+    "primary": {
+      "name": "SeriouslyFish",
+      "url": "https://www.seriouslyfish.com/species/sphaerichthys-osphromenoides/",
+      "accessedDate": "2026-06-08",
+      "notes": "Primary husbandry source; Aquarium Co-Op returned 404 so SeriouslyFish used as primary."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Sphaerichthys-osphromenoides.html",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked adult size (6.0 cm TL), temperature range (24–27°C), pH (4.0–6.0), gH (0–4 dH), native range (Indonesia and Malaysia). FishBase notes 'males brooding' but this is a known documentation discrepancy — multiple specialist sources confirm the species is a maternal mouthbrooder."
+      },
+      {
+        "name": "Aquadiction",
+        "url": "https://aquadiction.world/species-spotlight/chocolate-gourami/",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked adult size (6 cm), temperature (25–28°C), pH (4.0–6.0), gH (2–10), lifespan (5–8 years), tank minimum (20 gal / ~76L). Confirms maternal mouthbrooder, grouping of 6+."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "difficult",
+    "breedingNotes": "Maternal mouthbrooder. Female incubates 10–40 eggs orally for 7–20 days. Requires stable soft/acidic water and conditioning with live foods to trigger spawning. Fry released fully formed.",
+    "conspecificAggression": "low",
+    "finNippy": false,
+    "reefSafe": null,
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "difficult",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": true,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
+}

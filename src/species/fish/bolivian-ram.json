@@ -5,82 +5,109 @@
   "taxon": "fish",
   "waterType": "freshwater",
   "commonName": "Bolivian Ram",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "scientificName": "Mikrogeophagus altispinosus",
+  "alsoKnownAs": ["Bolivian Ram Cichlid", "Butterfly Ram", "Ruby Crown Cichlid"],
   "category": "Cichlid",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Cichlidae",
+    "order": "Cichliformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
+    "regions": ["South America"],
+    "countries": ["Bolivia", "Brazil"],
+    "habitat": "Slow-moving, shallow tributaries, streams, and oxbow lakes with sandy or silty substrates, often with abundant leaf litter and driftwood.",
+    "biotope": "Upper Rio Madeira basin; Rio Mamoré and Rio Guaporé (Iténez) drainages.",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
-    "kH": null,
+    "temperatureC": { "min": 22, "max": 27 },
+    "pH": { "min": 6.0, "max": 7.5 },
+    "gH": { "min": 2, "max": 15 },
+    "kH": { "min": 2, "max": 12 },
     "salinity": null
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 7.0, "max": 9.0 },
+  "lifespanYears": { "min": 3, "max": 5 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 100,
+    "minLengthCm": 90,
+    "swimZone": "bottom",
+    "decorPreferences": ["sandy substrate", "flat rocks", "driftwood", "broad-leaf plants", "caves"],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Naturally benthophagic — sifts sandy substrate for small organisms, detritus, plant matter, and seeds. In captivity generally accepts quality sinking pellets, frozen or live bloodworm, brine shrimp, daphnia, and white worms. Variety tends to support good color and conditioning."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "peaceful",
+    "grouping": "pair",
+    "minGroupSize": 2,
+    "goodWith": ["small tetras", "corydoras", "small rasboras", "livebearers", "peaceful loricariids", "dwarf gouramis", "larger shrimp (ghost shrimp, amano shrimp)"],
+    "avoidWith": ["aggressive cichlids", "large predatory fish", "small shrimp (may be eaten)", "fin-nipping species"]
   },
   "media": {
     "primaryImage": "bolivian_ram.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Bolivian Ram.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "Hardier, cooler-tolerant dwarf cichlid from Bolivia and Brazil. Generally considered a better entry point into cichlid-keeping than the German Blue Ram, with similar pair-bonding behaviour and biparental care.",
+  "careNotes": "Generally considered one of the more forgiving dwarf cichlids — tolerates a wider temperature and pH range than its congener Mikrogeophagus ramirezi (German Blue Ram) and tends to be less prone to stress-related illness. Best kept as a bonded pair in a well-established, mature aquarium; have been known to suffer in new or biologically immature tanks. Pairs form strong bonds and exhibit biparental substrate-spawning behaviour, guarding eggs and fry on flat rocks, driftwood, broad plant leaves, or pits dug into the substrate. Some sources recommend keeping a small group of 6–8 in larger tanks (120 cm+) to allow natural pair formation, then rehoming surplus individuals. Males grow noticeably larger and develop more extended fins and deeper coloration than females. Dither fish (open-water schooling tetras or rasboras) are commonly recommended to reduce shyness. The species has been reported susceptible to head and lateral line erosion (HLLE) under poor water conditions. Cross-reference [german-blue-ram] for comparison with the sibling species.",
+  "breedingNotes": "Biparental substrate spawner. Pairs generally spawn without much coaxing once well conditioned on varied live/frozen foods and maintained in stable, clean water. Eggs are typically laid on a flat rock, piece of driftwood, broad plant leaf, or a shallow pit dug by the pair. Incubation has been reported at approximately 2–3 days; fry become free-swimming roughly 5–8 days after hatching. Both parents actively guard eggs and wriggler fry and have been known to move the eggs or wrigglers if disturbed. Fry can be started on microworms or baby brine shrimp nauplii. Clutch sizes have been reported around 100–150 eggs.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "Aquarium Co-Op",
+      "url": "https://www.aquariumcoop.com/blogs/aquarium/bolivian-ram-care-guide",
+      "accessedDate": "2026-06-08",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "SeriouslyFish",
+        "url": "https://www.seriouslyfish.com/species/mikrogeophagus-altispinosus/",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked size (70–80 mm SL), water parameters, native range, tank footprint (90×45 cm minimum), and breeding behaviour. Recommends groups of 6–8 in 120 cm+ tanks; notes HLLE susceptibility."
+      },
+      {
+        "name": "Fishkeeping World",
+        "url": "https://www.fishkeepingworld.com/bolivian-ram/",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked adult size (~3.5 in males = ~8.9 cm total length), lifespan (~4 years), min tank (30 gal = ~113 L), temperature (74–78°F = 23.3–25.6°C), pH (6.0–7.4), gH (6–14 dGH), diet, and compatibility. Minor disagreement on care level (rated beginner; primary/SeriouslyFish rate intermediate). Retained intermediate as it better reflects water-quality sensitivity and new-tank incompatibility documented by SeriouslyFish."
+      },
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Mikrogeophagus-altispinosus.html",
+        "accessedDate": "2026-06-08",
+        "notes": "Confirmed family Cichlidae, order Cichliformes, native range (Guaporé and Mamoré drainages, Bolivia/Brazil). FishBase adult size 5.6 cm SL consistent with SeriouslyFish 70–80 mm SL range for smaller individuals; total length ~7–9 cm aligns with hobby sources."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
+    "breedingDifficulty": "moderate",
+    "breedingNotes": "Biparental substrate spawner; pair bonds and spawns without special intervention once conditioned. Fry are manageable with standard micro-food. Rehoming surplus males from group setups can be a challenge.",
+    "conspecificAggression": "moderate",
+    "finNippy": false,
     "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
     "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": true,
+    "hlleSusceptible": true,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -90,6 +117,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
 }

@@ -5,82 +5,109 @@
   "taxon": "fish",
   "waterType": "freshwater",
   "commonName": "Discus",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "scientificName": "Symphysodon spp.",
+  "alsoKnownAs": ["King of the Aquarium", "King of the Freshwater Aquarium", "Brown Discus", "Blue Discus", "Green Discus", "Heckel Discus", "Red Discus"],
   "category": "Cichlid",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Cichlidae",
+    "order": "Cichliformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
+    "regions": ["South America"],
+    "countries": ["Brazil", "Colombia", "Peru"],
+    "habitat": "Slow-moving tributaries, flooded forest pools, and sheltered areas around submerged tree roots and rocks in the Amazon basin; blackwater environments with high tannin content and very low mineral content.",
+    "biotope": "Blackwater",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
-    "kH": null,
+    "temperatureC": { "min": 28, "max": 31 },
+    "pH": { "min": 5.5, "max": 7.0 },
+    "gH": { "min": 2, "max": 12 },
+    "kH": { "min": 2, "max": 8 },
     "salinity": null
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 15, "max": 20 },
+  "lifespanYears": { "min": 10, "max": 15 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 300,
+    "minLengthCm": 120,
+    "swimZone": "mid",
+    "decorPreferences": ["driftwood", "dense planting", "dim lighting", "leaf litter", "tall plants for cover", "low flow"],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "advanced",
+  "diet": {
+    "type": "carnivore",
+    "notes": "In the wild, tend to feed on zooplankton, aquatic insects, and small invertebrates. In captivity, generally accept frozen beefheart, bloodworms, brine shrimp, and blackworms; commercial Discus pellets and Hikari Vibra Bites have been reported as useful staples. Variety is advised — specimens have been known to become fixated on a single food item if variety is not offered from the start. Note that Discus have relatively small mouths for their body size; food should be appropriately sized."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "peaceful",
+    "grouping": "shoaling",
+    "minGroupSize": 6,
+    "goodWith": ["Cardinal Tetra", "Sterbai Cory", "Bristlenose Pleco", "Rummy Nose Tetra", "German Blue Ram"],
+    "avoidWith": ["Angelfish", "fast/boisterous fish", "fin nippers (Tiger Barbs)", "African Cichlids", "Oscar", "Goldfish", "species with incompatible temperature requirements"]
   },
   "media": {
     "primaryImage": "discus.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Discus.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "The iconic 'King of the Aquarium' — a large, disc-shaped cichlid from Amazon blackwater. Generally kept in groups of 6+ in warm, soft, acidic water; widely considered one of the most demanding freshwater fish to maintain well.",
+  "careNotes": "Discus are widely regarded as one of the most demanding freshwater fish in the hobby, primarily due to their requirement for warm, soft, and acidic water. Temperatures in the 28–31°C range are generally advised; heater redundancy is strongly recommended as temperature drops can cause rapid health decline. Water hardness should be kept soft — wild-caught individuals tend to be far more demanding than captive-bred (CB) strains, which have been reported to tolerate moderately hard water and higher pH, though soft acidic conditions are still preferred.\n\nThree recognized wild species exist: Symphysodon aequifasciatus (Brown, Blue, and Green Discus), S. discus (Heckel Discus), and S. tarzoo (Red Discus). The vast majority of aquarium trade specimens are multi-generation captive-bred lines, often marketed as color strains including Pigeon Blood, Snakeskin, Leopard, Cobalt, Red Turquoise, Golden, and many others.\n\nGroups of 6 or more are generally advised to distribute intra-group aggression; smaller groups have been known to result in one or two individuals being persistently harassed. Pairs will bond within a compatible group. Recommended warm-water tankmates include Cardinal Tetras and Sterbai Cory Catfish, both of which tolerate the elevated temperatures Discus require. German Blue Rams are sometimes listed as compatible, though their similar-food competition should be monitored. Fast-moving or food-competitive species are generally best avoided.\n\nDiscus have notoriously small mouths relative to their body size; food particle size matters. Frequent partial water changes (many keepers perform daily or every-other-day changes for juveniles) are commonly recommended to maintain the pristine conditions these fish tend to require. Airstone supplementation is advised as elevated temperatures reduce dissolved oxygen.",
+  "breedingNotes": "Breeding Discus has been reported as one of the more challenging undertakings in freshwater fishkeeping. Sexing is difficult as there are no clear external differences; pairs form naturally within a group over time. Water must generally be softer and more acidic than maintenance conditions for successful spawning — pH around 6.0–6.5 and very low hardness are commonly advised.\n\nDiscus exhibit biparental substrate-spawning: both parents guard the egg clutch laid on a cleaned vertical surface (flat rock, spawning cone, broad leaf, or tank glass). A notable trait is that both parents produce a nutritional skin mucus that newly hatched fry actively feed on for the first 2–3 weeks — this parental slime coat feeding is essential for fry survival. Fry should not be separated from parents during this period. Breeding maturity is generally reached at around 2–3 years of age. Breeding pairs have been known to be disrupted by group dynamics and may need to be isolated in a dedicated breeding tank.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "Aquarium Co-Op",
+      "url": "https://www.aquariumcoop.com/blogs/aquarium/discus-fish-care-guide",
+      "accessedDate": "2026-06-08",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "SeriouslyFish",
+        "url": "https://www.seriouslyfish.com/species/symphysodon-aequifasciatus/",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked native range and minimum tank size (255 L for breeding pair/juveniles). Water parameters section incomplete on this page; other fields confirmed."
+      },
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Symphysodon-aequifasciatus.html",
+        "accessedDate": "2026-06-08",
+        "notes": "Confirmed Cichlidae / Cichliformes, temperature 26–30°C, pH 5.0–8.0, max size 13.7 cm SL. Amazon origin confirmed."
+      },
+      {
+        "name": "Fishkeeping World",
+        "url": "https://www.fishkeepingworld.com/discus-fish/",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked all high-stakes fields: temperature 28–31°C, pH 6.0–7.0, gH 2–8 dGH, tank 60 gal (227 L) minimum for group; lifespan 10–15 years confirmed; size up to 9 in (23 cm) in captivity. Min group size of 6 confirmed."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
+    "breedingDifficulty": "advanced",
     "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
+    "conspecificAggression": "moderate",
+    "finNippy": false,
     "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
     "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": true,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -90,6 +117,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
 }
