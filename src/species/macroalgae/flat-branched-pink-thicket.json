@@ -1,0 +1,113 @@
+{
+  "id": "sw-algae-041",
+  "slug": "flat-branched-pink-thicket",
+  "kind": "flora",
+  "taxon": "macroalgae",
+  "waterType": "saltwater",
+  "commonName": "Flat-Branched Pink Thicket",
+  "scientificName": "Dichotomaria marginata",
+  "alsoKnownAs": [],
+  "category": "Macroalgae",
+
+  "taxonomy": {
+    "family": "Galaxauraceae",
+    "order": "Nemaliales"
+  },
+
+  "nativeRange": {
+    "regions": ["Caribbean", "Tropical Atlantic"],
+    "countries": [],
+    "habitat": "Shallow to subtidal reef zones on rocky and rubble substrate; photic zone",
+    "biotope": "Marine reef",
+    "depthRangeM": { "min": 0, "max": 30 }
+  },
+
+  "waterParameters": {
+    "temperatureC": { "min": 24.0, "max": 27.0 },
+    "pH":           { "min": 8.1, "max": 8.4 },
+    "gH":           null,
+    "kH":           { "min": 8, "max": 12 },
+    "salinity":     { "min": 1.023, "max": 1.026 }
+  },
+
+  "adultSizeCm":   { "min": 3, "max": 10 },
+  "lifespanYears": null,
+
+  "tank": {
+    "minVolumeLiters": 40,
+    "minLengthCm":     null,
+    "swimZone":        null,
+    "decorPreferences": ["live rock", "rubble substrate", "high-light placement", "stable medium-to-high flow", "open placement for light access"],
+    "minSandDepthCm":  null
+  },
+
+  "careLevel": "advanced",
+
+  "diet": null,
+
+  "compatibility": {
+    "temperament":  "peaceful",
+    "grouping":     "solitary",
+    "minGroupSize": null,
+    "goodWith":     ["reef fish", "corals", "non-herbivorous invertebrates"],
+    "avoidWith":    ["tangs", "rabbitfish", "sea urchins", "herbivorous fish"]
+  },
+
+  "media": {
+    "primaryImage": null,
+    "gallery":      [],
+    "imageCandidates": [
+      {
+        "url":         "https://mosaicmacros.com/cdn/shop/files/IMG-1066.jpg",
+        "source":      "Mosaic Macros",
+        "sourceType":  "research-site",
+        "license":     "All rights reserved",
+        "notes":       "Primary product photo from Mosaic Macros listing — sole hobby source for this species",
+        "recommended": true
+      }
+    ]
+  },
+
+  "summary": "Rare calcareous red macroalgae (Galaxauraceae) with flat, dichotomously branching pink thallus and white branch tips, growing in a compact spherical form; available almost exclusively through Mosaic Macros. Demands stable calcium, alkalinity, and high lighting; generally considered advanced-care.",
+
+  "careNotes": "Flat-Branched Pink Thicket is a calcareous red macroalgae in the genus Dichotomaria (family Galaxauraceae, order Nemaliales, class Florideophyceae, division Rhodophyta). All members of Galaxauraceae are calcified — they deposit calcium carbonate into their thallus — making this species morphologically and physiologically similar to its family siblings Galaxaura sp. ('Bramble Thicket') and Galaxaura rugosa ('Tubular Thicket'). The thallus of D. marginata is described as reddish-pink with flat, dichotomously branching fronds adorned with distinctive white tips, growing in a roughly spherical form. This flat-branched morphology distinguishes it from the fuzzy-filamentous Galaxaura species in the same family. As a calcified alga, it is generally advised to maintain stable calcium (around 400–450 ppm) and magnesium (around 1250–1350 ppm) levels consistent with a well-maintained reef system; these values are extrapolated from family-level Galaxauraceae husbandry since species-specific aquarium data are not available for D. marginata. Standard reef parameters (SG 1.023–1.026, temperature 24–27°C, pH 8.1–8.4, kH 8–12 dKH) are recommended. High light intensity tends to be beneficial for calcified red macroalgae with this growth form; placement in well-lit areas of the display tank is commonly advised. Growth is generally slow, consistent with the metabolic demands of skeletal calcification. Propagation in the aquarium is typically accomplished by fragmentation of the branching thallus. The Caribbean distribution noted for D. marginata is based on family-level range data; Dichotomaria is a cosmopolitan genus and the exact regional provenance of aquarium specimens may vary. Mosaic Macros is currently the sole documented hobby source, where it is sold as a specialty display specimen. Care data are extrapolated from genus- and family-level knowledge of Galaxauraceae; individual results may vary. Sibling display specimens include Galaxaura sp. ('Bramble Thicket') and Galaxaura rugosa ('Tubular Thicket'), which share similar calcified morphology and reef husbandry requirements.",
+
+  "breedingNotes": null,
+
+  "sources": {
+    "primary": {
+      "name": "Mosaic Macros",
+      "url": "https://mosaicmacros.com/products/flat-branched-pink-thicket-dichomaria-marginata",
+      "accessedDate": "2026-06-08",
+      "notes": "Sole hobby source. Confirmed scientific name Dichotomaria marginata, trade name, and morphology (flat-branched, reddish-pink thallus with white tips, spherical growth form). Minimal husbandry parameters on product page."
+    },
+    "additional": [
+      {
+        "name": "Wikipedia — Galaxauraceae",
+        "url": "https://en.wikipedia.org/wiki/Galaxauraceae",
+        "accessedDate": "2026-06-08",
+        "notes": "Confirmed family Galaxauraceae, order Nemaliales, class Florideophyceae, division Rhodophyta. Confirmed Dichotomaria as one of four accepted genera in the family (20 species). All family members are calcified. Cosmopolitan marine distribution. Used for taxonomy verification and family-level husbandry extrapolation — no species-specific aquarium data."
+      }
+    ]
+  },
+
+  "fish":        null,
+  "crustacean":  null,
+  "coral":       null,
+  "mollusc":     null,
+  "echinoderm":  null,
+  "other-invert": null,
+  "plant":       null,
+  "macroalgae": {
+    "lighting":       "high",
+    "growthRate":     "slow",
+    "form":           "calcareous",
+    "placement":      "display",
+    "nutrientUptake": "low",
+    "propagation":    ["fragmentation"]
+  },
+
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
+}

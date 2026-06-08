@@ -1,0 +1,113 @@
+{
+  "id": "sw-algae-045",
+  "slug": "fuzzy-caulerpa",
+  "kind": "flora",
+  "taxon": "macroalgae",
+  "waterType": "saltwater",
+  "commonName": "Fuzzy Caulerpa",
+  "scientificName": "Caulerpa verticillata",
+  "alsoKnownAs": ["Whorled Caulerpa"],
+  "category": "Macroalgae",
+
+  "taxonomy": {
+    "family": "Caulerpaceae",
+    "order": "Bryopsidales"
+  },
+
+  "nativeRange": {
+    "regions": ["Caribbean", "Indo-Pacific", "Indian Ocean", "Western Australia"],
+    "countries": ["United States (Florida)", "Caribbean islands", "Australia", "Philippines", "Indonesia"],
+    "habitat": "Shallow tropical reef flats, sandy substrates, and rocky areas in the photic zone; tends to form dense low mats",
+    "biotope": "Marine benthic; anchors via rhizoids (holdfasts) into sandbed or rockwork in sheltered coastal environments",
+    "depthRangeM": { "min": 0, "max": 30 }
+  },
+
+  "waterParameters": {
+    "temperatureC": { "min": 22.0, "max": 26.0 },
+    "pH":           { "min": 8.1, "max": 8.4 },
+    "gH":           null,
+    "kH":           { "min": 8, "max": 12 },
+    "salinity":     { "min": 1.023, "max": 1.025 }
+  },
+
+  "adultSizeCm": { "min": 1, "max": 10 },
+  "lifespanYears": null,
+
+  "tank": {
+    "minVolumeLiters": 40,
+    "minLengthCm": null,
+    "swimZone": null,
+    "decorPreferences": ["sandbed for holdfast anchoring", "rockwork for attachment", "moderate water flow"],
+    "minSandDepthCm": null
+  },
+
+  "careLevel": "beginner",
+
+  "diet": null,
+
+  "compatibility": {
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["reef fish", "most corals (with distance)", "invertebrates", "snails", "hermit crabs", "shrimp"],
+    "avoidWith": ["sensitive SPS corals (direct contact)", "herbivorous fish (tangs, rabbitfish, sea urchins)", "tanks with no photoperiod control"]
+  },
+
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": [
+      {
+        "url": "https://mosaicmacros.com/cdn/shop/files/IMG-9485.jpg",
+        "source": "Mosaic Macros",
+        "sourceType": "research-site",
+        "license": "All rights reserved",
+        "notes": "Primary product image from Mosaic Macros listing. Only trade source for this species; image shows characteristic fuzzy whorled texture.",
+        "recommended": true
+      }
+    ]
+  },
+
+  "summary": "A compact, fast-growing display Caulerpa with fine whorled branchlets that give it a distinctively fuzzy appearance. Small (to ~10 cm), beginner-friendly, and allelopathic — a specialty Mosaic-only species.",
+
+  "careNotes": "Fuzzy Caulerpa (Caulerpa verticillata) is a siphonous green macroalgae prized for its unusual whorled morphology: short, fine branchlets radiate in tight whorls around upright stalks, creating a soft, fuzzy or feathery texture unlike other Caulerpa species. Wikipedia describes the thallus as spreading outward to approximately 10 cm in dense low mats. Mosaic Macros notes that individual specimens stay quite small (reaching roughly an inch maximum), making this a well-suited display specimen for nano and mid-size reef tanks.\n\nSOURCE NOTE: As of the research date (2026-06-08), Mosaic Macros is the sole hobby trade source carrying this species. No AlgaeBarn or Top Shelf Aquatics listing was found. Taxonomy was cross-checked via Wikipedia (Caulerpaceae / Bryopsidales confirmed). Water parameters and genus-level husbandry are extrapolated from sibling entries (caulerpa-prolifera sw-algae-004, sea-grapes sw-algae-016, cactus-caulerpa sw-algae-025) where Mosaic's product page was silent.\n\nALLELOPATHY: Like all Caulerpa species, C. verticillata is expected to produce secondary metabolites (caulerpenyne, caulerpin, and sesquiterpenes) as chemical defenses. These compounds have been shown in research settings to inhibit coral growth and stress competing algae when released into the water column. Physical separation from sensitive SPS corals and use of activated carbon in the system are generally considered advisable precautions.\n\nGOING SEXUAL / REPRODUCTIVE CRASH: All Caulerpa species can undergo holocarpy — a mass reproductive event in which the organism converts its cytoplasm into gametes and effectively dies. This can release large quantities of organic matter and trigger an acute water-quality event (ammonia spike, oxygen depletion) capable of crashing a reef tank. Triggers include sharp drops in nutrients, disrupted photoperiod, or rapid temperature swings. Mitigations: run refugium lighting on a 24-hour cycle to suppress reproductive triggering; harvest regularly to keep the colony in active vegetative growth; maintain stable (not zero) nutrient levels; remove any specimen showing reproductive structures (white/translucent fronds, turbid release) immediately.\n\nINVASIVE CONCERN: Mosaic Macros explicitly notes this species is a potentially invasive species in the aquarium hobby context and is completely banned for shipment to California. Captive specimens must never be released into natural waterways.\n\nSHIPPING NOTE: Mosaic Macros notes that fronds will appear white or translucent immediately after shipping due to chloroplast migration in darkness — this is normal and reverses within hours of light exposure.\n\nGENERAL CARE: High lighting (5,000K or higher spectrum) and moderate water flow are generally considered appropriate, consistent with standard Caulerpa husbandry. Stable reef water parameters (NSW-level salinity 1.023–1.025, consistent temperature 22–26°C) are recommended. Mosaic describes the species as prolifically-growing, suggesting it responds well to regular harvesting to maintain vigorous vegetative growth and suppress reproductive triggering.\n\nCROSS-REFERENCE: See caulerpa-prolifera (sw-algae-004) for the Atlantic blade-form sibling; sea-grapes (sw-algae-016) for the grape-cluster display Caulerpa; cactus-caulerpa (sw-algae-025) for the cactus-like form. All share the allelopathy, crash, and invasive caveats documented here.",
+
+  "breedingNotes": "Propagates in the aquarium via fragmentation — small pieces of stolon or frond have been reported to establish as new plants — and by vegetative tip growth along the stolon. Sexual reproduction (holocarpy) is a stress-triggered destructive event rather than a managed propagation method; aquarists should take active steps to prevent it (see careNotes).",
+
+  "sources": {
+    "primary": {
+      "name": "Mosaic Macros",
+      "url": "https://mosaicmacros.com/products/fuzzy-caulerpa-caulerpa-verticillata",
+      "accessedDate": "2026-06-08",
+      "notes": "Sole hobby trade source for this species. Provided growth form description, 'prolifically-growing' characterization, display placement, invasive status (banned in California), shipping/color-recovery notes, and general livestock compatibility."
+    },
+    "additional": [
+      {
+        "name": "Wikipedia — Caulerpa verticillata",
+        "url": "https://en.wikipedia.org/wiki/Caulerpa_verticillata",
+        "accessedDate": "2026-06-08",
+        "notes": "Taxonomy confirmed: Family Caulerpaceae, Order Bryopsidales, Kingdom Plantae, Division Chlorophyta. Distribution: warmer waters of Caribbean, Indian Ocean, Pacific Ocean, and Western Australia (Kimberley/Pilbara coast). Morphology: dense low mats spreading to ~10 cm; whorled branchlet growth form confirmed."
+      }
+    ]
+  },
+
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": {
+    "lighting":       "high",
+    "growthRate":     "fast",
+    "form":           "macroalgae",
+    "placement":      "display",
+    "nutrientUptake": "high",
+    "propagation":    ["fragmentation", "vegetative tip growth"]
+  },
+
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
+}

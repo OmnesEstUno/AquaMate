@@ -1,0 +1,137 @@
+{
+  "id": "sw-algae-035",
+  "slug": "feather-caulerpa",
+  "kind": "flora",
+  "taxon": "macroalgae",
+  "waterType": "saltwater",
+  "commonName": "Feather Caulerpa",
+  "scientificName": "Caulerpa sertularioides",
+  "alsoKnownAs": ["Green Feather Algae", "Feather Algae"],
+  "category": "Macroalgae",
+
+  "taxonomy": {
+    "family": "Caulerpaceae",
+    "order": "Bryopsidales"
+  },
+
+  "nativeRange": {
+    "regions": ["Caribbean", "Atlantic", "Gulf of Mexico", "Indo-Pacific"],
+    "countries": [
+      "United States (North Carolina to Florida)",
+      "Mexico",
+      "Brazil",
+      "Bermuda",
+      "Bahamas",
+      "Australia",
+      "Papua New Guinea",
+      "Philippines",
+      "Palau"
+    ],
+    "habitat": "Shallow coastal and estuarine environments; grows in sandy areas, seagrass beds, and around mangrove roots",
+    "biotope": "Coastal",
+    "depthRangeM": { "min": 0, "max": 10 }
+  },
+
+  "waterParameters": {
+    "temperatureC": { "min": 22.0, "max": 26.0 },
+    "pH":           { "min": 8.1, "max": 8.4 },
+    "gH":           null,
+    "kH":           { "min": 8, "max": 12 },
+    "salinity":     { "min": 1.023, "max": 1.025 }
+  },
+
+  "adultSizeCm": { "min": 5, "max": 35 },
+  "lifespanYears": null,
+
+  "tank": {
+    "minVolumeLiters": 40,
+    "minLengthCm": null,
+    "swimZone": null,
+    "decorPreferences": ["rockwork for holdfast anchoring", "sandbed", "rubble substrate"],
+    "minSandDepthCm": null
+  },
+
+  "careLevel": "beginner",
+
+  "diet": null,
+
+  "compatibility": {
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["reef fish", "most corals (with distance)", "invertebrates", "snails", "hermit crabs", "shrimp"],
+    "avoidWith": ["sensitive SPS corals (direct contact)", "tanks with no light schedule control"]
+  },
+
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": [
+      {
+        "url": "https://mosaicmacros.com/cdn/shop/files/IMG-5586.jpg",
+        "source": "Mosaic Macros",
+        "sourceType": "research-site",
+        "license": "All rights reserved",
+        "notes": "Mosaic Macros product image showing feathery frond detail.",
+        "recommended": true
+      },
+      {
+        "url": "https://mosaicmacros.com/cdn/shop/files/IMG-9354.jpg",
+        "source": "Mosaic Macros",
+        "sourceType": "research-site",
+        "license": "All rights reserved",
+        "notes": "Mosaic Macros secondary product image.",
+        "recommended": false
+      }
+    ]
+  },
+
+  "summary": "A feathery branching green macroalgae native to the Caribbean and Atlantic, widely regarded as a fast-growing, beginner-friendly display or refugium specimen. Allelopathic like all Caulerpa; banned in California.",
+
+  "careNotes": "Caulerpa sertularioides (Feather Caulerpa) is a siphonous green macroalgae featuring attractive fern-like fronds — feathery, oppositely-branched pinnules arising from a creeping stolon — with a pale to dark bluish-green coloration. The stolon anchors into sand, rubble, or rockwork via rhizoids. Fronds typically reach 5–35 cm in length depending on conditions and the age of the colony.\n\nNOTE ON SCIENTIFIC NAME: The manifest for this entry lists 'Caulerpa sertularoides' (without the 'i') — this is a typographic error. The correct accepted name per Wikipedia and the taxonomic literature is Caulerpa sertularioides (S.G.Gmel.) M.Howe. This file uses the correct spelling.\n\nMosaic Macros is currently the primary hobby trade source for this species. AlgaeBarn and Top Shelf Aquatics do not appear to carry it at time of research. Husbandry parameters are extrapolated from genus-level Caulerpa standards corroborated by the Caulerpa prolifera sibling entry (sw-algae-004) and Wikipedia natural history data.\n\nALLELOPATHY: Like all Caulerpa species, C. sertularioides produces secondary metabolites including caulerpin and caulerpenyne. These compounds have been shown to inhibit or stress nearby corals and competing algae. It is generally advised to maintain physical separation from sensitive SPS corals and to consider running activated carbon in the system. Some keepers prefer refugium placement specifically to limit allelopathic exposure to display corals.\n\nGOING SEXUAL / REPRODUCTIVE CRASH: Under stress — particularly nutrient crashes, disrupted photoperiod, or rapid temperature swings — Caulerpa species can undergo holocarpy, converting the entire thallus to gametes and effectively dying. This process releases organic matter and gametes into the water column, posing a severe acute water-quality risk (ammonia spike, oxygen depletion) capable of crashing a reef. Mitigations: run refugium lighting on a 24-hour cycle; harvest regularly to keep the colony in active vegetative growth; maintain stable moderate nutrient levels; immediately remove any specimen showing white/translucent fronds or turbid gamete release.\n\nINVASIVE CONCERN: Caulerpa sertularioides has a wide tropical distribution and the genus includes several documented marine invasives (notably C. taxifolia in the Mediterranean). Captive specimens must never be released into natural waterways. The species is banned for sale in the state of California.\n\nAQUARIUM CARE: Generally thrives under high reef lighting (5,000K+, 8+ hours photoperiod or 24-hour for refugium use). Tolerates moderate flow; gentle tumbling suits refugium deployment. Suitable for both display and refugium placement. Fast-growing; harvest regularly to maintain vegetative growth phase and prevent nutrient export from decaying old fronds.\n\nUPON ARRIVAL: Fronds may appear white or translucent due to chloroplast displacement during dark shipping. This is normal and coloration typically recovers within hours of light exposure.",
+
+  "breedingNotes": "Propagates readily via fragmentation — separated frond pieces have been reported to establish as new plants. Vegetative tip growth along the stolon is the primary growth mode in captivity. Sexual reproduction (holocarpy) is destructive and should be actively prevented (see careNotes).",
+
+  "sources": {
+    "primary": {
+      "name": "Mosaic Macros",
+      "url": "https://mosaicmacros.com/products/feather-caulerpa-caulerpa-sertularoides",
+      "accessedDate": "2026-06-08",
+      "notes": "Sole known hobby trade source for this species at time of research. Product page confirms display suitability, feathery fern-like morphology, prolific growth, and California ban. Water parameters and general Caulerpa husbandry extrapolated from genus-level standards."
+    },
+    "additional": [
+      {
+        "name": "Wikipedia — Caulerpa sertularioides",
+        "url": "https://en.wikipedia.org/wiki/Caulerpa_sertularioides",
+        "accessedDate": "2026-06-08",
+        "notes": "Confirmed accepted scientific name spelling (sertularioides, not sertularoides), taxonomy (Family Caulerpaceae, Order Bryopsidales), native range (Caribbean/Atlantic/Indo-Pacific), habitat (shallow sandy/seagrass/mangrove), depth range (0–10 m typical, sparse to 110 m), and physical dimensions (stolon fronds to ~0.35–2 m total thallus spread; branchlets 3–11 mm)."
+      },
+      {
+        "name": "Wikipedia — Caulerpa (genus)",
+        "url": "https://en.wikipedia.org/wiki/Caulerpa",
+        "accessedDate": "2026-06-08",
+        "notes": "Confirmed genus-level secondary metabolites (caulerpin, caulerpenyne, caulerpicin) and invasive designations. Notes C. sertularioides as 'Feather algae' documented at 11 m depth."
+      }
+    ]
+  },
+
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": {
+    "lighting":       "high",
+    "growthRate":     "fast",
+    "form":           "macroalgae",
+    "placement":      "display",
+    "nutrientUptake": "high",
+    "propagation":    ["fragmentation", "vegetative tip growth"]
+  },
+
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
+}

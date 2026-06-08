@@ -1,0 +1,135 @@
+{
+  "id": "sw-algae-048",
+  "slug": "gorgonian-encrusting",
+  "kind": "flora",
+  "taxon": "macroalgae",
+  "waterType": "saltwater",
+  "commonName": "Gorgonian Encrusting",
+  "scientificName": "Cryptonemia crenulata",
+  "alsoKnownAs": ["Gorgonian-Encrusting"],
+  "category": "Red Macroalgae",
+
+  "taxonomy": {
+    "family": "Halymeniaceae",
+    "order": "Halymeniales"
+  },
+
+  "nativeRange": {
+    "regions": [
+      "Western Atlantic",
+      "Caribbean Sea",
+      "Gulf of Mexico",
+      "Atlantic Ocean Islands",
+      "Brazil",
+      "West Africa",
+      "Indian Ocean Islands",
+      "Philippines",
+      "Fiji"
+    ],
+    "countries": [],
+    "habitat": "Hard substrate (rock, dead coral skeleton, gorgonian skeletons) in the photic zone",
+    "biotope": "Coral reef and rocky reef, often found growing over dead gorgonian skeletons and similar calcareous or fibrous substrates",
+    "depthRangeM": { "min": 10, "max": 20 }
+  },
+
+  "waterParameters": {
+    "temperatureC": { "min": 22, "max": 26 },
+    "pH":           { "min": 8.1, "max": 8.4 },
+    "gH":           null,
+    "kH":           null,
+    "salinity":     { "min": 1.023, "max": 1.026 }
+  },
+
+  "adultSizeCm": { "min": 2, "max": 15 },
+  "lifespanYears": null,
+
+  "tank": {
+    "minVolumeLiters": 40,
+    "minLengthCm": null,
+    "swimZone": null,
+    "decorPreferences": ["live rock", "dead coral skeleton", "gorgonian skeleton", "hard substrate for attachment"],
+    "minSandDepthCm": null
+  },
+
+  "careLevel": "intermediate",
+
+  "diet": null,
+
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["reef fish", "snails", "hermit crabs", "shrimp", "corals"],
+    "avoidWith": ["herbivorous fish that graze macroalgae (tangs, rabbitfish at high stocking densities)"]
+  },
+
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": [
+      {
+        "url": "https://mosaicmacros.com/cdn/shop/files/IMG-9481.jpg",
+        "source": "Mosaic Macros",
+        "sourceType": "research-site",
+        "license": "All rights reserved",
+        "notes": "Product image from Mosaic Macros listing for Gorgonian-Encrusting Cryptonemia crenulata.",
+        "recommended": true
+      }
+    ]
+  },
+
+  "summary": "A crinkled, thin-bladed red encrusting alga from the Halymeniaceae family, traded as 'Gorgonian Encrusting' for its tendency to grow over dead gorgonian skeletons and other hard substrates. Generally advised for display reef tanks under medium lighting.",
+
+  "careNotes": "Cryptonemia crenulata is a sheet-like red macroalgae that spreads as a thin, frilly encrusting growth over hard substrates — dead gorgonian skeletons, bare rock, and coral rubble are commonly documented substrates in the wild and in captivity. The trade name 'Gorgonian Encrusting' reflects this growth habit, not a taxonomic relationship to gorgonian corals. In aquaria it tends to grow slowly and is generally kept as a display specimen rather than a nutrient-export workhorse. Standard reef water parameters are generally considered adequate: temperature around 22–26°C, pH 8.1–8.4, salinity around SG 1.023–1.026. Medium-intensity full-spectrum lighting is typically advised; overly blue-heavy coral lighting has been noted as suboptimal for many red macroalgae. Micronutrient supplementation (particularly iron and iodine) may support coloration and growth rate. Mosaic Macros is currently the sole documented hobby source for this species; husbandry is extrapolated from family-level (Halymeniaceae) care guidance and the genus description noting association with gorgonians and sponges. Propagation in captivity is by fragmentation — cutting or splitting encrusted fragments. This is a Mosaic-only specialty entry; broader hobby documentation is limited.",
+
+  "breedingNotes": null,
+
+  "sources": {
+    "primary": {
+      "name": "Mosaic Macros",
+      "url": "https://mosaicmacros.com/products/gorgonian-encrusting-algae-cryptonemia-crennulata",
+      "accessedDate": "2026-06-08",
+      "notes": "Sole hobby source. Provides species description and genus context; specific husbandry parameters extrapolated from genus and family care guidance."
+    },
+    "additional": [
+      {
+        "name": "World Register of Marine Species (WoRMS)",
+        "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=145238",
+        "accessedDate": "2026-06-08",
+        "notes": "Confirmed accepted name Cryptonemia crenulata (J.Agardh) J.Agardh, 1851; taxonomy: Order Halymeniales, Family Halymeniaceae."
+      },
+      {
+        "name": "GulfBase",
+        "url": "https://www.gulfbase.org/species/cryptonemia-crenulata",
+        "accessedDate": "2026-06-08",
+        "notes": "Confirmed wide Atlantic/Indo-Pacific distribution and hard-substrate habitat; depth range 10–20 m."
+      },
+      {
+        "name": "Mosaic Macros — General Macroalgae Care",
+        "url": "https://mosaicmacros.com/blogs/macroalgae-care-sheets-compatibility/macroalgae-care-the-basics-of-keeping-macroalgae-in-your-reef",
+        "accessedDate": "2026-06-08",
+        "notes": "General reef macroalgae parameters: temp 72–78°F (22–26°C), pH 8.1–8.4, nitrate 5–20 ppm, phosphate 0.02–0.1 ppm; used as baseline for this species."
+      }
+    ]
+  },
+
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": {
+    "lighting": "medium",
+    "growthRate": "slow",
+    "form": "encrusting",
+    "placement": "display",
+    "nutrientUptake": "low",
+    "propagation": ["fragmentation"]
+  },
+
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
+}

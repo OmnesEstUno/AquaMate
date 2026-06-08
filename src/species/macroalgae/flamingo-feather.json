@@ -1,0 +1,110 @@
+{
+  "id": "sw-algae-039",
+  "slug": "flamingo-feather",
+  "kind": "flora",
+  "taxon": "macroalgae",
+  "waterType": "saltwater",
+  "commonName": "Flamingo Feather",
+  "scientificName": "Heterosiphonia gibbesii",
+  "alsoKnownAs": [],
+  "category": "Macroalgae",
+  "taxonomy": {
+    "family": "Dasyaceae",
+    "order": "Ceramiales"
+  },
+  "nativeRange": {
+    "regions": ["Caribbean", "Western Atlantic", "South Atlantic"],
+    "countries": ["United States", "Bermuda", "Netherlands Antilles", "Aruba", "Bonaire", "Curaçao", "Brazil"],
+    "habitat": "Marine subtidal and shallow reef zones; typically found on hard substrates and reef rock in moderate-to-high flow environments.",
+    "biotope": "Coral reef",
+    "depthRangeM": { "min": 0, "max": 30 }
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 24.4, "max": 26.7 },
+    "pH": { "min": 7.8, "max": 8.4 },
+    "gH": null,
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.023, "max": 1.026 }
+  },
+  "adultSizeCm": { "min": 5, "max": 20 },
+  "lifespanYears": null,
+  "tank": {
+    "minVolumeLiters": 40,
+    "minLengthCm": null,
+    "swimZone": null,
+    "decorPreferences": ["live rock", "rubble substrate for holdfast attachment"],
+    "minSandDepthCm": null
+  },
+  "careLevel": "advanced",
+  "diet": null,
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["peaceful reef fish", "non-herbivorous invertebrates", "corals", "copepods", "amphipods"],
+    "avoidWith": ["herbivorous fish", "turbo snails", "emerald crabs", "sea urchins", "rabbitfish", "tangs"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": [
+      {
+        "url": "https://mosaicmacros.com/cdn/shop/files/IMG-5592.jpg",
+        "source": "Mosaic Macros",
+        "sourceType": "research-site",
+        "license": "All rights reserved",
+        "notes": "Product image from the Mosaic Macros flamingo-feather listing; sole hobby vendor with this species.",
+        "recommended": true
+      }
+    ]
+  },
+  "summary": "A delicate, feathery red macroalgae (Rhodophyta) from the Caribbean, prized for its ornamental value in display reef tanks. Coloration tends to range from pink to deep red, and has been reported to shift toward yellow-orange under very high lighting.",
+  "careNotes": "Flamingo Feather is considered one of the more challenging ornamental macroalgae and is generally recommended for experienced reef keepers. It has been noted as 'rarely offered due to its difficulty' by specialty vendors. The species requires strong, consistent water flow — placement near a powerhead or in high-circulation areas of the display tank is typically advised. Moderate nutrient levels are generally adequate; very high lighting has been observed to bleach the coloration toward orange or yellow, so medium light intensity tends to preserve the characteristic pink-red hue. Coloration varies naturally from pink to red. The delicate branched thallus is palatable to many herbivores; keeping it away from turbo snails, emerald crabs, sea urchins, and herbivorous fish (tangs, rabbitfish) is strongly advised. Copepods and amphipods have been documented sheltering among the branches, which may benefit refugium diversity. Attaches via holdfast to hard substrate (live rock, rubble). Mosaic Macros is the sole known current hobby trade source for this species; other specialty vendors (Reef Cleaners, Aquaculture Nursery Farms) have carried it historically but stock is frequently unavailable.",
+  "breedingNotes": "In captivity, propagation is generally accomplished by fragmentation — separating a healthy branch section and allowing it to attach to new substrate. No reports of gametophytic or spore-based reproduction in the aquarium hobby context were found.",
+  "sources": {
+    "primary": {
+      "name": "Mosaic Macros",
+      "url": "https://mosaicmacros.com/products/flamingo-feather-algae-heterosiphonia-gibbesii",
+      "accessedDate": "2026-06-08",
+      "notes": "Sole current hobby trade source; product description confirms species identification and notes rarity/difficulty. Limited husbandry detail provided."
+    },
+    "additional": [
+      {
+        "name": "Reef Cleaners",
+        "url": "https://www.reefcleaners.org/aquarium-store/flamingo-feather-algae",
+        "accessedDate": "2026-06-08",
+        "notes": "Secondary hobbyist trade source; confirmed care level (advanced/difficult), high-flow requirement, compatibility concerns with herbivores, and approximate size range (ships ~2×3 in, grows to 8 in / ~20 cm)."
+      },
+      {
+        "name": "WoRMS — World Register of Marine Species",
+        "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=373096",
+        "accessedDate": "2026-06-08",
+        "notes": "Taxonomic authority; confirms accepted name Heterosiphonia gibbesii (Harvey) Falkenberg, 1901; synonym Dasya gibbesii Harvey, 1853. WoRMS listed family as Delesseriaceae; however AlgaeBase, macroalgae.org, and Wikispecies all agree on Dasyaceae — Dasyaceae used as authoritative per playbook."
+      },
+      {
+        "name": "TankFacts",
+        "url": "https://www.tankfacts.com/saltwater/plants/gibbesii/",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-verified water parameters: temp 76–80°F (24.4–26.7°C), pH 7.8–8.4, SG 1.023–1.026, kH 8–12 dKH. Parameters are consistent with standard reef/saltwater values."
+      }
+    ]
+  },
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": {
+    "lighting": "medium",
+    "growthRate": "medium",
+    "form": "macroalgae",
+    "placement": "display",
+    "nutrientUptake": "low",
+    "propagation": ["fragmentation"]
+  },
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
+}
