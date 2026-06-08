@@ -5,82 +5,122 @@
   "taxon": "fish",
   "waterType": "freshwater",
   "commonName": "Otocinclus",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "scientificName": "Otocinclus vittatus",
+  "alsoKnownAs": ["Oto Cat", "Dwarf Suckermouth", "Common Oto", "Otocinclus catfish"],
   "category": "Catfish",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Loricariidae",
+    "order": "Siluriformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
+    "regions": ["South America"],
+    "countries": ["Brazil", "Peru", "Colombia", "Venezuela", "Argentina", "Bolivia"],
+    "habitat": "Slow-flowing to moderately flowing shallow rivers and streams with silt, tannins, and abundant biofilm/aufwuchs on submerged surfaces; frequently associated with aquatic vegetation.",
+    "biotope": "South American river/stream margin",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
-    "kH": null,
+    "temperatureC": { "min": 20, "max": 26 },
+    "pH": { "min": 6.0, "max": 7.5 },
+    "gH": { "min": 3, "max": 15 },
+    "kH": { "min": 2, "max": 10 },
     "salinity": null
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 2.5, "max": 4.5 },
+  "lifespanYears": { "min": 3, "max": 5 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 60,
+    "minLengthCm": 60,
+    "swimZone": "bottom",
+    "decorPreferences": [
+      "established biofilm on surfaces (mandatory)",
+      "live plants",
+      "driftwood",
+      "smooth river stones",
+      "broad-leaved plants for resting"
+    ],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "herbivore",
+    "notes": "Primary diet is aufwuchs — biofilm, diatoms, and soft algae grazed continuously from hard surfaces and plant leaves. Accepts algae wafers, blanched vegetables (zucchini, green beans, cucumber), and gel foods such as Repashy Soilent Green. Does not effectively consume tough or filamentous algae. In new or sparse tanks, starvation is a documented risk even when supplemental foods are offered, as the species appears strongly conditioned to grazing behavior."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "peaceful",
+    "grouping": "schooling",
+    "minGroupSize": 6,
+    "goodWith": [
+      "small peaceful tetras",
+      "rasboras",
+      "corydoras",
+      "small livebearers",
+      "dwarf cichlids (peaceful species)",
+      "freshwater shrimp",
+      "snails"
+    ],
+    "avoidWith": [
+      "aggressive or large cichlids",
+      "fin-nipping species",
+      "large predatory fish",
+      "boisterous fast-feeding tankmates that outcompete at feeding"
+    ]
   },
   "media": {
     "primaryImage": "otocinclus.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Otocinclus.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "Tiny armored catfish from South American streams; a popular algae-grazing cleanup crew for planted tanks. Best kept in groups of 6+ in mature tanks with established biofilm.",
+  "careNotes": "CRITICAL: Otocinclus have been reported to decline rapidly — sometimes within the first two weeks — when added to tanks lacking mature biofilm. The species is a continuous grazer and supplemental foods alone tend to be insufficient in tanks under roughly 4–6 months old. A tank should ideally have visible biofilm/diatom growth on hardscape and glass before purchase.\n\nThe trade 'Common Oto' is typically a genus-level mix. O. vittatus (slender body, faint lateral stripe) is most commonly exported, but O. macrospilus (Olive Oto, deeper body) and O. cocama (Zebra Oto, distinctive dark bars) are also sold under the same label. Care requirements are largely similar across the genus.\n\nThe vast majority of specimens in the trade are wild-caught; captive-bred individuals are uncommon. Wild-caught fish are generally more stressed in transit and benefit from quarantine in a biofilm-rich tank before introduction to the display.\n\nWater quality should be stable — Otocinclus have been observed to be sensitive to ammonia spikes and abrupt parameter changes. Soft to moderately hard water is accepted; very hard or alkaline water tends to be suboptimal.\n\nFishBase lists the maximum recorded size for O. vittatus at 3.3 cm TL; trade specimens often reach 4–4.5 cm (likely including other Otocinclus spp. in the mix). adultSizeCm reflects this genus-level range.\n\nCopper-based medications should be avoided — as an armored catfish with reduced scalation, the species is commonly considered sensitive to copper treatments, consistent with other loricariid catfishes.\n\nOtocinclus are not strong jumpers, but a fitted lid is advisable as with most small fish.",
+  "breedingNotes": "Spawning has been reported in well-maintained aquaria following a condition period on varied foods and a water change to simulate seasonal cues. Spawning follows a T-position similar to corydoras; eggs are adhesive and deposited on plant leaves and glass. Clutch size is typically 30–50 eggs; fry are reported to hatch in approximately 3 days at typical tank temperatures. Rearing fry requires abundant soft algae and fine biofilm — commercial fry foods are often not accepted initially. Breeding is considered difficult relative to other small catfish.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "Aquarium Co-Op",
+      "url": "https://www.aquariumcoop.com/blogs/aquarium/otocinclus-catfish-care-guide",
+      "accessedDate": "2026-06-08",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Otocinclus-vittatus.html",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked size (3.3 cm TL for O. vittatus), temperature (20–25°C), pH (6.0–7.5), hardness (dH 2–18), native basin distribution (Amazon, Orinoco, Paraná/Paraguay, Xingu, Tocantins). Size range widened to genus-level to reflect trade mix. Temperature min lowered to 20°C per FishBase; max consensus at 26°C across three sources."
+      },
+      {
+        "name": "Fishkeeping World",
+        "url": "https://www.fishkeepingworld.com/otocinclus/",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked temperature (22–26°C), pH (6.8–7.5), gH (7–15 dGH), lifespan (3–5 years), min tank (10 gal / ~38L — adjusted upward to 60L for group of 6+ per controller brief and playbook bias toward larger tank for schooling species). Min group size: 6+ confirmed. SeriouslyFish (404) and PracticalFishkeeping (403) were attempted and blocked; Fishkeeping World used as second cross-check source instead."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
+    "breedingDifficulty": "difficult",
+    "breedingNotes": "Egg-layer; spawning in captivity has been documented but is uncommon. Requires mature, algae-rich tank and conditioning on varied diet. T-position spawning; adhesive eggs on plants/glass; fry require biofilm.",
+    "conspecificAggression": "none",
+    "finNippy": false,
     "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
-    "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": true,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "difficult",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": true,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -90,6 +130,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
 }

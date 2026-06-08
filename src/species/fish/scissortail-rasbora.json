@@ -5,82 +5,109 @@
   "taxon": "fish",
   "waterType": "freshwater",
   "commonName": "Scissortail Rasbora",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "scientificName": "Rasbora trilineata",
+  "alsoKnownAs": ["Three-lined Rasbora", "Scissortail"],
   "category": "Rasbora",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Danionidae",
+    "order": "Cypriniformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
+    "regions": ["Southeast Asia"],
+    "countries": ["Thailand", "Laos", "Cambodia", "Malaysia", "Indonesia"],
+    "habitat": "Inhabits a range of environments from swiftly-flowing forest hill streams to sluggish blackwaters associated with areas of ancient peat swamp forest; also found in lakes, swamps, and slow-flowing areas of rivers.",
+    "biotope": "Clearwater",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
-    "kH": null,
+    "temperatureC": { "min": 22, "max": 26 },
+    "pH": { "min": 6.0, "max": 7.5 },
+    "gH": { "min": 2, "max": 12 },
+    "kH": { "min": 3, "max": 12 },
     "salinity": null
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 9, "max": 14 },
+  "lifespanYears": { "min": 5, "max": 8 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 150,
+    "minLengthCm": 120,
+    "swimZone": "mid",
+    "decorPreferences": ["open swimming space", "planted margins", "subdued lighting optional", "tannin-stained water optional"],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "beginner",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Wild diet is primarily invertebrates, particularly insects. In captivity, has been documented readily accepting dried flakes and pellets; benefits from regular offerings of frozen or live foods such as Daphnia, bloodworms, and brine shrimp."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "peaceful",
+    "grouping": "schooling",
+    "minGroupSize": 6,
+    "goodWith": ["barbs", "rainbowfish", "loaches", "corydoras", "peaceful cichlids", "other rasboras"],
+    "avoidWith": ["fin-nipping species", "slow-moving long-finned fish", "aggressive cichlids"]
   },
   "media": {
     "primaryImage": "scissortail_rasbora.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Scissortail Rasbora.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "Active, peaceful schooling rasbora with a distinctive scissor-action caudal fin. Best kept in groups of 6+ in tanks 150 L or larger with open swimming lanes. A generally beginner-friendly dither fish also suited to larger community and cichlid setups.",
+  "careNotes": "The scissortail rasbora (also sold as the three-lined rasbora) is larger than many popular rasboras — adults tend to reach 10–14 cm — so it generally requires more space than a typical nano schooler. An active, fast swimmer that benefits from plenty of open mid-water swimming room with planted margins for refuge. A tight-fitting lid is strongly advised, as this species has been documented as an accomplished jumper. Sources consistently note it is intolerant of accumulated organic waste, so regular water changes and good filtration are advised. Generally considered peaceful and compatible with most similarly-sized community fish; makes an effective dither fish in larger tanks with cichlids. Taxonomy note: though historically grouped under Cyprinidae (the broad traditional family), current molecular taxonomy places Rasbora trilineata in family Danionidae (subfamily Rasborinae). Most aquarium hobby sources still list Cyprinidae — both refer to the same fish.",
+  "breedingNotes": "Generally considered one of the more accessible rasboras to breed. An egg-scatterer with no parental care; adults should be removed after spawning to prevent egg predation. Spawning tends to occur more readily in dimly lit aquaria over fine-leaved plants or a spawning mesh. Eggs typically hatch within 18–48 hours; fry become free-swimming 24–48 hours after hatching. Initial foods should be infusoria or commercial fry food, transitioning to baby brine shrimp.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "Aquarium Co-Op",
+      "url": "https://www.aquariumcoop.com/blogs/aquarium/top-10-rasboras",
+      "accessedDate": "2026-06-08",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "SeriouslyFish",
+        "url": "https://www.seriouslyfish.com/species/rasbora-trilineata/",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked size (reports up to 15 cm/6 in), water parameters, tank dimensions, native range, diet, and breeding. Minor size disagreement with Aquarium Co-Op (10–13 cm); SeriouslyFish gives larger value. Averaged to 9–14 cm."
+      },
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Rasbora-trilineata.html",
+        "accessedDate": "2026-06-08",
+        "notes": "Confirmed taxonomy (Danionidae, Cypriniformes), max size 13 cm, temperature 23–25°C, pH 6.0–8.0, gH 5–12 dH. Used as authoritative taxonomy source."
+      },
+      {
+        "name": "Aquarium Source",
+        "url": "https://www.aquariumsource.com/scissortail-rasbora/",
+        "accessedDate": "2026-06-08",
+        "notes": "Additional cross-check for size (3.5–6 in / 9–15 cm), lifespan (~5–7 years), swim zone (upper-mid), and tank minimum (20–30 gal / 76–114 L). Tank minimum set at 150 L per AquariumCoop and SeriouslyFish guidance for active schooling species."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
+    "breedingDifficulty": "moderate",
+    "breedingNotes": "Egg-scatterer with no parental care. Dimly lit aquaria recommended for spawning. Eggs hatch 18–48 hours; fry free-swimming 24–48 hours later.",
+    "conspecificAggression": "none",
+    "finNippy": false,
     "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
+    "escapeRisk": "high",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
     "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -90,6 +117,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
 }

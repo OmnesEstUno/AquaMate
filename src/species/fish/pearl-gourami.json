@@ -5,82 +5,128 @@
   "taxon": "fish",
   "waterType": "freshwater",
   "commonName": "Pearl Gourami",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "scientificName": "Trichopodus leerii",
+  "alsoKnownAs": ["Mosaic Gourami", "Lace Gourami", "Diamond Gourami", "Trichogaster leeri"],
   "category": "Gourami",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Osphronemidae",
+    "order": "Anabantiformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
+    "regions": ["Southeast Asia"],
+    "countries": ["Thailand", "Malaysia", "Indonesia"],
+    "habitat": "Shallow lowland swamps, peat swamp forests, and slow-moving streams with dense vegetation and typically acidic, blackwater conditions",
+    "biotope": "Peat swamp / blackwater",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
-    "kH": null,
+    "temperatureC": { "min": 24, "max": 29 },
+    "pH": { "min": 5.5, "max": 8.0 },
+    "gH": { "min": 4, "max": 20 },
+    "kH": { "min": 4, "max": 15 },
     "salinity": null
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 10, "max": 12 },
+  "lifespanYears": { "min": 4, "max": 8 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 150,
+    "minLengthCm": 90,
+    "swimZone": "top",
+    "decorPreferences": [
+      "floating plants (water sprite, frogbit)",
+      "dense planted areas for cover",
+      "open mid-water swimming space",
+      "sand or fine gravel substrate",
+      "driftwood (optional, supports soft-water biotope)"
+    ],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "beginner",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Generally accepts most prepared foods including flakes, pellets, and freeze-dried foods. Live and frozen offerings such as brine shrimp, daphnia, and bloodworms tend to bring out coloration and encourage natural foraging. Occasional blanched vegetables are also accepted. Best fed small amounts 2-3 times per day."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "peaceful",
+    "grouping": "pair",
+    "minGroupSize": 2,
+    "goodWith": [
+      "tetras",
+      "danios",
+      "rasboras",
+      "Corydoras catfish",
+      "loaches",
+      "dwarf cichlids",
+      "peaceful livebearers",
+      "small plecos"
+    ],
+    "avoidWith": [
+      "fin-nipping species (tiger barbs)",
+      "large or aggressive cichlids",
+      "very boisterous fast swimmers that may cause stress"
+    ]
   },
   "media": {
     "primaryImage": "pearl_gourami.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Pearl Gourami.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "A large, pearl-spotted gourami from SE Asia known for being one of the most peaceful gouramis available. Males develop a vivid orange-red throat and extended fin filaments. Well-suited to planted community tanks.",
+  "careNotes": "The Pearl Gourami is generally considered one of the easiest and most beginner-friendly of the larger gourami species. It is commonly regarded as more peaceful than the Dwarf Gourami in mixed-species setups, though males have been known to be territorial toward one another and can be aggressive toward females when conditioning for spawning — a 1M:2F+ ratio with adequate cover is generally advised for groups.\n\nAs a labyrinth fish (obligate air-breather), it regularly surfaces to breathe atmospheric air. A gap must be maintained between the waterline and the tank lid, and the lid should fit snugly — escape risk is moderate since these fish may jump, particularly when startled or during spawning activity.\n\nThe species was reclassified from Trichogaster leeri to Trichopodus leerii; the older name still circulates in trade literature. It is native to peat swamp environments in the Malay Peninsula, Sumatra, and Borneo, and is listed as Near Threatened on the IUCN Red List (2019) due to habitat loss. Captive-bred stock is widely available and hardy across a broad parameter range.\n\nWater parameters: sources vary somewhat. SeriouslyFish gives pH 5.5-8.0 and hardness 2-30 dH; FishBase gives pH 6.0-8.0 and hardness 5-19 dH; Fishkeeping World gives pH 6.0-8.0 and hardness 5-15 dH. The averaged ranges used here (pH 5.5-8.0, gH 4-20) reflect these sources. Temperature range averaged from three sources: 24-29°C.\n\nLifespan reports range from 4-5 years (Fishkeeping World) to 8+ years (SeriouslyFish); 4-8 years used here as a consensus range.",
+  "breedingNotes": "A bubble-nest builder, generally considered moderately straightforward to breed in a species or conditioned pair setup. Males construct nests at the water surface using air bubbles and plant material — nests can reach up to ~25 cm across. A breeding tank with no more than 15-20 cm water depth, floating plants, and gentle air-powered filtration is commonly advised. Conditioning with live or frozen foods helps trigger spawning. Spawning typically produces 200-300 eggs; hatching occurs within roughly 20-30 hours at typical breeding temperatures. Fry become free-swimming around 4-5 days post-hatching. The male guards the nest and should be removed once fry are free-swimming. Fry initially rely on gill respiration and are sensitive to cold air — keeping the air space above the water warm is important in the early weeks.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "SeriouslyFish",
+      "url": "https://www.seriouslyfish.com/species/trichopodus-leerii/",
+      "accessedDate": "2026-06-08",
+      "notes": "Specialist species profile used as primary; most complete parameter and biology data. Used as primary in place of Aquarium Co-Op, which had no dedicated species page for this entry — only a passing mention in a list article without detailed parameters."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/4674",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked taxonomy, native range, adult size (12 cm TL), water parameters (temp 24-28°C, pH 6.0-8.0, dH 5-19), and tank minimum length (120 cm). Confirmed family Osphronemidae, order Anabantiformes. IUCN Near Threatened status noted."
+      },
+      {
+        "name": "Fishkeeping World",
+        "url": "https://fishkeepingworld.com/pearl-gourami/",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked tank size (30 gal / ~114 L), water parameters (temp 25-28°C, pH 6-8, hardness 5-15 dH), adult size (4-5 inches), diet, lifespan (up to 5 years), and compatibility. Minor disagreements on max temperature (28°C vs SeriouslyFish 30°C) and lifespan (5 vs 8+ years) — averaged values used."
+      },
+      {
+        "name": "Aquarium Co-Op",
+        "url": "https://www.aquariumcoop.com/blogs/aquarium/top-5-gouramis",
+        "accessedDate": "2026-06-08",
+        "notes": "Confirmed peaceful temperament, omnivore diet, community suitability, and approximate size (5 inches / 13 cm). No detailed parameters; used for behavioral and husbandry corroboration only."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
+    "breedingDifficulty": "moderate",
+    "breedingNotes": "Bubble-nest builder. Relatively straightforward to breed; see breedingNotes field for full details.",
+    "conspecificAggression": "moderate",
+    "finNippy": false,
     "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
+    "escapeRisk": "moderate",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
     "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -90,6 +136,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
+  "dataStatus": "researched",
   "lastReviewed": null
 }

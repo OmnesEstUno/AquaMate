@@ -5,82 +5,125 @@
   "taxon": "fish",
   "waterType": "freshwater",
   "commonName": "Paradise Fish",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "scientificName": "Macropodus opercularis",
+  "alsoKnownAs": ["Paradise Gourami", "Chinese Fighting Fish"],
   "category": "Oddball",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Osphronemidae",
+    "order": "Anabantiformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
+    "regions": ["East Asia", "Southeast Asia"],
+    "countries": ["China", "Taiwan", "Vietnam", "Laos"],
+    "habitat": "Lowland habitats including rice paddies, irrigation canals, river backwaters, natural ponds, and slow-moving streams; occasionally found in upland hill streams.",
+    "biotope": "Rice paddy / shallow lowland stream",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
-    "kH": null,
+    "temperatureC": { "min": 16, "max": 26 },
+    "pH": { "min": 6.0, "max": 8.0 },
+    "gH": { "min": 5, "max": 20 },
+    "kH": { "min": 4, "max": 15 },
     "salinity": null
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 8, "max": 10 },
+  "lifespanYears": { "min": 8, "max": 10 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 75,
+    "minLengthCm": 80,
+    "swimZone": "all",
+    "decorPreferences": [
+      "Floating plants (for bubble-nest anchoring)",
+      "Dense vegetation for cover and line-of-sight breaks",
+      "Driftwood and leaf litter",
+      "Tight-fitting lid essential (labyrinth fish; escape risk)"
+    ],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Accepts a variety of foods including quality flake, pellets, and frozen or live foods such as bloodworms, brine shrimp, daphnia, and mosquito larvae. A high-protein diet tends to support best coloration and condition."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": [
+      "Fast-swimming barbs (e.g. Tiger Barb, Rosy Barb)",
+      "Larger loaches",
+      "Peaceful bottom-dwelling catfish",
+      "Robust danios"
+    ],
+    "avoidWith": [
+      "Other male Paradise Fish (severe conspecific aggression)",
+      "Other anabantids or labyrinth fish",
+      "Small nano fish (e.g. Neon Tetras — risk of predation)",
+      "Long-finned species (fin nipping)",
+      "Freshwater shrimp (likely eaten)"
+    ]
   },
   "media": {
     "primaryImage": "paradise_fish.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Paradise Fish.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "One of the earliest ornamental fish kept in Europe (1860s), the Paradise Fish is a coldwater-tolerant labyrinth fish from East Asia, valued for its vivid tiger-stripe coloration and undemanding water requirements. Males tend to be aggressive and are best kept singly.",
+  "careNotes": "The Paradise Fish is considered one of the first ornamental fish imported to Europe, introduced around 1869. Males tend to be highly aggressive toward one another and toward other anabantids; keeping two males together in any but very large, heavily planted tanks is generally inadvisable. Males have also been known to harass and injure females outside of spawning periods — using a tank with dense vegetation or providing a divider is advisable. The species has a labyrinth organ allowing it to breathe atmospheric air; a tight-fitting lid is important both to prevent escape and to keep the air above the water warm and humid (important for proper labyrinth organ development in fry). It tends to do well at indoor room temperature without a heater in temperate climates (16–26°C); SeriouslyFish notes it can tolerate down to approximately 10°C but this is not a recommended long-term temperature. Males will eat small fish such as neon tetras, and shrimp are generally at risk. Selectively-bred color varieties exist including albino, xanthic (yellow), red, and stripeless forms; wild-type specimens are increasingly rare in the trade due to extensive farm-bred strains. Some hobbyists report benefits from a cooler winter rest period. Water temperature disagreement between sources: Aquarium Co-Op 16–27°C, SeriouslyFish 10–22°C, FishBase 16–26°C, Fishkeeping World 21–28°C; 16–26°C used as the averaged consensus excluding the outlier cold floor.",
+  "breedingNotes": "Bubble nest builder, similar to Betta. Males construct nests at the surface, often anchored in floating vegetation. Spawning is initiated by a typical osphronemid embrace beneath the nest; several hundred eggs are typically produced. Eggs hatch in approximately 3–4 days. Fry require infusoria-grade food initially, then microworms and baby brine shrimp. Males tend to guard the nest actively but lose interest once fry are free-swimming; at that stage adults are generally removed to prevent predation. Slightly raising the temperature and using softer water has been reported to help induce spawning. Breeding is considered accessible for hobbyists with some labyrinth-fish experience.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "Aquarium Co-Op",
+      "url": "https://www.aquariumcoop.com/blogs/aquarium/paradise-fish",
+      "accessedDate": "2026-06-08",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "SeriouslyFish",
+        "url": "https://www.seriouslyfish.com/species/macropodus-opercularis/",
+        "accessedDate": "2026-06-08",
+        "notes": "Primary cross-verification source. Gave temperature range 10–22°C (lower than other sources); 16–26°C consensus used. Confirmed pH 6.0–8.0, Osphronemidae/Anabantiformes taxonomy, native range, bubble-nest breeding, and aggression profile."
+      },
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Macropodus-opercularis.html",
+        "accessedDate": "2026-06-08",
+        "notes": "Confirmed temperature 16–26°C, pH 6.0–8.0, hardness 5–19 dH, max size ~6.7 cm SL, native range China/Taiwan/Vietnam. Used as tiebreaker for temperature floor."
+      },
+      {
+        "name": "Fishkeeping World",
+        "url": "https://www.fishkeepingworld.com/paradise-fish/",
+        "accessedDate": "2026-06-08",
+        "notes": "Confirmed omnivore diet, aggression profile, 8–10 year lifespan, 20-gallon minimum tank size. Temperature given as 70–82°F (21–28°C); upper end slightly higher than FishBase, averaged in."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
+    "breedingDifficulty": "easy",
+    "breedingNotes": "Bubble nest builder. Males construct surface nests and guard eggs/early fry. Several hundred eggs typical per spawn. Fry require infusoria, then microworm and baby brine shrimp. Adults removed once fry are free-swimming.",
+    "conspecificAggression": "high",
+    "finNippy": true,
     "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
+    "escapeRisk": "high",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
     "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -90,6 +133,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
+  "dataStatus": "researched",
   "lastReviewed": null
 }

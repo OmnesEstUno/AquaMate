@@ -5,82 +5,109 @@
   "taxon": "fish",
   "waterType": "freshwater",
   "commonName": "Pictus Catfish",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "scientificName": "Pimelodus pictus",
+  "alsoKnownAs": ["Pictus Cat", "Angel Cat", "Spotted Pimelodus"],
   "category": "Catfish",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Pimelodidae",
+    "order": "Siluriformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
+    "regions": ["South America"],
+    "countries": ["Brazil", "Colombia", "Peru", "Venezuela"],
+    "habitat": "Shallow, flowing waters over sandy or muddy substrates in major river channels and tributaries",
+    "biotope": "Amazon and Orinoco River basins",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
-    "kH": null,
+    "temperatureC": { "min": 22, "max": 26 },
+    "pH": { "min": 6.0, "max": 7.5 },
+    "gH": { "min": 2, "max": 15 },
+    "kH": { "min": 2, "max": 10 },
     "salinity": null
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 10, "max": 13 },
+  "lifespanYears": { "min": 4, "max": 8 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 150,
+    "minLengthCm": 120,
+    "swimZone": "bottom",
+    "decorPreferences": ["driftwood", "caves", "dim lighting", "soft substrate", "open swimming areas"],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Sinking pellets, frozen bloodworms, blackworms, and Tubifex are generally well accepted. Will readily consume small tankmates that fit in its mouth. Has been known to overeat, so portion control is advisable."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "semi-aggressive",
+    "grouping": "shoaling",
+    "minGroupSize": 3,
+    "goodWith": ["medium characins", "rainbowfish", "robust cyprinids", "loaches", "larger barbs", "Loricariid catfish", "Doradid catfish", "medium-sized cichlids"],
+    "avoidWith": ["small tetras (neon, ember, cardinal)", "guppies", "small rasboras", "slow-moving or long-finned fish", "any fish small enough to be swallowed"]
   },
   "media": {
     "primaryImage": "pictus_catfish.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Pictus Catfish.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "A fast, active silver catfish with bold black spots and famously long barbels, native to Amazonian and Orinoco river systems. Best kept in groups of 3 or more; will eat small tankmates.",
+  "careNotes": "Pictus Catfish tend to be most active during crepuscular and nighttime hours, though they will venture out during the day in dimly lit tanks with adequate hiding spots. They are scaleless and thus sensitive to copper-based medications — always use copper-free treatments. Their very long barbels are easily damaged by sharp decor; smooth driftwood, rounded rocks, and soft substrate are strongly preferred.\n\nThis species is commonly sold with an inflated size claim of up to 25 cm — this appears to be a misidentification with larger related pimelodids. Reliable sources and FishBase place the true adult maximum around 11–13 cm.\n\nSmall tankmates such as neon tetras, ember tetras, guppies, and similar nano fish are at serious risk of being eaten, particularly at night. A minimum group of 3 individuals is advisable; single specimens tend to hide constantly and show stress. They are active, fast swimmers and appreciate a long tank footprint (120 cm / 4 ft minimum) with open midwater swimming space alongside caves and driftwood.\n\nStrong filtration and regular water changes (weekly ~25–30%) are important for long-term health. In well-maintained aquariums, captive lifespans of 8+ years have been reported; at least one individual is documented to have reached ~18 years.\n\nPictus Catfish have been used successfully as dither fish in cichlid tanks, helping reduce cichlid shyness, provided tankmates are too large to be swallowed. Their fin spines can entangle in standard fish nets — use a container or soft mesh net when moving them.",
+  "breedingNotes": "Breeding in the home aquarium has not been reliably documented; commercial production is believed to rely on hormone-induced spawning. Setting up a home breeding attempt is considered impractical.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "Aquarium Co-Op",
+      "url": "https://www.aquariumcoop.com/blogs/aquarium/pictus-catfish",
+      "accessedDate": "2026-06-08",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "SeriouslyFish",
+        "url": "https://www.seriouslyfish.com/species/pimelodus-pictus/",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked size (12 cm), water parameters (22–25°C, pH 5.8–6.8, 1–15°H), tank dimensions, native range, and diet. Tank spec: 120×45×45 cm (243 L). Noted scaleless/copper-sensitive, not bred in captivity."
+      },
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Pimelodus-pictus.html",
+        "accessedDate": "2026-06-08",
+        "notes": "Confirmed max size 11.0 cm, temperature 22–25°C, pH 6.0–8.0, family Pimelodidae, order Siluriformes. Lifespan typically 4–8 years in captivity; exceptional case documented at 18 years."
+      },
+      {
+        "name": "Fishkeeping World",
+        "url": "https://www.fishkeepingworld.com/pictus-catfish/",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked size (~12.7 cm), temperature (23.9–27.2°C), grouping recommendation (3–4 fish), lifespan (8+ years), and nocturnal behavior. Tank size recommendation: 55–150 gal depending on group size."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "No reliable home aquarium breeding documented. Commercial breeding is believed to use hormone injection.",
+    "conspecificAggression": "low",
+    "finNippy": false,
     "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
-    "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": true,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -90,6 +117,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
+  "dataStatus": "researched",
   "lastReviewed": null
 }

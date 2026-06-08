@@ -5,82 +5,109 @@
   "taxon": "fish",
   "waterType": "freshwater",
   "commonName": "Swordtail",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "scientificName": "Xiphophorus hellerii",
+  "alsoKnownAs": ["Green Swordtail"],
   "category": "Livebearer",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Poeciliidae",
+    "order": "Cyprinodontiformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
+    "regions": ["Central America", "North America"],
+    "countries": ["Mexico", "Guatemala", "Belize", "Honduras"],
+    "habitat": "Rapidly flowing streams and rivers with heavy vegetation; also warm springs, weedy canals, and ponds.",
+    "biotope": "River",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
-    "kH": null,
+    "temperatureC": { "min": 19, "max": 28 },
+    "pH": { "min": 7.0, "max": 8.4 },
+    "gH": { "min": 10, "max": 25 },
+    "kH": { "min": 6, "max": 20 },
     "salinity": null
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 10, "max": 16 },
+  "lifespanYears": { "min": 3, "max": 5 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 120,
+    "minLengthCm": 120,
+    "swimZone": "mid",
+    "decorPreferences": ["dense planting along sides and back", "open swimming space in center", "floating plants for fry cover"],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "beginner",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Readily accepts high-quality flakes, pellets, and gel foods. Benefits from variety including frozen or live bloodworms, brine shrimp, and daphnia; occasional algae wafers or blanched vegetables round out the diet."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "semi-aggressive",
+    "grouping": "shoaling",
+    "minGroupSize": 3,
+    "goodWith": ["platy", "molly", "guppy", "corydoras", "gourami", "tetra", "rasbora"],
+    "avoidWith": ["fin-nipping species", "large aggressive cichlids", "variatus-platy (hybridization risk)"]
   },
   "media": {
     "primaryImage": "swordtail.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Swordtail.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "A hardy and active livebearer from Mexico and Central America. Males carry a striking sword-shaped caudal extension and tend to spar or harass females — a 1M:2–3F ratio in a 120L+ tank is generally recommended.",
+  "careNotes": "Swordtails are generally considered beginner-friendly but benefit from attention to sex ratios: males have been known to relentlessly chase and stress females, so keeping at least two or three females per male is commonly advised. An active, mid-water swimmer that appreciates a long tank footprint (120 cm+) with open swimming space and planted margins.\n\nAquarium Co-Op and SeriouslyFish agree on a preference for harder, slightly alkaline water (pH 7.0–8.4, gH 10–25). A temperature spread of 19–28°C has been documented; the practical hobbyist sweet spot tends toward 22–26°C.\n\nMales spar with each other — fighting is typically cosmetic rather than lethal, but a single male per tank avoids chronic stress. Multiple males can be kept in larger, well-planted systems.\n\nSwordtails hybridize readily with Platies (X. maculatus) and Variatus Platies (X. variatus) — all belong to genus Xiphophorus. Hybrids are reported to be sterile or semi-fertile. Keeping swordtails alongside either platy species is generally discouraged if line purity matters.\n\nNumerous captive-bred color and fin morphs exist: Red, Velvet, Pineapple, Marigold, Kohaku, Koi, Lyretail, Sailfin, Highfin, and others. Long-finned morphs tend to be more prone to fin rot and bacterial infections.\n\nEscape risk: males in particular have been documented jumping from uncovered tanks — a tight-fitting lid is strongly recommended.\n\nGestation typically lasts 24–30 days; females may store viable sperm for several months. Fry are large enough to accept finely crushed flake or baby brine shrimp immediately. Dense planting or a breeding box helps protect fry from adult predation.",
+  "breedingNotes": "Prolific viviparous livebearer. Females can produce 20–200 fry per drop; broods arrive approximately every 4–6 weeks at typical aquarium temperatures. Females have been documented storing viable sperm for months, enabling multiple broods from a single mating. Sexual maturity is reached around 3 months of age. No parental care is provided — adults will eat fry if not separated. Dense floating vegetation or a breeding box is commonly used to protect fry.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "SeriouslyFish",
+      "url": "https://www.seriouslyfish.com/species/xiphophorus-hellerii/",
+      "accessedDate": "2026-06-08",
+      "notes": "Used as primary after Aquarium Co-Op returned 404 for the expected swordtail care page."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Xiphophorus-hellerii.html",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked adultSizeCm (males 14 cm, females 16 cm — agrees with SeriouslyFish), temperature (22–28°C), pH (7.0–8.0), hardness (9–19 dH). Slight gH discrepancy: FishBase states 9–19 dH vs SeriouslyFish 179–447 ppm (~10–25 dGH) and Fishkeeping World 12–30 dGH. Averaged to {min:10, max:25}."
+      },
+      {
+        "name": "Fishkeeping World",
+        "url": "https://www.fishkeepingworld.com/swordtail-fish/",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked tank size (15 gal minimum for single; SeriouslyFish recommends 120 cm footprint ~108L), pH (7.0–8.4), lifespan (3–5 years), temperament (peaceful/territorial per male behavior). Tank minimum set at 120L to reflect trio-appropriate sizing per controller guidance."
+      },
+      {
+        "name": "Aquarium Co-Op",
+        "url": "https://www.aquariumcoop.com/blogs/aquarium/swordtail-fish",
+        "accessedDate": "2026-06-08",
+        "notes": "Partial data retrieved (temperature 21–27°C, pH >7.0, size 10–16 cm, diet notes, hybridization warning with platies). Original care-guide URL returned 404; alternate URL yielded partial content used to corroborate other sources."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
+    "breedingDifficulty": "easy",
+    "breedingNotes": "Prolific livebearer; females drop fry every 4–6 weeks. Fry are robust and easily raised. Main challenge is preventing adults from eating fry.",
+    "conspecificAggression": "moderate",
+    "finNippy": false,
     "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
+    "escapeRisk": "high",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
     "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -90,6 +117,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
 }

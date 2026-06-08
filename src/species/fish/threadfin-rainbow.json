@@ -5,82 +5,126 @@
   "taxon": "fish",
   "waterType": "freshwater",
   "commonName": "Threadfin Rainbow",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "scientificName": "Iriatherina werneri",
+  "alsoKnownAs": ["Threadfin Rainbowfish", "Featherfin Rainbowfish", "Featherfin Rainbow"],
   "category": "Rainbowfish",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Melanotaeniidae",
+    "order": "Atheriniformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
+    "regions": ["Southern New Guinea", "Cape York Peninsula", "Arnhem Land", "Northern Territory"],
+    "countries": ["Indonesia", "Papua New Guinea", "Australia"],
+    "habitat": "Lowland swamps, drainage ditches, slow-flowing streams, and billabongs with abundant aquatic vegetation; most commonly found along vegetated margins of lily lagoons and small streams with minimal current",
+    "biotope": "Swamp/Stream",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
-    "kH": null,
+    "temperatureC": { "min": 22, "max": 30 },
+    "pH": { "min": 6.0, "max": 7.5 },
+    "gH": { "min": 3, "max": 15 },
+    "kH": { "min": 2, "max": 10 },
     "salinity": null
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 3, "max": 5 },
+  "lifespanYears": { "min": 2, "max": 4 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 75,
+    "minLengthCm": 60,
+    "swimZone": "top",
+    "decorPreferences": [
+      "Dense planting along sides and back for cover and refuge",
+      "Floating plants to diffuse light and provide surface cover",
+      "Open mid-water swimming space",
+      "Fine-leaved plants or spawning mops for egg-laying",
+      "Dark substrate to enhance coloration",
+      "Driftwood or leaf litter consistent with a blackwater/swamp biotope",
+      "Very gentle filtration — sponge filter or low-flow outlet preferred"
+    ],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "carnivore",
+    "notes": "A micropredator with a very small mouth. Generally does best on micro-sized live and frozen foods: freshly hatched brine shrimp nauplii, daphnia (sieved small), moina, micro worms, vinegar eels, cyclops, and rotifers. Will accept crushed fine flake or micro-granules but tends to prefer live or frozen fare. Feeding small portions multiple times daily tends to yield better condition and color than a single daily meal."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "peaceful",
+    "grouping": "shoaling",
+    "minGroupSize": 8,
+    "goodWith": [
+      "Small Pseudomugil species (blue-eyes)",
+      "Micro-rasboras (Boraras, Microdevario)",
+      "Small Danionella species",
+      "Pygmy Corydoras",
+      "Otocinclus",
+      "Neocaridina and Caridina shrimp",
+      "Freshwater snails"
+    ],
+    "avoidWith": [
+      "Larger or boisterous fish that outcompete for food",
+      "Fin-nipping species (bettas, tiger barbs, serpae tetras)",
+      "Cichlids",
+      "Goldfish",
+      "Angels and other large fish",
+      "Crayfish and most crabs (predation risk)"
+    ]
   },
   "media": {
     "primaryImage": "threadfin_rainbow.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Threadfin Rainbow.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "The smallest popular rainbowfish, prized for males' dramatically elongated dorsal and anal fin filaments. Best displayed in a calm, planted nano tank with a quiet group of 8 or more.",
+  "careNotes": "The smallest commonly kept rainbowfish and arguably one of the most visually striking in the right setting — adult males develop long, filamentous extensions on the dorsal and anal fins that flutter as they display to one another. These fin filaments are delicate and easily damaged by fin nippers or rough handling; males in particular are known to be fragile during shipping and acclimation. A biologically mature, fully cycled tank is generally considered essential — the species tends to be sensitive to water quality fluctuations and ammonia/nitrite spikes that hardier species might tolerate.\n\nBest kept in groups of 8 or more to encourage natural shoaling and male display behavior. In smaller groups the fish often become shy and reclusive. Males display to each other in a non-violent fin-flaring competition that is one of the highlights of keeping this species; no significant fighting has been reported in normal group settings.\n\nGentlest possible water flow is strongly advised — strong currents from power filters stress these fish and can damage fin filaments. A sponge filter or a spray-bar output directed at the tank wall is commonly recommended. The species occupies the upper water column and surface, often foraging among floating plants.\n\nPairs well with small shrimp (Neocaridina, Caridina), small Pseudomugil blue-eyes, and micro-rasboras in a quiet species-appropriate community. Avoid any tankmate large or fast enough to outcompete them at feeding time. Regional color variation has been noted — New Guinea forms tend to be darker; Northern Territory (Australian) forms reportedly show more red and black in the finnage.",
+  "breedingNotes": "Egg-scatterers with no parental care; eggs are deposited among fine-leaved plants or spawning mops, typically a small number per day over an extended period. Warmer temperatures (toward the upper end of the range) tend to trigger spawning. A 1:3 male-to-female ratio is commonly recommended. Eggs hatch in approximately 5–6 days at typical spawning temperatures. Fry are very small and generally require infusoria or rotifers for the first couple of weeks before graduating to nauplii-sized foods. Hard water (higher gH, around 15 dGH) has been reported to improve fry survival rate. Separating eggs or using a dedicated breeding tank tends to improve yield, as adults may consume eggs in a community setting. Sex ratio of fry has been reported to skew toward males at higher temperatures.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "SeriouslyFish",
+      "url": "https://www.seriouslyfish.com/species/iriatherina-werneri/",
+      "accessedDate": "2026-06-08",
+      "notes": "Primary source for taxonomy, native range, water parameters, tank size, diet, temperament, grouping, tankmate recommendations, care level, and breeding overview."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Iriatherina-werneri.html",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked taxonomy (Melanotaeniidae, Atheriniformes), native range (central-southern New Guinea and northern Australia), adult size (males to 4.0 cm SL, females 3.0 cm SL), temperature (23–28°C one reference; 26–30°C general), pH (5.2–6.6 habitat; 6.0–8.0 general), hardness (5–12 dH), lifespan (2–3 years). Temperature range averaged across SeriouslyFish (22–30°C) and FishBase values to produce 22–30°C final range."
+      },
+      {
+        "name": "Aquarium Breeder",
+        "url": "https://aquariumbreeder.com/threadfin-rainbowfish-detailed-guide-care-diet-and-breeding/",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked tank size (15 gal / 60L minimum for 6–8 fish), adult size (3–4 cm typical), lifespan (3–4 years), temperature (24–28°C optimal), gH (7–19), breeding details (1:3 sex ratio, 5–6 day incubation, fry requirements, gH importance for fry survival), escape risk (confirmed jumper). Tank minimum set to 75L per user brief and schooling requirements rather than the 60L floor from sources."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
+    "breedingDifficulty": "moderate",
+    "breedingNotes": "Egg-scatterer; deposits small numbers of adhesive eggs daily in fine-leaved plants or spawning mops. Spawning itself is achievable but raising fry requires live micro-foods (infusoria/rotifers) and reportedly harder water for good survival rates.",
+    "conspecificAggression": "low",
+    "finNippy": false,
     "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
+    "escapeRisk": "high",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": true,
     "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -90,6 +134,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
+  "dataStatus": "researched",
   "lastReviewed": null
 }

@@ -5,82 +5,109 @@
   "taxon": "fish",
   "waterType": "freshwater",
   "commonName": "Rosy Barb",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "scientificName": "Pethia conchonius",
+  "alsoKnownAs": ["Red Barb", "Puntius conchonius", "Barbus conchonius"],
   "category": "Barb",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Cyprinidae",
+    "order": "Cypriniformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
+    "regions": ["South Asia"],
+    "countries": ["India", "Bangladesh", "Pakistan", "Nepal", "Afghanistan"],
+    "habitat": "Streams, rivers, lakes, and ponds; often found in clear, well-oxygenated waters including hill streams and lowland rivers",
+    "biotope": "South Asian subtropical freshwater",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
-    "kH": null,
+    "temperatureC": { "min": 16, "max": 26 },
+    "pH": { "min": 6.0, "max": 8.0 },
+    "gH": { "min": 5, "max": 20 },
+    "kH": { "min": 3, "max": 15 },
     "salinity": null
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 5, "max": 14 },
+  "lifespanYears": { "min": 3, "max": 5 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 100,
+    "minLengthCm": 90,
+    "swimZone": "mid",
+    "decorPreferences": ["dense planting", "open swimming space", "subdued lighting", "dark substrate"],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "beginner",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Accepts a wide range of foods. Generally thrives on quality dried flakes or pellets with plant content, supplemented with small live or frozen foods such as bloodworm, Daphnia, and brine shrimp. Has been documented nibbling on filamentous algae (hair algae, thread algae) in planted tanks, which can be a useful secondary benefit."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "peaceful",
+    "grouping": "schooling",
+    "minGroupSize": 6,
+    "goodWith": ["similar-sized cyprinids", "tetras", "danios", "livebearers", "rainbowfish", "loaches", "corydoras", "anabantoids"],
+    "avoidWith": ["long-finned varieties (potential fin nipping)", "aggressive or very large fish", "slow-moving fancy goldfish"]
   },
   "media": {
     "primaryImage": "rosy_barb.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Rosy Barb.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "A hardy, coldwater-tolerant schooling barb native to South Asia. Males develop a vivid pink-red flush; females remain golden. Generally peaceful and well-suited to community tanks with adequate group sizes of 6 or more.",
+  "careNotes": "Reclassified from Puntius to Pethia in 2012 (Pethia conchonius). Several ornamental strains are available in the trade including long-fin, neon-pink (super-red), and golden variants. Notably cool-tolerant — generally thrives without a heater in temperate indoor rooms (18–22°C is common) and has been kept in outdoor ponds in mild climates. Fin-nipping tendency tends to be minimal when kept in groups of 6 or more; a larger group (8–10) with more females than males is commonly recommended to distribute any male rivalry. The species has been documented nibbling filamentous algae (hair algae, staghorn, thread algae), making it incidentally useful in planted tanks with algae issues. Aquarium Co-Op notes a 29-gallon (approximately 110 L) minimum for a school of 6–10. SeriouslyFish notes a 100 × 30 cm footprint (approximately 90 L) as the minimum. 100 L is used here as a round-number consensus. FishBase records a maximum total length of 14 cm; trade fish are commonly 7–10 cm, with farm-selected larger individuals reaching up to 10–12 cm. Long-fin varieties may be more prone to fin damage from tankmates — avoid housing with confirmed fin-nippers.",
+  "breedingNotes": "Egg-scattering free spawner with no parental care. Generally considered moderate difficulty: conditioning with live or frozen foods encourages spawning. A separate breeding tank with fine-leaved plants or a mesh/spawning mop to catch eggs is advisable; adults will eat eggs if not separated. Water temperature around 22°C and slightly shallower depth are commonly used to trigger spawning. Males color up intensely when conditioning. Fry are small and need infusoria or commercial fry food initially.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "SeriouslyFish",
+      "url": "https://www.seriouslyfish.com/species/pethia-conchonius/",
+      "accessedDate": "2026-06-08",
+      "notes": "Primary source used in place of Aquarium Co-Op, whose Rosy Barb page was a retail announcement with no care data. SeriouslyFish provided comprehensive parameters, size, range, and husbandry detail."
+    },
+    "additional": [
+      {
+        "name": "Aquarium Co-Op",
+        "url": "https://www.aquariumcoop.com/blogs/retail-store-news/meet-the-rosy-barb-your-aquariums-beautiful-algae-eating-superstar",
+        "accessedDate": "2026-06-08",
+        "notes": "Confirmed 29-gallon (110 L) minimum for 6–10 fish, 3–4 inch (7.6–10.2 cm) trade size, coldwater-capable, peaceful temperament, algae-nibbling behavior, and India/Pakistan/Bangladesh native range."
+      },
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Pethia-conchonius.html",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked: scientific name Pethia conchonius confirmed, family Cyprinidae, order Cypriniformes, max size 14 cm TL, temperature 18–22°C, pH 6.0–8.0, hardness 5–19 dH. Native range Afghanistan/Pakistan/India/Nepal/Bangladesh confirmed."
+      },
+      {
+        "name": "Fishkeeping World",
+        "url": "https://www.fishkeepingworld.com/rosy-barb/",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked temperature (18–22°C), pH 6–8, gH <10 dGH, lifespan up to 5 years, 30-gallon (114 L) minimum, min group 5. Their stated max size of 6 inches (15.2 cm) appears to be an outlier — FishBase's 14 cm TL and SeriouslyFish's 65–100 mm SL are considered more reliable."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
+    "breedingDifficulty": "moderate",
+    "breedingNotes": "Egg-scattering free spawner; no parental care. Conditioning with live/frozen foods and a separate spawning tank recommended. Adults eat eggs if not removed.",
+    "conspecificAggression": "low",
+    "finNippy": true,
     "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
     "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -90,6 +117,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
 }

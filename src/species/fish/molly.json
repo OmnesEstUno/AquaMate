@@ -5,82 +5,137 @@
   "taxon": "fish",
   "waterType": "freshwater",
   "commonName": "Molly",
-  "scientificName": "",
-  "alsoKnownAs": [],
+  "scientificName": "Poecilia sphenops",
+  "alsoKnownAs": [
+    "Short-finned Molly",
+    "Black Molly",
+    "Dalmatian Molly",
+    "Gold Molly",
+    "Silver Molly",
+    "Lyretail Molly",
+    "Sailfin Molly"
+  ],
   "category": "Livebearer",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Poeciliidae",
+    "order": "Cyprinodontiformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
+    "regions": ["Central America", "North America", "South America"],
+    "countries": ["Mexico", "Colombia", "Venezuela", "Guatemala", "Honduras", "Belize", "United States"],
+    "habitat": "Coastal rivers, streams, estuaries, and mangrove areas; tolerates a wide salinity range from fresh to full marine",
+    "biotope": "Estuary",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
-    "kH": null,
+    "temperatureC": { "min": 22, "max": 28 },
+    "pH": { "min": 7.5, "max": 8.5 },
+    "gH": { "min": 15, "max": 30 },
+    "kH": { "min": 8, "max": 20 },
     "salinity": null
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 5.0, "max": 12.0 },
+  "lifespanYears": { "min": 3, "max": 5 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 75,
+    "minLengthCm": 90,
+    "swimZone": "all",
+    "decorPreferences": [
+      "dense planting (Java fern, hornwort, water sprite)",
+      "open swimming areas",
+      "algae-covered surfaces",
+      "driftwood"
+    ],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "beginner",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Heavy plant matter component required alongside protein. Accepts flakes, pellets, and frozen foods readily. Benefits noticeably from algae wafers, spirulina flakes, and blanched vegetables (spinach, zucchini). Live and frozen foods such as brine shrimp and daphnia are readily taken."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "peaceful",
+    "grouping": "shoaling",
+    "minGroupSize": 3,
+    "goodWith": [
+      "guppies",
+      "platies",
+      "swordtails",
+      "corydoras catfish",
+      "bristlenose plecos",
+      "tetras (hard-water tolerant)",
+      "danios",
+      "rainbowfish",
+      "other livebearers"
+    ],
+    "avoidWith": [
+      "cherry shrimp and small dwarf shrimp (fry risk)",
+      "long-finned slow-moving fish (nibbling risk)",
+      "fin-nippers",
+      "aggressive cichlids"
+    ]
   },
   "media": {
     "primaryImage": "molly.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Molly.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "A hardy freshwater livebearer available in many color forms, generally advised to be kept in alkaline, hard water. Prolific breeders and beginner-friendly with a heavy appetite for vegetable matter.",
+  "careNotes": "Mollies are generally advised to be kept in hard, alkaline water (gH 15-30, kH 8-20, pH 7.5-8.5); soft or acidic water has been associated with kidney problems and shortened lifespan, particularly in mass-produced fancy varieties. Mineral supplementation (Wonder Shells, Seachem Equilibrium) is recommended in soft-water areas. Maintain at least a 2-3:1 female-to-male ratio to reduce male harassment. Many commercially available Mollies are hybrids of P. sphenops × P. latipinna, producing the wide variety of color forms (Black, Gold, Dalmatian, Silver, Lyretail, Creamsicle, Marble). The Sailfin Molly (P. latipinna; males to 15 cm) is a distinct species requiring a longer tank (minimum ~120 cm / ~150L) to accommodate the male's extended dorsal fin display. Black Molly and Sailfin morphs have been reported as more delicate and sensitive to water quality fluctuations than standard P. sphenops. Active nibblers — slow-moving, long-finned tankmates have been known to suffer fin damage. Fry are born live and are sizable, but adults will eat them without dense plant cover. See also: [balloon-molly] — a selectively-bred dorsal-compressed morph of P. sphenops with a curved spine and reduced swimming ability; [liberty-molly] (P. salvatoris) — a separate wild species from El Salvador with striking red-and-black fin coloration.",
+  "breedingNotes": "Highly prolific livebearers. Gestation is typically 4-8 weeks, producing 20-100 fry per brood, with females capable of breeding approximately monthly. Females can store sperm and produce multiple broods from a single mating. No parental care is provided; dense plant growth (Java moss, water sprite, floating plants) substantially improves fry survival. Fry accept crushed flake, infusoria, and powdered fry food from birth. Separating a gravid female to a species tank or breeding box is commonly done to maximise fry survival.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "Aquarium Co-Op",
+      "url": "https://www.aquariumcoop.com/blogs/aquarium/molly-fish-care",
+      "accessedDate": "2026-06-08",
+      "notes": "Primary source for care parameters, tank sizing, diet, and temperament."
+    },
+    "additional": [
+      {
+        "name": "SeriouslyFish — Poecilia sphenops",
+        "url": "https://www.seriouslyfish.com/species/poecilia-sphenops/",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked scientific name, native range, water parameters (temp 21-28°C, pH 7.0-8.5, hardness 15-30 dH), adult size (males 8 cm, females 12 cm). Temperature and hardness ranges align with key data."
+      },
+      {
+        "name": "SeriouslyFish — Poecilia latipinna",
+        "url": "https://www.seriouslyfish.com/species/poecilia-latipinna/",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-reference for Sailfin Molly variant data: size to 12.5 cm male, 11 cm female; temp 21-26°C; pH 7.0-8.5; hardness 15-35 dH. Confirms euryhaline nature and herbivorous diet emphasis."
+      },
+      {
+        "name": "EasyClean Aquatics — Molly Fish",
+        "url": "https://easycleanaquatics.com/encyclopedia/molly",
+        "accessedDate": "2026-06-08",
+        "notes": "Cross-checked size (7.5-10 cm), lifespan (3-5 yrs), breeding (20-100 fry per brood), escape risk (jumping confirmed), min tank 20 gal / 75L. Hardness cited as 10-25 dGH (slightly lower than SeriouslyFish; kept gH min at 15 per playbook averaging with key data)."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
+    "breedingDifficulty": "easy",
+    "breedingNotes": "Prolific livebearer; 20-100 fry produced approximately monthly. No specialised setup required beyond a female-to-male ratio of 2-3:1 and dense planting for fry cover.",
+    "conspecificAggression": "low",
+    "finNippy": true,
     "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
+    "escapeRisk": "moderate",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
     "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": true
   },
   "crustacean": null,
   "coral": null,
@@ -90,6 +145,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
+  "dataStatus": "researched",
   "lastReviewed": null
 }
