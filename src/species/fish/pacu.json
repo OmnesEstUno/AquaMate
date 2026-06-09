@@ -1,0 +1,168 @@
+{
+  "id": "fw-fish-434",
+  "slug": "pacu",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "freshwater",
+  "commonName": "Pacu",
+  "scientificName": "Colossoma macropomum",
+  "alsoKnownAs": [
+    "Black Pacu",
+    "Tambaqui",
+    "Cachama"
+  ],
+  "category": "Large New World Characin",
+  "taxonomy": {
+    "family": "Serrasalmidae",
+    "order": "Characiformes"
+  },
+  "nativeRange": {
+    "regions": ["South America"],
+    "countries": ["Brazil", "Venezuela", "Colombia", "Peru", "Bolivia", "Ecuador", "Guyana"],
+    "habitat": "Large river floodplains and flooded forests (várzea); open water and inundated forest during flood season; tolerates hypoxic blackwater and whitewater rivers",
+    "biotope": "Amazon/Orinoco river and floodplain",
+    "depthRangeM": { "min": 0, "max": 15 }
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 23, "max": 30 },
+    "pH": { "min": 5.5, "max": 7.5 },
+    "gH": { "min": 2, "max": 15 },
+    "kH": { "min": 1, "max": 8 },
+    "salinity": null
+  },
+  "adultSizeCm": { "min": 70, "max": 108 },
+  "lifespanYears": { "min": 15, "max": 28 },
+  "tank": {
+    "minVolumeLiters": 10000,
+    "minLengthCm": 600,
+    "swimZone": "all",
+    "decorPreferences": [
+      "public-aquarium-scale open swimming volume",
+      "large smooth boulders or driftwood (if kept at all)",
+      "robust filtration for high bioload",
+      "sand or fine gravel substrate"
+    ],
+    "minSandDepthCm": null
+  },
+  "careLevel": "expert",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Herbivore-leaning omnivore. Wild diet dominated by fruits, seeds, and nuts fallen into flooded forests (frugivory); also consumes aquatic plants, algae, invertebrates, and occasionally small fish. In captivity accepts large pellets, cichlid sticks, cut fruit (banana, melon, grapes), leafy vegetables, and earthworms. Powerful molar-like teeth evolved for crushing hard seeds and nuts. Feed once or twice daily; large adults produce very high bioload."
+  },
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "shoaling",
+    "minGroupSize": 1,
+    "goodWith": [
+      "similarly-sized robust fish in public-aquarium settings",
+      "large peaceful characins",
+      "large catfish (Pseudoplatystoma, large Pimelodidae) in public-aquarium setups"
+    ],
+    "avoidWith": [
+      "small fish (may be consumed incidentally despite herbivorous diet)",
+      "small invertebrates",
+      "plants (will consume aquatic vegetation)",
+      "all home aquarium tankmates (wholly inappropriate for home aquaria)",
+      "piranha relatives where aggression risk exists for juvenile pacu"
+    ]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": [
+      {
+        "url": "https://www.fishbase.se/images/species/Comac_u3.jpg",
+        "source": "FishBase",
+        "sourceType": "fishbase",
+        "license": "All rights reserved",
+        "notes": "Adult specimen showing body profile and coloration. FishBase image ID Comac_u3.",
+        "recommended": true
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Colossoma_macropomum.jpg/1280px-Colossoma_macropomum.jpg",
+        "source": "Wikimedia Commons",
+        "sourceType": "wikimedia",
+        "license": "CC BY-SA 3.0",
+        "notes": "Large adult in aquarium; clear body and fin detail.",
+        "recommended": false
+      }
+    ]
+  },
+  "summary": "The Pacu (Tambaqui) is the largest characin in the Amazon basin, reaching over 1 m and 30 kg. Despite belonging to the piranha family, it is a peaceful herbivore-leaning omnivore that uses human-molar-like teeth to crush seeds and fruits. Wholly unsuitable for home aquaria; belongs exclusively in public aquarium facilities.",
+  "careNotes": "Colossoma macropomum is the largest member of Serrasalmidae and one of the largest freshwater fish in South America, routinely exceeding 80 cm and 20 kg in the wild, with documented specimens reaching 108 cm and 30+ kg. It is one of the most important food fish in Amazonian aquaculture and is commercially farmed throughout tropical South America. Despite its piranha family membership, the Pacu is a highly peaceful fish with blunt, human-molar-like teeth adapted for crushing hard fruits, seeds, and nuts — not for biting prey. The fish’s dentition has become infamous through viral photographs comparing its teeth to human molars.\n\nPacu are sold as small, attractive juveniles in the ornamental trade at 5–10 cm, where they are often mislabeled or poorly represented in terms of adult size. Within one to two years they rapidly outgrow virtually any home aquarium, creating serious welfare and logistics problems. Many specimens released into the wild by overwhelmed hobbyists have established invasive populations in Florida and been reported in numerous other non-native regions.\n\nThe species requires open water of enormous volume, robust industrial-grade filtration to handle its very high bioload, and a varied frugivorous diet. Water temperature 23–30°C with soft to moderately hard, slightly acidic to neutral water (pH 5.5–7.5) reflecting Amazonian conditions. Only public aquariums or permitted aquaculture facilities have the infrastructure to house adults responsibly. This species is included in the AquaMate database for completeness and educational awareness, not as a recommended home aquarium subject.",
+  "breedingNotes": "Not bred in home aquaria. Commercial aquaculture spawning is induced hormonally (hypophysation) in large pond facilities; natural spawning occurs during the Amazon flood season when fish migrate to flooded forest areas. Females can produce hundreds of thousands of eggs per spawn. Aquaculture breeding is well-established in Brazil, Venezuela, Colombia, and across tropical Latin America for food-fish production. Captive breeding in a home or even specialist private setting is not feasible.",
+  "sources": {
+    "primary": {
+      "name": "FishBase — Colossoma macropomum",
+      "url": "https://www.fishbase.se/summary/Colossoma-macropomum.html",
+      "accessedDate": "2026-06-09",
+      "notes": "Primary source. Adult size (to 108 cm TL, commonly 70 cm), max weight 30 kg, temperature 23–30°C, pH range, native range (Amazon and Orinoco basins), taxonomy (Serrasalmidae, Characiformes), lifespan, diet (frugivore/omnivore), and ecology. FishBase records wild longevity up to 28 years."
+    },
+    "additional": [
+      {
+        "name": "SeriouslyFish — Colossoma macropomum",
+        "url": "https://www.seriouslyfish.com/species/colossoma-macropomum/",
+        "accessedDate": "2026-06-09",
+        "notes": "Confirmed adult size to 108 cm, water parameters (22–30°C, pH 5.5–7.5, dH 2–15), soft to moderately hard Amazonian water, habitat (flooded forests and large river channels), frugivorous diet ecology, and public-aquarium-only suitability recommendation. Also confirms peaceful temperament and seed-crushing dentition."
+      },
+      {
+        "name": "Aquarium Co-Op — Pacu Fish Care",
+        "url": "https://www.aquariumcoop.com/blogs/aquarium/pacu-fish",
+        "accessedDate": "2026-06-09",
+        "notes": "Trade perspective on juvenile sale vs adult unsuitability, diet (fruits, pellets, vegetables), invasive species concern (Florida), and the human-molar teeth viral phenomenon. Confirms herbivore-leaning omnivore classification and peaceful temperament within Serrasalmidae."
+      },
+      {
+        "name": "Practical Fishkeeping — Pacu species profile",
+        "url": "https://www.practicalfishkeeping.co.uk/fish-of-the-month/pacu-colossoma-macropomum/",
+        "accessedDate": "2026-06-09",
+        "notes": "Confirmed hobbyist advisory context: sold small, grows to public-aquarium scale. Water parameters, diet frugivory emphasis, Amazon basin range, and conservation note that wild populations are under pressure from overfishing (important food fish). Temperature 24–28°C cited."
+      },
+      {
+        "name": "TFH Magazine — Giant Pacu overview",
+        "url": "https://www.tfhmagazine.com/articles/freshwater/the-pacu-an-overview",
+        "accessedDate": "2026-06-09",
+        "notes": "Background on Serrasalmidae taxonomy, comparison with piranhas, frugivory ecology including seed dispersal role in Amazonian forest, aquaculture importance in South America, and notes on invasive releases in North America and Europe. Supports expert care level and public-aquarium-only advisory."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "Breeding requires hormone-induced spawning (hypophysation) in large outdoor pond facilities. Not achievable in any private setting. Fully commercial aquaculture species in tropical South America.",
+    "conspecificAggression": "low",
+    "finNippy": false,
+    "reefSafe": null,
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "hobbyistAdvisory": {
+    "level": "public-aquarium-only",
+    "reason": "Reaches 1m+ and 30kg+; commercial food fish. Sold tiny as ornamental but rapidly outgrows all home setups. Florida invasive via aquarium releases."
+  },
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": null
+}
