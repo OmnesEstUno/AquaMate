@@ -1,0 +1,157 @@
+{
+  "id": "fw-fish-291",
+  "slug": "bumblebee-goby",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "brackish",
+  "commonName": "Bumblebee Goby",
+  "scientificName": "Brachygobius doriae",
+  "alsoKnownAs": [
+    "Doriae Goby"
+  ],
+  "category": "Goby",
+  "taxonomy": {
+    "family": "Gobiidae",
+    "order": "Gobiiformes"
+  },
+  "nativeRange": {
+    "regions": ["Southeast Asia"],
+    "countries": ["Indonesia", "Malaysia", "Brunei", "Singapore", "Thailand"],
+    "habitat": "Estuaries, tidal rivers, mangrove swamps, and coastal brackish streams; demersal, typically found in shallow, slow-moving or still water with soft substrate and abundant cover",
+    "biotope": "Brackish estuary/mangrove",
+    "depthRangeM": { "min": 0, "max": 2 }
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 22, "max": 28 },
+    "pH": { "min": 7.0, "max": 8.5 },
+    "gH": { "min": 9, "max": 19 },
+    "kH": { "min": 4, "max": 12 },
+    "salinity": { "min": 1.002, "max": 1.006 }
+  },
+  "adultSizeCm": { "min": 3.0, "max": 4.2 },
+  "lifespanYears": { "min": 3, "max": 5 },
+  "tank": {
+    "minVolumeLiters": 40,
+    "minLengthCm": 45,
+    "swimZone": "bottom",
+    "decorPreferences": [
+      "fine sand substrate",
+      "caves, ceramic tubes, and coconut shells as spawning/shelter sites",
+      "smooth rocks and driftwood for territorial boundaries",
+      "brackish-tolerant plants (Java fern, Anubias) as optional cover",
+      "low flow — sponge or internal filters recommended"
+    ],
+    "minSandDepthCm": 3
+  },
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Live-food obligate in practice — the vast majority of specimens reliably refuse dried flakes and pellets. Staple live foods include baby brine shrimp, daphnia, bloodworms (Chironomus larvae), tubifex worms, blackworms, and grindal worms. Frozen equivalents (bloodworms, brine shrimp) are sometimes accepted by patient weaning, but live prey should always be the primary offer. Feed small portions twice daily; overfeeding degrades brackish water quality rapidly."
+  },
+  "compatibility": {
+    "temperament": "territorial",
+    "grouping": "shoaling",
+    "minGroupSize": 6,
+    "goodWith": [
+      "conspecifics (groups of 6+)",
+      "other small brackish-tolerant species (e.g., small archer fish fry, figure-eight puffer juveniles with caution)",
+      "larger Nerite snails",
+      "larger Amano-sized shrimp (smaller shrimp will be eaten)"
+    ],
+    "avoidWith": [
+      "fast-moving community fish that outcompete for food",
+      "larger aggressive fish (scats, monos, dragon goby)",
+      "small dwarf shrimp and invertebrates (predation)",
+      "freshwater-only species incompatible with brackish salinity",
+      "fin-nippers or boisterous mid-water schoolers"
+    ]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": [
+      {
+        "url": "https://www.fishbase.se/images/species/Bradop_u0.jpg",
+        "source": "FishBase",
+        "sourceType": "fishbase",
+        "license": "All rights reserved",
+        "notes": "FishBase reference image for Brachygobius doriae; confirm availability before use.",
+        "recommended": true
+      }
+    ]
+  },
+  "summary": "A tiny (3–4 cm) brackish-water goby from Southeast Asian estuaries, instantly recognisable by bold black-and-yellow banding. Requires brackish conditions (SG 1.002–1.006) and live micro-foods; commonly sold — and often kept incorrectly — as a pure-freshwater fish. Intermediate care due to dietary demands and strict water-type needs.",
+  "careNotes": "The Bumblebee Goby is a demersal micro-predator native to brackish estuaries and mangrove-fringed tidal rivers across Borneo, Sumatra, peninsular Malaysia, and Thailand. Despite being widely sold as a freshwater fish, sustained freshwater keeping chronically stresses the fish, suppresses immunity, and shortens lifespan; a specific gravity of 1.002–1.006 (roughly 2.6–7.8 ppt) is strongly recommended for long-term health. Marine salt mix is preferred over plain aquarium salt for the trace-mineral content. Water should be hard and alkaline (pH 7.0–8.5, gH 9–19). Temperature 22–28 °C with 25–26 °C as the practical optimum.\n\nA group of six or more in a 40 L (10 gal) brackish species tank is the standard recommendation; males spar territorially but rarely inflict injury in a well-decorated tank with ample caves and line-of-sight breaks. Sand substrate and multiple coconut-shell or ceramic tube hides are essential — these are used as spawning caves as well as refuges.\n\nFeeding is the central husbandry challenge: most specimens refuse all dried and pelleted foods. Live baby brine shrimp, daphnia, bloodworms, blackworms, and tubifex worms form the practical staple; frozen equivalents are sometimes accepted after conditioning but should not be relied upon. Maintaining live-food cultures (baby brine shrimp hatchery, blackworm colony) is strongly advised. Two small feedings per day are appropriate; water quality degrades quickly from overfeeding in brackish setups.\n\nSpecies identification caveat: the name “Bumblebee Goby” covers several Brachygobius species in the trade, most commonly B. doriae, B. nunus, and B. sabanus. Retail stock is almost never true B. xanthozonus (that species is rare in the wild and not commercially available). All trade species share broadly similar care requirements, so the ID confusion has limited practical consequence for husbandry.",
+  "breedingNotes": "Breeding is achievable in a dedicated brackish species tank but requires effort. Condition both sexes heavily on live foods for several weeks. Males develop more vivid orange-red banding and a slimmer profile; females become noticeably plump when gravid. A slight reduction in salinity (toward 1.001–1.002) and a small water change with slightly cooler water can trigger spawning. Eggs (150–200 per clutch) are deposited inside a narrow cave or tube; the male guards and fans the clutch until hatching (~7 days at 25–26 °C). Remove the female after spawning if the male becomes aggressive. Fry are very small — infusoria or vinegar eels are required initially, transitioning to baby brine shrimp nauplii after the first week. Rearing in a separate brackish nursery tank substantially improves survival rates.",
+  "sources": {
+    "primary": {
+      "name": "AquariumStoreDepot — Bumblebee Goby Care Guide",
+      "url": "https://aquariumstoredepot.com/blogs/news/bumblebee-goby",
+      "accessedDate": "2026-06-09",
+      "notes": "Comprehensive hobbyist guide covering brackish water requirements, SG 1.002–1.006, temperature 25–28 °C, pH 7.0–8.5, gH 9–19, live/frozen diet, 10-gal minimum tank, breeding, and compatibility. Used as primary synthesis source."
+    },
+    "additional": [
+      {
+        "name": "FishBase — Brachygobius doriae",
+        "url": "https://www.fishbase.se/summary/Brachygobius-doriae.html",
+        "accessedDate": "2026-06-09",
+        "notes": "Taxonomy (Gobiidae, Gobiiformes), max size 4.2 cm TL, temperature 22–29 °C, pH ~8.0, hardness 9–19 dH, native range (Indonesia, Malaysia, Brunei, Singapore), cave-brooder with 150–200 eggs, IUCN Least Concern."
+      },
+      {
+        "name": "AquariumSource — Bumblebee Goby Care, Tank Mates, Diet & More",
+        "url": "https://www.aquariumsource.com/bumblebee-goby/",
+        "accessedDate": "2026-06-09",
+        "notes": "Confirmed SG 1.002–1.006, adult size ~3.8 cm, lifespan 3–4+ years, carnivore diet (bloodworms, daphnia, tubifex, brine shrimp), 10-gal minimum, species-only tank recommendation, and live/frozen food preference."
+      },
+      {
+        "name": "Aquariadise — Bumblebee Goby Brachygobius spp. Care Sheet",
+        "url": "https://www.aquariadise.com/caresheet-bumblebee-goby-brachygobius-spp/",
+        "accessedDate": "2026-06-09",
+        "notes": "Confirmed temperature 23–26 °C, pH 6.5–7 (freshwater variant) vs. 7–8.5 (brackish), size 3–4 cm, lifespan 3–4+ years, native range (Indonesia including Borneo/Sumatra, Thailand, Vietnam), live food preference, breeding notes (freshwater trigger, egg guarding, infusoria for fry), species confusion note."
+      },
+      {
+        "name": "Wikipedia — Brachygobius",
+        "url": "https://en.wikipedia.org/wiki/Brachygobius",
+        "accessedDate": "2026-06-09",
+        "notes": "Taxonomy cross-check (Oxudercidae/Gobiidae, Gobiiformes), B. doriae as type species of genus, species group structure (doriae-group vs nunus-group), note that B. xanthozonus is not commercially traded, male coloration deepening to orange-red during spawning."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "difficult",
+    "breedingNotes": "Cave-brooder; 150–200 eggs per clutch deposited in narrow tubes or shells; male guards eggs ~7 days until hatching. Fry require infusoria/vinegar eels initially. Slight salinity reduction and live-food conditioning trigger spawning. Separate rearing tank improves fry survival.",
+    "conspecificAggression": "moderate",
+    "finNippy": false,
+    "reefSafe": null,
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": true,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "difficult",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": true
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": null,
+  "hobbyistAdvisory": null
+}
