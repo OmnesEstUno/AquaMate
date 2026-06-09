@@ -1,0 +1,168 @@
+{
+  "id": "fw-fish-322",
+  "slug": "desert-pupfish",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "freshwater",
+  "commonName": "Desert Pupfish",
+  "scientificName": "Cyprinodon macularius",
+  "alsoKnownAs": [
+    "Macularius Pupfish",
+    "Colorado Delta Pupfish"
+  ],
+  "category": "Pupfish",
+  "taxonomy": {
+    "family": "Cyprinodontidae",
+    "order": "Cyprinodontiformes"
+  },
+  "nativeRange": {
+    "regions": ["North America", "Southwestern United States", "Northwestern Mexico"],
+    "countries": ["United States", "Mexico"],
+    "habitat": "Shallow, warm desert springs, seeps, irrigation canals, salt marshes, and backwaters of the lower Colorado River basin and Salton Sea tributaries; tolerates extreme fluctuations in temperature, salinity, and dissolved oxygen",
+    "biotope": "Desert spring / arid-land wetland",
+    "depthRangeM": { "min": 0, "max": 1 }
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 18, "max": 38 },
+    "pH": { "min": 7.0, "max": 8.5 },
+    "gH": { "min": 8, "max": 30 },
+    "kH": { "min": 4, "max": 20 },
+    "salinity": { "min": 1.000, "max": 1.010 }
+  },
+  "adultSizeCm": { "min": 3.5, "max": 7.0 },
+  "lifespanYears": { "min": 1, "max": 3 },
+  "tank": {
+    "minVolumeLiters": 75,
+    "minLengthCm": 75,
+    "swimZone": "bottom",
+    "decorPreferences": [
+      "sandy or fine-gravel substrate",
+      "rocks and flat slate for territory demarcation",
+      "sparse hardy plants (Vallisneria, Sagittaria) or artificial plants",
+      "multiple broken lines of sight to reduce male-on-male aggression",
+      "shallow, well-lit tank simulating desert spring conditions"
+    ],
+    "minSandDepthCm": 2
+  },
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Grazes on algae, biofilm, detritus, small invertebrates, and organic matter in the wild. In captivity accepts high-quality omnivore micro-pellets, spirulina-based flakes, algae wafers, and small frozen foods (daphnia, cyclops, baby brine shrimp). Supplement with blanched vegetables (zucchini, spinach) and occasional live/frozen invertebrates. Feed small amounts 2–3 times daily."
+  },
+  "compatibility": {
+    "temperament": "semi-aggressive",
+    "grouping": "shoaling",
+    "minGroupSize": 4,
+    "goodWith": [
+      "other desert-adapted cyprinodontids (with care)",
+      "small livebearers in large, well-divided tanks",
+      "robust snails (e.g., nerite snails for algae control)"
+    ],
+    "avoidWith": [
+      "Mosquitofish (Gambusia affinis, fw-fish-204) — major invasive competitor/predator in the wild",
+      "aggressive cichlids",
+      "fin-nippers",
+      "large fish that can outcompete for food",
+      "sensitive soft-water species incompatible with hard alkaline desert water"
+    ]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": [
+      {
+        "url": "https://www.fishbase.se/images/species/Cymac_u2.jpg",
+        "source": "FishBase",
+        "sourceType": "fishbase",
+        "license": "All rights reserved",
+        "notes": "FishBase species image of Cyprinodon macularius; shows adult male in breeding coloration with characteristic blue-green iridescence. Verify current availability at fishbase.se.",
+        "recommended": true
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Cyprinodon_macularius.jpg",
+        "source": "Wikimedia Commons",
+        "sourceType": "wikimedia",
+        "license": "Public Domain",
+        "notes": "USFWS public domain photograph of Desert Pupfish; typical adult specimens. Good fallback if FishBase image unavailable.",
+        "recommended": false
+      }
+    ]
+  },
+  "summary": "A tiny (<7 cm), federally endangered desert specialist from the Colorado River basin and Salton Sea region. Among the most thermally and osmotically tolerant vertebrates on Earth (5–45°C; 0–90 ppt). Breeding males display vivid neon-blue coloration. US ESA-listed since 1986; captive possession requires federal and state permits.",
+  "careNotes": "The Desert Pupfish is one of the most physiologically extreme vertebrates known, withstanding temperatures from near-freezing to 45°C and salinities from fresh water to almost three times that of seawater (0–90 ppt, roughly SG 1.000–1.069). In practice, captive husbandry for conservation programs targets moderate conditions: temperature 22–30°C, pH 7.5–8.2, moderate hardness, and low salinity if any. A 75 L or larger tank with a fine sand/gravel substrate, scattered rocks for territory, and good horizontal footprint is recommended. Males are territorial and will fight vigorously; maintain at least 2–3 females per male and break sightlines with rocks and décor. Although the species is euryhaline and adapts well to brackish water, freshwater setups are appropriate for captive conservation stock. Filtration should be gentle — sponge filters are suitable — as these fish naturally inhabit shallow, low-flow desert springs. Water quality fluctuations that would stress other species are tolerated, but consistently good parameters promote longevity and breeding success. LEGAL NOTE: Cyprinodon macularius is listed under the US Endangered Species Act (since 1986) and classified as Critically Endangered by the IUCN. Possession, transport, or sale in the United States requires permits from the US Fish & Wildlife Service and, depending on state, from California Department of Fish and Wildlife or Arizona Game and Fish Department. Only captive-bred specimens from licensed conservation aquaculture programs are legally obtainable; wild collection is prohibited. This species is not commercially available through the standard aquarium trade. See also: [Mosquitofish] (fw-fish-204) — a key driver of Desert Pupfish decline through competition and predation on fry.",
+  "breedingNotes": "Egg scatterers; males establish small territories over sandy or gravel substrate and display intensely to females, showing vivid blue flanks and yellow-orange fin margins. Spawning occurs year-round at temperatures above 20°C, peaking in spring and summer. Females scatter adhesive eggs among substrate and fine-leafed plants; no parental care is provided and adults will eat eggs and fry. Remove adults after spawning or use a spawning mop/mesh separator. Eggs hatch in approximately 6–10 days at 26–28°C. Fry are tiny and should be fed infusoria, vinegar eels, or commercially prepared fry foods before transitioning to micro-pellets. Breeding in captivity is achievable with adequate space and a proper female-to-male ratio (2–3:1). Breeding of listed specimens requires appropriate federal and state permits.",
+  "sources": {
+    "primary": {
+      "name": "SeriouslyFish — Cyprinodon macularius",
+      "url": "https://www.seriouslyfish.com/species/cyprinodon-macularius/",
+      "accessedDate": "2026-06-09",
+      "notes": "Primary source. Provided water parameters, size data, habitat description, compatibility notes, breeding behavior, and conservation status detail including ESA listing. Key data: temperature 20–38°C (tolerance to 45°C noted), pH 6.5–8.5, hardness 5–25 dH, max adult size ~7 cm TL, lifespan 1–3 years in captivity. Euryhaline tolerance and salinity range corroborated."
+    },
+    "additional": [
+      {
+        "name": "FishBase — Cyprinodon macularius",
+        "url": "https://www.fishbase.se/summary/Cyprinodon-macularius.html",
+        "accessedDate": "2026-06-09",
+        "notes": "Cross-referenced adult size (max 7.6 cm TL), temperature range (5–44°C recorded), native range (lower Colorado River delta, Salton Sea tributaries, NW Mexico), taxonomy (Cyprinodontidae, Cyprinodontiformes), diet (algae, detritus, invertebrates), and IUCN Critically Endangered status. Salinity tolerance noted as 0–90 ppt. Thermal extreme (5–45°C) and salinity range (0–90 ppt) drawn primarily from FishBase and primary literature cited therein."
+      },
+      {
+        "name": "IUCN Red List — Cyprinodon macularius",
+        "url": "https://www.iucnredlist.org/species/6149/3099534",
+        "accessedDate": "2026-06-09",
+        "notes": "Confirmed Critically Endangered status, listing rationale (>80% population decline, extreme habitat fragmentation, invasive species including Gambusia affinis as primary drivers), and range data (California, Arizona, Baja California, Sonora). Federal ESA listing date (1986) corroborated. Used for conservation context in hobbyistAdvisory and careNotes."
+      },
+      {
+        "name": "Aquarium Co-Op — Pupfish Species Overview",
+        "url": "https://www.aquariumcoop.com/blogs/aquarium/pupfish",
+        "accessedDate": "2026-06-09",
+        "notes": "Trade perspective on Cyprinodon pupfishes; confirmed captive care parameters (temperature 18–32°C, pH 7.0–8.5, minimum tank 20 gallons/~75 L), omnivore diet (algae, micro-pellets, frozen foods), and male aggression notes. Noted legal restrictions on C. macularius and unavailability in standard hobby trade; captive-bred conservation program specimens only."
+      },
+      {
+        "name": "Practical Fishkeeping — Desert Pupfish and Endangered Cyprinodonts",
+        "url": "https://www.practicalfishkeeping.co.uk/features/desert-pupfish/",
+        "accessedDate": "2026-06-09",
+        "notes": "Feature article covering Desert Pupfish natural history, extreme physiological tolerances (heat/salinity), conservation crisis narrative, Mosquitofish as primary invasive threat, and captive breeding programs in the US. Corroborated male breeding coloration description (neon blue flanks, orange-yellow fin tips), territory behavior, and egg-scattering spawning mode."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "moderate",
+    "breedingNotes": "Egg scatterer; males territorial and vigorously display to females. Spawning at >20°C year-round; eggs hatch in 6–10 days at 26–28°C. Remove adults post-spawn to prevent egg/fry predation. Fry require infusoria or commercial fry food initially. Captive breeding achievable but requires permits for ESA-listed specimens.",
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": null,
+    "escapeRisk": "moderate",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": true,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": true,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": true
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": null,
+  "hobbyistAdvisory": {
+    "level": "legally-restricted",
+    "reason": "US Endangered Species Act listed (1986) and IUCN Critically Endangered. Possession/transport requires US Fish & Wildlife permits in CA, AZ, and other states. Captive-bred specimens occasionally available via conservation aquaculture programs only."
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "id": "fw-fish-298",
+  "slug": "channa-diplogramma",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "freshwater",
+  "commonName": "Channa diplogramma",
+  "scientificName": "Channa diplogramma",
+  "alsoKnownAs": [
+    "Malabar Snakehead"
+  ],
+  "category": "Snakehead",
+  "taxonomy": {
+    "family": "Channidae",
+    "order": "Anabantiformes"
+  },
+  "nativeRange": {
+    "regions": ["South Asia", "Western Ghats"],
+    "countries": ["India"],
+    "habitat": "Slow-moving and still waters of the Western Ghats: forest streams, rivers, swamps, flooded pools, and rice paddies with dense riparian vegetation and leaf litter; low-altitude to mid-elevation terrain in Kerala and Karnataka",
+    "biotope": "Blackwater forest stream",
+    "depthRangeM": { "min": 0, "max": 3 }
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 22, "max": 28 },
+    "pH": { "min": 6.0, "max": 7.5 },
+    "gH": { "min": 2, "max": 12 },
+    "kH": { "min": 1, "max": 6 },
+    "salinity": null
+  },
+  "adultSizeCm": { "min": 50.0, "max": 65.0 },
+  "lifespanYears": { "min": 8, "max": 15 },
+  "tank": {
+    "minVolumeLiters": 600,
+    "minLengthCm": 180,
+    "swimZone": "all",
+    "decorPreferences": [
+      "tight-fitting, heavy lid — mandatory (powerful jumper)",
+      "large pieces of driftwood and root tangles",
+      "dense emergent and floating plants (water lettuce, Amazon frogbit) for surface cover",
+      "leaf litter (Indian almond, oak) to replicate forest-floor biotope",
+      "subdued lighting; dark background",
+      "sand or fine gravel substrate",
+      "cave-like structures or PVC pipes for retreat"
+    ],
+    "minSandDepthCm": null
+  },
+  "careLevel": "advanced",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Obligate piscivore in the wild; feeds primarily on live fish, frogs, and large invertebrates. In captivity, transition onto dead/frozen fish (tilapia, smelt, whitebait), prawns, and large earthworms is possible but can be difficult. Avoid feeder goldfish (disease risk, thiaminase). Live foods often needed initially to trigger a feeding response. Feed 2–3 times per week for adults; juveniles 4–5 times per week. Refuses flake and pellet foods almost universally."
+  },
+  "compatibility": {
+    "temperament": "aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": [
+      "large, robust bottom-dwellers that occupy different zones (large plecos, large doradid catfish) — with caution and in very large tanks only"
+    ],
+    "avoidWith": [
+      "any fish small enough to be eaten",
+      "conspecifics (highly territorial; severe fighting between adults)",
+      "other Channa species",
+      "medium-sized cichlids or barbs (will predate or be harassed)",
+      "invertebrates",
+      "community fish of any kind"
+    ]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": [
+      {
+        "url": "https://www.fishbase.se/images/species/Channa_diplogramma_u0.jpg",
+        "source": "FishBase",
+        "sourceType": "fishbase",
+        "license": "All rights reserved",
+        "notes": "FishBase species page image; adult specimen showing characteristic reddish-orange lateral banding. Verify availability before use.",
+        "recommended": true
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Channa_diplogramma.jpg/1280px-Channa_diplogramma.jpg",
+        "source": "Wikimedia Commons",
+        "sourceType": "wikimedia",
+        "license": "CC BY-SA 3.0",
+        "notes": "Wikimedia Commons candidate; check current availability and attribution.",
+        "recommended": false
+      }
+    ]
+  },
+  "summary": "The Malabar Snakehead is a large, reddish-orange piscivore endemic to India’s Western Ghats, resurrected as a distinct species in 2011. Reaching 65 cm, it is IUCN Vulnerable and a USDA-listed Injurious Wildlife species banned from US import and interstate transport. Strictly for experienced specialists; requires a tightly lidded 600 L+ species tank.",
+  "careNotes": "Channa diplogramma was long treated as a synonym of the Giant Snakehead (C. micropeltes) until Britz et al. (2011) resurrected it as a morphologically and molecularly distinct species from the Western Ghats of Kerala and Karnataka, India. Adults develop a striking reddish-orange body with dark lateral blotching — a key visual distinction from the more widely distributed C. micropeltes. Maximum published total length is approximately 65 cm, though most captive specimens reach 50–60 cm. As a labyrinth-adjacent obligate air-breather, C. diplogramma must have unobstructed access to the water surface at all times. A tight-fitting, weighted lid is non-negotiable — this species is a powerful, unpredictable jumper and will escape through any gap. A minimum 600 L tank with a footprint of at least 180 cm is recommended for a single adult, with robust external filtration (the fish is a heavy feeder and produces significant waste). Water temperature should be maintained at 22–28°C; pH 6.0–7.5 suits the soft, slightly acidic Western Ghats streams of its origin. Water changes of 30–40% weekly are essential to manage ammonia and nitrate. This species is best maintained as a solitary specimen; conspecific pairs are extremely difficult and require very large tanks with visual barriers — do not attempt without expert-level experience. In the US, all Channa species are listed as Injurious Wildlife under the Lacey Act (18 U.S.C. § 42); import and interstate transport are federally prohibited. Check local state law for additional restrictions.",
+  "breedingNotes": "Rarely bred in captivity. Like other large snakeheads, C. diplogramma is presumed to be an open/substrate spawner with biparental guarding of eggs and early fry. Conditioning requires a spacious, heavily planted dedicated breeding tank, temperature increase to ~28°C, and intensive live-food feeding over several weeks. No reliable captive breeding protocols have been documented in the hobbyist literature as of 2026. Brood sizes in closely related large Channa species range from several hundred to over a thousand eggs.",
+  "sources": {
+    "primary": {
+      "name": "SeriouslyFish — Channa diplogramma",
+      "url": "https://www.seriouslyfish.com/species/channa-diplogramma/",
+      "accessedDate": "2026-06-09",
+      "notes": "Primary source. Provides morphological description, native range (Western Ghats), water parameters, tank size recommendations, diet, and husbandry notes. Confirms resurrection from synonymy with C. micropeltes by Britz et al. 2011."
+    },
+    "additional": [
+      {
+        "name": "FishBase — Channa diplogramma",
+        "url": "https://www.fishbase.se/summary/Channa-diplogramma.html",
+        "accessedDate": "2026-06-09",
+        "notes": "Cross-referenced adult size (to 65 cm TL), taxonomy (Channidae, Anabantiformes), native range (India: Kerala, Karnataka), and IUCN Vulnerable status. Confirms species description by Day 1865 and resurrection by Britz et al. 2011."
+      },
+      {
+        "name": "IUCN Red List — Channa diplogramma",
+        "url": "https://www.iucnredlist.org/species/172576/6893312",
+        "accessedDate": "2026-06-09",
+        "notes": "Confirms IUCN Vulnerable listing for C. diplogramma; cites restricted endemic range in the Western Ghats biodiversity hotspot and habitat loss pressures."
+      },
+      {
+        "name": "USDA APHIS — Federal Injurious Wildlife: Snakeheads (Channidae)",
+        "url": "https://www.aphis.usda.gov/plant_health/plant_pest_info/weeds/downloads/snakehead.pdf",
+        "accessedDate": "2026-06-09",
+        "notes": "Confirms all Channa spp. listed as Injurious Wildlife under the Lacey Act; import and interstate transport prohibited in the US without a federal permit."
+      },
+      {
+        "name": "Practical Fishkeeping — Snakehead species guide",
+        "url": "https://www.practicalfishkeeping.co.uk/features/snakehead-species-guide/",
+        "accessedDate": "2026-06-09",
+        "notes": "Hobbyist-facing overview of large Channa species including C. diplogramma; notes adult colouration, large tank requirements, piscivore diet, and escape risk."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "No reliable captive breeding protocols documented. Presumed open/substrate spawner with biparental guarding; conditioning requires large dedicated tank, elevated temperature, and intensive live feeding.",
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": null,
+    "escapeRisk": "high",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": true,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": true,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "difficult",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "hobbyistAdvisory": {
+    "level": "legally-restricted",
+    "reason": "All Channa species are USDA-listed Injurious Wildlife under the Lacey Act; import and interstate transport banned in the US. Reaches 60+cm. Western Ghats endemic; IUCN Vulnerable."
+  },
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": null
+}
