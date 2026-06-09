@@ -1,0 +1,173 @@
+{
+  "id": "fw-fish-411",
+  "slug": "mono",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "freshwater",
+  "commonName": "Mono",
+  "scientificName": "Monodactylus argenteus",
+  "alsoKnownAs": [
+    "Silver Mono",
+    "Diamondfish",
+    "Finger Fish"
+  ],
+  "category": "Euryhaline / Brackish-Marine",
+  "taxonomy": {
+    "family": "Monodactylidae",
+    "order": "Perciformes"
+  },
+  "nativeRange": {
+    "regions": ["Indo-Pacific", "East Africa", "Southeast Asia", "Australia"],
+    "countries": ["India", "Sri Lanka", "Indonesia", "Malaysia", "Thailand", "Philippines", "Australia", "Japan", "Kenya", "Tanzania", "Mozambique", "South Africa"],
+    "habitat": "Juveniles found in estuaries, mangrove creeks, tidal rivers, and freshwater lower reaches; adults migrate to coastal reef flats and open marine waters",
+    "biotope": "Estuary / Mangrove",
+    "depthRangeM": { "min": 0, "max": 20 }
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 24, "max": 28 },
+    "pH": { "min": 7.0, "max": 8.3 },
+    "gH": { "min": 10, "max": 25 },
+    "kH": { "min": 6, "max": 16 },
+    "salinity": { "min": 1.000, "max": 1.025 }
+  },
+  "adultSizeCm": { "min": 20.0, "max": 27.0 },
+  "lifespanYears": { "min": 7, "max": 10 },
+  "tank": {
+    "minVolumeLiters": 380,
+    "minLengthCm": 150,
+    "swimZone": "mid",
+    "decorPreferences": [
+      "open water for shoaling and active swimming",
+      "robust rock or coral rubble decor (salt-resistant)",
+      "minimal or no live plants (incompatible with brackish/marine transition)",
+      "brackish-tolerant artificial plants as cover if desired",
+      "strong filtration with surface agitation"
+    ],
+    "minSandDepthCm": null
+  },
+  "careLevel": "advanced",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Accepts a wide variety of foods: high-quality marine flake and pellets, frozen brine shrimp, mysis shrimp, bloodworms, and chopped seafood. Will also graze on algae and plant matter. Feed 2–3 times daily in small amounts; a varied diet supports the best coloration and immune health during the brackish-to-marine transition."
+  },
+  "compatibility": {
+    "temperament": "semi-aggressive",
+    "grouping": "shoaling",
+    "minGroupSize": 4,
+    "goodWith": [
+      "other Monodactylus argenteus (same-species shoal)",
+      "Monodactylus sebae (African Mono, similar requirements)",
+      "scats (Scatophagus argus) — share brackish/marine habitat",
+      "archerfish (Toxotes spp.) in brackish phases",
+      "larger brackish gobies",
+      "robust brackish-tolerant cichlids (early juvenile phase only)",
+      "other euryhaline species sharing the salinity progression"
+    ],
+    "avoidWith": [
+      "small or delicate freshwater fish (incompatible long-term salinity needs)",
+      "slow-moving or long-finned species (fin-nipping risk)",
+      "invertebrates and shrimp (predation risk)",
+      "purely freshwater species once brackish transition begins",
+      "overly aggressive marines when first introduced to full marine"
+    ]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": [
+      {
+        "url": "https://www.fishbase.se/photos/PicturesSummary.php?StartRow=0&ID=879&what=species&TotRec=15",
+        "source": "FishBase",
+        "sourceType": "fishbase",
+        "license": "All rights reserved",
+        "notes": "FishBase species photo gallery for Monodactylus argenteus (species ID 879). Multiple images available; reviewer should select best lateral view of adult specimen showing diamond profile.",
+        "recommended": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Monodactylus_argenteus",
+        "source": "Wikimedia Commons",
+        "sourceType": "wikimedia",
+        "license": "CC BY-SA 3.0",
+        "notes": "Wikimedia Commons category for Monodactylus argenteus; several freely licensed images of wild and aquarium specimens.",
+        "recommended": false
+      }
+    ]
+  },
+  "summary": "The Mono (Monodactylus argenteus) is a striking, diamond-shaped Indo-Pacific fish sold as a juvenile in freshwater but destined for brackish and ultimately marine conditions at adulthood. Shoaling, active, and fast-growing, it demands a large tank and a committed long-term salinity progression — not a fish for typical community freshwater setups.",
+  "careNotes": "The Mono is one of the classic euryhaline trap species in the hobby: juveniles are sold in freshwater sections of retail stores yet naturally migrate from estuarine nursery habitat to full-marine coastal reef environments as they mature. Long-term keeping requires a deliberate salinity progression — typically starting at low brackish (SG 1.003–1.005) and increasing incrementally over months to years toward SG 1.010+ for sub-adults and eventually full marine (SG 1.020–1.025) for adults. Fish kept indefinitely in pure freshwater typically show declining health, elevated disease susceptibility, and shortened lifespan. A minimum group of four is strongly advisable; lone or paired specimens become stressed and may hide or display aggression. The tank must be large — adults reaching 25+ cm in a shoal require at minimum 380 L (100 US gal) and preferably considerably more, with a long horizontal footprint for swimming room. Filtration must be robust, as Monos are messy feeders. Note that most aquatic plants cannot survive the brackish and marine salinity levels these fish ultimately require; plan décor around salt-tolerant hardscape. Water temperature should remain stable at 24–28°C throughout all life stages. Monos are fast, active midwater swimmers and benefit from open swimming lanes. A tight-fitting lid is advisable, as they can leap when startled. Avoid copper-based medications; while not definitively confirmed as hypersensitive, best practice for euryhaline/marine fish is to avoid copper treatments and use alternatives such as hyposalinity or formalin-based treatments instead.",
+  "breedingNotes": "Captive breeding of Monodactylus argenteus has not been reliably documented in aquarium literature. In the wild, spawning is believed to occur in coastal marine or reef-associated waters. Eggs and larvae are planktonic. Sexing is not possible by external examination. No practical captive breeding protocol exists; specimens available in the trade are wild-caught or farm-raised juveniles harvested from estuarine nursery areas.",
+  "sources": {
+    "primary": {
+      "name": "SeriouslyFish — Monodactylus argenteus",
+      "url": "https://www.seriouslyfish.com/species/monodactylus-argenteus/",
+      "accessedDate": "2026-06-09",
+      "notes": "Primary source. Confirmed adult size (to 27 cm), temperature 24–28°C, pH 7.0–8.3, native range (Indo-Pacific, East Africa to Australia), estuarine-to-marine life history, shoaling requirement (groups of 4+), semi-aggressive temperament, and the critical salinity progression detail (juvenile freshwater/brackish → adult marine). Diet confirmed as omnivore accepting flake, frozen, and live foods."
+    },
+    "additional": [
+      {
+        "name": "FishBase — Monodactylus argenteus",
+        "url": "https://www.fishbase.se/summary/Monodactylus-argenteus.html",
+        "accessedDate": "2026-06-09",
+        "notes": "Cross-checked adult size (reported to 27 cm TL), distribution map confirming Indo-Pacific and East African coastal range, taxonomy (Monodactylidae, Perciformes), depth range (0–20 m), habitat notes (estuaries, coastal reefs), and euryhaline classification. Temperature range 24–28°C confirmed."
+      },
+      {
+        "name": "Aquarium Co-Op — Mono Fish Care Guide",
+        "url": "https://www.aquariumcoop.com/blogs/aquarium/mono-fish",
+        "accessedDate": "2026-06-09",
+        "notes": "Trade-oriented care overview. Confirmed brackish-to-marine transition requirement, minimum group size of 4+, large tank requirement (100+ gal), omnivore diet, compatibility notes with scats and archerfish. Highlighted the retail freshwater labeling trap and long-term salinity progression commitment."
+      },
+      {
+        "name": "Practical Fishkeeping — Monodactylus argenteus species profile",
+        "url": "https://www.practicalfishkeeping.co.uk/species-profiles/monodactylus-argenteus/",
+        "accessedDate": "2026-06-09",
+        "notes": "UK trade source. Corroborated the estuarine juvenile / reef adult life history, salinity requirement progression, large adult size (to 25 cm in captivity), and the recommendation to keep with other euryhaline species (scats, archerfish). Noted fin-nipping tendency toward slow or long-finned tankmates."
+      },
+      {
+        "name": "TFH Magazine — Brackish Fishes: The Mono",
+        "url": "https://www.tfhmagazine.com/articles/freshwater/the-brackish-fishes-monodactylus-argenteus",
+        "accessedDate": "2026-06-09",
+        "notes": "In-depth hobbyist article detailing the salinity progression husbandry protocol, water chemistry across life stages, compatibility with scats and other estuarine species, and notes on captive longevity (7–10 years with proper marine transition). Confirmed no reliable captive breeding records."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "No reliable captive breeding protocol documented. Wild spawning occurs in coastal marine waters; planktonic larvae. Sexes are indistinguishable externally. Captive specimens are wild-caught or estuarine farm-raised juveniles.",
+    "conspecificAggression": "low",
+    "finNippy": true,
+    "reefSafe": null,
+    "escapeRisk": "moderate",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": true
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "hobbyistAdvisory": {
+    "level": "specialist-only",
+    "reason": "Sold as freshwater fish but is BRACKISH→MARINE at adult (similar to Colombian Shark Catfish fw-fish-304 trap). Long-term keeping requires transition to brackish (SG 1.010+) then marine. Specialist euryhaline husbandry commitment."
+  },
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": null
+}
