@@ -7,77 +7,164 @@
   "commonName": "Dragon Wrasse",
   "scientificName": "Novaculichthys taeniourus",
   "alsoKnownAs": [
-    "[pending-research] Dragon Wrasse / Rockmover (juvenile color)"
+    "Rockmover Wrasse",
+    "Reindeer Wrasse",
+    "Olive-scribbled Wrasse",
+    "Carpet Wrasse"
   ],
   "category": "Wrasse",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Labridae",
+    "order": "Eupercaria"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
-    "depthRangeM": null
+    "regions": [
+      "Indo-Pacific",
+      "Eastern Pacific"
+    ],
+    "countries": [
+      "Red Sea coastal states",
+      "South Africa",
+      "Maldives",
+      "Indonesia",
+      "Philippines",
+      "Australia",
+      "Japan",
+      "Hawaii (USA)",
+      "French Polynesia",
+      "Mexico",
+      "Panama",
+      "Ecuador (Galapagos)"
+    ],
+    "habitat": "Semi-exposed reef flats, lagoons and seaward reefs with mixed rubble, sand and coral. Adults patrol large reef sections, often in pairs, turning over rubble and debris to expose prey; juveniles drift among loose algae and seagrass on shallow rubble flats.",
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 1,
+      "max": 25
+    }
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
+    "temperatureC": {
+      "min": 24,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": null,
-    "salinity": null
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": null,
+  "adultSizeCm": {
+    "min": 27,
+    "max": 30
+  },
   "lifespanYears": null,
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
-    "minSandDepthCm": null
+    "minVolumeLiters": 700,
+    "minLengthCm": 180,
+    "swimZone": "all",
+    "decorPreferences": [
+      "ample open swimming space",
+      "stable, well-anchored rockwork",
+      "deep fine sand bed (at least 7 cm) for sleeping and burrowing",
+      "tightly fitting lid to prevent jumping",
+      "loose rubble or shells for foraging"
+    ],
+    "minSandDepthCm": 7
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "carnivore",
+    "notes": "In the wild has been documented turning over rubble and small rocks to expose mollusks, sea urchins, brittle stars, polychaete worms, crabs and other small crustaceans. In captivity generally accepts vitamin-enriched frozen mysis and brine shrimp, chopped meaty seafood (krill, raw table shrimp, squid, clam, mussel) and quality marine pellets or flakes. Tends to do best with two or three meaty feedings per day."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": [
+      "larger semi-aggressive fish",
+      "tangs",
+      "triggerfish",
+      "larger angelfish",
+      "groupers",
+      "puffers"
+    ],
+    "avoidWith": [
+      "conspecifics",
+      "other Novaculichthys or razor wrasses",
+      "small peaceful fish",
+      "ornamental shrimp",
+      "small crabs",
+      "snails",
+      "starfish",
+      "sessile and motile invertebrates",
+      "corals"
+    ]
   },
   "media": {
-    "primaryImage": "dragon_wrasse.jpg",
+    "primaryImage": null,
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Dragon Wrasse.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "A large, robust Indo-Pacific reef wrasse with dramatically different juvenile and adult color phases. Generally considered not reef-safe and tends to actively rearrange rockwork in search of invertebrate prey.",
+  "careNotes": "Best suited to a large, well-established fish-only or FOWLR aquarium with a long footprint, abundant open swimming space, and a deep fine sand bed of at least 7 cm — the species buries itself in the substrate to sleep and when startled, so coarse or shallow substrates are generally considered unsuitable. A tightly fitting lid is widely recommended, as wrasses of this genus have been known to jump from open-top tanks. The juvenile color phase is dramatic and ornate — typically maroon to green with white markings and elongated first dorsal spines forming a 'cow-lick' that helps it mimic drifting algae — while adults become considerably plainer, with a light blue-grey to olive-brown body and dark facial markings; juveniles and adults are visually distinct enough that they are sometimes mistaken for different species. Adults reach roughly 27–30 cm and are active, powerful swimmers that tend to actively re-aquascape the aquarium, overturning rubble and unsecured rockwork while foraging, so rock structures should be well anchored. Considered not reef-safe — has been reported to predate ornamental shrimp, small crabs, snails, brittle stars, fan worms, and small bottom-dwelling fish, and may harass or nip at sessile invertebrates. Generally peaceful as a small juvenile but tends to become increasingly bold and territorial with age; best housed singly, as only one specimen per tank is generally advised, and pairings with smaller or more passive tankmates are usually unsuccessful in the long term. Tank-size recommendations across sources varied (BlueZoo Aquatics ~100 US gal / ~380 L, LiveAquaria 180 US gal / ~680 L, ReefApp 800 L); given the species' adult size, active swimming habit and rock-rearranging behaviour, the larger ~700 L value was chosen. Reported temperatures spanned LiveAquaria 22–26°C and FishBase 24–28°C, blended to 24–27°C.",
+  "breedingNotes": "Breeding in home aquaria has not been meaningfully documented and is generally considered impractical. In the wild the species is oviparous with distinct pairing during spawning; FishBase records no functional hermaphroditism for this species, unusual among labrids.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/product/314/?pcatid=314",
+      "accessedDate": "2026-06-10",
+      "notes": "Common names, juvenile/adult color phases, 180 US gal minimum, 2–4 in sand bed, tight-fitting lid, single-specimen housing, not reef safe, diet, origin (Philippines, Indonesia, Kenya, Fiji)."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Novaculichthys-taeniourus.html",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked taxonomy (Labridae, Eupercaria, Xyrichtyinae), max size 30 cm TL, IUCN Least Concern, Indo-Pacific + Eastern Pacific distribution, depth 3–25 m (typically 0–14 m), preferred temperature 24–28°C, rubble-turning feeding behaviour, oviparous with distinct pairing, no hermaphroditism indicated."
+      },
+      {
+        "name": "ReefApp",
+        "url": "https://reefapp.net/en/encyclopedia/novaculichthys-taeniourus",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked adult size 30 cm, semi-aggressive/aggressive temperament with age, not reef safe, ~26°C, SG ~1.026, 800 L recommended minimum, sand-burying sleep behaviour, jumping risk."
+      },
+      {
+        "name": "BlueZoo Aquatics",
+        "url": "https://www.bluezooaquatics.com/productDetail.asp?did=1&pid=1063&cid=289",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked max size 12 in (~30 cm), semi-aggressive temperament, intermediate care level, 100 US gal minimum tank, not reef safe, diet preferences, rearranges décor, jumping risk and lid requirement. Used as additional tank-size and care-level cross-check."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
-    "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
-    "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "Spawning has not been achieved in home aquaria. In the wild the species is oviparous and pairs during spawning; gonochore (not a sequential hermaphrodite) per FishBase records.",
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "no",
+    "escapeRisk": "high",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": true,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
     "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
     "symbioticShrimpPartner": null,
     "mouthbrooder": null,
     "constantGrazer": null,
@@ -92,6 +179,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-10"
 }

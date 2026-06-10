@@ -7,82 +7,119 @@
   "commonName": "Moorish Idol",
   "scientificName": "Zanclus cornutus",
   "alsoKnownAs": [
-    "[pending-research] Moorish Idol"
+    "Toby",
+    "Gill (Finding Nemo)"
   ],
   "category": "Idol",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Zanclidae",
+    "order": "Acanthuriformes"
   },
   "nativeRange": {
-    "regions": [],
+    "regions": ["Indo-Pacific", "Eastern Pacific"],
     "countries": [],
-    "habitat": null,
-    "biotope": null,
-    "depthRangeM": null
+    "habitat": "Turbid inner lagoons, reef flats, and clear seaward rocky and coral reefs; benthopelagic, typically observed in small groups of 2-3 but occasionally in larger schools.",
+    "biotope": "Coral reef",
+    "depthRangeM": { "min": 3, "max": 182 }
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
+    "temperatureC": { "min": 24, "max": 27 },
+    "pH": { "min": 8.1, "max": 8.4 },
     "gH": null,
-    "kH": null,
-    "salinity": null
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.021, "max": 1.025 }
   },
-  "adultSizeCm": null,
+  "adultSizeCm": { "min": 18, "max": 23 },
   "lifespanYears": null,
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 1500,
+    "minLengthCm": 240,
+    "swimZone": "all",
+    "decorPreferences": [
+      "mature live rock with renewable sponge growth",
+      "ample open swimming space",
+      "deep front-to-back footprint",
+      "strong oxygenated water flow (~20x turnover/hour)"
+    ],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "expert",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Specialised wild spongivore — primarily grazes encrusting sponges supplemented by small invertebrates and algae. The wild diet is the central husbandry problem: substitute foods rarely sustain captive specimens. Aquarists who attempt this species are generally advised to offer mature live rock with sponge growth alongside finely chopped meaty foods, mysis shrimp, vitamin-enriched brine shrimp, nori/Spirulina, and ideally collected live sponge — fed multiple times per day. Once a Moorish Idol stops feeding it typically does not resume."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "peaceful",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": [
+      "peaceful planktivores (Chromis)",
+      "carnivorous wrasses",
+      "peaceful dottybacks"
+    ],
+    "avoidWith": [
+      "large angelfishes (Pomacanthidae)",
+      "surgeonfishes and tangs (Acanthuridae)",
+      "aggressive or boisterous tankmates",
+      "stony and soft corals (will be nipped)",
+      "feather dusters and small clams"
+    ]
   },
   "media": {
     "primaryImage": "moorish_idol.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Moorish Idol.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "Iconic Indo-Pacific reef fish (the 'Gill' of Finding Nemo) — visually unmistakable but extraordinarily difficult in captivity, with documented mortality rates approaching 100% in home aquaria. Generally regarded as a public-aquarium species.",
+  "careNotes": "ETHICAL ADVISORY: The Moorish Idol is one of the most poorly-suited reef fish for home aquaria ever popularised by the trade. Tropical Fish Hobbyist Magazine (Bob Goemans, 'Still Impossible After All These Years') documented 382 specimens followed over nearly three years with zero long-term survivors; the most successful keeper on record (Pablo Tepoot) achieved only a one-in-seven success ratio, and overall long-term (>1 year) survival in home tanks is estimated at well under 10%. Most specimens die within days to a few months of acquisition. Hundreds to thousands are removed from reefs annually with virtually no captive recruitment to offset the loss. AquaMate flags this species 'public-aquarium-only' for this reason and the website strongly discourages purchase.\n\nThe core problem is dietary: in the wild, Zanclus cornutus is an obligate-leaning spongivore, grazing encrusting sponges across wide stretches of reef. Captive substitutes rarely sustain the species, and once a specimen stops feeding it usually does not resume — wasting away over weeks even after an apparently good initial acclimation. Specimens are also extremely sensitive to transport stress, copper-based prophylactic medications used in the supply chain, reduced-salinity fish-store holding, and minor temperature excursions.\n\nIf — against advice — the species is attempted, requirements are extreme: a mature, fully-established reef system (at least one year old, ideally larger) with substantial mature live rock carrying renewable sponge growth, near-natural seawater parameters, very high water movement (~20× turnover/hour), deep front-to-back swimming space, and a minimum tank footprint on the order of 200 US gal (~750 L) for juveniles or 400+ US gal (~1500 L) for adults. Tank size selected here (1500 L) reflects TFH Magazine's expert recommendation and the species' active open-water swimming behaviour; LiveAquaria's 125 US gal (~475 L) minimum is considered systematically under-stated and is not adopted.\n\nNot a tang: despite the resemblance, Zanclidae is a monotypic family (only one species, Z. cornutus) and is more closely related to surgeonfishes than to butterflyfishes. It lacks the caudal-peduncle scalpel of acanthurids. Frequently confused in the trade with the Schooling Bannerfish (Heniochus diphreutes) and Longfin Bannerfish (H. acuminatus), both of which are far more tractable in aquaria and are the responsible substitute for hobbyists drawn to the look.\n\nWater parameter notes: temperature reflects average of LiveAquaria's 25.6-26.7°C (78-80°F) and FishBase wild data 24-28°C → 24-27°C used. Salinity reflects LiveAquaria's 1.021-1.023 SG widened to 1.025 to align with full-reef expectations for sponge growth. Depth range from FishBase (0-182 m; typically 5-182 m).",
+  "breedingNotes": "Not bred in captivity. Spawns pelagic eggs producing an unusually long-lived pelagic larval stage (months-long acronurus-like larva), which is widely cited as a reason wild populations remain stable despite heavy collection pressure but also why aquaculture has not been achieved.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/moorish-idol-expert-only",
+      "accessedDate": "2026-06-10",
+      "notes": "Designated primary source for fish-saltwater slice. LiveAquaria's species page is explicitly labelled 'EXPERT ONLY' and recommends against home keeping for all but the most expert hobbyists. Initial fetch of /product/483/moorish-idol returned 404; the canonical product URL is /products/moorish-idol-expert-only."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Zanclus-cornutus.html",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked taxonomy (family Zanclidae, order Acanthuriformes), maximum size (23 cm TL), depth range (0-182 m), temperature range (24-28°C), and Indo-Pacific + Eastern Pacific distribution. FishBase notes: 'popular aquarium fish but rarely survives in tanks.'"
+      },
+      {
+        "name": "Tropical Fish Hobbyist Magazine",
+        "url": "https://www.tfhmagazine.com/articles/saltwater/still-impossible-after-all-these-years-keeping-moorish-idols",
+        "accessedDate": "2026-06-10",
+        "notes": "Bob Goemans long-form article documenting the species' captive mortality crisis: 382 specimens tracked over three years with zero long-term survivors, one-in-seven success ratio cited as best on record, <10% one-year survival overall. Source of the ethical advisory, the 200/400 US gal tank-size recommendation, and the 20x turnover guidance. Explicitly framed as 'a recommendation against keeping this fish, period.'"
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
-    "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
-    "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "No documented captive spawning or rearing. Pelagic eggs hatch into an unusually long-lived acronurus-like larva (often months at sea) — a life history that has so far defeated aquaculture attempts.",
+    "conspecificAggression": "low",
+    "finNippy": false,
+    "reefSafe": "no",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": true,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": true,
+    "toxicToTank": false,
+    "feedingDifficulty": "difficult",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": true,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -92,6 +129,10 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-10",
+  "hobbyistAdvisory": {
+    "level": "public-aquarium-only",
+    "reason": "Documented captive mortality approaches 100% in home aquaria — long-term (>1 year) survival is estimated under 10% across all skill levels, and the species' obligate spongivorous diet cannot be reliably replicated outside large institutional systems. Hundreds to thousands are wild-collected each year with negligible captive recruitment. AquaMate strongly recommends that hobbyists drawn to the look choose a Heniochus bannerfish (the 'False Moorish Idol') instead and leave Zanclus cornutus to public aquaria and the reef."
+  }
 }

@@ -7,82 +7,120 @@
   "commonName": "Falco Hawkfish",
   "scientificName": "Cirrhitichthys falco",
   "alsoKnownAs": [
-    "[pending-research] Falco Hawkfish"
+    "Dwarf Hawkfish",
+    "Falco's Hawkfish",
+    "Spotted Hawkfish"
   ],
   "category": "Hawkfish",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Cirrhitidae",
+    "order": "Centrarchiformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
-    "depthRangeM": null
+    "regions": ["Indo-Pacific"],
+    "countries": ["Maldives", "Sri Lanka", "Indonesia", "Philippines", "Japan", "Australia", "Fiji", "Samoa", "New Caledonia"],
+    "habitat": "Coastal to outer reef flats and slopes; perches on coral heads and rocky outcrops, often resting near the bases of branching corals.",
+    "biotope": "Reef",
+    "depthRangeM": { "min": 4, "max": 46 }
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
+    "temperatureC": { "min": 23, "max": 27 },
+    "pH": { "min": 8.1, "max": 8.4 },
     "gH": null,
-    "kH": null,
-    "salinity": null
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.020, "max": 1.025 }
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 7, "max": 8 },
+  "lifespanYears": { "min": 3, "max": 5 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 120,
+    "minLengthCm": 90,
+    "swimZone": "bottom",
+    "decorPreferences": [
+      "live rock with multiple perching ledges",
+      "branching coral skeletons or stony coral structure for perches",
+      "open swimming space above rockwork",
+      "tight-fitting lid (jumper)"
+    ],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "beginner",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Generally accepts a varied carnivore diet of marine-origin frozen and prepared foods — mysis shrimp, enriched brine shrimp, chopped seafood, and quality marine pellets. Has been reported to take live feeder shrimp readily; live foods are useful for conditioning but not required long-term."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": [
+      "robust similarly-sized tankmates (tangs, larger wrasses, dottybacks)",
+      "most stony and soft corals",
+      "larger, fast-moving fish that are added before the hawkfish"
+    ],
+    "avoidWith": [
+      "ornamental shrimp (Lysmata, sexy shrimp, anemone shrimp)",
+      "small hermit crabs and other small motile invertebrates",
+      "small gobies, firefish, and other small bottom-dwellers that fit in its mouth",
+      "larger, more aggressive hawkfish species",
+      "conspecifics in modest tanks (kept as bonded pairs only if introduced together in larger systems)"
+    ]
   },
   "media": {
     "primaryImage": "falco_hawkfish.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Falco Hawkfish.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "A small, hardy Indo-Pacific reef hawkfish (~7-8 cm) that perches on rockwork and is generally considered beginner-friendly, with the usual hawkfish caveat that it tends to predate ornamental shrimp and small motile invertebrates.",
+  "careNotes": "Cirrhitichthys falco is one of the smaller and more manageable hawkfishes, generally considered beginner-friendly and well suited to nano-to-medium reef aquariums (around 120 L / 30 US gal and up). Sources disagree slightly on minimum housing: LiveAquaria suggests roughly a 30 US-gal (~114 L) starting point, Reefapp lists ~100 L, and Practical Fishkeeping's care guide mentions ~125 L as a reasonable floor — 120 L is a sensible round-number minimum that allows for the perching footprint and open swimming space these fish appreciate. Adult size reports cluster around 7-8 cm: FishBase lists 8.0 cm TL while LiveAquaria states ~7.6 cm (3 in) and Reefapp ~7 cm. Like other Cirrhitidae, falco hawkfish lack a functional swim bladder and rest on rockwork, branching coral, or ledges between feeding bursts, so plenty of structured perches are appreciated. They are competent jumpers — a tight-fitting lid or mesh top is strongly advised. Generally considered reef-safe with caution: corals are typically ignored, but the species is an opportunistic micropredator and has been reported to consume ornamental shrimp (Lysmata spp., sexy shrimp, anemone shrimp), small hermit crabs, bristleworms, and any small mobile invertebrate or fish that fits in its mouth — assume vulnerable shrimp and small crustaceans are at risk. Temperament is semi-aggressive: usually tolerant of similar-sized or larger tankmates added before it, but tends to bully peaceful or smaller fish added afterward. Avoid keeping with larger, more dominant hawkfish. Sex change is protogynous in this genus (typical for haremic Cirrhitidae); aquarium specimens are commonly kept singly, with pair-keeping possible if a smaller individual is added to an established larger one, ideally in a system of 200 L or more.",
+  "breedingNotes": "Reported to be a haremic, pelagic spawner in the wild — males spawn nightly with females in the harem during ascents into the water column. Captive spawning is occasionally reported but rearing fry through the pelagic larval stage is challenging and not commonly accomplished in home aquaria.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/product/2626/falco-hawkfish",
+      "accessedDate": "2026-06-10",
+      "notes": "Primary aquarium-trade care sheet: temperament, reef compatibility, water parameters, diet, color/description."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Cirrhitichthys-falco.html",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked taxonomy (Cirrhitidae / Centrarchiformes), max size (8.0 cm TL), depth range (4-46 m, typical 10-20 m), Indo-Pacific distribution, haremic pelagic-spawning behavior, and IUCN Least Concern status."
+      },
+      {
+        "name": "Reefapp Encyclopedia",
+        "url": "https://reefapp.net/en/encyclopedia/cirrhitichthys-falco",
+        "accessedDate": "2026-06-10",
+        "notes": "Second secondary used because Practical Fishkeeping's care guide returned HTTP 403. Cross-checked min tank size (~100 L), adult size (~7 cm), temperament (semi-aggressive), reef-safe-with-caution status, and perching/sit-and-wait behavior."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
-    "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
-    "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "breedingDifficulty": "difficult",
+    "breedingNotes": "Pelagic spawner; haremic in the wild with nightly water-column spawning ascents. Rearing the pelagic larvae through metamorphosis has rarely been documented in home aquaria.",
+    "conspecificAggression": "moderate",
+    "finNippy": false,
+    "reefSafe": "with caution",
+    "escapeRisk": "high",
+    "venomousSpines": false,
+    "sexChange": "protogynous",
+    "haremic": true,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -92,6 +130,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-10"
 }

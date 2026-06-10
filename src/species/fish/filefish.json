@@ -4,85 +4,183 @@
   "kind": "fauna",
   "taxon": "fish",
   "waterType": "saltwater",
-  "commonName": "Filefish",
+  "commonName": "Filefish (Orange-Spotted)",
   "scientificName": "Oxymonacanthus longirostris",
   "alsoKnownAs": [
-    "[pending-research] Filefish — Orange-Spotted most common"
+    "Orange Spotted Filefish",
+    "Orangespotted Filefish",
+    "Long-Nosed Filefish",
+    "Longnose Filefish",
+    "Harlequin Filefish",
+    "Beaked Filefish",
+    "Beaked Leatherjacket",
+    "Fantail Filefish"
   ],
   "category": "Filefish",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Monacanthidae",
+    "order": "Tetraodontiformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
-    "depthRangeM": null
+    "regions": [
+      "Indo-Pacific",
+      "Western Pacific",
+      "Indian Ocean"
+    ],
+    "countries": [
+      "Kenya",
+      "Tanzania",
+      "Mozambique",
+      "Maldives",
+      "Sri Lanka",
+      "Indonesia",
+      "Philippines",
+      "Japan",
+      "Papua New Guinea",
+      "Australia",
+      "New Caledonia",
+      "Fiji",
+      "Tonga",
+      "Samoa"
+    ],
+    "habitat": "Clear lagoons and seaward coral reefs, closely associated with live branching Acropora colonies on which it grazes; non-migratory.",
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 1,
+      "max": 35
+    }
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
+    "temperatureC": {
+      "min": 23,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": null,
-    "salinity": null
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": null,
+  "adultSizeCm": {
+    "min": 10,
+    "max": 12
+  },
   "lifespanYears": null,
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 200,
+    "minLengthCm": 120,
+    "swimZone": "all",
+    "decorPreferences": [
+      "mature live reef with abundant Acropora colonies",
+      "live rock with branching SPS",
+      "open swimming space between coral heads",
+      "calm water flow",
+      "hiding spots in branching coral"
+    ],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "expert",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Obligate corallivore in the wild — feeds almost exclusively on live polyps of branching Acropora coral, with Acropora millepora and A. hyacinthus reported as preferred species; occasionally documented sampling Porites, Heliopora, and small amounts of algae. In captivity this species typically refuses prepared foods and starves; survival generally requires the aquarium contain multiple healthy, expendable live Acropora colonies it can graze on continuously. A small minority of specimens have been reported to eventually accept enriched live brine shrimp, copepods, blackworms, and then transition to frozen mysis or vitamin-soaked finely chopped seafood, but this conversion is unreliable and demands many small feedings per day. Should not be purchased on the assumption it will eat prepared foods."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "peaceful",
+    "grouping": "pair",
+    "minGroupSize": 2,
+    "goodWith": [
+      "small peaceful gobies",
+      "dartfish",
+      "firefish",
+      "small peaceful wrasses",
+      "cardinalfish",
+      "its own mated pair"
+    ],
+    "avoidWith": [
+      "other filefish",
+      "aggressive feeders",
+      "tangs in small systems",
+      "triggerfish",
+      "large angelfish",
+      "any tank without expendable live Acropora colonies",
+      "prized Acropora frags or colonies"
+    ]
   },
   "media": {
     "primaryImage": "filefish.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Filefish.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "A small Indo-Pacific filefish famous for its bright orange-spot pattern on a pale green body and its obligate Acropora-polyp diet. Generally considered a specialist-only species — usually refuses prepared foods and tends to starve in aquariums without a continuous supply of live Acropora coral to graze on.",
+  "careNotes": "The Orange-Spotted Filefish (Oxymonacanthus longirostris) is one of the most visually striking small reef filefishes, but it is widely regarded by reefkeepers as a specialist-only species due to its obligate corallivory. In the wild it feeds almost exclusively on the live polyps of branching Acropora corals, with documented preference for Acropora millepora and A. hyacinthus. Sources converge on the same warning: most individuals brought into captivity refuse all prepared foods and starve within weeks to a few months, and even those that adapt to frozen foods rarely thrive long-term without live coral to graze on. This is not a fish for a typical mixed reef or fish-only setup — it is appropriate only for advanced reefkeepers willing to dedicate an aquarium with multiple healthy, sacrificial Acropora colonies as a living food source.\n\nReef compatibility is essentially zero in the conventional sense — the species will graze branching SPS, particularly Acropora, until those colonies decline. Some keepers have reported individuals that mostly ignored Porites and other corals while focusing on Acropora, but the species cannot be trusted around prized SPS frags. It does not feed on most LPS, softies, or zoanthids, so a system built around non-Acropora corals plus a dedicated Acropora 'pasture' is the only reliable setup.\n\nBehaviour and social structure: this species is well documented to form monogamous pair bonds in the wild, with paired adults defending small territories near dead coral bases and algae clumps; unpaired individuals form small groups of 3–5 fish. In captivity a mated pair is the standard recommendation; multiple males or multiple filefish in one tank tend to fight. Otherwise temperament toward unrelated tankmates is peaceful and shy — they should not be housed with aggressive feeders, large angels, triggers, or boisterous tangs that will outcompete them at feeding time.\n\nProvide a long, calm reef with abundant Acropora rockwork to graze, plus open swimming corridors between coral heads. Several small feedings per day are generally advised, ideally including live enriched Artemia, live copepods, blackworms, and gradually-introduced frozen mysis with vitamin/HUFA soaks for any specimens that have begun to accept prepared foods. Listed as IUCN Vulnerable due to coral-bleaching pressure on its food source — strong ethical argument for buying captive-bred specimens where available and never adding a wild-caught individual to a tank without a confirmed live Acropora feed plan.\n\nTrade-name variants: also sold as Long-Nosed/Longnose Filefish, Harlequin Filefish, Beaked Filefish, Beaked Leatherjacket, and occasionally Fantail Filefish — all refer to Oxymonacanthus longirostris.\n\nCross-source notes: primary intended source (LiveAquaria) did not carry a species page (404 on direct product URL and no search hit), so primary was swapped to FishBase and the trade sources Top Shelf Aquatics, Cincinnati Coral, and Dr. Reefs Quarantined Fish were used as additional secondaries. Adult size — FishBase 12 cm TL, Top Shelf 5 in (~12.7 cm), Cincinnati Coral and Dr. Reefs both 4 in (~10 cm); recorded 10–12 cm to span sources. Temperature — Top Shelf and Dr. Reefs 72–78°F (22–26°C), Cincinnati Coral 73–84°F (23–29°C), FishBase wild range 25–29.3°C; averaged to a reef-typical 23–27°C. Minimum tank — sources span 20 gal (Cincinnati Coral) to 50 gal (Top Shelf) with most recommending 40+ gal; the playbook's bias-larger rule plus the species' need for multiple full-sized Acropora colonies pushes the realistic minimum to a mature 200 L (~52 US gal) reef.",
+  "breedingNotes": "Oviparous, forming monogamous breeding pairs in the wild with extended courtship rituals (up to an hour or more). Females have been reported to lay 300+ eggs into algae clumps where the male fertilises them externally. Captive spawning has been very rarely reported and there is no established hobby-level captive-breeding protocol; the species is overwhelmingly traded as wild-caught.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "FishBase",
+      "url": "https://www.fishbase.se/summary/Oxymonacanthus-longirostris.html",
+      "accessedDate": "2026-06-10",
+      "notes": "Used as primary because the intended LiveAquaria product URL returned HTTP 404 and a search of LiveAquaria's catalogue returned no listing — LiveAquaria does not appear to stock this species. FishBase provided: confirmed scientific name Oxymonacanthus longirostris (Bloch & Schneider, 1801), family Monacanthidae, order Tetraodontiformes, max length 12.0 cm TL, depth range 1–35 m, Indo-Pacific distribution (East Africa to Samoa, north to Ryukyu Islands, south to southern Great Barrier Reef / New Caledonia / Tonga), marine reef-associated non-migratory, IUCN Vulnerable, obligate Acropora-polyp diet, monogamous pair-bonding social structure, oviparous reproduction."
+    },
+    "additional": [
+      {
+        "name": "Wikipedia — Orange spotted filefish",
+        "url": "https://en.wikipedia.org/wiki/Orange_spotted_filefish",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-confirmed family Monacanthidae, order Tetraodontiformes, authority (Bloch & Schneider, 1801), obligate corallivore on Acropora (preferred A. millepora and A. hyacinthus, occasional Porites/Heliopora/algae), monogamous pair-bonding (unpaired fish form groups of 3–5), 300+ eggs per spawn, intraspecific aggression during courtship, IUCN Vulnerable status linked to coral bleaching impact on food supply."
+      },
+      {
+        "name": "Top Shelf Aquatics",
+        "url": "https://topshelfaquatics.com/pages/saltwater-fish/orange-spotted-filefish",
+        "accessedDate": "2026-06-10",
+        "notes": "Trade-source secondary used to confirm aquarium-husbandry figures. Reported 50 gal minimum tank, 5 in max size, 72–78°F, pH 8.1–8.4, SG 1.020–1.025, care level Difficult, peaceful temperament, NOT reef compatible (will graze Acropora and branching SPS until colonies decline), carnivore feeding on coral polyps plus mysis and finely chopped seafood, 4–6 small meals per day required. Listed origin as Fiji."
+      },
+      {
+        "name": "Dr. Reefs Quarantined Fish",
+        "url": "https://drreefsquarantinedfish.com/product/orange-spotted-filefish-for-sale-dr-reefs-quarantined-fish/",
+        "accessedDate": "2026-06-10",
+        "notes": "Additional trade secondary, used to triangulate husbandry. 40+ gallon minimum, 3–4 in size, 72–78°F (22–26°C), pH 8.1–8.4, SG 1.023–1.025, care level High, peaceful and shy temperament, not reef safe, obligate corallivore on Acropora polyps with frequent starvation in captivity, occasional success transitioning to live/frozen brine and mysis. Confirmed common names Harlequin Filefish, Longnose Filefish, Fantail Filefish."
+      },
+      {
+        "name": "Cincinnati Coral and Aquarium",
+        "url": "https://www.cincinnaticoral.com/products/orange-spotted-filefish-oxymonacanthus-longirostris",
+        "accessedDate": "2026-06-10",
+        "notes": "Additional trade secondary. Reported 20 gallon minimum (low end of the spread; the playbook's bias-larger rule pushed the final minVolumeLiters upward), 4 in max size, 73–84°F, pH 8.2–8.4, care level Difficult, peaceful (singly or as mated pair, may be aggressive toward other filefish), not reef compatible (eats Acropora/Millepora), prefers vitamin-enriched marine flakes/pellets supplementally but feeds primarily on live corals. Confirmed common names Harlequin Filefish, Longnose Filefish, Beaked Leatherjacket."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "Oviparous monogamous pair spawner in the wild, with 300+ eggs deposited in algae clumps and externally fertilised by the male. No established captive-breeding protocol at hobby level.",
+    "conspecificAggression": "high",
     "finNippy": null,
-    "reefSafe": null,
-    "escapeRisk": null,
+    "reefSafe": "no",
+    "escapeRisk": "low",
     "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
     "copperSensitive": null,
     "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
+    "requiresHitchingPost": false,
+    "monogamousPairing": true,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "feedingDifficulty": "difficult",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": true,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -92,6 +190,10 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-10",
+  "hobbyistAdvisory": {
+    "level": "specialist-only",
+    "reason": "Obligate Acropora-polyp corallivore that typically refuses prepared foods and starves in captivity unless kept in an established reef with multiple sacrificial live Acropora colonies. Not suitable for typical home reefkeepers — requires an advanced specialist commitment to a coral-feeder system."
+  }
 }

@@ -7,82 +7,118 @@
   "commonName": "Midas Blenny",
   "scientificName": "Ecsenius midas",
   "alsoKnownAs": [
-    "[pending-research] Midas Blenny"
+    "Persian Blenny",
+    "Golden Mimic Blenny",
+    "Lyretail Blenny"
   ],
   "category": "Blenny",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Blenniidae",
+    "order": "Blenniiformes"
   },
   "nativeRange": {
-    "regions": [],
+    "regions": ["Indo-Pacific"],
     "countries": [],
-    "habitat": null,
-    "biotope": null,
-    "depthRangeM": null
+    "habitat": "Coral reefs, from clear coastal slopes to outer reef walls with moderate current; reported to swim 2-3 m above the substrate while feeding on zooplankton.",
+    "biotope": "Reef",
+    "depthRangeM": { "min": 2, "max": 40 }
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
+    "temperatureC": { "min": 23, "max": 27 },
+    "pH": { "min": 8.1, "max": 8.4 },
     "gH": null,
-    "kH": null,
-    "salinity": null
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.020, "max": 1.025 }
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 10, "max": 13 },
+  "lifespanYears": { "min": 4, "max": 6 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 150,
+    "minLengthCm": 90,
+    "swimZone": "mid",
+    "decorPreferences": [
+      "live rock with crevices for retreat",
+      "open mid-water swimming space",
+      "tight-fitting lid (jumper)"
+    ],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "beginner",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Atypical for the genus: in the wild it feeds primarily on zooplankton rather than algae. Generally advised to offer a varied meaty diet (mysis, vitamin-enriched brine shrimp, finely chopped crustacean flesh) supplemented with frozen herbivore preparations and marine micro-algae. Best fed multiple small meals per day to support a high-metabolism planktivore."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": [
+      "anthias (Pseudanthias spp.) — naturally schools with and mimics them",
+      "larger peaceful reef fish",
+      "tangs and surgeonfishes",
+      "most corals and invertebrates"
+    ],
+    "avoidWith": [
+      "other Midas Blennies",
+      "other Ecsenius blennies",
+      "small slow planktivores (firefish, small gobies)",
+      "very small dartfish and chromis in modest tanks"
+    ]
   },
   "media": {
     "primaryImage": "midas_blenny.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Midas Blenny.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "Atypical Ecsenius blenny: a golden, planktivorous mid-water swimmer that famously schools with and mimics lyretail anthias. Reef-safe but often more aggressive than its congeners.",
+  "careNotes": "The Midas Blenny is an unusual member of the genus Ecsenius. Unlike most combtooth blennies, which perch on rock and graze algae, it spends most of its time hovering and swimming in open water 2-3 m above the reef, feeding on zooplankton. In nature it is well known for joining schools of lyretail anthias (Pseudanthias squamipinnis) and other anthias species (Bartlett's, Dispar, Whitley's, Evans') and mimicking their coloration and swimming pattern — this behavior often carries over to the aquarium, and a Midas Blenny will commonly shoal with a group of anthias rather than hiding in the rockwork. The species also has a documented color-change ability, with an orange-yellow phase associated with anthias-mimicry.\n\nDespite a peaceful reputation in retail care sheets, the Midas Blenny is generally regarded as more aggressive than other Ecsenius blennies. Conspecific aggression is high: keeping more than one Midas Blenny together is generally discouraged unless the tank is very large or a confirmed pair is obtained. It will also frequently quarrel with other Ecsenius species and has been known to nip at and harass small planktivores such as firefish, dartfish, and small gobies, particularly in cramped tanks. A species-only tank is sometimes suggested for this reason, though in practice most keepers house it singly in a community reef with appropriately sized tankmates. Larger tanks markedly reduce its aggressive tendencies.\n\nThe Midas Blenny is generally considered reef-safe and does not nip at corals or sessile invertebrates. As a scaleless fish it is sensitive to water-quality swings and copper-based medications, so a stable, well-matured reef is advised. Like most blennies it is an accomplished jumper and a tightly fitted lid is strongly recommended.\n\nSources disagree on adult size: LiveAquaria reports up to ~15 cm (6 in) while FishBase records a maximum total length of 13 cm; the latter is the more authoritative value and is used here. Temperature recommendations also spanned a wider range than typical (LiveAquaria 22-26°C vs. FishBase wild-occurrence 24.6-29°C); a moderate 23-27°C window has been adopted.",
+  "breedingNotes": "Oviparous with distinct pairing during breeding. Eggs are demersal and adhesive, anchored to the substrate via a filamentous pad; larvae are planktonic. Captive breeding of Ecsenius midas is rarely reported and there are no widely-followed home-aquarium breeding protocols.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/midas-blenny",
+      "accessedDate": "2026-06-10"
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Ecsenius-midas.html",
+        "accessedDate": "2026-06-10",
+        "notes": "Used for taxonomy (Blenniidae / Blenniiformes), maximum length (13 cm TL), depth range (2-40 m), wild temperature window (24.6-29°C), and Indo-Pacific distribution. Disagreed with LiveAquaria on max size (LiveAquaria 6 in / ~15 cm vs FishBase 13 cm); preferred FishBase value."
+      },
+      {
+        "name": "LiveAquaria — Bring on the Clowns: Blennies of the genus Ecsenius",
+        "url": "https://www.liveaquaria.com/blogs/stocking-your-aquarium/bring-on-the-clowns-blennies-of-the-genus-ecsenius",
+        "accessedDate": "2026-06-10",
+        "notes": "Source for anthias-mimicry behavior, planktivorous diet (atypical for genus), and 6+ year aquarium lifespan for Ecsenius blennies."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
+    "breedingDifficulty": "difficult",
     "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
-    "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
-    "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "conspecificAggression": "high",
+    "finNippy": true,
+    "reefSafe": "yes",
+    "escapeRisk": "high",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": true,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -92,6 +128,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-10"
 }

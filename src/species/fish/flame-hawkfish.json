@@ -7,82 +7,135 @@
   "commonName": "Flame Hawkfish",
   "scientificName": "Neocirrhites armatus",
   "alsoKnownAs": [
-    "[pending-research] Flame Hawkfish"
+    "Brilliant Hawkfish"
   ],
   "category": "Hawkfish",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Cirrhitidae",
+    "order": "Centrarchiformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
-    "depthRangeM": null
+    "regions": [
+      "Indo-West Pacific",
+      "Pacific Ocean"
+    ],
+    "countries": [
+      "Japan (Ryukyu Islands)",
+      "Australia (Great Barrier Reef)",
+      "French Polynesia (Austral Islands, Mangaréva)",
+      "Kiribati (Line Islands)",
+      "Micronesia (Caroline, Mariana, Wake Islands)"
+    ],
+    "habitat": "Surge-swept reef fronts and submarine terraces, typically perched among branches of live stony corals (Pocillopora, Stylophora, Acropora).",
+    "biotope": "Reef",
+    "depthRangeM": { "min": 1, "max": 10 }
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
+    "temperatureC": { "min": 22, "max": 26 },
+    "pH": { "min": 8.1, "max": 8.4 },
     "gH": null,
-    "kH": null,
-    "salinity": null
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.020, "max": 1.025 }
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 9, "max": 10 },
+  "lifespanYears": { "min": 5, "max": 10 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 120,
+    "minLengthCm": 90,
+    "swimZone": "bottom",
+    "decorPreferences": [
+      "live rock with caves and ledges for perching",
+      "branching stony coral (Pocillopora, Stylophora, Acropora) where reef-keeping allows",
+      "open sightlines from elevated perches"
+    ],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "beginner",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Generally accepts a variety of meaty marine foods including mysis shrimp, frozen marine preparations, chopped shrimp/fish, and quality pellets. Has been reported to readily take prepared foods soon after acclimation."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": [
+      "tangs",
+      "larger wrasses",
+      "angelfishes",
+      "clownfishes",
+      "robust damsels",
+      "most reef corals (LPS and SPS)"
+    ],
+    "avoidWith": [
+      "ornamental shrimp (cleaner, peppermint, sexy, anemone shrimp)",
+      "small hermit crabs",
+      "tiny gobies and dartfish",
+      "conspecifics in anything but a very large system",
+      "other hawkfishes"
+    ]
   },
   "media": {
     "primaryImage": "flame_hawkfish.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Flame Hawkfish.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "Small, brilliant-red hawkfish that perches in branching corals and rockwork. Generally considered reef-safe with corals but is known to predate ornamental shrimp and small hermit crabs.",
+  "careNotes": "The Flame Hawkfish is one of the most popular small hawkfishes in the marine trade, prized for its bright cherry-red body and contrasting black dorsal markings. It is generally regarded as hardy and adaptable, which is part of why sources tend to call its care level easy/beginner despite it being a marine fish.\n\nLike other hawkfishes it lacks a swim bladder and spends most of its time perched on rockwork or in the branches of live stony corals (Pocillopora, Stylophora, Acropora) waiting for prey to pass. A structured reef aquascape with elevated perches and branching coral or coral-skeleton equivalents is strongly recommended; in a bare or low-structure tank it has been reported to look stressed and remain unsettled.\n\nReef caveat: it is generally considered reef-safe with corals, but it is an opportunistic micro-carnivore that has been documented preying on ornamental shrimp (cleaner, peppermint, sexy, anemone shrimp) and small hermit crabs. Keepers who want to maintain a cleanup crew with ornamental shrimp should generally avoid this species.\n\nTemperament toward fish is usually peaceful-to-semi-aggressive: it tends to tolerate larger, faster tankmates but may harass small bottom-dwellers (tiny gobies, dartfish) and other hawkfishes. It is best kept singly unless the tank is very large and a confirmed mated pair is introduced together.\n\nMin tank size: retailers commonly list 30 US gal (~114 L) which has been rounded up to a standard 120 L footprint here; long, wide tanks with horizontal swimming and perching room are preferred over tall ones. Sources broadly agree on temperature 22–26 °C, pH 8.1–8.4, dKH 8–12, and specific gravity 1.020–1.025; FishBase gives a max length of 9 cm TL and retailers commonly list ~4 in (10 cm), so 9–10 cm is the working adult range.",
+  "breedingNotes": "Pelagic spawner; not commonly bred in home aquaria. Captive spawning events have been reported only in very large, well-established systems with established pairs, and rearing of the planktonic larvae is generally regarded as difficult and not routinely accomplished in the hobby.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/product/193/?pcatid=193",
+      "accessedDate": "2026-06-10",
+      "notes": "Primary retailer care page. Provided min tank size (30 US gal), diet, perching behavior, and shrimp-predation caveat."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Neocirrhites-armatus.html",
+        "accessedDate": "2026-06-10",
+        "notes": "Confirmed scientific identity, taxonomy (Cirrhitidae / Centrarchiformes), max length 9 cm TL, depth range 1–10 m, Indo-West Pacific distribution, and trophic level (carnivore on small crustaceans)."
+      },
+      {
+        "name": "Saltwaterfish.com",
+        "url": "https://www.saltwaterfish.com/product-flame-hawkfish",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked adult size (~4 in / 10 cm), care level (easy), semi-aggressive temperament, carnivorous diet, and lack of swim bladder."
+      },
+      {
+        "name": "LiveAquaria care-info aggregate (search snippet)",
+        "url": "https://www.liveaquaria.com/product/7571/?pcatid=7571",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked water parameters (72–78°F = 22–26°C, pH 8.1–8.4, dKH 8–12, SG 1.020–1.025) and reef-safe-with-caution status."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
-    "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
-    "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "breedingDifficulty": "difficult",
+    "breedingNotes": "Pelagic spawner; larval rearing has rarely been documented in home aquaria.",
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "with caution",
+    "escapeRisk": "moderate",
+    "venomousSpines": false,
+    "sexChange": "protogynous",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -92,6 +145,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-10"
 }

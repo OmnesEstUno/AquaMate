@@ -7,82 +7,131 @@
   "commonName": "Picasso Trigger",
   "scientificName": "Rhinecanthus aculeatus",
   "alsoKnownAs": [
-    "[pending-research] Picasso Trigger / Lagoon Triggerfish"
+    "Lagoon Triggerfish",
+    "Humu Picasso Triggerfish",
+    "Humuhumu",
+    "Humuhumunukunukuapua'a",
+    "White-banded Triggerfish",
+    "Blackbar Triggerfish",
+    "Picassofish"
   ],
   "category": "Triggerfish",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Balistidae",
+    "order": "Tetraodontiformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
-    "depthRangeM": null
+    "regions": ["Indo-Pacific"],
+    "countries": ["East Africa", "Australia", "Hawaii (USA)", "Japan", "French Polynesia"],
+    "habitat": "Subtidal reef flats and shallow protected lagoons; benthopelagic over sand, rubble, and coral patches.",
+    "biotope": "Indo-Pacific lagoon and reef-flat biotope.",
+    "depthRangeM": { "min": 0, "max": 50 }
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
-    "kH": null,
-    "salinity": null
+    "temperatureC": { "min": 23, "max": 28 },
+    "pH":           { "min": 8.1, "max": 8.4 },
+    "gH":           null,
+    "kH":           { "min": 8, "max": 12 },
+    "salinity":     { "min": 1.020, "max": 1.025 }
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm":   { "min": 25, "max": 30 },
+  "lifespanYears": { "min": 8, "max": 12 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
-    "minSandDepthCm": null
+    "minVolumeLiters": 500,
+    "minLengthCm": 150,
+    "swimZone": "all",
+    "decorPreferences": [
+      "open swimming space",
+      "rockwork with caves and crevices for sleeping and retreat",
+      "sand substrate"
+    ],
+    "minSandDepthCm": 3
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Has been documented eating a wide range of items in the wild — algae, detritus, molluscs, crustaceans, worms, sea urchins, small fishes, corals, and tunicates. In captivity, generally advised to offer varied meaty foods (krill, squid, clams, mussels, small shrimp) alongside some marine algae. Hard-shelled foods help wear down the continuously growing teeth and reduce destructive chewing on tank decor."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": [
+      "larger semi-aggressive tankmates",
+      "tangs",
+      "large angelfish",
+      "large wrasses",
+      "groupers"
+    ],
+    "avoidWith": [
+      "ornamental shrimp and small crustaceans",
+      "snails and small molluscs",
+      "small peaceful fish",
+      "other triggerfish in modest-sized tanks",
+      "conspecifics"
+    ]
   },
   "media": {
     "primaryImage": "picasso_trigger.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Picasso Trigger.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "Iconic Indo-Pacific reef triggerfish known for vivid 'Picasso-style' markings; hardy and personable but territorial and not safe with invertebrates.",
+  "careNotes": "Rhinecanthus aculeatus is one of the most recognizable marine aquarium fishes, famous as the Hawaiian state fish 'Humuhumunukunukuapua'a'. It is generally considered one of the easier triggerfishes to keep but is firmly aggressive and territorial — especially as it matures — and tends to bully smaller or more peaceful tankmates. Adults reach around 25–30 cm and need ample open swimming space; a 500 L (roughly 130+ US gallons) tank is a sensible long-term floor, with larger volumes (700 L+) helping to dilute aggression and accommodate the species' restless cruising behavior. Rockwork should provide caves and crevices for sleeping but leave generous open swimming room. Reef compatibility is best treated as 'with caution': specimens have been reported to mostly ignore stony corals but will readily consume ornamental shrimp, snails, tubeworms, and other small invertebrates, and may nip at clam mantles or rearrange aquascaping. Diet should include hard-shelled meaty foods (krill, clams in shell, small mussels, hermit crabs as treats) to wear down their continuously growing teeth — fish kept on soft foods can develop overgrown teeth that interfere with feeding. Keep one per tank unless the system is very large; conspecific aggression is high. Lid is advised as triggerfish can occasionally jump when startled. Hardy and disease-resistant when water quality is stable.",
+  "breedingNotes": "Rarely bred in home aquariums. In the wild, males hold territories overlapping with 1–5 females in a haremic system and may maintain the same territory for years; females guard demersal egg masses laid in sand depressions and fan them with pectoral fins until they hatch the same evening, around sunset. Captive reproduction is generally limited to public aquaria with very large systems.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/humu-picasso-triggerfish",
+      "accessedDate": "2026-06-10",
+      "notes": "Hobby trade care sheet — sourced max size 10 in, 180 gal minimum, aggressive temperament, not reef-safe, temp 72-78F, pH 8.1-8.4, SG 1.020-1.025. Original assigned URL (liveaquaria.com root) was navigated to the species page via the Triggerfish collection."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Rhinecanthus-aculeatus.html",
+        "accessedDate": "2026-06-10",
+        "notes": "Taxonomic and wild-biology authority. Confirmed family Balistidae, order Tetraodontiformes, Indo-Pacific distribution (East Africa to Hawaii/Marquesas/Tuamotu, north to southern Japan), max length 30 cm TL, depth 0-50 m, temperature 24.5-29 C, omnivorous bottom feeder, haremic/polygynous reproduction with females guarding eggs."
+      },
+      {
+        "name": "Wikipedia (Lagoon triggerfish)",
+        "url": "https://en.wikipedia.org/wiki/Lagoon_triggerfish",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked adult size (~30 cm), Hawaiian state-fish status, territorial behavior, and haremic mating system. Confirmed alternate common names."
+      },
+      {
+        "name": "Fishkeeping World",
+        "url": "https://www.fishkeepingworld.com/picasso-triggerfish/",
+        "accessedDate": "2026-06-10",
+        "notes": "Hobby care guide — cross-checked size up to 12 in, temp 76-82 F (~24-28 C), pH 8.1-8.4, SG 1.021-1.025, aggressive/territorial, lifespan ~10 years, easy-moderate care level. Source spread: LiveAquaria 180 gal (~681 L) vs Fishkeeping World 100 gal (~380 L) tank minimum; per playbook caution rule, used 500 L (rounded to allowed sizes, with the species' restless/territorial behavior justifying the larger end)."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
-    "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
-    "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "Has been documented to reproduce in public aquaria but is not realistically bred in home systems; haremic mating with paternal territory holding and maternal egg guarding.",
+    "conspecificAggression": "high",
+    "finNippy": true,
+    "reefSafe": "with caution",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": true,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -92,6 +141,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-10"
 }

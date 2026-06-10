@@ -7,82 +7,153 @@
   "commonName": "Engineer Goby",
   "scientificName": "Pholidichthys leucotaenia",
   "alsoKnownAs": [
-    "[pending-research] Engineer Goby — actually Convict Blenny"
+    "Convict Blenny",
+    "Convict Goby",
+    "Engineer Blenny"
   ],
   "category": "Goby",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Pholidichthyidae",
+    "order": "Cichliformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
-    "depthRangeM": null
+    "regions": [
+      "Western Central Pacific",
+      "Indo-Pacific"
+    ],
+    "countries": [
+      "Philippines",
+      "Indonesia",
+      "Papua New Guinea",
+      "Solomon Islands",
+      "Australia"
+    ],
+    "habitat": "Shallow lagoons and coastal reefs, typically found under ledges or around coral heads on sand or rubble substrate where they excavate extensive tunnel systems.",
+    "biotope": "Indo-Pacific coastal reef with sand or rubble substrate",
+    "depthRangeM": {
+      "min": 3,
+      "max": 30
+    }
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
+    "temperatureC": {
+      "min": 22,
+      "max": 26
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": null,
-    "salinity": null
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.020,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": {
+    "min": 30,
+    "max": 34
+  },
+  "lifespanYears": {
+    "min": 7,
+    "max": 11
+  },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
-    "minSandDepthCm": null
+    "minVolumeLiters": 200,
+    "minLengthCm": 120,
+    "swimZone": "bottom",
+    "decorPreferences": [
+      "deep sand or fine rubble substrate for tunnelling",
+      "extremely stable rockwork resting on the tank bottom (not on sand)",
+      "rocks anchored against tank walls to prevent collapse",
+      "open swimming space with caves and ledges"
+    ],
+    "minSandDepthCm": 8
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "beginner",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Generally accepts a varied carnivore diet of frozen mysis, brine shrimp, krill, bloodworms, and finely chopped marine seafood. Has been reported to readily take prepared and frozen foods. Best offered small feedings at least twice daily."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "peaceful",
+    "grouping": "shoaling",
+    "minGroupSize": 2,
+    "goodWith": [
+      "peaceful community fish",
+      "tangs",
+      "larger peaceful wrasses",
+      "clownfish",
+      "cardinalfish",
+      "most corals"
+    ],
+    "avoidWith": [
+      "very small fish that could fit in its mouth",
+      "small ornamental shrimp",
+      "highly aggressive damselfish",
+      "triggerfish",
+      "large groupers"
+    ]
   },
   "media": {
     "primaryImage": "engineer_goby.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Engineer Goby.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "Eel-like Indo-Pacific reef fish (despite the name, not a true goby) famed for excavating elaborate tunnel systems through sand and rubble; juveniles wear horizontal black-and-white stripes that resemble the venomous striped catfish, while adults are vertically barred.",
+  "careNotes": "Despite the common names 'Engineer Goby' and 'Convict Goby', this species is NOT a true goby — it is the sole described member of family Pholidichthyidae, more closely allied to eels and cichlid-line perciforms (placed in order Cichliformes by current FishBase taxonomy). Juveniles (~2.5–7 cm) display striking horizontal black-and-white stripes that mimic the venomous striped eel catfish Plotosus lineatus, while adults (to roughly 30–34 cm) shift to vertical bars or broken bars. Compulsive tunnel and cave builders: they will move significant amounts of sand and excavate burrows under and around rockwork. ALL rockwork must rest directly on the tank bottom (glass) and ideally lean against tank walls — rocks set on top of sand can be undermined and collapse, which has been reported to crush tankmates or crack tanks. A deep sand or fine rubble bed (around 8 cm or more) supports their natural digging behaviour. Generally considered reef-safe in the sense that they do not eat coral, but they will redistribute sand across coral, and adults have been reported to consume very small ornamental shrimp and tiny fish that can fit in the mouth — add 'with caution' to mixed reef systems. They are social shoaling fish that tend to do better in pairs or small groups introduced simultaneously; lone specimens are commonly considered more reclusive. They have been reported to live around 7–11 years in well-kept aquariums. Cross-source verification: LiveAquaria, FishBase, and EpicAquarium agree on the size, temperature, and tank-size guidance.",
+  "breedingNotes": "Has been reported to spawn in aquaria, sometimes producing surprise broods when kept as a pair or small group. Adults excavate a chamber within the tunnel system and guard the eggs; fry are reported to emerge from the tunnel mouth and can be raised on rotifers and small live foods. Captive breeding remains uncommonly attempted at scale.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/product/165/?pcatid=165",
+      "accessedDate": "2026-06-10",
+      "notes": "Primary species page accessed via search result; direct WebFetch returned 404, content extracted from cached/indexed page text. Provided minimum tank size (55 gal), water parameters (72–78°F, pH 8.1–8.4, SG 1.020–1.025, dKH 8–12), diet, juvenile-vs-adult colour phase, rockwork stability warning, and 'reef safe with caution' guidance."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Pholidichthys-leucotaenia.html",
+        "accessedDate": "2026-06-10",
+        "notes": "Confirmed taxonomy (Pholidichthyidae, Cichliformes), maximum size (34 cm TL), depth range (3–30 m), temperature (22–28°C), distribution (Western Central Pacific: Philippines to Solomon Islands), and juvenile mimicry of Plotosus lineatus."
+      },
+      {
+        "name": "EpicAquarium",
+        "url": "https://epicaquarium.com/engineer-goby/",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked adult size (up to 34 cm), tank size (30 gal juveniles / 55 gal = ~208 L adults), temperature (22–25°C), salinity (1.020–1.025), lifespan (7–11 years), and compulsive burrowing/tunnel behaviour."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
-    "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
-    "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "breedingDifficulty": "difficult",
+    "breedingNotes": "Pairs/groups in established aquaria have been reported to spawn within burrow chambers; raising fry through metamorphosis is challenging due to small mouth size and need for live planktonic foods.",
+    "conspecificAggression": "low",
+    "finNippy": false,
+    "reefSafe": "with caution",
+    "escapeRisk": "moderate",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": true,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -92,6 +163,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-10"
 }

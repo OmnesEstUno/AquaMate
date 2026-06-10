@@ -7,82 +7,116 @@
   "commonName": "Longnose Hawkfish",
   "scientificName": "Oxycirrhites typus",
   "alsoKnownAs": [
-    "[pending-research] Longnose Hawkfish"
+    "Longnosed Hawkfish"
   ],
   "category": "Hawkfish",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Cirrhitidae",
+    "order": "Centrarchiformes"
   },
   "nativeRange": {
-    "regions": [],
+    "regions": ["Indo-Pacific", "Eastern Pacific"],
     "countries": [],
-    "habitat": null,
-    "biotope": null,
-    "depthRangeM": null
+    "habitat": "Outer reef slopes with strong currents; commonly perches on large gorgonians and black-coral colonies.",
+    "biotope": "Reef",
+    "depthRangeM": { "min": 10, "max": 100 }
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
+    "temperatureC": { "min": 23, "max": 27 },
+    "pH": { "min": 8.1, "max": 8.4 },
     "gH": null,
-    "kH": null,
-    "salinity": null
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.020, "max": 1.025 }
   },
-  "adultSizeCm": null,
+  "adultSizeCm": { "min": 12, "max": 13 },
   "lifespanYears": null,
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 200,
+    "minLengthCm": 120,
+    "swimZone": "all",
+    "decorPreferences": [
+      "structured rockwork with crevices and perching ledges",
+      "gorgonian or black-coral analogues for natural perching"
+    ],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Feeds on small benthic and planktonic crustaceans in the wild. Generally accepts a varied carnivore diet of frozen mysis, enriched brine, chopped marine meats and the occasional live feeder shrimp."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "semi-aggressive",
+    "grouping": "pair",
+    "minGroupSize": 1,
+    "goodWith": [
+      "medium to large semi-aggressive reef fish",
+      "tangs",
+      "wrasses (non-pygmy)",
+      "larger angelfishes"
+    ],
+    "avoidWith": [
+      "ornamental shrimp",
+      "small cleaner shrimp and sexy shrimp",
+      "small gobies and dartfish",
+      "other hawkfishes",
+      "very small or shy fish"
+    ]
   },
   "media": {
     "primaryImage": "longnose_hawkfish.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Longnose Hawkfish.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "Striking red-and-white reef perching predator with a long, tweezer-like snout; generally considered reef-safe with caution but reliably predates ornamental shrimp.",
+  "careNotes": "The Longnose Hawkfish is a perch-oriented ambush predator with a distinctive elongated snout adapted for plucking small crustaceans from crevices. In the wild it is most often observed clinging to large gorgonian sea fans and black-coral colonies on steep outer reef slopes, often well below 25 m. Aquarium analogues of these perching structures (open rockwork with elevated ledges, faux gorgonians, or live gorgonian/black-coral colonies where appropriate) are generally advised. Sources disagree noticeably on minimum tank size: LiveAquaria lists 30 gallons (~114 L) while TFH Magazine treats 60 gallons (~227 L) as a bare minimum and recommends ~100 gallons (~380 L); a 200 L tank has been chosen as a reasonable middle ground that accounts for the species' territoriality and need for structured swimming/perching space. Lacks a swim bladder, so it spends most of its time perched rather than cruising. Generally considered reef-safe with caution: its long snout and small mouth let it leave most corals alone, but it will reliably hunt ornamental shrimp, small crabs and other small motile invertebrates, and may harass tiny fish such as gobies and dartfish. Highly territorial toward conspecifics and other hawkfishes; one per tank is the usual rule unless a confirmed mated pair is introduced together. Has been reported to form monogamous pairs in the wild and is the only hawkfish species commonly reported to have spawned in captivity. A tight-fitting lid is recommended as the species can jump when startled.",
+  "breedingNotes": "Has been reported to spawn in captivity more often than other hawkfishes. Wild spawning occurs at dusk as a rapid paired ascent of less than a metre, after which the pair returns to their resident coral. Rearing the pelagic larvae through metamorphosis is generally considered very difficult and has been only rarely accomplished by hobbyists.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/product/199/longnose-hawkfish",
+      "accessedDate": "2026-06-10"
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Oxycirrhites-typus.html",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked taxonomy (Cirrhitidae, Centrarchiformes), 13 cm TL max length, Indo-Pacific + Eastern Pacific distribution, 10-100 m depth range, 24.9-29 C wild temperature range, and monogamous spawning behaviour."
+      },
+      {
+        "name": "TFH Magazine",
+        "url": "https://www.tfhmagazine.com/articles/saltwater/the-longnose-hawkfish-oxycirrhites-typus-full-article",
+        "accessedDate": "2026-06-10",
+        "notes": "Used as third source after disagreement on tank size (LiveAquaria 30 gal vs TFH 60-100 gal) and care level (LiveAquaria 'easy' vs TFH 'moderate-to-advanced'); chose intermediate and 200 L as compromise values. Confirmed monogamous pairing, high conspecific aggression, lack of swim bladder and gorgonian/black-coral perching habit."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
-    "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
-    "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "breedingDifficulty": "advanced",
+    "breedingNotes": "Pelagic-spawning monogamous pair; larval rearing is generally considered very difficult and only rarely accomplished by hobbyists.",
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "with caution",
+    "escapeRisk": "moderate",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": true,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -92,6 +126,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-10"
 }

@@ -7,82 +7,130 @@
   "commonName": "Pajama Cardinalfish",
   "scientificName": "Sphaeramia nematoptera",
   "alsoKnownAs": [
-    "[pending-research] Pajama Cardinalfish"
+    "PJ Cardinalfish",
+    "Polka-Dot Cardinalfish",
+    "Spotted Cardinalfish",
+    "Coral Cardinalfish"
   ],
   "category": "Cardinalfish",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Apogonidae",
+    "order": "Kurtiformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
-    "depthRangeM": null
+    "regions": ["Indo-Pacific", "Western Pacific"],
+    "countries": ["Indonesia", "Papua New Guinea", "Philippines", "Fiji", "Japan", "Australia", "Tonga"],
+    "habitat": "Aggregates among branching coral colonies (notably Porites) in sheltered bays and lagoons; disperses at night to feed near the bottom.",
+    "biotope": "Reef",
+    "depthRangeM": { "min": 1, "max": 14 }
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
+    "temperatureC": { "min": 22, "max": 26 },
+    "pH": { "min": 8.0, "max": 8.4 },
     "gH": null,
-    "kH": null,
-    "salinity": null
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.020, "max": 1.025 }
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 7.5, "max": 8.9 },
+  "lifespanYears": { "min": 3, "max": 5 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 120,
+    "minLengthCm": 75,
+    "swimZone": "mid",
+    "decorPreferences": [
+      "branching live rock",
+      "coral overhangs",
+      "moderate flow",
+      "subdued lighting or shaded areas"
+    ],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "beginner",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Generally accepts a varied carnivore diet of frozen mysis and brine shrimp, finely chopped seafood, and prepared marine pellets/flakes. Tends to feed most actively at dusk and in dim light; multiple small feedings per day are commonly advised."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "peaceful",
+    "grouping": "shoaling",
+    "minGroupSize": 5,
+    "goodWith": [
+      "clownfish",
+      "small gobies",
+      "royal gramma",
+      "firefish",
+      "peaceful blennies",
+      "other cardinalfish",
+      "small reef-safe wrasses"
+    ],
+    "avoidWith": [
+      "large angelfish",
+      "lionfish and other predators",
+      "aggressive damselfish",
+      "triggerfish",
+      "large hawkfish"
+    ]
   },
   "media": {
     "primaryImage": "pajama_cardinalfish.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Pajama Cardinalfish.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "Peaceful, reef-safe schooling cardinalfish with a striking three-tone pattern; widely considered one of the most beginner-friendly saltwater fish and commonly available captive-bred.",
+  "careNotes": "Pajama Cardinalfish are slow, methodical swimmers that tend to hover near coral branches and rockwork during the day and become more active at dusk. They are generally kept in small groups of five or more, where they form loose hierarchies; isolated singles or pairs are also commonly kept but the species' natural shoaling behavior is best expressed in a group. Provide ample branching rock, coral overhangs, or sheltered nooks for resting and hiding. Captive-bred individuals are widely available and tend to adapt readily to prepared foods. Sources lightly disagree on tank size: retail care sheets often quote 20 gal (~76 L) for a single fish or 30 gal (~114 L) for a small school, while hobby guides recommend 40 gal+ to support a 5-fish group with tankmates. The schema-selected value of 120 L reflects a small-school baseline.",
+  "breedingNotes": "Paternal mouthbrooder: after courtship the female releases a clutch (~200+ eggs) which the male incubates orally for roughly 7-10 days until hatching. Brooding males typically refuse food and develop a visibly distended jaw. Spawning has been reported on cycles of approximately 2-3 weeks in well-maintained pairs. Fry are tiny and require rotifers (and later baby brine shrimp) for successful rearing; captive-bred stock is widely available in the trade.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/product/85/pajama-cardinalfish",
+      "accessedDate": "2026-06-10"
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Sphaeramia-nematoptera.html",
+        "accessedDate": "2026-06-10",
+        "notes": "Confirmed taxonomy (Apogonidae / Kurtiformes), max length 8.5 cm TL, Indo-Pacific range, depth 1-14 m, wild temperature 26.3-29.3 C, paternal mouthbrooding."
+      },
+      {
+        "name": "Saltwater Aquarium Blog",
+        "url": "https://www.saltwateraquariumblog.com/pajama-cardinalfish/",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked tank size (20+ gal singly), temperament (peaceful/timid), reef-safe, diet, lifespan 2-5 yr, mouthbrooding cadence, and shoaling behavior (3-5 fish)."
+      },
+      {
+        "name": "Fishkeeping World - Pajama Cardinal care guide",
+        "url": "https://www.fishkeepingworld.com/pajama-cardinal/",
+        "accessedDate": "2026-06-10",
+        "notes": "Aggregated via WebSearch (direct fetch returned 404). Confirmed 30 gal minimum for school, temperature 72-78 F, pH 8.1-8.4, SG 1.020-1.025, reef-safe, mouthbrooding."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
-    "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
-    "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "breedingDifficulty": "moderate",
+    "breedingNotes": "Pairs form readily in captivity; raising the small fry on rotifers is the limiting step rather than spawning itself.",
+    "conspecificAggression": "low",
+    "finNippy": false,
+    "reefSafe": "yes",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": true,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -92,6 +140,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-10"
 }

@@ -7,82 +7,134 @@
   "commonName": "Fu Manchu Lionfish",
   "scientificName": "Dendrochirus biocellatus",
   "alsoKnownAs": [
-    "[pending-research] Fu Manchu Lionfish / Twin-Spot"
+    "Twin-Spot Lionfish",
+    "Twinspot Lionfish",
+    "Ocellated Lionfish",
+    "Twospot Turkeyfish",
+    "Nemapterois biocellatus"
   ],
   "category": "Lionfish",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Scorpaenidae",
+    "order": "Scorpaeniformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
-    "depthRangeM": null
+    "regions": ["Indo-Pacific", "Western Pacific"],
+    "countries": ["Mauritius", "Reunion", "Maldives", "Sri Lanka", "Indonesia", "Japan", "Australia", "French Polynesia"],
+    "habitat": "Coral-rich reef slopes and lagoons; secretive in caves, overhangs and rubble during daylight, emerging at dusk to hunt small fishes and crustaceans.",
+    "biotope": "Indo-Pacific coral reef",
+    "depthRangeM": { "min": 1, "max": 40 }
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
-    "kH": null,
-    "salinity": null
+    "temperatureC": { "min": 22, "max": 26 },
+    "pH":           { "min": 8.1, "max": 8.4 },
+    "gH":           null,
+    "kH":           { "min": 8, "max": 12 },
+    "salinity":     { "min": 1.020, "max": 1.025 }
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm":   { "min": 10, "max": 13 },
+  "lifespanYears": { "min": 5, "max": 10 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 120,
+    "minLengthCm": 90,
+    "swimZone": "all",
+    "decorPreferences": [
+      "live rock with caves and overhangs",
+      "shaded hiding spots",
+      "open swimming space for ambush behaviour",
+      "moderate flow"
+    ],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Obligate carnivore; in the wild feeds on small fishes and crustaceans. Often refuses prepared foods on arrival and may need live saltwater feeder shrimp or live small fish to initiate feeding, then can be slowly transitioned to thawed mysis, krill, silversides, and chopped marine fish/shellfish. Long-term diets of freshwater feeders (rosy reds, goldfish) are reported to cause fatty-liver disease; reserve those for emergency starters and switch to marine-origin foods as soon as possible."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": [
+      "larger semi-aggressive fish that cannot fit in its mouth",
+      "tangs",
+      "larger angelfishes",
+      "triggerfish (in larger systems)"
+    ],
+    "avoidWith": [
+      "small fish that fit in the mouth (chromis, small gobies, cardinalfish)",
+      "ornamental shrimp and other small crustaceans",
+      "other Fu Manchu Lionfish in modest tanks",
+      "very aggressive tankmates that out-compete it at feeding time"
+    ]
   },
   "media": {
     "primaryImage": "fu_manchu_lionfish.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Fu Manchu Lionfish.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "Small, cryptic Indo-Pacific lionfish with red, white and black banding and feeler-like chin appendages. Venomous spines, predatory on small fish and shrimp, and often slow to accept prepared foods.",
+  "careNotes": "The Fu Manchu Lionfish is one of the smaller Dendrochirus lionfishes, typically 10-13 cm at maturity, but is generally regarded as the most demanding of the commonly traded lionfishes. It is strictly nocturnal and cryptic, spending most daylight hours tucked under rocks or hanging upside-down inside overhangs, so the rockwork should provide several shaded caves with open ambush lanes in front of them. Sources commonly cite 30-40 gal (114-150 L) as a minimum, but predatory behaviour, the need for swimming room around hides, and the heavy meaty waste-load of a piscivore mean a ~120 L tank with strong skimming and mechanical filtration is a more honest floor. The dorsal, pelvic and anal spines are venomous; stings cause intense localised pain (hot-water immersion ~45 °C for 30-90 minutes is the standard first aid) and anyone with allergies or cardiac conditions should seek medical attention. Always handle with care during nets, rockwork or maintenance. Not reef-safe-with-inverts: any fish or shrimp small enough to fit in the mouth (and the mouth is surprisingly large) is prey. Reef-compatible with corals, but small ornamental shrimp and small gobies/cardinalfish should be avoided. Feeding is the main challenge - many specimens arrive refusing thawed food and require live ghost or feeder shrimp for the first few weeks, after which they can usually be weaned onto thawed mysis, krill, silversides and chunks of marine fish/shellfish via tongs. Avoid long-term diets of freshwater feeder fish; supplement with vitamin-soaked foods. Note: WoRMS currently lists Nemapterois biocellatus as the accepted name, but Dendrochirus biocellatus is the name used throughout the aquarium trade and most husbandry literature. FishBase max length is 13.0 cm TL; one third-party hobby site (Reeflings) listed 20 cm, which is inconsistent with FishBase and all other sources and was treated as an outlier.",
+  "breedingNotes": "Not bred in home aquaria. Pelagic spawner in the wild; eggs released in a buoyant gelatinous mass. No documented captive-breeding protocol.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/product/231/fu-manchu-lionfish",
+      "accessedDate": "2026-06-10",
+      "notes": "Care Level: Moderate; min tank 30 gal; temp 72-78 F; pH 8.1-8.4; SG 1.020-1.025; dKH 8-12; max ~4 in; semi-aggressive; reef-safe with caution; venomous dorsal spines. Controller-supplied root URL (liveaquaria.com) 404'd; navigated to actual product page 231 via web search."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Dendrochirus-biocellatus.html",
+        "accessedDate": "2026-06-10",
+        "notes": "Family Scorpaenidae; max 13.0 cm TL; depth 1-40 m; Indo-Pacific from Mauritius/Reunion to Society Islands, north to S. Japan, south to Scott Reef; trophic level 3.7; feeds on small fishes and crustaceans; venomous spines; ocelli on soft dorsal. FishBase currently accepts the senior name Nemapterois biocellatus; the trade still uses Dendrochirus biocellatus, which is retained here as scientificName with the synonym recorded in alsoKnownAs."
+      },
+      {
+        "name": "Fishkeeper (UK)",
+        "url": "https://www.fishkeeper.co.uk/fish/marine/miscellaneous-fish/fu-manchu-lionfish",
+        "accessedDate": "2026-06-10",
+        "notes": "Adult ~10 cm; depth to 40 m; temp 23-27 C; pH 8.1-8.4; SG 1.020-1.025; nocturnal/cryptic; eats small fish and ornamental shrimp; will not harm corals; venomous spines; notoriously difficult to feed initially."
+      },
+      {
+        "name": "Aquatic Community Lionfish Guide",
+        "url": "https://www.aquaticcommunity.com/lionfish/FuManchu.php",
+        "accessedDate": "2026-06-10",
+        "notes": "Largest measured 13 cm; temp 72-78 F (22-25.5 C); pH 8.1-8.4; SG 1.020-1.025; ~30 gal (~115 L) minimum; semi-aggressive; reef-safe with caution; pelvic, pectoral and dorsal fins venomous; cryptic, mostly hides during day."
+      },
+      {
+        "name": "Reeflings",
+        "url": "https://reeflings.com/species/dendrochirus-biocellatus",
+        "accessedDate": "2026-06-10",
+        "notes": "Temp 22-26 C; pH 8.1-8.4; SG 1.020-1.025; semi-aggressive/territorial, solitary; live or frozen shrimp and small fish; intermediate-to-advanced. Lists adult size as 20 cm which disagrees with FishBase's 13 cm TL maximum and was discarded as an outlier."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
+    "breedingDifficulty": "not in captivity",
     "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
-    "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
-    "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "with caution",
+    "escapeRisk": "low",
+    "venomousSpines": true,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": true,
+    "juvenileColorPhase": false,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "difficult",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -92,6 +144,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-10"
 }

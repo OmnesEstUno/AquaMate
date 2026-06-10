@@ -7,82 +7,143 @@
   "commonName": "Pink Tail Trigger",
   "scientificName": "Melichthys vidua",
   "alsoKnownAs": [
-    "[pending-research] Pink Tail Trigger"
+    "Pinktail Trigger",
+    "Pinktail Triggerfish",
+    "Sufflamen vidua"
   ],
   "category": "Triggerfish",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Balistidae",
+    "order": "Tetraodontiformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
-    "depthRangeM": null
+    "regions": [
+      "Indo-Pacific"
+    ],
+    "countries": [
+      "East Africa",
+      "Hawaii",
+      "French Polynesia",
+      "Japan",
+      "Australia"
+    ],
+    "habitat": "Seaward coral-rich reefs exposed to currents; typically seen in small loose groups at moderate depths.",
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 4,
+      "max": 60
+    }
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
+    "temperatureC": {
+      "min": 23,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
     "kH": null,
-    "salinity": null
+    "salinity": {
+      "min": 1.02,
+      "max": 1.026
+    }
   },
-  "adultSizeCm": null,
+  "adultSizeCm": {
+    "min": 35,
+    "max": 40
+  },
   "lifespanYears": null,
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 700,
+    "minLengthCm": 180,
+    "swimZone": "all",
+    "decorPreferences": [
+      "open swimming space",
+      "rockwork with caves and crevices",
+      "securely placed rocks (will rearrange decor)"
+    ],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "omnivore",
+    "notes": "In the wild feeds largely on algae and detritus, with crustaceans, octopus, sponges, and small fish. In captivity should receive a varied diet of meaty foods (krill, mysis, squid, clams, chopped shrimp) alongside marine algae or seaweed sheets. Offering hard-shelled items helps wear down continuously growing teeth."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": [
+      "tangs",
+      "large angelfish",
+      "groupers",
+      "puffers",
+      "other robust similarly-sized fish"
+    ],
+    "avoidWith": [
+      "ornamental shrimp",
+      "small crabs",
+      "small timid fish",
+      "other triggerfish in undersized tanks"
+    ]
   },
   "media": {
-    "primaryImage": "pink_tail_trigger.jpg",
+    "primaryImage": null,
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Pink Tail Trigger.",
-  "careNotes": null,
+  "summary": "An Indo-Pacific triggerfish with a dark green body, yellow face, and bright pink tail; considered one of the more reef-tolerant triggers but still hazardous to invertebrates and small fish.",
+  "careNotes": "One of the more reef-tolerant triggerfishes — many keepers report it leaving most corals alone, especially when kept well-fed — but it is still a triggerfish and will predate ornamental shrimp, small crabs, snails, and small fish. Generally advised to provide an aquarium of at least 700 L (~185 US gal) with plenty of open swimming space and a robust rockscape; rocks should be placed directly on the bottom glass rather than on sand, as this species has been known to rearrange decor. Source spread on minimum tank size was wide (LiveAquaria 680 L vs. ReefApp ~2000 L); 700 L was chosen as a cautious floor consistent with the species' ~40 cm adult size and active swimming behavior — larger systems are strongly preferred for long-term housing. Water parameters track standard reef values: about 23–27 °C, pH 8.1–8.4, specific gravity 1.020–1.026. Handle with care: triggerfish have strong jaws and sharp teeth and can deliver painful bites when threatened. Juveniles have distinctive dark radiating lines from the eye and along the fins which fade with age.",
   "breedingNotes": null,
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/product/262/pinktail-triggerfish",
+      "accessedDate": "2026-06-10",
+      "notes": "Husbandry parameters: 180 gal minimum, 72-78 F, pH 8.1-8.4, SG 1.020-1.025, aggressive, reef-safe with caution, carnivorous diet of meaty foods plus hard-shelled items."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Melichthys-vidua.html",
+        "accessedDate": "2026-06-10",
+        "notes": "Confirmed family Balistidae, order Tetraodontiformes, max length 40 cm TL, depth 0-60 m, preferred temperature 24.6-28.9 C, Indo-Pacific distribution, omnivorous (algae/detritus + crustaceans/octopus/sponges/fish)."
+      },
+      {
+        "name": "ReefApp",
+        "url": "https://reefapp.net/en/lex/details/melichthys-vidua",
+        "accessedDate": "2026-06-10",
+        "notes": "Secondary cross-check. Cites 2000 L recommended minimum (much larger than LiveAquaria's 680 L); rated highly aggressive; reef-safe-with-luck. Averaged with primary, biased toward larger per playbook tank-size rule and settled at 700 L."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
+    "breedingDifficulty": "not in captivity",
     "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
-    "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
-    "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "with caution",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -92,6 +153,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-10"
 }

@@ -7,82 +7,152 @@
   "commonName": "Kole Tang",
   "scientificName": "Ctenochaetus strigosus",
   "alsoKnownAs": [
-    "[pending-research] Kole Tang — Yellow-Eye Kole"
+    "Yellow-Eye Kole",
+    "Yellow-Eyed Tang",
+    "Yellow-Eye Bristletooth",
+    "Kole Yellow Eye Tang",
+    "Goldring Bristletooth",
+    "Spotted Surgeonfish",
+    "Striped Bristletooth"
   ],
-  "category": "Tang",
+  "category": "Tang / Surgeonfish",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Acanthuridae",
+    "order": "Acanthuriformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
-    "depthRangeM": null
+    "regions": [
+      "Pacific Ocean"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "habitat": "Endemic to the Hawaiian Islands and Johnston Island. Benthopelagic over coral, rock, and rubble; typically grazes on reef flats, lagoons, and seaward reef slopes.",
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 1,
+      "max": 113
+    }
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
+    "temperatureC": {
+      "min": 22,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": null,
-    "salinity": null
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": {
+    "min": 15,
+    "max": 18
+  },
+  "lifespanYears": {
+    "min": 6,
+    "max": 10
+  },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 300,
+    "minLengthCm": 120,
+    "swimZone": "all",
+    "decorPreferences": [
+      "abundant live rock",
+      "open swimming lanes",
+      "algae growth surfaces",
+      "hiding caves and overhangs"
+    ],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "herbivore",
+    "notes": "A specialized bristletooth detritivore-herbivore. Has been documented whisking comb-like teeth over rock and sand to harvest detritus, diatoms, and short turf/film algae rather than longer filamentous growth. Generally considered an excellent grazer for controlling brown diatoms and film algae on rockwork and glass. Supplemental feeding with dried marine algae (nori), spirulina-based pellets/flakes, and herbivore preparations is commonly advised at least 3 times per week, supplemented with small amounts of frozen mysis or enriched brine to maintain vitamin intake."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": [
+      "clownfish",
+      "wrasses",
+      "gobies",
+      "basslets",
+      "cardinalfish",
+      "blennies",
+      "reef-safe invertebrates",
+      "corals"
+    ],
+    "avoidWith": [
+      "other Ctenochaetus bristletooths",
+      "other tangs in smaller tanks",
+      "similarly-shaped surgeonfish unless tank is very large"
+    ]
   },
   "media": {
     "primaryImage": "kole_tang.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Kole Tang.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "A small, peaceful Hawaiian bristletooth tang prized as one of the most effective film-algae and detritus grazers for reef tanks. Generally advised to keep singly in systems of around 300 L or larger.",
+  "careNotes": "The Kole Tang is one of the smaller and more peaceful members of the surgeonfish family and is commonly recommended for reef tanks specifically as a turf- and film-algae grazer. Its specialized comb-like (bristle) teeth are adapted for whisking detritus and short algal films from rock and sand surfaces rather than tearing at longer filamentous algae, so it complements (rather than fully replaces) the role of a larger Zebrasoma or Acanthurus grazer.\n\nGrazing behavior: As a constant grazer, this species spends most daylight hours moving across rockwork picking at biofilm. In tanks with insufficient natural film growth, supplemental seaweed (nori) clipped to the rockwork is generally advised at least 3 times per week to maintain condition.\n\nConspecific and inter-tang aggression: Generally peaceful with non-tang tankmates, but has been known to show territorial aggression toward other Ctenochaetus species and to a lesser degree other tangs. Best kept as a single specimen unless the system is very large.\n\nCaudal scalpel safety: Like all surgeonfishes, the Kole Tang carries a pair of sharp blade-like spines on the caudal peduncle that can inflict deep cuts to handlers and tankmates. Use caution when netting; soft nets or specimen containers are generally preferred.\n\nHLLE (Head and Lateral Line Erosion): Tangs and surgeonfishes in general are reported to be susceptible to HLLE, often associated with poor water quality, vitamin-deficient diets, or extended use of activated carbon. A varied, marine-algae-rich diet and stable water chemistry tend to be cited as preventive measures.\n\nTank-size note: LiveAquaria and most retailer guides cite 70 US gal (~265 L) as the minimum. Some hobbyist sources (Saltwater Aquarium Blog, several reef forums) recommend 100 US gal (~380 L) or larger to provide adequate swimming space for this active grazer. The value used here (300 L) reflects the cautious-larger pick within the project's allowed tank sizes, consistent with the playbook's guidance to bias upward for active swimmers.\n\nTemperature note: LiveAquaria recommends 72–78°F (22.2–25.6°C); FishBase reports a wild range of 21–27°C with a preferred mean of ~27°C. The averaged range used here (22–27°C) reflects the overlap suitable for most home reef systems.",
+  "breedingNotes": "Captive breeding of Ctenochaetus strigosus is not commercially established. In the wild this species has been reported to spawn in pairs, with pelagic eggs and a prolonged planktonic larval phase typical of surgeonfishes. Hobbyist breeding is generally considered impractical.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/product/345/?pcatid=345",
+      "accessedDate": "2026-06-10",
+      "notes": "Species page for Kole Yellow Eye Tang. Provided: minimum tank 70 gal, adult size 7 in, temperature 72–78°F, pH 8.1–8.4, SG 1.020–1.025, dKH 8–12, care level moderate, temperament semi-aggressive, herbivore diet, reef-safe yes."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Ctenochaetus-strigosus.html",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-verified: max length 15.4 cm SL, family Acanthuridae, order Acanthuriformes, distribution endemic to Hawaiian Islands and Johnston Island, depth range 1–113 m, wild temperature 21–27°C (preferred mean ~27°C), feeds on detritus by whisking comb-like teeth, IUCN Least Concern."
+      },
+      {
+        "name": "Saltwater Aquarium Blog",
+        "url": "https://www.saltwateraquariumblog.com/kole-tang-ctenochaetus-strigosus/",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-verified: adult size 17 cm / 7 in, care level easy-to-moderate, temperament semi-aggressive, lifespan 6–10 years or longer, native to Hawaiian reefs and lagoons. Recommends 70 gal minimum 'and being generous; some sources say 100 gal+', supporting the cautious-larger 300 L pick."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
-    "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "Spawns in pairs in the wild with pelagic eggs. No commercial captive breeding established.",
+    "conspecificAggression": "moderate",
+    "finNippy": false,
+    "reefSafe": "yes",
+    "escapeRisk": "low",
+    "venomousSpines": false,
     "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
-    "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "haremic": false,
+    "caudalScalpel": true,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": true,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": true,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -92,6 +162,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-10"
 }

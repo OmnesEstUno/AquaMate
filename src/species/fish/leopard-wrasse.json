@@ -7,77 +7,154 @@
   "commonName": "Leopard Wrasse",
   "scientificName": "Macropharyngodon meleagris",
   "alsoKnownAs": [
-    "[pending-research] Leopard Wrasse — M. meleagris most common"
+    "Guinea Fowl Wrasse",
+    "Blackspotted Wrasse"
   ],
   "category": "Wrasse",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Labridae",
+    "order": "Eupercaria"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
-    "depthRangeM": null
+    "regions": [
+      "Indo-Pacific",
+      "Western Pacific",
+      "Eastern Indian Ocean"
+    ],
+    "countries": [
+      "Indonesia",
+      "Philippines",
+      "Fiji",
+      "Tonga",
+      "Sri Lanka",
+      "Australia"
+    ],
+    "habitat": "Subtidal reef flats, outer lagoons, and seaward reefs, generally in areas with mixed sand, rubble, and coral; reported from roughly 1–60 m, most commonly 1–30 m",
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 1,
+      "max": 60
+    }
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
+    "temperatureC": {
+      "min": 23,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": null,
-    "salinity": null
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": {
+    "min": 10,
+    "max": 15
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 10
+  },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
-    "minSandDepthCm": null
+    "minVolumeLiters": 400,
+    "minLengthCm": 150,
+    "swimZone": "bottom",
+    "decorPreferences": [
+      "deep fine sand bed (5+ cm) for burying",
+      "well-established live rock with abundant microfauna",
+      "open sand foraging areas",
+      "tightly fitted tank lid"
+    ],
+    "minSandDepthCm": 5
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "expert",
+  "diet": {
+    "type": "carnivore",
+    "notes": "In the wild has been documented feeding mainly on foraminiferans, small gastropods, and other hard-shelled invertebrates, plus copepods and amphipods grazed from live rock and sand. In captivity tends to require a mature system (commonly cited as 12–18 months old) with visibly active copepod/amphipod populations; over time most specimens accept vitamin-enriched frozen mysis and brine shrimp and other small meaty foods, and some take high-quality marine flake and pellets. A connected refugium is generally advised to keep microfauna populations replenished."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "peaceful",
+    "grouping": "shoaling",
+    "minGroupSize": 3,
+    "goodWith": [
+      "peaceful reef fish",
+      "other non-aggressive wrasses",
+      "gobies",
+      "clownfish",
+      "cardinalfish",
+      "basslets"
+    ],
+    "avoidWith": [
+      "large aggressive fish",
+      "triggers and large groupers",
+      "fish that compete for sand-bed territory",
+      "multiple males of the same species in standard-sized tanks"
+    ]
   },
   "media": {
     "primaryImage": "leopard_wrasse.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Leopard Wrasse.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "A striking Indo-Pacific sand-bed wrasse generally considered specialist-only owing to high shipping mortality and dependence on mature live-rock microfauna and a deep fine sand bed.",
+  "careNotes": "The Leopard Wrasse is widely regarded as expert-only and is best suited to keepers with mature, microfauna-rich reef systems. Initial shipping mortality has been reported as high, with new arrivals often stressed and prone to mouth injuries from instinctive burrowing inside transit bags; slow, low-light acclimation and a quiet quarantine are generally advised. Long-term success is commonly tied to a well-established tank (12–18 months or older) with copious copepod and amphipod populations, ideally backed by a connected refugium. A deep, fine sand bed of at least 5 cm (preferably more) is generally considered essential, as individuals sleep buried at night and dive into the sand when startled. A tight-fitting lid is strongly advised — these fish have been known to launch from open tanks when spooked. Tends to settle best when introduced before potentially aggressive tankmates such as tangs, angelfish, hawkfish, or damsels. Macropharyngodon meleagris is a protogynous hermaphrodite typical of Labridae: most individuals start as females, with the dominant fish transitioning to male; multiple males in a standard-sized aquarium tend to fight, so most keepers keep a small harem of one male with several females, or a group of three or more juvenile females introduced simultaneously. Sexually dimorphic: females are pale with dark spots, while terminal males are orangish-red with green mottling. Within the Macropharyngodon genus, M. choati is the noted copper-sensitive species; M. meleagris does not have the same documented copper sensitivity, but standard scaleless-fish caution is reasonable. Sometimes traded under regional variants (Tonga/Fiji, Philippines, Sri Lanka, Indonesia, Africa); the Fiji/Tonga form is often considered the hardier import.",
+  "breedingNotes": "FishBase documents the species as oviparous with distinct pairing during spawning, typical of Labridae. Captive breeding has not been documented in the aquarium hobby literature reviewed.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/product/339/?pcatid=339",
+      "accessedDate": "2026-06-10",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Macropharyngodon-meleagris.html",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked max length (15.0 cm SL confirmed), depth range (0–60 m, usual 1–30 m), preferred temperature (24–28 °C — averaged with LiveAquaria 22.2–25.6 °C to 23–27 °C), Indo-Pacific distribution (Cocos-Keeling east to Oceania), family Labridae / order Eupercaria, diet (foraminiferans and hard-shelled prey, trophic level 3.1), and reproductive mode (oviparous, distinct pairing). FishBase did not state sex-change mode explicitly; genus-wide protogyny is confirmed by the LiveAquaria species-spotlight article."
+      },
+      {
+        "name": "LiveAquaria Species Spotlight: Leopard Wrasses of the Genus Macropharyngodon",
+        "url": "https://www.liveaquaria.com/blogs/species-spotlight/leopard-wrasse-of-the-genus-macropharyngodon",
+        "accessedDate": "2026-06-10",
+        "notes": "Genus-wide confirmation of protogynous hermaphroditism, high shipping/acclimation stress, jumping/escape risk, recommended sand-bed depth (≥2 in / ~5 cm), and ordering of introduction relative to aggressive tankmates. Notes M. choati as the copper-sensitive exception within the genus."
+      },
+      {
+        "name": "Saltwater Aquarium Blog — Leopard Wrasse Care",
+        "url": "https://www.saltwateraquariumblog.com/leopard-wrasse-care/",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked adult size (10.2–15.2 cm, max ~15 cm), tank size (≥100 US gal ≈ 378 L — rounded up to allowed 400 L given strong jumping behaviour and need for swimming space), lifespan (≤10 yr wild / ~5 yr captive), strong jumping/escape behaviour, full reef-safety, and the one-male-per-tank harem rule."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
-    "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "Captive breeding not documented in the aquarium hobby literature reviewed; oviparous with distinct pairing during spawning per FishBase. Protogynous hermaphrodite.",
+    "conspecificAggression": "moderate",
+    "finNippy": false,
+    "reefSafe": "yes",
+    "escapeRisk": "high",
+    "venomousSpines": false,
+    "sexChange": "protogynous",
+    "haremic": true,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": true,
     "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "difficult",
     "symbioticShrimpPartner": null,
     "mouthbrooder": null,
     "constantGrazer": null,
@@ -92,6 +169,10 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-10",
+  "hobbyistAdvisory": {
+    "level": "specialist-only",
+    "reason": "High shipping mortality; obligate dependence on copious copepod/amphipod microfauna from established refugium-supported reef systems; refuses prepared foods initially; needs deep fine sand for nocturnal burying. Not appropriate for new or undersized reef systems."
+  }
 }

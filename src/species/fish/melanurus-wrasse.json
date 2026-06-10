@@ -7,82 +7,129 @@
   "commonName": "Melanurus Wrasse",
   "scientificName": "Halichoeres melanurus",
   "alsoKnownAs": [
-    "[pending-research] Melanurus Wrasse"
+    "Tail-Spot Wrasse",
+    "Tailspot Wrasse",
+    "Pinstripe Wrasse",
+    "Hoeven's Wrasse"
   ],
   "category": "Wrasse",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Labridae",
+    "order": "Eupercaria"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
-    "depthRangeM": null
+    "regions": ["Indo-Pacific", "Western Pacific"],
+    "countries": ["Indonesia", "Australia", "Japan", "Micronesia", "Samoa", "Tonga"],
+    "habitat": "Shallow coral reefs and rocky shores; generally found solitary or in small groups on sheltered reef habitats with adjacent sandy patches for sleeping refuge.",
+    "biotope": "Reef",
+    "depthRangeM": { "min": 1, "max": 15 }
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
+    "temperatureC": { "min": 23, "max": 27 },
+    "pH": { "min": 8.1, "max": 8.4 },
     "gH": null,
-    "kH": null,
-    "salinity": null
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.020, "max": 1.025 }
   },
-  "adultSizeCm": null,
+  "adultSizeCm": { "min": 11, "max": 14 },
   "lifespanYears": null,
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
-    "minSandDepthCm": null
+    "minVolumeLiters": 250,
+    "minLengthCm": 120,
+    "swimZone": "all",
+    "decorPreferences": [
+      "fine sand substrate (for nighttime burrowing)",
+      "live rock with caves and overhangs",
+      "open swimming space across the mid-water column",
+      "tightly fitting lid or mesh cover (jumper)"
+    ],
+    "minSandDepthCm": 7
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "beginner",
+  "diet": {
+    "type": "carnivore",
+    "notes": "In the wild feeds on small invertebrates — polychaetes, copepods, isopods, and foraminifera. In captivity, generally accepts vitamin-enriched frozen mysis and brine shrimp, marine pellets, and quality flake food. Multiple small feedings per day tend to keep activity and color at their best."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": [
+      "tangs",
+      "angelfish",
+      "clownfish",
+      "most peaceful community reef fish",
+      "small-polyp and large-polyp stony corals",
+      "soft corals"
+    ],
+    "avoidWith": [
+      "other Halichoeres wrasses of similar size",
+      "conspecifics in tanks below ~400 L",
+      "ornamental shrimp (cleaner shrimp, peppermint shrimp, sexy shrimp)",
+      "small ornamental snails and tubeworms",
+      "dragonets and mandarins (food competition for small inverts)"
+    ]
   },
   "media": {
-    "primaryImage": "melanurus_wrasse.jpg",
+    "primaryImage": null,
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Melanurus Wrasse.",
-  "careNotes": null,
+  "summary": "Active, beginner-friendly reef wrasse with electric green-blue body and pinstripe markings; sleeps buried in fine sand and helps control common reef pests.",
+  "careNotes": "The Melanurus Wrasse is widely considered one of the most beginner-friendly Halichoeres species for a reef tank — hardy, colorful, and active throughout the day. Has been reported to reach about 11–14 cm; most captive specimens settle around 12–13 cm. Generally advised to provide a tank of at least ~250 L with a footprint that allows open mid-water swimming, since these are tireless cruisers rather than rock-hugging fish. A fine-sand substrate of roughly 5–10 cm is important — at night and when frightened the fish dives in and sleeps buried, and a coarse or shallow bed can injure or stress it. A tightly fitting lid or mesh top is strongly recommended; this species is a known jumper. Considered reef-safe with corals and clams, and is often valued as a working pest controller: has been documented eating pyramidellid snails, flatworms, bristleworms, and certain external parasites. The trade-off is that hungry individuals tend to predate ornamental shrimp (cleaner, peppermint, sexy) and may snack on small ornamental snails or feather-duster worms. Like most wrasses it is a protogynous hermaphrodite — individuals begin life female and the dominant fish can transition to male — so a tank typically holds only one Melanurus unless the system is large enough to support a harem (~400 L+). Generally peaceful toward unrelated species but can be territorial toward other Halichoeres or similarly shaped wrasses, especially in tighter quarters. Also sold under the trade names 'Tail-Spot Wrasse' (or 'Tailspot Wrasse'), 'Pinstripe Wrasse', and occasionally 'Hoeven's Wrasse'. Source spread for tank size ran from 50 US gal (~190 L) entry-level to 100–125 US gal (~380–475 L) for full-adult housing; 250 L picked as a sensible reef-active midpoint per the tank-size rule.",
   "breedingNotes": null,
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/product/2285/?pcatid=2285",
+      "accessedDate": "2026-06-10"
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Halichoeres-melanurus.html",
+        "accessedDate": "2026-06-10",
+        "notes": "Confirmed taxonomy (Labridae), wild size to 14 cm TL, depth range 1–15 m, native distribution, and protogynous wrasse biology."
+      },
+      {
+        "name": "Saltwater Aquarium Blog",
+        "url": "https://www.saltwateraquariumblog.com/7-reasons-to-keep-the-melanurus-wrasse/",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked diet, pest-control behavior (flatworms, pyramid snails), shrimp predation risk, jumping/lid requirement, and protogynous hermaphroditism."
+      },
+      {
+        "name": "Reef Chasers",
+        "url": "https://reefchasers.com/blogs/reef-chasers-marine-fish-guides/melanurus-wrasse",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked adult size (~11 cm), tank floor (50 US gal), 3–4 inch sand-bed depth, native range, and conspecific aggression among Halichoeres."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
+    "breedingDifficulty": "not in captivity",
     "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
-    "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
-    "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "with caution",
+    "escapeRisk": "high",
+    "venomousSpines": false,
+    "sexChange": "protogynous",
+    "haremic": true,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": true,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -92,6 +139,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-10"
 }

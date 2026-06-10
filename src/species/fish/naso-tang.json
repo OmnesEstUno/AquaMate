@@ -7,80 +7,183 @@
   "commonName": "Naso Tang",
   "scientificName": "Naso lituratus",
   "alsoKnownAs": [
-    "[pending-research] Naso Tang / Orange-Spine Unicornfish"
+    "Orangespine Unicornfish",
+    "Orange-Spine Unicornfish",
+    "Lipstick Tang",
+    "Pacific Orangespine Unicornfish"
   ],
   "category": "Tang",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Acanthuridae",
+    "order": "Acanthuriformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
-    "depthRangeM": null
+    "regions": [
+      "Indo-Pacific",
+      "Central Pacific",
+      "Western Pacific",
+      "Eastern Pacific"
+    ],
+    "countries": [
+      "Australia",
+      "Japan",
+      "Indonesia",
+      "Philippines",
+      "Papua New Guinea",
+      "Solomon Islands",
+      "New Caledonia",
+      "Fiji",
+      "French Polynesia",
+      "United States (Hawaii)",
+      "Pitcairn Islands",
+      "Mexico (Clipperton Island)",
+      "Christmas Island"
+    ],
+    "habitat": "Coral and rocky reef slopes; typically found at 5–30 m on outer reef faces with strong water movement, though has been documented from 0 to roughly 90 m.",
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 0,
+      "max": 90
+    }
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
+    "temperatureC": {
+      "min": 23,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": null,
-    "salinity": null
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": {
+    "min": 30,
+    "max": 45
+  },
+  "lifespanYears": {
+    "min": 8,
+    "max": 30
+  },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 1000,
+    "minLengthCm": 240,
+    "swimZone": "all",
+    "decorPreferences": [
+      "open swimming space",
+      "long horizontal footprint",
+      "live rock with algae growth",
+      "rockwork with hiding caves",
+      "strong water flow",
+      "high oxygenation",
+      "tight-fitting lid"
+    ],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "advanced",
+  "diet": {
+    "type": "herbivore",
+    "notes": "Primarily a grazer of leafy brown macroalgae (Sargassum, Dictyota) in the wild. In captivity, dried marine seaweed (nori) offered daily on a clip is generally advised as a dietary staple, supplemented with herbivore pellets/flakes and Spirulina. Mysis or other meaty foods have been reported to be accepted opportunistically but should not dominate the diet. Frequent algae feeding (3+ times per day for an active adult) tends to support health, reduce aggression, and help prevent Head and Lateral Line Erosion."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": [
+      "peaceful to semi-aggressive reef fish",
+      "clownfish",
+      "angelfish",
+      "wrasses",
+      "butterflyfish",
+      "gobies",
+      "corals",
+      "invertebrates"
+    ],
+    "avoidWith": [
+      "other tangs and surgeonfish (especially same genus)",
+      "conspecifics in anything but very large systems",
+      "very small or timid fish that may be intimidated by its size"
+    ]
   },
   "media": {
     "primaryImage": "naso_tang.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Naso Tang.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "A large Indo-Pacific surgeonfish prized for its black face mask, orange lips, and bright orange caudal-peduncle spines. Generally considered reef-safe but reaches roughly 45 cm and is best suited to very large, well-oxygenated systems.",
+  "careNotes": "Naso lituratus is the Pacific 'orangespine unicornfish'; the visually similar Indian Ocean form is now generally recognized as a separate species, Naso elegans, though trade-name overlap (especially 'Orange-Spine Unicornfish') is common. Adults reach approximately 45 cm and are powerful, near-constant swimmers — guidance for long-term housing tends toward tanks of around 1000 L (or larger) with a long horizontal footprint, high turnover (~10x), strong protein skimming, and saturated oxygenation. Hobby sources (LiveAquaria, Tropical Fish Keeping) list a 180-gallon (~680 L) minimum, while specialist sources (Reef2Reef, TFH Magazine) recommend 240–500+ gallons (~900–1900 L); the conservative-larger figure used here reflects the species' adult size, swimming demands, and a 'specialist-only' suitability for typical hobbyists. The caudal-peduncle keels (scalpels) are permanently erect, brightly colored orange, and can inflict serious cuts to handlers or tear nets — handling caution has been widely emphasized. Juveniles are dark gray with a yellow dorsal stripe and blue accents; adults develop a striking black face mask outlined in yellow, reddish-orange lips, a brownish-gray body, and males grow long lyre-shaped caudal-fin streamers. Has been reported to be susceptible to Head and Lateral Line Erosion (HLLE) in tanks with poor water quality or vitamin-poor diets, and to ich/marine velvet — quarantine and a varied algae-rich diet are generally advised. Jumping has been documented; a tight-fitting lid is considered essential. FishBase wild temperature range (24.5–28.9°C) is somewhat warmer than hobby recommendations (22–26°C); the range used here (23–27°C) averages these. Lifespan reports vary widely from ~8 years in captivity to 30+ in well-kept systems, with anecdotal reports of even longer in the wild.",
+  "breedingNotes": "Captive breeding has not been reported; all trade specimens are wild-caught. Wild reproduction is presumed to involve broadcast spawning of pelagic eggs on outer reef slopes. Mature males are distinguished from females by elongated lyre-shaped caudal-fin streamers.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/product/357/?pcatid=357",
+      "accessedDate": "2026-06-10",
+      "notes": "Product page for Naso Tang (Naso lituratus). Provided adult size (18 in), min tank (180 gal), temperature (72–78°F), pH (8.1–8.4), dKH (8–12), specific gravity (1.020–1.025), care level (moderate), temperament (semi-aggressive), reef compatibility (yes), and diet (herbivore, marine seaweed staple)."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Naso-lituratus.html",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked scientific name, taxonomy (family Acanthuridae, order Acanthuriformes), max size (46 cm SL), Indo-Pacific distribution (East Indian Ocean from Christmas Island through Pacific to Hawaii, French Polynesia, Pitcairn; north to Japan, south to Great Barrier Reef and New Caledonia), depth range (0–90 m, typical 5–30 m), wild temperature (24.5–28.9°C), diet (leafy brown algae Sargassum, Dictyota; trophic level 2.3). Confirmed the Indian Ocean population is now recognized as a separate species, Naso elegans."
+      },
+      {
+        "name": "Tropical Fish Keeping",
+        "url": "https://tropical-fish-keeping.com/naso-tang-naso-lituratus.html",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked adult size (~18 in / 45 cm), min tank size (180 gal / 681 L), temperature (75–79°F / 24–26°C), pH (8.1–8.4), salinity (1.020–1.025), diet (brown macroalgae), depth (15–300+ ft), semi-aggressive temperament toward other tangs, and juvenile vs adult coloration."
+      },
+      {
+        "name": "TFH Magazine",
+        "url": "https://www.tfhmagazine.com/articles/saltwater/the-naso-tang-full-article",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked adult size (18 in), tank size guidance (75 gal minimum, 200+ gal preferred), diet (herbivore staple of marine algae/seaweed plus opportunistic frozen meaty foods), reef safety (will not bother sessile invertebrates), and sexual dimorphism (males develop lyre-shaped caudal extensions, juveniles gray darkening to chestnut-brown adults). Used as fallback for husbandry context."
+      },
+      {
+        "name": "Fishmetry",
+        "url": "https://fishmetry.com/fish/naso-lituratus",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked adult size (45 cm), minimum tank (185 gal / 700 L), temperature (24–27°C), pH (8.1–8.4), specific gravity (1.020–1.026), reef safety (yes), and large active-swimmer husbandry framing. Lifespan estimate (20–40 years) is at the high end and was used as upper-bound context."
+      },
+      {
+        "name": "Reef2Reef community thread (Naso Tang tank size requirements)",
+        "url": "https://www.reef2reef.com/threads/naso-tang-tank-size-requirements.1023716/",
+        "accessedDate": "2026-06-10",
+        "notes": "Specialist-keeper consensus that 180 gal is an absolute juvenile minimum, with adults requiring 240+ gal (~900 L) with an 8-ft footprint; serious keepers and public aquaria use 300–500 gal (~1100–1900 L). Drives the cautious 1000-L tank figure used here over the LiveAquaria 180-gal number, given the species' adult size and constant-swimming habit."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
-    "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "Captive breeding has not been reported; all trade specimens are wild-caught. Mature males develop long lyre-shaped caudal-fin streamers, distinguishing them from females.",
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "yes",
+    "escapeRisk": "moderate",
+    "venomousSpines": false,
     "sexChange": null,
     "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
+    "caudalScalpel": true,
+    "nocturnal": false,
+    "juvenileColorPhase": true,
     "copperSensitive": null,
     "speciesOnlyTankRecommended": null,
     "requiresHitchingPost": null,
     "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
+    "hlleSusceptible": true,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
     "symbioticShrimpPartner": null,
     "mouthbrooder": null,
-    "constantGrazer": null,
+    "constantGrazer": true,
     "cleanerFish": null,
     "euryhaline": null
   },
@@ -92,6 +195,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-10"
 }
