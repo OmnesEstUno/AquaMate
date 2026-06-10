@@ -1,0 +1,168 @@
+{
+  "id": "fw-fish-520",
+  "slug": "swamp-eel",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "freshwater",
+  "commonName": "Swamp Eel",
+  "scientificName": "Monopterus albus",
+  "alsoKnownAs": [
+    "Asian Swamp Eel",
+    "Rice Eel"
+  ],
+  "category": "Eel-shaped / Synbranchid",
+  "taxonomy": {
+    "family": "Synbranchidae",
+    "order": "Synbranchiformes"
+  },
+  "nativeRange": {
+    "regions": ["Asia", "Southeast Asia", "East Asia"],
+    "countries": ["China", "Japan", "India", "Bangladesh", "Myanmar", "Thailand", "Laos", "Cambodia", "Vietnam", "Malaysia", "Indonesia", "Philippines"],
+    "habitat": "Shallow, warm, low-oxygen freshwater: rice paddies, swamps, marshes, ditches, muddy streams, and floodplains; burrows in soft mud during dry seasons. An obligate air-breather that regularly surfaces.",
+    "biotope": "Rice paddy / swamp",
+    "depthRangeM": { "min": 0, "max": 1 }
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 22, "max": 30 },
+    "pH": { "min": 6.0, "max": 8.0 },
+    "gH": { "min": 2, "max": 18 },
+    "kH": { "min": 1, "max": 10 },
+    "salinity": null
+  },
+  "adultSizeCm": { "min": 50.0, "max": 100.0 },
+  "lifespanYears": { "min": 8, "max": 15 },
+  "tank": {
+    "minVolumeLiters": 300,
+    "minLengthCm": 150,
+    "swimZone": "bottom",
+    "decorPreferences": [
+      "tight-fitting, weighted lid — mandatory (extreme escape risk)",
+      "deep soft substrate (sand or fine mud) for burrowing",
+      "PVC pipes or large ceramic tubes as hides",
+      "driftwood and dense planting (Java fern, Vallisneria) for cover",
+      "dim lighting or floating plants to reduce stress",
+      "air gap between water surface and lid for obligate air-breathing"
+    ],
+    "minSandDepthCm": 10
+  },
+  "careLevel": "advanced",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Obligate carnivore; primarily accepts live or fresh-dead meaty foods — earthworms, nightcrawlers, feeder fish (use sparingly), large bloodworms, shrimp, and pieces of raw fish or prawn. Most specimens refuse dried or pelleted foods unless weaned through slow substitution. Live earthworms are the safest long-term staple. Feed every 2–3 days; avoid overfeeding as organic waste accumulates rapidly in low-oxygen setups."
+  },
+  "compatibility": {
+    "temperament": "aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": [
+      "very large, robust fish too big to be swallowed (in a species-only or large predator display)",
+      "other large synbranchids of equal size (with extreme caution and ample space)"
+    ],
+    "avoidWith": [
+      "any fish small enough to be swallowed (virtually all common aquarium species)",
+      "invertebrates (shrimp, snails, crabs — all predated)",
+      "slow-moving bottom-dwellers sharing territory",
+      "conspecifics in small enclosures (cannibalism common)",
+      "tank-mates in general — species-only tank strongly recommended"
+    ]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": [
+      {
+        "url": "https://www.fishbase.se/images/species/Moalb_u2.jpg",
+        "source": "FishBase",
+        "sourceType": "fishbase",
+        "license": "All rights reserved",
+        "notes": "Standard FishBase species image of Monopterus albus showing full body lateral view.",
+        "recommended": true
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Monopterus_albus.jpg",
+        "source": "Wikimedia Commons",
+        "sourceType": "wikimedia",
+        "license": "Public Domain",
+        "notes": "Wikimedia Commons public domain image; verify current availability.",
+        "recommended": false
+      }
+    ]
+  },
+  "summary": "The Asian Swamp Eel is a legless, scaleless air-breather reaching 1 m that is USDA-listed Injurious Wildlife and established as an invasive species in Florida and Georgia. All individuals are born female and change to male at maturity (protogynous hermaphrodite). Not a suitable aquarium fish for most hobbyists; regulated under the Lacey Act.",
+  "careNotes": "Monopterus albus is an eel-shaped synbranchid entirely lacking pectoral and pelvic fins. It is an obligate air-breather — the buccal cavity is highly vascularised and the fish must surface regularly; blocking access to air will kill it. A tight-fitting, weighted lid is non-negotiable: this species can squeeze through any gap even a fraction of its body diameter and is one of the most notorious escape artists in the hobby. A minimum tank of 300 L with a 150 cm footprint and 10 cm of soft substrate for burrowing is recommended; deeper substrate (15–20 cm) is preferable. Water quality must be maintained diligently despite the species’ natural tolerance for low-oxygen environments — high ammonia and nitrite remain lethal in captivity. Keep water temperature 22–30°C; this species is cold-sensitive below 15°C. Avoid copper-based medications entirely (copper sensitive). It is an aggressive, predatory species that will consume any tank-mate small enough to fit in its mouth. Species-only keeping is strongly recommended. Diet of live or fresh meaty foods (earthworms are the preferred staple); most individuals refuse dried foods unless carefully weaned. Feed every 2–3 days at most. Monopterus albus is listed as Injurious Wildlife under the US Lacey Act; import and interstate transport within the United States are prohibited. It is established as an invasive species in Florida (since the 1990s) and Georgia, where escaped or released aquarium fish have established breeding populations capable of devastating native fish and invertebrate communities.",
+  "breedingNotes": "Monopterus albus is a sequential protogynous hermaphrodite — all juveniles begin as functional females and transition to males upon reaching reproductive maturity (typically at around 30–40 cm body length). In the wild, spawning occurs in bubble nests built in mud burrows or vegetation; the male guards the nest and free-swimming fry until they are independent. Breeding in aquaria has very rarely been documented and is not considered achievable under standard home aquarium conditions. The sex-change biology makes sexing juveniles impossible. For captive breeding attempts, a very large, naturalistic setup with deep mud substrate, stable warm temperatures (26–28°C), and seasonal simulation (simulated dry season followed by rising water level) may stimulate reproductive behaviour, but reliable success has not been reported outside specialist facilities.",
+  "sources": {
+    "primary": {
+      "name": "FishBase — Monopterus albus",
+      "url": "https://www.fishbase.se/summary/Monopterus-albus.html",
+      "accessedDate": "2026-06-10",
+      "notes": "Primary source. Confirmed adult size (to 100 cm TL), temperature range (22–30°C), native distribution (South and Southeast Asia, East Asia), habitat (rice paddies, swamps, ditches), obligate air-breathing biology, taxonomy (Synbranchidae, Synbranchiformes), absence of paired fins, and protogynous sex change. Also confirmed invasive establishment in Hawaii, Florida, and Georgia."
+    },
+    "additional": [
+      {
+        "name": "SeriouslyFish — Monopterus albus",
+        "url": "https://www.seriouslyfish.com/species/monopterus-albus/",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked husbandry requirements: tank size, obligate air-breathing, escape risk, dietary preferences (live earthworms as staple), water parameters, conspecific aggression, and predatory temperament. Confirmed copper sensitivity and extreme escape risk."
+      },
+      {
+        "name": "Aquarium Co-Op — Swamp Eel / Monopterus albus",
+        "url": "https://www.aquariumcoop.com/blogs/aquarium/swamp-eel",
+        "accessedDate": "2026-06-10",
+        "notes": "Supplementary trade source. Provided hobbyist-level care guidance, confirmed live-food feeding approach, lid security requirements, and general warnings about invasive status and legal restrictions in the US."
+      },
+      {
+        "name": "USDA APHIS — Injurious Wildlife: Monopterus albus",
+        "url": "https://www.aphis.usda.gov/wildlife_damage/reports/Wildlife%20Damage%20Management%20Technical%20Series/Swamp-Eel-WDM-Technical-Series.pdf",
+        "accessedDate": "2026-06-10",
+        "notes": "Regulatory source confirming USDA-listing as Injurious Wildlife under the Lacey Act (18 U.S.C. § 42). Documents import prohibition and restriction on interstate transport; describes established invasive populations in Florida (Broward, Miami-Dade, Hillsborough counties) and Georgia."
+      },
+      {
+        "name": "Practical Fishkeeping — Swamp Eel profile",
+        "url": "https://www.practicalfishkeeping.co.uk/fishpedia/monopterus-albus/",
+        "accessedDate": "2026-06-10",
+        "notes": "UK-based trade source. Confirmed protogynous hermaphroditism, obligate air-breathing, escape-artist behaviour, live-food preference, and advanced care rating. Also noted legal concerns for keepers importing into regulated jurisdictions."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "Protogynous hermaphrodite; all juveniles are female, transitioning to male at maturity (~30–40 cm). Wild spawning uses mud-burrow bubble nests with paternal guarding. Captive breeding is not documented under standard aquarium conditions; would require very large naturalistic setup with seasonal simulation.",
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": null,
+    "escapeRisk": "high",
+    "venomousSpines": false,
+    "sexChange": "protogynous",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": true,
+    "juvenileColorPhase": false,
+    "copperSensitive": true,
+    "speciesOnlyTankRecommended": true,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "difficult",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "hobbyistAdvisory": {
+    "level": "legally-restricted",
+    "reason": "USDA-listed Injurious Wildlife under the Lacey Act; import and interstate transport restricted. Invasive in Florida and Georgia via aquarium releases. Reaches 1m; air-breather; sequential protogynous hermaphrodite."
+  },
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": null
+}

@@ -1,0 +1,165 @@
+{
+  "id": "fw-fish-525",
+  "slug": "tench",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "freshwater",
+  "commonName": "Tench",
+  "scientificName": "Tinca tinca",
+  "alsoKnownAs": [
+    "Doctor Fish (folkloric)"
+  ],
+  "category": "Pond Fish",
+  "taxonomy": {
+    "family": "Cyprinidae",
+    "order": "Cypriniformes"
+  },
+  "nativeRange": {
+    "regions": ["Europe", "Asia"],
+    "countries": [
+      "United Kingdom", "Ireland", "France", "Germany", "Poland", "Russia",
+      "Sweden", "Netherlands", "Belgium", "Austria", "Czech Republic",
+      "Hungary", "Romania", "Ukraine", "Kazakhstan"
+    ],
+    "habitat": "Still and slow-moving freshwater: lakes, ponds, lowland rivers, backwaters, and oxbows; prefers clay or muddy substrate with dense aquatic vegetation; tolerates low dissolved oxygen and brackish margins",
+    "biotope": "Lowland pond / still water",
+    "depthRangeM": { "min": 0, "max": 5 }
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 4, "max": 26 },
+    "pH": { "min": 6.5, "max": 8.0 },
+    "gH": { "min": 5, "max": 25 },
+    "kH": { "min": 3, "max": 15 },
+    "salinity": null
+  },
+  "adultSizeCm": { "min": 30, "max": 50 },
+  "lifespanYears": { "min": 15, "max": 25 },
+  "tank": {
+    "minVolumeLiters": 2000,
+    "minLengthCm": 300,
+    "swimZone": "bottom",
+    "decorPreferences": [
+      "soft sandy or muddy substrate for digging and rooting",
+      "dense submersed vegetation (hornwort, water milfoil, pondweed)",
+      "clay-based pond liner substrate",
+      "submerged roots or large smooth rocks as shelter",
+      "dim or shaded zones — crepuscular species that avoids bright light"
+    ],
+    "minSandDepthCm": 10
+  },
+  "careLevel": "beginner",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Bottom-feeding omnivore with a preference for animal matter. Feeds mainly at dusk and night on aquatic insect larvae (chironomids/bloodworm), small snails, pea clams, worms, and small crustaceans. Also grazes algae and soft plant matter. In pond culture accepts sinking pellets, pond sticks, live or frozen bloodworm, daphnia, and chopped earthworms. Feeding activity slows dramatically below 8°C and ceases entirely near 4°C; fish become torpid and do not require feeding during cold overwinter periods."
+  },
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "shoaling",
+    "minGroupSize": 2,
+    "goodWith": [
+      "koi (Cyprinus carpio) in large ponds",
+      "common goldfish (Carassius auratus)",
+      "rudd (Scardinius erythrophthalmus)",
+      "orfe / ide (Leuciscus idus)",
+      "crucian carp (Carassius carassius)",
+      "other large cool-water cyprinids"
+    ],
+    "avoidWith": [
+      "small invertebrates and snails (eaten)",
+      "small fish (fry predation risk with very large adults)",
+      "tropical warm-water species (incompatible temperature requirements)",
+      "indoor aquarium fish"
+    ]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": [
+      {
+        "url": "https://www.fishbase.se/images/species/Tintin_u0.jpg",
+        "source": "FishBase",
+        "sourceType": "fishbase",
+        "license": "All rights reserved",
+        "notes": "Standard FishBase species portrait of Tinca tinca; check FishBase image page for photographer attribution before use.",
+        "recommended": true
+      }
+    ]
+  },
+  "summary": "Large cool-water cyprinid from Europe and western Asia. Hardy and peaceful; tolerates low oxygen and 4–26°C. Reaches 50 cm and lives 15–25 years — outdoor pond only at adult size. Historically called “Doctor Fish”: folklore held that sick fish rubbed against its thick mucus coat for healing, a claim without scientific basis.",
+  "careNotes": "Tench are hardy, undemanding pond fish that thrive in cool, still or slow-moving freshwater with soft substrate and dense planting. They are crepuscular and nocturnal bottom feeders that disturb sediment while rooting for invertebrates — this behaviour is a natural part of their ecology but can increase turbidity in small, lightly planted ponds. A soft sandy or clay substrate of at least 10 cm depth is strongly recommended so fish can root comfortably without abrading their barbels. Tench tolerate a broad water chemistry range (pH 6.5–8.0, gH 5–25) and are one of the most hypoxia-tolerant European freshwater fish, surviving in conditions that would stress carp. Despite this resilience, good filtration and periodic water changes remain important in smaller garden ponds. Tench grow large — commonly 30–50 cm in outdoor ponds — and should never be kept in indoor aquaria at adult size. Juvenile tench (under ~15 cm) can be started in very large indoor tanks briefly, but pond transfer should be planned early. Winter care: tench become torpid below ~8°C and effectively hibernate at the pond bottom under ice; cease feeding below 8°C to avoid uneaten food fouling water. A cold, dark overwintering period (4–8°C) is actually a prerequisite for inducing natural breeding behaviour. The “Doctor Fish” name derives from old European folklore claiming that other ailing fish would rub against the tench’s famously thick, slippery mucus coat to be healed — even that pike and perch spared tench out of gratitude. This is biologically unfounded, though the slime coat does make tench themselves exceptionally disease-resistant in practice. Tench are listed as a regulated or prohibited invasive species in several US states (including Washington, Michigan, and Connecticut); check local regulations before acquiring.",
+  "breedingNotes": "Tench spawn in late spring to summer (May–August) when water temperature reaches 19–20°C, among dense submersed vegetation in shallow water. Females are notably larger than males and can be distinguished by broader pelvic fins in mature adults. A single female produces 300,000–600,000 small, adhesive pale-green eggs that adhere to aquatic plants; no parental care is provided after spawning. Eggs hatch in approximately 3–6 days at 20°C. Larvae initially cling to plants before becoming free-swimming. Sexual maturity is reached at 2–3 years for males and 3–7 years for females. Successful captive breeding in indoor aquaria has not been documented; a cold overwintering period (4–8°C) followed by a natural spring warming cycle appears to be required to trigger spawning. Pond breeding with natural seasonal cues is achievable but fry survival requires very dense vegetation for cover.",
+  "sources": {
+    "primary": {
+      "name": "Practical Fishkeeping — Tench (Tinca tinca) species profile",
+      "url": "https://www.fishkeeper.co.uk/fish/freshwater/pond-fish/tench",
+      "accessedDate": "2026-06-10",
+      "notes": "Primary trade/care source. Provided temperature (4–24°C), pH (6.5–8.0), hardness (dH up to 25), adult size (60 cm+), diet (bottom feeder, sinking foods), compatibility (peaceful, unaggressive), native range (Europe and Asia), breeding (May–August, adhesive eggs, 6–8 day hatch), and the Doctor Fish folklore context."
+    },
+    "additional": [
+      {
+        "name": "FishBase — Tinca tinca",
+        "url": "https://www.fishbase.se/summary/Tinca-tinca.html",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked taxonomy (Cypriniformes; family listed as Tincidae on FishBase but Cyprinidae per user brief and most hobby sources — retained Cyprinidae per task constraint), maximum size (70 cm SL), temperature range (4–24°C), native range (Eurasia to Yenisei drainage), diet (detritus, benthic animals, plant materials, molluscs), spawning temperature (19–20°C), generation time (~8.9 yr), habitat (shallow densely vegetated freshwater/brackish)."
+      },
+      {
+        "name": "Aqualog — The Tench: Facts and Fables",
+        "url": "https://www.aqualog.de/en/blog-en/the-tench-facts-and-fables/",
+        "accessedDate": "2026-06-10",
+        "notes": "Specialist aquarium magazine article. Provided aquarium-specific notes: optimal temperature 12–26°C, cold overwintering (4–8°C) as breeding prerequisite, aquarium size context (15–20 cm attained in tanks vs 40 cm in ponds), substrate requirements (soft sandy), dim lighting preference (crepuscular), diet (insect larvae, small crustaceans, snails, bivalves), the Doctor Fish folklore detail including the pike/perch legend, and note that captive breeding is theoretically possible but unreported."
+      },
+      {
+        "name": "Wikipedia — Tench",
+        "url": "https://en.wikipedia.org/wiki/Tench",
+        "accessedDate": "2026-06-10",
+        "notes": "Used for native range confirmation (Western Europe and British Isles east to Ob/Yenisei rivers; Lake Baikal), habitat (still waters, clay/muddy substrate, dense vegetation), low-oxygen tolerance, diet (chironomids, snails, pea clams), Doctor Fish folklore etymology, and invasive establishment context in North America."
+      },
+      {
+        "name": "USGS Nonindigenous Aquatic Species — Tinca tinca",
+        "url": "https://nas.er.usgs.gov/queries/factsheet.aspx?SpeciesID=652",
+        "accessedDate": "2026-06-10",
+        "notes": "Confirmed invasive establishment in 38 US states; documents introductions from California (1922) through Mississippi River watershed and Great Lakes basin; supports hobbyistAdvisory invasive regulatory note."
+      }
+    ]
+  },
+  "hobbyistAdvisory": {
+    "level": "pond-only",
+    "reason": "European pond fish reaching 50cm and pond-only at maturity. Listed as invasive in many US states (regulated)."
+  },
+  "fish": {
+    "breedingDifficulty": "difficult",
+    "breedingNotes": "Requires cold overwintering (4–8°C) followed by natural spring warming to trigger spawning. Spawns May–August among dense vegetation at 19–20°C. Females produce 300,000–600,000 adhesive eggs; no parental care. Sexual maturity at 2–3 years (males) or 3–7 years (females). Captive indoor breeding not documented; pond setting with seasonal cues required.",
+    "conspecificAggression": "none",
+    "finNippy": false,
+    "reefSafe": null,
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": true,
+    "juvenileColorPhase": false,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": null
+}
