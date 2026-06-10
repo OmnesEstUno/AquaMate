@@ -1,0 +1,163 @@
+{
+  "id": "fw-fish-473",
+  "slug": "ripsaw-catfish",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "freshwater",
+  "commonName": "Ripsaw Catfish",
+  "scientificName": "Oxydoras niger",
+  "alsoKnownAs": [
+    "Black Doradid",
+    "Cuiu Cuiu"
+  ],
+  "category": "Catfish",
+  "taxonomy": {
+    "family": "Doradidae",
+    "order": "Siluriformes"
+  },
+  "nativeRange": {
+    "regions": ["South America"],
+    "countries": ["Brazil", "Peru", "Colombia", "Venezuela", "Bolivia"],
+    "habitat": "Large river channels, floodplain lakes, and seasonally flooded forest margins of the Amazon and Orinoco basins; prefers slow to moderate flow over soft mud or sand substrates with abundant leaf litter and submerged woody debris",
+    "biotope": "Amazon river",
+    "depthRangeM": { "min": 1, "max": 20 }
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 22, "max": 28 },
+    "pH": { "min": 6.0, "max": 7.5 },
+    "gH": { "min": 2, "max": 12 },
+    "kH": { "min": 1, "max": 8 },
+    "salinity": null
+  },
+  "adultSizeCm": { "min": 60.0, "max": 100.0 },
+  "lifespanYears": { "min": 20, "max": 30 },
+  "tank": {
+    "minVolumeLiters": 2000,
+    "minLengthCm": 300,
+    "swimZone": "bottom",
+    "decorPreferences": [
+      "large smooth boulders and oversized driftwood for cover",
+      "deep fine sand or smooth gravel substrate",
+      "dim lighting or shaded areas — tolerates low-light conditions",
+      "minimal sharp decor — pectoral spines lock and snag easily",
+      "robust canister or sump filtration rated for heavy bio-load",
+      "open unobstructed floor space for foraging"
+    ],
+    "minSandDepthCm": 5
+  },
+  "careLevel": "expert",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Benthic opportunist; in the wild consumes fallen fruit, seeds, molluscs, crustaceans, insect larvae, worms, and organic detritus. In captivity: large sinking pellets (high-quality catfish or cichlid pellets), earthworms, prawns, mussels, blanched vegetables, and fruit. Feeds primarily at night. Due to adult size, food quantities are substantial — daily feeding of appropriately large portions is required. Will consume tankmates small enough to fit in its broad mouth."
+  },
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": [
+      "other large Doradidae of similar size",
+      "large peaceful cichlids (Cichla, Astronotus — only in public-aquarium scale setups)",
+      "large plecostomus species",
+      "large characids (Colossoma, Arapaima facilities only)",
+      "arowana (Osteoglossum) at comparable size"
+    ],
+    "avoidWith": [
+      "any fish small enough to be swallowed",
+      "small or medium tetras, rasboras, livebearers",
+      "dwarf cichlids and small cichlids",
+      "invertebrates — all at risk",
+      "sharp-edged nets and containers — locking pectoral spines create serious net-entanglement and handler injury risk"
+    ]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": [
+      {
+        "url": "https://www.fishbase.se/images/species/Oxnig_u2.jpg",
+        "source": "FishBase",
+        "sourceType": "fishbase",
+        "license": "All rights reserved",
+        "notes": "FishBase species image for Oxydoras niger; shows adult coloration and lateral scute row clearly.",
+        "recommended": true
+      }
+    ]
+  },
+  "summary": "A truly massive armored catfish from the Amazon basin, reaching 100 cm and living 20+ years. The distinctive lateral row of thorn-like scutes gives it its “ripsaw” name. Pectoral spines lock erect, posing a serious injury hazard to handlers. Completely unsuitable for home aquaria; belongs only in public aquariums.",
+  "careNotes": "Oxydoras niger is one of the largest members of the family Doradidae and ranks among the most imposing freshwater catfishes available to the aquarium trade. Juveniles are sold at 5–10 cm and appear manageable, but this species grows steadily for many years and ultimately reaches 60–100 cm total length with a heavy, muscular body. Adults weigh several kilograms and require tank footprints of 3 m or more in length; water volumes of 2,000 L are considered a practical minimum for a single adult, and considerably more is preferable. The species is long-lived — 20 to 30 years is realistic — representing an enormous multi-decade commitment.\n\nThe “ripsaw” common name refers to the single lateral row of sharp, recurved bony scutes running along each side of the body, a characteristic feature of the Doradidae. These scutes, combined with locking pectoral spines that erect and lock in the extended position when the fish is stressed, make handling exceptionally dangerous. Standard aquarium nets will be punctured and the fish cannot be safely extracted without specialist equipment; veterinary-grade handling protocols, including sedation, are recommended for any intervention. Gloves provide minimal protection against the spine and scute combination.\n\nWater chemistry should replicate the soft, slightly acidic Amazonian conditions of its native habitat: pH 6.0–7.5, very soft to moderately soft water (gH 2–12), temperature 22–28°C. Water quality must be pristine — the bio-load produced by an adult is substantial, requiring oversized filtration. The species is nocturnal and spends daylight hours largely motionless beneath cover; feeding should be timed accordingly. It is peaceful with tankmates too large to consume, but will eat anything that fits in its broad terminal mouth.\n\nThis species should never be purchased for a home aquarium. It is documented in public aquarium collections worldwide but is entirely inappropriate for domestic settings at any scale. Retailers who stock juveniles have a responsibility to disclose the adult size at point of sale.",
+  "breedingNotes": "Captive breeding of Oxydoras niger has not been documented in aquarium literature. In the wild, spawning is thought to coincide with the onset of the Amazonian flood season, likely involving nest-building or substrate spawning among submerged vegetation and debris, consistent with other large Doradidae. No reliable captive breeding protocol exists, and reproduction in home or even public-aquarium settings is considered extremely unlikely.",
+  "sources": {
+    "primary": {
+      "name": "SeriouslyFish — Oxydoras niger",
+      "url": "https://www.seriouslyfish.com/species/oxydoras-niger/",
+      "accessedDate": "2026-06-10",
+      "notes": "Primary source. Provided adult size (to 100 cm), water parameters (pH 6.0–7.5, temperature 22–28°C, very soft to moderately hard), native range (Amazon and Orinoco basins), diet (fallen fruit, seeds, molluscs, crustaceans, detritus), nocturnal behaviour, pectoral spine locking mechanism, and lateral scute description."
+    },
+    "additional": [
+      {
+        "name": "FishBase — Oxydoras niger",
+        "url": "https://www.fishbase.se/summary/Oxydoras-niger.html",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked taxonomy (Doradidae, Siluriformes), adult size (reported to 100 cm TL), native range countries (Brazil, Peru, Colombia, Venezuela, Bolivia), temperature tolerance (22–28°C), and diet classification (omnivore). Confirmed long lifespan data and Amazon/Orinoco basin distribution."
+      },
+      {
+        "name": "Aquarium Co-Op — Doradidae / Talking Catfish overview",
+        "url": "https://www.aquariumcoop.com/blogs/aquarium/catfish",
+        "accessedDate": "2026-06-10",
+        "notes": "Consulted for trade context and hobbyist advisories on large doradid catfishes. Corroborated that doradid catfishes including Oxydoras species are frequently sold as juveniles without adequate size disclosure; confirmed pectoral spine hazard and net-entanglement risk noted across doradid care guides."
+      },
+      {
+        "name": "Practical Fishkeeping — Giant catfish species guide",
+        "url": "https://www.practicalfishkeeping.co.uk/features/giant-catfishes-in-the-aquarium/",
+        "accessedDate": "2026-06-10",
+        "notes": "Supplementary source for husbandry constraints of large Amazonian catfishes including Oxydoras niger. Corroborated extreme tank-size requirements, multi-decade lifespan, nocturnal feeding behaviour, and public-aquarium-only suitability assessment."
+      },
+      {
+        "name": "TFH Magazine — Armored catfishes of the Amazon",
+        "url": "https://www.tfhmagazine.com/articles/freshwater/armored-catfishes-amazon",
+        "accessedDate": "2026-06-10",
+        "notes": "Referenced for descriptions of Doradidae lateral scute morphology, the “ripsaw” scute row anatomy, pectoral spine locking mechanism physiology, and wild habitat ecology of large doradids in Amazonian floodplain environments."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "No documented captive breeding. Wild spawning likely tied to the Amazonian flood cycle. Reproduction in aquarium conditions has not been achieved or described in the literature.",
+    "conspecificAggression": "low",
+    "finNippy": false,
+    "reefSafe": null,
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": true,
+    "juvenileColorPhase": false,
+    "copperSensitive": true,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "hobbyistAdvisory": {
+    "level": "public-aquarium-only",
+    "reason": "Reaches 100cm+; massive armored Doradidae. Sold tiny but rapidly outgrows all home setups. Long-lived 20+ years."
+  },
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": null
+}
