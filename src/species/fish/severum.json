@@ -7,82 +7,151 @@
   "commonName": "Severum",
   "scientificName": "Heros severus",
   "alsoKnownAs": [
-    "[pending-research] Severum — Heros species complex; not yet researched."
+    "Banded Cichlid",
+    "Striped Cichlid",
+    "Sedate Cichlid",
+    "Deacon",
+    "Convict Fish",
+    "Gold Severum",
+    "Red Spot Severum",
+    "Rotkeil Severum",
+    "Red-Head Severum",
+    "Super Red Severum"
   ],
   "category": "Cichlid",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Cichlidae",
+    "order": "Cichliformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
+    "regions": ["South America"],
+    "countries": ["Colombia", "Venezuela", "Brazil"],
+    "habitat": "Slow-moving blackwater rivers, floodplain lakes, and tributaries with submerged wood, leaf litter, and dense root structures along shaded banks.",
+    "biotope": "Blackwater",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
-    "kH": null,
-    "salinity": null
+    "temperatureC": { "min": 23, "max": 29 },
+    "pH":           { "min": 5.5, "max": 7.0 },
+    "gH":           { "min": 1, "max": 8 },
+    "kH":           null,
+    "salinity":     null
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm":   { "min": 20, "max": 25 },
+  "lifespanYears": { "min": 8, "max": 12 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 250,
+    "minLengthCm": 120,
+    "swimZone": "all",
+    "decorPreferences": [
+      "driftwood and submerged roots",
+      "sandy or fine-gravel substrate",
+      "leaf litter (Indian almond, oak)",
+      "tannin-stained blackwater",
+      "open mid-water swimming space",
+      "dim overhead lighting",
+      "robust or plastic plants (true plants often uprooted)"
+    ],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Generally considered omnivorous with a lean toward plant matter and small invertebrates. A varied diet is commonly advised: quality cichlid pellets as a staple, plus frozen or live bloodworms, earthworms, and prawns, supplemented with blanched vegetables (spinach, peas, courgette) and spirulina-based foods. Live plants are frequently grazed or uprooted."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "semi-aggressive",
+    "grouping": "pair",
+    "minGroupSize": 1,
+    "goodWith": [
+      "Silver Dollars",
+      "Geophagus eartheaters",
+      "large peaceful catfish (Pleco, Synodontis)",
+      "Festivum",
+      "larger peaceful tetras (Congo, Buenos Aires)",
+      "Angelfish (in tall tanks with space)"
+    ],
+    "avoidWith": [
+      "small tetras and rasboras (predation risk)",
+      "shrimp and small invertebrates",
+      "highly aggressive cichlids (Oscars in undersized tanks, Jaguar, Wolf)",
+      "long-finned fancy fish (fin-nipping risk during breeding)",
+      "delicate plants that uproot easily"
+    ]
   },
   "media": {
     "primaryImage": "severum.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Severum.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "Tall-bodied South American cichlid with a relatively mild temperament for its size; generally advised for intermediate keepers with a 250 L+ tank, soft acidic water, and South American tankmates.",
+  "careNotes": "Taxonomic and trade-name confusion: 'Severum' in the aquarium hobby has historically been sold as Heros severus, but the great majority of trade specimens (including most Gold, Red Spot, and Rotkeil/Red-Head ornamental forms) are actually Heros efasciatus. True H. severus is restricted to the upper Orinoco and upper Rio Negro basins (Colombia, Venezuela, northern Brazil) and was effectively rediscovered in the hobby around 2015, identifiable by a characteristic partial seventh body band. H. efasciatus is more widespread across the Solimões-Amazon and Ucayali drainages. Sister species include H. liberifer (the true paternal mouthbrooder long misidentified as H. severus) and H. notatus. Reproductive mode differs across the complex: H. efasciatus is a substrate spawner with biparental brood care; true H. severus has been reported to deposit eggs on a substrate and then mouth-incubate the larvae (a partial larvophilous mouthbrooder), while H. liberifer is a full paternal mouthbrooder. Buyers should treat unverified shop fish as 'Heros sp.' unless provenance is documented. Husbandry is broadly similar across the complex: soft, acidic, warm blackwater with driftwood, leaf litter, and dim lighting suits all forms; live plants are frequently grazed or uprooted and Anubias/Java Fern attached to wood are more durable choices. Generally calmer than most large American cichlids outside of breeding, but pairs can become firmly territorial when guarding eggs or fry. Reported lifespan is commonly 8–12 years in well-kept tanks. Cross-source notes: SeriouslyFish (Heros efasciatus profile) suggests up to ~30 cm with a 120 cm / ~243 L minimum; FishBase lists H. severus at ~20 cm SL (common 13.5 cm); hobby sources cluster around 19–20 cm adult length and 170–250 L minimums. Tank volume rounded up to 250 L per the cautious-larger rule because Severums are tall, territorial, slow-cruising fish that need both vertical space and horizontal footprint.",
+  "breedingNotes": "Pairs form naturally from groups of juveniles raised together; sexing is unreliable when young. Sexual dimorphism in mature fish: males are larger with more pointed and extended dorsal/anal fins, develop a nuchal hump, and often show stronger facial vermiculations. Spawning is generally triggered by soft, acidic, warm water (around 27–29 °C, pH 5.5–6.5) and a flat surface (slate, broad leaf, or smooth root). H. efasciatus is a classic substrate spawner with biparental egg and fry care; up to several hundred to ~1000 eggs are reported. True H. severus has been documented as a larvophilous mouthbrooder — eggs are laid on a substrate, and larvae are taken into the parents' mouths after hatching. H. liberifer (often historically confused with H. severus) is a full paternal mouthbrooder. Parental care can extend for several weeks.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "SeriouslyFish",
+      "url": "https://www.seriouslyfish.com/species/heros-efasciatus/",
+      "accessedDate": "2026-06-10",
+      "notes": "Primary source swapped from Aquarium Co-Op — the designated primary returned no Severum content (search 0 results, blog/care URL 404). SeriouslyFish only hosts a complete profile for H. efasciatus (the species most often sold as 'Severum'); the H. severus URL returned 404. Profile used for sizing, water parameters, tank dimensions, diet, and breeding mode of the efasciatus member of the complex."
+    },
+    "additional": [
+      {
+        "name": "FishBase (Heros severus)",
+        "url": "https://www.fishbase.se/summary/Heros-severus.html",
+        "accessedDate": "2026-06-10",
+        "notes": "Authoritative taxonomy + native range for true H. severus (upper Orinoco / upper Rio Negro). Lists 20 cm SL max, common ~13.5 cm TL, pH 5.0–6.5, 23–29 °C, and notes larvae are taken into the mouth after substrate spawning."
+      },
+      {
+        "name": "FishBase (Heros efasciatus)",
+        "url": "https://www.fishbase.se/summary/Heros-efasciatus.html",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-check for the aquarium-trade species. 17 cm SL, 24–32 °C, pH ~7, substrate spawner with up to ~1000 eggs and biparental care."
+      },
+      {
+        "name": "Fishkeeping World",
+        "url": "https://www.fishkeepingworld.com/severum/",
+        "accessedDate": "2026-06-10",
+        "notes": "Hobby-care cross-check: 45 US gal (~170 L) minimum, 73–84 °F (23–29 °C), pH 6.0–6.5, ~19 cm adult, 5–10 year lifespan, semi-aggressive. Notes the genus contains multiple species and color morphs."
+      },
+      {
+        "name": "Wikipedia (Heros severus)",
+        "url": "https://en.wikipedia.org/wiki/Heros_severus",
+        "accessedDate": "2026-06-10",
+        "notes": "Confirms the trade-name confusion: until ~2015 the mouthbrooding hobby 'Severum' was attributed to H. severus, but it is now recognized that aquarium stock is predominantly H. efasciatus, with H. liberifer being the actual mouthbrooder historically misidentified."
+      },
+      {
+        "name": "Wikipedia (Heros efasciatus)",
+        "url": "https://en.wikipedia.org/wiki/Heros_efasciatus",
+        "accessedDate": "2026-06-10",
+        "notes": "Confirms H. efasciatus is the species commonly traded, often as a captive-bred gold-colored variant rather than the wild olive-green form."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
+    "breedingDifficulty": "moderate",
+    "breedingNotes": "Best induced in soft, warm, acidic water with a chosen pair. Substrate spawning on a flat surface is typical; true H. severus has been reported to mouth-incubate hatched larvae.",
+    "conspecificAggression": "moderate",
+    "finNippy": false,
     "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
-    "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": true,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -92,6 +161,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-10"
 }

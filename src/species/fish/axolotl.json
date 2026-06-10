@@ -1,0 +1,142 @@
+{
+  "id": "fw-fish-560",
+  "slug": "axolotl",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "freshwater",
+  "commonName": "Axolotl",
+  "scientificName": "Ambystoma mexicanum",
+  "alsoKnownAs": [
+    "Mexican Walking Fish",
+    "Mexican Salamander",
+    "Ajolote"
+  ],
+  "category": "Amphibian",
+  "taxonomy": {
+    "family": "Ambystomatidae",
+    "order": "Urodela"
+  },
+  "nativeRange": {
+    "regions": ["Central America"],
+    "countries": ["Mexico"],
+    "habitat": "Cool, muddy-bottomed freshwater lakes and canals rich in plant and animal life. Historically endemic to Lakes Xochimilco and Chalco south of Mexico City; now critically endangered in the wild with only remnant populations in the Xochimilco canal system.",
+    "biotope": "High-altitude Mexican lake biotope",
+    "depthRangeM": { "min": 0, "max": 5 }
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 16, "max": 18 },
+    "pH": { "min": 7.4, "max": 7.8 },
+    "gH": { "min": 7, "max": 14 },
+    "kH": { "min": 3, "max": 8 },
+    "salinity": null
+  },
+  "adultSizeCm": { "min": 20, "max": 30 },
+  "lifespanYears": { "min": 10, "max": 15 },
+  "tank": {
+    "minVolumeLiters": 150,
+    "minLengthCm": 75,
+    "swimZone": "bottom",
+    "decorPreferences": [
+      "Fine sand substrate with grain size under 1 mm, OR bare bottom for juveniles under 15 cm",
+      "Avoid gravel and any substrate or decor pieces under 3 cm (impaction risk if swallowed)",
+      "Smooth caves, PVC tubes, or terracotta pots for hiding",
+      "Live or silk plants tolerated; avoid hard plastic plants with sharp edges",
+      "Gentle filtration with baffled outflow — strong current is stressful",
+      "Tight-fitting lid; axolotls have been reported to climb out of open-top tanks"
+    ],
+    "minSandDepthCm": 2
+  },
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Generally fed earthworms or nightcrawlers as a staple, supplemented with sinking axolotl pellets, frozen bloodworms, and blackworms. Adults are typically fed every 2-3 days; juveniles daily. Avoid feeder fish such as goldfish and minnows, which contain thiaminase and may carry parasites. Beef heart and mammalian meats have been used historically but are commonly considered too fatty for routine feeding."
+  },
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": [
+      "Best kept in a species-only setup",
+      "Other similarly-sized adult axolotls of the same size class (with caution — separate if any cannibalism observed)"
+    ],
+    "avoidWith": [
+      "All fish — even peaceful species have been reported to nip the external gills",
+      "Shrimp and small invertebrates (eaten)",
+      "Snails (may be eaten and cause impaction)",
+      "Juvenile axolotls mixed with adults (cannibalism risk; size-grade strictly)",
+      "Any fin-nipping or aggressive tankmates"
+    ]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A neotenic aquatic salamander from the Mexico City lake system, generally kept as a coldwater species-only display. Sensitive to warm temperatures, copper-based medications, and small-grain substrates.",
+  "careNotes": "Taxonomy quirk: the axolotl is not a fish but a neotenic aquatic salamander (Amphibia: Caudata). It is stored under taxon='fish' and category='Amphibian' for compatibility with the current freshwater-fish schema slice; a future schema revision may introduce a dedicated amphibian taxon. Coldwater species — most sources advise keeping the tank between roughly 16-18°C, with reported tolerance across about 12-22°C; sustained temperatures above 22-24°C have been reported to cause severe stress and disease, and prolonged exposure above 25°C can be fatal. Heaters are explicitly discouraged in typical home environments; in warm climates an aquarium chiller or cool-room placement is generally advised over heating equipment. Substrate is a known husbandry hazard: fine sand under 1 mm grain or bare bottom is recommended, and gravel or decor pieces under about 3 cm have been associated with impaction when swallowed. Skin is highly permeable, so copper-based medications, malachite green, and most fish-formulated treatments are reported to be toxic — use amphibian-safe products only and dechlorinate all tap water. External gills are easily damaged by fin-nipping tankmates, so a species-only setup is generally advised. Cross-source disagreement on tank size: LiveAquaria suggests roughly 76 L (20 US gal) while Axolotl Central strongly recommends about 180 L (40 gal breeder); 150 L is recorded here as a cautious midpoint informed by adult swimming-space needs. Critically endangered in the wild; captive specimens are widely available from hobbyist breeders.",
+  "breedingNotes": "Sexual maturity is generally reached between about 6 and 18 months of age. Breeding has been reported to be triggered by a cool period followed by a temperature rise; the male deposits spermatophores which the female picks up via the cloaca, then lays several hundred eggs on plants or surfaces. Females are commonly advised not to breed more than once every 2-6 months to avoid exhaustion. Larvae are highly cannibalistic and should be size-graded into separate containers. Eggs from animals of unknown lineage are commonly culled to avoid spreading hybrid or genetically compromised stock.",
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/blogs/species-spotlight/axolotl-care-guide",
+      "accessedDate": "2026-06-10",
+      "notes": "Used as primary after Aquarium Co-Op's axolotl page returned 404. Provided pH, kH, temperature, lifespan, adult size, substrate guidance, and copper-toxicity-via-permeable-skin warning."
+    },
+    "additional": [
+      {
+        "name": "Caudata Culture (Axolotl care reference)",
+        "url": "https://www.caudata.org/cc/species/Ambystoma/A_mexicanum.shtml",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked taxonomy (Ambystomatidae), native range (Lakes Xochimilco and Chalco), adult size (20-28 cm), substrate impaction risk, and temperature tolerance (14-22 C with stress above 25 C)."
+      },
+      {
+        "name": "Axolotl Central",
+        "url": "https://www.axolotlcentral.com/axolotl-care-guide",
+        "accessedDate": "2026-06-10",
+        "notes": "Third source used for tank-size cross-verification (recommended ~180 L), pH range (7.2-8.4), gH (7-14), kH (3-7), lifespan (10-15+ years), and feeder-fish/thiaminase warning."
+      },
+      {
+        "name": "Aquarium Co-Op",
+        "url": "https://www.aquariumcoop.com/",
+        "accessedDate": "2026-06-10",
+        "notes": "Slice primary; no dedicated axolotl care article located (search returned only a passing reference in a coolwater-species heat-wave article). Swapped primary role to LiveAquaria."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "moderate",
+    "breedingNotes": "Captive breeding is well-established in the hobby and laboratory trade; difficulty is moderated by larval cannibalism and the requirement to manage temperature cycling.",
+    "conspecificAggression": "low",
+    "finNippy": false,
+    "reefSafe": null,
+    "escapeRisk": "moderate",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": true,
+    "juvenileColorPhase": false,
+    "copperSensitive": true,
+    "speciesOnlyTankRecommended": true,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-10"
+}

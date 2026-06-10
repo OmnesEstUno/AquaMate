@@ -6,83 +6,114 @@
   "waterType": "freshwater",
   "commonName": "Ropefish",
   "scientificName": "Erpetoichthys calabaricus",
-  "alsoKnownAs": [
-    "[pending-research] Ropefish — Polypteridae; not yet researched."
-  ],
+  "alsoKnownAs": ["Reedfish", "Snakefish", "Rope Fish", "African Ropefish"],
   "category": "Oddball",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Polypteridae",
+    "order": "Polypteriformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
+    "regions": ["West Africa", "Central Africa"],
+    "countries": ["Nigeria", "Cameroon", "Benin", "Equatorial Guinea", "Democratic Republic of the Congo", "Angola"],
+    "habitat": "Slow-flowing rivers, standing waters, and densely vegetated swamps along the West and Central African coast; often associated with reedy margins of the Ouémé, Ogun, Sanaga, Chiloango, and Niger basins",
+    "biotope": "Whitewater",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
-    "kH": null,
+    "temperatureC": { "min": 23, "max": 28 },
+    "pH": { "min": 6.2, "max": 7.5 },
+    "gH": { "min": 5, "max": 20 },
+    "kH": { "min": 4, "max": 15 },
     "salinity": null
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 35, "max": 60 },
+  "lifespanYears": { "min": 15, "max": 20 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
-    "minSandDepthCm": null
+    "minVolumeLiters": 500,
+    "minLengthCm": 150,
+    "swimZone": "bottom",
+    "decorPreferences": ["soft sand substrate", "driftwood", "dense planting", "caves", "PVC hides", "low flow", "subdued lighting"],
+    "minSandDepthCm": 5
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Hunts meaty live and frozen foods by scent — earthworms, bloodworms, mysis, chopped prawn, mussel, krill, and small fish. Generally refuses dried foods, though older captive specimens may eventually accept large sinking pellets. Nocturnal feeder; an evening feeding just after lights-out tends to be most successful, and target feeding with tongs is often advisable because faster-sighted tankmates will outcompete the ropefish at the trough."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "peaceful",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["angelfish", "Severum and similar peaceful cichlids", "Synodontis catfish", "bala sharks", "tinfoil barbs", "large characins", "African butterflyfish", "knifefish", "large gouramis", "plecos", "other ropefish (with extra footprint)"],
+    "avoidWith": ["small tetras", "rasboras", "danios", "guppies", "neon tetras", "dwarf shrimp and snails", "small loaches", "aggressive cichlids (Oscar, Convict, Jack Dempsey)", "fin-nippers", "anything that fits in the mouth"]
   },
   "media": {
     "primaryImage": "ropefish.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Ropefish.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "An eel-shaped living-fossil polypterid from West/Central Africa. Peaceful with non-bite-sized tankmates, but a notorious escape artist — a fully sealed, weighted lid with every gap closed is non-negotiable.",
+  "careNotes": "LIVING FOSSIL: Erpetoichthys calabaricus is the sole member of its genus and one of two extant lineages in the family Polypteridae (alongside the bichirs of the genus Polypterus — six of which are already covered in this database). Like its relatives it possesses paired, lung-like air bladders that allow facultative atmospheric air-breathing, plus an unmistakable snake/eel-like body with a row of small spiny dorsal finlets.\n\nESCAPE RISK — CRITICAL: This species is the textbook aquarium escape artist. Its anguilliform body can pass through gaps astonishingly smaller than its girth, and its lungs let it survive surprisingly long out of water (anecdotally hours, if it remains moist). A tight-fitting, weighted lid with ALL filter cut-outs, heater cord notches, feeding holes, and corner gaps fully sealed is mandatory; many keepers tape over any opening larger than a few millimetres. Lost ropefish are commonly found dried up under furniture days later.\n\nAIR ACCESS: Despite needing a sealed lid, the ropefish must be able to reach the surface to gulp atmospheric air — leave roughly a 2–3 cm air gap between the water surface and the lid. Without surface access the fish can drown.\n\nTANK FOOTPRINT: Floor area matters far more than tank height. A long tank in the 150 cm range is strongly preferred; a 120 cm tank can work for a single juvenile but adults benefit from more horizontal swim space. Source spread on minimum volume is wide — hobby sites commonly recommend ~190 L (50 US gal) while SeriouslyFish recommends 540 L. We bias toward the larger figure (500 L) per the long-body / long-lived nature of the species. Each additional ropefish should add ~40–60 L of footprint.\n\nSIZE: Sources disagree on adult size. FishBase records 37 cm SL as the verified maximum and notes that an older 90 cm record is 'probably erroneous'. Many hobby sources cite 38–50 cm for captive adults; TFH Magazine and SeriouslyFish describe specimens approaching 60–90 cm. A realistic captive expectation is 35–60 cm over a 15–20 year lifespan.\n\nSUBSTRATE: Fine sand is strongly preferred. Sharp gravel can abrade the belly as the fish slithers along the bottom. A 3–5 cm sand bed gives the fish opportunities to nose around and wedge under decor.\n\nCOMPATIBILITY: Peaceful toward fish it cannot swallow but reliably predatory on anything bite-sized — neon tetras, rasboras, guppies, dwarf shrimp, snails will all be eaten. Faster, sighted tankmates can outcompete it at feeding. Tankmates roughly one-half the ropefish's length or larger are safe in practice.\n\nLIGHTING & FLOW: Subdued lighting, sheltered hides, low-to-moderate flow. Nocturnal/crepuscular by default — many specimens become more diurnal once they learn the daytime feeding routine.\n\nWATER QUALITY: Hardy across a wide pH/hardness window once acclimated but dislikes sudden swings; weekly partial water changes and stable parameters matter more than chasing a precise pH target.",
+  "breedingNotes": "Captive breeding is effectively unrecorded in home aquaria. The wild spawn is associated with the rainy season; females scatter eggs among submerged vegetation and parental care is minimal. The very rare commercial captive-bred ropefish are reportedly produced with hormone induction in specialist facilities. Sexual dimorphism is subtle: males show 12–14 dorsal finlets and a thickened anal fin in breeding condition; females typically show 9–12 dorsal finlets. Home hobbyists should not plan around breeding this species.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "SeriouslyFish",
+      "url": "https://www.seriouslyfish.com/species/erpetoichthys-calabaricus/",
+      "accessedDate": "2026-06-10",
+      "notes": "Primary source. Aquarium Co-Op has no dedicated Ropefish care page or product listing (only forum threads), so SeriouslyFish was promoted to primary per the playbook fallback rule. Provided sizing (up to 90 cm SL — likely overstated, see FishBase), tank volume (540 L), parameters (23–30 °C, pH 6.0–7.5, 5–20 dH), diet, temperament, escape-artist warning, and sexual-dimorphism notes."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Erpetoichthys-calabaricus.html",
+        "accessedDate": "2026-06-10",
+        "notes": "Used for confirmed taxonomy (Polypteriformes / Polypteridae), verified maximum length (37 cm SL — FishBase explicitly flags the older 90 cm record as 'probably erroneous'), climate zone (22–28 °C), and pH 6.0–8.0. IUCN Near Threatened (2019)."
+      },
+      {
+        "name": "Fishkeeping World",
+        "url": "https://fishkeepingworld.com/rope-fish/",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked husbandry: 45–50 US gal minimum (170–190 L), 72–82 °F, pH 6.7–7.8, 4–18 dH, lifespan 15–20 yr, peaceful temperament, escape-risk warning, tankmate lists. Hobby tank-size figure (~190 L) is much smaller than SeriouslyFish's 540 L — we biased toward the larger value (500 L) per playbook tank-size rule."
+      },
+      {
+        "name": "Tropical Fish Hobbyist Magazine",
+        "url": "https://www.tfhmagazine.com/articles/freshwater/understanding-the-reedfish",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked: 50 US gal floor-space minimum, 73–82 °F, pH 6.5–7.0, ~3 ft adult length (likely overstated; see FishBase), strong emphasis on sealed lids, 1-inch air gap, sandy substrate 5–7 cm, heavy planting. Specifically called ropefish 'absolute masters of escape'."
+      },
+      {
+        "name": "Aquarium Source",
+        "url": "https://www.aquariumsource.com/rope-fish/",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked: 50 US gal minimum, 72–82 °F, pH 6.0–7.5, 8–22 KH, 15–20 yr lifespan, peaceful but predatory on small tankmates, sandy substrate, tight-lid requirement. Adult size given as 'just over two feet' (~60 cm) — middle of the source spread."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "Effectively never bred in home aquaria; rare commercial production uses hormone induction in specialist facilities.",
+    "conspecificAggression": "low",
+    "finNippy": false,
     "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
+    "escapeRisk": "high",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": true,
+    "juvenileColorPhase": false,
     "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -92,6 +123,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-10"
 }

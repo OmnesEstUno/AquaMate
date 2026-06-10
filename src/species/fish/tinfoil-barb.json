@@ -7,82 +7,143 @@
   "commonName": "Tinfoil Barb",
   "scientificName": "Barbonymus schwanenfeldii",
   "alsoKnownAs": [
-    "[pending-research] Tinfoil Barb — common large barb; not yet researched."
+    "Schwanefeld's Tinfoil Barb",
+    "Goldfoil Barb",
+    "Tinfoil"
   ],
   "category": "Barb",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Cyprinidae",
+    "order": "Cypriniformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
+    "regions": ["Southeast Asia"],
+    "countries": [
+      "Thailand",
+      "Cambodia",
+      "Laos",
+      "Vietnam",
+      "Malaysia",
+      "Singapore",
+      "Brunei",
+      "Indonesia"
+    ],
+    "habitat": "Medium-to-large river channels, flooded forests, and floodplain lakes throughout the Mekong and Chao Phraya basins, the Malay Peninsula, Sumatra, and Borneo. Adults are commonly found over silty or sandy substrates with submerged wood and riparian vegetation; also recorded from man-made canals, irrigation ditches, and reservoirs.",
+    "biotope": "River",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
-    "kH": null,
+    "temperatureC": { "min": 22, "max": 26 },
+    "pH": { "min": 6.5, "max": 7.5 },
+    "gH": { "min": 2, "max": 15 },
+    "kH": { "min": 2, "max": 12 },
     "salinity": null
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 30, "max": 35 },
+  "lifespanYears": { "min": 8, "max": 12 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 700,
+    "minLengthCm": 180,
+    "swimZone": "all",
+    "decorPreferences": [
+      "long open swimming corridor (180 cm or more)",
+      "fine sand or smooth gravel substrate",
+      "large smooth river stones and driftwood roots",
+      "tightly fitting lid (active and powerful jumpers)",
+      "strong filtration and high oxygenation",
+      "moderate-to-strong laminar flow",
+      "shaded margins; avoid bright direct lighting",
+      "no soft live plants (will be eaten or uprooted)"
+    ],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "advanced",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Generally considered omnivorous with a strong herbivorous lean. Readily accepts quality flake and pellet foods, frozen and live items (bloodworm, brine shrimp, earthworm, small crustaceans), and a regular share of vegetable matter (blanched courgette, spinach, peas, spirulina-based foods, fruit). Adults will eat any tankmate small enough to fit in the mouth. Note: live aquarium plants are readily destroyed even when the fish is well-fed — Tinfoil Barbs are not compatible with planted aquascapes."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "semi-aggressive",
+    "grouping": "schooling",
+    "minGroupSize": 5,
+    "goodWith": [
+      "large peaceful or robust cichlids (e.g., Severum, Geophagus, larger acaras)",
+      "medium-to-large catfish (Synodontis, larger Corydoras, plecos)",
+      "other large cyprinids of similar size",
+      "large rainbowfish",
+      "robust characins of similar size",
+      "freshwater stingrays in very large systems",
+      "large loaches"
+    ],
+    "avoidWith": [
+      "small or slow-moving fish (predation and outcompetition)",
+      "long-finned species (fin-nipping risk)",
+      "live aquarium plants (will be uprooted and eaten)",
+      "delicate dwarf cichlids or shrimp",
+      "anything small enough to be swallowed"
+    ]
   },
   "media": {
     "primaryImage": "tinfoil_barb.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Tinfoil Barb.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "A large, silvery, shoaling Southeast Asian cyprinid that grows to around 30–35 cm and needs a very long tank (180 cm+) housing a group of at least five. Frequently sold as small juveniles that rapidly outgrow community aquaria; generally regarded as a specialist-only species. Active, powerful jumpers, and well-documented plant destroyers.",
+  "careNotes": "The Tinfoil Barb (Barbonymus schwanenfeldii) is a large, fast-growing cyprinid native to the Mekong and Chao Phraya basins, the Malay Peninsula, Sumatra, and Borneo. It is commonly sold at 5–8 cm and frequently ends up in tanks that cannot remotely accommodate its adult size — wild and captive adults reach roughly 30–35 cm. For this reason it is generally considered specialist-only: a typical home aquarium is unsuitable, and the species realistically needs an aquarium of around 700 L or more with a footprint of at least 180 × 60 cm, kept as a school of five or more individuals.\n\nKept singly or in too-small groups, Tinfoil Barbs become skittish, jumpy, and prone to harassing tankmates. As a schooling species they show calmer behaviour and better coloration in larger groups (six to eight+). They are powerful jumpers and a tightly fitting lid is essential.\n\nWater chemistry is forgiving: roughly 22–26 °C, pH 6.5–7.5, and soft-to-moderately-hard water (gH ~2–15) suit them. They originate from well-oxygenated, moderate-current rivers, so strong filtration, generous turnover, and good surface agitation are advisable. Decor should focus on an open mid-water swimming corridor over fine substrate, with smooth river rocks and driftwood at the margins.\n\nDiet should be varied and include a substantial vegetable component (spirulina-based foods, blanched courgette and spinach, peas, fruit) alongside flake/pellet staples and occasional frozen meaty foods. They are documented plant-eaters and will destroy soft-leaved live plants even when well-fed — planted aquascapes are not compatible. Hardy artificial plants, very tough species like mature Anubias or Java fern attached to hardscape, or unplanted biotope setups are the practical options.\n\nTemperament is best described as semi-aggressive: they are not predatory toward similarly-sized tankmates but will swallow small fish and may stress slow, long-finned species through sheer activity. Suitable companions are large cichlids, catfish, other large cyprinids, and robust characins of comparable size.\n\nCross-source notes: SeriouslyFish recommends a minimum 756 L tank (210 × 60 cm base); AquariumStoreDepot recommends 125 gal (~473 L) minimum and 150–200+ gal for a proper school; FishBase records natural temperatures up to 33.7 °C in East Kalimantan but a preferred range of 22–25 °C. A 700 L tank with a 180 cm minimum length was chosen as a practical schooling minimum that errs on the cautious side given the fish's adult size, activity level, and rate of growth.",
+  "breedingNotes": "Not realistically achievable in private aquaria. In commercial aquaculture (food fish and ornamental production), Tinfoil Barbs are spawned with hormone injection in large outdoor ponds; females are highly fecund egg scatterers, producing on the order of thousands of eggs per spawn. The combination of adult size, group requirements, and the need for hormonal induction places successful captive breeding beyond the reach of typical hobby setups.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "SeriouslyFish",
+      "url": "https://www.seriouslyfish.com/species/barbonymus-schwanenfeldii/",
+      "accessedDate": "2026-06-10",
+      "notes": "Promoted to primary because the assigned primary (Aquarium Co-Op) returned no species page for Barbonymus schwanenfeldii (site-wide search yielded zero results). SeriouslyFish provided taxonomy (Cyprinidae, Cypriniformes), adult size (30–35.5 cm), water parameters (20–28 °C, pH 6.0–8.0, hardness 36–268 ppm), minimum tank size (756 L / 200 gal with 210 × 60 cm base), minimum group of six, native range (Mekong/Chao Phraya basins, Malay Peninsula, Sumatra, Borneo), habitat description, omnivore-with-herbivorous-tendency diet, and notes that captive breeding requires hormone induction."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Barbonymus-schwanenfeldii.html",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked taxonomy (Cyprinidae, Cypriniformes), max SL 35 cm, freshwater benthopelagic habit, preferred temperature 22–25 °C with field records 20.4–33.7 °C from East Kalimantan, pH 6.5–7.0, dH up to 10, distribution (Mekong and Chao Phraya basins, Malay Peninsula, Sumatra, Borneo), omnivore feeding on aquatic plants/algae plus small fish, worms and crustaceans, IUCN status Least Concern (2019)."
+      },
+      {
+        "name": "AquariumStoreDepot — Tinfoil Barb",
+        "url": "https://aquariumstoredepot.com/blogs/news/tinfoil-barb",
+        "accessedDate": "2026-06-10",
+        "notes": "Trade-focused hobbyist care guide. Confirmed adult size 30–35 cm, lifespan 8–10 years, group of five+ (eight+ preferred), temperament semi-aggressive with predation on small fish, omnivorous diet, and that live plants are routinely destroyed even when fish are well-fed. Recommended minimum 125 gal (~473 L) with 150–200+ gal (568–756 L) for a school; informed the cautious-larger rounding to 700 L. Also confirmed strong jumping behaviour requiring a tight lid."
+      },
+      {
+        "name": "Aquarium Co-Op",
+        "url": "https://www.aquariumcoop.com/",
+        "accessedDate": "2026-06-10",
+        "notes": "Assigned primary source for fish-freshwater slice; site-wide search for 'tinfoil barb' returned zero results, so the role of primary was reassigned to SeriouslyFish per the playbook fallback rule. Practical Fishkeeping was also tried and returned HTTP 403."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "Commercial production uses hormone-induced spawning in large outdoor ponds; not realistically achievable in home aquaria.",
+    "conspecificAggression": "low",
+    "finNippy": true,
     "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
+    "escapeRisk": "high",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
     "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -91,7 +152,11 @@
   "other-invert": null,
   "plant": null,
   "macroalgae": null,
+  "hobbyistAdvisory": {
+    "level": "specialist-only",
+    "reason": "Adults reach 30–35 cm and need a long tank of around 700 L or more (minimum 180 cm in length) housing a school of at least five. Frequently sold as small juveniles and routinely outgrows community aquaria — appropriate only for keepers with the space and commitment for large schooling cyprinids."
+  },
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-10"
 }

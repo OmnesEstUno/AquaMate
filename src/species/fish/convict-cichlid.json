@@ -7,82 +7,125 @@
   "commonName": "Convict Cichlid",
   "scientificName": "Amatitlania nigrofasciata",
   "alsoKnownAs": [
-    "[pending-research] Convict Cichlid — common Central American cichlid; not yet researched."
+    "Zebra Cichlid",
+    "Black-striped Cichlid",
+    "Pink Convict",
+    "Heros nigrofasciatus",
+    "Cryptoheros nigrofasciatus",
+    "Cichlasoma nigrofasciatum",
+    "Archocentrus nigrofasciatus"
   ],
   "category": "Cichlid",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Cichlidae",
+    "order": "Cichliformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
+    "regions": ["Central America"],
+    "countries": ["Guatemala", "Honduras", "El Salvador", "Nicaragua", "Costa Rica", "Panama"],
+    "habitat": "Flowing waters from small creeks and streams to shallows of larger fast-flowing rivers, generally preferring rocky areas with cover; also reported from ponds and lakes. Rarely encountered in open water.",
+    "biotope": "River",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
-    "kH": null,
+    "temperatureC": { "min": 22, "max": 28 },
+    "pH": { "min": 6.5, "max": 8.0 },
+    "gH": { "min": 9, "max": 20 },
+    "kH": { "min": 5, "max": 15 },
     "salinity": null
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 8, "max": 15 },
+  "lifespanYears": { "min": 8, "max": 10 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 150,
+    "minLengthCm": 90,
+    "swimZone": "all",
+    "decorPreferences": [
+      "rocks and rockwork to form caves",
+      "clay pots or coconut shells as spawning sites",
+      "bogwood / driftwood roots",
+      "sand or fine-gravel substrate (they dig extensively)",
+      "minimal or hardy rooted plants only; loose plants will be uprooted"
+    ],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "beginner",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Unfussy omnivore that accepts most prepared foods. A varied diet of quality pellets/flakes supplemented with frozen or live foods (bloodworms, brine shrimp, daphnia) and occasional vegetable matter (blanched spinach, spirulina) tends to produce the best colour and breeding condition."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "aggressive",
+    "grouping": "pair",
+    "minGroupSize": 2,
+    "goodWith": [
+      "Larger robust Central American cichlids in very large tanks (e.g. Jack Dempsey, Firemouth) — only with caution",
+      "Large armoured catfish such as Pterygoplichthys or Pictus catfish",
+      "Silver Dollars (in tanks large enough to give them refuge)"
+    ],
+    "avoidWith": [
+      "Any small or peaceful community fish (tetras, rasboras, livebearers) — will be harassed or killed",
+      "Long-finned or slow-moving fish (angelfish, gouramis, fancy goldfish) — fin nipping and harassment",
+      "Shrimp and snails — generally eaten or crushed",
+      "Other conspecifics outside a bonded pair — severe intraspecific aggression",
+      "Bottom-dwellers like Corydoras or kuhli loaches that share the substrate with a breeding pair"
+    ]
   },
   "media": {
     "primaryImage": "convict_cichlid.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Convict Cichlid.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "Small, boldly striped Central American cichlid that is hardy, undemanding, and famously prolific in captivity — but highly territorial and turns extremely aggressive when breeding.",
+  "careNotes": "The Convict Cichlid is one of the most resilient and beginner-friendly cichlids, tolerating a wide range of water parameters (generally cited around 22–28 degrees C, pH 6.5–8.0, moderately hard water). Despite its modest adult size (commonly 8–13 cm, with some males reaching up to 15 cm), it is widely regarded as one of the most aggressive freshwater fish for its size. Outside of breeding, a bonded pair tends to be territorial around their chosen cave; once spawning begins, they will attack and frequently kill any tankmate that approaches their fry, regardless of size. For this reason the convict is best kept as a single pair in a species tank, or only with similarly robust Central American cichlids in tanks substantially larger than the schema minimum (a 90 cm / 150 L tank is a workable floor for a pair, but 200 L or more is strongly advised if any tankmates are kept). They are avid diggers and will uproot plants, rearrange the substrate, and excavate pits around spawning caves — sand or fine gravel and rock-attached plants (Anubias, Java fern, Bolbitis on driftwood) are the practical choices. Several colour morphs are commonly traded, including the leucistic 'Pink Convict' (also sold as the Pink or White Convict) and various marbled forms; all are the same species. Sexes are easy to distinguish: females develop orange to pink belly scales and are smaller, while males grow larger, develop longer pointed fins, and often a small nuchal hump with age. Cross-source verification across SeriouslyFish, FishBase, and Aquarium Source agreed on family/order, native range, and broad parameter envelopes; tank-size recommendations spanned 30–52 US gallons (113–197 L), so a cautious 150 L (~40 gal) floor was selected per the playbook's bias-toward-larger rule for territorial species.",
+  "breedingNotes": "Among the easiest freshwater fish to breed and a classic 'first cichlid spawning' species. A compatible pair will form readily; provide a cave (clay pot, coconut shell, or rock crevice) which they will adopt and defend. The female lays up to ~300 eggs on the cave wall or a flat stone; both parents guard aggressively, with the female tending eggs and the male patrolling the territory. Eggs hatch in roughly 3–4 days and fry are free-swimming after a further 4–7 days. Parental care is excellent and parents may continue to herd fry for several weeks; pairs can spawn again every 2–3 weeks if fry are removed. Because they breed so readily and aggressively, prospective keepers should have a plan for offspring before pairing — local fish stores are frequently saturated and unwanted convict fry are a well-known surplus problem.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "SeriouslyFish",
+      "url": "https://www.seriouslyfish.com/species/amatitlania-nigrofasciata/",
+      "accessedDate": "2026-06-10",
+      "notes": "Used as effective primary because Aquarium Co-Op (the assigned slice primary) has no dedicated care-guide page for this species — only forum threads, which returned HTTP 403. Per the playbook's primary-fallback rule, the first secondary (SeriouslyFish) was promoted to primary role."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Amatitlania-nigrofasciata.html",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked taxonomy (Cichlidae / Cichliformes), native range, max size (10 cm SL), wild water parameters (pH 7.0–8.0, dH 9–20, T 20–36 C wild envelope), and biotope (flowing waters of Central America)."
+      },
+      {
+        "name": "Aquarium Source",
+        "url": "https://www.aquariumsource.com/convict-cichlid/",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked hobbyist-side data: adult size (10–12.7 cm), tank size (30 gal minimum), temperature (26–29 C), pH (6.5–8.0), hardness (10–15 dH), lifespan (8–10 yr), aggressive temperament, mid-tank swim zone, and digging behaviour."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
+    "breedingDifficulty": "easy",
+    "breedingNotes": "Cave-spawning substrate breeder; pairs spawn readily without intervention given a cave and slightly warmer water (~26–28 C). Up to ~300 eggs per clutch; eggs hatch in 3–4 days, fry free-swimming after a further 4–7 days; biparental care is excellent. Pairs can re-spawn every 2–3 weeks if fry are removed.",
+    "conspecificAggression": "high",
+    "finNippy": true,
     "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
-    "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": true,
+    "requiresHitchingPost": false,
+    "monogamousPairing": true,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -92,6 +135,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-10"
 }

@@ -5,84 +5,132 @@
   "taxon": "fish",
   "waterType": "freshwater",
   "commonName": "Freshwater Stingray",
-  "scientificName": "Potamotrygon spp.",
+  "scientificName": "Potamotrygon motoro",
   "alsoKnownAs": [
-    "[pending-research] Freshwater Stingray — large specialist/public-aquarium-only; not yet researched."
+    "Ocellate River Stingray",
+    "Motoro Stingray",
+    "Peacock-eye Stingray",
+    "South American Freshwater Stingray",
+    "P01"
   ],
   "category": "Oddball",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Potamotrygonidae",
+    "order": "Myliobatiformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
-    "depthRangeM": null
+    "regions": ["South America"],
+    "countries": ["Brazil", "Colombia", "Peru", "Bolivia", "Paraguay", "Uruguay", "Argentina"],
+    "habitat": "Sand banks and shallows of major rivers, slow-moving tributaries with mud or sand substrates, and flooded forest margins during the wet season.",
+    "biotope": "River",
+    "depthRangeM": { "min": 0, "max": 10 }
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
-    "kH": null,
+    "temperatureC": { "min": 24, "max": 27 },
+    "pH": { "min": 6.0, "max": 7.5 },
+    "gH": { "min": 1, "max": 12 },
+    "kH": { "min": 1, "max": 8 },
     "salinity": null
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 35, "max": 50 },
+  "lifespanYears": { "min": 10, "max": 20 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
-    "minSandDepthCm": null
+    "minVolumeLiters": 2000,
+    "minLengthCm": 240,
+    "swimZone": "bottom",
+    "decorPreferences": [
+      "Deep fine sand substrate (avoid sharp gravel that abrades the disc)",
+      "Large open footprint with minimal obstructions",
+      "Smooth rounded rockwork or driftwood placed against the glass, not loose mid-tank",
+      "Dim to moderate lighting",
+      "Tight-fitting lid (rays may breach the surface)"
+    ],
+    "minSandDepthCm": 5
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "expert",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Tends to take meaty foods such as frozen bloodworms, tubifex, mysis, krill, mussels, cockles, prawns, squid, whitebait, and earthworms. Generally advised to feed twice daily and to avoid mammalian meats and live feeder fish (disease/nutrition risk)."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": [
+      "Large peaceful upper-water dwellers (silver arowana, severums, geophagine cichlids)",
+      "Large characins",
+      "Large peaceful cyprinids",
+      "Pimelodid catfish of similar size"
+    ],
+    "avoidWith": [
+      "Small fish (will be eaten)",
+      "Discus and other delicate soft-water species",
+      "Territorial loricariids (except Hypostomus) that may rasp the disc",
+      "Other Potamotrygon species (hybridization risk)",
+      "Aggressive/fin-nipping tankmates"
+    ]
   },
   "media": {
-    "primaryImage": "freshwater_stingray.jpg",
+    "primaryImage": null,
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Freshwater Stingray.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "Large South American river stingray (Potamotrygon motoro and related species). A specialist animal — adults commonly reach 35-50 cm disc width, are equipped with a venomous tail spine, and need very large, well-filtered, soft warm-water systems.",
+  "careNotes": "GENUS-LEVEL ENTRY. This record covers Potamotrygon motoro (the Ocellate River Stingray) as the most commonly available hobby representative, but is intended as the canonical 'Freshwater Stingray' page. Other Potamotrygon species traded in the hobby have meaningfully different profiles: P. leopoldi (Black Diamond/Polka Dot, ~40-45 cm DW, blackwater specialist), P. henlei (Bigtooth River Stingray, ~50 cm DW, similar care to leopoldi), and P. jabuti (Pearl Stingray, ~40 cm DW, prized but less aggressive) all sit at the higher end of difficulty/price; keepers buying anything other than P. motoro should research the specific species.\n\nCross-source sizing summary: SeriouslyFish reports adults to ~60 cm DW (occasionally larger), FishBase lists max ~50 cm DW (with reports to 100 cm TL including tail), and most hobby sources cite wild-adult ~45-60 cm DW with captive adults frequently maturing at 30-40 cm DW. The 35-50 cm range used here brackets typical adult disc width in well-kept aquaria.\n\nTank-size rationale: SeriouslyFish recommends ~1700 L (240×90×75 cm) for an adult or pair; other sources commonly cite a 1000 L floor and 300+ US gallons (~1135 L) as long-term minima. Erred toward the larger 2000 L value because adult footprint, waste output, and swim-glide behaviour are the binding constraints — under-sized tanks are a leading cause of captive ray failures. A tank well above 240 cm long is preferred.\n\nWater quality: extremely sensitive to ammonia, nitrite, and nitrate spikes. Targets are 0 ppm NH3/NO2, <20 ppm NO3 (lower is better), with substantial weekly water changes (40-50% is typical). Filtration must be over-spec'd for the bioload.\n\nSafety: possesses a venomous caudal spine (protein-based venom, intense pain and tissue degeneration) that is periodically shed and replaced. Wear puncture-resistant arm-length gloves for any in-tank work, never net, and transport in solid containers. Keepers with children, immunocompromised household members, or fast-paced maintenance habits should not keep this species.\n\nLegal status (US, approximate as of 2026): Potamotrygon species are banned outright for private possession in at least Arizona, Arkansas, California, Georgia, Mississippi, Nevada, Oklahoma, Texas, and Utah; Hawaii bans all stingrays; Colorado and Florida require permits. Brazilian export of wild-caught specimens is also tightly controlled. Verify local laws before acquiring — hobbyists in restricted jurisdictions should not pursue this species.\n\nSources tried: primary Aquarium Co-Op did not have a dedicated stingray page (homepage navigation only); SeriouslyFish (Potamotrygon motoro), FishBase (P. motoro), and supplementary hobby sources used for cross-verification.",
+  "breedingNotes": "Has been bred in captivity by specialists. Reproduction is matrotrophic viviparity (live-bearing with maternal nutrient transfer); gestation generally reported around 9-12 weeks with litters of roughly 1-8 pups. Males have been reported as aggressive toward females during the breeding period; pair selection, very stable parameters, and substantial weekly water changes (~50%) are commonly recommended. Not a project for newcomers to the genus.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "SeriouslyFish",
+      "url": "https://www.seriouslyfish.com/species/potamotrygon-motoro/",
+      "accessedDate": "2026-06-10",
+      "notes": "Promoted to primary because the slice's nominal primary (Aquarium Co-Op) does not publish a freshwater-stingray care page. SeriouslyFish provided sizing, water parameters, diet, temperament, breeding mode, and venom advisory."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Potamotrygon-motoro.html",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked taxonomy (Potamotrygonidae / Myliobatiformes), max disc width 50 cm WD, and South American native range. FishBase lists pH 5.0-6.0 (wild), narrower than hobby targets."
+      },
+      {
+        "name": "Aquarium Co-Op",
+        "url": "https://www.aquariumcoop.com/",
+        "accessedDate": "2026-06-10",
+        "notes": "Slice primary source per source-urls.json, but no dedicated Potamotrygon care page was found on the catalog. Recorded for traceability; not used for husbandry values."
+      },
+      {
+        "name": "Aquarium hobby cross-check (multiple search-result sources)",
+        "url": "https://www.aquariumstockingcalculator.com/species/motoro-stingray",
+        "accessedDate": "2026-06-10",
+        "notes": "Used together with raylady.com and Aqua Imports to triangulate tank-size, captive-adult disc width (~30-40 cm typical), and water-quality sensitivity. Cited as a representative URL from the hobby cross-check."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
+    "breedingDifficulty": "advanced",
+    "breedingNotes": "Matrotrophic viviparity (live-bearing). Gestation ~9-12 weeks, litters of 1-8 pups. Requires specialist-grade water-quality management and careful pair selection.",
+    "conspecificAggression": "moderate",
+    "finNippy": false,
     "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
-    "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "escapeRisk": "moderate",
+    "venomousSpines": true,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": true,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -92,6 +140,10 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-10",
+  "hobbyistAdvisory": {
+    "level": "specialist-only",
+    "reason": "Adult disc width 35-50 cm requires a 2000+ L tank with very large footprint; possesses a venomous caudal spine that can inflict serious injury; possession is banned or permit-restricted in many US states and Brazilian export is tightly controlled. Suitable only for committed specialist keepers with the space, budget, water-quality discipline, and legal clearance to maintain the species for its 10-20+ year lifespan."
+  }
 }

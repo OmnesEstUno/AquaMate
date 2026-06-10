@@ -5,85 +5,136 @@
   "taxon": "fish",
   "waterType": "freshwater",
   "commonName": "Acei Cichlid",
-  "scientificName": "Pseudotropheus acei",
+  "scientificName": "Pseudotropheus sp. 'acei'",
   "alsoKnownAs": [
-    "Mchenga acei (proposed)",
-    "[pending-research] Acei Cichlid — Lake Malawi mbuna (Pseudotropheus / Mchenga acei); not yet researched."
+    "Yellow Tail Acei",
+    "White Tail Acei",
+    "Msobo Acei",
+    "Gephyrochromis acei",
+    "Mchenga acei (proposed)"
   ],
   "category": "Cichlid",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Cichlidae",
+    "order": "Cichliformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
-    "depthRangeM": null
+    "regions": ["East Africa", "Lake Malawi"],
+    "countries": ["Malawi", "Tanzania", "Zambia"],
+    "habitat": "Endemic to Lake Malawi along the western shoreline (Nkhata Bay, Senga Bay, Ngara, Ruarwe, Bandawe, Karonga, South Rukuru River). Frequents the interface between rocky shorelines and sandy substrate, and is unusual among mbuna for grazing epixylic algae from submerged logs and waterlogged driftwood.",
+    "biotope": "Lake Malawi rocky-sandy transition zone with scattered submerged wood",
+    "depthRangeM": { "min": 3, "max": 20 }
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
-    "kH": null,
-    "salinity": null
+    "temperatureC": { "min": 23, "max": 28 },
+    "pH":           { "min": 7.6, "max": 8.6 },
+    "gH":           { "min": 10, "max": 25 },
+    "kH":           { "min": 10, "max": 20 },
+    "salinity":     null
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm":   { "min": 10, "max": 15 },
+  "lifespanYears": { "min": 8,  "max": 10 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 300,
+    "minLengthCm": 120,
+    "swimZone": "all",
+    "decorPreferences": [
+      "Stacked rockwork with caves and territories",
+      "Submerged driftwood/bogwood for epixylic algae grazing",
+      "Sandy substrate",
+      "Open mid- and upper-water swimming space"
+    ],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "herbivore",
+    "notes": "Predominantly grazes algae growing on submerged wood and rocks in the wild. In captivity is generally advised to feed a spirulina-based flake or pellet, blanched green vegetables (spinach, courgette), and nori, with only occasional protein supplementation. Excess animal protein has been associated with Malawi bloat in mbuna."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "semi-aggressive",
+    "grouping": "shoaling",
+    "minGroupSize": 6,
+    "goodWith": [
+      "Yellow Lab (Labidochromis caeruleus)",
+      "Rusty Cichlid (Iodotropheus sprengerae)",
+      "Saulosi (Pseudotropheus saulosi)",
+      "Peacock cichlids (Aulonocara spp.)",
+      "Copadichromis spp.",
+      "Synodontis catfish"
+    ],
+    "avoidWith": [
+      "Highly aggressive mbuna (Melanochromis auratus, Maylandia lombardoi 'Kenyi')",
+      "Soft-water community fish (tetras, rasboras, gouramis)",
+      "Other Acei colour variants (yellow-tail with white-tail) — hybridisation risk"
+    ]
   },
   "media": {
-    "primaryImage": "convict_cichlid.jpg",
+    "primaryImage": null,
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Convict Cichlid.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "Peaceful-for-a-mbuna Lake Malawi cichlid that uniquely grazes algae from submerged driftwood. Generally considered one of the more beginner-friendly African cichlids when kept in a large group.",
+  "careNotes": "Pseudotropheus sp. 'acei' is a scientifically undescribed mbuna; the genus placement is provisional and the name Mchenga acei has been proposed. Several geographic colour forms exist (most commonly yellow-tail 'Ngara' and white-tail 'Msuli/Itungi'); these should not be mixed in one tank because they readily hybridise. Generally regarded as one of the most peaceful mbuna, but still has the typical mbuna territorial streak — adult males will spar, so keeping a group of 6+ (ideally 1 male to 3–4 females) helps spread aggression. Tends to use the middle and upper water column more than most mbuna, so vertical swimming room is appreciated. Tank-size sources disagreed: retail/hobby sites suggested 208 L (55 US gal) while specialist sources suggested 284 L (75 US gal); we have rounded up to a nice-value 300 L (~80 US gal) given the species' active swimming, grouping needs, and adult size to ~15 cm. Susceptible to Malawi bloat if overfed animal protein; a spirulina/vegetable-led diet is generally advised. Primary source navigation note: Aquarium Co-Op does not maintain a dedicated Acei care page, so SeriouslyFish was used as the effective primary and cross-checked against Fish Laboratory and Aquarium Store Depot.",
+  "breedingNotes": "Maternal ovophile mouthbrooder. Females typically carry 20–50 eggs/fry for roughly 3–4 weeks before releasing free-swimming juveniles. Breeding has been reported as fairly straightforward in well-conditioned groups with a male-skewed sex ratio (one male to several females). A separate fry-grow-out tank is generally advised because adults and tankmates will predate on released fry.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "SeriouslyFish",
+      "url": "https://www.seriouslyfish.com/species/pseudotropheus-sp-acei/",
+      "accessedDate": "2026-06-10"
+    },
+    "additional": [
+      {
+        "name": "Fish Laboratory",
+        "url": "https://www.fishlaboratory.com/fish/acei-cichlid/",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked sizing (15 cm max), water parameters, lifespan (8-10 yr), and mouthbrooding behaviour."
+      },
+      {
+        "name": "Aquarium Store Depot",
+        "url": "https://aquariumstoredepot.com/blogs/news/acei-cichlid",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked tank size (75 US gal / 284 L), pH (7.8-8.6), gH (10-20 dGH), kH (10-15 dKH), recommended 1M:3-4F harem, and 4-foot minimum tank length."
+      },
+      {
+        "name": "Aquarium Nexus",
+        "url": "https://www.aquariumnexus.com/acei-cichlid/",
+        "accessedDate": "2026-06-10",
+        "notes": "Third opinion to break the 55-vs-75 US gal tank-size disagreement; confirms 8-10 yr lifespan and herbivore-leaning diet."
+      },
+      {
+        "name": "Aquarium Co-Op (slice primary - no dedicated page)",
+        "url": "https://www.aquariumcoop.com/",
+        "accessedDate": "2026-06-10",
+        "notes": "Designated slice primary did not return a dedicated Acei care page (search returned only generic supplies); SeriouslyFish was promoted to primary per playbook fallback rule."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
+    "breedingDifficulty": "easy",
+    "breedingNotes": "Maternal ovophile mouthbrooder; 3-4 week brood period; 20-50 fry per spawn.",
+    "conspecificAggression": "moderate",
+    "finNippy": false,
     "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
-    "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": true,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": true,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -93,6 +144,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-10"
 }

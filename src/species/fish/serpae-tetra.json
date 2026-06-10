@@ -7,82 +7,131 @@
   "commonName": "Serpae Tetra",
   "scientificName": "Hyphessobrycon eques",
   "alsoKnownAs": [
-    "[pending-research] Serpae Tetra — common community tetra; not yet researched."
+    "Jewel Tetra",
+    "Red Minor Tetra",
+    "Blood Tetra",
+    "Callistus Tetra",
+    "Red Serpae Tetra"
   ],
   "category": "Tetra",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Characidae",
+    "order": "Characiformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
+    "regions": ["South America", "Amazon Basin", "Paraguay Basin"],
+    "countries": ["Brazil", "Peru", "Bolivia", "Paraguay", "Argentina"],
+    "habitat": "Slow-moving and still tributaries, backwaters, ponds and small lakes with marginal vegetation, submerged roots and leaf litter; typically found near the surface among the stems of emergent plants.",
+    "biotope": "River",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
+    "temperatureC": { "min": 22, "max": 27 },
+    "pH": { "min": 5.0, "max": 7.5 },
+    "gH": { "min": 5, "max": 20 },
     "kH": null,
     "salinity": null
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 3.5, "max": 4.5 },
+  "lifespanYears": { "min": 5, "max": 7 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 100,
+    "minLengthCm": 80,
+    "swimZone": "mid",
+    "decorPreferences": [
+      "dense planting around the margins with open mid-water swimming space",
+      "soft sandy or fine substrate, ideally dark to enhance coloration",
+      "driftwood, branches and twisted roots",
+      "dried leaf litter for blackwater biotope effect",
+      "dim or subdued lighting"
+    ],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "beginner",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Generally accepts most prepared foods including quality flakes and micro-pellets. Coloration and condition tend to improve when the diet is supplemented with live or frozen bloodworm, daphnia, moina, mosquito larvae and brine shrimp. A varied diet is commonly advised."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "semi-aggressive",
+    "grouping": "shoaling",
+    "minGroupSize": 8,
+    "goodWith": [
+      "other robust, similarly-sized tetras (e.g. black widow, buenos aires, columbian tetras)",
+      "active barbs of comparable temperament",
+      "rasboras and danios",
+      "peaceful Corydoras and other small bottom-dwellers",
+      "South American dwarf cichlids in larger tanks"
+    ],
+    "avoidWith": [
+      "long-finned tankmates (bettas, fancy guppies, fancy male endlers)",
+      "angelfish and gouramis (vulnerable trailing fins)",
+      "slow-moving species that cannot avoid harassment",
+      "very small or shy nano fish",
+      "dwarf shrimp and very small fry (often predated)"
+    ]
   },
   "media": {
-    "primaryImage": "serpae_tetra.jpg",
+    "primaryImage": null,
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Serpae Tetra.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "A small, deep-bodied red characin from Amazon and Paraguay basin backwaters. Active and visually striking but has a notorious fin-nipping reputation; generally advised to keep in a large shoal (8+) with similarly robust tankmates.",
+  "careNotes": "Serpae tetras tend to look and behave best in soft, slightly acidic, well-planted setups that approximate their sluggish blackwater origins — dark substrate, driftwood and dried leaf litter typically deepen the red coloration. Although often sold as a community fish, this species has a well-documented reputation as a fin-nipper, and is widely considered unsuitable for tanks containing long-finned or slow-moving species such as bettas, angelfish, gouramis and fancy guppies. Nipping and intraspecific squabbling tend to be most pronounced when the shoal is too small or the tank too cramped; keeping a group of at least 8 (some sources advise 12 or more) in a tank with ample horizontal swimming room is generally reported to dilute aggression by spreading it across the group. Rival males have been observed to engage in continual low-level sparring for position and female attention, which is generally considered normal behavior rather than a problem. The species has also been reported to nibble on softer aquatic plants, in contrast to the superficially similar red and black phantom tetras. Trade names 'Red Minor Tetra', 'Jewel Tetra' and 'Blood Tetra' generally refer to the same species; FishBase currently treats the species under the genus Megalamphodus, while most aquarium sources still use Hyphessobrycon eques. Source notes: Aquarium Co-Op was supplied as the primary source but does not host a dedicated Serpae care guide (its Red and Black Phantom Tetra guide only mentions Serpae in passing); SeriouslyFish was therefore used as the de-facto primary, with FishBase and Fishkeeping World as cross-checks. Practical Fishkeeping returned HTTP 403 and could not be consulted.",
+  "breedingNotes": "Has been reported to breed in captivity with moderate difficulty. Like most small Hyphessobrycon, the species is an egg-scattering free spawner that exhibits no parental care; adults will consume their own eggs and fry and are typically removed after spawning. A separate breeding tank with soft, acidic water (pH around 5.5–6.5, low hardness), dim lighting and either fine-leaved plants or a spawning mop to receive the scattered eggs is the commonly described setup. Conditioning a pair or small group on live and frozen foods is generally advised. Eggs are reported to hatch within roughly 24–36 hours; fry are tiny and typically require infusoria or commercial liquid fry food before progressing to micro-worm and newly-hatched brine shrimp.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "Aquarium Co-Op",
+      "url": "https://www.aquariumcoop.com/blogs/aquarium/red-and-black-phantom-tetras",
+      "accessedDate": "2026-06-10",
+      "notes": "Designated slice primary. The dedicated Serpae care page returned HTTP 404; this Red/Black Phantom Tetra guide is the only Aquarium Co-Op page that mentions H. eques, and only in passing (notes that Serpae nibble plants and are commonly confused with phantom tetras). SeriouslyFish was therefore promoted to de-facto primary for husbandry parameters."
+    },
+    "additional": [
+      {
+        "name": "SeriouslyFish",
+        "url": "https://www.seriouslyfish.com/species/hyphessobrycon-eques/",
+        "accessedDate": "2026-06-10",
+        "notes": "Used as de-facto primary for water parameters (22–28°C, pH 5.0–7.5, gH 18–268 ppm), adult size (3–4 cm SL), 80x30 cm minimum base, and the recommendation of 12+ specimens to dilute fin-nipping aggression."
+      },
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Hyphessobrycon-eques.html",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked taxonomy and water parameters: family Acestrorhamphidae/Characidae, order Characiformes, max SL 4.0 cm, temperature 22–26°C, pH 5.0–7.8, IUCN Least Concern. FishBase currently lists the species under Megalamphodus eques; aquarium trade and SeriouslyFish retain Hyphessobrycon eques, which was kept here as the conventional hobby name."
+      },
+      {
+        "name": "Fishkeeping World",
+        "url": "https://www.fishkeepingworld.com/serpae-tetra/",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked temperature (22–26°C), pH (5.0–7.8), hardness (5–25 dGH), adult size (~4.4 cm), 20 gal (~76 L) minimum for ~6 fish, 5–7 year lifespan, and confirmed fin-nipping risk toward bettas/angelfish. Practical Fishkeeping was attempted as the playbook-listed third source but returned HTTP 403."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
+    "breedingDifficulty": "moderate",
+    "breedingNotes": "Egg-scattering free spawner with no parental care; controlled breeding requires a separate soft-acidic tank with fine-leaved cover or a spawning mop and removal of adults after spawning.",
+    "conspecificAggression": "moderate",
+    "finNippy": true,
     "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
-    "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -92,6 +141,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-10"
 }

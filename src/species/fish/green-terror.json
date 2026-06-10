@@ -7,82 +7,132 @@
   "commonName": "Green Terror",
   "scientificName": "Andinoacara rivulatus",
   "alsoKnownAs": [
-    "[pending-research] Green Terror — common South American cichlid; not yet researched."
+    "Gold Saum",
+    "Goldsaumbuntbarsch",
+    "Aequidens rivulatus",
+    "Chromis rivulata",
+    "Acara aequinoctialis",
+    "Aequidens azurifer"
   ],
   "category": "Cichlid",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Cichlidae",
+    "order": "Cichliformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
+    "regions": ["South America", "Pacific slope of western South America"],
+    "countries": ["Ecuador", "Peru"],
+    "habitat": "Coastal streams and rivers of the Pacific slope, generally over sandy substrate with rock and woody cover.",
+    "biotope": "South American coastal river / stream biotope with sandy substrate, driftwood, and scattered rockwork.",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
+    "temperatureC": { "min": 20, "max": 25 },
+    "pH": { "min": 6.5, "max": 8.0 },
+    "gH": { "min": 5, "max": 22 },
     "kH": null,
     "salinity": null
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 20, "max": 30 },
+  "lifespanYears": { "min": 7, "max": 10 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 300,
+    "minLengthCm": 150,
+    "swimZone": "all",
+    "decorPreferences": [
+      "soft sandy substrate",
+      "driftwood",
+      "flat rocks (used as spawning sites)",
+      "scattered hardscape providing line-of-sight breaks",
+      "floating plants for diffused light",
+      "avoid delicate rooted plants (they tend to dig)"
+    ],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Generally accepts a varied diet of sinking cichlid pellets, frozen and live foods (earthworms, prawns, mussel, krill), and occasional vegetable matter (blanched peas, spinach). Have been reported to do best on a moderate-protein diet; very fatty mammalian meats are commonly advised against."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "aggressive",
+    "grouping": "pair",
+    "minGroupSize": 1,
+    "goodWith": [
+      "other large, robust South/Central American cichlids in suitably sized tanks",
+      "large Loricariid catfish (e.g. plecos)",
+      "silver dollars",
+      "tinfoil barbs",
+      "large characins"
+    ],
+    "avoidWith": [
+      "small community fish",
+      "Corydoras and other small bottom dwellers",
+      "African rift-lake cichlids (very different water and behaviour)",
+      "slow or long-finned tankmates"
+    ]
   },
   "media": {
     "primaryImage": "green_terror.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Green Terror.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "Large, boldly coloured South American cichlid from Pacific-slope drainages of Ecuador and Peru. Generally considered an intermediate-level fish that is highly territorial and best kept singly or as a bonded pair in a long tank.",
+  "careNotes": "Andinoacara rivulatus is the species commonly traded as the 'Gold Saum' Green Terror, distinguished by an orange-to-gold edge on the dorsal and caudal fins. The very similar 'Silver Saum' Green Terror, historically lumped under this name, is now recognised as a separate species, Andinoacara stalsbergi, with a white fin margin and a more restricted Peruvian range. Most fish sold in the trade as 'Green Terror' are A. rivulatus (Gold Saum); buyers wanting the true Silver Saum should confirm species ID with the seller.\n\nSources disagree fairly widely on minimum tank size: SeriouslyFish recommends a ~150 cm / ~650 L tank when kept with compatible tankmates, while hobby sources like Fishkeeping World quote 35 US gal (~132 L) for a single fish and 75 US gal (~284 L) for a pair. A 300 L / 150 cm-long tank is used here as a conservative-but-realistic single-fish minimum; a bonded pair or community of large cichlids realistically wants 450–650 L or more. This spread is the reason dataStatus is 'needs_review' — a human reviewer should sanity-check this figure against current best practice.\n\nReported adult size also varies between sources (FishBase max 20 cm TL, hobby sources 20–25 cm in aquaria, SeriouslyFish 22–30 cm SL); 20–30 cm is used here as the spanning range. Conspecific aggression is consistently described as very high — untested males commonly kill females if introduced directly, so a common approach is to raise a group of 6+ juveniles and let a pair form naturally, then remove the others.\n\nPrimary source used was SeriouslyFish (Aquarium Co-Op, the configured slice primary, has no dedicated Green Terror care page — its search returned only merchandise and an unrelated terrarium-plant article). FishBase and Fishkeeping World were used as additional cross-checks. Practical Fishkeeping returned HTTP 403 during research and could not be consulted.",
+  "breedingNotes": "Has been reported to breed readily in captivity once a compatible pair has formed. Pairs typically clean a flat rock or smooth surface and deposit up to several hundred eggs (FishBase notes up to ~600). Both parents tend the eggs and fry, with the female fanning and the male defending the territory; eggs generally hatch in 3–4 days and fry are free-swimming around 6–8 days. Breeding pairs become extremely aggressive toward other tank inhabitants and may kill tankmates, so a dedicated breeding tank is commonly advised.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "SeriouslyFish",
+      "url": "https://www.seriouslyfish.com/species/andinoacara-rivulatus/",
+      "accessedDate": "2026-06-10",
+      "notes": "Swapped to primary because the configured slice primary (Aquarium Co-Op) has no Green Terror care page — its on-site search returned only merchandise/unrelated articles, and direct guesses at /blogs/aquarium/green-terror-cichlid and /products/green-terror both returned 404."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Andinoacara-rivulatus.html",
+        "accessedDate": "2026-06-10",
+        "notes": "Used for authoritative taxonomy (Cichlidae / Cichliformes), distribution, IUCN status (Least Concern, 2020), max length (20 cm TL), and breeding biology (up to ~600 eggs, biparental care)."
+      },
+      {
+        "name": "Fishkeeping World",
+        "url": "https://www.fishkeepingworld.com/green-terror-cichlid/",
+        "accessedDate": "2026-06-10",
+        "notes": "Hobby cross-check on adult size (~20 cm aquarium / ~30 cm wild), lifespan (7–10 years), care level (intermediate), and the Gold Saum vs Silver Saum (A. stalsbergi) trade distinction. Quoted minimum tank size of 35 US gal single / 75 US gal pair is markedly smaller than SeriouslyFish's ~650 L figure."
+      },
+      {
+        "name": "Practical Fishkeeping",
+        "url": "https://www.practicalfishkeeping.co.uk/fish-species/green-terror",
+        "accessedDate": "2026-06-10",
+        "notes": "Attempted as a fourth cross-check; site returned HTTP 403 Forbidden and could not be consulted."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
+    "breedingDifficulty": "moderate",
+    "breedingNotes": "Pairs spawn on flat surfaces; biparental care of eggs and fry. Compatible pair-formation is the main challenge — best obtained by raising 6+ juveniles and removing the non-pair once a pair establishes.",
+    "conspecificAggression": "high",
     "finNippy": null,
     "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
     "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
     "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -92,6 +142,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "needs_review",
+  "lastReviewed": "2026-06-10"
 }

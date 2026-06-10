@@ -7,82 +7,127 @@
   "commonName": "Firemouth Cichlid",
   "scientificName": "Thorichthys meeki",
   "alsoKnownAs": [
-    "[pending-research] Firemouth Cichlid — common Central American cichlid; not yet researched."
+    "Firemouth",
+    "Meeki Cichlid",
+    "Cichlasoma meeki"
   ],
   "category": "Cichlid",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Cichlidae",
+    "order": "Cichliformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
+    "regions": ["Central America", "Yucatán Peninsula"],
+    "countries": ["Mexico", "Belize", "Guatemala"],
+    "habitat": "Slow-moving lowland rivers, streams, cenotes, lagoons, and spring-fed pools with sand, mud, or limestone substrates and dense shoreline vegetation or woody debris.",
+    "biotope": "River",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
-    "kH": null,
+    "temperatureC": { "min": 23, "max": 29 },
+    "pH": { "min": 6.5, "max": 8.0 },
+    "gH": { "min": 5, "max": 15 },
+    "kH": { "min": 3, "max": 12 },
     "salinity": null
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 12, "max": 17 },
+  "lifespanYears": { "min": 8, "max": 12 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 200,
+    "minLengthCm": 120,
+    "swimZone": "mid",
+    "decorPreferences": [
+      "sandy substrate",
+      "smooth rocks and flat stones",
+      "driftwood",
+      "caves or clay pots for spawning",
+      "hardy or potted plants (Java fern, Anubias)"
+    ],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "beginner",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Generally accepts a varied diet of quality cichlid pellets, flakes, and frozen or live foods (bloodworms, brine shrimp, blackworms). In the wild they tend to feed on small crustaceans, invertebrates, molluscs, and organic detritus sifted from the substrate."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "semi-aggressive",
+    "grouping": "shoaling",
+    "minGroupSize": 2,
+    "goodWith": [
+      "similarly-sized Central American cichlids",
+      "robust tetras and barbs",
+      "livebearers (swordtails, platies)",
+      "peaceful catfish (Corydoras, larger plecos)"
+    ],
+    "avoidWith": [
+      "very small or timid fish",
+      "long-finned slow species",
+      "dwarf cichlids and shrimp",
+      "highly aggressive larger cichlids"
+    ]
   },
   "media": {
     "primaryImage": "firemouth_cichlid.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Firemouth Cichlid.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "A peaceful-by-cichlid-standards Central American substrate spawner whose males flash a bright red-orange throat during display; generally considered a good first cichlid in a 200 L community of similarly-sized robust fish.",
+  "careNotes": "Generally regarded as one of the more peaceful Central American cichlids and often recommended as a starter cichlid, though pairs become noticeably territorial during spawning and will defend a substantial area around the nest. SeriouslyFish suggests keeping in groups of 8 or more to dilute pair aggression, while most hobby sources keep a single pair in 110–210 L tanks — for a 12–17 cm cichlid with territorial breeding behaviour, 200 L (≈55 US gal) on a long footprint is a sensible cautious floor. Source spread on adult size (10–17 cm), temperature (20–32 °C), and pH (6.5–8.5) is wide but typical for the species; the values written are averaged toward the commonly observed captive range. Males develop extended fin filaments and the eponymous fiery red throat used in gular-pouch threat displays; juveniles are difficult to sex. Sand or fine-gravel substrate is preferred because the species sifts mouthfuls of substrate while foraging.",
+  "breedingNotes": "Monogamous biparental substrate spawner. Pairs clean a flat rock, slate, or pit and deposit 100–500 eggs, with both parents guarding eggs and free-swimming fry. Breeding is generally considered straightforward in captivity, but the pair will become aggressively territorial during the cycle and may need to be isolated from smaller or slower tankmates.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "SeriouslyFish",
+      "url": "https://www.seriouslyfish.com/species/thorichthys-meeki/",
+      "accessedDate": "2026-06-10",
+      "notes": "Swapped in as primary because the assigned primary (Aquarium Co-Op) has no species page or care guide for Thorichthys meeki — only a user forum breeding journal. SeriouslyFish provided sizing, water parameters, habitat, taxonomy, and behaviour."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Thorichthys-meeki",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked max size (17 cm TL), temperature 26–30 °C, pH 6.5–7.5, dH 0–10, distribution, family/order, and aquarium-trade tank recommendation (~100 cm)."
+      },
+      {
+        "name": "Fishkeeping World",
+        "url": "https://www.fishkeepingworld.com/firemouth-cichlid/",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked adult size (~15 cm), pH 6.5–8.0, hardness 8–15 dGH, 75–86 °F, lifespan 8–10 years, omnivore diet, semi-territorial temperament, and 30 gal minimum for a pair."
+      },
+      {
+        "name": "Aquarium Tidings",
+        "url": "https://aquariumtidings.com/firemouth-cichlid-care/",
+        "accessedDate": "2026-06-10",
+        "notes": "Third hobbyist cross-check: 15 cm adult size, 29 gal minimum / 55 gal recommended, 20–32 °C, pH 6.5–8.5, lifespan ~8 years (up to 15 reported), easy breeding."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
+    "breedingDifficulty": "easy",
+    "breedingNotes": "Open substrate spawner on cleaned flat rock or pit; 100–500 eggs per clutch with biparental care. Pairs form readily from a group of juveniles raised together.",
+    "conspecificAggression": "moderate",
+    "finNippy": false,
     "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
-    "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": true,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -92,6 +137,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-10"
 }
