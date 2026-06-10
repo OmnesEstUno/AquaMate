@@ -7,82 +7,125 @@
   "commonName": "Canary Blenny",
   "scientificName": "Meiacanthus oualanensis",
   "alsoKnownAs": [
-    "[pending-research] Canary Blenny — Yellow Fang"
+    "Yellow Fang Blenny",
+    "Canary Fangblenny",
+    "Yellow Poison-fang Blenny",
+    "Fiji Canary Blenny"
   ],
   "category": "Blenny",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Blenniidae",
+    "order": "Blenniiformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
-    "depthRangeM": null
+    "regions": ["Western Central Pacific"],
+    "countries": ["Fiji"],
+    "habitat": "Tropical coral reef slopes and lagoons, where individuals hover above live rock and forage for zooplankton.",
+    "biotope": "Reef",
+    "depthRangeM": { "min": 1, "max": 30 }
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
+    "temperatureC": { "min": 23, "max": 26 },
+    "pH": { "min": 8.1, "max": 8.4 },
     "gH": null,
-    "kH": null,
-    "salinity": null
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.020, "max": 1.025 }
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 7, "max": 11 },
+  "lifespanYears": { "min": 4, "max": 8 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 120,
+    "minLengthCm": 90,
+    "swimZone": "all",
+    "decorPreferences": [
+      "mature live rock with crevices and overhangs",
+      "open mid-water swimming space",
+      "sand substrate",
+      "tight-fitting lid"
+    ],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Tends to be a mid-water planktivore in the wild but adapts readily to captive feeding. Generally advised to offer a varied mix of mysis, vitamin-enriched brine shrimp, finely chopped seafood, and herbivore preparations. High metabolism — small feedings 2–3 times per day are commonly recommended."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": [
+      "most peaceful and semi-aggressive reef tankmates",
+      "corals and other sessile invertebrates",
+      "ornamental shrimp and other crustaceans"
+    ],
+    "avoidWith": [
+      "other Meiacanthus species in the same tank",
+      "conspecifics (unless a known mated pair)",
+      "very large or boisterous predators that may stress or harass it"
+    ]
   },
   "media": {
     "primaryImage": "canary_blenny.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Canary Blenny.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "A bright-yellow Fiji fang blenny that is generally considered reef-safe, peaceful with most tankmates, and widely available as a captive-bred species. Carries venomous lower-jaw fangs used in defense.",
+  "careNotes": "VENOMOUS FANGS: Meiacanthus oualanensis and its congeners possess two enlarged, grooved canines in the lower jaw connected to venom glands; the venom is delivered via a defensive bite rather than spines, and is reported to feel similar to a bee or wasp sting. Bites to humans are not lethal but are painful — hand-feeding and careless tank maintenance are strongly discouraged. The venom also deters most predators, and several non-venomous mimic species (e.g. Petroscirtes breviceps) imitate Meiacanthus coloration. \n\nCare-wise this is one of the more forgiving marine blennies: captive-bred specimens from ORA and other breeders are widely available and adapt readily to prepared foods. Best kept singly (or as a confirmed mated pair) per tank — they will not tolerate conspecifics or other Meiacanthus, but are otherwise peaceful toward unrelated tankmates and are generally considered reef-safe with corals, clams, and ornamental shrimp. \n\nProvide mature live rock with crevices for retreat plus open mid-water swimming space. They tend to hover and dart in the water column rather than sit on the substrate. Has been known to jump if startled or harassed, so a tight-fitting lid is recommended (escape risk noted as moderate). \n\nCross-source notes: maximum size is reported as 5\" (~12.7 cm) by retail sources (LiveAquaria, AquariumDomain) and 10 cm SL by FishBase / Fishkeeper.co.uk — averaged to ~7–11 cm here. Fishkeeper.co.uk lists 'Western Indian Ocean' as the range, which contradicts FishBase and all other sources; the species is endemic to Fiji (Western Central Pacific). Tank size was rounded up from the commonly-cited 30-gallon (≈114 L) minimum to 120 L per project nice-number convention and the species' active mid-water swimming habit.",
+  "breedingNotes": "Has been bred in captivity at commercial scale (notably by ORA). Pairs form readily when a male and female are introduced together young, and males will defend small caves where females deposit demersal egg clutches; eggs hatch into pelagic larvae that require small live foods (rotifers, copepod nauplii). Generally considered a moderately difficult captive-bred species — easier than most marine fish but still requires larval-rearing infrastructure.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/product/70/?pcatid=70",
+      "accessedDate": "2026-06-10",
+      "notes": "Canonical LiveAquaria product page for Canary Blenny. Provided care level, tank minimum, water parameters, diet, temperament, venomous-fang warning."
+    },
+    "additional": [
+      {
+        "name": "AquariumDomain",
+        "url": "https://www.aquariumdomain.com/SpeciesProfiles/MarineFish/CanaryBlenny.shtml",
+        "accessedDate": "2026-06-10",
+        "notes": "Confirmed tank minimum (30 gal), reef-safe status, semi-aggressive temperament, jump/escape risk, and venomous fangs. Also confirmed water temp upper bound of 80°F."
+      },
+      {
+        "name": "Fishkeeper.co.uk",
+        "url": "https://www.fishkeeper.co.uk/fish/marine/blennies-gobies/canary-blenny",
+        "accessedDate": "2026-06-10",
+        "notes": "Provided 10 cm adult size figure and 23–27°C temperature range. Note: source incorrectly lists 'Western Indian Ocean' as the range; the species is actually Fiji-endemic (Western Central Pacific) per FishBase."
+      },
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Meiacanthus-oualanensis.html",
+        "accessedDate": "2026-06-10",
+        "notes": "Taxonomic authority. Family Blenniidae, Order Blenniiformes, max length 10 cm SL, distribution Western Central Pacific (Fiji), IUCN Least Concern. Cross-checked secondary as Reef2Reef wiki returned 403; substituted FishBase per playbook fallback rule."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
-    "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
-    "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "breedingDifficulty": "moderate",
+    "breedingNotes": "Captive-bred at commercial scale (ORA and other producers). Pair-spawning species with demersal eggs in caves, pelagic larvae requiring rotifers and copepod nauplii.",
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "yes",
+    "escapeRisk": "moderate",
+    "venomousSpines": true,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -92,6 +135,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-10"
 }

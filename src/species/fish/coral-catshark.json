@@ -7,82 +7,147 @@
   "commonName": "Coral Catshark",
   "scientificName": "Atelomycterus marmoratus",
   "alsoKnownAs": [
-    "[pending-research] Coral Catshark"
+    "Marbled Catshark",
+    "Coral Cat Shark"
   ],
   "category": "Shark",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Atelomycteridae",
+    "order": "Carcharhiniformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
-    "depthRangeM": null
+    "regions": [
+      "Indo-West Pacific"
+    ],
+    "countries": [
+      "Pakistan",
+      "India",
+      "Thailand",
+      "Malaysia",
+      "Singapore",
+      "Indonesia",
+      "Vietnam",
+      "Philippines",
+      "China",
+      "Japan",
+      "Papua New Guinea"
+    ],
+    "habitat": "Shallow inshore coral reefs and tide pools; rests in crevices, caves, and ledges by day and emerges to hunt over sand and rubble at night.",
+    "biotope": "Reef",
+    "depthRangeM": { "min": 0, "max": 15 }
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
+    "temperatureC": { "min": 23, "max": 27 },
+    "pH": { "min": 8.1, "max": 8.4 },
     "gH": null,
-    "kH": null,
-    "salinity": null
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.021, "max": 1.025 }
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 60, "max": 70 },
+  "lifespanYears": { "min": 15, "max": 25 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
-    "minSandDepthCm": null
+    "minVolumeLiters": 1500,
+    "minLengthCm": 240,
+    "swimZone": "bottom",
+    "decorPreferences": [
+      "open sand floor",
+      "large caves and ledges",
+      "smooth rockwork without sharp edges",
+      "wide footprint over height",
+      "secure tight-fitting lid"
+    ],
+    "minSandDepthCm": 5
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "expert",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Generally fed a varied diet of meaty seafoods — silversides, squid, shrimp, clam, mussel, and pieces of fish flesh — offered 2–3 times per week. Tends to hunt at night; target-feeding with tongs is commonly used to ensure each shark gets its share and to discourage finger-association."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": [
+      "larger peaceful predatory fish",
+      "robust groupers",
+      "large wrasses"
+    ],
+    "avoidWith": [
+      "small fish (eaten)",
+      "ornamental shrimp and crabs (eaten)",
+      "fin-nippers",
+      "large triggers",
+      "large pufferfish",
+      "large angels that harass bottom dwellers"
+    ]
   },
   "media": {
     "primaryImage": "coral_catshark.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Coral Catshark.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "A small (~70 cm) Indo-Pacific reef shark that needs a very large, long-footprint, fish-only system with open sand and caves. Nocturnal, predatory on small fish and inverts, and copper-intolerant.",
+  "careNotes": "Coral Catsharks are among the smaller home-aquarium shark options at roughly 60–70 cm adult length, but their husbandry footprint is anything but small: most sources recommend tank lengths of at least 240 cm and volumes upward of 1500 L to accommodate adult swimming and turning radius. They are obligate bottom-dwellers and need a wide, open sand floor with large smooth caves and ledges — depth is largely wasted on this species. A tight, fully secured lid is generally advised because individuals have been reported to push out of gaps and jump when startled. As elasmobranchs they are copper-sensitive and should never be treated with copper-based medications; quarantine and disease management rely on hyposalinity (with caution) and praziquantel/formalin protocols instead. They tend to be nocturnal — most active at dusk and at night — so dim ambient lighting and target-feeding with tongs after lights-out is commonly recommended. They are not reef-safe: they will predate small fishes, ornamental shrimp, crabs, and snails. Source spread on minimum tank size was wide (BlueZoo 568 L / 150 gal; ReefArchive and AquariumDomain 681 L / 180 gal with 1136–1325 L recommended for adults; Reeflings 500 L) — final value of 1500 L was chosen on the larger side per the playbook's tank-size special rule, reflecting adult footprint requirements and lifespan. Temperament also varied across sources (BlueZoo \"aggressive,\" ReefArchive/AquariumDomain \"semi-aggressive,\" Reeflings \"generally peaceful but predates smaller tankmates\") — the middle value was used.",
+  "breedingNotes": "Oviparous; lays paired horny egg cases (\"mermaid's purses\") that hatch after several months. Has been bred in home and public aquaria, with successful F1 generations reported. Sexing is straightforward (males have claspers). Adults will sometimes consume their own eggs, so cases are typically moved to a separate grow-out system.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "BlueZoo Aquatics",
+      "url": "https://www.bluezooaquatics.com/productDetail.asp?did=1&pid=251&cid=36",
+      "accessedDate": "2026-06-10",
+      "notes": "Used as primary because LiveAquaria does not currently list Atelomycterus marmoratus (catalog has Black Banded and Marbled Bamboo Cat Sharks instead). BlueZoo Aquatics is the slice-level fallback retailer per the playbook's tool tips."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Atelomycterus-marmoratus.html",
+        "accessedDate": "2026-06-10",
+        "notes": "Confirmed taxonomy (Atelomycteridae, Carcharhiniformes), max length 70 cm TL, Indo-West Pacific distribution, wild temperature range 25.3–29.3°C, IUCN Near Threatened."
+      },
+      {
+        "name": "Reeflings Species Profile",
+        "url": "https://reeflings.com/species/atelomycterus-marmoratus",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked tank size (500 L / 130 gal — smaller than other sources), temperature 24–27°C, pH 8.0–8.4, SG 1.022–1.025, nocturnal behavior, 20+ year lifespan."
+      },
+      {
+        "name": "ReefArchive Care Guide",
+        "url": "https://www.reefarchive.com/fish/sharks-rays/coral-cat-shark",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked tank size (180 gal / 681 L minimum with wide footprint), temperature 72–78°F (22–25.5°C), pH 8.1–8.4, SG 1.022–1.025, dKH 8–12, 15–20 year lifespan, expert-only care, not reef-safe."
+      },
+      {
+        "name": "AquariumDomain Species Profile",
+        "url": "https://www.aquariumdomain.com/SpeciesProfiles/MarineFish/CoralCatshark.shtml",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked tank size (180 gal minimum, 300–350 gal for adults), max size ~26 in (~66 cm), semi-aggressive temperament, fish-only suitable, Indo-Pacific range."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
-    "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
-    "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "breedingDifficulty": "advanced",
+    "breedingNotes": "Oviparous egg-layer; F1 captive breeding reported in dedicated systems with separate egg grow-out.",
+    "conspecificAggression": "moderate",
+    "finNippy": false,
+    "reefSafe": "no",
+    "escapeRisk": "high",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": true,
+    "juvenileColorPhase": false,
+    "copperSensitive": true,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -92,6 +157,10 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-10",
+  "hobbyistAdvisory": {
+    "level": "specialist-only",
+    "reason": "Although adult length is modest (~70 cm), this shark requires a very large fish-only system with a long footprint (240+ cm, 1500+ L), an open sand floor with caves, and a 15–25 year lifetime commitment. Elasmobranchs are copper-intolerant, demanding alternative quarantine and disease protocols. Inappropriate for typical home aquarists."
+  }
 }

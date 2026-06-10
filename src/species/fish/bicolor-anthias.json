@@ -7,82 +7,149 @@
   "commonName": "Bicolor Anthias",
   "scientificName": "Pseudanthias bicolor",
   "alsoKnownAs": [
-    "[pending-research] Bicolor Anthias"
+    "Bicolor Fairy Basslet",
+    "Yellowback Anthias",
+    "Nemanthias bicolor"
   ],
   "category": "Anthias",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Serranidae",
+    "order": "Perciformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
-    "depthRangeM": null
+    "regions": [
+      "Indo-Pacific"
+    ],
+    "countries": [
+      "Mauritius",
+      "Maldives",
+      "Indonesia",
+      "Philippines",
+      "Japan (Ryukyu Islands)",
+      "Hawaii (USA)",
+      "Marshall Islands",
+      "New Caledonia"
+    ],
+    "habitat": "Tropical coral reefs, typically along outer reef slopes and drop-offs with strong currents and ample plankton.",
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 5,
+      "max": 68
+    }
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
+    "temperatureC": {
+      "min": 22,
+      "max": 26
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": null,
-    "salinity": null
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.020,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": {
+    "min": 10,
+    "max": 13
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 7
+  },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 500,
+    "minLengthCm": 150,
+    "swimZone": "mid",
+    "decorPreferences": [
+      "ample open swimming space in the upper-mid water column",
+      "live rock with caves and overhangs for retreat",
+      "moderate to strong directional flow"
+    ],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "planktivore",
+    "notes": "In the wild this species picks zooplankton from the water column. In captivity it tends to do best on small frozen meaty foods (mysis, enriched brine shrimp, copepods, finely chopped seafood) plus quality pellets, offered in small quantities several times a day. A refugium seeding live copepods and amphipods is commonly considered very helpful."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "semi-aggressive",
+    "grouping": "shoaling",
+    "minGroupSize": 1,
+    "goodWith": [
+      "peaceful and semi-aggressive reef fish (chromis, cardinalfish, fairy wrasses, small tangs)",
+      "reef invertebrates and corals",
+      "other anthias species in sufficiently large systems"
+    ],
+    "avoidWith": [
+      "boisterous or aggressive tankmates (large dottybacks, triggerfish, aggressive damsels)",
+      "additional males of the same species in the same tank",
+      "very large predators that may intimidate them off feeding"
+    ]
   },
   "media": {
     "primaryImage": "bicolor_anthias.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Bicolor Anthias.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "A small Indo-Pacific reef anthias with a violet body and yellow dorsal stripe; generally considered reef-safe but needs ample swimming space, multiple daily feedings, and a harem structure with only one male.",
+  "careNotes": "The Bicolor Anthias (Pseudanthias bicolor, sometimes reclassified as Nemanthias bicolor) is a planktivorous fairy basslet from outer reef slopes across the tropical Indo-Pacific, reported on FishBase at depths of roughly 5-68 m. In captivity it tends to do best in a mature tank with strong flow, plenty of open swimming room in the upper-mid water column, and live rockwork that offers caves it can dart into when startled. Like other anthias, it is a constant grazer with a high metabolism and is generally advised to be fed small portions three or more times a day; without that feeding schedule it can decline rapidly. It is a protogynous hermaphrodite: groups form harems of one dominant male and multiple females, and if the male is lost the largest female will commonly transition to take its place. Only one male should be kept per tank, but a single fish or a one-male/several-female harem are both viable in suitably large systems. The species is generally considered reef-safe with corals and ornamental invertebrates. Sources disagree somewhat on minimum tank: LiveAquaria suggests around 125 US gal (~473 L) while AquariumDomain notes 75 gal (~284 L) for a single specimen but 150 gal (~568 L) for a harem — this entry biases toward the larger end (500 L) to reflect the species' need for open swimming space and harem keeping. Anthias as a group also tend to be jumpers, so a well-sealed lid is generally advised.",
+  "breedingNotes": "Captive breeding of Pseudanthias bicolor is not well documented and is considered very difficult; pelagic eggs and small larvae make rearing impractical in typical home setups. The sex-change behaviour (largest female transitions to male if the dominant male is lost) is the main breeding-relevant trait reported in the hobby literature.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/product/1711/?pcatid=1711",
+      "accessedDate": "2026-06-10",
+      "notes": "Primary husbandry parameters: temp 72-78F, pH 8.1-8.4, dKH 8-12, SG 1.020-1.025, 5 inch max, 125 gal minimum, easy/semi-aggressive/reef compatible, carnivore."
+    },
+    "additional": [
+      {
+        "name": "AquariumDomain",
+        "url": "https://www.aquariumdomain.com/SpeciesProfiles/MarineFish/BicolorAnthias.shtml",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked sizing, water parameters, harem composition (1 male + 4-7 females), and feeding frequency (2-3+ times daily). Suggests 75 gal single / 150 gal harem; this entry averages toward the cautious 500 L. Designated secondary (Reef2Reef wiki) returned HTTP 403."
+      },
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.ca/summary/7874",
+        "accessedDate": "2026-06-10",
+        "notes": "Used for native range and depth (5-68 m, usually 5-50 m) and taxonomy (Serranidae). Note: recent taxonomy reclassifies the species as Nemanthias bicolor; Pseudanthias bicolor remains the widely used hobby name."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
+    "breedingDifficulty": "not in captivity",
     "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
-    "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
-    "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "yes",
+    "escapeRisk": "high",
+    "venomousSpines": false,
+    "sexChange": "protogynous",
+    "haremic": true,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": true,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -92,6 +159,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-10"
 }

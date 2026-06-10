@@ -7,82 +7,109 @@
   "commonName": "Arc Eye Hawkfish",
   "scientificName": "Paracirrhites arcatus",
   "alsoKnownAs": [
-    "[pending-research] Arc Eye Hawkfish"
+    "Arc-eye Hawkfish",
+    "Arceye Hawkfish"
   ],
   "category": "Hawkfish",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Cirrhitidae",
+    "order": "Centrarchiformes"
   },
   "nativeRange": {
-    "regions": [],
+    "regions": ["Indo-Pacific"],
     "countries": [],
-    "habitat": null,
-    "biotope": null,
-    "depthRangeM": null
+    "habitat": "Lagoon and seaward reefs; perches on heads of small branching corals such as Stylophora, Pocillopora and Acropora.",
+    "biotope": "Tropical coral reef",
+    "depthRangeM": { "min": 1, "max": 33 }
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
+    "temperatureC": { "min": 23, "max": 27 },
+    "pH": { "min": 8.1, "max": 8.4 },
     "gH": null,
-    "kH": null,
-    "salinity": null
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.020, "max": 1.025 }
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 14, "max": 20 },
+  "lifespanYears": { "min": 5, "max": 10 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 200,
+    "minLengthCm": 90,
+    "swimZone": "bottom",
+    "decorPreferences": ["live rock with perching ledges", "branching coral structure", "open swimming space above the rockwork"],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "beginner",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Generally accepts a wide variety of meaty foods including frozen mysis, krill, chopped seafood and quality marine carnivore pellets. Live feeder shrimp may be offered occasionally."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["larger semi-aggressive reef fish", "tangs", "larger angelfish", "wrasses of similar or larger size"],
+    "avoidWith": ["ornamental shrimp (Lysmata, Stenopus, sexy shrimp)", "small hermit crabs", "small ornamental crabs", "very small fish that can fit in its mouth", "other hawkfish in the same tank"]
   },
   "media": {
     "primaryImage": "arc_eye_hawkfish.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Arc Eye Hawkfish.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "Compact reef-perching predator from the Indo-Pacific with a distinctive orange-and-blue eye arc; hardy and easy to keep but will hunt small ornamental shrimp and crabs.",
+  "careNotes": "Generally considered an easy, hardy fish suited to fish-only and reef tanks that do not house small ornamental invertebrates. Spends most of its time perched on live rock or coral branches rather than swimming in open water, so aquascaping with multiple perching points is more important than tank depth. Generally advised to introduce it last to a community, as it tends to be territorial and has been known to harass new or smaller tankmates. Reef compatibility is the main caveat: hawkfish are obligate ambush predators on small crustaceans and will pick off ornamental shrimp, small hermit crabs and tiny crabs in most reef tanks; sessile corals are typically left alone. A tightly-fitting lid is sensible since perching fish occasionally launch themselves at prey. Source spread on minimum tank size ranges from roughly 30 US gal (~114 L, LiveAquaria, FreshMarine) up to ~50 US gal (~190 L, ireef.co.uk); the larger figure was favoured here given the species' adult size and territorial behaviour. Sources cross-checked: LiveAquaria (primary), FishBase (sizing, depth, range, taxonomy), and reefs.com / ireef.co.uk (tank-size and reef-care prose).",
+  "breedingNotes": "Rarely bred in home aquaria. In the wild, pairs perform a brief spawning ascent of about 0.4-1.0 m into the water column to release pelagic eggs; no widely reported captive-rearing protocol.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/arc-eye-hawkfish",
+      "accessedDate": "2026-06-10"
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Paracirrhites-arcatus.html",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked adult size (20 cm max), depth range (1-33 m typical, 0-91 m extreme), Indo-Pacific distribution, family Cirrhitidae / order Centrarchiformes, and natural temperature range (~24.5-28.8 C). Reef2Reef wiki (designated secondary) returned 403 - swapped in FishBase."
+      },
+      {
+        "name": "reefs.com",
+        "url": "https://reefs.com/fish/arc-eye-hawkfish/",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked semi-aggressive temperament, reef-with-caution status, and ornamental shrimp/crab predation."
+      },
+      {
+        "name": "ireef.co.uk",
+        "url": "https://ireef.co.uk/how-to-care-for-an-arc-eye-hawkfish/",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked tank-size guidance; this source recommends ~180 L (~50 gal) minimum vs LiveAquaria's 30 gal floor, motivating the 200 L final figure."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
-    "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
-    "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "No established captive breeding protocol; pelagic spawner with brief paired spawning ascent in the wild.",
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "with caution",
+    "escapeRisk": "moderate",
+    "venomousSpines": false,
+    "sexChange": "protogynous",
+    "haremic": true,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -92,6 +119,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-10"
 }

@@ -7,82 +7,113 @@
   "commonName": "Blue Spotted Puffer",
   "scientificName": "Canthigaster solandri",
   "alsoKnownAs": [
-    "[pending-research] Blue Spotted Puffer / Sharp-Nose Puffer"
+    "Spotted Sharpnose Puffer",
+    "Sharp-nose Puffer",
+    "Sharpbacked Puffer",
+    "Solander's Toby",
+    "Blue Dot Toby",
+    "Netted Pufferfish"
   ],
   "category": "Pufferfish",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Tetraodontidae",
+    "order": "Tetraodontiformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
-    "depthRangeM": null
+    "regions": ["Indo-Pacific"],
+    "countries": ["East Africa", "Indonesia", "Philippines", "Papua New Guinea", "Australia", "New Caledonia", "Tonga", "Hawaii (USA)", "Japan (Ryukyu Islands)", "Fiji"],
+    "habitat": "Sheltered rocky reefs, intertidal reef flats, lagoon and seaward reefs; tends to occur around coral or over barren areas",
+    "biotope": "Tropical Indo-Pacific coral reef",
+    "depthRangeM": { "min": 10, "max": 36 }
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
+    "temperatureC": { "min": 22, "max": 26 },
+    "pH": { "min": 8.1, "max": 8.4 },
     "gH": null,
-    "kH": null,
-    "salinity": null
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.020, "max": 1.025 }
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 10, "max": 12 },
+  "lifespanYears": { "min": 5, "max": 10 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 250,
+    "minLengthCm": 120,
+    "swimZone": "all",
+    "decorPreferences": ["live rock with crevices", "open swimming space", "rocky overhangs for shelter"],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Has been documented eating algae, hard-shelled invertebrates, small crustaceans, molluscs, polychaetes, tunicates, and even soft and stony corals in the wild. In captivity, generally advised to feed a varied meaty diet (squid, clams, krill, mysis, hard-shelled shrimp) interspersed with algae to wear down continuously growing beak-like teeth."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": ["robust similar-sized peaceful tankmates", "tangs", "wrasses", "larger gobies"],
+    "avoidWith": ["other puffers", "conspecifics", "small ornamental shrimp", "snails", "hermit crabs", "ornamental corals (LPS and soft especially)", "feather dusters"]
   },
   "media": {
     "primaryImage": "blue_spotted_puffer.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Blue Spotted Puffer.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "A small Indo-Pacific sharpnose puffer (~10-12 cm) with dark netted markings and pale blue spots. Generally hardy and personable but not reef-safe, and carries tetrodotoxin in skin and organs.",
+  "careNotes": "The Blue Spotted Puffer is one of the more manageable Canthigaster tobies, topping out around 10-12 cm and adaptable to mid-sized reef-grade systems (250 L+ generally advised given its constant cruising and territorial streak). It is best kept singly — conspecifics tend to fight, and mixing with other Canthigaster species is also commonly discouraged. Although marketed as 'reef-safe with caution,' field and aquarist accounts agree it has been known to nip soft corals, LPS polyps, feather dusters, ornamental shrimp, snails, and hermit crabs; treat it as not reef-safe for any prized invertebrate display. Like all tetraodontids, the species sequesters tetrodotoxin (TTX) in skin and organs; it can also release toxins into the water when severely stressed or dying, so handle gently — transfer in a container rather than a net to avoid air-puffing — and never house with anything you cannot afford to lose if a die-off event occurs. Diet should be varied and include hard-shelled foods (clams, krill, shrimp) to wear down its continuously growing fused beak. Source disagreement note: LiveAquaria recommends 50 gal (~190 L) minimum while reefapp.net recommends 400 L; chose 250 L as a cautious-leaning middle that respects the species' active cruising behaviour.",
+  "breedingNotes": "Rarely bred in captivity. In the wild Canthigaster solandri is oviparous, facultatively monogamous, and adults are often found in pairs. No widely documented home-aquarium spawning protocol.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/product/3110/?pcatid=3110",
+      "accessedDate": "2026-06-10"
+    },
+    "additional": [
+      {
+        "name": "reefapp.net Encyclopedia",
+        "url": "https://reefapp.net/en/encyclopedia/canthigaster-solandri",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked sizing, water parameters, diet, and reef-safety. Recommended 400 L minimum vs LiveAquaria's ~190 L; averaged toward the cautious-larger side at 250 L per playbook tank-size rule. Reef2Reef wiki secondary returned 403; used reefapp + FishBase + Wikipedia as substitutes."
+      },
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Canthigaster-solandri",
+        "accessedDate": "2026-06-10",
+        "notes": "Sourced depth range (10-36 m), max length (~12 cm TL), distribution (Central Pacific incl. Hawaiian Islands), pair-forming/oviparous biology."
+      },
+      {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Canthigaster_solandri",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked taxonomy (family/order), distribution, and confirmation of poisonous skin (tetrodotoxin)."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
-    "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
-    "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "Pair-forming and oviparous in the wild; no established captive-breeding protocol.",
+    "conspecificAggression": "high",
+    "finNippy": true,
+    "reefSafe": "no",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": true,
+    "hlleSusceptible": false,
+    "toxicToTank": true,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -92,6 +123,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-10"
 }

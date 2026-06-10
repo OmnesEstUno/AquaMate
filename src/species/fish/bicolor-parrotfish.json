@@ -7,84 +7,126 @@
   "commonName": "Bicolor Parrotfish",
   "scientificName": "Cetoscarus bicolor",
   "alsoKnownAs": [
-    "Bumphead Parrotfish (juvenile trade names — distinct from Bolbometopon muricatum)",
+    "Bicolour Parrotfish",
     "Two-Colour Parrotfish",
-    "[pending-research] Most commonly seen Scaridae in the trade as juveniles; reaches 80–90 cm adult; large-system / public-aquarium territory; not yet researched."
+    "Bicolor Parrot"
   ],
   "category": "Parrotfish",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Scaridae",
+    "order": "Eupercaria (incertae sedis)"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
-    "depthRangeM": null
+    "regions": ["Red Sea", "Indo-Pacific"],
+    "countries": ["Egypt", "Saudi Arabia", "Sudan", "Eritrea"],
+    "habitat": "Coral reefs and reef-associated lagoons; juveniles in dense coral or algal thickets, adults in open reef areas.",
+    "biotope": "Tropical coral reef",
+    "depthRangeM": { "min": 1, "max": 40 }
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
+    "temperatureC": { "min": 24, "max": 28 },
+    "pH": { "min": 8.1, "max": 8.4 },
     "gH": null,
-    "kH": null,
-    "salinity": null
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.023, "max": 1.026 }
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 50, "max": 90 },
+  "lifespanYears": { "min": 10, "max": 20 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
-    "minSandDepthCm": null
+    "minVolumeLiters": 2000,
+    "minLengthCm": 300,
+    "swimZone": "all",
+    "decorPreferences": [
+      "Open swimming space",
+      "Live rock structures with grazing surfaces",
+      "Sand bed for resting",
+      "Avoid valuable stony corals — will be grazed and damaged"
+    ],
+    "minSandDepthCm": 5
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "expert",
+  "diet": {
+    "type": "herbivore",
+    "notes": "Obligate coral and algae grazer. Scrapes coralline algae, turf algae, and live coral polyps with its beak-like dental plates, contributing to natural bioerosion. In captivity will accept marine algae sheets (nori), spirulina-based pellets, and prepared herbivore foods, but constant grazing on coralline-encrusted live rock is essential to maintain weight and dental wear. Generally requires several small feedings throughout the day."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": [
+      "Large robust tangs",
+      "Large angelfish",
+      "Triggerfish (in very large systems)",
+      "Other large peaceful reef fish in public-aquarium-scale tanks"
+    ],
+    "avoidWith": [
+      "Stony corals (LPS and SPS — will be grazed)",
+      "Clams and other sessile invertebrates",
+      "Small timid fish (outcompeted at feeding)",
+      "Conspecifics in anything smaller than an exhibit-scale system"
+    ]
   },
   "media": {
     "primaryImage": null,
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder pending research.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "Large Indo-Pacific reef parrotfish that reaches 50–90 cm and grazes live coral and coralline algae; juveniles enter the trade but quickly outgrow home systems, making this a public-aquarium species in practice.",
+  "careNotes": "Taxonomic note: Cetoscarus bicolor (Rüppell, 1829) is now formally restricted to a Red Sea endemic population reaching around 50 cm SL on FishBase. The Indo-Pacific form historically sold in the trade as 'Bicolor Parrotfish' was separated in 2010 as Cetoscarus ocellatus (Valenciennes, 1840) and reaches the larger 80–90 cm sizes commonly cited in hobby literature. Most aquarium-trade specimens labelled 'Bicolor Parrotfish' are functionally C. ocellatus; the two are treated together here under the older C. bicolor name because the trade has not caught up to the split. Husbandry guidance applies to both. Juveniles are striking (white body with bright orange band and black-spotted head) and frequently imported, but they grow rapidly and the adult terminal-phase male is a 70–90 cm green-and-pink fish. Cross-source disagreement on adult size: FishBase (Red Sea C. bicolor sensu stricto) gives 50 cm SL; Wikipedia and parrotfish references give 80–90 cm TL for the broader Indo-Pacific form — the range 50–90 cm here spans both. Not reef-safe: like most large parrotfish, it actively scrapes coralline algae and bites live coral polyps as part of normal grazing behavior, so any live stony coral in the system will be damaged. Like other parrotfish, sleeps inside a self-secreted mucus cocoon at night, which is believed to mask its scent from nocturnal predators such as moray eels — provide a quiet cave or overhang for it to retreat into after lights-out. Protogynous sequential hermaphrodite: juveniles mature first as females (initial phase) and the dominant individual transitions to a terminal-phase male, accompanied by a dramatic color shift. Realistic adult housing exceeds any home reasonable home tank — recommended for public aquariums and zoological institutions with multi-thousand-litre exhibits. Susceptible to HLLE (head-and-lateral-line erosion) without a vitamin-rich marine-algae diet and high water quality, like most large herbivores. Generally hardy with respect to copper-based medications, but the more humane practice is quarantine with tank-transfer or hyposalinity rather than copper.",
+  "breedingNotes": "Not bred in captivity at any meaningful scale. Wild reproduction is oviparous with distinct pairing during spawning; terminal-phase males defend small harems of females. The combination of adult size, pelagic spawning, and complex larval development effectively rules out home or commercial breeding.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "FishBase",
+      "url": "https://www.fishbase.se/summary/Cetoscarus-bicolor.html",
+      "accessedDate": "2026-06-10",
+      "notes": "Used as primary because LiveAquaria does not list this species (it is not commercially appropriate). FishBase supplied scientific name, family, depth range, temperature range, native range (Red Sea sensu stricto), and IUCN status."
+    },
+    "additional": [
+      {
+        "name": "Wikipedia — Cetoscarus bicolor",
+        "url": "https://en.wikipedia.org/wiki/Cetoscarus_bicolor",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked maximum adult size (80 cm SL), Indo-Pacific distribution under the broader trade-sense usage, and confirmed protogynous sequential hermaphroditism with initial/terminal phase color change. Also documented the C. bicolor / C. ocellatus split."
+      },
+      {
+        "name": "Wikipedia — Cetoscarus ocellatus",
+        "url": "https://en.wikipedia.org/wiki/Cetoscarus_ocellatus",
+        "accessedDate": "2026-06-10",
+        "notes": "Confirms the 2010 taxonomic split: Indo-Pacific form (formerly lumped with C. bicolor) is now C. ocellatus, 30–80 cm, depth 1–40 m, partly corallivorous. Provides the size range used here for the trade-sense entry."
+      },
+      {
+        "name": "Wikipedia — Parrotfish",
+        "url": "https://en.wikipedia.org/wiki/Parrotfish",
+        "accessedDate": "2026-06-10",
+        "notes": "Family-level reference for the mucus-cocoon sleeping behavior, protogynous hermaphroditism with initial/terminal phases, coral and coralline grazing, and the consensus that large parrotfish are unsuitable for home marine aquaria."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
-    "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
-    "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "Pelagic spawning with harem structure; not viable in captivity.",
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "no",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "protogynous",
+    "haremic": true,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": true,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": true,
+    "toxicToTank": false,
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": true,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -94,6 +136,10 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-10",
+  "hobbyistAdvisory": {
+    "level": "public-aquarium-only",
+    "reason": "Reaches roughly 50–90 cm as a terminal-phase adult and grazes live coral and coralline algae as its primary food source. Realistic adult housing is a 2000 L+ exhibit-scale system with no stony corals — beyond the scope of any reasonable home marine aquarium. Frequently imported as small juveniles, but rapidly outgrows hobby tanks; appropriate only for public aquariums and zoological institutions."
+  }
 }

@@ -4,85 +4,160 @@
   "kind": "fauna",
   "taxon": "fish",
   "waterType": "saltwater",
-  "commonName": "Bartletts Anthias",
+  "commonName": "Bartlett's Anthias",
   "scientificName": "Pseudanthias bartlettorum",
   "alsoKnownAs": [
-    "[pending-research] Bartlett's Anthias"
+    "Bartlett's Fairy Basslet",
+    "Nemanthias bartlettorum"
   ],
   "category": "Anthias",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Anthiadidae",
+    "order": "Perciformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
-    "depthRangeM": null
+    "regions": [
+      "Central Pacific",
+      "Micronesia",
+      "Polynesia"
+    ],
+    "countries": [
+      "Palau",
+      "Federated States of Micronesia (Caroline Islands)",
+      "Marshall Islands",
+      "Nauru",
+      "Kiribati (Fanning Islands)",
+      "Tonga"
+    ],
+    "habitat": "Tends to form large aggregations along outer reef slopes and lagoon edges, generally hovering above live coral or rubble in clear oceanic water. Wild groups have been documented with a few males and several dozen females and juveniles.",
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 4,
+      "max": 30
+    }
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
+    "temperatureC": {
+      "min": 24,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": null,
-    "salinity": null
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": {
+    "min": 8,
+    "max": 10
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 250,
+    "minLengthCm": 120,
+    "swimZone": "mid",
+    "decorPreferences": [
+      "live rock",
+      "caves and overhangs",
+      "open swimming space",
+      "moderate to strong water flow"
+    ],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "planktivore",
+    "notes": "Carnivorous planktivore that has been documented feeding heavily on zooplankton in the wild. In captivity, generally accepts a varied diet of vitamin-enriched frozen mysis shrimp, frozen brine shrimp, finely chopped seafoods, frozen cyclops, and copepod-based foods; over time many specimens are reported to take small pellets and high-quality flake. Multiple small feedings per day (commonly 3–5) tend to be advised to support the high planktivore metabolism, and refugium-cultured copepods/amphipods are often suggested as a supplemental live-food source."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "peaceful",
+    "grouping": "shoaling",
+    "minGroupSize": 4,
+    "goodWith": [
+      "peaceful reef fish",
+      "clownfish",
+      "gobies",
+      "blennies",
+      "cardinalfish",
+      "small wrasses",
+      "small tangs",
+      "dwarf angelfish"
+    ],
+    "avoidWith": [
+      "large aggressive fish",
+      "lionfish",
+      "groupers",
+      "large triggerfishes",
+      "aggressive dottybacks",
+      "other anthias males"
+    ]
   },
   "media": {
     "primaryImage": "bartletts_anthias.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Bartletts Anthias.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "A hardy, reef-safe planktivorous anthias from the central Pacific, generally considered one of the easier anthias species. Best kept as a harem of one male with several females, with multiple small feedings per day.",
+  "careNotes": "Generally regarded as one of the more forgiving anthias species and a reasonable introduction to the group, though all anthias share a common risk of starvation from insufficient feeding frequency. Has been reported to thrive when offered 3–5 small feedings per day of nutrient-dense frozen foods (mysis, enriched brine, copepods, cyclops); a productive refugium seeding the display with live copepods is commonly suggested as a buffer between scheduled meals.\n\nBest kept as a harem with one male and roughly 3–5 females in a peaceful reef of at least ~250 L (about 70 US gallons), with a longer footprint preferred over a deep one to provide horizontal swimming space above the rockwork. Aquascape with generous live rock featuring caves, overhangs, and shaded crevices so subdominant individuals have visual breaks from the dominant male. Multiple males in the same tank tend to fight and are generally not advised outside of very large systems.\n\nLike most anthias, this species is a protogynous (female-first) sequential hermaphrodite: if the dominant male is lost, the largest female has been reported to transition into a functional male over several weeks. Aquarists who want a stable harem typically start with a small group of females and let one transition naturally.\n\nAnthias are known jumpers, particularly when startled or when establishing harem hierarchies — a tightly fitted lid or mesh top is generally advised. Strong, diffuse water flow and high water quality are commonly recommended, in line with the open-water reef-slope habitat.\n\nSource notes: LiveAquaria lists max size 3.5 in (~9 cm) and FishBase 9 cm TL; the 8–10 cm range used here reflects this small spread. Temperature is averaged across LiveAquaria (22–26°C), Top Shelf Aquatics (22–26°C, ideal 24–26°C), and FishBase wild data (~28–29°C) — landing on 24–27°C as a reasonable aquarium range. Recent taxonomic work (FishBase) places the species in Nemanthias rather than Pseudanthias, but the trade overwhelmingly continues to use Pseudanthias bartlettorum.",
+  "breedingNotes": "Anthias are protogynous sequential hermaphrodites that form harems in the wild; spawning has been described as group-based with males courting and releasing gametes in the water column at dusk. Captive breeding of Pseudanthias bartlettorum is uncommon and not widely documented in the home aquarium hobby; rearing pelagic larvae remains the main barrier.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/bartletts-anthias",
+      "accessedDate": "2026-06-10",
+      "notes": null
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Pseudanthias-bartlettorum.html",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked taxonomy (family Anthiadidae, order Perciformes; current valid name Nemanthias bartlettorum), native range (Palau, Caroline Islands, Marshall Islands, Kiribati, Tonga), depth range (4–30 m), and adult size (9.0 cm TL). Designated secondary Reef2Reef wiki returned 403 Forbidden via WebFetch — FishBase used as primary cross-source instead."
+      },
+      {
+        "name": "Top Shelf Aquatics",
+        "url": "https://topshelfaquatics.com/pages/saltwater-fish/bartletts-anthias",
+        "accessedDate": "2026-06-10",
+        "notes": "Third-source confirmation of pH (8.1–8.4), specific gravity (1.020–1.025), temperature (72–78°F), 70 gal minimum, harem recommendation (1 male + 3–6 females), reef-safe yes, jumping/lid requirement, and 2–4 small feedings per day."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
-    "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
-    "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "breedingDifficulty": "advanced",
+    "breedingNotes": "Group-spawning protogynous hermaphrodite; pelagic larvae make captive rearing impractical for typical home aquarists. Detailed home-aquarium breeding reports are scarce.",
+    "conspecificAggression": "moderate",
+    "finNippy": false,
+    "reefSafe": "yes",
+    "escapeRisk": "high",
+    "venomousSpines": false,
+    "sexChange": "protogynous",
+    "haremic": true,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": true,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -92,6 +167,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-10"
 }

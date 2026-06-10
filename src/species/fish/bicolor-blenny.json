@@ -7,82 +7,139 @@
   "commonName": "Bicolor Blenny",
   "scientificName": "Ecsenius bicolor",
   "alsoKnownAs": [
-    "[pending-research] Bicolor Blenny"
+    "Two-colored Blenny",
+    "Flame-tail Blenny"
   ],
   "category": "Blenny",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Blenniidae",
+    "order": "Blenniiformes"
   },
   "nativeRange": {
-    "regions": [],
+    "regions": [
+      "Indo-Pacific"
+    ],
     "countries": [],
-    "habitat": null,
-    "biotope": null,
-    "depthRangeM": null
+    "habitat": "Clear lagoon and seaward reefs with mixed corals and algae-covered rocks; often perches in abandoned worm or invertebrate tubes facing outward.",
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 1,
+      "max": 25
+    }
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
+    "temperatureC": {
+      "min": 22,
+      "max": 26
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": null,
-    "salinity": null
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": {
+    "min": 10,
+    "max": 11
+  },
+  "lifespanYears": {
+    "min": 2,
+    "max": 4
+  },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 120,
+    "minLengthCm": 90,
+    "swimZone": "bottom",
+    "decorPreferences": [
+      "abundant live rock with crevices for perching and hiding",
+      "mature rockscape with algae growth to graze",
+      "tightly fitted lid to prevent jumping"
+    ],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "beginner",
+  "diet": {
+    "type": "herbivore",
+    "notes": "Primarily grazes algae from live rock; should be supplemented with frozen and dried marine and blue-green algae preparations, spirulina, and nori sheets. Generally accepts mysis, brine shrimp, and prepared meaty foods opportunistically. Keep well-fed to discourage nipping at corals and clam mantles."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "peaceful",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": [
+      "most peaceful to semi-aggressive reef fish",
+      "shrimp and most invertebrates",
+      "tangs, wrasses, and similarly sized tankmates"
+    ],
+    "avoidWith": [
+      "other blennies of similar form",
+      "small gobies, dartfish, and firefish",
+      "fleshy LPS corals and tridacnid clams if the blenny is underfed"
+    ]
   },
   "media": {
-    "primaryImage": "bicolor_blenny.jpg",
+    "primaryImage": null,
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Bicolor Blenny.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "A widely kept Indo-Pacific combtooth blenny with a blue-to-brown front and orange rear half. Generally peaceful, hardy, and effective at grazing nuisance algae, with a tendency to perch and dart from rockwork holes.",
+  "careNotes": "Best suited to a mature reef tank with plentiful live rock, crevices for perching, and a steady supply of microalgae and filamentous algae to graze. Most sources recommend a minimum of around 30 US gal (~114 L); a 120 L tank is generally advised to give an adult room to establish territory and reduce stress. Has been reported to pick at the mantles of tridacnid clams and the polyps of fleshy LPS corals if underfed, so well-rounded vegetable feedings (nori, spirulina, marine-algae preparations) are important. Best kept singly unless introduced as a confirmed mated pair — has been known to harass other blennies, small gobies, dartfish, and firefish. Like most blennies and gobies, is a known jumper and a tightly fitted lid is essential. Wild specimens have been observed across 1–25 m on reefs and lagoons from the Maldives to the Phoenix Islands, north to the Ryukyus and south to the southern Great Barrier Reef.",
+  "breedingNotes": "Sexual dichromatism develops during spawning, with males cycling through color phases including blue. Demersal egg layers; eggs are typically deposited in a small cave or empty tube and guarded by the male. Captive breeding has been reported occasionally, but rearing the planktonic larvae is generally considered difficult and not routinely accomplished in home aquaria.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/product/66/?pcatid=66",
+      "accessedDate": "2026-06-10",
+      "notes": "Primary husbandry reference: max 4 in, min 30 gal, 72-78 F, pH 8.1-8.4, dKH 8-12, SG 1.020-1.025, easy care, herbivore, reef-compatible with caution (may pick at clam mantles and fleshy LPS when underfed; may harass other blennies, small gobies, and dartfish)."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Ecsenius-bicolor",
+        "accessedDate": "2026-06-10",
+        "notes": "Taxonomy and wild biology cross-check: Family Blenniidae, Order Blenniiformes, max 11.0 cm TL, depth 1-25 m, distribution Indo-Pacific (Maldives to Phoenix Islands, north to Ryukyus, south to southern Great Barrier Reef, throughout Micronesia), preferred wild temperature 25.4-29.3 C."
+      },
+      {
+        "name": "Fish Laboratory",
+        "url": "https://www.fishlaboratory.com/fish/bicolor-blenny/",
+        "accessedDate": "2026-06-10",
+        "notes": "Secondary cross-check after Reef2Reef wiki primary-designated secondary returned HTTP 403. Confirms 10 cm adult size, 30 gal minimum tank, 72-78 F / 22-26 C, pH 8.1-8.4, 2-4 year captive lifespan, conditionally reef-safe, known jumper requiring a tight-fitting lid."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
-    "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
-    "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "breedingDifficulty": "difficult",
+    "breedingNotes": "Demersal spawner; male guards eggs in a cave or tube. Rearing planktonic larvae through metamorphosis is rarely accomplished in home aquaria.",
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "with caution",
+    "escapeRisk": "high",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -92,6 +149,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-10"
 }

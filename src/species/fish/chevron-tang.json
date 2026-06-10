@@ -7,82 +7,124 @@
   "commonName": "Chevron Tang",
   "scientificName": "Ctenochaetus hawaiiensis",
   "alsoKnownAs": [
-    "[pending-research] Chevron Tang"
+    "Hawaiian Bristletooth",
+    "Hawaiian Kole Tang",
+    "Black Tang (juvenile trade)"
   ],
   "category": "Tang",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Acanthuridae",
+    "order": "Acanthuriformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
-    "depthRangeM": null
+    "regions": ["Indo-Pacific", "Central Pacific"],
+    "countries": ["United States (Hawaii)", "Micronesia", "French Polynesia", "Japan (Ryukyu Islands)", "Pitcairn Islands"],
+    "habitat": "Seaward rocky and coral reef slopes; juveniles tend to inhabit deeper coral-rich areas while adults are commonly seen on shallower exposed reef faces.",
+    "biotope": "Indo-Pacific coral reef",
+    "depthRangeM": { "min": 1, "max": 61 }
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
+    "temperatureC": { "min": 23, "max": 27 },
+    "pH": { "min": 8.1, "max": 8.4 },
     "gH": null,
-    "kH": null,
-    "salinity": null
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.020, "max": 1.026 }
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 25, "max": 28 },
+  "lifespanYears": { "min": 10, "max": 20 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 700,
+    "minLengthCm": 180,
+    "swimZone": "all",
+    "decorPreferences": [
+      "well-established live rock with mature film algae",
+      "open swimming lanes along the front of the tank",
+      "rockwork retreats and shaded overhangs"
+    ],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "advanced",
+  "diet": {
+    "type": "herbivore",
+    "notes": "Obligate algae grazer that mostly browses film/detrital algae from rockwork — bristletooth dentition is built for sweeping fine algal mats rather than scraping. Offer dried marine algae (nori) clipped daily, plus algae- and spirulina-enriched frozen and pellet foods. Long fasting periods are not well tolerated."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": [
+      "most reef fish outside the tang family",
+      "peaceful wrasses",
+      "clownfish and damsels of similar or larger size",
+      "shrimp, snails and other reef invertebrates"
+    ],
+    "avoidWith": [
+      "other Ctenochaetus bristletooths",
+      "conspecifics (without a very large system)",
+      "highly aggressive surgeonfishes that may bully a newly-introduced specimen"
+    ]
   },
   "media": {
     "primaryImage": "chevron_tang.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Chevron Tang.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "Hawaiian bristletooth tang famous for its dramatic juvenile phase — fiery orange with bold dark chevron markings that mature into a uniform dark olive adult with fine green pinstriping.",
+  "careNotes": "Among the gentler members of the Ctenochaetus genus toward unrelated tankmates, but still tang-territorial toward other surgeonfishes and intolerant of conspecifics outside very large systems. Generally advised to be the only bristletooth in the tank. Has been reported to do best in mature reef aquariums (8+ months old) with abundant film and turf algae for constant grazing; supplement with daily dried marine algae and algae-enriched frozen foods to maintain coloration and resistance to head-and-lateral-line erosion (HLLE), which tangs are prone to under poor nutrition or chronically poor water quality. Adults shed the bright juvenile chevron pattern and become uniformly dark with fine longitudinal green lines — buyers expecting the juvenile look should be aware this transformation is permanent. As with all Acanthuridae, the species carries a sharp caudal-peduncle scalpel that can lacerate handlers and tankmates, so net carefully and use a specimen container when moving. Reef-safe in most cases, though older adults have occasionally been observed nipping at SPS coral while grazing. Sources cross-checked: LiveAquaria recommends 180 US gal (~681 L) minimum, reefapp.net recommends 400 L, FishBase lists max length 25 cm; final figures here bias toward the larger / more cautious end for a long-lived adult.",
+  "breedingNotes": "Has not been bred in home aquaria. Like other Acanthuridae, Ctenochaetus hawaiiensis is a broadcast spawner releasing pelagic eggs that develop through an extended planktonic acronurus larval stage — captive rearing requirements are not well documented and are considered impractical for hobbyists.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/product/335/?pcatid=335",
+      "accessedDate": "2026-06-10",
+      "notes": "Primary trade source for husbandry: tank size 180 gal, semi-aggressive, reef safe, herbivore, 72-78°F, pH 8.1-8.4, SG 1.020-1.025, care level moderate, adult ~11 in."
+    },
+    "additional": [
+      {
+        "name": "reefapp.net encyclopedia",
+        "url": "https://reefapp.net/en/encyclopedia/ctenochaetus-hawaiiensis",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked sizing, range, diet, and reef-safety. Lists 400 L minimum (lower than LiveAquaria's 681 L); averaged with cautious upward bias to 700 L for adult size of ~28 cm."
+      },
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Ctenochaetus-hawaiiensis.html",
+        "accessedDate": "2026-06-10",
+        "notes": "Taxonomy (Acanthuridae / Acanthuriformes), range (Pacific Ocean Oceania), max length 25 cm TL, depth 0-61 m, wild temperature 24.9-29 C, film-algae feeder."
+      },
+      {
+        "name": "Wikipedia: Chevron tang",
+        "url": "https://en.wikipedia.org/wiki/Chevron_tang",
+        "accessedDate": "2026-06-10",
+        "notes": "Confirms 25 cm max, juvenile orange-red with dark chevrons vs adult dark with fine green stripes, range Ryukyus to Hawaii and French Polynesia, fifth most-exported aquarium fish from Hawaii."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
-    "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
-    "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "Broadcast spawner with extended acronurus larval stage; no documented home-aquarium breeding success.",
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "yes",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": true,
+    "nocturnal": false,
+    "juvenileColorPhase": true,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": true,
+    "toxicToTank": false,
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": true,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -92,6 +134,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-10"
 }

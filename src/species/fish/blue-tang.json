@@ -7,82 +7,142 @@
   "commonName": "Blue Tang",
   "scientificName": "Paracanthurus hepatus",
   "alsoKnownAs": [
-    "[pending-research] Blue Tang / Hippo Tang / Dory"
+    "Palette Surgeonfish",
+    "Hippo Tang",
+    "Regal Tang",
+    "Pacific Blue Tang",
+    "Blue Hippo Tang",
+    "Dory"
   ],
   "category": "Tang",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Acanthuridae",
+    "order": "Acanthuriformes"
   },
   "nativeRange": {
-    "regions": [],
+    "regions": ["Indo-Pacific"],
     "countries": [],
-    "habitat": null,
-    "biotope": null,
-    "depthRangeM": null
+    "habitat": "Clear, current-swept seaward reef terraces; juveniles are commonly found grouped around isolated Pocillopora coral heads.",
+    "biotope": "Reef",
+    "depthRangeM": { "min": 2, "max": 40 }
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
-    "kH": null,
-    "salinity": null
+    "temperatureC": { "min": 23, "max": 27 },
+    "pH":           { "min": 8.1, "max": 8.4 },
+    "gH":           null,
+    "kH":           { "min": 8, "max": 12 },
+    "salinity":     { "min": 1.020, "max": 1.026 }
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm":   { "min": 25, "max": 31 },
+  "lifespanYears": { "min": 8, "max": 20 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 700,
+    "minLengthCm": 180,
+    "swimZone": "all",
+    "decorPreferences": [
+      "Open swimming space",
+      "Live rock with hiding crevices",
+      "Branching corals for shelter"
+    ],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "herbivore",
+    "notes": "Primarily herbivorous as an adult, grazing on marine algae; juveniles are largely planktivorous. In the aquarium it is generally advised to offer dried marine algae or nori on a veggie clip several times per week along with vitamin-enriched frozen herbivore preparations, and occasional meaty fare such as mysis or enriched brine shrimp to round out the diet."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": [
+      "Clownfish",
+      "Cardinalfish",
+      "Gobies",
+      "Blennies",
+      "Dwarf angelfish",
+      "Most reef-safe community fish"
+    ],
+    "avoidWith": [
+      "Other Paracanthurus hepatus (unless introduced together in a very large system)",
+      "Other surgeonfish with similar body shape",
+      "Large aggressive triggerfish",
+      "Large aggressive angelfish"
+    ]
   },
   "media": {
-    "primaryImage": "blue_tang.jpg",
-    "gallery": [],
+    "primaryImage":    null,
+    "gallery":         [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Blue Tang.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "An iconic electric-blue Indo-Pacific reef tang made famous by Finding Nemo and Finding Dory; reaches around 30 cm and is generally advised for experienced keepers with large, mature reef systems.",
+  "careNotes": "Paracanthurus hepatus is a popular but demanding reef fish. Adults can reach roughly 25-31 cm and are active swimmers, so a long aquarium of around 700 L (about 180 US gallons) or larger with plenty of open swimming space and rockwork for shelter is generally advised. Water is typically kept around 23-27 C, pH 8.1-8.4, dKH 8-12, and SG 1.020-1.026. The species has a sharp caudal-peduncle scalpel which can injure handlers and tankmates, so handling with a container rather than a bare net is recommended. Blue Tangs are well known for being especially prone to marine ich (Cryptocaryon) and marine velvet, and they are also commonly affected by Head and Lateral Line Erosion (HLLE) when kept in poor water quality or fed a diet lacking marine algae and vitamins; a quarantine period before introduction and a varied algae-rich diet are strongly advised. They are generally considered reef-safe and peaceful toward unrelated fish, but tend to be highly aggressive toward conspecifics and other tangs of similar shape, so they are usually kept singly unless multiple specimens are added simultaneously to a very large system. Juveniles often shelter inside branching corals and may exhibit a 'playing dead' stress response when disturbed.",
+  "breedingNotes": "Not bred in the home aquarium. The species was first successfully reared in captivity in 2016 by Rising Tide Conservation in collaboration with the University of Florida Tropical Aquaculture Laboratory, after roughly six years of larval-rearing work. Captive-bred specimens have since reached the trade in small numbers but remain uncommon, and home-aquarium spawning has not been reported.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "LiveAquaria",
+      "url":  "https://www.liveaquaria.com/products/blue-tang-1",
+      "accessedDate": "2026-06-10",
+      "notes": "Primary husbandry source: tank size, water parameters, diet, temperament, reef-safe status, disease notes."
+    },
+    "additional": [
+      {
+        "name": "Reef2Reef wiki",
+        "url":  "https://www.reef2reef.com/wiki/",
+        "accessedDate": "2026-06-10",
+        "notes": "Designated secondary source returned HTTP 403 to WebFetch; substituted Reef2Reef community threads via WebSearch summary which confirmed semi-aggressive behavior toward conspecifics, ich susceptibility, and 100-180 gal tank range."
+      },
+      {
+        "name": "FishBase",
+        "url":  "https://www.fishbase.se/summary/Paracanthurus-hepatus.html",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked taxonomy (Acanthuridae, Acanthuriformes), max length 31 cm, depth range 2-40 m, Indo-Pacific distribution, and wild temperature range."
+      },
+      {
+        "name": "Saltwater Aquarium Blog - Blue Hippo Tang Care Guide",
+        "url":  "https://www.saltwateraquariumblog.com/blue-hippo-tang-care-guide/",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked adult size (12 in / 30.5 cm), 100-180 gal tank range, caudal scalpel, HLLE/ich susceptibility, semi-aggressive conspecific behavior."
+      },
+      {
+        "name": "Rising Tide Conservation - Pacific Blue Tang aquaculture",
+        "url":  "https://www.risingtideconservation.org/aquaculture-of-blue-tangs/",
+        "accessedDate": "2026-06-10",
+        "notes": "Source for first successful captive breeding (2016, Rising Tide Conservation / UF Tropical Aquaculture Laboratory)."
+      },
+      {
+        "name": "ReefApp encyclopedia - Paracanthurus hepatus",
+        "url":  "https://reefapp.net/en/encyclopedia/paracanthurus-hepatus",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked 700 L minimum tank size, 31 cm adult size, reef-safe-with-caution status."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
-    "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "First captive-bred in 2016 by Rising Tide Conservation / UF Tropical Aquaculture Laboratory after a multi-year larval-rearing effort. Not bred at the home-aquarium scale; commercial captive-bred specimens are still uncommon.",
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "yes",
+    "escapeRisk": "low",
+    "venomousSpines": false,
     "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
-    "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "haremic": false,
+    "caudalScalpel": true,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": true,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -92,6 +152,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-10"
 }

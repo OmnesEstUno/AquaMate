@@ -7,82 +7,153 @@
   "commonName": "Catalina Goby",
   "scientificName": "Lythrypnus dalli",
   "alsoKnownAs": [
-    "[pending-research] Catalina Goby — temperate water"
+    "Bluebanded Goby",
+    "Blue-banded Goby"
   ],
   "category": "Goby",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Gobiidae",
+    "order": "Gobiiformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
-    "depthRangeM": null
+    "regions": [
+      "Eastern Pacific"
+    ],
+    "countries": [
+      "United States",
+      "Mexico",
+      "Ecuador",
+      "Peru"
+    ],
+    "habitat": "Rocky reefs, tide pools, caves and crevices; often shelters among sea urchin spines when threatened",
+    "biotope": "Temperate coastal rocky reef",
+    "depthRangeM": {
+      "min": 0,
+      "max": 76
+    }
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
+    "temperatureC": {
+      "min": 15,
+      "max": 22
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
     "kH": null,
-    "salinity": null
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": {
+    "min": 3,
+    "max": 6.4
+  },
+  "lifespanYears": {
+    "min": 1,
+    "max": 3
+  },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 75,
+    "minLengthCm": 60,
+    "swimZone": "bottom",
+    "decorPreferences": [
+      "live rock",
+      "caves",
+      "crevices",
+      "rockwork",
+      "live sand"
+    ],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "expert",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Has been reported to accept frozen mysis shrimp, vitamin-enriched brine shrimp, cyclops, and other small meaty foods; once acclimated, some specimens take sinking pellets and flake. Generally advised to feed small amounts two or more times daily targeted near perching sites."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "peaceful",
+    "grouping": "shoaling",
+    "minGroupSize": 1,
+    "goodWith": [
+      "peaceful coldwater or cool-temperate species",
+      "small peaceful invertebrates",
+      "corals"
+    ],
+    "avoidWith": [
+      "tropical reef community fish kept at 25–27°C",
+      "large predatory fish",
+      "conspecifics in undersized tanks"
+    ]
   },
   "media": {
     "primaryImage": "catalina_goby.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Catalina Goby.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "A small, brilliantly coloured temperate goby with a scarlet body and vivid electric-blue vertical bars. Generally considered an expert-only species because it requires cool water far below typical tropical reef temperatures.",
+  "careNotes": "CRITICAL CARE WARNING — COLDWATER SPECIES: The Catalina Goby is native to the cool temperate waters of the eastern Pacific (southern California to Baja, with scattered records south to Ecuador and Peru) and is most commonly advised to be kept at roughly 15–22°C. It is frequently sold by general saltwater retailers and ends up in standard tropical reef tanks running at 25–27°C, where it has been widely reported to die from heat stress within a few months — immune suppression, reduced disease resistance, and dramatically shortened lifespan are all well-documented at sustained tropical temperatures. Long-term success effectively requires a dedicated chiller and a cool-water or temperate-marine biotope; do not add this fish to a warm reef community without one. A tight-fitting lid is recommended as small gobies have been observed to jump or be lost into overflows. In well-kept cool-water systems lifespans of 1–3 years have been reported, though wild populations are also short-lived (FishBase notes a typical maximum reported age around 1 year). This species is a bidirectional sex-changer (functionally simultaneous hermaphrodite by some sources) capable of switching behavioural sex; males select and defend a cave or crevice for egg deposition, and larger males develop longer dorsal fin rays. Reef Builders and Reeflings disagree on aquarium temperature (Reef Builders ≈18–24°C, Reeflings ≈22–26°C); FishBase preferred wild range of 18–22°C and LiveAquaria's 15.6–21°C optimum were favoured here because following the Reeflings tropical figure is the typical mechanism by which these fish die in home aquaria. Also commonly traded as the Bluebanded Goby; do not confuse with the closely related Zebra Catalina Goby (Lythrypnus zebra), which co-occurs in the same range.",
+  "breedingNotes": "Cave-spawning egg-layer. Males have been reported to select and guard a cave or crevice, attracting females to spawn on the cave roof; eggs are typically guarded for roughly 7–10 days until hatching. Captive breeding has been achieved but is generally considered difficult and is not commonly documented in hobby literature, particularly because rearing the small pelagic larvae and maintaining cool temperatures simultaneously is demanding.",
+  "hobbyistAdvisory": {
+    "level": "specialist-only",
+    "reason": "Coldwater temperate species (15–22°C) commonly mis-sold for tropical reef tanks; requires a chiller and cool-water biotope, and even then has a very short lifespan (1–3 years)."
+  },
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/catalina-goby-expert-only",
+      "accessedDate": "2026-06-10",
+      "notes": "Adult size 2 in, temperate species 60–70°F optimum, expert-only, peaceful, reef safe, hermaphrodite with cave-spawning. Designated secondary (Reef2Reef wiki) returned HTTP 403; swapped to FishBase, Reef Builders and Reeflings."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Lythrypnus-dalli.html",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked taxonomy (Gobiidae, Gobiiformes), max length 6.4 cm TL, native range (Gulf of California to Ecuador and northern Peru), depth 0–76 m, preferred temperature 18–22°C (modeled 15.8–25.9°C), simultaneous hermaphrodite with bidirectional sex change, male egg-guarding."
+      },
+      {
+        "name": "Reef Builders",
+        "url": "https://reefbuilders.com/2016/08/18/fish-highlight-the-catalina-goby/",
+        "accessedDate": "2026-06-10",
+        "notes": "Independent confirmation of temperate/coldwater requirement (65–75°F = ~18–24°C) and that tropical-tank keeping markedly shortens lifespan. Used as third confirming source after Reef2Reef wiki 403'd."
+      },
+      {
+        "name": "Reeflings",
+        "url": "https://reeflings.com/species/lythrypnus-dalli",
+        "accessedDate": "2026-06-10",
+        "notes": "Adult size ~6 cm, pH 8.1–8.4, SG 1.020–1.025, peaceful, carnivore. Notable disagreement: Reeflings quotes 22–26°C as the aquarium range, which is the typical (and lethal) tropical reef tank recommendation; not used for the temperature range here. Tank-size figure (40 L) rounded up to the project's allowed-size floor of 75 L."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
-    "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
+    "breedingDifficulty": "difficult",
+    "breedingNotes": "Cave-spawner; males guard eggs attached to the roof of a chosen crevice for ~7–10 days. Larval rearing combined with cool-water husbandry has limited captive-breeding reports in the hobby.",
+    "conspecificAggression": "moderate",
+    "finNippy": false,
+    "reefSafe": "yes",
+    "escapeRisk": "high",
+    "venomousSpines": false,
+    "sexChange": "bidirectional",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
     "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
     "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -92,6 +163,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-10"
 }

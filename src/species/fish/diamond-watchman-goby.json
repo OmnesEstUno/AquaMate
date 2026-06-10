@@ -7,82 +7,128 @@
   "commonName": "Diamond Watchman Goby",
   "scientificName": "Valenciennea puellaris",
   "alsoKnownAs": [
-    "[pending-research] Diamond Watchman Goby"
+    "Orange-Spot Sleeper Goby",
+    "Maiden Goby",
+    "Diamond Goby",
+    "Diamond Watchman Sand Sifter Goby"
   ],
   "category": "Goby",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Gobiidae",
+    "order": "Gobiiformes"
   },
   "nativeRange": {
-    "regions": [],
+    "regions": ["Indo-Pacific"],
     "countries": [],
-    "habitat": null,
-    "biotope": null,
-    "depthRangeM": null
+    "habitat": "Sandy areas in clear lagoons and seaward reefs; pairs typically share shallow burrows beneath rubble.",
+    "biotope": "Reef",
+    "depthRangeM": { "min": 2, "max": 84 }
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
+    "temperatureC": { "min": 22, "max": 26 },
+    "pH": { "min": 8.1, "max": 8.4 },
     "gH": null,
-    "kH": null,
-    "salinity": null
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.020, "max": 1.025 }
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 13, "max": 18 },
+  "lifespanYears": { "min": 5, "max": 8 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
-    "minSandDepthCm": null
+    "minVolumeLiters": 150,
+    "minLengthCm": 90,
+    "swimZone": "bottom",
+    "decorPreferences": [
+      "deep fine sand bed (5+ cm)",
+      "live rock with shallow rubble for burrow refuge",
+      "open sand expanse for foraging",
+      "tight-fitting lid to prevent jumping"
+    ],
+    "minSandDepthCm": 5
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Obligate sand-sifter that feeds on copepods, amphipods and other microfauna picked from mouthfuls of sand. Generally advised to offer frequent small portions of mysis shrimp, brine shrimp, live blackworms and quality carnivore preparations, ideally placed near the burrow with a feeding stick. Has been reported to emaciate in undersized or biologically immature systems lacking a mature sand-bed microfauna population; a refugium or routine pod top-ups are commonly recommended."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "peaceful",
+    "grouping": "pair",
+    "minGroupSize": 1,
+    "goodWith": [
+      "small peaceful reef fish",
+      "non-aggressive wrasses",
+      "clownfish",
+      "dwarf angels",
+      "most corals (with caveats)"
+    ],
+    "avoidWith": [
+      "conspecifics (other Valenciennea) unless a bonded pair",
+      "other sand-sifting gobies",
+      "large aggressive predators",
+      "boisterous triggerfish and large dottybacks"
+    ]
   },
   "media": {
     "primaryImage": "diamond_watchman_goby.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Diamond Watchman Goby.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "Peaceful sand-sifting goby from Indo-Pacific reefs. Generally considered reef-safe and a useful substrate cleaner, but needs a deep mature sand bed and an established microfauna population to thrive.",
+  "careNotes": "The Diamond Watchman Goby is a bottom-dwelling sand-sifter that spends most of the day taking mouthfuls of substrate and sieving out small invertebrates. A fine-grain sand bed of at least 5 cm (sources commonly recommend 2.5-3 inches of sugar-fine sand) is generally advised so the fish can both feed and excavate the shallow burrows it uses as refuge. Burrow construction often involves piling sand on adjacent rockwork and lower corals, which has been reported to bury or irritate sessile invertebrates - so the species is best described as reef-safe with caution rather than universally reef-safe. Tankmates are tolerated well, but conspecifics are typically fought unless introduced as an established bonded pair; the species is monogamous in the wild and pairs share a single burrow. A tightly-sealed lid is essential, as these gobies are well documented as strong jumpers. The most common captive failure is slow starvation in tanks with insufficient microfauna - a mature system with a productive sand bed, live rock, or a connected refugium is strongly recommended, and target-feeding with a feeding stick is often required until the fish is reliably taking prepared foods. Sources consulted broadly agreed on tank size (30 US gal / ~114 L retail minimum), water parameters and temperament; a 150 L (~40 US gal) tank with a long footprint was selected here as a more cautious adult-life recommendation for an active 15-18 cm sand-sifter.",
+  "breedingNotes": "Pairs are monogamous and have been spawned in captivity occasionally; eggs are deposited inside the shared burrow and guarded by the parents. Rearing larvae is reported to be difficult due to small first-feeding mouths requiring rotifers and copepod nauplii, and captive breeding is not routine in the hobby.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/product/220/diamond-watchman-goby",
+      "accessedDate": "2026-06-10",
+      "notes": "Primary husbandry source: tank size 30 gal, water parameters, temperament, diet, reef-safe rating."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Valenciennea-puellaris.html",
+        "accessedDate": "2026-06-10",
+        "notes": "Taxonomy (Gobiidae/Gobiiformes), wild max size (20 cm SL), depth range (2-84 m, usually 10-30 m), Indo-Pacific distribution, monogamous pair biology. Swapped in for designated secondary because Reef2Reef wiki returned 403."
+      },
+      {
+        "name": "Fish Laboratory",
+        "url": "https://www.fishlaboratory.com/fish/diamond-goby/",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-check: tank size 30 gal, 6 in aquarium / 7 in wild adult size, sand depth 2.5-3 in sugar-fine sand, microfauna-dependence feeding caveat, high jumping/escape risk, ~5 yr lifespan."
+      },
+      {
+        "name": "Aquarium Source",
+        "url": "https://www.aquariumsource.com/diamond-goby/",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-check: 5-7 in adult size, 30 gal minimum on a long footprint (30 x 12 in), 72-78 F / pH 8.1-8.5 / SG 1.020-1.025 / 8-12 dKH, 3 in substrate minimum, monogamous pair-for-life behavior, 5-8 yr lifespan."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
-    "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
-    "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "breedingDifficulty": "difficult",
+    "breedingNotes": "Monogamous pair-spawners; eggs guarded in the shared burrow but larval rearing on rotifers/copepod nauplii is reported as challenging.",
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "with caution",
+    "escapeRisk": "high",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": true,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -92,6 +138,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-10"
 }

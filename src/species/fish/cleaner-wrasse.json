@@ -7,82 +7,125 @@
   "commonName": "Cleaner Wrasse",
   "scientificName": "Labroides dimidiatus",
   "alsoKnownAs": [
-    "[pending-research] Cleaner Wrasse — Common Bluestreak Cleaner"
+    "Bluestreak Cleaner Wrasse",
+    "Common Cleaner Wrasse",
+    "Blue Streak Cleaner Wrasse"
   ],
   "category": "Wrasse",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Labridae",
+    "order": "Eupercaria"
   },
   "nativeRange": {
-    "regions": [],
+    "regions": ["Indo-Pacific", "Red Sea"],
     "countries": [],
-    "habitat": null,
-    "biotope": null,
-    "depthRangeM": null
+    "habitat": "Coral-rich areas of inner lagoons, subtidal reef flats and seaward reefs, where adults establish stationary cleaning stations visited by client fish.",
+    "biotope": "Reef",
+    "depthRangeM": { "min": 1, "max": 30 }
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
+    "temperatureC": { "min": 23, "max": 27 },
+    "pH": { "min": 8.1, "max": 8.4 },
     "gH": null,
-    "kH": null,
-    "salinity": null
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.020, "max": 1.025 }
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 10, "max": 14 },
+  "lifespanYears": { "min": 2, "max": 4 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
-    "minSandDepthCm": null
+    "minVolumeLiters": 400,
+    "minLengthCm": 120,
+    "swimZone": "all",
+    "decorPreferences": [
+      "live rock with cleaning-station perches",
+      "soft sandy substrate (rough gravel can abrade fins)",
+      "open swimming lanes between rockwork",
+      "well-established reef system with diverse host-fish community"
+    ],
+    "minSandDepthCm": 2
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "expert",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Obligate parasite-grazer in the wild — feeds on ectoparasites (gnathiid isopods, copepods), mucus and dead scales picked from client fish at established cleaning stations. In captivity most specimens refuse prepared foods and slowly starve; the few that adapt are generally coaxed onto vitamin-enriched frozen mysis and brine shrimp, finely chopped seafood, and live black worms offered in small portions several times per day. Even adapted individuals tend to remain dependent on grazing tankmates for a substantial share of their nutrition."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "peaceful",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": [
+      "tangs",
+      "angelfish",
+      "butterflyfish",
+      "large peaceful community fish that provide parasite-grazing opportunities"
+    ],
+    "avoidWith": [
+      "conspecifics (other Labroides) in tanks under ~700 L",
+      "large predators such as lionfish, frogfish, groupers and morays",
+      "very small invertebrates that could be mistaken for parasites (occasional clam-mantle picking has been reported)"
+    ]
   },
   "media": {
     "primaryImage": "cleaner_wrasse.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Cleaner Wrasse.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "Indo-Pacific cleaning-station specialist that grazes parasites and mucus from client fish; visually striking but extremely difficult to keep alive in home aquaria.",
+  "careNotes": "ETHICAL CARE WARNING: the bluestreak cleaner wrasse is one of the most-documented welfare problems in the marine hobby. Most wild-collected specimens refuse prepared foods and die of starvation within weeks to a few months because their wild diet of ectoparasites grazed across many client fish cannot be replicated in a home tank. Many marine livestock advocates and reputable retailers discourage purchase, and on a reef they are far more valuable left in place serving multiple fish at a cleaning station than in any one private aquarium. If kept anyway, success generally requires a large, mature reef (around 400 L / ~110 gal or larger) that is heavily stocked with peaceful client fish so the wrasse can keep grazing, multiple very small feedings per day of vitamin-enriched mysis/brine shrimp and finely minced seafood, a soft sandy substrate (rough gravel can damage fins), and a tight-fitting lid as the species has been known to jump. Adults can be territorial toward conspecifics; pairs/harems should only be attempted in very large systems. Labroides dimidiatus is a protogynous hermaphrodite (female-first), with some literature describing bidirectional sex change — if a dominant male is lost, the largest female has been reported to take its place. Spawns pelagically in the wild but is not bred in captivity in any meaningful numbers. Sources cross-checked: SaltwaterAquariumBlog care guide, Aquarium Source care guide, FishBase taxonomy and depth data; primary (LiveAquaria) and secondary (Reef2Reef wiki) both returned 404/403 on the species pages during research.",
+  "breedingNotes": "Not bred in home aquaria. In the wild forms monogamous pairs that spawn pelagically year-round at cleaning-station territories. Protogynous (female-first) with documented bidirectional sex change; sex reversal in the dominant female has been reported to complete within roughly 14–18 days, around 8–9 cm total length.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "SaltwaterAquariumBlog (Bluestreak Cleaner Wrasse care guide)",
+      "url": "https://www.saltwateraquariumblog.com/bluestreak-cleaner-wrasse-care-guide-quick-facts/",
+      "accessedDate": "2026-06-10",
+      "notes": "Designated LiveAquaria primary returned HTTP 404 for the species page; promoted SaltwaterAquariumBlog to primary as the most detailed husbandry source with explicit captive-mortality discussion."
+    },
+    "additional": [
+      {
+        "name": "Aquarium Source (Bluestreak Cleaner Wrasse 101)",
+        "url": "https://www.aquariumsource.com/bluestreak-cleaner-wrasse/",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked adult size, water parameters, lifespan, and reinforced expert-only care designation and sequential-hermaphrodite biology."
+      },
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Labroides-dimidiatus.html",
+        "accessedDate": "2026-06-10",
+        "notes": "Authoritative taxonomy (Labridae, Eupercaria), Indo-Pacific distribution, depth range (1–30 m typical, 0–100 m total), max length 14 cm TL, and protogynous-with-bidirectional sex change biology."
+      },
+      {
+        "name": "Reef2Reef wiki (designated secondary)",
+        "url": "https://www.reef2reef.com/wiki/",
+        "accessedDate": "2026-06-10",
+        "notes": "Designated secondary returned HTTP 403 and could not be used; documented per playbook fallback rule."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
-    "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
-    "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "Pelagic spawner in the wild; not commercially bred. Protogynous (female-first) with reports of bidirectional sex change in the largest female when a dominant male is lost.",
+    "conspecificAggression": "moderate",
+    "finNippy": false,
+    "reefSafe": "yes",
+    "escapeRisk": "moderate",
+    "venomousSpines": false,
+    "sexChange": "protogynous",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": true,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "difficult",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": true,
     "cleanerFish": true,
-    "euryhaline": null
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -92,6 +135,10 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-10",
+  "hobbyistAdvisory": {
+    "level": "specialist-only",
+    "reason": "Most wild-collected Labroides dimidiatus die within weeks to months in captivity from starvation because they refuse prepared foods and cannot graze enough parasites in a home tank. Many marine-livestock advocates discourage purchase outright; only suitable for an experienced reef-keeper running a large, heavily-stocked reef who fully accepts the high mortality risk."
+  }
 }

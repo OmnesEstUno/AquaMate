@@ -7,82 +7,143 @@
   "commonName": "Clown Trigger",
   "scientificName": "Balistoides conspicillum",
   "alsoKnownAs": [
-    "[pending-research] Clown Trigger"
+    "Clown Triggerfish",
+    "Big-spotted Triggerfish"
   ],
   "category": "Triggerfish",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Balistidae",
+    "order": "Tetraodontiformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
-    "depthRangeM": null
+    "regions": [
+      "Indo-Pacific",
+      "Western Indian Ocean",
+      "Western Pacific"
+    ],
+    "countries": [
+      "Kenya",
+      "Tanzania",
+      "Mozambique",
+      "South Africa",
+      "Maldives",
+      "Indonesia",
+      "Philippines",
+      "Australia",
+      "Japan",
+      "Samoa"
+    ],
+    "habitat": "Clear coastal to outer-reef habitats; adults are typically encountered along steep seaward drop-offs in open water, while juveniles shelter inside small caves on invertebrate-rich reef walls.",
+    "biotope": "Reef",
+    "depthRangeM": { "min": 1, "max": 75 }
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
-    "gH": null,
-    "kH": null,
-    "salinity": null
+    "temperatureC": { "min": 23, "max": 27 },
+    "pH":           { "min": 8.1, "max": 8.4 },
+    "gH":           null,
+    "kH":           { "min": 8, "max": 12 },
+    "salinity":     { "min": 1.020, "max": 1.025 }
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm":   { "min": 45, "max": 50 },
+  "lifespanYears": { "min": 8, "max": 20 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 1000,
+    "minLengthCm": 180,
+    "swimZone": "all",
+    "decorPreferences": [
+      "open swimming space",
+      "large caves and overhangs for sleeping and retreat",
+      "robust rockwork (rearranging behaviour is common)"
+    ],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Wild diet consists of sea urchins, crustaceans, molluscs, and tunicates. In captivity, generally advised to feed a varied meaty diet — chopped squid, krill, clams in the shell, silversides, hard-shelled shrimp, and mussel — 1–2 times per day. Hard-shelled foods are important to wear down the continuously-growing teeth."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": [
+      "large angelfish",
+      "groupers",
+      "large wrasses",
+      "tangs",
+      "pufferfish",
+      "other large triggerfish (with caution and ample space)"
+    ],
+    "avoidWith": [
+      "small or peaceful fish",
+      "ornamental shrimp and crabs",
+      "corals and other sessile invertebrates",
+      "snails",
+      "conspecifics (no two Clown Triggers in the same tank)",
+      "slow-moving fish such as seahorses, mandarins, and most blennies"
+    ]
   },
   "media": {
     "primaryImage": "clown_trigger.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Clown Trigger.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "Boldly patterned Indo-Pacific triggerfish that is among the most aggressive species commonly traded; needs a very large species-style tank, robust rockwork, and carefully chosen tankmates.",
+  "careNotes": "The Clown Trigger is one of the most iconic — and most demanding — fish in the marine hobby. Juveniles are deceptively docile but tend to become increasingly territorial and aggressive as they mature past roughly 20 cm, and adults can reach about 50 cm. They are commonly considered NOT reef-safe: they prey on crustaceans, molluscs, and urchins in the wild, and have been known to nip corals, rearrange rockwork, and uproot decor. A very large tank with both open swimming space and large caves for sleeping/retreat is generally advised; published recommendations span roughly 500–1140 L and the conservative choice for a full-grown adult is around 1000 L (≈300 US gal) with a long footprint of 180 cm or more. For adult specimens a species-only configuration is often the safest arrangement — tankmates must be similarly large and assertive (large angelfish, groupers, tangs, pufferfish, other large triggers), and even then aggression flares are common. Keep only one Clown Trigger per system. Strong filtration is needed to handle the heavy, meaty diet. Hard-shelled foods (clams in the shell, krill, hard-shelled shrimp) help wear down their continuously-growing teeth.",
+  "breedingNotes": "Captive breeding has not been documented in home aquaria; spawning is occasionally reported in very large public-aquarium systems. Sexual dimorphism is subtle and no reliable indicator has been established for hobby identification.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/product/245/?pcatid=245",
+      "accessedDate": "2026-06-10",
+      "notes": "Primary retailer care card: 300 gal min, 72–78°F, pH 8.1–8.4, dKH 8–12, SG 1.020–1.025, aggressive, not reef safe, 20\" adult size."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Balistoides-conspicillum.html",
+        "accessedDate": "2026-06-10",
+        "notes": "Taxonomy (Balistidae / Tetraodontiformes), 50 cm max TL, depth 1–75 m, temperature 23.3–28.8 °C, Indo-Pacific range East Africa to Samoa. Used as authoritative source for taxonomy and wild ecology because Reef2Reef wiki page 403'd."
+      },
+      {
+        "name": "AquariumSource",
+        "url": "https://www.aquariumsource.com/clown-triggerfish/",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked: 120 gal absolute min / 200+ gal recommended (lower than LiveAquaria's 300 gal), 74–80°F, pH 8.1–8.4, dKH 8–12, lifespan 8 yr wild / up to 20 yr in captivity, behavioural note that juveniles become hostile past ~8 inches. Spread on minimum tank size was wide (≈450–1140 L) — biased to the larger end (1000 L) per playbook tank-size rule because the species is very large and very aggressive."
+      },
+      {
+        "name": "Aquatic Community",
+        "url": "https://www.aquaticcommunity.com/Triggerfish/clown.php",
+        "accessedDate": "2026-06-10",
+        "notes": "Secondary husbandry confirmation: pH 8.1–8.4, SG 1.020–1.025, 22–26 °C, minimum 500 L cited, not reef-safe, single specimen only."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
+    "breedingDifficulty": "not in captivity",
     "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
-    "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
-    "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "conspecificAggression": "high",
+    "finNippy": true,
+    "reefSafe": "no",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": true,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -92,6 +153,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-10"
 }

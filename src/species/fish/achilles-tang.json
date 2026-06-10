@@ -7,44 +7,62 @@
   "commonName": "Achilles Tang",
   "scientificName": "Acanthurus achilles",
   "alsoKnownAs": [
-    "[pending-research] Achilles Tang"
+    "Achilles Surgeonfish",
+    "Redtail Surgeonfish"
   ],
   "category": "Tang",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Acanthuridae",
+    "order": "Acanthuriformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
-    "depthRangeM": null
+    "regions": ["Western Pacific", "Eastern Central Pacific"],
+    "countries": ["United States (Hawaii)", "Mexico (Baja California)", "Wake Island", "Mariana Islands", "Pitcairn Islands"],
+    "habitat": "Surge zones and reef crests of oceanic islands; strong wave-swept shallow reef flats and outer reef edges.",
+    "biotope": "Reef",
+    "depthRangeM": { "min": 0, "max": 10 }
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
+    "temperatureC": { "min": 24, "max": 27 },
+    "pH": { "min": 8.1, "max": 8.4 },
     "gH": null,
-    "kH": null,
-    "salinity": null
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.023, "max": 1.026 }
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 20, "max": 24 },
+  "lifespanYears": { "min": 10, "max": 15 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 700,
+    "minLengthCm": 180,
+    "swimZone": "all",
+    "decorPreferences": [
+      "Large open swimming lanes",
+      "Live rock with algae growth",
+      "Strong turbulent flow simulating surge zones",
+      "Pristine water with high dissolved oxygen"
+    ],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "expert",
+  "diet": {
+    "type": "herbivore",
+    "notes": "Primarily grazes filamentous and small fleshy algae in the wild. In captivity, has been reported to do best with constant access to dried marine algae (nori) clipped in the tank, supplemented with spirulina-rich pellets, vitamin-enriched frozen mysis, and occasional vegetable foods. A vitamin-rich algae-heavy diet is generally considered essential for reducing HLLE risk."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": [
+      "Larger peaceful fish of unrelated families",
+      "Wrasses",
+      "Most reef-safe fish that are not tangs or surgeonfish"
+    ],
+    "avoidWith": [
+      "Other tangs and surgeonfish (especially conspecifics)",
+      "Other Acanthurus species",
+      "Slow or timid feeders",
+      "Aggressive triggerfish that may bully it during acclimation"
+    ]
   },
   "media": {
     "primaryImage": "achilles_tang.jpg",
@@ -53,38 +71,68 @@
     ],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Achilles Tang.",
-  "careNotes": null,
+  "summary": "A stunning black surgeonfish with a vivid orange teardrop near the tail. Notoriously demanding: requires a very large tank, surge-like flow, pristine water, and a heavy marine-algae diet.",
+  "careNotes": "Generally considered one of the most demanding surgeonfishes in the marine hobby and is widely regarded as expert-only. Wild specimens are found in shallow surge zones of oceanic Pacific reefs, so aquarium setups are commonly advised to provide turbulent flow, high dissolved oxygen, and a long footprint of open swimming space. Sources disagree on minimum tank size (LiveAquaria and Aquarium Specialty cite 180 gal / ~680 L; ReefApp cites 700 L; some hobbyist guides argue an 8-foot tank is preferable for adults) — 700 L has been chosen as a cautious rounded minimum, but larger is generally better. Has a thin slime coat and is highly susceptible to marine ich and other skin parasites; quarantine and prophylactic treatment have been reported as near-mandatory by experienced keepers. Also prone to Head and Lateral Line Erosion (HLLE) when diet and water quality slip; vitamin-rich algae sheets and frequent feedings have been reported to help prevention. Highly aggressive toward other tangs and conspecifics; generally advised to be the only Acanthurus in the tank. Generally considered reef-safe with corals and invertebrates, though isolated reports of hungry specimens nipping at LPS exist. Carries a sharp caudal scalpel on each side of the tail base — should be handled with caution.",
   "breedingNotes": null,
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/product/325/achilles-tang",
+      "accessedDate": "2026-06-10",
+      "notes": "Product page returned 404 on direct fetch; care details extracted from LiveAquaria's indexed product description via search snippets (180-gal minimum, expert care level, aggressive toward other tangs, ich-susceptible, herbivore diet)."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Acanthurus-achilles.html",
+        "accessedDate": "2026-06-10",
+        "notes": "Confirmed taxonomy (Acanthuridae / Acanthuriformes), max length 24 cm TL, depth 0-10 m, temperature 25.8-28.3°C, distribution (Western Pacific oceanic islands to Hawaiian/Pitcairn islands and Eastern Central Pacific), herbivorous diet, monogamous."
+      },
+      {
+        "name": "ReefApp Encyclopedia",
+        "url": "https://reefapp.net/en/encyclopedia/acanthurus-achilles",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked tank size (700 L minimum), water parameters (~26°C, SG 1.026), reef-safe, aggressive toward food competitors, primarily algae feeder."
+      },
+      {
+        "name": "Aquarium Specialty",
+        "url": "https://www.aquariumspecialty.com/blog/post/are-you-ready-for-the-achilles-tang-acanthurus-achilles",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked 180-gal (~680 L) minimum, expert-only difficulty, ich susceptibility, herbivore diet with seaweed/marine algae primary."
+      },
+      {
+        "name": "TFH Magazine",
+        "url": "https://www.tfhmagazine.com/articles/saltwater/the-achilles-tang-acanthurus-achilles",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked HLLE and ich susceptibility, aggression toward other tangs/triggers, generally reef-safe with occasional LPS-nipping caveat, surge-zone habitat. Reef2Reef wiki returned 403; substituted TFH as additional secondary."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
+    "breedingDifficulty": "not in captivity",
     "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
-    "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
-    "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "yes",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": true,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": true,
+    "toxicToTank": false,
+    "feedingDifficulty": "difficult",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": true,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -94,6 +142,10 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-10",
+  "hobbyistAdvisory": {
+    "level": "specialist-only",
+    "reason": "Requires a very large (700+ L) tank with surge-zone flow, pristine water, and a relentless algae-rich feeding regimen. Highly susceptible to ich and HLLE; generally considered one of the most demanding surgeonfishes and unsuited to typical home aquarists."
+  }
 }

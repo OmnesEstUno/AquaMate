@@ -7,82 +7,139 @@
   "commonName": "Clarkii Clownfish",
   "scientificName": "Amphiprion clarkii",
   "alsoKnownAs": [
-    "[pending-research] Clarkii Clownfish — Clark's Anemonefish"
+    "Clark's Anemonefish",
+    "Clark's Clownfish",
+    "Yellowtail Clownfish"
   ],
   "category": "Clownfish",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Pomacentridae",
+    "order": "Perciformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
-    "depthRangeM": null
+    "regions": ["Indo-West Pacific"],
+    "countries": [
+      "Persian Gulf states",
+      "India",
+      "Sri Lanka",
+      "Indonesia",
+      "Philippines",
+      "Taiwan",
+      "Japan",
+      "Micronesia",
+      "Melanesia",
+      "Australia"
+    ],
+    "habitat": "Lagoons and outer reef slopes; commonly associated with one of several host anemone species on rock and rubble substrates.",
+    "biotope": "Reef",
+    "depthRangeM": { "min": 1, "max": 70 }
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
+    "temperatureC": { "min": 24, "max": 27 },
+    "pH": { "min": 8.0, "max": 8.4 },
     "gH": null,
-    "kH": null,
-    "salinity": null
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.021, "max": 1.025 }
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 8, "max": 15 },
+  "lifespanYears": { "min": 8, "max": 11 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 120,
+    "minLengthCm": 90,
+    "swimZone": "all",
+    "decorPreferences": [
+      "Live rock with caves and overhangs for territory",
+      "Open swimming space in the mid-water column",
+      "Optional host anemone (a wide variety are accepted)"
+    ],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "beginner",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Generally accepts a wide range of prepared foods including marine flakes, pellets, frozen mysis and brine shrimp, and herbivore preparations. Feeding 2–3 small portions per day is commonly advised; a varied diet supports the species' notably vivid coloration."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "semi-aggressive",
+    "grouping": "pair",
+    "minGroupSize": 1,
+    "goodWith": [
+      "Larger, robust tankmates that can hold their own (tangs, larger wrasses, dwarf angels)",
+      "Most reef invertebrates and corals",
+      "Host anemones of many species (Entacmaea quadricolor, Heteractis magnifica, H. crispa, H. aurora, Stichodactyla mertensii, S. haddoni, S. gigantea, Cryptodendrum adhaesivum, Macrodactyla doreensis and others)"
+    ],
+    "avoidWith": [
+      "Other clownfish species (including conspecifics beyond a bonded pair)",
+      "Small, timid fish that may be bullied (small gobies, dartfish, firefish)",
+      "Other small damselfishes that compete for territory"
+    ]
   },
   "media": {
     "primaryImage": "clarkii_clownfish.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Clarkii Clownfish.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "A hardy, boldly patterned anemonefish that hosts an unusually wide range of anemone species; commonly considered the most assertive of the widely traded clownfish.",
+  "careNotes": "The Clarkii Clownfish (Amphiprion clarkii) is one of the most widely distributed and adaptable anemonefishes in the trade. Adults reach roughly 13–15 cm and display a dark body (black to reddish brown) crossed by three white bars, with bright yellow pelvic, anal and caudal fins. Juveniles are largely yellow with the same three white bars, and color expression can vary noticeably across geographic populations.\n\nHost-anemone flexibility: A. clarkii is generally considered the most catholic of all clownfishes in its choice of host. Wild associations have been documented with at least ten anemone species, including Bubble-tip (Entacmaea quadricolor), Magnificent (Heteractis magnifica), Sebae (H. crispa), Beaded (H. aurora), Merten's (Stichodactyla mertensii), Haddon's (S. haddoni), Gigantea (S. gigantea), Pizza (Cryptodendrum adhaesivum), Long-tentacle (Macrodactyla / Radianthus doreensis), and Adhesive carpet anemones. In captivity, a host anemone is not strictly required for survival but is often readily adopted.\n\nTemperament: Clarkiis are the most aggressive of the commonly traded clownfish. They have been known to harass other clownfish (both conspecifics outside a bonded pair and other species), small damsels, and timid fish such as gobies or firefish. The most reliable approach is to keep a single specimen or an established mated pair per system; adding clownfish later to an established clarkii rarely succeeds. In larger reef aquariums with strong territorial separation, mixed-species clownfish cohabitation has occasionally been reported, but it is generally advised against.\n\nReproduction: Like all anemonefishes, A. clarkii is a protandrous sequential hermaphrodite — all juveniles develop as male and the dominant individual of a pair transitions to female. Pairs are best established by introducing two small juveniles simultaneously or by purchasing a confirmed mated pair. Captive breeding is well established and considered moderate in difficulty; eggs are demersal, laid on a flat surface near the host anemone, and the male tends them until hatching (roughly 7–10 days).\n\nWater parameters: Cross-source values varied modestly. LiveAquaria reports 22.2–25.6°C, while Bulk Reef Supply, Reeflings, and FishBase's environmental envelope all run warmer (24–29°C). The adopted range of 24–27°C reflects the average across sources and aligns with stable reef conditions. Specific gravity averaged to 1.021–1.025 (sources ranged 1.020–1.026). pH 8.0–8.4 is consistent across all sources.\n\nTank size: LiveAquaria lists 30 gal (~114 L) and Bulk Reef Supply 20 gal (~76 L) as minimums, while Reeflings cites 100 L. Because A. clarkii is unusually territorial for a clownfish and grows larger than Ocellaris or Percula (up to ~15 cm), the playbook's caution-bias rule justifies rounding up to 120 L as a sensible minimum, with larger tanks preferred for pairs or for cohabitation with other reef fish.\n\nLongevity: Wild specimens reach approximately 11 years (FishBase); captive lifespan is commonly reported around 8–10 years with good husbandry.",
+  "breedingNotes": "Captive breeding is well established. Spawning is demersal — eggs are deposited on a cleaned flat surface (often a rock face or shell adjacent to the host anemone) and guarded primarily by the male, who fans and mouths the clutch until hatching, typically after 7–10 days. Larvae are pelagic and require rotifer-then-Artemia culturing; rearing is broadly considered moderate in difficulty. Pairs are protandrous — all individuals begin life as male and the dominant fish of a pair becomes female, so a pair is most reliably formed from two small juveniles or by buying a confirmed mated pair.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/clarkii-clownfish",
+      "accessedDate": "2026-06-10"
+    },
+    "additional": [
+      {
+        "name": "Reef2Reef wiki",
+        "url": "https://www.reef2reef.com/wiki/",
+        "accessedDate": "2026-06-10",
+        "notes": "Designated secondary returned HTTP 403; substituted with FishBase, Bulk Reef Supply and Reeflings care guides for cross-verification."
+      },
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Amphiprion-clarkii.html",
+        "accessedDate": "2026-06-10",
+        "notes": "Confirmed family Pomacentridae, max length 15 cm SL, max age 11 y, depth 1–70 m, Indo-West Pacific distribution, environmental temperature envelope 25.3–29°C, host-anemone list."
+      },
+      {
+        "name": "Bulk Reef Supply care guide",
+        "url": "https://www.bulkreefsupply.com/content/post/clarkii-clownfish-care-guide",
+        "accessedDate": "2026-06-10",
+        "notes": "Confirmed temperament (semi-aggressive, conspecific aggression), water parameters (24–28°C, pH 8.1–8.4, SG 1.020–1.025), reef-safe, omnivorous diet, anemone-hosting flexibility."
+      },
+      {
+        "name": "Reeflings species sheet",
+        "url": "https://reeflings.com/species/amphiprion-clarkii",
+        "accessedDate": "2026-06-10",
+        "notes": "Confirmed Pomacentridae/Perciformes, lifespan ~10 y, water parameters (24–28°C, pH 8.0–8.4, SG 1.023–1.026), tank minimum 100 L, semi-aggressive territoriality toward other clownfish."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
-    "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
-    "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "breedingDifficulty": "moderate",
+    "breedingNotes": "Demersal egg layer; male guards clutch on a flat surface near the host anemone until hatching at 7–10 days. Larval rearing requires rotifers and Artemia and is considered moderate in difficulty.",
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "yes",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "protandrous",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": true,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": true,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -92,6 +149,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-10"
 }

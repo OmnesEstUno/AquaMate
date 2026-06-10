@@ -7,77 +7,165 @@
   "commonName": "Christmas Wrasse",
   "scientificName": "Thalassoma trilobatum",
   "alsoKnownAs": [
-    "[pending-research] Christmas Wrasse"
+    "Trilobatum Wrasse",
+    "Ladder Wrasse",
+    "Green-barred Wrasse"
   ],
   "category": "Wrasse",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Labridae",
+    "order": "Eupercaria"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
-    "depthRangeM": null
+    "regions": [
+      "Indo-Pacific"
+    ],
+    "countries": [
+      "East Africa",
+      "Sri Lanka",
+      "Maldives",
+      "Indonesia",
+      "Philippines",
+      "Japan",
+      "Fiji",
+      "Tonga",
+      "Pitcairn Islands"
+    ],
+    "habitat": "Shallow exposed reef flats and surge-swept margins with mixed rock, coral and algae cover, typically in the upper few metres of the water column. Often found on rocky shorelines just outside the breaker zone.",
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 0,
+      "max": 10
+    }
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
+    "temperatureC": {
+      "min": 24,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": null,
-    "salinity": null
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.026
+    }
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": {
+    "min": 25,
+    "max": 30
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 8
+  },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
-    "minSandDepthCm": null
+    "minVolumeLiters": 1000,
+    "minLengthCm": 180,
+    "swimZone": "all",
+    "decorPreferences": [
+      "open swimming space along the long axis of the tank",
+      "sturdy rockwork for refuge",
+      "fine sand bed at least 5 cm deep for burrowing at night",
+      "tightly fitting lid to prevent jumping"
+    ],
+    "minSandDepthCm": 5
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Has been documented in the wild feeding heavily on hard-shelled benthic prey, especially crabs and other crustaceans, molluscs and brittle stars. In captivity generally accepts vitamin-enriched frozen mysis and brine shrimp, finely chopped meaty seafood (krill, clam, squid, prawn) and quality marine pellets or flakes. Tends to do best with several small feedings per day, in line with its high activity level."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": [
+      "robust community fish",
+      "tangs",
+      "larger angelfishes",
+      "triggerfish",
+      "groupers",
+      "hardy corals"
+    ],
+    "avoidWith": [
+      "other Thalassoma wrasses",
+      "ornamental shrimp",
+      "small crabs",
+      "small or timid fish",
+      "fan worms",
+      "feather dusters",
+      "small ornamental snails"
+    ]
   },
   "media": {
     "primaryImage": "christmas_wrasse.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Christmas Wrasse.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "An active Indo-Pacific reef wrasse with bold green, pink and turquoise barring. Generally hardy once settled but tends to be boisterous, predates on small invertebrates and is widely considered a notorious jumper.",
+  "careNotes": "Best housed in a long, well-established saltwater aquarium with open swimming space along the front and a fine sand bed at least 5 cm deep — like other Thalassoma wrasses, it has been observed to dive into and sleep under the sand at night and when startled, so a coarse or thin substrate is generally considered unsuitable. A tightly fitting lid is widely recommended; the species has been repeatedly reported to jump from open-top tanks. Generally considered semi-aggressive: it tends to be peaceful enough with larger or robust tankmates but has been known to bully smaller or more timid fish, and is best kept singly or as a mated pair rather than with other Thalassoma. Reef compatibility is generally regarded as 'with caution' — it does not usually harm corals or clams directly and may help control fireworms and pyramidellid snails, but it has been reported to predate on ornamental shrimp, small crabs, fan worms and other small motile invertebrates as it grows. Like most wrasses it is a protogynous (female-first) sequential hermaphrodite. Sources give noticeably different sizing and tank-size recommendations (BlueZoo Aquatics cited ~12 inches / 100 US gal, while ReefApp and FishBase cite 30 cm / ~1000 L); given its 30 cm adult length, active swimming habit and explicit notes about needing 'plenty of swimming space', the larger 1000 L value with a 180 cm minimum length was adopted in line with the playbook's tank-size rule. Temperature ranges across sources were 22–26°C (LiveAquaria/BlueZoo style guidance) through to ~26°C (ReefApp); a blended 24–27°C window is recommended.",
+  "breedingNotes": "Breeding in home aquaria has not been meaningfully documented and is generally considered impractical at hobbyist scale. In the wild the species spawns in pairs during the day and, like other wrasses, is a protogynous hermaphrodite — females transitioning to terminal-phase males under social and size cues.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/",
+      "accessedDate": "2026-06-10",
+      "notes": "LiveAquaria's catalogue page indexed under 'Christmas Wrasse' (product 2675) is actually for Halichoeres claudia, not Thalassoma trilobatum — the trade name is shared between the two species. Used as the slice's nominal primary source per source-urls.json, but high-stakes fields were taken from sources that explicitly identify Thalassoma trilobatum (BlueZoo Aquatics, ReefApp, FishBase, Fish Laboratory)."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Thalassoma-trilobatum.html",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked taxonomy (Labridae, Eupercaria), Indo-Pacific distribution (East Africa to Pitcairn, Ryukyu to Tonga and Rapa), max length (30 cm TL), depth range (0–10 m), reef-associated shallow habitat, diet of crustaceans and molluscs, and IUCN Least Concern status. Reef2Reef wiki (designated secondary in source-urls.json) returned 403 and was substituted with FishBase per playbook fallback rule."
+      },
+      {
+        "name": "BlueZoo Aquatics",
+        "url": "https://www.bluezooaquatics.com/productDetail.asp?did=1&pid=1288&cid=289",
+        "accessedDate": "2026-06-10",
+        "notes": "Confirmed scientific name Thalassoma trilobatum and trade name 'Trilobatum Wrasse'. Provided ~12 in adult size, 'Intermediate' care level, 'Aggressive' temperament rating, 'Carnivore' diet, and reef compatibility 'No' (averaged with other sources to 'with caution' / semi-aggressive). Cited a 100 US gal (~380 L) minimum tank size, which was overridden upward to 1000 L per playbook tank-size rule given the species' size, active habit and contradicting larger source figures."
+      },
+      {
+        "name": "ReefApp",
+        "url": "https://reefapp.net/en/encyclopedia/thalassoma-trilobatum",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked 30 cm adult size, 1000 L minimum tank, ~26°C target temperature, SG ~1.026, jumping risk, sand-diving behaviour, protogynous sex change, and predation on small fish, shrimp and crabs. Adopted as the principal source for the tank-volume recommendation."
+      },
+      {
+        "name": "Fish Laboratory",
+        "url": "https://www.fishlaboratory.com/fish/christmas-wrasse/",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked jumping behaviour, 5–8 year captive lifespan range, sand-burrowing behaviour, protogynous hermaphroditism, and feeding regime (multiple small meals per day). Sourced lifespan range used."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
-    "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
-    "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "Spawning has not been meaningfully achieved in home aquaria. Protogynous hermaphrodite — females may transition to terminal-phase males under social and size cues.",
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "with caution",
+    "escapeRisk": "high",
+    "venomousSpines": false,
+    "sexChange": "protogynous",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": true,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
     "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
     "symbioticShrimpPartner": null,
     "mouthbrooder": null,
     "constantGrazer": null,
@@ -92,6 +180,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-10"
 }
