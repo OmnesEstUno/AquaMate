@@ -5,12 +5,14 @@
   "taxon": "fish",
   "waterType": "freshwater",
   "commonName": "OB Peacock Cichlid (Aulonocara)",
-  "scientificName": "Aulonocara stuartgranti (hybrid trade strain)",
+  "scientificName": "Aulonocara stuartgranti",
   "alsoKnownAs": [
     "OB Peacock",
     "Marmalade Peacock",
     "Orange Blotch Peacock",
-    "OB Aulonocara"
+    "OB Aulonocara",
+    "OB Peacock (hybrid)",
+    "Aulonocara sp."
   ],
   "category": "Cichlid",
   "taxonomy": {
@@ -18,21 +20,47 @@
     "order": "Cichliformes"
   },
   "nativeRange": {
-    "regions": ["Africa", "East Africa"],
-    "countries": ["Malawi"],
+    "regions": [
+      "Africa",
+      "East Africa"
+    ],
+    "countries": [
+      "Malawi"
+    ],
     "habitat": "Wild base species (A. stuartgranti, A. jacobfreibergi, and related Aulonocara spp.) inhabit the sediment-sand interface zones and rocky-sand transition areas of Lake Malawi, typically along the lake floor where they hunt invertebrates using their lateral-line pit system. OB color-form individuals are captive-bred hybrids and do not occur in the wild.",
     "biotope": "Rift Lake",
-    "depthRangeM": { "min": 3, "max": 20 }
+    "depthRangeM": {
+      "min": 3,
+      "max": 20
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 28 },
-    "pH": { "min": 7.8, "max": 8.6 },
-    "gH": { "min": 10, "max": 20 },
-    "kH": { "min": 8, "max": 15 },
+    "temperatureC": {
+      "min": 24,
+      "max": 28
+    },
+    "pH": {
+      "min": 7.8,
+      "max": 8.6
+    },
+    "gH": {
+      "min": 10,
+      "max": 20
+    },
+    "kH": {
+      "min": 8,
+      "max": 15
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 10.0, "max": 15.0 },
-  "lifespanYears": { "min": 6, "max": 10 },
+  "adultSizeCm": {
+    "min": 10,
+    "max": 15
+  },
+  "lifespanYears": {
+    "min": 6,
+    "max": 10
+  },
   "tank": {
     "minVolumeLiters": 200,
     "minLengthCm": 120,
@@ -94,7 +122,7 @@
     ]
   },
   "summary": "The OB (Orange Blotch) Peacock is a captive-bred hybrid color form derived from Aulonocara stuartgranti and related species. 'OB' is a trade name, not a wild type — males display vivid iridescent blues/oranges while OB patterning (marbled orange-black) appears primarily in females. Suitable for Lake Malawi community tanks with peaceful haplochromines.",
-  "careNotes": "OB Peacock Cichlids are among the most popular of the Malawi peacock/haplochromine cichlids in the aquarium trade, but the name 'OB Peacock' describes a selectively bred or hybridised color morph rather than a distinct wild species. 'OB' stands for Orange Blotch — a color pattern originally found in female Metriaclima (formerly Pseudotropheus) zebra Mbuna and introduced into the Aulonocara lineage through deliberate hybridisation, most commonly with A. stuartgranti or A. jacobfreibergi as the base species. The result is a line where females and occasional males display a vivid marbled orange and black patterning; OB males are rare and prized since the OB gene (carried on the X chromosome) normally only presents in females (XX). Males of OB lines typically display the standard brilliant iridescent blue-yellow-orange peacock coloration of the base species.\n\nBecause OB Peacocks are hybrids, their exact scientific designation varies by breeder and lineage; labeling them under A. stuartgranti is a trade convention reflecting the most common base stock, not a strict taxonomic classification. Aquarists interested in preserving wild Aulonocara genetics should seek out species-pure lines from specialist breeders.\n\nTank setup should replicate a Lake Malawi rocky-sand biotope: hard, alkaline water (pH 7.8–8.6, gH 10–20, kH 8–15, temperature 24–28°C), a fine sand substrate at least 3 cm deep for foraging, and rock stacks along the back providing territory and retreat. A 200-litre tank minimum with 120 cm footprint is recommended; larger is better for managing male aggression. Keep one male per Aulonocara species; multiple males of visually similar species will fight. A ratio of 1 male to 3–5 females per species is optimal. The 'Malawi bloat' disease risk (internal bacterial/parasitic infection linked to high-protein mammal foods) means the diet must emphasise quality cichlid pellets and invertebrate-based frozen foods rather than beef heart. Water changes of 20–30% weekly maintain the buffering capacity and low nitrates critical for rift lake cichlids.",
+  "careNotes": "OB Peacock Cichlids are among the most popular of the Malawi peacock/haplochromine cichlids in the aquarium trade, but the name 'OB Peacock' describes a selectively bred or hybridised color morph rather than a distinct wild species. 'OB' stands for Orange Blotch — a color pattern originally found in female Metriaclima (formerly Pseudotropheus) zebra Mbuna and introduced into the Aulonocara lineage through deliberate hybridisation, most commonly with A. stuartgranti or A. jacobfreibergi as the base species. The result is a line where females and occasional males display a vivid marbled orange and black patterning; OB males are rare and prized since the OB gene (carried on the X chromosome) normally only presents in females (XX). Males of OB lines typically display the standard brilliant iridescent blue-yellow-orange peacock coloration of the base species.\n\nBecause OB Peacocks are hybrids, their exact scientific designation varies by breeder and lineage; labeling them under A. stuartgranti is a trade convention reflecting the most common base stock, not a strict taxonomic classification. Aquarists interested in preserving wild Aulonocara genetics should seek out species-pure lines from specialist breeders.\n\nTank setup should replicate a Lake Malawi rocky-sand biotope: hard, alkaline water (pH 7.8–8.6, gH 10–20, kH 8–15, temperature 24–28°C), a fine sand substrate at least 3 cm deep for foraging, and rock stacks along the back providing territory and retreat. A 200-litre tank minimum with 120 cm footprint is recommended; larger is better for managing male aggression. Keep one male per Aulonocara species; multiple males of visually similar species will fight. A ratio of 1 male to 3–5 females per species is optimal. The 'Malawi bloat' disease risk (internal bacterial/parasitic infection linked to high-protein mammal foods) means the diet must emphasise quality cichlid pellets and invertebrate-based frozen foods rather than beef heart. Water changes of 20–30% weekly maintain the buffering capacity and low nitrates critical for rift lake cichlids.\n\n[Merge consolidation 2026-06-10]: Consolidated with retired entry fw-fish-423 (OB Peacock (hybrid) / Aulonocara sp.). OB Peacock is an X-linked Mbuna-origin hybrid trade brand commonly assigned the placeholder name A. stuartgranti; not a discrete species.",
   "breedingNotes": "OB Peacock Cichlids are maternal mouthbrooders. After spawning on open sand (females are attracted to the male's egg-spot-patterned anal fin during the spawning 'dummy egg' display), the female collects and incubates 15–60 eggs orally for approximately 21–28 days at 26°C. Females should not be stripped early unless disease is a concern; natural holding to at least day 18 produces the most developed fry. The female does not feed during mouthbrooding and may become emaciated through multiple broods; ensure she can recover condition between spawns. Fry are released as free-swimming, fully-formed juveniles able to take micro-pellets, finely crushed cichlid food, and brine shrimp nauplii immediately. A separate breeding/grow-out tank reduces fry predation. Sexing juveniles is difficult until males develop adult coloration at approximately 6–12 months. In OB lines, females inheriting the OB gene will display the orange-blotch pattern; the rare OB male (carrying two OB alleles) commands premium prices in the trade.",
   "sources": {
     "primary": {

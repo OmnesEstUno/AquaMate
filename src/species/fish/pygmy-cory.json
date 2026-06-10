@@ -5,34 +5,69 @@
   "taxon": "fish",
   "waterType": "freshwater",
   "commonName": "Pygmy Cory",
-  "scientificName": "Corydoras pygmaeus",
-  "alsoKnownAs": ["Pygmy Corydoras", "Pygmy Catfish", "Micro Cory"],
+  "scientificName": "Gastrodermus pygmaeus",
+  "alsoKnownAs": [
+    "Pygmy Corydoras",
+    "Pygmy Catfish",
+    "Micro Cory",
+    "Gastrodermus pygmaeus",
+    "Pygmy Cory",
+    "Corydoras pygmaeus (pre-2024 name)"
+  ],
   "category": "Catfish",
   "taxonomy": {
     "family": "Callichthyidae",
     "order": "Siluriformes"
   },
   "nativeRange": {
-    "regions": ["South America"],
-    "countries": ["Brazil"],
+    "regions": [
+      "South America"
+    ],
+    "countries": [
+      "Brazil"
+    ],
     "habitat": "Slow-moving streams and tributaries with sandy substrate and leaf litter",
     "biotope": "Whitewater",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 26 },
-    "pH":           { "min": 6.0, "max": 7.5 },
-    "gH":           { "min": 2, "max": 15 },
-    "kH":           { "min": 2, "max": 10 },
-    "salinity":     null
+    "temperatureC": {
+      "min": 22,
+      "max": 26
+    },
+    "pH": {
+      "min": 6,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 2,
+      "max": 15
+    },
+    "kH": {
+      "min": 2,
+      "max": 10
+    },
+    "salinity": null
   },
-  "adultSizeCm": { "min": 2.0, "max": 3.0 },
-  "lifespanYears": { "min": 3, "max": 5 },
+  "adultSizeCm": {
+    "min": 2,
+    "max": 3
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 60,
     "minLengthCm": 60,
     "swimZone": "mid",
-    "decorPreferences": ["fine sand substrate", "leaf litter", "driftwood", "dense planting", "open mid-water swimming space"],
+    "decorPreferences": [
+      "fine sand substrate",
+      "leaf litter",
+      "driftwood",
+      "dense planting",
+      "open mid-water swimming space"
+    ],
     "minSandDepthCm": null
   },
   "careLevel": "intermediate",
@@ -44,8 +79,21 @@
     "temperament": "peaceful",
     "grouping": "schooling",
     "minGroupSize": 10,
-    "goodWith": ["small peaceful tetras", "small rasboras", "dwarf cichlids", "otocinclus", "small livebearers", "other nano fish"],
-    "avoidWith": ["angelfish", "gouramis", "larger catfish", "any fish large enough to swallow them", "boisterous or fin-nipping species"]
+    "goodWith": [
+      "small peaceful tetras",
+      "small rasboras",
+      "dwarf cichlids",
+      "otocinclus",
+      "small livebearers",
+      "other nano fish"
+    ],
+    "avoidWith": [
+      "angelfish",
+      "gouramis",
+      "larger catfish",
+      "any fish large enough to swallow them",
+      "boisterous or fin-nipping species"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -53,7 +101,7 @@
     "imageCandidates": null
   },
   "summary": "One of the smallest Corydoras species at 2–3 cm, the Pygmy Cory is unusual among cories for schooling actively in mid-water rather than the bottom. Groups of 10+ are generally advised for confident behavior.",
-  "careNotes": "Unlike most bottom-dwelling Corydoras, the Pygmy Cory tends to school at mid-water level, making open swimming space above the substrate important. Groups of 10 or more are generally advised — smaller groups have been known to be shy and retreat to cover. Their mouths are tiny and standard sinking wafers are often too large; crushed or micro-sized foods are needed. They are sensitive to copper-based medications. A fine sand substrate is preferred, though they spend less time foraging the bottom than larger cory species. They are facultative air breathers and have been documented periodically surfacing to gulp air. Sharp pectoral spines can catch in nets — use a container to catch them. Sister species C. hastatus (Hasta Cory) and C. habrosus (Salt-and-Pepper Cory) share the tiny-body and mid-water schooling trait; C. hastatus is distinguished by a caudal-peduncle spot rather than a lateral stripe.",
+  "careNotes": "Unlike most bottom-dwelling Corydoras, the Pygmy Cory tends to school at mid-water level, making open swimming space above the substrate important. Groups of 10 or more are generally advised — smaller groups have been known to be shy and retreat to cover. Their mouths are tiny and standard sinking wafers are often too large; crushed or micro-sized foods are needed. They are sensitive to copper-based medications. A fine sand substrate is preferred, though they spend less time foraging the bottom than larger cory species. They are facultative air breathers and have been documented periodically surfacing to gulp air. Sharp pectoral spines can catch in nets — use a container to catch them. Sister species C. hastatus (Hasta Cory) and C. habrosus (Salt-and-Pepper Cory) share the tiny-body and mid-water schooling trait; C. hastatus is distinguished by a caudal-peduncle spot rather than a lateral stripe.\n\n[Merge consolidation 2026-06-10]: Consolidated with retired entry fw-fish-453 (Pygmy Corydoras / Gastrodermus pygmaeus). Reclassified Corydoras pygmaeus → Gastrodermus pygmaeus by Dias et al. (2024); trade name \"Pygmy Cory\" retained.",
   "breedingNotes": "Has been bred in captivity with moderate success. Conditioning with live and frozen foods encourages spawning. A temperature drop simulating a cool-season rain event can trigger spawning. The female holds 2–4 eggs between her pelvic fins for fertilization, then attaches them to plant leaves, glass, or other surfaces. Clutches are typically around 50–100 eggs; eggs hatch in approximately 3–5 days. Fry are very small and require infusoria or commercial fry foods initially, graduating to micro worms and Artemia nauplii.",
   "sources": {
     "primary": {
