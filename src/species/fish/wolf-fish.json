@@ -1,0 +1,158 @@
+{
+  "id": "fw-fish-550",
+  "slug": "wolf-fish",
+  "kind": "fauna",
+  "taxon": "fish",
+  "waterType": "freshwater",
+  "commonName": "Wolf Fish",
+  "scientificName": "Hoplias malabaricus",
+  "alsoKnownAs": [
+    "Trahira",
+    "Tiger Tetra",
+    "South American Wolf Fish"
+  ],
+  "category": "Predatory Fish",
+  "taxonomy": {
+    "family": "Erythrinidae",
+    "order": "Characiformes"
+  },
+  "nativeRange": {
+    "regions": ["South America", "Central America"],
+    "countries": ["Brazil", "Peru", "Colombia", "Venezuela", "Bolivia", "Paraguay", "Argentina", "Uruguay", "Ecuador", "Guyana", "Suriname", "French Guiana", "Trinidad and Tobago", "Costa Rica", "Panama"],
+    "habitat": "Diverse freshwater habitats: slow-moving rivers, streams, flooded plains, swamps, ponds, irrigation ditches, and seasonally flooded forest margins; prefers shallow water with dense vegetation and leaf litter where it rests motionless during the day",
+    "biotope": "Amazon / South American blackwater and whitewater lowland",
+    "depthRangeM": { "min": 0, "max": 3 }
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 20, "max": 28 },
+    "pH": { "min": 6.0, "max": 8.0 },
+    "gH": { "min": 2, "max": 25 },
+    "kH": { "min": 1, "max": 15 },
+    "salinity": null
+  },
+  "adultSizeCm": { "min": 40, "max": 65 },
+  "lifespanYears": { "min": 8, "max": 15 },
+  "tank": {
+    "minVolumeLiters": 600,
+    "minLengthCm": 180,
+    "swimZone": "bottom",
+    "decorPreferences": [
+      "large hollow driftwood or cave hides sized for a 50+ cm fish",
+      "floating plants or surface cover to dim lighting",
+      "subdued or dimmable lighting — bright light causes stress",
+      "heavy filtration (oversized canister or sump) to handle high bioload",
+      "tight-fitting lid; low water line to reduce jump risk",
+      "minimal or robust hardscape — wolf fish rearrange décor"
+    ],
+    "minSandDepthCm": null
+  },
+  "careLevel": "advanced",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Strict piscivore in the wild; adults consume whole fish almost exclusively. In captivity juveniles may accept prawns, earthworms, whitebait, lance fish, cockles, and frozen meaty foods, but many adults refuse anything other than live or freshly killed fish. Transition away from live feeders should begin early — established adults often never accept prepared alternatives. Live feeder fish carry significant disease and parasite risk and are discouraged; silversides, smelt, and large earthworms are safer frozen/thawed substitutes. Feed only when fish actively hunts (typically dusk/night); overfeeding rapidly degrades water quality."
+  },
+  "compatibility": {
+    "temperament": "aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": [],
+    "avoidWith": [
+      "any fish small enough to fit in its mouth",
+      "conspecifics (Hoplias malabaricus) — extreme aggression and cannibalism",
+      "other Erythrinidae",
+      "all invertebrates",
+      "tankmates in general — species-only tank strongly recommended"
+    ]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": [
+      {
+        "url": "https://www.fishbase.se/images/species/Hopma_u2.jpg",
+        "source": "FishBase",
+        "sourceType": "fishbase",
+        "license": "All rights reserved",
+        "notes": "Standard FishBase species image; check current availability on FishBase summary page before uploading.",
+        "recommended": true
+      }
+    ]
+  },
+  "summary": "The Wolf Fish (Hoplias malabaricus) is a large, ambush-predator characiform reaching 50–65 cm, native to South and Central America. An obligate piscivore and air-breather, it is strictly a specialist-only fish: handler-bite hazard, live-feeder dependent, and best kept alone in a species-only tank of 600 L or more.",
+  "careNotes": "Hoplias malabaricus is one of the most widespread predatory characiforms in South America, occurring across virtually every major river basin from Costa Rica to Argentina. Despite its frequency in the trade it is entirely unsuitable for the general hobbyist. Adults reach 50–65 cm TL and carry a set of large, recurved teeth capable of inflicting serious wounds on handlers — heavy gloves and a large net are mandatory for all maintenance. The fish should never be hand-fed.\n\nHousing requirements are substantial. A minimum footprint of 180 cm × 60 cm (roughly 600 L) is advisable for a single adult; many experienced keepers recommend larger. Oversized filtration is essential — the species produces a heavy bioload from its all-protein diet, and nitrates climb rapidly in undersized systems. Twice-weekly water changes of 25–30% are typical. A solid, gapless lid is non-negotiable: wolf fish are strong, nocturnal swimmers that breach tanks readily, and escape at night is a common cause of loss.\n\nWater chemistry tolerance is broad (pH 6.0–8.0, temperature 20–28°C, soft to moderately hard), matching the wide natural range across both acidic Amazonian blackwaters and harder whitewater systems. Extremes and rapid swings should nonetheless be avoided.\n\nThe species possesses a modified swim bladder that functions as an accessory air-breathing organ, allowing it to survive in oxygen-depleted, stagnant water and even cross short distances over wet ground. In the aquarium this manifests as regular surfacing behaviour; unobstructed access to the water surface must be maintained.\n\nFeeding is the most challenging aspect of long-term husbandry. Wild-caught adults frequently refuse everything except live fish, and some never transition. Juveniles are more trainable: start with live earthworms, then frozen/thawed lance fish, whitebait, or smelt before the fish becomes set in its habits. Live feeder goldfish and guppies are strongly discouraged due to pathogen introduction; gut-loaded crickets, prawns, and silver-sides are preferred substitutes. Feed no more than twice per week to limit waste.\n\nJuveniles can be raised communally in size-matched groups but become violently intolerant of conspecifics at sexual maturity (~20 cm). Adults must be housed singly. No other fish reliably coexists with an adult wolf fish — tankmates are simply prey items. Do not confuse with the Black Wolf Fish (Hoplias curupira / H. macrophthalmus, reaching 1 m+) or the Red Wolf Fish (Erythrinus erythrinus, fw-fish-464, ~35 cm), which are distinct species with different care profiles.",
+  "breedingNotes": "Breeding in captivity is rarely achieved and requires a very large tank (1,500 L+). Pairs must be closely size-matched — mismatched fish will attack each other. Spawning is substrate-based; males guard eggs and newly hatched fry aggressively. Clutch sizes can exceed 10,000 eggs, resulting in enormous numbers of cannibalistic fry that must be separated by size immediately. Raising fry to adulthood is logistically demanding due to extreme aggression among siblings. Considered an advanced-to-expert level breeding project with little documentation in the hobby literature.",
+  "sources": {
+    "primary": {
+      "name": "FishBase — Hoplias malabaricus",
+      "url": "https://www.fishbase.se/summary/Hoplias-malabaricus",
+      "accessedDate": "2026-06-10",
+      "notes": "Primary taxonomic and biological reference. Confirmed: max size 65.0 cm TL, weight 3.8 kg, temperature 20–26°C, pH 6.0–8.0, distribution Central and South America (Costa Rica to Argentina), order Characiformes, family Erythrinidae, nocturnal ambush predator, adults piscivorous, juveniles invertivorous, males guard nests post-hatch."
+    },
+    "additional": [
+      {
+        "name": "Practical Fishkeeping — Predators: Hoplias, wolves of the water",
+        "url": "https://www.practicalfishkeeping.co.uk/features/predators-hoplias-wolves-of-the-water/",
+        "accessedDate": "2026-06-10",
+        "notes": "Key hobbyist care reference. Confirmed: H. malabaricus exported from Peru; mottled grey/brown coloration; juveniles active in shallow water stalking insects; largely inactive daytime; juveniles accept frozen Mysis/smelt/cocktail shrimp; adults predominantly live-fish dependent; kept as size-matched juvenile groups until sexual maturity ~20 cm; adult solitary requirement; air-breathing behaviour noted. HTTP 403 on direct fetch — data extracted via search snippet."
+      },
+      {
+        "name": "MonsterFishKeepers — Hoplias malabaricus wolf fish care thread",
+        "url": "https://www.monsterfishkeepers.com/forums/threads/hoplias-malabaricus-wolf-fish-care.304859/",
+        "accessedDate": "2026-06-10",
+        "notes": "Community husbandry data. Confirmed: realistic aquarium size ~50 cm; minimum 75-gal grow-out, 160+ gal (600 L+) for long-term housing; pH ~7.2, neutral soft water; nocturnal active swimmer requiring escape-proof lid; accepts live fish, shrimp, cockles, whitebait, lance fish; massive biofiltration required; lifespan 8–12 years cited."
+      },
+      {
+        "name": "AquaticCommunity — Wolf Fish (Hoplias malabaricus)",
+        "url": "https://www.aquaticcommunity.com/fish/wolffish.php",
+        "accessedDate": "2026-06-10",
+        "notes": "Additional care data. Confirmed: temperature 22–25°C, pH 6.5–8.0, strict carnivore, species-only recommended, large aquarium or pond required, breeding very productive (10,000+ fry), fry cannibalistic requiring size-sorting, rapid juvenile growth."
+      },
+      {
+        "name": "SeriouslyFish — Hoplerythrinus unitaeniatus (Gold Wolf Fish)",
+        "url": "https://www.seriouslyfish.com/species/hoplerythrinus-unitaeniatus/",
+        "accessedDate": "2026-06-10",
+        "notes": "Used as congeneric Erythrinidae reference for husbandry context (tank footprint convention, air-breathing behaviour, feeding difficulty, specialist-only designation). No dedicated SeriouslyFish page found for H. malabaricus as of accessed date."
+      }
+    ]
+  },
+  "fish": {
+    "breedingDifficulty": "advanced",
+    "breedingNotes": "Rarely accomplished; requires 1,500 L+ with closely size-matched pair. Male guards eggs and fry. Clutches exceed 10,000 eggs; fry are cannibalistic and must be separated immediately by size. Expert-level undertaking with limited hobby documentation.",
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": null,
+    "escapeRisk": "high",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": true,
+    "juvenileColorPhase": false,
+    "copperSensitive": null,
+    "speciesOnlyTankRecommended": true,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "live-only",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
+  },
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": null,
+  "hobbyistAdvisory": {
+    "level": "specialist-only",
+    "reason": "Reaches 50-65cm; aggressive piscivore with dangerous teeth. Single-fish species-only tank. Live-feeder dependent."
+  }
+}
