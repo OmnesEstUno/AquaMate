@@ -7,69 +7,164 @@
   "commonName": "Squirrelfish",
   "scientificName": "Sargocentron caudimaculatum",
   "alsoKnownAs": [
-    "[pending-research] Squirrelfish — multiple Holocentridae spp."
+    "Tailspot Squirrelfish",
+    "Tail Spot Squirrelfish",
+    "Silverspot Squirrelfish",
+    "White-Tail Squirrelfish",
+    "Whitetail Squirrelfish"
   ],
   "category": "Squirrelfish",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Holocentridae",
+    "order": "Holocentriformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
-    "depthRangeM": null
+    "regions": [
+      "Indo-Pacific",
+      "Red Sea",
+      "Western Indian Ocean",
+      "Central Indo-Pacific",
+      "Western Pacific"
+    ],
+    "countries": [
+      "Egypt",
+      "Saudi Arabia",
+      "South Africa",
+      "Kenya",
+      "Tanzania",
+      "Mozambique",
+      "Madagascar",
+      "Maldives",
+      "Indonesia",
+      "Philippines",
+      "Papua New Guinea",
+      "Japan",
+      "Australia",
+      "Marshall Islands",
+      "French Polynesia"
+    ],
+    "habitat": "Reef-associated species commonly found around outer reef slopes, lagoons, drop-offs, and coral heads; tends to shelter under overhangs and inside caves during the day and emerge to forage at night.",
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 2,
+      "max": 40
+    }
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
+    "temperatureC": {
+      "min": 24,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": null,
-    "salinity": null
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.026
+    }
   },
-  "adultSizeCm": null,
+  "adultSizeCm": {
+    "min": 18,
+    "max": 25
+  },
   "lifespanYears": null,
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 500,
+    "minLengthCm": 150,
+    "swimZone": "all",
+    "decorPreferences": [
+      "live rock",
+      "caves",
+      "overhangs",
+      "ledges",
+      "dim lighting",
+      "open swimming space"
+    ],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "carnivore",
+    "notes": "In the wild has been reported to feed mainly on benthic crabs, shrimps, and other small crustaceans, hunting at night. In captivity generally accepts a varied meaty diet of mysis, enriched brine shrimp, chopped marine meats, krill, and frozen carnivore preparations; newly introduced individuals sometimes need live saltwater feeder shrimp to initiate feeding. Two small feedings per day are commonly advised."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": [
+      "larger peaceful fish",
+      "other similarly-sized semi-aggressive reef fish",
+      "robust tankmates",
+      "corals (sessile)",
+      "larger ornamental invertebrates"
+    ],
+    "avoidWith": [
+      "small fish that fit in its mouth",
+      "small ornamental shrimp",
+      "small crabs",
+      "small motile invertebrates"
+    ]
   },
   "media": {
     "primaryImage": "squirrelfish.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Squirrelfish.",
-  "careNotes": null,
+  "summary": "A nocturnal Indo-Pacific squirrelfish reaching about 25 cm; bright red with a distinctive white or silver caudal-peduncle blotch. Generally hardy but tends to prey on small fish and motile invertebrates, so it is reef-safe with caution.",
+  "careNotes": "The Tailspot or Silverspot Squirrelfish is a strictly nocturnal Holocentridae species that generally hides under overhangs and inside caves during the day and emerges at dusk to forage. It tends to do best in aquariums with ample rockwork providing multiple shaded retreats, dimmed lighting (or actinic-only periods), and open swimming space. A tightly-sealed lid is generally advised as squirrelfishes have been known to startle and jump. Handling caution is warranted: Sargocentron species carry sharp, reportedly venomous preopercular and opercular spines, and their rough scales easily snag in netting — a container is generally preferred over a net for transfer. Considered reef-safe with caution; sessile corals are generally left alone, but the species has been reported to consume small fish, ornamental shrimp, small crabs, and other small motile invertebrates that can fit in its relatively large mouth. Best kept singly in most home aquaria; conspecifics or congeners can occasionally be kept together when introduced simultaneously to a sufficiently large aquarium with multiple hides, but this is not commonly attempted at home. Family-level note: closely related to the soldierfishes (Myripristinae) but generally bearing sharper, more pronounced opercular spines characteristic of the Holocentrinae subfamily. Source spread on minimum tank size is wide — Reefapp recommends 800 L for the adult size, hobby summaries cite 50 US gal (~190 L) as a trade-floor minimum, and 75–100 gal (~285–380 L) is suggested for squirrelfishes generally; 500 L was chosen as a cautious rounded figure appropriate for a 25 cm active nocturnal predator that needs both rockwork and open swimming space. Adult size estimates converge around 25 cm max TL with a common adult length nearer 18 cm. Temperature is reported across 25–29 °C in the wild (FishBase mean 27.9 °C); 24–27 °C is a typical hobby target. Sex-change behavior for this species was not confirmed in reviewed sources and is left unflagged.",
   "breedingNotes": null,
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "Reefapp.net",
+      "url": "https://reefapp.net/en/encyclopedia/sargocentron-caudimaculatum",
+      "accessedDate": "2026-06-10",
+      "notes": "Designated primary (LiveAquaria) has no current product page for Sargocentron caudimaculatum (homepage 200, candidate product slug 404). Substituted Reefapp.net as primary — provides aquarium-specific care guidance: adult size 25 cm, minimum tank ~800 L, temperament 'might be aggressive', reef-safe with caution toward invertebrates, temperature ~26 °C, SG ~1.026, nocturnal habit, and prey list (small crustaceans, krill, mysis, artemia)."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Sargocentron-caudimaculatum.html",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked taxonomy (family Holocentridae, order Holocentriformes), distribution (Red Sea and East Africa east to French Polynesia, north to Japan, south to Australia), depth range 2–40 m, max TL 25 cm (common ~18 cm), wild temperature 25–29 °C (mean 27.9 °C), nocturnal habit, and diet of benthic crabs and shrimps."
+      },
+      {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Sargocentron_caudimaculatum",
+        "accessedDate": "2026-06-10",
+        "notes": "Confirmed common names (Silverspot/Whitetail Squirrelfish), taxonomy, max size 25 cm TL, depth range 2–40 m, native distribution Indian and Pacific Oceans, nocturnal predator on crabs and shrimp, IUCN Least Concern."
+      },
+      {
+        "name": "LiveAquaria (Sammara Squirrelfish reference page)",
+        "url": "https://www.liveaquaria.com/product/3351/?pcatid=3351",
+        "accessedDate": "2026-06-10",
+        "notes": "Designated primary LiveAquaria has no species page for Sargocentron caudimaculatum, so this congeneric reference page (Neoniphon sammara) was used to cross-check hobby water parameters (72–78 °F → 22–26 °C, pH 8.1–8.4, SG 1.020–1.025), reef-safe-with-caution status, carnivore diet, and nocturnal squirrelfish husbandry conventions."
+      },
+      {
+        "name": "Reefguide.org",
+        "url": "https://reefguide.org/tailspotsquirrelfish.html",
+        "accessedDate": "2026-06-10",
+        "notes": "Reef-fish identification reference confirming Tailspot/Silverspot common names and Indo-Pacific reef habitat for Sargocentron caudimaculatum."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
+    "breedingDifficulty": "not in captivity",
     "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
-    "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
+    "conspecificAggression": "moderate",
+    "finNippy": false,
+    "reefSafe": "with caution",
+    "escapeRisk": "moderate",
+    "venomousSpines": true,
     "sexChange": null,
     "haremic": null,
     "caudalScalpel": null,
-    "nocturnal": null,
+    "nocturnal": true,
     "juvenileColorPhase": null,
     "copperSensitive": null,
     "speciesOnlyTankRecommended": null,
@@ -77,7 +172,7 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": null,
+    "feedingDifficulty": "easy",
     "symbioticShrimpPartner": null,
     "mouthbrooder": null,
     "constantGrazer": null,
@@ -92,6 +187,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-10"
 }

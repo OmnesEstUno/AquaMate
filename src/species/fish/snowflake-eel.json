@@ -7,82 +7,134 @@
   "commonName": "Snowflake Eel",
   "scientificName": "Echidna nebulosa",
   "alsoKnownAs": [
-    "[pending-research] Snowflake Eel / Snowflake Moray"
+    "Snowflake Moray",
+    "Snowflake Moray Eel",
+    "Clouded Moray",
+    "Starry Moray"
   ],
   "category": "Eel",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Muraenidae",
+    "order": "Anguilliformes"
   },
   "nativeRange": {
-    "regions": [],
+    "regions": [
+      "Indo-West Pacific",
+      "Eastern Central Pacific"
+    ],
     "countries": [],
-    "habitat": null,
-    "biotope": null,
-    "depthRangeM": null
+    "habitat": "Intertidal reef flats, shallow lagoons, and seaward reefs; shelters among rocks and corals.",
+    "biotope": "Reef",
+    "depthRangeM": { "min": 0, "max": 48 }
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
+    "temperatureC": { "min": 22, "max": 26 },
+    "pH": { "min": 8.1, "max": 8.4 },
     "gH": null,
-    "kH": null,
-    "salinity": null
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.020, "max": 1.025 }
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 70, "max": 100 },
+  "lifespanYears": { "min": 4, "max": 10 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
-    "minSandDepthCm": null
+    "minVolumeLiters": 500,
+    "minLengthCm": 150,
+    "swimZone": "bottom",
+    "decorPreferences": [
+      "plenty of live rock with caves and crevices",
+      "secure rockwork (eels rearrange decor)",
+      "open sand bed for foraging",
+      "tight, weighted, fully-sealed lid"
+    ],
+    "minSandDepthCm": 5
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "beginner",
+  "diet": {
+    "type": "carnivore",
+    "notes": "A specialised crustacean predator with pellet-like crushing teeth rather than the long fangs of piscivorous morays. Generally accepts frozen or fresh krill, shrimp, clam, squid, crab, and chunks of marine fish. Best offered with feeding tongs every 2-4 days once established; hand-feeding is discouraged because of the eel's poor eyesight and the risk of an accidental bite."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": [
+      "robust fish too large to swallow",
+      "tangs",
+      "large angelfish",
+      "groupers",
+      "triggers (compatible species)",
+      "corals and most sessile invertebrates"
+    ],
+    "avoidWith": [
+      "ornamental shrimp",
+      "small hermit crabs",
+      "decorative crabs",
+      "lobsters",
+      "small bite-sized fish",
+      "other moray eels in undersized tanks"
+    ]
   },
   "media": {
     "primaryImage": "snowflake_eel.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Snowflake Eel.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "Snowflake Eel (Echidna nebulosa) is one of the most beginner-friendly morays: smaller, less aggressive, and a crustacean specialist rather than a fish-hunter. Escape risk is severe — a tight, sealed, weighted lid is mandatory.",
+  "careNotes": "Generally considered one of the easiest moray eels to keep, the Snowflake Eel tends to be calmer and more day-active than most morays. Captive specimens commonly reach around 60-90 cm, with wild adults documented up to roughly 100 cm; mature individuals are stout and muscular and have been reported to push aside loose lids and slither out of unsecured tanks, so a tightly fitting, weighted, fully-sealed cover is mandatory. Provide a long footprint with plenty of live-rock caves, since the eel will pick a den and rearrange surrounding rockwork. Diet in the wild is dominated by crustaceans, and the species has flat pellet-like teeth (rather than predator fangs) suited to crushing shells; it generally cohabits well with tankmates too large to swallow but is NOT safe with ornamental shrimp, small hermits, decorative crabs, or other small crustaceans, which will be eaten. Considered reef-safe with caution — sessile invertebrates and corals are typically ignored, but the eel may bump or topple unsecured frags as it moves through the rockwork. Generally advised to keep around 22-26 degrees C, pH 8.1-8.4, and specific gravity 1.020-1.025. Cross-source disagreement on minimum tank size (LiveAquaria 190 L / 50 US gal, TFH 265-380 L, ReefApp 400 L) — biased upward to 500 L for adult swimming and territory needs per the playbook's tank-size rule. Vigorous filtration and a strong skimmer are advised because of the eel's messy, meat-heavy diet.",
+  "breedingNotes": "Captive breeding is not documented in the home aquarium and is generally considered impractical; pelagic leptocephalus larvae of moray eels have very long development times that have not been bridged in hobby conditions.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/product/131/?pcatid=131",
+      "accessedDate": "2026-06-10",
+      "notes": "Husbandry parameters, tank size baseline, and reef-safety stance."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Echidna-nebulosa.html",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked taxonomy (Muraenidae / Anguilliformes), max length 100 cm TL, depth range 0-48 m, Indo-West Pacific + Eastern Central Pacific distribution, nocturnal habit, crustacean diet."
+      },
+      {
+        "name": "Reef App Encyclopedia",
+        "url": "https://reefapp.net/en/encyclopedia/echidna-nebulosa",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked minimum tank size (states 400 L), temperament (calmer than most morays), and reinforced escape-risk warning (described as an 'escape specialist' able to move loose lids)."
+      },
+      {
+        "name": "Tropical Fish Hobbyist Magazine",
+        "url": "https://www.tfhmagazine.com/articles/saltwater/echidna-nebulosa",
+        "accessedDate": "2026-06-10",
+        "notes": "Tertiary cross-check for adult size (60-100 cm), tank size (70-100 US gal / ~265-380 L), and crustacean-predator diet. Confirms escape risk (muscular, lifts unsecured lids)."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
-    "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "Not bred in home aquaria; pelagic leptocephalus larval phase has not been raised in hobby conditions.",
+    "conspecificAggression": "moderate",
+    "finNippy": false,
+    "reefSafe": "with caution",
+    "escapeRisk": "high",
+    "venomousSpines": false,
     "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
-    "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": true,
+    "juvenileColorPhase": false,
+    "copperSensitive": true,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -92,6 +144,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-10"
 }

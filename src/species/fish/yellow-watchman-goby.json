@@ -7,82 +7,134 @@
   "commonName": "Yellow Watchman Goby",
   "scientificName": "Cryptocentrus cinctus",
   "alsoKnownAs": [
-    "[pending-research] Yellow Watchman Goby"
+    "Yellow Prawn Goby",
+    "Yellow Shrimp Goby",
+    "Yellow Prawn-goby"
   ],
   "category": "Goby",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Gobiidae",
+    "order": "Gobiiformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
-    "depthRangeM": null
+    "regions": ["Western Pacific"],
+    "countries": ["Japan", "Philippines", "Indonesia", "Papua New Guinea", "Australia", "Singapore", "Palau", "Micronesia", "Solomon Islands"],
+    "habitat": "Sandy areas of shallow lagoons and protected coastal bays, sharing burrows with alpheid pistol shrimps",
+    "biotope": "Lagoon",
+    "depthRangeM": { "min": 1, "max": 25 }
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
+    "temperatureC": { "min": 23, "max": 27 },
+    "pH": { "min": 8.1, "max": 8.4 },
     "gH": null,
-    "kH": null,
-    "salinity": null
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.02, "max": 1.025 }
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 8, "max": 10 },
+  "lifespanYears": { "min": 3, "max": 5 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
-    "minSandDepthCm": null
+    "minVolumeLiters": 120,
+    "minLengthCm": 75,
+    "swimZone": "bottom",
+    "decorPreferences": [
+      "fine to medium sand bed for burrowing",
+      "loose rubble and live rock to form burrow structure",
+      "open sandy areas",
+      "tight-fitting lid"
+    ],
+    "minSandDepthCm": 5
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "beginner",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Generally accepts a variety of meaty marine foods including mysis shrimp, brine shrimp, chopped table shrimp, and frozen preparations for carnivores. Best offered small meals once or twice daily; target-feeding near the burrow helps shy individuals get their share."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "peaceful",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": [
+      "clownfish",
+      "small peaceful wrasses",
+      "dartfish",
+      "small tangs",
+      "cardinalfish",
+      "peaceful basslets",
+      "pistol shrimp (Alpheus spp.)"
+    ],
+    "avoidWith": [
+      "other shrimpgobies competing for the same burrow",
+      "large aggressive predators (lionfish, groupers)",
+      "boisterous damselfish",
+      "conspecifics outside of a mated pair"
+    ]
   },
   "media": {
     "primaryImage": "yellow_watchman_goby.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Yellow Watchman Goby.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "Hardy, peaceful Western-Pacific shrimpgoby famous for its symbiosis with pistol shrimp; widely regarded as one of the most beginner-friendly saltwater gobies.",
+  "careNotes": "The Yellow Watchman Goby is commonly considered one of the best beginner saltwater fish: hardy, peaceful, reef-safe, and visually striking with its bright yellow body. It spends most of its time perched at or inside a burrow it shares with an alpheid pistol shrimp (most often Alpheus bellulus, the Tiger Pistol Shrimp, but other Alpheus species pair readily). The shrimp digs and maintains the burrow while the goby — with its superior vision — keeps watch and warns the nearly-blind shrimp of approaching threats via tail-flicks; both retreat into the burrow when alarmed. Pairing the goby with a compatible pistol shrimp is strongly recommended and produces one of the most rewarding behaviour displays in the marine hobby. Provide a fine-to-medium sand bed at least a few centimetres deep plus loose rubble or rockwork the pair can excavate beneath. A tight-fitting lid is important — like most gobies it has been known to jump, especially when startled or competing with conspecifics. Generally tolerant of other peaceful tankmates, but tends to be territorial toward other shrimpgobies and its own kind unless introduced together as a mated pair. Captive-bred individuals are increasingly available and tend to acclimate more readily than wild-caught specimens. Source spread for tank size ranged ~75–114 L (20–30 gal); 120 L chosen as a cautious round value supporting adult swimming space and the goby-shrimp burrow.",
+  "breedingNotes": "Has been bred in captivity, though commercial captive-bred availability is still building. Forms mated pairs that share a burrow; reports of substrate-spawning with male guarding the eggs.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/",
+      "accessedDate": "2026-06-10"
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Cryptocentrus-cinctus.html",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked taxonomy (family Gobiidae, order Gobiiformes), max length 10 cm SL, native range (Western Pacific: Yaeyama Islands Japan to Singapore and southern Great Barrier Reef; Palau, Truk), depth range 1-25 m, habitat (sandy lagoons, burrows with alpheid shrimps), and temperature 22-28°C."
+      },
+      {
+        "name": "Tidal Arc Aquarium Encyclopedia",
+        "url": "https://tidal-arc.com/encyclopedia/fish/yellow-watchman-goby/",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked husbandry parameters: 10 cm adult size, 23-27°C, pH 8.1-8.4, SG 1.023-1.025, dKH 8-12, peaceful temperament, reef-safe, easy care, 3-5 yr lifespan, pistol-shrimp symbiosis."
+      },
+      {
+        "name": "Nippyfish.net Yellow Watchman Goby profile",
+        "url": "https://nippyfish.net/2017/03/30/yellow-watchman-goby-cryptocentrus-cinctus/",
+        "accessedDate": "2026-06-10",
+        "notes": "Confirmed 30-gallon (~114 L) recommended minimum, peaceful-but-territorial-with-conspecifics behaviour, captive breeding status, and pistol-shrimp communication behaviour (tail-flick warning)."
+      },
+      {
+        "name": "LiveAquaria product page (retrieved via web search summary; direct URL returned 404)",
+        "url": "https://www.liveaquaria.com/",
+        "accessedDate": "2026-06-10",
+        "notes": "Direct product URL 404'd; care details (30 gal min, 72-78°F, KH 8-12, pH 8.1-8.4, SG 1.020-1.025, Tiger Pistol Shrimp Alpheus bellulus pairing, jumping risk needing tight lid) recovered via search-result snippet."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
-    "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
+    "breedingDifficulty": "difficult",
+    "breedingNotes": "Mated pairs share a burrow; substrate-spawners with paternal egg care reported. Captive breeding has been achieved but remains uncommon at commercial scale.",
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "yes",
+    "escapeRisk": "high",
+    "venomousSpines": false,
     "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
-    "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": true,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -92,6 +144,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-10"
 }

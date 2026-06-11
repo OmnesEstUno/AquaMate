@@ -7,82 +7,124 @@
   "commonName": "Powder Blue Tang",
   "scientificName": "Acanthurus leucosternon",
   "alsoKnownAs": [
-    "[pending-research] Powder Blue Tang"
+    "Powderblue Surgeonfish",
+    "Powder Blue Surgeonfish",
+    "Whitethroat Surgeonfish"
   ],
   "category": "Tang",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Acanthuridae",
+    "order": "Acanthuriformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
-    "depthRangeM": null
+    "regions": ["Indian Ocean"],
+    "countries": ["Kenya", "Tanzania", "Maldives", "Sri Lanka", "Indonesia", "Christmas Island"],
+    "habitat": "Clear coral reef flats and upper seaward slopes",
+    "biotope": "Tropical Indian Ocean reef",
+    "depthRangeM": { "min": 0, "max": 25 }
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
+    "temperatureC": { "min": 23, "max": 27 },
+    "pH": { "min": 8.1, "max": 8.4 },
     "gH": null,
-    "kH": null,
-    "salinity": null
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.020, "max": 1.025 }
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 20, "max": 25 },
+  "lifespanYears": { "min": 7, "max": 10 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 700,
+    "minLengthCm": 180,
+    "swimZone": "all",
+    "decorPreferences": [
+      "Plenty of open swimming space",
+      "Mature live rock with grazing surfaces",
+      "Strong water flow and high dissolved oxygen"
+    ],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "expert",
+  "diet": {
+    "type": "herbivore",
+    "notes": "Predominantly grazes on benthic marine algae in the wild. Generally advised to offer dried nori/marine algae sheets via veggie clip multiple times per day, plus algae-based pellets and herbivore frozen formulations. A vitamin-rich, algae-heavy diet has been linked to reduced HLLE risk."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": [
+      "Larger peaceful reef fish",
+      "Most clownfish",
+      "Most reef-safe wrasses",
+      "Reef-compatible corals and inverts"
+    ],
+    "avoidWith": [
+      "Other tangs and surgeonfish (especially Acanthurus species)",
+      "Similarly-shaped or similarly-coloured fish",
+      "Small, timid fish that cannot compete at feeding time"
+    ]
   },
   "media": {
     "primaryImage": "powder_blue_tang.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Powder Blue Tang.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "An iconic Indian Ocean surgeonfish prized for its powder-blue body and yellow dorsal. Generally considered specialist-only — highly ich-prone and aggressive toward other tangs.",
+  "careNotes": "The Powder Blue Tang is widely regarded as one of the more demanding marine aquarium fish and is generally advised only for experienced keepers with large, mature systems. Adults are commonly reported in the 20-25 cm range (FishBase lists a maximum of 54 cm TL in the wild, with a typical 19 cm). Tank recommendations vary widely between sources: LiveAquaria suggests 125 US gal (~470 L) minimum, Reeflings cites ~400 L, while specialist reef sources and our internal guidance push toward 700 L or more to accommodate long-term adult size and provide the long open swim path this active grazer requires. We have rounded up to 700 L on the cautious side. The species is notoriously prone to marine ich (Cryptocaryon irritans) and other ectoparasites; a strict quarantine protocol of at least four weeks, and ideally a tank-transfer or copper/chloroquine prophylactic regimen, is essentially mandatory before introduction. It is also susceptible to Head and Lateral Line Erosion (HLLE) when water quality slips or when diet lacks vitamin-rich marine algae. Behaviourally it is intensely aggressive toward conspecifics and other Acanthurus tangs; keep one per tank unless the system is genuinely very large. A hobbyist-suitability advisory has been set to 'specialist-only' to flag these combined risks for casual home aquarists.",
+  "breedingNotes": "Not bred in home aquaria. Wild reproduction involves paired or aggregation spawning with pelagic eggs and a long planktonic larval phase; captive breeding has not been documented at the hobby level.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/product/366/?pcatid=366",
+      "accessedDate": "2026-06-10",
+      "notes": "Direct product page hit a soft 404 on the originally-supplied URL (/product/1014/powder-blue-tang); successfully retrieved care data via the canonical product/366 URL surfaced from web search. Provided tank size, temperament, salinity, pH, kH, and quarantine guidance."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Acanthurus-leucosternon.html",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked taxonomy (Acanthuridae / Acanthuriformes), maximum size (54 cm TL wild, ~19 cm common), depth range (0-25 m), temperature preference (23-28°C), and Indian Ocean distribution."
+      },
+      {
+        "name": "Reeflings",
+        "url": "https://reeflings.com/species/acanthurus-leucosternon",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked typical aquarium adult size (~23 cm), tank size (~400 L), temperature (24-28°C), pH (8.0-8.5), specific gravity (1.023-1.025), reef-safe rating, and herbivorous diet."
+      },
+      {
+        "name": "Reef Builders",
+        "url": "https://reefbuilders.com/2014/07/07/the-powder-blue-tang-an-iconic-beauty-demanding-exceptional-care/",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked ich susceptibility, mandatory quarantine, large-territory hyperaggression, and requirement for high dissolved oxygen and mature system."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
-    "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
-    "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "Not reported to spawn in home aquaria; wild paired/aggregation spawning with pelagic larvae.",
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "yes",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": true,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": true,
+    "toxicToTank": false,
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": true,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -92,6 +134,10 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-10",
+  "hobbyistAdvisory": {
+    "level": "specialist-only",
+    "reason": "Notoriously ich-prone and HLLE-susceptible; reaches ~25 cm and needs a large, mature system (700+ L) with strict quarantine. Generally advised only for experienced marine keepers."
+  }
 }

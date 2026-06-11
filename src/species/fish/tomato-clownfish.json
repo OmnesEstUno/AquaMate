@@ -7,82 +7,150 @@
   "commonName": "Tomato Clownfish",
   "scientificName": "Amphiprion frenatus",
   "alsoKnownAs": [
-    "[pending-research] Tomato Clownfish"
+    "Bridled Clownfish",
+    "Red Clown",
+    "Bridled Anemonefish"
   ],
   "category": "Clownfish",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Pomacentridae",
+    "order": "Ovalentaria incertae sedis"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
-    "depthRangeM": null
+    "regions": [
+      "Western Pacific"
+    ],
+    "countries": [
+      "Thailand",
+      "Palau",
+      "Japan",
+      "Indonesia",
+      "Malaysia",
+      "Philippines"
+    ],
+    "habitat": "Lagoon reefs and sheltered embayments, almost always in association with the bubble-tip anemone Entacmaea quadricolor.",
+    "biotope": "Lagoon",
+    "depthRangeM": {
+      "min": 1,
+      "max": 12
+    }
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
+    "temperatureC": {
+      "min": 24,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": null,
-    "salinity": null
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": {
+    "min": 8,
+    "max": 14
+  },
+  "lifespanYears": {
+    "min": 6,
+    "max": 12
+  },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 120,
+    "minLengthCm": 90,
+    "swimZone": "all",
+    "decorPreferences": [
+      "live rock with caves and ledges",
+      "open swimming space",
+      "host anemone (Entacmaea quadricolor) optional but appreciated"
+    ],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "beginner",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Readily accepts a varied diet of marine flake, pellet, frozen mysis, frozen brine shrimp, and herbivore preparations with marine algae. Generally considered an enthusiastic feeder; offer 2-3 small feedings per day."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "semi-aggressive",
+    "grouping": "pair",
+    "minGroupSize": 1,
+    "goodWith": [
+      "tangs",
+      "wrasses",
+      "larger peaceful angelfish",
+      "dwarf angelfish",
+      "hardy reef-safe gobies",
+      "bubble-tip anemones"
+    ],
+    "avoidWith": [
+      "other clownfish species",
+      "small shy fish",
+      "slow passive feeders",
+      "conspecifics outside a bonded pair"
+    ]
   },
   "media": {
     "primaryImage": "tomato_clownfish.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Tomato Clownfish.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "A hardy, brightly red-orange Western Pacific clownfish that tends to grow larger and more territorial than ocellaris, and is commonly hosted by the bubble-tip anemone.",
+  "careNotes": "Tomato Clownfish are widely regarded as one of the hardiest and most beginner-friendly marine fish, and captive-bred individuals are abundantly available in the trade. Adults tend to grow larger than common ocellaris clownfish (females reach roughly 14 cm) and are generally known for becoming territorial once established, so a tank of at least around 120 L with open swimming space and rockwork territories is advised. They host most readily on the bubble-tip anemone (Entacmaea quadricolor) and occasionally on Heteractis crispa, but a host anemone is not required for long-term health. Generally considered reef-safe; isolated cases of nipping at LPS polyps near their host territory have been reported. Best kept singly or as a bonded pair; have been known to be aggressive toward other clownfish species and toward conspecifics introduced after one has established a territory. Sources disagree on minimum tank size (LiveAquaria 30 US gal / ~114 L; Wikipedia 20 US gal / ~76 L); given documented territoriality and adult size, the larger side has been chosen and rounded to a standard 120 L aquarium.",
+  "breedingNotes": "Has been bred extensively in captivity and is one of the more straightforward clownfish to spawn. Forms monogamous pairs that lay demersal, adhesive eggs on a flat surface near the host anemone; the male guards and fans the clutch until hatching (~7-9 days). Larvae are pelagic and require rotifers followed by enriched Artemia nauplii.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/tomato-clownfish",
+      "accessedDate": "2026-06-10"
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Amphiprion-frenatus.html",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked taxonomy (family Pomacentridae), max adult size (14 cm TL), native range (Western Pacific: Gulf of Thailand to Palau, Japan to Java), depth range (1-12 m), wild temperature range (25.4-29.1 C), and protandrous hermaphrodite biology."
+      },
+      {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Tomato_clownfish",
+        "accessedDate": "2026-06-10",
+        "notes": "Used as taxonomy/biology fallback after primary LiveAquaria URL initially 404'd; confirmed 14 cm max size, host anemones Entacmaea quadricolor and Heteractis crispa, sequential (protandrous) hermaphroditism, and aggression in mature adults."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
-    "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
-    "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "breedingDifficulty": "moderate",
+    "breedingNotes": "Pairs spawn readily in captivity on flat surfaces adjacent to a host anemone or rock; males tend the clutch, and larvae require rotifer culture for first feeding.",
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "yes",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "protandrous",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": true,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -92,6 +160,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-10"
 }

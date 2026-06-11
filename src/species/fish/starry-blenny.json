@@ -7,82 +7,148 @@
   "commonName": "Starry Blenny",
   "scientificName": "Salarias ramosus",
   "alsoKnownAs": [
-    "[pending-research] Starry Blenny"
+    "Snowflake Blenny"
   ],
   "category": "Blenny",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Blenniidae",
+    "order": "Blenniiformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
-    "depthRangeM": null
+    "regions": [
+      "Western Central Pacific",
+      "Indo-Pacific"
+    ],
+    "countries": [
+      "Philippines",
+      "Indonesia",
+      "Australia"
+    ],
+    "habitat": "Shallow, protected inshore reefs, estuaries, and sand-weed areas on rocky outcrops; tends to perch on rubble margins and coral formations.",
+    "biotope": "Tropical coral reef",
+    "depthRangeM": {
+      "min": 1,
+      "max": 15
+    }
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
+    "temperatureC": {
+      "min": 22,
+      "max": 26
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": null,
-    "salinity": null
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.020,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": {
+    "min": 12,
+    "max": 14
+  },
+  "lifespanYears": {
+    "min": 2,
+    "max": 6
+  },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 200,
+    "minLengthCm": 120,
+    "swimZone": "all",
+    "decorPreferences": [
+      "abundant live rock for perching and grazing",
+      "mature algae film on rockwork",
+      "tight-fitting lid to prevent jumping",
+      "open sand bed with rubble margins"
+    ],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "beginner",
+  "diet": {
+    "type": "herbivore",
+    "notes": "Has been documented as a near-constant algae grazer; does best in mature aquariums with abundant film/turf algae. Generally advised to supplement with dried seaweed (nori), Spirulina, and herbivore preparations to prevent it from nipping at corals when underfed."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "peaceful",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": [
+      "clownfish",
+      "chromis",
+      "dottybacks",
+      "dwarf angelfish",
+      "small wrasses",
+      "most reef-safe community fish"
+    ],
+    "avoidWith": [
+      "other blennies of similar shape",
+      "lawnmower blenny and other algae-grazing blennies",
+      "large aggressive predators",
+      "conspecifics in modest tanks (unless a mated pair)"
+    ]
   },
   "media": {
     "primaryImage": "starry_blenny.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Starry Blenny.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "Mottled brown blenny dusted with white star-like spots; a peaceful, near-constant algae grazer that does best in mature reef tanks with abundant film algae and a tight-fitting lid.",
+  "careNotes": "Generally considered a hardy, peaceful reef-safe fish that spends most of its time perched on rockwork hopping between grazing spots. Has been known to nip at SPS coral polyps and clam mantles if film/turf algae runs short, so consistent algae availability or daily seaweed supplementation is generally advised. Best kept singly unless the tank is large and a confirmed mated pair is introduced together; tends to harass other similarly-shaped blennies (lawnmower, sailfin, bicolor). Like most Salarias blennies it is a strong jumper, so a tightly-sealed lid or mesh top is essential. Sources surveyed: LiveAquaria, FishBase, and Saltwater Aquarium Blog all describe a 14 cm adult size and broadly similar water parameters; tank-size recommendations spanned 30 US gal (~114 L) at retail to 200+ L in hobbyist guides — the larger figure is used here given the species' near-constant grazing behavior and need for ample algae-covered rockwork.",
+  "breedingNotes": "Has been reported to spawn in captivity occasionally — oviparous with demersal, adhesive eggs attached via filamentous pedestals; planktonic larvae are difficult to raise outside of dedicated larviculture setups. Not a commonly captive-bred aquarium species.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/product/2263/?pcatid=2263",
+      "accessedDate": "2026-06-10",
+      "notes": "Primary husbandry source — care level, water parameters, temperament, diet, reef-safe status. Note: 30 US gal minimum quoted by retailer was treated as low-end; larger value chosen per playbook tank-size rule."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Salarias-ramosus.html",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked adult size (14 cm TL), depth range (1–15 m), taxonomy (Blenniidae, Blenniiformes), native range (Western Central Pacific), and wild temperature range (25.3–29.2 °C)."
+      },
+      {
+        "name": "Saltwater Aquarium Blog",
+        "url": "https://www.saltwateraquariumblog.com/starry-blenny-aquarium-care-guide/",
+        "accessedDate": "2026-06-10",
+        "notes": "Tertiary hobbyist source — confirmed jumping/escape risk (high, lid required), peaceful temperament, herbivore diet, lifespan up to ~6 years in captivity, and a note that grazing behavior may occasionally disturb corals."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
-    "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
-    "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "breedingDifficulty": "difficult",
+    "breedingNotes": "Pelagic larvae are challenging to raise; not commonly bred in home aquaria.",
+    "conspecificAggression": "moderate",
+    "finNippy": false,
+    "reefSafe": "with caution",
+    "escapeRisk": "high",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": true,
+    "cleanerFish": false,
+    "euryhaline": true
   },
   "crustacean": null,
   "coral": null,
@@ -92,6 +158,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-10"
 }

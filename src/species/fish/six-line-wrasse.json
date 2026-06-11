@@ -7,82 +7,130 @@
   "commonName": "Six Line Wrasse",
   "scientificName": "Pseudocheilinus hexataenia",
   "alsoKnownAs": [
-    "[pending-research] Six Line Wrasse"
+    "Sixline Wrasse",
+    "Six Stripe Wrasse",
+    "Sixstripe Wrasse",
+    "Pyjama Wrasse"
   ],
   "category": "Wrasse",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Labridae",
+    "order": "Eupercaria/misc"
   },
   "nativeRange": {
-    "regions": [],
+    "regions": ["Indo-Pacific"],
     "countries": [],
-    "habitat": null,
-    "biotope": null,
-    "depthRangeM": null
+    "habitat": "Seaward reefs and clear coastal waters with dense coral cover; typically secretive among coral branches on reef crests and slopes.",
+    "biotope": "Reef",
+    "depthRangeM": { "min": 1, "max": 35 }
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
+    "temperatureC": { "min": 24, "max": 27 },
+    "pH": { "min": 8.1, "max": 8.4 },
     "gH": null,
-    "kH": null,
-    "salinity": null
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.020, "max": 1.025 }
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 8, "max": 10 },
+  "lifespanYears": { "min": 5, "max": 10 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 150,
+    "minLengthCm": 90,
+    "swimZone": "mid",
+    "decorPreferences": [
+      "Plenty of live rock with caves and crevices for hiding and foraging",
+      "Tightly fitting lid — known jumper"
+    ],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "beginner",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Generally accepts a wide range of meaty foods including mysis, brine shrimp, finely chopped seafood, and vitamin-enriched frozen preparations. Tends to actively hunt small crustaceans, flatworms, bristle worms, and pyramidellid snails on live rock, and is often used as a natural pest-control fish for these. Best fed twice daily."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": [
+      "Tangs",
+      "Angelfish",
+      "Larger damsels",
+      "Clownfish",
+      "Hardy reef-safe species of similar or larger size"
+    ],
+    "avoidWith": [
+      "Conspecifics (other Six Line Wrasses)",
+      "Other small peaceful wrasses",
+      "Firefish and dartfish",
+      "Small gobies",
+      "Mandarin dragonets",
+      "Royal Grammas",
+      "Other timid small fish",
+      "Ornamental shrimp and small crustaceans"
+    ]
   },
   "media": {
     "primaryImage": "six_line_wrasse.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Six Line Wrasse.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "Small, vividly striped reef-safe wrasse that is hardy and easy to feed, but is commonly reported to bully smaller, more peaceful tankmates as it matures.",
+  "careNotes": "The Six Line Wrasse is generally considered a beginner-friendly reef fish: hardy, colourful, and quick to accept prepared foods. It has been widely reported to actively hunt flatworms, bristle worms, and pyramidellid snails, and is often added to reef tanks as a natural pest-control species. Despite its small adult size (roughly 8–10 cm), it tends to become increasingly territorial and is commonly reported to harass smaller, more peaceful tankmates such as firefish, small gobies, dartfish, mandarins, and even some clownfish — for this reason it is generally advised to add it last to the display and to provide plenty of rockwork so weaker tankmates can escape line-of-sight. Conspecific aggression is high; only one Six Line Wrasse should generally be kept per tank unless the system is very large. The species is a known jumper, so a tightly-fitting lid is recommended. Native to a wide Indo-Pacific range from the Red Sea east to the Tuamotu Islands and north to the Ryukyus, typically on coral-rich reef slopes between roughly 1 and 35 m depth. Like other wrasses, it is a protogynous (female-first) sequential hermaphrodite. Tank-size sources disagree (LiveAquaria suggests ~30 US gal / ~114 L while ReefApp suggests 200 L); 150 L picked as a sensible middle, biased toward the larger value to accommodate this species' active swimming and territorial nature.",
+  "breedingNotes": "Pelagic spawner in the wild; pairs broadcast eggs into the water column. Captive breeding is not commonly reported in the aquarium hobby.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/product/375/six-line-wrasse",
+      "accessedDate": "2026-06-10",
+      "notes": "Direct product page returned 404/403 on automated fetch; content cross-checked via WebSearch result summaries of the LiveAquaria listing for water parameters, diet, temperament, and reef-safety guidance."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Pseudocheilinus-hexataenia.html",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked taxonomy (Labridae), max length (10 cm TL), depth range (1–35 m), preferred temperature (24–28 °C), and native distribution."
+      },
+      {
+        "name": "Fish Laboratory",
+        "url": "https://www.fishlaboratory.com/fish/six-line-wrasse/",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked aggression toward small peaceful tankmates, lifespan (~10 years), diet, and reef-safe status."
+      },
+      {
+        "name": "ReefApp",
+        "url": "https://reefapp.net/en/encyclopedia/pseudocheilinus-hexataenia",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked tank minimum (200 L), salinity (SG 1.026), conspecific aggression, and reef-safety. Tank-size spread (114 L vs 200 L) resolved to 150 L per playbook guidance."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
-    "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
-    "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "Pelagic broadcast spawner; not commonly bred in captivity.",
+    "conspecificAggression": "high",
+    "finNippy": true,
+    "reefSafe": "yes",
+    "escapeRisk": "moderate",
+    "venomousSpines": false,
+    "sexChange": "protogynous",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -92,6 +140,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-10"
 }

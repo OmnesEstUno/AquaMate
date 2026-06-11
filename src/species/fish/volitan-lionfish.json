@@ -7,77 +7,156 @@
   "commonName": "Volitan Lionfish",
   "scientificName": "Pterois volitans",
   "alsoKnownAs": [
-    "[pending-research] Volitan Lionfish"
+    "Red Lionfish",
+    "Common Lionfish",
+    "Devil Firefish",
+    "Volitans Lionfish",
+    "Turkeyfish",
+    "Butterfly Cod"
   ],
   "category": "Lionfish",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Scorpaenidae",
+    "order": "Perciformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
-    "depthRangeM": null
+    "regions": [
+      "Indo-Pacific",
+      "Western Pacific",
+      "Central Pacific"
+    ],
+    "countries": [
+      "Indonesia",
+      "Philippines",
+      "Australia",
+      "Japan",
+      "South Korea",
+      "French Polynesia",
+      "Pitcairn Islands"
+    ],
+    "habitat": "Reef-associated; generally found on lagoon and seaward reefs from turbid inshore areas out to depths of about 50 m, where it perches on overhangs, ledges, and within crevices during the day.",
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 2,
+      "max": 55
+    }
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
+    "temperatureC": {
+      "min": 22,
+      "max": 26
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": null,
-    "salinity": null
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": {
+    "min": 25,
+    "max": 38
+  },
+  "lifespanYears": {
+    "min": 8,
+    "max": 12
+  },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 500,
+    "minLengthCm": 150,
+    "swimZone": "all",
+    "decorPreferences": [
+      "live rock",
+      "caves",
+      "ledges",
+      "overhangs",
+      "crevices",
+      "open swimming space"
+    ],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "carnivore",
+    "notes": "A meaty-food ambush predator. When first introduced, live saltwater feeder shrimp are generally advised to entice initial feeding; with patience, most specimens can be transitioned onto frozen silversides, krill, shrimp, squid, and pieces of fresh table shrimp. Has been reported to consume any tankmate small enough to swallow, including smaller fish, shrimp, and crustaceans."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": [
+      "large semi-aggressive fish",
+      "large angelfish",
+      "large tangs",
+      "groupers",
+      "triggerfish",
+      "eels"
+    ],
+    "avoidWith": [
+      "small fish",
+      "shrimp",
+      "crabs",
+      "small crustaceans",
+      "invertebrates small enough to swallow"
+    ]
   },
   "media": {
     "primaryImage": "volitan_lionfish.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Volitan Lionfish.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "The Volitan Lionfish (Pterois volitans) is a flamboyantly-finned Indo-Pacific ambush predator with highly venomous dorsal, pelvic, and anal spines. It is generally considered intermediate in difficulty but will readily eat smaller fish and shrimp.",
+  "careNotes": "The Volitan Lionfish is generally considered intermediate in difficulty and tends to adapt well to aquarium life once eating. It is a primarily crepuscular-to-nocturnal ambush predator that perches on rockwork and uses its broad pectoral fins to corner prey. Live feeder shrimp are generally advised for initial conditioning, after which most specimens can be transitioned to frozen silversides, krill, squid, and chunks of raw table shrimp; feeder goldfish should be avoided as a long-term staple due to thiaminase content and poor nutritional profile. Adults can reach roughly 38 cm in captivity (with wild records up to about 45 cm), so a tank of around 500 L (~120–150 US gal) or larger with a long footprint and a mix of caves, overhangs, and open swimming space is generally advised. Strong mechanical and biological filtration is important as lionfish are messy feeders and heavy waste producers. The dorsal (13), pelvic (2), and anal (3) spines deliver a potent venom that has been reported to cause extreme pain, swelling, and occasionally systemic symptoms; stings are rarely fatal but always warrant medical attention. Standard first aid is to remove any broken spine fragments and immerse the affected area in the hottest water that can be safely tolerated (around 43–45°C / 110–113°F, not scalding) for roughly 30 minutes to denature the heat-labile venom proteins, followed by professional medical evaluation. The species carries serious ecological concern: it is an established invasive throughout the Caribbean, Gulf of Mexico, Bahamas, Bermuda, and the U.S. East Atlantic coast from Florida to Cape Hatteras, where it has been documented to severely reduce native reef-fish recruitment. Aquarists must never release specimens to the wild under any circumstances; rehoming through a local fish store or aquarium society is the appropriate end-of-life pathway. Reef safety is rated 'with caution' — the species generally ignores corals but will actively prey on shrimp, small crustaceans, and any fish small enough to fit in its large protrusible mouth. Source notes: temperature averaged from LiveAquaria (72–78°F / 22–26°C) and FishBase (22–28°C preferred), settled at 22–26°C. Adult size averaged from LiveAquaria (15 in / 38 cm), FishBase (45.7 cm TL), and Wikipedia (up to 47 cm); written as 25–38 cm for typical captive range. Tank minimum of 500 L follows the cautious-larger rule given the species' adult size, predatory nature, and long-term housing recommendations of 180–200 US gal cited by several hobby sources.",
+  "breedingNotes": "Captive breeding is rarely reported and is considered impractical in standard home aquariums. In the wild, the species spawns approximately monthly; females release two buoyant gelatinous egg masses containing up to ~30,000 eggs per spawning event, which the male fertilizes externally. Larvae hatch within roughly 36 hours and remain pelagic for several weeks before settling. Captive reproduction would generally require dedicated species-only systems with expert-level conditioning and larval-rearing infrastructure.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/product/279/?pcatid=279",
+      "accessedDate": "2026-06-10",
+      "notes": "Volitan Lionfish (Colored) product page. Provided care level (moderate), minimum tank size (120 US gal), temperature (72–78°F), pH (8.1–8.4), dKH (8–12), specific gravity (1.020–1.025), adult size (15 in / 38 cm), diet, temperament (semi-aggressive), reef safety (with caution), and venomous-spine warning with hot-water first-aid protocol."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Pterois-volitans.html",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked maximum length (45.7 cm TL), preferred temperature range (22–28°C), depth range (2–55 m), maximum reported age (10 years), taxonomy (Scorpaenidae / Perciformes), native distribution across the Indo-Pacific, and habitat description."
+      },
+      {
+        "name": "Wikipedia – Pterois volitans",
+        "url": "https://en.wikipedia.org/wiki/Pterois_volitans",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked adult size (up to ~47 cm / 18.5 in), lifespan (~10 years), invasive range (US East Coast from Cape Hatteras through Florida, Caribbean, Bahamas, Bermuda, Brazil), reproductive biology (monthly spawning, ~30,000 eggs per mass, 36 h hatch), venom severity (13 dorsal / 2 pelvic / 3 anal spines), and ecological impact notes."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
-    "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "Broadcast spawner; aquarium breeding is rarely reported and not reliably reproducible in home systems. Dedicated species-only setups with expert-level conditioning and larval-rearing infrastructure would be required.",
+    "conspecificAggression": "high",
+    "finNippy": false,
+    "reefSafe": "with caution",
+    "escapeRisk": "low",
+    "venomousSpines": true,
     "sexChange": null,
     "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
+    "caudalScalpel": false,
+    "nocturnal": true,
+    "juvenileColorPhase": false,
     "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": null,
+    "feedingDifficulty": "moderate",
     "symbioticShrimpPartner": null,
     "mouthbrooder": null,
     "constantGrazer": null,
@@ -92,6 +171,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-10"
 }

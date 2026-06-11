@@ -7,82 +7,120 @@
   "commonName": "Stars and Stripes Puffer",
   "scientificName": "Arothron hispidus",
   "alsoKnownAs": [
-    "[pending-research] Stars and Stripes Puffer"
+    "White-Spotted Puffer",
+    "Stars and Stripes Pufferfish"
   ],
   "category": "Pufferfish",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Tetraodontidae",
+    "order": "Tetraodontiformes"
   },
   "nativeRange": {
-    "regions": [],
+    "regions": ["Indo-Pacific", "Eastern Pacific"],
     "countries": [],
-    "habitat": null,
-    "biotope": null,
-    "depthRangeM": null
+    "habitat": "Reefs, lagoons, estuaries, seagrass beds, mangrove swamps, and tide pools across the Indo-Pacific from the Red Sea and East Africa to Hawaii, and the Eastern Pacific from Baja California to Panama.",
+    "biotope": "Reef",
+    "depthRangeM": { "min": 1, "max": 50 }
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
+    "temperatureC": { "min": 22, "max": 26 },
+    "pH": { "min": 8.1, "max": 8.4 },
     "gH": null,
     "kH": null,
-    "salinity": null
+    "salinity": { "min": 1.020, "max": 1.025 }
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 45, "max": 50 },
+  "lifespanYears": { "min": 10, "max": 15 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 700,
+    "minLengthCm": 180,
+    "swimZone": "all",
+    "decorPreferences": [
+      "Open swimming space",
+      "Caves and overhangs for shelter",
+      "Robust rockwork (no fragile aquascaping)",
+      "Sand substrate"
+    ],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "expert",
+  "diet": {
+    "type": "carnivore",
+    "notes": "A benthic forager in the wild that has been documented eating molluscs, crustaceans, tunicates, sponges, corals, zoanthids, polychaete worms, echinoderms, and calcareous algae. In captivity is generally offered meaty foods such as squid, krill, clams, and hard-shelled shrimp; hard-shelled prey is important to wear down the continuously growing beak-like teeth."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": [
+      "Large semi-aggressive tankmates of similar size",
+      "Triggerfish",
+      "Large wrasses",
+      "Large angelfish"
+    ],
+    "avoidWith": [
+      "Corals and sessile invertebrates",
+      "Shrimp, crabs, and other crustaceans",
+      "Snails and other molluscs",
+      "Small or timid fish",
+      "Conspecifics"
+    ]
   },
   "media": {
     "primaryImage": "stars_and_stripes_puffer.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Stars and Stripes Puffer.",
-  "careNotes": null,
+  "summary": "A large Indo-Pacific puffer that reaches around 50 cm as an adult and is generally suited only to very large FOWLR systems; it has been reported to crush corals, snails, and crustaceans with its beak.",
+  "careNotes": "A long-lived, intelligent puffer that has been reported to recognise its keeper and develop strong personality, but its eventual adult size (around 45–50 cm) puts it well outside typical home-aquarium scope. Generally advised to plan for a tank of at least roughly 700 L (around 180 gallons) with a long footprint and plenty of open swimming space, augmented by robust rockwork providing caves and overhangs. Strictly a FOWLR (fish-only-with-live-rock) species: it has been documented nipping or consuming corals, zoanthids, tube worms, echinoderms, molluscs, and crustaceans, so it is not considered reef-safe. Like other Tetraodontidae, the flesh contains tetrodotoxin and should never be eaten; the tetrodotoxin is an edibility hazard for humans rather than a tank-water toxin, so toxicToTank is set false. Its beak-like fused teeth grow continuously and should be worn down with regular hard-shelled prey (clams, hard-shell shrimp, crab); occasional trimming may be required if the beak overgrows. Source spread on adult size: LiveAquaria states ~18 in (~46 cm) while FishBase and Wikipedia give 50 cm; the larger figure was favoured for tank-sizing decisions per the playbook's conservative-larger rule. Listed as euryhaline because adults are documented from estuaries and mangrove swamps in addition to clear reef habitat. Care level was set to 'expert' (closest enum value to the requested 'specialist-only' advisory) because of the combined demands of adult size, tank footprint, FOWLR-only constraint, and hard-shelled-prey diet, even though LiveAquaria rates baseline husbandry as 'easy'.",
   "breedingNotes": null,
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/stars-stripes-puffer",
+      "accessedDate": "2026-06-10",
+      "notes": "Primary husbandry sheet (temperament, water parameters, minimum tank, diet, care level). The originally-supplied product URL (/product/958/...) returned 404; resolved via LiveAquaria's own search to the current /products/stars-stripes-puffer slug."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Arothron-hispidus.html",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked adult size (50 cm TL), depth range (1–50 m), native distribution (Indo-West Pacific + Eastern Pacific), taxonomy (Tetraodontidae / Tetraodontiformes), and tetrodotoxin toxicity. FishBase 50 cm preferred over LiveAquaria's 18 in (~46 cm)."
+      },
+      {
+        "name": "Wikipedia — White-spotted puffer",
+        "url": "https://en.wikipedia.org/wiki/White-spotted_puffer",
+        "accessedDate": "2026-06-10",
+        "notes": "Third-source confirmation of 50 cm adult size, Indo-Pacific range, reef/lagoon/estuary/tidepool habitats, diet breadth, and tetrodotoxin presence. Also documents nocturnal and solitary behaviour."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
+    "breedingDifficulty": "not in captivity",
     "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
-    "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
-    "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "conspecificAggression": "high",
+    "finNippy": true,
+    "reefSafe": "no",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": true,
+    "juvenileColorPhase": false,
+    "copperSensitive": true,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "easy",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": true
   },
   "crustacean": null,
   "coral": null,
@@ -92,6 +130,10 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-10",
+  "hobbyistAdvisory": {
+    "level": "specialist-only",
+    "reason": "Reaches roughly 50 cm as an adult and is generally regarded as needing a tank of around 700 L (~180 gallons) with a long footprint; combined with its FOWLR-only diet of hard-shelled invertebrates, this puffer is not appropriate for a typical home setup."
+  }
 }

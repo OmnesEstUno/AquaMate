@@ -7,69 +7,157 @@
   "commonName": "Soldierfish",
   "scientificName": "Myripristis kuntee",
   "alsoKnownAs": [
-    "[pending-research] Soldierfish — multiple Holocentridae spp."
+    "Shoulderbar Soldierfish",
+    "Pearly Soldierfish",
+    "Epaulette Soldierfish",
+    "Kuntee Soldierfish",
+    "Epaulette Squirrelfish"
   ],
-  "category": "Soldierfish",
+  "category": "Squirrelfish & Soldierfish",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Holocentridae",
+    "order": "Holocentriformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
-    "depthRangeM": null
+    "regions": [
+      "Indo-Pacific",
+      "Western Pacific",
+      "Central Pacific",
+      "Indian Ocean"
+    ],
+    "countries": [
+      "East Africa (Kenya, Tanzania, Mozambique)",
+      "Maldives",
+      "Indonesia",
+      "Philippines",
+      "Japan (south)",
+      "Australia (Great Barrier Reef, Lord Howe Island)",
+      "French Polynesia",
+      "Hawaii (USA)",
+      "Fiji",
+      "Cook Islands"
+    ],
+    "habitat": "Subtidal reef flats, lagoons, and seaward reefs; shelters in caves, overhangs, and crevices during the day and emerges over the reef at night to feed on zooplankton. Often aggregates in coral-rich areas with foliaceous or cavernous growth.",
+    "biotope": "Tropical Indo-Pacific coral reef, typically 0–100 m depth",
+    "depthRangeM": {
+      "min": 0,
+      "max": 100
+    }
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
+    "temperatureC": {
+      "min": 24,
+      "max": 28
+    },
+    "pH": {
+      "min": 8.0,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": null,
-    "salinity": null
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.020,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": null,
+  "adultSizeCm": {
+    "min": 16,
+    "max": 26
+  },
   "lifespanYears": null,
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 700,
+    "minLengthCm": 180,
+    "swimZone": "mid",
+    "decorPreferences": [
+      "extensive live rock with multiple caves and overhangs",
+      "dim or shaded daytime lighting",
+      "open mid-water swimming space for nocturnal foraging",
+      "tightly fitting lid"
+    ],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Generally advised to feed a varied meaty diet — mysis, enriched brine, krill, chopped marine shrimp/fish, clams and squid — once or twice daily. Has been reported to feed on large zooplankton, crustacean larvae, and small fishes in the wild. New arrivals tend to feed most reliably shortly after lights-out; target-feeding near rockwork refuges is commonly recommended."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "semi-aggressive",
+    "grouping": "shoaling",
+    "minGroupSize": 1,
+    "goodWith": [
+      "larger peaceful community fish",
+      "tangs",
+      "larger angelfishes",
+      "wrasses (medium to large)",
+      "groupers (size-appropriate)",
+      "hard and soft corals"
+    ],
+    "avoidWith": [
+      "small dither fish (chromis, small gobies) that may be eaten",
+      "ornamental shrimp and small crustaceans",
+      "conspecifics in undersized tanks",
+      "very small juvenile fish"
+    ]
   },
   "media": {
-    "primaryImage": "soldierfish.jpg",
+    "primaryImage": null,
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Soldierfish.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "Nocturnal Indo-Pacific reef soldierfish with oversized red eyes and a dark shoulder bar. Generally peaceful toward similar-sized tankmates but tends to eat small fish and ornamental shrimp.",
+  "careNotes": "Strictly nocturnal: shelters in caves and overhangs during the day and forages over the reef once tank lights dim. A dimly lit aquarium with extensive rockwork containing several adult-sized refuges is generally advised; bright, unshaded reef lighting tends to stress this species. Programmable LED systems with dawn/dusk/moonlight modes are commonly recommended to support natural behaviour. The eyes are unusually large and delicate — net-handling should be minimised, and tapping on tank walls has been reported to startle and injure specimens.\n\nDespite the 'mostly peaceful' label sometimes applied by retailers, Myripristis kuntee is an opportunistic predator and has been reported to ingest small fishes, ornamental shrimp, and other small crustaceans, so tankmates should be chosen with adult mouth-gape in mind. Compatible with hard and soft corals; not safe with motile ornamental invertebrates. Tolerant of conspecifics in large tanks where each individual has its own daytime refuge; in undersized tanks, dominant specimens have been observed bullying smaller conspecifics out of preferred hiding spots.\n\nTrade names: 'Shoulderbar Soldierfish' and 'Pearly Soldierfish' both refer to this species, as do 'Epaulette Soldierfish/Squirrelfish' and 'Kuntee Soldierfish'. Note that 'Soldierfish' as a trade label covers many Holocentridae species across the genera Myripristis, Sargocentron and Neoniphon — this entry covers M. kuntee specifically.\n\nTank-size note: source spread was wide (CoralRealm ~600 L, Reefapp 600 L, Reeflex 5000 L public-aquarium-scale). Per the playbook's tank-size rule, biased toward a cautious round value above the hobbyist consensus to accommodate this active nocturnal predator's ~26 cm adult size and need for open swimming space at night.",
+  "breedingNotes": "Captive breeding has not been documented for the aquarium trade. Like other holocentrids, M. kuntee is a pelagic spawner with planktonic larvae, which is generally incompatible with standard home-aquarium rearing.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/",
+      "accessedDate": "2026-06-10",
+      "notes": "Primary source URL provided as the LiveAquaria root; no current species product page resolved for Myripristis kuntee. Fell back to multiple specialty hobby sources (Reefapp, CoralRealm, Reeflex) for husbandry data and to FishBase for biology and range."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Myripristis-kuntee.html",
+        "accessedDate": "2026-06-10",
+        "notes": "Taxonomy (Holocentridae, Holocentriformes), max length (26 cm TL, common 16 cm), depth range (0–100 m), Indo-Pacific native range, nocturnal habit, planktivorous wild diet (crab larvae and similar small zooplankton), preferred temperature 25.2–28.9°C."
+      },
+      {
+        "name": "CoralRealm",
+        "url": "https://www.coralrealm.com/pearly-soldierfish/",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked water-chemistry ranges (24–27.8°C, pH 8.0–8.4, SG 1.020–1.025, 8–12 dKH), tank size 160 US gal (~605 L), reef-safe with caution, predation on small fish and motile inverts."
+      },
+      {
+        "name": "Reefapp encyclopedia",
+        "url": "https://reefapp.net/en/encyclopedia/myripristis-kuntee",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked tank-size (600 L minimum), nocturnal behaviour, sensitivity to bright lighting, and net-handling/eye-damage warning."
+      },
+      {
+        "name": "Reeflex",
+        "url": "https://www.reeflex.net/tiere/5202_Myripristis_kuntee.htm",
+        "accessedDate": "2026-06-10",
+        "notes": "Outlier tank-size recommendation (5000 L public-aquarium scale) and care-level rating 'only for advanced aquarists'; documented diet of zooplankton/crustacean larvae and shoaling behaviour. Tank-size spread (600 L hobbyist sources vs 5000 L specialty) factored per playbook — picked 700 L (next allowed step above hobbyist consensus) to bias cautious for an active ~26 cm nocturnal predator."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
-    "reefSafe": null,
-    "escapeRisk": null,
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "Pelagic spawner with planktonic larvae; no documented home-aquarium breeding success.",
+    "conspecificAggression": "low",
+    "finNippy": false,
+    "reefSafe": "with caution",
+    "escapeRisk": "moderate",
     "venomousSpines": null,
     "sexChange": null,
     "haremic": null,
     "caudalScalpel": null,
-    "nocturnal": null,
+    "nocturnal": true,
     "juvenileColorPhase": null,
     "copperSensitive": null,
     "speciesOnlyTankRecommended": null,
@@ -77,7 +165,7 @@
     "monogamousPairing": null,
     "hlleSusceptible": null,
     "toxicToTank": null,
-    "feedingDifficulty": null,
+    "feedingDifficulty": "moderate",
     "symbioticShrimpPartner": null,
     "mouthbrooder": null,
     "constantGrazer": null,
@@ -92,6 +180,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-10"
 }

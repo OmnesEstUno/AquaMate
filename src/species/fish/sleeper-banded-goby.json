@@ -7,82 +7,118 @@
   "commonName": "Sleeper Banded Goby",
   "scientificName": "Amblygobius phalaena",
   "alsoKnownAs": [
-    "[pending-research] Sleeper Banded Goby"
+    "Banded Goby",
+    "Brown Banded Goby",
+    "Whitebarred Goby",
+    "Bullet Goby"
   ],
   "category": "Goby",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Gobiidae",
+    "order": "Gobiiformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
-    "depthRangeM": null
+    "regions": ["Indo-Pacific", "Western Pacific"],
+    "countries": ["Philippines", "Indonesia", "Australia", "Japan", "Micronesia", "French Polynesia"],
+    "habitat": "Coastal reefs and lagoons over sand and rubble margins of algal reefs, sometimes near seagrass beds.",
+    "biotope": "Reef",
+    "depthRangeM": { "min": 2, "max": 20 }
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
+    "temperatureC": { "min": 23, "max": 26 },
+    "pH": { "min": 8.1, "max": 8.4 },
     "gH": null,
-    "kH": null,
-    "salinity": null
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.020, "max": 1.026 }
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 10, "max": 15 },
+  "lifespanYears": { "min": 3, "max": 5 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
-    "minSandDepthCm": null
+    "minVolumeLiters": 150,
+    "minLengthCm": 90,
+    "swimZone": "bottom",
+    "decorPreferences": [
+      "deep fine sand bed",
+      "loose coral rubble",
+      "live rock with caves",
+      "open sand foraging area",
+      "tight-fitting lid"
+    ],
+    "minSandDepthCm": 5
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "beginner",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Wild diet is dominated by filamentous algae, harpacticoid copepods, ostracods, and other small infaunal crustaceans gleaned by sifting mouthfuls of sand through the gills. In captivity, generally advised to feed 3+ small meals per day of vitamin-enriched mysis, brine shrimp, herbivore pellets, and nori; specimens kept in tanks with insufficient live microfauna or algae growth have been known to emaciate over weeks despite accepting prepared foods."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "peaceful",
+    "grouping": "pair",
+    "minGroupSize": 1,
+    "goodWith": ["clownfish", "small wrasses", "cardinalfish", "firefish", "blennies", "reef-safe invertebrates"],
+    "avoidWith": ["other Amblygobius gobies", "aggressive dottybacks", "large predatory fish", "triggers", "groupers"]
   },
   "media": {
     "primaryImage": "sleeper_banded_goby.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Sleeper Banded Goby.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "A peaceful sand-sifting goby with brown vertical bands on a pale body, well regarded for cleaning detritus from fine sand beds in established reef aquaria.",
+  "careNotes": "Generally considered a beginner-friendly sand-sifter and one of the best aquarium species for maintaining a clean, oxygenated sand bed. Constantly takes mouthfuls of substrate and expels it through the gills, so a fine aragonite sand bed of at least 5 cm depth is generally advised; coarse crushed coral is poorly suited. Active sifting can create sandstorms that settle on nearby corals and irritate sensitive SPS or anemones — placing corals slightly elevated or away from the open sand zone tends to help. Has been reported as an excellent jumper; a tight-fitting lid or mesh top is strongly recommended. Tends to be peaceful with most tankmates but is territorial toward conspecifics and other Amblygobius species; best kept singly or as a male/female pair in tanks under ~400 L. A well-established system with a mature pod population and some film/turf algae growth is generally advised, as specimens in sterile or newly cycled tanks frequently emaciate over time even when accepting prepared foods. Cross-source spread on tank size was wide (LiveAquaria ~110 L / 30 gal; ReefApp 300 L; AquaHoy ~110 L for a pair); 150 L chosen as a cautious middle ground that gives the pair enough sand-bed footprint. Wild-study maximum lifespan was reported at ~14 months but captive specimens are commonly reported to live several years.",
+  "breedingNotes": "Forms monogamous pairs in the wild; males construct and guard burrows containing demersal egg masses on a roughly semilunar spawning cycle. Captive spawning has been reported occasionally in mature systems but rearing the planktonic larvae is difficult and not routinely accomplished by home aquarists.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/product/206/sleeper-banded",
+      "accessedDate": "2026-06-10",
+      "notes": "Primary trade source. Direct product URL returned 404 on fetch; data sourced via WebSearch result snippet of the same LiveAquaria product page (product 206). Confirms 30 gal min tank, 72-78°F, pH 8.1-8.4, dKH 8-12, SG 1.020-1.025, reef-safe, easy care, jumping risk."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Amblygobius-phalaena.html",
+        "accessedDate": "2026-06-10",
+        "notes": "Taxonomic authority. Confirms Gobiidae/Gobiiformes, max length 15.0 cm TL, depth 2-20 m (max 52 m), Indo-Pacific distribution, monogamous pair behavior, sand-sifting feeding mode."
+      },
+      {
+        "name": "ReefApp",
+        "url": "https://reefapp.net/en/lex/details/amblygobius-phalaena",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-check secondary. Reports 15 cm adult, 300 L minimum, ~26°C, SG 1.026, reef-safe, jumping risk, burrow depth needs body-length + 3 cm — wider tank-size recommendation than retail sources."
+      },
+      {
+        "name": "AquaHoy",
+        "url": "https://aquahoy.com/sleeper-banded-goby-amblygobius-phalaena-care-feeding-reproduction/",
+        "accessedDate": "2026-06-10",
+        "notes": "Tertiary care guide. Confirms 22-26°C, pH 8.1-8.4, SG 1.020-1.025, sand bed 5-7 cm minimum, 110 L for a pair, peaceful but territorial with conspecifics, frequent small feedings recommended, wild lifespan ~14 months but multi-year in captivity."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
-    "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
-    "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "breedingDifficulty": "difficult",
+    "breedingNotes": "Pairs form readily and spawn in burrows, but raising the planktonic larvae through metamorphosis is challenging and rarely achieved by home aquarists.",
+    "conspecificAggression": "moderate",
+    "finNippy": false,
+    "reefSafe": "yes",
+    "escapeRisk": "high",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": false,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": true,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": true,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -92,6 +128,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-10"
 }

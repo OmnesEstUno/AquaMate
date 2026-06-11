@@ -7,82 +7,128 @@
   "commonName": "Porcupine Puffer",
   "scientificName": "Diodon holocanthus",
   "alsoKnownAs": [
-    "[pending-research] Porcupine Puffer (Long-Spined)"
+    "Long-Spined Porcupinefish",
+    "Longspined Porcupinefish",
+    "Balloonfish",
+    "Spiny Puffer"
   ],
   "category": "Pufferfish",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Diodontidae",
+    "order": "Tetraodontiformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
-    "depthRangeM": null
+    "regions": ["Indo-Pacific", "Western Atlantic", "Eastern Atlantic", "Caribbean"],
+    "countries": ["Sri Lanka", "Philippines", "Kenya", "Japan", "Australia", "Brazil"],
+    "habitat": "Coral and rocky reefs, lagoons, estuaries, and soft/muddy bottoms in tropical and subtropical waters; commonly observed sheltering in caves and ledges by day.",
+    "biotope": "Reef",
+    "depthRangeM": { "min": 2, "max": 200 }
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
+    "temperatureC": { "min": 22, "max": 27 },
+    "pH": { "min": 8.1, "max": 8.4 },
     "gH": null,
-    "kH": null,
-    "salinity": null
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.020, "max": 1.025 }
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 30, "max": 50 },
+  "lifespanYears": { "min": 10, "max": 15 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
+    "minVolumeLiters": 700,
+    "minLengthCm": 180,
+    "swimZone": "all",
+    "decorPreferences": [
+      "Live rock with caves and ledges for daytime refuge",
+      "Open swimming space for active mid-water cruising",
+      "Sand substrate (fine to medium grain)"
+    ],
     "minSandDepthCm": null
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Meaty foods are the staple — krill, squid, clams, mussel, prawns, and hard-shelled shrimp. Hard-shelled prey is essential because the fused beak grows continuously and must be worn down to prevent overgrowth; offer whole shell-on shrimp, snails, and crab pieces several times per week. Feed small amounts 2-3 times daily for juveniles, less often for adults. Avoid floating foods to discourage air-gulping, which can cause buoyancy problems."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": [
+      "Larger angelfish",
+      "Tangs and surgeonfish of similar size",
+      "Triggerfish",
+      "Large wrasses",
+      "Lionfish (in FOWLR setups)"
+    ],
+    "avoidWith": [
+      "Small peaceful fish (gobies, blennies, cardinalfish)",
+      "All ornamental invertebrates (shrimp, crabs, snails, starfish)",
+      "Corals and clams (inverts will be eaten or nipped)",
+      "Slow long-finned tankmates (potential fin-nipping)",
+      "Conspecifics in modest tanks"
+    ]
   },
   "media": {
     "primaryImage": "porcupine_puffer.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Porcupine Puffer.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "Charismatic, dog-like saltwater puffer that recognises its keeper. Grows large and is not reef-safe; suits big fish-only or FOWLR systems with hard-shelled foods to wear down its continuously-growing beak.",
+  "careNotes": "Porcupine Puffers are intelligent, personable fish that quickly learn to recognise their owners and beg at the glass. They are not reef-safe — they readily crunch shrimp, crabs, snails, urchins, and will sample corals and clams — so plan on a fish-only or FOWLR system. Their fused beak (four teeth fused into a parrot-like crushing plate) grows throughout life and must be worn down by offering hard-shelled foods (whole shell-on shrimp, mussels in shell, crab pieces, snails) several times per week; an overgrown beak can prevent feeding and is hard to correct. Adults are generally reported to reach 30 cm in aquaria but can attain 50 cm total length in the wild, so a tank with a long footprint (around 180 cm / ~700 L) is generally advised for a full-grown specimen. They produce considerable waste — oversize the protein skimmer and plan weekly water changes of around 20%. Lighting should be raised gradually as the species is easily startled. When threatened or stressed they inflate by swallowing water, and chronic stress is unhealthy, so avoid forcing this behaviour. Like all diodontids, the skin and viscera contain tetrodotoxin — this is a human consumption hazard rather than a routine tankmate hazard, but stressed/dying individuals can release toxins into closed systems, hence the toxicToTank flag. Source notes: LiveAquaria gives a 12\" / 30 cm adult size and 180 gal minimum, while FishBase reports up to 50 cm total length in the wild; FishKeeper UK and Wikipedia split the difference. Tank-size recommendations across sources span 380-700 L; we biased toward the larger end given adult swimming demands.",
+  "breedingNotes": "Not commercially bred in captivity. Spawning has been observed in the wild (pelagic eggs scattered in open water) but is not documented in home aquaria. Sexing is not reliably possible by external morphology.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/porcupine-puffer",
+      "accessedDate": "2026-06-10",
+      "notes": "Primary trade source. Provided care level, water parameters (SG 1.020-1.025, 70-78°F, pH 8.1-8.4, dKH 8-12), 180 gal minimum tank, and beak-wear feeding guidance. Original prod/859 URL 404'd; located current URL via search."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Diodon-holocanthus.html",
+        "accessedDate": "2026-06-10",
+        "notes": "Taxonomy (Diodontidae, Tetraodontiformes), confirmed circumtropical range, depth 2-200 m (typically 2-35 m), max length 50 cm TL, temperature 21.5-29°C, nocturnal carnivore on molluscs/urchins/crustaceans."
+      },
+      {
+        "name": "Wikipedia — Diodon holocanthus",
+        "url": "https://en.wikipedia.org/wiki/Diodon_holocanthus",
+        "accessedDate": "2026-06-10",
+        "notes": "Confirmed taxonomy, distribution (Florida/Bahamas to Brazil; Japan to Lord Howe Island), parrot-like crushing beak, omnivorous nocturnal feeder on hard-shelled prey, 50 cm max length, IUCN Least Concern."
+      },
+      {
+        "name": "FishKeeper UK",
+        "url": "https://www.fishkeeper.co.uk/fish/marine/miscellaneous-fish/porcupine-pufferfish",
+        "accessedDate": "2026-06-10",
+        "notes": "Adult size 30 cm, temperature 23-27°C, pH 8.1-8.4, SG 1.020-1.025; recommends 3 daily feedings, hard-shelled foods for beak maintenance, gradual lighting transitions."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
-    "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
-    "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "No documented captive breeding in home aquaria; pelagic spawners in the wild.",
+    "conspecificAggression": "moderate",
+    "finNippy": true,
+    "reefSafe": "no",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": true,
+    "juvenileColorPhase": false,
+    "copperSensitive": true,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": true,
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -92,6 +138,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-10"
 }

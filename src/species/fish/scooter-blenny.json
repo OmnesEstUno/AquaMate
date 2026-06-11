@@ -7,82 +7,125 @@
   "commonName": "Scooter Blenny",
   "scientificName": "Synchiropus ocellatus",
   "alsoKnownAs": [
-    "[pending-research] Scooter Blenny — actually a Scooter Dragonet"
+    "Scooter Dragonet",
+    "Ocellated Dragonet",
+    "Starry Dragonet"
   ],
   "category": "Dragonet",
   "taxonomy": {
-    "family": null,
-    "order": null
+    "family": "Callionymidae",
+    "order": "Callionymiformes"
   },
   "nativeRange": {
-    "regions": [],
-    "countries": [],
-    "habitat": null,
-    "biotope": null,
-    "depthRangeM": null
+    "regions": ["Indo-Pacific", "Western Pacific"],
+    "countries": ["Indonesia", "Japan", "Australia", "Fiji", "Solomon Islands", "French Polynesia"],
+    "habitat": "Sandy areas of lagoons and seaward reefs, also found around sheltered rocky reef habitats.",
+    "biotope": "Tropical Indo-Pacific reef sand flat",
+    "depthRangeM": { "min": 1, "max": 30 }
   },
   "waterParameters": {
-    "temperatureC": null,
-    "pH": null,
+    "temperatureC": { "min": 23, "max": 27 },
+    "pH": { "min": 8.0, "max": 8.4 },
     "gH": null,
-    "kH": null,
-    "salinity": null
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.020, "max": 1.025 }
   },
-  "adultSizeCm": null,
-  "lifespanYears": null,
+  "adultSizeCm": { "min": 8, "max": 13 },
+  "lifespanYears": { "min": 2, "max": 4 },
   "tank": {
-    "minVolumeLiters": null,
-    "minLengthCm": null,
-    "swimZone": null,
-    "decorPreferences": [],
-    "minSandDepthCm": null
+    "minVolumeLiters": 200,
+    "minLengthCm": 90,
+    "swimZone": "bottom",
+    "decorPreferences": [
+      "deep fine-sand bed for burrowing and foraging",
+      "abundant mature live rock to host copepod populations",
+      "attached or plumbed refugium recommended as ongoing pod source",
+      "open sand flats for sifting"
+    ],
+    "minSandDepthCm": 5
   },
-  "careLevel": null,
-  "diet": null,
+  "careLevel": "expert",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Specialist micro-predator on benthic copepods (especially harpacticoids like Tisbe), amphipods, and other meiofauna. Many specimens slowly starve in undersized or young systems because they rarely accept prepared foods readily. A mature reef (ideally 6+ months) with an established plumbed refugium producing a continuous copepod supply is generally considered essential. Some individuals can be coaxed onto live or vitamin-enriched frozen brine, mysis, or fish eggs via target-feeding with a turkey baster, but this should be treated as supplementation, not as a replacement for live pods."
+  },
   "compatibility": {
-    "temperament": null,
-    "grouping": null,
-    "minGroupSize": null,
-    "goodWith": [],
-    "avoidWith": []
+    "temperament": "peaceful",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": [
+      "small peaceful reef fish that do not compete for pods",
+      "most reef-safe corals",
+      "non-aggressive invertebrates"
+    ],
+    "avoidWith": [
+      "Mandarin dragonets and other Synchiropus species in the same tank (compete for the same pod food source)",
+      "boisterous or fast-feeding tankmates such as wrasses, anthias, damsels, and chromis that outcompete dragonets at feeding time",
+      "rival conspecific males in tanks under ~200 L",
+      "predatory fish that may target a slow-moving bottom dweller"
+    ]
   },
   "media": {
     "primaryImage": "scooter_blenny.jpg",
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Placeholder description for Scooter Blenny.",
-  "careNotes": null,
-  "breedingNotes": null,
+  "summary": "Small Indo-Pacific dragonet (not a true blenny) prized for its mottled markings and hover-and-perch behavior, but notoriously difficult because it is a specialist copepod feeder that tends to starve in immature or undersized reef systems.",
+  "careNotes": "Despite the trade name, this species is not a blenny — it is a Scooter Dragonet in family Callionymidae, the same family as the Mandarinfish, and it shares the Mandarinfish's notorious feeding caveat. The defining husbandry challenge is diet: scooter dragonets graze almost continuously on tiny benthic copepods and amphipods, and a typical young or small reef cannot produce pods fast enough to keep one alive. A mature reef tank with an established plumbed refugium (chaeto or similar macro, sand/rubble, and a dedicated pod-culture inflow) is generally considered the minimum viable setup; many specimens introduced to systems without this support slowly waste away over weeks to months. Some individuals can be transitioned to vitamin-enriched live or frozen foods (baby brine, Tisbe/Tigriopus pods, mysis, fish eggs) via gentle target-feeding, but this should supplement, not replace, an established live pod population. They are reef-safe and ignore corals and ornamental invertebrates. Conspecifics are best kept as a single male with one or two females introduced simultaneously; multiple males will harass each other in anything smaller than a long footprint. Tankmate choice is critical — avoid wrasses, anthias, damsels, and chromis that strip pods from the rockwork before the dragonet can find them. As scaleless dragonets, they are sensitive to copper-based medications, so quarantine treatment should rely on hyposalinity or copper-free protocols. LiveAquaria lists a 30-gallon minimum, but specialty hobby sources widely advise larger mature systems with refugium support; this entry biases toward the conservative 200 L figure to reflect the pod-supply burden rather than swimming-space needs.",
+  "breedingNotes": "Pelagic spawners observed in captivity but rarely reared. Males display elevated dorsal fins and perform a vertical ascent with the female to release gametes into the water column. Larvae are tiny and require successive sizes of cultured microplankton; commercial captive-breeding has not become routine the way it has for clownfish or some other dragonets.",
   "sources": {
-    "primary": null,
-    "additional": []
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/products/scooter-blenny",
+      "accessedDate": "2026-06-10",
+      "notes": "Provided baseline care parameters: 30 gal minimum, 72-78 F, pH 8.1-8.4, dKH 8-12, SG 1.020-1.025, peaceful, reef-safe, difficult care level, carnivore. Originally-supplied product URL (/product/2467/scooter-blenny) 404'd; navigated to the live product page at /products/scooter-blenny."
+    },
+    "additional": [
+      {
+        "name": "FishBase",
+        "url": "https://www.fishbase.se/summary/Synchiropus-ocellatus.html",
+        "accessedDate": "2026-06-10",
+        "notes": "Confirmed taxonomy (Callionymidae, Callionymiformes), max length 8.9 cm TL, depth 1-30 m, distribution Indonesia to Pitcairn / north to Japan / south to Australia, wild diet of small benthic invertebrates, preferred temperature 25.5-29 C (wild)."
+      },
+      {
+        "name": "Saltwater Aquarium Blog",
+        "url": "https://www.saltwateraquariumblog.com/scooter-blenny-care/",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-checked feeding burden, sand-bed preference, and tank size. Recommends a 50 gal refugium for pod culture, 75-80 F, pH 7.7-8.3, captive lifespan ~2 years, confirms dragonet (Callionymidae) misidentification as a blenny."
+      },
+      {
+        "name": "Reefapp.net Encyclopedia",
+        "url": "https://reefapp.net/en/encyclopedia/neosynchiropus-ocellatus",
+        "accessedDate": "2026-06-10",
+        "notes": "Cross-referenced for synonymy (Neosynchiropus ocellatus) and reef-safe / peaceful designation."
+      }
+    ]
   },
   "fish": {
-    "breedingDifficulty": null,
-    "breedingNotes": null,
-    "conspecificAggression": null,
-    "finNippy": null,
-    "reefSafe": null,
-    "escapeRisk": null,
-    "venomousSpines": null,
-    "sexChange": null,
-    "haremic": null,
-    "caudalScalpel": null,
-    "nocturnal": null,
-    "juvenileColorPhase": null,
-    "copperSensitive": null,
-    "speciesOnlyTankRecommended": null,
-    "requiresHitchingPost": null,
-    "monogamousPairing": null,
-    "hlleSusceptible": null,
-    "toxicToTank": null,
-    "feedingDifficulty": null,
-    "symbioticShrimpPartner": null,
-    "mouthbrooder": null,
-    "constantGrazer": null,
-    "cleanerFish": null,
-    "euryhaline": null
+    "breedingDifficulty": "advanced",
+    "breedingNotes": "Pelagic spawning observed; larvae require sequential live microplankton cultures and are rarely reared to settlement in home systems.",
+    "conspecificAggression": "moderate",
+    "finNippy": false,
+    "reefSafe": "yes",
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": true,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": true,
+    "speciesOnlyTankRecommended": false,
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "difficult",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": true,
+    "cleanerFish": false,
+    "euryhaline": false
   },
   "crustacean": null,
   "coral": null,
@@ -92,6 +135,10 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "placeholder",
-  "lastReviewed": null
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-10",
+  "hobbyistAdvisory": {
+    "level": "specialist-only",
+    "reason": "Specialist micro-predator on live copepods; requires a mature reef (typically 6+ months) with an established refugium producing a continuous pod supply. Many specimens slowly starve in undersized or young systems, and prepared foods rarely sustain them long-term."
+  }
 }
