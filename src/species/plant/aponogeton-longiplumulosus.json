@@ -1,0 +1,95 @@
+{
+  "id": "fw-plant-084",
+  "slug": "aponogeton-longiplumulosus",
+  "kind": "flora",
+  "taxon": "plant",
+  "waterType": "freshwater",
+  "commonName": "Aponogeton Longiplumulosus",
+  "scientificName": "Aponogeton longiplumulosus",
+  "alsoKnownAs": ["Long-Plumed Aponogeton", "Ruffled Aponogeton"],
+  "category": "Freshwater Plant",
+  "taxonomy": {
+    "family": "Aponogetonaceae",
+    "order": "Alismatales"
+  },
+  "nativeRange": {
+    "regions": ["Africa", "Indian Ocean"],
+    "countries": ["Madagascar"],
+    "habitat": "Endemic to freshwater streams and seasonal pools in Madagascar; tubers tend to persist through dry-season dormancy.",
+    "biotope": "Stream",
+    "depthRangeM": { "min": 0, "max": 2 }
+  },
+  "waterParameters": {
+    "temperatureC":  { "min": 23, "max": 28 },
+    "pH":            { "min": 6.5, "max": 7.5 },
+    "gH":            { "min": 2,   "max": 12 },
+    "kH":            { "min": 2,   "max": 10 },
+    "salinity":      null
+  },
+  "adultSizeCm":   { "min": 50, "max": 100 },
+  "lifespanYears": { "min": 3,  "max": 8  },
+  "tank": {
+    "minVolumeLiters":  150,
+    "minLengthCm":      90,
+    "swimZone":         null,
+    "decorPreferences": [
+      "nutrient-rich substrate with root tabs around the bulb",
+      "fine gravel or sand with bulb placed on top or only half-buried (avoid fully burying)",
+      "open background area with ample vertical clearance for tall, ruffled strap leaves",
+      "soft to moderately hard, clean water with moderate flow"
+    ],
+    "minSandDepthCm":   5
+  },
+  "careLevel": "intermediate",
+  "diet": null,
+  "compatibility": {
+    "temperament":  "peaceful",
+    "grouping":     "solitary",
+    "minGroupSize": 1,
+    "goodWith":     ["community fish", "tetras", "rasboras", "corydoras", "shrimp", "snails", "dwarf cichlids"],
+    "avoidWith":    ["goldfish", "large cichlids", "plant-eating fish such as silver dollars or buenos aires tetras"]
+  },
+  "media": {
+    "primaryImage":    null,
+    "gallery":         [],
+    "imageCandidates": null
+  },
+  "summary": "Madagascar endemic bulb plant with long, ruffled olive-green strap leaves. Generally considered a background centerpiece for medium-to-large tanks.",
+  "careNotes": "Aponogeton longiplumulosus is a Madagascar-endemic bulb plant known for its long, fluted or crinkled olive green strap leaves and slender lavender-to-dark violet flower spikes. Leaves have been reported to reach roughly 20-35 cm (with petioles to about 60 cm), and overall plant height in cultivation is commonly reported between 50 and 100 cm, which makes it generally advised as a background or focal specimen in tanks of about 150 L or larger with good vertical clearance. The bulb should be placed on top of the substrate or only half-buried — fully burying the bulb tends to cause rot. Temperatures around 23-28 °C (roughly 73-83 °F per Modern Aquarium), a pH near neutral (~6.5-7.5), and soft to moderately hard water are commonly recommended; it tends to do best in soft, clean water. Lighting in the medium range is typically sufficient, with a nutrient-rich substrate (aquasoil or root tabs) giving the best growth. CO2 injection is optional but is often reported to improve leaf quality and growth rate. IMPORTANT: this species has a natural dormancy cycle — after a period of active growth (often following flowering) the leaves typically die back and the bulb rests for several weeks. Do NOT discard the bulb when this happens; leave it in the substrate (or store it in cool, damp conditions) and new leaves typically resprout. Note: the originally-designated Buce Plant primary URL returned 404 and was abandoned; Modern Aquarium was promoted to primary and Wikipedia served as the second confirming source.",
+  "breedingNotes": "Generally propagated from seed produced on emergent flower spikes, though germination has been reported as difficult. Mature plants occasionally form daughter tubers that can be separated; tuber/bulb division is the more reliable propagation method in aquaria.",
+  "sources": {
+    "primary": {
+      "name": "Modern Aquarium",
+      "url":  "https://www.modernaquarium.com/aponogeton-longiplumulosus/",
+      "accessedDate": "2026-06-11",
+      "notes": "Originally-designated Buce Plant primary URL returned 404; promoted Modern Aquarium (designated secondary) to primary. Confirmed Madagascar origin, midground/background placement, medium growth, dormancy behaviour, temperature range 73-83 F, low-moderate lighting, leaf dimensions to ~61 cm long."
+    },
+    "additional": [
+      {
+        "name": "Wikipedia",
+        "url":  "https://en.wikipedia.org/wiki/Aponogeton_longiplumulosus",
+        "accessedDate": "2026-06-11",
+        "notes": "Cross-checked taxonomy (Aponogetonaceae, Alismatales), Madagascar endemism, leaf dimensions (20-35 cm long, ~6 cm wide, petiole ~60 cm), dark violet flowers, dormancy behaviour, medium-to-bright lighting preference, benefit from CO2 supplementation, seed propagation with difficult germination. Aquarium Co-Op product URL was tried as a third source but returned 404; Tropica and Aquasabi product pages were also tried but did not return useful data."
+      }
+    ]
+  },
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": {
+    "lighting":      "medium",
+    "co2":           "optional",
+    "growthRate":    "medium",
+    "placement":     "background",
+    "propagation":   ["seeds (flower spike)", "daughter tuber/bulb division"],
+    "substrate":     "nutrient-rich",
+    "fertilization": "moderate"
+  },
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-11"
+}

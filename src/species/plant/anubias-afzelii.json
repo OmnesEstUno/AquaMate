@@ -1,0 +1,94 @@
+{
+  "id": "fw-plant-090",
+  "slug": "anubias-afzelii",
+  "kind": "flora",
+  "taxon": "plant",
+  "waterType": "freshwater",
+  "commonName": "Anubias Afzelii",
+  "scientificName": "Anubias afzelii",
+  "alsoKnownAs": ["Narrow-Leaved Anubias", "Afzelius' Anubias"],
+  "category": "plant",
+  "taxonomy": {
+    "family": "Araceae",
+    "order": "Alismatales"
+  },
+  "nativeRange": {
+    "regions": ["West Africa"],
+    "countries": ["Senegal", "Guinea", "Sierra Leone", "Mali", "Liberia", "Cote d'Ivoire"],
+    "habitat": "Wet, shady streamside and forest-floor habitats in West African lowlands; generally grows emergent along stream banks but tolerates fully submerged conditions.",
+    "biotope": "Stream",
+    "depthRangeM": null
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 22, "max": 26 },
+    "pH":           { "min": 6.0, "max": 7.5 },
+    "gH":           { "min": 3, "max": 15 },
+    "kH":           { "min": 3, "max": 8 },
+    "salinity":     null
+  },
+  "adultSizeCm":   { "min": 25, "max": 60 },
+  "lifespanYears": null,
+  "tank": {
+    "minVolumeLiters": 100,
+    "minLengthCm":     60,
+    "swimZone":        null,
+    "decorPreferences": [
+      "driftwood for rhizome attachment",
+      "porous rock (lava, dragon stone) for attachment",
+      "vertical space for long lance-shaped leaves"
+    ],
+    "minSandDepthCm":  null
+  },
+  "careLevel": "beginner",
+  "diet": null,
+  "compatibility": {
+    "temperament":  null,
+    "grouping":     null,
+    "minGroupSize": null,
+    "goodWith":     [],
+    "avoidWith":    []
+  },
+  "media": {
+    "primaryImage":    null,
+    "gallery":         [],
+    "imageCandidates": null
+  },
+  "summary": "One of the larger Anubias species, with long lance-shaped leathery leaves on creeping rhizomes. Generally considered an easy, slow-growing epiphyte well suited to background placement attached to driftwood or rock.",
+  "careNotes": "Anubias afzelii is among the larger Anubias species in the trade, with elongated lance-shaped leaves commonly reaching 25-40 cm and up to about 60 cm including the petiole in mature specimens — best suited to background placement. As with all Anubias, it is an epiphyte: the creeping rhizome should be attached to driftwood or rock (super glue gel, fishing line, or wedging) and kept ABOVE the substrate, otherwise the rhizome tends to rot. Tolerates a wide light range but is slow-growing and is commonly reported to accumulate algae under strong light; low-to-medium light is the safer default. CO2 is optional but is generally reported to improve growth rate and reduce algae pressure. Generally advised to keep around 22-26°C with stable, well-cycled water; sudden parameter swings have been reported to cause leaf melt. Liquid fertilization (especially iron and trace elements) is helpful since Anubias draw nutrients primarily from the water column rather than the substrate. Propagation is by rhizome division. Native to West African lowland streams and shaded forest-floor habitats (Senegal through Liberia and Cote d'Ivoire). One reviewer noted it can take 2-3 years to reach maximum leaf size — patience is required. The species is also reported to tolerate emergent growth in paludarium setups. Cross-source notes: Buce Plant secondary returned HTTP 404 on the access date; cross-verification performed against Wikipedia, which agreed on West African origin, leaf morphology (up to ~35 cm blade), temperature 22-26°C, low light, slow growth, and rhizome-division propagation.",
+  "breedingNotes": null,
+  "sources": {
+    "primary": {
+      "name": "Modern Aquarium",
+      "url":  "https://www.modernaquarium.com/anubias-afzelii/",
+      "accessedDate": "2026-06-11",
+      "notes": "Provided care profile: West African origin (Cote d'Ivoire, Sierra Leone, Liberia), elongated leathery green leaves up to ~25 cm tall, temperature 71-78°F (~22-26°C), low light, slow but steady growth (2-3 years to maximum leaf size), midground-to-background placement, rhizome above substrate when planted in gravel, suitability with active/aggressive and herbivorous tankmates, and emerged-or-submerged tolerance."
+    },
+    "additional": [
+      {
+        "name": "Wikipedia",
+        "url":  "https://en.wikipedia.org/wiki/Anubias_afzelii",
+        "accessedDate": "2026-06-11",
+        "notes": "Cross-checked taxonomy (Araceae, Alismatales — type species of genus Anubias), native range (Senegal, Guinea, Sierra Leone, Mali), leaf blade size (up to 35 cm long x 13 cm wide), creeping rhizome (1-4 cm thick), temperature 22-26°C, low light, slow growth, propagation by rhizome division. Used as fallback after Buce Plant secondary returned HTTP 404."
+      }
+    ]
+  },
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": {
+    "lighting":      "low",
+    "co2":           "optional",
+    "growthRate":    "slow",
+    "placement":     "background",
+    "propagation":   ["rhizome division"],
+    "substrate":     "n/a",
+    "fertilization": "low"
+  },
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus":    "researched",
+  "lastReviewed":  "2026-06-11"
+}
