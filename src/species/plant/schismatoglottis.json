@@ -1,0 +1,100 @@
+{
+  "id": "fw-plant-048",
+  "slug": "schismatoglottis",
+  "kind": "flora",
+  "taxon": "plant",
+  "waterType": "freshwater",
+  "commonName": "Schismatoglottis",
+  "scientificName": "Schismatoglottis roseospatha",
+  "alsoKnownAs": ["Roseo Schismatoglottis", "Schismatoglottis Roseospatha"],
+  "category": "Aroid (epiphyte)",
+  "taxonomy": {
+    "family": "Araceae",
+    "order": "Alismatales"
+  },
+  "nativeRange": {
+    "regions": ["Southeast Asia", "Borneo"],
+    "countries": ["Malaysia"],
+    "habitat": "Rheophyte on rocks and stones along fast-flowing rainforest streams, rivers, and waterfalls",
+    "biotope": "Stream",
+    "depthRangeM": null
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 22, "max": 26 },
+    "pH":           { "min": 5.0, "max": 7.5 },
+    "gH":           { "min": 0, "max": 30 },
+    "kH":           { "min": 0, "max": 14 },
+    "salinity":     null
+  },
+  "adultSizeCm":   { "min": 5, "max": 15 },
+  "lifespanYears": null,
+  "tank": {
+    "minVolumeLiters": 40,
+    "minLengthCm": 30,
+    "swimZone": null,
+    "decorPreferences": [
+      "attach rhizome to rocks or driftwood with thread or glue",
+      "do NOT bury the rhizome — keep it above substrate",
+      "moderate to strong water movement to mimic rheophytic habitat",
+      "soft to moderately hard, slightly acidic to neutral water"
+    ],
+    "minSandDepthCm": null
+  },
+  "careLevel": "intermediate",
+  "diet": null,
+  "compatibility": {
+    "temperament": null,
+    "grouping": null,
+    "minGroupSize": null,
+    "goodWith": [],
+    "avoidWith": []
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "Bornean rheophyte aroid closely related to Bucephalandra. Slow-growing epiphyte for nano and midground placements; rhizome must remain above substrate.",
+  "careNotes": "Schismatoglottis roseospatha is a recently introduced aroid from Sarawak, Borneo, found growing as a rheophyte on rocks and roots along fast-flowing rainforest streams. In the aquarium it is treated much like Bucephalandra or Anubias: the creeping rhizome is attached to hardscape (rock or driftwood) with thread or cyanoacrylate glue, and is generally advised to never be buried, as covered rhizomes tend to rot. Submerged it stays compact, generally around 5–15 cm tall, with narrow, pointed bright-green leaves on slim brown to yellowish stems; under quality LED lighting some growers report faint shimmering dots and a bluish vein-pattern through the leaf center. Sources cluster around 22–26°C and prefer soft, slightly acidic to neutral water; pH tolerance reports range fairly widely (Aquasabi/Flowgrow note 4–7, Buce Plant notes 6.5–7.5), so 5.0–7.5 is a reasonable working range and softer water tends to be preferred. Lighting tolerance is broad (low to high reported); medium light with good flow and modest nutrient/CO2 dosing tends to give the steadiest growth. Like Bucephalandra, it is sensitive to sudden parameter changes during acclimation and may shed a generation of leaves (\"melt\") before pushing fresh submerged growth — patience over weeks is normal. Propagate by dividing the rhizome with sharp scissors and reattaching the pieces; lateral daughter shoots also form over time. Emersed (in a paludarium or sealed terrarium) it can grow taller, up to roughly 24 cm leaf stalks, and occasionally produces a pink-tinged spathe. Note that several Schismatoglottis species are now in the aquarium trade (e.g., S. prietoi); this entry covers S. roseospatha specifically.",
+  "breedingNotes": null,
+  "sources": {
+    "primary": {
+      "name": "Buce Plant",
+      "url": "https://buceplant.com/products/schismatoglottis-roseopatha",
+      "accessedDate": "2026-06-11"
+    },
+    "additional": [
+      {
+        "name": "Aquasabi",
+        "url": "https://www.aquasabi.com/aquatic-plants/rare-plants/schismatoglottis-roseospatha",
+        "accessedDate": "2026-06-11",
+        "notes": "Cross-checked temperature (22–26°C), pH (4–7), KH (0–14), GH (0–30), lighting (low), growth rate (very slow), submerged height (<8 cm), Sarawak origin, Araceae family, epiphytic placement."
+      },
+      {
+        "name": "Flowgrow Aquatic Plant Database",
+        "url": "https://www.flowgrow.de/db/aquaticplants/schismatoglottis-roseospatha",
+        "accessedDate": "2026-06-11",
+        "notes": "Third source for cross-verification. Confirms temperature 22–26°C, pH 4.5–7, KH 0–14, family Araceae, order Alismatales, native habitat Gaad River and Sungai Lelang (Sarawak, Borneo), rheophyte habit, very slow growth. Source swap: original primary Tropica does not carry this species; promoted Buce Plant to primary and added Flowgrow as third source."
+      }
+    ]
+  },
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": {
+    "lighting": "medium",
+    "co2": "optional",
+    "growthRate": "slow",
+    "placement": "epiphyte",
+    "propagation": ["rhizome division", "lateral shoot separation"],
+    "substrate": "n/a",
+    "fertilization": "low"
+  },
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-11"
+}

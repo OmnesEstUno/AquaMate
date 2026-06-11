@@ -1,0 +1,95 @@
+{
+  "id": "fw-plant-050",
+  "slug": "utricularia-graminifolia",
+  "kind": "flora",
+  "taxon": "plant",
+  "waterType": "freshwater",
+  "commonName": "Utricularia Graminifolia",
+  "scientificName": "Utricularia graminifolia",
+  "alsoKnownAs": ["UG", "Grass-leaved Bladderwort"],
+  "category": "Freshwater Plant",
+  "taxonomy": {
+    "family": "Lentibulariaceae",
+    "order": "Lamiales"
+  },
+  "nativeRange": {
+    "regions": ["Asia"],
+    "countries": ["India", "Sri Lanka", "Myanmar", "Thailand", "China", "Vietnam"],
+    "habitat": "Damp, nutrient-poor soils and shallow marsh margins around streams and ponds; often submerged seasonally.",
+    "biotope": "Stream",
+    "depthRangeM": { "min": 0, "max": 1 }
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 20, "max": 26 },
+    "pH": { "min": 5.5, "max": 7.0 },
+    "gH": { "min": 0, "max": 8 },
+    "kH": { "min": 0, "max": 5 },
+    "salinity": null
+  },
+  "adultSizeCm": { "min": 2, "max": 10 },
+  "lifespanYears": null,
+  "tank": {
+    "minVolumeLiters": 40,
+    "minLengthCm": 45,
+    "swimZone": null,
+    "decorPreferences": ["fine substrate (aquasoil or sand)", "open foreground with strong light penetration", "good water flow across carpet"],
+    "minSandDepthCm": 3
+  },
+  "careLevel": "advanced",
+  "diet": null,
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": null,
+    "minGroupSize": null,
+    "goodWith": ["small peaceful community fish", "adult dwarf shrimp", "other low-tech-incompatible carpeting plants in high-tech tanks"],
+    "avoidWith": ["substrate-disturbing fish (large cichlids, goldfish, loaches that uproot)", "shrimp breeding tanks where larvae presence is critical"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A demanding carnivorous foreground carpet plant from Asia that forms a fine, grass-like lawn under high light, CO2, and soft acidic water.",
+  "careNotes": "Utricularia graminifolia (UG) is a carnivorous aquatic plant (bladderwort, family Lentibulariaceae) native to South and Southeast Asia. It is generally considered an advanced foreground carpet — beginners commonly struggle with it. It is typically advised to provide high light (around 0.5–1 W/L), pressurized CO2, soft acidic water (pH ~5.5–7, low kH), and a stable, low-nutrient substrate such as aquasoil to encourage a dense lawn-like mat 2–8 cm tall. New plantings often \"melt\" back in the first weeks before establishing; resist trimming or re-planting during this phase. Sources broadly agree it is sensitive to parameter shifts, aggressive trimming, hard water, and algae outbreaks, all of which can trigger fresh melt episodes. UG forms microscopic bladder traps that capture tiny aquatic invertebrates; adult dwarf shrimp are not at risk, but the traps have been reported to catch shrimp larvae and very small zooplankton, so it may impact dedicated shrimp-breeding colonies. Cross-source spread on optimal temperature was modest (Tropica did not state; secondary guides ranged ~18–28°C) and on pH was wider (5.0–7.5 across sources); the values written here represent the central overlap. Propagation is by simple fragmentation — small portions of the carpet, even individual blades, can be replanted to regrow.",
+  "breedingNotes": null,
+  "sources": {
+    "primary": {
+      "name": "Tropica",
+      "url": "https://tropica.com/en/plants/plantdetails/Utriculariagraminifolia(049BTC)/4480",
+      "accessedDate": "2026-06-11"
+    },
+    "additional": [
+      {
+        "name": "Buce Plant",
+        "url": "https://buceplant.com/blogs/aquascaping-guides-and-tips/how-to-grow-utricularia-graminifolia-ug",
+        "accessedDate": "2026-06-11",
+        "notes": "Cross-checked lighting/CO2 requirement, soft-water preference, melting triggers, and shrimp/fish compatibility. Buce Plant collection page (https://buceplant.com/collections/aquarium-plants) did not surface UG directly; the dedicated care guide blog was used instead."
+      },
+      {
+        "name": "The Aquarium Guide",
+        "url": "https://theaquariumguide.com/articles/utricularia-graminifolia",
+        "accessedDate": "2026-06-11",
+        "notes": "Cross-checked native range (Burma, China, India, Sri Lanka, Thailand, Vietnam), pH 5–6.5, temperature 18–25°C, kH 4–5, family Lentibulariaceae, propagation by runners/division, and impact of carnivorous bladder traps on shrimp larvae."
+      }
+    ]
+  },
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": {
+    "lighting": "high",
+    "co2": "recommended",
+    "growthRate": "slow",
+    "placement": "foreground",
+    "propagation": ["fragmentation", "division of runners"],
+    "substrate": "nutrient-rich",
+    "fertilization": "low"
+  },
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-11"
+}

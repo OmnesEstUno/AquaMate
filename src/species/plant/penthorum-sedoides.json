@@ -1,0 +1,96 @@
+{
+  "id": "fw-plant-042",
+  "slug": "penthorum-sedoides",
+  "kind": "flora",
+  "taxon": "plant",
+  "waterType": "freshwater",
+  "commonName": "Penthorum Sedoides",
+  "scientificName": "Penthorum sedoides",
+  "alsoKnownAs": ["Ditch Stonecrop", "Virginia Stonecrop"],
+  "category": "Stem plant",
+  "taxonomy": {
+    "family": "Penthoraceae",
+    "order": "Saxifragales"
+  },
+  "nativeRange": {
+    "regions": ["North America"],
+    "countries": ["United States", "Canada"],
+    "habitat": "Wet shorelines, ditches, swamps, and shallow water margins; bog-edge plant in nature, sometimes briefly submersed in shallow water.",
+    "biotope": "Eastern North American wetland margins and ditches",
+    "depthRangeM": null
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 18, "max": 28 },
+    "pH": { "min": 5.5, "max": 7.5 },
+    "gH": { "min": 0, "max": 14 },
+    "kH": { "min": 0, "max": 14 },
+    "salinity": null
+  },
+  "adultSizeCm": { "min": 10, "max": 30 },
+  "lifespanYears": null,
+  "tank": {
+    "minVolumeLiters": 60,
+    "minLengthCm": 45,
+    "swimZone": null,
+    "decorPreferences": ["nutrient-rich substrate", "midground placement", "open water column"],
+    "minSandDepthCm": null
+  },
+  "careLevel": "intermediate",
+  "diet": null,
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": null,
+    "minGroupSize": null,
+    "goodWith": ["peaceful community fish", "shrimp", "snails"],
+    "avoidWith": ["large herbivorous fish", "vigorous diggers (cichlids, large goldfish)"]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A lesser-known North American bog-edge stem plant with fresh light-green, serrated leaves. Generally considered easy to grow, though reportedly more reliable emersed than fully submerged long-term.",
+  "careNotes": "Penthorum sedoides is a North American native of the small family Penthoraceae (only two species worldwide). In nature it grows as a 30-60 cm tall perennial along wet shorelines, swamps, and ditches in eastern USA and Canada, and is winter-hardy. Submersed forms in the aquarium tend to be smaller (around 10-30 cm), more compact, and more densely leafed than emersed growth, with fresh light-green, slightly serrated, lanceolate leaves and abundant side shoots. With higher light it has been reported to take on a creeping habit suitable for the midground; under lower light it grows more upright with greater internodal spacing. Generally considered easy to maintain, but it is lesser-known in the aquarium trade and is reportedly more reliable when grown emersed (e.g., paludarium, ripariums, wabi-kusa, or pond margins) than as a fully submerged long-term aquarium plant. Cross-source spread on parameters: temperature 4-30°C across sources (Flowgrow's low end reflects winter pond hardiness rather than aquarium use; aquarium-relevant range used here), pH 5-8, hardness very tolerant (0-14 dKH). CO2 is not strictly required but supplemental CO2 (20-40 mg/L per Flowgrow) and nutrient-rich substrate appear to support denser, more compact submersed growth. Cold-tolerant and US native, so it is also suitable for outdoor temperate ponds and unheated coldwater tanks.",
+  "breedingNotes": null,
+  "sources": {
+    "primary": {
+      "name": "Buce Plant",
+      "url": "https://buceplant.com/products/penthorum-sedoides",
+      "accessedDate": "2026-06-11",
+      "notes": "Primary swapped from Tropica to Buce Plant: the Tropica search page and the Tropica plantdetails URL both returned empty/template content via WebFetch and could not be parsed for husbandry data."
+    },
+    "additional": [
+      {
+        "name": "Flowgrow Aquatic Plant Database",
+        "url": "https://www.flowgrow.de/db/aquaticplants/penthorum-sedoides",
+        "accessedDate": "2026-06-11",
+        "notes": "Cross-checked family/order, native range, temperature (4-28°C), pH (5-7), hardness (0-14 dKH), propagation, CO2 (20-40 mg/L), and difficulty. Authoritative DE aquatic-plant database entry."
+      },
+      {
+        "name": "Aquamoos",
+        "url": "https://aquamoos.de/en/aquarium-plants/background/penthorum-sedoides",
+        "accessedDate": "2026-06-11",
+        "notes": "Cross-checked family, submersed height (10-30 cm), temperature (18-30°C), pH (5.5-8), and easy-to-maintain difficulty. Tropica primary URL returned empty page content."
+      }
+    ]
+  },
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": {
+    "lighting": "medium",
+    "co2": "optional",
+    "growthRate": "slow",
+    "placement": "midground",
+    "propagation": ["stem cuttings", "side shoots", "division", "seeds"],
+    "substrate": "nutrient-rich",
+    "fertilization": "moderate"
+  },
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "needs_review",
+  "lastReviewed": "2026-06-11"
+}
