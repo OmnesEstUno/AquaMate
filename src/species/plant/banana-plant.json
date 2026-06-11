@@ -1,0 +1,100 @@
+{
+  "id": "fw-plant-014",
+  "slug": "banana-plant",
+  "kind": "flora",
+  "taxon": "plant",
+  "waterType": "freshwater",
+  "commonName": "Banana Plant",
+  "scientificName": "Nymphoides aquatica",
+  "alsoKnownAs": ["Banana Lily", "Banana Floatingheart", "Big Floatingheart", "Fairy Water Lily"],
+  "category": "Rosette / Lily-like",
+  "taxonomy": {
+    "family": "Menyanthaceae",
+    "order": "Asterales"
+  },
+  "nativeRange": {
+    "regions": ["North America", "Southeastern United States"],
+    "countries": ["United States"],
+    "habitat": "Calm, slow-moving rivers, lakes, ponds, swamps and cypress swamps; often found rooted in soft mud in shallow water with full or partial sun.",
+    "biotope": "Pond",
+    "depthRangeM": { "min": 0.1, "max": 1.5 }
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 20, "max": 27 },
+    "pH":           { "min": 6.0, "max": 7.5 },
+    "gH":           { "min": 1, "max": 12 },
+    "kH":           { "min": 3, "max": 12 },
+    "salinity":     null
+  },
+  "adultSizeCm":   { "min": 10, "max": 46 },
+  "lifespanYears": { "min": 3, "max": 5 },
+  "tank": {
+    "minVolumeLiters":  40,
+    "minLengthCm":      45,
+    "swimZone":         null,
+    "decorPreferences": ["soft mud or fine sand/gravel substrate", "open area to receive light", "still or gently moving water", "space above for floating leaves to develop"],
+    "minSandDepthCm":   2
+  },
+  "careLevel": "beginner",
+  "diet": null,
+  "compatibility": {
+    "temperament":  "peaceful",
+    "grouping":     "solitary",
+    "minGroupSize": 1,
+    "goodWith":     ["community fish", "shrimp", "small peaceful tankmates", "low-flow planted setups"],
+    "avoidWith":    ["large plant-eating cichlids", "goldfish", "crayfish", "vegetarian plecos that uproot or shred soft leaves"]
+  },
+  "media": {
+    "primaryImage":    null,
+    "gallery":         [],
+    "imageCandidates": null
+  },
+  "summary": "A US-native aquatic plant prized for its unusual banana-shaped storage tubers at the base. Generally beginner-friendly: sends up small submerged leaves first, then floating lily-pad leaves once established.",
+  "careNotes": "Nymphoides aquatica is best known for the cluster of swollen, banana-shaped storage tubers at its base — these are NOT roots and should NOT be buried. Rest the plant on the substrate so the tubers sit on or only barely below the surface (sources vary from \"rest on top\" to \"bury at most 1/4 inch or about 1/3 of the tuber\"); fully burying the tubers commonly leads to rot. True white roots emerge from the crown above the tubers and anchor the plant. As the plant establishes, the tubers often shrink or melt away once the plant has drawn enough nutrients from them — this is normal and not cause for concern as long as new growth continues. Initially sends up short, dark-green submerged leaves on short stems; once well rooted it generally sends long stems to the surface bearing round, heart-shaped floating leaves (lily-pad style) that can reach the surface from depths up to roughly 45 cm. Floating leaves may shade other plants and benefit from periodic pruning. Tolerates a wide light range (low to high); medium light is a sensible default — low light keeps growth slow and submerged, brighter light triggers faster growth and surface leaves. CO2 is not required, though it speeds growth. Source range for water values: temperature commonly cited as 20–26 °C optimal with tolerance roughly 10–30 °C given gradual changes; pH 6.0–7.5 (alkaline water has been reported to stunt growth); soft to moderately hard water is generally advised (gH ~1–8 ideal, but tolerates up to ~12; kH around 3–12). Sources disagree on adult size depending on whether they measure the small submerged rosette (~10–15 cm tall) or the full floating-leaf habit (up to ~30–46 cm including leaf stems) — both figures are captured in the size range. Propagation is most reliably done by cutting a mature leaf with a portion of stem and letting it float; new roots and plantlets generally form at the base of the cut leaf and can then be planted. Native to the southeastern United States from Texas to Maryland, most abundantly in Florida swamps and slow-moving waters; listed as endangered in Maryland. Has been reported to live well for 3–5 years before declining, with growers often replacing stock periodically.",
+  "breedingNotes": null,
+  "sources": {
+    "primary": {
+      "name": "Tropica",
+      "url":  "https://tropica.com/en/search?q=Nymphoides%20aquatica",
+      "accessedDate": "2026-06-11",
+      "notes": "Tropica search page reached but the species-specific detail page returned an XSLT parsing error during research. Cross-source data was assembled from Aquarium Co-Op, AquariumBreeder, FishLab and Wikipedia instead; primary citation retained for the slice's source-priority record."
+    },
+    "additional": [
+      { "name": "Aquarium Co-Op",
+        "url":  "https://www.aquariumcoop.com/blogs/aquarium/banana-plant-an-unusual-aquarium-plant-for-beginners",
+        "accessedDate": "2026-06-11",
+        "notes": "Confirmed beginner care level, temperature 20–28 °C (68–82 °F), tuber-handling guidance (rest on substrate, do not bury), and leaf-cutting propagation method." },
+      { "name": "AquariumBreeder (Shrimp and Snail Breeder)",
+        "url":  "https://aquariumbreeder.com/banana-plant-care-guide-planting-growing-and-propagation/",
+        "accessedDate": "2026-06-11",
+        "notes": "Confirmed temperature 20–26 °C optimal (10–30 °C tolerance), pH 6.0–7.5, gH 1–8 ideal, height 15–50 cm depending on water depth, slow–medium growth, nutrient-rich substrate preferred but adaptable, and native range Texas–Virginia." },
+      { "name": "FishLab",
+        "url":  "https://fishlab.com/aquarium-banana-plant/",
+        "accessedDate": "2026-06-11",
+        "notes": "Confirmed pH 6.0–7.2, kH 5–12, temperature 20–27 °C, medium growth, easy care level, propagation by cutting mature lily-pad stalks, tuber-handling rule (bury at most ~1/3 of the tuber)." },
+      { "name": "Wikipedia",
+        "url":  "https://en.wikipedia.org/wiki/Nymphoides_aquatica",
+        "accessedDate": "2026-06-11",
+        "notes": "Taxonomy verification: family Menyanthaceae, order Asterales; native range southeastern United States; common-name synonyms (banana plant, banana lily, banana floatingheart, big floatingheart)." }
+    ]
+  },
+  "fish":         null,
+  "crustacean":   null,
+  "coral":        null,
+  "mollusc":      null,
+  "echinoderm":   null,
+  "other-invert": null,
+  "plant": {
+    "lighting":      "medium",
+    "co2":           "optional",
+    "growthRate":    "medium",
+    "placement":     "midground",
+    "propagation":   ["leaf cutting (float a trimmed mature leaf with stem until plantlets form)", "rhizome/runner division", "rest tubers on substrate, do not bury"],
+    "substrate":     "any",
+    "fertilization": "moderate"
+  },
+  "macroalgae":    null,
+  "schemaVersion": 1,
+  "dataStatus":    "researched",
+  "lastReviewed":  "2026-06-11"
+}

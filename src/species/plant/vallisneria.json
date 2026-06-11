@@ -1,0 +1,139 @@
+{
+  "id": "fw-plant-008",
+  "slug": "vallisneria",
+  "kind": "flora",
+  "taxon": "plant",
+  "waterType": "freshwater",
+  "commonName": "Vallisneria",
+  "scientificName": "Vallisneria spiralis",
+  "alsoKnownAs": [
+    "Italian Val",
+    "Straight Vallisneria",
+    "Tape Grass",
+    "Eelgrass",
+    "Eelweed",
+    "Wild Celery"
+  ],
+  "category": "Background plant",
+  "taxonomy": {
+    "family": "Hydrocharitaceae",
+    "order": "Alismatales"
+  },
+  "nativeRange": {
+    "regions": [
+      "Europe",
+      "Africa",
+      "Southwest Asia"
+    ],
+    "countries": [
+      "Italy",
+      "Hungary",
+      "Egypt",
+      "Sudan",
+      "Democratic Republic of the Congo"
+    ],
+    "habitat": "Shallow, slow-moving to still freshwaters — rivers, streams, lakes, and ponds, often on sandy or silty substrates with sufficient light penetration.",
+    "biotope": "River",
+    "depthRangeM": { "min": 0.3, "max": 3 }
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 20, "max": 28 },
+    "pH": { "min": 6.5, "max": 8.0 },
+    "gH": { "min": 4, "max": 18 },
+    "kH": { "min": 3, "max": 15 },
+    "salinity": null
+  },
+  "adultSizeCm": { "min": 40, "max": 70 },
+  "lifespanYears": null,
+  "tank": {
+    "minVolumeLiters": 75,
+    "minLengthCm": 60,
+    "swimZone": null,
+    "decorPreferences": [
+      "Fine sand or fine gravel substrate",
+      "Open background space for runner spread",
+      "Root tabs near the crown for heavy root feeders"
+    ],
+    "minSandDepthCm": 5
+  },
+  "careLevel": "beginner",
+  "diet": null,
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": null,
+    "minGroupSize": null,
+    "goodWith": [
+      "Community freshwater fish",
+      "Shrimp",
+      "Snails",
+      "Tetras",
+      "Livebearers",
+      "Rainbowfish"
+    ],
+    "avoidWith": [
+      "Goldfish (will eat or uproot)",
+      "Large cichlids that dig",
+      "Plant-eating fish (silver dollars, large plecos)",
+      "Crayfish"
+    ]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A hardy, fast-growing background plant with long ribbon-like leaves; generally considered one of the easiest beginner aquarium plants and propagates aggressively via runners.",
+  "careNotes": "Vallisneria spiralis is generally considered one of the most forgiving aquarium plants and tends to thrive in a wide range of community-tank conditions. It is commonly advised to plant the crown JUST ABOVE the substrate — burying the crown is a frequent cause of rot and failure, similar to other rosette plants. Once established, it spreads aggressively by sending out runners (stolons) across the substrate that produce daughter plants; in smaller tanks this typically requires periodic thinning to keep it from overtaking the layout. Although CO2 is not required, growth rate and leaf coloration tend to improve noticeably with supplementation. Vallisneria is a heavy root feeder, so root tabs near the crown generally outperform water-column dosing. Has been reported to be sensitive to liquid carbon (Excel-type glutaraldehyde) products at higher doses, which can cause leaf melt. Note: this entry covers Vallisneria spiralis specifically; other commonly traded Vallisneria species (V. americana, V. asiatica, V. gigantea, V. nana) have similar but not identical husbandry profiles and should be researched as siblings. Sources broadly agree on care level, lighting, and CO2 needs; temperature tolerance spans 15–30°C with 20–28°C cited as the optimal growth range.",
+  "breedingNotes": null,
+  "sources": {
+    "primary": {
+      "name": "Tropica",
+      "url": "https://tropica.com/en/articles/vallisneria-spiralis-tiger/",
+      "accessedDate": "2026-06-11",
+      "notes": "Primary search URL did not surface a species page; substituted the Tropica article on V. spiralis 'Tiger' which covers the same species (just the colored cultivar)."
+    },
+    "additional": [
+      {
+        "name": "Modern Aquarium",
+        "url": "https://www.modernaquarium.com/italian-vallisneria-spiralis-set-of-2-plants/",
+        "accessedDate": "2026-06-11",
+        "notes": "Cross-checked height (~61 cm), temperature (21–28°C), lighting (medium), placement (background), and propagation via runners."
+      },
+      {
+        "name": "Aquarium Breeder",
+        "url": "https://aquariumbreeder.com/vallisneria-care-guide-planting-growing-and-propagation/",
+        "accessedDate": "2026-06-11",
+        "notes": "Cross-checked water parameters (pH 6.5–8.0, gH 4–18, temp 20–28°C), family (Hydrocharitaceae), and runner-based propagation. Aligned with Tropica on easy care level."
+      },
+      {
+        "name": "Fishkeeping World",
+        "url": "https://www.fishkeepingworld.com/vallisneria-spiralis/",
+        "accessedDate": "2026-06-11",
+        "notes": "Tertiary cross-check on temperature tolerance (15–30°C), pH range (broader 6.0–9.0 tolerance), max height, and additional alsoKnownAs names (eelweed, tape grass)."
+      }
+    ]
+  },
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": {
+    "lighting": "medium",
+    "co2": "optional",
+    "growthRate": "fast",
+    "placement": "background",
+    "propagation": [
+      "runners (stolons)",
+      "daughter plants from runners",
+      "division"
+    ],
+    "substrate": "nutrient-rich",
+    "fertilization": "low"
+  },
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-11"
+}
