@@ -1,0 +1,115 @@
+{
+  "id": "fw-plant-062",
+  "slug": "crinum-thaianum",
+  "kind": "flora",
+  "taxon": "plant",
+  "waterType": "freshwater",
+  "commonName": "Crinum Thaianum",
+  "scientificName": "Crinum thaianum",
+  "alsoKnownAs": ["Water Onion Plant", "Thai Onion Plant", "Onion Plant", "Thai Water Onion"],
+  "category": "Bulb plant",
+  "taxonomy": {
+    "family": "Amaryllidaceae",
+    "order": "Asparagales"
+  },
+  "nativeRange": {
+    "regions": ["Southeast Asia"],
+    "countries": ["Thailand"],
+    "habitat": "Endemic to flowing freshwater streams on the coastal plain of Ranong and Phang Nga Provinces in southern Thailand; bulbs anchor in sediment while long ribbon-like leaves trail in medium-to-fast current.",
+    "biotope": "Stream",
+    "depthRangeM": { "min": 0.3, "max": 2 }
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 22, "max": 28 },
+    "pH":           { "min": 6.0, "max": 7.5 },
+    "gH":           { "min": 4, "max": 18 },
+    "kH":           { "min": 3, "max": 12 },
+    "salinity":     null
+  },
+  "adultSizeCm":   { "min": 60, "max": 200 },
+  "lifespanYears": null,
+  "tank": {
+    "minVolumeLiters":  150,
+    "minLengthCm":      80,
+    "swimZone":         null,
+    "decorPreferences": [
+      "nutrient-rich substrate (root tabs beneficial)",
+      "deep substrate to anchor the bulb",
+      "open background space for long trailing leaves",
+      "tall tank or surface room for leaves that reach the waterline"
+    ],
+    "minSandDepthCm":   5
+  },
+  "careLevel": "beginner",
+  "diet": null,
+  "compatibility": {
+    "temperament":  "peaceful",
+    "grouping":     null,
+    "minGroupSize": null,
+    "goodWith":     [
+      "community fish",
+      "herbivorous fish (leaves are tough and rarely eaten)",
+      "cichlids that uproot softer plants",
+      "goldfish setups"
+    ],
+    "avoidWith":    [
+      "very small tanks where leaves cannot extend",
+      "bulb-eating species"
+    ]
+  },
+  "media": {
+    "primaryImage":    null,
+    "gallery":         [],
+    "imageCandidates": null
+  },
+  "summary": "A large Thai bulb plant with long strap-like leaves that trail through the upper water column; generally considered easy and tolerant, but reaches 1 m or more and works as a dramatic background or specimen plant.",
+  "careNotes": "Crinum thaianum is a bulb plant from southern Thailand with tough, straight, ribbon-like leaves that commonly reach 60–150 cm and can exceed 2 m under ideal conditions — distinguishing it from the closely related Crinum calamistratum, which has curly, wavy leaves. Generally regarded as undemanding: tolerates a wide temperature range (around 22–28 °C across sources, with Tropica citing up to 30 °C), pH roughly 6.0–7.5, and lighting from low to medium. Bury only the lower half of the bulb (sources advise leaving one-third to two-thirds of the bulb above the substrate) — fully burying the bulb tends to cause it to rot. Heavy root feeder; benefits from a nutrient-rich substrate and root tabs. CO2 is optional but accelerates growth. Propagates by producing daughter bulbs at the base of the mother plant, which can be separated once they reach about a third of the parent's size. Leaves are fibrous enough that herbivorous fish (including goldfish and large cichlids) generally leave them alone, making this one of the few large plants suited to those setups. Ethical sourcing concern: the species is IUCN-listed as Endangered, with wild populations highly fragmented and reportedly reduced to a small fraction of historical numbers due to bulb collection, dredging, and habitat conversion in its tiny endemic range. It is not currently CITES-listed or protected by Thai law, but hobbyists are strongly encouraged to source aquacultured or nursery-propagated stock (Tropica and most reputable suppliers grow it from cultivated daughter bulbs) rather than wild-collected bulbs. Source spread on lighting: Tropica rates it 'low'; Buce Plant and aqua-fish.net rate it 'medium'; averaged to medium here. Source spread on care level: Tropica and aqua-fish.net call it 'easy', Buce Plant calls it 'moderate'; the easier rating is supported by its tolerance of parameter swings, so beginner is recorded.",
+  "breedingNotes": "Propagation in the aquarium is asexual: mature, well-rooted bulbs produce daughter bulbs ('pups') around their base. Once a pup has grown to roughly one-third the size of the mother bulb and developed its own leaves, it can be gently separated and replanted with the upper portion of its bulb exposed. Older specimens may also push a flower stalk to the surface and produce fragrant white lily-like flowers, but seed-based propagation is not typical in the hobby.",
+  "sources": {
+    "primary": {
+      "name": "Tropica",
+      "url":  "https://tropica.com/en/plants/plantdetails/Crinumthaianum(093)/4537",
+      "accessedDate": "2026-06-11",
+      "notes": "Primary source URL given by discovery agent was the Tropica search page; resolved to the species product page. Tropica rates lighting as low and care as easy."
+    },
+    "additional": [
+      {
+        "name": "Buce Plant",
+        "url":  "https://buceplant.com/products/crinum-thaianum-bulbs",
+        "accessedDate": "2026-06-11",
+        "notes": "Cross-checked lighting (rates moderate-to-high), CO2 (recommended), pH 6.0–7.5, max height ~60 inches, and confirmed background placement and the 'bury only part of the bulb' rule (states 1/3 above substrate)."
+      },
+      {
+        "name": "Aqua-Fish.net",
+        "url":  "https://en.aqua-fish.net/plants/crinum-thaianum",
+        "accessedDate": "2026-06-11",
+        "notes": "Tertiary cross-check for water parameters: temperature 24–28 °C, pH 6.8–7.5, gH 4–18 dGH; confirms easy care level and daughter-bulb propagation."
+      },
+      {
+        "name": "Wikipedia",
+        "url":  "https://en.wikipedia.org/wiki/Crinum_thaianum",
+        "accessedDate": "2026-06-11",
+        "notes": "Taxonomy (Amaryllidaceae, Asparagales) and conservation status (IUCN Endangered, 2011; endemic to Ranong and Phang Nga Provinces, Thailand; ~1% of historical population remaining per the species article). Used for nativeRange and habitat prose only — Wikipedia is taxonomy fallback, not husbandry."
+      }
+    ]
+  },
+  "fish":         null,
+  "crustacean":   null,
+  "coral":        null,
+  "mollusc":      null,
+  "echinoderm":   null,
+  "other-invert": null,
+  "plant": {
+    "lighting":      "medium",
+    "co2":           "optional",
+    "growthRate":    "medium",
+    "placement":     "background",
+    "propagation":   ["daughter bulbs", "bulb division"],
+    "substrate":     "nutrient-rich",
+    "fertilization": "moderate"
+  },
+  "macroalgae":   null,
+  "schemaVersion": 1,
+  "dataStatus":   "researched",
+  "lastReviewed": "2026-06-11"
+}
