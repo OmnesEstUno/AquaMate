@@ -1,0 +1,105 @@
+{
+  "id": "fw-plant-023",
+  "slug": "cryptocoryne-undulata",
+  "kind": "flora",
+  "taxon": "plant",
+  "waterType": "freshwater",
+  "commonName": "Cryptocoryne Undulata",
+  "scientificName": "Cryptocoryne undulata",
+  "alsoKnownAs": [
+    "Wavy Crypt",
+    "Undulate Crypt",
+    "Cryptocoryne undulata 'Broad Leaf'",
+    "Cryptocoryne axelrodii"
+  ],
+  "category": "Cryptocoryne",
+  "taxonomy": {
+    "family": "Araceae",
+    "order": "Alismatales"
+  },
+  "nativeRange": {
+    "regions": ["South Asia"],
+    "countries": ["Sri Lanka"],
+    "habitat": "Slow-moving streams, shaded forest waterways, and lowland wetlands on the island of Sri Lanka.",
+    "biotope": "Stream",
+    "depthRangeM": null
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 22, "max": 28 },
+    "pH": { "min": 6.0, "max": 7.5 },
+    "gH": { "min": 2, "max": 12 },
+    "kH": { "min": 2, "max": 10 },
+    "salinity": null
+  },
+  "adultSizeCm": { "min": 15, "max": 35 },
+  "lifespanYears": null,
+  "tank": {
+    "minVolumeLiters": 40,
+    "minLengthCm": 45,
+    "swimZone": null,
+    "decorPreferences": [
+      "nutrient-rich substrate",
+      "root tabs",
+      "gentle flow",
+      "shaded areas under taller stems"
+    ],
+    "minSandDepthCm": null
+  },
+  "careLevel": "beginner",
+  "diet": null,
+  "compatibility": {
+    "temperament": null,
+    "grouping": null,
+    "minGroupSize": null,
+    "goodWith": [],
+    "avoidWith": []
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A hardy Sri Lankan crypt with narrow, wavy reddish-brown leaves. Generally considered an easy midground plant that tolerates a wide range of conditions.",
+  "careNotes": "Cryptocoryne undulata is generally considered one of the more forgiving Crypts and is well suited to beginner aquascapers. It tends to do best in medium light with a nutrient-rich substrate; CO2 is not strictly required but plants have been reported to grow faster and develop richer reddish-brown coloration with light CO2 supplementation (~6-14 mg/L per Tropica). Like other Cryptocoryne species, it is prone to 'crypt melt' after relocation or sudden parameter shifts — the existing leaves dissolve but the rhizome typically regrows within a few weeks if left undisturbed. Sources disagreed on growth rate (Tropica calls it medium; FishLaboratory leans slow; some hobby sites describe it as rather quick once established) — treated here as medium. Note: there is taxonomic flux around this species — some authorities lump it under Cryptocoryne crispatula var. undulata, and historical synonyms include C. axelrodii and C. willisii var. undulata. The Tropica 'Broad Leaf' cultivar is a triploid form of the same species. Adult height has been reported anywhere from about 15 cm to over 30 cm depending on light, CO2, and substrate.",
+  "breedingNotes": null,
+  "sources": {
+    "primary": {
+      "name": "Tropica",
+      "url": "https://tropica.com/en/plants/plantdetails/4566/4566",
+      "accessedDate": "2026-06-11"
+    },
+    "additional": [
+      {
+        "name": "Fish Laboratory",
+        "url": "https://www.fishlaboratory.com/fish/cryptocoryne-undulata/",
+        "accessedDate": "2026-06-11",
+        "notes": "Designated Buce Plant secondary was swapped — Buce Plant catalog did not surface a Cryptocoryne undulata product page. Fish Laboratory used to cross-check temperature (22-28°C), pH (5.5-7.5), hardness (1-15 dGH), family (Araceae), and historical synonyms (C. axelrodii, C. willisii var. undulata)."
+      },
+      {
+        "name": "Aquatics Pool Spa",
+        "url": "https://aquaticspoolspa.com/cryptocoryne-undulata/",
+        "accessedDate": "2026-06-11",
+        "notes": "Third source used to confirm temperature 68-83°F (20-28°C), pH 6.5-7.0, low-to-moderate light, CO2 not required, propagation via runners. Disagrees with FishLab on growth rate (calls it 'rather quick' vs. FishLab's slow); averaged to medium."
+      }
+    ]
+  },
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": {
+    "lighting": "medium",
+    "co2": "optional",
+    "growthRate": "medium",
+    "placement": "midground",
+    "propagation": ["runners", "rhizome division"],
+    "substrate": "nutrient-rich",
+    "fertilization": "moderate"
+  },
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-11"
+}

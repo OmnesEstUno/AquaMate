@@ -1,0 +1,109 @@
+{
+  "id": "fw-plant-026",
+  "slug": "downoi",
+  "kind": "flora",
+  "taxon": "plant",
+  "waterType": "freshwater",
+  "commonName": "Downoi",
+  "scientificName": "Pogostemon helferi",
+  "alsoKnownAs": [
+    "Little Star",
+    "Star Plant",
+    "Dao Noi",
+    "Dao-noi"
+  ],
+  "category": "Foreground Plant",
+  "taxonomy": {
+    "family": "Lamiaceae",
+    "order": "Lamiales"
+  },
+  "nativeRange": {
+    "regions": ["Southeast Asia"],
+    "countries": ["Thailand", "Myanmar"],
+    "habitat": "Creeks and small rivers along the Thai-Myanmar border, growing in iron-rich clay soil with calcium carbonate; submerged during the wet season and emergent during the dry season.",
+    "biotope": "Stream",
+    "depthRangeM": null
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 22, "max": 28 },
+    "pH":           { "min": 6.0, "max": 7.5 },
+    "gH":           { "min": 4,  "max": 15 },
+    "kH":           { "min": 2,  "max": 10 },
+    "salinity": null
+  },
+  "adultSizeCm":   { "min": 5, "max": 15 },
+  "lifespanYears": null,
+  "tank": {
+    "minVolumeLiters": 40,
+    "minLengthCm": 45,
+    "swimZone": null,
+    "decorPreferences": [
+      "nutrient-rich aquasoil substrate",
+      "open foreground with strong light penetration",
+      "moderate flow for dense carpet formation"
+    ],
+    "minSandDepthCm": null
+  },
+  "careLevel": "intermediate",
+  "diet": null,
+  "compatibility": {
+    "temperament": null,
+    "grouping": null,
+    "minGroupSize": null,
+    "goodWith": [],
+    "avoidWith": []
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A compact Thai foreground plant with tight, curly star-shaped leaves; generally considered demanding, doing best under strong light, supplemental CO2, and nutrient-rich substrate.",
+  "careNotes": "Pogostemon helferi is a distinctive carpeting plant from the Thai-Myanmar border, prized for its tight curly-edged leaves arranged in rosettes that resemble small green stars. Generally placed in the foreground, where it tends to stay compact (around 5-8 cm) under strong light and grows taller (up to 15 cm) under dimmer conditions. While Tropica reports it can succeed without CO2 in moderate light, most hobby sources strongly recommend pressurized CO2 paired with high light (around 30-50 PAR) to maintain dense, vibrant carpet growth. Has been reported to be sensitive to nutrient deficiencies — iron and magnesium shortfalls commonly present as chlorosis (yellowing) or stunted, pale new growth, while excessive macronutrients can suppress growth or trigger melting. A nutrient-rich aquasoil with regular comprehensive fertilization (macros plus iron-rich trace elements) is generally advised. Stable water parameters matter: sudden swings can cause rapid melt. Source spread on difficulty: Tropica rates this among the easiest foreground plants, while Aquariumbreeder and Buce Plant rate it medium-to-hard; the file uses the middle (intermediate) value. Source spread on temperature: Tropica 23-30°C, Aquariumbreeder 22-26°C, general hobby consensus 22-28°C (used here).",
+  "breedingNotes": "Propagates vegetatively in the aquarium, primarily through lateral shoots that emerge from the base of mature plants. To replant, the parent clump can be lifted and divided into 4-5 smaller blocks spaced roughly 3-5 cm apart; senescent leaves and excess roots should be trimmed before replanting. Head cuttings are possible but generally less successful. Flowering (small lavender blooms, 15-30 mm) typically only occurs on emersed-grown specimens.",
+  "sources": {
+    "primary": {
+      "name": "Tropica",
+      "url": "https://tropica.com/en/articles/pogostemon-helferi/",
+      "accessedDate": "2026-06-11",
+      "notes": "Primary source: native range, taxonomy, propagation, height. Tropica rates difficulty as among the easiest foreground plants and CO2 as optional; this disagrees with Buce Plant and Aquariumbreeder."
+    },
+    "additional": [
+      {
+        "name": "Buce Plant",
+        "url": "https://buceplant.com/products/pogostemon-helferi-pot",
+        "accessedDate": "2026-06-11",
+        "notes": "Secondary source for pH (6-7.5), lighting (medium-high), CO2 (recommended), care difficulty (medium). Buce Plant collections root had no direct downoi listing; product page used instead."
+      },
+      {
+        "name": "Aquariumbreeder",
+        "url": "https://aquariumbreeder.com/pogostemon-helferi-care-guide/",
+        "accessedDate": "2026-06-11",
+        "notes": "Third source for cross-verification: temperature 22-26°C, pH 6-8, gH 6-18, lighting 30-50 PAR, CO2 required, substrate aquasoil, propagation via lateral shoots. Used to average the temp/pH/hardness ranges with Tropica."
+      }
+    ]
+  },
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": {
+    "lighting": "high",
+    "co2": "recommended",
+    "growthRate": "medium",
+    "placement": "foreground",
+    "propagation": [
+      "lateral shoots",
+      "clump division",
+      "head cuttings"
+    ],
+    "substrate": "nutrient-rich",
+    "fertilization": "moderate"
+  },
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-11"
+}
