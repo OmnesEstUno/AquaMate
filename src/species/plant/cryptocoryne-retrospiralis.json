@@ -1,0 +1,104 @@
+{
+  "id": "fw-plant-121",
+  "slug": "cryptocoryne-retrospiralis",
+  "kind": "flora",
+  "taxon": "plant",
+  "waterType": "freshwater",
+  "commonName": "Cryptocoryne Retrospiralis",
+  "scientificName": "Cryptocoryne retrospiralis",
+  "alsoKnownAs": [
+    "Water Trumpet",
+    "Retro Crypt"
+  ],
+  "category": "Cryptocoryne",
+  "taxonomy": {
+    "family": "Araceae",
+    "order": "Alismatales"
+  },
+  "nativeRange": {
+    "regions": ["South Asia", "Southeast Asia"],
+    "countries": ["India", "Bangladesh"],
+    "habitat": "Slow-moving rivers and streams of the Indian subcontinent, where it grows submersed over silty and sandy substrates in soft, gentle current.",
+    "biotope": "River",
+    "depthRangeM": null
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 21, "max": 28 },
+    "pH": { "min": 6.5, "max": 7.5 },
+    "gH": { "min": 2, "max": 12 },
+    "kH": { "min": 2, "max": 12 },
+    "salinity": null
+  },
+  "adultSizeCm": { "min": 20, "max": 50 },
+  "lifespanYears": null,
+  "tank": {
+    "minVolumeLiters": 60,
+    "minLengthCm": 60,
+    "swimZone": null,
+    "decorPreferences": [
+      "nutrient-rich substrate",
+      "root tabs",
+      "gentle flow",
+      "open background space for tall strap-like leaves"
+    ],
+    "minSandDepthCm": null
+  },
+  "careLevel": "beginner",
+  "diet": null,
+  "compatibility": {
+    "temperament": null,
+    "grouping": null,
+    "minGroupSize": null,
+    "goodWith": [],
+    "avoidWith": []
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "An Indian-subcontinent crypt with long, narrow, strap-like leaves that resembles its close relative Cryptocoryne spiralis. A heavy root feeder reaching 40-50 cm, well suited to background placement in medium-to-large planted aquariums.",
+  "careNotes": "Cryptocoryne retrospiralis is a tall, grass-like Cryptocoryne native to slow rivers and streams of India and Bangladesh, very similar in habit to the better-known Cryptocoryne spiralis (fw-plant-065). It produces long, narrow, ribbon-like leaves that arch out from a basal rosette, making it a natural background plant in 60+ cm aquariums; mature specimens commonly reach 40-50 cm, with Buce Plant citing up to 24 in (~60 cm) and Modern Aquarium reporting ~20-38 cm depending on strain and conditions. It is a heavy root feeder and does best planted into a nutrient-rich substrate with root tabs; low-to-moderate light is sufficient, and CO2 injection is beneficial but not required. Both sources note that, like other crypts, it can melt after shipping or sudden parameter changes — trim affected leaves and leave the rhizome undisturbed, and the plant typically regrows from the crown within a couple of weeks. Temperature consensus is roughly 21-28°C (Modern Aquarium 70-82°F). pH consensus is 6.5-7.5; hardness was not reported by either primary source and was inferred from the close congener C. spiralis (2-12 dGH/dKH) — see needs_review status if more conservative bounds are required. Care level is widely described as easy once established; major caution is against relocating an already-rooted specimen.",
+  "breedingNotes": null,
+  "sources": {
+    "primary": {
+      "name": "Modern Aquarium",
+      "url": "https://www.modernaquarium.com/cryptocoryne-retrospiralis-set-of-2-plants/",
+      "accessedDate": "2026-06-11",
+      "notes": "Primary source. Confirmed Indian/Bangladeshi origin, 70-82°F (~21-28°C) temperature, ~20-38 cm height, low-to-moderate light, optional CO2, root-feeder substrate with root tabs, slow-to-moderate growth, midground-to-background placement, easy-to-moderate care level, and crypt-melt risk on shipping/parameter swings."
+    },
+    "additional": [
+      {
+        "name": "Buce Plant",
+        "url": "https://buceplant.com/products/cryptocoryne-retrospiralis",
+        "accessedDate": "2026-06-11",
+        "notes": "Secondary source. Confirmed pH 6.5-7.5, 10-24 in (~25-60 cm) height, moderate light, CO2 optional but beneficial, medium growth rate, mid/background placement, runner propagation, easy care, family Araceae, and sensitivity to relocation/strong light. Lists origin as India, China, Thailand — Indian origin matches Modern Aquarium and Wikipedia; the China/Thailand attribution is broader than other sources support and was not adopted."
+      },
+      {
+        "name": "Wikipedia (Cryptocoryne retrospiralis)",
+        "url": "https://en.wikipedia.org/wiki/Cryptocoryne_retrospiralis",
+        "accessedDate": "2026-06-11",
+        "notes": "Attempted as tertiary corroboration for taxonomy and native range; URL returned HTTP 404 on both attempts and could not be used. Family Araceae / order Alismatales taken from genus-level knowledge and the C. spiralis sibling entry rather than from this source."
+      }
+    ]
+  },
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": {
+    "lighting": "low",
+    "co2": "optional",
+    "growthRate": "medium",
+    "placement": "background",
+    "propagation": ["runners", "rhizome division"],
+    "substrate": "nutrient-rich",
+    "fertilization": "moderate"
+  },
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-11"
+}
