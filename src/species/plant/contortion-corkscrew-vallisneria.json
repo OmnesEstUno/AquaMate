@@ -1,0 +1,123 @@
+{
+  "id": "fw-plant-115",
+  "slug": "contortion-corkscrew-vallisneria",
+  "kind": "flora",
+  "taxon": "plant",
+  "waterType": "freshwater",
+  "commonName": "Contortion Giant Corkscrew Vallisneria",
+  "scientificName": "Vallisneria asiatica",
+  "alsoKnownAs": [
+    "Corkscrew Val",
+    "Corkscrew Vallisneria",
+    "Spiralis Val",
+    "Giant Corkscrew Val",
+    "Contortion Val",
+    "Twisted Vallisneria"
+  ],
+  "category": "Background plant",
+  "taxonomy": {
+    "family": "Hydrocharitaceae",
+    "order": "Alismatales"
+  },
+  "nativeRange": {
+    "regions": [
+      "East Asia"
+    ],
+    "countries": [
+      "Japan"
+    ],
+    "habitat": "Slow-moving to still shallow freshwaters of temperate East Asia — ponds, lakes, and stream margins, typically on fine sandy or silty substrates with adequate light penetration.",
+    "biotope": "Pond",
+    "depthRangeM": { "min": 0.3, "max": 3 }
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 21, "max": 28 },
+    "pH": { "min": 6.5, "max": 8.0 },
+    "gH": { "min": 4, "max": 18 },
+    "kH": { "min": 3, "max": 15 },
+    "salinity": null
+  },
+  "adultSizeCm": { "min": 40, "max": 90 },
+  "lifespanYears": null,
+  "tank": {
+    "minVolumeLiters": 75,
+    "minLengthCm": 60,
+    "swimZone": null,
+    "decorPreferences": [
+      "Fine sand or fine nutrient-rich gravel substrate",
+      "Open background space for runner spread and vertical leaf rise",
+      "Root tabs near the crown for heavy root feeders",
+      "Sufficient tank depth to display the spiraled ribbon foliage"
+    ],
+    "minSandDepthCm": 5
+  },
+  "careLevel": "beginner",
+  "diet": null,
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": null,
+    "minGroupSize": null,
+    "goodWith": [
+      "Community freshwater fish",
+      "Shrimp",
+      "Snails",
+      "Tetras",
+      "Livebearers",
+      "Other Vallisneria species",
+      "African cichlids (per Aquarium Co-Op)"
+    ],
+    "avoidWith": [
+      "Goldfish (will eat or uproot)",
+      "Large digging cichlids",
+      "Plant-eating fish (silver dollars, large plecos)",
+      "Crayfish"
+    ]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "Distinctive Vallisneria with tightly spiraled, light-green ribbon leaves that rise vertically as a background plant; generally considered an easy beginner species that propagates aggressively via runners.",
+  "careNotes": "Vallisneria asiatica is most visually distinctive among the commonly traded Vallisneria for its tightly twisted, corkscrew-spiraled ribbon leaves — a feature that separates it from the straight-leaved V. spiralis (fw-plant-008) and the much taller V. americana / Jungle Val (fw-plant-034). It is generally regarded as a beginner-friendly background plant that tolerates a wide range of community-tank parameters. As with all Vallisneria, it is commonly advised to plant the crown JUST ABOVE the substrate — burying the crown is a frequent cause of rot. Once established, it spreads aggressively by stolons (runners) that produce daughter plants across the substrate; in most aquaria this requires periodic thinning to keep the bed from overtaking the layout. CO2 is not required, but growth rate and coloration tend to improve noticeably with supplementation. Vallisneria is a heavy root feeder, so root tabs near the crown generally outperform water-column dosing alone. Has been reported to be sensitive to liquid carbon (Excel-type glutaraldehyde) products, which can cause leaf melt. Taxonomic note: V. asiatica's status is debated — it is sometimes treated as a synonym of, or as a variety (V. spiralis var. tortifolia) within, V. spiralis, and trade names overlap heavily. AquaMate treats it as a distinct entry because the spiraled-leaf morphology is the recognizable hobby-trade distinction. Native to Japan. Cross-source verification was limited (the secondary source had no parameter specifics and two fallback sources were unreachable), so numeric parameter ranges have been aligned with sister-species V. spiralis pending reviewer confirmation. Sources tried that failed: buceplant.com/products/corkscrew-val (404), en.wikipedia.org/wiki/Vallisneria_asiatica (404).",
+  "breedingNotes": null,
+  "sources": {
+    "primary": {
+      "name": "Modern Aquarium",
+      "url": "https://www.modernaquarium.com/contortion-giant-corkscrew-vallisneria-asiatica-set-of-2-plants/",
+      "accessedDate": "2026-06-11",
+      "notes": "Confirmed scientific name (Vallisneria asiatica), Japanese native range, distinctive spiraled-leaf morphology, background placement, temperature 70-82°F (21-28°C), moderate-to-fast growth, easy care difficulty, propagation via runners, CO2 not required, nutrient-rich substrate preference."
+    },
+    "additional": [
+      {
+        "name": "Aquarium Co-Op",
+        "url": "https://www.aquariumcoop.com/collections/live-aquarium-plants/products/corkscrew-vallisneria",
+        "accessedDate": "2026-06-11",
+        "notes": "Cross-confirmed background placement, easy care difficulty, fast runner-based propagation (new shoot as often as every 3 days), tall growth that can drape across the surface, and compatibility with goldfish/African cichlid/community tanks. Did not provide specific numeric water parameters; high-stakes numeric fields therefore aligned with sister species V. spiralis (fw-plant-008) pending reviewer confirmation."
+      }
+    ]
+  },
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": {
+    "lighting": "medium",
+    "co2": "optional",
+    "growthRate": "fast",
+    "placement": "background",
+    "propagation": [
+      "runners (stolons)",
+      "daughter plants from runners",
+      "division"
+    ],
+    "substrate": "nutrient-rich",
+    "fertilization": "low"
+  },
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "needs_review",
+  "lastReviewed": "2026-06-11"
+}
