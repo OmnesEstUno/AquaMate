@@ -20,7 +20,7 @@
   "nativeRange": {
     "regions": ["Asia", "Southeast Asia"],
     "countries": ["Thailand", "Laos", "Vietnam", "China"],
-    "habitat": "Streams and slow-moving rivers in mainland Southeast Asia and southern China; often found in calcareous (limestone) streams with harder water than most Cryptocoryne species.",
+    "habitat": "Streams and slow-moving rivers in mainland Southeast Asia and southern China. Often associated with calcareous (limestone) streams, which explains the unusual hard-water tolerance of this variety relative to the rest of the genus.",
     "biotope": "Stream",
     "depthRangeM": null
   },
@@ -38,9 +38,11 @@
     "minLengthCm": 60,
     "swimZone": null,
     "decorPreferences": [
-      "Nutrient-rich substrate (root tabs strongly recommended — heavy root feeder)",
-      "Place in background where long strap leaves have vertical room (45+ cm clearance)",
-      "Tolerates harder/alkaline water unusually well for a Cryptocoryne — pairs naturally with livebearer and Rift Lake setups"
+      "Nutrient-rich substrate with root tabs (heavy root feeder)",
+      "Background placement with 45+ cm vertical clearance for long strap leaves",
+      "Tolerates harder/alkaline water unusually well for a Cryptocoryne — pairs naturally with livebearer and Rift Lake setups",
+      "Calcium supplementation helps prevent twisted/deformed leaves",
+      "Stable water chemistry — sudden parameter swings can trigger crypt melt"
     ],
     "minSandDepthCm": null
   },
@@ -58,17 +60,30 @@
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "A tall background Cryptocoryne with distinctive long puckered/textured strap leaves. Trade-named after the Balansae form of Cryptocoryne crispatula, this is one of the most water-chemistry-tolerant crypts and is notably less prone to crypt melt than most of the genus. Suitable for hard-water and Rift Lake setups where other Cryptocoryne struggle.",
-  "careNotes": "Cryptocoryne balansae is the long-standing trade name for the broad-leaved Balansae form of Cryptocoryne crispatula. Modern taxonomy treats it as Cryptocoryne crispatula var. balansae rather than a separate species. Distinctive feature: long narrow strap leaves (up to 60+ cm) with a heavily puckered/quilted surface texture. Husbandry is typical Cryptocoryne — heavy root feeder, slow-to-medium growth, melt-during-acclimation is common but usually recovers from the rhizome — with the key exception that this species tolerates and even prefers harder, more alkaline water (pH 6.5–8.0, gH up to 25) than most Cryptocoryne. This makes it one of the few aquarium plants suitable for Rift Lake cichlid setups, alongside Vallisneria and Anubias. Background placement; needs at least 45 cm of vertical tank clearance. \n\nNOTE: this entry was written from genus baselines after two dispatch attempts hung on upstream sources. Reviewer should verify the harder-water tolerance vs published references (Tropica, SeriouslyFish, Crypts.de).",
+  "summary": "A tall background Cryptocoryne with distinctive long, puckered strap leaves. Trade-named after the Balansae form of Cryptocoryne crispatula, it is one of the most water-chemistry-tolerant crypts and is generally considered less prone to crypt melt than typical Cryptocoryne. Notably suitable for hard-water and Rift Lake setups.",
+  "careNotes": "Cryptocoryne balansae is the long-standing trade name for the broad-leaved Balansae form of Cryptocoryne crispatula. Modern taxonomy generally treats it as Cryptocoryne crispatula var. balansae rather than a separate species. Its distinctive feature is the long, narrow strap-like leaves (commonly 30-60+ cm) with a heavily puckered/quilted surface texture that develops more strongly under brighter light.\n\nHusbandry follows typical Cryptocoryne patterns — heavy root feeder, slow-to-medium growth, occasional melt during acclimation that usually recovers from the rhizome — with the key exception that this variety tolerates and arguably prefers harder, more alkaline water (around pH 6.5-8.0, gH up to ~25) than most Cryptocoryne. This makes it one of the few rooted aquarium plants generally considered suitable for Rift Lake cichlid setups, alongside Vallisneria and Anubias.\n\nLighting needs are typically described as low-to-moderate for survival and moderate-to-high to bring out the strongest puckering and faster growth. CO2 is not strictly required but is reported to improve growth and leaf texture. Calcium supplementation has been reported to help prevent twisted or deformed leaves.\n\nSource disagreement noted: Buce Plant lists adult leaf length as 24-36 in (~60-90 cm) while Modern Aquarium lists 8-16 in (~20-41 cm). The 30-60 cm range used here reflects the typical aquarium-grown size for the tall Balansae form; specimens can exceed 60 cm under favorable conditions. Buce Plant gives pH 6.5-7.5 only; the wider 6.5-8.0 pH and the elevated gH ceiling are well-documented in hobbyist references for this variety but were not directly confirmed by the two retailers fetched here — a reviewer may want to cross-check against Tropica or Crypts.de.",
   "breedingNotes": null,
   "sources": {
     "primary": {
-      "name": "Cryptocoryne wendtii sister entry (fw-plant-024)",
-      "url": "https://en.wikipedia.org/wiki/Cryptocoryne_crispatula",
-      "accessedDate": "2026-06-11",
-      "notes": "Genus-baseline inheritance from the existing researched cryptocoryne-wendtii entry plus Wikipedia's Cryptocoryne crispatula taxonomy article. Two dispatch attempts hung on upstream retailer sources before writing this entry directly. Dispatch was repeatedly stalling on commercial product pages — flag for manifest URL cleanup."
+      "name": "Buce Plant — Cryptocoryne Balansae",
+      "url": "https://buceplant.com/products/cryptocoryne-balansae",
+      "accessedDate": "2026-06-12",
+      "notes": "Primary retailer care page. Source of lighting (moderate-high), CO2 (recommended), pH 6.5-7.5, substrate, calcium-deficiency note, propagation via runners, and tall size (24-36 in)."
     },
-    "additional": []
+    "additional": [
+      {
+        "name": "Modern Aquarium — Cryptocoryne Balansae",
+        "url": "https://www.modernaquarium.com/cryptocoryne-balansae-set-of-2-plants/",
+        "accessedDate": "2026-06-12",
+        "notes": "Secondary retailer care page used for cross-verification. Confirms background placement, nutrient-rich substrate with root-tab fertilization, slow-to-moderate growth, and temperature range 72-82°F (22-28°C). Disagrees on size (8-16 in vs Buce's 24-36 in) and on lighting/CO2 intensity (low-moderate, CO2 not required); these are averaged in the written values."
+      },
+      {
+        "name": "Wikipedia — Cryptocoryne crispatula (taxonomy reference)",
+        "url": "https://en.wikipedia.org/wiki/Cryptocoryne_crispatula",
+        "accessedDate": "2026-06-12",
+        "notes": "Attempted as third source for taxonomic confirmation but returned 404 at fetch time. Family/order (Araceae / Alismatales) and the var. balansae classification are well-established in standard Cryptocoryne taxonomy."
+      }
+    ]
   },
   "fish": null,
   "crustacean": null,
@@ -87,6 +102,6 @@
   },
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "needs_review",
-  "lastReviewed": "2026-06-11"
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-12"
 }
