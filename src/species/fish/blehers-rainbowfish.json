@@ -16,21 +16,48 @@
     "order": "Atheriniformes"
   },
   "nativeRange": {
-    "regions": ["Oceania", "Southeast Asia"],
-    "countries": ["Indonesia", "Papua New Guinea"],
+    "regions": [
+      "Oceania",
+      "Southeast Asia"
+    ],
+    "countries": [
+      "Indonesia",
+      "Papua New Guinea"
+    ],
     "habitat": "Shallow, plant-rich margins of lowland lakes in the lower Mamberamo River system; clear to slightly turbid warm water with abundant aquatic and marginal vegetation; foothill region surrounded by jungle",
     "biotope": "Tropical lake margins",
-    "depthRangeM": { "min": 0, "max": 3 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 3
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 28 },
-    "pH": { "min": 7.0, "max": 8.0 },
-    "gH": { "min": 8, "max": 15 },
-    "kH": { "min": 4, "max": 10 },
+    "temperatureC": {
+      "min": 23,
+      "max": 28
+    },
+    "pH": {
+      "min": 7,
+      "max": 8
+    },
+    "gH": {
+      "min": 8,
+      "max": 15
+    },
+    "kH": {
+      "min": 4,
+      "max": 10
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 7.0, "max": 12.0 },
-  "lifespanYears": { "min": 3, "max": 6 },
+  "adultSizeCm": {
+    "min": 7,
+    "max": 12
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 6
+  },
   "tank": {
     "minVolumeLiters": 150,
     "minLengthCm": 120,
@@ -144,7 +171,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

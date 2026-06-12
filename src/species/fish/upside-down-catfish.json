@@ -6,33 +6,65 @@
   "waterType": "freshwater",
   "commonName": "Upside-Down Catfish",
   "scientificName": "Synodontis nigriventris",
-  "alsoKnownAs": ["Blotched Upside-Down Catfish"],
+  "alsoKnownAs": [
+    "Blotched Upside-Down Catfish"
+  ],
   "category": "Catfish",
   "taxonomy": {
     "family": "Mochokidae",
     "order": "Siluriformes"
   },
   "nativeRange": {
-    "regions": ["Central Africa"],
-    "countries": ["Democratic Republic of Congo", "Republic of Congo", "Cameroon"],
+    "regions": [
+      "Central Africa"
+    ],
+    "countries": [
+      "Democratic Republic of Congo",
+      "Republic of Congo",
+      "Cameroon"
+    ],
     "habitat": "Rivers and streams with slow-moving water, often among aquatic vegetation and woody debris; middle Congo River basin including Pool Malebo and Kasai and Ubangi drainages, as well as the Kouilou-Niari basin",
     "biotope": "River",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 27 },
-    "pH": { "min": 6.0, "max": 7.5 },
-    "gH": { "min": 5, "max": 15 },
-    "kH": { "min": 4, "max": 12 },
+    "temperatureC": {
+      "min": 23,
+      "max": 27
+    },
+    "pH": {
+      "min": 6,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 5,
+      "max": 15
+    },
+    "kH": {
+      "min": 4,
+      "max": 12
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 8, "max": 10 },
-  "lifespanYears": { "min": 5, "max": 10 },
+  "adultSizeCm": {
+    "min": 8,
+    "max": 10
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 10
+  },
   "tank": {
     "minVolumeLiters": 75,
     "minLengthCm": 75,
     "swimZone": "mid",
-    "decorPreferences": ["caves", "PVC tubes", "driftwood", "dense planting", "overhanging leaves"],
+    "decorPreferences": [
+      "caves",
+      "PVC tubes",
+      "driftwood",
+      "dense planting",
+      "overhanging leaves"
+    ],
     "minSandDepthCm": null
   },
   "careLevel": "intermediate",
@@ -44,8 +76,20 @@
     "temperament": "peaceful",
     "grouping": "shoaling",
     "minGroupSize": 4,
-    "goodWith": ["African tetras", "Congo tetras", "small peaceful cichlids", "dwarf cichlids", "mormyrids", "small rasboras", "other peaceful community fish of similar size"],
-    "avoidWith": ["large aggressive cichlids", "fin-nipping species", "very large predatory fish"]
+    "goodWith": [
+      "African tetras",
+      "Congo tetras",
+      "small peaceful cichlids",
+      "dwarf cichlids",
+      "mormyrids",
+      "small rasboras",
+      "other peaceful community fish of similar size"
+    ],
+    "avoidWith": [
+      "large aggressive cichlids",
+      "fin-nipping species",
+      "very large predatory fish"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -101,7 +145,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

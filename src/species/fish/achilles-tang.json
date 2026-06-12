@@ -16,21 +16,51 @@
     "order": "Acanthuriformes"
   },
   "nativeRange": {
-    "regions": ["Western Pacific", "Eastern Central Pacific"],
-    "countries": ["United States (Hawaii)", "Mexico (Baja California)", "Wake Island", "Mariana Islands", "Pitcairn Islands"],
+    "regions": [
+      "Western Pacific",
+      "Eastern Central Pacific"
+    ],
+    "countries": [
+      "United States (Hawaii)",
+      "Mexico (Baja California)",
+      "Wake Island",
+      "Mariana Islands",
+      "Pitcairn Islands"
+    ],
     "habitat": "Surge zones and reef crests of oceanic islands; strong wave-swept shallow reef flats and outer reef edges.",
     "biotope": "Reef",
-    "depthRangeM": { "min": 0, "max": 10 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 10
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 27 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 24,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.023, "max": 1.026 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.023,
+      "max": 1.026
+    }
   },
-  "adultSizeCm": { "min": 20, "max": 24 },
-  "lifespanYears": { "min": 10, "max": 15 },
+  "adultSizeCm": {
+    "min": 20,
+    "max": 24
+  },
+  "lifespanYears": {
+    "min": 10,
+    "max": 15
+  },
   "tank": {
     "minVolumeLiters": 700,
     "minLengthCm": 180,
@@ -132,7 +162,9 @@
     "mouthbrooder": false,
     "constantGrazer": true,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": null,
+    "obligateCorallivore": false
   },
   "crustacean": null,
   "coral": null,

@@ -17,7 +17,9 @@
     "order": "Polypteriformes"
   },
   "nativeRange": {
-    "regions": ["West Africa"],
+    "regions": [
+      "West Africa"
+    ],
     "countries": [
       "Senegal",
       "Guinea-Bissau",
@@ -31,17 +33,38 @@
     ],
     "habitat": "Slow-moving or still freshwater: rivers, streams, floodplain pools, and marshy marginal areas; typically over soft substrate with abundant cover; often in low-oxygen, turbid water where air-breathing is advantageous",
     "biotope": "Blackwater / West African coastal river",
-    "depthRangeM": { "min": 0, "max": 3 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 3
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 25, "max": 28 },
-    "pH": { "min": 6.0, "max": 7.0 },
-    "gH": { "min": 5, "max": 15 },
-    "kH": { "min": 2, "max": 8 },
+    "temperatureC": {
+      "min": 25,
+      "max": 28
+    },
+    "pH": {
+      "min": 6,
+      "max": 7
+    },
+    "gH": {
+      "min": 5,
+      "max": 15
+    },
+    "kH": {
+      "min": 2,
+      "max": 8
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 28.0, "max": 35.0 },
-  "lifespanYears": { "min": 10, "max": 20 },
+  "adultSizeCm": {
+    "min": 28,
+    "max": 35
+  },
+  "lifespanYears": {
+    "min": 10,
+    "max": 20
+  },
   "tank": {
     "minVolumeLiters": 200,
     "minLengthCm": 120,
@@ -157,7 +180,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

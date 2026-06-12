@@ -15,21 +15,49 @@
     "order": "Cypriniformes"
   },
   "nativeRange": {
-    "regions": ["South Asia", "Southeast Asia"],
-    "countries": ["Myanmar", "India", "China"],
+    "regions": [
+      "South Asia",
+      "Southeast Asia"
+    ],
+    "countries": [
+      "Myanmar",
+      "India",
+      "China"
+    ],
     "habitat": "Clear, slow- to moderately-flowing mountain streams and rivers with mixed sand-and-rock substrates, leaf litter, submerged driftwood, and shaded forest canopy; found in the Ayeyarwady, Sittaung, Salween, and Ataran river drainages in Myanmar, Manipur state in NE India, and Yunnan Province in China",
     "biotope": "Asian hill stream",
-    "depthRangeM": { "min": 0, "max": 3 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 3
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 28 },
-    "pH": { "min": 6.0, "max": 7.5 },
-    "gH": { "min": 2, "max": 10 },
-    "kH": { "min": 2, "max": 8 },
+    "temperatureC": {
+      "min": 22,
+      "max": 28
+    },
+    "pH": {
+      "min": 6,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 2,
+      "max": 10
+    },
+    "kH": {
+      "min": 2,
+      "max": 8
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 8.0, "max": 13.0 },
-  "lifespanYears": { "min": 5, "max": 10 },
+  "adultSizeCm": {
+    "min": 8,
+    "max": 13
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 10
+  },
   "tank": {
     "minVolumeLiters": 280,
     "minLengthCm": 120,
@@ -145,7 +173,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

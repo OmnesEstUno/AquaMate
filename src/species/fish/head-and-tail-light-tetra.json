@@ -15,21 +15,50 @@
     "order": "Characiformes"
   },
   "nativeRange": {
-    "regions": ["South America"],
-    "countries": ["Guyana", "Suriname", "French Guiana", "Brazil", "Peru"],
+    "regions": [
+      "South America"
+    ],
+    "countries": [
+      "Guyana",
+      "Suriname",
+      "French Guiana",
+      "Brazil",
+      "Peru"
+    ],
     "habitat": "Slow-moving rivers, forest streams, floodplain lakes, and blackwater creeks; typically in shaded areas with abundant aquatic vegetation, leaf litter, and driftwood",
     "biotope": "Blackwater/Amazon",
-    "depthRangeM": { "min": 0, "max": 3 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 3
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 27 },
-    "pH": { "min": 5.5, "max": 7.5 },
-    "gH": { "min": 2, "max": 20 },
-    "kH": { "min": 1, "max": 10 },
+    "temperatureC": {
+      "min": 22,
+      "max": 27
+    },
+    "pH": {
+      "min": 5.5,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 2,
+      "max": 20
+    },
+    "kH": {
+      "min": 1,
+      "max": 10
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 4.0, "max": 5.0 },
-  "lifespanYears": { "min": 3, "max": 5 },
+  "adultSizeCm": {
+    "min": 4,
+    "max": 5
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 75,
     "minLengthCm": 60,
@@ -155,7 +184,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

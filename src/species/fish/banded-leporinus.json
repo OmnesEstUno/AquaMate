@@ -17,21 +17,54 @@
     "order": "Characiformes"
   },
   "nativeRange": {
-    "regions": ["South America"],
-    "countries": ["Brazil", "Colombia", "Venezuela", "Peru", "Bolivia", "Guyana", "Suriname", "French Guiana", "Trinidad and Tobago"],
+    "regions": [
+      "South America"
+    ],
+    "countries": [
+      "Brazil",
+      "Colombia",
+      "Venezuela",
+      "Peru",
+      "Bolivia",
+      "Guyana",
+      "Suriname",
+      "French Guiana",
+      "Trinidad and Tobago"
+    ],
     "habitat": "Fast-flowing rivers and streams with rocky substrates; also found in floodplain lakes and flooded forest margins during the wet season. Prefers well-oxygenated, clear to slightly turbid water.",
     "biotope": "South American river",
-    "depthRangeM": { "min": 0, "max": 5 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 5
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 28 },
-    "pH": { "min": 5.5, "max": 7.5 },
-    "gH": { "min": 2, "max": 15 },
-    "kH": { "min": 2, "max": 8 },
+    "temperatureC": {
+      "min": 22,
+      "max": 28
+    },
+    "pH": {
+      "min": 5.5,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 2,
+      "max": 15
+    },
+    "kH": {
+      "min": 2,
+      "max": 8
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 25.0, "max": 30.0 },
-  "lifespanYears": { "min": 8, "max": 12 },
+  "adultSizeCm": {
+    "min": 25,
+    "max": 30
+  },
+  "lifespanYears": {
+    "min": 8,
+    "max": 12
+  },
   "tank": {
     "minVolumeLiters": 400,
     "minLengthCm": 150,
@@ -155,7 +188,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": true,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

@@ -16,21 +16,53 @@
     "order": "Characiformes"
   },
   "nativeRange": {
-    "regions": ["South America"],
-    "countries": ["Brazil", "Peru", "Colombia", "Bolivia", "Venezuela", "Ecuador", "Paraguay", "Argentina"],
+    "regions": [
+      "South America"
+    ],
+    "countries": [
+      "Brazil",
+      "Peru",
+      "Colombia",
+      "Bolivia",
+      "Venezuela",
+      "Ecuador",
+      "Paraguay",
+      "Argentina"
+    ],
     "habitat": "Slow-moving and still surface waters of the Amazon and Orinoco basins; blackwater streams, flooded forest margins, and tributary edges with overhanging vegetation",
     "biotope": "Amazonian blackwater",
-    "depthRangeM": { "min": 0, "max": 0.5 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 0.5
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 28 },
-    "pH": { "min": 6.0, "max": 7.5 },
-    "gH": { "min": 2, "max": 12 },
-    "kH": { "min": 1, "max": 8 },
+    "temperatureC": {
+      "min": 23,
+      "max": 28
+    },
+    "pH": {
+      "min": 6,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 2,
+      "max": 12
+    },
+    "kH": {
+      "min": 1,
+      "max": 8
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 7.0, "max": 9.0 },
-  "lifespanYears": { "min": 3, "max": 5 },
+  "adultSizeCm": {
+    "min": 7,
+    "max": 9
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 80,
     "minLengthCm": 90,
@@ -147,7 +179,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

@@ -6,28 +6,58 @@
   "waterType": "freshwater",
   "commonName": "Kribensis",
   "scientificName": "Pelvicachromis pulcher",
-  "alsoKnownAs": ["Krib", "Rainbow Krib", "Purple Cichlid", "West African Dwarf Cichlid"],
+  "alsoKnownAs": [
+    "Krib",
+    "Rainbow Krib",
+    "Purple Cichlid",
+    "West African Dwarf Cichlid"
+  ],
   "category": "Cichlid",
   "taxonomy": {
     "family": "Cichlidae",
     "order": "Cichliformes"
   },
   "nativeRange": {
-    "regions": ["West Africa", "Central Africa"],
-    "countries": ["Nigeria", "Cameroon", "Benin"],
+    "regions": [
+      "West Africa",
+      "Central Africa"
+    ],
+    "countries": [
+      "Nigeria",
+      "Cameroon",
+      "Benin"
+    ],
     "habitat": "Slow-moving to still streams, river margins, and coastal drainages; often with dense vegetation and soft, tannin-stained water; native streams can be brackish-influenced near the coast.",
     "biotope": "West African rainforest stream",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 27 },
-    "pH": { "min": 6.0, "max": 7.5 },
-    "gH": { "min": 5, "max": 15 },
-    "kH": { "min": 4, "max": 10 },
+    "temperatureC": {
+      "min": 24,
+      "max": 27
+    },
+    "pH": {
+      "min": 6,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 5,
+      "max": 15
+    },
+    "kH": {
+      "min": 4,
+      "max": 10
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 6, "max": 11 },
-  "lifespanYears": { "min": 5, "max": 8 },
+  "adultSizeCm": {
+    "min": 6,
+    "max": 11
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 8
+  },
   "tank": {
     "minVolumeLiters": 75,
     "minLengthCm": 60,
@@ -124,7 +154,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": true
+    "euryhaline": true,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

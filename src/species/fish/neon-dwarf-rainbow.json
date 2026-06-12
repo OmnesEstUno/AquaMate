@@ -6,27 +6,51 @@
   "waterType": "freshwater",
   "commonName": "Neon Dwarf Rainbowfish",
   "scientificName": "Melanotaenia praecox",
-  "alsoKnownAs": ["Dwarf Neon Rainbowfish", "Praecox Rainbowfish", "Neon Dwarf Rainbow"],
+  "alsoKnownAs": [
+    "Dwarf Neon Rainbowfish",
+    "Praecox Rainbowfish",
+    "Neon Dwarf Rainbow"
+  ],
   "category": "Rainbowfish",
   "taxonomy": {
     "family": "Melanotaeniidae",
     "order": "Atheriniformes"
   },
   "nativeRange": {
-    "regions": ["West Papua", "Mamberamo River system"],
-    "countries": ["Indonesia"],
+    "regions": [
+      "West Papua",
+      "Mamberamo River system"
+    ],
+    "countries": [
+      "Indonesia"
+    ],
     "habitat": "Streams and tributaries of lowland rainforest; the Mamberamo River drainage in northern Irian Jaya (West Papua), Indonesia",
     "biotope": "Stream",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 28 },
-    "pH": { "min": 6.5, "max": 7.8 },
-    "gH": { "min": 5, "max": 15 },
-    "kH": { "min": 4, "max": 15 },
+    "temperatureC": {
+      "min": 22,
+      "max": 28
+    },
+    "pH": {
+      "min": 6.5,
+      "max": 7.8
+    },
+    "gH": {
+      "min": 5,
+      "max": 15
+    },
+    "kH": {
+      "min": 4,
+      "max": 15
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 4, "max": 7 },
+  "adultSizeCm": {
+    "min": 4,
+    "max": 7
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 75,
@@ -120,7 +144,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

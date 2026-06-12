@@ -17,21 +17,47 @@
     "order": "Atheriniformes"
   },
   "nativeRange": {
-    "regions": ["Oceania", "Australia"],
-    "countries": ["Australia"],
+    "regions": [
+      "Oceania",
+      "Australia"
+    ],
+    "countries": [
+      "Australia"
+    ],
     "habitat": "Slow-flowing rivers, wetlands, billabongs, creeks, drains, ponds, and reservoirs in lowland sections of the Murray-Darling Basin; highly vegetated banks with submerged woody debris and aquatic plants",
     "biotope": "Murray-Darling riverine",
-    "depthRangeM": { "min": 0, "max": 3 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 3
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 12, "max": 26 },
-    "pH": { "min": 6.5, "max": 8.0 },
-    "gH": { "min": 8, "max": 20 },
-    "kH": { "min": 4, "max": 12 },
+    "temperatureC": {
+      "min": 12,
+      "max": 26
+    },
+    "pH": {
+      "min": 6.5,
+      "max": 8
+    },
+    "gH": {
+      "min": 8,
+      "max": 20
+    },
+    "kH": {
+      "min": 4,
+      "max": 12
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 7.0, "max": 11.0 },
-  "lifespanYears": { "min": 5, "max": 8 },
+  "adultSizeCm": {
+    "min": 7,
+    "max": 11
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 8
+  },
   "tank": {
     "minVolumeLiters": 150,
     "minLengthCm": 90,
@@ -137,7 +163,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

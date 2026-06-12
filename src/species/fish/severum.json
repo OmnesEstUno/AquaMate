@@ -24,21 +24,42 @@
     "order": "Cichliformes"
   },
   "nativeRange": {
-    "regions": ["South America"],
-    "countries": ["Colombia", "Venezuela", "Brazil"],
+    "regions": [
+      "South America"
+    ],
+    "countries": [
+      "Colombia",
+      "Venezuela",
+      "Brazil"
+    ],
     "habitat": "Slow-moving blackwater rivers, floodplain lakes, and tributaries with submerged wood, leaf litter, and dense root structures along shaded banks.",
     "biotope": "Blackwater",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 29 },
-    "pH":           { "min": 5.5, "max": 7.0 },
-    "gH":           { "min": 1, "max": 8 },
-    "kH":           null,
-    "salinity":     null
+    "temperatureC": {
+      "min": 23,
+      "max": 29
+    },
+    "pH": {
+      "min": 5.5,
+      "max": 7
+    },
+    "gH": {
+      "min": 1,
+      "max": 8
+    },
+    "kH": null,
+    "salinity": null
   },
-  "adultSizeCm":   { "min": 20, "max": 25 },
-  "lifespanYears": { "min": 8, "max": 12 },
+  "adultSizeCm": {
+    "min": 20,
+    "max": 25
+  },
+  "lifespanYears": {
+    "min": 8,
+    "max": 12
+  },
   "tank": {
     "minVolumeLiters": 250,
     "minLengthCm": 120,
@@ -151,7 +172,9 @@
     "mouthbrooder": true,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": true,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

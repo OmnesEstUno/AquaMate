@@ -17,21 +17,44 @@
     "order": "Anabantiformes"
   },
   "nativeRange": {
-    "regions": ["South Asia", "Western Ghats"],
-    "countries": ["India"],
+    "regions": [
+      "South Asia",
+      "Western Ghats"
+    ],
+    "countries": [
+      "India"
+    ],
     "habitat": "Slow-moving hill streams, forested floodplain pools, and moist subtropical lowlands of the Western Ghats; areas with dense riparian vegetation, submerged leaf litter, and seasonal water-level fluctuations. The trade name 'Kerala' is applied to fish marketed from or associated with Kerala state (southwestern India); some sources suggest collection near Alipurduar, West Bengal, indicating the precise provenance of trade stock is unresolved.",
     "biotope": "Western Ghats hill stream / subtropical floodplain",
-    "depthRangeM": { "min": 0, "max": 1 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 1
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 15, "max": 28 },
-    "pH": { "min": 6.0, "max": 8.0 },
-    "gH": { "min": 2, "max": 20 },
+    "temperatureC": {
+      "min": 15,
+      "max": 28
+    },
+    "pH": {
+      "min": 6,
+      "max": 8
+    },
+    "gH": {
+      "min": 2,
+      "max": 20
+    },
     "kH": null,
     "salinity": null
   },
-  "adultSizeCm": { "min": 15.0, "max": 20.0 },
-  "lifespanYears": { "min": 5, "max": 10 },
+  "adultSizeCm": {
+    "min": 15,
+    "max": 20
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 10
+  },
   "tank": {
     "minVolumeLiters": 200,
     "minLengthCm": 120,
@@ -134,7 +157,9 @@
     "mouthbrooder": true,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

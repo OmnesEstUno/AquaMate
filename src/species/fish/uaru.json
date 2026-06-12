@@ -16,21 +16,49 @@
     "order": "Cichliformes"
   },
   "nativeRange": {
-    "regions": ["South America"],
-    "countries": ["Brazil", "Colombia", "Peru", "Venezuela"],
+    "regions": [
+      "South America"
+    ],
+    "countries": [
+      "Brazil",
+      "Colombia",
+      "Peru",
+      "Venezuela"
+    ],
     "habitat": "Blackwater rivers and flooded forest (igapó); slow-moving, heavily vegetated reaches with submerged roots, leaf litter, and soft, acidic, very soft water",
     "biotope": "Amazonian blackwater",
-    "depthRangeM": { "min": 0.5, "max": 5 }
+    "depthRangeM": {
+      "min": 0.5,
+      "max": 5
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 26, "max": 30 },
-    "pH": { "min": 5.0, "max": 7.0 },
-    "gH": { "min": 1, "max": 8 },
-    "kH": { "min": 0, "max": 4 },
+    "temperatureC": {
+      "min": 26,
+      "max": 30
+    },
+    "pH": {
+      "min": 5,
+      "max": 7
+    },
+    "gH": {
+      "min": 1,
+      "max": 8
+    },
+    "kH": {
+      "min": 0,
+      "max": 4
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 25.0, "max": 30.0 },
-  "lifespanYears": { "min": 8, "max": 15 },
+  "adultSizeCm": {
+    "min": 25,
+    "max": 30
+  },
+  "lifespanYears": {
+    "min": 8,
+    "max": 15
+  },
   "tank": {
     "minVolumeLiters": 450,
     "minLengthCm": 150,
@@ -154,7 +182,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

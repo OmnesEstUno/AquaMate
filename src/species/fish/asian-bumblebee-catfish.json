@@ -17,21 +17,49 @@
     "order": "Siluriformes"
   },
   "nativeRange": {
-    "regions": ["Southeast Asia"],
-    "countries": ["Thailand", "Laos", "Cambodia", "Vietnam"],
+    "regions": [
+      "Southeast Asia"
+    ],
+    "countries": [
+      "Thailand",
+      "Laos",
+      "Cambodia",
+      "Vietnam"
+    ],
     "habitat": "Sluggish rivers and tributaries; conceals among submerged tree roots, leaf litter, and woody debris during daylight; emerges to forage nocturnally. Found in both the Mekong and Chao Phraya basins as well as the Maeklong and peninsular Thai river systems.",
     "biotope": "River",
-    "depthRangeM": { "min": 0, "max": 5 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 5
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 20, "max": 26 },
-    "pH": { "min": 5.8, "max": 7.8 },
-    "gH": { "min": 4, "max": 25 },
-    "kH": { "min": 2, "max": 12 },
+    "temperatureC": {
+      "min": 20,
+      "max": 26
+    },
+    "pH": {
+      "min": 5.8,
+      "max": 7.8
+    },
+    "gH": {
+      "min": 4,
+      "max": 25
+    },
+    "kH": {
+      "min": 2,
+      "max": 12
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 12.0, "max": 18.0 },
-  "lifespanYears": { "min": 8, "max": 10 },
+  "adultSizeCm": {
+    "min": 12,
+    "max": 18
+  },
+  "lifespanYears": {
+    "min": 8,
+    "max": 10
+  },
   "tank": {
     "minVolumeLiters": 110,
     "minLengthCm": 120,
@@ -145,7 +173,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

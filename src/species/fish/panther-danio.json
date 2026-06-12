@@ -15,21 +15,46 @@
     "order": "Cypriniformes"
   },
   "nativeRange": {
-    "regions": ["Southeast Asia"],
-    "countries": ["Myanmar"],
+    "regions": [
+      "Southeast Asia"
+    ],
+    "countries": [
+      "Myanmar"
+    ],
     "habitat": "Small, shallow forest streams and seasonal pools on the western slopes of the Rakhine Yoma (Arakan) mountains; type locality a stream at most 3 m wide and ~30 cm deep with clear water, slight current, and a bottom of pebbles, rock, and gravel. Waters are monsoon-influenced and seasonally variable.",
     "biotope": "Mountain stream",
-    "depthRangeM": { "min": 0, "max": 0.5 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 0.5
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 18, "max": 27 },
-    "pH": { "min": 6.8, "max": 7.2 },
-    "gH": { "min": 1, "max": 8 },
-    "kH": { "min": 1, "max": 5 },
+    "temperatureC": {
+      "min": 18,
+      "max": 27
+    },
+    "pH": {
+      "min": 6.8,
+      "max": 7.2
+    },
+    "gH": {
+      "min": 1,
+      "max": 8
+    },
+    "kH": {
+      "min": 1,
+      "max": 5
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 3.0, "max": 4.0 },
-  "lifespanYears": { "min": 3, "max": 5 },
+  "adultSizeCm": {
+    "min": 3,
+    "max": 4
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 60,
     "minLengthCm": 60,
@@ -132,7 +157,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

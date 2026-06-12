@@ -18,21 +18,47 @@
     "order": "Cichliformes"
   },
   "nativeRange": {
-    "regions": ["Caribbean", "Central America"],
-    "countries": ["Cuba"],
+    "regions": [
+      "Caribbean",
+      "Central America"
+    ],
+    "countries": [
+      "Cuba"
+    ],
     "habitat": "Rivers, streams, lakes, cenotes, and karst limestone spring systems across Cuba; tolerates hard, alkaline, and often oxygen-poor waters typical of Cuban karst geology",
     "biotope": "Karst limestone spring / lowland river",
-    "depthRangeM": { "min": 0, "max": 5 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 5
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 28 },
-    "pH": { "min": 7.0, "max": 8.5 },
-    "gH": { "min": 10, "max": 25 },
-    "kH": { "min": 6, "max": 18 },
+    "temperatureC": {
+      "min": 22,
+      "max": 28
+    },
+    "pH": {
+      "min": 7,
+      "max": 8.5
+    },
+    "gH": {
+      "min": 10,
+      "max": 25
+    },
+    "kH": {
+      "min": 6,
+      "max": 18
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 20.0, "max": 25.0 },
-  "lifespanYears": { "min": 8, "max": 12 },
+  "adultSizeCm": {
+    "min": 20,
+    "max": 25
+  },
+  "lifespanYears": {
+    "min": 8,
+    "max": 12
+  },
   "tank": {
     "minVolumeLiters": 400,
     "minLengthCm": 150,
@@ -143,7 +169,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": true,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

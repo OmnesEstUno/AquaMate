@@ -6,28 +6,61 @@
   "waterType": "freshwater",
   "commonName": "Frontosa",
   "scientificName": "Cyphotilapia frontosa",
-  "alsoKnownAs": ["Humphead Cichlid", "Frontosa Cichlid", "Cyphotilapia"],
+  "alsoKnownAs": [
+    "Humphead Cichlid",
+    "Frontosa Cichlid",
+    "Cyphotilapia"
+  ],
   "category": "Cichlid",
   "taxonomy": {
     "family": "Cichlidae",
     "order": "Cichliformes"
   },
   "nativeRange": {
-    "regions": ["East Africa", "Great Rift Valley"],
-    "countries": ["Democratic Republic of Congo", "Tanzania", "Zambia", "Burundi"],
+    "regions": [
+      "East Africa",
+      "Great Rift Valley"
+    ],
+    "countries": [
+      "Democratic Republic of Congo",
+      "Tanzania",
+      "Zambia",
+      "Burundi"
+    ],
     "habitat": "Rocky deepwater zones of Lake Tanganyika, typically found in the northern portion of the lake at depth over rocky/sandy substrates",
     "biotope": "Rift lake deepwater",
-    "depthRangeM": { "min": 6, "max": 120 }
+    "depthRangeM": {
+      "min": 6,
+      "max": 120
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 27 },
-    "pH": { "min": 7.8, "max": 9.0 },
-    "gH": { "min": 10, "max": 25 },
-    "kH": { "min": 10, "max": 20 },
+    "temperatureC": {
+      "min": 23,
+      "max": 27
+    },
+    "pH": {
+      "min": 7.8,
+      "max": 9
+    },
+    "gH": {
+      "min": 10,
+      "max": 25
+    },
+    "kH": {
+      "min": 10,
+      "max": 20
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 30, "max": 35 },
-  "lifespanYears": { "min": 15, "max": 25 },
+  "adultSizeCm": {
+    "min": 30,
+    "max": 35
+  },
+  "lifespanYears": {
+    "min": 15,
+    "max": 25
+  },
   "tank": {
     "minVolumeLiters": 500,
     "minLengthCm": 180,
@@ -115,7 +148,9 @@
     "mouthbrooder": true,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

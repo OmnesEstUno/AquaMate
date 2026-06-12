@@ -6,28 +6,57 @@
   "waterType": "freshwater",
   "commonName": "Paradise Fish",
   "scientificName": "Macropodus opercularis",
-  "alsoKnownAs": ["Paradise Gourami", "Chinese Fighting Fish"],
+  "alsoKnownAs": [
+    "Paradise Gourami",
+    "Chinese Fighting Fish"
+  ],
   "category": "Oddball",
   "taxonomy": {
     "family": "Osphronemidae",
     "order": "Anabantiformes"
   },
   "nativeRange": {
-    "regions": ["East Asia", "Southeast Asia"],
-    "countries": ["China", "Taiwan", "Vietnam", "Laos"],
+    "regions": [
+      "East Asia",
+      "Southeast Asia"
+    ],
+    "countries": [
+      "China",
+      "Taiwan",
+      "Vietnam",
+      "Laos"
+    ],
     "habitat": "Lowland habitats including rice paddies, irrigation canals, river backwaters, natural ponds, and slow-moving streams; occasionally found in upland hill streams.",
     "biotope": "Rice paddy / shallow lowland stream",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 16, "max": 26 },
-    "pH": { "min": 6.0, "max": 8.0 },
-    "gH": { "min": 5, "max": 20 },
-    "kH": { "min": 4, "max": 15 },
+    "temperatureC": {
+      "min": 16,
+      "max": 26
+    },
+    "pH": {
+      "min": 6,
+      "max": 8
+    },
+    "gH": {
+      "min": 5,
+      "max": 20
+    },
+    "kH": {
+      "min": 4,
+      "max": 15
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 8, "max": 10 },
-  "lifespanYears": { "min": 8, "max": 10 },
+  "adultSizeCm": {
+    "min": 8,
+    "max": 10
+  },
+  "lifespanYears": {
+    "min": 8,
+    "max": 10
+  },
   "tank": {
     "minVolumeLiters": 75,
     "minLengthCm": 80,
@@ -123,7 +152,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

@@ -17,21 +17,50 @@
     "order": "Gobiiformes"
   },
   "nativeRange": {
-    "regions": ["Southeast Asia"],
-    "countries": ["Indonesia", "Borneo", "Sumatra", "Thailand", "Malaysia"],
+    "regions": [
+      "Southeast Asia"
+    ],
+    "countries": [
+      "Indonesia",
+      "Borneo",
+      "Sumatra",
+      "Thailand",
+      "Malaysia"
+    ],
     "habitat": "Slow-moving or still freshwater streams, ditches, and flooded fields; among leaf litter, roots, and dense vegetation in lowland freshwater habitats",
     "biotope": "Freshwater lowland stream",
-    "depthRangeM": { "min": 0, "max": 1 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 1
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 28 },
-    "pH": { "min": 7.0, "max": 8.0 },
-    "gH": { "min": 9, "max": 19 },
-    "kH": { "min": 4, "max": 10 },
+    "temperatureC": {
+      "min": 24,
+      "max": 28
+    },
+    "pH": {
+      "min": 7,
+      "max": 8
+    },
+    "gH": {
+      "min": 9,
+      "max": 19
+    },
+    "kH": {
+      "min": 4,
+      "max": 10
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 2.5, "max": 4.5 },
-  "lifespanYears": { "min": 3, "max": 5 },
+  "adultSizeCm": {
+    "min": 2.5,
+    "max": 4.5
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 40,
     "minLengthCm": 45,
@@ -152,7 +181,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

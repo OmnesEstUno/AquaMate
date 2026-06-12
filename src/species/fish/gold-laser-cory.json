@@ -16,21 +16,46 @@
     "order": "Siluriformes"
   },
   "nativeRange": {
-    "regions": ["South America"],
-    "countries": ["Colombia"],
+    "regions": [
+      "South America"
+    ],
+    "countries": [
+      "Colombia"
+    ],
     "habitat": "Small tributaries, creeks, areas of flooded forest, and sandbars in the Rio Meta basin; clear to slightly turbid, well-oxygenated, slow-moving lowland streams",
     "biotope": "Orinoco tributary",
-    "depthRangeM": { "min": 0, "max": 1 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 1
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 20, "max": 25 },
-    "pH": { "min": 6.0, "max": 7.2 },
-    "gH": { "min": 2, "max": 15 },
-    "kH": { "min": 1, "max": 8 },
+    "temperatureC": {
+      "min": 20,
+      "max": 25
+    },
+    "pH": {
+      "min": 6,
+      "max": 7.2
+    },
+    "gH": {
+      "min": 2,
+      "max": 15
+    },
+    "kH": {
+      "min": 1,
+      "max": 8
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 4.5, "max": 6.0 },
-  "lifespanYears": { "min": 3, "max": 5 },
+  "adultSizeCm": {
+    "min": 4.5,
+    "max": 6
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 60,
     "minLengthCm": 60,
@@ -144,7 +169,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

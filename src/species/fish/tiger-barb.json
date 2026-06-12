@@ -6,33 +6,68 @@
   "waterType": "freshwater",
   "commonName": "Tiger Barb",
   "scientificName": "Puntigrus tetrazona",
-  "alsoKnownAs": ["Sumatra Barb", "Puntius tetrazona", "Capoeta tetrazona", "Systomus tetrazona", "Green Tiger Barb", "Albino Tiger Barb", "Moss Barb"],
+  "alsoKnownAs": [
+    "Sumatra Barb",
+    "Puntius tetrazona",
+    "Capoeta tetrazona",
+    "Systomus tetrazona",
+    "Green Tiger Barb",
+    "Albino Tiger Barb",
+    "Moss Barb"
+  ],
   "category": "Barb",
   "taxonomy": {
     "family": "Cyprinidae",
     "order": "Cypriniformes"
   },
   "nativeRange": {
-    "regions": ["Southeast Asia"],
-    "countries": ["Indonesia"],
+    "regions": [
+      "Southeast Asia"
+    ],
+    "countries": [
+      "Indonesia"
+    ],
     "habitat": "Forest streams and tributaries with clear water, sand, and rock or pebble substrates. Recorded from river systems in Sumatra (Indragiri, Batang Hari, Musi drainages) and Borneo.",
     "biotope": "Blackwater",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 20, "max": 26 },
-    "pH": { "min": 6.0, "max": 8.0 },
-    "gH": { "min": 5, "max": 19 },
-    "kH": { "min": 4, "max": 10 },
+    "temperatureC": {
+      "min": 20,
+      "max": 26
+    },
+    "pH": {
+      "min": 6,
+      "max": 8
+    },
+    "gH": {
+      "min": 5,
+      "max": 19
+    },
+    "kH": {
+      "min": 4,
+      "max": 10
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 5.0, "max": 7.0 },
-  "lifespanYears": { "min": 5, "max": 7 },
+  "adultSizeCm": {
+    "min": 5,
+    "max": 7
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 7
+  },
   "tank": {
     "minVolumeLiters": 110,
     "minLengthCm": 80,
     "swimZone": "mid",
-    "decorPreferences": ["dense planting", "driftwood", "open swimming space in center", "subdued lighting"],
+    "decorPreferences": [
+      "dense planting",
+      "driftwood",
+      "open swimming space in center",
+      "subdued lighting"
+    ],
     "minSandDepthCm": null
   },
   "careLevel": "beginner",
@@ -44,8 +79,25 @@
     "temperament": "semi-aggressive",
     "grouping": "schooling",
     "minGroupSize": 6,
-    "goodWith": ["zebra danios", "silver tip tetras", "clown loaches", "corydoras", "rainbowfishes", "robust similarly-sized cyprinids", "balitorid loaches", "cobitid loaches"],
-    "avoidWith": ["bettas", "angelfish", "guppies", "long-finned species", "slow or timid fish", "small invertebrates", "livebearers"]
+    "goodWith": [
+      "zebra danios",
+      "silver tip tetras",
+      "clown loaches",
+      "corydoras",
+      "rainbowfishes",
+      "robust similarly-sized cyprinids",
+      "balitorid loaches",
+      "cobitid loaches"
+    ],
+    "avoidWith": [
+      "bettas",
+      "angelfish",
+      "guppies",
+      "long-finned species",
+      "slow or timid fish",
+      "small invertebrates",
+      "livebearers"
+    ]
   },
   "media": {
     "primaryImage": "tiger_barb.jpg",
@@ -107,7 +159,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

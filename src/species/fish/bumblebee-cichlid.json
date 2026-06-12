@@ -16,21 +16,48 @@
     "order": "Cichliformes"
   },
   "nativeRange": {
-    "regions": ["Africa", "East Africa"],
-    "countries": ["Malawi", "Mozambique"],
+    "regions": [
+      "Africa",
+      "East Africa"
+    ],
+    "countries": [
+      "Malawi",
+      "Mozambique"
+    ],
     "habitat": "Rocky littoral zones of Lake Malawi, associated with Bagrus catfish hosts; inhabits caves, crevices, and rocky outcrops along the lake margins",
     "biotope": "Lake Malawi rocky mbuna habitat",
-    "depthRangeM": { "min": 3, "max": 30 }
+    "depthRangeM": {
+      "min": 3,
+      "max": 30
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 27 },
-    "pH": { "min": 7.6, "max": 8.8 },
-    "gH": { "min": 10, "max": 20 },
-    "kH": { "min": 6, "max": 12 },
+    "temperatureC": {
+      "min": 23,
+      "max": 27
+    },
+    "pH": {
+      "min": 7.6,
+      "max": 8.8
+    },
+    "gH": {
+      "min": 10,
+      "max": 20
+    },
+    "kH": {
+      "min": 6,
+      "max": 12
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 10.0, "max": 15.0 },
-  "lifespanYears": { "min": 5, "max": 10 },
+  "adultSizeCm": {
+    "min": 10,
+    "max": 15
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 10
+  },
   "tank": {
     "minVolumeLiters": 300,
     "minLengthCm": 150,
@@ -152,7 +179,9 @@
     "mouthbrooder": true,
     "constantGrazer": false,
     "cleanerFish": true,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": true,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

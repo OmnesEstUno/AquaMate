@@ -17,21 +17,47 @@
     "order": "Characiformes"
   },
   "nativeRange": {
-    "regions": ["South America"],
-    "countries": ["Brazil", "Peru"],
+    "regions": [
+      "South America"
+    ],
+    "countries": [
+      "Brazil",
+      "Peru"
+    ],
     "habitat": "Blackwater and clearwater tributaries and flooded forest streams (igapós) in the upper Amazon basin; tannin-stained, warm, very soft, acidic water with leaf litter, submerged roots, and dense riparian shading",
     "biotope": "Blackwater",
-    "depthRangeM": { "min": 0, "max": 3 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 3
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 28 },
-    "pH": { "min": 5.5, "max": 7.0 },
-    "gH": { "min": 1, "max": 10 },
-    "kH": { "min": 1, "max": 4 },
+    "temperatureC": {
+      "min": 24,
+      "max": 28
+    },
+    "pH": {
+      "min": 5.5,
+      "max": 7
+    },
+    "gH": {
+      "min": 1,
+      "max": 10
+    },
+    "kH": {
+      "min": 1,
+      "max": 4
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 4.5, "max": 5.5 },
-  "lifespanYears": { "min": 5, "max": 8 },
+  "adultSizeCm": {
+    "min": 4.5,
+    "max": 5.5
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 8
+  },
   "tank": {
     "minVolumeLiters": 100,
     "minLengthCm": 90,
@@ -147,7 +173,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

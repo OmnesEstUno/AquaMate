@@ -18,21 +18,47 @@
     "order": "Cypriniformes"
   },
   "nativeRange": {
-    "regions": ["South Asia", "Western Ghats"],
-    "countries": ["India"],
+    "regions": [
+      "South Asia",
+      "Western Ghats"
+    ],
+    "countries": [
+      "India"
+    ],
     "habitat": "Small, clear, slow-to-moderately-flowing tributary streams and pools in the Western Ghats foothills; water is typically shallow, well-oxygenated, and shaded by riparian vegetation. Found in Goa, Karnataka, Kerala, and Tamil Nadu in river systems including the Meenachil, Bharatapuzha, Chalakkudy, and Sita.",
     "biotope": "Western Ghats hill stream",
-    "depthRangeM": { "min": 0, "max": 0.5 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 0.5
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 20, "max": 26 },
-    "pH": { "min": 6.0, "max": 7.5 },
-    "gH": { "min": 2, "max": 12 },
-    "kH": { "min": 1, "max": 8 },
+    "temperatureC": {
+      "min": 20,
+      "max": 26
+    },
+    "pH": {
+      "min": 6,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 2,
+      "max": 12
+    },
+    "kH": {
+      "min": 1,
+      "max": 8
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 2.5, "max": 3.5 },
-  "lifespanYears": { "min": 2, "max": 4 },
+  "adultSizeCm": {
+    "min": 2.5,
+    "max": 3.5
+  },
+  "lifespanYears": {
+    "min": 2,
+    "max": 4
+  },
   "tank": {
     "minVolumeLiters": 60,
     "minLengthCm": 60,
@@ -125,7 +151,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

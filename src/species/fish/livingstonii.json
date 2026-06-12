@@ -16,21 +16,49 @@
     "order": "Cichliformes"
   },
   "nativeRange": {
-    "regions": ["East Africa", "Africa"],
-    "countries": ["Malawi", "Mozambique", "Tanzania"],
+    "regions": [
+      "East Africa",
+      "Africa"
+    ],
+    "countries": [
+      "Malawi",
+      "Mozambique",
+      "Tanzania"
+    ],
     "habitat": "Sandy and muddy substrate areas of Lake Malawi, often near the bottom in open water and intermediate zones between rocky and sandy habitats; found throughout the lake at various depths",
     "biotope": "Lake Malawi — sandy/intermediate zone",
-    "depthRangeM": { "min": 1, "max": 40 }
+    "depthRangeM": {
+      "min": 1,
+      "max": 40
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 28 },
-    "pH": { "min": 7.5, "max": 8.5 },
-    "gH": { "min": 10, "max": 20 },
-    "kH": { "min": 10, "max": 18 },
+    "temperatureC": {
+      "min": 24,
+      "max": 28
+    },
+    "pH": {
+      "min": 7.5,
+      "max": 8.5
+    },
+    "gH": {
+      "min": 10,
+      "max": 20
+    },
+    "kH": {
+      "min": 10,
+      "max": 18
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 20.0, "max": 25.0 },
-  "lifespanYears": { "min": 7, "max": 10 },
+  "adultSizeCm": {
+    "min": 20,
+    "max": 25
+  },
+  "lifespanYears": {
+    "min": 7,
+    "max": 10
+  },
   "tank": {
     "minVolumeLiters": 400,
     "minLengthCm": 150,
@@ -150,7 +178,9 @@
     "mouthbrooder": true,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

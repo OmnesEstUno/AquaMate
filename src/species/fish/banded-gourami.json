@@ -18,21 +18,51 @@
     "order": "Anabantiformes"
   },
   "nativeRange": {
-    "regions": ["South Asia", "Southeast Asia"],
-    "countries": ["Pakistan", "India", "Nepal", "Bangladesh", "Myanmar"],
+    "regions": [
+      "South Asia",
+      "Southeast Asia"
+    ],
+    "countries": [
+      "Pakistan",
+      "India",
+      "Nepal",
+      "Bangladesh",
+      "Myanmar"
+    ],
     "habitat": "Still and slow-moving weedy freshwater: ponds, ditches, lakes, large rivers, rice fields, and estuaries with abundant marginal and submerged vegetation",
     "biotope": "Floodplain",
-    "depthRangeM": { "min": 0, "max": 1 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 1
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 21, "max": 28 },
-    "pH": { "min": 6.0, "max": 7.5 },
-    "gH": { "min": 5, "max": 15 },
-    "kH": { "min": 2, "max": 8 },
+    "temperatureC": {
+      "min": 21,
+      "max": 28
+    },
+    "pH": {
+      "min": 6,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 5,
+      "max": 15
+    },
+    "kH": {
+      "min": 2,
+      "max": 8
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 7.0, "max": 12.5 },
-  "lifespanYears": { "min": 4, "max": 6 },
+  "adultSizeCm": {
+    "min": 7,
+    "max": 12.5
+  },
+  "lifespanYears": {
+    "min": 4,
+    "max": 6
+  },
   "tank": {
     "minVolumeLiters": 70,
     "minLengthCm": 75,
@@ -127,7 +157,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

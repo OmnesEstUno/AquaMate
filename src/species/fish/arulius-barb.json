@@ -15,21 +15,46 @@
     "order": "Cypriniformes"
   },
   "nativeRange": {
-    "regions": ["South Asia"],
-    "countries": ["India"],
+    "regions": [
+      "South Asia"
+    ],
+    "countries": [
+      "India"
+    ],
     "habitat": "Fast-flowing hill streams and rivers draining the Western Ghats; clear, well-oxygenated water over rocky and sandy substrates with riparian vegetation",
     "biotope": "River",
-    "depthRangeM": { "min": 0.2, "max": 2.0 }
+    "depthRangeM": {
+      "min": 0.2,
+      "max": 2
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 20, "max": 26 },
-    "pH": { "min": 6.5, "max": 7.8 },
-    "gH": { "min": 5, "max": 20 },
-    "kH": { "min": 3, "max": 12 },
+    "temperatureC": {
+      "min": 20,
+      "max": 26
+    },
+    "pH": {
+      "min": 6.5,
+      "max": 7.8
+    },
+    "gH": {
+      "min": 5,
+      "max": 20
+    },
+    "kH": {
+      "min": 3,
+      "max": 12
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 10.0, "max": 12.0 },
-  "lifespanYears": { "min": 4, "max": 8 },
+  "adultSizeCm": {
+    "min": 10,
+    "max": 12
+  },
+  "lifespanYears": {
+    "min": 4,
+    "max": 8
+  },
   "tank": {
     "minVolumeLiters": 200,
     "minLengthCm": 120,
@@ -144,7 +169,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

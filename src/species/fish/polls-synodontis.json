@@ -16,21 +16,50 @@
     "order": "Siluriformes"
   },
   "nativeRange": {
-    "regions": ["Africa", "East Africa"],
-    "countries": ["Democratic Republic of the Congo", "Burundi", "Zambia", "Tanzania"],
+    "regions": [
+      "Africa",
+      "East Africa"
+    ],
+    "countries": [
+      "Democratic Republic of the Congo",
+      "Burundi",
+      "Zambia",
+      "Tanzania"
+    ],
     "habitat": "Rocky littoral zone of Lake Tanganyika; inhabits caves and crevices among rocks at depths up to ~125 m, though most commonly encountered shallower in the rocky coastal belt",
     "biotope": "Lake Tanganyika rocky littoral",
-    "depthRangeM": { "min": 5, "max": 125 }
+    "depthRangeM": {
+      "min": 5,
+      "max": 125
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 28 },
-    "pH": { "min": 7.5, "max": 9.0 },
-    "gH": { "min": 8, "max": 20 },
-    "kH": { "min": 6, "max": 14 },
+    "temperatureC": {
+      "min": 24,
+      "max": 28
+    },
+    "pH": {
+      "min": 7.5,
+      "max": 9
+    },
+    "gH": {
+      "min": 8,
+      "max": 20
+    },
+    "kH": {
+      "min": 6,
+      "max": 14
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 10.0, "max": 15.0 },
-  "lifespanYears": { "min": 8, "max": 15 },
+  "adultSizeCm": {
+    "min": 10,
+    "max": 15
+  },
+  "lifespanYears": {
+    "min": 8,
+    "max": 15
+  },
   "tank": {
     "minVolumeLiters": 200,
     "minLengthCm": 120,
@@ -135,7 +164,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

@@ -16,21 +16,48 @@
     "order": "Cyprinodontiformes"
   },
   "nativeRange": {
-    "regions": ["Sub-Saharan Africa", "Southeast Africa"],
-    "countries": ["Mozambique", "Zimbabwe"],
+    "regions": [
+      "Sub-Saharan Africa",
+      "Southeast Africa"
+    ],
+    "countries": [
+      "Mozambique",
+      "Zimbabwe"
+    ],
     "habitat": "Seasonal savanna pools and ephemeral pans that dry out completely each dry season; shallow, warm, often turbid, slightly acidic to neutral water with soft substrate",
     "biotope": "Ephemeral seasonal pool",
-    "depthRangeM": { "min": 0.1, "max": 0.5 }
+    "depthRangeM": {
+      "min": 0.1,
+      "max": 0.5
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 26 },
-    "pH": { "min": 6.0, "max": 7.5 },
-    "gH": { "min": 3, "max": 12 },
-    "kH": { "min": 1, "max": 6 },
+    "temperatureC": {
+      "min": 22,
+      "max": 26
+    },
+    "pH": {
+      "min": 6,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 3,
+      "max": 12
+    },
+    "kH": {
+      "min": 1,
+      "max": 6
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 4.0, "max": 6.5 },
-  "lifespanYears": { "min": 0.5, "max": 1.0 },
+  "adultSizeCm": {
+    "min": 4,
+    "max": 6.5
+  },
+  "lifespanYears": {
+    "min": 0.5,
+    "max": 1
+  },
   "tank": {
     "minVolumeLiters": 40,
     "minLengthCm": 45,
@@ -141,7 +168,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

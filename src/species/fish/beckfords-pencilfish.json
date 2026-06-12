@@ -6,28 +6,58 @@
   "waterType": "freshwater",
   "commonName": "Beckford's Pencilfish",
   "scientificName": "Nannostomus beckfordi",
-  "alsoKnownAs": ["Golden Pencilfish", "Brown Pencilfish", "Red Pencilfish"],
+  "alsoKnownAs": [
+    "Golden Pencilfish",
+    "Brown Pencilfish",
+    "Red Pencilfish"
+  ],
   "category": "Characin",
   "taxonomy": {
     "family": "Lebiasinidae",
     "order": "Characiformes"
   },
   "nativeRange": {
-    "regions": ["South America"],
-    "countries": ["Brazil", "Guyana", "Suriname", "French Guiana", "Venezuela"],
+    "regions": [
+      "South America"
+    ],
+    "countries": [
+      "Brazil",
+      "Guyana",
+      "Suriname",
+      "French Guiana",
+      "Venezuela"
+    ],
     "habitat": "Slow-moving or still blackwater streams, forest pools, and flooded areas with dense vegetation, leaf litter, and dark tannin-stained water",
     "biotope": "Blackwater",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 27 },
-    "pH":           { "min": 5.0, "max": 7.5 },
-    "gH":           { "min": 1, "max": 10 },
-    "kH":           { "min": 1, "max": 5 },
-    "salinity":     null
+    "temperatureC": {
+      "min": 22,
+      "max": 27
+    },
+    "pH": {
+      "min": 5,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 1,
+      "max": 10
+    },
+    "kH": {
+      "min": 1,
+      "max": 5
+    },
+    "salinity": null
   },
-  "adultSizeCm": { "min": 3.0, "max": 5.0 },
-  "lifespanYears": { "min": 3, "max": 5 },
+  "adultSizeCm": {
+    "min": 3,
+    "max": 5
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 75,
     "minLengthCm": 60,
@@ -124,7 +154,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

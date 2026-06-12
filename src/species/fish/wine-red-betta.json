@@ -17,21 +17,47 @@
     "order": "Anabantiformes"
   },
   "nativeRange": {
-    "regions": ["Southeast Asia"],
-    "countries": ["Indonesia", "Malaysia"],
+    "regions": [
+      "Southeast Asia"
+    ],
+    "countries": [
+      "Indonesia",
+      "Malaysia"
+    ],
     "habitat": "Peat swamp forest streams and slow-moving blackwater channels with heavily tannin-stained water, leaf litter substrate, minimal light penetration, and negligible mineral content; Jambi and Riau provinces of Sumatra (Indonesia) and Johor state of Peninsular Malaysia",
     "biotope": "Blackwater peat swamp",
-    "depthRangeM": { "min": 0, "max": 1 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 1
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 28 },
-    "pH": { "min": 4.0, "max": 6.0 },
-    "gH": { "min": 0, "max": 4 },
-    "kH": { "min": 0, "max": 2 },
+    "temperatureC": {
+      "min": 22,
+      "max": 28
+    },
+    "pH": {
+      "min": 4,
+      "max": 6
+    },
+    "gH": {
+      "min": 0,
+      "max": 4
+    },
+    "kH": {
+      "min": 0,
+      "max": 2
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 4.0, "max": 5.6 },
-  "lifespanYears": { "min": 3, "max": 5 },
+  "adultSizeCm": {
+    "min": 4,
+    "max": 5.6
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 40,
     "minLengthCm": 45,
@@ -124,7 +150,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

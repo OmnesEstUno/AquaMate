@@ -17,21 +17,47 @@
     "order": "Cypriniformes"
   },
   "nativeRange": {
-    "regions": ["Southeast Asia", "Borneo"],
-    "countries": ["Malaysia"],
+    "regions": [
+      "Southeast Asia",
+      "Borneo"
+    ],
+    "countries": [
+      "Malaysia"
+    ],
     "habitat": "Fast-flowing, highly oxygenated rocky hill streams and torrential upland rivers; typically found clinging to boulder surfaces and smooth rock faces in areas of strong current",
     "biotope": "Borneo hill stream",
-    "depthRangeM": { "min": 0, "max": 1 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 1
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 20, "max": 24 },
-    "pH": { "min": 6.0, "max": 7.5 },
-    "gH": { "min": 2, "max": 12 },
-    "kH": { "min": 1, "max": 8 },
+    "temperatureC": {
+      "min": 20,
+      "max": 24
+    },
+    "pH": {
+      "min": 6,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 2,
+      "max": 12
+    },
+    "kH": {
+      "min": 1,
+      "max": 8
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 3.5, "max": 5.0 },
-  "lifespanYears": { "min": 3, "max": 5 },
+  "adultSizeCm": {
+    "min": 3.5,
+    "max": 5
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 75,
     "minLengthCm": 75,
@@ -136,7 +162,9 @@
     "mouthbrooder": false,
     "constantGrazer": true,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

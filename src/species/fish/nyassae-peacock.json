@@ -17,21 +17,49 @@
     "order": "Cichliformes"
   },
   "nativeRange": {
-    "regions": ["Africa", "East Africa"],
-    "countries": ["Malawi", "Mozambique", "Tanzania"],
+    "regions": [
+      "Africa",
+      "East Africa"
+    ],
+    "countries": [
+      "Malawi",
+      "Mozambique",
+      "Tanzania"
+    ],
     "habitat": "Rocky shorelines and sandy sublittoral zones of Lake Malawi; males patrol sandy patches adjacent to rocky outcrops where invertebrates are hunted by sifting the substrate",
     "biotope": "Rift-lake hard alkaline",
-    "depthRangeM": { "min": 3, "max": 25 }
+    "depthRangeM": {
+      "min": 3,
+      "max": 25
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 28 },
-    "pH": { "min": 7.8, "max": 8.6 },
-    "gH": { "min": 10, "max": 20 },
-    "kH": { "min": 10, "max": 18 },
+    "temperatureC": {
+      "min": 24,
+      "max": 28
+    },
+    "pH": {
+      "min": 7.8,
+      "max": 8.6
+    },
+    "gH": {
+      "min": 10,
+      "max": 20
+    },
+    "kH": {
+      "min": 10,
+      "max": 18
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 12.0, "max": 15.0 },
-  "lifespanYears": { "min": 5, "max": 10 },
+  "adultSizeCm": {
+    "min": 12,
+    "max": 15
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 10
+  },
   "tank": {
     "minVolumeLiters": 200,
     "minLengthCm": 120,
@@ -145,7 +173,9 @@
     "mouthbrooder": true,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

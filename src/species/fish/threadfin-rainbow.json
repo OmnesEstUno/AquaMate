@@ -6,28 +6,59 @@
   "waterType": "freshwater",
   "commonName": "Threadfin Rainbow",
   "scientificName": "Iriatherina werneri",
-  "alsoKnownAs": ["Threadfin Rainbowfish", "Featherfin Rainbowfish", "Featherfin Rainbow"],
+  "alsoKnownAs": [
+    "Threadfin Rainbowfish",
+    "Featherfin Rainbowfish",
+    "Featherfin Rainbow"
+  ],
   "category": "Rainbowfish",
   "taxonomy": {
     "family": "Melanotaeniidae",
     "order": "Atheriniformes"
   },
   "nativeRange": {
-    "regions": ["Southern New Guinea", "Cape York Peninsula", "Arnhem Land", "Northern Territory"],
-    "countries": ["Indonesia", "Papua New Guinea", "Australia"],
+    "regions": [
+      "Southern New Guinea",
+      "Cape York Peninsula",
+      "Arnhem Land",
+      "Northern Territory"
+    ],
+    "countries": [
+      "Indonesia",
+      "Papua New Guinea",
+      "Australia"
+    ],
     "habitat": "Lowland swamps, drainage ditches, slow-flowing streams, and billabongs with abundant aquatic vegetation; most commonly found along vegetated margins of lily lagoons and small streams with minimal current",
     "biotope": "Swamp/Stream",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 30 },
-    "pH": { "min": 6.0, "max": 7.5 },
-    "gH": { "min": 3, "max": 15 },
-    "kH": { "min": 2, "max": 10 },
+    "temperatureC": {
+      "min": 22,
+      "max": 30
+    },
+    "pH": {
+      "min": 6,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 3,
+      "max": 15
+    },
+    "kH": {
+      "min": 2,
+      "max": 10
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 3, "max": 5 },
-  "lifespanYears": { "min": 2, "max": 4 },
+  "adultSizeCm": {
+    "min": 3,
+    "max": 5
+  },
+  "lifespanYears": {
+    "min": 2,
+    "max": 4
+  },
   "tank": {
     "minVolumeLiters": 75,
     "minLengthCm": 60,
@@ -124,7 +155,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

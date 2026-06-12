@@ -16,21 +16,55 @@
     "order": "Osteoglossiformes"
   },
   "nativeRange": {
-    "regions": ["West Africa", "Central Africa"],
-    "countries": ["Nigeria", "Cameroon", "Democratic Republic of the Congo", "Liberia", "Sierra Leone", "Côte d’Ivoire", "Guinea", "Gabon", "Central African Republic"],
+    "regions": [
+      "West Africa",
+      "Central Africa"
+    ],
+    "countries": [
+      "Nigeria",
+      "Cameroon",
+      "Democratic Republic of the Congo",
+      "Liberia",
+      "Sierra Leone",
+      "Côte d’Ivoire",
+      "Guinea",
+      "Gabon",
+      "Central African Republic"
+    ],
     "habitat": "Slow-moving or standing water: swamps, flooded forests, dense vegetation margins of rivers and lakes; often found in shallow, oxygen-poor waters where it breathes air via its gas bladder",
     "biotope": "Swamp / flooded forest",
-    "depthRangeM": { "min": 0, "max": 3 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 3
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 28 },
-    "pH": { "min": 6.0, "max": 7.5 },
-    "gH": { "min": 1, "max": 12 },
-    "kH": { "min": 1, "max": 8 },
+    "temperatureC": {
+      "min": 23,
+      "max": 28
+    },
+    "pH": {
+      "min": 6,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 1,
+      "max": 12
+    },
+    "kH": {
+      "min": 1,
+      "max": 8
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 25, "max": 30 },
-  "lifespanYears": { "min": 5, "max": 10 },
+  "adultSizeCm": {
+    "min": 25,
+    "max": 30
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 10
+  },
   "tank": {
     "minVolumeLiters": 250,
     "minLengthCm": 120,
@@ -145,7 +179,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

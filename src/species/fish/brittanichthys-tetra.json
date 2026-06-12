@@ -16,21 +16,47 @@
     "order": "Characiformes"
   },
   "nativeRange": {
-    "regions": ["South America"],
-    "countries": ["Brazil", "Colombia"],
+    "regions": [
+      "South America"
+    ],
+    "countries": [
+      "Brazil",
+      "Colombia"
+    ],
     "habitat": "Soft, acidic blackwater rivers and forest streams; benthopelagic in shallow, heavily tannin-stained waters with submerged roots, leaf litter, and minimal current",
     "biotope": "Blackwater",
-    "depthRangeM": { "min": 0, "max": 3 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 3
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 28 },
-    "pH": { "min": 4.5, "max": 6.0 },
-    "gH": { "min": 0, "max": 4 },
-    "kH": { "min": 0, "max": 2 },
+    "temperatureC": {
+      "min": 22,
+      "max": 28
+    },
+    "pH": {
+      "min": 4.5,
+      "max": 6
+    },
+    "gH": {
+      "min": 0,
+      "max": 4
+    },
+    "kH": {
+      "min": 0,
+      "max": 2
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 2.0, "max": 4.0 },
-  "lifespanYears": { "min": 2, "max": 4 },
+  "adultSizeCm": {
+    "min": 2,
+    "max": 4
+  },
+  "lifespanYears": {
+    "min": 2,
+    "max": 4
+  },
   "tank": {
     "minVolumeLiters": 60,
     "minLengthCm": 60,
@@ -136,7 +162,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

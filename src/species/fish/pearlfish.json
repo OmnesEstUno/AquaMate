@@ -16,21 +16,47 @@
     "order": "Cyprinodontiformes"
   },
   "nativeRange": {
-    "regions": ["South America"],
-    "countries": ["Argentina", "Uruguay"],
+    "regions": [
+      "South America"
+    ],
+    "countries": [
+      "Argentina",
+      "Uruguay"
+    ],
     "habitat": "Temporary shallow pools and flooded grassland depressions on the Pampas; pools disappear in the dry season, leaving eggs dormant in the substrate",
     "biotope": "Seasonal pool",
-    "depthRangeM": { "min": 0, "max": 0.5 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 0.5
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 16, "max": 22 },
-    "pH": { "min": 6.0, "max": 7.0 },
-    "gH": { "min": 2, "max": 12 },
-    "kH": { "min": 1, "max": 5 },
+    "temperatureC": {
+      "min": 16,
+      "max": 22
+    },
+    "pH": {
+      "min": 6,
+      "max": 7
+    },
+    "gH": {
+      "min": 2,
+      "max": 12
+    },
+    "kH": {
+      "min": 1,
+      "max": 5
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 3.5, "max": 7.0 },
-  "lifespanYears": { "min": 0.75, "max": 1.0 },
+  "adultSizeCm": {
+    "min": 3.5,
+    "max": 7
+  },
+  "lifespanYears": {
+    "min": 0.75,
+    "max": 1
+  },
   "tank": {
     "minVolumeLiters": 40,
     "minLengthCm": 45,
@@ -134,7 +160,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

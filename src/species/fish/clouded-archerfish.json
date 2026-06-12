@@ -16,21 +16,47 @@
     "order": "Perciformes"
   },
   "nativeRange": {
-    "regions": ["Southeast Asia"],
-    "countries": ["Myanmar", "Thailand"],
+    "regions": [
+      "Southeast Asia"
+    ],
+    "countries": [
+      "Myanmar",
+      "Thailand"
+    ],
     "habitat": "Slow-moving freshwater rivers, streams, and flooded forest margins; heavily vegetated banks with overhanging riparian vegetation from which it hunts insects",
     "biotope": "Tropical freshwater river",
-    "depthRangeM": { "min": 0, "max": 2 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 2
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 28 },
-    "pH": { "min": 7.0, "max": 8.0 },
-    "gH": { "min": 8, "max": 20 },
-    "kH": { "min": 4, "max": 12 },
+    "temperatureC": {
+      "min": 24,
+      "max": 28
+    },
+    "pH": {
+      "min": 7,
+      "max": 8
+    },
+    "gH": {
+      "min": 8,
+      "max": 20
+    },
+    "kH": {
+      "min": 4,
+      "max": 12
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 12.0, "max": 18.0 },
-  "lifespanYears": { "min": 5, "max": 10 },
+  "adultSizeCm": {
+    "min": 12,
+    "max": 18
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 10
+  },
   "tank": {
     "minVolumeLiters": 300,
     "minLengthCm": 150,
@@ -153,7 +179,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

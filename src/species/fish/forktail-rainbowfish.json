@@ -6,28 +6,55 @@
   "waterType": "freshwater",
   "commonName": "Forktail Rainbowfish",
   "scientificName": "Pseudomugil furcatus",
-  "alsoKnownAs": ["Forktail Blue-Eye", "Furcata Rainbowfish", "Yellow Forktail Blue-Eye"],
+  "alsoKnownAs": [
+    "Forktail Blue-Eye",
+    "Furcata Rainbowfish",
+    "Yellow Forktail Blue-Eye"
+  ],
   "category": "Rainbowfish",
   "taxonomy": {
     "family": "Pseudomugilidae",
     "order": "Atheriniformes"
   },
   "nativeRange": {
-    "regions": ["Oceania", "Eastern Papua New Guinea"],
-    "countries": ["Papua New Guinea"],
+    "regions": [
+      "Oceania",
+      "Eastern Papua New Guinea"
+    ],
+    "countries": [
+      "Papua New Guinea"
+    ],
     "habitat": "Low-altitude, heavily vegetated rainforest streams with slow to moderate current, clear water, and abundant aquatic plants; found in the Musa and Kwagila river basins of the Northern and Milne Bay provinces",
     "biotope": "Stream",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 27 },
-    "pH": { "min": 6.5, "max": 8.0 },
-    "gH": { "min": 5, "max": 20 },
-    "kH": { "min": 4, "max": 15 },
+    "temperatureC": {
+      "min": 24,
+      "max": 27
+    },
+    "pH": {
+      "min": 6.5,
+      "max": 8
+    },
+    "gH": {
+      "min": 5,
+      "max": 20
+    },
+    "kH": {
+      "min": 4,
+      "max": 15
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 4, "max": 5 },
-  "lifespanYears": { "min": 2, "max": 3 },
+  "adultSizeCm": {
+    "min": 4,
+    "max": 5
+  },
+  "lifespanYears": {
+    "min": 2,
+    "max": 3
+  },
   "tank": {
     "minVolumeLiters": 60,
     "minLengthCm": 60,
@@ -123,7 +150,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

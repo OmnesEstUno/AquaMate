@@ -6,33 +6,68 @@
   "waterType": "freshwater",
   "commonName": "Lemon Cichlid",
   "scientificName": "Neolamprologus leleupi",
-  "alsoKnownAs": ["Yellow Leleupi", "Orange Leleupi", "Leleupi Cichlid"],
+  "alsoKnownAs": [
+    "Yellow Leleupi",
+    "Orange Leleupi",
+    "Leleupi Cichlid"
+  ],
   "category": "Cichlid",
   "taxonomy": {
     "family": "Cichlidae",
     "order": "Cichliformes"
   },
   "nativeRange": {
-    "regions": ["East Africa", "Great Rift Valley"],
-    "countries": ["Democratic Republic of Congo", "Zambia", "Tanzania"],
+    "regions": [
+      "East Africa",
+      "Great Rift Valley"
+    ],
+    "countries": [
+      "Democratic Republic of Congo",
+      "Zambia",
+      "Tanzania"
+    ],
     "habitat": "Rocky shoreline zones in Lake Tanganyika; inhabits cracks and crevices in rockwork along the southern half of the lake",
     "biotope": "Lake Tanganyika rocky littoral",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 27 },
-    "pH": { "min": 7.5, "max": 9.0 },
-    "gH": { "min": 10, "max": 25 },
-    "kH": { "min": 8, "max": 20 },
+    "temperatureC": {
+      "min": 23,
+      "max": 27
+    },
+    "pH": {
+      "min": 7.5,
+      "max": 9
+    },
+    "gH": {
+      "min": 10,
+      "max": 25
+    },
+    "kH": {
+      "min": 8,
+      "max": 20
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 8, "max": 10 },
-  "lifespanYears": { "min": 6, "max": 10 },
+  "adultSizeCm": {
+    "min": 8,
+    "max": 10
+  },
+  "lifespanYears": {
+    "min": 6,
+    "max": 10
+  },
   "tank": {
     "minVolumeLiters": 150,
     "minLengthCm": 90,
     "swimZone": "mid",
-    "decorPreferences": ["extensive rockwork", "caves and crevices", "sandy substrate", "aragonite sand for pH buffering", "minimal or no open planting"],
+    "decorPreferences": [
+      "extensive rockwork",
+      "caves and crevices",
+      "sandy substrate",
+      "aragonite sand for pH buffering",
+      "minimal or no open planting"
+    ],
     "minSandDepthCm": null
   },
   "careLevel": "intermediate",
@@ -44,8 +79,19 @@
     "temperament": "territorial",
     "grouping": "pair",
     "minGroupSize": 2,
-    "goodWith": ["Julidochromis species", "Altolamprologus species", "Cyprichromis species", "Neolamprologus brichardi", "other similarly-sized Tanganyikan cichlids occupying different tank zones"],
-    "avoidWith": ["Mbuna cichlids", "very small or passive fish", "other Neolamprologus leleupi (except bonded pair)", "fin-nipping species"]
+    "goodWith": [
+      "Julidochromis species",
+      "Altolamprologus species",
+      "Cyprichromis species",
+      "Neolamprologus brichardi",
+      "other similarly-sized Tanganyikan cichlids occupying different tank zones"
+    ],
+    "avoidWith": [
+      "Mbuna cichlids",
+      "very small or passive fish",
+      "other Neolamprologus leleupi (except bonded pair)",
+      "fin-nipping species"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -101,7 +147,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

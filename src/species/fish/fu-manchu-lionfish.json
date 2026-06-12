@@ -19,21 +19,54 @@
     "order": "Scorpaeniformes"
   },
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Western Pacific"],
-    "countries": ["Mauritius", "Reunion", "Maldives", "Sri Lanka", "Indonesia", "Japan", "Australia", "French Polynesia"],
+    "regions": [
+      "Indo-Pacific",
+      "Western Pacific"
+    ],
+    "countries": [
+      "Mauritius",
+      "Reunion",
+      "Maldives",
+      "Sri Lanka",
+      "Indonesia",
+      "Japan",
+      "Australia",
+      "French Polynesia"
+    ],
     "habitat": "Coral-rich reef slopes and lagoons; secretive in caves, overhangs and rubble during daylight, emerging at dusk to hunt small fishes and crustaceans.",
     "biotope": "Indo-Pacific coral reef",
-    "depthRangeM": { "min": 1, "max": 40 }
+    "depthRangeM": {
+      "min": 1,
+      "max": 40
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 26 },
-    "pH":           { "min": 8.1, "max": 8.4 },
-    "gH":           null,
-    "kH":           { "min": 8, "max": 12 },
-    "salinity":     { "min": 1.020, "max": 1.025 }
+    "temperatureC": {
+      "min": 22,
+      "max": 26
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm":   { "min": 10, "max": 13 },
-  "lifespanYears": { "min": 5, "max": 10 },
+  "adultSizeCm": {
+    "min": 10,
+    "max": 13
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 10
+  },
   "tank": {
     "minVolumeLiters": 120,
     "minLengthCm": 90,
@@ -134,7 +167,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": null,
+    "obligateCorallivore": false
   },
   "crustacean": null,
   "coral": null,

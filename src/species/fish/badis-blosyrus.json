@@ -16,21 +16,47 @@
     "order": "Anabantiformes"
   },
   "nativeRange": {
-    "regions": ["South Asia", "Northeast India"],
-    "countries": ["India"],
+    "regions": [
+      "South Asia",
+      "Northeast India"
+    ],
+    "countries": [
+      "India"
+    ],
     "habitat": "Flowing, cool, shallow streams and hill tributaries; substrates of small rocks with patches of sand; found in the Raidak River system (Brahmaputra tributary) and streams of Buxa National Park and the western Garo Hills",
     "biotope": "Himalayan foothill stream",
-    "depthRangeM": { "min": 0.1, "max": 0.8 }
+    "depthRangeM": {
+      "min": 0.1,
+      "max": 0.8
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 15, "max": 25 },
-    "pH": { "min": 6.0, "max": 7.5 },
-    "gH": { "min": 3, "max": 10 },
-    "kH": { "min": 1, "max": 6 },
+    "temperatureC": {
+      "min": 15,
+      "max": 25
+    },
+    "pH": {
+      "min": 6,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 3,
+      "max": 10
+    },
+    "kH": {
+      "min": 1,
+      "max": 6
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 4.5, "max": 6.5 },
-  "lifespanYears": { "min": 5, "max": 8 },
+  "adultSizeCm": {
+    "min": 4.5,
+    "max": 6.5
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 8
+  },
   "tank": {
     "minVolumeLiters": 60,
     "minLengthCm": 75,
@@ -135,7 +161,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

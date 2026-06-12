@@ -16,21 +16,52 @@
     "order": "Cyprinodontiformes"
   },
   "nativeRange": {
-    "regions": ["North America", "Southwestern United States", "Northwestern Mexico"],
-    "countries": ["United States", "Mexico"],
+    "regions": [
+      "North America",
+      "Southwestern United States",
+      "Northwestern Mexico"
+    ],
+    "countries": [
+      "United States",
+      "Mexico"
+    ],
     "habitat": "Shallow, warm desert springs, seeps, irrigation canals, salt marshes, and backwaters of the lower Colorado River basin and Salton Sea tributaries; tolerates extreme fluctuations in temperature, salinity, and dissolved oxygen",
     "biotope": "Desert spring / arid-land wetland",
-    "depthRangeM": { "min": 0, "max": 1 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 1
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 18, "max": 38 },
-    "pH": { "min": 7.0, "max": 8.5 },
-    "gH": { "min": 8, "max": 30 },
-    "kH": { "min": 4, "max": 20 },
-    "salinity": { "min": 1.000, "max": 1.010 }
+    "temperatureC": {
+      "min": 18,
+      "max": 38
+    },
+    "pH": {
+      "min": 7,
+      "max": 8.5
+    },
+    "gH": {
+      "min": 8,
+      "max": 30
+    },
+    "kH": {
+      "min": 4,
+      "max": 20
+    },
+    "salinity": {
+      "min": 1,
+      "max": 1.01
+    }
   },
-  "adultSizeCm": { "min": 3.5, "max": 7.0 },
-  "lifespanYears": { "min": 1, "max": 3 },
+  "adultSizeCm": {
+    "min": 3.5,
+    "max": 7
+  },
+  "lifespanYears": {
+    "min": 1,
+    "max": 3
+  },
   "tank": {
     "minVolumeLiters": 75,
     "minLengthCm": 75,
@@ -149,7 +180,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": true
+    "euryhaline": true,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

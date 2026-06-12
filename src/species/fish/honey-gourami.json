@@ -6,28 +6,56 @@
   "waterType": "freshwater",
   "commonName": "Honey Gourami",
   "scientificName": "Trichogaster chuna",
-  "alsoKnownAs": ["Sunset Honey Gourami", "Red Honey Gourami", "Honey Dwarf Gourami", "Colisa chuna"],
+  "alsoKnownAs": [
+    "Sunset Honey Gourami",
+    "Red Honey Gourami",
+    "Honey Dwarf Gourami",
+    "Colisa chuna"
+  ],
   "category": "Gourami",
   "taxonomy": {
     "family": "Osphronemidae",
     "order": "Anabantiformes"
   },
   "nativeRange": {
-    "regions": ["South Asia"],
-    "countries": ["India", "Bangladesh"],
+    "regions": [
+      "South Asia"
+    ],
+    "countries": [
+      "India",
+      "Bangladesh"
+    ],
     "habitat": "Slow-moving or still waters including ponds, ditches, pools, and heavily vegetated rivers and lakes",
     "biotope": "Shallow, heavily vegetated standing or slow-moving freshwater with soft, often acidic conditions",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 28 },
-    "pH":           { "min": 6.0, "max": 7.5 },
-    "gH":           { "min": 4, "max": 15 },
-    "kH":           { "min": 3, "max": 10 },
-    "salinity":     null
+    "temperatureC": {
+      "min": 22,
+      "max": 28
+    },
+    "pH": {
+      "min": 6,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 4,
+      "max": 15
+    },
+    "kH": {
+      "min": 3,
+      "max": 10
+    },
+    "salinity": null
   },
-  "adultSizeCm": { "min": 4.0, "max": 5.5 },
-  "lifespanYears": { "min": 4, "max": 8 },
+  "adultSizeCm": {
+    "min": 4,
+    "max": 5.5
+  },
+  "lifespanYears": {
+    "min": 4,
+    "max": 8
+  },
   "tank": {
     "minVolumeLiters": 75,
     "minLengthCm": 60,
@@ -124,7 +152,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

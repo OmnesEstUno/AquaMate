@@ -18,21 +18,46 @@
     "order": "Siluriformes"
   },
   "nativeRange": {
-    "regions": ["South America"],
-    "countries": ["Brazil"],
+    "regions": [
+      "South America"
+    ],
+    "countries": [
+      "Brazil"
+    ],
     "habitat": "Fast-flowing, highly oxygenated rocky river rapids; inhabits crevices among boulders, stones, and submerged tree trunks in the Rio Xingu and lower Rio Iriri. Juveniles found at shallower depths (1–3 m); adults occur deeper in turbulent flows.",
     "biotope": "Xingu rapids / blackwater rocky river",
-    "depthRangeM": { "min": 1, "max": 15 }
+    "depthRangeM": {
+      "min": 1,
+      "max": 15
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 25, "max": 30 },
-    "pH": { "min": 5.8, "max": 7.2 },
-    "gH": { "min": 1, "max": 8 },
-    "kH": { "min": 1, "max": 6 },
+    "temperatureC": {
+      "min": 25,
+      "max": 30
+    },
+    "pH": {
+      "min": 5.8,
+      "max": 7.2
+    },
+    "gH": {
+      "min": 1,
+      "max": 8
+    },
+    "kH": {
+      "min": 1,
+      "max": 6
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 20.0, "max": 29.0 },
-  "lifespanYears": { "min": 10, "max": 15 },
+  "adultSizeCm": {
+    "min": 20,
+    "max": 29
+  },
+  "lifespanYears": {
+    "min": 10,
+    "max": 15
+  },
   "tank": {
     "minVolumeLiters": 450,
     "minLengthCm": 180,
@@ -147,7 +172,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

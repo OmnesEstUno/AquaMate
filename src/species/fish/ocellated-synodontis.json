@@ -16,21 +16,54 @@
     "order": "Siluriformes"
   },
   "nativeRange": {
-    "regions": ["West Africa"],
-    "countries": ["Senegal", "Gambia", "Guinea", "Mali", "Ghana", "Nigeria", "Niger", "Cameroon", "Chad"],
+    "regions": [
+      "West Africa"
+    ],
+    "countries": [
+      "Senegal",
+      "Gambia",
+      "Guinea",
+      "Mali",
+      "Ghana",
+      "Nigeria",
+      "Niger",
+      "Cameroon",
+      "Chad"
+    ],
     "habitat": "Large rivers and their backwaters; prefers areas with soft substrate, submerged rocks and driftwood providing daytime shelter; also found in marginal areas with floating vegetation",
     "biotope": "West African river",
-    "depthRangeM": { "min": 0, "max": 5 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 5
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 28 },
-    "pH": { "min": 6.2, "max": 8.0 },
-    "gH": { "min": 5, "max": 25 },
-    "kH": { "min": 2, "max": 12 },
+    "temperatureC": {
+      "min": 23,
+      "max": 28
+    },
+    "pH": {
+      "min": 6.2,
+      "max": 8
+    },
+    "gH": {
+      "min": 5,
+      "max": 25
+    },
+    "kH": {
+      "min": 2,
+      "max": 12
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 15.0, "max": 20.0 },
-  "lifespanYears": { "min": 8, "max": 12 },
+  "adultSizeCm": {
+    "min": 15,
+    "max": 20
+  },
+  "lifespanYears": {
+    "min": 8,
+    "max": 12
+  },
   "tank": {
     "minVolumeLiters": 208,
     "minLengthCm": 120,
@@ -135,7 +168,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

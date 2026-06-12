@@ -50,7 +50,7 @@
       "max": 28
     },
     "pH": {
-      "min": 8.0,
+      "min": 8,
       "max": 8.4
     },
     "gH": null,
@@ -59,7 +59,7 @@
       "max": 12
     },
     "salinity": {
-      "min": 1.020,
+      "min": 1.02,
       "max": 1.025
     }
   },
@@ -170,7 +170,9 @@
     "mouthbrooder": null,
     "constantGrazer": null,
     "cleanerFish": null,
-    "euryhaline": null
+    "euryhaline": null,
+    "eatsPlantsRisk": null,
+    "obligateCorallivore": false
   },
   "crustacean": null,
   "coral": null,

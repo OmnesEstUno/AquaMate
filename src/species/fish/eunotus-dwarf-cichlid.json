@@ -16,21 +16,46 @@
     "order": "Cichliformes"
   },
   "nativeRange": {
-    "regions": ["South America"],
-    "countries": ["Peru"],
+    "regions": [
+      "South America"
+    ],
+    "countries": [
+      "Peru"
+    ],
     "habitat": "Slow-moving and still forest streams, backwaters, and flooded areas in the Peruvian Amazon basin; shallow, heavily vegetated leaf-litter zones with soft, tannin-stained water over sandy or silty substrates",
     "biotope": "Amazonian blackwater / clearwater stream",
-    "depthRangeM": { "min": 0, "max": 1 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 1
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 29 },
-    "pH": { "min": 6.0, "max": 7.5 },
-    "gH": { "min": 1, "max": 10 },
-    "kH": { "min": 0, "max": 5 },
+    "temperatureC": {
+      "min": 23,
+      "max": 29
+    },
+    "pH": {
+      "min": 6,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 1,
+      "max": 10
+    },
+    "kH": {
+      "min": 0,
+      "max": 5
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 4.0, "max": 8.0 },
-  "lifespanYears": { "min": 3, "max": 5 },
+  "adultSizeCm": {
+    "min": 4,
+    "max": 8
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 60,
     "minLengthCm": 60,
@@ -154,7 +179,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

@@ -6,28 +6,56 @@
   "waterType": "freshwater",
   "commonName": "Buenos Aires Tetra",
   "scientificName": "Hyphessobrycon anisitsi",
-  "alsoKnownAs": ["Diamond Spot Characin", "Red Cross Fish"],
+  "alsoKnownAs": [
+    "Diamond Spot Characin",
+    "Red Cross Fish"
+  ],
   "category": "Tetra",
   "taxonomy": {
     "family": "Characidae",
     "order": "Characiformes"
   },
   "nativeRange": {
-    "regions": ["South America"],
-    "countries": ["Argentina", "Brazil", "Paraguay", "Uruguay"],
+    "regions": [
+      "South America"
+    ],
+    "countries": [
+      "Argentina",
+      "Brazil",
+      "Paraguay",
+      "Uruguay"
+    ],
     "habitat": "Streams, tributaries, floodplain lakes, and backwaters of the Río de la Plata basin; generally prefers smaller watercourses over major river channels",
     "biotope": "River",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 16, "max": 28 },
-    "pH": { "min": 5.5, "max": 8.5 },
-    "gH": { "min": 2, "max": 25 },
-    "kH": { "min": 4, "max": 15 },
+    "temperatureC": {
+      "min": 16,
+      "max": 28
+    },
+    "pH": {
+      "min": 5.5,
+      "max": 8.5
+    },
+    "gH": {
+      "min": 2,
+      "max": 25
+    },
+    "kH": {
+      "min": 4,
+      "max": 15
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 5, "max": 10 },
-  "lifespanYears": { "min": 3, "max": 10 },
+  "adultSizeCm": {
+    "min": 5,
+    "max": 10
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 10
+  },
   "tank": {
     "minVolumeLiters": 150,
     "minLengthCm": 90,
@@ -127,7 +155,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": true,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

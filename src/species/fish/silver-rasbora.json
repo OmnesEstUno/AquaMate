@@ -16,21 +16,52 @@
     "order": "Cypriniformes"
   },
   "nativeRange": {
-    "regions": ["Southeast Asia"],
-    "countries": ["Indonesia", "Malaysia", "Thailand", "Laos", "Cambodia", "Vietnam", "Brunei"],
+    "regions": [
+      "Southeast Asia"
+    ],
+    "countries": [
+      "Indonesia",
+      "Malaysia",
+      "Thailand",
+      "Laos",
+      "Cambodia",
+      "Vietnam",
+      "Brunei"
+    ],
     "habitat": "Rivers, streams, and flooded fields; inhabits midwater and near-surface zones of clear, moderately fast-flowing rivers with sandy or gravelly substrates and riparian vegetation",
     "biotope": "River",
-    "depthRangeM": { "min": 0, "max": 5 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 5
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 20, "max": 26 },
-    "pH": { "min": 6.5, "max": 7.5 },
-    "gH": { "min": 2, "max": 10 },
-    "kH": { "min": 1, "max": 8 },
+    "temperatureC": {
+      "min": 20,
+      "max": 26
+    },
+    "pH": {
+      "min": 6.5,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 2,
+      "max": 10
+    },
+    "kH": {
+      "min": 1,
+      "max": 8
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 12.0, "max": 17.0 },
-  "lifespanYears": { "min": 3, "max": 5 },
+  "adultSizeCm": {
+    "min": 12,
+    "max": 17
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 200,
     "minLengthCm": 120,
@@ -144,7 +175,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

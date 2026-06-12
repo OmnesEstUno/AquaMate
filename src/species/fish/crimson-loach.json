@@ -15,21 +15,48 @@
     "order": "Cypriniformes"
   },
   "nativeRange": {
-    "regions": ["South Asia", "Southeast Asia"],
-    "countries": ["India", "Myanmar"],
+    "regions": [
+      "South Asia",
+      "Southeast Asia"
+    ],
+    "countries": [
+      "India",
+      "Myanmar"
+    ],
     "habitat": "Fast-flowing, highly oxygenated hill streams and mountain rivers with rocky substrates, cobble, and gravel; clear, cool water with strong current",
     "biotope": "Hill stream",
-    "depthRangeM": { "min": 0, "max": 1 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 1
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 26 },
-    "pH": { "min": 6.0, "max": 7.5 },
-    "gH": { "min": 2, "max": 12 },
-    "kH": { "min": 1, "max": 6 },
+    "temperatureC": {
+      "min": 22,
+      "max": 26
+    },
+    "pH": {
+      "min": 6,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 2,
+      "max": 12
+    },
+    "kH": {
+      "min": 1,
+      "max": 6
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 4.0, "max": 6.0 },
-  "lifespanYears": { "min": 4, "max": 7 },
+  "adultSizeCm": {
+    "min": 4,
+    "max": 6
+  },
+  "lifespanYears": {
+    "min": 4,
+    "max": 7
+  },
   "tank": {
     "minVolumeLiters": 80,
     "minLengthCm": 90,
@@ -139,7 +166,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

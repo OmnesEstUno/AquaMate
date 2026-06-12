@@ -6,33 +6,70 @@
   "waterType": "freshwater",
   "commonName": "Kissing Gourami",
   "scientificName": "Helostoma temminkii",
-  "alsoKnownAs": ["Kissing Fish", "Kisser Fish"],
+  "alsoKnownAs": [
+    "Kissing Fish",
+    "Kisser Fish"
+  ],
   "category": "Gourami",
   "taxonomy": {
     "family": "Helostomatidae",
     "order": "Anabantiformes"
   },
   "nativeRange": {
-    "regions": ["Southeast Asia"],
-    "countries": ["Thailand", "Vietnam", "Cambodia", "Malaysia", "Indonesia"],
+    "regions": [
+      "Southeast Asia"
+    ],
+    "countries": [
+      "Thailand",
+      "Vietnam",
+      "Cambodia",
+      "Malaysia",
+      "Indonesia"
+    ],
     "habitat": "Slow-moving rivers, lakes, and floodplains with dense aquatic vegetation",
     "biotope": "Tropical freshwater; benthopelagic; prefers areas with floating vegetation",
-    "depthRangeM": { "min": 0, "max": 5 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 5
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 28 },
-    "pH": { "min": 6.0, "max": 8.0 },
-    "gH": { "min": 5, "max": 20 },
-    "kH": { "min": 3, "max": 15 },
+    "temperatureC": {
+      "min": 22,
+      "max": 28
+    },
+    "pH": {
+      "min": 6,
+      "max": 8
+    },
+    "gH": {
+      "min": 5,
+      "max": 20
+    },
+    "kH": {
+      "min": 3,
+      "max": 15
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 20, "max": 30 },
-  "lifespanYears": { "min": 5, "max": 25 },
+  "adultSizeCm": {
+    "min": 20,
+    "max": 30
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 25
+  },
   "tank": {
     "minVolumeLiters": 200,
     "minLengthCm": 150,
     "swimZone": "mid",
-    "decorPreferences": ["dense vegetation", "floating plants", "open swimming space", "driftwood"],
+    "decorPreferences": [
+      "dense vegetation",
+      "floating plants",
+      "open swimming space",
+      "driftwood"
+    ],
     "minSandDepthCm": null
   },
   "careLevel": "intermediate",
@@ -44,8 +81,22 @@
     "temperament": "semi-aggressive",
     "grouping": "pair",
     "minGroupSize": 2,
-    "goodWith": ["Tiger Barbs", "Congo Tetras", "Rosy Barbs", "Swordtails", "large Catfish", "large Characins", "robust Cichlids"],
-    "avoidWith": ["small fish", "other Gourami species", "invertebrates", "fin-nipping targets", "similarly-shaped fish of comparable size"]
+    "goodWith": [
+      "Tiger Barbs",
+      "Congo Tetras",
+      "Rosy Barbs",
+      "Swordtails",
+      "large Catfish",
+      "large Characins",
+      "robust Cichlids"
+    ],
+    "avoidWith": [
+      "small fish",
+      "other Gourami species",
+      "invertebrates",
+      "fin-nipping targets",
+      "similarly-shaped fish of comparable size"
+    ]
   },
   "media": {
     "primaryImage": "kissing_gourami.jpg",
@@ -101,7 +152,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

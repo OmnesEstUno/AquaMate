@@ -17,21 +17,47 @@
     "order": "Atheriniformes"
   },
   "nativeRange": {
-    "regions": ["Oceania", "Papua New Guinea"],
-    "countries": ["Papua New Guinea"],
+    "regions": [
+      "Oceania",
+      "Papua New Guinea"
+    ],
+    "countries": [
+      "Papua New Guinea"
+    ],
     "habitat": "Open, clear, alkaline waters of Lake Kutubu and the Soro River outflow; littoral zones with aquatic vegetation and submerged branches near the surface",
     "biotope": "Tropical lake — hard alkaline",
-    "depthRangeM": { "min": 0, "max": 5 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 5
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 26 },
-    "pH": { "min": 7.5, "max": 8.5 },
-    "gH": { "min": 10, "max": 20 },
-    "kH": { "min": 6, "max": 12 },
+    "temperatureC": {
+      "min": 22,
+      "max": 26
+    },
+    "pH": {
+      "min": 7.5,
+      "max": 8.5
+    },
+    "gH": {
+      "min": 10,
+      "max": 20
+    },
+    "kH": {
+      "min": 6,
+      "max": 12
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 8.0, "max": 11.0 },
-  "lifespanYears": { "min": 4, "max": 6 },
+  "adultSizeCm": {
+    "min": 8,
+    "max": 11
+  },
+  "lifespanYears": {
+    "min": 4,
+    "max": 6
+  },
   "tank": {
     "minVolumeLiters": 150,
     "minLengthCm": 120,
@@ -147,7 +173,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

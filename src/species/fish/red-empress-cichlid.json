@@ -15,21 +15,49 @@
     "order": "Cichliformes"
   },
   "nativeRange": {
-    "regions": ["East Africa", "Great Rift Valley"],
-    "countries": ["Malawi", "Mozambique", "Tanzania"],
+    "regions": [
+      "East Africa",
+      "Great Rift Valley"
+    ],
+    "countries": [
+      "Malawi",
+      "Mozambique",
+      "Tanzania"
+    ],
     "habitat": "Shallow, rocky sediment-free habitat along the margins of Lake Malawi; males hold territories over open rock faces and feed on aufwuchs (algae and associated invertebrates) attached to rocky substrate",
     "biotope": "Lake Malawi rocky shoreline",
-    "depthRangeM": { "min": 1, "max": 15 }
+    "depthRangeM": {
+      "min": 1,
+      "max": 15
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 28 },
-    "pH": { "min": 7.6, "max": 8.8 },
-    "gH": { "min": 10, "max": 25 },
-    "kH": { "min": 10, "max": 20 },
+    "temperatureC": {
+      "min": 24,
+      "max": 28
+    },
+    "pH": {
+      "min": 7.6,
+      "max": 8.8
+    },
+    "gH": {
+      "min": 10,
+      "max": 25
+    },
+    "kH": {
+      "min": 10,
+      "max": 20
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 12.0, "max": 17.0 },
-  "lifespanYears": { "min": 5, "max": 8 },
+  "adultSizeCm": {
+    "min": 12,
+    "max": 17
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 8
+  },
   "tank": {
     "minVolumeLiters": 300,
     "minLengthCm": 150,
@@ -145,7 +173,9 @@
     "mouthbrooder": true,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

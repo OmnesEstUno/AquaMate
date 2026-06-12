@@ -16,21 +16,58 @@
     "order": "Scorpaeniformes"
   },
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Eastern Indian Ocean", "Western Pacific"],
-    "countries": ["Australia", "Indonesia", "Japan", "Malaysia", "Philippines", "Fiji", "India", "Thailand"],
+    "regions": [
+      "Indo-Pacific",
+      "Eastern Indian Ocean",
+      "Western Pacific"
+    ],
+    "countries": [
+      "Australia",
+      "Indonesia",
+      "Japan",
+      "Malaysia",
+      "Philippines",
+      "Fiji",
+      "India",
+      "Thailand"
+    ],
     "habitat": "Shallow, sheltered inshore waters over sandy, rubble, muddy, and weedy substrates; seagrass beds, coastal reef margins, and estuarine margins. Primarily subtidal, resting motionless on the bottom and swaying to mimic dead leaves or drifting debris. Collected intertidally to ~80 m but typically found above 20 m.",
     "biotope": "Coastal-estuarine / seagrass flat",
-    "depthRangeM": { "min": 0, "max": 80 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 80
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 28 },
-    "pH": { "min": 7.8, "max": 8.4 },
-    "gH": { "min": 12, "max": 25 },
-    "kH": { "min": 6, "max": 16 },
-    "salinity": { "min": 1.010, "max": 1.025 }
+    "temperatureC": {
+      "min": 23,
+      "max": 28
+    },
+    "pH": {
+      "min": 7.8,
+      "max": 8.4
+    },
+    "gH": {
+      "min": 12,
+      "max": 25
+    },
+    "kH": {
+      "min": 6,
+      "max": 16
+    },
+    "salinity": {
+      "min": 1.01,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 12.0, "max": 15.0 },
-  "lifespanYears": { "min": 3, "max": 7 },
+  "adultSizeCm": {
+    "min": 12,
+    "max": 15
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 7
+  },
   "tank": {
     "minVolumeLiters": 150,
     "minLengthCm": 90,
@@ -141,7 +178,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": true
+    "euryhaline": true,
+    "eatsPlantsRisk": null,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

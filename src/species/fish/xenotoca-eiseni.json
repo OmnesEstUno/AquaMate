@@ -18,21 +18,47 @@
     "order": "Cyprinodontiformes"
   },
   "nativeRange": {
-    "regions": ["Central America", "North America"],
-    "countries": ["Mexico"],
+    "regions": [
+      "Central America",
+      "North America"
+    ],
+    "countries": [
+      "Mexico"
+    ],
     "habitat": "Shallow rivers, streams, ponds, and springs across a range of conditions — from clear upland tributaries to turbid lowland waterways; substrates of silt, sand, or stone; areas of both standing water and moderate current. Primarily in the Río Grande de Santiago basin and its tributaries in Nayarit and Jalisco.",
     "biotope": "Mexican Highland Stream",
-    "depthRangeM": { "min": 0, "max": 1 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 1
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 15, "max": 30 },
-    "pH": { "min": 6.0, "max": 8.0 },
-    "gH": { "min": 9, "max": 20 },
-    "kH": { "min": 3, "max": 12 },
+    "temperatureC": {
+      "min": 15,
+      "max": 30
+    },
+    "pH": {
+      "min": 6,
+      "max": 8
+    },
+    "gH": {
+      "min": 9,
+      "max": 20
+    },
+    "kH": {
+      "min": 3,
+      "max": 12
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 5.0, "max": 7.0 },
-  "lifespanYears": { "min": 3, "max": 5 },
+  "adultSizeCm": {
+    "min": 5,
+    "max": 7
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 55,
     "minLengthCm": 60,
@@ -143,7 +169,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

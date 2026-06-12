@@ -17,21 +17,50 @@
     "order": "Cypriniformes"
   },
   "nativeRange": {
-    "regions": ["Southeast Asia"],
-    "countries": ["Malaysia", "Indonesia", "Singapore", "Thailand", "Cambodia"],
+    "regions": [
+      "Southeast Asia"
+    ],
+    "countries": [
+      "Malaysia",
+      "Indonesia",
+      "Singapore",
+      "Thailand",
+      "Cambodia"
+    ],
     "habitat": "Forest creeks, clear to tannin-stained streams and larger rivers; often over sandy or rocky substrate near the surface; also found in sluggish blackwater peat-swamp habitats",
     "biotope": "Rainforest stream",
-    "depthRangeM": { "min": 0, "max": 1 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 1
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 20, "max": 26 },
-    "pH": { "min": 5.5, "max": 7.0 },
-    "gH": { "min": 1, "max": 12 },
-    "kH": { "min": 1, "max": 8 },
+    "temperatureC": {
+      "min": 20,
+      "max": 26
+    },
+    "pH": {
+      "min": 5.5,
+      "max": 7
+    },
+    "gH": {
+      "min": 1,
+      "max": 12
+    },
+    "kH": {
+      "min": 1,
+      "max": 8
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 10.0, "max": 17.0 },
-  "lifespanYears": { "min": 6, "max": 10 },
+  "adultSizeCm": {
+    "min": 10,
+    "max": 17
+  },
+  "lifespanYears": {
+    "min": 6,
+    "max": 10
+  },
   "tank": {
     "minVolumeLiters": 250,
     "minLengthCm": 150,
@@ -144,7 +173,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

@@ -15,21 +15,49 @@
     "order": "Cichliformes"
   },
   "nativeRange": {
-    "regions": ["Africa", "East Africa"],
-    "countries": ["Democratic Republic of the Congo", "Burundi", "Tanzania"],
+    "regions": [
+      "Africa",
+      "East Africa"
+    ],
+    "countries": [
+      "Democratic Republic of the Congo",
+      "Burundi",
+      "Tanzania"
+    ],
     "habitat": "Rocky littoral zone of northern Lake Tanganyika; associates closely with rock surfaces where it grazes aufwuchs (algal mats and associated micro-organisms). Found primarily in shallow to mid-depth rocky habitat.",
     "biotope": "Lake Tanganyika rocky shore",
-    "depthRangeM": { "min": 1, "max": 30 }
+    "depthRangeM": {
+      "min": 1,
+      "max": 30
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 27 },
-    "pH": { "min": 8.0, "max": 9.0 },
-    "gH": { "min": 10, "max": 25 },
-    "kH": { "min": 6, "max": 15 },
+    "temperatureC": {
+      "min": 23,
+      "max": 27
+    },
+    "pH": {
+      "min": 8,
+      "max": 9
+    },
+    "gH": {
+      "min": 10,
+      "max": 25
+    },
+    "kH": {
+      "min": 6,
+      "max": 15
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 11.0, "max": 13.0 },
-  "lifespanYears": { "min": 5, "max": 10 },
+  "adultSizeCm": {
+    "min": 11,
+    "max": 13
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 10
+  },
   "tank": {
     "minVolumeLiters": 300,
     "minLengthCm": 150,
@@ -134,7 +162,9 @@
     "mouthbrooder": true,
     "constantGrazer": true,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

@@ -6,28 +6,57 @@
   "waterType": "freshwater",
   "commonName": "Kuhli Loach",
   "scientificName": "Pangio kuhlii",
-  "alsoKnownAs": ["Coolie Loach", "Khuli Loach", "Prickly Eye"],
+  "alsoKnownAs": [
+    "Coolie Loach",
+    "Khuli Loach",
+    "Prickly Eye"
+  ],
   "category": "Loach",
   "taxonomy": {
     "family": "Cobitidae",
     "order": "Cypriniformes"
   },
   "nativeRange": {
-    "regions": ["Southeast Asia"],
-    "countries": ["Indonesia", "Malaysia", "Thailand", "Singapore"],
+    "regions": [
+      "Southeast Asia"
+    ],
+    "countries": [
+      "Indonesia",
+      "Malaysia",
+      "Thailand",
+      "Singapore"
+    ],
     "habitat": "Hill streams, lowland forest canals, and peat swamp rivers with soft acidic water and leaf-litter substrate",
     "biotope": "Blackwater",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 28 },
-    "pH": { "min": 5.5, "max": 7.0 },
-    "gH": { "min": 0, "max": 5 },
-    "kH": { "min": 0, "max": 5 },
+    "temperatureC": {
+      "min": 23,
+      "max": 28
+    },
+    "pH": {
+      "min": 5.5,
+      "max": 7
+    },
+    "gH": {
+      "min": 0,
+      "max": 5
+    },
+    "kH": {
+      "min": 0,
+      "max": 5
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 7.5, "max": 10 },
-  "lifespanYears": { "min": 7, "max": 14 },
+  "adultSizeCm": {
+    "min": 7.5,
+    "max": 10
+  },
+  "lifespanYears": {
+    "min": 7,
+    "max": 14
+  },
   "tank": {
     "minVolumeLiters": 75,
     "minLengthCm": 60,
@@ -122,7 +151,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

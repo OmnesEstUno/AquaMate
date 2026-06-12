@@ -54,8 +54,8 @@
     "salinity": null
   },
   "adultSizeCm": {
-    "min": 4.0,
-    "max": 6.0
+    "min": 4,
+    "max": 6
   },
   "lifespanYears": {
     "min": 2,
@@ -147,7 +147,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

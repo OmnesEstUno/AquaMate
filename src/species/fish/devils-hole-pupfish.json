@@ -15,21 +15,46 @@
     "order": "Cyprinodontiformes"
   },
   "nativeRange": {
-    "regions": ["North America"],
-    "countries": ["United States"],
+    "regions": [
+      "North America"
+    ],
+    "countries": [
+      "United States"
+    ],
     "habitat": "Single geothermal cavern pool (Devil’s Hole, Amargosa Desert, Nye County, Nevada) — a collapsed limestone fault feature with near-constant 33°C water, extremely low dissolved oxygen, and a single shallow rock shelf (~3.5 m²) used for foraging and spawning. Water source is ancient groundwater with no surface inlet or outlet.",
     "biotope": "Geothermal cave pool",
-    "depthRangeM": { "min": 0, "max": 0.5 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 0.5
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 32, "max": 34 },
-    "pH": { "min": 7.2, "max": 7.5 },
-    "gH": { "min": 10, "max": 16 },
-    "kH": { "min": 8, "max": 14 },
+    "temperatureC": {
+      "min": 32,
+      "max": 34
+    },
+    "pH": {
+      "min": 7.2,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 10,
+      "max": 16
+    },
+    "kH": {
+      "min": 8,
+      "max": 14
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 2.0, "max": 2.5 },
-  "lifespanYears": { "min": 1, "max": 2 },
+  "adultSizeCm": {
+    "min": 2,
+    "max": 2.5
+  },
+  "lifespanYears": {
+    "min": 1,
+    "max": 2
+  },
   "tank": {
     "minVolumeLiters": 40,
     "minLengthCm": null,
@@ -130,7 +155,9 @@
     "mouthbrooder": false,
     "constantGrazer": true,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

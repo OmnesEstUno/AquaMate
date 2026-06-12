@@ -17,21 +17,46 @@
     "order": "Anabantiformes"
   },
   "nativeRange": {
-    "regions": ["Southeast Asia"],
-    "countries": ["Thailand"],
+    "regions": [
+      "Southeast Asia"
+    ],
+    "countries": [
+      "Thailand"
+    ],
     "habitat": "Karstic limestone streams, sinkholes, and shallow ditches in Krabi Province, southern peninsular Thailand; clear, slow-moving to still water over rock and leaf litter, densely bordered by marginal vegetation including large beds of Cryptocoryne cordata in pools",
     "biotope": "Limestone karst stream",
-    "depthRangeM": { "min": 0, "max": 1 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 1
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 20, "max": 28 },
-    "pH": { "min": 7.0, "max": 8.0 },
-    "gH": { "min": 6, "max": 15 },
-    "kH": { "min": 3, "max": 10 },
+    "temperatureC": {
+      "min": 20,
+      "max": 28
+    },
+    "pH": {
+      "min": 7,
+      "max": 8
+    },
+    "gH": {
+      "min": 6,
+      "max": 15
+    },
+    "kH": {
+      "min": 3,
+      "max": 10
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 4.5, "max": 8.0 },
-  "lifespanYears": { "min": 3, "max": 5 },
+  "adultSizeCm": {
+    "min": 4.5,
+    "max": 8
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 40,
     "minLengthCm": 60,
@@ -143,7 +168,9 @@
     "mouthbrooder": true,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

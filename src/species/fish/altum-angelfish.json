@@ -16,21 +16,47 @@
     "order": "Cichliformes"
   },
   "nativeRange": {
-    "regions": ["South America"],
-    "countries": ["Venezuela", "Colombia"],
+    "regions": [
+      "South America"
+    ],
+    "countries": [
+      "Venezuela",
+      "Colombia"
+    ],
     "habitat": "Slow-moving blackwater rivers, flooded forest margins, and tributary streams of the upper Orinoco basin and the Rio Negro headwaters; associated with submerged roots, overhanging branches, and leaf litter in deep, tannin-stained water",
     "biotope": "Blackwater",
-    "depthRangeM": { "min": 0.5, "max": 6 }
+    "depthRangeM": {
+      "min": 0.5,
+      "max": 6
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 26, "max": 30 },
-    "pH": { "min": 4.5, "max": 6.0 },
-    "gH": { "min": 0, "max": 5 },
-    "kH": { "min": 0, "max": 2 },
+    "temperatureC": {
+      "min": 26,
+      "max": 30
+    },
+    "pH": {
+      "min": 4.5,
+      "max": 6
+    },
+    "gH": {
+      "min": 0,
+      "max": 5
+    },
+    "kH": {
+      "min": 0,
+      "max": 2
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 18.0, "max": 38.0 },
-  "lifespanYears": { "min": 8, "max": 15 },
+  "adultSizeCm": {
+    "min": 18,
+    "max": 38
+  },
+  "lifespanYears": {
+    "min": 8,
+    "max": 15
+  },
   "tank": {
     "minVolumeLiters": 400,
     "minLengthCm": 150,
@@ -146,7 +172,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

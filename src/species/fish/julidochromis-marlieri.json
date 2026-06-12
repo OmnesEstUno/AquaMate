@@ -6,28 +6,59 @@
   "waterType": "freshwater",
   "commonName": "Marlier's Julie",
   "scientificName": "Julidochromis marlieri",
-  "alsoKnownAs": ["Chequered Julie", "Marlieri Cichlid"],
+  "alsoKnownAs": [
+    "Chequered Julie",
+    "Marlieri Cichlid"
+  ],
   "category": "Cichlid",
   "taxonomy": {
     "family": "Cichlidae",
     "order": "Cichliformes"
   },
   "nativeRange": {
-    "regions": ["East Africa", "Great Rift Valley"],
-    "countries": ["Democratic Republic of Congo", "Tanzania", "Burundi"],
+    "regions": [
+      "East Africa",
+      "Great Rift Valley"
+    ],
+    "countries": [
+      "Democratic Republic of Congo",
+      "Tanzania",
+      "Burundi"
+    ],
     "habitat": "Rocky shoreline of northwestern Lake Tanganyika; typically found hugging rock faces and crevices in the littoral zone",
     "biotope": "Rift lake rocky shore",
-    "depthRangeM": { "min": 3, "max": 9 }
+    "depthRangeM": {
+      "min": 3,
+      "max": 9
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 27 },
-    "pH": { "min": 7.8, "max": 9.0 },
-    "gH": { "min": 10, "max": 25 },
-    "kH": { "min": 8, "max": 20 },
+    "temperatureC": {
+      "min": 23,
+      "max": 27
+    },
+    "pH": {
+      "min": 7.8,
+      "max": 9
+    },
+    "gH": {
+      "min": 10,
+      "max": 25
+    },
+    "kH": {
+      "min": 8,
+      "max": 20
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 8, "max": 15 },
-  "lifespanYears": { "min": 5, "max": 10 },
+  "adultSizeCm": {
+    "min": 8,
+    "max": 15
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 10
+  },
   "tank": {
     "minVolumeLiters": 150,
     "minLengthCm": 100,
@@ -111,7 +142,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

@@ -16,21 +16,47 @@
     "order": "Lepisosteiformes"
   },
   "nativeRange": {
-    "regions": ["North America", "Southeastern United States"],
-    "countries": ["United States"],
+    "regions": [
+      "North America",
+      "Southeastern United States"
+    ],
+    "countries": [
+      "United States"
+    ],
     "habitat": "Medium to large lowland streams, canals, lakes, and swamps with muddy or sandy bottoms; shallow to moderately deep slow or still water with aquatic vegetation; also enters brackish estuaries",
     "biotope": "Swamp/Lowland River",
-    "depthRangeM": { "min": 0.6, "max": 5.2 }
+    "depthRangeM": {
+      "min": 0.6,
+      "max": 5.2
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 18, "max": 28 },
-    "pH": { "min": 6.5, "max": 8.0 },
-    "gH": { "min": 6, "max": 16 },
-    "kH": { "min": 4, "max": 12 },
+    "temperatureC": {
+      "min": 18,
+      "max": 28
+    },
+    "pH": {
+      "min": 6.5,
+      "max": 8
+    },
+    "gH": {
+      "min": 6,
+      "max": 16
+    },
+    "kH": {
+      "min": 4,
+      "max": 12
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 60, "max": 75 },
-  "lifespanYears": { "min": 15, "max": 26 },
+  "adultSizeCm": {
+    "min": 60,
+    "max": 75
+  },
+  "lifespanYears": {
+    "min": 15,
+    "max": 26
+  },
   "tank": {
     "minVolumeLiters": 1000,
     "minLengthCm": 240,
@@ -144,7 +170,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

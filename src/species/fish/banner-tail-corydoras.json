@@ -16,21 +16,46 @@
     "order": "Siluriformes"
   },
   "nativeRange": {
-    "regions": ["South America"],
-    "countries": ["Brazil"],
+    "regions": [
+      "South America"
+    ],
+    "countries": [
+      "Brazil"
+    ],
     "habitat": "Shallow, slow-moving blackwater streams and tributaries over fine sand and leaf litter; highly tannin-stained water with very low conductivity and minimal dissolved solids",
     "biotope": "Blackwater",
-    "depthRangeM": { "min": 0, "max": 1 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 1
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 28 },
-    "pH": { "min": 5.5, "max": 7.0 },
-    "gH": { "min": 1, "max": 8 },
-    "kH": { "min": 0, "max": 3 },
+    "temperatureC": {
+      "min": 23,
+      "max": 28
+    },
+    "pH": {
+      "min": 5.5,
+      "max": 7
+    },
+    "gH": {
+      "min": 1,
+      "max": 8
+    },
+    "kH": {
+      "min": 0,
+      "max": 3
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 5.0, "max": 6.0 },
-  "lifespanYears": { "min": 5, "max": 8 },
+  "adultSizeCm": {
+    "min": 5,
+    "max": 6
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 8
+  },
   "tank": {
     "minVolumeLiters": 80,
     "minLengthCm": 80,
@@ -152,7 +177,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

@@ -17,21 +17,46 @@
     "order": "Anabantiformes"
   },
   "nativeRange": {
-    "regions": ["Southeast Asia"],
-    "countries": ["Indonesia"],
+    "regions": [
+      "Southeast Asia"
+    ],
+    "countries": [
+      "Indonesia"
+    ],
     "habitat": "Highland streams, hill streams, and slow-moving lowland waters of Java and Sumatra; typically clear, shaded streams with leaf litter, submerged roots, and dense riparian vegetation; rice paddies also reported",
     "biotope": "Hill stream / lowland stream",
-    "depthRangeM": { "min": 0, "max": 1 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 1
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 28 },
-    "pH": { "min": 5.5, "max": 7.5 },
-    "gH": { "min": 1, "max": 12 },
-    "kH": { "min": 0, "max": 5 },
+    "temperatureC": {
+      "min": 22,
+      "max": 28
+    },
+    "pH": {
+      "min": 5.5,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 1,
+      "max": 12
+    },
+    "kH": {
+      "min": 0,
+      "max": 5
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 4.0, "max": 5.5 },
-  "lifespanYears": { "min": 2, "max": 4 },
+  "adultSizeCm": {
+    "min": 4,
+    "max": 5.5
+  },
+  "lifespanYears": {
+    "min": 2,
+    "max": 4
+  },
   "tank": {
     "minVolumeLiters": 54,
     "minLengthCm": 60,
@@ -137,7 +162,9 @@
     "mouthbrooder": true,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

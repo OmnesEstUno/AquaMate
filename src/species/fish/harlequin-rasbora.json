@@ -6,28 +6,57 @@
   "waterType": "freshwater",
   "commonName": "Harlequin Rasbora",
   "scientificName": "Trigonostigma heteromorpha",
-  "alsoKnownAs": ["Rasbora Het", "Harlequin Fish", "Red Rasbora"],
+  "alsoKnownAs": [
+    "Rasbora Het",
+    "Harlequin Fish",
+    "Red Rasbora"
+  ],
   "category": "Rasbora",
   "taxonomy": {
     "family": "Danionidae",
     "order": "Cypriniformes"
   },
   "nativeRange": {
-    "regions": ["Southeast Asia"],
-    "countries": ["Malaysia", "Singapore", "Indonesia", "Thailand"],
+    "regions": [
+      "Southeast Asia"
+    ],
+    "countries": [
+      "Malaysia",
+      "Singapore",
+      "Indonesia",
+      "Thailand"
+    ],
     "habitat": "Forested peat swamp streams and slow-moving blackwater; typically heavily tannin-stained water with low mineral content and leaf litter substrate",
     "biotope": "Blackwater peat swamp",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 27 },
-    "pH": { "min": 5.0, "max": 7.5 },
-    "gH": { "min": 1, "max": 12 },
-    "kH": { "min": 1, "max": 8 },
+    "temperatureC": {
+      "min": 22,
+      "max": 27
+    },
+    "pH": {
+      "min": 5,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 1,
+      "max": 12
+    },
+    "kH": {
+      "min": 1,
+      "max": 8
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 3.5, "max": 5.0 },
-  "lifespanYears": { "min": 5, "max": 8 },
+  "adultSizeCm": {
+    "min": 3.5,
+    "max": 5
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 8
+  },
   "tank": {
     "minVolumeLiters": 75,
     "minLengthCm": 60,
@@ -129,7 +158,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

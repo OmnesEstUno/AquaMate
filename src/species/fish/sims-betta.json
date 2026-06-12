@@ -16,21 +16,46 @@
     "order": "Anabantiformes"
   },
   "nativeRange": {
-    "regions": ["Southeast Asia"],
-    "countries": ["Indonesia"],
+    "regions": [
+      "Southeast Asia"
+    ],
+    "countries": [
+      "Indonesia"
+    ],
     "habitat": "Heavily vegetated lowland peat swamps and slow-moving blackwater streams with extremely soft, acidic, tannin-stained water; substrate typically dark organic matter and leaf litter",
     "biotope": "Blackwater peat swamp",
-    "depthRangeM": { "min": 0, "max": 1 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 1
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 29 },
-    "pH": { "min": 4.0, "max": 6.5 },
-    "gH": { "min": 0, "max": 5 },
-    "kH": { "min": 0, "max": 1 },
+    "temperatureC": {
+      "min": 24,
+      "max": 29
+    },
+    "pH": {
+      "min": 4,
+      "max": 6.5
+    },
+    "gH": {
+      "min": 0,
+      "max": 5
+    },
+    "kH": {
+      "min": 0,
+      "max": 1
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 6.0, "max": 9.0 },
-  "lifespanYears": { "min": 3, "max": 5 },
+  "adultSizeCm": {
+    "min": 6,
+    "max": 9
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 60,
     "minLengthCm": 60,
@@ -144,7 +169,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

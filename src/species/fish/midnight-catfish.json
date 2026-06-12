@@ -16,21 +16,50 @@
     "order": "Siluriformes"
   },
   "nativeRange": {
-    "regions": ["South America"],
-    "countries": ["Brazil", "Peru", "Colombia", "Ecuador", "Guyana"],
+    "regions": [
+      "South America"
+    ],
+    "countries": [
+      "Brazil",
+      "Peru",
+      "Colombia",
+      "Ecuador",
+      "Guyana"
+    ],
     "habitat": "Turbid rivers, tributaries, and seasonally flooded areas; shelters during daylight in tangles of submerged roots, hollow or rotting tree stumps, and aquatic vegetation, then emerges to feed in open water after dark",
     "biotope": "Amazon",
-    "depthRangeM": { "min": 0, "max": 5 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 5
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 26 },
-    "pH": { "min": 6.0, "max": 7.2 },
-    "gH": { "min": 0, "max": 10 },
-    "kH": { "min": 0, "max": 6 },
+    "temperatureC": {
+      "min": 22,
+      "max": 26
+    },
+    "pH": {
+      "min": 6,
+      "max": 7.2
+    },
+    "gH": {
+      "min": 0,
+      "max": 10
+    },
+    "kH": {
+      "min": 0,
+      "max": 6
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 9.0, "max": 12.0 },
-  "lifespanYears": { "min": 5, "max": 8 },
+  "adultSizeCm": {
+    "min": 9,
+    "max": 12
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 8
+  },
   "tank": {
     "minVolumeLiters": 80,
     "minLengthCm": 80,
@@ -126,7 +155,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

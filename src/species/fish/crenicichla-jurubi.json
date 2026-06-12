@@ -15,21 +15,48 @@
     "order": "Cichliformes"
   },
   "nativeRange": {
-    "regions": ["South America"],
-    "countries": ["Brazil", "Uruguay", "Argentina"],
+    "regions": [
+      "South America"
+    ],
+    "countries": [
+      "Brazil",
+      "Uruguay",
+      "Argentina"
+    ],
     "habitat": "Fast-flowing rocky rivers and streams of the upper and middle Río Uruguay drainage; riffles and runs over rocky substrate, often alongside rapids; benthopelagic",
     "biotope": "South American river — Río Uruguay drainage",
-    "depthRangeM": { "min": 0, "max": 3 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 3
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 12, "max": 28 },
-    "pH": { "min": 6.5, "max": 7.5 },
-    "gH": { "min": 4, "max": 15 },
-    "kH": { "min": 2, "max": 8 },
+    "temperatureC": {
+      "min": 12,
+      "max": 28
+    },
+    "pH": {
+      "min": 6.5,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 4,
+      "max": 15
+    },
+    "kH": {
+      "min": 2,
+      "max": 8
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 15.0, "max": 20.0 },
-  "lifespanYears": { "min": 8, "max": 12 },
+  "adultSizeCm": {
+    "min": 15,
+    "max": 20
+  },
+  "lifespanYears": {
+    "min": 8,
+    "max": 12
+  },
   "tank": {
     "minVolumeLiters": 300,
     "minLengthCm": 150,
@@ -150,7 +177,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

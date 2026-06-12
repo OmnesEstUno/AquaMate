@@ -15,21 +15,47 @@
     "order": "Gobiiformes"
   },
   "nativeRange": {
-    "regions": ["Oceania", "Southeast Asia"],
-    "countries": ["Papua New Guinea"],
+    "regions": [
+      "Oceania",
+      "Southeast Asia"
+    ],
+    "countries": [
+      "Papua New Guinea"
+    ],
     "habitat": "Slow-moving, clear, warm lowland streams, ponds, and swampy areas with abundant aquatic vegetation and submerged woody debris; predominantly in the Milne Bay Province and southeastern Papua New Guinea",
     "biotope": "Rainforest stream",
-    "depthRangeM": { "min": 0, "max": 1 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 1
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 28 },
-    "pH": { "min": 6.8, "max": 7.8 },
-    "gH": { "min": 5, "max": 15 },
-    "kH": { "min": 3, "max": 10 },
+    "temperatureC": {
+      "min": 22,
+      "max": 28
+    },
+    "pH": {
+      "min": 6.8,
+      "max": 7.8
+    },
+    "gH": {
+      "min": 5,
+      "max": 15
+    },
+    "kH": {
+      "min": 3,
+      "max": 10
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 4.5, "max": 7.5 },
-  "lifespanYears": { "min": 4, "max": 6 },
+  "adultSizeCm": {
+    "min": 4.5,
+    "max": 7.5
+  },
+  "lifespanYears": {
+    "min": 4,
+    "max": 6
+  },
   "tank": {
     "minVolumeLiters": 60,
     "minLengthCm": 60,
@@ -152,7 +178,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

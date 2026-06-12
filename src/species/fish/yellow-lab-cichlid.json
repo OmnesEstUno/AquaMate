@@ -19,21 +19,49 @@
     "order": "Cichliformes"
   },
   "nativeRange": {
-    "regions": ["Africa", "East Africa"],
-    "countries": ["Malawi", "Tanzania", "Mozambique"],
+    "regions": [
+      "Africa",
+      "East Africa"
+    ],
+    "countries": [
+      "Malawi",
+      "Tanzania",
+      "Mozambique"
+    ],
     "habitat": "Rocky shorelines interspersed with Vallisneria beds along the north-western coast of Lake Malawi, generally between Cape Kaiser and Lundo and from Chirmbo Point to Charo.",
     "biotope": "Lake Malawi mbuna rocky shore (rift-lake hardwater)",
-    "depthRangeM": { "min": 10, "max": 30 }
+    "depthRangeM": {
+      "min": 10,
+      "max": 30
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 28 },
-    "pH":           { "min": 7.6, "max": 8.6 },
-    "gH":           { "min": 10, "max": 20 },
-    "kH":           { "min": 6, "max": 12 },
+    "temperatureC": {
+      "min": 23,
+      "max": 28
+    },
+    "pH": {
+      "min": 7.6,
+      "max": 8.6
+    },
+    "gH": {
+      "min": 10,
+      "max": 20
+    },
+    "kH": {
+      "min": 6,
+      "max": 12
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 8, "max": 10 },
-  "lifespanYears": { "min": 6, "max": 10 },
+  "adultSizeCm": {
+    "min": 8,
+    "max": 10
+  },
+  "lifespanYears": {
+    "min": 6,
+    "max": 10
+  },
   "tank": {
     "minVolumeLiters": 200,
     "minLengthCm": 90,
@@ -128,7 +156,9 @@
     "mouthbrooder": true,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

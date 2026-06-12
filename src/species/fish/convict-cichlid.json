@@ -21,21 +21,48 @@
     "order": "Cichliformes"
   },
   "nativeRange": {
-    "regions": ["Central America"],
-    "countries": ["Guatemala", "Honduras", "El Salvador", "Nicaragua", "Costa Rica", "Panama"],
+    "regions": [
+      "Central America"
+    ],
+    "countries": [
+      "Guatemala",
+      "Honduras",
+      "El Salvador",
+      "Nicaragua",
+      "Costa Rica",
+      "Panama"
+    ],
     "habitat": "Flowing waters from small creeks and streams to shallows of larger fast-flowing rivers, generally preferring rocky areas with cover; also reported from ponds and lakes. Rarely encountered in open water.",
     "biotope": "River",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 28 },
-    "pH": { "min": 6.5, "max": 8.0 },
-    "gH": { "min": 9, "max": 20 },
-    "kH": { "min": 5, "max": 15 },
+    "temperatureC": {
+      "min": 22,
+      "max": 28
+    },
+    "pH": {
+      "min": 6.5,
+      "max": 8
+    },
+    "gH": {
+      "min": 9,
+      "max": 20
+    },
+    "kH": {
+      "min": 5,
+      "max": 15
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 8, "max": 15 },
-  "lifespanYears": { "min": 8, "max": 10 },
+  "adultSizeCm": {
+    "min": 8,
+    "max": 15
+  },
+  "lifespanYears": {
+    "min": 8,
+    "max": 10
+  },
   "tank": {
     "minVolumeLiters": 150,
     "minLengthCm": 90,
@@ -125,7 +152,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": true,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

@@ -6,33 +6,68 @@
   "waterType": "freshwater",
   "commonName": "Sparkling Gourami",
   "scientificName": "Trichopsis pumila",
-  "alsoKnownAs": ["Pygmy Gourami", "Dwarf Croaking Gourami"],
+  "alsoKnownAs": [
+    "Pygmy Gourami",
+    "Dwarf Croaking Gourami"
+  ],
   "category": "Gourami",
   "taxonomy": {
     "family": "Osphronemidae",
     "order": "Anabantiformes"
   },
   "nativeRange": {
-    "regions": ["Southeast Asia"],
-    "countries": ["Thailand", "Laos", "Vietnam", "Cambodia"],
+    "regions": [
+      "Southeast Asia"
+    ],
+    "countries": [
+      "Thailand",
+      "Laos",
+      "Vietnam",
+      "Cambodia"
+    ],
     "habitat": "Still and slow-moving waters including swamps, peat swamps, floodplains, rice paddies, and irrigation canals with dense aquatic vegetation",
     "biotope": "Blackwater",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 28 },
-    "pH": { "min": 6.0, "max": 7.5 },
-    "gH": { "min": 5, "max": 19 },
-    "kH": { "min": 4, "max": 15 },
+    "temperatureC": {
+      "min": 22,
+      "max": 28
+    },
+    "pH": {
+      "min": 6,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 5,
+      "max": 19
+    },
+    "kH": {
+      "min": 4,
+      "max": 15
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 3.0, "max": 4.0 },
-  "lifespanYears": { "min": 4, "max": 5 },
+  "adultSizeCm": {
+    "min": 3,
+    "max": 4
+  },
+  "lifespanYears": {
+    "min": 4,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 40,
     "minLengthCm": 45,
     "swimZone": "all",
-    "decorPreferences": ["dense planting", "floating plants", "Java moss", "leaf litter", "driftwood", "subdued lighting"],
+    "decorPreferences": [
+      "dense planting",
+      "floating plants",
+      "Java moss",
+      "leaf litter",
+      "driftwood",
+      "subdued lighting"
+    ],
     "minSandDepthCm": null
   },
   "careLevel": "beginner",
@@ -44,8 +79,25 @@
     "temperament": "peaceful",
     "grouping": "pair",
     "minGroupSize": 2,
-    "goodWith": ["nano rasboras", "Boraras spp.", "Microdevario spp.", "Trigonostigma spp.", "small Corydoras", "Otocinclus", "small peaceful loaches", "Pangio spp."],
-    "avoidWith": ["bettas", "tiger barbs", "fin-nipping tetras", "aggressive or large fish", "Neocaridina shrimp", "Caridina shrimp", "fish fry"]
+    "goodWith": [
+      "nano rasboras",
+      "Boraras spp.",
+      "Microdevario spp.",
+      "Trigonostigma spp.",
+      "small Corydoras",
+      "Otocinclus",
+      "small peaceful loaches",
+      "Pangio spp."
+    ],
+    "avoidWith": [
+      "bettas",
+      "tiger barbs",
+      "fin-nipping tetras",
+      "aggressive or large fish",
+      "Neocaridina shrimp",
+      "Caridina shrimp",
+      "fish fry"
+    ]
   },
   "media": {
     "primaryImage": "sparkling_gourami.jpg",
@@ -107,7 +159,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

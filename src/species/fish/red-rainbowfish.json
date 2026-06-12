@@ -6,28 +6,55 @@
   "waterType": "freshwater",
   "commonName": "Red Rainbowfish",
   "scientificName": "Glossolepis incisus",
-  "alsoKnownAs": ["Salmon Red Rainbowfish", "Red Irian Rainbowfish", "Red Rainbow"],
+  "alsoKnownAs": [
+    "Salmon Red Rainbowfish",
+    "Red Irian Rainbowfish",
+    "Red Rainbow"
+  ],
   "category": "Rainbowfish",
   "taxonomy": {
     "family": "Melanotaeniidae",
     "order": "Atheriniformes"
   },
   "nativeRange": {
-    "regions": ["Lake Sentani", "Northern New Guinea"],
-    "countries": ["Indonesia"],
+    "regions": [
+      "Lake Sentani",
+      "Northern New Guinea"
+    ],
+    "countries": [
+      "Indonesia"
+    ],
     "habitat": "Shallow, heavily vegetated areas of Lake Sentani; a highland lake at approximately 75 m elevation in the Jayapura region of West Papua / Irian Jaya",
     "biotope": "Lake",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 28 },
-    "pH": { "min": 6.5, "max": 8.0 },
-    "gH": { "min": 10, "max": 25 },
-    "kH": { "min": 5, "max": 15 },
+    "temperatureC": {
+      "min": 22,
+      "max": 28
+    },
+    "pH": {
+      "min": 6.5,
+      "max": 8
+    },
+    "gH": {
+      "min": 10,
+      "max": 25
+    },
+    "kH": {
+      "min": 5,
+      "max": 15
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 10, "max": 14 },
-  "lifespanYears": { "min": 5, "max": 8 },
+  "adultSizeCm": {
+    "min": 10,
+    "max": 14
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 8
+  },
   "tank": {
     "minVolumeLiters": 200,
     "minLengthCm": 120,
@@ -124,7 +151,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

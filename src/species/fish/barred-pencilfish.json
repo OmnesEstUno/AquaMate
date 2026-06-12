@@ -18,21 +18,46 @@
     "order": "Characiformes"
   },
   "nativeRange": {
-    "regions": ["South America"],
-    "countries": ["Guyana"],
+    "regions": [
+      "South America"
+    ],
+    "countries": [
+      "Guyana"
+    ],
     "habitat": "Slow-flowing blackwater rivers, streams, and swampy areas with dense marginal and aquatic vegetation, leaf litter, and woody structures; water is heavily tea-stained and extremely soft",
     "biotope": "Blackwater",
-    "depthRangeM": { "min": 0, "max": 1 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 1
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 28 },
-    "pH": { "min": 4.0, "max": 6.5 },
-    "gH": { "min": 0, "max": 5 },
-    "kH": { "min": 0, "max": 2 },
+    "temperatureC": {
+      "min": 22,
+      "max": 28
+    },
+    "pH": {
+      "min": 4,
+      "max": 6.5
+    },
+    "gH": {
+      "min": 0,
+      "max": 5
+    },
+    "kH": {
+      "min": 0,
+      "max": 2
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 2.5, "max": 3.5 },
-  "lifespanYears": { "min": 3, "max": 5 },
+  "adultSizeCm": {
+    "min": 2.5,
+    "max": 3.5
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 50,
     "minLengthCm": 60,
@@ -138,7 +163,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

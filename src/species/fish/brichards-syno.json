@@ -16,21 +16,46 @@
     "order": "Siluriformes"
   },
   "nativeRange": {
-    "regions": ["Central Africa"],
-    "countries": ["Democratic Republic of the Congo"],
+    "regions": [
+      "Central Africa"
+    ],
+    "countries": [
+      "Democratic Republic of the Congo"
+    ],
     "habitat": "Fast-flowing rocky rapids of the lower Congo River; submerged boulders and crevices in highly oxygenated white-water zones",
     "biotope": "Lower Congo Rapids",
-    "depthRangeM": { "min": 0, "max": 10 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 10
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 25 },
-    "pH": { "min": 6.5, "max": 7.5 },
-    "gH": { "min": 5, "max": 15 },
-    "kH": { "min": 3, "max": 10 },
+    "temperatureC": {
+      "min": 22,
+      "max": 25
+    },
+    "pH": {
+      "min": 6.5,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 5,
+      "max": 15
+    },
+    "kH": {
+      "min": 3,
+      "max": 10
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 12.0, "max": 15.0 },
-  "lifespanYears": { "min": 8, "max": 12 },
+  "adultSizeCm": {
+    "min": 12,
+    "max": 15
+  },
+  "lifespanYears": {
+    "min": 8,
+    "max": 12
+  },
   "tank": {
     "minVolumeLiters": 200,
     "minLengthCm": 120,
@@ -142,7 +167,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

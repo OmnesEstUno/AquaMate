@@ -6,33 +6,66 @@
   "waterType": "freshwater",
   "commonName": "Clown Pleco",
   "scientificName": "Panaqolus maccus",
-  "alsoKnownAs": ["Clown Panaque", "L104", "L162", "L262"],
+  "alsoKnownAs": [
+    "Clown Panaque",
+    "L104",
+    "L162",
+    "L262"
+  ],
   "category": "Catfish",
   "taxonomy": {
     "family": "Loricariidae",
     "order": "Siluriformes"
   },
   "nativeRange": {
-    "regions": ["South America"],
-    "countries": ["Venezuela"],
+    "regions": [
+      "South America"
+    ],
+    "countries": [
+      "Venezuela"
+    ],
     "habitat": "Fast-flowing rivers and streams with submerged driftwood and rocky substrates; Apuré and Caroní River basins (Orinoco drainage)",
     "biotope": "South American riverine",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 28 },
-    "pH": { "min": 6.5, "max": 7.5 },
-    "gH": { "min": 5, "max": 15 },
-    "kH": { "min": 4, "max": 12 },
+    "temperatureC": {
+      "min": 22,
+      "max": 28
+    },
+    "pH": {
+      "min": 6.5,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 5,
+      "max": 15
+    },
+    "kH": {
+      "min": 4,
+      "max": 12
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 7, "max": 10 },
-  "lifespanYears": { "min": 10, "max": 12 },
+  "adultSizeCm": {
+    "min": 7,
+    "max": 10
+  },
+  "lifespanYears": {
+    "min": 10,
+    "max": 12
+  },
   "tank": {
     "minVolumeLiters": 75,
     "minLengthCm": 60,
     "swimZone": "bottom",
-    "decorPreferences": ["driftwood (essential)", "caves/PVC tubes", "rocky hiding spots", "dim areas", "smooth substrate"],
+    "decorPreferences": [
+      "driftwood (essential)",
+      "caves/PVC tubes",
+      "rocky hiding spots",
+      "dim areas",
+      "smooth substrate"
+    ],
     "minSandDepthCm": null
   },
   "careLevel": "beginner",
@@ -44,8 +77,23 @@
     "temperament": "peaceful",
     "grouping": "pair",
     "minGroupSize": 1,
-    "goodWith": ["small tetras", "rasboras", "corydoras", "dwarf gouramis", "danios", "livebearers", "mystery snails", "small shrimp (with caution)", "other peaceful South American species"],
-    "avoidWith": ["aggressive cichlids", "large predatory fish", "multiple male plecos in small tanks without sufficient caves", "common pleco (territory competition)"]
+    "goodWith": [
+      "small tetras",
+      "rasboras",
+      "corydoras",
+      "dwarf gouramis",
+      "danios",
+      "livebearers",
+      "mystery snails",
+      "small shrimp (with caution)",
+      "other peaceful South American species"
+    ],
+    "avoidWith": [
+      "aggressive cichlids",
+      "large predatory fish",
+      "multiple male plecos in small tanks without sufficient caves",
+      "common pleco (territory competition)"
+    ]
   },
   "media": {
     "primaryImage": "clown_pleco.jpg",
@@ -107,7 +155,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

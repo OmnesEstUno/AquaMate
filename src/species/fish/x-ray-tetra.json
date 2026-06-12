@@ -16,21 +16,48 @@
     "order": "Characiformes"
   },
   "nativeRange": {
-    "regions": ["South America"],
-    "countries": ["Venezuela", "Guyana", "Brazil"],
+    "regions": [
+      "South America"
+    ],
+    "countries": [
+      "Venezuela",
+      "Guyana",
+      "Brazil"
+    ],
     "habitat": "Coastal streams, rivers, and estuaries; tolerates soft acidic blackwater inland as well as slightly brackish coastal waters near river mouths",
     "biotope": "Estuary / Blackwater river",
-    "depthRangeM": { "min": 0, "max": 3 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 3
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 28 },
-    "pH": { "min": 6.0, "max": 8.0 },
-    "gH": { "min": 2, "max": 20 },
-    "kH": { "min": 1, "max": 10 },
+    "temperatureC": {
+      "min": 24,
+      "max": 28
+    },
+    "pH": {
+      "min": 6,
+      "max": 8
+    },
+    "gH": {
+      "min": 2,
+      "max": 20
+    },
+    "kH": {
+      "min": 1,
+      "max": 10
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 3.0, "max": 4.5 },
-  "lifespanYears": { "min": 3, "max": 5 },
+  "adultSizeCm": {
+    "min": 3,
+    "max": 4.5
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 60,
     "minLengthCm": 60,
@@ -144,7 +171,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": true
+    "euryhaline": true,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

@@ -15,21 +15,47 @@
     "order": "Cypriniformes"
   },
   "nativeRange": {
-    "regions": ["South Asia"],
-    "countries": ["India", "Bangladesh"],
+    "regions": [
+      "South Asia"
+    ],
+    "countries": [
+      "India",
+      "Bangladesh"
+    ],
     "habitat": "Fast-flowing rocky and gravelly rivers and streams in hill and foothills zones; also found in slower tributaries and floodplain channels during monsoon season. Prefers areas with abundant cover — submerged roots, leaf litter, and boulders.",
     "biotope": "Asian river",
-    "depthRangeM": { "min": 0.2, "max": 3 }
+    "depthRangeM": {
+      "min": 0.2,
+      "max": 3
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 27 },
-    "pH": { "min": 6.5, "max": 7.5 },
-    "gH": { "min": 5, "max": 15 },
-    "kH": { "min": 3, "max": 10 },
+    "temperatureC": {
+      "min": 22,
+      "max": 27
+    },
+    "pH": {
+      "min": 6.5,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 5,
+      "max": 15
+    },
+    "kH": {
+      "min": 3,
+      "max": 10
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 10.0, "max": 15.0 },
-  "lifespanYears": { "min": 8, "max": 15 },
+  "adultSizeCm": {
+    "min": 10,
+    "max": 15
+  },
+  "lifespanYears": {
+    "min": 8,
+    "max": 15
+  },
   "tank": {
     "minVolumeLiters": 200,
     "minLengthCm": 120,
@@ -145,7 +171,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

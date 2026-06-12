@@ -17,21 +17,49 @@
     "order": "Characiformes"
   },
   "nativeRange": {
-    "regions": ["South America"],
-    "countries": ["Brazil", "Venezuela", "Colombia", "Guyana"],
+    "regions": [
+      "South America"
+    ],
+    "countries": [
+      "Brazil",
+      "Venezuela",
+      "Colombia",
+      "Guyana"
+    ],
     "habitat": "Large rivers and flooded forests; prefers areas with submerged tree roots, overhanging riparian vegetation, and leaf litter; found in both blackwater and clearwater river systems throughout the Amazon and Orinoco basins",
     "biotope": "Amazon river",
-    "depthRangeM": { "min": 0, "max": 10 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 10
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 28 },
-    "pH": { "min": 6.0, "max": 7.5 },
-    "gH": { "min": 2, "max": 15 },
-    "kH": { "min": 1, "max": 8 },
+    "temperatureC": {
+      "min": 24,
+      "max": 28
+    },
+    "pH": {
+      "min": 6,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 2,
+      "max": 15
+    },
+    "kH": {
+      "min": 1,
+      "max": 8
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 25, "max": 30 },
-  "lifespanYears": { "min": 8, "max": 15 },
+  "adultSizeCm": {
+    "min": 25,
+    "max": 30
+  },
+  "lifespanYears": {
+    "min": 8,
+    "max": 15
+  },
   "tank": {
     "minVolumeLiters": 450,
     "minLengthCm": 180,
@@ -155,7 +183,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": true,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

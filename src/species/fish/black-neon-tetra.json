@@ -13,21 +13,43 @@
     "order": "Characiformes"
   },
   "nativeRange": {
-    "regions": ["South America"],
-    "countries": ["Brazil"],
+    "regions": [
+      "South America"
+    ],
+    "countries": [
+      "Brazil"
+    ],
     "habitat": "Slow-moving blackwater streams and tributaries in the upper Paraguay River basin, often among leaf litter and dense vegetation.",
     "biotope": "Blackwater/clearwater; upper Paraguai basin (Mato Grosso and Mato Grosso do Sul states), with possible extension into the upper Guaporé basin.",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 27 },
-    "pH": { "min": 5.0, "max": 7.5 },
-    "gH": { "min": 2, "max": 15 },
-    "kH": { "min": 2, "max": 12 },
+    "temperatureC": {
+      "min": 22,
+      "max": 27
+    },
+    "pH": {
+      "min": 5,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 2,
+      "max": 15
+    },
+    "kH": {
+      "min": 2,
+      "max": 12
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 2.5, "max": 4.0 },
-  "lifespanYears": { "min": 3, "max": 5 },
+  "adultSizeCm": {
+    "min": 2.5,
+    "max": 4
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 60,
     "minLengthCm": 80,
@@ -125,7 +147,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

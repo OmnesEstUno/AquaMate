@@ -16,21 +16,47 @@
     "order": "Perciformes"
   },
   "nativeRange": {
-    "regions": ["East Africa", "Lake Malawi"],
-    "countries": ["Malawi"],
+    "regions": [
+      "East Africa",
+      "Lake Malawi"
+    ],
+    "countries": [
+      "Malawi"
+    ],
     "habitat": "Rocky shoreline and intermediate zones of Mbenji Island, Lake Malawi; found in the sediment-free boulder habitat typical of mbuna cichlids, at moderate depths",
     "biotope": "African Rift Lake — rocky littoral (mbuna)",
-    "depthRangeM": { "min": 3, "max": 20 }
+    "depthRangeM": {
+      "min": 3,
+      "max": 20
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 28 },
-    "pH": { "min": 7.8, "max": 8.5 },
-    "gH": { "min": 10, "max": 20 },
-    "kH": { "min": 8, "max": 16 },
+    "temperatureC": {
+      "min": 24,
+      "max": 28
+    },
+    "pH": {
+      "min": 7.8,
+      "max": 8.5
+    },
+    "gH": {
+      "min": 10,
+      "max": 20
+    },
+    "kH": {
+      "min": 8,
+      "max": 16
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 10.0, "max": 14.0 },
-  "lifespanYears": { "min": 5, "max": 10 },
+  "adultSizeCm": {
+    "min": 10,
+    "max": 14
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 10
+  },
   "tank": {
     "minVolumeLiters": 300,
     "minLengthCm": 150,
@@ -152,7 +178,9 @@
     "mouthbrooder": true,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

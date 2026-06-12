@@ -18,21 +18,49 @@
     "order": "Atheriniformes"
   },
   "nativeRange": {
-    "regions": ["Oceania", "Southeast Asia"],
-    "countries": ["Australia", "Papua New Guinea", "Indonesia"],
+    "regions": [
+      "Oceania",
+      "Southeast Asia"
+    ],
+    "countries": [
+      "Australia",
+      "Papua New Guinea",
+      "Indonesia"
+    ],
     "habitat": "Streams, rivers, lakes, swamps, and lagoons with dense aquatic vegetation; often found near submerged debris and marginal plants; subject to seasonal water level and temperature fluctuations",
     "biotope": "Tropical freshwater stream",
-    "depthRangeM": { "min": 0, "max": 3 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 3
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 20, "max": 30 },
-    "pH": { "min": 6.5, "max": 8.0 },
-    "gH": { "min": 5, "max": 20 },
-    "kH": { "min": 5, "max": 15 },
+    "temperatureC": {
+      "min": 20,
+      "max": 30
+    },
+    "pH": {
+      "min": 6.5,
+      "max": 8
+    },
+    "gH": {
+      "min": 5,
+      "max": 20
+    },
+    "kH": {
+      "min": 5,
+      "max": 15
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 10.0, "max": 13.0 },
-  "lifespanYears": { "min": 5, "max": 8 },
+  "adultSizeCm": {
+    "min": 10,
+    "max": 13
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 8
+  },
   "tank": {
     "minVolumeLiters": 150,
     "minLengthCm": 120,
@@ -146,7 +174,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

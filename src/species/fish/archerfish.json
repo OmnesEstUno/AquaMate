@@ -6,33 +6,81 @@
   "waterType": "brackish",
   "commonName": "Archerfish",
   "scientificName": "Toxotes jaculatrix",
-  "alsoKnownAs": ["Banded Archerfish", "Spinner"],
+  "alsoKnownAs": [
+    "Banded Archerfish",
+    "Spinner"
+  ],
   "category": "Oddball",
   "taxonomy": {
     "family": "Toxotidae",
     "order": "Carangaria"
   },
   "nativeRange": {
-    "regions": ["South Asia", "Southeast Asia", "Oceania"],
-    "countries": ["India", "Myanmar", "Thailand", "Malaysia", "Philippines", "Indonesia", "Papua New Guinea", "Solomon Islands", "Vanuatu", "Australia", "China"],
+    "regions": [
+      "South Asia",
+      "Southeast Asia",
+      "Oceania"
+    ],
+    "countries": [
+      "India",
+      "Myanmar",
+      "Thailand",
+      "Malaysia",
+      "Philippines",
+      "Indonesia",
+      "Papua New Guinea",
+      "Solomon Islands",
+      "Vanuatu",
+      "Australia",
+      "China"
+    ],
     "habitat": "Brackish mangrove estuaries, tidal rivers, coastal lagoons, and the lower reaches of freshwater streams",
     "biotope": "Mangrove estuary",
-    "depthRangeM": { "min": 0, "max": 3 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 3
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 30 },
-    "pH": { "min": 7.0, "max": 8.5 },
-    "gH": { "min": 10, "max": 25 },
-    "kH": { "min": 5, "max": 15 },
-    "salinity": { "min": 1.005, "max": 1.015 }
+    "temperatureC": {
+      "min": 24,
+      "max": 30
+    },
+    "pH": {
+      "min": 7,
+      "max": 8.5
+    },
+    "gH": {
+      "min": 10,
+      "max": 25
+    },
+    "kH": {
+      "min": 5,
+      "max": 15
+    },
+    "salinity": {
+      "min": 1.005,
+      "max": 1.015
+    }
   },
-  "adultSizeCm": { "min": 20, "max": 30 },
-  "lifespanYears": { "min": 5, "max": 10 },
+  "adultSizeCm": {
+    "min": 20,
+    "max": 30
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 10
+  },
   "tank": {
     "minVolumeLiters": 300,
     "minLengthCm": 120,
     "swimZone": "top",
-    "decorPreferences": ["mangrove roots", "overhanging vegetation", "floating plants", "tight-fitting lid"],
+    "decorPreferences": [
+      "mangrove roots",
+      "overhanging vegetation",
+      "floating plants",
+      "tight-fitting lid"
+    ],
     "minSandDepthCm": null
   },
   "careLevel": "advanced",
@@ -44,8 +92,19 @@
     "temperament": "semi-aggressive",
     "grouping": "schooling",
     "minGroupSize": 4,
-    "goodWith": ["Scats", "Monos", "Bumblebee Gobies", "Green Chromides", "other robust brackish species of similar size"],
-    "avoidWith": ["small fish that may be eaten", "aggressive fin-nippers", "pure freshwater species", "full marine species"]
+    "goodWith": [
+      "Scats",
+      "Monos",
+      "Bumblebee Gobies",
+      "Green Chromides",
+      "other robust brackish species of similar size"
+    ],
+    "avoidWith": [
+      "small fish that may be eaten",
+      "aggressive fin-nippers",
+      "pure freshwater species",
+      "full marine species"
+    ]
   },
   "media": {
     "primaryImage": "archerfish.jpg",
@@ -107,7 +166,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": true
+    "euryhaline": true,
+    "eatsPlantsRisk": null,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

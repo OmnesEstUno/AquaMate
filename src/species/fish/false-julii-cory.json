@@ -18,21 +18,48 @@
     "order": "Siluriformes"
   },
   "nativeRange": {
-    "regions": ["South America"],
-    "countries": ["Peru", "Brazil", "Colombia"],
+    "regions": [
+      "South America"
+    ],
+    "countries": [
+      "Peru",
+      "Brazil",
+      "Colombia"
+    ],
     "habitat": "Shallow, clear-to-slightly-turbid streams and river margins with sandy or fine-gravel substrate; shaded by riparian vegetation; often in slow-moving or still marginal pools adjacent to main current",
     "biotope": "Amazonian stream",
-    "depthRangeM": { "min": 0, "max": 2 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 2
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 26 },
-    "pH": { "min": 6.0, "max": 7.5 },
-    "gH": { "min": 2, "max": 15 },
-    "kH": { "min": 1, "max": 8 },
+    "temperatureC": {
+      "min": 22,
+      "max": 26
+    },
+    "pH": {
+      "min": 6,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 2,
+      "max": 15
+    },
+    "kH": {
+      "min": 1,
+      "max": 8
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 4.5, "max": 6.0 },
-  "lifespanYears": { "min": 5, "max": 10 },
+  "adultSizeCm": {
+    "min": 4.5,
+    "max": 6
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 10
+  },
   "tank": {
     "minVolumeLiters": 75,
     "minLengthCm": 60,
@@ -157,7 +184,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

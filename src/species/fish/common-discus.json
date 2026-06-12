@@ -17,21 +17,48 @@
     "order": "Cichliformes"
   },
   "nativeRange": {
-    "regions": ["South America"],
-    "countries": ["Brazil", "Peru", "Colombia"],
+    "regions": [
+      "South America"
+    ],
+    "countries": [
+      "Brazil",
+      "Peru",
+      "Colombia"
+    ],
     "habitat": "Slow-moving and still floodplain waters, flooded forest (igapó and várzea), lake margins, and sheltered river backwaters of the central and western Amazon Basin; typically associated with submerged roots, woody debris, and leaf litter in soft, blackwater or clearwater environments",
     "biotope": "Amazon blackwater / floodplain",
-    "depthRangeM": { "min": 0.5, "max": 5 }
+    "depthRangeM": {
+      "min": 0.5,
+      "max": 5
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 28, "max": 31 },
-    "pH": { "min": 5.5, "max": 7.0 },
-    "gH": { "min": 1, "max": 8 },
-    "kH": { "min": 0, "max": 4 },
+    "temperatureC": {
+      "min": 28,
+      "max": 31
+    },
+    "pH": {
+      "min": 5.5,
+      "max": 7
+    },
+    "gH": {
+      "min": 1,
+      "max": 8
+    },
+    "kH": {
+      "min": 0,
+      "max": 4
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 15.0, "max": 20.0 },
-  "lifespanYears": { "min": 10, "max": 15 },
+  "adultSizeCm": {
+    "min": 15,
+    "max": 20
+  },
+  "lifespanYears": {
+    "min": 10,
+    "max": 15
+  },
   "tank": {
     "minVolumeLiters": 280,
     "minLengthCm": 120,
@@ -159,7 +186,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

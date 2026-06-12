@@ -16,21 +16,49 @@
     "order": "Cichliformes"
   },
   "nativeRange": {
-    "regions": ["Africa", "East Africa"],
-    "countries": ["Malawi", "Mozambique", "Tanzania"],
+    "regions": [
+      "Africa",
+      "East Africa"
+    ],
+    "countries": [
+      "Malawi",
+      "Mozambique",
+      "Tanzania"
+    ],
     "habitat": "Rocky shorelines and intermediate sandy zones of Lake Malawi; frequents rock mounds and boulder piles along the lake’s littoral zone",
     "biotope": "Lake Malawi rocky littoral",
-    "depthRangeM": { "min": 10, "max": 40 }
+    "depthRangeM": {
+      "min": 10,
+      "max": 40
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 28 },
-    "pH": { "min": 7.6, "max": 8.8 },
-    "gH": { "min": 10, "max": 25 },
-    "kH": { "min": 8, "max": 18 },
+    "temperatureC": {
+      "min": 24,
+      "max": 28
+    },
+    "pH": {
+      "min": 7.6,
+      "max": 8.8
+    },
+    "gH": {
+      "min": 10,
+      "max": 25
+    },
+    "kH": {
+      "min": 8,
+      "max": 18
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 12.0, "max": 20.0 },
-  "lifespanYears": { "min": 7, "max": 10 },
+  "adultSizeCm": {
+    "min": 12,
+    "max": 20
+  },
+  "lifespanYears": {
+    "min": 7,
+    "max": 10
+  },
   "tank": {
     "minVolumeLiters": 300,
     "minLengthCm": 150,
@@ -134,7 +162,9 @@
     "mouthbrooder": true,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

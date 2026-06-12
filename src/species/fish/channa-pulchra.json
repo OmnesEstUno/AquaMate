@@ -17,21 +17,46 @@
     "order": "Anabantiformes"
   },
   "nativeRange": {
-    "regions": ["Southeast Asia"],
-    "countries": ["Myanmar"],
+    "regions": [
+      "Southeast Asia"
+    ],
+    "countries": [
+      "Myanmar"
+    ],
     "habitat": "Slow-moving and still, oxygen-poor streams, swamps, and hill-forest drainages in the Rakhine Yoma (Arakan) hill range; densely vegetated, heavily shaded, leaf-littered waters with soft, acidic, dark-stained conditions",
     "biotope": "Blackwater / Hill stream",
-    "depthRangeM": { "min": 0, "max": 1 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 1
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 18, "max": 26 },
-    "pH": { "min": 6.0, "max": 7.5 },
-    "gH": { "min": 2, "max": 10 },
-    "kH": { "min": 1, "max": 6 },
+    "temperatureC": {
+      "min": 18,
+      "max": 26
+    },
+    "pH": {
+      "min": 6,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 2,
+      "max": 10
+    },
+    "kH": {
+      "min": 1,
+      "max": 6
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 20.0, "max": 30.0 },
-  "lifespanYears": { "min": 5, "max": 10 },
+  "adultSizeCm": {
+    "min": 20,
+    "max": 30
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 10
+  },
   "tank": {
     "minVolumeLiters": 200,
     "minLengthCm": 120,
@@ -143,7 +168,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

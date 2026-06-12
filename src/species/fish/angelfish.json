@@ -6,28 +6,59 @@
   "waterType": "freshwater",
   "commonName": "Angelfish",
   "scientificName": "Pterophyllum scalare",
-  "alsoKnownAs": ["Freshwater Angelfish", "Common Angelfish", "Scalare"],
+  "alsoKnownAs": [
+    "Freshwater Angelfish",
+    "Common Angelfish",
+    "Scalare"
+  ],
   "category": "Cichlid",
   "taxonomy": {
     "family": "Cichlidae",
     "order": "Cichliformes"
   },
   "nativeRange": {
-    "regions": ["South America"],
-    "countries": ["Brazil", "Peru", "Colombia", "Guyana", "Suriname", "French Guiana"],
+    "regions": [
+      "South America"
+    ],
+    "countries": [
+      "Brazil",
+      "Peru",
+      "Colombia",
+      "Guyana",
+      "Suriname",
+      "French Guiana"
+    ],
     "habitat": "Slow-moving rivers, flooded forests, and swampy areas with dense aquatic vegetation; often found in still backwaters and tributaries of the Amazon basin",
     "biotope": "Amazon basin — dense vegetation, leaf litter, dark tannin-stained water",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 30 },
-    "pH": { "min": 6.5, "max": 7.5 },
-    "gH": { "min": 3, "max": 15 },
-    "kH": { "min": 3, "max": 12 },
+    "temperatureC": {
+      "min": 24,
+      "max": 30
+    },
+    "pH": {
+      "min": 6.5,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 3,
+      "max": 15
+    },
+    "kH": {
+      "min": 3,
+      "max": 12
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 12, "max": 15 },
-  "lifespanYears": { "min": 8, "max": 12 },
+  "adultSizeCm": {
+    "min": 12,
+    "max": 15
+  },
+  "lifespanYears": {
+    "min": 8,
+    "max": 12
+  },
   "tank": {
     "minVolumeLiters": 200,
     "minLengthCm": 100,
@@ -129,7 +160,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

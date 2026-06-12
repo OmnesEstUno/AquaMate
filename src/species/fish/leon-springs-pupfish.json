@@ -15,21 +15,46 @@
     "order": "Cyprinodontiformes"
   },
   "nativeRange": {
-    "regions": ["North America"],
-    "countries": ["United States"],
+    "regions": [
+      "North America"
+    ],
+    "countries": [
+      "United States"
+    ],
     "habitat": "Warm, shallow, spring-fed pools and outflows of the Diamond Y Spring complex; clear to slightly turbid spring water with aquatic vegetation and algae mats over clay or sandy substrate",
     "biotope": "Desert spring",
-    "depthRangeM": { "min": 0.1, "max": 1.0 }
+    "depthRangeM": {
+      "min": 0.1,
+      "max": 1
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 20, "max": 32 },
-    "pH": { "min": 7.2, "max": 8.5 },
-    "gH": { "min": 10, "max": 25 },
-    "kH": { "min": 6, "max": 18 },
+    "temperatureC": {
+      "min": 20,
+      "max": 32
+    },
+    "pH": {
+      "min": 7.2,
+      "max": 8.5
+    },
+    "gH": {
+      "min": 10,
+      "max": 25
+    },
+    "kH": {
+      "min": 6,
+      "max": 18
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 4.0, "max": 6.0 },
-  "lifespanYears": { "min": 1, "max": 3 },
+  "adultSizeCm": {
+    "min": 4,
+    "max": 6
+  },
+  "lifespanYears": {
+    "min": 1,
+    "max": 3
+  },
   "tank": {
     "minVolumeLiters": 75,
     "minLengthCm": 75,
@@ -138,7 +163,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

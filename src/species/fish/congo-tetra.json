@@ -13,26 +13,54 @@
     "order": "Characiformes"
   },
   "nativeRange": {
-    "regions": ["Central Africa"],
-    "countries": ["Democratic Republic of the Congo", "Republic of the Congo"],
+    "regions": [
+      "Central Africa"
+    ],
+    "countries": [
+      "Democratic Republic of the Congo",
+      "Republic of the Congo"
+    ],
     "habitat": "Slow-moving rivers and streams with dense vegetation and soft, acidic to neutral water",
     "biotope": "Congo River basin",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 27 },
-    "pH": { "min": 6.0, "max": 7.5 },
-    "gH": { "min": 4, "max": 18 },
-    "kH": { "min": 2, "max": 12 },
+    "temperatureC": {
+      "min": 23,
+      "max": 27
+    },
+    "pH": {
+      "min": 6,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 4,
+      "max": 18
+    },
+    "kH": {
+      "min": 2,
+      "max": 12
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 6.0, "max": 9.0 },
-  "lifespanYears": { "min": 3, "max": 5 },
+  "adultSizeCm": {
+    "min": 6,
+    "max": 9
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 150,
     "minLengthCm": 100,
     "swimZone": "mid",
-    "decorPreferences": ["dense planting", "open swimming area", "dark substrate", "subdued lighting"],
+    "decorPreferences": [
+      "dense planting",
+      "open swimming area",
+      "dark substrate",
+      "subdued lighting"
+    ],
     "minSandDepthCm": null
   },
   "careLevel": "intermediate",
@@ -44,8 +72,19 @@
     "temperament": "peaceful",
     "grouping": "schooling",
     "minGroupSize": 6,
-    "goodWith": ["other tetras", "corydoras catfish", "small peaceful community fish", "rasboras", "dwarf cichlids"],
-    "avoidWith": ["fin-nippers", "aggressive species", "large cichlids", "bettas"]
+    "goodWith": [
+      "other tetras",
+      "corydoras catfish",
+      "small peaceful community fish",
+      "rasboras",
+      "dwarf cichlids"
+    ],
+    "avoidWith": [
+      "fin-nippers",
+      "aggressive species",
+      "large cichlids",
+      "bettas"
+    ]
   },
   "media": {
     "primaryImage": "congo_tetra.webp",
@@ -95,7 +134,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

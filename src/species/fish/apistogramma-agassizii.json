@@ -6,28 +6,58 @@
   "waterType": "freshwater",
   "commonName": "Agassiz's Dwarf Cichlid",
   "scientificName": "Apistogramma agassizii",
-  "alsoKnownAs": ["Apistogramma agassizii", "Agassiz Apisto", "Fire Red Apisto", "Double Red Apisto"],
+  "alsoKnownAs": [
+    "Apistogramma agassizii",
+    "Agassiz Apisto",
+    "Fire Red Apisto",
+    "Double Red Apisto"
+  ],
   "category": "Cichlid",
   "taxonomy": {
     "family": "Cichlidae",
     "order": "Cichliformes"
   },
   "nativeRange": {
-    "regions": ["South America", "Amazon Basin"],
-    "countries": ["Brazil", "Peru", "Colombia"],
+    "regions": [
+      "South America",
+      "Amazon Basin"
+    ],
+    "countries": [
+      "Brazil",
+      "Peru",
+      "Colombia"
+    ],
     "habitat": "Slow-moving blackwater streams, flooded forest margins, and leaf-litter zones with soft, acidic water",
     "biotope": "Amazon blackwater",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 29 },
-    "pH": { "min": 5.0, "max": 7.0 },
-    "gH": { "min": 1, "max": 8 },
-    "kH": { "min": 0, "max": 4 },
+    "temperatureC": {
+      "min": 24,
+      "max": 29
+    },
+    "pH": {
+      "min": 5,
+      "max": 7
+    },
+    "gH": {
+      "min": 1,
+      "max": 8
+    },
+    "kH": {
+      "min": 0,
+      "max": 4
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 5.0, "max": 8.0 },
-  "lifespanYears": { "min": 3, "max": 5 },
+  "adultSizeCm": {
+    "min": 5,
+    "max": 8
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 80,
     "minLengthCm": 60,
@@ -127,7 +157,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

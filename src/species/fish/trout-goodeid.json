@@ -17,21 +17,47 @@
     "order": "Cyprinodontiformes"
   },
   "nativeRange": {
-    "regions": ["Central America", "North America"],
-    "countries": ["Mexico"],
+    "regions": [
+      "Central America",
+      "North America"
+    ],
+    "countries": [
+      "Mexico"
+    ],
     "habitat": "Fast-flowing rivers, streams, and spring-fed creeks in west-central Mexico; clear, well-oxygenated water with rocky or gravel substrate and moderate to strong current; often associated with riparian vegetation along stream margins",
     "biotope": "Mexican highland stream",
-    "depthRangeM": { "min": 0, "max": 2 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 2
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 18, "max": 24 },
-    "pH": { "min": 7.0, "max": 8.0 },
-    "gH": { "min": 10, "max": 20 },
-    "kH": { "min": 5, "max": 15 },
+    "temperatureC": {
+      "min": 18,
+      "max": 24
+    },
+    "pH": {
+      "min": 7,
+      "max": 8
+    },
+    "gH": {
+      "min": 10,
+      "max": 20
+    },
+    "kH": {
+      "min": 5,
+      "max": 15
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 7.0, "max": 9.0 },
-  "lifespanYears": { "min": 3, "max": 5 },
+  "adultSizeCm": {
+    "min": 7,
+    "max": 9
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 150,
     "minLengthCm": 90,
@@ -142,7 +168,9 @@
     "mouthbrooder": false,
     "constantGrazer": true,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

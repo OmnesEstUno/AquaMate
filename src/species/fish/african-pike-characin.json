@@ -45,17 +45,38 @@
     ],
     "habitat": "Still to slow-moving rivers, floodplains, lakes, and swampy areas; typically found near dense marginal or submerged vegetation used as ambush cover; prefers warm, often slightly acidic to neutral waters",
     "biotope": "Tropical river",
-    "depthRangeM": { "min": 0, "max": 5 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 5
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 28 },
-    "pH": { "min": 6.0, "max": 7.5 },
-    "gH": { "min": 5, "max": 20 },
-    "kH": { "min": 2, "max": 10 },
+    "temperatureC": {
+      "min": 22,
+      "max": 28
+    },
+    "pH": {
+      "min": 6,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 5,
+      "max": 20
+    },
+    "kH": {
+      "min": 2,
+      "max": 10
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 35, "max": 50 },
-  "lifespanYears": { "min": 8, "max": 15 },
+  "adultSizeCm": {
+    "min": 35,
+    "max": 50
+  },
+  "lifespanYears": {
+    "min": 8,
+    "max": 15
+  },
   "tank": {
     "minVolumeLiters": 500,
     "minLengthCm": 180,
@@ -164,7 +185,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

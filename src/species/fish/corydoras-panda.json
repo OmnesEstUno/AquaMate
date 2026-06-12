@@ -6,33 +6,65 @@
   "waterType": "freshwater",
   "commonName": "Panda Cory",
   "scientificName": "Corydoras panda",
-  "alsoKnownAs": ["Panda Corydoras", "Panda Catfish", "Hoplisoma panda"],
+  "alsoKnownAs": [
+    "Panda Corydoras",
+    "Panda Catfish",
+    "Hoplisoma panda"
+  ],
   "category": "Catfish",
   "taxonomy": {
     "family": "Callichthyidae",
     "order": "Siluriformes"
   },
   "nativeRange": {
-    "regions": ["South America"],
-    "countries": ["Peru"],
+    "regions": [
+      "South America"
+    ],
+    "countries": [
+      "Peru"
+    ],
     "habitat": "Clear and blackwater streams and tributaries with sandy substrates, often influenced by cool Andean snowmelt runoff",
     "biotope": "Rio Ucayali basin (Aquas River), upper Amazon drainage",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 20, "max": 25 },
-    "pH": { "min": 6.0, "max": 7.5 },
-    "gH": { "min": 2, "max": 15 },
-    "kH": { "min": 2, "max": 10 },
+    "temperatureC": {
+      "min": 20,
+      "max": 25
+    },
+    "pH": {
+      "min": 6,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 2,
+      "max": 15
+    },
+    "kH": {
+      "min": 2,
+      "max": 10
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 3.5, "max": 5.0 },
-  "lifespanYears": { "min": 5, "max": 10 },
+  "adultSizeCm": {
+    "min": 3.5,
+    "max": 5
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 10
+  },
   "tank": {
     "minVolumeLiters": 75,
     "minLengthCm": 60,
     "swimZone": "bottom",
-    "decorPreferences": ["fine sand substrate", "driftwood", "leaf litter", "caves", "dense planting"],
+    "decorPreferences": [
+      "fine sand substrate",
+      "driftwood",
+      "leaf litter",
+      "caves",
+      "dense planting"
+    ],
     "minSandDepthCm": 3
   },
   "careLevel": "intermediate",
@@ -44,8 +76,18 @@
     "temperament": "peaceful",
     "grouping": "schooling",
     "minGroupSize": 6,
-    "goodWith": ["small tetras", "small rasboras", "dwarf cichlids", "other peaceful bottom dwellers", "small livebearers"],
-    "avoidWith": ["large aggressive cichlids", "fin-nipping species", "warm-water tropical fish (35°C+)"]
+    "goodWith": [
+      "small tetras",
+      "small rasboras",
+      "dwarf cichlids",
+      "other peaceful bottom dwellers",
+      "small livebearers"
+    ],
+    "avoidWith": [
+      "large aggressive cichlids",
+      "fin-nipping species",
+      "warm-water tropical fish (35°C+)"
+    ]
   },
   "media": {
     "primaryImage": "corydoras_panda.jpg",
@@ -101,7 +143,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

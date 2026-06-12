@@ -17,21 +17,46 @@
     "order": "Anabantiformes"
   },
   "nativeRange": {
-    "regions": ["South Asia"],
-    "countries": ["India"],
+    "regions": [
+      "South Asia"
+    ],
+    "countries": [
+      "India"
+    ],
     "habitat": "Shallow, slow-moving streams, side channels, and pools with leaf litter, submerged roots, and dense plant cover; associated with the Buxa (Buxar) Tiger Reserve area, Jalpaiguri District, West Bengal, northeastern India. Likely also ranges into the broader Brahmaputra drainage of northeastern India.",
     "biotope": "Slow-water stream / forest floor",
-    "depthRangeM": { "min": 0, "max": 1 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 1
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 18, "max": 26 },
-    "pH": { "min": 6.0, "max": 7.5 },
-    "gH": { "min": 1, "max": 12 },
-    "kH": { "min": 1, "max": 6 },
+    "temperatureC": {
+      "min": 18,
+      "max": 26
+    },
+    "pH": {
+      "min": 6,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 1,
+      "max": 12
+    },
+    "kH": {
+      "min": 1,
+      "max": 6
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 3.5, "max": 5.0 },
-  "lifespanYears": { "min": 3, "max": 5 },
+  "adultSizeCm": {
+    "min": 3.5,
+    "max": 5
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 54,
     "minLengthCm": 60,
@@ -136,7 +161,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

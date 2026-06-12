@@ -15,21 +15,49 @@
     "order": "Atheriniformes"
   },
   "nativeRange": {
-    "regions": ["Oceania", "Northern Australia", "Southern New Guinea"],
-    "countries": ["Australia", "Papua New Guinea"],
+    "regions": [
+      "Oceania",
+      "Northern Australia",
+      "Southern New Guinea"
+    ],
+    "countries": [
+      "Australia",
+      "Papua New Guinea"
+    ],
     "habitat": "Slow-moving and still freshwater streams, swamps, and billabongs in lowland tropical and subtropical areas; heavily vegetated, often tannin-stained water with leaf litter over sandy or silty substrate",
     "biotope": "Tropical stream / blackwater",
-    "depthRangeM": { "min": 0, "max": 1 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 1
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 20, "max": 26 },
-    "pH": { "min": 6.5, "max": 7.5 },
-    "gH": { "min": 5, "max": 15 },
-    "kH": { "min": 2, "max": 8 },
+    "temperatureC": {
+      "min": 20,
+      "max": 26
+    },
+    "pH": {
+      "min": 6.5,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 5,
+      "max": 15
+    },
+    "kH": {
+      "min": 2,
+      "max": 8
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 5.0, "max": 7.0 },
-  "lifespanYears": { "min": 3, "max": 5 },
+  "adultSizeCm": {
+    "min": 5,
+    "max": 7
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 60,
     "minLengthCm": 60,
@@ -137,7 +165,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

@@ -6,33 +6,68 @@
   "waterType": "freshwater",
   "commonName": "Pictus Catfish",
   "scientificName": "Pimelodus pictus",
-  "alsoKnownAs": ["Pictus Cat", "Angel Cat", "Spotted Pimelodus"],
+  "alsoKnownAs": [
+    "Pictus Cat",
+    "Angel Cat",
+    "Spotted Pimelodus"
+  ],
   "category": "Catfish",
   "taxonomy": {
     "family": "Pimelodidae",
     "order": "Siluriformes"
   },
   "nativeRange": {
-    "regions": ["South America"],
-    "countries": ["Brazil", "Colombia", "Peru", "Venezuela"],
+    "regions": [
+      "South America"
+    ],
+    "countries": [
+      "Brazil",
+      "Colombia",
+      "Peru",
+      "Venezuela"
+    ],
     "habitat": "Shallow, flowing waters over sandy or muddy substrates in major river channels and tributaries",
     "biotope": "Amazon and Orinoco River basins",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 26 },
-    "pH": { "min": 6.0, "max": 7.5 },
-    "gH": { "min": 2, "max": 15 },
-    "kH": { "min": 2, "max": 10 },
+    "temperatureC": {
+      "min": 22,
+      "max": 26
+    },
+    "pH": {
+      "min": 6,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 2,
+      "max": 15
+    },
+    "kH": {
+      "min": 2,
+      "max": 10
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 10, "max": 13 },
-  "lifespanYears": { "min": 4, "max": 8 },
+  "adultSizeCm": {
+    "min": 10,
+    "max": 13
+  },
+  "lifespanYears": {
+    "min": 4,
+    "max": 8
+  },
   "tank": {
     "minVolumeLiters": 150,
     "minLengthCm": 120,
     "swimZone": "bottom",
-    "decorPreferences": ["driftwood", "caves", "dim lighting", "soft substrate", "open swimming areas"],
+    "decorPreferences": [
+      "driftwood",
+      "caves",
+      "dim lighting",
+      "soft substrate",
+      "open swimming areas"
+    ],
     "minSandDepthCm": null
   },
   "careLevel": "intermediate",
@@ -44,8 +79,23 @@
     "temperament": "semi-aggressive",
     "grouping": "shoaling",
     "minGroupSize": 3,
-    "goodWith": ["medium characins", "rainbowfish", "robust cyprinids", "loaches", "larger barbs", "Loricariid catfish", "Doradid catfish", "medium-sized cichlids"],
-    "avoidWith": ["small tetras (neon, ember, cardinal)", "guppies", "small rasboras", "slow-moving or long-finned fish", "any fish small enough to be swallowed"]
+    "goodWith": [
+      "medium characins",
+      "rainbowfish",
+      "robust cyprinids",
+      "loaches",
+      "larger barbs",
+      "Loricariid catfish",
+      "Doradid catfish",
+      "medium-sized cichlids"
+    ],
+    "avoidWith": [
+      "small tetras (neon, ember, cardinal)",
+      "guppies",
+      "small rasboras",
+      "slow-moving or long-finned fish",
+      "any fish small enough to be swallowed"
+    ]
   },
   "media": {
     "primaryImage": "pictus_catfish.jpg",
@@ -107,7 +157,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

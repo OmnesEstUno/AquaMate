@@ -6,28 +6,54 @@
   "waterType": "freshwater",
   "commonName": "Checker Barb",
   "scientificName": "Oliotius oligolepis",
-  "alsoKnownAs": ["Checkered Barb", "Checkerboard Barb", "Island Barb"],
+  "alsoKnownAs": [
+    "Checkered Barb",
+    "Checkerboard Barb",
+    "Island Barb"
+  ],
   "category": "Barb",
   "taxonomy": {
     "family": "Cyprinidae",
     "order": "Cypriniformes"
   },
   "nativeRange": {
-    "regions": ["Southeast Asia"],
-    "countries": ["Indonesia"],
+    "regions": [
+      "Southeast Asia"
+    ],
+    "countries": [
+      "Indonesia"
+    ],
     "habitat": "Clear, well-oxygenated streams, small pools, and rivers with dense vegetation in western central Sumatra; type locality is Lake Maninjau in West Sumatra.",
     "biotope": "Clearwater",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 20, "max": 25 },
-    "pH": { "min": 5.5, "max": 7.5 },
-    "gH": { "min": 2, "max": 12 },
-    "kH": { "min": 3, "max": 12 },
+    "temperatureC": {
+      "min": 20,
+      "max": 25
+    },
+    "pH": {
+      "min": 5.5,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 2,
+      "max": 12
+    },
+    "kH": {
+      "min": 3,
+      "max": 12
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 4.0, "max": 5.0 },
-  "lifespanYears": { "min": 4, "max": 6 },
+  "adultSizeCm": {
+    "min": 4,
+    "max": 5
+  },
+  "lifespanYears": {
+    "min": 4,
+    "max": 6
+  },
   "tank": {
     "minVolumeLiters": 100,
     "minLengthCm": 75,
@@ -121,7 +147,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

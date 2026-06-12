@@ -17,7 +17,9 @@
     "order": "Perciformes"
   },
   "nativeRange": {
-    "regions": ["Indo-West Pacific"],
+    "regions": [
+      "Indo-West Pacific"
+    ],
     "countries": [
       "Persian Gulf states",
       "India",
@@ -32,17 +34,38 @@
     ],
     "habitat": "Lagoons and outer reef slopes; commonly associated with one of several host anemone species on rock and rubble substrates.",
     "biotope": "Reef",
-    "depthRangeM": { "min": 1, "max": 70 }
+    "depthRangeM": {
+      "min": 1,
+      "max": 70
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 27 },
-    "pH": { "min": 8.0, "max": 8.4 },
+    "temperatureC": {
+      "min": 24,
+      "max": 27
+    },
+    "pH": {
+      "min": 8,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.021, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.021,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 8, "max": 15 },
-  "lifespanYears": { "min": 8, "max": 11 },
+  "adultSizeCm": {
+    "min": 8,
+    "max": 15
+  },
+  "lifespanYears": {
+    "min": 8,
+    "max": 11
+  },
   "tank": {
     "minVolumeLiters": 120,
     "minLengthCm": 90,
@@ -139,7 +162,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": null,
+    "obligateCorallivore": false
   },
   "crustacean": null,
   "coral": null,

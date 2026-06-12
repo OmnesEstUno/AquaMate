@@ -6,33 +6,66 @@
   "waterType": "freshwater",
   "commonName": "Cardinal Tetra",
   "scientificName": "Paracheirodon axelrodi",
-  "alsoKnownAs": ["Red Neon Tetra"],
+  "alsoKnownAs": [
+    "Red Neon Tetra"
+  ],
   "category": "Tetra",
   "taxonomy": {
     "family": "Characidae",
     "order": "Characiformes"
   },
   "nativeRange": {
-    "regions": ["South America"],
-    "countries": ["Brazil", "Venezuela", "Colombia"],
+    "regions": [
+      "South America"
+    ],
+    "countries": [
+      "Brazil",
+      "Venezuela",
+      "Colombia"
+    ],
     "habitat": "Forest streams, slow-moving minor tributaries, igapó and igarapé flooded forest ecosystems; blackwater with tannin-stained, highly acidic, very soft water",
     "biotope": "Blackwater",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 28 },
-    "pH": { "min": 4.0, "max": 7.0 },
-    "gH": { "min": 0, "max": 10 },
-    "kH": { "min": 0, "max": 2 },
+    "temperatureC": {
+      "min": 23,
+      "max": 28
+    },
+    "pH": {
+      "min": 4,
+      "max": 7
+    },
+    "gH": {
+      "min": 0,
+      "max": 10
+    },
+    "kH": {
+      "min": 0,
+      "max": 2
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 2.5, "max": 3.5 },
-  "lifespanYears": { "min": 2, "max": 5 },
+  "adultSizeCm": {
+    "min": 2.5,
+    "max": 3.5
+  },
+  "lifespanYears": {
+    "min": 2,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 75,
     "minLengthCm": 60,
     "swimZone": "mid",
-    "decorPreferences": ["dense live plants", "driftwood", "dried leaf litter", "floating vegetation", "dark substrate", "dim lighting"],
+    "decorPreferences": [
+      "dense live plants",
+      "driftwood",
+      "dried leaf litter",
+      "floating vegetation",
+      "dark substrate",
+      "dim lighting"
+    ],
     "minSandDepthCm": null
   },
   "careLevel": "intermediate",
@@ -44,8 +77,25 @@
     "temperament": "peaceful",
     "grouping": "schooling",
     "minGroupSize": 8,
-    "goodWith": ["similarly-sized characids", "pencilfish", "hatchetfish", "corydoras catfish", "otocinclus", "kuhli loaches", "bristlenose plecos", "discus", "German blue rams", "apistogramma cichlids", "non-predatory cichlids", "small snails"],
-    "avoidWith": ["large or predatory fish", "fin-nipping species", "boisterous tankmates that cause stress"]
+    "goodWith": [
+      "similarly-sized characids",
+      "pencilfish",
+      "hatchetfish",
+      "corydoras catfish",
+      "otocinclus",
+      "kuhli loaches",
+      "bristlenose plecos",
+      "discus",
+      "German blue rams",
+      "apistogramma cichlids",
+      "non-predatory cichlids",
+      "small snails"
+    ],
+    "avoidWith": [
+      "large or predatory fish",
+      "fin-nipping species",
+      "boisterous tankmates that cause stress"
+    ]
   },
   "media": {
     "primaryImage": "cardinal_tetra.jpg",
@@ -101,7 +151,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

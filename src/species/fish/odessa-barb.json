@@ -6,28 +6,53 @@
   "waterType": "freshwater",
   "commonName": "Odessa Barb",
   "scientificName": "Pethia padamya",
-  "alsoKnownAs": ["Puntius padamya", "Scarlet Barb"],
+  "alsoKnownAs": [
+    "Puntius padamya",
+    "Scarlet Barb"
+  ],
   "category": "Barb",
   "taxonomy": {
     "family": "Cyprinidae",
     "order": "Cypriniformes"
   },
   "nativeRange": {
-    "regions": ["Southeast Asia"],
-    "countries": ["Myanmar"],
+    "regions": [
+      "Southeast Asia"
+    ],
+    "countries": [
+      "Myanmar"
+    ],
     "habitat": "High-altitude ponds, rivers, and streams; notably the Anisakan Falls pond near Pyin Oo Lwin and the lower Chindwin River drainage, Mandalay Division",
     "biotope": "Heavily vegetated still or slow-moving water with dark substrate, leaf litter, and submerged plants",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 18, "max": 26 },
-    "pH": { "min": 6.5, "max": 7.5 },
-    "gH": { "min": 4, "max": 18 },
-    "kH": { "min": 3, "max": 10 },
+    "temperatureC": {
+      "min": 18,
+      "max": 26
+    },
+    "pH": {
+      "min": 6.5,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 4,
+      "max": 18
+    },
+    "kH": {
+      "min": 3,
+      "max": 10
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 4.5, "max": 6.0 },
-  "lifespanYears": { "min": 3, "max": 5 },
+  "adultSizeCm": {
+    "min": 4.5,
+    "max": 6
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 80,
     "minLengthCm": 80,
@@ -125,7 +150,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

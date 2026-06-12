@@ -6,33 +6,67 @@
   "waterType": "freshwater",
   "commonName": "Green Neon Rasbora",
   "scientificName": "Microdevario kubotai",
-  "alsoKnownAs": ["Kubotai Rasbora", "Neon Green Rasbora", "Microrasbora kubotai"],
+  "alsoKnownAs": [
+    "Kubotai Rasbora",
+    "Neon Green Rasbora",
+    "Microrasbora kubotai"
+  ],
   "category": "Rasbora",
   "taxonomy": {
     "family": "Cyprinidae",
     "order": "Cypriniformes"
   },
   "nativeRange": {
-    "regions": ["Southeast Asia", "Indochina"],
-    "countries": ["Thailand", "Myanmar"],
+    "regions": [
+      "Southeast Asia",
+      "Indochina"
+    ],
+    "countries": [
+      "Thailand",
+      "Myanmar"
+    ],
     "habitat": "Calm to moderately-flowing headwaters and minor tributaries; substrates of sand, gravel, rocks, and boulders with leaf litter, submerged driftwood, and aquatic vegetation",
     "biotope": "Stream",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 20, "max": 27 },
-    "pH": { "min": 6.0, "max": 7.0 },
-    "gH": { "min": 1, "max": 10 },
-    "kH": { "min": 2, "max": 8 },
+    "temperatureC": {
+      "min": 20,
+      "max": 27
+    },
+    "pH": {
+      "min": 6,
+      "max": 7
+    },
+    "gH": {
+      "min": 1,
+      "max": 10
+    },
+    "kH": {
+      "min": 2,
+      "max": 8
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 1.5, "max": 2.0 },
-  "lifespanYears": { "min": 3, "max": 7 },
+  "adultSizeCm": {
+    "min": 1.5,
+    "max": 2
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 7
+  },
   "tank": {
     "minVolumeLiters": 40,
     "minLengthCm": 45,
     "swimZone": "mid",
-    "decorPreferences": ["dense planting", "dark substrate", "driftwood", "leaf litter", "gentle to moderate flow"],
+    "decorPreferences": [
+      "dense planting",
+      "dark substrate",
+      "driftwood",
+      "leaf litter",
+      "gentle to moderate flow"
+    ],
     "minSandDepthCm": null
   },
   "careLevel": "intermediate",
@@ -44,8 +78,28 @@
     "temperament": "peaceful",
     "grouping": "schooling",
     "minGroupSize": 8,
-    "goodWith": ["Boraras spp.", "Trigonostigma spp.", "ember tetras", "dwarf corydoras", "otocinclus", "rosy loaches", "clown killifish", "smaller Betta species", "Neocaridina shrimp", "Caridina shrimp (adult-sized)", "snails", "Acanthocobitis spp.", "Pangio spp.", "Dario spp."],
-    "avoidWith": ["larger or boisterous fish", "aggressive species", "fish requiring different water chemistry", "fast-moving fin-nippers"]
+    "goodWith": [
+      "Boraras spp.",
+      "Trigonostigma spp.",
+      "ember tetras",
+      "dwarf corydoras",
+      "otocinclus",
+      "rosy loaches",
+      "clown killifish",
+      "smaller Betta species",
+      "Neocaridina shrimp",
+      "Caridina shrimp (adult-sized)",
+      "snails",
+      "Acanthocobitis spp.",
+      "Pangio spp.",
+      "Dario spp."
+    ],
+    "avoidWith": [
+      "larger or boisterous fish",
+      "aggressive species",
+      "fish requiring different water chemistry",
+      "fast-moving fin-nippers"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -107,7 +161,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

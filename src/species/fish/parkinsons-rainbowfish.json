@@ -16,21 +16,44 @@
     "order": "Atheriniformes"
   },
   "nativeRange": {
-    "regions": ["Oceania", "Papua New Guinea"],
-    "countries": ["Papua New Guinea"],
+    "regions": [
+      "Oceania",
+      "Papua New Guinea"
+    ],
+    "countries": [
+      "Papua New Guinea"
+    ],
     "habitat": "Lowland rainforest streams and coastal pools; also inhabits grass-plain streams with patchy rainforest cover. Found in the Kemp Welch and Collingwood river systems and coastal drainages between Port Moresby and Milne Bay.",
     "biotope": "Rainforest stream",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 26, "max": 30 },
-    "pH": { "min": 7.0, "max": 8.0 },
-    "gH": { "min": 8, "max": 18 },
-    "kH": { "min": 4, "max": 12 },
+    "temperatureC": {
+      "min": 26,
+      "max": 30
+    },
+    "pH": {
+      "min": 7,
+      "max": 8
+    },
+    "gH": {
+      "min": 8,
+      "max": 18
+    },
+    "kH": {
+      "min": 4,
+      "max": 12
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 10.0, "max": 12.0 },
-  "lifespanYears": { "min": 5, "max": 8 },
+  "adultSizeCm": {
+    "min": 10,
+    "max": 12
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 8
+  },
   "tank": {
     "minVolumeLiters": 210,
     "minLengthCm": 120,
@@ -135,7 +158,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

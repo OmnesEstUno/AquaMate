@@ -20,21 +20,50 @@
     "order": "Anabantiformes"
   },
   "nativeRange": {
-    "regions": ["Southeast Asia"],
-    "countries": ["China", "Vietnam", "Laos", "Cambodia", "Thailand", "Myanmar", "Malaysia", "Indonesia"],
+    "regions": [
+      "Southeast Asia"
+    ],
+    "countries": [
+      "China",
+      "Vietnam",
+      "Laos",
+      "Cambodia",
+      "Thailand",
+      "Myanmar",
+      "Malaysia",
+      "Indonesia"
+    ],
     "habitat": "Shallow, heavily vegetated freshwater environments including rice paddies, ditches, marshes, ponds, and slow-moving rivers. Tolerates low-oxygen water via labyrinth organ.",
     "biotope": "Other",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 29 },
-    "pH": { "min": 6.0, "max": 8.0 },
-    "gH": { "min": 5, "max": 25 },
-    "kH": { "min": 4, "max": 15 },
+    "temperatureC": {
+      "min": 22,
+      "max": 29
+    },
+    "pH": {
+      "min": 6,
+      "max": 8
+    },
+    "gH": {
+      "min": 5,
+      "max": 25
+    },
+    "kH": {
+      "min": 4,
+      "max": 15
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 10, "max": 15 },
-  "lifespanYears": { "min": 4, "max": 6 },
+  "adultSizeCm": {
+    "min": 10,
+    "max": 15
+  },
+  "lifespanYears": {
+    "min": 4,
+    "max": 6
+  },
   "tank": {
     "minVolumeLiters": 150,
     "minLengthCm": 90,
@@ -127,7 +156,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

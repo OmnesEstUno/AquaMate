@@ -17,21 +17,47 @@
     "order": "Cyprinodontiformes"
   },
   "nativeRange": {
-    "regions": ["West Africa"],
-    "countries": ["Cameroon", "Nigeria"],
+    "regions": [
+      "West Africa"
+    ],
+    "countries": [
+      "Cameroon",
+      "Nigeria"
+    ],
     "habitat": "Small rivers and brooks under rainforest cover and forested savannah; schooling fish found in the flowing sections of creeks over soils of basal origin. Upper water column near the surface.",
     "biotope": "Rainforest stream",
-    "depthRangeM": { "min": 0, "max": 0.5 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 0.5
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 26 },
-    "pH": { "min": 6.5, "max": 7.2 },
-    "gH": { "min": 2, "max": 10 },
-    "kH": { "min": 1, "max": 5 },
+    "temperatureC": {
+      "min": 22,
+      "max": 26
+    },
+    "pH": {
+      "min": 6.5,
+      "max": 7.2
+    },
+    "gH": {
+      "min": 2,
+      "max": 10
+    },
+    "kH": {
+      "min": 1,
+      "max": 5
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 4.0, "max": 5.5 },
-  "lifespanYears": { "min": 1, "max": 2 },
+  "adultSizeCm": {
+    "min": 4,
+    "max": 5.5
+  },
+  "lifespanYears": {
+    "min": 1,
+    "max": 2
+  },
   "tank": {
     "minVolumeLiters": 60,
     "minLengthCm": 60,
@@ -147,7 +173,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

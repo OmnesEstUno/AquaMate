@@ -6,28 +6,62 @@
   "waterType": "freshwater",
   "commonName": "Lyretail Fairy Cichlid",
   "scientificName": "Neolamprologus brichardi",
-  "alsoKnownAs": ["Princess of Burundi", "Fairy Cichlid", "Lyretail Cichlid", "Brichardi", "Neolamprologus pulcher"],
+  "alsoKnownAs": [
+    "Princess of Burundi",
+    "Fairy Cichlid",
+    "Lyretail Cichlid",
+    "Brichardi",
+    "Neolamprologus pulcher"
+  ],
   "category": "Cichlid",
   "taxonomy": {
     "family": "Cichlidae",
     "order": "Cichliformes"
   },
   "nativeRange": {
-    "regions": ["East Africa", "Great Rift Valley"],
-    "countries": ["Burundi", "Democratic Republic of Congo", "Tanzania"],
+    "regions": [
+      "East Africa",
+      "Great Rift Valley"
+    ],
+    "countries": [
+      "Burundi",
+      "Democratic Republic of Congo",
+      "Tanzania"
+    ],
     "habitat": "Rocky shoreline of northern Lake Tanganyika; hugs cave walls and crevices in the littoral zone",
     "biotope": "Rift Lake",
-    "depthRangeM": { "min": 3, "max": 30 }
+    "depthRangeM": {
+      "min": 3,
+      "max": 30
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 27 },
-    "pH": { "min": 8.0, "max": 9.0 },
-    "gH": { "min": 9, "max": 25 },
-    "kH": { "min": 8, "max": 20 },
+    "temperatureC": {
+      "min": 23,
+      "max": 27
+    },
+    "pH": {
+      "min": 8,
+      "max": 9
+    },
+    "gH": {
+      "min": 9,
+      "max": 25
+    },
+    "kH": {
+      "min": 8,
+      "max": 20
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 7, "max": 10 },
-  "lifespanYears": { "min": 5, "max": 8 },
+  "adultSizeCm": {
+    "min": 7,
+    "max": 10
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 8
+  },
   "tank": {
     "minVolumeLiters": 150,
     "minLengthCm": 120,
@@ -119,7 +153,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

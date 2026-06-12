@@ -16,21 +16,48 @@
     "order": "Cichliformes"
   },
   "nativeRange": {
-    "regions": ["Africa", "East Africa"],
-    "countries": ["Malawi", "Mozambique"],
+    "regions": [
+      "Africa",
+      "East Africa"
+    ],
+    "countries": [
+      "Malawi",
+      "Mozambique"
+    ],
     "habitat": "Shallow rocky littoral zone; endemic to Boadzulu, Chinyankwazi, and Chinyamwezi Islands in the southeastern arm of Lake Malawi. Inhabits surge-washed boulder fields and rocky reefs in clear, hard, alkaline water.",
     "biotope": "Lake Malawi rocky littoral (mbuna zone)",
-    "depthRangeM": { "min": 1, "max": 15 }
+    "depthRangeM": {
+      "min": 1,
+      "max": 15
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 25, "max": 29 },
-    "pH": { "min": 7.5, "max": 8.8 },
-    "gH": { "min": 10, "max": 25 },
-    "kH": { "min": 6, "max": 18 },
+    "temperatureC": {
+      "min": 25,
+      "max": 29
+    },
+    "pH": {
+      "min": 7.5,
+      "max": 8.8
+    },
+    "gH": {
+      "min": 10,
+      "max": 25
+    },
+    "kH": {
+      "min": 6,
+      "max": 18
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 7.5, "max": 10.8 },
-  "lifespanYears": { "min": 5, "max": 10 },
+  "adultSizeCm": {
+    "min": 7.5,
+    "max": 10.8
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 10
+  },
   "tank": {
     "minVolumeLiters": 120,
     "minLengthCm": 90,
@@ -136,7 +163,9 @@
     "mouthbrooder": true,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

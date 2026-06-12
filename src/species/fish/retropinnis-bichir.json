@@ -16,7 +16,10 @@
     "order": "Polypteriformes"
   },
   "nativeRange": {
-    "regions": ["Central Africa", "West Africa"],
+    "regions": [
+      "Central Africa",
+      "West Africa"
+    ],
     "countries": [
       "Democratic Republic of Congo",
       "Republic of Congo",
@@ -32,17 +35,35 @@
     ],
     "habitat": "Marshes, swamps, flooded zones, and small slow-moving rivers; bottom-dwelling demersal species that favours shallow, heavily vegetated or debris-strewn areas",
     "biotope": "Congo Basin / West African lowland swamp",
-    "depthRangeM": { "min": 0, "max": 2 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 2
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 25, "max": 28 },
-    "pH": { "min": 6.0, "max": 8.0 },
-    "gH": { "min": 5, "max": 25 },
+    "temperatureC": {
+      "min": 25,
+      "max": 28
+    },
+    "pH": {
+      "min": 6,
+      "max": 8
+    },
+    "gH": {
+      "min": 5,
+      "max": 25
+    },
     "kH": null,
     "salinity": null
   },
-  "adultSizeCm": { "min": 28.0, "max": 35.0 },
-  "lifespanYears": { "min": 10, "max": 15 },
+  "adultSizeCm": {
+    "min": 28,
+    "max": 35
+  },
+  "lifespanYears": {
+    "min": 10,
+    "max": 15
+  },
   "tank": {
     "minVolumeLiters": 200,
     "minLengthCm": 120,
@@ -136,7 +157,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

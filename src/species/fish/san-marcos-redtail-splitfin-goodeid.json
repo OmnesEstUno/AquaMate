@@ -16,21 +16,46 @@
     "order": "Cyprinodontiformes"
   },
   "nativeRange": {
-    "regions": ["Central America"],
-    "countries": ["Mexico"],
+    "regions": [
+      "Central America"
+    ],
+    "countries": [
+      "Mexico"
+    ],
     "habitat": "Permanent ponds, springs, reservoirs, and seasonal streams in the endorheic drainage of the Etzatlán region, Jalisco; turbid and shallow water no more than 1.5 m deep with muddy or gravel substrates; also clear-water habitats with aquatic vegetation",
     "biotope": "Endorheic highland spring",
-    "depthRangeM": { "min": 0, "max": 1.5 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 1.5
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 17, "max": 25 },
-    "pH": { "min": 7.0, "max": 8.2 },
-    "gH": { "min": 10, "max": 20 },
-    "kH": { "min": 4, "max": 12 },
+    "temperatureC": {
+      "min": 17,
+      "max": 25
+    },
+    "pH": {
+      "min": 7,
+      "max": 8.2
+    },
+    "gH": {
+      "min": 10,
+      "max": 20
+    },
+    "kH": {
+      "min": 4,
+      "max": 12
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 3.7, "max": 5.0 },
-  "lifespanYears": { "min": 3, "max": 5 },
+  "adultSizeCm": {
+    "min": 3.7,
+    "max": 5
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 55,
     "minLengthCm": 60,
@@ -142,7 +167,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

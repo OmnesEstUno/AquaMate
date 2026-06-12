@@ -17,21 +17,46 @@
     "order": "Cichliformes"
   },
   "nativeRange": {
-    "regions": ["Central America"],
-    "countries": ["Nicaragua"],
+    "regions": [
+      "Central America"
+    ],
+    "countries": [
+      "Nicaragua"
+    ],
     "habitat": "Deep rocky lakeshores and open water of large rift lakes; found along boulder- and rock-strewn shorelines and deeper benthic zones of Lake Managua and Lake Nicaragua",
     "biotope": "Central American Great Lake",
-    "depthRangeM": { "min": 0, "max": 15 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 15
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 28 },
-    "pH": { "min": 7.0, "max": 8.0 },
-    "gH": { "min": 10, "max": 20 },
-    "kH": { "min": 6, "max": 15 },
+    "temperatureC": {
+      "min": 24,
+      "max": 28
+    },
+    "pH": {
+      "min": 7,
+      "max": 8
+    },
+    "gH": {
+      "min": 10,
+      "max": 20
+    },
+    "kH": {
+      "min": 6,
+      "max": 15
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 30, "max": 38 },
-  "lifespanYears": { "min": 10, "max": 12 },
+  "adultSizeCm": {
+    "min": 30,
+    "max": 38
+  },
+  "lifespanYears": {
+    "min": 10,
+    "max": 12
+  },
   "tank": {
     "minVolumeLiters": 500,
     "minLengthCm": 180,
@@ -146,7 +171,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

@@ -17,21 +17,46 @@
     "order": "Siluriformes"
   },
   "nativeRange": {
-    "regions": ["South America"],
-    "countries": ["Brazil"],
+    "regions": [
+      "South America"
+    ],
+    "countries": [
+      "Brazil"
+    ],
     "habitat": "Shallow, fast-flowing blackwater streams and rivers with rocky substrates, submerged driftwood, and leaf litter; often found sheltering in crevices and under logs in low-light conditions",
     "biotope": "Blackwater / Rio Negro",
-    "depthRangeM": { "min": 0, "max": 5 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 5
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 29 },
-    "pH": { "min": 5.5, "max": 7.5 },
-    "gH": { "min": 2, "max": 20 },
-    "kH": { "min": 1, "max": 10 },
+    "temperatureC": {
+      "min": 22,
+      "max": 29
+    },
+    "pH": {
+      "min": 5.5,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 2,
+      "max": 20
+    },
+    "kH": {
+      "min": 1,
+      "max": 10
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 10.0, "max": 15.0 },
-  "lifespanYears": { "min": 5, "max": 12 },
+  "adultSizeCm": {
+    "min": 10,
+    "max": 15
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 12
+  },
   "tank": {
     "minVolumeLiters": 110,
     "minLengthCm": 90,
@@ -156,7 +181,9 @@
     "mouthbrooder": false,
     "constantGrazer": true,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

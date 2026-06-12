@@ -15,21 +15,53 @@
     "order": "Gobiiformes"
   },
   "nativeRange": {
-    "regions": ["Southeast Asia"],
-    "countries": ["Indonesia", "Malaysia", "Brunei", "Singapore", "Thailand"],
+    "regions": [
+      "Southeast Asia"
+    ],
+    "countries": [
+      "Indonesia",
+      "Malaysia",
+      "Brunei",
+      "Singapore",
+      "Thailand"
+    ],
     "habitat": "Estuaries, tidal rivers, mangrove swamps, and coastal brackish streams; demersal, typically found in shallow, slow-moving or still water with soft substrate and abundant cover",
     "biotope": "Brackish estuary/mangrove",
-    "depthRangeM": { "min": 0, "max": 2 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 2
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 28 },
-    "pH": { "min": 7.0, "max": 8.5 },
-    "gH": { "min": 9, "max": 19 },
-    "kH": { "min": 4, "max": 12 },
-    "salinity": { "min": 1.002, "max": 1.006 }
+    "temperatureC": {
+      "min": 22,
+      "max": 28
+    },
+    "pH": {
+      "min": 7,
+      "max": 8.5
+    },
+    "gH": {
+      "min": 9,
+      "max": 19
+    },
+    "kH": {
+      "min": 4,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.002,
+      "max": 1.006
+    }
   },
-  "adultSizeCm": { "min": 3.0, "max": 4.2 },
-  "lifespanYears": { "min": 3, "max": 5 },
+  "adultSizeCm": {
+    "min": 3,
+    "max": 4.2
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 40,
     "minLengthCm": 45,
@@ -141,7 +173,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": true
+    "euryhaline": true,
+    "eatsPlantsRisk": null,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

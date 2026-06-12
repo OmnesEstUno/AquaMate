@@ -15,21 +15,49 @@
     "order": "Cichliformes"
   },
   "nativeRange": {
-    "regions": ["Africa", "East Africa"],
-    "countries": ["Democratic Republic of the Congo", "Tanzania", "Zambia"],
+    "regions": [
+      "Africa",
+      "East Africa"
+    ],
+    "countries": [
+      "Democratic Republic of the Congo",
+      "Tanzania",
+      "Zambia"
+    ],
     "habitat": "Rocky littoral zone of Lake Tanganyika; inhabits crevices, caves, and the spaces between piled boulders along the lake's steep rocky coastline",
     "biotope": "Lake Tanganyika rocky littoral",
-    "depthRangeM": { "min": 2, "max": 40 }
+    "depthRangeM": {
+      "min": 2,
+      "max": 40
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 27 },
-    "pH": { "min": 8.0, "max": 9.0 },
-    "gH": { "min": 10, "max": 20 },
-    "kH": { "min": 8, "max": 18 },
+    "temperatureC": {
+      "min": 24,
+      "max": 27
+    },
+    "pH": {
+      "min": 8,
+      "max": 9
+    },
+    "gH": {
+      "min": 10,
+      "max": 20
+    },
+    "kH": {
+      "min": 8,
+      "max": 18
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 8.0, "max": 11.0 },
-  "lifespanYears": { "min": 8, "max": 12 },
+  "adultSizeCm": {
+    "min": 8,
+    "max": 11
+  },
+  "lifespanYears": {
+    "min": 8,
+    "max": 12
+  },
   "tank": {
     "minVolumeLiters": 120,
     "minLengthCm": 90,
@@ -149,7 +177,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

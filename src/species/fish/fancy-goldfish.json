@@ -17,21 +17,44 @@
     "order": "Cypriniformes"
   },
   "nativeRange": {
-    "regions": ["East Asia"],
-    "countries": ["China", "Japan"],
+    "regions": [
+      "East Asia"
+    ],
+    "countries": [
+      "China",
+      "Japan"
+    ],
     "habitat": "Captive-bred selectively for centuries from wild-type Carassius auratus; commercially produced in China and Japan. Wild ancestor inhabits slow-moving rivers, ponds, lakes, and eutrophic freshwater.",
     "biotope": "Pond",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 18, "max": 23 },
-    "pH": { "min": 6.5, "max": 8.0 },
-    "gH": { "min": 5, "max": 25 },
-    "kH": { "min": 4, "max": 15 },
+    "temperatureC": {
+      "min": 18,
+      "max": 23
+    },
+    "pH": {
+      "min": 6.5,
+      "max": 8
+    },
+    "gH": {
+      "min": 5,
+      "max": 25
+    },
+    "kH": {
+      "min": 4,
+      "max": 15
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 10, "max": 20 },
-  "lifespanYears": { "min": 10, "max": 20 },
+  "adultSizeCm": {
+    "min": 10,
+    "max": 20
+  },
+  "lifespanYears": {
+    "min": 10,
+    "max": 20
+  },
   "tank": {
     "minVolumeLiters": 150,
     "minLengthCm": 90,
@@ -122,7 +145,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

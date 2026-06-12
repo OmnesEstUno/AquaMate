@@ -20,26 +20,64 @@
     "order": "Tetraodontiformes"
   },
   "nativeRange": {
-    "regions": ["Indo-Pacific"],
-    "countries": ["East Africa", "Indonesia", "Philippines", "Papua New Guinea", "Australia", "New Caledonia", "Tonga", "Hawaii (USA)", "Japan (Ryukyu Islands)", "Fiji"],
+    "regions": [
+      "Indo-Pacific"
+    ],
+    "countries": [
+      "East Africa",
+      "Indonesia",
+      "Philippines",
+      "Papua New Guinea",
+      "Australia",
+      "New Caledonia",
+      "Tonga",
+      "Hawaii (USA)",
+      "Japan (Ryukyu Islands)",
+      "Fiji"
+    ],
     "habitat": "Sheltered rocky reefs, intertidal reef flats, lagoon and seaward reefs; tends to occur around coral or over barren areas",
     "biotope": "Tropical Indo-Pacific coral reef",
-    "depthRangeM": { "min": 10, "max": 36 }
+    "depthRangeM": {
+      "min": 10,
+      "max": 36
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 26 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 22,
+      "max": 26
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 10, "max": 12 },
-  "lifespanYears": { "min": 5, "max": 10 },
+  "adultSizeCm": {
+    "min": 10,
+    "max": 12
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 10
+  },
   "tank": {
     "minVolumeLiters": 250,
     "minLengthCm": 120,
     "swimZone": "all",
-    "decorPreferences": ["live rock with crevices", "open swimming space", "rocky overhangs for shelter"],
+    "decorPreferences": [
+      "live rock with crevices",
+      "open swimming space",
+      "rocky overhangs for shelter"
+    ],
     "minSandDepthCm": null
   },
   "careLevel": "intermediate",
@@ -51,8 +89,21 @@
     "temperament": "semi-aggressive",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["robust similar-sized peaceful tankmates", "tangs", "wrasses", "larger gobies"],
-    "avoidWith": ["other puffers", "conspecifics", "small ornamental shrimp", "snails", "hermit crabs", "ornamental corals (LPS and soft especially)", "feather dusters"]
+    "goodWith": [
+      "robust similar-sized peaceful tankmates",
+      "tangs",
+      "wrasses",
+      "larger gobies"
+    ],
+    "avoidWith": [
+      "other puffers",
+      "conspecifics",
+      "small ornamental shrimp",
+      "snails",
+      "hermit crabs",
+      "ornamental corals (LPS and soft especially)",
+      "feather dusters"
+    ]
   },
   "media": {
     "primaryImage": "blue_spotted_puffer.jpg",
@@ -113,7 +164,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": null,
+    "obligateCorallivore": false
   },
   "crustacean": null,
   "coral": null,

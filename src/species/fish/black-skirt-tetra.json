@@ -6,68 +6,105 @@
   "waterType": "freshwater",
   "commonName": "Black Skirt Tetra",
   "scientificName": "Gymnocorymbus ternetzi",
-  "alsoKnownAs": ["Black Widow Tetra", "Petticoat Tetra", "Blackskirt Tetra"],
+  "alsoKnownAs": [
+    "Black Widow Tetra",
+    "Petticoat Tetra",
+    "Blackskirt Tetra"
+  ],
   "category": "Tetra",
-
   "taxonomy": {
     "family": "Characidae",
     "order": "Characiformes"
   },
-
   "nativeRange": {
-    "regions": ["South America"],
-    "countries": ["Brazil", "Bolivia", "Paraguay", "Argentina"],
+    "regions": [
+      "South America"
+    ],
+    "countries": [
+      "Brazil",
+      "Bolivia",
+      "Paraguay",
+      "Argentina"
+    ],
     "habitat": "Small, slow-moving streams, creeks, and tributaries with dense overhanging and marginal vegetation; found in middle and upper water layers",
     "biotope": "Blackwater",
     "depthRangeM": null
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 21, "max": 27 },
-    "pH":           { "min": 6.0, "max": 7.5 },
-    "gH":           { "min": 5, "max": 20 },
-    "kH":           { "min": 2, "max": 15 },
-    "salinity":     null
+    "temperatureC": {
+      "min": 21,
+      "max": 27
+    },
+    "pH": {
+      "min": 6,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 5,
+      "max": 20
+    },
+    "kH": {
+      "min": 2,
+      "max": 15
+    },
+    "salinity": null
   },
-
-  "adultSizeCm":   { "min": 5, "max": 6 },
-  "lifespanYears": { "min": 3, "max": 5 },
-
+  "adultSizeCm": {
+    "min": 5,
+    "max": 6
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 75,
     "minLengthCm": 60,
     "swimZone": "mid",
-    "decorPreferences": ["dense planted areas", "floating vegetation", "open swimming space", "driftwood", "dim lighting enhances natural coloration"],
+    "decorPreferences": [
+      "dense planted areas",
+      "floating vegetation",
+      "open swimming space",
+      "driftwood",
+      "dim lighting enhances natural coloration"
+    ],
     "minSandDepthCm": null
   },
-
   "careLevel": "beginner",
-
   "diet": {
     "type": "omnivore",
     "notes": "Readily accepts high-quality flakes and micro pellets; benefits from regular supplements of frozen or live foods such as daphnia, bloodworms, and brine shrimp. Has been documented nibbling on algae occasionally."
   },
-
   "compatibility": {
     "temperament": "semi-aggressive",
     "grouping": "schooling",
     "minGroupSize": 6,
-    "goodWith": ["Cardinal Tetra", "Neon Tetra", "Black Neon Tetra", "Corydoras", "Danios", "Rasboras", "Dwarf Cichlids", "Bolivian Rams", "Dwarf Gouramis"],
-    "avoidWith": ["Angelfish", "Betta Fish", "other long-finned species", "long-finned variants of their own species"]
+    "goodWith": [
+      "Cardinal Tetra",
+      "Neon Tetra",
+      "Black Neon Tetra",
+      "Corydoras",
+      "Danios",
+      "Rasboras",
+      "Dwarf Cichlids",
+      "Bolivian Rams",
+      "Dwarf Gouramis"
+    ],
+    "avoidWith": [
+      "Angelfish",
+      "Betta Fish",
+      "other long-finned species",
+      "long-finned variants of their own species"
+    ]
   },
-
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
+    "primaryImage": null,
+    "gallery": [],
     "imageCandidates": null
   },
-
   "summary": "A hardy, iconic schooling tetra with a distinctive black \"skirt\" anal fin, well-suited for community aquariums. Generally recommended for beginners, though it tends to nip the fins of long-finned tankmates.",
-
   "careNotes": "Best kept in groups of 6 or more; smaller groups tend to increase fin-nipping behavior. Known fin-nipper — avoid housing with Angelfish, Betta Fish, and other long-finned species, including long-fin tetra variants. Juvenile coloration (bold black bands) tends to fade as fish mature; stress can also accelerate color loss. A covered aquarium is advisable as these fish can be energetic jumpers.\n\nGenetically modified fluorescent (GloFish) variants are commercially available in the US in red, green, blue, and orange — these share the same care requirements as wild-type. A selectively-bred long-fin variety also exists and is itself vulnerable to fin-nipping from wild-type conspecifics.\n\nTemperature note: SeriouslyFish and FishBase agree on a 20–26°C range; Fishkeeping World extends this to ~29°C. The range 21–27°C reflects a consensus average and is appropriate for most community setups. Some sources list care level as moderate due to water-quality sensitivity; captive-bred stock is generally considered beginner-friendly.",
-
   "breedingNotes": "Egg scatterer; spawning has been reported relatively easy to trigger in a separate breeding tank (approx. 40–75 L) with fine-leaved plants or a spawning mop, slightly elevated temperature (26–29°C), and soft, slightly acidic water. Females can produce several hundred eggs per spawn. Parents have been known to eat eggs and fry, so removing adults after spawning is advised. Eggs typically hatch within 24–36 hours; fry are free-swimming within a few days and accept infusoria or commercial fry food.",
-
   "sources": {
     "primary": {
       "name": "SeriouslyFish",
@@ -90,7 +127,6 @@
       }
     ]
   },
-
   "fish": {
     "breedingDifficulty": "moderate",
     "breedingNotes": "Egg scatterer; relatively straightforward in a dedicated spawning tank. Parents eat eggs/fry — remove adults after spawning.",
@@ -115,17 +151,17 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
-
-  "crustacean":   null,
-  "coral":        null,
-  "mollusc":      null,
-  "echinoderm":   null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
   "other-invert": null,
-  "plant":        null,
-  "macroalgae":   null,
-
+  "plant": null,
+  "macroalgae": null,
   "schemaVersion": 1,
   "dataStatus": "researched",
   "lastReviewed": "2026-06-08"

@@ -6,33 +6,69 @@
   "waterType": "freshwater",
   "commonName": "Black Arowana",
   "scientificName": "Osteoglossum ferreirai",
-  "alsoKnownAs": ["Black Arawana", "Blue Arowana", "Black/Blue Arowana"],
+  "alsoKnownAs": [
+    "Black Arawana",
+    "Blue Arowana",
+    "Black/Blue Arowana"
+  ],
   "category": "Oddball",
   "taxonomy": {
     "family": "Osteoglossidae",
     "order": "Osteoglossiformes"
   },
   "nativeRange": {
-    "regions": ["South America"],
-    "countries": ["Brazil"],
+    "regions": [
+      "South America"
+    ],
+    "countries": [
+      "Brazil"
+    ],
     "habitat": "Blackwater flooded forests, slow-moving tannin-stained rivers and floodplains with very soft, acidic water; surface-oriented predator near overhanging vegetation",
     "biotope": "Blackwater",
-    "depthRangeM": { "min": 0, "max": 5 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 5
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 29 },
-    "pH": { "min": 4.5, "max": 6.5 },
-    "gH": { "min": 0, "max": 8 },
-    "kH": { "min": 0, "max": 3 },
+    "temperatureC": {
+      "min": 24,
+      "max": 29
+    },
+    "pH": {
+      "min": 4.5,
+      "max": 6.5
+    },
+    "gH": {
+      "min": 0,
+      "max": 8
+    },
+    "kH": {
+      "min": 0,
+      "max": 3
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 70, "max": 100 },
-  "lifespanYears": { "min": 10, "max": 20 },
+  "adultSizeCm": {
+    "min": 70,
+    "max": 100
+  },
+  "lifespanYears": {
+    "min": 10,
+    "max": 20
+  },
   "tank": {
     "minVolumeLiters": 2000,
     "minLengthCm": 270,
     "swimZone": "top",
-    "decorPreferences": ["open surface swimming space", "long tank footprint prioritized over depth", "tight-fitting heavy cover essential — no gaps", "driftwood and leaf litter to replicate blackwater biotope", "dim lighting or floating plants to diffuse light", "peat or blackwater extract filtration recommended"],
+    "decorPreferences": [
+      "open surface swimming space",
+      "long tank footprint prioritized over depth",
+      "tight-fitting heavy cover essential — no gaps",
+      "driftwood and leaf litter to replicate blackwater biotope",
+      "dim lighting or floating plants to diffuse light",
+      "peat or blackwater extract filtration recommended"
+    ],
     "minSandDepthCm": null
   },
   "careLevel": "advanced",
@@ -44,8 +80,20 @@
     "temperament": "aggressive",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["large armored catfish", "large plecos", "large Cichla species", "pacus", "bichirs"],
-    "avoidWith": ["any fish under ~30cm", "shrimp", "snails", "other arowanas", "surface-dwelling fish competing for the same zone"]
+    "goodWith": [
+      "large armored catfish",
+      "large plecos",
+      "large Cichla species",
+      "pacus",
+      "bichirs"
+    ],
+    "avoidWith": [
+      "any fish under ~30cm",
+      "shrimp",
+      "snails",
+      "other arowanas",
+      "surface-dwelling fish competing for the same zone"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -107,7 +155,9 @@
     "mouthbrooder": true,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

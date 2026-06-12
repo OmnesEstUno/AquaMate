@@ -6,33 +6,66 @@
   "waterType": "freshwater",
   "commonName": "Variatus Platy",
   "scientificName": "Xiphophorus variatus",
-  "alsoKnownAs": ["Variable Platy", "Variegated Platy", "Sunset Platy", "Variatus"],
+  "alsoKnownAs": [
+    "Variable Platy",
+    "Variegated Platy",
+    "Sunset Platy",
+    "Variatus"
+  ],
   "category": "Livebearer",
   "taxonomy": {
     "family": "Poeciliidae",
     "order": "Cyprinodontiformes"
   },
   "nativeRange": {
-    "regions": ["Central America", "North America"],
-    "countries": ["Mexico"],
+    "regions": [
+      "Central America",
+      "North America"
+    ],
+    "countries": [
+      "Mexico"
+    ],
     "habitat": "Warm springs, weedy canals, ditches, slow-moving lowland streams from southern Tamaulipas to northern Veracruz on the Atlantic slope",
     "biotope": "Stream",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 18, "max": 26 },
-    "pH": { "min": 7.0, "max": 8.2 },
-    "gH": { "min": 10, "max": 25 },
-    "kH": { "min": 6, "max": 15 },
+    "temperatureC": {
+      "min": 18,
+      "max": 26
+    },
+    "pH": {
+      "min": 7,
+      "max": 8.2
+    },
+    "gH": {
+      "min": 10,
+      "max": 25
+    },
+    "kH": {
+      "min": 6,
+      "max": 15
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 5, "max": 7 },
-  "lifespanYears": { "min": 3, "max": 5 },
+  "adultSizeCm": {
+    "min": 5,
+    "max": 7
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 75,
     "minLengthCm": 60,
     "swimZone": "mid",
-    "decorPreferences": ["dense planting", "floating plants", "open swimming space", "fine-leaved vegetation"],
+    "decorPreferences": [
+      "dense planting",
+      "floating plants",
+      "open swimming space",
+      "fine-leaved vegetation"
+    ],
     "minSandDepthCm": null
   },
   "careLevel": "beginner",
@@ -44,8 +77,21 @@
     "temperament": "peaceful",
     "grouping": "shoaling",
     "minGroupSize": 3,
-    "goodWith": ["tetras", "rasboras", "corydoras", "danios", "small livebearers", "peaceful dwarf cichlids", "freshwater snails", "freshwater shrimp (caution with fry)"],
-    "avoidWith": ["fin nippers", "large aggressive cichlids", "large predatory fish"]
+    "goodWith": [
+      "tetras",
+      "rasboras",
+      "corydoras",
+      "danios",
+      "small livebearers",
+      "peaceful dwarf cichlids",
+      "freshwater snails",
+      "freshwater shrimp (caution with fry)"
+    ],
+    "avoidWith": [
+      "fin nippers",
+      "large aggressive cichlids",
+      "large predatory fish"
+    ]
   },
   "media": {
     "primaryImage": "variatus_platy.jpg",
@@ -107,7 +153,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

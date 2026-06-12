@@ -17,21 +17,46 @@
     "order": "Perciformes"
   },
   "nativeRange": {
-    "regions": ["West Africa"],
-    "countries": ["Nigeria"],
+    "regions": [
+      "West Africa"
+    ],
+    "countries": [
+      "Nigeria"
+    ],
     "habitat": "Slow-moving rainforest streams and tributaries with sandy or fine-gravel substrates, leaf litter, submerged roots, and overhanging vegetation; typically soft, slightly acidic, tannin-stained water",
     "biotope": "West African rainforest stream",
-    "depthRangeM": { "min": 0, "max": 2 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 2
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 28 },
-    "pH": { "min": 6.0, "max": 7.5 },
-    "gH": { "min": 2, "max": 15 },
-    "kH": { "min": 1, "max": 8 },
+    "temperatureC": {
+      "min": 24,
+      "max": 28
+    },
+    "pH": {
+      "min": 6,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 2,
+      "max": 15
+    },
+    "kH": {
+      "min": 1,
+      "max": 8
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 8.0, "max": 13.0 },
-  "lifespanYears": { "min": 4, "max": 8 },
+  "adultSizeCm": {
+    "min": 8,
+    "max": 13
+  },
+  "lifespanYears": {
+    "min": 4,
+    "max": 8
+  },
   "tank": {
     "minVolumeLiters": 120,
     "minLengthCm": 100,
@@ -155,7 +180,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

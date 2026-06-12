@@ -18,21 +18,50 @@
     "order": "Tetraodontiformes"
   },
   "nativeRange": {
-    "regions": ["Southeast Asia", "Mekong Basin"],
-    "countries": ["Thailand", "Cambodia", "Vietnam", "Laos"],
+    "regions": [
+      "Southeast Asia",
+      "Mekong Basin"
+    ],
+    "countries": [
+      "Thailand",
+      "Cambodia",
+      "Vietnam",
+      "Laos"
+    ],
     "habitat": "Large rivers and their tributaries; mid-water column in open flowing water over sandy or rocky substrates; also found in flooded areas during wet season",
     "biotope": "Mekong river system — large tropical rivers with moderate to strong current, clear to slightly turbid water, sandy and rocky substrates",
-    "depthRangeM": { "min": 0.5, "max": 10 }
+    "depthRangeM": {
+      "min": 0.5,
+      "max": 10
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 28 },
-    "pH": { "min": 6.5, "max": 7.5 },
-    "gH": { "min": 5, "max": 15 },
-    "kH": { "min": 2, "max": 10 },
+    "temperatureC": {
+      "min": 24,
+      "max": 28
+    },
+    "pH": {
+      "min": 6.5,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 5,
+      "max": 15
+    },
+    "kH": {
+      "min": 2,
+      "max": 10
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 10.0, "max": 15.0 },
-  "lifespanYears": { "min": 5, "max": 10 },
+  "adultSizeCm": {
+    "min": 10,
+    "max": 15
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 10
+  },
   "tank": {
     "minVolumeLiters": 500,
     "minLengthCm": 150,
@@ -152,7 +181,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

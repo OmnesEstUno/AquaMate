@@ -6,27 +6,55 @@
   "waterType": "freshwater",
   "commonName": "Croaking Gourami",
   "scientificName": "Trichopsis vittata",
-  "alsoKnownAs": ["Croaking Gourami"],
+  "alsoKnownAs": [
+    "Croaking Gourami"
+  ],
   "category": "Gourami",
   "taxonomy": {
     "family": "Osphronemidae",
     "order": "Anabantiformes"
   },
   "nativeRange": {
-    "regions": ["Southeast Asia"],
-    "countries": ["Thailand", "Vietnam", "Cambodia", "Laos", "Myanmar", "Malaysia", "Singapore", "Indonesia"],
+    "regions": [
+      "Southeast Asia"
+    ],
+    "countries": [
+      "Thailand",
+      "Vietnam",
+      "Cambodia",
+      "Laos",
+      "Myanmar",
+      "Malaysia",
+      "Singapore",
+      "Indonesia"
+    ],
     "habitat": "Shallow, still to slow-moving lowland waters including swamp forest, peat swamps, floodplains, rice paddies, irrigation canals, and roadside ditches with dense aquatic vegetation",
     "biotope": "Blackwater",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 28 },
-    "pH": { "min": 6.0, "max": 7.5 },
-    "gH": { "min": 5, "max": 19 },
-    "kH": { "min": 4, "max": 15 },
+    "temperatureC": {
+      "min": 22,
+      "max": 28
+    },
+    "pH": {
+      "min": 6,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 5,
+      "max": 19
+    },
+    "kH": {
+      "min": 4,
+      "max": 15
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 5.0, "max": 7.0 },
+  "adultSizeCm": {
+    "min": 5,
+    "max": 7
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 75,
@@ -112,7 +140,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

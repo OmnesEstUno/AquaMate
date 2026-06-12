@@ -16,21 +16,46 @@
     "order": "Characiformes"
   },
   "nativeRange": {
-    "regions": ["South America"],
-    "countries": ["Colombia"],
+    "regions": [
+      "South America"
+    ],
+    "countries": [
+      "Colombia"
+    ],
     "habitat": "Small, isolated forest pools and slow-moving tributary streams in the Río Calima headwaters; soft, tannin-stained blackwater with dense riparian vegetation and leaf litter",
     "biotope": "Blackwater stream",
-    "depthRangeM": { "min": 0, "max": 1 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 1
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 28 },
-    "pH": { "min": 5.0, "max": 7.2 },
-    "gH": { "min": 1, "max": 12 },
-    "kH": { "min": 0, "max": 4 },
+    "temperatureC": {
+      "min": 22,
+      "max": 28
+    },
+    "pH": {
+      "min": 5,
+      "max": 7.2
+    },
+    "gH": {
+      "min": 1,
+      "max": 12
+    },
+    "kH": {
+      "min": 0,
+      "max": 4
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 3.5, "max": 4.5 },
-  "lifespanYears": { "min": 3, "max": 6 },
+  "adultSizeCm": {
+    "min": 3.5,
+    "max": 4.5
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 6
+  },
   "tank": {
     "minVolumeLiters": 80,
     "minLengthCm": 80,
@@ -144,7 +169,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

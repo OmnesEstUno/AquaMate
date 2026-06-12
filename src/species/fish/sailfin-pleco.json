@@ -17,21 +17,49 @@
     "order": "Siluriformes"
   },
   "nativeRange": {
-    "regions": ["South America"],
-    "countries": ["Brazil", "Peru", "Bolivia", "Colombia"],
+    "regions": [
+      "South America"
+    ],
+    "countries": [
+      "Brazil",
+      "Peru",
+      "Bolivia",
+      "Colombia"
+    ],
     "habitat": "Large river systems with fast-flowing, well-oxygenated water; found over rocky or sandy substrates with large driftwood and submerged root systems; also occurs in floodplain lakes during high-water season",
     "biotope": "Amazon and Orinoco river basins",
-    "depthRangeM": { "min": 0, "max": 10 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 10
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 30 },
-    "pH": { "min": 6.0, "max": 7.5 },
-    "gH": { "min": 2, "max": 20 },
-    "kH": { "min": 1, "max": 10 },
+    "temperatureC": {
+      "min": 23,
+      "max": 30
+    },
+    "pH": {
+      "min": 6,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 2,
+      "max": 20
+    },
+    "kH": {
+      "min": 1,
+      "max": 10
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 35.0, "max": 50.0 },
-  "lifespanYears": { "min": 10, "max": 20 },
+  "adultSizeCm": {
+    "min": 35,
+    "max": 50
+  },
+  "lifespanYears": {
+    "min": 10,
+    "max": 20
+  },
   "tank": {
     "minVolumeLiters": 500,
     "minLengthCm": 180,
@@ -154,7 +182,9 @@
     "mouthbrooder": false,
     "constantGrazer": true,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

@@ -6,33 +6,72 @@
   "waterType": "freshwater",
   "commonName": "Discus",
   "scientificName": "Symphysodon spp.",
-  "alsoKnownAs": ["King of the Aquarium", "King of the Freshwater Aquarium", "Brown Discus", "Blue Discus", "Green Discus", "Heckel Discus", "Red Discus"],
+  "alsoKnownAs": [
+    "King of the Aquarium",
+    "King of the Freshwater Aquarium",
+    "Brown Discus",
+    "Blue Discus",
+    "Green Discus",
+    "Heckel Discus",
+    "Red Discus"
+  ],
   "category": "Cichlid",
   "taxonomy": {
     "family": "Cichlidae",
     "order": "Cichliformes"
   },
   "nativeRange": {
-    "regions": ["South America"],
-    "countries": ["Brazil", "Colombia", "Peru"],
+    "regions": [
+      "South America"
+    ],
+    "countries": [
+      "Brazil",
+      "Colombia",
+      "Peru"
+    ],
     "habitat": "Slow-moving tributaries, flooded forest pools, and sheltered areas around submerged tree roots and rocks in the Amazon basin; blackwater environments with high tannin content and very low mineral content.",
     "biotope": "Blackwater",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 28, "max": 31 },
-    "pH": { "min": 5.5, "max": 7.0 },
-    "gH": { "min": 2, "max": 12 },
-    "kH": { "min": 2, "max": 8 },
+    "temperatureC": {
+      "min": 28,
+      "max": 31
+    },
+    "pH": {
+      "min": 5.5,
+      "max": 7
+    },
+    "gH": {
+      "min": 2,
+      "max": 12
+    },
+    "kH": {
+      "min": 2,
+      "max": 8
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 15, "max": 20 },
-  "lifespanYears": { "min": 10, "max": 15 },
+  "adultSizeCm": {
+    "min": 15,
+    "max": 20
+  },
+  "lifespanYears": {
+    "min": 10,
+    "max": 15
+  },
   "tank": {
     "minVolumeLiters": 300,
     "minLengthCm": 120,
     "swimZone": "mid",
-    "decorPreferences": ["driftwood", "dense planting", "dim lighting", "leaf litter", "tall plants for cover", "low flow"],
+    "decorPreferences": [
+      "driftwood",
+      "dense planting",
+      "dim lighting",
+      "leaf litter",
+      "tall plants for cover",
+      "low flow"
+    ],
     "minSandDepthCm": null
   },
   "careLevel": "advanced",
@@ -44,8 +83,22 @@
     "temperament": "peaceful",
     "grouping": "shoaling",
     "minGroupSize": 6,
-    "goodWith": ["Cardinal Tetra", "Sterbai Cory", "Bristlenose Pleco", "Rummy Nose Tetra", "German Blue Ram"],
-    "avoidWith": ["Angelfish", "fast/boisterous fish", "fin nippers (Tiger Barbs)", "African Cichlids", "Oscar", "Goldfish", "species with incompatible temperature requirements"]
+    "goodWith": [
+      "Cardinal Tetra",
+      "Sterbai Cory",
+      "Bristlenose Pleco",
+      "Rummy Nose Tetra",
+      "German Blue Ram"
+    ],
+    "avoidWith": [
+      "Angelfish",
+      "fast/boisterous fish",
+      "fin nippers (Tiger Barbs)",
+      "African Cichlids",
+      "Oscar",
+      "Goldfish",
+      "species with incompatible temperature requirements"
+    ]
   },
   "media": {
     "primaryImage": "discus.jpg",
@@ -107,7 +160,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

@@ -35,17 +35,38 @@
     ],
     "habitat": "Clear coastal to outer-reef habitats; adults are typically encountered along steep seaward drop-offs in open water, while juveniles shelter inside small caves on invertebrate-rich reef walls.",
     "biotope": "Reef",
-    "depthRangeM": { "min": 1, "max": 75 }
+    "depthRangeM": {
+      "min": 1,
+      "max": 75
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 27 },
-    "pH":           { "min": 8.1, "max": 8.4 },
-    "gH":           null,
-    "kH":           { "min": 8, "max": 12 },
-    "salinity":     { "min": 1.020, "max": 1.025 }
+    "temperatureC": {
+      "min": 23,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm":   { "min": 45, "max": 50 },
-  "lifespanYears": { "min": 8, "max": 20 },
+  "adultSizeCm": {
+    "min": 45,
+    "max": 50
+  },
+  "lifespanYears": {
+    "min": 8,
+    "max": 20
+  },
   "tank": {
     "minVolumeLiters": 1000,
     "minLengthCm": 180,
@@ -143,7 +164,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": null,
+    "obligateCorallivore": false
   },
   "crustacean": null,
   "coral": null,

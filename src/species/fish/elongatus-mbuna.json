@@ -15,21 +15,48 @@
     "order": "Cichliformes"
   },
   "nativeRange": {
-    "regions": ["East Africa", "African Rift Lakes"],
-    "countries": ["Malawi", "Mozambique"],
+    "regions": [
+      "East Africa",
+      "African Rift Lakes"
+    ],
+    "countries": [
+      "Malawi",
+      "Mozambique"
+    ],
     "habitat": "Rocky littoral zone of Lake Malawi; among boulders and rock piles with abundant aufwuchs algae growth; typically in areas with surge and strong water movement",
     "biotope": "African Great Lakes — rocky mbuna zone",
-    "depthRangeM": { "min": 3, "max": 20 }
+    "depthRangeM": {
+      "min": 3,
+      "max": 20
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 28 },
-    "pH": { "min": 7.5, "max": 8.8 },
-    "gH": { "min": 10, "max": 25 },
-    "kH": { "min": 10, "max": 20 },
+    "temperatureC": {
+      "min": 23,
+      "max": 28
+    },
+    "pH": {
+      "min": 7.5,
+      "max": 8.8
+    },
+    "gH": {
+      "min": 10,
+      "max": 25
+    },
+    "kH": {
+      "min": 10,
+      "max": 20
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 9.0, "max": 13.0 },
-  "lifespanYears": { "min": 5, "max": 10 },
+  "adultSizeCm": {
+    "min": 9,
+    "max": 13
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 10
+  },
   "tank": {
     "minVolumeLiters": 300,
     "minLengthCm": 150,
@@ -151,7 +178,9 @@
     "mouthbrooder": true,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

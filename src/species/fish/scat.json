@@ -16,21 +16,63 @@
     "order": "Perciformes"
   },
   "nativeRange": {
-    "regions": ["Indo-Pacific", "South Asia", "Southeast Asia", "Australia"],
-    "countries": ["India", "Sri Lanka", "Bangladesh", "Myanmar", "Thailand", "Malaysia", "Indonesia", "Philippines", "Papua New Guinea", "Australia", "Japan", "China"],
+    "regions": [
+      "Indo-Pacific",
+      "South Asia",
+      "Southeast Asia",
+      "Australia"
+    ],
+    "countries": [
+      "India",
+      "Sri Lanka",
+      "Bangladesh",
+      "Myanmar",
+      "Thailand",
+      "Malaysia",
+      "Indonesia",
+      "Philippines",
+      "Papua New Guinea",
+      "Australia",
+      "Japan",
+      "China"
+    ],
     "habitat": "Juveniles found in estuaries, mangrove creeks, tidal rivers, coastal freshwater lower reaches, and sewage-influenced canals; adults migrate to coastal reef flats, harbours, and open marine coastal waters",
     "biotope": "Estuary / Mangrove",
-    "depthRangeM": { "min": 0, "max": 15 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 15
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 28 },
-    "pH": { "min": 7.0, "max": 8.5 },
-    "gH": { "min": 10, "max": 25 },
-    "kH": { "min": 6, "max": 16 },
-    "salinity": { "min": 1.000, "max": 1.025 }
+    "temperatureC": {
+      "min": 22,
+      "max": 28
+    },
+    "pH": {
+      "min": 7,
+      "max": 8.5
+    },
+    "gH": {
+      "min": 10,
+      "max": 25
+    },
+    "kH": {
+      "min": 6,
+      "max": 16
+    },
+    "salinity": {
+      "min": 1,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 25.0, "max": 30.0 },
-  "lifespanYears": { "min": 8, "max": 15 },
+  "adultSizeCm": {
+    "min": 25,
+    "max": 30
+  },
+  "lifespanYears": {
+    "min": 8,
+    "max": 15
+  },
   "tank": {
     "minVolumeLiters": 380,
     "minLengthCm": 150,
@@ -152,7 +194,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": true
+    "euryhaline": true,
+    "eatsPlantsRisk": true,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

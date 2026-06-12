@@ -6,28 +6,60 @@
   "waterType": "freshwater",
   "commonName": "Umbrella Dwarf Cichlid",
   "scientificName": "Apistogramma borellii",
-  "alsoKnownAs": ["Borelli's Dwarf Cichlid", "Umbrella Cichlid", "Apistogramma reitzigi", "Opal Apistogramma", "Yellow Apistogramma"],
+  "alsoKnownAs": [
+    "Borelli's Dwarf Cichlid",
+    "Umbrella Cichlid",
+    "Apistogramma reitzigi",
+    "Opal Apistogramma",
+    "Yellow Apistogramma"
+  ],
   "category": "Cichlid",
   "taxonomy": {
     "family": "Cichlidae",
     "order": "Cichliformes"
   },
   "nativeRange": {
-    "regions": ["South America", "Paraná Basin"],
-    "countries": ["Paraguay", "Bolivia", "Argentina", "Brazil"],
+    "regions": [
+      "South America",
+      "Paraná Basin"
+    ],
+    "countries": [
+      "Paraguay",
+      "Bolivia",
+      "Argentina",
+      "Brazil"
+    ],
     "habitat": "Slow-moving creeks and tributaries in floodplain forests; typically over soft sandy substrate with leaf litter and submerged wood; cooler subtropical conditions compared to most Amazonian Apistogramma",
     "biotope": "River",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 20, "max": 26 },
-    "pH": { "min": 5.5, "max": 7.5 },
-    "gH": { "min": 2, "max": 15 },
-    "kH": { "min": 2, "max": 10 },
+    "temperatureC": {
+      "min": 20,
+      "max": 26
+    },
+    "pH": {
+      "min": 5.5,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 2,
+      "max": 15
+    },
+    "kH": {
+      "min": 2,
+      "max": 10
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 5.0, "max": 8.0 },
-  "lifespanYears": { "min": 3, "max": 5 },
+  "adultSizeCm": {
+    "min": 5,
+    "max": 8
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 75,
     "minLengthCm": 60,
@@ -121,7 +153,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

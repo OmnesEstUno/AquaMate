@@ -15,25 +15,61 @@
     "order": "Cypriniformes"
   },
   "nativeRange": {
-    "regions": ["Europe", "Asia"],
+    "regions": [
+      "Europe",
+      "Asia"
+    ],
     "countries": [
-      "United Kingdom", "Ireland", "France", "Germany", "Poland", "Russia",
-      "Sweden", "Netherlands", "Belgium", "Austria", "Czech Republic",
-      "Hungary", "Romania", "Ukraine", "Kazakhstan"
+      "United Kingdom",
+      "Ireland",
+      "France",
+      "Germany",
+      "Poland",
+      "Russia",
+      "Sweden",
+      "Netherlands",
+      "Belgium",
+      "Austria",
+      "Czech Republic",
+      "Hungary",
+      "Romania",
+      "Ukraine",
+      "Kazakhstan"
     ],
     "habitat": "Still and slow-moving freshwater: lakes, ponds, lowland rivers, backwaters, and oxbows; prefers clay or muddy substrate with dense aquatic vegetation; tolerates low dissolved oxygen and brackish margins",
     "biotope": "Lowland pond / still water",
-    "depthRangeM": { "min": 0, "max": 5 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 5
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 4, "max": 26 },
-    "pH": { "min": 6.5, "max": 8.0 },
-    "gH": { "min": 5, "max": 25 },
-    "kH": { "min": 3, "max": 15 },
+    "temperatureC": {
+      "min": 4,
+      "max": 26
+    },
+    "pH": {
+      "min": 6.5,
+      "max": 8
+    },
+    "gH": {
+      "min": 5,
+      "max": 25
+    },
+    "kH": {
+      "min": 3,
+      "max": 15
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 30, "max": 50 },
-  "lifespanYears": { "min": 15, "max": 25 },
+  "adultSizeCm": {
+    "min": 30,
+    "max": 50
+  },
+  "lifespanYears": {
+    "min": 15,
+    "max": 25
+  },
   "tank": {
     "minVolumeLiters": 2000,
     "minLengthCm": 300,
@@ -150,7 +186,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

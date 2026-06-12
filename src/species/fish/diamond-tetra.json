@@ -6,33 +6,66 @@
   "waterType": "freshwater",
   "commonName": "Diamond Tetra",
   "scientificName": "Makunaima pittieri",
-  "alsoKnownAs": ["Moenkhausia pittieri", "Diamond Characin", "Pittier's Tetra", "Brilliant Tetra"],
+  "alsoKnownAs": [
+    "Moenkhausia pittieri",
+    "Diamond Characin",
+    "Pittier's Tetra",
+    "Brilliant Tetra"
+  ],
   "category": "Tetra",
   "taxonomy": {
     "family": "Acestrorhamphidae",
     "order": "Characiformes"
   },
   "nativeRange": {
-    "regions": ["South America"],
-    "countries": ["Venezuela"],
+    "regions": [
+      "South America"
+    ],
+    "countries": [
+      "Venezuela"
+    ],
     "habitat": "Shallow, slow-moving waters with abundant vegetation and leaf litter; also tributary rivers including the Rio Tiquiritu and Rio Bue draining into Lake Valencia",
     "biotope": "Lake",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 28 },
-    "pH": { "min": 6.0, "max": 7.0 },
-    "gH": { "min": 4, "max": 12 },
-    "kH": { "min": 2, "max": 12 },
+    "temperatureC": {
+      "min": 22,
+      "max": 28
+    },
+    "pH": {
+      "min": 6,
+      "max": 7
+    },
+    "gH": {
+      "min": 4,
+      "max": 12
+    },
+    "kH": {
+      "min": 2,
+      "max": 12
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 5, "max": 6 },
-  "lifespanYears": { "min": 3, "max": 6 },
+  "adultSizeCm": {
+    "min": 5,
+    "max": 6
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 6
+  },
   "tank": {
     "minVolumeLiters": 100,
     "minLengthCm": 80,
     "swimZone": "mid",
-    "decorPreferences": ["dense planting", "floating plants for diffused lighting", "driftwood", "leaf litter", "open swimming space in the center"],
+    "decorPreferences": [
+      "dense planting",
+      "floating plants for diffused lighting",
+      "driftwood",
+      "leaf litter",
+      "open swimming space in the center"
+    ],
     "minSandDepthCm": null
   },
   "careLevel": "intermediate",
@@ -44,8 +77,22 @@
     "temperament": "peaceful",
     "grouping": "schooling",
     "minGroupSize": 6,
-    "goodWith": ["tetras", "rasboras", "danios", "livebearers", "Corydoras catfish", "dwarf cichlids", "gouramis", "peaceful bottom-dwellers", "small loricariids"],
-    "avoidWith": ["long-finned slow-swimming species", "large aggressive fish", "fin-heavy species like bettas or angelfish when understocked"]
+    "goodWith": [
+      "tetras",
+      "rasboras",
+      "danios",
+      "livebearers",
+      "Corydoras catfish",
+      "dwarf cichlids",
+      "gouramis",
+      "peaceful bottom-dwellers",
+      "small loricariids"
+    ],
+    "avoidWith": [
+      "long-finned slow-swimming species",
+      "large aggressive fish",
+      "fin-heavy species like bettas or angelfish when understocked"
+    ]
   },
   "media": {
     "primaryImage": "diamond_tetra.jpg",
@@ -101,7 +148,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

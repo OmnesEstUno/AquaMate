@@ -17,21 +17,49 @@
     "order": "Siluriformes"
   },
   "nativeRange": {
-    "regions": ["East Africa"],
-    "countries": ["Democratic Republic of Congo", "Tanzania", "Zambia", "Burundi"],
+    "regions": [
+      "East Africa"
+    ],
+    "countries": [
+      "Democratic Republic of Congo",
+      "Tanzania",
+      "Zambia",
+      "Burundi"
+    ],
     "habitat": "Rocky littoral and sub-littoral zones of Lake Tanganyika; shelters in crevices and caves among tumbled boulders and cobble at shallow to mid depths, typically 5–40 m",
     "biotope": "Lake Tanganyika rocky littoral",
-    "depthRangeM": { "min": 5, "max": 40 }
+    "depthRangeM": {
+      "min": 5,
+      "max": 40
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 27 },
-    "pH": { "min": 8.0, "max": 9.0 },
-    "gH": { "min": 10, "max": 20 },
-    "kH": { "min": 10, "max": 18 },
+    "temperatureC": {
+      "min": 23,
+      "max": 27
+    },
+    "pH": {
+      "min": 8,
+      "max": 9
+    },
+    "gH": {
+      "min": 10,
+      "max": 20
+    },
+    "kH": {
+      "min": 10,
+      "max": 18
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 10.0, "max": 14.0 },
-  "lifespanYears": { "min": 10, "max": 15 },
+  "adultSizeCm": {
+    "min": 10,
+    "max": 14
+  },
+  "lifespanYears": {
+    "min": 10,
+    "max": 15
+  },
   "tank": {
     "minVolumeLiters": 200,
     "minLengthCm": 120,
@@ -147,7 +175,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

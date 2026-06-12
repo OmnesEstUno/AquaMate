@@ -6,33 +6,67 @@
   "waterType": "freshwater",
   "commonName": "Giant Danio",
   "scientificName": "Devario aequipinnatus",
-  "alsoKnownAs": ["Malabar Danio", "Sind Danio"],
+  "alsoKnownAs": [
+    "Malabar Danio",
+    "Sind Danio"
+  ],
   "category": "Danio",
   "taxonomy": {
     "family": "Danionidae",
     "order": "Cypriniformes"
   },
   "nativeRange": {
-    "regions": ["South Asia", "Southeast Asia"],
-    "countries": ["India", "Sri Lanka", "Nepal", "Myanmar", "Bangladesh"],
+    "regions": [
+      "South Asia",
+      "Southeast Asia"
+    ],
+    "countries": [
+      "India",
+      "Sri Lanka",
+      "Nepal",
+      "Myanmar",
+      "Bangladesh"
+    ],
     "habitat": "Fast-flowing streams and rivers in hilly areas, typically at elevations up to 300 m; clear water with gravel or sandy substrate",
     "biotope": "Hillstream",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 26 },
-    "pH": { "min": 6.0, "max": 7.5 },
-    "gH": { "min": 5, "max": 19 },
-    "kH": { "min": 3, "max": 12 },
+    "temperatureC": {
+      "min": 22,
+      "max": 26
+    },
+    "pH": {
+      "min": 6,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 5,
+      "max": 19
+    },
+    "kH": {
+      "min": 3,
+      "max": 12
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 10, "max": 12 },
-  "lifespanYears": { "min": 5, "max": 7 },
+  "adultSizeCm": {
+    "min": 10,
+    "max": 12
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 7
+  },
   "tank": {
     "minVolumeLiters": 150,
     "minLengthCm": 120,
     "swimZone": "mid",
-    "decorPreferences": ["open swimming space", "some plants along edges", "moderate current"],
+    "decorPreferences": [
+      "open swimming space",
+      "some plants along edges",
+      "moderate current"
+    ],
     "minSandDepthCm": null
   },
   "careLevel": "beginner",
@@ -44,8 +78,19 @@
     "temperament": "semi-aggressive",
     "grouping": "schooling",
     "minGroupSize": 6,
-    "goodWith": ["medium barbs", "loaches", "rainbowfish", "medium cichlids", "corydoras catfish", "larger tetras"],
-    "avoidWith": ["small or timid fish", "slow-moving species", "long-finned fish (may nip)"]
+    "goodWith": [
+      "medium barbs",
+      "loaches",
+      "rainbowfish",
+      "medium cichlids",
+      "corydoras catfish",
+      "larger tetras"
+    ],
+    "avoidWith": [
+      "small or timid fish",
+      "slow-moving species",
+      "long-finned fish (may nip)"
+    ]
   },
   "media": {
     "primaryImage": "giant_danio.JPG",
@@ -107,7 +152,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

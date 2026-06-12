@@ -16,21 +16,46 @@
     "order": "Anabantiformes"
   },
   "nativeRange": {
-    "regions": ["South Asia"],
-    "countries": ["Sri Lanka"],
+    "regions": [
+      "South Asia"
+    ],
+    "countries": [
+      "Sri Lanka"
+    ],
     "habitat": "Shallow, slow-moving or stagnant freshwater — swamps, rice paddies, irrigation channels, seasonal pools, and small streams with dense aquatic and marginal vegetation; often in low-oxygen conditions where air-breathing is essential",
     "biotope": "Swamp / Rice paddy",
-    "depthRangeM": { "min": 0, "max": 0.5 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 0.5
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 28 },
-    "pH": { "min": 6.0, "max": 7.5 },
-    "gH": { "min": 2, "max": 12 },
-    "kH": { "min": 1, "max": 8 },
+    "temperatureC": {
+      "min": 22,
+      "max": 28
+    },
+    "pH": {
+      "min": 6,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 2,
+      "max": 12
+    },
+    "kH": {
+      "min": 1,
+      "max": 8
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 12.0, "max": 17.0 },
-  "lifespanYears": { "min": 5, "max": 8 },
+  "adultSizeCm": {
+    "min": 12,
+    "max": 17
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 8
+  },
   "tank": {
     "minVolumeLiters": 90,
     "minLengthCm": 90,
@@ -141,7 +166,9 @@
     "mouthbrooder": true,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

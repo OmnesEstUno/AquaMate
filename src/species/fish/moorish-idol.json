@@ -16,20 +16,41 @@
     "order": "Acanthuriformes"
   },
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Eastern Pacific"],
+    "regions": [
+      "Indo-Pacific",
+      "Eastern Pacific"
+    ],
     "countries": [],
     "habitat": "Turbid inner lagoons, reef flats, and clear seaward rocky and coral reefs; benthopelagic, typically observed in small groups of 2-3 but occasionally in larger schools.",
     "biotope": "Coral reef",
-    "depthRangeM": { "min": 3, "max": 182 }
+    "depthRangeM": {
+      "min": 3,
+      "max": 182
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 27 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 24,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.021, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.021,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 18, "max": 23 },
+  "adultSizeCm": {
+    "min": 18,
+    "max": 23
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 1500,
@@ -119,7 +140,9 @@
     "mouthbrooder": false,
     "constantGrazer": true,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": null,
+    "obligateCorallivore": false
   },
   "crustacean": null,
   "coral": null,

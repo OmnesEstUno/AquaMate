@@ -19,21 +19,49 @@
     "order": "Cichliformes"
   },
   "nativeRange": {
-    "regions": ["East Africa", "Lake Malawi"],
-    "countries": ["Malawi", "Tanzania", "Zambia"],
+    "regions": [
+      "East Africa",
+      "Lake Malawi"
+    ],
+    "countries": [
+      "Malawi",
+      "Tanzania",
+      "Zambia"
+    ],
     "habitat": "Endemic to Lake Malawi along the western shoreline (Nkhata Bay, Senga Bay, Ngara, Ruarwe, Bandawe, Karonga, South Rukuru River). Frequents the interface between rocky shorelines and sandy substrate, and is unusual among mbuna for grazing epixylic algae from submerged logs and waterlogged driftwood.",
     "biotope": "Lake Malawi rocky-sandy transition zone with scattered submerged wood",
-    "depthRangeM": { "min": 3, "max": 20 }
+    "depthRangeM": {
+      "min": 3,
+      "max": 20
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 28 },
-    "pH":           { "min": 7.6, "max": 8.6 },
-    "gH":           { "min": 10, "max": 25 },
-    "kH":           { "min": 10, "max": 20 },
-    "salinity":     null
+    "temperatureC": {
+      "min": 23,
+      "max": 28
+    },
+    "pH": {
+      "min": 7.6,
+      "max": 8.6
+    },
+    "gH": {
+      "min": 10,
+      "max": 25
+    },
+    "kH": {
+      "min": 10,
+      "max": 20
+    },
+    "salinity": null
   },
-  "adultSizeCm":   { "min": 10, "max": 15 },
-  "lifespanYears": { "min": 8,  "max": 10 },
+  "adultSizeCm": {
+    "min": 10,
+    "max": 15
+  },
+  "lifespanYears": {
+    "min": 8,
+    "max": 10
+  },
   "tank": {
     "minVolumeLiters": 300,
     "minLengthCm": 120,
@@ -134,7 +162,9 @@
     "mouthbrooder": true,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

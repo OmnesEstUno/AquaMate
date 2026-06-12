@@ -18,21 +18,54 @@
     "order": "Tetraodontiformes"
   },
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Western Atlantic", "Eastern Atlantic", "Caribbean"],
-    "countries": ["Sri Lanka", "Philippines", "Kenya", "Japan", "Australia", "Brazil"],
+    "regions": [
+      "Indo-Pacific",
+      "Western Atlantic",
+      "Eastern Atlantic",
+      "Caribbean"
+    ],
+    "countries": [
+      "Sri Lanka",
+      "Philippines",
+      "Kenya",
+      "Japan",
+      "Australia",
+      "Brazil"
+    ],
     "habitat": "Coral and rocky reefs, lagoons, estuaries, and soft/muddy bottoms in tropical and subtropical waters; commonly observed sheltering in caves and ledges by day.",
     "biotope": "Reef",
-    "depthRangeM": { "min": 2, "max": 200 }
+    "depthRangeM": {
+      "min": 2,
+      "max": 200
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 27 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 22,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 30, "max": 50 },
-  "lifespanYears": { "min": 10, "max": 15 },
+  "adultSizeCm": {
+    "min": 30,
+    "max": 50
+  },
+  "lifespanYears": {
+    "min": 10,
+    "max": 15
+  },
   "tank": {
     "minVolumeLiters": 700,
     "minLengthCm": 180,
@@ -128,7 +161,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": null,
+    "obligateCorallivore": false
   },
   "crustacean": null,
   "coral": null,

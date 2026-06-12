@@ -16,26 +16,53 @@
     "order": "Centrarchiformes"
   },
   "nativeRange": {
-    "regions": ["Indo-Pacific"],
+    "regions": [
+      "Indo-Pacific"
+    ],
     "countries": [],
     "habitat": "Lagoon and seaward reefs; perches on heads of small branching corals such as Stylophora, Pocillopora and Acropora.",
     "biotope": "Tropical coral reef",
-    "depthRangeM": { "min": 1, "max": 33 }
+    "depthRangeM": {
+      "min": 1,
+      "max": 33
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 27 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 23,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 14, "max": 20 },
-  "lifespanYears": { "min": 5, "max": 10 },
+  "adultSizeCm": {
+    "min": 14,
+    "max": 20
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 10
+  },
   "tank": {
     "minVolumeLiters": 200,
     "minLengthCm": 90,
     "swimZone": "bottom",
-    "decorPreferences": ["live rock with perching ledges", "branching coral structure", "open swimming space above the rockwork"],
+    "decorPreferences": [
+      "live rock with perching ledges",
+      "branching coral structure",
+      "open swimming space above the rockwork"
+    ],
     "minSandDepthCm": null
   },
   "careLevel": "beginner",
@@ -47,8 +74,19 @@
     "temperament": "semi-aggressive",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["larger semi-aggressive reef fish", "tangs", "larger angelfish", "wrasses of similar or larger size"],
-    "avoidWith": ["ornamental shrimp (Lysmata, Stenopus, sexy shrimp)", "small hermit crabs", "small ornamental crabs", "very small fish that can fit in its mouth", "other hawkfish in the same tank"]
+    "goodWith": [
+      "larger semi-aggressive reef fish",
+      "tangs",
+      "larger angelfish",
+      "wrasses of similar or larger size"
+    ],
+    "avoidWith": [
+      "ornamental shrimp (Lysmata, Stenopus, sexy shrimp)",
+      "small hermit crabs",
+      "small ornamental crabs",
+      "very small fish that can fit in its mouth",
+      "other hawkfish in the same tank"
+    ]
   },
   "media": {
     "primaryImage": "arc_eye_hawkfish.jpg",
@@ -109,7 +147,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": null,
+    "obligateCorallivore": false
   },
   "crustacean": null,
   "coral": null,

@@ -16,21 +16,59 @@
     "order": "Synbranchiformes"
   },
   "nativeRange": {
-    "regions": ["Asia", "Southeast Asia", "East Asia"],
-    "countries": ["China", "Japan", "India", "Bangladesh", "Myanmar", "Thailand", "Laos", "Cambodia", "Vietnam", "Malaysia", "Indonesia", "Philippines"],
+    "regions": [
+      "Asia",
+      "Southeast Asia",
+      "East Asia"
+    ],
+    "countries": [
+      "China",
+      "Japan",
+      "India",
+      "Bangladesh",
+      "Myanmar",
+      "Thailand",
+      "Laos",
+      "Cambodia",
+      "Vietnam",
+      "Malaysia",
+      "Indonesia",
+      "Philippines"
+    ],
     "habitat": "Shallow, warm, low-oxygen freshwater: rice paddies, swamps, marshes, ditches, muddy streams, and floodplains; burrows in soft mud during dry seasons. An obligate air-breather that regularly surfaces.",
     "biotope": "Rice paddy / swamp",
-    "depthRangeM": { "min": 0, "max": 1 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 1
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 30 },
-    "pH": { "min": 6.0, "max": 8.0 },
-    "gH": { "min": 2, "max": 18 },
-    "kH": { "min": 1, "max": 10 },
+    "temperatureC": {
+      "min": 22,
+      "max": 30
+    },
+    "pH": {
+      "min": 6,
+      "max": 8
+    },
+    "gH": {
+      "min": 2,
+      "max": 18
+    },
+    "kH": {
+      "min": 1,
+      "max": 10
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 50.0, "max": 100.0 },
-  "lifespanYears": { "min": 8, "max": 15 },
+  "adultSizeCm": {
+    "min": 50,
+    "max": 100
+  },
+  "lifespanYears": {
+    "min": 8,
+    "max": 15
+  },
   "tank": {
     "minVolumeLiters": 300,
     "minLengthCm": 150,
@@ -149,7 +187,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

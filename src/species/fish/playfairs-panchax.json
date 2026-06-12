@@ -16,21 +16,45 @@
     "order": "Cyprinodontiformes"
   },
   "nativeRange": {
-    "regions": ["Africa", "Indian Ocean Islands"],
-    "countries": ["Seychelles", "Tanzania"],
+    "regions": [
+      "Africa",
+      "Indian Ocean Islands"
+    ],
+    "countries": [
+      "Seychelles",
+      "Tanzania"
+    ],
     "habitat": "Small, slow-moving freshwater streams and pools under tropical moist forest canopy; the only purely freshwater fish native to the granitic Seychelles (Mahé, Praslin, Silhouette, La Digue). An introduced population formerly existed on Zanzibar but has been largely extirpated by invasive tilapia.",
     "biotope": "Tropical stream",
-    "depthRangeM": { "min": 0, "max": 1 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 1
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 20, "max": 26 },
-    "pH": { "min": 6.0, "max": 8.0 },
-    "gH": { "min": 5, "max": 19 },
+    "temperatureC": {
+      "min": 20,
+      "max": 26
+    },
+    "pH": {
+      "min": 6,
+      "max": 8
+    },
+    "gH": {
+      "min": 5,
+      "max": 19
+    },
     "kH": null,
     "salinity": null
   },
-  "adultSizeCm": { "min": 7.0, "max": 10.0 },
-  "lifespanYears": { "min": 3, "max": 5 },
+  "adultSizeCm": {
+    "min": 7,
+    "max": 10
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 80,
     "minLengthCm": 60,
@@ -145,7 +169,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

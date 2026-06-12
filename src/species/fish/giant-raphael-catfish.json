@@ -16,21 +16,50 @@
     "order": "Siluriformes"
   },
   "nativeRange": {
-    "regions": ["South America"],
-    "countries": ["Brazil", "Peru", "Bolivia", "Colombia", "Venezuela"],
+    "regions": [
+      "South America"
+    ],
+    "countries": [
+      "Brazil",
+      "Peru",
+      "Bolivia",
+      "Colombia",
+      "Venezuela"
+    ],
     "habitat": "Large rivers and their tributaries; sandy and muddy substrates with submerged wood and leaf litter; main Amazon channel, Orinoco basin, and Río Madeira drainage",
     "biotope": "Amazonian river",
-    "depthRangeM": { "min": 0, "max": 20 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 20
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 28 },
-    "pH": { "min": 6.0, "max": 7.8 },
-    "gH": { "min": 2, "max": 20 },
-    "kH": { "min": 1, "max": 12 },
+    "temperatureC": {
+      "min": 22,
+      "max": 28
+    },
+    "pH": {
+      "min": 6,
+      "max": 7.8
+    },
+    "gH": {
+      "min": 2,
+      "max": 20
+    },
+    "kH": {
+      "min": 1,
+      "max": 12
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 60, "max": 100 },
-  "lifespanYears": { "min": 20, "max": 30 },
+  "adultSizeCm": {
+    "min": 60,
+    "max": 100
+  },
+  "lifespanYears": {
+    "min": 20,
+    "max": 30
+  },
   "tank": {
     "minVolumeLiters": 1500,
     "minLengthCm": 300,
@@ -145,7 +174,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

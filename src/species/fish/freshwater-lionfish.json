@@ -16,21 +16,54 @@
     "order": "Batrachoidiformes"
   },
   "nativeRange": {
-    "regions": ["South America"],
-    "countries": ["Suriname", "Brazil", "Trinidad and Tobago", "Venezuela", "Guyana", "French Guiana"],
+    "regions": [
+      "South America"
+    ],
+    "countries": [
+      "Suriname",
+      "Brazil",
+      "Trinidad and Tobago",
+      "Venezuela",
+      "Guyana",
+      "French Guiana"
+    ],
     "habitat": "Muddy estuaries, mangrove margins, and brackish tidal zones of Amazonian and Orinoco river systems; also penetrates freshwater rivers and streams; benthic ambush predator resting motionless on soft substrate or concealed beneath debris",
     "biotope": "Estuary / Blackwater River",
-    "depthRangeM": { "min": 0, "max": 10 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 10
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 30 },
-    "pH": { "min": 6.5, "max": 8.0 },
-    "gH": { "min": 5, "max": 20 },
-    "kH": { "min": 3, "max": 12 },
-    "salinity": { "min": 1.000, "max": 1.010 }
+    "temperatureC": {
+      "min": 24,
+      "max": 30
+    },
+    "pH": {
+      "min": 6.5,
+      "max": 8
+    },
+    "gH": {
+      "min": 5,
+      "max": 20
+    },
+    "kH": {
+      "min": 3,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1,
+      "max": 1.01
+    }
   },
-  "adultSizeCm": { "min": 30.0, "max": 45.0 },
-  "lifespanYears": { "min": 8, "max": 15 },
+  "adultSizeCm": {
+    "min": 30,
+    "max": 45
+  },
+  "lifespanYears": {
+    "min": 8,
+    "max": 15
+  },
   "tank": {
     "minVolumeLiters": 400,
     "minLengthCm": 150,
@@ -137,7 +170,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": true
+    "euryhaline": true,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

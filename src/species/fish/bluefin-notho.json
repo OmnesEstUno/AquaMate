@@ -6,33 +6,65 @@
   "waterType": "freshwater",
   "commonName": "Bluefin Notho",
   "scientificName": "Nothobranchius rachovii",
-  "alsoKnownAs": ["Rachow's Nothobranch", "Bluefin Nothobranch", "Rachovi Killifish"],
+  "alsoKnownAs": [
+    "Rachow's Nothobranch",
+    "Bluefin Nothobranch",
+    "Rachovi Killifish"
+  ],
   "category": "Killifish",
   "taxonomy": {
     "family": "Nothobranchiidae",
     "order": "Cyprinodontiformes"
   },
   "nativeRange": {
-    "regions": ["East Africa"],
-    "countries": ["Mozambique"],
+    "regions": [
+      "East Africa"
+    ],
+    "countries": [
+      "Mozambique"
+    ],
     "habitat": "Ephemeral seasonal pools, water-filled depressions, and lowland floodplain swamps in the lower Pungwe and Zambezi river basins near Beira",
     "biotope": "Other",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 20, "max": 24 },
-    "pH": { "min": 5.5, "max": 7.0 },
-    "gH": { "min": 1, "max": 10 },
-    "kH": { "min": 0, "max": 5 },
+    "temperatureC": {
+      "min": 20,
+      "max": 24
+    },
+    "pH": {
+      "min": 5.5,
+      "max": 7
+    },
+    "gH": {
+      "min": 1,
+      "max": 10
+    },
+    "kH": {
+      "min": 0,
+      "max": 5
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 5.0, "max": 6.0 },
-  "lifespanYears": { "min": 0.5, "max": 1.0 },
+  "adultSizeCm": {
+    "min": 5,
+    "max": 6
+  },
+  "lifespanYears": {
+    "min": 0.5,
+    "max": 1
+  },
   "tank": {
     "minVolumeLiters": 30,
     "minLengthCm": 45,
     "swimZone": "bottom",
-    "decorPreferences": ["peat substrate or peat moss spawning layer", "dense vegetation", "leaf litter", "subdued lighting", "tight-fitting lid required"],
+    "decorPreferences": [
+      "peat substrate or peat moss spawning layer",
+      "dense vegetation",
+      "leaf litter",
+      "subdued lighting",
+      "tight-fitting lid required"
+    ],
     "minSandDepthCm": null
   },
   "careLevel": "advanced",
@@ -44,8 +76,16 @@
     "temperament": "semi-aggressive",
     "grouping": "pair",
     "minGroupSize": 2,
-    "goodWith": ["other small peaceful killifish", "corydoras", "small rasboras"],
-    "avoidWith": ["large or aggressive fish", "fin-nipping species", "fast-swimming community fish that outcompete for food"]
+    "goodWith": [
+      "other small peaceful killifish",
+      "corydoras",
+      "small rasboras"
+    ],
+    "avoidWith": [
+      "large or aggressive fish",
+      "fin-nipping species",
+      "fast-swimming community fish that outcompete for food"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -113,7 +153,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

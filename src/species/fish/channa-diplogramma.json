@@ -15,21 +15,47 @@
     "order": "Anabantiformes"
   },
   "nativeRange": {
-    "regions": ["South Asia", "Western Ghats"],
-    "countries": ["India"],
+    "regions": [
+      "South Asia",
+      "Western Ghats"
+    ],
+    "countries": [
+      "India"
+    ],
     "habitat": "Slow-moving and still waters of the Western Ghats: forest streams, rivers, swamps, flooded pools, and rice paddies with dense riparian vegetation and leaf litter; low-altitude to mid-elevation terrain in Kerala and Karnataka",
     "biotope": "Blackwater forest stream",
-    "depthRangeM": { "min": 0, "max": 3 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 3
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 28 },
-    "pH": { "min": 6.0, "max": 7.5 },
-    "gH": { "min": 2, "max": 12 },
-    "kH": { "min": 1, "max": 6 },
+    "temperatureC": {
+      "min": 22,
+      "max": 28
+    },
+    "pH": {
+      "min": 6,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 2,
+      "max": 12
+    },
+    "kH": {
+      "min": 1,
+      "max": 6
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 50.0, "max": 65.0 },
-  "lifespanYears": { "min": 8, "max": 15 },
+  "adultSizeCm": {
+    "min": 50,
+    "max": 65
+  },
+  "lifespanYears": {
+    "min": 8,
+    "max": 15
+  },
   "tank": {
     "minVolumeLiters": 600,
     "minLengthCm": 180,
@@ -149,7 +175,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

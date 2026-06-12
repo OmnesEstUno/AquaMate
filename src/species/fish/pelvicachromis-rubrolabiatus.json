@@ -15,21 +15,46 @@
     "order": "Cichliformes"
   },
   "nativeRange": {
-    "regions": ["West Africa"],
-    "countries": ["Guinea"],
+    "regions": [
+      "West Africa"
+    ],
+    "countries": [
+      "Guinea"
+    ],
     "habitat": "Slow-moving, shaded forest streams and small rivers; soft, blackwater or near-blackwater conditions with leaf litter, submerged roots, and sandy or muddy substrate",
     "biotope": "West African forest stream",
-    "depthRangeM": { "min": 0, "max": 1 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 1
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 26 },
-    "pH": { "min": 5.5, "max": 7.0 },
-    "gH": { "min": 2, "max": 10 },
-    "kH": { "min": 1, "max": 5 },
+    "temperatureC": {
+      "min": 23,
+      "max": 26
+    },
+    "pH": {
+      "min": 5.5,
+      "max": 7
+    },
+    "gH": {
+      "min": 2,
+      "max": 10
+    },
+    "kH": {
+      "min": 1,
+      "max": 5
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 7.0, "max": 10.0 },
-  "lifespanYears": { "min": 3, "max": 5 },
+  "adultSizeCm": {
+    "min": 7,
+    "max": 10
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 80,
     "minLengthCm": 90,
@@ -135,7 +160,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

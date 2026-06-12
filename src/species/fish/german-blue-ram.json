@@ -6,28 +6,56 @@
   "waterType": "freshwater",
   "commonName": "German Blue Ram",
   "scientificName": "Mikrogeophagus ramirezi",
-  "alsoKnownAs": ["Ram Cichlid", "Butterfly Cichlid", "Blue Ram", "Ramirezi"],
+  "alsoKnownAs": [
+    "Ram Cichlid",
+    "Butterfly Cichlid",
+    "Blue Ram",
+    "Ramirezi"
+  ],
   "category": "Cichlid",
   "taxonomy": {
     "family": "Cichlidae",
     "order": "Cichliformes"
   },
   "nativeRange": {
-    "regions": ["South America"],
-    "countries": ["Venezuela", "Colombia"],
+    "regions": [
+      "South America"
+    ],
+    "countries": [
+      "Venezuela",
+      "Colombia"
+    ],
     "habitat": "Shallow, slow-moving, warm savannah streams and pools in the Llanos; often heavily vegetated with leaf litter and sandy substrate; subject to extreme seasonal fluctuation",
     "biotope": "Blackwater",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 27, "max": 30 },
-    "pH": { "min": 5.0, "max": 7.0 },
-    "gH": { "min": 0, "max": 10 },
-    "kH": { "min": 0, "max": 5 },
+    "temperatureC": {
+      "min": 27,
+      "max": 30
+    },
+    "pH": {
+      "min": 5,
+      "max": 7
+    },
+    "gH": {
+      "min": 0,
+      "max": 10
+    },
+    "kH": {
+      "min": 0,
+      "max": 5
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 5.0, "max": 7.0 },
-  "lifespanYears": { "min": 2, "max": 4 },
+  "adultSizeCm": {
+    "min": 5,
+    "max": 7
+  },
+  "lifespanYears": {
+    "min": 2,
+    "max": 4
+  },
   "tank": {
     "minVolumeLiters": 80,
     "minLengthCm": 60,
@@ -127,7 +155,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

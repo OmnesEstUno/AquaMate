@@ -13,43 +13,73 @@
     "order": "Characiformes"
   },
   "nativeRange": {
-    "regions": ["South America"],
-    "countries": ["Brazil", "Guyana"],
+    "regions": [
+      "South America"
+    ],
+    "countries": [
+      "Brazil",
+      "Guyana"
+    ],
     "habitat": "Pelagic freshwater; Amazon and Tocantins river basins, Rio Branco, and Guyana river systems",
     "biotope": "Whitewater",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 28 },
-    "pH":           { "min": 5.5, "max": 7.5 },
-    "gH":           { "min": 5, "max": 15 },
-    "kH":           { "min": 2, "max": 12 },
-    "salinity":     null
+    "temperatureC": {
+      "min": 23,
+      "max": 28
+    },
+    "pH": {
+      "min": 5.5,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 5,
+      "max": 15
+    },
+    "kH": {
+      "min": 2,
+      "max": 12
+    },
+    "salinity": null
   },
-  "adultSizeCm":   { "min": 8, "max": 15 },
-  "lifespanYears": { "min": 8, "max": 10 },
+  "adultSizeCm": {
+    "min": 8,
+    "max": 15
+  },
+  "lifespanYears": {
+    "min": 8,
+    "max": 10
+  },
   "tank": {
-    "minVolumeLiters":  200,
-    "minLengthCm":      120,
-    "swimZone":         "mid",
-    "decorPreferences": ["plants", "driftwood", "caves", "open swimming space"],
-    "minSandDepthCm":   null
+    "minVolumeLiters": 200,
+    "minLengthCm": 120,
+    "swimZone": "mid",
+    "decorPreferences": [
+      "plants",
+      "driftwood",
+      "caves",
+      "open swimming space"
+    ],
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
-    "type":  "carnivore",
+    "type": "carnivore",
     "notes": "Accepts frozen meaty foods such as bloodworm, chopped prawn, mussel, and earthworms. Most individuals will take high-quality dried pellets alongside frozen foods. Feed multiple small meals daily."
   },
   "compatibility": {
-    "temperament":  "aggressive",
-    "grouping":     "schooling",
+    "temperament": "aggressive",
+    "grouping": "schooling",
     "minGroupSize": 12,
-    "goodWith":     [],
-    "avoidWith":    ["all other fish species"]
+    "goodWith": [],
+    "avoidWith": [
+      "all other fish species"
+    ]
   },
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
+    "primaryImage": null,
+    "gallery": [],
     "imageCandidates": null
   },
   "summary": "A striking scale-eating characin from the Amazon basin, best kept as a species-only school of 12 or more. Famous for its predatory nature — has been known to strip scales and fins from virtually any tankmate.",
@@ -78,39 +108,41 @@
     ]
   },
   "fish": {
-    "breedingDifficulty":         "difficult",
-    "breedingNotes":              "Egg-scatterer; rarely bred in captivity. Requires dedicated spawning tank; eggs must be removed immediately to prevent cannibalism.",
-    "conspecificAggression":      "moderate",
-    "finNippy":                   true,
-    "reefSafe":                   null,
-    "escapeRisk":                 "low",
-    "venomousSpines":             false,
-    "sexChange":                  "none",
-    "haremic":                    false,
-    "caudalScalpel":              false,
-    "nocturnal":                  false,
-    "juvenileColorPhase":         false,
-    "copperSensitive":            null,
+    "breedingDifficulty": "difficult",
+    "breedingNotes": "Egg-scatterer; rarely bred in captivity. Requires dedicated spawning tank; eggs must be removed immediately to prevent cannibalism.",
+    "conspecificAggression": "moderate",
+    "finNippy": true,
+    "reefSafe": null,
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": null,
     "speciesOnlyTankRecommended": true,
-    "requiresHitchingPost":       false,
-    "monogamousPairing":          false,
-    "hlleSusceptible":            false,
-    "toxicToTank":                false,
-    "feedingDifficulty":          "moderate",
-    "symbioticShrimpPartner":     false,
-    "mouthbrooder":               false,
-    "constantGrazer":             false,
-    "cleanerFish":                false,
-    "euryhaline":                 false
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
-  "crustacean":   null,
-  "coral":        null,
-  "mollusc":      null,
-  "echinoderm":   null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
   "other-invert": null,
-  "plant":        null,
-  "macroalgae":   null,
+  "plant": null,
+  "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus":   "researched",
+  "dataStatus": "researched",
   "lastReviewed": "2026-06-08"
 }

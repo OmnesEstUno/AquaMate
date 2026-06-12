@@ -16,21 +16,48 @@
     "order": "Characiformes"
   },
   "nativeRange": {
-    "regions": ["North America", "Central America"],
-    "countries": ["Mexico", "United States"],
+    "regions": [
+      "North America",
+      "Central America"
+    ],
+    "countries": [
+      "Mexico",
+      "United States"
+    ],
     "habitat": "Subterranean limestone cave pools and streams (cave morph); surface rivers, streams, and ponds (surface morph). Cave populations occupy the Cueva Chica and surrounding cave systems of the Sierra de El Abra region, San Luis Potosí and Tamaulipas, Mexico. Surface populations range from the Rio Grande drainage in Texas south through much of Mexico.",
     "biotope": "Cave / subterranean stream",
-    "depthRangeM": { "min": 0, "max": 5 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 5
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 18, "max": 25 },
-    "pH": { "min": 6.5, "max": 8.0 },
-    "gH": { "min": 5, "max": 25 },
-    "kH": { "min": 3, "max": 15 },
+    "temperatureC": {
+      "min": 18,
+      "max": 25
+    },
+    "pH": {
+      "min": 6.5,
+      "max": 8
+    },
+    "gH": {
+      "min": 5,
+      "max": 25
+    },
+    "kH": {
+      "min": 3,
+      "max": 15
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 7.0, "max": 9.5 },
-  "lifespanYears": { "min": 5, "max": 10 },
+  "adultSizeCm": {
+    "min": 7,
+    "max": 9.5
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 10
+  },
   "tank": {
     "minVolumeLiters": 75,
     "minLengthCm": 80,
@@ -154,7 +181,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

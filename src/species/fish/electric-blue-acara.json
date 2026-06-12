@@ -6,28 +6,57 @@
   "waterType": "freshwater",
   "commonName": "Electric Blue Acara",
   "scientificName": "Andinoacara pulcher",
-  "alsoKnownAs": ["EBA", "Blue Acara", "Electric Blue Acara Cichlid"],
+  "alsoKnownAs": [
+    "EBA",
+    "Blue Acara",
+    "Electric Blue Acara Cichlid"
+  ],
   "category": "Cichlid",
   "taxonomy": {
     "family": "Cichlidae",
     "order": "Perciformes"
   },
   "nativeRange": {
-    "regions": ["Central America", "South America", "Caribbean"],
-    "countries": ["Venezuela", "Trinidad and Tobago"],
+    "regions": [
+      "Central America",
+      "South America",
+      "Caribbean"
+    ],
+    "countries": [
+      "Venezuela",
+      "Trinidad and Tobago"
+    ],
     "habitat": "Adaptable to a variety of freshwater habitats, including murky still waters, slow-flowing rivers, streams, and clearwater channels",
     "biotope": "Tropical freshwater rivers and streams, often sheltered and heavily vegetated",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 21, "max": 28 },
-    "pH": { "min": 6.0, "max": 8.0 },
-    "gH": { "min": 5, "max": 20 },
-    "kH": { "min": 4, "max": 15 },
+    "temperatureC": {
+      "min": 21,
+      "max": 28
+    },
+    "pH": {
+      "min": 6,
+      "max": 8
+    },
+    "gH": {
+      "min": 5,
+      "max": 20
+    },
+    "kH": {
+      "min": 4,
+      "max": 15
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 14, "max": 18 },
-  "lifespanYears": { "min": 10, "max": 20 },
+  "adultSizeCm": {
+    "min": 14,
+    "max": 18
+  },
+  "lifespanYears": {
+    "min": 10,
+    "max": 20
+  },
   "tank": {
     "minVolumeLiters": 200,
     "minLengthCm": 120,
@@ -114,7 +143,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

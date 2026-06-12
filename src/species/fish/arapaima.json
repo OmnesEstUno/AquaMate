@@ -16,21 +16,50 @@
     "order": "Osteoglossiformes"
   },
   "nativeRange": {
-    "regions": ["South America"],
-    "countries": ["Brazil", "Peru", "Colombia", "Guyana", "Bolivia"],
+    "regions": [
+      "South America"
+    ],
+    "countries": [
+      "Brazil",
+      "Peru",
+      "Colombia",
+      "Guyana",
+      "Bolivia"
+    ],
     "habitat": "Large, slow-moving rivers, floodplain lakes (várzea), and seasonally flooded forest pools of the Amazon and Essequibo river basins; shallow, oxygen-poor backwaters where obligate air-breathing is advantageous",
     "biotope": "Amazon floodplain",
-    "depthRangeM": { "min": 0, "max": 4 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 4
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 30 },
-    "pH": { "min": 6.0, "max": 7.5 },
-    "gH": { "min": 1, "max": 12 },
-    "kH": { "min": 1, "max": 8 },
+    "temperatureC": {
+      "min": 24,
+      "max": 30
+    },
+    "pH": {
+      "min": 6,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 1,
+      "max": 12
+    },
+    "kH": {
+      "min": 1,
+      "max": 8
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 200, "max": 300 },
-  "lifespanYears": { "min": 20, "max": 40 },
+  "adultSizeCm": {
+    "min": 200,
+    "max": 300
+  },
+  "lifespanYears": {
+    "min": 20,
+    "max": 40
+  },
   "tank": {
     "minVolumeLiters": 75000,
     "minLengthCm": 1500,
@@ -148,7 +177,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

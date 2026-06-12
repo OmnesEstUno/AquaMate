@@ -16,21 +16,48 @@
     "order": "Anabantiformes"
   },
   "nativeRange": {
-    "regions": ["Southeast Asia"],
-    "countries": ["Malaysia", "Singapore", "Indonesia"],
+    "regions": [
+      "Southeast Asia"
+    ],
+    "countries": [
+      "Malaysia",
+      "Singapore",
+      "Indonesia"
+    ],
     "habitat": "Shallow, swiftly flowing hill streams and forest streams with sandy substrates, submerged leaf litter, exposed roots, and overhanging bank vegetation; also found in adjacent forest swamps and stiller waters. Water is typically soft, acidic, and humic-stained with negligible hardness.",
     "biotope": "Blackwater hill stream",
-    "depthRangeM": { "min": 0, "max": 1 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 1
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 20, "max": 26 },
-    "pH": { "min": 4.0, "max": 7.5 },
-    "gH": { "min": 0, "max": 10 },
-    "kH": { "min": 0, "max": 5 },
+    "temperatureC": {
+      "min": 20,
+      "max": 26
+    },
+    "pH": {
+      "min": 4,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 0,
+      "max": 10
+    },
+    "kH": {
+      "min": 0,
+      "max": 5
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 7.0, "max": 10.0 },
-  "lifespanYears": { "min": 3, "max": 5 },
+  "adultSizeCm": {
+    "min": 7,
+    "max": 10
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 60,
     "minLengthCm": 80,
@@ -131,7 +158,9 @@
     "mouthbrooder": true,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

@@ -6,33 +6,68 @@
   "waterType": "freshwater",
   "commonName": "Rosy Barb",
   "scientificName": "Pethia conchonius",
-  "alsoKnownAs": ["Red Barb", "Puntius conchonius", "Barbus conchonius"],
+  "alsoKnownAs": [
+    "Red Barb",
+    "Puntius conchonius",
+    "Barbus conchonius"
+  ],
   "category": "Barb",
   "taxonomy": {
     "family": "Cyprinidae",
     "order": "Cypriniformes"
   },
   "nativeRange": {
-    "regions": ["South Asia"],
-    "countries": ["India", "Bangladesh", "Pakistan", "Nepal", "Afghanistan"],
+    "regions": [
+      "South Asia"
+    ],
+    "countries": [
+      "India",
+      "Bangladesh",
+      "Pakistan",
+      "Nepal",
+      "Afghanistan"
+    ],
     "habitat": "Streams, rivers, lakes, and ponds; often found in clear, well-oxygenated waters including hill streams and lowland rivers",
     "biotope": "South Asian subtropical freshwater",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 16, "max": 26 },
-    "pH": { "min": 6.0, "max": 8.0 },
-    "gH": { "min": 5, "max": 20 },
-    "kH": { "min": 3, "max": 15 },
+    "temperatureC": {
+      "min": 16,
+      "max": 26
+    },
+    "pH": {
+      "min": 6,
+      "max": 8
+    },
+    "gH": {
+      "min": 5,
+      "max": 20
+    },
+    "kH": {
+      "min": 3,
+      "max": 15
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 5, "max": 14 },
-  "lifespanYears": { "min": 3, "max": 5 },
+  "adultSizeCm": {
+    "min": 5,
+    "max": 14
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 100,
     "minLengthCm": 90,
     "swimZone": "mid",
-    "decorPreferences": ["dense planting", "open swimming space", "subdued lighting", "dark substrate"],
+    "decorPreferences": [
+      "dense planting",
+      "open swimming space",
+      "subdued lighting",
+      "dark substrate"
+    ],
     "minSandDepthCm": null
   },
   "careLevel": "beginner",
@@ -44,8 +79,21 @@
     "temperament": "peaceful",
     "grouping": "schooling",
     "minGroupSize": 6,
-    "goodWith": ["similar-sized cyprinids", "tetras", "danios", "livebearers", "rainbowfish", "loaches", "corydoras", "anabantoids"],
-    "avoidWith": ["long-finned varieties (potential fin nipping)", "aggressive or very large fish", "slow-moving fancy goldfish"]
+    "goodWith": [
+      "similar-sized cyprinids",
+      "tetras",
+      "danios",
+      "livebearers",
+      "rainbowfish",
+      "loaches",
+      "corydoras",
+      "anabantoids"
+    ],
+    "avoidWith": [
+      "long-finned varieties (potential fin nipping)",
+      "aggressive or very large fish",
+      "slow-moving fancy goldfish"
+    ]
   },
   "media": {
     "primaryImage": "rosy_barb.jpg",
@@ -107,7 +155,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

@@ -17,21 +17,58 @@
     "order": "Cyprinodontiformes"
   },
   "nativeRange": {
-    "regions": ["South Asia", "Southeast Asia"],
-    "countries": ["India", "Sri Lanka", "Bangladesh", "Myanmar", "Thailand", "Malaysia", "Indonesia", "Nepal", "Pakistan"],
+    "regions": [
+      "South Asia",
+      "Southeast Asia"
+    ],
+    "countries": [
+      "India",
+      "Sri Lanka",
+      "Bangladesh",
+      "Myanmar",
+      "Thailand",
+      "Malaysia",
+      "Indonesia",
+      "Nepal",
+      "Pakistan"
+    ],
     "habitat": "Slow-moving or still surface waters: rice paddies, ponds, irrigation ditches, swamps, streams, coastal estuaries and brackish tidal creeks; heavily vegetated areas near the water surface",
     "biotope": "Asian paddy/swamp",
-    "depthRangeM": { "min": 0, "max": 0.5 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 0.5
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 28 },
-    "pH": { "min": 6.0, "max": 7.8 },
-    "gH": { "min": 5, "max": 20 },
-    "kH": { "min": 3, "max": 12 },
-    "salinity": { "min": 1.000, "max": 1.005 }
+    "temperatureC": {
+      "min": 22,
+      "max": 28
+    },
+    "pH": {
+      "min": 6,
+      "max": 7.8
+    },
+    "gH": {
+      "min": 5,
+      "max": 20
+    },
+    "kH": {
+      "min": 3,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1,
+      "max": 1.005
+    }
   },
-  "adultSizeCm": { "min": 5.0, "max": 8.0 },
-  "lifespanYears": { "min": 3, "max": 5 },
+  "adultSizeCm": {
+    "min": 5,
+    "max": 8
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 60,
     "minLengthCm": 60,
@@ -153,7 +190,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": true
+    "euryhaline": true,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

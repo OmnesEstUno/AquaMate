@@ -17,21 +17,61 @@
     "order": "Characiformes"
   },
   "nativeRange": {
-    "regions": ["South America", "Central America"],
-    "countries": ["Brazil", "Peru", "Colombia", "Venezuela", "Bolivia", "Paraguay", "Argentina", "Uruguay", "Ecuador", "Guyana", "Suriname", "French Guiana", "Trinidad and Tobago", "Costa Rica", "Panama"],
+    "regions": [
+      "South America",
+      "Central America"
+    ],
+    "countries": [
+      "Brazil",
+      "Peru",
+      "Colombia",
+      "Venezuela",
+      "Bolivia",
+      "Paraguay",
+      "Argentina",
+      "Uruguay",
+      "Ecuador",
+      "Guyana",
+      "Suriname",
+      "French Guiana",
+      "Trinidad and Tobago",
+      "Costa Rica",
+      "Panama"
+    ],
     "habitat": "Diverse freshwater habitats: slow-moving rivers, streams, flooded plains, swamps, ponds, irrigation ditches, and seasonally flooded forest margins; prefers shallow water with dense vegetation and leaf litter where it rests motionless during the day",
     "biotope": "Amazon / South American blackwater and whitewater lowland",
-    "depthRangeM": { "min": 0, "max": 3 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 3
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 20, "max": 28 },
-    "pH": { "min": 6.0, "max": 8.0 },
-    "gH": { "min": 2, "max": 25 },
-    "kH": { "min": 1, "max": 15 },
+    "temperatureC": {
+      "min": 20,
+      "max": 28
+    },
+    "pH": {
+      "min": 6,
+      "max": 8
+    },
+    "gH": {
+      "min": 2,
+      "max": 25
+    },
+    "kH": {
+      "min": 1,
+      "max": 15
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 40, "max": 65 },
-  "lifespanYears": { "min": 8, "max": 15 },
+  "adultSizeCm": {
+    "min": 40,
+    "max": 65
+  },
+  "lifespanYears": {
+    "min": 8,
+    "max": 15
+  },
   "tank": {
     "minVolumeLiters": 600,
     "minLengthCm": 180,
@@ -139,7 +179,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

@@ -41,17 +41,41 @@
     ],
     "habitat": "Euryhaline; found in coastal marine waters, estuaries, mangrove channels, tidal creeks, brackish lagoons, and fresh inland waters. Juveniles and sub-adults penetrate far inland into rivers, streams, and floodplains. Adults typically return to marine environments to spawn.",
     "biotope": "Estuarine / Coastal",
-    "depthRangeM": { "min": 0, "max": 40 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 40
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 30 },
-    "pH": { "min": 6.5, "max": 8.5 },
-    "gH": { "min": 5, "max": 25 },
-    "kH": { "min": 3, "max": 15 },
-    "salinity": { "min": 1.000, "max": 1.025 }
+    "temperatureC": {
+      "min": 22,
+      "max": 30
+    },
+    "pH": {
+      "min": 6.5,
+      "max": 8.5
+    },
+    "gH": {
+      "min": 5,
+      "max": 25
+    },
+    "kH": {
+      "min": 3,
+      "max": 15
+    },
+    "salinity": {
+      "min": 1,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 60, "max": 150 },
-  "lifespanYears": { "min": 10, "max": 20 },
+  "adultSizeCm": {
+    "min": 60,
+    "max": 150
+  },
+  "lifespanYears": {
+    "min": 10,
+    "max": 20
+  },
   "tank": {
     "minVolumeLiters": 10000,
     "minLengthCm": 600,
@@ -159,7 +183,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": true
+    "euryhaline": true,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

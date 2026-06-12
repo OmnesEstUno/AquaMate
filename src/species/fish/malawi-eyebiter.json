@@ -17,21 +17,49 @@
     "order": "Cichliformes"
   },
   "nativeRange": {
-    "regions": ["East Africa", "Great Rift Valley"],
-    "countries": ["Malawi", "Mozambique", "Tanzania"],
+    "regions": [
+      "East Africa",
+      "Great Rift Valley"
+    ],
+    "countries": [
+      "Malawi",
+      "Mozambique",
+      "Tanzania"
+    ],
     "habitat": "Open-water column and sandy shallows of Lake Malawi; associated with Vallisneria beds in sheltered bays and the lake’s littoral zone; ambush predator that hovers motionless among plant stems before striking",
     "biotope": "Lake Malawi open water / Vallisneria beds",
-    "depthRangeM": { "min": 1, "max": 15 }
+    "depthRangeM": {
+      "min": 1,
+      "max": 15
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 28 },
-    "pH": { "min": 7.7, "max": 8.6 },
-    "gH": { "min": 10, "max": 20 },
-    "kH": { "min": 6, "max": 14 },
+    "temperatureC": {
+      "min": 24,
+      "max": 28
+    },
+    "pH": {
+      "min": 7.7,
+      "max": 8.6
+    },
+    "gH": {
+      "min": 10,
+      "max": 20
+    },
+    "kH": {
+      "min": 6,
+      "max": 14
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 20.0, "max": 25.0 },
-  "lifespanYears": { "min": 6, "max": 10 },
+  "adultSizeCm": {
+    "min": 20,
+    "max": 25
+  },
+  "lifespanYears": {
+    "min": 6,
+    "max": 10
+  },
   "tank": {
     "minVolumeLiters": 400,
     "minLengthCm": 150,
@@ -153,7 +181,9 @@
     "mouthbrooder": true,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

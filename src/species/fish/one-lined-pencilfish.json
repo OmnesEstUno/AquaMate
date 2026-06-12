@@ -17,21 +17,50 @@
     "order": "Characiformes"
   },
   "nativeRange": {
-    "regions": ["South America"],
-    "countries": ["Brazil", "Bolivia", "Colombia", "Venezuela", "Guyana"],
+    "regions": [
+      "South America"
+    ],
+    "countries": [
+      "Brazil",
+      "Bolivia",
+      "Colombia",
+      "Venezuela",
+      "Guyana"
+    ],
     "habitat": "Sluggish tributaries, small rivers, and swampy blackwater zones with dense aquatic vegetation, submerged woody debris, and leaf litter; typically stained, tannin-rich water with very low mineral content",
     "biotope": "Amazon blackwater",
-    "depthRangeM": { "min": 0, "max": 2 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 2
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 28 },
-    "pH": { "min": 4.0, "max": 7.0 },
-    "gH": { "min": 1, "max": 10 },
-    "kH": { "min": 0, "max": 4 },
+    "temperatureC": {
+      "min": 23,
+      "max": 28
+    },
+    "pH": {
+      "min": 4,
+      "max": 7
+    },
+    "gH": {
+      "min": 1,
+      "max": 10
+    },
+    "kH": {
+      "min": 0,
+      "max": 4
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 3.5, "max": 5.0 },
-  "lifespanYears": { "min": 3, "max": 5 },
+  "adultSizeCm": {
+    "min": 3.5,
+    "max": 5
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 60,
     "minLengthCm": 60,
@@ -146,7 +175,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

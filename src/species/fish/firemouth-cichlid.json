@@ -17,21 +17,46 @@
     "order": "Cichliformes"
   },
   "nativeRange": {
-    "regions": ["Central America", "Yucatán Peninsula"],
-    "countries": ["Mexico", "Belize", "Guatemala"],
+    "regions": [
+      "Central America",
+      "Yucatán Peninsula"
+    ],
+    "countries": [
+      "Mexico",
+      "Belize",
+      "Guatemala"
+    ],
     "habitat": "Slow-moving lowland rivers, streams, cenotes, lagoons, and spring-fed pools with sand, mud, or limestone substrates and dense shoreline vegetation or woody debris.",
     "biotope": "River",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 29 },
-    "pH": { "min": 6.5, "max": 8.0 },
-    "gH": { "min": 5, "max": 15 },
-    "kH": { "min": 3, "max": 12 },
+    "temperatureC": {
+      "min": 23,
+      "max": 29
+    },
+    "pH": {
+      "min": 6.5,
+      "max": 8
+    },
+    "gH": {
+      "min": 5,
+      "max": 15
+    },
+    "kH": {
+      "min": 3,
+      "max": 12
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 12, "max": 17 },
-  "lifespanYears": { "min": 8, "max": 12 },
+  "adultSizeCm": {
+    "min": 12,
+    "max": 17
+  },
+  "lifespanYears": {
+    "min": 8,
+    "max": 12
+  },
   "tank": {
     "minVolumeLiters": 200,
     "minLengthCm": 120,
@@ -127,7 +152,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

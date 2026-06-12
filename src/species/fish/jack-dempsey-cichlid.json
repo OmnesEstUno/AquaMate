@@ -15,21 +15,50 @@
     "order": "Cichliformes"
   },
   "nativeRange": {
-    "regions": ["Central America", "North America"],
-    "countries": ["Mexico", "Guatemala", "Honduras", "Belize"],
+    "regions": [
+      "Central America",
+      "North America"
+    ],
+    "countries": [
+      "Mexico",
+      "Guatemala",
+      "Honduras",
+      "Belize"
+    ],
     "habitat": "Slow-moving warm lowland rivers, swamps, and canals with murky water, dense vegetation, and muddy or sandy substrates; often found among roots and submerged wood",
     "biotope": "Tropical lowland river",
-    "depthRangeM": { "min": 0, "max": 3 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 3
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 30 },
-    "pH": { "min": 6.5, "max": 8.0 },
-    "gH": { "min": 9, "max": 20 },
-    "kH": { "min": 4, "max": 12 },
+    "temperatureC": {
+      "min": 22,
+      "max": 30
+    },
+    "pH": {
+      "min": 6.5,
+      "max": 8
+    },
+    "gH": {
+      "min": 9,
+      "max": 20
+    },
+    "kH": {
+      "min": 4,
+      "max": 12
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 20.0, "max": 25.0 },
-  "lifespanYears": { "min": 8, "max": 15 },
+  "adultSizeCm": {
+    "min": 20,
+    "max": 25
+  },
+  "lifespanYears": {
+    "min": 8,
+    "max": 15
+  },
   "tank": {
     "minVolumeLiters": 250,
     "minLengthCm": 120,
@@ -151,7 +180,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": true,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

@@ -17,21 +17,47 @@
     "order": "Atheriniformes"
   },
   "nativeRange": {
-    "regions": ["Oceania", "Melanesia"],
-    "countries": ["Papua New Guinea"],
+    "regions": [
+      "Oceania",
+      "Melanesia"
+    ],
+    "countries": [
+      "Papua New Guinea"
+    ],
     "habitat": "Highland lake and tributary streams at approximately 793 m elevation; clear, well-oxygenated water with dense aquatic vegetation and steep mountain surroundings (1200–1500 m)",
     "biotope": "Highland lake",
-    "depthRangeM": { "min": 0, "max": 5 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 5
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 20, "max": 26 },
-    "pH": { "min": 7.5, "max": 8.0 },
-    "gH": { "min": 8, "max": 18 },
-    "kH": { "min": 4, "max": 10 },
+    "temperatureC": {
+      "min": 20,
+      "max": 26
+    },
+    "pH": {
+      "min": 7.5,
+      "max": 8
+    },
+    "gH": {
+      "min": 8,
+      "max": 18
+    },
+    "kH": {
+      "min": 4,
+      "max": 10
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 8.0, "max": 12.0 },
-  "lifespanYears": { "min": 3, "max": 8 },
+  "adultSizeCm": {
+    "min": 8,
+    "max": 12
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 8
+  },
   "tank": {
     "minVolumeLiters": 150,
     "minLengthCm": 100,
@@ -145,7 +171,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

@@ -16,21 +16,47 @@
     "order": "Cichliformes"
   },
   "nativeRange": {
-    "regions": ["East Africa", "Sub-Saharan Africa"],
-    "countries": ["Malawi"],
+    "regions": [
+      "East Africa",
+      "Sub-Saharan Africa"
+    ],
+    "countries": [
+      "Malawi"
+    ],
     "habitat": "Rocky littoral zones of Lake Malawi; inhabits sediment-free rock piles and rubble-strewn areas along the shoreline, particularly around Nkhata Bay and the eastern shoreline",
     "biotope": "African Rift Lake",
-    "depthRangeM": { "min": 3, "max": 15 }
+    "depthRangeM": {
+      "min": 3,
+      "max": 15
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 28 },
-    "pH": { "min": 7.8, "max": 8.6 },
-    "gH": { "min": 10, "max": 25 },
-    "kH": { "min": 10, "max": 20 },
+    "temperatureC": {
+      "min": 24,
+      "max": 28
+    },
+    "pH": {
+      "min": 7.8,
+      "max": 8.6
+    },
+    "gH": {
+      "min": 10,
+      "max": 25
+    },
+    "kH": {
+      "min": 10,
+      "max": 20
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 9.0, "max": 12.0 },
-  "lifespanYears": { "min": 5, "max": 10 },
+  "adultSizeCm": {
+    "min": 9,
+    "max": 12
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 10
+  },
   "tank": {
     "minVolumeLiters": 200,
     "minLengthCm": 120,
@@ -141,7 +167,9 @@
     "mouthbrooder": true,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

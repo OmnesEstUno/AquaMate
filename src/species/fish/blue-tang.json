@@ -20,21 +20,44 @@
     "order": "Acanthuriformes"
   },
   "nativeRange": {
-    "regions": ["Indo-Pacific"],
+    "regions": [
+      "Indo-Pacific"
+    ],
     "countries": [],
     "habitat": "Clear, current-swept seaward reef terraces; juveniles are commonly found grouped around isolated Pocillopora coral heads.",
     "biotope": "Reef",
-    "depthRangeM": { "min": 2, "max": 40 }
+    "depthRangeM": {
+      "min": 2,
+      "max": 40
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 27 },
-    "pH":           { "min": 8.1, "max": 8.4 },
-    "gH":           null,
-    "kH":           { "min": 8, "max": 12 },
-    "salinity":     { "min": 1.020, "max": 1.026 }
+    "temperatureC": {
+      "min": 23,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.026
+    }
   },
-  "adultSizeCm":   { "min": 25, "max": 31 },
-  "lifespanYears": { "min": 8, "max": 20 },
+  "adultSizeCm": {
+    "min": 25,
+    "max": 31
+  },
+  "lifespanYears": {
+    "min": 8,
+    "max": 20
+  },
   "tank": {
     "minVolumeLiters": 700,
     "minLengthCm": 180,
@@ -71,8 +94,8 @@
     ]
   },
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
+    "primaryImage": null,
+    "gallery": [],
     "imageCandidates": null
   },
   "summary": "An iconic electric-blue Indo-Pacific reef tang made famous by Finding Nemo and Finding Dory; reaches around 30 cm and is generally advised for experienced keepers with large, mature reef systems.",
@@ -81,38 +104,38 @@
   "sources": {
     "primary": {
       "name": "LiveAquaria",
-      "url":  "https://www.liveaquaria.com/products/blue-tang-1",
+      "url": "https://www.liveaquaria.com/products/blue-tang-1",
       "accessedDate": "2026-06-10",
       "notes": "Primary husbandry source: tank size, water parameters, diet, temperament, reef-safe status, disease notes."
     },
     "additional": [
       {
         "name": "Reef2Reef wiki",
-        "url":  "https://www.reef2reef.com/wiki/",
+        "url": "https://www.reef2reef.com/wiki/",
         "accessedDate": "2026-06-10",
         "notes": "Designated secondary source returned HTTP 403 to WebFetch; substituted Reef2Reef community threads via WebSearch summary which confirmed semi-aggressive behavior toward conspecifics, ich susceptibility, and 100-180 gal tank range."
       },
       {
         "name": "FishBase",
-        "url":  "https://www.fishbase.se/summary/Paracanthurus-hepatus.html",
+        "url": "https://www.fishbase.se/summary/Paracanthurus-hepatus.html",
         "accessedDate": "2026-06-10",
         "notes": "Cross-checked taxonomy (Acanthuridae, Acanthuriformes), max length 31 cm, depth range 2-40 m, Indo-Pacific distribution, and wild temperature range."
       },
       {
         "name": "Saltwater Aquarium Blog - Blue Hippo Tang Care Guide",
-        "url":  "https://www.saltwateraquariumblog.com/blue-hippo-tang-care-guide/",
+        "url": "https://www.saltwateraquariumblog.com/blue-hippo-tang-care-guide/",
         "accessedDate": "2026-06-10",
         "notes": "Cross-checked adult size (12 in / 30.5 cm), 100-180 gal tank range, caudal scalpel, HLLE/ich susceptibility, semi-aggressive conspecific behavior."
       },
       {
         "name": "Rising Tide Conservation - Pacific Blue Tang aquaculture",
-        "url":  "https://www.risingtideconservation.org/aquaculture-of-blue-tangs/",
+        "url": "https://www.risingtideconservation.org/aquaculture-of-blue-tangs/",
         "accessedDate": "2026-06-10",
         "notes": "Source for first successful captive breeding (2016, Rising Tide Conservation / UF Tropical Aquaculture Laboratory)."
       },
       {
         "name": "ReefApp encyclopedia - Paracanthurus hepatus",
-        "url":  "https://reefapp.net/en/encyclopedia/paracanthurus-hepatus",
+        "url": "https://reefapp.net/en/encyclopedia/paracanthurus-hepatus",
         "accessedDate": "2026-06-10",
         "notes": "Cross-checked 700 L minimum tank size, 31 cm adult size, reef-safe-with-caution status."
       }
@@ -142,7 +165,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": null,
+    "obligateCorallivore": false
   },
   "crustacean": null,
   "coral": null,

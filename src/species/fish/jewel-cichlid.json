@@ -19,21 +19,42 @@
     "order": "Cichliformes"
   },
   "nativeRange": {
-    "regions": ["West Africa"],
-    "countries": ["Guinea", "Sierra Leone", "Liberia"],
+    "regions": [
+      "West Africa"
+    ],
+    "countries": [
+      "Guinea",
+      "Sierra Leone",
+      "Liberia"
+    ],
     "habitat": "Slow-moving forested streams and canals with mud or sand bottoms, soft to moderately hard water, and ample vegetation or submerged wood. Inhabits coastal-plain freshwater systems from southern Guinea through Sierra Leone to central Liberia; older literature also reports occurrences further east (Cameroon, Nile basin), but those records are now generally attributed to other Rubricatochromis or Hemichromis species and considered unconfirmed.",
     "biotope": "West African coastal stream",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 27 },
-    "pH": { "min": 6.0, "max": 7.8 },
-    "gH": { "min": 4, "max": 18 },
+    "temperatureC": {
+      "min": 22,
+      "max": 27
+    },
+    "pH": {
+      "min": 6,
+      "max": 7.8
+    },
+    "gH": {
+      "min": 4,
+      "max": 18
+    },
     "kH": null,
     "salinity": null
   },
-  "adultSizeCm": { "min": 10, "max": 15 },
-  "lifespanYears": { "min": 5, "max": 7 },
+  "adultSizeCm": {
+    "min": 10,
+    "max": 15
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 7
+  },
   "tank": {
     "minVolumeLiters": 200,
     "minLengthCm": 120,
@@ -137,7 +158,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": true,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

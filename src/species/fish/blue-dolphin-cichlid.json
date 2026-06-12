@@ -16,21 +16,49 @@
     "order": "Cichliformes"
   },
   "nativeRange": {
-    "regions": ["East Africa", "Great Rift Valley"],
-    "countries": ["Malawi", "Mozambique", "Tanzania"],
+    "regions": [
+      "East Africa",
+      "Great Rift Valley"
+    ],
+    "countries": [
+      "Malawi",
+      "Mozambique",
+      "Tanzania"
+    ],
     "habitat": "Sandy and sandy-muddy substrates in open water and along the margins of Lake Malawi; found over sand flats at intermediate depths, often following sand-sifting cichlids and eartheaters to exploit disturbed substrates",
     "biotope": "Lake Malawi sand flat",
-    "depthRangeM": { "min": 3, "max": 15 }
+    "depthRangeM": {
+      "min": 3,
+      "max": 15
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 28 },
-    "pH": { "min": 7.5, "max": 8.5 },
-    "gH": { "min": 10, "max": 25 },
-    "kH": { "min": 10, "max": 20 },
+    "temperatureC": {
+      "min": 24,
+      "max": 28
+    },
+    "pH": {
+      "min": 7.5,
+      "max": 8.5
+    },
+    "gH": {
+      "min": 10,
+      "max": 25
+    },
+    "kH": {
+      "min": 10,
+      "max": 20
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 18.0, "max": 25.0 },
-  "lifespanYears": { "min": 8, "max": 12 },
+  "adultSizeCm": {
+    "min": 18,
+    "max": 25
+  },
+  "lifespanYears": {
+    "min": 8,
+    "max": 12
+  },
   "tank": {
     "minVolumeLiters": 400,
     "minLengthCm": 150,
@@ -153,7 +181,9 @@
     "mouthbrooder": true,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

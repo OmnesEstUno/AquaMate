@@ -16,21 +16,46 @@
     "order": "Cichliformes"
   },
   "nativeRange": {
-    "regions": ["South America"],
-    "countries": ["Brazil"],
+    "regions": [
+      "South America"
+    ],
+    "countries": [
+      "Brazil"
+    ],
     "habitat": "Slow-moving or still blackwater streams, forest streams (igarapés), and flooded forest margins in the upper Rio Juruá drainage of the western Brazilian Amazon; leaf-litter zones and shaded marginal vegetation",
     "biotope": "Blackwater",
-    "depthRangeM": { "min": 0.2, "max": 1.5 }
+    "depthRangeM": {
+      "min": 0.2,
+      "max": 1.5
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 29 },
-    "pH": { "min": 4.0, "max": 6.5 },
-    "gH": { "min": 0, "max": 5 },
-    "kH": { "min": 0, "max": 2 },
+    "temperatureC": {
+      "min": 24,
+      "max": 29
+    },
+    "pH": {
+      "min": 4,
+      "max": 6.5
+    },
+    "gH": {
+      "min": 0,
+      "max": 5
+    },
+    "kH": {
+      "min": 0,
+      "max": 2
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 3.5, "max": 8.0 },
-  "lifespanYears": { "min": 3, "max": 5 },
+  "adultSizeCm": {
+    "min": 3.5,
+    "max": 8
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 80,
     "minLengthCm": 80,
@@ -152,7 +177,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

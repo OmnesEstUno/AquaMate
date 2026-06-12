@@ -18,21 +18,52 @@
     "order": "Gobiiformes"
   },
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Western Pacific"],
-    "countries": ["Philippines", "Indonesia", "Australia", "Japan", "Micronesia", "French Polynesia"],
+    "regions": [
+      "Indo-Pacific",
+      "Western Pacific"
+    ],
+    "countries": [
+      "Philippines",
+      "Indonesia",
+      "Australia",
+      "Japan",
+      "Micronesia",
+      "French Polynesia"
+    ],
     "habitat": "Coastal reefs and lagoons over sand and rubble margins of algal reefs, sometimes near seagrass beds.",
     "biotope": "Reef",
-    "depthRangeM": { "min": 2, "max": 20 }
+    "depthRangeM": {
+      "min": 2,
+      "max": 20
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 26 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 23,
+      "max": 26
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.020, "max": 1.026 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.026
+    }
   },
-  "adultSizeCm": { "min": 10, "max": 15 },
-  "lifespanYears": { "min": 3, "max": 5 },
+  "adultSizeCm": {
+    "min": 10,
+    "max": 15
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 150,
     "minLengthCm": 90,
@@ -55,8 +86,21 @@
     "temperament": "peaceful",
     "grouping": "pair",
     "minGroupSize": 1,
-    "goodWith": ["clownfish", "small wrasses", "cardinalfish", "firefish", "blennies", "reef-safe invertebrates"],
-    "avoidWith": ["other Amblygobius gobies", "aggressive dottybacks", "large predatory fish", "triggers", "groupers"]
+    "goodWith": [
+      "clownfish",
+      "small wrasses",
+      "cardinalfish",
+      "firefish",
+      "blennies",
+      "reef-safe invertebrates"
+    ],
+    "avoidWith": [
+      "other Amblygobius gobies",
+      "aggressive dottybacks",
+      "large predatory fish",
+      "triggers",
+      "groupers"
+    ]
   },
   "media": {
     "primaryImage": "sleeper_banded_goby.jpg",
@@ -118,7 +162,9 @@
     "mouthbrooder": false,
     "constantGrazer": true,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": null,
+    "obligateCorallivore": false
   },
   "crustacean": null,
   "coral": null,

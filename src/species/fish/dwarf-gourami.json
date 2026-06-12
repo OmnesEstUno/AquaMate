@@ -6,28 +6,56 @@
   "waterType": "freshwater",
   "commonName": "Dwarf Gourami",
   "scientificName": "Trichogaster lalius",
-  "alsoKnownAs": ["Colisa lalia", "Dwarf Gourami (Powder Blue)", "Dwarf Gourami (Flame)"],
+  "alsoKnownAs": [
+    "Colisa lalia",
+    "Dwarf Gourami (Powder Blue)",
+    "Dwarf Gourami (Flame)"
+  ],
   "category": "Gourami",
   "taxonomy": {
     "family": "Osphronemidae",
     "order": "Anabantiformes"
   },
   "nativeRange": {
-    "regions": ["South Asia"],
-    "countries": ["India", "Bangladesh", "Pakistan"],
+    "regions": [
+      "South Asia"
+    ],
+    "countries": [
+      "India",
+      "Bangladesh",
+      "Pakistan"
+    ],
     "habitat": "Slow-moving streams, rivulets, ponds, rice fields, and lakes with dense surface and aquatic vegetation.",
     "biotope": "Stream",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 28 },
-    "pH":           { "min": 6.0, "max": 8.0 },
-    "gH":           { "min": 4, "max": 19 },
-    "kH":           { "min": 2, "max": 10 },
-    "salinity":     null
+    "temperatureC": {
+      "min": 22,
+      "max": 28
+    },
+    "pH": {
+      "min": 6,
+      "max": 8
+    },
+    "gH": {
+      "min": 4,
+      "max": 19
+    },
+    "kH": {
+      "min": 2,
+      "max": 10
+    },
+    "salinity": null
   },
-  "adultSizeCm": { "min": 4, "max": 9 },
-  "lifespanYears": { "min": 2, "max": 5 },
+  "adultSizeCm": {
+    "min": 4,
+    "max": 9
+  },
+  "lifespanYears": {
+    "min": 2,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 75,
     "minLengthCm": 60,
@@ -49,8 +77,21 @@
     "temperament": "semi-aggressive",
     "grouping": "pair",
     "minGroupSize": 1,
-    "goodWith": ["corydoras", "tetras", "rasboras", "loaches", "platies", "peaceful community fish of similar size"],
-    "avoidWith": ["other male dwarf gouramis", "bettas and other labyrinth fish", "fin-nipping species", "shrimp (may be eaten)", "other gourami species"]
+    "goodWith": [
+      "corydoras",
+      "tetras",
+      "rasboras",
+      "loaches",
+      "platies",
+      "peaceful community fish of similar size"
+    ],
+    "avoidWith": [
+      "other male dwarf gouramis",
+      "bettas and other labyrinth fish",
+      "fin-nipping species",
+      "shrimp (may be eaten)",
+      "other gourami species"
+    ]
   },
   "media": {
     "primaryImage": "dwarf_gourami.jpg",
@@ -106,7 +147,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

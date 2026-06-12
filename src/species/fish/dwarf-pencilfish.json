@@ -16,21 +16,51 @@
     "order": "Characiformes"
   },
   "nativeRange": {
-    "regions": ["South America"],
-    "countries": ["Brazil", "Colombia", "Guyana", "Suriname", "Peru", "Venezuela"],
+    "regions": [
+      "South America"
+    ],
+    "countries": [
+      "Brazil",
+      "Colombia",
+      "Guyana",
+      "Suriname",
+      "Peru",
+      "Venezuela"
+    ],
     "habitat": "Slow-moving to near-still blackwater streams, flooded forest margins, and shallow tributaries with dense leaf litter, submerged wood, and aquatic vegetation; very soft, highly acidic, tannin-stained water with minimal mineral content",
     "biotope": "Blackwater",
-    "depthRangeM": { "min": 0, "max": 1 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 1
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 28 },
-    "pH": { "min": 4.0, "max": 7.0 },
-    "gH": { "min": 0, "max": 10 },
-    "kH": { "min": 0, "max": 4 },
+    "temperatureC": {
+      "min": 22,
+      "max": 28
+    },
+    "pH": {
+      "min": 4,
+      "max": 7
+    },
+    "gH": {
+      "min": 0,
+      "max": 10
+    },
+    "kH": {
+      "min": 0,
+      "max": 4
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 2.0, "max": 3.5 },
-  "lifespanYears": { "min": 3, "max": 6 },
+  "adultSizeCm": {
+    "min": 2,
+    "max": 3.5
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 6
+  },
   "tank": {
     "minVolumeLiters": 40,
     "minLengthCm": 60,
@@ -136,7 +166,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

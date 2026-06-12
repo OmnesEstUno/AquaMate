@@ -16,21 +16,48 @@
     "order": "Siluriformes"
   },
   "nativeRange": {
-    "regions": ["Central Africa"],
-    "countries": ["Democratic Republic of the Congo", "Republic of the Congo", "Cameroon"],
+    "regions": [
+      "Central Africa"
+    ],
+    "countries": [
+      "Democratic Republic of the Congo",
+      "Republic of the Congo",
+      "Cameroon"
+    ],
     "habitat": "Large river main channels and tributaries with rocky substrates and areas of submerged driftwood; prefers moderate to strong current with well-oxygenated water",
     "biotope": "Congo Basin river",
-    "depthRangeM": { "min": 0.5, "max": 10 }
+    "depthRangeM": {
+      "min": 0.5,
+      "max": 10
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 28 },
-    "pH": { "min": 6.0, "max": 7.5 },
-    "gH": { "min": 4, "max": 15 },
-    "kH": { "min": 2, "max": 10 },
+    "temperatureC": {
+      "min": 23,
+      "max": 28
+    },
+    "pH": {
+      "min": 6,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 4,
+      "max": 15
+    },
+    "kH": {
+      "min": 2,
+      "max": 10
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 25.0, "max": 30.0 },
-  "lifespanYears": { "min": 10, "max": 20 },
+  "adultSizeCm": {
+    "min": 25,
+    "max": 30
+  },
+  "lifespanYears": {
+    "min": 10,
+    "max": 20
+  },
   "tank": {
     "minVolumeLiters": 300,
     "minLengthCm": 150,
@@ -155,7 +182,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

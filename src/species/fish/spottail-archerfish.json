@@ -18,21 +18,59 @@
     "order": "Perciformes"
   },
   "nativeRange": {
-    "regions": ["Southeast Asia", "South Asia", "Australasia"],
-    "countries": ["Indonesia", "Malaysia", "Thailand", "Myanmar", "India", "Sri Lanka", "Philippines", "Papua New Guinea", "Australia"],
+    "regions": [
+      "Southeast Asia",
+      "South Asia",
+      "Australasia"
+    ],
+    "countries": [
+      "Indonesia",
+      "Malaysia",
+      "Thailand",
+      "Myanmar",
+      "India",
+      "Sri Lanka",
+      "Philippines",
+      "Papua New Guinea",
+      "Australia"
+    ],
     "habitat": "Mangrove estuaries, tidal creeks, brackish coastal rivers, and freshwater streams; congregates near overhanging vegetation where terrestrial prey can be shot down; also enters fully fresh inland rivers",
     "biotope": "Mangrove estuary / brackish tidal creek",
-    "depthRangeM": { "min": 0, "max": 3 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 3
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 30 },
-    "pH": { "min": 7.0, "max": 8.0 },
-    "gH": { "min": 10, "max": 20 },
-    "kH": { "min": 5, "max": 15 },
-    "salinity": { "min": 1.000, "max": 1.010 }
+    "temperatureC": {
+      "min": 24,
+      "max": 30
+    },
+    "pH": {
+      "min": 7,
+      "max": 8
+    },
+    "gH": {
+      "min": 10,
+      "max": 20
+    },
+    "kH": {
+      "min": 5,
+      "max": 15
+    },
+    "salinity": {
+      "min": 1,
+      "max": 1.01
+    }
   },
-  "adultSizeCm": { "min": 20.0, "max": 30.0 },
-  "lifespanYears": { "min": 5, "max": 10 },
+  "adultSizeCm": {
+    "min": 20,
+    "max": 30
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 10
+  },
   "tank": {
     "minVolumeLiters": 400,
     "minLengthCm": 150,
@@ -147,7 +185,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": true
+    "euryhaline": true,
+    "eatsPlantsRisk": null,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

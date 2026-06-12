@@ -16,21 +16,47 @@
     "order": "Perciformes"
   },
   "nativeRange": {
-    "regions": ["East Africa"],
-    "countries": ["Malawi", "Mozambique"],
+    "regions": [
+      "East Africa"
+    ],
+    "countries": [
+      "Malawi",
+      "Mozambique"
+    ],
     "habitat": "Rocky shoreline littoral zone of Lake Malawi; found among rocks and boulders at shallow to mid depths, grazing aufwuchs from rock surfaces",
     "biotope": "Lake Malawi rocky shore (mbuna)",
-    "depthRangeM": { "min": 1, "max": 20 }
+    "depthRangeM": {
+      "min": 1,
+      "max": 20
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 28 },
-    "pH": { "min": 7.8, "max": 8.6 },
-    "gH": { "min": 10, "max": 25 },
-    "kH": { "min": 6, "max": 16 },
+    "temperatureC": {
+      "min": 24,
+      "max": 28
+    },
+    "pH": {
+      "min": 7.8,
+      "max": 8.6
+    },
+    "gH": {
+      "min": 10,
+      "max": 25
+    },
+    "kH": {
+      "min": 6,
+      "max": 16
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 9.0, "max": 11.0 },
-  "lifespanYears": { "min": 5, "max": 8 },
+  "adultSizeCm": {
+    "min": 9,
+    "max": 11
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 8
+  },
   "tank": {
     "minVolumeLiters": 200,
     "minLengthCm": 120,
@@ -150,7 +176,9 @@
     "mouthbrooder": true,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

@@ -17,21 +17,63 @@
     "order": "Perciformes"
   },
   "nativeRange": {
-    "regions": ["Indo-Pacific", "East Africa", "Southeast Asia", "Australia"],
-    "countries": ["India", "Sri Lanka", "Indonesia", "Malaysia", "Thailand", "Philippines", "Australia", "Japan", "Kenya", "Tanzania", "Mozambique", "South Africa"],
+    "regions": [
+      "Indo-Pacific",
+      "East Africa",
+      "Southeast Asia",
+      "Australia"
+    ],
+    "countries": [
+      "India",
+      "Sri Lanka",
+      "Indonesia",
+      "Malaysia",
+      "Thailand",
+      "Philippines",
+      "Australia",
+      "Japan",
+      "Kenya",
+      "Tanzania",
+      "Mozambique",
+      "South Africa"
+    ],
     "habitat": "Juveniles found in estuaries, mangrove creeks, tidal rivers, and freshwater lower reaches; adults migrate to coastal reef flats and open marine waters",
     "biotope": "Estuary / Mangrove",
-    "depthRangeM": { "min": 0, "max": 20 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 20
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 28 },
-    "pH": { "min": 7.0, "max": 8.3 },
-    "gH": { "min": 10, "max": 25 },
-    "kH": { "min": 6, "max": 16 },
-    "salinity": { "min": 1.000, "max": 1.025 }
+    "temperatureC": {
+      "min": 24,
+      "max": 28
+    },
+    "pH": {
+      "min": 7,
+      "max": 8.3
+    },
+    "gH": {
+      "min": 10,
+      "max": 25
+    },
+    "kH": {
+      "min": 6,
+      "max": 16
+    },
+    "salinity": {
+      "min": 1,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 20.0, "max": 27.0 },
-  "lifespanYears": { "min": 7, "max": 10 },
+  "adultSizeCm": {
+    "min": 20,
+    "max": 27
+  },
+  "lifespanYears": {
+    "min": 7,
+    "max": 10
+  },
   "tank": {
     "minVolumeLiters": 380,
     "minLengthCm": 150,
@@ -154,7 +196,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": true
+    "euryhaline": true,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

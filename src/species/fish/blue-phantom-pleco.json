@@ -15,21 +15,46 @@
     "order": "Siluriformes"
   },
   "nativeRange": {
-    "regions": ["South America"],
-    "countries": ["Venezuela"],
+    "regions": [
+      "South America"
+    ],
+    "countries": [
+      "Venezuela"
+    ],
     "habitat": "Fast-flowing, highly oxygenated rocky river sections with clear, warm, soft acidic water; found clinging to boulders and rock faces in rapids and riffles",
     "biotope": "Orinoco rapids / rocky riverbed",
-    "depthRangeM": { "min": 0.5, "max": 5 }
+    "depthRangeM": {
+      "min": 0.5,
+      "max": 5
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 26, "max": 30 },
-    "pH": { "min": 6.0, "max": 7.2 },
-    "gH": { "min": 2, "max": 12 },
-    "kH": { "min": 1, "max": 6 },
+    "temperatureC": {
+      "min": 26,
+      "max": 30
+    },
+    "pH": {
+      "min": 6,
+      "max": 7.2
+    },
+    "gH": {
+      "min": 2,
+      "max": 12
+    },
+    "kH": {
+      "min": 1,
+      "max": 6
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 15.0, "max": 20.0 },
-  "lifespanYears": { "min": 8, "max": 12 },
+  "adultSizeCm": {
+    "min": 15,
+    "max": 20
+  },
+  "lifespanYears": {
+    "min": 8,
+    "max": 12
+  },
   "tank": {
     "minVolumeLiters": 200,
     "minLengthCm": 120,
@@ -134,7 +159,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

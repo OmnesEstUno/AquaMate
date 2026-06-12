@@ -16,21 +16,48 @@
     "order": "Cyprinodontiformes"
   },
   "nativeRange": {
-    "regions": ["North America", "Central America"],
-    "countries": ["United States", "Mexico"],
+    "regions": [
+      "North America",
+      "Central America"
+    ],
+    "countries": [
+      "United States",
+      "Mexico"
+    ],
     "habitat": "Still or slow-moving warm water: coastal streams, ponds, swamps, canals, tidal ditches, and brackish estuaries; highly vegetated areas near the surface",
     "biotope": "Estuary",
-    "depthRangeM": { "min": 0, "max": 2 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 2
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 28 },
-    "pH": { "min": 7.5, "max": 8.5 },
-    "gH": { "min": 15, "max": 30 },
-    "kH": { "min": 8, "max": 20 },
+    "temperatureC": {
+      "min": 22,
+      "max": 28
+    },
+    "pH": {
+      "min": 7.5,
+      "max": 8.5
+    },
+    "gH": {
+      "min": 15,
+      "max": 30
+    },
+    "kH": {
+      "min": 8,
+      "max": 20
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 10.0, "max": 15.0 },
-  "lifespanYears": { "min": 3, "max": 5 },
+  "adultSizeCm": {
+    "min": 10,
+    "max": 15
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 150,
     "minLengthCm": 120,
@@ -125,7 +152,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": true
+    "euryhaline": true,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

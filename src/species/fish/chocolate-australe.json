@@ -16,21 +16,48 @@
     "order": "Cyprinodontiformes"
   },
   "nativeRange": {
-    "regions": ["West Africa"],
-    "countries": ["Gabon", "Cameroon", "Republic of the Congo"],
+    "regions": [
+      "West Africa"
+    ],
+    "countries": [
+      "Gabon",
+      "Cameroon",
+      "Republic of the Congo"
+    ],
     "habitat": "Shallow, slow-moving or still forest streams, pools, and swampy areas with dense leaf litter and overhanging vegetation; often found in heavily shaded coastal lowland habitats near Cape Lopez (Port-Gentil), Gabon",
     "biotope": "West African forest stream",
-    "depthRangeM": { "min": 0, "max": 0.5 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 0.5
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 20, "max": 26 },
-    "pH": { "min": 6.0, "max": 7.5 },
-    "gH": { "min": 2, "max": 12 },
-    "kH": { "min": 1, "max": 6 },
+    "temperatureC": {
+      "min": 20,
+      "max": 26
+    },
+    "pH": {
+      "min": 6,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 2,
+      "max": 12
+    },
+    "kH": {
+      "min": 1,
+      "max": 6
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 4.5, "max": 6.0 },
-  "lifespanYears": { "min": 2, "max": 5 },
+  "adultSizeCm": {
+    "min": 4.5,
+    "max": 6
+  },
+  "lifespanYears": {
+    "min": 2,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 40,
     "minLengthCm": 45,
@@ -154,7 +181,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

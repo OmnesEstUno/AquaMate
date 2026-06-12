@@ -6,33 +6,76 @@
   "waterType": "freshwater",
   "commonName": "Bronze Corydoras",
   "scientificName": "Corydoras aeneus",
-  "alsoKnownAs": ["Albino Corydoras", "Bronze Cory", "Albino Cory", "Green Corydoras", "Bronze Catfish"],
+  "alsoKnownAs": [
+    "Albino Corydoras",
+    "Bronze Cory",
+    "Albino Cory",
+    "Green Corydoras",
+    "Bronze Catfish"
+  ],
   "category": "Catfish",
   "taxonomy": {
     "family": "Callichthyidae",
     "order": "Siluriformes"
   },
   "nativeRange": {
-    "regions": ["South America", "Caribbean"],
-    "countries": ["Trinidad", "Colombia", "Venezuela", "Brazil", "Peru", "Bolivia", "Argentina", "Paraguay", "Uruguay"],
+    "regions": [
+      "South America",
+      "Caribbean"
+    ],
+    "countries": [
+      "Trinidad",
+      "Colombia",
+      "Venezuela",
+      "Brazil",
+      "Peru",
+      "Bolivia",
+      "Argentina",
+      "Paraguay",
+      "Uruguay"
+    ],
     "habitat": "Quiet, shallow freshwaters with soft substrates; also found in flowing streams. Benthic dweller, typically in schools near the bottom.",
     "biotope": "River",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 27 },
-    "pH": { "min": 6.0, "max": 8.0 },
-    "gH": { "min": 2, "max": 20 },
-    "kH": { "min": 2, "max": 15 },
+    "temperatureC": {
+      "min": 22,
+      "max": 27
+    },
+    "pH": {
+      "min": 6,
+      "max": 8
+    },
+    "gH": {
+      "min": 2,
+      "max": 20
+    },
+    "kH": {
+      "min": 2,
+      "max": 15
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 5, "max": 7.5 },
-  "lifespanYears": { "min": 5, "max": 10 },
+  "adultSizeCm": {
+    "min": 5,
+    "max": 7.5
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 10
+  },
   "tank": {
     "minVolumeLiters": 75,
     "minLengthCm": 80,
     "swimZone": "bottom",
-    "decorPreferences": ["smooth sand substrate", "driftwood", "caves", "leaf litter", "dense planting at edges"],
+    "decorPreferences": [
+      "smooth sand substrate",
+      "driftwood",
+      "caves",
+      "leaf litter",
+      "dense planting at edges"
+    ],
     "minSandDepthCm": 3
   },
   "careLevel": "beginner",
@@ -44,8 +87,22 @@
     "temperament": "peaceful",
     "grouping": "schooling",
     "minGroupSize": 6,
-    "goodWith": ["small tetras", "rasboras", "small livebearers", "dwarf cichlids", "small danios", "other peaceful community fish", "snails", "freshwater shrimp"],
-    "avoidWith": ["large aggressive cichlids", "oscar", "predatory fish that can swallow them", "fish requiring salt or high hardness"]
+    "goodWith": [
+      "small tetras",
+      "rasboras",
+      "small livebearers",
+      "dwarf cichlids",
+      "small danios",
+      "other peaceful community fish",
+      "snails",
+      "freshwater shrimp"
+    ],
+    "avoidWith": [
+      "large aggressive cichlids",
+      "oscar",
+      "predatory fish that can swallow them",
+      "fish requiring salt or high hardness"
+    ]
   },
   "media": {
     "primaryImage": "corydoras_aeneus.jpg",
@@ -101,7 +158,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

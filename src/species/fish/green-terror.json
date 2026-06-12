@@ -20,21 +20,42 @@
     "order": "Cichliformes"
   },
   "nativeRange": {
-    "regions": ["South America", "Pacific slope of western South America"],
-    "countries": ["Ecuador", "Peru"],
+    "regions": [
+      "South America",
+      "Pacific slope of western South America"
+    ],
+    "countries": [
+      "Ecuador",
+      "Peru"
+    ],
     "habitat": "Coastal streams and rivers of the Pacific slope, generally over sandy substrate with rock and woody cover.",
     "biotope": "South American coastal river / stream biotope with sandy substrate, driftwood, and scattered rockwork.",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 20, "max": 25 },
-    "pH": { "min": 6.5, "max": 8.0 },
-    "gH": { "min": 5, "max": 22 },
+    "temperatureC": {
+      "min": 20,
+      "max": 25
+    },
+    "pH": {
+      "min": 6.5,
+      "max": 8
+    },
+    "gH": {
+      "min": 5,
+      "max": 22
+    },
     "kH": null,
     "salinity": null
   },
-  "adultSizeCm": { "min": 20, "max": 30 },
-  "lifespanYears": { "min": 7, "max": 10 },
+  "adultSizeCm": {
+    "min": 20,
+    "max": 30
+  },
+  "lifespanYears": {
+    "min": 7,
+    "max": 10
+  },
   "tank": {
     "minVolumeLiters": 300,
     "minLengthCm": 150,
@@ -132,7 +153,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

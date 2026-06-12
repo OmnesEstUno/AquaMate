@@ -6,33 +6,69 @@
   "waterType": "freshwater",
   "commonName": "Common Pleco",
   "scientificName": "Hypostomus plecostomus",
-  "alsoKnownAs": ["Common Plecostomus", "Suckermouth Catfish", "Armored Catfish", "Pleco"],
+  "alsoKnownAs": [
+    "Common Plecostomus",
+    "Suckermouth Catfish",
+    "Armored Catfish",
+    "Pleco"
+  ],
   "category": "Catfish",
   "taxonomy": {
     "family": "Loricariidae",
     "order": "Siluriformes"
   },
   "nativeRange": {
-    "regions": ["South America"],
-    "countries": ["Suriname", "Guyana", "French Guiana", "Brazil"],
+    "regions": [
+      "South America"
+    ],
+    "countries": [
+      "Suriname",
+      "Guyana",
+      "French Guiana",
+      "Brazil"
+    ],
     "habitat": "Rivers and streams from the lower Oyapock River basin to the Essequibo River basin; lower tidal-influenced river sections, quiet-flowing water with muddy substrate, and swamps.",
     "biotope": "Riverine/demersal; bottom-associated in slow to moderate current over muddy or rocky substrate.",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 28 },
-    "pH": { "min": 6.5, "max": 8.0 },
-    "gH": { "min": 5, "max": 25 },
-    "kH": { "min": 3, "max": 20 },
+    "temperatureC": {
+      "min": 22,
+      "max": 28
+    },
+    "pH": {
+      "min": 6.5,
+      "max": 8
+    },
+    "gH": {
+      "min": 5,
+      "max": 25
+    },
+    "kH": {
+      "min": 3,
+      "max": 20
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 40, "max": 50 },
-  "lifespanYears": { "min": 10, "max": 15 },
+  "adultSizeCm": {
+    "min": 40,
+    "max": 50
+  },
+  "lifespanYears": {
+    "min": 10,
+    "max": 15
+  },
   "tank": {
     "minVolumeLiters": 500,
     "minLengthCm": 180,
     "swimZone": "bottom",
-    "decorPreferences": ["driftwood", "caves", "smooth rocks", "sandy or fine-gravel substrate", "hardy plants (Java fern, Anubias — avoid soft-leafed plants which may be consumed)"],
+    "decorPreferences": [
+      "driftwood",
+      "caves",
+      "smooth rocks",
+      "sandy or fine-gravel substrate",
+      "hardy plants (Java fern, Anubias — avoid soft-leafed plants which may be consumed)"
+    ],
     "minSandDepthCm": null
   },
   "careLevel": "advanced",
@@ -44,8 +80,23 @@
     "temperament": "territorial",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["medium to large peaceful community fish", "mollies", "guppies", "corydoras", "gouramis", "platies", "swordtails", "larger cichlids"],
-    "avoidWith": ["other plecos (territorial with conspecifics)", "small fish that fit in mouth", "delicate soft-leafed plants (will consume)", "goldfish (incompatible temperature needs)", "discus (temperature mismatch and sensitivity differences)"]
+    "goodWith": [
+      "medium to large peaceful community fish",
+      "mollies",
+      "guppies",
+      "corydoras",
+      "gouramis",
+      "platies",
+      "swordtails",
+      "larger cichlids"
+    ],
+    "avoidWith": [
+      "other plecos (territorial with conspecifics)",
+      "small fish that fit in mouth",
+      "delicate soft-leafed plants (will consume)",
+      "goldfish (incompatible temperature needs)",
+      "discus (temperature mismatch and sensitivity differences)"
+    ]
   },
   "media": {
     "primaryImage": "common_pleco.jpg",
@@ -101,7 +152,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

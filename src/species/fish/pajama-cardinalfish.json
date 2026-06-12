@@ -18,21 +18,53 @@
     "order": "Kurtiformes"
   },
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Western Pacific"],
-    "countries": ["Indonesia", "Papua New Guinea", "Philippines", "Fiji", "Japan", "Australia", "Tonga"],
+    "regions": [
+      "Indo-Pacific",
+      "Western Pacific"
+    ],
+    "countries": [
+      "Indonesia",
+      "Papua New Guinea",
+      "Philippines",
+      "Fiji",
+      "Japan",
+      "Australia",
+      "Tonga"
+    ],
     "habitat": "Aggregates among branching coral colonies (notably Porites) in sheltered bays and lagoons; disperses at night to feed near the bottom.",
     "biotope": "Reef",
-    "depthRangeM": { "min": 1, "max": 14 }
+    "depthRangeM": {
+      "min": 1,
+      "max": 14
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 26 },
-    "pH": { "min": 8.0, "max": 8.4 },
+    "temperatureC": {
+      "min": 22,
+      "max": 26
+    },
+    "pH": {
+      "min": 8,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 7.5, "max": 8.9 },
-  "lifespanYears": { "min": 3, "max": 5 },
+  "adultSizeCm": {
+    "min": 7.5,
+    "max": 8.9
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 120,
     "minLengthCm": 75,
@@ -130,7 +162,9 @@
     "mouthbrooder": true,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": null,
+    "obligateCorallivore": false
   },
   "crustacean": null,
   "coral": null,

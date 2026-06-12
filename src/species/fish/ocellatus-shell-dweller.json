@@ -16,21 +16,50 @@
     "order": "Cichliformes"
   },
   "nativeRange": {
-    "regions": ["East Africa", "Central Africa"],
-    "countries": ["Democratic Republic of the Congo", "Tanzania", "Zambia", "Burundi"],
+    "regions": [
+      "East Africa",
+      "Central Africa"
+    ],
+    "countries": [
+      "Democratic Republic of the Congo",
+      "Tanzania",
+      "Zambia",
+      "Burundi"
+    ],
     "habitat": "Sandy shoreline zones of Lake Tanganyika at depths of 2–25 m; found exclusively among accumulated empty shells of the endemic snail Neothauma tanganyicense on open sand beds",
     "biotope": "Lake Tanganyika shell bed",
-    "depthRangeM": { "min": 2, "max": 25 }
+    "depthRangeM": {
+      "min": 2,
+      "max": 25
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 27 },
-    "pH": { "min": 8.0, "max": 9.0 },
-    "gH": { "min": 10, "max": 20 },
-    "kH": { "min": 8, "max": 18 },
+    "temperatureC": {
+      "min": 24,
+      "max": 27
+    },
+    "pH": {
+      "min": 8,
+      "max": 9
+    },
+    "gH": {
+      "min": 10,
+      "max": 20
+    },
+    "kH": {
+      "min": 8,
+      "max": 18
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 3.5, "max": 5.5 },
-  "lifespanYears": { "min": 3, "max": 6 },
+  "adultSizeCm": {
+    "min": 3.5,
+    "max": 5.5
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 6
+  },
   "tank": {
     "minVolumeLiters": 60,
     "minLengthCm": 60,
@@ -152,7 +181,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

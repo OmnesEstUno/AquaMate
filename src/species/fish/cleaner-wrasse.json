@@ -17,21 +17,45 @@
     "order": "Eupercaria"
   },
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Red Sea"],
+    "regions": [
+      "Indo-Pacific",
+      "Red Sea"
+    ],
     "countries": [],
     "habitat": "Coral-rich areas of inner lagoons, subtidal reef flats and seaward reefs, where adults establish stationary cleaning stations visited by client fish.",
     "biotope": "Reef",
-    "depthRangeM": { "min": 1, "max": 30 }
+    "depthRangeM": {
+      "min": 1,
+      "max": 30
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 27 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 23,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 10, "max": 14 },
-  "lifespanYears": { "min": 2, "max": 4 },
+  "adultSizeCm": {
+    "min": 10,
+    "max": 14
+  },
+  "lifespanYears": {
+    "min": 2,
+    "max": 4
+  },
   "tank": {
     "minVolumeLiters": 400,
     "minLengthCm": 120,
@@ -125,7 +149,9 @@
     "mouthbrooder": false,
     "constantGrazer": true,
     "cleanerFish": true,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": null,
+    "obligateCorallivore": false
   },
   "crustacean": null,
   "coral": null,

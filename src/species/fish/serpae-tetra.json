@@ -19,21 +19,46 @@
     "order": "Characiformes"
   },
   "nativeRange": {
-    "regions": ["South America", "Amazon Basin", "Paraguay Basin"],
-    "countries": ["Brazil", "Peru", "Bolivia", "Paraguay", "Argentina"],
+    "regions": [
+      "South America",
+      "Amazon Basin",
+      "Paraguay Basin"
+    ],
+    "countries": [
+      "Brazil",
+      "Peru",
+      "Bolivia",
+      "Paraguay",
+      "Argentina"
+    ],
     "habitat": "Slow-moving and still tributaries, backwaters, ponds and small lakes with marginal vegetation, submerged roots and leaf litter; typically found near the surface among the stems of emergent plants.",
     "biotope": "River",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 27 },
-    "pH": { "min": 5.0, "max": 7.5 },
-    "gH": { "min": 5, "max": 20 },
+    "temperatureC": {
+      "min": 22,
+      "max": 27
+    },
+    "pH": {
+      "min": 5,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 5,
+      "max": 20
+    },
     "kH": null,
     "salinity": null
   },
-  "adultSizeCm": { "min": 3.5, "max": 4.5 },
-  "lifespanYears": { "min": 5, "max": 7 },
+  "adultSizeCm": {
+    "min": 3.5,
+    "max": 4.5
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 7
+  },
   "tank": {
     "minVolumeLiters": 100,
     "minLengthCm": 80,
@@ -131,7 +156,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

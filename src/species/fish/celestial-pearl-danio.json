@@ -6,32 +6,60 @@
   "waterType": "freshwater",
   "commonName": "Celestial Pearl Danio",
   "scientificName": "Danio margaritatus",
-  "alsoKnownAs": ["Galaxy Rasbora", "Fireworks Rasbora"],
+  "alsoKnownAs": [
+    "Galaxy Rasbora",
+    "Fireworks Rasbora"
+  ],
   "category": "Danio",
   "taxonomy": {
     "family": "Danionidae",
     "order": "Cypriniformes"
   },
   "nativeRange": {
-    "regions": ["Southeast Asia"],
-    "countries": ["Myanmar"],
+    "regions": [
+      "Southeast Asia"
+    ],
+    "countries": [
+      "Myanmar"
+    ],
     "habitat": "Shallow ponds and small streams fed by seepage or springs, at most 30 cm deep, with dense submerged aquatic vegetation; associated with the Salween river basin and Shan Plateau.",
     "biotope": "Pond",
-    "depthRangeM": { "min": 0, "max": 1 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 1
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 26 },
-    "pH":           { "min": 6.5, "max": 7.5 },
-    "gH":           { "min": 2, "max": 8 },
-    "kH":           { "min": 1, "max": 8 },
-    "salinity":     null
+    "temperatureC": {
+      "min": 22,
+      "max": 26
+    },
+    "pH": {
+      "min": 6.5,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 2,
+      "max": 8
+    },
+    "kH": {
+      "min": 1,
+      "max": 8
+    },
+    "salinity": null
   },
-  "adultSizeCm":   { "min": 2.0, "max": 2.5 },
-  "lifespanYears": { "min": 3, "max": 5 },
+  "adultSizeCm": {
+    "min": 2,
+    "max": 2.5
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 40,
-    "minLengthCm":     45,
-    "swimZone":        "mid",
+    "minLengthCm": 45,
+    "swimZone": "mid",
     "decorPreferences": [
       "dense live plants (Java moss, Java fern, floating plants)",
       "fine dark substrate",
@@ -46,8 +74,8 @@
     "notes": "Micropredator in the wild. Accepts micro-pellets, finely crushed flakes, baby brine shrimp, micro worms, frozen cyclops, daphnia, and Moina. Has a small mouth — standard flake food must be crushed fine. Feed 2–3 times daily in small amounts."
   },
   "compatibility": {
-    "temperament":  "peaceful",
-    "grouping":     "shoaling",
+    "temperament": "peaceful",
+    "grouping": "shoaling",
     "minGroupSize": 6,
     "goodWith": [
       "small tetras",
@@ -70,8 +98,8 @@
     ]
   },
   "media": {
-    "primaryImage":    "celestial_pearl_danio.webp",
-    "gallery":         [],
+    "primaryImage": "celestial_pearl_danio.webp",
+    "gallery": [],
     "imageCandidates": null
   },
   "summary": "Tiny jewel of a micro-fish from Myanmar's shallow ponds, reaching around 2 cm. Males display stunning iridescent pearl spots on a deep blue-green body with vivid orange-red fins, making it a popular choice for planted nano tanks.",
@@ -100,39 +128,41 @@
     ]
   },
   "fish": {
-    "breedingDifficulty":         "moderate",
-    "breedingNotes":              "Egg-scatterer; adults eat own eggs and fry. Spawning mop or dense Java moss needed. Relatively straightforward once conditioning is established.",
-    "conspecificAggression":      "low",
-    "finNippy":                   false,
-    "reefSafe":                   null,
-    "escapeRisk":                 "low",
-    "venomousSpines":             false,
-    "sexChange":                  "none",
-    "haremic":                    false,
-    "caudalScalpel":              false,
-    "nocturnal":                  false,
-    "juvenileColorPhase":         false,
-    "copperSensitive":            null,
+    "breedingDifficulty": "moderate",
+    "breedingNotes": "Egg-scatterer; adults eat own eggs and fry. Spawning mop or dense Java moss needed. Relatively straightforward once conditioning is established.",
+    "conspecificAggression": "low",
+    "finNippy": false,
+    "reefSafe": null,
+    "escapeRisk": "low",
+    "venomousSpines": false,
+    "sexChange": "none",
+    "haremic": false,
+    "caudalScalpel": false,
+    "nocturnal": false,
+    "juvenileColorPhase": false,
+    "copperSensitive": null,
     "speciesOnlyTankRecommended": false,
-    "requiresHitchingPost":       false,
-    "monogamousPairing":          false,
-    "hlleSusceptible":            false,
-    "toxicToTank":                false,
-    "feedingDifficulty":          "moderate",
-    "symbioticShrimpPartner":     false,
-    "mouthbrooder":               false,
-    "constantGrazer":             false,
-    "cleanerFish":                false,
-    "euryhaline":                 false
+    "requiresHitchingPost": false,
+    "monogamousPairing": false,
+    "hlleSusceptible": false,
+    "toxicToTank": false,
+    "feedingDifficulty": "moderate",
+    "symbioticShrimpPartner": false,
+    "mouthbrooder": false,
+    "constantGrazer": false,
+    "cleanerFish": false,
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
-  "crustacean":  null,
-  "coral":       null,
-  "mollusc":     null,
-  "echinoderm":  null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
   "other-invert": null,
-  "plant":       null,
-  "macroalgae":  null,
+  "plant": null,
+  "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus":    "researched",
-  "lastReviewed":  null
+  "dataStatus": "researched",
+  "lastReviewed": null
 }

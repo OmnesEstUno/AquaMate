@@ -17,21 +17,48 @@
     "order": "Siluriformes"
   },
   "nativeRange": {
-    "regions": ["Central America", "South America"],
-    "countries": ["Panama", "Colombia"],
+    "regions": [
+      "Central America",
+      "South America"
+    ],
+    "countries": [
+      "Panama",
+      "Colombia"
+    ],
     "habitat": "Fast-moving, well-oxygenated rivers and streams on both Pacific and Caribbean slopes; rocky substrates with abundant biofilm (aufwuchs) and algae growth; clear to slightly turbid water with good flow",
     "biotope": "River",
-    "depthRangeM": { "min": 0, "max": 5 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 5
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 20, "max": 26 },
-    "pH": { "min": 6.5, "max": 7.5 },
-    "gH": { "min": 5, "max": 20 },
-    "kH": { "min": 2, "max": 10 },
+    "temperatureC": {
+      "min": 20,
+      "max": 26
+    },
+    "pH": {
+      "min": 6.5,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 5,
+      "max": 20
+    },
+    "kH": {
+      "min": 2,
+      "max": 10
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 20.0, "max": 26.0 },
-  "lifespanYears": { "min": 5, "max": 10 },
+  "adultSizeCm": {
+    "min": 20,
+    "max": 26
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 10
+  },
   "tank": {
     "minVolumeLiters": 200,
     "minLengthCm": 120,
@@ -148,7 +175,9 @@
     "mouthbrooder": false,
     "constantGrazer": true,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

@@ -6,28 +6,54 @@
   "waterType": "freshwater",
   "commonName": "Boesemani Rainbow",
   "scientificName": "Melanotaenia boesemani",
-  "alsoKnownAs": ["Boeseman's Rainbowfish", "Boesemani Rainbowfish"],
+  "alsoKnownAs": [
+    "Boeseman's Rainbowfish",
+    "Boesemani Rainbowfish"
+  ],
   "category": "Rainbowfish",
   "taxonomy": {
     "family": "Melanotaeniidae",
     "order": "Atheriniformes"
   },
   "nativeRange": {
-    "regions": ["West Papua", "Vogelkop Peninsula"],
-    "countries": ["Indonesia"],
+    "regions": [
+      "West Papua",
+      "Vogelkop Peninsula"
+    ],
+    "countries": [
+      "Indonesia"
+    ],
     "habitat": "Freshwater lakes situated at the headwaters of the Ajamaru River; inhabits Lake Aitinjo and the Ajamaru Lakes system in the Irian Jaya region of West Papua",
     "biotope": "Lake",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 29 },
-    "pH": { "min": 7.0, "max": 8.0 },
-    "gH": { "min": 8, "max": 20 },
-    "kH": { "min": 5, "max": 12 },
+    "temperatureC": {
+      "min": 24,
+      "max": 29
+    },
+    "pH": {
+      "min": 7,
+      "max": 8
+    },
+    "gH": {
+      "min": 8,
+      "max": 20
+    },
+    "kH": {
+      "min": 5,
+      "max": 12
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 7, "max": 10 },
-  "lifespanYears": { "min": 5, "max": 8 },
+  "adultSizeCm": {
+    "min": 7,
+    "max": 10
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 8
+  },
   "tank": {
     "minVolumeLiters": 200,
     "minLengthCm": 120,
@@ -112,7 +138,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

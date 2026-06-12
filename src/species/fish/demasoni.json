@@ -6,27 +6,51 @@
   "waterType": "freshwater",
   "commonName": "Demasoni Cichlid",
   "scientificName": "Chindongo demasoni",
-  "alsoKnownAs": ["Demasoni", "Pseudotropheus demasoni", "Dwarf Mbuna"],
+  "alsoKnownAs": [
+    "Demasoni",
+    "Pseudotropheus demasoni",
+    "Dwarf Mbuna"
+  ],
   "category": "Cichlid",
   "taxonomy": {
     "family": "Cichlidae",
     "order": "Cichliformes"
   },
   "nativeRange": {
-    "regions": ["East Africa", "Lake Malawi"],
-    "countries": ["Tanzania"],
+    "regions": [
+      "East Africa",
+      "Lake Malawi"
+    ],
+    "countries": [
+      "Tanzania"
+    ],
     "habitat": "Rocky littoral zone of Lake Malawi; endemic to Pombo Rocks off the Tanzanian coast. Demersal; associated with boulder-strewn rock surfaces and crevices.",
     "biotope": "Rift Lake",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 28 },
-    "pH": { "min": 7.6, "max": 8.8 },
-    "gH": { "min": 10, "max": 25 },
-    "kH": { "min": 8, "max": 20 },
+    "temperatureC": {
+      "min": 24,
+      "max": 28
+    },
+    "pH": {
+      "min": 7.6,
+      "max": 8.8
+    },
+    "gH": {
+      "min": 10,
+      "max": 25
+    },
+    "kH": {
+      "min": 8,
+      "max": 20
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 5, "max": 8 },
+  "adultSizeCm": {
+    "min": 5,
+    "max": 8
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 200,
@@ -108,7 +132,9 @@
     "mouthbrooder": true,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

@@ -6,28 +6,56 @@
   "waterType": "freshwater",
   "commonName": "Rummy Nose Tetra",
   "scientificName": "Hemigrammus rhodostomus",
-  "alsoKnownAs": ["True Rummy Nose Tetra", "Firehead Tetra (H. bleheri)", "False Rummy Nose Tetra (Petitella georgiae)", "Rummy-Nose Tetra"],
+  "alsoKnownAs": [
+    "True Rummy Nose Tetra",
+    "Firehead Tetra (H. bleheri)",
+    "False Rummy Nose Tetra (Petitella georgiae)",
+    "Rummy-Nose Tetra"
+  ],
   "category": "Tetra",
   "taxonomy": {
     "family": "Characidae",
     "order": "Characiformes"
   },
   "nativeRange": {
-    "regions": ["South America"],
-    "countries": ["Brazil", "Venezuela"],
+    "regions": [
+      "South America"
+    ],
+    "countries": [
+      "Brazil",
+      "Venezuela"
+    ],
     "habitat": "Blackwater rivers and tributaries; tannin-stained, warm, soft, acidic waters with leaf litter substrate and dense riparian vegetation",
     "biotope": "Blackwater",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 28 },
-    "pH": { "min": 5.5, "max": 7.0 },
-    "gH": { "min": 1, "max": 12 },
-    "kH": { "min": 1, "max": 5 },
+    "temperatureC": {
+      "min": 24,
+      "max": 28
+    },
+    "pH": {
+      "min": 5.5,
+      "max": 7
+    },
+    "gH": {
+      "min": 1,
+      "max": 12
+    },
+    "kH": {
+      "min": 1,
+      "max": 5
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 4.5, "max": 5.0 },
-  "lifespanYears": { "min": 5, "max": 8 },
+  "adultSizeCm": {
+    "min": 4.5,
+    "max": 5
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 8
+  },
   "tank": {
     "minVolumeLiters": 100,
     "minLengthCm": 90,
@@ -124,7 +152,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

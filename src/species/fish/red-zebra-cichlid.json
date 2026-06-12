@@ -16,21 +16,47 @@
     "order": "Cichliformes"
   },
   "nativeRange": {
-    "regions": ["East Africa", "Rift Valley"],
-    "countries": ["Malawi"],
+    "regions": [
+      "East Africa",
+      "Rift Valley"
+    ],
+    "countries": [
+      "Malawi"
+    ],
     "habitat": "Rocky littoral zone of Lake Malawi; found among boulders and rock piles in the upper 15 m of the water column",
     "biotope": "African Rift Lake (mbuna rocky)",
-    "depthRangeM": { "min": 2, "max": 15 }
+    "depthRangeM": {
+      "min": 2,
+      "max": 15
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 28 },
-    "pH": { "min": 7.8, "max": 8.6 },
-    "gH": { "min": 10, "max": 20 },
-    "kH": { "min": 8, "max": 15 },
+    "temperatureC": {
+      "min": 24,
+      "max": 28
+    },
+    "pH": {
+      "min": 7.8,
+      "max": 8.6
+    },
+    "gH": {
+      "min": 10,
+      "max": 20
+    },
+    "kH": {
+      "min": 8,
+      "max": 15
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 10.0, "max": 12.0 },
-  "lifespanYears": { "min": 5, "max": 10 },
+  "adultSizeCm": {
+    "min": 10,
+    "max": 12
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 10
+  },
   "tank": {
     "minVolumeLiters": 200,
     "minLengthCm": 120,
@@ -152,7 +178,9 @@
     "mouthbrooder": true,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

@@ -6,33 +6,66 @@
   "waterType": "freshwater",
   "commonName": "Penguin Tetra",
   "scientificName": "Thayeria boehlkei",
-  "alsoKnownAs": ["Blackline Penguinfish", "Hockeystick Tetra", "False Penguin Tetra"],
+  "alsoKnownAs": [
+    "Blackline Penguinfish",
+    "Hockeystick Tetra",
+    "False Penguin Tetra"
+  ],
   "category": "Tetra",
   "taxonomy": {
     "family": "Characidae",
     "order": "Characiformes"
   },
   "nativeRange": {
-    "regions": ["South America"],
-    "countries": ["Peru", "Brazil"],
+    "regions": [
+      "South America"
+    ],
+    "countries": [
+      "Peru",
+      "Brazil"
+    ],
     "habitat": "Backwaters, floodplains, and tributaries of the upper Amazon basin and Araguaia River; typically slow-moving or still water with dense vegetation",
     "biotope": "Amazonian blackwater/clearwater",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 28 },
-    "pH": { "min": 6.0, "max": 8.0 },
-    "gH": { "min": 5, "max": 20 },
-    "kH": { "min": 3, "max": 15 },
+    "temperatureC": {
+      "min": 22,
+      "max": 28
+    },
+    "pH": {
+      "min": 6,
+      "max": 8
+    },
+    "gH": {
+      "min": 5,
+      "max": 20
+    },
+    "kH": {
+      "min": 3,
+      "max": 15
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 6.0, "max": 7.5 },
-  "lifespanYears": { "min": 3, "max": 5 },
+  "adultSizeCm": {
+    "min": 6,
+    "max": 7.5
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 100,
     "minLengthCm": 80,
     "swimZone": "top",
-    "decorPreferences": ["dense planting along sides and back", "driftwood", "leaf litter", "open swimming space in mid-tank", "dim or shaded lighting"],
+    "decorPreferences": [
+      "dense planting along sides and back",
+      "driftwood",
+      "leaf litter",
+      "open swimming space in mid-tank",
+      "dim or shaded lighting"
+    ],
     "minSandDepthCm": null
   },
   "careLevel": "beginner",
@@ -44,8 +77,21 @@
     "temperament": "peaceful",
     "grouping": "schooling",
     "minGroupSize": 6,
-    "goodWith": ["small tetras", "pencilfish", "rasboras", "Corydoras", "Apistogramma and other dwarf cichlids", "small barbs", "loaches"],
-    "avoidWith": ["angelfish", "guppies and other long-finned fish", "Siamese fighting fish", "large or aggressive cichlids"]
+    "goodWith": [
+      "small tetras",
+      "pencilfish",
+      "rasboras",
+      "Corydoras",
+      "Apistogramma and other dwarf cichlids",
+      "small barbs",
+      "loaches"
+    ],
+    "avoidWith": [
+      "angelfish",
+      "guppies and other long-finned fish",
+      "Siamese fighting fish",
+      "large or aggressive cichlids"
+    ]
   },
   "media": {
     "primaryImage": "penguin_tetra.jpg",
@@ -101,7 +147,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

@@ -18,21 +18,46 @@
     "order": "Cichliformes"
   },
   "nativeRange": {
-    "regions": ["East Africa"],
-    "countries": ["Kenya"],
+    "regions": [
+      "East Africa"
+    ],
+    "countries": [
+      "Kenya"
+    ],
     "habitat": "Endemic to Lake Turkana (formerly Lake Rudolf), the world’s largest permanent alkaline desert lake. Shallow rocky and sandy shoreline zones with volcanic substrate; benthopelagic. The lake has no surface drainage outlet, producing highly alkaline and slightly saline conditions (natural pH 9.1–9.4). Aquacultured fish adapt readily to more moderate aquarium chemistry.",
     "biotope": "African Rift Lake",
-    "depthRangeM": { "min": 0, "max": 10 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 10
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 27 },
-    "pH": { "min": 7.5, "max": 8.5 },
-    "gH": { "min": 10, "max": 20 },
-    "kH": { "min": 8, "max": 15 },
+    "temperatureC": {
+      "min": 24,
+      "max": 27
+    },
+    "pH": {
+      "min": 7.5,
+      "max": 8.5
+    },
+    "gH": {
+      "min": 10,
+      "max": 20
+    },
+    "kH": {
+      "min": 8,
+      "max": 15
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 7.0, "max": 10.0 },
-  "lifespanYears": { "min": 4, "max": 7 },
+  "adultSizeCm": {
+    "min": 7,
+    "max": 10
+  },
+  "lifespanYears": {
+    "min": 4,
+    "max": 7
+  },
   "tank": {
     "minVolumeLiters": 110,
     "minLengthCm": 90,
@@ -144,7 +169,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

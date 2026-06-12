@@ -17,21 +17,47 @@
     "order": "Cypriniformes"
   },
   "nativeRange": {
-    "regions": ["North America", "Southeastern United States"],
-    "countries": ["United States"],
+    "regions": [
+      "North America",
+      "Southeastern United States"
+    ],
+    "countries": [
+      "United States"
+    ],
     "habitat": "Small, low-turbidity headwater streams with gravelly and sandy riffles and pools; also springs and small clear streams with moderate to strong current and high dissolved oxygen",
     "biotope": "Appalachian foothill stream",
-    "depthRangeM": { "min": 0, "max": 1 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 1
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 4, "max": 22 },
-    "pH": { "min": 6.8, "max": 7.8 },
-    "gH": { "min": 4, "max": 18 },
-    "kH": { "min": 2, "max": 10 },
+    "temperatureC": {
+      "min": 4,
+      "max": 22
+    },
+    "pH": {
+      "min": 6.8,
+      "max": 7.8
+    },
+    "gH": {
+      "min": 4,
+      "max": 18
+    },
+    "kH": {
+      "min": 2,
+      "max": 10
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 5.0, "max": 8.1 },
-  "lifespanYears": { "min": 3, "max": 5 },
+  "adultSizeCm": {
+    "min": 5,
+    "max": 8.1
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 80,
     "minLengthCm": 90,
@@ -156,7 +182,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

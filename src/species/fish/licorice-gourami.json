@@ -17,21 +17,46 @@
     "order": "Anabantiformes"
   },
   "nativeRange": {
-    "regions": ["Southeast Asia"],
-    "countries": ["Indonesia"],
+    "regions": [
+      "Southeast Asia"
+    ],
+    "countries": [
+      "Indonesia"
+    ],
     "habitat": "Shallow, heavily shaded blackwater streams, forest pools, and peat swamps on Bangka Island; water stained dark brown by tannins from decomposing leaf litter and submerged vegetation; near-zero hardness, very low conductivity",
     "biotope": "Blackwater peat swamp",
-    "depthRangeM": { "min": 0.1, "max": 0.5 }
+    "depthRangeM": {
+      "min": 0.1,
+      "max": 0.5
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 28 },
-    "pH": { "min": 4.0, "max": 5.5 },
-    "gH": { "min": 0, "max": 3 },
-    "kH": { "min": 0, "max": 1 },
+    "temperatureC": {
+      "min": 22,
+      "max": 28
+    },
+    "pH": {
+      "min": 4,
+      "max": 5.5
+    },
+    "gH": {
+      "min": 0,
+      "max": 3
+    },
+    "kH": {
+      "min": 0,
+      "max": 1
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 2.5, "max": 3.5 },
-  "lifespanYears": { "min": 3, "max": 5 },
+  "adultSizeCm": {
+    "min": 2.5,
+    "max": 3.5
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 40,
     "minLengthCm": 45,
@@ -154,7 +179,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

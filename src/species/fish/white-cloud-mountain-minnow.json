@@ -20,21 +20,48 @@
     "order": "Cypriniformes"
   },
   "nativeRange": {
-    "regions": ["East Asia", "Southeast Asia"],
-    "countries": ["China", "Vietnam"],
+    "regions": [
+      "East Asia",
+      "Southeast Asia"
+    ],
+    "countries": [
+      "China",
+      "Vietnam"
+    ],
     "habitat": "Clear, fast-flowing, well-oxygenated mountain streams with rocky substrate, abundant aquatic vegetation, and leaf litter; cooler hill and mountain habitats typically above 300 m elevation",
     "biotope": "Mountain stream",
-    "depthRangeM": { "min": 0, "max": 1 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 1
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 16, "max": 24 },
-    "pH": { "min": 6.0, "max": 8.0 },
-    "gH": { "min": 2, "max": 15 },
-    "kH": { "min": 1, "max": 8 },
+    "temperatureC": {
+      "min": 16,
+      "max": 24
+    },
+    "pH": {
+      "min": 6,
+      "max": 8
+    },
+    "gH": {
+      "min": 2,
+      "max": 15
+    },
+    "kH": {
+      "min": 1,
+      "max": 8
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 3.0, "max": 4.0 },
-  "lifespanYears": { "min": 3, "max": 5 },
+  "adultSizeCm": {
+    "min": 3,
+    "max": 4
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 40,
     "minLengthCm": 50,
@@ -149,7 +176,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

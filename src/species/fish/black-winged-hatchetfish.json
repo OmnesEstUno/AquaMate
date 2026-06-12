@@ -16,21 +16,49 @@
     "order": "Characiformes"
   },
   "nativeRange": {
-    "regions": ["South America"],
-    "countries": ["Venezuela", "Colombia", "Brazil", "Peru"],
+    "regions": [
+      "South America"
+    ],
+    "countries": [
+      "Venezuela",
+      "Colombia",
+      "Brazil",
+      "Peru"
+    ],
     "habitat": "Blackwater forest streams and river margins with overhanging vegetation; surface-oriented in slow to still water with heavy leaf litter and tannin-stained water",
     "biotope": "Blackwater",
-    "depthRangeM": { "min": 0, "max": 0.5 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 0.5
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 28 },
-    "pH": { "min": 4.5, "max": 6.5 },
-    "gH": { "min": 0, "max": 8 },
-    "kH": { "min": 0, "max": 4 },
+    "temperatureC": {
+      "min": 23,
+      "max": 28
+    },
+    "pH": {
+      "min": 4.5,
+      "max": 6.5
+    },
+    "gH": {
+      "min": 0,
+      "max": 8
+    },
+    "kH": {
+      "min": 0,
+      "max": 4
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 3.0, "max": 3.5 },
-  "lifespanYears": { "min": 3, "max": 5 },
+  "adultSizeCm": {
+    "min": 3,
+    "max": 3.5
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 60,
     "minLengthCm": 60,
@@ -152,7 +180,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

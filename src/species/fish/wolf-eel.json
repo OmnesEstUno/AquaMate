@@ -27,7 +27,10 @@
     ],
     "habitat": "Rocky subtidal zones, caves, and crevices from shallow water to approximately 226 m depth; juveniles are pelagic for up to two years before settling into rocky reef habitats",
     "biotope": "Reef",
-    "depthRangeM": { "min": 0, "max": 226 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 226
+    }
   },
   "waterParameters": {
     "temperatureC": {
@@ -150,7 +153,9 @@
     "mouthbrooder": null,
     "constantGrazer": null,
     "cleanerFish": null,
-    "euryhaline": null
+    "euryhaline": null,
+    "eatsPlantsRisk": null,
+    "obligateCorallivore": false
   },
   "crustacean": null,
   "coral": null,

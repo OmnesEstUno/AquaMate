@@ -6,27 +6,52 @@
   "waterType": "freshwater",
   "commonName": "Angelicus Loach",
   "scientificName": "Botia kubotai",
-  "alsoKnownAs": ["Polka Dot Loach", "Marble Loach", "Marbled Loach", "Cloud Botia"],
+  "alsoKnownAs": [
+    "Polka Dot Loach",
+    "Marble Loach",
+    "Marbled Loach",
+    "Cloud Botia"
+  ],
   "category": "Loach",
   "taxonomy": {
     "family": "Botiidae",
     "order": "Cypriniformes"
   },
   "nativeRange": {
-    "regions": ["Southeast Asia"],
-    "countries": ["Myanmar", "Thailand"],
+    "regions": [
+      "Southeast Asia"
+    ],
+    "countries": [
+      "Myanmar",
+      "Thailand"
+    ],
     "habitat": "Forest-shaded, well-oxygenated headwaters with clear water; mixed sand and rock substrate with submerged driftwood and leaf litter. Documented in the Ataran River basin (Kayin State, Myanmar) and the Hanthayaw/Suriya River (Tak Province, Thailand) — both draining into the Salween/Ataran system.",
     "biotope": "Clearwater",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 28 },
-    "pH": { "min": 6.0, "max": 7.5 },
-    "gH": { "min": 2, "max": 12 },
-    "kH": { "min": 2, "max": 10 },
+    "temperatureC": {
+      "min": 22,
+      "max": 28
+    },
+    "pH": {
+      "min": 6,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 2,
+      "max": 12
+    },
+    "kH": {
+      "min": 2,
+      "max": 10
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 10, "max": 15 },
+  "adultSizeCm": {
+    "min": 10,
+    "max": 15
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 150,
@@ -124,7 +149,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

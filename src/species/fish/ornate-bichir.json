@@ -16,7 +16,10 @@
     "order": "Polypteriformes"
   },
   "nativeRange": {
-    "regions": ["Central Africa", "East Africa"],
+    "regions": [
+      "Central Africa",
+      "East Africa"
+    ],
     "countries": [
       "Democratic Republic of Congo",
       "Republic of Congo",
@@ -27,17 +30,38 @@
     ],
     "habitat": "Calm, shallow freshwater: swamps, marshes, floodplains, rivers, and lake margins with fine substrates; inhabits areas with low dissolved oxygen where access to surface air is critical",
     "biotope": "Congo basin / Lake Tanganyika margin",
-    "depthRangeM": { "min": 0, "max": 3 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 3
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 25, "max": 28 },
-    "pH": { "min": 6.0, "max": 8.0 },
-    "gH": { "min": 5, "max": 25 },
-    "kH": { "min": 1, "max": 12 },
+    "temperatureC": {
+      "min": 25,
+      "max": 28
+    },
+    "pH": {
+      "min": 6,
+      "max": 8
+    },
+    "gH": {
+      "min": 5,
+      "max": 25
+    },
+    "kH": {
+      "min": 1,
+      "max": 12
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 45, "max": 60 },
-  "lifespanYears": { "min": 15, "max": 25 },
+  "adultSizeCm": {
+    "min": 45,
+    "max": 60
+  },
+  "lifespanYears": {
+    "min": 15,
+    "max": 25
+  },
   "tank": {
     "minVolumeLiters": 650,
     "minLengthCm": 180,
@@ -154,7 +178,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

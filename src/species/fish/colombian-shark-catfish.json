@@ -17,21 +17,59 @@
     "order": "Siluriformes"
   },
   "nativeRange": {
-    "regions": ["Central America", "South America"],
-    "countries": ["Mexico", "Guatemala", "El Salvador", "Honduras", "Nicaragua", "Costa Rica", "Panama", "Colombia", "Ecuador", "Peru"],
+    "regions": [
+      "Central America",
+      "South America"
+    ],
+    "countries": [
+      "Mexico",
+      "Guatemala",
+      "El Salvador",
+      "Honduras",
+      "Nicaragua",
+      "Costa Rica",
+      "Panama",
+      "Colombia",
+      "Ecuador",
+      "Peru"
+    ],
     "habitat": "Coastal marine, estuarine, and tidal river mouths along the Pacific coast; adults are principally marine, juveniles use brackish and occasionally freshwater estuaries as nursery habitat",
     "biotope": "Estuary",
-    "depthRangeM": { "min": 0, "max": 40 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 40
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 28 },
-    "pH": { "min": 7.0, "max": 8.5 },
-    "gH": { "min": 10, "max": 30 },
-    "kH": { "min": 6, "max": 20 },
-    "salinity": { "min": 1.000, "max": 1.025 }
+    "temperatureC": {
+      "min": 22,
+      "max": 28
+    },
+    "pH": {
+      "min": 7,
+      "max": 8.5
+    },
+    "gH": {
+      "min": 10,
+      "max": 30
+    },
+    "kH": {
+      "min": 6,
+      "max": 20
+    },
+    "salinity": {
+      "min": 1,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 25.0, "max": 35.0 },
-  "lifespanYears": { "min": 10, "max": 15 },
+  "adultSizeCm": {
+    "min": 25,
+    "max": 35
+  },
+  "lifespanYears": {
+    "min": 10,
+    "max": 15
+  },
   "tank": {
     "minVolumeLiters": 400,
     "minLengthCm": 180,
@@ -152,7 +190,9 @@
     "mouthbrooder": true,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": true
+    "euryhaline": true,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

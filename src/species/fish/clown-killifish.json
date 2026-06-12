@@ -36,8 +36,8 @@
       "max": 26
     },
     "pH": {
-      "min": 4.0,
-      "max": 7.0
+      "min": 4,
+      "max": 7
     },
     "gH": {
       "min": 1,
@@ -50,8 +50,8 @@
     "salinity": null
   },
   "adultSizeCm": {
-    "min": 3.0,
-    "max": 4.0
+    "min": 3,
+    "max": 4
   },
   "lifespanYears": {
     "min": 2,
@@ -151,7 +151,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

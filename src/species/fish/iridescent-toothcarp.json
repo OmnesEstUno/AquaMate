@@ -17,21 +17,53 @@
     "order": "Cyprinodontiformes"
   },
   "nativeRange": {
-    "regions": ["Middle East", "Western Asia"],
-    "countries": ["Turkey", "Syria", "Lebanon", "Israel", "Jordan", "Iraq", "Iran"],
+    "regions": [
+      "Middle East",
+      "Western Asia"
+    ],
+    "countries": [
+      "Turkey",
+      "Syria",
+      "Lebanon",
+      "Israel",
+      "Jordan",
+      "Iraq",
+      "Iran"
+    ],
     "habitat": "Coastal lagoons, brackish marshes, springs, first-order streams, irrigation canals, and small lakes; marginal zones with dense submerged or filamentous vegetation in fresh to slightly brackish water",
     "biotope": "Hard alkaline spring and stream",
-    "depthRangeM": { "min": 0, "max": 1 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 1
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 10, "max": 28 },
-    "pH": { "min": 7.5, "max": 9.0 },
-    "gH": { "min": 10, "max": 30 },
-    "kH": { "min": 5, "max": 20 },
+    "temperatureC": {
+      "min": 10,
+      "max": 28
+    },
+    "pH": {
+      "min": 7.5,
+      "max": 9
+    },
+    "gH": {
+      "min": 10,
+      "max": 30
+    },
+    "kH": {
+      "min": 5,
+      "max": 20
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 3.5, "max": 7.0 },
-  "lifespanYears": { "min": 2, "max": 3 },
+  "adultSizeCm": {
+    "min": 3.5,
+    "max": 7
+  },
+  "lifespanYears": {
+    "min": 2,
+    "max": 3
+  },
   "tank": {
     "minVolumeLiters": 60,
     "minLengthCm": 60,
@@ -139,7 +171,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": true
+    "euryhaline": true,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

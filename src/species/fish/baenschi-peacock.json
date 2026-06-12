@@ -17,21 +17,47 @@
     "order": "Cichliformes"
   },
   "nativeRange": {
-    "regions": ["East Africa", "Rift Valley"],
-    "countries": ["Malawi"],
+    "regions": [
+      "East Africa",
+      "Rift Valley"
+    ],
+    "countries": [
+      "Malawi"
+    ],
     "habitat": "Sandy substrate near rocky shorelines and transition zones between rock and open sand; found over areas of fine sand where males hover and sift for invertebrates",
     "biotope": "Lake Malawi — sandy benthic zone near rock-sand interfaces",
-    "depthRangeM": { "min": 5, "max": 25 }
+    "depthRangeM": {
+      "min": 5,
+      "max": 25
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 28 },
-    "pH": { "min": 7.8, "max": 8.6 },
-    "gH": { "min": 10, "max": 20 },
-    "kH": { "min": 8, "max": 16 },
+    "temperatureC": {
+      "min": 24,
+      "max": 28
+    },
+    "pH": {
+      "min": 7.8,
+      "max": 8.6
+    },
+    "gH": {
+      "min": 10,
+      "max": 20
+    },
+    "kH": {
+      "min": 8,
+      "max": 16
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 10.0, "max": 13.0 },
-  "lifespanYears": { "min": 5, "max": 8 },
+  "adultSizeCm": {
+    "min": 10,
+    "max": 13
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 8
+  },
   "tank": {
     "minVolumeLiters": 200,
     "minLengthCm": 120,
@@ -152,7 +178,9 @@
     "mouthbrooder": true,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

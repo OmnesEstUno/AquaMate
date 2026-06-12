@@ -18,21 +18,46 @@
     "order": "Cypriniformes"
   },
   "nativeRange": {
-    "regions": ["Southeast Asia"],
-    "countries": ["Myanmar"],
+    "regions": [
+      "Southeast Asia"
+    ],
+    "countries": [
+      "Myanmar"
+    ],
     "habitat": "Lake Inle and immediately connected waters, a large shallow calcareous highland lake in Shan State, Myanmar; clear, hard, alkaline water over silty and sandy substrate with dense emergent and submerged aquatic vegetation (Vallisneria, Hydrilla, Ceratophyllum)",
     "biotope": "Highland calcareous lake",
-    "depthRangeM": { "min": 0.3, "max": 3 }
+    "depthRangeM": {
+      "min": 0.3,
+      "max": 3
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 20, "max": 26 },
-    "pH": { "min": 7.5, "max": 8.5 },
-    "gH": { "min": 10, "max": 25 },
-    "kH": { "min": 6, "max": 15 },
+    "temperatureC": {
+      "min": 20,
+      "max": 26
+    },
+    "pH": {
+      "min": 7.5,
+      "max": 8.5
+    },
+    "gH": {
+      "min": 10,
+      "max": 25
+    },
+    "kH": {
+      "min": 6,
+      "max": 15
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 1.5, "max": 2.0 },
-  "lifespanYears": { "min": 3, "max": 5 },
+  "adultSizeCm": {
+    "min": 1.5,
+    "max": 2
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 40,
     "minLengthCm": 45,
@@ -154,7 +179,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

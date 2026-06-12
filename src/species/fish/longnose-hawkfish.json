@@ -15,20 +15,41 @@
     "order": "Centrarchiformes"
   },
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Eastern Pacific"],
+    "regions": [
+      "Indo-Pacific",
+      "Eastern Pacific"
+    ],
     "countries": [],
     "habitat": "Outer reef slopes with strong currents; commonly perches on large gorgonians and black-coral colonies.",
     "biotope": "Reef",
-    "depthRangeM": { "min": 10, "max": 100 }
+    "depthRangeM": {
+      "min": 10,
+      "max": 100
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 27 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 23,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 12, "max": 13 },
+  "adultSizeCm": {
+    "min": 12,
+    "max": 13
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 200,
@@ -116,7 +137,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": null,
+    "obligateCorallivore": false
   },
   "crustacean": null,
   "coral": null,

@@ -6,28 +6,60 @@
   "waterType": "freshwater",
   "commonName": "Dojo Loach",
   "scientificName": "Misgurnus anguillicaudatus",
-  "alsoKnownAs": ["Weather Loach", "Oriental Weather Loach", "Pond Loach"],
+  "alsoKnownAs": [
+    "Weather Loach",
+    "Oriental Weather Loach",
+    "Pond Loach"
+  ],
   "category": "Loach",
   "taxonomy": {
     "family": "Cobitidae",
     "order": "Cypriniformes"
   },
   "nativeRange": {
-    "regions": ["East Asia", "Southeast Asia"],
-    "countries": ["China", "Japan", "South Korea", "North Korea", "Russia", "Vietnam"],
+    "regions": [
+      "East Asia",
+      "Southeast Asia"
+    ],
+    "countries": [
+      "China",
+      "Japan",
+      "South Korea",
+      "North Korea",
+      "Russia",
+      "Vietnam"
+    ],
     "habitat": "Shallow, slow-moving or still freshwater — rivers, lakes, ponds, swamps, and rice paddies with muddy or silty bottoms",
     "biotope": "Pond",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 5, "max": 25 },
-    "pH": { "min": 6.0, "max": 8.0 },
-    "gH": { "min": 5, "max": 15 },
-    "kH": { "min": 2, "max": 15 },
+    "temperatureC": {
+      "min": 5,
+      "max": 25
+    },
+    "pH": {
+      "min": 6,
+      "max": 8
+    },
+    "gH": {
+      "min": 5,
+      "max": 15
+    },
+    "kH": {
+      "min": 2,
+      "max": 15
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 10, "max": 25 },
-  "lifespanYears": { "min": 7, "max": 10 },
+  "adultSizeCm": {
+    "min": 10,
+    "max": 25
+  },
+  "lifespanYears": {
+    "min": 7,
+    "max": 10
+  },
   "tank": {
     "minVolumeLiters": 200,
     "minLengthCm": 120,
@@ -120,7 +152,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

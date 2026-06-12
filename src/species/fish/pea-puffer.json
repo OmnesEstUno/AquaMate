@@ -6,28 +6,55 @@
   "waterType": "freshwater",
   "commonName": "Pea Puffer",
   "scientificName": "Carinotetraodon travancoricus",
-  "alsoKnownAs": ["Dwarf Puffer", "Indian Dwarf Puffer", "Malabar Puffer", "Pygmy Puffer"],
+  "alsoKnownAs": [
+    "Dwarf Puffer",
+    "Indian Dwarf Puffer",
+    "Malabar Puffer",
+    "Pygmy Puffer"
+  ],
   "category": "Oddball",
   "taxonomy": {
     "family": "Tetraodontidae",
     "order": "Tetraodontiformes"
   },
   "nativeRange": {
-    "regions": ["South Asia"],
-    "countries": ["India"],
+    "regions": [
+      "South Asia"
+    ],
+    "countries": [
+      "India"
+    ],
     "habitat": "Freshwater rivers, lakes, and backwaters of Kerala (southwestern India); demersal in densely vegetated slow-moving water",
     "biotope": "Kerala freshwater — soft substrate with heavy aquatic vegetation; slow to moderate current",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 28 },
-    "pH": { "min": 6.5, "max": 7.5 },
-    "gH": { "min": 4, "max": 15 },
-    "kH": { "min": 4, "max": 10 },
+    "temperatureC": {
+      "min": 22,
+      "max": 28
+    },
+    "pH": {
+      "min": 6.5,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 4,
+      "max": 15
+    },
+    "kH": {
+      "min": 4,
+      "max": 10
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 2.5, "max": 3.5 },
-  "lifespanYears": { "min": 3, "max": 5 },
+  "adultSizeCm": {
+    "min": 2.5,
+    "max": 3.5
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 40,
     "minLengthCm": 45,
@@ -117,7 +144,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

@@ -15,21 +15,47 @@
     "order": "Cypriniformes"
   },
   "nativeRange": {
-    "regions": ["Southeast Asia", "Borneo"],
-    "countries": ["Indonesia"],
+    "regions": [
+      "Southeast Asia",
+      "Borneo"
+    ],
+    "countries": [
+      "Indonesia"
+    ],
     "habitat": "Shallow, slow-moving blackwater streams and forest peat swamps with dense leaf litter, submerged roots, and riparian vegetation; highly stained, extremely soft and acidic water with near-zero hardness",
     "biotope": "Blackwater peat swamp",
-    "depthRangeM": { "min": 0, "max": 1 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 1
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 20, "max": 28 },
-    "pH": { "min": 4.0, "max": 6.5 },
-    "gH": { "min": 0, "max": 5 },
-    "kH": { "min": 0, "max": 2 },
+    "temperatureC": {
+      "min": 20,
+      "max": 28
+    },
+    "pH": {
+      "min": 4,
+      "max": 6.5
+    },
+    "gH": {
+      "min": 0,
+      "max": 5
+    },
+    "kH": {
+      "min": 0,
+      "max": 2
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 1.5, "max": 2.0 },
-  "lifespanYears": { "min": 3, "max": 5 },
+  "adultSizeCm": {
+    "min": 1.5,
+    "max": 2
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 40,
     "minLengthCm": 45,
@@ -143,7 +169,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

@@ -6,28 +6,55 @@
   "waterType": "freshwater",
   "commonName": "Yoyo Loach",
   "scientificName": "Botia almorhae",
-  "alsoKnownAs": ["Yo-Yo Loach", "Pakistani Loach", "Almorha Loach"],
+  "alsoKnownAs": [
+    "Yo-Yo Loach",
+    "Pakistani Loach",
+    "Almorha Loach"
+  ],
   "category": "Loach",
   "taxonomy": {
     "family": "Botiidae",
     "order": "Cypriniformes"
   },
   "nativeRange": {
-    "regions": ["South Asia"],
-    "countries": ["India", "Nepal"],
+    "regions": [
+      "South Asia"
+    ],
+    "countries": [
+      "India",
+      "Nepal"
+    ],
     "habitat": "Hill streams, rocky and gravelly pools; prefers well-oxygenated water with moderate to strong flow",
     "biotope": "Fast-flowing hillstream / river",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 28 },
-    "pH": { "min": 6.0, "max": 7.5 },
-    "gH": { "min": 3, "max": 12 },
-    "kH": { "min": 3, "max": 12 },
+    "temperatureC": {
+      "min": 22,
+      "max": 28
+    },
+    "pH": {
+      "min": 6,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 3,
+      "max": 12
+    },
+    "kH": {
+      "min": 3,
+      "max": 12
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 10, "max": 15 },
-  "lifespanYears": { "min": 5, "max": 12 },
+  "adultSizeCm": {
+    "min": 10,
+    "max": 15
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 12
+  },
   "tank": {
     "minVolumeLiters": 200,
     "minLengthCm": 120,
@@ -129,7 +156,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

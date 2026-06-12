@@ -6,33 +6,65 @@
   "waterType": "freshwater",
   "commonName": "Swordtail",
   "scientificName": "Xiphophorus hellerii",
-  "alsoKnownAs": ["Green Swordtail"],
+  "alsoKnownAs": [
+    "Green Swordtail"
+  ],
   "category": "Livebearer",
   "taxonomy": {
     "family": "Poeciliidae",
     "order": "Cyprinodontiformes"
   },
   "nativeRange": {
-    "regions": ["Central America", "North America"],
-    "countries": ["Mexico", "Guatemala", "Belize", "Honduras"],
+    "regions": [
+      "Central America",
+      "North America"
+    ],
+    "countries": [
+      "Mexico",
+      "Guatemala",
+      "Belize",
+      "Honduras"
+    ],
     "habitat": "Rapidly flowing streams and rivers with heavy vegetation; also warm springs, weedy canals, and ponds.",
     "biotope": "River",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 19, "max": 28 },
-    "pH": { "min": 7.0, "max": 8.4 },
-    "gH": { "min": 10, "max": 25 },
-    "kH": { "min": 6, "max": 20 },
+    "temperatureC": {
+      "min": 19,
+      "max": 28
+    },
+    "pH": {
+      "min": 7,
+      "max": 8.4
+    },
+    "gH": {
+      "min": 10,
+      "max": 25
+    },
+    "kH": {
+      "min": 6,
+      "max": 20
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 10, "max": 16 },
-  "lifespanYears": { "min": 3, "max": 5 },
+  "adultSizeCm": {
+    "min": 10,
+    "max": 16
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 120,
     "minLengthCm": 120,
     "swimZone": "mid",
-    "decorPreferences": ["dense planting along sides and back", "open swimming space in center", "floating plants for fry cover"],
+    "decorPreferences": [
+      "dense planting along sides and back",
+      "open swimming space in center",
+      "floating plants for fry cover"
+    ],
     "minSandDepthCm": null
   },
   "careLevel": "beginner",
@@ -44,8 +76,20 @@
     "temperament": "semi-aggressive",
     "grouping": "shoaling",
     "minGroupSize": 3,
-    "goodWith": ["platy", "molly", "guppy", "corydoras", "gourami", "tetra", "rasbora"],
-    "avoidWith": ["fin-nipping species", "large aggressive cichlids", "variatus-platy (hybridization risk)"]
+    "goodWith": [
+      "platy",
+      "molly",
+      "guppy",
+      "corydoras",
+      "gourami",
+      "tetra",
+      "rasbora"
+    ],
+    "avoidWith": [
+      "fin-nipping species",
+      "large aggressive cichlids",
+      "variatus-platy (hybridization risk)"
+    ]
   },
   "media": {
     "primaryImage": "swordtail.jpg",
@@ -107,7 +151,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

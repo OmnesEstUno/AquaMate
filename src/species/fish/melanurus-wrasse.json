@@ -18,20 +18,48 @@
     "order": "Eupercaria"
   },
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Western Pacific"],
-    "countries": ["Indonesia", "Australia", "Japan", "Micronesia", "Samoa", "Tonga"],
+    "regions": [
+      "Indo-Pacific",
+      "Western Pacific"
+    ],
+    "countries": [
+      "Indonesia",
+      "Australia",
+      "Japan",
+      "Micronesia",
+      "Samoa",
+      "Tonga"
+    ],
     "habitat": "Shallow coral reefs and rocky shores; generally found solitary or in small groups on sheltered reef habitats with adjacent sandy patches for sleeping refuge.",
     "biotope": "Reef",
-    "depthRangeM": { "min": 1, "max": 15 }
+    "depthRangeM": {
+      "min": 1,
+      "max": 15
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 27 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 23,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 11, "max": 14 },
+  "adultSizeCm": {
+    "min": 11,
+    "max": 14
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 250,
@@ -129,7 +157,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": null,
+    "obligateCorallivore": false
   },
   "crustacean": null,
   "coral": null,

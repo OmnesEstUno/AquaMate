@@ -17,21 +17,46 @@
     "order": "Cichliformes"
   },
   "nativeRange": {
-    "regions": ["South America"],
-    "countries": ["Colombia"],
+    "regions": [
+      "South America"
+    ],
+    "countries": [
+      "Colombia"
+    ],
     "habitat": "Shallow, slow-moving shoreline waters of the Colombian Llanos savannah; clear-water streams and tributaries with dense marginal vegetation, leaf litter, and sandy or silty substrates; water is extremely soft and acidic",
     "biotope": "Llanos blackwater/clearwater savannah stream",
-    "depthRangeM": { "min": 0, "max": 1 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 1
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 30 },
-    "pH": { "min": 5.5, "max": 6.8 },
-    "gH": { "min": 1, "max": 8 },
-    "kH": { "min": 0, "max": 4 },
+    "temperatureC": {
+      "min": 23,
+      "max": 30
+    },
+    "pH": {
+      "min": 5.5,
+      "max": 6.8
+    },
+    "gH": {
+      "min": 1,
+      "max": 8
+    },
+    "kH": {
+      "min": 0,
+      "max": 4
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 3.5, "max": 7.0 },
-  "lifespanYears": { "min": 3, "max": 5 },
+  "adultSizeCm": {
+    "min": 3.5,
+    "max": 7
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 60,
     "minLengthCm": 60,
@@ -136,7 +161,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

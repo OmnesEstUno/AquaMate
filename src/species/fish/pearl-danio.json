@@ -6,33 +6,69 @@
   "waterType": "freshwater",
   "commonName": "Pearl Danio",
   "scientificName": "Danio albolineatus",
-  "alsoKnownAs": ["Pearl Brachydanio", "Brachydanio albolineata"],
+  "alsoKnownAs": [
+    "Pearl Brachydanio",
+    "Brachydanio albolineata"
+  ],
   "category": "Danio",
   "taxonomy": {
     "family": "Danionidae",
     "order": "Cypriniformes"
   },
   "nativeRange": {
-    "regions": ["Southeast Asia"],
-    "countries": ["Myanmar", "Thailand", "Laos", "Cambodia", "Vietnam", "Malaysia", "Indonesia"],
+    "regions": [
+      "Southeast Asia"
+    ],
+    "countries": [
+      "Myanmar",
+      "Thailand",
+      "Laos",
+      "Cambodia",
+      "Vietnam",
+      "Malaysia",
+      "Indonesia"
+    ],
     "habitat": "Hill streams and clear running waters; occupies calmer stretches and eddies near the surface",
     "biotope": "Flowing hill stream",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 18, "max": 25 },
-    "pH": { "min": 6.0, "max": 8.0 },
-    "gH": { "min": 5, "max": 20 },
-    "kH": { "min": 3, "max": 12 },
+    "temperatureC": {
+      "min": 18,
+      "max": 25
+    },
+    "pH": {
+      "min": 6,
+      "max": 8
+    },
+    "gH": {
+      "min": 5,
+      "max": 20
+    },
+    "kH": {
+      "min": 3,
+      "max": 12
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 3.5, "max": 6.0 },
-  "lifespanYears": { "min": 3, "max": 5 },
+  "adultSizeCm": {
+    "min": 3.5,
+    "max": 6
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 75,
     "minLengthCm": 90,
     "swimZone": "top",
-    "decorPreferences": ["dense planting", "floating plants", "dark substrate", "open swimming area"],
+    "decorPreferences": [
+      "dense planting",
+      "floating plants",
+      "dark substrate",
+      "open swimming area"
+    ],
     "minSandDepthCm": null
   },
   "careLevel": "beginner",
@@ -44,8 +80,21 @@
     "temperament": "peaceful",
     "grouping": "schooling",
     "minGroupSize": 6,
-    "goodWith": ["small tetras", "rasboras", "corydoras", "small loaches", "livebearers", "dwarf gouramis", "other danios", "anabantoids"],
-    "avoidWith": ["slow-moving long-finned fish", "fin nippers", "large predatory fish"]
+    "goodWith": [
+      "small tetras",
+      "rasboras",
+      "corydoras",
+      "small loaches",
+      "livebearers",
+      "dwarf gouramis",
+      "other danios",
+      "anabantoids"
+    ],
+    "avoidWith": [
+      "slow-moving long-finned fish",
+      "fin nippers",
+      "large predatory fish"
+    ]
   },
   "media": {
     "primaryImage": "pearl_danio.jpg",
@@ -107,7 +156,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

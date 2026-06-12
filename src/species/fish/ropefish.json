@@ -6,33 +6,74 @@
   "waterType": "freshwater",
   "commonName": "Ropefish",
   "scientificName": "Erpetoichthys calabaricus",
-  "alsoKnownAs": ["Reedfish", "Snakefish", "Rope Fish", "African Ropefish"],
+  "alsoKnownAs": [
+    "Reedfish",
+    "Snakefish",
+    "Rope Fish",
+    "African Ropefish"
+  ],
   "category": "Oddball",
   "taxonomy": {
     "family": "Polypteridae",
     "order": "Polypteriformes"
   },
   "nativeRange": {
-    "regions": ["West Africa", "Central Africa"],
-    "countries": ["Nigeria", "Cameroon", "Benin", "Equatorial Guinea", "Democratic Republic of the Congo", "Angola"],
+    "regions": [
+      "West Africa",
+      "Central Africa"
+    ],
+    "countries": [
+      "Nigeria",
+      "Cameroon",
+      "Benin",
+      "Equatorial Guinea",
+      "Democratic Republic of the Congo",
+      "Angola"
+    ],
     "habitat": "Slow-flowing rivers, standing waters, and densely vegetated swamps along the West and Central African coast; often associated with reedy margins of the Ouémé, Ogun, Sanaga, Chiloango, and Niger basins",
     "biotope": "Whitewater",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 28 },
-    "pH": { "min": 6.2, "max": 7.5 },
-    "gH": { "min": 5, "max": 20 },
-    "kH": { "min": 4, "max": 15 },
+    "temperatureC": {
+      "min": 23,
+      "max": 28
+    },
+    "pH": {
+      "min": 6.2,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 5,
+      "max": 20
+    },
+    "kH": {
+      "min": 4,
+      "max": 15
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 35, "max": 60 },
-  "lifespanYears": { "min": 15, "max": 20 },
+  "adultSizeCm": {
+    "min": 35,
+    "max": 60
+  },
+  "lifespanYears": {
+    "min": 15,
+    "max": 20
+  },
   "tank": {
     "minVolumeLiters": 500,
     "minLengthCm": 150,
     "swimZone": "bottom",
-    "decorPreferences": ["soft sand substrate", "driftwood", "dense planting", "caves", "PVC hides", "low flow", "subdued lighting"],
+    "decorPreferences": [
+      "soft sand substrate",
+      "driftwood",
+      "dense planting",
+      "caves",
+      "PVC hides",
+      "low flow",
+      "subdued lighting"
+    ],
     "minSandDepthCm": 5
   },
   "careLevel": "intermediate",
@@ -44,8 +85,31 @@
     "temperament": "peaceful",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["angelfish", "Severum and similar peaceful cichlids", "Synodontis catfish", "bala sharks", "tinfoil barbs", "large characins", "African butterflyfish", "knifefish", "large gouramis", "plecos", "other ropefish (with extra footprint)"],
-    "avoidWith": ["small tetras", "rasboras", "danios", "guppies", "neon tetras", "dwarf shrimp and snails", "small loaches", "aggressive cichlids (Oscar, Convict, Jack Dempsey)", "fin-nippers", "anything that fits in the mouth"]
+    "goodWith": [
+      "angelfish",
+      "Severum and similar peaceful cichlids",
+      "Synodontis catfish",
+      "bala sharks",
+      "tinfoil barbs",
+      "large characins",
+      "African butterflyfish",
+      "knifefish",
+      "large gouramis",
+      "plecos",
+      "other ropefish (with extra footprint)"
+    ],
+    "avoidWith": [
+      "small tetras",
+      "rasboras",
+      "danios",
+      "guppies",
+      "neon tetras",
+      "dwarf shrimp and snails",
+      "small loaches",
+      "aggressive cichlids (Oscar, Convict, Jack Dempsey)",
+      "fin-nippers",
+      "anything that fits in the mouth"
+    ]
   },
   "media": {
     "primaryImage": "ropefish.jpg",
@@ -113,7 +177,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

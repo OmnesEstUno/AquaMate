@@ -6,28 +6,54 @@
   "waterType": "freshwater",
   "commonName": "Lambchop Rasbora",
   "scientificName": "Trigonostigma espei",
-  "alsoKnownAs": ["Espei Rasbora", "False Harlequin Rasbora"],
+  "alsoKnownAs": [
+    "Espei Rasbora",
+    "False Harlequin Rasbora"
+  ],
   "category": "Rasbora",
   "taxonomy": {
     "family": "Danionidae",
     "order": "Cypriniformes"
   },
   "nativeRange": {
-    "regions": ["Southeast Asia"],
-    "countries": ["Thailand", "Cambodia"],
+    "regions": [
+      "Southeast Asia"
+    ],
+    "countries": [
+      "Thailand",
+      "Cambodia"
+    ],
     "habitat": "Slow-moving and still waters including ponds, pools, marshes, and swamps with heavy submerged aquatic plant growth; commonly associated with soft blackwater conditions.",
     "biotope": "Blackwater / soft-water woodland stream",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 28 },
-    "pH": { "min": 6.0, "max": 7.0 },
-    "gH": { "min": 2, "max": 12 },
-    "kH": { "min": 2, "max": 8 },
+    "temperatureC": {
+      "min": 23,
+      "max": 28
+    },
+    "pH": {
+      "min": 6,
+      "max": 7
+    },
+    "gH": {
+      "min": 2,
+      "max": 12
+    },
+    "kH": {
+      "min": 2,
+      "max": 8
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 3.0, "max": 4.0 },
-  "lifespanYears": { "min": 3, "max": 5 },
+  "adultSizeCm": {
+    "min": 3,
+    "max": 4
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 60,
     "minLengthCm": 60,
@@ -123,7 +149,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

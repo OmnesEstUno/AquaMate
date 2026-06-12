@@ -15,21 +15,47 @@
     "order": "Beloniformes"
   },
   "nativeRange": {
-    "regions": ["Southeast Asia", "Wallacea"],
-    "countries": ["Indonesia"],
+    "regions": [
+      "Southeast Asia",
+      "Wallacea"
+    ],
+    "countries": [
+      "Indonesia"
+    ],
     "habitat": "Crystal-clear, fast-moving karst spring outflows and small hillside streams on Muna Island, Sulawesi; substrate of sand, gravel, and leaf litter with submerged vegetation; water is hard, alkaline, and highly oxygenated due to limestone geology",
     "biotope": "Sulawesi karst spring",
-    "depthRangeM": { "min": 0, "max": 1 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 1
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 28 },
-    "pH": { "min": 7.5, "max": 8.5 },
-    "gH": { "min": 10, "max": 20 },
-    "kH": { "min": 6, "max": 15 },
+    "temperatureC": {
+      "min": 24,
+      "max": 28
+    },
+    "pH": {
+      "min": 7.5,
+      "max": 8.5
+    },
+    "gH": {
+      "min": 10,
+      "max": 20
+    },
+    "kH": {
+      "min": 6,
+      "max": 15
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 2.5, "max": 3.5 },
-  "lifespanYears": { "min": 2, "max": 4 },
+  "adultSizeCm": {
+    "min": 2.5,
+    "max": 3.5
+  },
+  "lifespanYears": {
+    "min": 2,
+    "max": 4
+  },
   "tank": {
     "minVolumeLiters": 40,
     "minLengthCm": 50,
@@ -134,7 +160,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

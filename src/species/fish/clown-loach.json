@@ -6,28 +6,53 @@
   "waterType": "freshwater",
   "commonName": "Clown Loach",
   "scientificName": "Chromobotia macracanthus",
-  "alsoKnownAs": ["Tiger Botia", "Clown Botia"],
+  "alsoKnownAs": [
+    "Tiger Botia",
+    "Clown Botia"
+  ],
   "category": "Loach",
   "taxonomy": {
     "family": "Botiidae",
     "order": "Cypriniformes"
   },
   "nativeRange": {
-    "regions": ["Southeast Asia"],
-    "countries": ["Indonesia"],
+    "regions": [
+      "Southeast Asia"
+    ],
+    "countries": [
+      "Indonesia"
+    ],
     "habitat": "Main river channels and smaller tributaries; floodplain swamp forests with leaf litter substrate and tea-colored water through rainforest. Native to Borneo (Kalimantan provinces) and Sumatra (Jambi, South Sumatra, Lampung provinces).",
     "biotope": "Blackwater",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 30 },
-    "pH": { "min": 5.5, "max": 7.5 },
-    "gH": { "min": 2, "max": 12 },
-    "kH": { "min": 2, "max": 10 },
+    "temperatureC": {
+      "min": 24,
+      "max": 30
+    },
+    "pH": {
+      "min": 5.5,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 2,
+      "max": 12
+    },
+    "kH": {
+      "min": 2,
+      "max": 10
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 15, "max": 30 },
-  "lifespanYears": { "min": 20, "max": 25 },
+  "adultSizeCm": {
+    "min": 15,
+    "max": 30
+  },
+  "lifespanYears": {
+    "min": 20,
+    "max": 25
+  },
   "tank": {
     "minVolumeLiters": 380,
     "minLengthCm": 150,
@@ -115,7 +140,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

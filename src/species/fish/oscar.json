@@ -6,33 +6,75 @@
   "waterType": "freshwater",
   "commonName": "Oscar",
   "scientificName": "Astronotus ocellatus",
-  "alsoKnownAs": ["Tiger Oscar", "Red Oscar", "Albino Oscar", "Velvet Cichlid", "Marble Cichlid"],
+  "alsoKnownAs": [
+    "Tiger Oscar",
+    "Red Oscar",
+    "Albino Oscar",
+    "Velvet Cichlid",
+    "Marble Cichlid"
+  ],
   "category": "Cichlid",
   "taxonomy": {
     "family": "Cichlidae",
     "order": "Cichliformes"
   },
   "nativeRange": {
-    "regions": ["South America"],
-    "countries": ["Brazil", "Peru", "Colombia", "Venezuela", "Argentina", "Paraguay", "Uruguay", "French Guiana", "Suriname"],
+    "regions": [
+      "South America"
+    ],
+    "countries": [
+      "Brazil",
+      "Peru",
+      "Colombia",
+      "Venezuela",
+      "Argentina",
+      "Paraguay",
+      "Uruguay",
+      "French Guiana",
+      "Suriname"
+    ],
     "habitat": "Slow-moving shallow waters with muddy or sandy bottoms; canals, ponds, and floodplain lakes of the Amazon and Orinoco basins",
     "biotope": "Amazonian floodplain",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 27 },
-    "pH": { "min": 6.0, "max": 8.0 },
-    "gH": { "min": 5, "max": 20 },
-    "kH": { "min": 4, "max": 20 },
+    "temperatureC": {
+      "min": 22,
+      "max": 27
+    },
+    "pH": {
+      "min": 6,
+      "max": 8
+    },
+    "gH": {
+      "min": 5,
+      "max": 20
+    },
+    "kH": {
+      "min": 4,
+      "max": 20
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 25, "max": 45 },
-  "lifespanYears": { "min": 10, "max": 20 },
+  "adultSizeCm": {
+    "min": 25,
+    "max": 45
+  },
+  "lifespanYears": {
+    "min": 10,
+    "max": 20
+  },
   "tank": {
     "minVolumeLiters": 400,
     "minLengthCm": 150,
     "swimZone": "mid",
-    "decorPreferences": ["open swimming space", "large smooth rocks", "driftwood", "robust or plastic plants (real plants will be uprooted)", "caves or overhangs"],
+    "decorPreferences": [
+      "open swimming space",
+      "large smooth rocks",
+      "driftwood",
+      "robust or plastic plants (real plants will be uprooted)",
+      "caves or overhangs"
+    ],
     "minSandDepthCm": null
   },
   "careLevel": "intermediate",
@@ -44,8 +86,20 @@
     "temperament": "aggressive",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["large South American cichlids of similar size", "silver dollars", "large plecos (e.g. sailfin pleco)", "bichirs", "large armored catfish"],
-    "avoidWith": ["small fish (will be eaten)", "invertebrates (shrimp, crabs)", "angelfish", "community fish", "slow-moving or long-finned species"]
+    "goodWith": [
+      "large South American cichlids of similar size",
+      "silver dollars",
+      "large plecos (e.g. sailfin pleco)",
+      "bichirs",
+      "large armored catfish"
+    ],
+    "avoidWith": [
+      "small fish (will be eaten)",
+      "invertebrates (shrimp, crabs)",
+      "angelfish",
+      "community fish",
+      "slow-moving or long-finned species"
+    ]
   },
   "media": {
     "primaryImage": "oscar.jpg",
@@ -101,7 +155,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": true,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

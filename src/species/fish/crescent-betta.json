@@ -6,28 +6,58 @@
   "waterType": "freshwater",
   "commonName": "Crescent Betta",
   "scientificName": "Betta imbellis",
-  "alsoKnownAs": ["Peaceful Betta"],
+  "alsoKnownAs": [
+    "Peaceful Betta"
+  ],
   "category": "Betta",
   "taxonomy": {
     "family": "Osphronemidae",
     "order": "Anabantiformes"
   },
   "nativeRange": {
-    "regions": ["Southeast Asia"],
-    "countries": ["Malaysia", "Indonesia", "Thailand", "Singapore"],
+    "regions": [
+      "Southeast Asia"
+    ],
+    "countries": [
+      "Malaysia",
+      "Indonesia",
+      "Thailand",
+      "Singapore"
+    ],
     "habitat": "Still and sluggish freshwater — rice paddies, swamps, roadside ditches, lowland ponds, and slow streams, often with dense vegetation and brown-to-clear water",
     "biotope": "Blackwater",
-    "depthRangeM": { "min": 0, "max": 1 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 1
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 28 },
-    "pH":           { "min": 5.5, "max": 7.0 },
-    "gH":           { "min": 2, "max": 15 },
-    "kH":           { "min": 1, "max": 5 },
+    "temperatureC": {
+      "min": 22,
+      "max": 28
+    },
+    "pH": {
+      "min": 5.5,
+      "max": 7
+    },
+    "gH": {
+      "min": 2,
+      "max": 15
+    },
+    "kH": {
+      "min": 1,
+      "max": 5
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 4.5, "max": 6.0 },
-  "lifespanYears": { "min": 3, "max": 5 },
+  "adultSizeCm": {
+    "min": 4.5,
+    "max": 6
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 75,
     "minLengthCm": 60,
@@ -64,8 +94,8 @@
     ]
   },
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
+    "primaryImage": null,
+    "gallery": [],
     "imageCandidates": null
   },
   "summary": "One of the most peaceful wild-form Betta species, native to Malaysian and Sumatran wetlands. Males display stunning iridescent blue-green scaling with a distinctive red crescent on the caudal fin. Intermediate care due to soft-acidic water needs and escape risk.",
@@ -117,7 +147,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

@@ -15,7 +15,11 @@
     "order": "Polypteriformes"
   },
   "nativeRange": {
-    "regions": ["West Africa", "Central Africa", "North Africa"],
+    "regions": [
+      "West Africa",
+      "Central Africa",
+      "North Africa"
+    ],
     "countries": [
       "Chad",
       "Nigeria",
@@ -29,17 +33,38 @@
     ],
     "habitat": "Shallow, slow-moving or still water: floodplains, swamps, marshy lake margins, and turbid river backwaters with soft substrates; inhabits low-oxygen environments where access to the water surface for air-breathing is essential",
     "biotope": "Floodplain / whitewater river margin",
-    "depthRangeM": { "min": 0, "max": 4 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 4
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 26, "max": 30 },
-    "pH": { "min": 6.5, "max": 7.8 },
-    "gH": { "min": 5, "max": 20 },
-    "kH": { "min": 2, "max": 10 },
+    "temperatureC": {
+      "min": 26,
+      "max": 30
+    },
+    "pH": {
+      "min": 6.5,
+      "max": 7.8
+    },
+    "gH": {
+      "min": 5,
+      "max": 20
+    },
+    "kH": {
+      "min": 2,
+      "max": 10
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 60, "max": 75 },
-  "lifespanYears": { "min": 15, "max": 25 },
+  "adultSizeCm": {
+    "min": 60,
+    "max": 75
+  },
+  "lifespanYears": {
+    "min": 15,
+    "max": 25
+  },
   "tank": {
     "minVolumeLiters": 500,
     "minLengthCm": 200,
@@ -155,7 +180,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

@@ -17,21 +17,54 @@
     "order": "Centrarchiformes"
   },
   "nativeRange": {
-    "regions": ["Indo-Pacific"],
-    "countries": ["Maldives", "Sri Lanka", "Indonesia", "Philippines", "Japan", "Australia", "Fiji", "Samoa", "New Caledonia"],
+    "regions": [
+      "Indo-Pacific"
+    ],
+    "countries": [
+      "Maldives",
+      "Sri Lanka",
+      "Indonesia",
+      "Philippines",
+      "Japan",
+      "Australia",
+      "Fiji",
+      "Samoa",
+      "New Caledonia"
+    ],
     "habitat": "Coastal to outer reef flats and slopes; perches on coral heads and rocky outcrops, often resting near the bases of branching corals.",
     "biotope": "Reef",
-    "depthRangeM": { "min": 4, "max": 46 }
+    "depthRangeM": {
+      "min": 4,
+      "max": 46
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 27 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 23,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 7, "max": 8 },
-  "lifespanYears": { "min": 3, "max": 5 },
+  "adultSizeCm": {
+    "min": 7,
+    "max": 8
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 120,
     "minLengthCm": 90,
@@ -120,7 +153,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": null,
+    "obligateCorallivore": false
   },
   "crustacean": null,
   "coral": null,

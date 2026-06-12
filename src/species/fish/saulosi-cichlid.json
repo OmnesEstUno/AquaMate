@@ -15,21 +15,47 @@
     "order": "Cichliformes"
   },
   "nativeRange": {
-    "regions": ["East Africa", "Lake Malawi"],
-    "countries": ["Malawi"],
+    "regions": [
+      "East Africa",
+      "Lake Malawi"
+    ],
+    "countries": [
+      "Malawi"
+    ],
     "habitat": "Rocky mbuna habitat along the shores of Taiwan Reef (Chinyankwazi Island area), Lake Malawi; upper rocky zones with sediment-free rubble and algae-encrusted boulders",
     "biotope": "Lake Malawi rocky littoral",
-    "depthRangeM": { "min": 5, "max": 25 }
+    "depthRangeM": {
+      "min": 5,
+      "max": 25
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 27 },
-    "pH": { "min": 7.8, "max": 8.6 },
-    "gH": { "min": 10, "max": 20 },
-    "kH": { "min": 6, "max": 10 },
+    "temperatureC": {
+      "min": 23,
+      "max": 27
+    },
+    "pH": {
+      "min": 7.8,
+      "max": 8.6
+    },
+    "gH": {
+      "min": 10,
+      "max": 20
+    },
+    "kH": {
+      "min": 6,
+      "max": 10
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 7.0, "max": 10.0 },
-  "lifespanYears": { "min": 5, "max": 8 },
+  "adultSizeCm": {
+    "min": 7,
+    "max": 10
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 8
+  },
   "tank": {
     "minVolumeLiters": 200,
     "minLengthCm": 120,
@@ -149,7 +175,9 @@
     "mouthbrooder": true,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

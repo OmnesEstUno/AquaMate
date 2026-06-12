@@ -16,21 +16,46 @@
     "order": "Cichliformes"
   },
   "nativeRange": {
-    "regions": ["South America"],
-    "countries": ["Brazil"],
+    "regions": [
+      "South America"
+    ],
+    "countries": [
+      "Brazil"
+    ],
     "habitat": "Coastal river systems and streams of southeastern Brazil; occurs in slower-moving sections of rivers, lakes, and reservoirs with soft sandy or silty substrates and variable vegetation; tolerates a wide temperature range from cool highland streams to warmer lowland waters",
     "biotope": "South American coastal river",
-    "depthRangeM": { "min": 0, "max": 5 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 5
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 16, "max": 28 },
-    "pH": { "min": 6.0, "max": 7.8 },
-    "gH": { "min": 3, "max": 20 },
-    "kH": { "min": 2, "max": 10 },
+    "temperatureC": {
+      "min": 16,
+      "max": 28
+    },
+    "pH": {
+      "min": 6,
+      "max": 7.8
+    },
+    "gH": {
+      "min": 3,
+      "max": 20
+    },
+    "kH": {
+      "min": 2,
+      "max": 10
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 18.0, "max": 28.0 },
-  "lifespanYears": { "min": 8, "max": 15 },
+  "adultSizeCm": {
+    "min": 18,
+    "max": 28
+  },
+  "lifespanYears": {
+    "min": 8,
+    "max": 15
+  },
   "tank": {
     "minVolumeLiters": 300,
     "minLengthCm": 150,
@@ -142,7 +167,9 @@
     "mouthbrooder": true,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

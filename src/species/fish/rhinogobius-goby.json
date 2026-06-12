@@ -16,21 +16,49 @@
     "order": "Gobiiformes"
   },
   "nativeRange": {
-    "regions": ["East Asia"],
-    "countries": ["China", "Japan", "South Korea", "Taiwan"],
+    "regions": [
+      "East Asia"
+    ],
+    "countries": [
+      "China",
+      "Japan",
+      "South Korea",
+      "Taiwan"
+    ],
     "habitat": "Fast-flowing, well-oxygenated mountain streams and rivers with rocky or gravelly substrates; often found in riffles and runs with strong current and clear, cool water",
     "biotope": "Rocky mountain stream",
-    "depthRangeM": { "min": 0, "max": 1 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 1
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 18, "max": 24 },
-    "pH": { "min": 6.8, "max": 7.8 },
-    "gH": { "min": 6, "max": 15 },
-    "kH": { "min": 3, "max": 10 },
+    "temperatureC": {
+      "min": 18,
+      "max": 24
+    },
+    "pH": {
+      "min": 6.8,
+      "max": 7.8
+    },
+    "gH": {
+      "min": 6,
+      "max": 15
+    },
+    "kH": {
+      "min": 3,
+      "max": 10
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 3.0, "max": 7.0 },
-  "lifespanYears": { "min": 2, "max": 4 },
+  "adultSizeCm": {
+    "min": 3,
+    "max": 7
+  },
+  "lifespanYears": {
+    "min": 2,
+    "max": 4
+  },
   "tank": {
     "minVolumeLiters": 60,
     "minLengthCm": 60,
@@ -151,7 +179,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

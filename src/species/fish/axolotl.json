@@ -17,21 +17,46 @@
     "order": "Urodela"
   },
   "nativeRange": {
-    "regions": ["Central America"],
-    "countries": ["Mexico"],
+    "regions": [
+      "Central America"
+    ],
+    "countries": [
+      "Mexico"
+    ],
     "habitat": "Cool, muddy-bottomed freshwater lakes and canals rich in plant and animal life. Historically endemic to Lakes Xochimilco and Chalco south of Mexico City; now critically endangered in the wild with only remnant populations in the Xochimilco canal system.",
     "biotope": "High-altitude Mexican lake biotope",
-    "depthRangeM": { "min": 0, "max": 5 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 5
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 16, "max": 18 },
-    "pH": { "min": 7.4, "max": 7.8 },
-    "gH": { "min": 7, "max": 14 },
-    "kH": { "min": 3, "max": 8 },
+    "temperatureC": {
+      "min": 16,
+      "max": 18
+    },
+    "pH": {
+      "min": 7.4,
+      "max": 7.8
+    },
+    "gH": {
+      "min": 7,
+      "max": 14
+    },
+    "kH": {
+      "min": 3,
+      "max": 8
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 20, "max": 30 },
-  "lifespanYears": { "min": 10, "max": 15 },
+  "adultSizeCm": {
+    "min": 20,
+    "max": 30
+  },
+  "lifespanYears": {
+    "min": 10,
+    "max": 15
+  },
   "tank": {
     "minVolumeLiters": 150,
     "minLengthCm": 75,
@@ -127,7 +152,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

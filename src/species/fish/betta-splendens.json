@@ -6,28 +6,60 @@
   "waterType": "freshwater",
   "commonName": "Siamese Fighting Fish",
   "scientificName": "Betta splendens",
-  "alsoKnownAs": ["Betta", "Betta Fish", "Fighting Fish"],
+  "alsoKnownAs": [
+    "Betta",
+    "Betta Fish",
+    "Fighting Fish"
+  ],
   "category": "Oddball",
   "taxonomy": {
     "family": "Osphronemidae",
     "order": "Anabantiformes"
   },
   "nativeRange": {
-    "regions": ["Southeast Asia"],
-    "countries": ["Thailand", "Cambodia", "Laos", "Vietnam"],
+    "regions": [
+      "Southeast Asia"
+    ],
+    "countries": [
+      "Thailand",
+      "Cambodia",
+      "Laos",
+      "Vietnam"
+    ],
     "habitat": "Standing and slow-moving freshwater — rice paddies, floodplain pools, canals, and shallow streams",
     "biotope": "Tropical lowland freshwater; densely vegetated margins with warm, often low-oxygen water",
-    "depthRangeM": { "min": 0, "max": 1 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 1
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 30 },
-    "pH":           { "min": 6.0, "max": 7.5 },
-    "gH":           { "min": 5, "max": 20 },
-    "kH":           { "min": 3, "max": 15 },
+    "temperatureC": {
+      "min": 24,
+      "max": 30
+    },
+    "pH": {
+      "min": 6,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 5,
+      "max": 20
+    },
+    "kH": {
+      "min": 3,
+      "max": 15
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 5, "max": 7.5 },
-  "lifespanYears": { "min": 2, "max": 4 },
+  "adultSizeCm": {
+    "min": 5,
+    "max": 7.5
+  },
+  "lifespanYears": {
+    "min": 2,
+    "max": 4
+  },
   "tank": {
     "minVolumeLiters": 20,
     "minLengthCm": 40,
@@ -116,7 +148,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

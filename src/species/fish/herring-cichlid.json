@@ -17,21 +17,50 @@
     "order": "Perciformes"
   },
   "nativeRange": {
-    "regions": ["East Africa", "Great Rift Valley"],
-    "countries": ["Democratic Republic of Congo", "Tanzania", "Zambia", "Burundi"],
+    "regions": [
+      "East Africa",
+      "Great Rift Valley"
+    ],
+    "countries": [
+      "Democratic Republic of Congo",
+      "Tanzania",
+      "Zambia",
+      "Burundi"
+    ],
     "habitat": "Open pelagic mid-water zones along rocky shorelines and in offshore areas of Lake Tanganyika; forms large mixed-sex schools in the water column, typically 3–10 m depth but ranging deeper",
     "biotope": "Lake Tanganyika pelagic",
-    "depthRangeM": { "min": 3, "max": 50 }
+    "depthRangeM": {
+      "min": 3,
+      "max": 50
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 27 },
-    "pH": { "min": 7.8, "max": 9.0 },
-    "gH": { "min": 10, "max": 20 },
-    "kH": { "min": 8, "max": 18 },
+    "temperatureC": {
+      "min": 24,
+      "max": 27
+    },
+    "pH": {
+      "min": 7.8,
+      "max": 9
+    },
+    "gH": {
+      "min": 10,
+      "max": 20
+    },
+    "kH": {
+      "min": 8,
+      "max": 18
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 10.0, "max": 13.0 },
-  "lifespanYears": { "min": 5, "max": 8 },
+  "adultSizeCm": {
+    "min": 10,
+    "max": 13
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 8
+  },
   "tank": {
     "minVolumeLiters": 200,
     "minLengthCm": 120,
@@ -154,7 +183,9 @@
     "mouthbrooder": true,
     "constantGrazer": true,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

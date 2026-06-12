@@ -17,21 +17,48 @@
     "order": "Synbranchiformes"
   },
   "nativeRange": {
-    "regions": ["South Asia"],
-    "countries": ["India", "Bangladesh", "Nepal"],
+    "regions": [
+      "South Asia"
+    ],
+    "countries": [
+      "India",
+      "Bangladesh",
+      "Nepal"
+    ],
     "habitat": "Slow-moving to still freshwater: rivers, floodplains, ponds, canals, and marshes with soft muddy or sandy substrates; dense vegetation and abundant detritus cover; low-to-moderate current",
     "biotope": "South Asian floodplain",
-    "depthRangeM": { "min": 0, "max": 2 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 2
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 28 },
-    "pH": { "min": 6.5, "max": 7.5 },
-    "gH": { "min": 5, "max": 15 },
-    "kH": { "min": 3, "max": 10 },
+    "temperatureC": {
+      "min": 22,
+      "max": 28
+    },
+    "pH": {
+      "min": 6.5,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 5,
+      "max": 15
+    },
+    "kH": {
+      "min": 3,
+      "max": 10
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 12.0, "max": 18.0 },
-  "lifespanYears": { "min": 5, "max": 10 },
+  "adultSizeCm": {
+    "min": 12,
+    "max": 18
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 10
+  },
   "tank": {
     "minVolumeLiters": 120,
     "minLengthCm": 90,
@@ -148,7 +175,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

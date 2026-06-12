@@ -6,33 +6,66 @@
   "waterType": "freshwater",
   "commonName": "Red Tail Notho",
   "scientificName": "Nothobranchius guentheri",
-  "alsoKnownAs": ["Redtail Notho", "Guenther's Nothobranch", "Gunther's Killifish", "Guentheri Killifish"],
+  "alsoKnownAs": [
+    "Redtail Notho",
+    "Guenther's Nothobranch",
+    "Gunther's Killifish",
+    "Guentheri Killifish"
+  ],
   "category": "Killifish",
   "taxonomy": {
     "family": "Nothobranchiidae",
     "order": "Cyprinodontiformes"
   },
   "nativeRange": {
-    "regions": ["East Africa"],
-    "countries": ["Tanzania"],
+    "regions": [
+      "East Africa"
+    ],
+    "countries": [
+      "Tanzania"
+    ],
     "habitat": "Ephemeral seasonal pools, temporary swamps, ditches, and small streams on Zanzibar's Unguja Island. Pools dry completely each dry season, requiring eggs to survive months without water.",
     "biotope": "Other",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 18, "max": 25 },
-    "pH": { "min": 6.0, "max": 7.0 },
-    "gH": { "min": 2, "max": 10 },
-    "kH": { "min": 0, "max": 5 },
+    "temperatureC": {
+      "min": 18,
+      "max": 25
+    },
+    "pH": {
+      "min": 6,
+      "max": 7
+    },
+    "gH": {
+      "min": 2,
+      "max": 10
+    },
+    "kH": {
+      "min": 0,
+      "max": 5
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 5.0, "max": 6.0 },
-  "lifespanYears": { "min": 0.5, "max": 1.5 },
+  "adultSizeCm": {
+    "min": 5,
+    "max": 6
+  },
+  "lifespanYears": {
+    "min": 0.5,
+    "max": 1.5
+  },
   "tank": {
     "minVolumeLiters": 30,
     "minLengthCm": 40,
     "swimZone": "bottom",
-    "decorPreferences": ["peat substrate or peat moss spawning layer", "dense vegetation", "leaf litter", "subdued lighting", "tight-fitting lid required"],
+    "decorPreferences": [
+      "peat substrate or peat moss spawning layer",
+      "dense vegetation",
+      "leaf litter",
+      "subdued lighting",
+      "tight-fitting lid required"
+    ],
     "minSandDepthCm": null
   },
   "careLevel": "advanced",
@@ -44,8 +77,18 @@
     "temperament": "semi-aggressive",
     "grouping": "pair",
     "minGroupSize": 2,
-    "goodWith": ["small peaceful killifish in separate tanks", "pygmy corydoras", "small rasboras", "ember tetras"],
-    "avoidWith": ["large or aggressive fish", "fin-nipping species", "fast-swimming community fish that outcompete for food", "other male Nothobranchius"]
+    "goodWith": [
+      "small peaceful killifish in separate tanks",
+      "pygmy corydoras",
+      "small rasboras",
+      "ember tetras"
+    ],
+    "avoidWith": [
+      "large or aggressive fish",
+      "fin-nipping species",
+      "fast-swimming community fish that outcompete for food",
+      "other male Nothobranchius"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -101,7 +144,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

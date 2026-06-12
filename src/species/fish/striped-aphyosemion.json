@@ -17,21 +17,46 @@
     "order": "Cyprinodontiformes"
   },
   "nativeRange": {
-    "regions": ["West Africa"],
-    "countries": ["Gabon"],
+    "regions": [
+      "West Africa"
+    ],
+    "countries": [
+      "Gabon"
+    ],
     "habitat": "Shallow, slow-moving forest streams, pools, and swampy areas with dense leaf litter and overhanging vegetation; soft, acidic, tannin-stained water under closed rainforest canopy",
     "biotope": "West African rainforest stream",
-    "depthRangeM": { "min": 0, "max": 0.5 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 0.5
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 20, "max": 26 },
-    "pH": { "min": 6.0, "max": 7.0 },
-    "gH": { "min": 1, "max": 10 },
-    "kH": { "min": 1, "max": 5 },
+    "temperatureC": {
+      "min": 20,
+      "max": 26
+    },
+    "pH": {
+      "min": 6,
+      "max": 7
+    },
+    "gH": {
+      "min": 1,
+      "max": 10
+    },
+    "kH": {
+      "min": 1,
+      "max": 5
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 3.5, "max": 5.0 },
-  "lifespanYears": { "min": 3, "max": 5 },
+  "adultSizeCm": {
+    "min": 3.5,
+    "max": 5
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 40,
     "minLengthCm": 50,
@@ -155,7 +180,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

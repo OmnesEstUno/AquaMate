@@ -15,21 +15,47 @@
     "order": "Cichliformes"
   },
   "nativeRange": {
-    "regions": ["West Africa"],
-    "countries": ["Nigeria", "Cameroon"],
+    "regions": [
+      "West Africa"
+    ],
+    "countries": [
+      "Nigeria",
+      "Cameroon"
+    ],
     "habitat": "Shallow, slow-moving to still forest streams, creek margins, and pools with dense vegetation and leaf litter; often over sandy or muddy substrates with submerged roots and woody debris",
     "biotope": "West African forest stream",
-    "depthRangeM": { "min": 0, "max": 1 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 1
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 28 },
-    "pH": { "min": 5.5, "max": 7.0 },
-    "gH": { "min": 1, "max": 12 },
-    "kH": { "min": 1, "max": 5 },
+    "temperatureC": {
+      "min": 23,
+      "max": 28
+    },
+    "pH": {
+      "min": 5.5,
+      "max": 7
+    },
+    "gH": {
+      "min": 1,
+      "max": 12
+    },
+    "kH": {
+      "min": 1,
+      "max": 5
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 6.0, "max": 9.0 },
-  "lifespanYears": { "min": 4, "max": 7 },
+  "adultSizeCm": {
+    "min": 6,
+    "max": 9
+  },
+  "lifespanYears": {
+    "min": 4,
+    "max": 7
+  },
   "tank": {
     "minVolumeLiters": 80,
     "minLengthCm": 80,
@@ -143,7 +169,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

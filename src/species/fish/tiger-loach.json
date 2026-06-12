@@ -17,21 +17,44 @@
     "order": "Cypriniformes"
   },
   "nativeRange": {
-    "regions": ["Southeast Asia"],
-    "countries": ["Indonesia", "Malaysia"],
+    "regions": [
+      "Southeast Asia"
+    ],
+    "countries": [
+      "Indonesia",
+      "Malaysia"
+    ],
     "habitat": "Various habitat types from small upland headwater streams to main river channels and lakes; associated with submerged tree branches, roots, and floating logs; migrates to flooded areas during the wet season",
     "biotope": "Tropical river / flooded forest",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 25, "max": 30 },
-    "pH": { "min": 5.0, "max": 7.5 },
-    "gH": { "min": 0, "max": 12 },
-    "kH": { "min": 0, "max": 12 },
+    "temperatureC": {
+      "min": 25,
+      "max": 30
+    },
+    "pH": {
+      "min": 5,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 0,
+      "max": 12
+    },
+    "kH": {
+      "min": 0,
+      "max": 12
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 15.0, "max": 21.0 },
-  "lifespanYears": { "min": 7, "max": 10 },
+  "adultSizeCm": {
+    "min": 15,
+    "max": 21
+  },
+  "lifespanYears": {
+    "min": 7,
+    "max": 10
+  },
   "tank": {
     "minVolumeLiters": 304,
     "minLengthCm": 150,
@@ -136,7 +159,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

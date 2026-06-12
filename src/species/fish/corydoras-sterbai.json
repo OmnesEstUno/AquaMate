@@ -6,33 +6,66 @@
   "waterType": "freshwater",
   "commonName": "Sterbai Cory",
   "scientificName": "Corydoras sterbai",
-  "alsoKnownAs": ["Sterba's Cory", "Sterbai Corydoras", "Corydoras sterbai"],
+  "alsoKnownAs": [
+    "Sterba's Cory",
+    "Sterbai Corydoras",
+    "Corydoras sterbai"
+  ],
   "category": "Catfish",
   "taxonomy": {
     "family": "Callichthyidae",
     "order": "Siluriformes"
   },
   "nativeRange": {
-    "regions": ["South America"],
-    "countries": ["Brazil", "Bolivia"],
+    "regions": [
+      "South America"
+    ],
+    "countries": [
+      "Brazil",
+      "Bolivia"
+    ],
     "habitat": "Small tributaries, creeks, pools, and seasonally flooded forest areas with slow-moving, warm water",
     "biotope": "Clearwater",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 30 },
-    "pH": { "min": 6.0, "max": 7.5 },
-    "gH": { "min": 2, "max": 15 },
-    "kH": { "min": 2, "max": 10 },
+    "temperatureC": {
+      "min": 24,
+      "max": 30
+    },
+    "pH": {
+      "min": 6,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 2,
+      "max": 15
+    },
+    "kH": {
+      "min": 2,
+      "max": 10
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 6.0, "max": 7.0 },
-  "lifespanYears": { "min": 5, "max": 10 },
+  "adultSizeCm": {
+    "min": 6,
+    "max": 7
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 10
+  },
   "tank": {
     "minVolumeLiters": 75,
     "minLengthCm": 60,
     "swimZone": "bottom",
-    "decorPreferences": ["fine sand substrate", "driftwood", "leaf litter", "dense planting", "caves or shaded areas"],
+    "decorPreferences": [
+      "fine sand substrate",
+      "driftwood",
+      "leaf litter",
+      "dense planting",
+      "caves or shaded areas"
+    ],
     "minSandDepthCm": 3
   },
   "careLevel": "beginner",
@@ -44,8 +77,21 @@
     "temperament": "peaceful",
     "grouping": "schooling",
     "minGroupSize": 6,
-    "goodWith": ["small tetras", "rasboras", "danios", "dwarf cichlids", "Discus", "German Blue Rams", "other peaceful catfish", "small anabantoids"],
-    "avoidWith": ["large or aggressive cichlids", "fin-nipping species", "large predatory fish"]
+    "goodWith": [
+      "small tetras",
+      "rasboras",
+      "danios",
+      "dwarf cichlids",
+      "Discus",
+      "German Blue Rams",
+      "other peaceful catfish",
+      "small anabantoids"
+    ],
+    "avoidWith": [
+      "large or aggressive cichlids",
+      "fin-nipping species",
+      "large predatory fish"
+    ]
   },
   "media": {
     "primaryImage": "corydoras_sterbai.jpg",
@@ -101,7 +147,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

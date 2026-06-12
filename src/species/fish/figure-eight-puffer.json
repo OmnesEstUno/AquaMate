@@ -18,21 +18,53 @@
     "order": "Tetraodontiformes"
   },
   "nativeRange": {
-    "regions": ["Southeast Asia"],
-    "countries": ["Cambodia", "Indonesia", "Malaysia", "Thailand", "Vietnam"],
+    "regions": [
+      "Southeast Asia"
+    ],
+    "countries": [
+      "Cambodia",
+      "Indonesia",
+      "Malaysia",
+      "Thailand",
+      "Vietnam"
+    ],
     "habitat": "Coastal brackish estuaries, tidal rivers, and slow-moving lowland streams; also enters adjacent freshwater reaches; bottom-oriented in shallow, often turbid water with sandy or muddy substrate and emergent vegetation",
     "biotope": "Estuary",
-    "depthRangeM": { "min": 0, "max": 5 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 5
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 28 },
-    "pH": { "min": 7.5, "max": 8.5 },
-    "gH": { "min": 10, "max": 25 },
-    "kH": { "min": 8, "max": 18 },
-    "salinity": { "min": 1.005, "max": 1.010 }
+    "temperatureC": {
+      "min": 22,
+      "max": 28
+    },
+    "pH": {
+      "min": 7.5,
+      "max": 8.5
+    },
+    "gH": {
+      "min": 10,
+      "max": 25
+    },
+    "kH": {
+      "min": 8,
+      "max": 18
+    },
+    "salinity": {
+      "min": 1.005,
+      "max": 1.01
+    }
   },
-  "adultSizeCm": { "min": 5.0, "max": 8.0 },
-  "lifespanYears": { "min": 5, "max": 15 },
+  "adultSizeCm": {
+    "min": 5,
+    "max": 8
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 15
+  },
   "tank": {
     "minVolumeLiters": 75,
     "minLengthCm": 75,
@@ -148,7 +180,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": true
+    "euryhaline": true,
+    "eatsPlantsRisk": null,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

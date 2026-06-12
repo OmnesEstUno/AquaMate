@@ -21,21 +21,51 @@
     "order": "Cyprinodontiformes"
   },
   "nativeRange": {
-    "regions": ["Central America", "North America", "South America"],
-    "countries": ["Mexico", "Colombia", "Venezuela", "Guatemala", "Honduras", "Belize", "United States"],
+    "regions": [
+      "Central America",
+      "North America",
+      "South America"
+    ],
+    "countries": [
+      "Mexico",
+      "Colombia",
+      "Venezuela",
+      "Guatemala",
+      "Honduras",
+      "Belize",
+      "United States"
+    ],
     "habitat": "Coastal rivers, streams, estuaries, and mangrove areas; tolerates a wide salinity range from fresh to full marine",
     "biotope": "Estuary",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 28 },
-    "pH": { "min": 7.5, "max": 8.5 },
-    "gH": { "min": 15, "max": 30 },
-    "kH": { "min": 8, "max": 20 },
+    "temperatureC": {
+      "min": 22,
+      "max": 28
+    },
+    "pH": {
+      "min": 7.5,
+      "max": 8.5
+    },
+    "gH": {
+      "min": 15,
+      "max": 30
+    },
+    "kH": {
+      "min": 8,
+      "max": 20
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 5.0, "max": 12.0 },
-  "lifespanYears": { "min": 3, "max": 5 },
+  "adultSizeCm": {
+    "min": 5,
+    "max": 12
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 75,
     "minLengthCm": 90,
@@ -135,7 +165,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": true
+    "euryhaline": true,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

@@ -6,33 +6,66 @@
   "waterType": "freshwater",
   "commonName": "Bleeding Heart Tetra",
   "scientificName": "Hyphessobrycon erythrostigma",
-  "alsoKnownAs": ["Bleeding-Heart Tetra"],
+  "alsoKnownAs": [
+    "Bleeding-Heart Tetra"
+  ],
   "category": "Tetra",
   "taxonomy": {
     "family": "Characidae",
     "order": "Characiformes"
   },
   "nativeRange": {
-    "regions": ["South America", "Upper Amazon Basin"],
-    "countries": ["Brazil", "Peru", "Colombia"],
+    "regions": [
+      "South America",
+      "Upper Amazon Basin"
+    ],
+    "countries": [
+      "Brazil",
+      "Peru",
+      "Colombia"
+    ],
     "habitat": "Sluggish tributaries, side arms, and forest lakes with submerged woody structures; tends toward boundary zones between shallow and deeper water. Naturally found in soft, acidic blackwater conditions with leaf litter and dim lighting.",
     "biotope": "Blackwater",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 28 },
-    "pH": { "min": 5.5, "max": 7.5 },
-    "gH": { "min": 2, "max": 12 },
-    "kH": { "min": 2, "max": 10 },
+    "temperatureC": {
+      "min": 22,
+      "max": 28
+    },
+    "pH": {
+      "min": 5.5,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 2,
+      "max": 12
+    },
+    "kH": {
+      "min": 2,
+      "max": 10
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 5.5, "max": 6.5 },
-  "lifespanYears": { "min": 3, "max": 5 },
+  "adultSizeCm": {
+    "min": 5.5,
+    "max": 6.5
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 100,
     "minLengthCm": 90,
     "swimZone": "mid",
-    "decorPreferences": ["dense planting", "driftwood", "leaf litter", "dark substrate", "subdued lighting"],
+    "decorPreferences": [
+      "dense planting",
+      "driftwood",
+      "leaf litter",
+      "dark substrate",
+      "subdued lighting"
+    ],
     "minSandDepthCm": null
   },
   "careLevel": "intermediate",
@@ -44,8 +77,23 @@
     "temperament": "peaceful",
     "grouping": "schooling",
     "minGroupSize": 6,
-    "goodWith": ["similarly-sized tetras", "rasboras", "danios", "corydoras", "smaller loaches", "dwarf cichlids", "small catfishes", "freshwater shrimp (larger species)", "freshwater snails"],
-    "avoidWith": ["fin-nipping species", "large aggressive fish", "slow-moving long-finned fish", "very small nano fish that may be chased"]
+    "goodWith": [
+      "similarly-sized tetras",
+      "rasboras",
+      "danios",
+      "corydoras",
+      "smaller loaches",
+      "dwarf cichlids",
+      "small catfishes",
+      "freshwater shrimp (larger species)",
+      "freshwater snails"
+    ],
+    "avoidWith": [
+      "fin-nipping species",
+      "large aggressive fish",
+      "slow-moving long-finned fish",
+      "very small nano fish that may be chased"
+    ]
   },
   "media": {
     "primaryImage": "bleeding_heart_tetra.jpg",
@@ -107,7 +155,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

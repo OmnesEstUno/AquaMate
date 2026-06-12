@@ -17,21 +17,47 @@
     "order": "Cypriniformes"
   },
   "nativeRange": {
-    "regions": ["South Asia"],
-    "countries": ["India", "Sri Lanka"],
+    "regions": [
+      "South Asia"
+    ],
+    "countries": [
+      "India",
+      "Sri Lanka"
+    ],
     "habitat": "Fast-flowing hill streams and rivers with rocky substrates, clear well-oxygenated water, and moderate to strong current; also found in slower lowland rivers and reservoirs during certain seasons. Predominantly associated with the Western Ghats mountain range.",
     "biotope": "Hill stream / River",
-    "depthRangeM": { "min": 0, "max": 3 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 3
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 18, "max": 26 },
-    "pH": { "min": 6.5, "max": 7.5 },
-    "gH": { "min": 4, "max": 15 },
-    "kH": { "min": 2, "max": 8 },
+    "temperatureC": {
+      "min": 18,
+      "max": 26
+    },
+    "pH": {
+      "min": 6.5,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 4,
+      "max": 15
+    },
+    "kH": {
+      "min": 2,
+      "max": 8
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 8.0, "max": 10.0 },
-  "lifespanYears": { "min": 3, "max": 5 },
+  "adultSizeCm": {
+    "min": 8,
+    "max": 10
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 150,
     "minLengthCm": 120,
@@ -145,7 +171,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

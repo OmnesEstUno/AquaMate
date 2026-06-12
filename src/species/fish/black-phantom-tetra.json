@@ -6,28 +6,54 @@
   "waterType": "freshwater",
   "commonName": "Black Phantom Tetra",
   "scientificName": "Hyphessobrycon megalopterus",
-  "alsoKnownAs": ["Phantom Tetra"],
+  "alsoKnownAs": [
+    "Phantom Tetra"
+  ],
   "category": "Tetra",
   "taxonomy": {
     "family": "Characidae",
     "order": "Characiformes"
   },
   "nativeRange": {
-    "regions": ["South America"],
-    "countries": ["Bolivia", "Brazil", "Paraguay"],
+    "regions": [
+      "South America"
+    ],
+    "countries": [
+      "Bolivia",
+      "Brazil",
+      "Paraguay"
+    ],
     "habitat": "Slow-moving, heavily vegetated blackwater streams and tributaries with leaf litter and tannin-stained water",
     "biotope": "Blackwater / clearwater stream",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 28 },
-    "pH": { "min": 6.0, "max": 7.5 },
-    "gH": { "min": 2, "max": 15 },
-    "kH": { "min": 2, "max": 12 },
+    "temperatureC": {
+      "min": 22,
+      "max": 28
+    },
+    "pH": {
+      "min": 6,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 2,
+      "max": 15
+    },
+    "kH": {
+      "min": 2,
+      "max": 12
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 3.5, "max": 4.5 },
-  "lifespanYears": { "min": 3, "max": 5 },
+  "adultSizeCm": {
+    "min": 3.5,
+    "max": 4.5
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 75,
     "minLengthCm": 60,
@@ -121,7 +147,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

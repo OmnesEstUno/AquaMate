@@ -17,21 +17,56 @@
     "order": "Siluriformes"
   },
   "nativeRange": {
-    "regions": ["Southeast Asia", "South Asia"],
-    "countries": ["Thailand", "Myanmar", "Laos", "Cambodia", "Vietnam", "Malaysia", "Indonesia", "India", "Sri Lanka", "Bangladesh"],
+    "regions": [
+      "Southeast Asia",
+      "South Asia"
+    ],
+    "countries": [
+      "Thailand",
+      "Myanmar",
+      "Laos",
+      "Cambodia",
+      "Vietnam",
+      "Malaysia",
+      "Indonesia",
+      "India",
+      "Sri Lanka",
+      "Bangladesh"
+    ],
     "habitat": "Slow-moving or stagnant lowland waters: ponds, swamps, rice paddies, flooded fields, rivers, and canals; tolerates low-oxygen environments via air-breathing organ",
     "biotope": "Tropical lowland swamp",
-    "depthRangeM": { "min": 0, "max": 2 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 2
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 28 },
-    "pH": { "min": 6.0, "max": 8.0 },
-    "gH": { "min": 5, "max": 20 },
-    "kH": { "min": 3, "max": 12 },
+    "temperatureC": {
+      "min": 22,
+      "max": 28
+    },
+    "pH": {
+      "min": 6,
+      "max": 8
+    },
+    "gH": {
+      "min": 5,
+      "max": 20
+    },
+    "kH": {
+      "min": 3,
+      "max": 12
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 30.0, "max": 60.0 },
-  "lifespanYears": { "min": 8, "max": 15 },
+  "adultSizeCm": {
+    "min": 30,
+    "max": 60
+  },
+  "lifespanYears": {
+    "min": 8,
+    "max": 15
+  },
   "tank": {
     "minVolumeLiters": 500,
     "minLengthCm": 180,
@@ -149,7 +184,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

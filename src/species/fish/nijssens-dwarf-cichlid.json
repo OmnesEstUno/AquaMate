@@ -6,28 +6,57 @@
   "waterType": "freshwater",
   "commonName": "Nijssen's Dwarf Cichlid",
   "scientificName": "Apistogramma nijsseni",
-  "alsoKnownAs": ["Panda Apisto", "Panda Dwarf Cichlid"],
+  "alsoKnownAs": [
+    "Panda Apisto",
+    "Panda Dwarf Cichlid"
+  ],
   "category": "Cichlid",
   "taxonomy": {
     "family": "Cichlidae",
     "order": "Cichliformes"
   },
   "nativeRange": {
-    "regions": ["South America", "Upper Amazon Basin"],
-    "countries": ["Peru"],
+    "regions": [
+      "South America",
+      "Upper Amazon Basin"
+    ],
+    "countries": [
+      "Peru"
+    ],
     "habitat": "Slow-moving blackwater streams and flooded forest pools; shallow water over soft sandy or muddy substrate with heavy leaf litter, submerged roots and driftwood; typically in dense riparian vegetation",
     "biotope": "Blackwater",
-    "depthRangeM": { "min": 0, "max": 1 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 1
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 28 },
-    "pH": { "min": 4.5, "max": 6.0 },
-    "gH": { "min": 1, "max": 6 },
-    "kH": { "min": 0, "max": 3 },
+    "temperatureC": {
+      "min": 23,
+      "max": 28
+    },
+    "pH": {
+      "min": 4.5,
+      "max": 6
+    },
+    "gH": {
+      "min": 1,
+      "max": 6
+    },
+    "kH": {
+      "min": 0,
+      "max": 3
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 3.5, "max": 7.5 },
-  "lifespanYears": { "min": 3, "max": 5 },
+  "adultSizeCm": {
+    "min": 3.5,
+    "max": 7.5
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 60,
     "minLengthCm": 60,
@@ -153,7 +182,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

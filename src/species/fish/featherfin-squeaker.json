@@ -6,33 +6,72 @@
   "waterType": "freshwater",
   "commonName": "Featherfin Squeaker",
   "scientificName": "Synodontis eupterus",
-  "alsoKnownAs": ["Featherfin Synodontis", "Network Catfish"],
+  "alsoKnownAs": [
+    "Featherfin Synodontis",
+    "Network Catfish"
+  ],
   "category": "Catfish",
   "taxonomy": {
     "family": "Mochokidae",
     "order": "Siluriformes"
   },
   "nativeRange": {
-    "regions": ["West Africa", "Central Africa", "East Africa"],
-    "countries": ["Nigeria", "Cameroon", "Mali", "Ghana", "Sudan", "Chad", "Niger"],
+    "regions": [
+      "West Africa",
+      "Central Africa",
+      "East Africa"
+    ],
+    "countries": [
+      "Nigeria",
+      "Cameroon",
+      "Mali",
+      "Ghana",
+      "Sudan",
+      "Chad",
+      "Niger"
+    ],
     "habitat": "Varies; has been documented in slow to moderate rivers and lakes over muddy and rocky substrates.",
     "biotope": "African river",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 27 },
-    "pH": { "min": 6.2, "max": 7.5 },
-    "gH": { "min": 5, "max": 20 },
-    "kH": { "min": 4, "max": 15 },
+    "temperatureC": {
+      "min": 22,
+      "max": 27
+    },
+    "pH": {
+      "min": 6.2,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 5,
+      "max": 20
+    },
+    "kH": {
+      "min": 4,
+      "max": 15
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 15, "max": 25 },
-  "lifespanYears": { "min": 10, "max": 15 },
+  "adultSizeCm": {
+    "min": 15,
+    "max": 25
+  },
+  "lifespanYears": {
+    "min": 10,
+    "max": 15
+  },
   "tank": {
     "minVolumeLiters": 200,
     "minLengthCm": 120,
     "swimZone": "bottom",
-    "decorPreferences": ["driftwood", "rocks", "caves", "twisted roots", "floating vegetation"],
+    "decorPreferences": [
+      "driftwood",
+      "rocks",
+      "caves",
+      "twisted roots",
+      "floating vegetation"
+    ],
     "minSandDepthCm": null
   },
   "careLevel": "intermediate",
@@ -44,8 +83,21 @@
     "temperament": "semi-aggressive",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["robust tetras", "West African cichlids", "mormyrids", "larger barbs", "large rasboras", "gouramis", "knifefish"],
-    "avoidWith": ["small fish that fit in mouth", "other Synodontis in small tanks", "dwarf cichlids", "small invertebrates"]
+    "goodWith": [
+      "robust tetras",
+      "West African cichlids",
+      "mormyrids",
+      "larger barbs",
+      "large rasboras",
+      "gouramis",
+      "knifefish"
+    ],
+    "avoidWith": [
+      "small fish that fit in mouth",
+      "other Synodontis in small tanks",
+      "dwarf cichlids",
+      "small invertebrates"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -95,7 +147,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

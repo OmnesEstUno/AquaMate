@@ -6,27 +6,51 @@
   "waterType": "freshwater",
   "commonName": "Dwarf Chain Loach",
   "scientificName": "Ambastaia sidthimunki",
-  "alsoKnownAs": ["Sidthimunki Loach", "Chain Loach", "Dwarf Botia"],
+  "alsoKnownAs": [
+    "Sidthimunki Loach",
+    "Chain Loach",
+    "Dwarf Botia"
+  ],
   "category": "Loach",
   "taxonomy": {
     "family": "Botiidae",
     "order": "Cypriniformes"
   },
   "nativeRange": {
-    "regions": ["Southeast Asia"],
-    "countries": ["Thailand", "Myanmar"],
+    "regions": [
+      "Southeast Asia"
+    ],
+    "countries": [
+      "Thailand",
+      "Myanmar"
+    ],
     "habitat": "Relatively slow-flowing sections of forested, well-oxygenated headwaters with clear water; mixed sand and rock substrate with submerged driftwood and leaf litter. Has also been documented in medium to large rivers and flooded fields.",
     "biotope": "Clearwater",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 28 },
-    "pH": { "min": 5.5, "max": 7.5 },
-    "gH": { "min": 3, "max": 15 },
-    "kH": { "min": 2, "max": 10 },
+    "temperatureC": {
+      "min": 22,
+      "max": 28
+    },
+    "pH": {
+      "min": 5.5,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 3,
+      "max": 15
+    },
+    "kH": {
+      "min": 2,
+      "max": 10
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 5, "max": 6 },
+  "adultSizeCm": {
+    "min": 5,
+    "max": 6
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 100,
@@ -122,7 +146,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

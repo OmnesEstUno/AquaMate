@@ -6,28 +6,57 @@
   "waterType": "freshwater",
   "commonName": "Pearl Gourami",
   "scientificName": "Trichopodus leerii",
-  "alsoKnownAs": ["Mosaic Gourami", "Lace Gourami", "Diamond Gourami", "Trichogaster leeri"],
+  "alsoKnownAs": [
+    "Mosaic Gourami",
+    "Lace Gourami",
+    "Diamond Gourami",
+    "Trichogaster leeri"
+  ],
   "category": "Gourami",
   "taxonomy": {
     "family": "Osphronemidae",
     "order": "Anabantiformes"
   },
   "nativeRange": {
-    "regions": ["Southeast Asia"],
-    "countries": ["Thailand", "Malaysia", "Indonesia"],
+    "regions": [
+      "Southeast Asia"
+    ],
+    "countries": [
+      "Thailand",
+      "Malaysia",
+      "Indonesia"
+    ],
     "habitat": "Shallow lowland swamps, peat swamp forests, and slow-moving streams with dense vegetation and typically acidic, blackwater conditions",
     "biotope": "Peat swamp / blackwater",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 29 },
-    "pH": { "min": 5.5, "max": 8.0 },
-    "gH": { "min": 4, "max": 20 },
-    "kH": { "min": 4, "max": 15 },
+    "temperatureC": {
+      "min": 24,
+      "max": 29
+    },
+    "pH": {
+      "min": 5.5,
+      "max": 8
+    },
+    "gH": {
+      "min": 4,
+      "max": 20
+    },
+    "kH": {
+      "min": 4,
+      "max": 15
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 10, "max": 12 },
-  "lifespanYears": { "min": 4, "max": 8 },
+  "adultSizeCm": {
+    "min": 10,
+    "max": 12
+  },
+  "lifespanYears": {
+    "min": 4,
+    "max": 8
+  },
   "tank": {
     "minVolumeLiters": 150,
     "minLengthCm": 90,
@@ -126,7 +155,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

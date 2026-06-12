@@ -6,33 +6,73 @@
   "waterType": "freshwater",
   "commonName": "Cockatoo Dwarf Cichlid",
   "scientificName": "Apistogramma cacatuoides",
-  "alsoKnownAs": ["Apistogramma cacatuoides", "Cockatoo Cichlid", "Double Red Apistogramma", "Triple Red Apistogramma", "Orange Flash Apistogramma", "Super Red Apistogramma"],
+  "alsoKnownAs": [
+    "Apistogramma cacatuoides",
+    "Cockatoo Cichlid",
+    "Double Red Apistogramma",
+    "Triple Red Apistogramma",
+    "Orange Flash Apistogramma",
+    "Super Red Apistogramma"
+  ],
   "category": "Cichlid",
   "taxonomy": {
     "family": "Cichlidae",
     "order": "Cichliformes"
   },
   "nativeRange": {
-    "regions": ["South America", "Upper Amazon Basin"],
-    "countries": ["Peru", "Brazil", "Colombia"],
+    "regions": [
+      "South America",
+      "Upper Amazon Basin"
+    ],
+    "countries": [
+      "Peru",
+      "Brazil",
+      "Colombia"
+    ],
     "habitat": "Slow-moving and standing water in floodplain forests, pools, and small tributaries; typically over soft substrate with leaf litter and submerged wood",
     "biotope": "Whitewater",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 28 },
-    "pH": { "min": 5.5, "max": 7.5 },
-    "gH": { "min": 2, "max": 15 },
-    "kH": { "min": 2, "max": 10 },
+    "temperatureC": {
+      "min": 23,
+      "max": 28
+    },
+    "pH": {
+      "min": 5.5,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 2,
+      "max": 15
+    },
+    "kH": {
+      "min": 2,
+      "max": 10
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 5, "max": 8 },
-  "lifespanYears": { "min": 3, "max": 5 },
+  "adultSizeCm": {
+    "min": 5,
+    "max": 8
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 75,
     "minLengthCm": 60,
     "swimZone": "bottom",
-    "decorPreferences": ["caves", "coconut huts", "driftwood", "leaf litter", "dense planting", "sandy substrate", "catappa leaves"],
+    "decorPreferences": [
+      "caves",
+      "coconut huts",
+      "driftwood",
+      "leaf litter",
+      "dense planting",
+      "sandy substrate",
+      "catappa leaves"
+    ],
     "minSandDepthCm": null
   },
   "careLevel": "intermediate",
@@ -44,8 +84,19 @@
     "temperament": "semi-aggressive",
     "grouping": "shoaling",
     "minGroupSize": 3,
-    "goodWith": ["small tetras", "corydoras", "rasboras", "otocinclus", "small loaches", "pencilfish"],
-    "avoidWith": ["large aggressive cichlids", "fin-nipping species", "other Apistogramma males (without sufficient space and territory)"]
+    "goodWith": [
+      "small tetras",
+      "corydoras",
+      "rasboras",
+      "otocinclus",
+      "small loaches",
+      "pencilfish"
+    ],
+    "avoidWith": [
+      "large aggressive cichlids",
+      "fin-nipping species",
+      "other Apistogramma males (without sufficient space and territory)"
+    ]
   },
   "media": {
     "primaryImage": "apistogramma_cacatuoides.jpg",
@@ -101,7 +152,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

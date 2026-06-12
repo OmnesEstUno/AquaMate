@@ -17,21 +17,60 @@
     "order": "Gobiiformes"
   },
   "nativeRange": {
-    "regions": ["North America", "Central America", "South America", "Caribbean"],
-    "countries": ["United States", "Mexico", "Belize", "Colombia", "Venezuela", "Suriname", "Guyana", "French Guiana", "Brazil"],
+    "regions": [
+      "North America",
+      "Central America",
+      "South America",
+      "Caribbean"
+    ],
+    "countries": [
+      "United States",
+      "Mexico",
+      "Belize",
+      "Colombia",
+      "Venezuela",
+      "Suriname",
+      "Guyana",
+      "French Guiana",
+      "Brazil"
+    ],
     "habitat": "Brackish estuaries, muddy bays, river mouths, and coastal swamps; found in mud-bottomed intertidal and subtidal zones with soft substrate; occasionally enters freshwater and open marine water",
     "biotope": "Estuary",
-    "depthRangeM": { "min": 0, "max": 10 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 10
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 28 },
-    "pH": { "min": 7.5, "max": 9.0 },
-    "gH": { "min": 10, "max": 25 },
-    "kH": { "min": 6, "max": 18 },
-    "salinity": { "min": 1.005, "max": 1.012 }
+    "temperatureC": {
+      "min": 22,
+      "max": 28
+    },
+    "pH": {
+      "min": 7.5,
+      "max": 9
+    },
+    "gH": {
+      "min": 10,
+      "max": 25
+    },
+    "kH": {
+      "min": 6,
+      "max": 18
+    },
+    "salinity": {
+      "min": 1.005,
+      "max": 1.012
+    }
   },
-  "adultSizeCm": { "min": 30.0, "max": 62.0 },
-  "lifespanYears": { "min": 5, "max": 10 },
+  "adultSizeCm": {
+    "min": 30,
+    "max": 62
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 10
+  },
   "tank": {
     "minVolumeLiters": 450,
     "minLengthCm": 120,
@@ -146,7 +185,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": true
+    "euryhaline": true,
+    "eatsPlantsRisk": null,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

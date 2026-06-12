@@ -6,33 +6,74 @@
   "waterType": "freshwater",
   "commonName": "Gold Barb",
   "scientificName": "Barbodes semifasciolatus",
-  "alsoKnownAs": ["Chinese Barb", "Green Barb", "Schubert's Barb", "Puntius semifasciolatus", "Puntius schuberti"],
+  "alsoKnownAs": [
+    "Chinese Barb",
+    "Green Barb",
+    "Schubert's Barb",
+    "Puntius semifasciolatus",
+    "Puntius schuberti"
+  ],
   "category": "Barb",
   "taxonomy": {
     "family": "Cyprinidae",
     "order": "Cypriniformes"
   },
   "nativeRange": {
-    "regions": ["Southeast Asia", "East Asia"],
-    "countries": ["Vietnam", "China", "Taiwan", "Laos"],
+    "regions": [
+      "Southeast Asia",
+      "East Asia"
+    ],
+    "countries": [
+      "Vietnam",
+      "China",
+      "Taiwan",
+      "Laos"
+    ],
     "habitat": "Slower-flowing tributaries and standing water bodies such as swamps and irrigation channels with dense aquatic or riparian vegetation",
     "biotope": "Subtropical lowland freshwater; often found near substrate in schools",
-    "depthRangeM": { "min": 0, "max": 5 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 5
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 16, "max": 24 },
-    "pH": { "min": 6.0, "max": 8.0 },
-    "gH": { "min": 5, "max": 20 },
-    "kH": { "min": 3, "max": 12 },
+    "temperatureC": {
+      "min": 16,
+      "max": 24
+    },
+    "pH": {
+      "min": 6,
+      "max": 8
+    },
+    "gH": {
+      "min": 5,
+      "max": 20
+    },
+    "kH": {
+      "min": 3,
+      "max": 12
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 5.0, "max": 7.5 },
-  "lifespanYears": { "min": 5, "max": 7 },
+  "adultSizeCm": {
+    "min": 5,
+    "max": 7.5
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 7
+  },
   "tank": {
     "minVolumeLiters": 100,
     "minLengthCm": 90,
     "swimZone": "mid",
-    "decorPreferences": ["live plants", "floating plants", "driftwood", "dark substrate", "open swimming area"],
+    "decorPreferences": [
+      "live plants",
+      "floating plants",
+      "driftwood",
+      "dark substrate",
+      "open swimming area"
+    ],
     "minSandDepthCm": null
   },
   "careLevel": "beginner",
@@ -44,8 +85,20 @@
     "temperament": "peaceful",
     "grouping": "schooling",
     "minGroupSize": 6,
-    "goodWith": ["danios", "tetras", "peaceful cyprinids", "corydoras", "loaches", "dwarf gouramis", "small rasboras"],
-    "avoidWith": ["aggressive species", "fin-nippers", "large predatory fish"]
+    "goodWith": [
+      "danios",
+      "tetras",
+      "peaceful cyprinids",
+      "corydoras",
+      "loaches",
+      "dwarf gouramis",
+      "small rasboras"
+    ],
+    "avoidWith": [
+      "aggressive species",
+      "fin-nippers",
+      "large predatory fish"
+    ]
   },
   "media": {
     "primaryImage": "gold_barb.jpg",
@@ -107,7 +160,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

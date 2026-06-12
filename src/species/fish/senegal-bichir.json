@@ -6,33 +6,81 @@
   "waterType": "freshwater",
   "commonName": "Senegal Bichir",
   "scientificName": "Polypterus senegalus senegalus",
-  "alsoKnownAs": ["Gray Bichir", "Cuvier's Bichir", "Dinosaur Bichir", "Dinosaur Eel"],
+  "alsoKnownAs": [
+    "Gray Bichir",
+    "Cuvier's Bichir",
+    "Dinosaur Bichir",
+    "Dinosaur Eel"
+  ],
   "category": "Oddball",
   "taxonomy": {
     "family": "Polypteridae",
     "order": "Polypteriformes"
   },
   "nativeRange": {
-    "regions": ["West Africa", "Central Africa", "East Africa", "North Africa"],
-    "countries": ["Senegal", "Gambia", "Mali", "Niger", "Nigeria", "Cameroon", "Chad", "Egypt", "Ethiopia", "Kenya", "Tanzania", "Ivory Coast", "Democratic Republic of the Congo"],
+    "regions": [
+      "West Africa",
+      "Central Africa",
+      "East Africa",
+      "North Africa"
+    ],
+    "countries": [
+      "Senegal",
+      "Gambia",
+      "Mali",
+      "Niger",
+      "Nigeria",
+      "Cameroon",
+      "Chad",
+      "Egypt",
+      "Ethiopia",
+      "Kenya",
+      "Tanzania",
+      "Ivory Coast",
+      "Democratic Republic of the Congo"
+    ],
     "habitat": "Shallow, slow-moving swamps, marshes, freshwater lagoons, and muddy river margins; tends to lurk in dense vegetation and soft substrate",
     "biotope": "Whitewater",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 28 },
-    "pH": { "min": 6.2, "max": 7.8 },
-    "gH": { "min": 5, "max": 20 },
-    "kH": { "min": 4, "max": 15 },
+    "temperatureC": {
+      "min": 24,
+      "max": 28
+    },
+    "pH": {
+      "min": 6.2,
+      "max": 7.8
+    },
+    "gH": {
+      "min": 5,
+      "max": 20
+    },
+    "kH": {
+      "min": 4,
+      "max": 15
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 30, "max": 45 },
-  "lifespanYears": { "min": 15, "max": 30 },
+  "adultSizeCm": {
+    "min": 30,
+    "max": 45
+  },
+  "lifespanYears": {
+    "min": 15,
+    "max": 30
+  },
   "tank": {
     "minVolumeLiters": 500,
     "minLengthCm": 150,
     "swimZone": "bottom",
-    "decorPreferences": ["driftwood", "caves", "smooth substrate", "dense hiding spots", "low-flow areas"],
+    "decorPreferences": [
+      "driftwood",
+      "caves",
+      "smooth substrate",
+      "dense hiding spots",
+      "low-flow areas"
+    ],
     "minSandDepthCm": null
   },
   "careLevel": "intermediate",
@@ -44,8 +92,22 @@
     "temperament": "semi-aggressive",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["large cichlids", "Synodontis catfish", "Datnoides", "knifefish", "large barbs", "medium-to-large characins", "other Polypterus species (similar size)", "large Ctenopoma"],
-    "avoidWith": ["small fish (will be eaten)", "small invertebrates", "fish smaller than the bichir's mouth gape", "fin-nipping species"]
+    "goodWith": [
+      "large cichlids",
+      "Synodontis catfish",
+      "Datnoides",
+      "knifefish",
+      "large barbs",
+      "medium-to-large characins",
+      "other Polypterus species (similar size)",
+      "large Ctenopoma"
+    ],
+    "avoidWith": [
+      "small fish (will be eaten)",
+      "small invertebrates",
+      "fish smaller than the bichir's mouth gape",
+      "fin-nipping species"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -101,7 +163,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

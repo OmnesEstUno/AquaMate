@@ -6,28 +6,58 @@
   "waterType": "freshwater",
   "commonName": "Hockeystick Pencilfish",
   "scientificName": "Nannostomus eques",
-  "alsoKnownAs": ["Brown Pencilfish", "Rocket Pencilfish", "Diptail Pencilfish"],
+  "alsoKnownAs": [
+    "Brown Pencilfish",
+    "Rocket Pencilfish",
+    "Diptail Pencilfish"
+  ],
   "category": "Characin",
   "taxonomy": {
     "family": "Lebiasinidae",
     "order": "Characiformes"
   },
   "nativeRange": {
-    "regions": ["South America"],
-    "countries": ["Brazil", "Peru", "Colombia", "Venezuela", "Guyana"],
+    "regions": [
+      "South America"
+    ],
+    "countries": [
+      "Brazil",
+      "Peru",
+      "Colombia",
+      "Venezuela",
+      "Guyana"
+    ],
     "habitat": "Sluggish tributaries, small rivers, and swampy zones with dense vegetation and leaf litter in blackwater and clearwater systems",
     "biotope": "Blackwater",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 28 },
-    "pH":           { "min": 5.0, "max": 7.0 },
-    "gH":           { "min": 1, "max": 10 },
-    "kH":           { "min": 0, "max": 5 },
-    "salinity":     null
+    "temperatureC": {
+      "min": 23,
+      "max": 28
+    },
+    "pH": {
+      "min": 5,
+      "max": 7
+    },
+    "gH": {
+      "min": 1,
+      "max": 10
+    },
+    "kH": {
+      "min": 0,
+      "max": 5
+    },
+    "salinity": null
   },
-  "adultSizeCm": { "min": 3.0, "max": 5.0 },
-  "lifespanYears": { "min": 3, "max": 5 },
+  "adultSizeCm": {
+    "min": 3,
+    "max": 5
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 75,
     "minLengthCm": 60,
@@ -118,7 +148,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

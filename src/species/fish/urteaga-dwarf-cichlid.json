@@ -16,21 +16,46 @@
     "order": "Cichliformes"
   },
   "nativeRange": {
-    "regions": ["South America"],
-    "countries": ["Peru"],
+    "regions": [
+      "South America"
+    ],
+    "countries": [
+      "Peru"
+    ],
     "habitat": "Small blackwater streams and swamps in the Madre de Dios River basin; slow-moving or still water over leaf litter and sandy substrate with dense riparian vegetation and overhanging roots",
     "biotope": "Blackwater",
-    "depthRangeM": { "min": 0, "max": 1 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 1
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 29 },
-    "pH": { "min": 4.5, "max": 6.5 },
-    "gH": { "min": 0, "max": 8 },
-    "kH": { "min": 0, "max": 4 },
+    "temperatureC": {
+      "min": 22,
+      "max": 29
+    },
+    "pH": {
+      "min": 4.5,
+      "max": 6.5
+    },
+    "gH": {
+      "min": 0,
+      "max": 8
+    },
+    "kH": {
+      "min": 0,
+      "max": 4
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 2.5, "max": 4.1 },
-  "lifespanYears": { "min": 3, "max": 5 },
+  "adultSizeCm": {
+    "min": 2.5,
+    "max": 4.1
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 60,
     "minLengthCm": 60,
@@ -145,7 +170,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

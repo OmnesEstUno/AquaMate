@@ -15,21 +15,50 @@
     "order": "Cyprinodontiformes"
   },
   "nativeRange": {
-    "regions": ["Central America"],
-    "countries": ["Mexico", "Belize", "Guatemala", "Honduras", "Nicaragua"],
+    "regions": [
+      "Central America"
+    ],
+    "countries": [
+      "Mexico",
+      "Belize",
+      "Guatemala",
+      "Honduras",
+      "Nicaragua"
+    ],
     "habitat": "Warm, shallow, densely vegetated lowland waters: slow-moving rivers, backwaters, lagoons, ditches, and coastal marshes with abundant aquatic vegetation; tolerates slightly brackish conditions",
     "biotope": "Lowland tropical freshwater",
-    "depthRangeM": { "min": 0, "max": 1 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 1
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 30 },
-    "pH": { "min": 7.0, "max": 8.5 },
-    "gH": { "min": 10, "max": 25 },
-    "kH": { "min": 5, "max": 15 },
+    "temperatureC": {
+      "min": 24,
+      "max": 30
+    },
+    "pH": {
+      "min": 7,
+      "max": 8.5
+    },
+    "gH": {
+      "min": 10,
+      "max": 25
+    },
+    "kH": {
+      "min": 5,
+      "max": 15
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 10.0, "max": 20.0 },
-  "lifespanYears": { "min": 3, "max": 6 },
+  "adultSizeCm": {
+    "min": 10,
+    "max": 20
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 6
+  },
   "tank": {
     "minVolumeLiters": 200,
     "minLengthCm": 120,
@@ -141,7 +170,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

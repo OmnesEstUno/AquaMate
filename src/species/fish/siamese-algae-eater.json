@@ -6,28 +6,58 @@
   "waterType": "freshwater",
   "commonName": "Siamese Algae Eater",
   "scientificName": "Crossocheilus oblongus",
-  "alsoKnownAs": ["SAE", "True SAE", "Siamese Flying Fox", "Crossocheilus siamensis"],
+  "alsoKnownAs": [
+    "SAE",
+    "True SAE",
+    "Siamese Flying Fox",
+    "Crossocheilus siamensis"
+  ],
   "category": "Algae Eater",
   "taxonomy": {
     "family": "Cyprinidae",
     "order": "Cypriniformes"
   },
   "nativeRange": {
-    "regions": ["Southeast Asia"],
-    "countries": ["Thailand", "Malaysia", "Indonesia", "Myanmar"],
+    "regions": [
+      "Southeast Asia"
+    ],
+    "countries": [
+      "Thailand",
+      "Malaysia",
+      "Indonesia",
+      "Myanmar"
+    ],
     "habitat": "Hill streams, river margins, and areas near rapids in clear, fast-flowing water; typically found near the substrate in moderate to strong current",
     "biotope": "River",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 20, "max": 27 },
-    "pH": { "min": 6.0, "max": 8.0 },
-    "gH": { "min": 5, "max": 15 },
-    "kH": { "min": 3, "max": 12 },
+    "temperatureC": {
+      "min": 20,
+      "max": 27
+    },
+    "pH": {
+      "min": 6,
+      "max": 8
+    },
+    "gH": {
+      "min": 5,
+      "max": 15
+    },
+    "kH": {
+      "min": 3,
+      "max": 12
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 12, "max": 15 },
-  "lifespanYears": { "min": 5, "max": 10 },
+  "adultSizeCm": {
+    "min": 12,
+    "max": 15
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 10
+  },
   "tank": {
     "minVolumeLiters": 150,
     "minLengthCm": 120,
@@ -130,7 +160,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

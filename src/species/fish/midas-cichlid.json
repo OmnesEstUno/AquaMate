@@ -17,21 +17,47 @@
     "order": "Cichliformes"
   },
   "nativeRange": {
-    "regions": ["Central America"],
-    "countries": ["Nicaragua", "Costa Rica"],
+    "regions": [
+      "Central America"
+    ],
+    "countries": [
+      "Nicaragua",
+      "Costa Rica"
+    ],
     "habitat": "Large lakes, rocky shorelines, and sandy littoral zones; found primarily in Lake Nicaragua, Lake Managua, and associated river systems. Inhabits shallow to mid-depth areas with hard substrate and scattered vegetation.",
     "biotope": "Central American lake",
-    "depthRangeM": { "min": 0, "max": 15 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 15
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 28 },
-    "pH": { "min": 6.6, "max": 7.8 },
-    "gH": { "min": 8, "max": 20 },
-    "kH": { "min": 4, "max": 12 },
+    "temperatureC": {
+      "min": 22,
+      "max": 28
+    },
+    "pH": {
+      "min": 6.6,
+      "max": 7.8
+    },
+    "gH": {
+      "min": 8,
+      "max": 20
+    },
+    "kH": {
+      "min": 4,
+      "max": 12
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 25.0, "max": 35.0 },
-  "lifespanYears": { "min": 10, "max": 15 },
+  "adultSizeCm": {
+    "min": 25,
+    "max": 35
+  },
+  "lifespanYears": {
+    "min": 10,
+    "max": 15
+  },
   "tank": {
     "minVolumeLiters": 500,
     "minLengthCm": 180,
@@ -159,7 +185,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

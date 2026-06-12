@@ -6,33 +6,66 @@
   "waterType": "freshwater",
   "commonName": "Bala Shark",
   "scientificName": "Balantiocheilos melanopterus",
-  "alsoKnownAs": ["Silver Shark", "Tricolor Shark", "Tricolor Sharkminnow"],
+  "alsoKnownAs": [
+    "Silver Shark",
+    "Tricolor Shark",
+    "Tricolor Sharkminnow"
+  ],
   "category": "Cyprinid",
   "taxonomy": {
     "family": "Cyprinidae",
     "order": "Cypriniformes"
   },
   "nativeRange": {
-    "regions": ["Southeast Asia"],
-    "countries": ["Thailand", "Indonesia", "Malaysia"],
+    "regions": [
+      "Southeast Asia"
+    ],
+    "countries": [
+      "Thailand",
+      "Indonesia",
+      "Malaysia"
+    ],
     "habitat": "Midwater zones of large and medium-sized rivers and natural lakes",
     "biotope": "River",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 28 },
-    "pH": { "min": 6.0, "max": 8.0 },
-    "gH": { "min": 5, "max": 20 },
-    "kH": { "min": 3, "max": 15 },
+    "temperatureC": {
+      "min": 22,
+      "max": 28
+    },
+    "pH": {
+      "min": 6,
+      "max": 8
+    },
+    "gH": {
+      "min": 5,
+      "max": 20
+    },
+    "kH": {
+      "min": 3,
+      "max": 15
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 30, "max": 35 },
-  "lifespanYears": { "min": 8, "max": 10 },
+  "adultSizeCm": {
+    "min": 30,
+    "max": 35
+  },
+  "lifespanYears": {
+    "min": 8,
+    "max": 10
+  },
   "tank": {
     "minVolumeLiters": 600,
     "minLengthCm": 200,
     "swimZone": "mid",
-    "decorPreferences": ["open swimming space", "tight-fitting lid", "driftwood", "robust plants"],
+    "decorPreferences": [
+      "open swimming space",
+      "tight-fitting lid",
+      "driftwood",
+      "robust plants"
+    ],
     "minSandDepthCm": null
   },
   "careLevel": "advanced",
@@ -44,8 +77,17 @@
     "temperament": "peaceful",
     "grouping": "schooling",
     "minGroupSize": 5,
-    "goodWith": ["similarly sized cyprinids", "larger loaches", "robust gouramis", "larger catfish"],
-    "avoidWith": ["small fish or shrimp that may be eaten", "timid or slow-moving species intimidated by constant activity", "fin-nippers that may target their flowing fins"]
+    "goodWith": [
+      "similarly sized cyprinids",
+      "larger loaches",
+      "robust gouramis",
+      "larger catfish"
+    ],
+    "avoidWith": [
+      "small fish or shrimp that may be eaten",
+      "timid or slow-moving species intimidated by constant activity",
+      "fin-nippers that may target their flowing fins"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -107,7 +149,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

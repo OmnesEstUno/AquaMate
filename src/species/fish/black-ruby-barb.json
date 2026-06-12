@@ -6,28 +6,55 @@
   "waterType": "freshwater",
   "commonName": "Black Ruby Barb",
   "scientificName": "Pethia nigrofasciata",
-  "alsoKnownAs": ["Purple-Headed Barb", "Ruby Barb", "Puntius nigrofasciatus", "Barbus nigrofasciatus"],
+  "alsoKnownAs": [
+    "Purple-Headed Barb",
+    "Ruby Barb",
+    "Puntius nigrofasciatus",
+    "Barbus nigrofasciatus"
+  ],
   "category": "Barb",
   "taxonomy": {
     "family": "Cyprinidae",
     "order": "Cypriniformes"
   },
   "nativeRange": {
-    "regions": ["South Asia"],
-    "countries": ["Sri Lanka"],
+    "regions": [
+      "South Asia"
+    ],
+    "countries": [
+      "Sri Lanka"
+    ],
     "habitat": "Lowland tropical rainforest streams in Sri Lanka's southwestern wet zone (Kelani and Nilwala river basins). Characterized by clear to slightly-stained, shallow, slow-flowing water with low conductivity, leaf litter substrate, and heavy overhanging vegetation; found at elevations up to approximately 300 m.",
     "biotope": "Sri Lankan rainforest stream",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 27 },
-    "pH": { "min": 6.0, "max": 7.5 },
-    "gH": { "min": 4, "max": 15 },
-    "kH": { "min": 3, "max": 10 },
+    "temperatureC": {
+      "min": 22,
+      "max": 27
+    },
+    "pH": {
+      "min": 6,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 4,
+      "max": 15
+    },
+    "kH": {
+      "min": 3,
+      "max": 10
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 4.5, "max": 6.0 },
-  "lifespanYears": { "min": 4, "max": 6 },
+  "adultSizeCm": {
+    "min": 4.5,
+    "max": 6
+  },
+  "lifespanYears": {
+    "min": 4,
+    "max": 6
+  },
   "tank": {
     "minVolumeLiters": 100,
     "minLengthCm": 80,
@@ -129,7 +156,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

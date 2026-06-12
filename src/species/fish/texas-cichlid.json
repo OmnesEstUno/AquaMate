@@ -16,21 +16,48 @@
     "order": "Cichliformes"
   },
   "nativeRange": {
-    "regions": ["North America", "Central America"],
-    "countries": ["United States", "Mexico"],
+    "regions": [
+      "North America",
+      "Central America"
+    ],
+    "countries": [
+      "United States",
+      "Mexico"
+    ],
     "habitat": "Pools, runs, and backwaters of the Rio Grande and associated tributaries; also Río San Juan (Tamaulipas, Mexico). Prefers slow-moving to moderately flowing warm rivers and lakes with rocky or sandy substrates; occurs in areas with submerged vegetation and rocky cover.",
     "biotope": "Rio Grande river",
-    "depthRangeM": { "min": 0, "max": 3 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 3
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 15, "max": 28 },
-    "pH": { "min": 6.5, "max": 8.0 },
-    "gH": { "min": 5, "max": 20 },
-    "kH": { "min": 3, "max": 12 },
+    "temperatureC": {
+      "min": 15,
+      "max": 28
+    },
+    "pH": {
+      "min": 6.5,
+      "max": 8
+    },
+    "gH": {
+      "min": 5,
+      "max": 20
+    },
+    "kH": {
+      "min": 3,
+      "max": 12
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 20.0, "max": 30.0 },
-  "lifespanYears": { "min": 10, "max": 15 },
+  "adultSizeCm": {
+    "min": 20,
+    "max": 30
+  },
+  "lifespanYears": {
+    "min": 10,
+    "max": 15
+  },
   "tank": {
     "minVolumeLiters": 500,
     "minLengthCm": 180,
@@ -151,7 +178,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": true,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

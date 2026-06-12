@@ -6,33 +6,66 @@
   "waterType": "freshwater",
   "commonName": "Bolivian Ram",
   "scientificName": "Mikrogeophagus altispinosus",
-  "alsoKnownAs": ["Bolivian Ram Cichlid", "Butterfly Ram", "Ruby Crown Cichlid"],
+  "alsoKnownAs": [
+    "Bolivian Ram Cichlid",
+    "Butterfly Ram",
+    "Ruby Crown Cichlid"
+  ],
   "category": "Cichlid",
   "taxonomy": {
     "family": "Cichlidae",
     "order": "Cichliformes"
   },
   "nativeRange": {
-    "regions": ["South America"],
-    "countries": ["Bolivia", "Brazil"],
+    "regions": [
+      "South America"
+    ],
+    "countries": [
+      "Bolivia",
+      "Brazil"
+    ],
     "habitat": "Slow-moving, shallow tributaries, streams, and oxbow lakes with sandy or silty substrates, often with abundant leaf litter and driftwood.",
     "biotope": "Upper Rio Madeira basin; Rio Mamoré and Rio Guaporé (Iténez) drainages.",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 27 },
-    "pH": { "min": 6.0, "max": 7.5 },
-    "gH": { "min": 2, "max": 15 },
-    "kH": { "min": 2, "max": 12 },
+    "temperatureC": {
+      "min": 22,
+      "max": 27
+    },
+    "pH": {
+      "min": 6,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 2,
+      "max": 15
+    },
+    "kH": {
+      "min": 2,
+      "max": 12
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 7.0, "max": 9.0 },
-  "lifespanYears": { "min": 3, "max": 5 },
+  "adultSizeCm": {
+    "min": 7,
+    "max": 9
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 100,
     "minLengthCm": 90,
     "swimZone": "bottom",
-    "decorPreferences": ["sandy substrate", "flat rocks", "driftwood", "broad-leaf plants", "caves"],
+    "decorPreferences": [
+      "sandy substrate",
+      "flat rocks",
+      "driftwood",
+      "broad-leaf plants",
+      "caves"
+    ],
     "minSandDepthCm": null
   },
   "careLevel": "intermediate",
@@ -44,8 +77,21 @@
     "temperament": "peaceful",
     "grouping": "pair",
     "minGroupSize": 2,
-    "goodWith": ["small tetras", "corydoras", "small rasboras", "livebearers", "peaceful loricariids", "dwarf gouramis", "larger shrimp (ghost shrimp, amano shrimp)"],
-    "avoidWith": ["aggressive cichlids", "large predatory fish", "small shrimp (may be eaten)", "fin-nipping species"]
+    "goodWith": [
+      "small tetras",
+      "corydoras",
+      "small rasboras",
+      "livebearers",
+      "peaceful loricariids",
+      "dwarf gouramis",
+      "larger shrimp (ghost shrimp, amano shrimp)"
+    ],
+    "avoidWith": [
+      "aggressive cichlids",
+      "large predatory fish",
+      "small shrimp (may be eaten)",
+      "fin-nipping species"
+    ]
   },
   "media": {
     "primaryImage": "bolivian_ram.jpg",
@@ -107,7 +153,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

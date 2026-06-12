@@ -16,21 +16,49 @@
     "order": "Gobiiformes"
   },
   "nativeRange": {
-    "regions": ["Oceania", "Australia", "New Guinea"],
-    "countries": ["Australia", "Papua New Guinea"],
+    "regions": [
+      "Oceania",
+      "Australia",
+      "New Guinea"
+    ],
+    "countries": [
+      "Australia",
+      "Papua New Guinea"
+    ],
     "habitat": "Lower reaches of flowing streams, rivers, and creeks; tolerates brackish estuaries and occasionally full seawater salinity. Juveniles occur in swiftly flowing water and brackish zones; adults inhabit freshwater among aquatic vegetation and submerged timber.",
     "biotope": "Australian riverine / estuarine",
-    "depthRangeM": { "min": 0, "max": 3 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 3
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 15, "max": 28 },
-    "pH": { "min": 6.5, "max": 8.0 },
-    "gH": { "min": 2, "max": 20 },
-    "kH": { "min": 2, "max": 12 },
+    "temperatureC": {
+      "min": 15,
+      "max": 28
+    },
+    "pH": {
+      "min": 6.5,
+      "max": 8
+    },
+    "gH": {
+      "min": 2,
+      "max": 20
+    },
+    "kH": {
+      "min": 2,
+      "max": 12
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 6.0, "max": 12.0 },
-  "lifespanYears": { "min": 3, "max": 8 },
+  "adultSizeCm": {
+    "min": 6,
+    "max": 12
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 8
+  },
   "tank": {
     "minVolumeLiters": 110,
     "minLengthCm": 90,
@@ -136,7 +164,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": true
+    "euryhaline": true,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

@@ -6,27 +6,49 @@
   "waterType": "freshwater",
   "commonName": "American Flagfish",
   "scientificName": "Jordanella floridae",
-  "alsoKnownAs": ["Florida Flagfish", "Flagfish"],
+  "alsoKnownAs": [
+    "Florida Flagfish",
+    "Flagfish"
+  ],
   "category": "Killifish",
   "taxonomy": {
     "family": "Cyprinodontidae",
     "order": "Cyprinodontiformes"
   },
   "nativeRange": {
-    "regions": ["North America"],
-    "countries": ["United States"],
+    "regions": [
+      "North America"
+    ],
+    "countries": [
+      "United States"
+    ],
     "habitat": "Shallow, weedy freshwater habitats — backwaters, marshes, canals, ditches, and slow-moving swampy areas across peninsular Florida",
     "biotope": "Florida swamp / weedy freshwater",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 18, "max": 28 },
-    "pH":           { "min": 6.5, "max": 8.5 },
-    "gH":           { "min": 5, "max": 20 },
-    "kH":           { "min": 3, "max": 15 },
-    "salinity":     null
+    "temperatureC": {
+      "min": 18,
+      "max": 28
+    },
+    "pH": {
+      "min": 6.5,
+      "max": 8.5
+    },
+    "gH": {
+      "min": 5,
+      "max": 20
+    },
+    "kH": {
+      "min": 3,
+      "max": 15
+    },
+    "salinity": null
   },
-  "adultSizeCm": { "min": 4.0, "max": 6.0 },
+  "adultSizeCm": {
+    "min": 4,
+    "max": 6
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 75,
@@ -116,7 +138,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

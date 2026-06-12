@@ -6,33 +6,67 @@
   "waterType": "freshwater",
   "commonName": "Red Tailed Black Shark",
   "scientificName": "Epalzeorhynchos bicolor",
-  "alsoKnownAs": ["Red Tail Shark", "Labeo bicolor", "Red-tailed Black Shark", "Fire Tail Shark"],
+  "alsoKnownAs": [
+    "Red Tail Shark",
+    "Labeo bicolor",
+    "Red-tailed Black Shark",
+    "Fire Tail Shark"
+  ],
   "category": "Cyprinid",
   "taxonomy": {
     "family": "Cyprinidae",
     "order": "Cypriniformes"
   },
   "nativeRange": {
-    "regions": ["Southeast Asia"],
-    "countries": ["Thailand"],
+    "regions": [
+      "Southeast Asia"
+    ],
+    "countries": [
+      "Thailand"
+    ],
     "habitat": "Mainstream rivers and floodplains; fast-flowing streams with rocky, gravel substrate and moderate to strong current",
     "biotope": "River",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 26 },
-    "pH": { "min": 6.0, "max": 7.5 },
-    "gH": { "min": 5, "max": 15 },
-    "kH": { "min": 4, "max": 15 },
+    "temperatureC": {
+      "min": 22,
+      "max": 26
+    },
+    "pH": {
+      "min": 6,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 5,
+      "max": 15
+    },
+    "kH": {
+      "min": 4,
+      "max": 15
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 12, "max": 15 },
-  "lifespanYears": { "min": 5, "max": 15 },
+  "adultSizeCm": {
+    "min": 12,
+    "max": 15
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 15
+  },
   "tank": {
     "minVolumeLiters": 200,
     "minLengthCm": 120,
     "swimZone": "bottom",
-    "decorPreferences": ["caves and rocky hiding spots", "driftwood", "hardy plants (Anubias, Bolbitis, Microsorum)", "variably-sized rocks and gravel", "strong water flow", "open territory zones"],
+    "decorPreferences": [
+      "caves and rocky hiding spots",
+      "driftwood",
+      "hardy plants (Anubias, Bolbitis, Microsorum)",
+      "variably-sized rocks and gravel",
+      "strong water flow",
+      "open territory zones"
+    ],
     "minSandDepthCm": null
   },
   "careLevel": "intermediate",
@@ -44,8 +78,20 @@
     "temperament": "aggressive",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["fast-moving mid-water schooling fish (barbs, danios, larger tetras)", "robust semi-aggressive cichlids", "larger gouramis", "similarly sized robust fish that occupy different tank zones"],
-    "avoidWith": ["conspecifics (extremely aggressive — keep only one)", "Rainbow Shark (Epalzeorhynchos frenatum — similar shape triggers severe aggression)", "Bala Shark (visual similarity may provoke attacks)", "other bottom-dwelling shark-shaped cyprinids", "angelfish, bettas, fancy guppies and other slow or long-finned fish", "small peaceful fish and shrimp"]
+    "goodWith": [
+      "fast-moving mid-water schooling fish (barbs, danios, larger tetras)",
+      "robust semi-aggressive cichlids",
+      "larger gouramis",
+      "similarly sized robust fish that occupy different tank zones"
+    ],
+    "avoidWith": [
+      "conspecifics (extremely aggressive — keep only one)",
+      "Rainbow Shark (Epalzeorhynchos frenatum — similar shape triggers severe aggression)",
+      "Bala Shark (visual similarity may provoke attacks)",
+      "other bottom-dwelling shark-shaped cyprinids",
+      "angelfish, bettas, fancy guppies and other slow or long-finned fish",
+      "small peaceful fish and shrimp"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -107,7 +153,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

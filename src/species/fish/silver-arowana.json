@@ -6,33 +6,73 @@
   "waterType": "freshwater",
   "commonName": "Silver Arowana",
   "scientificName": "Osteoglossum bicirrhosum",
-  "alsoKnownAs": ["Arawana", "Monkey Fish", "Dragon Fish", "Bony-tongued Fish"],
+  "alsoKnownAs": [
+    "Arawana",
+    "Monkey Fish",
+    "Dragon Fish",
+    "Bony-tongued Fish"
+  ],
   "category": "Oddball",
   "taxonomy": {
     "family": "Osteoglossidae",
     "order": "Osteoglossiformes"
   },
   "nativeRange": {
-    "regions": ["South America"],
-    "countries": ["Brazil", "Peru", "Colombia", "Ecuador", "Guyana", "French Guiana"],
+    "regions": [
+      "South America"
+    ],
+    "countries": [
+      "Brazil",
+      "Peru",
+      "Colombia",
+      "Ecuador",
+      "Guyana",
+      "French Guiana"
+    ],
     "habitat": "Blackwater and whitewater floodplain rivers; slow-moving or still waters with surface vegetation",
     "biotope": "Amazonian blackwater",
-    "depthRangeM": { "min": 0, "max": 5 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 5
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 30 },
-    "pH": { "min": 5.0, "max": 7.5 },
-    "gH": { "min": 2, "max": 12 },
-    "kH": { "min": 2, "max": 15 },
+    "temperatureC": {
+      "min": 24,
+      "max": 30
+    },
+    "pH": {
+      "min": 5,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 2,
+      "max": 12
+    },
+    "kH": {
+      "min": 2,
+      "max": 15
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 60, "max": 90 },
-  "lifespanYears": { "min": 10, "max": 20 },
+  "adultSizeCm": {
+    "min": 60,
+    "max": 90
+  },
+  "lifespanYears": {
+    "min": 10,
+    "max": 20
+  },
   "tank": {
     "minVolumeLiters": 2000,
     "minLengthCm": 300,
     "swimZone": "top",
-    "decorPreferences": ["open surface swimming space", "floating plants optional", "tight-fitting heavy cover essential", "minimal sharp decor"],
+    "decorPreferences": [
+      "open surface swimming space",
+      "floating plants optional",
+      "tight-fitting heavy cover essential",
+      "minimal sharp decor"
+    ],
     "minSandDepthCm": null
   },
   "careLevel": "advanced",
@@ -44,8 +84,20 @@
     "temperament": "aggressive",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["large Cichla species", "large armored catfish", "large plecos", "pacus", "bichirs"],
-    "avoidWith": ["any fish under ~30cm", "shrimp", "snails", "other arowanas (unless enormous tank)", "aggressive or competitive surface dwellers"]
+    "goodWith": [
+      "large Cichla species",
+      "large armored catfish",
+      "large plecos",
+      "pacus",
+      "bichirs"
+    ],
+    "avoidWith": [
+      "any fish under ~30cm",
+      "shrimp",
+      "snails",
+      "other arowanas (unless enormous tank)",
+      "aggressive or competitive surface dwellers"
+    ]
   },
   "media": {
     "primaryImage": "silver_arowana.jpg",
@@ -101,7 +153,9 @@
     "mouthbrooder": true,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

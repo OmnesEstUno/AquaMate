@@ -18,21 +18,46 @@
     "order": "Cichliformes"
   },
   "nativeRange": {
-    "regions": ["South America"],
-    "countries": ["Brazil"],
+    "regions": [
+      "South America"
+    ],
+    "countries": [
+      "Brazil"
+    ],
     "habitat": "Slow-moving to still blackwater rivers, flooded igapó forest margins, lake inlets, and sheltered backwaters of the Rio Negro system and eastern Amazon tributaries; almost exclusively associated with submerged roots, branches, and leaf litter in extremely soft, humic-acid-stained blackwater with minimal flow and very low conductivity (9–13 µS/cm)",
     "biotope": "Rio Negro blackwater / igapó",
-    "depthRangeM": { "min": 0.3, "max": 5 }
+    "depthRangeM": {
+      "min": 0.3,
+      "max": 5
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 28, "max": 32 },
-    "pH": { "min": 4.5, "max": 6.0 },
-    "gH": { "min": 0, "max": 4 },
-    "kH": { "min": 0, "max": 2 },
+    "temperatureC": {
+      "min": 28,
+      "max": 32
+    },
+    "pH": {
+      "min": 4.5,
+      "max": 6
+    },
+    "gH": {
+      "min": 0,
+      "max": 4
+    },
+    "kH": {
+      "min": 0,
+      "max": 2
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 15.0, "max": 20.0 },
-  "lifespanYears": { "min": 10, "max": 15 },
+  "adultSizeCm": {
+    "min": 15,
+    "max": 20
+  },
+  "lifespanYears": {
+    "min": 10,
+    "max": 15
+  },
   "tank": {
     "minVolumeLiters": 400,
     "minLengthCm": 150,
@@ -167,7 +192,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

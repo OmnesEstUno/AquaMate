@@ -16,21 +16,47 @@
     "order": "Characiformes"
   },
   "nativeRange": {
-    "regions": ["West Africa"],
-    "countries": ["Nigeria", "Cameroon"],
+    "regions": [
+      "West Africa"
+    ],
+    "countries": [
+      "Nigeria",
+      "Cameroon"
+    ],
     "habitat": "Slow- to moderate-flowing rivers and streams in lowland tropical forest; often found in shaded, well-vegetated stretches with soft, slightly acidic water over sandy or leaf-littered substrates",
     "biotope": "West African river",
-    "depthRangeM": { "min": 0, "max": 3 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 3
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 28 },
-    "pH": { "min": 6.0, "max": 7.5 },
-    "gH": { "min": 2, "max": 15 },
-    "kH": { "min": 1, "max": 8 },
+    "temperatureC": {
+      "min": 23,
+      "max": 28
+    },
+    "pH": {
+      "min": 6,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 2,
+      "max": 15
+    },
+    "kH": {
+      "min": 1,
+      "max": 8
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 5.0, "max": 7.5 },
-  "lifespanYears": { "min": 3, "max": 5 },
+  "adultSizeCm": {
+    "min": 5,
+    "max": 7.5
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 100,
     "minLengthCm": 90,
@@ -144,7 +170,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

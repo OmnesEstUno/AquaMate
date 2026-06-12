@@ -37,8 +37,8 @@
       "max": 28
     },
     "pH": {
-      "min": 6.0,
-      "max": 8.0
+      "min": 6,
+      "max": 8
     },
     "gH": {
       "min": 5,
@@ -149,7 +149,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

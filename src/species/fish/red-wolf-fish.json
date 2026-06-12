@@ -17,21 +17,56 @@
     "order": "Characiformes"
   },
   "nativeRange": {
-    "regions": ["South America"],
-    "countries": ["Brazil", "Colombia", "Venezuela", "Peru", "Bolivia", "Ecuador", "Guyana", "Suriname", "French Guiana", "Paraguay", "Argentina"],
+    "regions": [
+      "South America"
+    ],
+    "countries": [
+      "Brazil",
+      "Colombia",
+      "Venezuela",
+      "Peru",
+      "Bolivia",
+      "Ecuador",
+      "Guyana",
+      "Suriname",
+      "French Guiana",
+      "Paraguay",
+      "Argentina"
+    ],
     "habitat": "Slow-moving or stagnant blackwater streams, flooded forest pools, oxbow lakes, shallow seasonally flooded lowland habitats with dense vegetation and leaf litter; tolerates hypoxic conditions via aerial respiration",
     "biotope": "Amazon blackwater / flooded forest",
-    "depthRangeM": { "min": 0, "max": 2 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 2
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 28 },
-    "pH": { "min": 5.5, "max": 7.5 },
-    "gH": { "min": 2, "max": 15 },
-    "kH": { "min": 1, "max": 8 },
+    "temperatureC": {
+      "min": 23,
+      "max": 28
+    },
+    "pH": {
+      "min": 5.5,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 2,
+      "max": 15
+    },
+    "kH": {
+      "min": 1,
+      "max": 8
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 25.0, "max": 35.0 },
-  "lifespanYears": { "min": 8, "max": 15 },
+  "adultSizeCm": {
+    "min": 25,
+    "max": 35
+  },
+  "lifespanYears": {
+    "min": 8,
+    "max": 15
+  },
   "tank": {
     "minVolumeLiters": 300,
     "minLengthCm": 150,
@@ -138,7 +173,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

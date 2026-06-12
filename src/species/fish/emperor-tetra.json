@@ -6,33 +6,63 @@
   "waterType": "freshwater",
   "commonName": "Emperor Tetra",
   "scientificName": "Nematobrycon palmeri",
-  "alsoKnownAs": ["Rainbow Emperor Tetra"],
+  "alsoKnownAs": [
+    "Rainbow Emperor Tetra"
+  ],
   "category": "Tetra",
   "taxonomy": {
     "family": "Characidae",
     "order": "Characiformes"
   },
   "nativeRange": {
-    "regions": ["South America"],
-    "countries": ["Colombia"],
+    "regions": [
+      "South America"
+    ],
+    "countries": [
+      "Colombia"
+    ],
     "habitat": "Slow-moving rivers and streams with dense vegetation, soft acidic water, and leaf litter",
     "biotope": "Blackwater",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 27 },
-    "pH":           { "min": 5.0, "max": 7.5 },
-    "gH":           { "min": 2, "max": 15 },
-    "kH":           { "min": 2, "max": 10 },
-    "salinity":     null
+    "temperatureC": {
+      "min": 22,
+      "max": 27
+    },
+    "pH": {
+      "min": 5,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 2,
+      "max": 15
+    },
+    "kH": {
+      "min": 2,
+      "max": 10
+    },
+    "salinity": null
   },
-  "adultSizeCm":   { "min": 3.5, "max": 4.5 },
-  "lifespanYears": { "min": 4, "max": 6 },
+  "adultSizeCm": {
+    "min": 3.5,
+    "max": 4.5
+  },
+  "lifespanYears": {
+    "min": 4,
+    "max": 6
+  },
   "tank": {
     "minVolumeLiters": 75,
     "minLengthCm": 80,
     "swimZone": "mid",
-    "decorPreferences": ["dense planting", "dark substrate", "floating plants for subdued lighting", "driftwood", "leaf litter"],
+    "decorPreferences": [
+      "dense planting",
+      "dark substrate",
+      "floating plants for subdued lighting",
+      "driftwood",
+      "leaf litter"
+    ],
     "minSandDepthCm": null
   },
   "careLevel": "beginner",
@@ -44,8 +74,23 @@
     "temperament": "peaceful",
     "grouping": "schooling",
     "minGroupSize": 6,
-    "goodWith": ["small tetras", "danios", "rasboras", "Corydoras", "small loricariids", "gouramis", "dwarf cichlids", "livebearers", "pencilfish"],
-    "avoidWith": ["aggressive fish", "large predatory fish", "fin-nipping species", "fish large enough to eat them"]
+    "goodWith": [
+      "small tetras",
+      "danios",
+      "rasboras",
+      "Corydoras",
+      "small loricariids",
+      "gouramis",
+      "dwarf cichlids",
+      "livebearers",
+      "pencilfish"
+    ],
+    "avoidWith": [
+      "aggressive fish",
+      "large predatory fish",
+      "fin-nipping species",
+      "fish large enough to eat them"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -101,7 +146,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,

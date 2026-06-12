@@ -6,27 +6,49 @@
   "waterType": "freshwater",
   "commonName": "Zebra Loach",
   "scientificName": "Botia striata",
-  "alsoKnownAs": ["Striped Loach"],
+  "alsoKnownAs": [
+    "Striped Loach"
+  ],
   "category": "Loach",
   "taxonomy": {
     "family": "Botiidae",
     "order": "Cypriniformes"
   },
   "nativeRange": {
-    "regions": ["Western Ghats", "South Asia"],
-    "countries": ["India"],
+    "regions": [
+      "Western Ghats",
+      "South Asia"
+    ],
+    "countries": [
+      "India"
+    ],
     "habitat": "Rocky streams and rivers with bedrock, boulders, cobbles, and good forest cover; clear, well-oxygenated upland water with moderate flow. Rivers include the Tunga, Bhadra, Koyna, Panchganga, and other tributaries of the Krishna River drainage in Karnataka, Maharashtra, and Andhra Pradesh.",
     "biotope": "South Asian hill stream",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 26 },
-    "pH": { "min": 6.0, "max": 7.5 },
-    "gH": { "min": 5, "max": 12 },
-    "kH": { "min": 3, "max": 10 },
+    "temperatureC": {
+      "min": 22,
+      "max": 26
+    },
+    "pH": {
+      "min": 6,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 5,
+      "max": 12
+    },
+    "kH": {
+      "min": 3,
+      "max": 10
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 7, "max": 9 },
+  "adultSizeCm": {
+    "min": 7,
+    "max": 9
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 120,
@@ -124,7 +146,9 @@
     "mouthbrooder": false,
     "constantGrazer": false,
     "cleanerFish": false,
-    "euryhaline": false
+    "euryhaline": false,
+    "eatsPlantsRisk": false,
+    "obligateCorallivore": null
   },
   "crustacean": null,
   "coral": null,
