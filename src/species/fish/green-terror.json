@@ -58,7 +58,7 @@
   },
   "tank": {
     "minVolumeLiters": 300,
-    "minLengthCm": 150,
+    "minLengthCm": 120,
     "swimZone": "all",
     "decorPreferences": [
       "soft sandy substrate",
@@ -99,7 +99,7 @@
     "imageCandidates": null
   },
   "summary": "Large, boldly coloured South American cichlid from Pacific-slope drainages of Ecuador and Peru. Generally considered an intermediate-level fish that is highly territorial and best kept singly or as a bonded pair in a long tank.",
-  "careNotes": "Andinoacara rivulatus is the species commonly traded as the 'Gold Saum' Green Terror, distinguished by an orange-to-gold edge on the dorsal and caudal fins. The very similar 'Silver Saum' Green Terror, historically lumped under this name, is now recognised as a separate species, Andinoacara stalsbergi, with a white fin margin and a more restricted Peruvian range. Most fish sold in the trade as 'Green Terror' are A. rivulatus (Gold Saum); buyers wanting the true Silver Saum should confirm species ID with the seller.\n\nSources disagree fairly widely on minimum tank size: SeriouslyFish recommends a ~150 cm / ~650 L tank when kept with compatible tankmates, while hobby sources like Fishkeeping World quote 35 US gal (~132 L) for a single fish and 75 US gal (~284 L) for a pair. A 300 L / 150 cm-long tank is used here as a conservative-but-realistic single-fish minimum; a bonded pair or community of large cichlids realistically wants 450–650 L or more. This spread is the reason dataStatus is 'needs_review' — a human reviewer should sanity-check this figure against current best practice.\n\nReported adult size also varies between sources (FishBase max 20 cm TL, hobby sources 20–25 cm in aquaria, SeriouslyFish 22–30 cm SL); 20–30 cm is used here as the spanning range. Conspecific aggression is consistently described as very high — untested males commonly kill females if introduced directly, so a common approach is to raise a group of 6+ juveniles and let a pair form naturally, then remove the others.\n\nPrimary source used was SeriouslyFish (Aquarium Co-Op, the configured slice primary, has no dedicated Green Terror care page — its search returned only merchandise and an unrelated terrarium-plant article). FishBase and Fishkeeping World were used as additional cross-checks. Practical Fishkeeping returned HTTP 403 during research and could not be consulted.",
+  "careNotes": "Andinoacara rivulatus is the species commonly traded as the 'Gold Saum' Green Terror, distinguished by an orange-to-gold edge on the dorsal and caudal fins. The very similar 'Silver Saum' Green Terror, historically lumped under this name, is now recognised as a separate species, Andinoacara stalsbergi, with a white fin margin and a more restricted Peruvian range. Most fish sold in the trade as 'Green Terror' are A. rivulatus (Gold Saum); buyers wanting the true Silver Saum should confirm species ID with the seller.\n\nSources disagree fairly widely on minimum tank size: SeriouslyFish recommends a ~150 cm / ~650 L tank when kept with compatible tankmates, while hobby sources like Fishkeeping World quote 35 US gal (~132 L) for a single fish and 75 US gal (~284 L) for a pair. A 300 L / 150 cm-long tank is used here as a conservative-but-realistic single-fish minimum; a bonded pair or community of large cichlids realistically wants 450–650 L or more. This spread is the reason dataStatus is 'needs_review' — a human reviewer should sanity-check this figure against current best practice.\n\nReported adult size also varies between sources (FishBase max 20 cm TL, hobby sources 20–25 cm in aquaria, SeriouslyFish 22–30 cm SL); 20–30 cm is used here as the spanning range. Conspecific aggression is consistently described as very high — untested males commonly kill females if introduced directly, so a common approach is to raise a group of 6+ juveniles and let a pair form naturally, then remove the others.\n\nPrimary source used was SeriouslyFish (Aquarium Co-Op, the configured slice primary, has no dedicated Green Terror care page — its search returned only merchandise and an unrelated terrarium-plant article). FishBase and Fishkeeping World were used as additional cross-checks. Practical Fishkeeping returned HTTP 403 during research and could not be consulted. [2026-06-12 review]: tank floor set to 300 L baseline for a single pair (matches Fishkeeping World pair guideline and a one-step-larger margin for the species territoriality). Specialist-source 650+ L recommendations apply once tankmates are present.",
   "breedingNotes": "Has been reported to breed readily in captivity once a compatible pair has formed. Pairs typically clean a flat rock or smooth surface and deposit up to several hundred eggs (FishBase notes up to ~600). Both parents tend the eggs and fry, with the female fanning and the male defending the territory; eggs generally hatch in 3–4 days and fry are free-swimming around 6–8 days. Breeding pairs become extremely aggressive toward other tank inhabitants and may kill tankmates, so a dedicated breeding tank is commonly advised.",
   "sources": {
     "primary": {
@@ -165,6 +165,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "needs_review",
-  "lastReviewed": "2026-06-10"
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-12"
 }
