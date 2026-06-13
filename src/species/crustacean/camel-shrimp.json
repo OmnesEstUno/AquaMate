@@ -1,0 +1,130 @@
+{
+  "id": "sw-crus-014",
+  "slug": "camel-shrimp",
+  "kind": "fauna",
+  "taxon": "crustacean",
+  "waterType": "saltwater",
+  "commonName": "Camel Shrimp",
+  "scientificName": "Rhynchocinetes durbanensis",
+  "alsoKnownAs": [
+    "Dancing Shrimp",
+    "Hingebeak Shrimp",
+    "Hinge-beak Shrimp",
+    "Camelback Shrimp",
+    "Candy Shrimp"
+  ],
+  "category": "Ornamental Shrimp",
+  "taxonomy": {
+    "family": "Rhynchocinetidae",
+    "order": "Decapoda"
+  },
+  "nativeRange": {
+    "regions": ["Indo-Pacific", "Indian Ocean", "Western Pacific"],
+    "countries": ["South Africa", "Indonesia", "Philippines", "Japan", "India"],
+    "habitat": "Generally found on coral reefs and rocky substrates with abundant crevices, overhangs, and rubble. Commonly observed congregating in groups within sheltered nooks during the day and emerging to forage at night.",
+    "biotope": "Indo-Pacific coral reef",
+    "depthRangeM": { "min": 5, "max": 35 }
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 22, "max": 26 },
+    "pH":           { "min": 8.1, "max": 8.4 },
+    "gH":           null,
+    "kH":           { "min": 8, "max": 12 },
+    "salinity":     { "min": 1.023, "max": 1.025 }
+  },
+  "adultSizeCm":   { "min": 3.5, "max": 6 },
+  "lifespanYears": { "min": 1.5, "max": 3 },
+  "tank": {
+    "minVolumeLiters":  60,
+    "minLengthCm":      45,
+    "swimZone":         "bottom",
+    "decorPreferences": [
+      "live rock with crevices and overhangs",
+      "coral rubble piles for hiding",
+      "caves and PVC tunnels for daytime shelter",
+      "sand or fine gravel substrate",
+      "dim or moderate lighting (species is largely nocturnal)"
+    ],
+    "minSandDepthCm":   null
+  },
+  "careLevel": "beginner",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Generally an opportunistic scavenger. Has been reported to accept a wide range of foods — frozen mysis and brine shrimp, freeze-dried plankton, marine flake, sinking pellets, and meaty bits of fish or mussel. In an established reef tank, supplemental feeding once every day or two is commonly considered sufficient. Iodine, calcium, magnesium, and trace-element supplementation are generally advised to support healthy molting."
+  },
+  "compatibility": {
+    "temperament":  "peaceful",
+    "grouping":     "shoaling",
+    "minGroupSize": 2,
+    "goodWith":     [
+      "conspecifics (groups of 2-6 are commonly recommended)",
+      "small peaceful gobies and dragonets",
+      "Lysmata cleaner shrimp (L. amboinensis, L. debelius)",
+      "peppermint shrimp",
+      "FOWLR (fish-only with live rock) setups",
+      "non-photosynthetic / coral-free reef setups"
+    ],
+    "avoidWith":    [
+      "soft corals, zoanthids, mushrooms, and LPS (the shrimp will pick at polyps)",
+      "Harlequin Shrimp (Hymenocera picta) and Coral Banded Shrimp (Stenopus hispidus) — aggressive toward Camel Shrimp",
+      "large hawkfish, wrasses, triggerfish, puffers, lionfish, and moray eels (will predate the shrimp)",
+      "crabs large enough to grab a molting shrimp",
+      "any copper-based medication in the system"
+    ]
+  },
+  "media": {
+    "primaryImage":    null,
+    "gallery":         [],
+    "imageCandidates": null
+  },
+  "summary": "Inexpensive striped red-and-white ornamental shrimp commonly sold as a beginner saltwater invertebrate. Peaceful with fish and easy to keep, but NOT fully reef safe — generally known to pick at soft corals, zoanthids, and LPS polyps.",
+  "careNotes": "Rhynchocinetes durbanensis is one of the cheapest and most widely available ornamental marine shrimp, often sold as a starter invertebrate for new saltwater keepers. It is hardy, peaceful toward fish and other shrimp, and easy to feed — sources broadly agree it qualifies as a beginner-level species in terms of basic husbandry. CRITICAL CAVEAT: it is NOT reliably reef safe. Multiple sources document it nipping at zoanthids, soft corals (leather corals, mushrooms, palys), and LPS polyps, and one detailed source warns of 'reports of destroying reefs' and recommends keeping it OUT of mixed-coral display tanks. It is generally a safe pick for fish-only-with-live-rock (FOWLR) or non-photosynthetic setups, but should be avoided by reefkeepers who value their soft and LPS corals. The species is also frequently misadvertised as an Aiptasia control — it is not effective for that purpose; use peppermint shrimp (Lysmata wurdemanni) or Berghia nudibranchs instead. Like all marine shrimp, it is highly sensitive to copper-based medications and to ammonia/nitrite spikes — only add to a fully cycled system, drip-acclimate over 1-2 hours, and quarantine any new fish elsewhere if copper treatment is anticipated. Camel Shrimp are largely nocturnal and shy during the day; provide caves, rubble, and overhangs where the group can cluster. They are gregarious and are generally happier in groups of 2-6 than as a single specimen. Source temperature ranges spread widely (LiveAquaria 18-25°C; AquariumDomain 22-26°C; Aquarium Breeder 22-27°C; Tank Facts 24-27°C); the averaged 22-26°C range used here represents typical tropical-reef husbandry. AquariumDomain lists the native range as 'Caribbean' — this is incorrect; the species was originally described from Durban, South Africa (hence durbanensis) and is distributed throughout the Indo-Pacific.",
+  "breedingNotes": "Generally considered very difficult in captivity — the commercial trade is essentially entirely wild-caught. Females carry 100-700 eggs under the pleopods for roughly 14-15 days, releasing planktonic larvae that require ~60 days of staged rearing on phytoplankton, rotifers, and brine shrimp nauplii to reach the juvenile stage. A dedicated larval tank without air stones or undergravel filtration (which trap larvae) and with 150 μm mesh outlets is generally required. Mating tends to follow shortly after a female molt; males are larger with longer claws.",
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria — Camel Shrimp",
+      "url":  "https://www.liveaquaria.com/product/690/?pcatid=690",
+      "accessedDate": "2026-06-12",
+      "notes": "Trade source. Provides basic husbandry parameters (temp 64-77°F, pH 8.1-8.4, SG 1.023-1.025, dKH 8-12), reef-with-caution rating, and explicit warning that the species nips at colonial anemones, disc anemones, and soft leather corals."
+    },
+    "additional": [
+      {
+        "name": "Aquarium Breeder — Camel Shrimp Detailed Guide",
+        "url": "https://aquariumbreeder.com/camel-shrimp-detailed-guide-care-diet-and-breeding/",
+        "accessedDate": "2026-06-12",
+        "notes": "Most detailed husbandry source. Substituted in after assigned secondary (Reef2Reef Wiki) returned 403 Forbidden. Provided adult size 5-6 cm, temp 22-27°C, pH 8.0-8.5, KH 8-16, lifespan 1.5-3 yr, Indo-Pacific range (South Africa, Ryukyus, Philippines, Indonesia, India), depth 2-3 m, detailed larval biology (100-700 eggs, 14-15 d incubation, 60 d larval development), copper sensitivity, and explicit reef-safety warning ('proceed at your own risk; reports of destroying reefs, picking at anemones, consuming soft corals and polyps')."
+      },
+      {
+        "name": "Tank Facts — Camel Shrimp",
+        "url": "https://www.tankfacts.com/invertebrates/saltwater/shrimp/camel-shrimp_84",
+        "accessedDate": "2026-06-12",
+        "notes": "Cross-checked SG (1.023-1.026), temperature (76-80°F), pH (7.8-8.4), Indo-Pacific origin, social grouping recommendation of 4-6 individuals, iodine-supplementation requirement, and copper sensitivity."
+      },
+      {
+        "name": "AquariumDomain — Camel Shrimp",
+        "url": "https://www.aquariumdomain.com/SpeciesProfiles/MarineInverts/CamelShrimp.shtml",
+        "accessedDate": "2026-06-12",
+        "notes": "Cross-checked adult size (2 in / ~5 cm), temperature (72-78°F), pH (8.1-8.4), SG (1.023-1.025), minimum tank (12 gal / ~45 L), 'Easy' care rating, and reef-with-caution caveats. Note: this source incorrectly lists the native range as Caribbean — the species is Indo-Pacific (Durban, South Africa is the type locality)."
+      }
+    ]
+  },
+  "fish": null,
+  "crustacean": {
+    "copperSensitive":            true,
+    "moltingFrequencyDays":       null,
+    "moltingNotes":               "Molts regularly as is typical for decapod shrimp; exact interval is not well documented in hobby sources but is commonly reported as every few weeks for adults. Iodine supplementation is generally advised to support successful molts. Recently molted individuals are vulnerable to predation and cannibalism — abundant crevices and overhangs are commonly recommended so the shrimp can hide during the soft-shell period. The discarded exoskeleton is generally left in the tank and may be re-consumed for calcium reuptake.",
+    "escapeRisk":                 "low",
+    "breedingDifficulty":         "not in captivity",
+    "breedingNotes":              "Has been bred experimentally but is not commercially captive-bred — trade supply is entirely wild-caught. Females carry 100-700 eggs for ~14-15 days; planktonic larvae require ~60 days of staged feeding on phyto, rotifers, and brine shrimp nauplii in a dedicated larval tank.",
+    "speciesOnlyTankRecommended": false
+  },
+  "coral":        null,
+  "mollusc":      null,
+  "echinoderm":   null,
+  "other-invert": null,
+  "plant":        null,
+  "macroalgae":   null,
+  "schemaVersion": 1,
+  "dataStatus":   "researched",
+  "lastReviewed": "2026-06-12"
+}

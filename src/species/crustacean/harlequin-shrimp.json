@@ -1,0 +1,131 @@
+{
+  "id": "sw-crus-010",
+  "slug": "harlequin-shrimp",
+  "kind": "fauna",
+  "taxon": "crustacean",
+  "waterType": "saltwater",
+  "commonName": "Harlequin Shrimp",
+  "scientificName": "Hymenocera picta",
+  "alsoKnownAs": [
+    "Painted Harlequin Shrimp",
+    "Clown Shrimp",
+    "Hymenocera elegans"
+  ],
+  "category": "Marine Shrimp",
+  "taxonomy": {
+    "family": "Palaemonidae",
+    "order": "Decapoda"
+  },
+  "nativeRange": {
+    "regions": ["Indo-Pacific", "Central Pacific", "Hawaii"],
+    "countries": ["Indonesia", "Philippines", "Australia", "United States (Hawaii)", "Japan", "Sri Lanka"],
+    "habitat": "Coral reefs and rubble zones below the intertidal, where the shrimp typically hides in crevices or beneath rocks during the day and emerges to hunt sea stars at night.",
+    "biotope": "Coral Reef",
+    "depthRangeM": { "min": 0, "max": 30 }
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 23, "max": 26 },
+    "pH":           { "min": 8.1, "max": 8.4 },
+    "gH":           null,
+    "kH":           { "min": 8, "max": 12 },
+    "salinity":     { "min": 1.023, "max": 1.026 }
+  },
+  "adultSizeCm":   { "min": 3, "max": 5 },
+  "lifespanYears": { "min": 5, "max": 7 },
+  "tank": {
+    "minVolumeLiters":  75,
+    "minLengthCm":      60,
+    "swimZone":         "bottom",
+    "decorPreferences": [
+      "mature live rock with crevices and overhangs",
+      "sandy substrate",
+      "shaded caves and hiding spots",
+      "open rubble zones for hunting",
+      "stable reef-style aquascape"
+    ],
+    "minSandDepthCm":   null
+  },
+  "careLevel": "intermediate",
+  "diet": {
+    "type":  "carnivore",
+    "notes": "Obligate predator of echinoderms — feeds almost exclusively on live sea stars, with starfish tube feet and soft tissue as the primary food. Has been documented occasionally taking live sea urchins when sea stars are unavailable. Generally cannot be weaned onto prepared, frozen, or non-echinoderm foods, so a sustainable supply of live sea stars (commonly chocolate-chip stars, Linckia, or pest Asterina) is required for long-term husbandry. A single 4–6\" sea star can reportedly sustain a pair for several weeks because the shrimp consume the star slowly while it continues to regenerate."
+  },
+  "compatibility": {
+    "temperament":  "peaceful",
+    "grouping":     "pair",
+    "minGroupSize": 2,
+    "goodWith": [
+      "most peaceful reef fish",
+      "stony and soft corals",
+      "non-echinoderm cleanup crew (snails, hermit crabs)",
+      "other peaceful marine shrimp (when given separate territory)"
+    ],
+    "avoidWith": [
+      "all desirable sea stars (Linckia, Fromia, sand-sifting stars, brittle stars)",
+      "aggressive or shrimp-eating fish (large wrasses, triggerfish, hawkfish, lionfish, eels)",
+      "same-sex conspecifics outside a bonded pair",
+      "other Harlequin Shrimp pairs in the same tank"
+    ]
+  },
+  "media": {
+    "primaryImage":    null,
+    "gallery":         [],
+    "imageCandidates": null
+  },
+  "summary": "A striking white-and-spotted marine shrimp from Indo-Pacific reefs that is an obligate predator of sea stars. Generally kept as a bonded pair in a species-focused or carefully-stocked reef tank where a sustainable supply of live sea stars can be provided.",
+  "careNotes": "Highly specialist species whose entire husbandry revolves around feeding live sea stars. Generally considered reef-safe to corals and to most non-echinoderm tankmates, but will systematically eliminate any sea stars in the tank, including desirable ornamental species (Linckia, Fromia, sand-sifting stars) and brittle stars — so a Harlequin Shrimp should not be added to a cleanup-crew tank that contains stars the keeper wants to preserve. Because feeding requires a steady supply of live echinoderms, many keepers maintain a dedicated nano or small reef tank for the shrimp and cycle in pest Asterina stars harvested from other tanks, supplemented by purchased chocolate-chip stars (Protoreaster nodosus) when available. A pair will typically work together to flip a sea star and consume its tube feet first while the star is still alive; this is a normal feeding behavior but can be distressing to observers. Best kept as a bonded male/female pair — multiple same-sex individuals or unbonded pairs have been known to fight, sometimes fatally. Cross-source notes on taxonomy: the trade and some older retailers (e.g., BlueZoo) split the genus into H. picta (Hawaiian/red-spotted) and H. elegans (Indo-Pacific/blue-spotted), but modern taxonomic authorities consider H. elegans a junior synonym of H. picta. The species is also commonly listed under family Gnathophyllidae in older sources; current placement is Palaemonidae. Tank-size sources ranged from ~38 L (10 gal) to ~190 L (50 gal); 75 L was chosen as a reef-cautious round value appropriate to a stable, mature pair tank. Highly sensitive to copper — never expose to copper-based medications. Adequate iodine and trace-element supplementation is commonly advised to support successful molting. Species-only or species-focused tank setups are widely recommended because of the diet specialization and the difficulty of maintaining the necessary live-prey supply alongside a general reef community.",
+  "breedingNotes": "Has been bred in captivity, generally considered moderately difficult. Pairs form long-term bonds and reproduce repeatedly when conditions are stable. Females carry the eggs (reports range from roughly 100 to several thousand per clutch depending on female size and conditions) attached under the abdomen for approximately 2–3 weeks before hatching. Larvae enter a planktonic phase reported to last 5–6 weeks or longer, during which they are very difficult to feed in a standard aquarium and survival to settlement is generally low without dedicated larval-rearing infrastructure.",
+  "sources": {
+    "primary": {
+      "name": "Aqua Imports",
+      "url":  "https://www.aqua-imports.com/product/harlequin-shrimp/",
+      "accessedDate": "2026-06-12",
+      "notes": "Primary source — confirmed scientific name Hymenocera picta, origin Indonesia, ~2\" adult size, temperature 74-78°F, pH 8.2-8.4, salinity 35 ppt (SG ≈ 1.026), obligate echinoderm diet, reef-safe."
+    },
+    "additional": [
+      {
+        "name": "LiveAquaria (Blue Zoo Aquatics page used as fallback)",
+        "url":  "https://www.bluezooaquatics.com/productDetail.asp?cid=10&pid=4138",
+        "accessedDate": "2026-06-12",
+        "notes": "Designated LiveAquaria product URL returned HTTP 404; LiveAquaria search confirmed the product exists at /products/harlequin-shrimp but full care details were not retrievable through WebFetch. Substituted BlueZoo's H. elegans page (modern synonym of H. picta) for the second cross-source. Cross-confirmed: family Gnathophyllidae (older placement), adult size ~1.5\", temperature 72-78°F, pH 8.1-8.4, SG 1.023-1.025, dKH 8-12, carnivore, peaceful, reef-compatible, copper-sensitive, requires iodine for molting."
+      },
+      {
+        "name": "Wikipedia (Hymenocera picta)",
+        "url":  "https://en.wikipedia.org/wiki/Hymenocera_picta",
+        "accessedDate": "2026-06-12",
+        "notes": "Taxonomy authority — modern family placement Palaemonidae, order Decapoda, H. elegans as junior synonym, ~5 cm adult length, Indo-Pacific + Hawaiian distribution, obligate starfish diet, pair-living behavior, female fecundity 100-5,000 eggs."
+      },
+      {
+        "name": "ReefApp Encyclopedia",
+        "url":  "https://reefapp.net/en/encyclopedia/hymenocera-picta",
+        "accessedDate": "2026-06-12",
+        "notes": "Cross-confirmed 50 L minimum (reference for the cautious 75 L pick), 5 cm max length, Central/West/East Pacific range, typical reef temperature ~26°C and SG ~1.026."
+      },
+      {
+        "name": "Aquarium Source care guide",
+        "url":  "https://www.aquariumsource.com/harlequin-shrimp/",
+        "accessedDate": "2026-06-12",
+        "notes": "Cross-confirmed temperature 72-82°F, pH 8.0-8.4, dKH 8-12, SG 1.023-1.025, lifespan up to ~7 years, 10-gal minimum for a single shrimp / 20-gal for a pair, breeding behavior (2-3 week egg carry, 5-6 week planktonic larval phase), male-male fatal aggression."
+      }
+    ]
+  },
+  "fish":         null,
+  "crustacean": {
+    "copperSensitive":            true,
+    "moltingFrequencyDays":       null,
+    "moltingNotes":               "Molts periodically as it grows, with adequate iodine and trace-element levels widely considered important for successful exuviation. Discarded exoskeletons are typically left undisturbed in the tank and may be re-consumed for calcium. Specific intermolt-period data for H. picta is not well documented in hobby sources.",
+    "escapeRisk":                 "low",
+    "breedingDifficulty":         "difficult",
+    "breedingNotes":              "Pairs spawn readily; the bottleneck is rearing the long-lived planktonic larvae, which require specialized larval-culture setups not typical of home reef aquaria.",
+    "speciesOnlyTankRecommended": true
+  },
+  "coral":        null,
+  "mollusc":      null,
+  "echinoderm":   null,
+  "other-invert": null,
+  "plant":        null,
+  "macroalgae":   null,
+  "schemaVersion": 1,
+  "dataStatus":   "researched",
+  "lastReviewed": "2026-06-12"
+}

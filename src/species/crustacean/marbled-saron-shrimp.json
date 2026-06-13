@@ -1,0 +1,134 @@
+{
+  "id": "sw-crus-013",
+  "slug": "marbled-saron-shrimp",
+  "kind": "fauna",
+  "taxon": "crustacean",
+  "waterType": "saltwater",
+  "commonName": "Marbled Saron Shrimp",
+  "scientificName": "Saron marmoratus",
+  "alsoKnownAs": [
+    "Common Marble Shrimp",
+    "Saron Shrimp",
+    "Marble Shrimp",
+    "Buffalo Shrimp"
+  ],
+  "category": "Saron Shrimp",
+  "taxonomy": {
+    "family": "Hippolytidae",
+    "order": "Decapoda"
+  },
+  "nativeRange": {
+    "regions": ["Indo-Pacific", "Red Sea", "East Africa", "Central Pacific"],
+    "countries": ["Indonesia", "Maldives", "United States (Hawaii)", "Australia", "Madagascar", "Mozambique"],
+    "habitat": "Generally found among coral and coral rubble in lagoons and reef flats, from the infralittoral to sublittoral zone. Tends to shelter in crevices and beneath ledges by day and forage over the reef at twilight.",
+    "biotope": "Reef",
+    "depthRangeM": { "min": 0, "max": 20 }
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 22, "max": 26 },
+    "pH":           { "min": 8.0, "max": 8.4 },
+    "gH":           null,
+    "kH":           { "min": 8, "max": 12 },
+    "salinity":     { "min": 1.023, "max": 1.025 }
+  },
+  "adultSizeCm":   { "min": 5, "max": 8 },
+  "lifespanYears": { "min": 2, "max": 3 },
+  "tank": {
+    "minVolumeLiters":  100,
+    "minLengthCm":      60,
+    "swimZone":         "bottom",
+    "decorPreferences": [
+      "live rock with abundant caves and overhangs",
+      "shaded crevices for daytime hiding",
+      "sand or mixed sand/rubble substrate",
+      "mature reef tank with stable parameters",
+      "subdued lighting in at least part of the tank"
+    ],
+    "minSandDepthCm":   null
+  },
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Generally accepts a varied carnivore-leaning diet: frozen mysis and brine shrimp, small pieces of fish or shellfish, sinking pellets, and occasional algae wafers. Sources describe wild diet as detritus, algae, and small invertebrates. Best fed in the evening or after lights-out to match its crepuscular/nocturnal activity pattern."
+  },
+  "compatibility": {
+    "temperament":  "semi-aggressive",
+    "grouping":     "pair",
+    "minGroupSize": 1,
+    "goodWith":     [
+      "peaceful reef fish that won't harass shrimp",
+      "small gobies and blennies",
+      "most LPS and SPS corals (with monitoring)",
+      "snails and hermit crabs of similar or larger size"
+    ],
+    "avoidWith":    [
+      "zoanthids and palythoa colonies (commonly picked at)",
+      "feather duster worms and tubeworms (commonly eaten)",
+      "small ornamental shrimp and very small inverts (predatory risk)",
+      "lionfish, large hawkfish, large wrasses, triggerfish, puffers, eels",
+      "Coral Banded Shrimp and Arrow Crabs (territorial conflict)",
+      "conspecifics other than a single mated pair (territorial)"
+    ]
+  },
+  "media": {
+    "primaryImage":    null,
+    "gallery":         [],
+    "imageCandidates": null
+  },
+  "summary": "A crepuscular Indo-Pacific shrimp with distinctive bristly setae on the carapace. Generally considered reef-safe with caution — has been reported to pick at zoanthids, tubeworms, and small invertebrates.",
+  "careNotes": "Saron marmoratus is a nocturnal-to-crepuscular hippolytid shrimp widely distributed across the Indo-Pacific, from the Red Sea and East Africa eastward to Hawaii. Adults reach roughly 5-8 cm; size estimates vary across sources (LiveAquaria and BlueZoo cite ~5 cm / 2 in, while Aquarium Breeder cites ~8 cm / 3 in, and Reeflings ~6 cm), so an averaged range is used here. The species is unusual in changing color between day and night: a marbled brown-and-green daytime pattern shifts to a predominantly red nocturnal coloration that is reported to aid camouflage in twilight conditions. Males develop tufts of bristly cirri (setae) along the carapace and elongated first walking legs, which is the easiest visual sex indicator. Generally considered reef-safe-with-caution: sources are split — LiveAquaria flags it 'not reef safe', BlueZoo and Aquarium Breeder rate it 'with caution', and Reeflings considers it reef safe. The hobby consensus is that it will pick at zoanthids, palythoa, soft corals, and tubeworms / feather dusters once established, and is predatory toward smaller ornamental shrimp and other small invertebrates. Standard reef parameters apply (24-26°C, pH 8.0-8.4, SG 1.023-1.025, dKH 8-12) with adequate calcium, magnesium, iodine, and trace elements for proper molting. Highly intolerant of copper-based medications. Provide abundant dark hiding spots in mature live rock — it is shy and skittish on introduction and may not emerge for several days. Best kept singly or as a mated pair; conspecifics generally fight. Aquarium Breeder recommends a minimum of about 40 L (10 gal) per individual; BlueZoo recommends 24 gal (~90 L); a 100 L (~26 gal) floor with plenty of rockwork is a reasonable averaged minimum.",
+  "breedingNotes": "Generally considered very difficult to breed in captivity; the trade is essentially entirely wild-caught. Larvae pass through multiple zoea and postlarval stages requiring stable salinity (commonly cited around 35-37 ppt) and clean larval-rearing conditions, which are not typically achievable in a display tank. Sex is identifiable in adults by the bristly cirri tufts and elongated first walking legs of males; pairs may be maintained, but successful larval rearing has not been widely reported by hobbyists.",
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url":  "https://www.liveaquaria.com/products/saron-shrimp",
+      "accessedDate": "2026-06-12",
+      "notes": "Primary source for water parameters (72-78°F, pH 8.1-8.4, dKH 8-12, SG 1.023-1.025), care level, family (Hippolytidae), diet (carnivore), supplements (calcium, magnesium, iodine, trace elements), origin (Hawaii, Indonesia, Maldives), copper intolerance, and reef-safety flag (LiveAquaria rates this species as not reef safe)."
+    },
+    "additional": [
+      {
+        "name": "BlueZoo Aquatics — Saron Shrimp, Marble Shrimp",
+        "url": "https://www.bluezooaquatics.com/productDetail.asp?did=2&pid=1230&cid=84",
+        "accessedDate": "2026-06-12",
+        "notes": "Cross-checked sizing (~2 in), tank size (24 gal minimum), temperament (peaceful), diet (carnivore), origin (Indo-Pacific, Hawaii), and reef compatibility ('with caution')."
+      },
+      {
+        "name": "Aquarium Breeder — Saron Shrimp Detailed Guide",
+        "url": "https://aquariumbreeder.com/saron-shrimp-detailed-guide-care-diet-and-breeding/",
+        "accessedDate": "2026-06-12",
+        "notes": "Cross-checked tank size (~40 L / 10 gal per individual + 5 gal per additional), adult size (up to 8 cm / 3 in), water parameters (22-26°C, pH 8.0-8.4, dKH 8-12, calcium 400-450 ppm), lifespan (up to 3 years), and reef safety (will eat zoanthids, montipora, pocillopora, bubble-tip anemone polyps). Source also lists unsuitable tankmates and confirms wild-caught only / no documented captive breeding."
+      },
+      {
+        "name": "Reeflings — Marbled Shrimp (Saron marmoratus)",
+        "url": "https://reeflings.com/species/saron-marmoratus",
+        "accessedDate": "2026-06-12",
+        "notes": "Third secondary used to average size (~6 cm) and tank size (80 L / 21 gal), and to confirm temperament as semi-aggressive / territorial toward conspecifics. Cross-checked salinity (SG 1.023-1.025) and copper sensitivity."
+      },
+      {
+        "name": "Wikipedia — Saron marmoratus",
+        "url": "https://en.wikipedia.org/wiki/Saron_marmoratus",
+        "accessedDate": "2026-06-12",
+        "notes": "Used for taxonomy (Hippolytidae, Decapoda), authorship (Olivier, 1811), Indo-Pacific distribution from the Red Sea to Hawaii, lagoon/coral-rubble habitat, depth range (typically not below ~12 m), and nocturnal camouflage-based behavior."
+      }
+    ]
+  },
+  "fish": null,
+  "crustacean": {
+    "copperSensitive":            true,
+    "moltingFrequencyDays":       null,
+    "moltingNotes":               "Sources do not give a typical molt interval. Adequate iodine and trace elements are commonly cited as important for proper molting; molts are generally left in the tank to be consumed for calcium reuptake.",
+    "escapeRisk":                 "low",
+    "breedingDifficulty":         "not in captivity",
+    "breedingNotes":              "No reliably reported captive-breeding success. Larval stages require stable, clean rearing conditions outside of a typical display tank. The trade is essentially wild-caught.",
+    "speciesOnlyTankRecommended": false
+  },
+  "coral":        null,
+  "mollusc":      null,
+  "echinoderm":   null,
+  "other-invert": null,
+  "plant":        null,
+  "macroalgae":   null,
+  "schemaVersion": 1,
+  "dataStatus":   "researched",
+  "lastReviewed": "2026-06-12"
+}
