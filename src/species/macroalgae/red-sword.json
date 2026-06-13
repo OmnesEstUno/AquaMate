@@ -6,53 +6,77 @@
   "waterType": "saltwater",
   "commonName": "Red Sword",
   "scientificName": "Neurymenia sp.",
-  "alsoKnownAs": ["Corkscrew Saw"],
+  "alsoKnownAs": [
+    "Corkscrew Saw"
+  ],
   "category": "Macroalgae",
-
   "taxonomy": {
     "family": "Rhodomelaceae",
     "order": "Ceramiales"
   },
-
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Tropical Atlantic"],
+    "regions": [
+      "Indo-Pacific",
+      "Tropical Atlantic"
+    ],
     "countries": [],
     "habitat": "Shallow reef and rocky subtidal zones in the photic zone",
     "biotope": "Reef",
-    "depthRangeM": { "min": 0, "max": 30 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 30
+    }
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 26 },
-    "pH":           { "min": 8.1, "max": 8.4 },
-    "gH":           null,
-    "kH":           { "min": 8, "max": 12 },
-    "salinity":     { "min": 1.023, "max": 1.026 }
+    "temperatureC": {
+      "min": 22,
+      "max": 26
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.023,
+      "max": 1.026
+    }
   },
-
-  "adultSizeCm": { "min": 5, "max": 20 },
+  "adultSizeCm": {
+    "min": 5,
+    "max": 20
+  },
   "lifespanYears": null,
-
   "tank": {
     "minVolumeLiters": 40,
     "minLengthCm": null,
     "swimZone": null,
-    "decorPreferences": ["live rock attachment", "wedged between rockwork", "zip-tie or fishing line to rock"],
+    "decorPreferences": [
+      "live rock attachment",
+      "wedged between rockwork",
+      "zip-tie or fishing line to rock"
+    ],
     "minSandDepthCm": null
   },
-
   "careLevel": "intermediate",
-
   "diet": null,
-
   "compatibility": {
     "temperament": "peaceful",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["peaceful reef fish", "invertebrates", "corals"],
-    "avoidWith": ["heavy herbivores (tangs, rabbitfish) in small tanks"]
+    "goodWith": [
+      "peaceful reef fish",
+      "invertebrates",
+      "corals"
+    ],
+    "avoidWith": [
+      "heavy herbivores (tangs, rabbitfish) in small tanks"
+    ]
   },
-
   "media": {
     "primaryImage": null,
     "gallery": [],
@@ -75,13 +99,9 @@
       }
     ]
   },
-
   "summary": "An ornamental red macroalga (family Rhodomelaceae) with long, reddish-brown, serrated sword-like blades; also sold as 'Corkscrew Saw' in a twisted-blade form. Suitable for display reef tanks with rock attachment.",
-
   "careNotes": "Red Sword (Neurymenia sp., family Rhodomelaceae, order Ceramiales) is a specialty ornamental red macroalga producing elongated, reddish-brown blades with serrated margins. Mosaic Macros notes it is commonly misidentified as Cryptonemia crennulata in the hobby trade. Two morphologically distinct Mosaic SKUs are consolidated here: 'Red Sword' (straight sword blades) and 'Corkscrew Saw' (corkscrew-twisted blades), both identified as Neurymenia sp. This entry is a genus-level aggregate; the sibling entry [red-sawblade] covers Neurymenia fraxinifolia, the species-level form also sold by Mosaic.\n\nWater parameters generally advised for this species follow standard reef targets: temperature 22–26°C, pH 8.1–8.4, alkalinity 8–12 dKH, specific gravity 1.023–1.026. Calcium 400–450 ppm and magnesium 1250–1350 ppm are recommended to support overall reef health. Nitrate 5–20 ppm and phosphate 0.02–0.1 ppm are considered acceptable ranges.\n\nSAND BED MELT WARNING: As a red alga (Rhodophyta), Neurymenia sp. must NOT be placed in or buried in sand. Mosaic Macros' care guide explicitly states that all red algae and brown algae will melt at the base if buried. This species must be attached to hard substrate — preferred methods are wedging between rockwork (least stress), zip-tie or fishing line loosely secured to rock, or careful placement on live rock. Superglue is generally discouraged for long-term attachment.\n\nLighting should be full-spectrum (medium intensity); actinic-only lighting cannot support this or similar specialty macroalgae. Flow equivalent to a soft-coral reef tank is recommended — enough for water exchange without mechanically damaging delicate blade edges. Weekly dosing of iron and iodine (and other trace micronutrients) is advised by Mosaic Macros for all macroalgae, including this species. Growth rate is medium and nutrient uptake is low; this species is kept primarily for ornamental display rather than nutrient export.",
-
   "breedingNotes": "Propagation in captivity is generally accomplished by blade fragmentation — trimming healthy blade sections and securing them to rockwork via wedging or zip-tie/fishing line. Sand-bed propagation is not appropriate for red algae. Sexual reproduction (alternating gametophyte–sporophyte lifecycle typical of red algae) has not been documented in hobby aquaria for this genus.",
-
   "sources": {
     "primary": {
       "name": "Mosaic Macros",
@@ -98,23 +118,26 @@
       }
     ]
   },
-
-  "fish":        null,
-  "crustacean":  null,
-  "coral":       null,
-  "mollusc":     null,
-  "echinoderm":  null,
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
   "other-invert": null,
-  "plant":       null,
+  "amphibian": null,
+  "plant": null,
   "macroalgae": {
-    "lighting":       "medium",
-    "growthRate":     "medium",
-    "form":           "macroalgae",
-    "placement":      "display",
+    "lighting": "medium",
+    "growthRate": "medium",
+    "form": "macroalgae",
+    "placement": "display",
     "nutrientUptake": "low",
-    "propagation":    ["fragmentation", "wedging", "zip-tie/fishing line"]
+    "propagation": [
+      "fragmentation",
+      "wedging",
+      "zip-tie/fishing line"
+    ]
   },
-
   "schemaVersion": 1,
   "dataStatus": "researched",
   "lastReviewed": "2026-06-08"

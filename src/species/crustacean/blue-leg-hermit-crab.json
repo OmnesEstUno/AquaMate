@@ -19,25 +19,62 @@
     "order": "Decapoda"
   },
   "nativeRange": {
-    "regions": ["Caribbean", "Western Atlantic"],
-    "countries": ["Bahamas", "Cuba", "United States (Florida)", "Mexico", "Belize", "Jamaica", "Haiti", "Dominican Republic", "Puerto Rico", "Lesser Antilles", "Venezuela", "Colombia"],
+    "regions": [
+      "Caribbean",
+      "Western Atlantic"
+    ],
+    "countries": [
+      "Bahamas",
+      "Cuba",
+      "United States (Florida)",
+      "Mexico",
+      "Belize",
+      "Jamaica",
+      "Haiti",
+      "Dominican Republic",
+      "Puerto Rico",
+      "Lesser Antilles",
+      "Venezuela",
+      "Colombia"
+    ],
     "habitat": "Shallow tropical reef flats, intertidal rocky shores, and hard-bottom areas with abundant empty gastropod shells. Typically associated with coral rubble, turf algae, and sand patches in calm lagoonal water.",
     "biotope": "Caribbean reef flat / intertidal hard-bottom",
-    "depthRangeM": { "min": 0, "max": 2 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 2
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 26 },
-    "pH":           { "min": 8.1, "max": 8.4 },
-    "gH":           null,
-    "kH":           { "min": 8, "max": 12 },
-    "salinity":     { "min": 1.020, "max": 1.025 }
+    "temperatureC": {
+      "min": 22,
+      "max": 26
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm":   { "min": 1, "max": 2.5 },
-  "lifespanYears": { "min": 2, "max": 4 },
+  "adultSizeCm": {
+    "min": 1,
+    "max": 2.5
+  },
+  "lifespanYears": {
+    "min": 2,
+    "max": 4
+  },
   "tank": {
-    "minVolumeLiters":  40,
-    "minLengthCm":      45,
-    "swimZone":         "bottom",
+    "minVolumeLiters": 40,
+    "minLengthCm": 45,
+    "swimZone": "bottom",
     "decorPreferences": [
       "established live rock with crevices for grazing and hiding",
       "sand or fine rubble substrate",
@@ -45,16 +82,16 @@
       "mature reef with surface algae films",
       "low-to-moderate flow zones"
     ],
-    "minSandDepthCm":   null
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
-    "type":  "omnivore",
+    "type": "omnivore",
     "notes": "Has been documented as a voracious scavenger consuming detritus, hair algae, film algae, cyanobacteria, leftover food, and decaying organic matter. Has also been reported to graze on softer fleshy macroalgae (Ulva, Halymenia, scroll algae). If the tank is too clean, generally advised to supplement with sinking pellets, dried seaweed/nori, or small bits of meaty seafood once or twice a week."
   },
   "compatibility": {
-    "temperament":  "peaceful",
-    "grouping":     "shoaling",
+    "temperament": "peaceful",
+    "grouping": "shoaling",
     "minGroupSize": 3,
     "goodWith": [
       "most peaceful reef fish (gobies, blennies, cardinalfish, clownfish, small wrasses)",
@@ -72,8 +109,8 @@
     ]
   },
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
+    "primaryImage": null,
+    "gallery": [],
     "imageCandidates": null
   },
   "summary": "Tiny Caribbean hermit (~1–2.5 cm) with blue legs banded in red — the workhorse saltwater cleanup-crew hermit. Has been documented eating hair algae, cyanobacteria, and detritus. Generally peaceful but will attack snails for shells if spares aren't provided.",
@@ -82,54 +119,55 @@
   "sources": {
     "primary": {
       "name": "LiveAquaria",
-      "url":  "https://www.liveaquaria.com/products/dwarf-blue-leg-hermit-crab-tiny",
+      "url": "https://www.liveaquaria.com/products/dwarf-blue-leg-hermit-crab-tiny",
       "accessedDate": "2026-06-12",
       "notes": "Primary source. Confirms family Diogenidae, max size ~1 inch, temperature 72–78°F, pH 8.1–8.4, SG 1.020–1.025, dKH 8–12, care level easy, peaceful temperament, reef-safe, omnivorous scavenger feeding on hair algae and cyanobacteria, recommended minimum 10 gal (≈38 L) with live rock and sand substrate, may attack snails for shells if undersupplied."
     },
     "additional": [
       {
         "name": "Reef2Reef Wiki",
-        "url":  "https://www.reef2reef.com/wiki/",
+        "url": "https://www.reef2reef.com/wiki/",
         "accessedDate": "2026-06-12",
         "notes": "Designated secondary returned HTTP 403 on root and had no dedicated species wiki page on search. Swapped to Aquariumbreeder.com, Wikipedia, and Reefcleaners.org as confirming secondaries; URL retained for reviewer."
       },
       {
         "name": "Aquariumbreeder.com",
-        "url":  "https://aquariumbreeder.com/blue-leg-hermit-crab-detailed-guide-care-diet-and-breeding/",
+        "url": "https://aquariumbreeder.com/blue-leg-hermit-crab-detailed-guide-care-diet-and-breeding/",
         "accessedDate": "2026-06-12",
         "notes": "Secondary substitute. Confirms Caribbean / W. Atlantic origin, shallow intertidal habitat (≤2 m), up to 2.5 cm adult size, lifespan up to 2 years, temperature 22–26°C, pH 8.0–8.5, SG 1.018–1.025, dKH 8–16, omnivorous scavenger, almost completely reef-safe with rare SPS-nipping reports, semi-aggressive in shell competition, very difficult to breed in captivity."
       },
       {
         "name": "Wikipedia — Clibanarius tricolor",
-        "url":  "https://en.wikipedia.org/wiki/Clibanarius_tricolor",
+        "url": "https://en.wikipedia.org/wiki/Clibanarius_tricolor",
         "accessedDate": "2026-06-12",
         "notes": "Taxonomic and natural-history confirmation. Family Diogenidae, order Decapoda, Caribbean shallow water (~30 cm), reaches ~2 cm, nocturnal-leaning feeding behavior, well-documented shell-fighting behavior (flipping/eviction of conspecifics)."
       },
       {
         "name": "Reef Cleaners — Blue Leg Hermit Crab",
-        "url":  "https://www.reefcleaners.org/aquarium-store/blue-leg-hermit-crab",
+        "url": "https://www.reefcleaners.org/aquarium-store/blue-leg-hermit-crab",
         "accessedDate": "2026-06-12",
         "notes": "Secondary. Confirms max ~25 mm, Caribbean origin, diet of detritus / hair algae / film algae / some cyanobacteria plus softer fleshy algae (scroll, halymenia, ulva), reef-safe, social/peaceful in groups, will attack snails and other hermits for shells — recommends supplying extra empty shells."
       }
     ]
   },
-  "fish":         null,
+  "fish": null,
   "crustacean": {
-    "copperSensitive":            true,
-    "moltingFrequencyDays":       null,
-    "moltingNotes":               "Generally molts every few weeks while growing; discarded exoskeletons are commonly consumed for calcium reabsorption. Stable salinity, calcium, and trace iodine are widely cited as important for successful molts. Hermits are particularly vulnerable during and immediately after molting; ample hiding spots in live rock are advised.",
-    "escapeRisk":                 "low",
-    "breedingDifficulty":         "not in captivity",
-    "breedingNotes":              "See top-level breedingNotes — planktonic larvae and specialized rearing requirements have effectively prevented hobbyist captive breeding.",
+    "copperSensitive": true,
+    "moltingFrequencyDays": null,
+    "moltingNotes": "Generally molts every few weeks while growing; discarded exoskeletons are commonly consumed for calcium reabsorption. Stable salinity, calcium, and trace iodine are widely cited as important for successful molts. Hermits are particularly vulnerable during and immediately after molting; ample hiding spots in live rock are advised.",
+    "escapeRisk": "low",
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "See top-level breedingNotes — planktonic larvae and specialized rearing requirements have effectively prevented hobbyist captive breeding.",
     "speciesOnlyTankRecommended": false
   },
-  "coral":        null,
-  "mollusc":      null,
-  "echinoderm":   null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
   "other-invert": null,
-  "plant":        null,
-  "macroalgae":   null,
+  "amphibian": null,
+  "plant": null,
+  "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus":   "researched",
+  "dataStatus": "researched",
   "lastReviewed": "2026-06-12"
 }

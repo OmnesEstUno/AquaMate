@@ -22,21 +22,52 @@
     "order": "Stomatopoda"
   },
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Western Pacific"],
-    "countries": ["Indonesia", "Vietnam", "Thailand", "Philippines", "Australia", "China (southern)"],
+    "regions": [
+      "Indo-Pacific",
+      "Western Pacific"
+    ],
+    "countries": [
+      "Indonesia",
+      "Vietnam",
+      "Thailand",
+      "Philippines",
+      "Australia",
+      "China (southern)"
+    ],
     "habitat": "Tropical coral reefs; characteristically chips out cavities in the centre of live, branching corals (e.g. Acropora, Pocillopora) and uses these as burrows. Reported across the central Indo-Pacific into southern China and northern Australia.",
     "biotope": "Coral reef",
-    "depthRangeM": { "min": 1, "max": 30 }
+    "depthRangeM": {
+      "min": 1,
+      "max": 30
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 27 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 23,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.023, "max": 1.026 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.023,
+      "max": 1.026
+    }
   },
-  "adultSizeCm": { "min": 7, "max": 12 },
-  "lifespanYears": { "min": 5, "max": 10 },
+  "adultSizeCm": {
+    "min": 7,
+    "max": 12
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 10
+  },
   "tank": {
     "minVolumeLiters": 100,
     "minLengthCm": 60,
@@ -126,6 +157,7 @@
   "mollusc": null,
   "echinoderm": null,
   "other-invert": null,
+  "amphibian": null,
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,

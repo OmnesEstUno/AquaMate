@@ -17,32 +17,56 @@
     "order": "Decapoda"
   },
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Tropical Atlantic"],
+    "regions": [
+      "Indo-Pacific",
+      "Tropical Atlantic"
+    ],
     "countries": [],
     "habitat": "Has been recorded in tropical lagoons, bays, and reef environments. Generally associates with rubble, rockwork, and crevices on shallow tropical reefs where echinoderm prey is plentiful.",
     "biotope": "Reef",
-    "depthRangeM": { "min": 0, "max": 30 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 30
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 26 },
-    "pH":           { "min": 8.1, "max": 8.4 },
-    "gH":           null,
-    "kH":           { "min": 8, "max": 12 },
-    "salinity":     { "min": 1.023, "max": 1.025 }
+    "temperatureC": {
+      "min": 22,
+      "max": 26
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.023,
+      "max": 1.025
+    }
   },
-  "adultSizeCm":   { "min": 1.5, "max": 2.5 },
-  "lifespanYears": { "min": 2, "max": 3 },
+  "adultSizeCm": {
+    "min": 1.5,
+    "max": 2.5
+  },
+  "lifespanYears": {
+    "min": 2,
+    "max": 3
+  },
   "tank": {
-    "minVolumeLiters":  40,
-    "minLengthCm":      40,
-    "swimZone":         "bottom",
+    "minVolumeLiters": 40,
+    "minLengthCm": 40,
+    "swimZone": "bottom",
     "decorPreferences": [
       "live rock with crevices and overhangs",
       "rubble or coarse sand substrate",
       "shaded hiding spots for the daytime",
       "mature reef tank with stable parameters"
     ],
-    "minSandDepthCm":   null
+    "minSandDepthCm": null
   },
   "careLevel": "advanced",
   "diet": {
@@ -50,16 +74,16 @@
     "notes": "In the wild, has been documented feeding primarily on the tube feet of echinoderms (sea stars, sea urchins, brittle stars, sand dollars). In captivity, generally accepts small portions of frozen meaty foods such as mysis shrimp, brine shrimp, cockle, and finely-chopped fish; daily small feedings are typically advised given the shrimp's tiny size."
   },
   "compatibility": {
-    "temperament":  "peaceful",
-    "grouping":     "pair",
+    "temperament": "peaceful",
+    "grouping": "pair",
     "minGroupSize": 2,
-    "goodWith":     [
+    "goodWith": [
       "small peaceful reef fish (firefish, small gobies)",
       "corals (LPS, SPS, soft, zoanthids, mushrooms)",
       "snails and other peaceful clean-up-crew invertebrates",
       "conspecifics — best kept as a pair in a nano reef"
     ],
-    "avoidWith":    [
+    "avoidWith": [
       "sea stars, sea urchins, brittle stars, sand dollars (will predate their tube feet)",
       "larger predatory fish (wrasses, hawkfish, triggerfish, large angelfish)",
       "aggressive shrimp (Coral Banded Shrimp, Arrow Crab)",
@@ -67,8 +91,8 @@
     ]
   },
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
+    "primaryImage": null,
+    "gallery": [],
     "imageCandidates": null
   },
   "summary": "A tiny (~1.5-2.5 cm) yellow-and-black banded shrimp that has been documented feeding on the tube feet of echinoderms. Generally considered reef safe to corals but predatory toward sea stars and urchins.",
@@ -77,7 +101,7 @@
   "sources": {
     "primary": {
       "name": "LiveAquaria",
-      "url":  "https://www.liveaquaria.com/products/bumble-bee-shrimp",
+      "url": "https://www.liveaquaria.com/products/bumble-bee-shrimp",
       "accessedDate": "2026-06-12",
       "notes": "Primary source. Provided water-parameter ranges (72-78°F, pH 8.1-8.4, SG 1.023-1.025, dKH 8-12), diet specifics (echinoderm tube feet plus accepted prepared foods), reef-safe status, and copper-sensitivity warning."
     },
@@ -104,21 +128,22 @@
   },
   "fish": null,
   "crustacean": {
-    "copperSensitive":            true,
-    "moltingFrequencyDays":       null,
-    "moltingNotes":               "Sources do not give a typical molt interval for this species. Iodine and trace-element supplementation are commonly advised to support healthy molting; old exoskeletons are typically left in the tank as they are often consumed for calcium reuptake. Newly-molted shrimp are very vulnerable and should have a secure hiding spot.",
-    "escapeRisk":                 "low",
-    "breedingDifficulty":         "not in captivity",
-    "breedingNotes":              "Captive breeding is generally considered impractical. Larvae are believed to pass through an extended planktonic phase that is extremely difficult to rear in aquarium conditions, and no widely-reported captive-breeding protocol exists.",
+    "copperSensitive": true,
+    "moltingFrequencyDays": null,
+    "moltingNotes": "Sources do not give a typical molt interval for this species. Iodine and trace-element supplementation are commonly advised to support healthy molting; old exoskeletons are typically left in the tank as they are often consumed for calcium reuptake. Newly-molted shrimp are very vulnerable and should have a secure hiding spot.",
+    "escapeRisk": "low",
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "Captive breeding is generally considered impractical. Larvae are believed to pass through an extended planktonic phase that is extremely difficult to rear in aquarium conditions, and no widely-reported captive-breeding protocol exists.",
     "speciesOnlyTankRecommended": false
   },
-  "coral":        null,
-  "mollusc":      null,
-  "echinoderm":   null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
   "other-invert": null,
-  "plant":        null,
-  "macroalgae":   null,
+  "amphibian": null,
+  "plant": null,
+  "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus":   "researched",
+  "dataStatus": "researched",
   "lastReviewed": "2026-06-12"
 }

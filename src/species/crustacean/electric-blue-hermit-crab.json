@@ -19,25 +19,53 @@
     "order": "Decapoda"
   },
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Central Pacific"],
-    "countries": ["Marshall Islands", "United States (Hawaii)", "Indonesia"],
+    "regions": [
+      "Indo-Pacific",
+      "Central Pacific"
+    ],
+    "countries": [
+      "Marshall Islands",
+      "United States (Hawaii)",
+      "Indonesia"
+    ],
     "habitat": "Generally found on shallow coral reefs and rocky substrates across the tropical Indo-Pacific, with the aquarium trade sourcing animals primarily from the Marshall Islands. Occupies abandoned gastropod (e.g. snail or triton) shells and shelters in rockwork and crevices between foraging bouts.",
     "biotope": "Reef",
-    "depthRangeM": { "min": 0, "max": 30 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 30
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 26 },
-    "pH":           { "min": 8.1, "max": 8.4 },
-    "gH":           null,
-    "kH":           { "min": 8, "max": 12 },
-    "salinity":     { "min": 1.023, "max": 1.025 }
+    "temperatureC": {
+      "min": 22,
+      "max": 26
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.023,
+      "max": 1.025
+    }
   },
-  "adultSizeCm":   { "min": 2, "max": 5 },
-  "lifespanYears": { "min": 2, "max": 4 },
+  "adultSizeCm": {
+    "min": 2,
+    "max": 5
+  },
+  "lifespanYears": {
+    "min": 2,
+    "max": 4
+  },
   "tank": {
-    "minVolumeLiters":  75,
-    "minLengthCm":      60,
-    "swimZone":         "bottom",
+    "minVolumeLiters": 75,
+    "minLengthCm": 60,
+    "swimZone": "bottom",
     "decorPreferences": [
       "live rock with abundant caves and crevices for hiding",
       "sand or fine rubble substrate for sifting and burrowing",
@@ -45,7 +73,7 @@
       "mature reef tank with stable parameters",
       "secure rockwork (animals will dislodge unstable pieces while foraging)"
     ],
-    "minSandDepthCm":   null
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
@@ -53,16 +81,16 @@
     "notes": "Generally accepts a varied omnivorous diet of nuisance algae (green hair algae, cyanobacteria), detritus, leftover fish food, dried seaweed/Nori, frozen mysis or brine shrimp, and small pieces of raw shrimp or fish. In well-fed aquaria with abundant algae, supplemental feeding only once or twice a week is commonly suggested; supplemental meaty food is more important once the available algae is depleted to discourage predation on snails and tubeworms."
   },
   "compatibility": {
-    "temperament":  "semi-aggressive",
-    "grouping":     "solitary",
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith":     [
+    "goodWith": [
       "peaceful reef fish (gobies, blennies, cardinalfish, small wrasses)",
       "most LPS, SPS, soft corals, and zoanthids",
       "other small reef-safe hermits and shrimp of similar size",
       "larger snails with shells the crab cannot fit into"
     ],
-    "avoidWith":    [
+    "avoidWith": [
       "small or thin-shelled snails (commonly killed for their shells)",
       "feather duster worms and small tubeworms (have been reported eaten)",
       "very small ornamental shrimp and tiny inverts (predation risk when dense)",
@@ -71,8 +99,8 @@
     ]
   },
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
+    "primaryImage": null,
+    "gallery": [],
     "imageCandidates": null
   },
   "summary": "A mid-sized Indo-Pacific ornamental hermit crab with electric blue and black banded legs and bright orange antennae. Generally considered a valuable cleanup-crew member that grazes hair algae and cyanobacteria.",
@@ -81,7 +109,7 @@
   "sources": {
     "primary": {
       "name": "LiveAquaria",
-      "url":  "https://www.liveaquaria.com/products/electric-blue-hermit-crab",
+      "url": "https://www.liveaquaria.com/products/electric-blue-hermit-crab",
       "accessedDate": "2026-06-12",
       "notes": "Primary source for water parameters (72-78°F, pH 8.1-8.4, dKH 8-12, SG 1.020-1.025), care level ('Easy'), maximum size (~2 in), diet (omnivore), temperament ('peaceful'), reef compatibility ('Yes'), and Marshall Islands origin."
     },
@@ -108,21 +136,22 @@
   },
   "fish": null,
   "crustacean": {
-    "copperSensitive":            true,
-    "moltingFrequencyDays":       null,
-    "moltingNotes":               "Sources do not give a typical molt interval. Adequate iodine, calcium, and trace elements are commonly cited as important for proper molting; molts are generally left in the tank to be consumed for calcium reuptake. Animals are vulnerable to predation by tankmates and to shell theft by other hermits in the hours immediately after molting.",
-    "escapeRisk":                 "low",
-    "breedingDifficulty":         "not in captivity",
-    "breedingNotes":              "No reliably reported captive-breeding success in the home-aquarium literature. The species has a planktonic larval phase that is not practical to rear in a display tank.",
+    "copperSensitive": true,
+    "moltingFrequencyDays": null,
+    "moltingNotes": "Sources do not give a typical molt interval. Adequate iodine, calcium, and trace elements are commonly cited as important for proper molting; molts are generally left in the tank to be consumed for calcium reuptake. Animals are vulnerable to predation by tankmates and to shell theft by other hermits in the hours immediately after molting.",
+    "escapeRisk": "low",
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "No reliably reported captive-breeding success in the home-aquarium literature. The species has a planktonic larval phase that is not practical to rear in a display tank.",
     "speciesOnlyTankRecommended": false
   },
-  "coral":        null,
-  "mollusc":      null,
-  "echinoderm":   null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
   "other-invert": null,
-  "plant":        null,
-  "macroalgae":   null,
+  "amphibian": null,
+  "plant": null,
+  "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus":   "researched",
+  "dataStatus": "researched",
   "lastReviewed": "2026-06-12"
 }

@@ -4,121 +4,157 @@
   "kind": "flora",
   "taxon": "plant",
   "waterType": "freshwater",
-
   "commonName": "Mayaca Fluviatilis",
   "scientificName": "Mayaca fluviatilis",
-  "alsoKnownAs": ["Stream Bogmoss", "Bog Moss", "Mayaca"],
+  "alsoKnownAs": [
+    "Stream Bogmoss",
+    "Bog Moss",
+    "Mayaca"
+  ],
   "category": "Stem Plants",
-
   "taxonomy": {
     "family": "Mayacaceae",
     "order": "Poales"
   },
-
   "nativeRange": {
-    "regions": ["North America", "Central America", "South America", "Caribbean"],
-    "countries": ["United States", "Mexico", "Cuba", "Jamaica", "Trinidad and Tobago", "Brazil", "Argentina"],
+    "regions": [
+      "North America",
+      "Central America",
+      "South America",
+      "Caribbean"
+    ],
+    "countries": [
+      "United States",
+      "Mexico",
+      "Cuba",
+      "Jamaica",
+      "Trinidad and Tobago",
+      "Brazil",
+      "Argentina"
+    ],
     "habitat": "Slow-moving or stagnant, soft, acidic water in marshes, streams, swamp forests, and lake margins; grows in saturated soil or submerged.",
     "biotope": "Stream",
-    "depthRangeM": { "min": 0, "max": 1 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 1
+    }
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 20, "max": 28 },
-    "pH":           { "min": 6.0, "max": 7.5 },
-    "gH":           { "min": 2, "max": 10 },
-    "kH":           { "min": 1, "max": 8 },
-    "salinity":     null
+    "temperatureC": {
+      "min": 20,
+      "max": 28
+    },
+    "pH": {
+      "min": 6,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 2,
+      "max": 10
+    },
+    "kH": {
+      "min": 1,
+      "max": 8
+    },
+    "salinity": null
   },
-
-  "adultSizeCm":   { "min": 15, "max": 40 },
+  "adultSizeCm": {
+    "min": 15,
+    "max": 40
+  },
   "lifespanYears": null,
-
   "tank": {
-    "minVolumeLiters":  40,
-    "minLengthCm":      45,
-    "swimZone":         null,
-    "decorPreferences": ["nutrient-rich substrate", "soft acidic water", "moderate to bright lighting", "planted in groups for a bushy effect"],
-    "minSandDepthCm":   5
+    "minVolumeLiters": 40,
+    "minLengthCm": 45,
+    "swimZone": null,
+    "decorPreferences": [
+      "nutrient-rich substrate",
+      "soft acidic water",
+      "moderate to bright lighting",
+      "planted in groups for a bushy effect"
+    ],
+    "minSandDepthCm": 5
   },
-
   "careLevel": "intermediate",
-
   "diet": null,
-
   "compatibility": {
-    "temperament":  "peaceful",
-    "grouping":     null,
+    "temperament": "peaceful",
+    "grouping": null,
     "minGroupSize": null,
-    "goodWith":     ["small peaceful community fish", "shrimp", "snails", "small tetras and rasboras"],
-    "avoidWith":    ["large herbivorous or vigorously digging fish (e.g., goldfish, cichlids that uproot plants)", "crayfish that shred soft stems"]
+    "goodWith": [
+      "small peaceful community fish",
+      "shrimp",
+      "snails",
+      "small tetras and rasboras"
+    ],
+    "avoidWith": [
+      "large herbivorous or vigorously digging fish (e.g., goldfish, cichlids that uproot plants)",
+      "crayfish that shred soft stems"
+    ]
   },
-
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
+    "primaryImage": null,
+    "gallery": [],
     "imageCandidates": null
   },
-
   "summary": "A bushy fine-leaved background stem plant from the Americas, generally advised for keepers who can provide soft, slightly acidic water and moderate light; resembles a smaller, narrower Cabomba.",
-
   "careNotes": "Mayaca fluviatilis is a delicate stem plant with extremely soft, flexible stems and narrow, bright green leaves that give it a graceful, feathery appearance reminiscent of a slimmer Cabomba. It is commonly considered an intermediate-difficulty plant: sources span from 'easy beginner' (Aquarium Co-Op, Buce Plant) to 'medium' (Tropica), so the averaged rating sits in the intermediate band. Generally advised to keep in soft, slightly acidic water around 24-26°C, though it tolerates medium hardness. Light demand is medium; sources report adequate growth at moderate intensity and noticeably denser, bushier growth under brighter light with CO2 injection (Tropica cites 6-14 mg/L CO2 as a useful range). Growth rate varies in reports from slow (Buce Plant) to fast (Tropica); medium is the cross-source average. The plant is a useful iron indicator - shoot tips fade to very pale green when iron is deficient - so a balanced trace-element regime is helpful. Propagate by cuttings: trim healthy stems with several nodes and replant in the substrate. Best planted in dense groups to form a bushy effect; over-trimming or weak light leads to leggy, sparse growth. Native to the southeastern United States from Texas to North Carolina, the Caribbean, and Latin America from Mexico to Argentina. Has become naturalized in parts of Asia via the aquarium trade. Also marketed as 'Stream Bogmoss' or simply 'Mayaca'.",
-
   "breedingNotes": null,
-
   "sources": {
     "primary": {
       "name": "Tropica",
-      "url":  "https://tropica.com/en/plants/plantdetails/Mayacafluviatilis(140BDT)/19792",
+      "url": "https://tropica.com/en/plants/plantdetails/Mayacafluviatilis(140BDT)/19792",
       "accessedDate": "2026-06-11",
       "notes": "Primary care reference. Difficulty: medium; light medium; CO2 6-14 mg/L; height 15-30+ cm; soft slightly acidic water preferred but tolerates medium-hard."
     },
     "additional": [
       {
         "name": "Aquarium Co-Op",
-        "url":  "https://www.aquariumcoop.com/collections/live-aquarium-plants/products/mayaca-fluviatilis",
+        "url": "https://www.aquariumcoop.com/collections/live-aquarium-plants/products/mayaca-fluviatilis",
         "accessedDate": "2026-06-11",
         "notes": "Cross-checked light, placement, propagation. Treats as easy-to-grow background stem; lower difficulty rating than Tropica."
       },
       {
         "name": "Buce Plant",
-        "url":  "https://buceplant.com/products/mayaca-fluviatilis",
+        "url": "https://buceplant.com/products/mayaca-fluviatilis",
         "accessedDate": "2026-06-11",
         "notes": "Confirmed family Mayacaceae, pH 6.0-7.5, CO2 optional, max height ~5-12 inches (12-30 cm). Lists growth as slow vs Tropica's fast; medium is the averaged value."
       },
       {
         "name": "Aqualand Pets Plus",
-        "url":  "https://aqualandpetsplus.com/mayaca-fluviatilis/",
+        "url": "https://aqualandpetsplus.com/mayaca-fluviatilis/",
         "accessedDate": "2026-06-11",
         "notes": "Used to triangulate temperature (20-28°C), gH (2-10 dGH), and max height (30-50 cm). Difficulty moderate, growth moderate - consistent with averaged intermediate."
       },
       {
         "name": "Wikipedia / USDA Forest Service",
-        "url":  "https://en.wikipedia.org/wiki/Mayaca_fluviatilis",
+        "url": "https://en.wikipedia.org/wiki/Mayaca_fluviatilis",
         "accessedDate": "2026-06-11",
         "notes": "Used for taxonomy (family Mayacaceae, order Poales) and native range (SE US to Argentina, naturalized in Asia)."
       }
     ]
   },
-
   "fish": null,
   "crustacean": null,
   "coral": null,
   "mollusc": null,
   "echinoderm": null,
   "other-invert": null,
+  "amphibian": null,
   "plant": {
-    "lighting":      "medium",
-    "co2":           "optional",
-    "growthRate":    "medium",
-    "placement":     "background",
-    "propagation":   ["stem cuttings", "lateral shoot division"],
-    "substrate":     "nutrient-rich",
+    "lighting": "medium",
+    "co2": "optional",
+    "growthRate": "medium",
+    "placement": "background",
+    "propagation": [
+      "stem cuttings",
+      "lateral shoot division"
+    ],
+    "substrate": "nutrient-rich",
     "fertilization": "moderate"
   },
   "macroalgae": null,
-
   "schemaVersion": 1,
-  "dataStatus":    "researched",
-  "lastReviewed":  "2026-06-11"
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-11"
 }

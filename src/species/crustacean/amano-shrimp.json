@@ -18,21 +18,45 @@
     "order": "Decapoda"
   },
   "nativeRange": {
-    "regions": ["East Asia"],
-    "countries": ["Japan", "Taiwan", "Korea"],
+    "regions": [
+      "East Asia"
+    ],
+    "countries": [
+      "Japan",
+      "Taiwan",
+      "Korea"
+    ],
     "habitat": "Freshwater streams and rivers with rocky substrates, typically with overhanging vegetation; larvae develop in low-salinity brackish estuaries before returning upstream as juveniles.",
     "biotope": "Stream",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 20, "max": 27 },
-    "pH": { "min": 6.5, "max": 7.5 },
-    "gH": { "min": 6, "max": 12 },
-    "kH": { "min": 2, "max": 8 },
+    "temperatureC": {
+      "min": 20,
+      "max": 27
+    },
+    "pH": {
+      "min": 6.5,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 6,
+      "max": 12
+    },
+    "kH": {
+      "min": 2,
+      "max": 8
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 4, "max": 5 },
-  "lifespanYears": { "min": 2, "max": 3 },
+  "adultSizeCm": {
+    "min": 4,
+    "max": 5
+  },
+  "lifespanYears": {
+    "min": 2,
+    "max": 3
+  },
   "tank": {
     "minVolumeLiters": 40,
     "minLengthCm": 45,
@@ -121,6 +145,7 @@
   "mollusc": null,
   "echinoderm": null,
   "other-invert": null,
+  "amphibian": null,
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,

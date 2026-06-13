@@ -18,20 +18,37 @@
     "order": "Alismatales"
   },
   "nativeRange": {
-    "regions": ["Cultivar (no wild origin)"],
+    "regions": [
+      "Cultivar (no wild origin)"
+    ],
     "countries": [],
     "habitat": "Hybrid cultivar with no wild population. Commonly cited as a Heinz Kasselmann selection from the late 1980s involving Echinodorus barthii x E. horemanii 'Red' parentage. Parent genus Echinodorus is generally native to wetlands of the tropical Americas.",
     "biotope": "River",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 20, "max": 28 },
-    "pH": { "min": 5.5, "max": 8.0 },
-    "gH": { "min": 4, "max": 18 },
-    "kH": { "min": 3, "max": 12 },
+    "temperatureC": {
+      "min": 20,
+      "max": 28
+    },
+    "pH": {
+      "min": 5.5,
+      "max": 8
+    },
+    "gH": {
+      "min": 4,
+      "max": 18
+    },
+    "kH": {
+      "min": 3,
+      "max": 12
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 25, "max": 60 },
+  "adultSizeCm": {
+    "min": 25,
+    "max": 60
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 150,
@@ -100,12 +117,16 @@
   "mollusc": null,
   "echinoderm": null,
   "other-invert": null,
+  "amphibian": null,
   "plant": {
     "lighting": "medium",
     "co2": "optional",
     "growthRate": "medium",
     "placement": "background",
-    "propagation": ["adventitious plantlets", "crown division"],
+    "propagation": [
+      "adventitious plantlets",
+      "crown division"
+    ],
     "substrate": "nutrient-rich",
     "fertilization": "heavy"
   },

@@ -40,16 +40,34 @@
     ],
     "habitat": "Submerged in a wide range of freshwater bodies — rivers, streams, lakes, ponds, and brackish estuaries — typically on sandy or silty substrates with sufficient light penetration. Notably cold-tolerant across much of its temperate North American range.",
     "biotope": "River",
-    "depthRangeM": { "min": 0.3, "max": 4 }
+    "depthRangeM": {
+      "min": 0.3,
+      "max": 4
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 18, "max": 28 },
-    "pH": { "min": 6.5, "max": 8.0 },
-    "gH": { "min": 4, "max": 18 },
-    "kH": { "min": 3, "max": 15 },
+    "temperatureC": {
+      "min": 18,
+      "max": 28
+    },
+    "pH": {
+      "min": 6.5,
+      "max": 8
+    },
+    "gH": {
+      "min": 4,
+      "max": 18
+    },
+    "kH": {
+      "min": 3,
+      "max": 15
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 60, "max": 120 },
+  "adultSizeCm": {
+    "min": 60,
+    "max": 120
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 150,
@@ -136,6 +154,7 @@
   "mollusc": null,
   "echinoderm": null,
   "other-invert": null,
+  "amphibian": null,
   "plant": {
     "lighting": "medium",
     "co2": "optional",

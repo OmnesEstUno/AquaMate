@@ -6,65 +6,87 @@
   "waterType": "saltwater",
   "commonName": "Sailor's Eyeball",
   "scientificName": "Valonia ventricosa",
-  "alsoKnownAs": ["Bubble Algae", "Green Bubble Algae"],
+  "alsoKnownAs": [
+    "Bubble Algae",
+    "Green Bubble Algae"
+  ],
   "category": "Macroalgae",
-
   "taxonomy": {
     "family": "Valoniaceae",
     "order": "Cladophorales"
   },
-
   "nativeRange": {
-    "regions": ["Tropical Atlantic", "Tropical Indo-Pacific", "Caribbean", "Red Sea"],
+    "regions": [
+      "Tropical Atlantic",
+      "Tropical Indo-Pacific",
+      "Caribbean",
+      "Red Sea"
+    ],
     "countries": [],
     "habitat": "Shallow reef environments, rocky substrates, coral rubble",
     "biotope": "Coral reef",
-    "depthRangeM": { "min": 0, "max": 30 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 30
+    }
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 26 },
-    "pH":           { "min": 8.1, "max": 8.4 },
-    "gH":           null,
-    "kH":           null,
-    "salinity":     { "min": 1.023, "max": 1.026 }
+    "temperatureC": {
+      "min": 22,
+      "max": 26
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": null,
+    "salinity": {
+      "min": 1.023,
+      "max": 1.026
+    }
   },
-
-  "adultSizeCm":   { "min": 1.3, "max": 5.0 },
+  "adultSizeCm": {
+    "min": 1.3,
+    "max": 5
+  },
   "lifespanYears": null,
-
   "tank": {
-    "minVolumeLiters":  40,
-    "minLengthCm":      null,
-    "swimZone":         null,
-    "decorPreferences": ["attach to live rock", "wedge between rocks", "zip-tie/fishing line to rock surface"],
-    "minSandDepthCm":   null
+    "minVolumeLiters": 40,
+    "minLengthCm": null,
+    "swimZone": null,
+    "decorPreferences": [
+      "attach to live rock",
+      "wedge between rocks",
+      "zip-tie/fishing line to rock surface"
+    ],
+    "minSandDepthCm": null
   },
-
   "careLevel": "intermediate",
-
   "diet": null,
-
   "compatibility": {
-    "temperament":  "peaceful",
-    "grouping":     "solitary",
+    "temperament": "peaceful",
+    "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith":     ["reef fish", "shrimp", "hermit crabs", "snails"],
-    "avoidWith":    ["urchins", "aggressive herbivores that may graze on bubble algae"]
+    "goodWith": [
+      "reef fish",
+      "shrimp",
+      "hermit crabs",
+      "snails"
+    ],
+    "avoidWith": [
+      "urchins",
+      "aggressive herbivores that may graze on bubble algae"
+    ]
   },
-
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
+    "primaryImage": null,
+    "gallery": [],
     "imageCandidates": null
   },
-
   "summary": "Sailor's Eyeball is one of the largest known unicellular organisms — a single giant cell that can grow to roughly 5 cm in diameter. Sold as a display curiosity; widely considered a pest when introduced uninvited to reef tanks.",
-
   "careNotes": "Valonia ventricosa is one of the most remarkable organisms in a reef aquarium — a single cell that can grow to baseball size (~5 cm diameter), earning it recognition as one of the largest unicellular organisms on Earth. Typical trade specimens measure roughly 1–5 cm across. Mosaic sells this species as a deliberate display curiosity, distinct from the problematic Valonia macrophysa, which is the more commonly cited invasive pest.\n\nPEST CAVEAT (CRITICAL): Valonia ventricosa is widely regarded by reef keepers as a nuisance pest when it appears uninvited — arriving on live rock, coral frags, or other hitchhikers. In a well-lit reef with moderate nutrients it can spread rapidly, outcompeting corals for space. Most reef keepers actively remove it rather than cultivate it. Mosaic sells this species intentionally for collectors and planted-display tanks; purchasing deliberately is very different from an unwanted introduction.\n\nFRAGMENTATION WARNING: Do NOT pop or crush individual cells to remove them. Bursting the cell releases gametes and reproductive bodies that can seed a bloom throughout the tank. Manual removal should be done by gently prying whole cells from the substrate and removing them intact from the water column.\n\nAttachment: Unlike red and brown algae, Valonia is a green unicellular alga that can generally be wedged or placed on rubble without adhesive. Its holdfast naturally anchors to hard substrate. Avoid burying in sand.\n\nWater chemistry: Generally advised to keep within standard reef parameters — temperature 22–26°C, pH 8.1–8.4, calcium 400–450 ppm, magnesium 1,250–1,350 ppm, nitrate 5–20 ppm, phosphate 0.02–0.1 ppm. Weekly dosing of iron, iodine, and trace elements is advisable for long-term health of the macroalgae display. Avoid actinic-only spectrum lighting; full-spectrum LED preferred.\n\nLighting: Medium intensity full-spectrum lighting advised. Insufficient light may cause decline; excess nutrient load combined with high light can encourage faster spread.\n\nFlow: Gentle to moderate flow suitable; strong direct flow may dislodge holdfasts.",
-
   "breedingNotes": "Reproduces primarily by fragmentation — individual cells can detach and settle on nearby substrate. Intentional propagation in the aquarium is generally inadvisable given pest concerns; if propagation is desired, carefully detach intact cells and relocate. Cell division and gametophyte release occur when cells are physically disrupted; do not pop cells to propagate.",
-
   "sources": {
     "primary": {
       "name": "Mosaic Macros — Sailor's Eyeball product page",
@@ -81,24 +103,26 @@
       }
     ]
   },
-
-  "fish":        null,
-  "crustacean":  null,
-  "coral":       null,
-  "mollusc":     null,
-  "echinoderm":  null,
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
   "other-invert": null,
-  "plant":       null,
+  "amphibian": null,
+  "plant": null,
   "macroalgae": {
-    "lighting":       "medium",
-    "growthRate":     "medium",
-    "form":           "macroalgae",
-    "placement":      "display",
+    "lighting": "medium",
+    "growthRate": "medium",
+    "form": "macroalgae",
+    "placement": "display",
     "nutrientUptake": "moderate",
-    "propagation":    ["fragmentation", "wedging"]
+    "propagation": [
+      "fragmentation",
+      "wedging"
+    ]
   },
-
   "schemaVersion": 1,
-  "dataStatus":    "researched",
-  "lastReviewed":  "2026-06-08"
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-08"
 }

@@ -19,21 +19,52 @@
     "order": "Decapoda"
   },
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Caribbean", "Eastern Pacific"],
-    "countries": ["Indonesia", "Philippines", "Bahamas", "United States", "Ecuador"],
+    "regions": [
+      "Indo-Pacific",
+      "Caribbean",
+      "Eastern Pacific"
+    ],
+    "countries": [
+      "Indonesia",
+      "Philippines",
+      "Bahamas",
+      "United States",
+      "Ecuador"
+    ],
     "habitat": "Tropical coral reefs, generally found nestled among the tentacles of host anemones (and occasionally large-polyp corals) on shallow reef flats and slopes.",
     "biotope": "Reef",
-    "depthRangeM": { "min": 1, "max": 35 }
+    "depthRangeM": {
+      "min": 1,
+      "max": 35
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 27 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 22,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.023, "max": 1.026 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.023,
+      "max": 1.026
+    }
   },
-  "adultSizeCm": { "min": 1, "max": 3 },
-  "lifespanYears": { "min": 2, "max": 3 },
+  "adultSizeCm": {
+    "min": 1,
+    "max": 3
+  },
+  "lifespanYears": {
+    "min": 2,
+    "max": 3
+  },
   "tank": {
     "minVolumeLiters": 40,
     "minLengthCm": 30,
@@ -116,6 +147,7 @@
   "mollusc": null,
   "echinoderm": null,
   "other-invert": null,
+  "amphibian": null,
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,

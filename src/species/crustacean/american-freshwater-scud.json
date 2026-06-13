@@ -19,21 +19,47 @@
     "order": "Amphipoda"
   },
   "nativeRange": {
-    "regions": ["North America", "Central America", "Caribbean"],
-    "countries": ["United States", "Canada", "Mexico"],
+    "regions": [
+      "North America",
+      "Central America",
+      "Caribbean"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico"
+    ],
     "habitat": "Widely distributed across permanent freshwater habitats — lakes, ponds, slow rivers, and freshwater lagoons — and extending into tidal freshwater and brackish zones, as far north as the Arctic tree line. Generally found among submerged vegetation and leaf litter where biofilm and detritus accumulate.",
     "biotope": "Vegetated pond/lake margin",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 18, "max": 26 },
-    "pH": { "min": 6.5, "max": 8.0 },
-    "gH": { "min": 5, "max": 15 },
-    "kH": { "min": 2, "max": 10 },
+    "temperatureC": {
+      "min": 18,
+      "max": 26
+    },
+    "pH": {
+      "min": 6.5,
+      "max": 8
+    },
+    "gH": {
+      "min": 5,
+      "max": 15
+    },
+    "kH": {
+      "min": 2,
+      "max": 10
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 0.3, "max": 0.8 },
-  "lifespanYears": { "min": 0.8, "max": 1.2 },
+  "adultSizeCm": {
+    "min": 0.3,
+    "max": 0.8
+  },
+  "lifespanYears": {
+    "min": 0.8,
+    "max": 1.2
+  },
   "tank": {
     "minVolumeLiters": 20,
     "minLengthCm": 30,
@@ -131,6 +157,7 @@
   "mollusc": null,
   "echinoderm": null,
   "other-invert": null,
+  "amphibian": null,
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,

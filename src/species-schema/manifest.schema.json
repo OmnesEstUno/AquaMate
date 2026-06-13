@@ -20,7 +20,7 @@
       ],
       "properties": {
         "discoveryDate": { "type": "string", "format": "date" },
-        "taxon":         { "type": "string", "enum": ["fish", "crustacean", "coral", "mollusc", "echinoderm", "other-invert", "plant", "macroalgae"] },
+        "taxon":         { "type": "string", "enum": ["fish", "crustacean", "coral", "mollusc", "echinoderm", "other-invert", "amphibian", "plant", "macroalgae"] },
         "waterType":     { "type": "string", "enum": ["freshwater", "saltwater", "brackish"] },
         "primarySource": {
           "type": "object",

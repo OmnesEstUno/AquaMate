@@ -6,52 +6,94 @@
   "waterType": "freshwater",
   "commonName": "Aponogeton Boivinianus",
   "scientificName": "Aponogeton boivinianus",
-  "alsoKnownAs": ["Boivin's Aponogeton", "Quilted Aponogeton"],
+  "alsoKnownAs": [
+    "Boivin's Aponogeton",
+    "Quilted Aponogeton"
+  ],
   "category": "Freshwater Plant",
   "taxonomy": {
     "family": "Aponogetonaceae",
     "order": "Alismatales"
   },
   "nativeRange": {
-    "regions": ["Africa", "Indian Ocean"],
-    "countries": ["Madagascar", "Mayotte"],
+    "regions": [
+      "Africa",
+      "Indian Ocean"
+    ],
+    "countries": [
+      "Madagascar",
+      "Mayotte"
+    ],
     "habitat": "Freshwater streams and seasonal pools in northern Madagascar (including Nosy Bé) and Mayotte; tubers tend to persist through dry-season periods.",
     "biotope": "Stream",
-    "depthRangeM": { "min": 0, "max": 2 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 2
+    }
   },
   "waterParameters": {
-    "temperatureC":  { "min": 22, "max": 26 },
-    "pH":            { "min": 6.5, "max": 7.5 },
-    "gH":            { "min": 3,   "max": 15 },
-    "kH":            { "min": 3,   "max": 12 },
-    "salinity":      null
+    "temperatureC": {
+      "min": 22,
+      "max": 26
+    },
+    "pH": {
+      "min": 6.5,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 3,
+      "max": 15
+    },
+    "kH": {
+      "min": 3,
+      "max": 12
+    },
+    "salinity": null
   },
-  "adultSizeCm":   { "min": 40, "max": 60 },
-  "lifespanYears": { "min": 3,  "max": 8  },
+  "adultSizeCm": {
+    "min": 40,
+    "max": 60
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 8
+  },
   "tank": {
-    "minVolumeLiters":  150,
-    "minLengthCm":      90,
-    "swimZone":         null,
+    "minVolumeLiters": 150,
+    "minLengthCm": 90,
+    "swimZone": null,
     "decorPreferences": [
       "nutrient-rich substrate (aquasoil or root tabs around the bulb)",
       "fine gravel or sand with bulb placed on top, not buried",
       "open background area with vertical clearance for tall, broad leaves",
       "clean, well-filtered water with moderate flow"
     ],
-    "minSandDepthCm":   5
+    "minSandDepthCm": 5
   },
   "careLevel": "intermediate",
   "diet": null,
   "compatibility": {
-    "temperament":  "peaceful",
-    "grouping":     "solitary",
+    "temperament": "peaceful",
+    "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith":     ["community fish", "tetras", "rasboras", "corydoras", "shrimp", "snails", "dwarf cichlids"],
-    "avoidWith":    ["goldfish", "large cichlids", "plant-eating fish such as silver dollars or buenos aires tetras"]
+    "goodWith": [
+      "community fish",
+      "tetras",
+      "rasboras",
+      "corydoras",
+      "shrimp",
+      "snails",
+      "dwarf cichlids"
+    ],
+    "avoidWith": [
+      "goldfish",
+      "large cichlids",
+      "plant-eating fish such as silver dollars or buenos aires tetras"
+    ]
   },
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
+    "primaryImage": null,
+    "gallery": [],
     "imageCandidates": null
   },
   "summary": "Madagascar endemic bulb plant prized for its strikingly quilted, deeply textured dark green leaves. Generally considered a background centerpiece for medium-to-large tanks.",
@@ -60,20 +102,20 @@
   "sources": {
     "primary": {
       "name": "Aquarium Co-Op",
-      "url":  "https://www.aquariumcoop.com/collections/live-aquarium-plants/products/aponogeton-boivinianus",
+      "url": "https://www.aquariumcoop.com/collections/live-aquarium-plants/products/aponogeton-boivinianus",
       "accessedDate": "2026-06-11",
       "notes": "Originally-designated Buce Plant primary URL returned 404; promoted Aquarium Co-Op (secondary) to primary. Confirmed background placement, fast growth, and 7-8 month grow / 1-2 month dormancy cycle. Note: Co-Op's product page calls it 'Madagascar Lace Plant', which is incorrect (that name properly belongs to A. madagascariensis)."
     },
     "additional": [
       {
         "name": "Wikipedia",
-        "url":  "https://en.wikipedia.org/wiki/Aponogeton_boivinianus",
+        "url": "https://en.wikipedia.org/wiki/Aponogeton_boivinianus",
         "accessedDate": "2026-06-11",
         "notes": "Cross-checked family (Aponogetonaceae), order (Alismatales), Madagascar endemism, ~60 cm height, quilted dark green leaves, prefers cooler clean water, seed propagation."
       },
       {
         "name": "Flowgrow Aquatic Plant Database",
-        "url":  "https://www.flowgrow.de/db/aquaticplants/aponogeton-boivinianus",
+        "url": "https://www.flowgrow.de/db/aquaticplants/aponogeton-boivinianus",
         "accessedDate": "2026-06-11",
         "notes": "Cross-checked native range (N. Madagascar / Nosy Bé / Mayotte), height 30-80 cm, optimal temperature 22-26 °C, pH 6-8, medium-to-high light, fast growth, propagation by seeds and daughter plants, 'easy' difficulty rating."
       }
@@ -85,13 +127,17 @@
   "mollusc": null,
   "echinoderm": null,
   "other-invert": null,
+  "amphibian": null,
   "plant": {
-    "lighting":      "medium",
-    "co2":           "optional",
-    "growthRate":    "fast",
-    "placement":     "background",
-    "propagation":   ["seeds (flower spike, self-pollinating)", "daughter tuber/bulb division"],
-    "substrate":     "nutrient-rich",
+    "lighting": "medium",
+    "co2": "optional",
+    "growthRate": "fast",
+    "placement": "background",
+    "propagation": [
+      "seeds (flower spike, self-pollinating)",
+      "daughter tuber/bulb division"
+    ],
+    "substrate": "nutrient-rich",
     "fertilization": "moderate"
   },
   "macroalgae": null,

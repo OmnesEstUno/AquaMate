@@ -6,33 +6,59 @@
   "waterType": "saltwater",
   "commonName": "Purple Palms",
   "scientificName": "Gelidium sp.",
-  "alsoKnownAs": ["Jumbo Gelidium"],
+  "alsoKnownAs": [
+    "Jumbo Gelidium"
+  ],
   "category": "Macroalgae",
   "taxonomy": {
     "family": "Gelidiaceae",
     "order": "Gelidiales"
   },
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Atlantic", "Mediterranean", "Worldwide tropical to temperate"],
+    "regions": [
+      "Indo-Pacific",
+      "Atlantic",
+      "Mediterranean",
+      "Worldwide tropical to temperate"
+    ],
     "countries": [],
     "habitat": "Marine intertidal and subtidal zones; rocky substrates in photic zone",
     "biotope": "Reef and rocky coastal",
-    "depthRangeM": { "min": 0, "max": 30 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 30
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 26 },
-    "pH": { "min": 8.0, "max": 8.3 },
+    "temperatureC": {
+      "min": 22,
+      "max": 26
+    },
+    "pH": {
+      "min": 8,
+      "max": 8.3
+    },
     "gH": null,
     "kH": null,
-    "salinity": { "min": 1.023, "max": 1.026 }
+    "salinity": {
+      "min": 1.023,
+      "max": 1.026
+    }
   },
-  "adultSizeCm": { "min": 5, "max": 25 },
+  "adultSizeCm": {
+    "min": 5,
+    "max": 25
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 40,
     "minLengthCm": null,
     "swimZone": null,
-    "decorPreferences": ["rockwork attachment", "rubble", "plug mounting"],
+    "decorPreferences": [
+      "rockwork attachment",
+      "rubble",
+      "plug mounting"
+    ],
     "minSandDepthCm": null
   },
   "careLevel": "intermediate",
@@ -41,8 +67,17 @@
     "temperament": "peaceful",
     "grouping": "solitary",
     "minGroupSize": null,
-    "goodWith": ["reef fish", "invertebrates", "corals", "snails", "hermit crabs", "shrimp"],
-    "avoidWith": ["herbivorous fish that consume macroalgae (e.g., tangs, urchins in overstocked tanks)"]
+    "goodWith": [
+      "reef fish",
+      "invertebrates",
+      "corals",
+      "snails",
+      "hermit crabs",
+      "shrimp"
+    ],
+    "avoidWith": [
+      "herbivorous fish that consume macroalgae (e.g., tangs, urchins in overstocked tanks)"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -109,6 +144,7 @@
   "mollusc": null,
   "echinoderm": null,
   "other-invert": null,
+  "amphibian": null,
   "plant": null,
   "macroalgae": {
     "lighting": "medium",
@@ -116,7 +152,10 @@
     "form": "macroalgae",
     "placement": "display",
     "nutrientUptake": "low",
-    "propagation": ["fragmentation", "gametophyte-sporophyte alternation"]
+    "propagation": [
+      "fragmentation",
+      "gametophyte-sporophyte alternation"
+    ]
   },
   "schemaVersion": 1,
   "dataStatus": "researched",

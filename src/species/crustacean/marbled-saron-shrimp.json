@@ -18,25 +18,58 @@
     "order": "Decapoda"
   },
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Red Sea", "East Africa", "Central Pacific"],
-    "countries": ["Indonesia", "Maldives", "United States (Hawaii)", "Australia", "Madagascar", "Mozambique"],
+    "regions": [
+      "Indo-Pacific",
+      "Red Sea",
+      "East Africa",
+      "Central Pacific"
+    ],
+    "countries": [
+      "Indonesia",
+      "Maldives",
+      "United States (Hawaii)",
+      "Australia",
+      "Madagascar",
+      "Mozambique"
+    ],
     "habitat": "Generally found among coral and coral rubble in lagoons and reef flats, from the infralittoral to sublittoral zone. Tends to shelter in crevices and beneath ledges by day and forage over the reef at twilight.",
     "biotope": "Reef",
-    "depthRangeM": { "min": 0, "max": 20 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 20
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 26 },
-    "pH":           { "min": 8.0, "max": 8.4 },
-    "gH":           null,
-    "kH":           { "min": 8, "max": 12 },
-    "salinity":     { "min": 1.023, "max": 1.025 }
+    "temperatureC": {
+      "min": 22,
+      "max": 26
+    },
+    "pH": {
+      "min": 8,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.023,
+      "max": 1.025
+    }
   },
-  "adultSizeCm":   { "min": 5, "max": 8 },
-  "lifespanYears": { "min": 2, "max": 3 },
+  "adultSizeCm": {
+    "min": 5,
+    "max": 8
+  },
+  "lifespanYears": {
+    "min": 2,
+    "max": 3
+  },
   "tank": {
-    "minVolumeLiters":  100,
-    "minLengthCm":      60,
-    "swimZone":         "bottom",
+    "minVolumeLiters": 100,
+    "minLengthCm": 60,
+    "swimZone": "bottom",
     "decorPreferences": [
       "live rock with abundant caves and overhangs",
       "shaded crevices for daytime hiding",
@@ -44,7 +77,7 @@
       "mature reef tank with stable parameters",
       "subdued lighting in at least part of the tank"
     ],
-    "minSandDepthCm":   null
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -52,16 +85,16 @@
     "notes": "Generally accepts a varied carnivore-leaning diet: frozen mysis and brine shrimp, small pieces of fish or shellfish, sinking pellets, and occasional algae wafers. Sources describe wild diet as detritus, algae, and small invertebrates. Best fed in the evening or after lights-out to match its crepuscular/nocturnal activity pattern."
   },
   "compatibility": {
-    "temperament":  "semi-aggressive",
-    "grouping":     "pair",
+    "temperament": "semi-aggressive",
+    "grouping": "pair",
     "minGroupSize": 1,
-    "goodWith":     [
+    "goodWith": [
       "peaceful reef fish that won't harass shrimp",
       "small gobies and blennies",
       "most LPS and SPS corals (with monitoring)",
       "snails and hermit crabs of similar or larger size"
     ],
-    "avoidWith":    [
+    "avoidWith": [
       "zoanthids and palythoa colonies (commonly picked at)",
       "feather duster worms and tubeworms (commonly eaten)",
       "small ornamental shrimp and very small inverts (predatory risk)",
@@ -71,8 +104,8 @@
     ]
   },
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
+    "primaryImage": null,
+    "gallery": [],
     "imageCandidates": null
   },
   "summary": "A crepuscular Indo-Pacific shrimp with distinctive bristly setae on the carapace. Generally considered reef-safe with caution — has been reported to pick at zoanthids, tubeworms, and small invertebrates.",
@@ -81,7 +114,7 @@
   "sources": {
     "primary": {
       "name": "LiveAquaria",
-      "url":  "https://www.liveaquaria.com/products/saron-shrimp",
+      "url": "https://www.liveaquaria.com/products/saron-shrimp",
       "accessedDate": "2026-06-12",
       "notes": "Primary source for water parameters (72-78°F, pH 8.1-8.4, dKH 8-12, SG 1.023-1.025), care level, family (Hippolytidae), diet (carnivore), supplements (calcium, magnesium, iodine, trace elements), origin (Hawaii, Indonesia, Maldives), copper intolerance, and reef-safety flag (LiveAquaria rates this species as not reef safe)."
     },
@@ -114,21 +147,22 @@
   },
   "fish": null,
   "crustacean": {
-    "copperSensitive":            true,
-    "moltingFrequencyDays":       null,
-    "moltingNotes":               "Sources do not give a typical molt interval. Adequate iodine and trace elements are commonly cited as important for proper molting; molts are generally left in the tank to be consumed for calcium reuptake.",
-    "escapeRisk":                 "low",
-    "breedingDifficulty":         "not in captivity",
-    "breedingNotes":              "No reliably reported captive-breeding success. Larval stages require stable, clean rearing conditions outside of a typical display tank. The trade is essentially wild-caught.",
+    "copperSensitive": true,
+    "moltingFrequencyDays": null,
+    "moltingNotes": "Sources do not give a typical molt interval. Adequate iodine and trace elements are commonly cited as important for proper molting; molts are generally left in the tank to be consumed for calcium reuptake.",
+    "escapeRisk": "low",
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "No reliably reported captive-breeding success. Larval stages require stable, clean rearing conditions outside of a typical display tank. The trade is essentially wild-caught.",
     "speciesOnlyTankRecommended": false
   },
-  "coral":        null,
-  "mollusc":      null,
-  "echinoderm":   null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
   "other-invert": null,
-  "plant":        null,
-  "macroalgae":   null,
+  "amphibian": null,
+  "plant": null,
+  "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus":   "researched",
+  "dataStatus": "researched",
   "lastReviewed": "2026-06-12"
 }

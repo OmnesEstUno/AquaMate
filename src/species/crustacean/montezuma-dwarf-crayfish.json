@@ -17,25 +17,52 @@
     "order": "Decapoda"
   },
   "nativeRange": {
-    "regions": ["Central Mexico", "Valley of Mexico", "Trans-Mexican Volcanic Belt"],
-    "countries": ["Mexico"],
+    "regions": [
+      "Central Mexico",
+      "Valley of Mexico",
+      "Trans-Mexican Volcanic Belt"
+    ],
+    "countries": [
+      "Mexico"
+    ],
     "habitat": "Generally found in densely vegetated freshwater habitats across central Mexico, including high-altitude lakes, canals, ponds, streams, slow-flowing marshes, and artificial waterways. Has been reported among aquatic plant roots, leaf litter, and submerged debris, and is widely cited as tolerant of a relatively wide range of temperatures, pH, and dissolved-oxygen levels — a trait commonly linked to its long history of survival in the disturbed wetlands of the Mexico City basin.",
     "biotope": "Mexican high-altitude lake / marsh / canal",
-    "depthRangeM": { "min": 0, "max": 3 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 3
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 18, "max": 26 },
-    "pH":           { "min": 7.0, "max": 8.0 },
-    "gH":           { "min": 6, "max": 20 },
-    "kH":           { "min": 3, "max": 20 },
-    "salinity":     null
+    "temperatureC": {
+      "min": 18,
+      "max": 26
+    },
+    "pH": {
+      "min": 7,
+      "max": 8
+    },
+    "gH": {
+      "min": 6,
+      "max": 20
+    },
+    "kH": {
+      "min": 3,
+      "max": 20
+    },
+    "salinity": null
   },
-  "adultSizeCm":   { "min": 2.5, "max": 3.7 },
-  "lifespanYears": { "min": 2, "max": 3 },
+  "adultSizeCm": {
+    "min": 2.5,
+    "max": 3.7
+  },
+  "lifespanYears": {
+    "min": 2,
+    "max": 3
+  },
   "tank": {
-    "minVolumeLiters":  40,
-    "minLengthCm":      40,
-    "swimZone":         "bottom",
+    "minVolumeLiters": 40,
+    "minLengthCm": 40,
+    "swimZone": "bottom",
     "decorPreferences": [
       "fine sand or smooth gravel substrate",
       "abundant hiding places (clay tubes, cholla wood, coconut caves, stacked stones)",
@@ -45,16 +72,16 @@
       "tightly-fitting lid (capable of climbing filter intakes and decor)",
       "sponge filter or shrimp-safe intake guard"
     ],
-    "minSandDepthCm":   null
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
-    "type":  "omnivore",
+    "type": "omnivore",
     "notes": "Generally considered an opportunistic omnivore and detritivore. Has been reported to accept commercial sinking pellets, dwarf-crayfish and shrimp foods, blanched vegetables (peas, zucchini, spinach, pumpkin), Indian almond and oak leaf litter, and protein items (bloodworms, brine shrimp, blackworms, small earthworm pieces) offered roughly two to three times per week. Calcium-rich foods or supplements (cuttlebone, blanched kale, mineral stones) are commonly recommended to support successful molting."
   },
   "compatibility": {
-    "temperament":  "peaceful",
-    "grouping":     "pair",
+    "temperament": "peaceful",
+    "grouping": "pair",
     "minGroupSize": 2,
     "goodWith": [
       "small peaceful midwater fish (small tetras, rasboras, endlers, white cloud minnows)",
@@ -71,8 +98,8 @@
     ]
   },
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
+    "primaryImage": null,
+    "gallery": [],
     "imageCandidates": null
   },
   "summary": "A small, hardy dwarf crayfish endemic to the high-altitude waters of central Mexico. Generally considered peaceful, beginner-friendly, and unusually tolerant of cooler temperatures, making it a good fit for unheated or lightly-heated nano aquariums.",
@@ -81,55 +108,56 @@
   "sources": {
     "primary": {
       "name": "The Shrimp Farm",
-      "url":  "https://www.theshrimpfarm.com/",
+      "url": "https://www.theshrimpfarm.com/",
       "accessedDate": "2026-06-12",
       "notes": "Designated primary source did not host a dedicated Cambarellus montezumae product/care page; husbandry data was collected from the site's '6 Dwarf Crayfish For Your Aquarium' overview article (https://www.theshrimpfarm.com/posts/6-dwarf-crayfish-for-your-aquarium/) via search snippets — direct WebFetch returned HTTP 403. Source for native range (Jalisco, Puebla, central Mexico), 10–30 °C natural tolerance, sandy-brown colouring, female 3.7 cm / male 3.1 cm size, and 20 L pair minimum."
     },
     "additional": [
       {
         "name": "Practical Fishkeeping",
-        "url":  "https://www.practicalfishkeeping.co.uk/",
+        "url": "https://www.practicalfishkeeping.co.uk/",
         "accessedDate": "2026-06-12",
         "notes": "Designated secondary source returned HTTP 403 on the homepage and could not be navigated to a species-specific article; substituted with Garnelio, the Acocil Wikipedia entry, and Aquarium Breeder. URL retained for reviewer reference."
       },
       {
         "name": "Garnelio — Montezuma Dwarf Crayfish",
-        "url":  "https://www.garnelio.de/en/montezuma-dwarf-crayfish-cambarellus-montezumae",
+        "url": "https://www.garnelio.de/en/montezuma-dwarf-crayfish-cambarellus-montezumae",
         "accessedDate": "2026-06-12",
         "notes": "Substitute secondary. Source for water parameters (18–28 °C aquarium target, pH 6.8–8, gH 6–20, kH 3–20), 20 L for pair / small group tank floor, peaceful and only mildly territorial temperament, omnivorous diet, 2–3 year lifespan, 30–40 egg clutches with 3–5 week incubation, and taxonomy (Cambaridae / Decapoda)."
       },
       {
         "name": "Wikipedia — Acocil (Cambarellus montezumae)",
-        "url":  "https://en.wikipedia.org/wiki/Acocil",
+        "url": "https://en.wikipedia.org/wiki/Acocil",
         "accessedDate": "2026-06-12",
         "notes": "Taxonomy fallback and ecology cross-check: confirmed Cambaridae / Decapoda, endemic to Mexico (Jalisco and Puebla), IUCN Least Concern, tolerant of a wide range of temperature, pH, and oxygen, and traditional importance as a subsistence food (acocil) — the source of the common name."
       },
       {
         "name": "Aquarium Breeder — Dwarf Mexican Crayfish guide",
-        "url":  "https://aquariumbreeder.com/dwarf-mexican-crayfish-detailed-guide-care-diet-and-breeding/",
+        "url": "https://aquariumbreeder.com/dwarf-mexican-crayfish-detailed-guide-care-diet-and-breeding/",
         "accessedDate": "2026-06-12",
         "notes": "Genus-level Cambarellus reference (primarily Cambarellus patzcuarensis but applicable to montezumae): cross-checked temperature 18–24 °C optimum, pH 7.5–8.0, gH 3–18, kH 3–15, 10 gal / ~40 L pair tank floor, 2-year typical lifespan, omnivore diet, molting frequency (adults ~5×/year, juveniles every 7–10 days), and sexual maturity at 2.5–3 months."
       }
     ]
   },
-  "fish":         null,
+  "fish": null,
   "crustacean": {
-    "copperSensitive":            true,
-    "moltingFrequencyDays":       70,
-    "moltingNotes":               "Adults have been reported to molt several times per year (often cited around five times annually for mature Cambarellus dwarf crayfish), while juveniles molt much more frequently — roughly every 7–10 days during peak growth. Molt intervals tend to shorten at warmer temperatures and lengthen in cooler water. Post-molt individuals are soft-bodied and very vulnerable for several days; each crayfish should have its own enclosed hide. Like all crustaceans the species is highly sensitive to copper-based medications and snail treatments, which should be avoided entirely; the shed exoskeleton is normally re-consumed for calcium and should be left in the tank.",
-    "escapeRisk":                 "moderate",
-    "breedingDifficulty":         "easy",
-    "breedingNotes":              "Generally easy to breed in a stable, well-structured tank with hiding places and leaf litter. See top-level breedingNotes for clutch size, incubation timing, and juvenile rearing details.",
+    "copperSensitive": true,
+    "moltingFrequencyDays": 70,
+    "moltingNotes": "Adults have been reported to molt several times per year (often cited around five times annually for mature Cambarellus dwarf crayfish), while juveniles molt much more frequently — roughly every 7–10 days during peak growth. Molt intervals tend to shorten at warmer temperatures and lengthen in cooler water. Post-molt individuals are soft-bodied and very vulnerable for several days; each crayfish should have its own enclosed hide. Like all crustaceans the species is highly sensitive to copper-based medications and snail treatments, which should be avoided entirely; the shed exoskeleton is normally re-consumed for calcium and should be left in the tank.",
+    "escapeRisk": "moderate",
+    "breedingDifficulty": "easy",
+    "breedingNotes": "Generally easy to breed in a stable, well-structured tank with hiding places and leaf litter. See top-level breedingNotes for clutch size, incubation timing, and juvenile rearing details.",
     "speciesOnlyTankRecommended": false
   },
-  "coral":        null,
-  "mollusc":      null,
-  "echinoderm":   null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
   "other-invert": null,
-  "plant":        null,
-  "macroalgae":   null,
+  "amphibian": null,
+  "plant": null,
+  "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus":   "researched",
+  "dataStatus": "researched",
   "lastReviewed": "2026-06-12",
   "hobbyistAdvisory": null
 }

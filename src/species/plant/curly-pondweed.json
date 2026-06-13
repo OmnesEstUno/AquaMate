@@ -37,16 +37,28 @@
     ],
     "habitat": "Standing and slow-flowing freshwaters — lowland ponds, ditches, lakes, and slow rivers, typically over fine, organically rich substrates; tolerates calcareous and slightly brackish conditions.",
     "biotope": "Pond",
-    "depthRangeM": { "min": 0.3, "max": 4 }
+    "depthRangeM": {
+      "min": 0.3,
+      "max": 4
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 10, "max": 24 },
-    "pH": { "min": 6.5, "max": 8.5 },
+    "temperatureC": {
+      "min": 10,
+      "max": 24
+    },
+    "pH": {
+      "min": 6.5,
+      "max": 8.5
+    },
     "gH": null,
     "kH": null,
     "salinity": null
   },
-  "adultSizeCm": { "min": 30, "max": 100 },
+  "adultSizeCm": {
+    "min": 30,
+    "max": 100
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 75,
@@ -127,6 +139,7 @@
   "mollusc": null,
   "echinoderm": null,
   "other-invert": null,
+  "amphibian": null,
   "plant": {
     "lighting": "medium",
     "co2": "optional",

@@ -21,21 +21,48 @@
     "order": "Decapoda"
   },
   "nativeRange": {
-    "regions": ["Southeast Asia", "Indo-Pacific"],
-    "countries": ["Indonesia", "Philippines", "Sri Lanka", "Thailand", "Malaysia"],
+    "regions": [
+      "Southeast Asia",
+      "Indo-Pacific"
+    ],
+    "countries": [
+      "Indonesia",
+      "Philippines",
+      "Sri Lanka",
+      "Thailand",
+      "Malaysia"
+    ],
     "habitat": "Fast-flowing freshwater streams and rivers in mountain and hill country, where they cling to underwater rocks and submerged wood in the strongest current.",
     "biotope": "Tropical Asian hill stream",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 27 },
-    "pH": { "min": 6.5, "max": 7.5 },
-    "gH": { "min": 6, "max": 10 },
-    "kH": { "min": 2, "max": 6 },
+    "temperatureC": {
+      "min": 22,
+      "max": 27
+    },
+    "pH": {
+      "min": 6.5,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 6,
+      "max": 10
+    },
+    "kH": {
+      "min": 2,
+      "max": 6
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 6, "max": 10 },
-  "lifespanYears": { "min": 2, "max": 5 },
+  "adultSizeCm": {
+    "min": 6,
+    "max": 10
+  },
+  "lifespanYears": {
+    "min": 2,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 80,
     "minLengthCm": 75,
@@ -130,6 +157,7 @@
   "mollusc": null,
   "echinoderm": null,
   "other-invert": null,
+  "amphibian": null,
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,

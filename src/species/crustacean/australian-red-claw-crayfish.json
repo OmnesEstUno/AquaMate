@@ -21,25 +21,52 @@
     "order": "Decapoda"
   },
   "nativeRange": {
-    "regions": ["Australasia", "Oceania"],
-    "countries": ["Australia", "Papua New Guinea"],
+    "regions": [
+      "Australasia",
+      "Oceania"
+    ],
+    "countries": [
+      "Australia",
+      "Papua New Guinea"
+    ],
     "habitat": "Permanent freshwater streams, billabongs, lakes, lagoons, and slow-moving rivers of tropical northern Australia and southern New Guinea. Generally favors turbid, warm, rock- and cave-strewn habitats with abundant cover.",
     "biotope": "Tropical river/billabong",
-    "depthRangeM": { "min": 0, "max": 5 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 5
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 28 },
-    "pH":           { "min": 7.0, "max": 8.5 },
-    "gH":           { "min": 8, "max": 20 },
-    "kH":           { "min": 3, "max": 15 },
-    "salinity":     null
+    "temperatureC": {
+      "min": 22,
+      "max": 28
+    },
+    "pH": {
+      "min": 7,
+      "max": 8.5
+    },
+    "gH": {
+      "min": 8,
+      "max": 20
+    },
+    "kH": {
+      "min": 3,
+      "max": 15
+    },
+    "salinity": null
   },
-  "adultSizeCm":   { "min": 20, "max": 30 },
-  "lifespanYears": { "min": 4, "max": 6 },
+  "adultSizeCm": {
+    "min": 20,
+    "max": 30
+  },
+  "lifespanYears": {
+    "min": 4,
+    "max": 6
+  },
   "tank": {
-    "minVolumeLiters":  150,
-    "minLengthCm":      90,
-    "swimZone":         "bottom",
+    "minVolumeLiters": 150,
+    "minLengthCm": 90,
+    "swimZone": "bottom",
     "decorPreferences": [
       "rocky caves and overhangs",
       "PVC pipe sections",
@@ -48,16 +75,16 @@
       "tightly fitting tank lid (escape-proof)",
       "strong aeration and water movement"
     ],
-    "minSandDepthCm":   null
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
-    "type":  "omnivore",
+    "type": "omnivore",
     "notes": "Generally regarded as an opportunistic omnivore that has been documented eating sinking pellets, algae wafers, blanched vegetables (zucchini, cucumber, spinach, peas), bloodworm, mysis shrimp, krill, prawn pieces, and decaying plant matter. Juveniles tend to be reported as needing higher protein (around 30-40%) than adults (around 20-30%); a varied diet with calcium-rich or shell-forming supplements is commonly recommended to support successful molting."
   },
   "compatibility": {
-    "temperament":  "aggressive",
-    "grouping":     "solitary",
+    "temperament": "aggressive",
+    "grouping": "solitary",
     "minGroupSize": 1,
     "goodWith": [
       "large fast-moving mid- to upper-level fish (out of claw reach)",
@@ -73,8 +100,8 @@
     ]
   },
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
+    "primaryImage": null,
+    "gallery": [],
     "imageCandidates": null
   },
   "summary": "A large tropical Australian/PNG freshwater crayfish reaching around 20-30 cm. Adult males develop the trademark bright red patch on the outer claw margin. Generally considered an intermediate-level invertebrate due to size, escape behavior, and incompatibility with most tankmates.",
@@ -83,48 +110,49 @@
   "sources": {
     "primary": {
       "name": "Shrimp and Snail Breeder (Aquariumbreeder)",
-      "url":  "https://aquariumbreeder.com/red-claw-crayfish-detailed-guide-care-diet-and-breeding/",
+      "url": "https://aquariumbreeder.com/red-claw-crayfish-detailed-guide-care-diet-and-breeding/",
       "accessedDate": "2026-06-12",
       "notes": "Designated primary Practical Fishkeeping (practicalfishkeeping.co.uk) returned HTTP 403 / had no Cherax quadricarinatus species page; substituted Shrimp and Snail Breeder as primary. Source for temperature 23-28°C, pH 7.0-8.5, gH 3-25, kH 3-20, 120 L per adult, 4-6 year lifespan, escape behavior, breeding biology, male red-claw patch, juvenile cannibalism."
     },
     "additional": [
       {
         "name": "The Fish Site (FAO aquaculture cultured species profile)",
-        "url":  "https://thefishsite.com/articles/cultured-aquatic-species-red-claw-crayfish",
+        "url": "https://thefishsite.com/articles/cultured-aquatic-species-red-claw-crayfish",
         "accessedDate": "2026-06-12",
         "notes": "Designated secondary Fishkeeping World had no species page; substituted with The Fish Site as secondary. Cross-confirmed native range (NE Australia / PNG), 23-31°C optimal temperature with 36°C lethal limit, 6.5-8.0 pH in aquaculture, 300-800 eggs per brood, 6-10 week incubation, no larval stage, 9-month grow-out to market size, broad salinity tolerance."
       },
       {
         "name": "Fishkeeper.co.uk (Maidenhead Aquatics)",
-        "url":  "https://www.fishkeeper.co.uk/help-and-advice/freshwater/miscellaneous/red-clawed-crayfish",
+        "url": "https://www.fishkeeper.co.uk/help-and-advice/freshwater/miscellaneous/red-clawed-crayfish",
         "accessedDate": "2026-06-12",
         "notes": "UK retail care guide; cross-confirmed family Parastacidae, 18-28°C, pH 7.2-8.2, gH 10-25, omnivorous diet, male red claw patch, species-only setup recommendation, 'great escape artist' behavior, 6-10 week egg incubation, Blue Lobster trade name."
       },
       {
         "name": "Wikipedia (Cherax quadricarinatus)",
-        "url":  "https://en.wikipedia.org/wiki/Cherax_quadricarinatus",
+        "url": "https://en.wikipedia.org/wiki/Cherax_quadricarinatus",
         "accessedDate": "2026-06-12",
         "notes": "Taxonomic fallback: Parastacidae / Decapoda, von Martens 1868 description, four keels on the head (quadricarinatus), up to 30 cm and 600 g, dark brown to blue-green wild coloration, 300-800 olive-green eggs per brood, invasive populations in South Africa, Mexico, Jamaica, Puerto Rico, Indonesia, Zambia, Malaysia, Singapore."
       }
     ]
   },
-  "fish":         null,
+  "fish": null,
   "crustacean": {
-    "copperSensitive":            true,
-    "moltingFrequencyDays":       null,
-    "moltingNotes":               "Generally molts frequently as a juvenile (reported every few weeks during the first months of growth) and progressively less often as a mature adult. The shed exoskeleton is commonly left in the tank and re-consumed for calcium; it should not be removed. Adequate gH/calcium and stable parameters are widely cited as the most important factors in successful molts. Has been reported to seek shelter before molting and to remain hidden and vulnerable for several days afterward; tankmates that harass post-molt individuals are a frequent cause of loss.",
-    "escapeRisk":                 "high",
-    "breedingDifficulty":         "easy",
-    "breedingNotes":              "Reaches sexual maturity at 6-12 months; females carry 300-800 eggs for 6-10 weeks at >23°C; no free-swimming larval stage; juveniles are highly cannibalistic and benefit from separation. See top-level breedingNotes for full discussion.",
+    "copperSensitive": true,
+    "moltingFrequencyDays": null,
+    "moltingNotes": "Generally molts frequently as a juvenile (reported every few weeks during the first months of growth) and progressively less often as a mature adult. The shed exoskeleton is commonly left in the tank and re-consumed for calcium; it should not be removed. Adequate gH/calcium and stable parameters are widely cited as the most important factors in successful molts. Has been reported to seek shelter before molting and to remain hidden and vulnerable for several days afterward; tankmates that harass post-molt individuals are a frequent cause of loss.",
+    "escapeRisk": "high",
+    "breedingDifficulty": "easy",
+    "breedingNotes": "Reaches sexual maturity at 6-12 months; females carry 300-800 eggs for 6-10 weeks at >23°C; no free-swimming larval stage; juveniles are highly cannibalistic and benefit from separation. See top-level breedingNotes for full discussion.",
     "speciesOnlyTankRecommended": true
   },
-  "coral":        null,
-  "mollusc":      null,
-  "echinoderm":   null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
   "other-invert": null,
-  "plant":        null,
-  "macroalgae":   null,
+  "amphibian": null,
+  "plant": null,
+  "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus":   "researched",
+  "dataStatus": "researched",
   "lastReviewed": "2026-06-12"
 }

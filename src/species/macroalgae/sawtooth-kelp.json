@@ -6,53 +6,77 @@
   "waterType": "saltwater",
   "commonName": "Sawtooth Kelp",
   "scientificName": "Sargassum ilicifolium",
-  "alsoKnownAs": ["Sawtooth Sargassum"],
+  "alsoKnownAs": [
+    "Sawtooth Sargassum"
+  ],
   "category": "Macroalgae",
-
   "taxonomy": {
     "family": "Sargassaceae",
     "order": "Fucales"
   },
-
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Tropical Pacific", "Indian Ocean"],
+    "regions": [
+      "Indo-Pacific",
+      "Tropical Pacific",
+      "Indian Ocean"
+    ],
     "countries": [],
     "habitat": "Attached to hard substrate in shallow coastal reef zones and intertidal rocky shores; photic zone",
     "biotope": "Tropical and subtropical shallow reef and rocky intertidal zones",
-    "depthRangeM": { "min": 0, "max": 20 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 20
+    }
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 26 },
-    "pH":           { "min": 8.1, "max": 8.4 },
-    "gH":           null,
-    "kH":           null,
-    "salinity":     { "min": 1.023, "max": 1.026 }
+    "temperatureC": {
+      "min": 22,
+      "max": 26
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": null,
+    "salinity": {
+      "min": 1.023,
+      "max": 1.026
+    }
   },
-
-  "adultSizeCm": { "min": 5, "max": 40 },
+  "adultSizeCm": {
+    "min": 5,
+    "max": 40
+  },
   "lifespanYears": null,
-
   "tank": {
     "minVolumeLiters": 120,
     "minLengthCm": null,
     "swimZone": null,
-    "decorPreferences": ["live rock anchor point", "rockwork", "rubble for holdfast attachment — do not bury in sand bed"],
+    "decorPreferences": [
+      "live rock anchor point",
+      "rockwork",
+      "rubble for holdfast attachment — do not bury in sand bed"
+    ],
     "minSandDepthCm": null
   },
-
   "careLevel": "intermediate",
-
   "diet": null,
-
   "compatibility": {
     "temperament": "peaceful",
     "grouping": "solitary",
     "minGroupSize": null,
-    "goodWith": ["reef fish", "snails", "hermit crabs", "shrimp", "most reef invertebrates"],
-    "avoidWith": ["heavy herbivorous grazers that may consume it before it establishes"]
+    "goodWith": [
+      "reef fish",
+      "snails",
+      "hermit crabs",
+      "shrimp",
+      "most reef invertebrates"
+    ],
+    "avoidWith": [
+      "heavy herbivorous grazers that may consume it before it establishes"
+    ]
   },
-
   "media": {
     "primaryImage": null,
     "gallery": [],
@@ -67,13 +91,9 @@
       }
     ]
   },
-
   "summary": "A rare, sawtooth-edged brown macroalga (Sargassum ilicifolium) with small air-filled bladders and thick toothed fronds. Notably slow-growing for the genus; adapts reasonably well to reef display tanks when attached to rockwork.",
-
   "careNotes": "Sargassum ilicifolium (Sawtooth Kelp) is a species-level member of the genus Sargassum (family Sargassaceae, order Fucales) distinguished by its thick, toothed or serrated leaf-like fronds and small pneumatocysts (air-filled bladders) that help keep fronds upright. In coloration it tends toward brownish-yellow, gold, or a mixture. Mosaic Macros describes this as 'very slow growing' and 'very rarely available' — a meaningful departure from the generally faster-growing Sargassum genus convention and from the Mosaic Pseudo-Kelp (Sargassum sp.) entry, which was assigned fast growth. The sparse, not-bushy habit is noted as normal for this species, not a sign of poor health.\n\nBrown algae of the phylum Phaeophyta must never be buried in the sand bed, as per Mosaic's own guidance — the base will melt if submerged in substrate. Attach by wedging between rockwork, securing with zip-tie or fishing line, or using cyanoacrylate (superglue) gel for frag-plug attachment. Placement in a display tank with stable flow (soft-coral-equivalent, some surface agitation) and full-spectrum lighting is generally advised. Actinic-only spectra are noted by Mosaic to be insufficient for difficult macroalgae.\n\nWater parameters follow standard tropical reef targets per the Mosaic Macros care guide: temperature around 22–26°C, pH 8.1–8.4, calcium 400–450 ppm, magnesium 1,250–1,350 ppm, nitrate 5–20 ppm, phosphate 0.02–0.1 ppm. Mosaic recommends weekly dosing of iron, iodine, and other trace elements for all macroalgae. Sargassum is generally considered palatable to herbivorous tangs and surgeonfish, so caution is warranted in reef tanks with heavy grazers.\n\nCross-reference with the Pseudo-Kelp entry (sw-algae-075, Sargassum sp.) for genus-level context. S. ilicifolium is a distinct species with the defining characteristic of sawtoothed frond margins; the two entries cover different levels of taxonomic identification.",
-
   "breedingNotes": "Propagation in aquariums is generally achieved by fragmentation — detaching a branch tip and securing it to rockwork via wedging or zip-tie/fishing line until the holdfast re-establishes. Sexual reproduction follows the Sargassum genus alternation of generations lifecycle but has not been documented as a practical propagation pathway in the aquarium hobby.",
-
   "sources": {
     "primary": {
       "name": "Mosaic Macros — Sawtooth Kelp",
@@ -90,23 +110,26 @@
       }
     ]
   },
-
-  "fish":        null,
-  "crustacean":  null,
-  "coral":       null,
-  "mollusc":     null,
-  "echinoderm":  null,
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
   "other-invert": null,
-  "plant":       null,
+  "amphibian": null,
+  "plant": null,
   "macroalgae": {
-    "lighting":       "high",
-    "growthRate":     "slow",
-    "form":           "macroalgae",
-    "placement":      "display",
+    "lighting": "high",
+    "growthRate": "slow",
+    "form": "macroalgae",
+    "placement": "display",
     "nutrientUptake": "high",
-    "propagation":    ["fragmentation", "wedging", "zip-tie/fishing line"]
+    "propagation": [
+      "fragmentation",
+      "wedging",
+      "zip-tie/fishing line"
+    ]
   },
-
   "schemaVersion": 1,
   "dataStatus": "researched",
   "lastReviewed": "2026-06-08"

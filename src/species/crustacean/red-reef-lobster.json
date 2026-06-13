@@ -20,21 +20,51 @@
     "order": "Decapoda"
   },
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Hawaiian Islands"],
-    "countries": ["United States (Hawaii)", "Indonesia", "Philippines", "Japan", "Australia"],
+    "regions": [
+      "Indo-Pacific",
+      "Hawaiian Islands"
+    ],
+    "countries": [
+      "United States (Hawaii)",
+      "Indonesia",
+      "Philippines",
+      "Japan",
+      "Australia"
+    ],
     "habitat": "Coral and rocky reefs in tropical Indo-Pacific waters, with a strong population centred on the Hawaiian Islands (where it is locally known as 'Ula). Shelters by day in caves, crevices, and overhangs in the reef structure and emerges at night to scavenge and hunt across the substrate.",
     "biotope": "Coral reef",
-    "depthRangeM": { "min": 3, "max": 30 }
+    "depthRangeM": {
+      "min": 3,
+      "max": 30
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 26 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 23,
+      "max": 26
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.023, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.023,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 10, "max": 14 },
-  "lifespanYears": { "min": 5, "max": 10 },
+  "adultSizeCm": {
+    "min": 10,
+    "max": 14
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 10
+  },
   "tank": {
     "minVolumeLiters": 200,
     "minLengthCm": 90,
@@ -128,6 +158,7 @@
   "mollusc": null,
   "echinoderm": null,
   "other-invert": null,
+  "amphibian": null,
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,

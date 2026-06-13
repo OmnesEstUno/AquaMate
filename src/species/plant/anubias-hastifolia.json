@@ -6,51 +6,79 @@
   "waterType": "freshwater",
   "commonName": "Anubias Hastifolia",
   "scientificName": "Anubias hastifolia",
-  "alsoKnownAs": ["Spear-Leaf Anubias", "Arrowhead Anubias"],
+  "alsoKnownAs": [
+    "Spear-Leaf Anubias",
+    "Arrowhead Anubias"
+  ],
   "category": "plant",
   "taxonomy": {
     "family": "Araceae",
     "order": "Alismatales"
   },
   "nativeRange": {
-    "regions": ["West Africa", "Central Africa"],
-    "countries": ["Ghana", "Nigeria", "Cameroon", "Gabon", "Democratic Republic of the Congo", "Angola"],
+    "regions": [
+      "West Africa",
+      "Central Africa"
+    ],
+    "countries": [
+      "Ghana",
+      "Nigeria",
+      "Cameroon",
+      "Gabon",
+      "Democratic Republic of the Congo",
+      "Angola"
+    ],
     "habitat": "Banks of small forest streams; grows attached to rocks or rooted in mud at the water's edge, often partially emergent.",
     "biotope": "Stream",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 28 },
-    "pH":           { "min": 6.0, "max": 7.5 },
-    "gH":           { "min": 3, "max": 15 },
-    "kH":           { "min": 3, "max": 8 },
-    "salinity":     null
+    "temperatureC": {
+      "min": 22,
+      "max": 28
+    },
+    "pH": {
+      "min": 6,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 3,
+      "max": 15
+    },
+    "kH": {
+      "min": 3,
+      "max": 8
+    },
+    "salinity": null
   },
-  "adultSizeCm":   { "min": 30, "max": 50 },
+  "adultSizeCm": {
+    "min": 30,
+    "max": 50
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 100,
-    "minLengthCm":     60,
-    "swimZone":        null,
+    "minLengthCm": 60,
+    "swimZone": null,
     "decorPreferences": [
       "driftwood for rhizome attachment",
       "porous rock (lava, dragon stone) for attachment",
       "open vertical space for tall arrowhead leaves"
     ],
-    "minSandDepthCm":  null
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": null,
   "compatibility": {
-    "temperament":  null,
-    "grouping":     null,
+    "temperament": null,
+    "grouping": null,
     "minGroupSize": null,
-    "goodWith":     [],
-    "avoidWith":    []
+    "goodWith": [],
+    "avoidWith": []
   },
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
+    "primaryImage": null,
+    "gallery": [],
     "imageCandidates": null
   },
   "summary": "The tallest commonly traded Anubias, with distinctive spear-tip arrowhead leaves on long stalks. Generally regarded as an easy, slow-growing epiphyte best suited to background placement attached to driftwood or rock.",
@@ -59,32 +87,32 @@
   "sources": {
     "primary": {
       "name": "Tropica",
-      "url":  "https://tropica.com/en/search?q=Anubias+hastifolia",
+      "url": "https://tropica.com/en/search?q=Anubias+hastifolia",
       "accessedDate": "2026-06-11",
       "notes": "Tropica's plant-detail pages returned an XSLT/MacroEngine server error during direct WebFetch on the access date; data attributed to Tropica was confirmed via Tropica-referenced summaries surfaced through web search. Cross-verification performed against Aquarium Co-Op, Buce Plant, and Fish Laboratory."
     },
     "additional": [
       {
         "name": "Aquarium Co-Op",
-        "url":  "https://www.aquariumcoop.com/collections/live-aquarium-plants/products/anubias-hastifolia",
+        "url": "https://www.aquariumcoop.com/collections/live-aquarium-plants/products/anubias-hastifolia",
         "accessedDate": "2026-06-11",
         "notes": "Confirmed slow growth, low-light tolerance, epiphyte (super-glue-to-hardscape) habit, background placement, and tall-Anubias size class."
       },
       {
         "name": "Buce Plant",
-        "url":  "https://buceplant.com/products/anubias-hastifolia",
+        "url": "https://buceplant.com/products/anubias-hastifolia",
         "accessedDate": "2026-06-11",
         "notes": "Cross-checked size (15-40 cm / 6-16 in), pH 6.0-7.5, easy care level, rhizome propagation, and the warning that unstable parameters cause melt/rot."
       },
       {
         "name": "Fish Laboratory",
-        "url":  "https://www.fishlaboratory.com/fish/anubias-hastifolia/",
+        "url": "https://www.fishlaboratory.com/fish/anubias-hastifolia/",
         "accessedDate": "2026-06-11",
         "notes": "Cross-checked family (Araceae), temperature 22-28°C, pH 6.0-7.5, slow growth (~1 leaf/month), and propagation via rhizome division."
       },
       {
         "name": "Kew Plants of the World Online",
-        "url":  "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:85529-1/general-information",
+        "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:85529-1/general-information",
         "accessedDate": "2026-06-11",
         "notes": "Authoritative native-range reference: West Tropical Africa to Angola (Ghana, Nigeria, Cameroon, Gabon, DRC, Angola)."
       }
@@ -96,17 +124,20 @@
   "mollusc": null,
   "echinoderm": null,
   "other-invert": null,
+  "amphibian": null,
   "plant": {
-    "lighting":      "low",
-    "co2":           "optional",
-    "growthRate":    "slow",
-    "placement":     "epiphyte",
-    "propagation":   ["rhizome division"],
-    "substrate":     "n/a",
+    "lighting": "low",
+    "co2": "optional",
+    "growthRate": "slow",
+    "placement": "epiphyte",
+    "propagation": [
+      "rhizome division"
+    ],
+    "substrate": "n/a",
     "fertilization": "low"
   },
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus":    "researched",
-  "lastReviewed":  "2026-06-11"
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-11"
 }

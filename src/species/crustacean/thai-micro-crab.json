@@ -20,21 +20,43 @@
     "order": "Decapoda"
   },
   "nativeRange": {
-    "regions": ["Southeast Asia"],
-    "countries": ["Thailand"],
+    "regions": [
+      "Southeast Asia"
+    ],
+    "countries": [
+      "Thailand"
+    ],
     "habitat": "Shallow, slow-moving or still freshwater associated with the roots of floating plants such as water hyacinth, in densely vegetated marshes and partially flooded lowland habitats. The species is documented from the Tha Chin River drainage and surrounding Central/Eastern Thai lowland waterways and rice-field margins.",
     "biotope": "Thai lowland soft-water marsh and floating-plant root tangle",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 27 },
-    "pH": { "min": 6.5, "max": 7.5 },
-    "gH": { "min": 4, "max": 15 },
-    "kH": { "min": 2, "max": 6 },
+    "temperatureC": {
+      "min": 22,
+      "max": 27
+    },
+    "pH": {
+      "min": 6.5,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 4,
+      "max": 15
+    },
+    "kH": {
+      "min": 2,
+      "max": 6
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 0.8, "max": 1.3 },
-  "lifespanYears": { "min": 1, "max": 2 },
+  "adultSizeCm": {
+    "min": 0.8,
+    "max": 1.3
+  },
+  "lifespanYears": {
+    "min": 1,
+    "max": 2
+  },
   "tank": {
     "minVolumeLiters": 20,
     "minLengthCm": 40,
@@ -130,6 +152,7 @@
   "mollusc": null,
   "echinoderm": null,
   "other-invert": null,
+  "amphibian": null,
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,

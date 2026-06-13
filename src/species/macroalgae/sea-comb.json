@@ -30,16 +30,31 @@
     ],
     "habitat": "Rocky subtidal and lower intertidal zones; common on rock from the lower littoral extending to subtidal depths, typically in cool-temperate to warm-temperate seas.",
     "biotope": "Rocky reef, subtidal rock, lower intertidal rock",
-    "depthRangeM": { "min": 0, "max": 30 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 30
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 18.0, "max": 24.0 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 18,
+      "max": 24
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
     "kH": null,
-    "salinity": { "min": 1.023, "max": 1.026 }
+    "salinity": {
+      "min": 1.023,
+      "max": 1.026
+    }
   },
-  "adultSizeCm": { "min": 5.0, "max": 10.0 },
+  "adultSizeCm": {
+    "min": 5,
+    "max": 10
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 40,
@@ -128,6 +143,7 @@
   "mollusc": null,
   "echinoderm": null,
   "other-invert": null,
+  "amphibian": null,
   "plant": null,
   "macroalgae": {
     "lighting": "medium",
@@ -135,7 +151,11 @@
     "form": "macroalgae",
     "placement": "display",
     "nutrientUptake": "low",
-    "propagation": ["fragmentation", "wedging", "zip-tie/fishing line"]
+    "propagation": [
+      "fragmentation",
+      "wedging",
+      "zip-tie/fishing line"
+    ]
   },
   "schemaVersion": 1,
   "dataStatus": "researched",

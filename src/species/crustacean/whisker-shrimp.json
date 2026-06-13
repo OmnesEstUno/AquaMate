@@ -20,7 +20,9 @@
     "order": "Decapoda"
   },
   "nativeRange": {
-    "regions": ["Southeast Asia"],
+    "regions": [
+      "Southeast Asia"
+    ],
     "countries": [
       "Thailand",
       "Malaysia",
@@ -33,17 +35,38 @@
     ],
     "habitat": "Shallow, still or slow-moving freshwater systems including streams, swamps, ponds, ditches, reservoirs, and rice paddies.",
     "biotope": "Tropical lowland freshwater wetlands and rice-paddy / man-made still-water systems with dense vegetation.",
-    "depthRangeM": { "min": 0, "max": 2 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 2
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 28 },
-    "pH": { "min": 6.5, "max": 7.8 },
-    "gH": { "min": 2, "max": 14 },
-    "kH": { "min": 1, "max": 8 },
+    "temperatureC": {
+      "min": 22,
+      "max": 28
+    },
+    "pH": {
+      "min": 6.5,
+      "max": 7.8
+    },
+    "gH": {
+      "min": 2,
+      "max": 14
+    },
+    "kH": {
+      "min": 1,
+      "max": 8
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 2.5, "max": 6 },
-  "lifespanYears": { "min": 1, "max": 4 },
+  "adultSizeCm": {
+    "min": 2.5,
+    "max": 6
+  },
+  "lifespanYears": {
+    "min": 1,
+    "max": 4
+  },
   "tank": {
     "minVolumeLiters": 40,
     "minLengthCm": 60,
@@ -145,6 +168,7 @@
   "mollusc": null,
   "echinoderm": null,
   "other-invert": null,
+  "amphibian": null,
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,

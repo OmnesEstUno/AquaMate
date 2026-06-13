@@ -6,32 +6,58 @@
   "waterType": "freshwater",
   "commonName": "Hydrocleys Nymphoides",
   "scientificName": "Hydrocleys nymphoides",
-  "alsoKnownAs": ["Water Poppy", "Waterpoppy", "Water-Poppy"],
+  "alsoKnownAs": [
+    "Water Poppy",
+    "Waterpoppy",
+    "Water-Poppy"
+  ],
   "category": "Floating-leaf plant",
   "taxonomy": {
     "family": "Alismataceae",
     "order": "Alismatales"
   },
   "nativeRange": {
-    "regions": ["South America", "Central America", "Caribbean"],
-    "countries": ["Brazil", "Venezuela", "Argentina", "Trinidad and Tobago", "Puerto Rico"],
+    "regions": [
+      "South America",
+      "Central America",
+      "Caribbean"
+    ],
+    "countries": [
+      "Brazil",
+      "Venezuela",
+      "Argentina",
+      "Trinidad and Tobago",
+      "Puerto Rico"
+    ],
     "habitat": "Still or slow-moving shallow freshwater habitats — ponds, lakes, marshes, and sluggish streams in subtropical to tropical lowlands.",
     "biotope": "South American lentic shallows",
-    "depthRangeM": { "min": 0.1, "max": 0.4 }
+    "depthRangeM": {
+      "min": 0.1,
+      "max": 0.4
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 21, "max": 28 },
-    "pH":           { "min": 6.5, "max": 7.5 },
-    "gH":           null,
-    "kH":           null,
-    "salinity":     null
+    "temperatureC": {
+      "min": 21,
+      "max": 28
+    },
+    "pH": {
+      "min": 6.5,
+      "max": 7.5
+    },
+    "gH": null,
+    "kH": null,
+    "salinity": null
   },
-  "adultSizeCm":   { "min": 15, "max": 30 },
+  "adultSizeCm": {
+    "min": 15,
+    "max": 30
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 100,
-    "minLengthCm":     null,
-    "swimZone":        "top",
+    "minLengthCm": null,
+    "swimZone": "top",
     "decorPreferences": [
       "shallow water 10-40 cm deep",
       "nutrient-rich aquatic soil for root anchor",
@@ -43,15 +69,23 @@
   "careLevel": "beginner",
   "diet": null,
   "compatibility": {
-    "temperament":  "peaceful",
-    "grouping":     null,
+    "temperament": "peaceful",
+    "grouping": null,
     "minGroupSize": null,
-    "goodWith":     ["pond fish", "peaceful community fish that do not uproot plants"],
-    "avoidWith":    ["goldfish", "koi", "large cichlids", "vegetarian fish that shred floating leaves"]
+    "goodWith": [
+      "pond fish",
+      "peaceful community fish that do not uproot plants"
+    ],
+    "avoidWith": [
+      "goldfish",
+      "koi",
+      "large cichlids",
+      "vegetarian fish that shred floating leaves"
+    ]
   },
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
+    "primaryImage": null,
+    "gallery": [],
     "imageCandidates": null
   },
   "summary": "Tropical floating-leaf plant from the Americas with glossy round leaves and short-lived yellow three-petaled flowers; generally considered a pond and paludarium specialist rather than a typical aquarium plant.",
@@ -60,42 +94,47 @@
   "sources": {
     "primary": {
       "name": "Wikipedia",
-      "url":  "https://en.wikipedia.org/wiki/Hydrocleys_nymphoides",
+      "url": "https://en.wikipedia.org/wiki/Hydrocleys_nymphoides",
       "accessedDate": "2026-06-11",
       "notes": "Used for taxonomy (Alismataceae/Alismatales), scientific synonyms, and native/naturalized range."
     },
     "additional": [
       {
         "name": "Buce Plant",
-        "url":  "https://buceplant.com/products/hydrocleys-nymphoides-water-poppy",
+        "url": "https://buceplant.com/products/hydrocleys-nymphoides-water-poppy",
         "accessedDate": "2026-06-11",
         "notes": "Dispatched secondary URL (buceplant.com root) was a 404; navigated to the species product page instead. Cross-checked care level (easy), lighting (high / strong), growth rate, placement, and propagation (runners)."
       },
       {
         "name": "Pond Informer",
-        "url":  "https://pondinformer.com/water-poppy-hydrocleys-nymphoides/",
+        "url": "https://pondinformer.com/water-poppy-hydrocleys-nymphoides/",
         "accessedDate": "2026-06-11",
         "notes": "Cross-checked adult size (up to ~30 cm tall, 1.5 m spread), water depth tolerance (10–40 cm), temperature requirements (≥21 °C for flowering), pH (6.5–7.5), and propagation via stolons."
       }
     ]
   },
-  "fish":         null,
-  "crustacean":   null,
-  "coral":        null,
-  "mollusc":      null,
-  "echinoderm":   null,
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
   "other-invert": null,
+  "amphibian": null,
   "plant": {
-    "lighting":      "high",
-    "co2":           "optional",
-    "growthRate":    "fast",
-    "placement":     "floating",
-    "propagation":   ["stolons / runners", "seed", "detached leaf rooting"],
-    "substrate":     "nutrient-rich",
+    "lighting": "high",
+    "co2": "optional",
+    "growthRate": "fast",
+    "placement": "floating",
+    "propagation": [
+      "stolons / runners",
+      "seed",
+      "detached leaf rooting"
+    ],
+    "substrate": "nutrient-rich",
     "fertilization": "moderate"
   },
-  "macroalgae":   null,
+  "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus":    "researched",
-  "lastReviewed":  "2026-06-11"
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-11"
 }

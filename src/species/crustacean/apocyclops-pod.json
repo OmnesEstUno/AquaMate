@@ -18,25 +18,49 @@
     "order": "Cyclopoida"
   },
   "nativeRange": {
-    "regions": ["Americas", "Caribbean", "Indo-Pacific"],
-    "countries": ["Panama"],
+    "regions": [
+      "Americas",
+      "Caribbean",
+      "Indo-Pacific"
+    ],
+    "countries": [
+      "Panama"
+    ],
     "habitat": "Originally described from Panama; widely distributed in warm coastal lagoons, estuaries, mangrove systems, and inland saline waters across the Americas, the Caribbean, and parts of the Indo-Pacific. Generally found in shallow brackish-to-marine waters with abundant phytoplankton, microbial biofilms, and detritus.",
     "biotope": "Estuary",
-    "depthRangeM": { "min": 0, "max": 5 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 5
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 28 },
-    "pH":           { "min": 7.8, "max": 8.4 },
-    "gH":           null,
-    "kH":           null,
-    "salinity":     { "min": 1.018, "max": 1.026 }
+    "temperatureC": {
+      "min": 22,
+      "max": 28
+    },
+    "pH": {
+      "min": 7.8,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": null,
+    "salinity": {
+      "min": 1.018,
+      "max": 1.026
+    }
   },
-  "adultSizeCm":   { "min": 0.08, "max": 0.13 },
-  "lifespanYears": { "min": 0.05, "max": 0.15 },
+  "adultSizeCm": {
+    "min": 0.08,
+    "max": 0.13
+  },
+  "lifespanYears": {
+    "min": 0.05,
+    "max": 0.15
+  },
   "tank": {
-    "minVolumeLiters":  4,
-    "minLengthCm":      20,
-    "swimZone":         "all",
+    "minVolumeLiters": 4,
+    "minLengthCm": 20,
+    "swimZone": "all",
     "decorPreferences": [
       "bare-bottom culture container or in-tank refugium",
       "gentle aeration (no fine bubbles that strip pods at the surface)",
@@ -44,16 +68,16 @@
       "ambient or low lighting on the culture",
       "no copper, zinc, or brass plumbing or decor in contact with the water"
     ],
-    "minSandDepthCm":   null
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
-    "type":  "omnivore",
+    "type": "omnivore",
     "notes": "Filter-feeding omnivore reported to consume phytoplankton (Nannochloropsis, Isochrysis, Tetraselmis, Chlorella), diatoms, cyanobacteria, microbial biofilms, and fine detritus. A practical advantage over Parvocalanus is that Apocyclops has been reported to be culturable on prepared algae pastes (including the same pastes used to rear rotifers), eliminating the need for continuous live-phytoplankton culture. Generally advised to dose phytoplankton 1-3 times weekly and to avoid over-feeding, which fouls the culture water."
   },
   "compatibility": {
-    "temperament":  "peaceful",
-    "grouping":     "shoaling",
+    "temperament": "peaceful",
+    "grouping": "shoaling",
     "minGroupSize": 100,
     "goodWith": [
       "monoculture only (kept as a feed-culture / refugium population, not a display animal)",
@@ -70,8 +94,8 @@
     ]
   },
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
+    "primaryImage": null,
+    "gallery": [],
     "imageCandidates": null
   },
   "summary": "A small, fast-reproducing cyclopoid copepod commercially cultured as a live food for water-column-feeding marine fish (mandarins, seahorses, anthias) and for first-feeding ornamental fish larvae. Smaller and more pelagic than Tigriopus.",
@@ -80,60 +104,61 @@
   "sources": {
     "primary": {
       "name": "LiveAquaria",
-      "url":  "https://www.liveaquaria.com/",
+      "url": "https://www.liveaquaria.com/",
       "accessedDate": "2026-06-12",
       "notes": "Designated primary did not surface a dedicated Apocyclops panamensis product page during this research run; the homepage and search returned only general LiveAquaria content. Substituted AlgaeBarn (a recognised primary copepod supplier with a detailed species write-up) as the functional primary."
     },
     "additional": [
       {
         "name": "AlgaeBarn - A Closer Look at the Cyclopoid Copepod Apocyclops panamensis",
-        "url":  "https://www.algaebarn.com/blog/copepods/a-closer-look-at-the-cyclopoid-copepod-apocyclops-panamensis/",
+        "url": "https://www.algaebarn.com/blog/copepods/a-closer-look-at-the-cyclopoid-copepod-apocyclops-panamensis/",
         "accessedDate": "2026-06-12",
         "notes": "Functional primary substitute (designated primary LiveAquaria did not surface a dedicated species page; designated secondary Reef2Reef Wiki returned HTTP 403). Source for taxonomy (cyclopoid copepod), 'between Tisbe and Tigriopus in size,' nauplii under 100 micrometres, eurythermal, planktonic young / benthic adults, reproduction roughly twice that of Tisbe and Tigriopus, omnivore preferring diatoms and cyanobacteria, astaxanthin colour-enhancement, target fish including mandarins and seahorses."
       },
       {
         "name": "Wikipedia - Apocyclops panamensis",
-        "url":  "https://en.wikipedia.org/wiki/Apocyclops_panamensis",
+        "url": "https://en.wikipedia.org/wiki/Apocyclops_panamensis",
         "accessedDate": "2026-06-12",
         "notes": "Taxonomy reference (family Cyclopidae, order Cyclopoida, synonym Cyclops panamensis Marsh 1913), native-range / habitat description (coastal lagoons, estuaries, mangrove systems, inland saline waters across the Americas, Caribbean, Indo-Pacific), adult female 0.8-1.1 mm total length, six naupliar + five copepodite stages, brackish/marine coastal species."
       },
       {
         "name": "PodDrop - Apocyclops Panamensis Live Copepods For Sale",
-        "url":  "https://www.getpoddrop.com/pages/apocyclops-panamensis",
+        "url": "https://www.getpoddrop.com/pages/apocyclops-panamensis",
         "accessedDate": "2026-06-12",
         "notes": "Confirmed adult size 0.8-1.3 mm with females larger than males, temperature optimum 25-30°C (survival 15-35°C), pH 7.5-8.5 optimal, salinity tolerance 0-60 ppt with optimal reproduction at 15-35 ppt, semi-pelagic water-column behaviour distinguishing this species from strictly benthic Tigriopus / Tisbe."
       },
       {
         "name": "PodYourReef - Apocyclops panamensis: A Scientific and Practical Guide for Reef Aquarists",
-        "url":  "https://www.podyourreef.com/blogs/care/apocyclops-panamensis-a-scientific-and-practical-guide-for-reef-aquarists",
+        "url": "https://www.podyourreef.com/blogs/care/apocyclops-panamensis-a-scientific-and-practical-guide-for-reef-aquarists",
         "accessedDate": "2026-06-12",
         "notes": "Cross-confirmed 24-28°C tropical husbandry range, omnivory with preference for diatoms and cyanobacteria, target species (mandarins, dragonets, wrasses, seahorses, chromis, anthias), refugium compatibility with macroalgae and rock rubble. Reported adult size (0.4-0.6 mm) was lower than other sources and was averaged out against Wikipedia + PodDrop in favour of the 0.8-1.3 mm consensus."
       },
       {
         "name": "CORAL Magazine - Apocyclops Poised to Revolutionize Marine Fish Aquaculture",
-        "url":  "https://www.coralmagazine.com/2018/07/27/apocyclops-poised-to-revolutionize-marine-fish-aquaculture/",
+        "url": "https://www.coralmagazine.com/2018/07/27/apocyclops-poised-to-revolutionize-marine-fish-aquaculture/",
         "accessedDate": "2026-06-12",
         "notes": "Aquaculture context: A. panamensis has been used as a first food for first-feeding Flame Angelfish (Centropyge loricula) and other pelagic-spawning marine ornamentals; key practical advantage is culturability on prepared algae pastes, eliminating live-phytoplankton dependency that constrains Parvocalanus crassirostris."
       }
     ]
   },
-  "fish":         null,
+  "fish": null,
   "crustacean": {
-    "copperSensitive":            true,
-    "moltingFrequencyDays":       2,
-    "moltingNotes":               "Copepods molt at every developmental transition; Apocyclops nauplii and copepodites pass through six naupliar and five copepodite molts before reaching the adult stage, with each molt typically separated by a day or two at culture temperature. Shed exoskeletons contribute fine particulates to the culture water and are widely considered normal.",
-    "escapeRisk":                 "low",
-    "breedingDifficulty":         "easy",
-    "breedingNotes":              "Reproduces rapidly under good conditions, has been reported to roughly double the reproduction rate of Tigriopus and Tisbe. See top-level breedingNotes for the full culture protocol.",
+    "copperSensitive": true,
+    "moltingFrequencyDays": 2,
+    "moltingNotes": "Copepods molt at every developmental transition; Apocyclops nauplii and copepodites pass through six naupliar and five copepodite molts before reaching the adult stage, with each molt typically separated by a day or two at culture temperature. Shed exoskeletons contribute fine particulates to the culture water and are widely considered normal.",
+    "escapeRisk": "low",
+    "breedingDifficulty": "easy",
+    "breedingNotes": "Reproduces rapidly under good conditions, has been reported to roughly double the reproduction rate of Tigriopus and Tisbe. See top-level breedingNotes for the full culture protocol.",
     "speciesOnlyTankRecommended": true
   },
-  "coral":        null,
-  "mollusc":      null,
-  "echinoderm":   null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
   "other-invert": null,
-  "plant":        null,
-  "macroalgae":   null,
+  "amphibian": null,
+  "plant": null,
+  "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus":   "researched",
+  "dataStatus": "researched",
   "lastReviewed": "2026-06-12"
 }

@@ -25,25 +25,51 @@
     "order": "Decapoda"
   },
   "nativeRange": {
-    "regions": ["East Asia"],
-    "countries": ["China", "Hong Kong"],
+    "regions": [
+      "East Asia"
+    ],
+    "countries": [
+      "China",
+      "Hong Kong"
+    ],
     "habitat": "Soft, mineral-poor, slightly acidic freshwater streams of Guangdong Province (Yingde and Conghua counties) and Hong Kong. The selectively-bred Taiwan Bee color morphs are aquaculture-only and have no wild population; the line was developed in Taiwan from C. mariae / C. cantonensis stock starting in the late 1990s.",
     "biotope": "Stream",
-    "depthRangeM": { "min": 0, "max": 1 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 1
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 20, "max": 24 },
-    "pH":           { "min": 5.8, "max": 6.8 },
-    "gH":           { "min": 4, "max": 6 },
-    "kH":           { "min": 0, "max": 1 },
-    "salinity":     null
+    "temperatureC": {
+      "min": 20,
+      "max": 24
+    },
+    "pH": {
+      "min": 5.8,
+      "max": 6.8
+    },
+    "gH": {
+      "min": 4,
+      "max": 6
+    },
+    "kH": {
+      "min": 0,
+      "max": 1
+    },
+    "salinity": null
   },
-  "adultSizeCm":   { "min": 2.5, "max": 3.5 },
-  "lifespanYears": { "min": 1, "max": 2 },
+  "adultSizeCm": {
+    "min": 2.5,
+    "max": 3.5
+  },
+  "lifespanYears": {
+    "min": 1,
+    "max": 2
+  },
   "tank": {
-    "minVolumeLiters":  40,
-    "minLengthCm":      40,
-    "swimZone":         "all",
+    "minVolumeLiters": 40,
+    "minLengthCm": 40,
+    "swimZone": "all",
     "decorPreferences": [
       "active buffering substrate (Brightwell Rio Escuro, ADA Amazonia, or equivalent acidic soil)",
       "live mosses (Java moss, Christmas moss)",
@@ -53,16 +79,16 @@
       "sponge filter with shrimp-safe intake guard",
       "live plants tolerant of soft acidic water"
     ],
-    "minSandDepthCm":   null
+    "minSandDepthCm": null
   },
   "careLevel": "advanced",
   "diet": {
-    "type":  "omnivore",
+    "type": "omnivore",
     "notes": "Grazes primarily on biofilm and soft algae. Has been documented accepting specialty Caridina-formulated shrimp foods, blanched vegetables (spinach, nettle, mulberry leaves, moringa), and decaying botanicals. Mineral supplementation (cuttlebone, mineral stones) is commonly recommended to support molting. Overfeeding is widely cited as a leading cause of die-offs; small portions every other day are generally advised."
   },
   "compatibility": {
-    "temperament":  "peaceful",
-    "grouping":     "shoaling",
+    "temperament": "peaceful",
+    "grouping": "shoaling",
     "minGroupSize": 10,
     "goodWith": [
       "nerite snails",
@@ -79,8 +105,8 @@
     ]
   },
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
+    "primaryImage": null,
+    "gallery": [],
     "imageCandidates": null
   },
   "summary": "A high-grade selectively-bred dwarf shrimp complex (King Kong, Panda, Blue Bolt, Wine Red, Shadow Mosura, etc.) requiring soft, acidic, low-TDS water. Generally considered an advanced shrimp due to tight parameter tolerances.",
@@ -89,60 +115,61 @@
   "sources": {
     "primary": {
       "name": "Flip Aquatics",
-      "url":  "https://flipaquatics.com/collections/taiwan-bee-shrimp",
+      "url": "https://flipaquatics.com/collections/taiwan-bee-shrimp",
       "accessedDate": "2026-06-12",
       "notes": "Primary collection page lists Shadow Panda / King Kong, Shadow Mosura, Black King Kong Extreme, Blue Bolt, and Red King Kong / Panda Mix as offered Taiwan Bee morphs. Care parameter details pulled from the linked Flip Aquatics FAQ (https://flipaquatics.com/pages/frequently-asked-questions): temperature 67-72°F (19.4-22.2°C), pH below 7, ~30-day molt frequency, sexual maturity 4-6 months, recommends Salty Shrimp GH+ remineralizer and Brightwell Rio Escuro / Café Soil buffering substrate."
     },
     "additional": [
       {
         "name": "The Shrimp Farm",
-        "url":  "https://www.theshrimpfarm.com/",
+        "url": "https://www.theshrimpfarm.com/",
         "accessedDate": "2026-06-12",
         "notes": "Designated secondary returned HTTP 403 Forbidden on all attempted paths (/posts/taiwan-bee-shrimp-care/, /category/taiwan-bee/, /posts/category/care-guides/). URL retained for reviewer reference; substituted with Wikipedia, Gensou, Teacher's Pet, and Indoor Ecosystem per Stage C fallback policy."
       },
       {
         "name": "Wikipedia (Caridina mariae)",
-        "url":  "https://en.wikipedia.org/wiki/Caridina_mariae",
+        "url": "https://en.wikipedia.org/wiki/Caridina_mariae",
         "accessedDate": "2026-06-12",
         "notes": "Taxonomy anchor (family Atyidae, order Decapoda, described 2014 by Klotz & von Rintelen, sister to C. cantonensis), native range (Guangdong Province, Hong Kong), adult size 1-1.5 in (2.5-3.8 cm), pH 6-7.5, temperature 18-24°C, lifespan 1-2 years. Also cross-referenced Wikipedia (Caridina cantonensis) for selective breeding history (Crystal Red developed 1996) and 28-day egg incubation."
       },
       {
         "name": "Gensou Premium Aquascaping - Caridina Shrimp Care Guide",
-        "url":  "https://gensou.sg/caridina-shrimp-care-guide/",
+        "url": "https://gensou.sg/caridina-shrimp-care-guide/",
         "accessedDate": "2026-06-12",
         "notes": "Secondary husbandry cross-check. Temperature 22-24°C, pH 5.8-6.5, gH 4-6, kH 0-1, TDS 100-150 ppm, tank 30-60 L minimum, female fecundity 20-30 eggs at 28-35 days. Lists King Kong, Panda, Pinto, Red Ruby/Red Wine, Shadow Bee morph variants. Notes Taiwan Bees are 'slightly more delicate' than Crystal Reds/Blacks despite overlapping parameters."
       },
       {
         "name": "Teacher's Pet - Caridina Water Parameters",
-        "url":  "https://teacherspetnw.com/blogs/shrimp-tips/caridina-shrimp-water-parameter",
+        "url": "https://teacherspetnw.com/blogs/shrimp-tips/caridina-shrimp-water-parameter",
         "accessedDate": "2026-06-12",
         "notes": "Cross-check for water parameters: pH 6.0-6.8, gH 4-6, kH 0-1, TDS 80-150, temperature 18-23°C. Stresses low kH is critical for molting."
       },
       {
         "name": "Indoor Ecosystem - Caridina Shrimp Guide",
-        "url":  "https://www.indoorecosystem.net/guides/everything-you-need-to-know-about-caridina-shrimp",
+        "url": "https://www.indoorecosystem.net/guides/everything-you-need-to-know-about-caridina-shrimp",
         "accessedDate": "2026-06-12",
         "notes": "Cross-check. Temperature 20-24°C, pH 5.5-6.5, gH 4-6, kH 0-1, TDS 90-130 ppm, 10-gallon (~40 L) minimum, explicit copper-sensitivity warning, breeding age 3-5 months, 20-30 eggs at 28-35 days."
       }
     ]
   },
-  "fish":         null,
+  "fish": null,
   "crustacean": {
-    "copperSensitive":            true,
-    "moltingFrequencyDays":       30,
-    "moltingNotes":               "Generally molts roughly every 3-4 weeks, with younger shrimp molting more frequently and adults slowing as they mature. Discarded exoskeletons are left in the tank and re-consumed for calcium — they should not be removed. Molting problems are widely associated with sudden TDS/gH swings, insufficient minerals, or unstable water parameters; the 'white ring of death' incomplete-molt fatality is commonly reported in poorly-buffered or mineral-deficient tanks. Stable, low-kH water with a Caridina-specific remineralizer is widely considered essential.",
-    "escapeRisk":                 "low",
-    "breedingDifficulty":         "moderate",
-    "breedingNotes":              "Breeds in stable, mature tanks with soft acidic water and abundant biofilm; colonies may take up to 6 months to begin reliable production. See top-level breedingNotes for details.",
+    "copperSensitive": true,
+    "moltingFrequencyDays": 30,
+    "moltingNotes": "Generally molts roughly every 3-4 weeks, with younger shrimp molting more frequently and adults slowing as they mature. Discarded exoskeletons are left in the tank and re-consumed for calcium — they should not be removed. Molting problems are widely associated with sudden TDS/gH swings, insufficient minerals, or unstable water parameters; the 'white ring of death' incomplete-molt fatality is commonly reported in poorly-buffered or mineral-deficient tanks. Stable, low-kH water with a Caridina-specific remineralizer is widely considered essential.",
+    "escapeRisk": "low",
+    "breedingDifficulty": "moderate",
+    "breedingNotes": "Breeds in stable, mature tanks with soft acidic water and abundant biofilm; colonies may take up to 6 months to begin reliable production. See top-level breedingNotes for details.",
     "speciesOnlyTankRecommended": true
   },
-  "coral":        null,
-  "mollusc":      null,
-  "echinoderm":   null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
   "other-invert": null,
-  "plant":        null,
-  "macroalgae":   null,
+  "amphibian": null,
+  "plant": null,
+  "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus":   "researched",
+  "dataStatus": "researched",
   "lastReviewed": "2026-06-12"
 }

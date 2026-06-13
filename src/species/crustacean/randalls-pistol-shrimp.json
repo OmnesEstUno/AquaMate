@@ -20,32 +20,60 @@
     "order": "Decapoda"
   },
   "nativeRange": {
-    "regions": ["Indo-Pacific"],
-    "countries": ["Philippines", "Indonesia", "Japan", "Australia"],
+    "regions": [
+      "Indo-Pacific"
+    ],
+    "countries": [
+      "Philippines",
+      "Indonesia",
+      "Japan",
+      "Australia"
+    ],
     "habitat": "Generally found in sandy and rubble areas of coral reefs in relatively shallow water where the substrate is suitable for burrow construction.",
     "biotope": "Reef",
-    "depthRangeM": { "min": 5, "max": 30 }
+    "depthRangeM": {
+      "min": 5,
+      "max": 30
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 26 },
-    "pH":           { "min": 8.1, "max": 8.4 },
-    "gH":           null,
-    "kH":           { "min": 8, "max": 12 },
-    "salinity":     { "min": 1.023, "max": 1.026 }
+    "temperatureC": {
+      "min": 23,
+      "max": 26
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.023,
+      "max": 1.026
+    }
   },
-  "adultSizeCm":   { "min": 4, "max": 5 },
-  "lifespanYears": { "min": 2, "max": 4 },
+  "adultSizeCm": {
+    "min": 4,
+    "max": 5
+  },
+  "lifespanYears": {
+    "min": 2,
+    "max": 4
+  },
   "tank": {
-    "minVolumeLiters":  75,
-    "minLengthCm":      60,
-    "swimZone":         "bottom",
+    "minVolumeLiters": 75,
+    "minLengthCm": 60,
+    "swimZone": "bottom",
     "decorPreferences": [
       "deep sand bed with mixed rubble for burrow construction",
       "ample live rock for cover",
       "stable rockwork (rocks set directly on the tank bottom, not on sand, to prevent collapse from burrowing)",
       "low-to-moderate flow at substrate level"
     ],
-    "minSandDepthCm":   5
+    "minSandDepthCm": 5
   },
   "careLevel": "beginner",
   "diet": {
@@ -53,16 +81,16 @@
     "notes": "Generally a scavenging carnivore — has been documented taking meaty foods such as frozen mysis and brine shrimp, finely chopped seafood, sinking pellets, and bottom-feeder tablets. In a goby-paired setup, food sharing with the partner goby is commonly observed; spot-feeding near the burrow entrance is often advised."
   },
   "compatibility": {
-    "temperament":  "peaceful",
-    "grouping":     "pair",
+    "temperament": "peaceful",
+    "grouping": "pair",
     "minGroupSize": 1,
-    "goodWith":     [
+    "goodWith": [
       "shrimp gobies (Stonogobiops yasha, S. nematodes, Amblyeleotris spp., Cryptocentrus spp.)",
       "small peaceful reef fish",
       "most LPS, SPS, and soft corals",
       "snails and hermit crabs"
     ],
-    "avoidWith":    [
+    "avoidWith": [
       "other pistol or snapping shrimp (conspecific aggression)",
       "ornamental shrimp small enough to be prey (sexy shrimp, anemone shrimp)",
       "large predatory fish (triggers, large wrasses, hawkfish, lionfish)",
@@ -70,8 +98,8 @@
     ]
   },
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
+    "primaryImage": null,
+    "gallery": [],
     "imageCandidates": null
   },
   "summary": "A small, striped Indo-Pacific pistol shrimp commonly paired with shrimp gobies (notably the Yasha goby) in burrow-sharing symbioses. Generally considered reef-safe and beginner-friendly given a deep sand bed and rubble.",
@@ -80,7 +108,7 @@
   "sources": {
     "primary": {
       "name": "LiveAquaria",
-      "url":  "https://www.liveaquaria.com/product/704/?pcatid=704",
+      "url": "https://www.liveaquaria.com/product/704/?pcatid=704",
       "accessedDate": "2026-06-12",
       "notes": "Listed as 'Red Banded Snapping Shrimp (Alpheus randalli)'. Source of headline care parameters: 72-78°F, pH 8.1-8.4, dKH 8-12, SG 1.023-1.025, ~2\" max size, peaceful, reef safe, carnivore."
     },
@@ -113,21 +141,22 @@
   },
   "fish": null,
   "crustacean": {
-    "copperSensitive":            true,
-    "moltingFrequencyDays":       null,
-    "moltingNotes":               "Sources do not give a typical molt interval. Adequate iodine and trace-element levels are commonly advised to support successful molts; shed exoskeletons are generally left in the burrow and reabsorbed for calcium.",
-    "escapeRisk":                 "low",
-    "breedingDifficulty":         "not in captivity",
-    "breedingNotes":              "Not commercially bred in the hobby; planktonic larvae make rearing impractical in standard reef aquaria.",
+    "copperSensitive": true,
+    "moltingFrequencyDays": null,
+    "moltingNotes": "Sources do not give a typical molt interval. Adequate iodine and trace-element levels are commonly advised to support successful molts; shed exoskeletons are generally left in the burrow and reabsorbed for calcium.",
+    "escapeRisk": "low",
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "Not commercially bred in the hobby; planktonic larvae make rearing impractical in standard reef aquaria.",
     "speciesOnlyTankRecommended": false
   },
-  "coral":        null,
-  "mollusc":      null,
-  "echinoderm":   null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
   "other-invert": null,
-  "plant":        null,
-  "macroalgae":   null,
+  "amphibian": null,
+  "plant": null,
+  "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus":   "researched",
+  "dataStatus": "researched",
   "lastReviewed": "2026-06-12"
 }

@@ -19,25 +19,56 @@
     "order": "Decapoda"
   },
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Indian Ocean", "Western Pacific"],
-    "countries": ["South Africa", "Indonesia", "Philippines", "Japan", "India"],
+    "regions": [
+      "Indo-Pacific",
+      "Indian Ocean",
+      "Western Pacific"
+    ],
+    "countries": [
+      "South Africa",
+      "Indonesia",
+      "Philippines",
+      "Japan",
+      "India"
+    ],
     "habitat": "Generally found on coral reefs and rocky substrates with abundant crevices, overhangs, and rubble. Commonly observed congregating in groups within sheltered nooks during the day and emerging to forage at night.",
     "biotope": "Indo-Pacific coral reef",
-    "depthRangeM": { "min": 5, "max": 35 }
+    "depthRangeM": {
+      "min": 5,
+      "max": 35
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 26 },
-    "pH":           { "min": 8.1, "max": 8.4 },
-    "gH":           null,
-    "kH":           { "min": 8, "max": 12 },
-    "salinity":     { "min": 1.023, "max": 1.025 }
+    "temperatureC": {
+      "min": 22,
+      "max": 26
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.023,
+      "max": 1.025
+    }
   },
-  "adultSizeCm":   { "min": 3.5, "max": 6 },
-  "lifespanYears": { "min": 1.5, "max": 3 },
+  "adultSizeCm": {
+    "min": 3.5,
+    "max": 6
+  },
+  "lifespanYears": {
+    "min": 1.5,
+    "max": 3
+  },
   "tank": {
-    "minVolumeLiters":  60,
-    "minLengthCm":      45,
-    "swimZone":         "bottom",
+    "minVolumeLiters": 60,
+    "minLengthCm": 45,
+    "swimZone": "bottom",
     "decorPreferences": [
       "live rock with crevices and overhangs",
       "coral rubble piles for hiding",
@@ -45,7 +76,7 @@
       "sand or fine gravel substrate",
       "dim or moderate lighting (species is largely nocturnal)"
     ],
-    "minSandDepthCm":   null
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
@@ -53,10 +84,10 @@
     "notes": "Generally an opportunistic scavenger. Has been reported to accept a wide range of foods — frozen mysis and brine shrimp, freeze-dried plankton, marine flake, sinking pellets, and meaty bits of fish or mussel. In an established reef tank, supplemental feeding once every day or two is commonly considered sufficient. Iodine, calcium, magnesium, and trace-element supplementation are generally advised to support healthy molting."
   },
   "compatibility": {
-    "temperament":  "peaceful",
-    "grouping":     "shoaling",
+    "temperament": "peaceful",
+    "grouping": "shoaling",
     "minGroupSize": 2,
-    "goodWith":     [
+    "goodWith": [
       "conspecifics (groups of 2-6 are commonly recommended)",
       "small peaceful gobies and dragonets",
       "Lysmata cleaner shrimp (L. amboinensis, L. debelius)",
@@ -64,7 +95,7 @@
       "FOWLR (fish-only with live rock) setups",
       "non-photosynthetic / coral-free reef setups"
     ],
-    "avoidWith":    [
+    "avoidWith": [
       "soft corals, zoanthids, mushrooms, and LPS (the shrimp will pick at polyps)",
       "Harlequin Shrimp (Hymenocera picta) and Coral Banded Shrimp (Stenopus hispidus) — aggressive toward Camel Shrimp",
       "large hawkfish, wrasses, triggerfish, puffers, lionfish, and moray eels (will predate the shrimp)",
@@ -73,8 +104,8 @@
     ]
   },
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
+    "primaryImage": null,
+    "gallery": [],
     "imageCandidates": null
   },
   "summary": "Inexpensive striped red-and-white ornamental shrimp commonly sold as a beginner saltwater invertebrate. Peaceful with fish and easy to keep, but NOT fully reef safe — generally known to pick at soft corals, zoanthids, and LPS polyps.",
@@ -83,7 +114,7 @@
   "sources": {
     "primary": {
       "name": "LiveAquaria — Camel Shrimp",
-      "url":  "https://www.liveaquaria.com/product/690/?pcatid=690",
+      "url": "https://www.liveaquaria.com/product/690/?pcatid=690",
       "accessedDate": "2026-06-12",
       "notes": "Trade source. Provides basic husbandry parameters (temp 64-77°F, pH 8.1-8.4, SG 1.023-1.025, dKH 8-12), reef-with-caution rating, and explicit warning that the species nips at colonial anemones, disc anemones, and soft leather corals."
     },
@@ -110,21 +141,22 @@
   },
   "fish": null,
   "crustacean": {
-    "copperSensitive":            true,
-    "moltingFrequencyDays":       null,
-    "moltingNotes":               "Molts regularly as is typical for decapod shrimp; exact interval is not well documented in hobby sources but is commonly reported as every few weeks for adults. Iodine supplementation is generally advised to support successful molts. Recently molted individuals are vulnerable to predation and cannibalism — abundant crevices and overhangs are commonly recommended so the shrimp can hide during the soft-shell period. The discarded exoskeleton is generally left in the tank and may be re-consumed for calcium reuptake.",
-    "escapeRisk":                 "low",
-    "breedingDifficulty":         "not in captivity",
-    "breedingNotes":              "Has been bred experimentally but is not commercially captive-bred — trade supply is entirely wild-caught. Females carry 100-700 eggs for ~14-15 days; planktonic larvae require ~60 days of staged feeding on phyto, rotifers, and brine shrimp nauplii in a dedicated larval tank.",
+    "copperSensitive": true,
+    "moltingFrequencyDays": null,
+    "moltingNotes": "Molts regularly as is typical for decapod shrimp; exact interval is not well documented in hobby sources but is commonly reported as every few weeks for adults. Iodine supplementation is generally advised to support successful molts. Recently molted individuals are vulnerable to predation and cannibalism — abundant crevices and overhangs are commonly recommended so the shrimp can hide during the soft-shell period. The discarded exoskeleton is generally left in the tank and may be re-consumed for calcium reuptake.",
+    "escapeRisk": "low",
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "Has been bred experimentally but is not commercially captive-bred — trade supply is entirely wild-caught. Females carry 100-700 eggs for ~14-15 days; planktonic larvae require ~60 days of staged feeding on phyto, rotifers, and brine shrimp nauplii in a dedicated larval tank.",
     "speciesOnlyTankRecommended": false
   },
-  "coral":        null,
-  "mollusc":      null,
-  "echinoderm":   null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
   "other-invert": null,
-  "plant":        null,
-  "macroalgae":   null,
+  "amphibian": null,
+  "plant": null,
+  "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus":   "researched",
+  "dataStatus": "researched",
   "lastReviewed": "2026-06-12"
 }

@@ -13,26 +13,63 @@
     "order": "Dasycladales"
   },
   "nativeRange": {
-    "regions": ["Caribbean", "Western Atlantic", "Indo-Pacific"],
-    "countries": ["United States", "Mexico", "Belize", "Jamaica", "Cuba", "Puerto Rico", "Bahamas", "Bermuda", "Venezuela", "Brazil"],
+    "regions": [
+      "Caribbean",
+      "Western Atlantic",
+      "Indo-Pacific"
+    ],
+    "countries": [
+      "United States",
+      "Mexico",
+      "Belize",
+      "Jamaica",
+      "Cuba",
+      "Puerto Rico",
+      "Bahamas",
+      "Bermuda",
+      "Venezuela",
+      "Brazil"
+    ],
     "habitat": "Shallow tropical marine environments; typically anchored in sandy or rubble substrates near reef flats, sheltered lagoons, and coastal shallows",
     "biotope": "Tropical reef and sandy lagoon",
-    "depthRangeM": { "min": 0, "max": 20 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 20
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 26 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 22,
+      "max": 26
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.023, "max": 1.026 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.023,
+      "max": 1.026
+    }
   },
-  "adultSizeCm": { "min": 2, "max": 8 },
+  "adultSizeCm": {
+    "min": 2,
+    "max": 8
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 40,
     "minLengthCm": null,
     "swimZone": null,
-    "decorPreferences": ["sandy substrate for anchoring (minimum 5 cm sand bed)", "open display placement", "moderate flow area"],
+    "decorPreferences": [
+      "sandy substrate for anchoring (minimum 5 cm sand bed)",
+      "open display placement",
+      "moderate flow area"
+    ],
     "minSandDepthCm": 5
   },
   "careLevel": "advanced",
@@ -41,8 +78,17 @@
     "temperament": "peaceful",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["reef fish", "snails", "hermit crabs", "shrimp", "corals"],
-    "avoidWith": ["herbivorous fish (may graze on thallus)", "urchins (may heavily graze)"]
+    "goodWith": [
+      "reef fish",
+      "snails",
+      "hermit crabs",
+      "shrimp",
+      "corals"
+    ],
+    "avoidWith": [
+      "herbivorous fish (may graze on thallus)",
+      "urchins (may heavily graze)"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -83,6 +129,7 @@
   "mollusc": null,
   "echinoderm": null,
   "other-invert": null,
+  "amphibian": null,
   "plant": null,
   "macroalgae": {
     "lighting": "high",
@@ -90,7 +137,10 @@
     "form": "calcareous",
     "placement": "display",
     "nutrientUptake": "low",
-    "propagation": ["fragmentation", "sand-bed"]
+    "propagation": [
+      "fragmentation",
+      "sand-bed"
+    ]
   },
   "schemaVersion": 1,
   "dataStatus": "researched",

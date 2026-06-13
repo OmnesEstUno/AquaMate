@@ -18,25 +18,48 @@
     "order": "Anomopoda"
   },
   "nativeRange": {
-    "regions": ["Cosmopolitan"],
+    "regions": [
+      "Cosmopolitan"
+    ],
     "countries": [],
     "habitat": "Eutrophic, shallow, often temporary freshwater bodies such as ponds, ditches, rice paddies, and pools, where high concentrations of bacteria and phytoplankton support filter-feeding cladocerans.",
     "biotope": "Pond",
-    "depthRangeM": { "min": 0, "max": 2 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 2
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 30 },
-    "pH":           { "min": 7.0, "max": 8.5 },
-    "gH":           { "min": 3, "max": 10 },
-    "kH":           { "min": 2, "max": 8 },
-    "salinity":     null
+    "temperatureC": {
+      "min": 22,
+      "max": 30
+    },
+    "pH": {
+      "min": 7,
+      "max": 8.5
+    },
+    "gH": {
+      "min": 3,
+      "max": 10
+    },
+    "kH": {
+      "min": 2,
+      "max": 8
+    },
+    "salinity": null
   },
-  "adultSizeCm":   { "min": 0.05, "max": 0.18 },
-  "lifespanYears": { "min": 0.04, "max": 0.2 },
+  "adultSizeCm": {
+    "min": 0.05,
+    "max": 0.18
+  },
+  "lifespanYears": {
+    "min": 0.04,
+    "max": 0.2
+  },
   "tank": {
-    "minVolumeLiters":  4,
-    "minLengthCm":      20,
-    "swimZone":         "all",
+    "minVolumeLiters": 4,
+    "minLengthCm": 20,
+    "swimZone": "all",
     "decorPreferences": [
       "bare-bottom culture container",
       "gentle aeration (no fine bubbles)",
@@ -44,16 +67,16 @@
       "ambient or moderate lighting",
       "no copper or metal surfaces in contact with culture water"
     ],
-    "minSandDepthCm":   null
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
-    "type":  "planktivore",
+    "type": "planktivore",
     "notes": "Filter feeder that has been documented consuming bacteria, single-celled algae (green water), yeast, and fine organic particles suspended in the water. Common hobbyist culture foods include active dry yeast suspension, spirulina powder, green water (algae-rich water), and boiled potato or carrot slices that fuel a bacterial bloom. Generally advised to feed sparingly and frequently rather than in large doses to avoid fouling the culture water."
   },
   "compatibility": {
-    "temperament":  "peaceful",
-    "grouping":     "shoaling",
+    "temperament": "peaceful",
+    "grouping": "shoaling",
     "minGroupSize": 50,
     "goodWith": [
       "monoculture only (kept as a feed-culture, not a display animal)",
@@ -68,8 +91,8 @@
     ]
   },
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
+    "primaryImage": null,
+    "gallery": [],
     "imageCandidates": null
   },
   "summary": "A tiny, warm-water freshwater cladoceran (water flea) widely cultured as a live food for fish fry and nano fish. Generally considered smaller and more prolific than the common Daphnia, and well-suited to the smaller mouth gapes of newly hatched livebearer, killifish, and tetra fry.",
@@ -78,60 +101,61 @@
   "sources": {
     "primary": {
       "name": "The Shrimp Farm",
-      "url":  "https://www.theshrimpfarm.com/",
+      "url": "https://www.theshrimpfarm.com/",
       "accessedDate": "2026-06-12",
       "notes": "Designated primary returned HTTP 403 Forbidden during this research run; substituted with aquariumbreeder.com (Shrimp and Snail Breeder) as functional primary. URL retained for reviewer reference."
     },
     "additional": [
       {
         "name": "Practical Fishkeeping",
-        "url":  "https://www.practicalfishkeeping.co.uk/",
+        "url": "https://www.practicalfishkeeping.co.uk/",
         "accessedDate": "2026-06-12",
         "notes": "Designated secondary returned HTTP 403 Forbidden during this research run; substituted with tropical-fish-keeping.com, copepodsforsale.com, and DRAK-Aquaristik for husbandry, and ResearchGate / Springer Hydrobiologia for body-size measurements. URL retained for reviewer reference."
       },
       {
         "name": "Aquariumbreeder (Shrimp and Snail Breeder) - Moina Profile and Culture Guide",
-        "url":  "https://aquariumbreeder.com/moina-profile-and-culture-guide/",
+        "url": "https://aquariumbreeder.com/moina-profile-and-culture-guide/",
         "accessedDate": "2026-06-12",
         "notes": "Functional primary substitute. Source for taxonomy (family Moinidae), temperature optimum 21-29 C, pH 7-8.5, gH 3-10, culture container 4-8 L, lifespan 2-3 weeks (up to 70 days lab), brood size 4-22 every 1.5-2 days, extreme copper/zinc sensitivity."
       },
       {
         "name": "Tropical Fish Keeping - Moina (Moina macrocopa)",
-        "url":  "https://tropical-fish-keeping.com/moina-moina-macrocopa.html",
+        "url": "https://tropical-fish-keeping.com/moina-moina-macrocopa.html",
         "accessedDate": "2026-06-12",
         "notes": "Cross-confirmed temperature 24-31 C ideal, pH 7.0-8.0, container 5-10 gal (~20-40 L), copper and chemical sensitivity, comparison to Daphnia pulex (smaller; higher protein/lower fat), open brood pouch."
       },
       {
         "name": "Copepodsforsale - Moina vs Daphnia",
-        "url":  "https://copepodsforsale.com/moina-vs-daphnia-which-micro-crustacean-is-better-for-fish-fry/",
+        "url": "https://copepodsforsale.com/moina-vs-daphnia-which-micro-crustacean-is-better-for-fish-fry/",
         "accessedDate": "2026-06-12",
         "notes": "Cross-confirmed maturation at 4-5 days at 26 C, container 5-10 gal, NH3 < 0.2 mg/L, O2 > 3.5 mg/L, and that Moina is smaller than Daphnia magna (suitable for newborn fry)."
       },
       {
         "name": "ResearchGate / Springer Hydrobiologia - Moina macrocopa body size data",
-        "url":  "https://link.springer.com/article/10.1023/A:1015214530485",
+        "url": "https://link.springer.com/article/10.1023/A:1015214530485",
         "accessedDate": "2026-06-12",
         "notes": "Triangulation source for adult female body length: females reach ~1.65 mm typical, up to ~1.8 mm under high food at 25 C. Resolves a 2x size disagreement between aquariumbreeder (0.2-0.5 mm) and tropical-fish-keeping (0.5-1.0 mm)."
       }
     ]
   },
-  "fish":         null,
+  "fish": null,
   "crustacean": {
-    "copperSensitive":            true,
-    "moltingFrequencyDays":       1,
-    "moltingNotes":               "Cladocerans molt very frequently as part of normal growth and reproduction — generally reported at roughly every 1-2 days during active reproduction at 25 C, with each molt typically accompanying release of a new brood from the brood pouch. Shed exoskeletons and accompanying neonates contribute fine particulates to the culture water; widely considered normal and not a sign of trouble.",
-    "escapeRisk":                 "low",
-    "breedingDifficulty":         "easy",
-    "breedingNotes":              "Parthenogenetic under good conditions; produces ephippia (resting eggs) under stress. See top-level breedingNotes for full culture protocol.",
+    "copperSensitive": true,
+    "moltingFrequencyDays": 1,
+    "moltingNotes": "Cladocerans molt very frequently as part of normal growth and reproduction — generally reported at roughly every 1-2 days during active reproduction at 25 C, with each molt typically accompanying release of a new brood from the brood pouch. Shed exoskeletons and accompanying neonates contribute fine particulates to the culture water; widely considered normal and not a sign of trouble.",
+    "escapeRisk": "low",
+    "breedingDifficulty": "easy",
+    "breedingNotes": "Parthenogenetic under good conditions; produces ephippia (resting eggs) under stress. See top-level breedingNotes for full culture protocol.",
     "speciesOnlyTankRecommended": true
   },
-  "coral":        null,
-  "mollusc":      null,
-  "echinoderm":   null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
   "other-invert": null,
-  "plant":        null,
-  "macroalgae":   null,
+  "amphibian": null,
+  "plant": null,
+  "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus":   "researched",
+  "dataStatus": "researched",
   "lastReviewed": "2026-06-12"
 }

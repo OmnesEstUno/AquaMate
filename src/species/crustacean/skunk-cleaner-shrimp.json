@@ -22,21 +22,51 @@
     "order": "Decapoda"
   },
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Red Sea"],
-    "countries": ["Indonesia", "Sri Lanka", "Australia", "Philippines", "Maldives"],
+    "regions": [
+      "Indo-Pacific",
+      "Red Sea"
+    ],
+    "countries": [
+      "Indonesia",
+      "Sri Lanka",
+      "Australia",
+      "Philippines",
+      "Maldives"
+    ],
     "habitat": "Tropical coral reefs, typically found on reef faces and overhangs where they establish cleaning stations among live rock and coral outcroppings; reported from the Red Sea throughout the Indo-West Pacific to the Coral Sea and southern Korea.",
     "biotope": "Coral reef",
-    "depthRangeM": { "min": 5, "max": 40 }
+    "depthRangeM": {
+      "min": 5,
+      "max": 40
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 27 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 23,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.023, "max": 1.026 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.023,
+      "max": 1.026
+    }
   },
-  "adultSizeCm": { "min": 5, "max": 6 },
-  "lifespanYears": { "min": 3, "max": 5 },
+  "adultSizeCm": {
+    "min": 5,
+    "max": 6
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 75,
     "minLengthCm": 60,
@@ -138,6 +168,7 @@
   "mollusc": null,
   "echinoderm": null,
   "other-invert": null,
+  "amphibian": null,
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,

@@ -18,20 +18,43 @@
     "order": "Alismatales"
   },
   "nativeRange": {
-    "regions": ["Asia", "Southeast Asia"],
-    "countries": ["Thailand", "Laos", "Vietnam", "China"],
+    "regions": [
+      "Asia",
+      "Southeast Asia"
+    ],
+    "countries": [
+      "Thailand",
+      "Laos",
+      "Vietnam",
+      "China"
+    ],
     "habitat": "Streams and slow-moving rivers in mainland Southeast Asia and southern China. Often associated with calcareous (limestone) streams, which explains the unusual hard-water tolerance of this variety relative to the rest of the genus.",
     "biotope": "Stream",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 28 },
-    "pH": { "min": 6.5, "max": 8.0 },
-    "gH": { "min": 5, "max": 25 },
-    "kH": { "min": 3, "max": 18 },
+    "temperatureC": {
+      "min": 22,
+      "max": 28
+    },
+    "pH": {
+      "min": 6.5,
+      "max": 8
+    },
+    "gH": {
+      "min": 5,
+      "max": 25
+    },
+    "kH": {
+      "min": 3,
+      "max": 18
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 30, "max": 60 },
+  "adultSizeCm": {
+    "min": 30,
+    "max": 60
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 75,
@@ -91,12 +114,16 @@
   "mollusc": null,
   "echinoderm": null,
   "other-invert": null,
+  "amphibian": null,
   "plant": {
     "lighting": "medium",
     "co2": "optional",
     "growthRate": "medium",
     "placement": "background",
-    "propagation": ["runners", "rhizome division"],
+    "propagation": [
+      "runners",
+      "rhizome division"
+    ],
     "substrate": "nutrient-rich",
     "fertilization": "moderate"
   },

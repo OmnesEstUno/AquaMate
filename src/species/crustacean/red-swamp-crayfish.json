@@ -26,25 +26,51 @@
     "order": "Decapoda"
   },
   "nativeRange": {
-    "regions": ["North America"],
-    "countries": ["United States", "Mexico"],
+    "regions": [
+      "North America"
+    ],
+    "countries": [
+      "United States",
+      "Mexico"
+    ],
     "habitat": "Warm freshwater bodies with soft substrates suitable for burrowing — slow-flowing rivers, marshes, swamps, ditches, reservoirs, irrigation systems, and rice paddies. Tolerates short periods of slightly brackish water and can survive drought periods of several months by sealing itself into burrows.",
     "biotope": "River",
-    "depthRangeM": { "min": 0, "max": 5 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 5
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 18, "max": 26 },
-    "pH":           { "min": 6.5, "max": 8.0 },
-    "gH":           { "min": 8, "max": 20 },
-    "kH":           { "min": 4, "max": 12 },
-    "salinity":     null
+    "temperatureC": {
+      "min": 18,
+      "max": 26
+    },
+    "pH": {
+      "min": 6.5,
+      "max": 8
+    },
+    "gH": {
+      "min": 8,
+      "max": 20
+    },
+    "kH": {
+      "min": 4,
+      "max": 12
+    },
+    "salinity": null
   },
-  "adultSizeCm":   { "min": 8, "max": 12 },
-  "lifespanYears": { "min": 2, "max": 5 },
+  "adultSizeCm": {
+    "min": 8,
+    "max": 12
+  },
+  "lifespanYears": {
+    "min": 2,
+    "max": 5
+  },
   "tank": {
-    "minVolumeLiters":  150,
-    "minLengthCm":      90,
-    "swimZone":         "bottom",
+    "minVolumeLiters": 150,
+    "minLengthCm": 90,
+    "swimZone": "bottom",
     "decorPreferences": [
       "deep sand or fine gravel substrate (5+ cm) for burrowing",
       "PVC pipes, caves, and clay flowerpots as hides",
@@ -53,16 +79,16 @@
       "no live plants (will be uprooted and consumed)",
       "avoid sponge filters (will be shredded)"
     ],
-    "minSandDepthCm":   5
+    "minSandDepthCm": 5
   },
   "careLevel": "intermediate",
   "diet": {
-    "type":  "omnivore",
+    "type": "omnivore",
     "notes": "Generally regarded as an opportunistic omnivore and scavenger. Has been documented consuming sinking pellets, algae wafers, blanched vegetables (zucchini, cucumber, spinach, peas), frozen bloodworms, brine shrimp, mussel and shrimp meat, and small live prey such as snails, worms, and tadpoles. Juveniles tend toward higher-protein carnivorous diets; adults take in a higher proportion of plant matter. Calcium-enriched foods or supplements are commonly recommended to support successful molting. Uneaten food should generally be removed within a few hours to protect water quality."
   },
   "compatibility": {
-    "temperament":  "aggressive",
-    "grouping":     "solitary",
+    "temperament": "aggressive",
+    "grouping": "solitary",
     "minGroupSize": 1,
     "goodWith": [
       "fast-swimming mid- and upper-zone fish kept in tanks much larger than the crayfish's territory",
@@ -78,8 +104,8 @@
     ]
   },
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
+    "primaryImage": null,
+    "gallery": [],
     "imageCandidates": null
   },
   "summary": "A large, hardy, highly aggressive freshwater crayfish native to the south-central United States and northern Mexico. Globally one of the most widespread invasive crustaceans; sale and possession are legally restricted in many jurisdictions.",
@@ -88,64 +114,65 @@
   "sources": {
     "primary": {
       "name": "Aquarium Co-Op",
-      "url":  "https://www.aquariumcoop.com/",
+      "url": "https://www.aquariumcoop.com/",
       "accessedDate": "2026-06-12",
       "notes": "Designated primary returned no dedicated Procambarus clarkii care article; Aquarium Co-Op coverage is limited to forum threads and a freshwater dwarf shrimp blog post that briefly mentions Procambarus juvenile protein needs. Substituted with Aquariumbreeder.com (Shrimp and Snail Breeder) as functional primary care reference."
     },
     "additional": [
       {
         "name": "Shrimp and Snail Breeder (aquariumbreeder.com)",
-        "url":  "https://aquariumbreeder.com/procambarus-clarkii-detailed-guide-care-diet-and-breeding/",
+        "url": "https://aquariumbreeder.com/procambarus-clarkii-detailed-guide-care-diet-and-breeding/",
         "accessedDate": "2026-06-12",
         "notes": "Functional primary source. Provided adult size 10-12 cm (15 cm wild), lifespan up to 3-5 years, preferred temperature 22-27°C with tolerance 8-33°C, pH 7.0-8.0 (tolerance 6.0-9.0), gH 6-8 (tolerance 3-22), kH 4-6 (tolerance 2-18), 20 US-gal/~90 L minimum tank per adult, aggressive territorial temperament, omnivore diet, easy breeding, family Cambaridae, color morphs (red/orange/scarlet/blue/yellow/white), invasive status."
       },
       {
         "name": "Practical Fishkeeping",
-        "url":  "https://www.practicalfishkeeping.co.uk/fishkeeping-news/illegal-crayfish-on-the-rise-in-the-uk/",
+        "url": "https://www.practicalfishkeeping.co.uk/fishkeeping-news/illegal-crayfish-on-the-rise-in-the-uk/",
         "accessedDate": "2026-06-12",
         "notes": "Designated secondary direct page returned HTTP 403; content recovered via web search excerpt. Confirmed UK illegality of Procambarus clarkii (often sold as 'red crayfish'/'red lobster'), Salmon and Freshwater Fisheries Act 1975 prohibition on keeping non-native crayfish except Cherax quadricarinatus."
       },
       {
         "name": "Wikipedia (Procambarus clarkii)",
-        "url":  "https://en.wikipedia.org/wiki/Procambarus_clarkii",
+        "url": "https://en.wikipedia.org/wiki/Procambarus_clarkii",
         "accessedDate": "2026-06-12",
         "notes": "Taxonomy and range fallback (Wiki direct access blocked; data recovered via search). Confirmed family Cambaridae, native range from northern Mexico through Gulf states to Florida Panhandle and inland to southern Illinois via Mississippi Basin, adult length 5.5-12 cm, average lifespan 5 years (some >6), EU Union List inclusion since 14 July 2016 (Regulation 2016/1141), color morphs including white/blue/orange in the pet trade."
       },
       {
         "name": "AnimalSpot - Procambarus clarkii",
-        "url":  "https://www.animalspot.net/procambarus-clarkii.html",
+        "url": "https://www.animalspot.net/procambarus-clarkii.html",
         "accessedDate": "2026-06-12",
         "notes": "Additional cross-check. Confirmed family Cambaridae, order Decapoda, adult size 7.6-12.7 cm, lifespan 3-5 years, max comfortable temperature ~28°C, nocturnal burrowing behavior, omnivorous diet, late-autumn breeding, IUCN Least Concern but globally most-introduced crayfish."
       },
       {
         "name": "Caring For Your Crayfish Buddies - Red Swamp Crayfish",
-        "url":  "https://www.caringforyourcrayfishbuddies.com/red-swamp-crayfish/",
+        "url": "https://www.caringforyourcrayfishbuddies.com/red-swamp-crayfish/",
         "accessedDate": "2026-06-12",
         "notes": "Additional husbandry cross-check. Confirmed minimum 20 US-gal tank size, aggressive temperament, omnivorous diet, Ghost color morph commonly traded, molting behavior (pre-molt hiding, post-molt vulnerability), no-release imperative."
       }
     ]
   },
-  "fish":         null,
+  "fish": null,
   "crustacean": {
-    "copperSensitive":            true,
-    "moltingFrequencyDays":       30,
-    "moltingNotes":               "Generally molts every few days as a hatchling, every 1-2 weeks as a juvenile, and roughly every 4-8 weeks as an adult; intervals are commonly reported to lengthen with age and shorten at higher temperatures. Crayfish typically retreat into a burrow or hide before molting, refuse food for several days, and are highly vulnerable for 1-2 days post-molt while the new exoskeleton hardens. The discarded exoskeleton should be left in the tank for re-consumption (calcium source). Successful molting requires adequate gH and dissolved calcium; soft water is widely associated with incomplete-molt mortality and limb loss.",
-    "escapeRisk":                 "high",
-    "breedingDifficulty":         "easy",
-    "breedingNotes":              "See top-level breedingNotes. Easy to breed where legal; broods of 100-500 eggs and rapid generational turnover are precisely what make this species such an aggressive invader once released.",
+    "copperSensitive": true,
+    "moltingFrequencyDays": 30,
+    "moltingNotes": "Generally molts every few days as a hatchling, every 1-2 weeks as a juvenile, and roughly every 4-8 weeks as an adult; intervals are commonly reported to lengthen with age and shorten at higher temperatures. Crayfish typically retreat into a burrow or hide before molting, refuse food for several days, and are highly vulnerable for 1-2 days post-molt while the new exoskeleton hardens. The discarded exoskeleton should be left in the tank for re-consumption (calcium source). Successful molting requires adequate gH and dissolved calcium; soft water is widely associated with incomplete-molt mortality and limb loss.",
+    "escapeRisk": "high",
+    "breedingDifficulty": "easy",
+    "breedingNotes": "See top-level breedingNotes. Easy to breed where legal; broods of 100-500 eggs and rapid generational turnover are precisely what make this species such an aggressive invader once released.",
     "speciesOnlyTankRecommended": true
   },
-  "coral":        null,
-  "mollusc":      null,
-  "echinoderm":   null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
   "other-invert": null,
-  "plant":        null,
-  "macroalgae":   null,
+  "amphibian": null,
+  "plant": null,
+  "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus":   "researched",
+  "dataStatus": "researched",
   "lastReviewed": "2026-06-12",
   "hobbyistAdvisory": {
-    "level":  "legally-restricted",
+    "level": "legally-restricted",
     "reason": "On the EU List of Invasive Alien Species of Union Concern since 2016 (Regulation 2016/1141) — sale, import, breeding, and possession are prohibited across the EU. Also illegal or restricted in the UK, several US states, parts of Canada, Australia, and Japan. Verify local law before considering this species."
   }
 }

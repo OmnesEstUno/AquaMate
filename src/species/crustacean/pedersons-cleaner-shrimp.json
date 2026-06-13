@@ -20,21 +20,51 @@
     "order": "Decapoda"
   },
   "nativeRange": {
-    "regions": ["Western Atlantic", "Caribbean"],
-    "countries": ["United States", "Bahamas", "Belize", "Bonaire", "Netherlands Antilles"],
+    "regions": [
+      "Western Atlantic",
+      "Caribbean"
+    ],
+    "countries": [
+      "United States",
+      "Bahamas",
+      "Belize",
+      "Bonaire",
+      "Netherlands Antilles"
+    ],
     "habitat": "Tropical coral reefs of the western Atlantic and Caribbean, where individuals establish cleaning stations on or beside sea anemones such as Bartholomea annulata (corkscrew anemone), Condylactis gigantea, and Stichodactyla helianthus.",
     "biotope": "Coral reef",
-    "depthRangeM": { "min": 1, "max": 18 }
+    "depthRangeM": {
+      "min": 1,
+      "max": 18
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 26 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 22,
+      "max": 26
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.023, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.023,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 2, "max": 3 },
-  "lifespanYears": { "min": 1, "max": 3 },
+  "adultSizeCm": {
+    "min": 2,
+    "max": 3
+  },
+  "lifespanYears": {
+    "min": 1,
+    "max": 3
+  },
   "tank": {
     "minVolumeLiters": 40,
     "minLengthCm": 45,
@@ -128,6 +158,7 @@
   "mollusc": null,
   "echinoderm": null,
   "other-invert": null,
+  "amphibian": null,
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,

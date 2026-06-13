@@ -6,47 +6,93 @@
   "waterType": "freshwater",
   "commonName": "Banana Plant",
   "scientificName": "Nymphoides aquatica",
-  "alsoKnownAs": ["Banana Lily", "Banana Floatingheart", "Big Floatingheart", "Fairy Water Lily"],
+  "alsoKnownAs": [
+    "Banana Lily",
+    "Banana Floatingheart",
+    "Big Floatingheart",
+    "Fairy Water Lily"
+  ],
   "category": "Rosette / Lily-like",
   "taxonomy": {
     "family": "Menyanthaceae",
     "order": "Asterales"
   },
   "nativeRange": {
-    "regions": ["North America", "Southeastern United States"],
-    "countries": ["United States"],
+    "regions": [
+      "North America",
+      "Southeastern United States"
+    ],
+    "countries": [
+      "United States"
+    ],
     "habitat": "Calm, slow-moving rivers, lakes, ponds, swamps and cypress swamps; often found rooted in soft mud in shallow water with full or partial sun.",
     "biotope": "Pond",
-    "depthRangeM": { "min": 0.1, "max": 1.5 }
+    "depthRangeM": {
+      "min": 0.1,
+      "max": 1.5
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 20, "max": 27 },
-    "pH":           { "min": 6.0, "max": 7.5 },
-    "gH":           { "min": 1, "max": 12 },
-    "kH":           { "min": 3, "max": 12 },
-    "salinity":     null
+    "temperatureC": {
+      "min": 20,
+      "max": 27
+    },
+    "pH": {
+      "min": 6,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 1,
+      "max": 12
+    },
+    "kH": {
+      "min": 3,
+      "max": 12
+    },
+    "salinity": null
   },
-  "adultSizeCm":   { "min": 10, "max": 46 },
-  "lifespanYears": { "min": 3, "max": 5 },
+  "adultSizeCm": {
+    "min": 10,
+    "max": 46
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
-    "minVolumeLiters":  40,
-    "minLengthCm":      45,
-    "swimZone":         null,
-    "decorPreferences": ["soft mud or fine sand/gravel substrate", "open area to receive light", "still or gently moving water", "space above for floating leaves to develop"],
-    "minSandDepthCm":   2
+    "minVolumeLiters": 40,
+    "minLengthCm": 45,
+    "swimZone": null,
+    "decorPreferences": [
+      "soft mud or fine sand/gravel substrate",
+      "open area to receive light",
+      "still or gently moving water",
+      "space above for floating leaves to develop"
+    ],
+    "minSandDepthCm": 2
   },
   "careLevel": "beginner",
   "diet": null,
   "compatibility": {
-    "temperament":  "peaceful",
-    "grouping":     "solitary",
+    "temperament": "peaceful",
+    "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith":     ["community fish", "shrimp", "small peaceful tankmates", "low-flow planted setups"],
-    "avoidWith":    ["large plant-eating cichlids", "goldfish", "crayfish", "vegetarian plecos that uproot or shred soft leaves"]
+    "goodWith": [
+      "community fish",
+      "shrimp",
+      "small peaceful tankmates",
+      "low-flow planted setups"
+    ],
+    "avoidWith": [
+      "large plant-eating cichlids",
+      "goldfish",
+      "crayfish",
+      "vegetarian plecos that uproot or shred soft leaves"
+    ]
   },
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
+    "primaryImage": null,
+    "gallery": [],
     "imageCandidates": null
   },
   "summary": "A US-native aquatic plant prized for its unusual banana-shaped storage tubers at the base. Generally beginner-friendly: sends up small submerged leaves first, then floating lily-pad leaves once established.",
@@ -55,46 +101,59 @@
   "sources": {
     "primary": {
       "name": "Tropica",
-      "url":  "https://tropica.com/en/search?q=Nymphoides%20aquatica",
+      "url": "https://tropica.com/en/search?q=Nymphoides%20aquatica",
       "accessedDate": "2026-06-11",
       "notes": "Tropica search page reached but the species-specific detail page returned an XSLT parsing error during research. Cross-source data was assembled from Aquarium Co-Op, AquariumBreeder, FishLab and Wikipedia instead; primary citation retained for the slice's source-priority record."
     },
     "additional": [
-      { "name": "Aquarium Co-Op",
-        "url":  "https://www.aquariumcoop.com/blogs/aquarium/banana-plant-an-unusual-aquarium-plant-for-beginners",
+      {
+        "name": "Aquarium Co-Op",
+        "url": "https://www.aquariumcoop.com/blogs/aquarium/banana-plant-an-unusual-aquarium-plant-for-beginners",
         "accessedDate": "2026-06-11",
-        "notes": "Confirmed beginner care level, temperature 20–28 °C (68–82 °F), tuber-handling guidance (rest on substrate, do not bury), and leaf-cutting propagation method." },
-      { "name": "AquariumBreeder (Shrimp and Snail Breeder)",
-        "url":  "https://aquariumbreeder.com/banana-plant-care-guide-planting-growing-and-propagation/",
+        "notes": "Confirmed beginner care level, temperature 20–28 °C (68–82 °F), tuber-handling guidance (rest on substrate, do not bury), and leaf-cutting propagation method."
+      },
+      {
+        "name": "AquariumBreeder (Shrimp and Snail Breeder)",
+        "url": "https://aquariumbreeder.com/banana-plant-care-guide-planting-growing-and-propagation/",
         "accessedDate": "2026-06-11",
-        "notes": "Confirmed temperature 20–26 °C optimal (10–30 °C tolerance), pH 6.0–7.5, gH 1–8 ideal, height 15–50 cm depending on water depth, slow–medium growth, nutrient-rich substrate preferred but adaptable, and native range Texas–Virginia." },
-      { "name": "FishLab",
-        "url":  "https://fishlab.com/aquarium-banana-plant/",
+        "notes": "Confirmed temperature 20–26 °C optimal (10–30 °C tolerance), pH 6.0–7.5, gH 1–8 ideal, height 15–50 cm depending on water depth, slow–medium growth, nutrient-rich substrate preferred but adaptable, and native range Texas–Virginia."
+      },
+      {
+        "name": "FishLab",
+        "url": "https://fishlab.com/aquarium-banana-plant/",
         "accessedDate": "2026-06-11",
-        "notes": "Confirmed pH 6.0–7.2, kH 5–12, temperature 20–27 °C, medium growth, easy care level, propagation by cutting mature lily-pad stalks, tuber-handling rule (bury at most ~1/3 of the tuber)." },
-      { "name": "Wikipedia",
-        "url":  "https://en.wikipedia.org/wiki/Nymphoides_aquatica",
+        "notes": "Confirmed pH 6.0–7.2, kH 5–12, temperature 20–27 °C, medium growth, easy care level, propagation by cutting mature lily-pad stalks, tuber-handling rule (bury at most ~1/3 of the tuber)."
+      },
+      {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Nymphoides_aquatica",
         "accessedDate": "2026-06-11",
-        "notes": "Taxonomy verification: family Menyanthaceae, order Asterales; native range southeastern United States; common-name synonyms (banana plant, banana lily, banana floatingheart, big floatingheart)." }
+        "notes": "Taxonomy verification: family Menyanthaceae, order Asterales; native range southeastern United States; common-name synonyms (banana plant, banana lily, banana floatingheart, big floatingheart)."
+      }
     ]
   },
-  "fish":         null,
-  "crustacean":   null,
-  "coral":        null,
-  "mollusc":      null,
-  "echinoderm":   null,
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
   "other-invert": null,
+  "amphibian": null,
   "plant": {
-    "lighting":      "medium",
-    "co2":           "optional",
-    "growthRate":    "medium",
-    "placement":     "midground",
-    "propagation":   ["leaf cutting (float a trimmed mature leaf with stem until plantlets form)", "rhizome/runner division", "rest tubers on substrate, do not bury"],
-    "substrate":     "any",
+    "lighting": "medium",
+    "co2": "optional",
+    "growthRate": "medium",
+    "placement": "midground",
+    "propagation": [
+      "leaf cutting (float a trimmed mature leaf with stem until plantlets form)",
+      "rhizome/runner division",
+      "rest tubers on substrate, do not bury"
+    ],
+    "substrate": "any",
     "fertilization": "moderate"
   },
-  "macroalgae":    null,
+  "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus":    "researched",
-  "lastReviewed":  "2026-06-11"
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-11"
 }

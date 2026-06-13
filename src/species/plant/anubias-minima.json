@@ -6,51 +6,80 @@
   "waterType": "freshwater",
   "commonName": "Anubias Minima",
   "scientificName": "Anubias minima",
-  "alsoKnownAs": ["Dwarf Anubias", "Anubias barteri var. glabra"],
+  "alsoKnownAs": [
+    "Dwarf Anubias",
+    "Anubias barteri var. glabra"
+  ],
   "category": "plant",
   "taxonomy": {
     "family": "Araceae",
     "order": "Alismatales"
   },
   "nativeRange": {
-    "regions": ["West Africa", "Central Africa"],
-    "countries": ["Guinea", "Liberia", "Ivory Coast", "Cameroon", "Equatorial Guinea", "Gabon", "Democratic Republic of the Congo"],
+    "regions": [
+      "West Africa",
+      "Central Africa"
+    ],
+    "countries": [
+      "Guinea",
+      "Liberia",
+      "Ivory Coast",
+      "Cameroon",
+      "Equatorial Guinea",
+      "Gabon",
+      "Democratic Republic of the Congo"
+    ],
     "habitat": "West and Central African forest streams and riverbanks; grows attached to rocks or wood, partially or fully submerged with the rhizome positioned above substrate.",
     "biotope": "Stream",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 28 },
-    "pH":           { "min": 6.0, "max": 7.5 },
-    "gH":           { "min": 3, "max": 15 },
-    "kH":           { "min": 3, "max": 8 },
-    "salinity":     null
+    "temperatureC": {
+      "min": 22,
+      "max": 28
+    },
+    "pH": {
+      "min": 6,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 3,
+      "max": 15
+    },
+    "kH": {
+      "min": 3,
+      "max": 8
+    },
+    "salinity": null
   },
-  "adultSizeCm":   { "min": 15, "max": 25 },
+  "adultSizeCm": {
+    "min": 15,
+    "max": 25
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 40,
-    "minLengthCm":     45,
-    "swimZone":        null,
+    "minLengthCm": 45,
+    "swimZone": null,
     "decorPreferences": [
       "driftwood for rhizome attachment",
       "porous rock (lava, dragon stone) for attachment",
       "midground placement among hardscape"
     ],
-    "minSandDepthCm":  null
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": null,
   "compatibility": {
-    "temperament":  null,
-    "grouping":     null,
+    "temperament": null,
+    "grouping": null,
     "minGroupSize": null,
-    "goodWith":     [],
-    "avoidWith":    []
+    "goodWith": [],
+    "avoidWith": []
   },
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
+    "primaryImage": null,
+    "gallery": [],
     "imageCandidates": null
   },
   "summary": "A compact West African Anubias distinguished by its slender, narrow-pointed dark-green leaves. Generally an easy, slow-growing epiphyte well suited to midground placement attached to driftwood or rock.",
@@ -59,20 +88,20 @@
   "sources": {
     "primary": {
       "name": "Modern Aquarium",
-      "url":  "https://www.modernaquarium.com/anubias-minima/",
+      "url": "https://www.modernaquarium.com/anubias-minima/",
       "accessedDate": "2026-06-11",
       "notes": "Primary husbandry source: confirmed temperature tolerance 68-82°F (20-28°C), low-to-moderate lighting, beginner/easy care, foreground-to-midground placement, attachment to rocks or driftwood, and the rhizome-must-not-be-buried warning."
     },
     "additional": [
       {
         "name": "Buce Plant",
-        "url":  "https://buceplant.com/products/anubias-minima",
+        "url": "https://buceplant.com/products/anubias-minima",
         "accessedDate": "2026-06-11",
         "notes": "Cross-checked scientific name (Anubias minima), West African origin, adult size 6-8 inches (15-20 cm), pH 6.0-7.5, low lighting, slow-to-moderate growth, no-CO2-required, epiphyte habit with rhizome attachment, propagation by rhizome division, and the distinguishing 'long and slender leaves in contrast to Anubias nana' note."
       },
       {
         "name": "Wikipedia",
-        "url":  "https://en.wikipedia.org/wiki/Anubias_minima",
+        "url": "https://en.wikipedia.org/wiki/Anubias_minima",
         "accessedDate": "2026-06-11",
         "notes": "Taxonomy fallback: family Araceae, order Alismatales, treats A. minima as a synonym of Anubias barteri var. glabra. Confirmed native countries (Guinea, Liberia, Ivory Coast, Cameroon, Bioko/Equatorial Guinea, Gabon, DRC), leaf-blade dimensions (6-21 cm long, 1.5-9 cm wide), and temperature preference 22-28°C."
       }
@@ -84,17 +113,20 @@
   "mollusc": null,
   "echinoderm": null,
   "other-invert": null,
+  "amphibian": null,
   "plant": {
-    "lighting":      "low",
-    "co2":           "optional",
-    "growthRate":    "slow",
-    "placement":     "midground",
-    "propagation":   ["rhizome division"],
-    "substrate":     "n/a",
+    "lighting": "low",
+    "co2": "optional",
+    "growthRate": "slow",
+    "placement": "midground",
+    "propagation": [
+      "rhizome division"
+    ],
+    "substrate": "n/a",
     "fertilization": "low"
   },
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus":    "researched",
-  "lastReviewed":  "2026-06-11"
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-11"
 }

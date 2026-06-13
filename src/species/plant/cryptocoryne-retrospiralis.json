@@ -16,20 +16,41 @@
     "order": "Alismatales"
   },
   "nativeRange": {
-    "regions": ["South Asia", "Southeast Asia"],
-    "countries": ["India", "Bangladesh"],
+    "regions": [
+      "South Asia",
+      "Southeast Asia"
+    ],
+    "countries": [
+      "India",
+      "Bangladesh"
+    ],
     "habitat": "Slow-moving rivers and streams of the Indian subcontinent, where it grows submersed over silty and sandy substrates in soft, gentle current.",
     "biotope": "River",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 21, "max": 28 },
-    "pH": { "min": 6.5, "max": 7.5 },
-    "gH": { "min": 2, "max": 12 },
-    "kH": { "min": 2, "max": 12 },
+    "temperatureC": {
+      "min": 21,
+      "max": 28
+    },
+    "pH": {
+      "min": 6.5,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 2,
+      "max": 12
+    },
+    "kH": {
+      "min": 2,
+      "max": 12
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 20, "max": 50 },
+  "adultSizeCm": {
+    "min": 20,
+    "max": 50
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 60,
@@ -88,12 +109,16 @@
   "mollusc": null,
   "echinoderm": null,
   "other-invert": null,
+  "amphibian": null,
   "plant": {
     "lighting": "low",
     "co2": "optional",
     "growthRate": "medium",
     "placement": "background",
-    "propagation": ["runners", "rhizome division"],
+    "propagation": [
+      "runners",
+      "rhizome division"
+    ],
     "substrate": "nutrient-rich",
     "fertilization": "moderate"
   },

@@ -19,21 +19,57 @@
     "order": "Decapoda"
   },
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Red Sea", "Western Pacific", "Central Pacific"],
-    "countries": ["Egypt", "Tanzania", "Madagascar", "Maldives", "Indonesia", "Philippines", "Japan", "Australia", "United States"],
+    "regions": [
+      "Indo-Pacific",
+      "Red Sea",
+      "Western Pacific",
+      "Central Pacific"
+    ],
+    "countries": [
+      "Egypt",
+      "Tanzania",
+      "Madagascar",
+      "Maldives",
+      "Indonesia",
+      "Philippines",
+      "Japan",
+      "Australia",
+      "United States"
+    ],
     "habitat": "Shallow tropical reefs and lagoons on sandy or gravelly substrates and around live coral, generally cryptic among rubble and rockwork. Most often observed at night when it emerges from cover to forage.",
     "biotope": "Reef",
-    "depthRangeM": { "min": 1, "max": 30 }
+    "depthRangeM": {
+      "min": 1,
+      "max": 30
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 27 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 23,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.023, "max": 1.026 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.023,
+      "max": 1.026
+    }
   },
-  "adultSizeCm": { "min": 1.5, "max": 2.5 },
-  "lifespanYears": { "min": 2, "max": 5 },
+  "adultSizeCm": {
+    "min": 1.5,
+    "max": 2.5
+  },
+  "lifespanYears": {
+    "min": 2,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 40,
     "minLengthCm": 30,
@@ -127,6 +163,7 @@
   "mollusc": null,
   "echinoderm": null,
   "other-invert": null,
+  "amphibian": null,
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,

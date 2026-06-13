@@ -17,25 +17,58 @@
     "order": "Decapoda"
   },
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Indian Ocean", "Western Pacific", "Red Sea"],
-    "countries": ["Hawaii (USA)", "Philippines", "Indonesia", "Australia", "Japan", "Egypt"],
+    "regions": [
+      "Indo-Pacific",
+      "Indian Ocean",
+      "Western Pacific",
+      "Red Sea"
+    ],
+    "countries": [
+      "Hawaii (USA)",
+      "Philippines",
+      "Indonesia",
+      "Australia",
+      "Japan",
+      "Egypt"
+    ],
     "habitat": "Generally inhabits shallow coral reefs, rubble fields, and low intertidal zones. Tends to live in flat-spired conical snail shells (often cone shells, Conidae) that suit its flattened carapace, and is often seen wedged into reef crevices during the day before emerging to forage at night.",
     "biotope": "Reef",
-    "depthRangeM": { "min": 1, "max": 30 }
+    "depthRangeM": {
+      "min": 1,
+      "max": 30
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 26 },
-    "pH":           { "min": 8.1, "max": 8.4 },
-    "gH":           null,
-    "kH":           { "min": 8, "max": 12 },
-    "salinity":     { "min": 1.023, "max": 1.025 }
+    "temperatureC": {
+      "min": 23,
+      "max": 26
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.023,
+      "max": 1.025
+    }
   },
-  "adultSizeCm":   { "min": 5, "max": 8 },
-  "lifespanYears": { "min": 4, "max": 8 },
+  "adultSizeCm": {
+    "min": 5,
+    "max": 8
+  },
+  "lifespanYears": {
+    "min": 4,
+    "max": 8
+  },
   "tank": {
-    "minVolumeLiters":  75,
-    "minLengthCm":      60,
-    "swimZone":         "bottom",
+    "minVolumeLiters": 75,
+    "minLengthCm": 60,
+    "swimZone": "bottom",
     "decorPreferences": [
       "ample live rock for grazing and shelter",
       "sand or fine rubble substrate for foraging",
@@ -43,7 +76,7 @@
       "low-to-moderate flow regions where detritus accumulates",
       "secure rockwork (large adults can topple loose frags as they climb)"
     ],
-    "minSandDepthCm":   null
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
@@ -51,17 +84,17 @@
     "notes": "Generally an opportunistic scavenger. Has been documented eating detritus, leftover fish food, film and filamentous algae, cyanobacteria, and small meaty items. In captivity, supplemental feedings of dried seaweed (nori), mysis shrimp, and sinking pellets are commonly advised, especially in cleaner tanks where natural detritus is limited. Iodine, calcium, and trace-element supplementation are generally suggested to support healthy molting."
   },
   "compatibility": {
-    "temperament":  "peaceful",
-    "grouping":     "solitary",
+    "temperament": "peaceful",
+    "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith":     [
+    "goodWith": [
       "peaceful reef-safe fish (gobies, blennies, cardinalfish, clownfish, dwarf wrasses)",
       "other hermit crabs of similar or different size (with abundant spare shells)",
       "ornamental shrimp (Lysmata cleaner shrimp, peppermint, fire shrimp)",
       "established mixed reef tanks with stable rockwork",
       "FOWLR (fish-only with live rock) setups"
     ],
-    "avoidWith":    [
+    "avoidWith": [
       "snails kept without a generous shell supply (the crab has been reported to kill snails for their shells)",
       "small or expensive snails such as Trochus or Astraea in shell-limited tanks",
       "predators large enough to crush the shell (large wrasses, triggerfish, puffers, large hawkfish)",
@@ -70,8 +103,8 @@
     ]
   },
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
+    "primaryImage": null,
+    "gallery": [],
     "imageCandidates": null
   },
   "summary": "Vivid orange-and-black striped marine hermit crab from Indo-Pacific reefs. Larger and more ornamental than the smaller Caribbean cleanup hermits — generally considered reef safe and beginner-friendly, but has been known to kill snails for shells and topple loose frags.",
@@ -80,7 +113,7 @@
   "sources": {
     "primary": {
       "name": "LiveAquaria",
-      "url":  "https://www.liveaquaria.com/products/halloween-hermit-crab",
+      "url": "https://www.liveaquaria.com/products/halloween-hermit-crab",
       "accessedDate": "2026-06-12",
       "notes": "Trade source. Provides care level (Easy), temperament (Peaceful), reef compatibility (Yes with caveats), temperature 72-78°F, pH 8.1-8.4, SG 1.020-1.025, dKH 8-12, family (Diogenidae), and origin (Hawaiian Islands — reflects collection locality, not full species range)."
     },
@@ -107,21 +140,22 @@
   },
   "fish": null,
   "crustacean": {
-    "copperSensitive":            true,
-    "moltingFrequencyDays":       null,
-    "moltingNotes":               "Molts periodically as is typical for decapods; the exact interval is not well documented for this species in hobby sources, but adult marine hermits commonly molt every few weeks to months as they grow. The crab generally retreats deeper into its shell or into a quiet rock crevice to molt and may be unseen for several days. The discarded exoskeleton is often consumed for calcium reuptake and should not be removed. Iodine supplementation is commonly advised to support successful molts. After molting the crab may seek a larger shell — keeping an assortment of graded empty cone-style shells available is generally considered important.",
-    "escapeRisk":                 "low",
-    "breedingDifficulty":         "not in captivity",
-    "breedingNotes":              "No commercial captive breeding documented. Releases planktonic larvae with demanding salinity and feeding requirements that are very difficult to replicate at home.",
+    "copperSensitive": true,
+    "moltingFrequencyDays": null,
+    "moltingNotes": "Molts periodically as is typical for decapods; the exact interval is not well documented for this species in hobby sources, but adult marine hermits commonly molt every few weeks to months as they grow. The crab generally retreats deeper into its shell or into a quiet rock crevice to molt and may be unseen for several days. The discarded exoskeleton is often consumed for calcium reuptake and should not be removed. Iodine supplementation is commonly advised to support successful molts. After molting the crab may seek a larger shell — keeping an assortment of graded empty cone-style shells available is generally considered important.",
+    "escapeRisk": "low",
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "No commercial captive breeding documented. Releases planktonic larvae with demanding salinity and feeding requirements that are very difficult to replicate at home.",
     "speciesOnlyTankRecommended": false
   },
-  "coral":        null,
-  "mollusc":      null,
-  "echinoderm":   null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
   "other-invert": null,
-  "plant":        null,
-  "macroalgae":   null,
+  "amphibian": null,
+  "plant": null,
+  "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus":   "researched",
+  "dataStatus": "researched",
   "lastReviewed": "2026-06-12"
 }

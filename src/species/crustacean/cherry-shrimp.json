@@ -33,25 +33,53 @@
     "order": "Decapoda"
   },
   "nativeRange": {
-    "regions": ["East Asia"],
-    "countries": ["China", "Taiwan", "Vietnam", "South Korea"],
+    "regions": [
+      "East Asia"
+    ],
+    "countries": [
+      "China",
+      "Taiwan",
+      "Vietnam",
+      "South Korea"
+    ],
     "habitat": "Inland freshwater lakes, ponds, slow-moving rivers, and streams with abundant vegetation and biofilm-covered surfaces.",
     "biotope": "Stream",
-    "depthRangeM": { "min": 0, "max": 2 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 2
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 18, "max": 28 },
-    "pH":           { "min": 6.5, "max": 8.0 },
-    "gH":           { "min": 6, "max": 14 },
-    "kH":           { "min": 2, "max": 8 },
-    "salinity":     null
+    "temperatureC": {
+      "min": 18,
+      "max": 28
+    },
+    "pH": {
+      "min": 6.5,
+      "max": 8
+    },
+    "gH": {
+      "min": 6,
+      "max": 14
+    },
+    "kH": {
+      "min": 2,
+      "max": 8
+    },
+    "salinity": null
   },
-  "adultSizeCm":   { "min": 2.5, "max": 4 },
-  "lifespanYears": { "min": 1, "max": 2 },
+  "adultSizeCm": {
+    "min": 2.5,
+    "max": 4
+  },
+  "lifespanYears": {
+    "min": 1,
+    "max": 2
+  },
   "tank": {
-    "minVolumeLiters":  40,
-    "minLengthCm":      40,
-    "swimZone":         "all",
+    "minVolumeLiters": 40,
+    "minLengthCm": 40,
+    "swimZone": "all",
     "decorPreferences": [
       "live plants",
       "mosses (Java moss, Christmas moss)",
@@ -60,16 +88,16 @@
       "fine substrate",
       "sponge filter (shrimp-safe intake)"
     ],
-    "minSandDepthCm":   null
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
-    "type":  "omnivore",
+    "type": "omnivore",
     "notes": "Generally regarded as a grazing omnivore that subsists on biofilm, soft algae, and decaying plant matter. Has been documented accepting shrimp pellets, algae wafers, blanched vegetables (zucchini, spinach, cucumber), and small amounts of high-protein foods. Calcium-enriched or mineral-supplemented foods are often recommended to support successful molting."
   },
   "compatibility": {
-    "temperament":  "peaceful",
-    "grouping":     "shoaling",
+    "temperament": "peaceful",
+    "grouping": "shoaling",
     "minGroupSize": 10,
     "goodWith": [
       "other dwarf shrimp species (when not interbreeding-compatible)",
@@ -87,8 +115,8 @@
     ]
   },
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
+    "primaryImage": null,
+    "gallery": [],
     "imageCandidates": null
   },
   "summary": "A small, peaceful freshwater dwarf shrimp from East Asia available in a wide range of selectively-bred color morphs. Generally considered one of the most beginner-friendly invertebrates and a popular cleanup-crew choice for planted nano tanks.",
@@ -97,48 +125,49 @@
   "sources": {
     "primary": {
       "name": "Aquarium Co-Op",
-      "url":  "https://www.aquariumcoop.com/blogs/aquarium/cherry-shrimp-care",
+      "url": "https://www.aquariumcoop.com/blogs/aquarium/cherry-shrimp-care",
       "accessedDate": "2026-06-12",
       "notes": "Primary care guide; source for temperature optimum (22-24°C), pH 6.5-8.5, gH ≥6, kH ≥2, group size ≥10, 10-gallon colony minimum."
     },
     "additional": [
       {
         "name": "The Shrimp Farm",
-        "url":  "https://www.theshrimpfarm.com/posts/cherry-shrimp-care-guide/",
+        "url": "https://www.theshrimpfarm.com/posts/cherry-shrimp-care-guide/",
         "accessedDate": "2026-06-12",
         "notes": "Designated secondary returned HTTP 403 Forbidden on access; substituted with Fishkeeping World and Wikipedia. URL retained for reviewer reference."
       },
       {
         "name": "Fishkeeping World",
-        "url":  "https://www.fishkeepingworld.com/cherry-shrimp/",
+        "url": "https://www.fishkeepingworld.com/cherry-shrimp/",
         "accessedDate": "2026-06-12",
         "notes": "Secondary substitute (Shrimp Farm 403'd). Cross-confirmed size ~3.8 cm, lifespan 1-2 years, pH 6.5-8.0, gH 4-14, temperature 23-29°C, copper sensitivity, beginner care level."
       },
       {
         "name": "Wikipedia (Neocaridina davidi)",
-        "url":  "https://en.wikipedia.org/wiki/Neocaridina_davidi",
+        "url": "https://en.wikipedia.org/wiki/Neocaridina_davidi",
         "accessedDate": "2026-06-12",
         "notes": "Taxonomy fallback for family Atyidae / order Decapoda, synonymy with Neocaridina heteropoda, and confirmation of native range (China, Taiwan, Korea, Vietnam) and 3-4 cm adult size."
       }
     ]
   },
-  "fish":         null,
+  "fish": null,
   "crustacean": {
-    "copperSensitive":            true,
-    "moltingFrequencyDays":       30,
-    "moltingNotes":               "Generally molts roughly every 3-6 weeks as the shrimp grows, with reported intervals shortening for younger shrimp and lengthening for mature adults. Discarded exoskeletons are commonly left in the tank and re-consumed for calcium; they should not be removed. Insufficient mineral content (low gH, low calcium) is frequently associated with the 'white ring of death' incomplete-molt fatality. Stable water parameters are widely considered the single most important factor in successful molting.",
-    "escapeRisk":                 "low",
-    "breedingDifficulty":         "easy",
-    "breedingNotes":              "Breeds readily in any stable, predator-free planted tank. See top-level breedingNotes for details.",
+    "copperSensitive": true,
+    "moltingFrequencyDays": 30,
+    "moltingNotes": "Generally molts roughly every 3-6 weeks as the shrimp grows, with reported intervals shortening for younger shrimp and lengthening for mature adults. Discarded exoskeletons are commonly left in the tank and re-consumed for calcium; they should not be removed. Insufficient mineral content (low gH, low calcium) is frequently associated with the 'white ring of death' incomplete-molt fatality. Stable water parameters are widely considered the single most important factor in successful molting.",
+    "escapeRisk": "low",
+    "breedingDifficulty": "easy",
+    "breedingNotes": "Breeds readily in any stable, predator-free planted tank. See top-level breedingNotes for details.",
     "speciesOnlyTankRecommended": false
   },
-  "coral":        null,
-  "mollusc":      null,
-  "echinoderm":   null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
   "other-invert": null,
-  "plant":        null,
-  "macroalgae":   null,
+  "amphibian": null,
+  "plant": null,
+  "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus":   "researched",
+  "dataStatus": "researched",
   "lastReviewed": "2026-06-12"
 }

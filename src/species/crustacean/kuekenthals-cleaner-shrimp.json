@@ -18,41 +18,64 @@
     "order": "Decapoda"
   },
   "nativeRange": {
-    "regions": ["Indo-Pacific"],
-    "countries": ["Indonesia", "Philippines"],
+    "regions": [
+      "Indo-Pacific"
+    ],
+    "countries": [
+      "Indonesia",
+      "Philippines"
+    ],
     "habitat": "Tropical reef habitats with ample rockwork, ledges, caves, and crevices used for perching, grazing, and hiding.",
     "biotope": "Reef",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 26 },
-    "pH":           { "min": 8.1, "max": 8.4 },
-    "gH":           null,
-    "kH":           { "min": 8, "max": 12 },
-    "salinity":     { "min": 1.023, "max": 1.026 }
+    "temperatureC": {
+      "min": 23,
+      "max": 26
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.023,
+      "max": 1.026
+    }
   },
-  "adultSizeCm":   { "min": 3, "max": 5 },
-  "lifespanYears": { "min": 2, "max": 3 },
+  "adultSizeCm": {
+    "min": 3,
+    "max": 5
+  },
+  "lifespanYears": {
+    "min": 2,
+    "max": 3
+  },
   "tank": {
-    "minVolumeLiters":  75,
-    "minLengthCm":      60,
-    "swimZone":         "all",
+    "minVolumeLiters": 75,
+    "minLengthCm": 60,
+    "swimZone": "all",
     "decorPreferences": [
       "well-established live rock with ledges, caves, and crevices",
       "mature reef tank with stable parameters",
       "sand or fine rubble substrate",
       "low-to-moderate flow refuges"
     ],
-    "minSandDepthCm":   null
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
-    "type":  "omnivore",
+    "type": "omnivore",
     "notes": "Has been reported as an opportunistic omnivore feeding on detritus, leftover food, small invertebrates, and Aiptasia anemones. Generally accepts a variety of meaty foods (mysis, brine, finely chopped seafood), pellets, and flake. Magnesium- and iodine-rich foods or supplementation are commonly recommended to support successful molting."
   },
   "compatibility": {
-    "temperament":  "peaceful",
-    "grouping":     "shoaling",
+    "temperament": "peaceful",
+    "grouping": "shoaling",
     "minGroupSize": 2,
     "goodWith": [
       "most peaceful reef fish",
@@ -68,8 +91,8 @@
     ]
   },
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
+    "primaryImage": null,
+    "gallery": [],
     "imageCandidates": null
   },
   "summary": "A rarely-imported Indo-Pacific Lysmata that bridges cleaner and peppermint shrimp behavior: scarlet-cleaner sized with peppermint-style striping. Generally considered reef-safe with caution and is sometimes used for Aiptasia control.",
@@ -78,54 +101,55 @@
   "sources": {
     "primary": {
       "name": "Aqua Imports",
-      "url":  "https://www.aqua-imports.com/product/kuekenthals-cleaner-shrimp/",
+      "url": "https://www.aqua-imports.com/product/kuekenthals-cleaner-shrimp/",
       "accessedDate": "2026-06-12",
       "notes": "Primary source for origin (Indo-Pacific) and target water parameters (pH 8.2–8.4, 74–78°F, salinity 35 ppt ≈ SG 1.026). Product page text was thin; deeper husbandry filled in from secondaries."
     },
     "additional": [
       {
         "name": "BlueZoo Aquatics",
-        "url":  "https://www.bluezooaquatics.com/",
+        "url": "https://www.bluezooaquatics.com/",
         "accessedDate": "2026-06-12",
         "notes": "Designated secondary did not return a species-specific page on access; swapped to LiveAquaria, Pacific East Aquaculture, and Quality Marine as confirming secondaries. URL retained for reviewer reference."
       },
       {
         "name": "LiveAquaria",
-        "url":  "https://www.liveaquaria.com/product/8137/?pcatid=8137",
+        "url": "https://www.liveaquaria.com/product/8137/?pcatid=8137",
         "accessedDate": "2026-06-12",
         "notes": "Secondary substitute. Confirms family Hippolytidae (legacy; current placement Lysmatidae), max size ~2\", temperament peaceful, reef-safe with caution, temperature 72–78°F, pH 8.1–8.4, dKH 8–12, SG 1.023–1.025, omnivore feeding on Aiptasia and detritus, care level easy."
       },
       {
         "name": "Pacific East Aquaculture",
-        "url":  "https://pacificeastaquaculture.com/products/kukenthals-cleaner-shrimp",
+        "url": "https://pacificeastaquaculture.com/products/kukenthals-cleaner-shrimp",
         "accessedDate": "2026-06-12",
         "notes": "Secondary. Confirms ~1.5\" adult size, temperature 76–80°F, SG ~1.025, dKH 8–9, calcium 400–450 ppm, magnesium 1250–1350 ppm, reef-safe, useful for Aiptasia control, can be kept in small groups."
       },
       {
         "name": "Quality Marine",
-        "url":  "https://www.qualitymarine.com/quality-marine/invertebrates/shrimps/lysmata/kuekenthals-peppermint-57532/",
+        "url": "https://www.qualitymarine.com/quality-marine/invertebrates/shrimps/lysmata/kuekenthals-peppermint-57532/",
         "accessedDate": "2026-06-12",
         "notes": "Secondary. Confirms ~2\" adult size, peaceful and social (multiples acceptable), reef-safe, temperature 72–78°F, pH 8.1–8.4, SG 1.023–1.025, dKH 8–12, beginner care level, copper-medication intolerance, importance of magnesium and iodine for molting."
       }
     ]
   },
-  "fish":         null,
+  "fish": null,
   "crustacean": {
-    "copperSensitive":            true,
-    "moltingFrequencyDays":       null,
-    "moltingNotes":               "Generally molts on the order of every few weeks as the shrimp grows, with discarded exoskeletons commonly left in the tank and re-consumed for calcium. Magnesium and iodine are widely cited as important for successful molts; chronically low minerals or unstable salinity have been associated with incomplete-molt mortality. Drip-acclimation and stable parameters are commonly considered the single most important factor in molting success.",
-    "escapeRisk":                 "low",
-    "breedingDifficulty":         "difficult",
-    "breedingNotes":              "See top-level breedingNotes — larval rearing is the bottleneck for this Lysmata, as for most cleaner shrimp.",
+    "copperSensitive": true,
+    "moltingFrequencyDays": null,
+    "moltingNotes": "Generally molts on the order of every few weeks as the shrimp grows, with discarded exoskeletons commonly left in the tank and re-consumed for calcium. Magnesium and iodine are widely cited as important for successful molts; chronically low minerals or unstable salinity have been associated with incomplete-molt mortality. Drip-acclimation and stable parameters are commonly considered the single most important factor in molting success.",
+    "escapeRisk": "low",
+    "breedingDifficulty": "difficult",
+    "breedingNotes": "See top-level breedingNotes — larval rearing is the bottleneck for this Lysmata, as for most cleaner shrimp.",
     "speciesOnlyTankRecommended": false
   },
-  "coral":        null,
-  "mollusc":      null,
-  "echinoderm":   null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
   "other-invert": null,
-  "plant":        null,
-  "macroalgae":   null,
+  "amphibian": null,
+  "plant": null,
+  "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus":   "researched",
+  "dataStatus": "researched",
   "lastReviewed": "2026-06-12"
 }

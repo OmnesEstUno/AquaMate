@@ -17,25 +17,48 @@
     "order": "Decapoda"
   },
   "nativeRange": {
-    "regions": ["Origin unknown (aquarium-trade origin)"],
+    "regions": [
+      "Origin unknown (aquarium-trade origin)"
+    ],
     "countries": [],
     "habitat": "No known natural populations. The species is widely believed to have arisen in the German aquarium trade in the mid-1990s, likely from a single specimen of the closely related Procambarus fallax (native to Florida and southern Georgia). Established invasive populations now occur in slow-moving lentic freshwater habitats — marshes, ditches, ponds, drainage channels, and quarry lakes — across more than twenty countries on five continents.",
     "biotope": "Pond/Marsh (invasive populations)",
-    "depthRangeM": { "min": 0, "max": 5 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 5
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 18, "max": 25 },
-    "pH":           { "min": 7.0, "max": 8.0 },
-    "gH":           { "min": 3, "max": 18 },
-    "kH":           { "min": 3, "max": 15 },
-    "salinity":     null
+    "temperatureC": {
+      "min": 18,
+      "max": 25
+    },
+    "pH": {
+      "min": 7,
+      "max": 8
+    },
+    "gH": {
+      "min": 3,
+      "max": 18
+    },
+    "kH": {
+      "min": 3,
+      "max": 15
+    },
+    "salinity": null
   },
-  "adultSizeCm":   { "min": 7, "max": 13 },
-  "lifespanYears": { "min": 2, "max": 3 },
+  "adultSizeCm": {
+    "min": 7,
+    "max": 13
+  },
+  "lifespanYears": {
+    "min": 2,
+    "max": 3
+  },
   "tank": {
-    "minVolumeLiters":  100,
-    "minLengthCm":      75,
-    "swimZone":         "bottom",
+    "minVolumeLiters": 100,
+    "minLengthCm": 75,
+    "swimZone": "bottom",
     "decorPreferences": [
       "tightly-fitting lid (essential — accomplished climber/escape artist)",
       "PVC pipes and tubes with multiple entrances",
@@ -45,16 +68,16 @@
       "sponge filter or matten filter (intake-safe)",
       "no live plants (will be uprooted, shredded, and eaten)"
     ],
-    "minSandDepthCm":   null
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
-    "type":  "omnivore",
+    "type": "omnivore",
     "notes": "Generally considered an opportunistic omnivore and detritivore that has been reported to eat almost anything offered. The bulk of the diet is typically detritus, biofilm, soft algae, decaying plant matter, and sinking pellets, supplemented one or two times per week with protein items such as blackworms, earthworms, brine shrimp, snails, or small frozen foods. Calcium-rich supplements (cuttlebone, blanched kale, eggshell) are commonly recommended to support successful molting."
   },
   "compatibility": {
-    "temperament":  "semi-aggressive",
-    "grouping":     "solitary",
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
     "minGroupSize": 1,
     "goodWith": [
       "species-only setup is widely recommended",
@@ -70,8 +93,8 @@
     ]
   },
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
+    "primaryImage": null,
+    "gallery": [],
     "imageCandidates": null
   },
   "summary": "An all-female parthenogenetic freshwater crayfish that reproduces by cloning — every individual is genetically identical. Hardy and beginner-easy to keep, but banned in the EU and several US states and Canadian provinces due to extreme invasive risk.",
@@ -80,61 +103,62 @@
   "sources": {
     "primary": {
       "name": "Aquarium Co-Op",
-      "url":  "https://www.aquariumcoop.com/",
+      "url": "https://www.aquariumcoop.com/",
       "accessedDate": "2026-06-12",
       "notes": "Designated primary source did not surface a dedicated Marbled Crayfish care guide on the homepage and on-site search was not accessible via WebFetch. Primary husbandry data was sourced from Aquarium Breeder (Shrimp and Snail Breeder) instead; URL retained for reviewer reference."
     },
     "additional": [
       {
         "name": "Practical Fishkeeping",
-        "url":  "https://www.practicalfishkeeping.co.uk/",
+        "url": "https://www.practicalfishkeeping.co.uk/",
         "accessedDate": "2026-06-12",
         "notes": "Designated secondary source returned HTTP 403 Forbidden on both the homepage and the known marbled-crayfish news article (https://www.practicalfishkeeping.co.uk/fishkeeping-news/illegal-marbled-crayfish-poses-threat-to-uk/). Substituted with Aquarium Breeder, USGS, USFWS, and Wikipedia. URL retained for reviewer reference."
       },
       {
         "name": "Aquarium Breeder (Shrimp and Snail Breeder)",
-        "url":  "https://aquariumbreeder.com/marmorkrebs-crayfish-detailed-guide-care-diet-and-breeding/",
+        "url": "https://aquariumbreeder.com/marmorkrebs-crayfish-detailed-guide-care-diet-and-breeding/",
         "accessedDate": "2026-06-12",
         "notes": "Substitute primary. Source for adult size 7-12 cm, lifespan 2-3 years, water parameters (18-25°C optimum, pH 7-8, gH 3-18, kH 3-15), ~20-gallon minimum tank, omnivorous diet, semi-aggressive temperament, high escape risk, parthenogenetic breeding biology (45-700 eggs/clutch, 22-42 day incubation, ~5-7 month sexual maturity), and EU/state ban summary."
       },
       {
         "name": "USGS Nonindigenous Aquatic Species — Marbled Crayfish",
-        "url":  "https://nas.er.usgs.gov/queries/greatlakes/FactSheet.aspx?Species_ID=3656&Potential=Y&Type=2",
+        "url": "https://nas.er.usgs.gov/queries/greatlakes/FactSheet.aspx?Species_ID=3656&Potential=Y&Type=2",
         "accessedDate": "2026-06-12",
         "notes": "Cross-checked adult size (~13 cm), temperature optimum 18-25°C with extreme tolerance 8-30°C+, lentic / wet-prairie / marsh habitat preference, obligate-parthenogenetic biology, and US legal status (banned in Missouri; potential Lacey Act injurious listing)."
       },
       {
         "name": "Wikipedia — Marbled Crayfish",
-        "url":  "https://en.wikipedia.org/wiki/Marbled_crayfish",
+        "url": "https://en.wikipedia.org/wiki/Marbled_crayfish",
         "accessedDate": "2026-06-12",
         "notes": "Taxonomy fallback (family Cambaridae, order Decapoda, class Malacostraca; synonym Procambarus fallax forma virginalis; described as P. virginalis by Lyko 2017), confirmation of 1995 German aquarium-trade origin, triploid 276-chromosome biology, and legal status (EU ban 2016, Japan ban 2020, US state bans including Idaho/Michigan/Missouri/Tennessee/Maryland, Canadian bans in Ontario and Saskatchewan)."
       },
       {
         "name": "U.S. Fish & Wildlife Service — Ecological Risk Screening Summary",
-        "url":  "https://www.fws.gov/sites/default/files/documents/Ecological-Risk-Screening-Summary-Marbled-Crayfish.pdf",
+        "url": "https://www.fws.gov/sites/default/files/documents/Ecological-Risk-Screening-Summary-Marbled-Crayfish.pdf",
         "accessedDate": "2026-06-12",
         "notes": "Federal regulatory reference for the proposed Lacey Act injurious-wildlife listing and ecological-risk profile (cited via search summary; PDF not fetched directly)."
       }
     ]
   },
-  "fish":         null,
+  "fish": null,
   "crustacean": {
-    "copperSensitive":            true,
-    "moltingFrequencyDays":       120,
-    "moltingNotes":               "Adults are reported to molt roughly two to three times per year; juveniles molt much more frequently as they grow. Molt intervals shorten at higher temperatures and lengthen in cooler water. Temporary post-molt colour loss (lasting around 7–10 days) and short-term hiding are normal, and the shed exoskeleton is commonly re-consumed for calcium and should not be removed. Like other crustaceans the species is highly sensitive to copper-based medications and snail treatments, which should be avoided entirely.",
-    "escapeRisk":                 "high",
-    "breedingDifficulty":         "easy",
-    "breedingNotes":              "Obligately parthenogenetic — reproduction is essentially inevitable for any sexually mature individual kept under normal aquarium conditions. See top-level breedingNotes for biology and offspring-management cautions.",
+    "copperSensitive": true,
+    "moltingFrequencyDays": 120,
+    "moltingNotes": "Adults are reported to molt roughly two to three times per year; juveniles molt much more frequently as they grow. Molt intervals shorten at higher temperatures and lengthen in cooler water. Temporary post-molt colour loss (lasting around 7–10 days) and short-term hiding are normal, and the shed exoskeleton is commonly re-consumed for calcium and should not be removed. Like other crustaceans the species is highly sensitive to copper-based medications and snail treatments, which should be avoided entirely.",
+    "escapeRisk": "high",
+    "breedingDifficulty": "easy",
+    "breedingNotes": "Obligately parthenogenetic — reproduction is essentially inevitable for any sexually mature individual kept under normal aquarium conditions. See top-level breedingNotes for biology and offspring-management cautions.",
     "speciesOnlyTankRecommended": true
   },
-  "coral":        null,
-  "mollusc":      null,
-  "echinoderm":   null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
   "other-invert": null,
-  "plant":        null,
-  "macroalgae":   null,
+  "amphibian": null,
+  "plant": null,
+  "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus":   "researched",
+  "dataStatus": "researched",
   "lastReviewed": "2026-06-12",
   "hobbyistAdvisory": {
     "level": "legally-restricted",

@@ -6,33 +6,61 @@
   "waterType": "saltwater",
   "commonName": "Turtle Weed",
   "scientificName": "Chlorodesmis fastigiata",
-  "alsoKnownAs": ["Maiden's Hair"],
+  "alsoKnownAs": [
+    "Maiden's Hair"
+  ],
   "category": "Macroalgae",
   "taxonomy": {
     "family": "Udoteaceae",
     "order": "Bryopsidales"
   },
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Eastern Caribbean", "Australia", "South Pacific"],
-    "countries": ["Australia"],
+    "regions": [
+      "Indo-Pacific",
+      "Eastern Caribbean",
+      "Australia",
+      "South Pacific"
+    ],
+    "countries": [
+      "Australia"
+    ],
     "habitat": "Rocky substrates and coral reef flats in the photic zone; forms stiff, hairy tufts on hard surfaces such as live rock and coral skeleton.",
     "biotope": "Tropical saltwater reef",
-    "depthRangeM": { "min": 3, "max": 15 }
+    "depthRangeM": {
+      "min": 3,
+      "max": 15
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22.0, "max": 27.0 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 22,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
     "kH": null,
-    "salinity": { "min": 1.023, "max": 1.025 }
+    "salinity": {
+      "min": 1.023,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 2.0, "max": 20.0 },
+  "adultSizeCm": {
+    "min": 2,
+    "max": 20
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 40,
     "minLengthCm": null,
     "swimZone": null,
-    "decorPreferences": ["live rock", "hard substrate", "rock rubble"],
+    "decorPreferences": [
+      "live rock",
+      "hard substrate",
+      "rock rubble"
+    ],
     "minSandDepthCm": null
   },
   "careLevel": "advanced",
@@ -41,8 +69,18 @@
     "temperament": "semi-aggressive",
     "grouping": "solitary",
     "minGroupSize": null,
-    "goodWith": ["reef fish", "snails", "hermit crabs", "shrimp", "copepods", "amphipods"],
-    "avoidWith": ["stony corals (nearby contact)", "herbivorous fish that may sample it"]
+    "goodWith": [
+      "reef fish",
+      "snails",
+      "hermit crabs",
+      "shrimp",
+      "copepods",
+      "amphipods"
+    ],
+    "avoidWith": [
+      "stony corals (nearby contact)",
+      "herbivorous fish that may sample it"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -95,6 +133,7 @@
   "mollusc": null,
   "echinoderm": null,
   "other-invert": null,
+  "amphibian": null,
   "plant": null,
   "macroalgae": {
     "lighting": "high",
@@ -102,7 +141,11 @@
     "form": "macroalgae",
     "placement": "display",
     "nutrientUptake": "moderate",
-    "propagation": ["fragmentation", "wedging", "zip-tie/fishing line"]
+    "propagation": [
+      "fragmentation",
+      "wedging",
+      "zip-tie/fishing line"
+    ]
   },
   "schemaVersion": 1,
   "dataStatus": "researched",

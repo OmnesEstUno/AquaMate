@@ -19,25 +19,50 @@
     "order": "Decapoda"
   },
   "nativeRange": {
-    "regions": ["North America"],
-    "countries": ["United States"],
+    "regions": [
+      "North America"
+    ],
+    "countries": [
+      "United States"
+    ],
     "habitat": "Endemic to Florida, generally reported from freshwater marshes, ditches, slow streams, and seasonally-flooded wetlands of the peninsula south of the panhandle, including parts of the Florida Keys. Tends to occur in littoral, low-flow zones with abundant cover.",
     "biotope": "Wetland",
-    "depthRangeM": { "min": 0, "max": 2 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 2
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 21, "max": 26 },
-    "pH":           { "min": 6.5, "max": 8.0 },
-    "gH":           { "min": 3, "max": 15 },
-    "kH":           { "min": 3, "max": 10 },
-    "salinity":     null
+    "temperatureC": {
+      "min": 21,
+      "max": 26
+    },
+    "pH": {
+      "min": 6.5,
+      "max": 8
+    },
+    "gH": {
+      "min": 3,
+      "max": 15
+    },
+    "kH": {
+      "min": 3,
+      "max": 10
+    },
+    "salinity": null
   },
-  "adultSizeCm":   { "min": 10, "max": 13 },
-  "lifespanYears": { "min": 2, "max": 6 },
+  "adultSizeCm": {
+    "min": 10,
+    "max": 13
+  },
+  "lifespanYears": {
+    "min": 2,
+    "max": 6
+  },
   "tank": {
-    "minVolumeLiters":  110,
-    "minLengthCm":      75,
-    "swimZone":         "bottom",
+    "minVolumeLiters": 110,
+    "minLengthCm": 75,
+    "swimZone": "bottom",
     "decorPreferences": [
       "sand or fine gravel substrate (supports burrowing)",
       "abundant dark hiding places (rocks, slate caves, PVC pipe)",
@@ -46,16 +71,16 @@
       "tight-fitting lid with all cord/hose gaps sealed",
       "moderate filtration with shrimp/crayfish-safe intake guard"
     ],
-    "minSandDepthCm":   5
+    "minSandDepthCm": 5
   },
   "careLevel": "intermediate",
   "diet": {
-    "type":  "omnivore",
+    "type": "omnivore",
     "notes": "Generally reported as an opportunistic omnivore that scavenges almost any organic matter. Has been documented accepting sinking shrimp pellets, algae wafers, blanched vegetables (zucchini, cucumber, peas, spinach), bloodworms, frozen brine shrimp, and small pieces of fish or shrimp. Calcium-rich or mineral-supplemented foods are commonly recommended to support successful molting. Juveniles tend to be more carnivorous; adults shift toward a more herbivorous bias."
   },
   "compatibility": {
-    "temperament":  "aggressive",
-    "grouping":     "solitary",
+    "temperament": "aggressive",
+    "grouping": "solitary",
     "minGroupSize": 1,
     "goodWith": [
       "fast mid-water and surface-dwelling fish (zebra danios, giant danios, rainbowfish)",
@@ -73,8 +98,8 @@
     ]
   },
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
+    "primaryImage": null,
+    "gallery": [],
     "imageCandidates": null
   },
   "summary": "A bright cobalt-blue freshwater crayfish selectively bred from a Florida native, generally regarded as hardy and easy to feed but aggressive, plant-destructive, and a notorious escape artist that requires a tightly-sealed lid.",
@@ -83,48 +108,49 @@
   "sources": {
     "primary": {
       "name": "Shrimp and Snail Breeder (Aquariumbreeder)",
-      "url":  "https://aquariumbreeder.com/blue-crayfish-detailed-guide-care-diet-and-breeding/",
+      "url": "https://aquariumbreeder.com/blue-crayfish-detailed-guide-care-diet-and-breeding/",
       "accessedDate": "2026-06-12",
       "notes": "Substituted as primary because the assigned Aquarium Co-Op URL (https://www.aquariumcoop.com/blogs/aquarium/electric-blue-crayfish) returned no usable husbandry content (storefront/navigation only). Source of size 10-12 cm, temperature 22-27°C, pH 7.0-8.0 optimal (6.0-9.0 tolerated), gH 6-8 optimal, kH 4-6 optimal, ~5-year lifespan, omnivore diet, aggressive temperament, high escape risk, and molting-frequency ranges (babies few days, juveniles 1-3 weeks, adults 4-8 weeks)."
     },
     "additional": [
       {
         "name": "Practical Fishkeeping",
-        "url":  "https://www.practicalfishkeeping.co.uk/",
+        "url": "https://www.practicalfishkeeping.co.uk/",
         "accessedDate": "2026-06-12",
         "notes": "Designated secondary has no dedicated species page for Procambarus alleni; only tangential coverage in 'illegal crayfish in the UK' news pieces. Substituted with Fish Laboratory and Wikipedia for cross-verification."
       },
       {
         "name": "Fish Laboratory",
-        "url":  "https://www.fishlaboratory.com/fish/blue-crayfish/",
+        "url": "https://www.fishlaboratory.com/fish/blue-crayfish/",
         "accessedDate": "2026-06-12",
         "notes": "Secondary substitute. Cross-confirmed adult size 4-6 in (10-15 cm), lifespan 2-6 years, temperature 20-26°C, pH 6.5-7.5, aggressive temperament, high escape risk, 30 US gal (~110 L) tank minimum, and plant-destructive behavior. Tank size differed from primary (20 vs 30 gal); larger value used per project convention."
       },
       {
         "name": "Wikipedia (Procambarus alleni)",
-        "url":  "https://en.wikipedia.org/wiki/Procambarus_alleni",
+        "url": "https://en.wikipedia.org/wiki/Procambarus_alleni",
         "accessedDate": "2026-06-12",
         "notes": "Taxonomy fallback for family Cambaridae / order Decapoda, native range (Florida east of St Johns River and southwards including parts of the Florida Keys), and confirmation that the 'Electric Blue' aquarium form is a selectively-bred captive color line of an otherwise brown-to-muted-blue wild species."
       }
     ]
   },
-  "fish":         null,
+  "fish": null,
   "crustacean": {
-    "copperSensitive":            true,
-    "moltingFrequencyDays":       42,
-    "moltingNotes":               "Generally molts roughly every 4-8 weeks as an adult; juveniles molt much more frequently (every 1-3 weeks) and very young hatchlings every few days. Complete hardening of the new exoskeleton has been reported to take about 3 days, during which the crayfish is highly vulnerable and tends to hide. Discarded exoskeletons are commonly consumed for calcium and should generally be left in the tank. Insufficient mineral content (low gH/kH or low dietary calcium) and unstable water parameters are widely associated with incomplete or fatal molts.",
-    "escapeRisk":                 "high",
-    "breedingDifficulty":         "moderate",
-    "breedingNotes":              "Pairs spawn readily in stable conditions. See top-level breedingNotes for clutch size, incubation, and sibling-cannibalism details.",
+    "copperSensitive": true,
+    "moltingFrequencyDays": 42,
+    "moltingNotes": "Generally molts roughly every 4-8 weeks as an adult; juveniles molt much more frequently (every 1-3 weeks) and very young hatchlings every few days. Complete hardening of the new exoskeleton has been reported to take about 3 days, during which the crayfish is highly vulnerable and tends to hide. Discarded exoskeletons are commonly consumed for calcium and should generally be left in the tank. Insufficient mineral content (low gH/kH or low dietary calcium) and unstable water parameters are widely associated with incomplete or fatal molts.",
+    "escapeRisk": "high",
+    "breedingDifficulty": "moderate",
+    "breedingNotes": "Pairs spawn readily in stable conditions. See top-level breedingNotes for clutch size, incubation, and sibling-cannibalism details.",
     "speciesOnlyTankRecommended": false
   },
-  "coral":        null,
-  "mollusc":      null,
-  "echinoderm":   null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
   "other-invert": null,
-  "plant":        null,
-  "macroalgae":   null,
+  "amphibian": null,
+  "plant": null,
+  "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus":   "researched",
+  "dataStatus": "researched",
   "lastReviewed": "2026-06-12"
 }

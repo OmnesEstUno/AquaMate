@@ -6,52 +6,94 @@
   "waterType": "freshwater",
   "commonName": "Aponogeton Ulvaceus",
   "scientificName": "Aponogeton ulvaceus",
-  "alsoKnownAs": ["Compact Aponogeton", "Madagascar Aponogeton", "Ulvaceus Aponogeton"],
+  "alsoKnownAs": [
+    "Compact Aponogeton",
+    "Madagascar Aponogeton",
+    "Ulvaceus Aponogeton"
+  ],
   "category": "Freshwater Plant",
   "taxonomy": {
     "family": "Aponogetonaceae",
     "order": "Alismatales"
   },
   "nativeRange": {
-    "regions": ["Africa", "Madagascar"],
-    "countries": ["Madagascar"],
+    "regions": [
+      "Africa",
+      "Madagascar"
+    ],
+    "countries": [
+      "Madagascar"
+    ],
     "habitat": "Permanently submerged in still and slow-moving freshwater pools, streams, and shallow ponds in central and northern Madagascar; tolerates both sunny and partially shaded conditions, with seasonal water-level fluctuations in some habitats.",
     "biotope": "Stream",
-    "depthRangeM": { "min": 0, "max": 2 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 2
+    }
   },
   "waterParameters": {
-    "temperatureC":  { "min": 22, "max": 28 },
-    "pH":            { "min": 6.5, "max": 7.5 },
-    "gH":            { "min": 2,   "max": 12 },
-    "kH":            { "min": 2,   "max": 10 },
-    "salinity":      null
+    "temperatureC": {
+      "min": 22,
+      "max": 28
+    },
+    "pH": {
+      "min": 6.5,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 2,
+      "max": 12
+    },
+    "kH": {
+      "min": 2,
+      "max": 10
+    },
+    "salinity": null
   },
-  "adultSizeCm":   { "min": 30, "max": 60 },
-  "lifespanYears": { "min": 3,  "max": 8  },
+  "adultSizeCm": {
+    "min": 30,
+    "max": 60
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 8
+  },
   "tank": {
-    "minVolumeLiters":  150,
-    "minLengthCm":      90,
-    "swimZone":         null,
+    "minVolumeLiters": 150,
+    "minLengthCm": 90,
+    "swimZone": null,
     "decorPreferences": [
       "nutrient-rich substrate (aquasoil) or fine gravel/sand with root tabs",
       "bulb planted on top of or only half-buried in the substrate to prevent rot",
       "open background area with at least 50-60 cm of vertical clearance for ruffled leaves",
       "moderate to bright lighting with stable, soft to moderately hard water"
     ],
-    "minSandDepthCm":   4
+    "minSandDepthCm": 4
   },
   "careLevel": "beginner",
   "diet": null,
   "compatibility": {
-    "temperament":  "peaceful",
-    "grouping":     "solitary",
+    "temperament": "peaceful",
+    "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith":     ["community fish", "shrimp", "snails", "tetras", "rasboras", "corydoras", "small peaceful cichlids such as rams"],
-    "avoidWith":    ["goldfish", "large cichlids", "plant-eating fish such as silver dollars or buenos aires tetras"]
+    "goodWith": [
+      "community fish",
+      "shrimp",
+      "snails",
+      "tetras",
+      "rasboras",
+      "corydoras",
+      "small peaceful cichlids such as rams"
+    ],
+    "avoidWith": [
+      "goldfish",
+      "large cichlids",
+      "plant-eating fish such as silver dollars or buenos aires tetras"
+    ]
   },
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
+    "primaryImage": null,
+    "gallery": [],
     "imageCandidates": null
   },
   "summary": "Madagascar-endemic bulb plant prized for its large, translucent, ruffled bright-green leaves. Generally considered an easy showpiece background plant for medium to large tanks.",
@@ -60,26 +102,26 @@
   "sources": {
     "primary": {
       "name": "Modern Aquarium",
-      "url":  "https://www.modernaquarium.com/aponogeton-ulvaceus/",
+      "url": "https://www.modernaquarium.com/aponogeton-ulvaceus/",
       "accessedDate": "2026-06-11",
       "notes": "Promoted to primary after the manifest-supplied Buce Plant URL (https://buceplant.com/products/aponogeton-ulvaceus-bulb) returned HTTP 404. Provided lighting, temperature (70-82 F = 21-28 C), placement, substrate, fertilization, and dormancy cycle guidance. NOTE: this source incorrectly states origin as Sri Lanka; Madagascar origin used here per Wikipedia, The Aquarium Guide, and broader taxonomic literature."
     },
     "additional": [
       {
         "name": "Wikipedia (Aponogeton ulvaceus)",
-        "url":  "https://en.wikipedia.org/wiki/Aponogeton_ulvaceus",
+        "url": "https://en.wikipedia.org/wiki/Aponogeton_ulvaceus",
         "accessedDate": "2026-06-11",
         "notes": "Authoritative source for taxonomy (Aponogetonaceae, Alismatales), native range (central and northern Madagascar), leaf morphology (>50 cm long, up to 40 leaves per bulb, pale green/reddish under intense light, wavy translucent), and dormancy behaviour."
       },
       {
         "name": "The Aquarium Guide",
-        "url":  "https://www.theaquariumguide.com/articles/aponogeton-ulvaceus",
+        "url": "https://www.theaquariumguide.com/articles/aponogeton-ulvaceus",
         "accessedDate": "2026-06-11",
         "notes": "Cross-checked Madagascar origin, height 30-50 cm, fast growth, temperature 22-28 C, pH 6.5-7.5, midground/background placement, beginner care level, dormancy procedure (cool damp sand for ~2 months), propagation via seeds and runners."
       },
       {
         "name": "Aquarium Co-Op",
-        "url":  "https://www.aquariumcoop.com/products/aponogeton-ulvaceus",
+        "url": "https://www.aquariumcoop.com/products/aponogeton-ulvaceus",
         "accessedDate": "2026-06-11",
         "notes": "Confirmed easy care level, fast growth, large translucent wavy bright-green leaves, and shelter value for fish/shrimp/fry. Page is light on numeric parameters."
       }
@@ -91,13 +133,17 @@
   "mollusc": null,
   "echinoderm": null,
   "other-invert": null,
+  "amphibian": null,
   "plant": {
-    "lighting":      "medium",
-    "co2":           "optional",
-    "growthRate":    "fast",
-    "placement":     "background",
-    "propagation":   ["seeds (flower spike, self-pollinating or hand-pollinated)", "daughter bulb division"],
-    "substrate":     "nutrient-rich",
+    "lighting": "medium",
+    "co2": "optional",
+    "growthRate": "fast",
+    "placement": "background",
+    "propagation": [
+      "seeds (flower spike, self-pollinating or hand-pollinated)",
+      "daughter bulb division"
+    ],
+    "substrate": "nutrient-rich",
     "fertilization": "moderate"
   },
   "macroalgae": null,

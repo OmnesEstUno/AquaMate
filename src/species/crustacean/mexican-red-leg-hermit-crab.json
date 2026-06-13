@@ -20,21 +20,48 @@
     "order": "Decapoda"
   },
   "nativeRange": {
-    "regions": ["Eastern Pacific", "Gulf of California"],
-    "countries": ["Mexico", "El Salvador"],
+    "regions": [
+      "Eastern Pacific",
+      "Gulf of California"
+    ],
+    "countries": [
+      "Mexico",
+      "El Salvador"
+    ],
     "habitat": "Low intertidal and shallow sub-tidal rocky reefs along the mainland Eastern Pacific coast of Mexico, generally on rock and coral-rock structures from the central Sea of Cortez south to Acapulco; found in loose groups inhabiting empty gastropod shells.",
     "biotope": "Rocky tropical Eastern Pacific reef and intertidal",
-    "depthRangeM": { "min": 0, "max": 6 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 6
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 27 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 23,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.023, "max": 1.026 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.023,
+      "max": 1.026
+    }
   },
-  "adultSizeCm": { "min": 1.2, "max": 2 },
-  "lifespanYears": { "min": 1, "max": 2 },
+  "adultSizeCm": {
+    "min": 1.2,
+    "max": 2
+  },
+  "lifespanYears": {
+    "min": 1,
+    "max": 2
+  },
   "tank": {
     "minVolumeLiters": 75,
     "minLengthCm": 60,
@@ -126,6 +153,7 @@
   "mollusc": null,
   "echinoderm": null,
   "other-invert": null,
+  "amphibian": null,
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,

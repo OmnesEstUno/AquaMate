@@ -18,25 +18,50 @@
     "order": "Decapoda"
   },
   "nativeRange": {
-    "regions": ["Nearctic — Gulf Coastal Plain and lower Mississippi River basin"],
-    "countries": ["United States"],
+    "regions": [
+      "Nearctic — Gulf Coastal Plain and lower Mississippi River basin"
+    ],
+    "countries": [
+      "United States"
+    ],
     "habitat": "Generally found in shallow, slow-moving or standing water — swamps, marshes, oxbow ponds, ditches, lakes, and sluggish streams — typically over muddy substrate with abundant aquatic vegetation. Has been reported as a non-obligate burrower that constructs simple burrows during dry periods rather than living in them year-round.",
     "biotope": "Pond",
-    "depthRangeM": { "min": 0, "max": 1 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 1
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 18, "max": 26 },
-    "pH":           { "min": 6.0, "max": 8.0 },
-    "gH":           { "min": 3, "max": 18 },
-    "kH":           { "min": 3, "max": 15 },
-    "salinity":     null
+    "temperatureC": {
+      "min": 18,
+      "max": 26
+    },
+    "pH": {
+      "min": 6,
+      "max": 8
+    },
+    "gH": {
+      "min": 3,
+      "max": 18
+    },
+    "kH": {
+      "min": 3,
+      "max": 15
+    },
+    "salinity": null
   },
-  "adultSizeCm":   { "min": 2.5, "max": 4 },
-  "lifespanYears": { "min": 1, "max": 2 },
+  "adultSizeCm": {
+    "min": 2.5,
+    "max": 4
+  },
+  "lifespanYears": {
+    "min": 1,
+    "max": 2
+  },
   "tank": {
-    "minVolumeLiters":  20,
-    "minLengthCm":      30,
-    "swimZone":         "bottom",
+    "minVolumeLiters": 20,
+    "minLengthCm": 30,
+    "swimZone": "bottom",
     "decorPreferences": [
       "tightly-fitting lid (accomplished climber — escape risk is high)",
       "abundant hiding places — at least two cover spots per individual",
@@ -46,16 +71,16 @@
       "live or artificial plants — generally well-tolerated, unlike larger crayfish",
       "sponge filter or intake-guarded filter to protect juveniles"
     ],
-    "minSandDepthCm":   null
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
-    "type":  "omnivore",
+    "type": "omnivore",
     "notes": "Generally considered an opportunistic omnivore and detritivore. Has been reported to accept sinking pellets, algae wafers, blanched vegetables (zucchini, spinach, peas), leaf litter, and protein items such as frozen bloodworms, brine shrimp, and small pieces of fish or shrimp. Adults tend to do well on three to four feedings per week while juveniles are commonly fed daily. Calcium-rich supplements (cuttlebone, crushed eggshell, mineral stones) are widely recommended to support successful molting."
   },
   "compatibility": {
-    "temperament":  "peaceful",
-    "grouping":     "shoaling",
+    "temperament": "peaceful",
+    "grouping": "shoaling",
     "minGroupSize": 2,
     "goodWith": [
       "small peaceful schooling fish that occupy the mid- and upper water column (neon tetras, ember tetras, endlers)",
@@ -72,8 +97,8 @@
     ]
   },
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
+    "primaryImage": null,
+    "gallery": [],
     "imageCandidates": null
   },
   "summary": "A tiny, peaceful North American crayfish reaching only 3–4 cm. One of the most social and beginner-friendly crayfish, suitable for small species-only tanks or planted community setups with appropriate tankmates.",
@@ -82,61 +107,62 @@
   "sources": {
     "primary": {
       "name": "The Shrimp Farm",
-      "url":  "https://www.theshrimpfarm.com/",
+      "url": "https://www.theshrimpfarm.com/",
       "accessedDate": "2026-06-12",
       "notes": "Designated primary source returned HTTP 403 Forbidden via WebFetch on the homepage; no species-specific URL was directly accessible. Primary husbandry data was sourced from Aquarium Breeder (Shrimp and Snail Breeder) instead; URL retained for reviewer reference."
     },
     "additional": [
       {
         "name": "Practical Fishkeeping",
-        "url":  "https://www.practicalfishkeeping.co.uk/",
+        "url": "https://www.practicalfishkeeping.co.uk/",
         "accessedDate": "2026-06-12",
         "notes": "Designated secondary source returned HTTP 403 Forbidden on the homepage. Substituted with Aquarium Breeder, Aquatic Arts, Aquariadise, and the USGS NAS species profile. URL retained for reviewer reference."
       },
       {
         "name": "Aquarium Breeder (Shrimp and Snail Breeder) — Cambarellus shufeldtii Detailed Guide",
-        "url":  "https://aquariumbreeder.com/cambarellus-shufeldtii-detailed-guide-care-diet-and-breeding/",
+        "url": "https://aquariumbreeder.com/cambarellus-shufeldtii-detailed-guide-care-diet-and-breeding/",
         "accessedDate": "2026-06-12",
         "notes": "Substitute primary. Source for adult size (~3–3.5 cm), lifespan (~15–18 months, up to 2 years), water parameters (optimum 20–24 °C, broader 18–26 °C; pH 5.4–7.4; gH 3–18; kH 3–15), 20 L minimum tank, omnivorous diet, peaceful but high-escape-risk behavior, easy breeding biology (15–74 eggs/clutch averaging ~45, 3–4 week incubation, ~2 month maturity at 18 mm), and Cambaridae/Decapoda taxonomy."
       },
       {
         "name": "Aquatic Arts — Cajun Dwarf Crayfish product care guide",
-        "url":  "https://aquaticarts.com/products/cajun-dwarf-crayfish",
+        "url": "https://aquaticarts.com/products/cajun-dwarf-crayfish",
         "accessedDate": "2026-06-12",
         "notes": "Cross-checked adult size (up to ~4 cm), temperature 16–28 °C, pH 6.0–8.0, KH 6–12, 5-US-gal minimum tank, omnivorous diet, generally peaceful temperament with mild conspecific territoriality, skilled-climber/secure-lid requirement, and overall plant-safe behaviour."
       },
       {
         "name": "Aquariadise — Dwarf Crayfish (Cambarellus) Caresheet",
-        "url":  "https://www.aquariadise.com/caresheet-dwarf-crayfish-cambarellus/",
+        "url": "https://www.aquariadise.com/caresheet-dwarf-crayfish-cambarellus/",
         "accessedDate": "2026-06-12",
         "notes": "Genus-level cross-check for size (up to ~5 cm across the genus, smaller for shufeldtii), pH 6.5–8, ~30 L (8-US-gal) minimum for small groups, peaceful and community-suitable temperament, and breeding biology (3–4 week egg-carrying period)."
       },
       {
         "name": "USGS Nonindigenous Aquatic Species — Cambarellus shufeldtii",
-        "url":  "https://nas.er.usgs.gov/queries/factsheet.aspx?SpeciesID=204",
+        "url": "https://nas.er.usgs.gov/queries/factsheet.aspx?SpeciesID=204",
         "accessedDate": "2026-06-12",
         "notes": "Source for native range (Gulf Coastal Plain and lower Mississippi River basin across Louisiana, Arkansas, Mississippi, Alabama, Tennessee, Kentucky, Missouri, southeastern Texas), habitat (swamps, ditches, oxbow ponds, sluggish streams under ~15 inches deep with aquatic vegetation), and non-obligate burrowing behaviour."
       }
     ]
   },
-  "fish":         null,
+  "fish": null,
   "crustacean": {
-    "copperSensitive":            true,
-    "moltingFrequencyDays":       30,
-    "moltingNotes":               "Has been reported to molt on the order of once a month as adults, with juveniles molting much more frequently. Soft-bodied post-molt animals tend to hide for several days and the shed exoskeleton is commonly re-consumed for calcium and should not be removed. Like all crustaceans, the species is highly sensitive to copper-based fish medications and snail treatments, which should be avoided entirely.",
-    "escapeRisk":                 "high",
-    "breedingDifficulty":         "easy",
-    "breedingNotes":              "Generally considered very easy to breed — most pairs reproduce spontaneously in a well-kept tank with adequate cover. See top-level breedingNotes for clutch size, incubation length, and juvenile rearing.",
+    "copperSensitive": true,
+    "moltingFrequencyDays": 30,
+    "moltingNotes": "Has been reported to molt on the order of once a month as adults, with juveniles molting much more frequently. Soft-bodied post-molt animals tend to hide for several days and the shed exoskeleton is commonly re-consumed for calcium and should not be removed. Like all crustaceans, the species is highly sensitive to copper-based fish medications and snail treatments, which should be avoided entirely.",
+    "escapeRisk": "high",
+    "breedingDifficulty": "easy",
+    "breedingNotes": "Generally considered very easy to breed — most pairs reproduce spontaneously in a well-kept tank with adequate cover. See top-level breedingNotes for clutch size, incubation length, and juvenile rearing.",
     "speciesOnlyTankRecommended": false
   },
-  "coral":        null,
-  "mollusc":      null,
-  "echinoderm":   null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
   "other-invert": null,
-  "plant":        null,
-  "macroalgae":   null,
+  "amphibian": null,
+  "plant": null,
+  "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus":   "researched",
+  "dataStatus": "researched",
   "lastReviewed": "2026-06-12",
   "hobbyistAdvisory": null
 }

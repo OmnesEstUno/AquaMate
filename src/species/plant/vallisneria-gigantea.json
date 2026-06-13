@@ -33,16 +33,34 @@
     ],
     "habitat": "Submerged in slow-moving to still freshwater bodies — rivers, lakes, ponds, and backwaters — typically on soft sediment substrates where deep water and adequate light penetration allow leaves to reach the surface. Often found in deeper water than smaller congeners due to its ribbon-leaf length.",
     "biotope": "River",
-    "depthRangeM": { "min": 0.5, "max": 3 }
+    "depthRangeM": {
+      "min": 0.5,
+      "max": 3
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 20, "max": 28 },
-    "pH": { "min": 6.5, "max": 8.0 },
-    "gH": { "min": 4, "max": 18 },
-    "kH": { "min": 3, "max": 15 },
+    "temperatureC": {
+      "min": 20,
+      "max": 28
+    },
+    "pH": {
+      "min": 6.5,
+      "max": 8
+    },
+    "gH": {
+      "min": 4,
+      "max": 18
+    },
+    "kH": {
+      "min": 3,
+      "max": 15
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 100, "max": 200 },
+  "adultSizeCm": {
+    "min": 100,
+    "max": 200
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 300,
@@ -137,6 +155,7 @@
   "mollusc": null,
   "echinoderm": null,
   "other-invert": null,
+  "amphibian": null,
   "plant": {
     "lighting": "medium",
     "co2": "optional",

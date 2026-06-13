@@ -6,53 +6,74 @@
   "waterType": "saltwater",
   "commonName": "Red Sawblade",
   "scientificName": "Neurymenia fraxinifolia",
-  "alsoKnownAs": ["Red Sawblade Macroalgae"],
+  "alsoKnownAs": [
+    "Red Sawblade Macroalgae"
+  ],
   "category": "Red Macroalgae",
-
   "taxonomy": {
     "family": "Rhodomelaceae",
     "order": "Ceramiales"
   },
-
   "nativeRange": {
-    "regions": ["Indo-Pacific"],
+    "regions": [
+      "Indo-Pacific"
+    ],
     "countries": [],
     "habitat": "Shallow reef slopes and rocky subtidal zones in the photic zone, typically 0–30 m depth",
     "biotope": "Reef",
-    "depthRangeM": { "min": 0, "max": 30 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 30
+    }
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 26 },
-    "pH":           { "min": 8.1, "max": 8.4 },
-    "gH":           null,
-    "kH":           null,
-    "salinity":     { "min": 1.024, "max": 1.026 }
+    "temperatureC": {
+      "min": 22,
+      "max": 26
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": null,
+    "salinity": {
+      "min": 1.024,
+      "max": 1.026
+    }
   },
-
-  "adultSizeCm": { "min": 5, "max": 20 },
+  "adultSizeCm": {
+    "min": 5,
+    "max": 20
+  },
   "lifespanYears": null,
-
   "tank": {
     "minVolumeLiters": 40,
     "minLengthCm": null,
     "swimZone": null,
-    "decorPreferences": ["Rock attachment via wedging between rocks", "Zip-tie or fishing line to rockwork", "Superglue to frag plug as last resort — must not be buried in sand"],
+    "decorPreferences": [
+      "Rock attachment via wedging between rocks",
+      "Zip-tie or fishing line to rockwork",
+      "Superglue to frag plug as last resort — must not be buried in sand"
+    ],
     "minSandDepthCm": null
   },
-
   "careLevel": "intermediate",
-
   "diet": null,
-
   "compatibility": {
     "temperament": "peaceful",
     "grouping": "solitary",
     "minGroupSize": null,
-    "goodWith": ["reef fish", "snails", "hermit crabs", "shrimp"],
-    "avoidWith": ["herbivorous fish that may graze heavily on macroalgae (e.g., tangs, rabbitfish)"]
+    "goodWith": [
+      "reef fish",
+      "snails",
+      "hermit crabs",
+      "shrimp"
+    ],
+    "avoidWith": [
+      "herbivorous fish that may graze heavily on macroalgae (e.g., tangs, rabbitfish)"
+    ]
   },
-
   "media": {
     "primaryImage": null,
     "gallery": [],
@@ -67,13 +88,9 @@
       }
     ]
   },
-
   "summary": "An ornamental red macroalgae with distinctive long, serrated blades, generally suited to display tanks. Tends to do best when attached to rockwork rather than placed in sand, and is commonly considered intermediate in care.",
-
   "careNotes": "Neurymenia fraxinifolia is a red macroalgae (Rhodophyta) with elongated, reddish-brown blades featuring a distinctive serrated / sawblade edge. It is a display-tank specimen best attached to rockwork via wedging between rocks (preferred by Mosaic Macros) or secured with zip-tie or fishing line. Superglue to a frag plug is acceptable but least preferred. IMPORTANT: as with all red algae (Rhodophyta), this species should never be buried or submerged in the sand bed — base melt will occur. Mosaic Macros explicitly warns that all Rhodophyta will melt at the base if sand-bed-placed. Target water parameters per Mosaic Macros care guide: temperature 22–26°C (72–78°F), pH 8.1–8.4, nitrate 5–20 ppm, phosphate 0.02–0.1 ppm, calcium 400–450 ppm, magnesium 1250–1350 ppm. Full-spectrum LED lighting is recommended; actinic-only lighting is insufficient and should be avoided. Flow should be gentle (soft-coral tank equivalent) — excessive current can damage the delicate blades. Weekly dosing of iron, iodine, and other trace elements is generally advised for macroalgae health. Mosaic Macros notes this species is sometimes misidentified as Cryptonemia crennulata in the trade. The sibling entry sw-algae-084 (Red Sword, Neurymenia sp.) covers other undetermined Neurymenia species forms sold by Mosaic. Propagation is by fragmentation; cuttings can be wedged or tied to new rock positions.",
-
   "breedingNotes": null,
-
   "sources": {
     "primary": {
       "name": "Mosaic Macros",
@@ -90,13 +107,13 @@
       }
     ]
   },
-
   "fish": null,
   "crustacean": null,
   "coral": null,
   "mollusc": null,
   "echinoderm": null,
   "other-invert": null,
+  "amphibian": null,
   "plant": null,
   "macroalgae": {
     "lighting": "medium",
@@ -104,9 +121,12 @@
     "form": "macroalgae",
     "placement": "display",
     "nutrientUptake": "low",
-    "propagation": ["fragmentation", "wedging", "zip-tie/fishing line"]
+    "propagation": [
+      "fragmentation",
+      "wedging",
+      "zip-tie/fishing line"
+    ]
   },
-
   "schemaVersion": 1,
   "dataStatus": "researched",
   "lastReviewed": "2026-06-08"

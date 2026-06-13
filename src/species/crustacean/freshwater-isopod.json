@@ -21,7 +21,10 @@
     "order": "Isopoda"
   },
   "nativeRange": {
-    "regions": ["Europe", "North America"],
+    "regions": [
+      "Europe",
+      "North America"
+    ],
     "countries": [
       "United Kingdom",
       "Ireland",
@@ -43,14 +46,32 @@
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 15, "max": 24 },
-    "pH": { "min": 6.5, "max": 8.0 },
-    "gH": { "min": 4, "max": 20 },
-    "kH": { "min": 2, "max": 15 },
+    "temperatureC": {
+      "min": 15,
+      "max": 24
+    },
+    "pH": {
+      "min": 6.5,
+      "max": 8
+    },
+    "gH": {
+      "min": 4,
+      "max": 20
+    },
+    "kH": {
+      "min": 2,
+      "max": 15
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 0.5, "max": 2.0 },
-  "lifespanYears": { "min": 0.75, "max": 1.5 },
+  "adultSizeCm": {
+    "min": 0.5,
+    "max": 2
+  },
+  "lifespanYears": {
+    "min": 0.75,
+    "max": 1.5
+  },
   "tank": {
     "minVolumeLiters": 20,
     "minLengthCm": 30,
@@ -148,6 +169,7 @@
   "mollusc": null,
   "echinoderm": null,
   "other-invert": null,
+  "amphibian": null,
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,

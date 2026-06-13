@@ -139,6 +139,18 @@
         "notes": { "type": ["string", "null"] }
       }
     },
+    "amphibianVariant": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["substrateConstraint", "skinSensitivity", "chytridRisk", "breedingDifficulty", "breedingNotes"],
+      "properties": {
+        "substrateConstraint": { "type": ["string", "null"], "enum": ["any", "sand-only", "bare-only", "large-rocks-only", null], "description": "Substrate constraints driven by impaction risk or skin sensitivity. Axolotls and most large salamanders require sand-only or bare-bottom because they ingest gravel during feeding (fatal impaction)." },
+        "skinSensitivity":     { "type": ["string", "null"], "enum": ["low", "moderate", "high", null], "description": "Sensitivity of the species' skin to chemical contaminants (chlorine, copper, medications, soap residues). Drives medication and quarantine choices." },
+        "chytridRisk":         { "type": ["string", "null"], "enum": ["low", "moderate", "high", null], "description": "Susceptibility to chytrid fungal pathogens (Batrachochytrium dendrobatidis / B. salamandrivorans). Drives quarantine procedures." },
+        "breedingDifficulty":  { "type": ["string", "null"], "enum": ["easy", "moderate", "difficult", "advanced", "not in captivity", null] },
+        "breedingNotes":       { "type": ["string", "null"] }
+      }
+    },
     "plantVariant": {
       "type": "object",
       "additionalProperties": false,
@@ -187,13 +199,13 @@
     "tank", "careLevel", "diet", "compatibility",
     "media", "summary", "careNotes", "breedingNotes",
     "sources",
-    "fish", "crustacean", "coral", "mollusc", "echinoderm", "other-invert", "plant", "macroalgae",
+    "fish", "crustacean", "coral", "mollusc", "echinoderm", "other-invert", "amphibian", "plant", "macroalgae",
     "schemaVersion", "dataStatus", "lastReviewed"
   ],
   "properties": {
     "id": {
       "type": "string",
-      "pattern": "^((fw|sw|fl)-\\d{3,}|(fw|sw|br)-(fish|crus|coral|moll|echi|invert|plant|algae)-\\d{3,})$",
+      "pattern": "^((fw|sw|fl)-\\d{3,}|(fw|sw|br)-(fish|crus|coral|moll|echi|invert|amph|plant|algae)-\\d{3,})$",
       "description": "Stable identifier. Legacy: fw-NNN, sw-NNN, fl-NNN. New entries: <watertype>-<taxon-short>-NNN."
     },
     "slug": {
@@ -202,7 +214,7 @@
       "description": "URL-safe identifier derived from commonName."
     },
     "kind":      { "type": "string", "enum": ["fauna", "flora"] },
-    "taxon":     { "type": "string", "enum": ["fish", "crustacean", "coral", "mollusc", "echinoderm", "other-invert", "plant", "macroalgae"] },
+    "taxon":     { "type": "string", "enum": ["fish", "crustacean", "coral", "mollusc", "echinoderm", "other-invert", "amphibian", "plant", "macroalgae"] },
     "waterType": { "type": "string", "enum": ["freshwater", "saltwater", "brackish"] },
 
     "commonName":      { "type": "string", "minLength": 1 },
@@ -370,6 +382,7 @@
     "mollusc":      { "oneOf": [{ "type": "null" }, { "$ref": "#/$defs/molluscVariant" }] },
     "echinoderm":   { "oneOf": [{ "type": "null" }, { "$ref": "#/$defs/echinodermVariant" }] },
     "other-invert": { "oneOf": [{ "type": "null" }, { "$ref": "#/$defs/otherInvertVariant" }] },
+    "amphibian":    { "oneOf": [{ "type": "null" }, { "$ref": "#/$defs/amphibianVariant" }] },
     "plant":        { "oneOf": [{ "type": "null" }, { "$ref": "#/$defs/plantVariant" }] },
     "macroalgae":   { "oneOf": [{ "type": "null" }, { "$ref": "#/$defs/macroalgaeVariant" }] },
 
@@ -397,7 +410,7 @@
       "if": { "properties": { "kind": { "const": "fauna" } } },
       "then": {
         "properties": {
-          "taxon": { "enum": ["fish", "crustacean", "coral", "mollusc", "echinoderm", "other-invert"] },
+          "taxon": { "enum": ["fish", "crustacean", "coral", "mollusc", "echinoderm", "other-invert", "amphibian"] },
           "plant": { "type": "null" },
           "macroalgae": { "type": "null" }
         }
@@ -413,16 +426,18 @@
           "coral": { "type": "null" },
           "mollusc": { "type": "null" },
           "echinoderm": { "type": "null" },
-          "other-invert": { "type": "null" }
+          "other-invert": { "type": "null" },
+          "amphibian": { "type": "null" }
         }
       }
     },
-    { "if": { "properties": { "taxon": { "const": "fish" } } },         "then": { "properties": { "fish": { "$ref": "#/$defs/fishVariant" }, "crustacean": { "type": "null" }, "coral": { "type": "null" }, "mollusc": { "type": "null" }, "echinoderm": { "type": "null" }, "other-invert": { "type": "null" } }, "required": ["fish"] } },
-    { "if": { "properties": { "taxon": { "const": "crustacean" } } },   "then": { "properties": { "crustacean": { "$ref": "#/$defs/crustaceanVariant" }, "fish": { "type": "null" }, "coral": { "type": "null" }, "mollusc": { "type": "null" }, "echinoderm": { "type": "null" }, "other-invert": { "type": "null" } }, "required": ["crustacean"] } },
-    { "if": { "properties": { "taxon": { "const": "coral" } } },        "then": { "properties": { "coral": { "$ref": "#/$defs/coralVariant" }, "waterType": { "const": "saltwater" }, "fish": { "type": "null" }, "crustacean": { "type": "null" }, "mollusc": { "type": "null" }, "echinoderm": { "type": "null" }, "other-invert": { "type": "null" } }, "required": ["coral"] } },
-    { "if": { "properties": { "taxon": { "const": "mollusc" } } },      "then": { "properties": { "mollusc": { "$ref": "#/$defs/molluscVariant" }, "fish": { "type": "null" }, "crustacean": { "type": "null" }, "coral": { "type": "null" }, "echinoderm": { "type": "null" }, "other-invert": { "type": "null" } }, "required": ["mollusc"] } },
-    { "if": { "properties": { "taxon": { "const": "echinoderm" } } },   "then": { "properties": { "echinoderm": { "$ref": "#/$defs/echinodermVariant" }, "fish": { "type": "null" }, "crustacean": { "type": "null" }, "coral": { "type": "null" }, "mollusc": { "type": "null" }, "other-invert": { "type": "null" } }, "required": ["echinoderm"] } },
-    { "if": { "properties": { "taxon": { "const": "other-invert" } } }, "then": { "properties": { "other-invert": { "$ref": "#/$defs/otherInvertVariant" }, "fish": { "type": "null" }, "crustacean": { "type": "null" }, "coral": { "type": "null" }, "mollusc": { "type": "null" }, "echinoderm": { "type": "null" } }, "required": ["other-invert"] } },
+    { "if": { "properties": { "taxon": { "const": "fish" } } },         "then": { "properties": { "fish": { "$ref": "#/$defs/fishVariant" }, "crustacean": { "type": "null" }, "coral": { "type": "null" }, "mollusc": { "type": "null" }, "echinoderm": { "type": "null" }, "other-invert": { "type": "null" }, "amphibian": { "type": "null" } }, "required": ["fish"] } },
+    { "if": { "properties": { "taxon": { "const": "crustacean" } } },   "then": { "properties": { "crustacean": { "$ref": "#/$defs/crustaceanVariant" }, "fish": { "type": "null" }, "coral": { "type": "null" }, "mollusc": { "type": "null" }, "echinoderm": { "type": "null" }, "other-invert": { "type": "null" }, "amphibian": { "type": "null" } }, "required": ["crustacean"] } },
+    { "if": { "properties": { "taxon": { "const": "coral" } } },        "then": { "properties": { "coral": { "$ref": "#/$defs/coralVariant" }, "waterType": { "const": "saltwater" }, "fish": { "type": "null" }, "crustacean": { "type": "null" }, "mollusc": { "type": "null" }, "echinoderm": { "type": "null" }, "other-invert": { "type": "null" }, "amphibian": { "type": "null" } }, "required": ["coral"] } },
+    { "if": { "properties": { "taxon": { "const": "mollusc" } } },      "then": { "properties": { "mollusc": { "$ref": "#/$defs/molluscVariant" }, "fish": { "type": "null" }, "crustacean": { "type": "null" }, "coral": { "type": "null" }, "echinoderm": { "type": "null" }, "other-invert": { "type": "null" }, "amphibian": { "type": "null" } }, "required": ["mollusc"] } },
+    { "if": { "properties": { "taxon": { "const": "echinoderm" } } },   "then": { "properties": { "echinoderm": { "$ref": "#/$defs/echinodermVariant" }, "fish": { "type": "null" }, "crustacean": { "type": "null" }, "coral": { "type": "null" }, "mollusc": { "type": "null" }, "other-invert": { "type": "null" }, "amphibian": { "type": "null" } }, "required": ["echinoderm"] } },
+    { "if": { "properties": { "taxon": { "const": "other-invert" } } }, "then": { "properties": { "other-invert": { "$ref": "#/$defs/otherInvertVariant" }, "fish": { "type": "null" }, "crustacean": { "type": "null" }, "coral": { "type": "null" }, "mollusc": { "type": "null" }, "echinoderm": { "type": "null" }, "amphibian": { "type": "null" } }, "required": ["other-invert"] } },
+    { "if": { "properties": { "taxon": { "const": "amphibian" } } },    "then": { "properties": { "amphibian": { "$ref": "#/$defs/amphibianVariant" }, "fish": { "type": "null" }, "crustacean": { "type": "null" }, "coral": { "type": "null" }, "mollusc": { "type": "null" }, "echinoderm": { "type": "null" }, "other-invert": { "type": "null" } }, "required": ["amphibian"] } },
     { "if": { "properties": { "taxon": { "const": "plant" } } },        "then": { "properties": { "plant": { "$ref": "#/$defs/plantVariant" }, "macroalgae": { "type": "null" } }, "required": ["plant"] } },
     { "if": { "properties": { "taxon": { "const": "macroalgae" } } },   "then": { "properties": { "macroalgae": { "$ref": "#/$defs/macroalgaeVariant" }, "plant": { "type": "null" } }, "required": ["macroalgae"] } },
     {

@@ -19,7 +19,9 @@
     "order": "Decapoda"
   },
   "nativeRange": {
-    "regions": ["Indo-West Pacific"],
+    "regions": [
+      "Indo-West Pacific"
+    ],
     "countries": [
       "Sri Lanka",
       "Indonesia",
@@ -32,21 +34,42 @@
     ],
     "habitat": "Tropical coral reefs and lagoons across the Indo-West Pacific. Almost always found in association with large host sea anemones, most commonly carpet anemones (Stichodactyla haddoni, S. gigantea, S. mertensii) and bulb-tip/magnificent anemones (Entacmaea quadricolor, Heteractis magnifica, H. crispa), but also reported with Cryptodendrum adhaesivum, Macrodactyla doreensis, and other large anemone genera.",
     "biotope": "Reef",
-    "depthRangeM": { "min": 1, "max": 12 }
+    "depthRangeM": {
+      "min": 1,
+      "max": 12
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 27 },
-    "pH":           { "min": 8.1, "max": 8.4 },
-    "gH":           null,
-    "kH":           { "min": 8, "max": 12 },
-    "salinity":     { "min": 1.023, "max": 1.026 }
+    "temperatureC": {
+      "min": 23,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.023,
+      "max": 1.026
+    }
   },
-  "adultSizeCm":   { "min": 2.5, "max": 5 },
-  "lifespanYears": { "min": 3, "max": 5 },
+  "adultSizeCm": {
+    "min": 2.5,
+    "max": 5
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
-    "minVolumeLiters":  75,
-    "minLengthCm":      60,
-    "swimZone":         "bottom",
+    "minVolumeLiters": 75,
+    "minLengthCm": 60,
+    "swimZone": "bottom",
     "decorPreferences": [
       "a large host anemone (Stichodactyla spp. or Heteractis spp. preferred; Entacmaea quadricolor also accepted)",
       "established live rock with crevices and shaded retreats for molting safety",
@@ -54,7 +77,7 @@
       "stable sand or fine-rubble bed",
       "mature reef-quality water chemistry (the host anemone has stricter parameter needs than the crab itself)"
     ],
-    "minSandDepthCm":   null
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -62,10 +85,10 @@
     "notes": "An active filter feeder — uses fan-like setose maxillipeds to sweep planktonic particles from the water column. Also reported to scavenge mucus and small food scraps from its host anemone. In captivity the typical home reef is generally too clean and too gentle of flow to fully sustain it, so supplemental targeted feedings are commonly advised: small portions of frozen rotifers, baby brine shrimp, mysis, finely chopped marine flesh, marine snow, phytoplankton, or powdered/liquid coral foods squirted near the host anemone several times per week. Sources agree that under-feeding is the most common cause of slow decline in captivity."
   },
   "compatibility": {
-    "temperament":  "peaceful",
-    "grouping":     "pair",
+    "temperament": "peaceful",
+    "grouping": "pair",
     "minGroupSize": 1,
-    "goodWith":     [
+    "goodWith": [
       "host anemones (Stichodactyla spp., Heteractis spp., Entacmaea quadricolor)",
       "peaceful reef fish that do not harass invertebrates",
       "cleaner shrimp (Lysmata spp.) and peppermint shrimp",
@@ -73,7 +96,7 @@
       "small reef-safe gobies and blennies",
       "reef-safe corals (LPS, SPS, soft, zoanthids)"
     ],
-    "avoidWith":    [
+    "avoidWith": [
       "other Neopetrolisthes individuals unless a confirmed mated pair — same-sex conspecifics have been reported to fight to the death over a shared anemone",
       "clownfish sharing the same host anemone — competition for anemone real estate is common and clownfish typically dominate",
       "predatory crabs (arrow crabs, large hermits, mithrax/emerald crabs in tight quarters)",
@@ -83,8 +106,8 @@
     ]
   },
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
+    "primaryImage": null,
+    "gallery": [],
     "imageCandidates": null
   },
   "summary": "A small, peaceful Indo-Pacific filter-feeding crab that lives commensally on large carpet or bulb-tip anemones. Generally considered reef-safe and hardy if a host anemone and supplemental feeding are provided.",
@@ -93,32 +116,32 @@
   "sources": {
     "primary": {
       "name": "Aqua Imports",
-      "url":  "https://www.aqua-imports.com/product/porcelain-anemone-crab/",
+      "url": "https://www.aqua-imports.com/product/porcelain-anemone-crab/",
       "accessedDate": "2026-06-12",
       "notes": "Primary per controller assignment. Lists the species as Neopetrolisthes ohshimai and gives temperature 74-78°F (≈23-26°C), pH 8.2-8.4, salinity 35 ppt (≈SG 1.026), origin Sri Lanka, reef-safe, peaceful with conspecific aggression, planktonic + anemone-mucus diet, and typical pair-with-host living. Silent on tank size, adult size, lifespan, and host-anemone specifics."
     },
     "additional": [
       {
         "name": "LiveAquaria — Porcelain Anemone Crab",
-        "url":  "https://www.liveaquaria.com/products/porcelain-anemone-crab",
+        "url": "https://www.liveaquaria.com/products/porcelain-anemone-crab",
         "accessedDate": "2026-06-12",
         "notes": "Assigned secondary. Also labels the species N. ohshimai. Cross-checked: max size 3\" (~7.6 cm leg span), temperature 72-78°F (22-26°C), pH 8.1-8.4, SG 1.023-1.025, dKH 8-12, reef-safe with caution, easy care level, aggressive toward conspecifics, may compete with clownfish for the host anemone."
       },
       {
         "name": "Aquarium Breeder — Porcelain Anemone Crab Detailed Guide",
-        "url":  "https://aquariumbreeder.com/porcelain-anemone-crab-detailed-guide-care-diet-and-breeding/",
+        "url": "https://aquariumbreeder.com/porcelain-anemone-crab-detailed-guide-care-diet-and-breeding/",
         "accessedDate": "2026-06-12",
         "notes": "Used to fill fields the assigned sources omit: family Porcellanidae / order Decapoda (Anomura infraorder), adult size ~2.5 cm carapace / 6-8 cm leg span, lifespan 3-5 years, depth range 5-12 m, Indo-West Pacific country list, broader host-anemone list, ~600-egg clutch, zoeal/megalops larval staging, minimum tank size 40 L (treated as a low-end retail figure)."
       },
       {
         "name": "Reeflings — Spotted Porcelain Crab Care Guide",
-        "url":  "https://reeflings.com/species/neopetrolisthes-maculates",
+        "url": "https://reeflings.com/species/neopetrolisthes-maculates",
         "accessedDate": "2026-06-12",
         "notes": "Cross-checked: scientific name Neopetrolisthes maculatus with N. ohshimai, Petrolisthes ohshimai, Porcellana maculata as synonyms; adult size 5 cm; temperature 24-27°C; pH 8-8.5; SG 1.023-1.026; minimum tank 50 L; peaceful but territorial toward conspecifics; mutualistic with Entacmaea quadricolor and Heteractis magnifica; care level moderate-to-easy."
       },
       {
         "name": "WoRMS — Neopetrolisthes maculatus (H. Milne Edwards, 1837)",
-        "url":  "https://www.marinespecies.org/aphia.php?p=taxdetails&id=217271",
+        "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=217271",
         "accessedDate": "2026-06-12",
         "notes": "Taxonomic authority used to confirm that Neopetrolisthes ohshimai Miyake, 1937 is a junior subjective synonym of Neopetrolisthes maculatus. Resolves the Aqua Imports / LiveAquaria N. ohshimai labelling vs. modern N. maculatus convention."
       }
@@ -126,21 +149,22 @@
   },
   "fish": null,
   "crustacean": {
-    "copperSensitive":            true,
-    "moltingFrequencyDays":       null,
-    "moltingNotes":               "Sources do not give a typical molt interval for this species. Magnesium, iodine, and trace elements are commonly cited as supporting healthy molts in porcelain crabs; weekly trace-element dosing or routine reef-grade water changes generally cover this. The host anemone provides important post-molt cover during the soft-shell period; supplementary shaded crevices in live rock are generally advised. This species is also reported to use autotomy (voluntary leg shedding) as a defensive response, with lost limbs regrowing over successive molts.",
-    "escapeRisk":                 "low",
-    "breedingDifficulty":         "not in captivity",
-    "breedingNotes":              "Females carry around 600 eggs; larval development includes two zoeal stages and a megalops stage. Published rearing attempts have not successfully reared larvae past the megalops transition, so home-aquarium breeding is essentially undocumented.",
+    "copperSensitive": true,
+    "moltingFrequencyDays": null,
+    "moltingNotes": "Sources do not give a typical molt interval for this species. Magnesium, iodine, and trace elements are commonly cited as supporting healthy molts in porcelain crabs; weekly trace-element dosing or routine reef-grade water changes generally cover this. The host anemone provides important post-molt cover during the soft-shell period; supplementary shaded crevices in live rock are generally advised. This species is also reported to use autotomy (voluntary leg shedding) as a defensive response, with lost limbs regrowing over successive molts.",
+    "escapeRisk": "low",
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "Females carry around 600 eggs; larval development includes two zoeal stages and a megalops stage. Published rearing attempts have not successfully reared larvae past the megalops transition, so home-aquarium breeding is essentially undocumented.",
     "speciesOnlyTankRecommended": false
   },
-  "coral":        null,
-  "mollusc":      null,
-  "echinoderm":   null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
   "other-invert": null,
-  "plant":        null,
-  "macroalgae":   null,
+  "amphibian": null,
+  "plant": null,
+  "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus":   "researched",
+  "dataStatus": "researched",
   "lastReviewed": "2026-06-12"
 }

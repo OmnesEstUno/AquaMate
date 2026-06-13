@@ -18,20 +18,39 @@
     "order": "Alismatales"
   },
   "nativeRange": {
-    "regions": ["South Asia"],
-    "countries": ["Sri Lanka"],
+    "regions": [
+      "South Asia"
+    ],
+    "countries": [
+      "Sri Lanka"
+    ],
     "habitat": "Slow-moving streams, shaded forest waterways, and lowland wetlands on the island of Sri Lanka.",
     "biotope": "Stream",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 28 },
-    "pH": { "min": 6.0, "max": 7.5 },
-    "gH": { "min": 2, "max": 12 },
-    "kH": { "min": 2, "max": 10 },
+    "temperatureC": {
+      "min": 22,
+      "max": 28
+    },
+    "pH": {
+      "min": 6,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 2,
+      "max": 12
+    },
+    "kH": {
+      "min": 2,
+      "max": 10
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 15, "max": 35 },
+  "adultSizeCm": {
+    "min": 15,
+    "max": 35
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 40,
@@ -89,12 +108,16 @@
   "mollusc": null,
   "echinoderm": null,
   "other-invert": null,
+  "amphibian": null,
   "plant": {
     "lighting": "medium",
     "co2": "optional",
     "growthRate": "medium",
     "placement": "midground",
-    "propagation": ["runners", "rhizome division"],
+    "propagation": [
+      "runners",
+      "rhizome division"
+    ],
     "substrate": "nutrient-rich",
     "fertilization": "moderate"
   },

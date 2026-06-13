@@ -22,20 +22,39 @@
     "order": "Myrtales"
   },
   "nativeRange": {
-    "regions": ["South Asia"],
-    "countries": ["India"],
+    "regions": [
+      "South Asia"
+    ],
+    "countries": [
+      "India"
+    ],
     "habitat": "Generally associated with slow-moving streams, marshes, and paddy-edge wetlands of southern and western India, especially the Western Ghats. Emersed (paddy/marsh) forms tend to have smaller, greener leaves; submersed forms develop the larger, softer, pink-magenta leaves prized in the hobby.",
     "biotope": "Stream",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 21, "max": 28 },
-    "pH": { "min": 5.5, "max": 7.0 },
-    "gH": { "min": 1, "max": 8 },
-    "kH": { "min": 0, "max": 6 },
+    "temperatureC": {
+      "min": 21,
+      "max": 28
+    },
+    "pH": {
+      "min": 5.5,
+      "max": 7
+    },
+    "gH": {
+      "min": 1,
+      "max": 8
+    },
+    "kH": {
+      "min": 0,
+      "max": 6
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 10, "max": 30 },
+  "adultSizeCm": {
+    "min": 10,
+    "max": 30
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 75,
@@ -110,12 +129,16 @@
   "mollusc": null,
   "echinoderm": null,
   "other-invert": null,
+  "amphibian": null,
   "plant": {
     "lighting": "high",
     "co2": "recommended",
     "growthRate": "fast",
     "placement": "background",
-    "propagation": ["stem cuttings", "lateral shoots"],
+    "propagation": [
+      "stem cuttings",
+      "lateral shoots"
+    ],
     "substrate": "nutrient-rich",
     "fertilization": "heavy"
   },

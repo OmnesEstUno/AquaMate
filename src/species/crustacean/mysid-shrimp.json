@@ -19,32 +19,55 @@
     "order": "Mysida"
   },
   "nativeRange": {
-    "regions": ["Western Atlantic", "Gulf of Mexico"],
-    "countries": ["United States"],
+    "regions": [
+      "Western Atlantic",
+      "Gulf of Mexico"
+    ],
+    "countries": [
+      "United States"
+    ],
     "habitat": "Shallow estuarine waters over sand and mud bottoms, often associated with seagrass beds; tolerates a wide salinity range from near-freshwater to fully marine.",
     "biotope": "Estuarine seagrass and soft-sediment shallows",
-    "depthRangeM": { "min": 0, "max": 2 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 2
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 20, "max": 28 },
-    "pH":           { "min": 8.0, "max": 8.3 },
-    "gH":           null,
-    "kH":           null,
-    "salinity":     { "min": 1.015, "max": 1.026 }
+    "temperatureC": {
+      "min": 20,
+      "max": 28
+    },
+    "pH": {
+      "min": 8,
+      "max": 8.3
+    },
+    "gH": null,
+    "kH": null,
+    "salinity": {
+      "min": 1.015,
+      "max": 1.026
+    }
   },
-  "adultSizeCm":   { "min": 0.4, "max": 0.95 },
-  "lifespanYears": { "min": 0.15, "max": 0.25 },
+  "adultSizeCm": {
+    "min": 0.4,
+    "max": 0.95
+  },
+  "lifespanYears": {
+    "min": 0.15,
+    "max": 0.25
+  },
   "tank": {
-    "minVolumeLiters":  20,
-    "minLengthCm":      30,
-    "swimZone":         "all",
+    "minVolumeLiters": 20,
+    "minLengthCm": 30,
+    "swimZone": "all",
     "decorPreferences": [
       "bare-bottom culture vessel preferred for easy cleaning",
       "gentle aeration via airstone (no powerheads — mysids are easily damaged)",
       "fine mesh screens over any overflow or drain to prevent loss",
       "dim, indirect lighting on a 16h light / 8h dark cycle"
     ],
-    "minSandDepthCm":   null
+    "minSandDepthCm": null
   },
   "careLevel": "advanced",
   "diet": {
@@ -52,22 +75,22 @@
     "notes": "In the wild they graze on zooplankton, phytoplankton and detritus. In culture they are generally fed newly hatched Artemia nauplii once or twice daily; live phytoplankton and very finely ground flake or pellet powder can supplement. Mysids are themselves voracious — adults will cannibalise juveniles if underfed."
   },
   "compatibility": {
-    "temperament":  "peaceful",
-    "grouping":     "shoaling",
+    "temperament": "peaceful",
+    "grouping": "shoaling",
     "minGroupSize": 50,
-    "goodWith":     [
+    "goodWith": [
       "kept in a dedicated culture vessel separate from display livestock",
       "harvested as live feed for seahorses, pipefish, mandarin dragonets, and the fry of pelagic-spawning marine fish"
     ],
-    "avoidWith":    [
+    "avoidWith": [
       "any fish or invertebrate in the same vessel — mysids are prey, not tankmates",
       "powerheads or strong mechanical flow",
       "copper-based medications"
     ]
   },
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
+    "primaryImage": null,
+    "gallery": [],
     "imageCandidates": null
   },
   "summary": "A tiny estuarine opossum shrimp cultured at home as a live food for picky reef species such as seahorses, pipefish and mandarin dragonets; an aquaculture project rather than a display animal.",
@@ -121,6 +144,7 @@
   "mollusc": null,
   "echinoderm": null,
   "other-invert": null,
+  "amphibian": null,
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,

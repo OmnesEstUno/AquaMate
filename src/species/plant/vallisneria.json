@@ -34,16 +34,34 @@
     ],
     "habitat": "Shallow, slow-moving to still freshwaters — rivers, streams, lakes, and ponds, often on sandy or silty substrates with sufficient light penetration.",
     "biotope": "River",
-    "depthRangeM": { "min": 0.3, "max": 3 }
+    "depthRangeM": {
+      "min": 0.3,
+      "max": 3
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 20, "max": 28 },
-    "pH": { "min": 6.5, "max": 8.0 },
-    "gH": { "min": 4, "max": 18 },
-    "kH": { "min": 3, "max": 15 },
+    "temperatureC": {
+      "min": 20,
+      "max": 28
+    },
+    "pH": {
+      "min": 6.5,
+      "max": 8
+    },
+    "gH": {
+      "min": 4,
+      "max": 18
+    },
+    "kH": {
+      "min": 3,
+      "max": 15
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 40, "max": 70 },
+  "adultSizeCm": {
+    "min": 40,
+    "max": 70
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 75,
@@ -119,6 +137,7 @@
   "mollusc": null,
   "echinoderm": null,
   "other-invert": null,
+  "amphibian": null,
   "plant": {
     "lighting": "medium",
     "co2": "optional",

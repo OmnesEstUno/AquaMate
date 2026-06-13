@@ -17,25 +17,57 @@
     "order": "Decapoda"
   },
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Central Pacific", "Hawaii"],
-    "countries": ["Indonesia", "Philippines", "Australia", "United States (Hawaii)", "Japan", "Sri Lanka"],
+    "regions": [
+      "Indo-Pacific",
+      "Central Pacific",
+      "Hawaii"
+    ],
+    "countries": [
+      "Indonesia",
+      "Philippines",
+      "Australia",
+      "United States (Hawaii)",
+      "Japan",
+      "Sri Lanka"
+    ],
     "habitat": "Coral reefs and rubble zones below the intertidal, where the shrimp typically hides in crevices or beneath rocks during the day and emerges to hunt sea stars at night.",
     "biotope": "Coral Reef",
-    "depthRangeM": { "min": 0, "max": 30 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 30
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 26 },
-    "pH":           { "min": 8.1, "max": 8.4 },
-    "gH":           null,
-    "kH":           { "min": 8, "max": 12 },
-    "salinity":     { "min": 1.023, "max": 1.026 }
+    "temperatureC": {
+      "min": 23,
+      "max": 26
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.023,
+      "max": 1.026
+    }
   },
-  "adultSizeCm":   { "min": 3, "max": 5 },
-  "lifespanYears": { "min": 5, "max": 7 },
+  "adultSizeCm": {
+    "min": 3,
+    "max": 5
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 7
+  },
   "tank": {
-    "minVolumeLiters":  75,
-    "minLengthCm":      60,
-    "swimZone":         "bottom",
+    "minVolumeLiters": 75,
+    "minLengthCm": 60,
+    "swimZone": "bottom",
     "decorPreferences": [
       "mature live rock with crevices and overhangs",
       "sandy substrate",
@@ -43,16 +75,16 @@
       "open rubble zones for hunting",
       "stable reef-style aquascape"
     ],
-    "minSandDepthCm":   null
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
-    "type":  "carnivore",
+    "type": "carnivore",
     "notes": "Obligate predator of echinoderms — feeds almost exclusively on live sea stars, with starfish tube feet and soft tissue as the primary food. Has been documented occasionally taking live sea urchins when sea stars are unavailable. Generally cannot be weaned onto prepared, frozen, or non-echinoderm foods, so a sustainable supply of live sea stars (commonly chocolate-chip stars, Linckia, or pest Asterina) is required for long-term husbandry. A single 4–6\" sea star can reportedly sustain a pair for several weeks because the shrimp consume the star slowly while it continues to regenerate."
   },
   "compatibility": {
-    "temperament":  "peaceful",
-    "grouping":     "pair",
+    "temperament": "peaceful",
+    "grouping": "pair",
     "minGroupSize": 2,
     "goodWith": [
       "most peaceful reef fish",
@@ -68,8 +100,8 @@
     ]
   },
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
+    "primaryImage": null,
+    "gallery": [],
     "imageCandidates": null
   },
   "summary": "A striking white-and-spotted marine shrimp from Indo-Pacific reefs that is an obligate predator of sea stars. Generally kept as a bonded pair in a species-focused or carefully-stocked reef tank where a sustainable supply of live sea stars can be provided.",
@@ -78,54 +110,55 @@
   "sources": {
     "primary": {
       "name": "Aqua Imports",
-      "url":  "https://www.aqua-imports.com/product/harlequin-shrimp/",
+      "url": "https://www.aqua-imports.com/product/harlequin-shrimp/",
       "accessedDate": "2026-06-12",
       "notes": "Primary source — confirmed scientific name Hymenocera picta, origin Indonesia, ~2\" adult size, temperature 74-78°F, pH 8.2-8.4, salinity 35 ppt (SG ≈ 1.026), obligate echinoderm diet, reef-safe."
     },
     "additional": [
       {
         "name": "LiveAquaria (Blue Zoo Aquatics page used as fallback)",
-        "url":  "https://www.bluezooaquatics.com/productDetail.asp?cid=10&pid=4138",
+        "url": "https://www.bluezooaquatics.com/productDetail.asp?cid=10&pid=4138",
         "accessedDate": "2026-06-12",
         "notes": "Designated LiveAquaria product URL returned HTTP 404; LiveAquaria search confirmed the product exists at /products/harlequin-shrimp but full care details were not retrievable through WebFetch. Substituted BlueZoo's H. elegans page (modern synonym of H. picta) for the second cross-source. Cross-confirmed: family Gnathophyllidae (older placement), adult size ~1.5\", temperature 72-78°F, pH 8.1-8.4, SG 1.023-1.025, dKH 8-12, carnivore, peaceful, reef-compatible, copper-sensitive, requires iodine for molting."
       },
       {
         "name": "Wikipedia (Hymenocera picta)",
-        "url":  "https://en.wikipedia.org/wiki/Hymenocera_picta",
+        "url": "https://en.wikipedia.org/wiki/Hymenocera_picta",
         "accessedDate": "2026-06-12",
         "notes": "Taxonomy authority — modern family placement Palaemonidae, order Decapoda, H. elegans as junior synonym, ~5 cm adult length, Indo-Pacific + Hawaiian distribution, obligate starfish diet, pair-living behavior, female fecundity 100-5,000 eggs."
       },
       {
         "name": "ReefApp Encyclopedia",
-        "url":  "https://reefapp.net/en/encyclopedia/hymenocera-picta",
+        "url": "https://reefapp.net/en/encyclopedia/hymenocera-picta",
         "accessedDate": "2026-06-12",
         "notes": "Cross-confirmed 50 L minimum (reference for the cautious 75 L pick), 5 cm max length, Central/West/East Pacific range, typical reef temperature ~26°C and SG ~1.026."
       },
       {
         "name": "Aquarium Source care guide",
-        "url":  "https://www.aquariumsource.com/harlequin-shrimp/",
+        "url": "https://www.aquariumsource.com/harlequin-shrimp/",
         "accessedDate": "2026-06-12",
         "notes": "Cross-confirmed temperature 72-82°F, pH 8.0-8.4, dKH 8-12, SG 1.023-1.025, lifespan up to ~7 years, 10-gal minimum for a single shrimp / 20-gal for a pair, breeding behavior (2-3 week egg carry, 5-6 week planktonic larval phase), male-male fatal aggression."
       }
     ]
   },
-  "fish":         null,
+  "fish": null,
   "crustacean": {
-    "copperSensitive":            true,
-    "moltingFrequencyDays":       null,
-    "moltingNotes":               "Molts periodically as it grows, with adequate iodine and trace-element levels widely considered important for successful exuviation. Discarded exoskeletons are typically left undisturbed in the tank and may be re-consumed for calcium. Specific intermolt-period data for H. picta is not well documented in hobby sources.",
-    "escapeRisk":                 "low",
-    "breedingDifficulty":         "difficult",
-    "breedingNotes":              "Pairs spawn readily; the bottleneck is rearing the long-lived planktonic larvae, which require specialized larval-culture setups not typical of home reef aquaria.",
+    "copperSensitive": true,
+    "moltingFrequencyDays": null,
+    "moltingNotes": "Molts periodically as it grows, with adequate iodine and trace-element levels widely considered important for successful exuviation. Discarded exoskeletons are typically left undisturbed in the tank and may be re-consumed for calcium. Specific intermolt-period data for H. picta is not well documented in hobby sources.",
+    "escapeRisk": "low",
+    "breedingDifficulty": "difficult",
+    "breedingNotes": "Pairs spawn readily; the bottleneck is rearing the long-lived planktonic larvae, which require specialized larval-culture setups not typical of home reef aquaria.",
     "speciesOnlyTankRecommended": true
   },
-  "coral":        null,
-  "mollusc":      null,
-  "echinoderm":   null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
   "other-invert": null,
-  "plant":        null,
-  "macroalgae":   null,
+  "amphibian": null,
+  "plant": null,
+  "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus":   "researched",
+  "dataStatus": "researched",
   "lastReviewed": "2026-06-12"
 }

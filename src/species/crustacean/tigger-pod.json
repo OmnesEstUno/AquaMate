@@ -20,25 +20,53 @@
     "order": "Harpacticoida"
   },
   "nativeRange": {
-    "regions": ["North Pacific", "Northeast Pacific"],
-    "countries": ["United States", "Canada", "Mexico"],
+    "regions": [
+      "North Pacific",
+      "Northeast Pacific"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico"
+    ],
     "habitat": "Supralittoral splash pools and high-shore rocky-intertidal tide pools along the Pacific coast of North America, from central Baja California north to coastal Alaska. These pools are isolated from ocean moderation and experience extreme swings in temperature, salinity, oxygen, and pH between rain, evaporation, and wave-splash events.",
     "biotope": "Pacific rocky-intertidal splash pool",
-    "depthRangeM": { "min": 0, "max": 1 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 1
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 16, "max": 28 },
-    "pH":           { "min": 7.8, "max": 8.4 },
-    "gH":           null,
-    "kH":           { "min": 7, "max": 12 },
-    "salinity":     { "min": 1.018, "max": 1.026 }
+    "temperatureC": {
+      "min": 16,
+      "max": 28
+    },
+    "pH": {
+      "min": 7.8,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 7,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.018,
+      "max": 1.026
+    }
   },
-  "adultSizeCm":   { "min": 0.1, "max": 0.2 },
-  "lifespanYears": { "min": 0.08, "max": 0.5 },
+  "adultSizeCm": {
+    "min": 0.1,
+    "max": 0.2
+  },
+  "lifespanYears": {
+    "min": 0.08,
+    "max": 0.5
+  },
   "tank": {
-    "minVolumeLiters":  4,
-    "minLengthCm":      15,
-    "swimZone":         "all",
+    "minVolumeLiters": 4,
+    "minLengthCm": 15,
+    "swimZone": "all",
     "decorPreferences": [
       "bare-bottom culture container or jar (4-20 L)",
       "gentle aeration via airstone (large coarse bubbles, not fine)",
@@ -47,16 +75,16 @@
       "no copper or metal surfaces in contact with the culture water",
       "in display use, seed into a plumbed refugium with macroalgae and rubble where pods can reproduce shielded from predators"
     ],
-    "minSandDepthCm":   null
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
-    "type":  "herbivore",
+    "type": "herbivore",
     "notes": "Has been documented grazing on live single-celled microalgae (phytoplankton), bacterial biofilms, and fine organic detritus. Reported reliable culture foods include live Nannochloropsis, Tetraselmis, Isochrysis galbana, and diatom blends (e.g. OceanMagik, Phyto-Feast, Reef Nutrition phyto). Powdered spirulina is sometimes used as a supplement but generally advised only in trace amounts to avoid fouling. A common dosing guide is roughly 5-10 mL of concentrated phyto per ~75 L of culture water every other day, adjusted to keep the water faintly green between feedings."
   },
   "compatibility": {
-    "temperament":  "peaceful",
-    "grouping":     "shoaling",
+    "temperament": "peaceful",
+    "grouping": "shoaling",
     "minGroupSize": 100,
     "goodWith": [
       "monoculture container (no predators) for active culturing",
@@ -76,8 +104,8 @@
     ]
   },
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
+    "primaryImage": null,
+    "gallery": [],
     "imageCandidates": null
   },
   "summary": "A small red harpacticoid copepod native to Pacific splash pools, cultured commercially as a live food and refugium seed for reef aquariums. Generally considered one of the most useful pods for picky planktivores such as mandarins, pipefish, and leopard wrasses.",
@@ -86,60 +114,61 @@
   "sources": {
     "primary": {
       "name": "LiveAquaria",
-      "url":  "https://www.liveaquaria.com/",
+      "url": "https://www.liveaquaria.com/",
       "accessedDate": "2026-06-12",
       "notes": "Designated primary; LiveAquaria does not currently carry a Tigger Pods / Tigriopus californicus product page (search returned only unrelated fish results and direct product URL 404'd). Substituted AlgaeBarn Tig Pods product page as the functional primary source. URL retained for reviewer reference."
     },
     "additional": [
       {
         "name": "Reef2Reef Wiki - Tigger-Pods (Tigriopus californicus): addressing the cold water myth",
-        "url":  "https://www.reef2reef.com/wiki/",
+        "url": "https://www.reef2reef.com/wiki/",
         "accessedDate": "2026-06-12",
         "notes": "Designated secondary; the specific Reef2Reef article URL returned HTTP 403 Forbidden during this research run. Substituted AlgaeBarn, Reef Nutrition, Pod Your Reef, and Wikipedia as functional cross-sources. URL retained for reviewer reference."
       },
       {
         "name": "AlgaeBarn - Tig Pods (Tigriopus californicus)",
-        "url":  "https://www.algaebarn.com/shop/live-foods/copepods/tig-pods/",
+        "url": "https://www.algaebarn.com/shop/live-foods/copepods/tig-pods/",
         "accessedDate": "2026-06-12",
         "notes": "Functional primary substitute. Source for color (large red), splash-pool habitat tolerance (acidity, hypoxia, extreme temperatures), females laying hundreds of eggs, refugium and display seeding for mandarins/seahorses/anthias/wrasses/SPS/LPS/NPS corals/clams/filter feeders, recommended phyto feed (OceanMagik), and 3000+ pods per 16 oz bottle (mixed nauplii through adult sizes)."
       },
       {
         "name": "Reef Nutrition - Tigger-Pods (Tigriopus californicus)",
-        "url":  "https://reefnutrition.com/products/tiggerpods",
+        "url": "https://reefnutrition.com/products/tiggerpods",
         "accessedDate": "2026-06-12",
         "notes": "Confirmed trade-name origin (Reef Nutrition owns the 'Tigger-Pods' brand). Confirmed size class above 300 microns at packaging, primary diet of microalgae (Phyto-Feast), warm-water tolerance (warmer water increases metabolism and reproduction rate; pods do well in cool water too), refugium-thrives-without-predators guidance, hides in rockwork and macroalgae, and refrigerator storage up to ~2 weeks with cap popped open."
       },
       {
         "name": "Pod Your Reef - Tigriopus californicus Copepods: A Scientific and Practical Guide for Reef Aquarists",
-        "url":  "https://www.podyourreef.com/blogs/care/tigriopus-californicus-copepods-a-scientific-and-practical-guide-for-reef-aquarists",
+        "url": "https://www.podyourreef.com/blogs/care/tigriopus-californicus-copepods-a-scientific-and-practical-guide-for-reef-aquarists",
         "accessedDate": "2026-06-12",
         "notes": "Triangulation source for adult size 1-2 mm (up to 2.5-3 mm max), nauplii 70-150 microns, generation time ~1 month, brood cycle 8-12 days, optimal salinity SG 1.024-1.026 (tolerance 1.015-1.030+), euryhaline range to >100 ppt, optimal temperature low 60s to 80s F, diet (Isochrysis/Nannochloropsis/Tetraselmis/Chaetoceros/diatoms), refugium seeding protocol (lights off, pumps off 1-2 h, skimmer off, distribute into rockwork), copper kills pods, comparison to Tisbe and Apocyclops, nutritional profile (40-55% protein, high DHA/EPA, astaxanthin). Resolved cold-water-species myth in favor of broad-temperature culture."
       },
       {
         "name": "Wikipedia - Tigriopus californicus",
-        "url":  "https://en.wikipedia.org/wiki/Tigriopus_californicus",
+        "url": "https://en.wikipedia.org/wiki/Tigriopus_californicus",
         "accessedDate": "2026-06-12",
         "notes": "Taxonomy reference (family Harpacticidae, order Harpacticoida, class Copepoda). Native range central Baja California, Mexico to Alaska, USA. Habitat upper intertidal splash pools. Lifespan reported up to 6 months in laboratory conditions. Population densities ~800 copepods/L typical with dense pools reaching 20,000/L. Temperature extremes in habitat occasionally exceed 40 C."
       }
     ]
   },
-  "fish":         null,
+  "fish": null,
   "crustacean": {
-    "copperSensitive":            true,
-    "moltingFrequencyDays":       3,
-    "moltingNotes":               "As copepods, Tigriopus californicus molts repeatedly through six naupliar (N1-N6) and five copepodid (C1-C5) stages before reaching the adult (C6) stage. Each molt is closely spaced - generally on the order of every 1-3 days under warm, well-fed conditions - so the entire larval-to-adult sequence is typically completed in roughly 2-3 weeks. Shed exuviae are microscopic and contribute negligibly to the culture's particulate load. The reported 3-day value is a typical inter-stage interval; the cumulative development time from nauplius to reproductive adult is generally reported at around 3-4 weeks.",
-    "escapeRisk":                 "low",
-    "breedingDifficulty":         "easy",
-    "breedingNotes":              "Sexual reproduction with internal fertilization; females carry a single egg sac with a few dozen eggs per brood and release multiple successive broods. See top-level breedingNotes for full culture protocol.",
+    "copperSensitive": true,
+    "moltingFrequencyDays": 3,
+    "moltingNotes": "As copepods, Tigriopus californicus molts repeatedly through six naupliar (N1-N6) and five copepodid (C1-C5) stages before reaching the adult (C6) stage. Each molt is closely spaced - generally on the order of every 1-3 days under warm, well-fed conditions - so the entire larval-to-adult sequence is typically completed in roughly 2-3 weeks. Shed exuviae are microscopic and contribute negligibly to the culture's particulate load. The reported 3-day value is a typical inter-stage interval; the cumulative development time from nauplius to reproductive adult is generally reported at around 3-4 weeks.",
+    "escapeRisk": "low",
+    "breedingDifficulty": "easy",
+    "breedingNotes": "Sexual reproduction with internal fertilization; females carry a single egg sac with a few dozen eggs per brood and release multiple successive broods. See top-level breedingNotes for full culture protocol.",
     "speciesOnlyTankRecommended": true
   },
-  "coral":        null,
-  "mollusc":      null,
-  "echinoderm":   null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
   "other-invert": null,
-  "plant":        null,
-  "macroalgae":   null,
+  "amphibian": null,
+  "plant": null,
+  "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus":   "researched",
+  "dataStatus": "researched",
   "lastReviewed": "2026-06-12"
 }

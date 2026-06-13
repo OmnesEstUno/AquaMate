@@ -6,60 +6,87 @@
   "waterType": "freshwater",
   "commonName": "Crinum Thaianum",
   "scientificName": "Crinum thaianum",
-  "alsoKnownAs": ["Water Onion Plant", "Thai Onion Plant", "Onion Plant", "Thai Water Onion"],
+  "alsoKnownAs": [
+    "Water Onion Plant",
+    "Thai Onion Plant",
+    "Onion Plant",
+    "Thai Water Onion"
+  ],
   "category": "Bulb plant",
   "taxonomy": {
     "family": "Amaryllidaceae",
     "order": "Asparagales"
   },
   "nativeRange": {
-    "regions": ["Southeast Asia"],
-    "countries": ["Thailand"],
+    "regions": [
+      "Southeast Asia"
+    ],
+    "countries": [
+      "Thailand"
+    ],
     "habitat": "Endemic to flowing freshwater streams on the coastal plain of Ranong and Phang Nga Provinces in southern Thailand; bulbs anchor in sediment while long ribbon-like leaves trail in medium-to-fast current.",
     "biotope": "Stream",
-    "depthRangeM": { "min": 0.3, "max": 2 }
+    "depthRangeM": {
+      "min": 0.3,
+      "max": 2
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 28 },
-    "pH":           { "min": 6.0, "max": 7.5 },
-    "gH":           { "min": 4, "max": 18 },
-    "kH":           { "min": 3, "max": 12 },
-    "salinity":     null
+    "temperatureC": {
+      "min": 22,
+      "max": 28
+    },
+    "pH": {
+      "min": 6,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 4,
+      "max": 18
+    },
+    "kH": {
+      "min": 3,
+      "max": 12
+    },
+    "salinity": null
   },
-  "adultSizeCm":   { "min": 60, "max": 200 },
+  "adultSizeCm": {
+    "min": 60,
+    "max": 200
+  },
   "lifespanYears": null,
   "tank": {
-    "minVolumeLiters":  150,
-    "minLengthCm":      80,
-    "swimZone":         null,
+    "minVolumeLiters": 150,
+    "minLengthCm": 80,
+    "swimZone": null,
     "decorPreferences": [
       "nutrient-rich substrate (root tabs beneficial)",
       "deep substrate to anchor the bulb",
       "open background space for long trailing leaves",
       "tall tank or surface room for leaves that reach the waterline"
     ],
-    "minSandDepthCm":   5
+    "minSandDepthCm": 5
   },
   "careLevel": "beginner",
   "diet": null,
   "compatibility": {
-    "temperament":  "peaceful",
-    "grouping":     null,
+    "temperament": "peaceful",
+    "grouping": null,
     "minGroupSize": null,
-    "goodWith":     [
+    "goodWith": [
       "community fish",
       "herbivorous fish (leaves are tough and rarely eaten)",
       "cichlids that uproot softer plants",
       "goldfish setups"
     ],
-    "avoidWith":    [
+    "avoidWith": [
       "very small tanks where leaves cannot extend",
       "bulb-eating species"
     ]
   },
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
+    "primaryImage": null,
+    "gallery": [],
     "imageCandidates": null
   },
   "summary": "A large Thai bulb plant with long strap-like leaves that trail through the upper water column; generally considered easy and tolerant, but reaches 1 m or more and works as a dramatic background or specimen plant.",
@@ -68,48 +95,52 @@
   "sources": {
     "primary": {
       "name": "Tropica",
-      "url":  "https://tropica.com/en/plants/plantdetails/Crinumthaianum(093)/4537",
+      "url": "https://tropica.com/en/plants/plantdetails/Crinumthaianum(093)/4537",
       "accessedDate": "2026-06-11",
       "notes": "Primary source URL given by discovery agent was the Tropica search page; resolved to the species product page. Tropica rates lighting as low and care as easy."
     },
     "additional": [
       {
         "name": "Buce Plant",
-        "url":  "https://buceplant.com/products/crinum-thaianum-bulbs",
+        "url": "https://buceplant.com/products/crinum-thaianum-bulbs",
         "accessedDate": "2026-06-11",
         "notes": "Cross-checked lighting (rates moderate-to-high), CO2 (recommended), pH 6.0–7.5, max height ~60 inches, and confirmed background placement and the 'bury only part of the bulb' rule (states 1/3 above substrate)."
       },
       {
         "name": "Aqua-Fish.net",
-        "url":  "https://en.aqua-fish.net/plants/crinum-thaianum",
+        "url": "https://en.aqua-fish.net/plants/crinum-thaianum",
         "accessedDate": "2026-06-11",
         "notes": "Tertiary cross-check for water parameters: temperature 24–28 °C, pH 6.8–7.5, gH 4–18 dGH; confirms easy care level and daughter-bulb propagation."
       },
       {
         "name": "Wikipedia",
-        "url":  "https://en.wikipedia.org/wiki/Crinum_thaianum",
+        "url": "https://en.wikipedia.org/wiki/Crinum_thaianum",
         "accessedDate": "2026-06-11",
         "notes": "Taxonomy (Amaryllidaceae, Asparagales) and conservation status (IUCN Endangered, 2011; endemic to Ranong and Phang Nga Provinces, Thailand; ~1% of historical population remaining per the species article). Used for nativeRange and habitat prose only — Wikipedia is taxonomy fallback, not husbandry."
       }
     ]
   },
-  "fish":         null,
-  "crustacean":   null,
-  "coral":        null,
-  "mollusc":      null,
-  "echinoderm":   null,
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
   "other-invert": null,
+  "amphibian": null,
   "plant": {
-    "lighting":      "medium",
-    "co2":           "optional",
-    "growthRate":    "medium",
-    "placement":     "background",
-    "propagation":   ["daughter bulbs", "bulb division"],
-    "substrate":     "nutrient-rich",
+    "lighting": "medium",
+    "co2": "optional",
+    "growthRate": "medium",
+    "placement": "background",
+    "propagation": [
+      "daughter bulbs",
+      "bulb division"
+    ],
+    "substrate": "nutrient-rich",
     "fertilization": "moderate"
   },
-  "macroalgae":   null,
+  "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus":   "researched",
+  "dataStatus": "researched",
   "lastReviewed": "2026-06-11"
 }

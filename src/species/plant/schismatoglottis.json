@@ -6,27 +6,50 @@
   "waterType": "freshwater",
   "commonName": "Schismatoglottis",
   "scientificName": "Schismatoglottis roseospatha",
-  "alsoKnownAs": ["Roseo Schismatoglottis", "Schismatoglottis Roseospatha"],
+  "alsoKnownAs": [
+    "Roseo Schismatoglottis",
+    "Schismatoglottis Roseospatha"
+  ],
   "category": "Aroid (epiphyte)",
   "taxonomy": {
     "family": "Araceae",
     "order": "Alismatales"
   },
   "nativeRange": {
-    "regions": ["Southeast Asia", "Borneo"],
-    "countries": ["Malaysia"],
+    "regions": [
+      "Southeast Asia",
+      "Borneo"
+    ],
+    "countries": [
+      "Malaysia"
+    ],
     "habitat": "Rheophyte on rocks and stones along fast-flowing rainforest streams, rivers, and waterfalls",
     "biotope": "Stream",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 26 },
-    "pH":           { "min": 5.0, "max": 7.5 },
-    "gH":           { "min": 0, "max": 30 },
-    "kH":           { "min": 0, "max": 14 },
-    "salinity":     null
+    "temperatureC": {
+      "min": 22,
+      "max": 26
+    },
+    "pH": {
+      "min": 5,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 0,
+      "max": 30
+    },
+    "kH": {
+      "min": 0,
+      "max": 14
+    },
+    "salinity": null
   },
-  "adultSizeCm":   { "min": 5, "max": 15 },
+  "adultSizeCm": {
+    "min": 5,
+    "max": 15
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 40,
@@ -84,12 +107,16 @@
   "mollusc": null,
   "echinoderm": null,
   "other-invert": null,
+  "amphibian": null,
   "plant": {
     "lighting": "medium",
     "co2": "optional",
     "growthRate": "slow",
     "placement": "epiphyte",
-    "propagation": ["rhizome division", "lateral shoot separation"],
+    "propagation": [
+      "rhizome division",
+      "lateral shoot separation"
+    ],
     "substrate": "n/a",
     "fertilization": "low"
   },

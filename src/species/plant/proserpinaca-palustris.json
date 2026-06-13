@@ -6,33 +6,63 @@
   "waterType": "freshwater",
   "commonName": "Proserpinaca Palustris",
   "scientificName": "Proserpinaca palustris",
-  "alsoKnownAs": ["Mermaid Weed", "Marsh Mermaid Weed", "Proserpinaca palustris 'Cuba'"],
+  "alsoKnownAs": [
+    "Mermaid Weed",
+    "Marsh Mermaid Weed",
+    "Proserpinaca palustris 'Cuba'"
+  ],
   "category": "Stem plant",
   "taxonomy": {
     "family": "Haloragaceae",
     "order": "Saxifragales"
   },
   "nativeRange": {
-    "regions": ["North America", "Central America"],
-    "countries": ["United States", "Canada", "Cuba"],
+    "regions": [
+      "North America",
+      "Central America"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Cuba"
+    ],
     "habitat": "Marshes, swamps, pond margins, and slow-moving streams; emergent or fully submerged in shallow water.",
     "biotope": "Pond",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 20, "max": 28 },
-    "pH": { "min": 6.0, "max": 7.5 },
-    "gH": { "min": 0, "max": 12 },
-    "kH": { "min": 0, "max": 8 },
+    "temperatureC": {
+      "min": 20,
+      "max": 28
+    },
+    "pH": {
+      "min": 6,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 0,
+      "max": 12
+    },
+    "kH": {
+      "min": 0,
+      "max": 8
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 10, "max": 30 },
+  "adultSizeCm": {
+    "min": 10,
+    "max": 30
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 60,
     "minLengthCm": 60,
     "swimZone": null,
-    "decorPreferences": ["nutrient-rich substrate", "open space for stem groups", "bright overhead lighting"],
+    "decorPreferences": [
+      "nutrient-rich substrate",
+      "open space for stem groups",
+      "bright overhead lighting"
+    ],
     "minSandDepthCm": null
   },
   "careLevel": "intermediate",
@@ -79,12 +109,16 @@
   "mollusc": null,
   "echinoderm": null,
   "other-invert": null,
+  "amphibian": null,
   "plant": {
     "lighting": "high",
     "co2": "recommended",
     "growthRate": "medium",
     "placement": "background",
-    "propagation": ["stem cuttings", "lateral side shoots"],
+    "propagation": [
+      "stem cuttings",
+      "lateral side shoots"
+    ],
     "substrate": "nutrient-rich",
     "fertilization": "heavy"
   },

@@ -16,20 +16,38 @@
     "order": "Myrtales"
   },
   "nativeRange": {
-    "regions": ["Southeast Asia", "South Asia"],
+    "regions": [
+      "Southeast Asia",
+      "South Asia"
+    ],
     "countries": [],
     "habitat": "Slow-moving streams, marshes, and rice paddies of South and Southeast Asia. Submersed growth produces fine needle-like leaves arranged in dense whorls around slender stems; emersed leaves are smaller and less colorful.",
     "biotope": "Marsh / paddy",
     "depthRangeM": null
   },
   "waterParameters": {
-    "temperatureC": { "min": 18, "max": 28 },
-    "pH": { "min": 6.0, "max": 7.5 },
-    "gH": { "min": 1, "max": 8 },
-    "kH": { "min": 0, "max": 6 },
+    "temperatureC": {
+      "min": 18,
+      "max": 28
+    },
+    "pH": {
+      "min": 6,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 1,
+      "max": 8
+    },
+    "kH": {
+      "min": 0,
+      "max": 6
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 20, "max": 40 },
+  "adultSizeCm": {
+    "min": 20,
+    "max": 40
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 75,
@@ -97,12 +115,16 @@
   "mollusc": null,
   "echinoderm": null,
   "other-invert": null,
+  "amphibian": null,
   "plant": {
     "lighting": "high",
     "co2": "recommended",
     "growthRate": "fast",
     "placement": "background",
-    "propagation": ["stem cuttings", "lateral shoots"],
+    "propagation": [
+      "stem cuttings",
+      "lateral shoots"
+    ],
     "substrate": "nutrient-rich",
     "fertilization": "heavy"
   },

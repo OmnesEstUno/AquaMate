@@ -6,52 +6,93 @@
   "waterType": "freshwater",
   "commonName": "Aponogeton Crispus",
   "scientificName": "Aponogeton crispus",
-  "alsoKnownAs": ["Crinkled Aponogeton", "Crinkled Onion Plant", "Curly Water Pond", "Wavy-leaved Aponogeton"],
+  "alsoKnownAs": [
+    "Crinkled Aponogeton",
+    "Crinkled Onion Plant",
+    "Curly Water Pond",
+    "Wavy-leaved Aponogeton"
+  ],
   "category": "Freshwater Plant",
   "taxonomy": {
     "family": "Aponogetonaceae",
     "order": "Alismatales"
   },
   "nativeRange": {
-    "regions": ["South Asia"],
-    "countries": ["Sri Lanka"],
+    "regions": [
+      "South Asia"
+    ],
+    "countries": [
+      "Sri Lanka"
+    ],
     "habitat": "Slow-moving streams, ponds, and seasonal pools that may dry out periodically.",
     "biotope": "Stream",
-    "depthRangeM": { "min": 0, "max": 2 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 2
+    }
   },
   "waterParameters": {
-    "temperatureC":  { "min": 22, "max": 28 },
-    "pH":            { "min": 6.0, "max": 7.5 },
-    "gH":            { "min": 2,   "max": 12 },
-    "kH":            { "min": 2,   "max": 10 },
-    "salinity":      null
+    "temperatureC": {
+      "min": 22,
+      "max": 28
+    },
+    "pH": {
+      "min": 6,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 2,
+      "max": 12
+    },
+    "kH": {
+      "min": 2,
+      "max": 10
+    },
+    "salinity": null
   },
-  "adultSizeCm":   { "min": 30, "max": 50 },
-  "lifespanYears": { "min": 3,  "max": 8  },
+  "adultSizeCm": {
+    "min": 30,
+    "max": 50
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 8
+  },
   "tank": {
-    "minVolumeLiters":  120,
-    "minLengthCm":      80,
-    "swimZone":         null,
+    "minVolumeLiters": 120,
+    "minLengthCm": 80,
+    "swimZone": null,
     "decorPreferences": [
       "nutrient-rich substrate (aquasoil or root tabs)",
       "fine gravel or sand with bulb planted on top, not buried",
       "open background area with vertical clearance for long leaves",
       "soft, slightly acidic water"
     ],
-    "minSandDepthCm":   4
+    "minSandDepthCm": 4
   },
   "careLevel": "beginner",
   "diet": null,
   "compatibility": {
-    "temperament":  "peaceful",
-    "grouping":     "solitary",
+    "temperament": "peaceful",
+    "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith":     ["community fish", "shrimp", "snails", "tetras", "rasboras", "corydoras"],
-    "avoidWith":    ["goldfish", "large cichlids", "plant-eating fish such as silver dollars or buenos aires tetras"]
+    "goodWith": [
+      "community fish",
+      "shrimp",
+      "snails",
+      "tetras",
+      "rasboras",
+      "corydoras"
+    ],
+    "avoidWith": [
+      "goldfish",
+      "large cichlids",
+      "plant-eating fish such as silver dollars or buenos aires tetras"
+    ]
   },
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
+    "primaryImage": null,
+    "gallery": [],
     "imageCandidates": null
   },
   "summary": "Sri Lankan bulb plant with distinctive crinkled, wavy, semi-transparent green leaves. Generally considered an easy background or specimen plant for medium to large tanks.",
@@ -60,31 +101,31 @@
   "sources": {
     "primary": {
       "name": "Tropica",
-      "url":  "https://tropica.com/en/plants/plantdetails/Aponogetoncrispus(083)/4531",
+      "url": "https://tropica.com/en/plants/plantdetails/Aponogetoncrispus(083)/4531",
       "accessedDate": "2026-06-11"
     },
     "additional": [
       {
         "name": "Aquarium Co-Op",
-        "url":  "https://www.aquariumcoop.com/collections/live-aquarium-plants/products/aponogeton-crispus",
+        "url": "https://www.aquariumcoop.com/collections/live-aquarium-plants/products/aponogeton-crispus",
         "accessedDate": "2026-06-11",
         "notes": "Confirmed bulb-planting guidance (do not fully bury), hardy/easy care rating, and dormancy/regrowth behaviour."
       },
       {
         "name": "Aqua-Fish.net",
-        "url":  "https://en.aqua-fish.net/plants/aponogeton-crispus-large",
+        "url": "https://en.aqua-fish.net/plants/aponogeton-crispus-large",
         "accessedDate": "2026-06-11",
         "notes": "Cross-checked sizing (25-50 cm), temperature (22-28 °C), pH (6.5-7.5), gH (2-12 dGH), and dormancy behaviour."
       },
       {
         "name": "Gensou Premium Aquascaping",
-        "url":  "https://gensou.sg/aponogeton-crispus-care-guide/",
+        "url": "https://gensou.sg/aponogeton-crispus-care-guide/",
         "accessedDate": "2026-06-11",
         "notes": "Cross-checked native range (endemic Sri Lanka), 30-50 cm height, pH 6.0-7.5, gH 2-12, fast growth, dormancy optional in tropical tanks, propagation by seeds or daughter bulbs."
       },
       {
         "name": "Buce Plant",
-        "url":  "https://buceplant.com/products/aponogeton-crispus",
+        "url": "https://buceplant.com/products/aponogeton-crispus",
         "accessedDate": "2026-06-11",
         "notes": "Cross-checked family (Aponogetonaceae), Sri Lanka origin, background placement, fast growth. Listed pH 5-6.5 (lower than other sources); averaged with majority."
       }
@@ -96,13 +137,17 @@
   "mollusc": null,
   "echinoderm": null,
   "other-invert": null,
+  "amphibian": null,
   "plant": {
-    "lighting":      "medium",
-    "co2":           "optional",
-    "growthRate":    "fast",
-    "placement":     "background",
-    "propagation":   ["seeds (flower spike, self-pollinating)", "daughter bulb division"],
-    "substrate":     "nutrient-rich",
+    "lighting": "medium",
+    "co2": "optional",
+    "growthRate": "fast",
+    "placement": "background",
+    "propagation": [
+      "seeds (flower spike, self-pollinating)",
+      "daughter bulb division"
+    ],
+    "substrate": "nutrient-rich",
     "fertilization": "moderate"
   },
   "macroalgae": null,

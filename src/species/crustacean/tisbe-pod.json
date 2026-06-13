@@ -19,25 +19,55 @@
     "order": "Harpacticoida"
   },
   "nativeRange": {
-    "regions": ["Tropical and subtropical Atlantic", "Caribbean", "Cosmopolitan in warm coastal waters"],
-    "countries": ["Bahamas", "Brazil", "United States", "Mexico"],
+    "regions": [
+      "Tropical and subtropical Atlantic",
+      "Caribbean",
+      "Cosmopolitan in warm coastal waters"
+    ],
+    "countries": [
+      "Bahamas",
+      "Brazil",
+      "United States",
+      "Mexico"
+    ],
     "habitat": "Shallow tropical and subtropical coastal waters, including coral reef flats, lagoons, mangrove sediments, and macroalgal beds. Lives epibenthically on sand, crushed coral rubble, live rock, and macroalgae, grazing on biofilms and detritus on the substrate surface.",
     "biotope": "Coastal reef and lagoon benthos",
-    "depthRangeM": { "min": 0, "max": 30 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 30
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 29 },
-    "pH":           { "min": 8.0, "max": 8.4 },
-    "gH":           null,
-    "kH":           { "min": 8, "max": 12 },
-    "salinity":     { "min": 1.020, "max": 1.026 }
+    "temperatureC": {
+      "min": 22,
+      "max": 29
+    },
+    "pH": {
+      "min": 8,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.026
+    }
   },
-  "adultSizeCm":   { "min": 0.05, "max": 0.1 },
-  "lifespanYears": { "min": 0.04, "max": 0.08 },
+  "adultSizeCm": {
+    "min": 0.05,
+    "max": 0.1
+  },
+  "lifespanYears": {
+    "min": 0.04,
+    "max": 0.08
+  },
   "tank": {
-    "minVolumeLiters":  4,
-    "minLengthCm":      20,
-    "swimZone":         "bottom",
+    "minVolumeLiters": 4,
+    "minLengthCm": 20,
+    "swimZone": "bottom",
     "decorPreferences": [
       "bare-bottom or fine-substrate culture container",
       "pod hotels, coarse filter floss bundles, or scrubber mat for crawl surface",
@@ -46,16 +76,16 @@
       "ambient or low-to-moderate lighting",
       "no copper or zinc surfaces in contact with culture water"
     ],
-    "minSandDepthCm":   null
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
-    "type":  "detritivore",
+    "type": "detritivore",
     "notes": "Benthic grazer that has been documented eating bacterial biofilms, benthic microalgae (especially diatoms such as Thalassiosira spp.), detritus, and leftover fish food on substrate, rocks, and tank panels. In culture, generally advised to feed live phytoplankton (Nannochloropsis, Isochrysis, Tetraselmis or commercial reef phyto blends) for essential fatty acids (DHA, EPA) needed for egg production, supplemented by inert powdered diets such as commercial copepod-culture rations. Prefers settled benthic food over suspended particles."
   },
   "compatibility": {
-    "temperament":  "peaceful",
-    "grouping":     "shoaling",
+    "temperament": "peaceful",
+    "grouping": "shoaling",
     "minGroupSize": 1000,
     "goodWith": [
       "monoculture in dedicated culture container, or seeded into refugia and display reef tanks",
@@ -71,8 +101,8 @@
     ]
   },
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
+    "primaryImage": null,
+    "gallery": [],
     "imageCandidates": null
   },
   "summary": "A small, warm-water benthic harpacticoid copepod widely cultured for reef refugia and as a live food for picky planktivores. Generally considered smaller and more crevice-dwelling than Tigriopus, making it an effective biological cleaner and a sustaining in-tank pod population.",
@@ -81,60 +111,61 @@
   "sources": {
     "primary": {
       "name": "LiveAquaria",
-      "url":  "https://www.liveaquaria.com/",
+      "url": "https://www.liveaquaria.com/",
       "accessedDate": "2026-06-12",
       "notes": "Designated primary did not surface a species-specific product page for Tisbe biminiensis during this research run (homepage only). Substituted AlgaeBarn's Tisbe biminiensis blog as functional primary; URL retained for reviewer reference."
     },
     "additional": [
       {
         "name": "Reef2Reef Wiki",
-        "url":  "https://www.reef2reef.com/wiki/",
+        "url": "https://www.reef2reef.com/wiki/",
         "accessedDate": "2026-06-12",
         "notes": "Designated secondary returned HTTP 403 Forbidden during this research run; substituted Pod Your Reef's Tisbe biminiensis complete guide as functional secondary. URL retained for reviewer reference."
       },
       {
         "name": "AlgaeBarn - A Closer Look at the Harpacticoid Copepod Tisbe biminiensis",
-        "url":  "https://www.algaebarn.com/blog/copepods/a-closer-look-at-the-harpacticoid-copepod-tisbe-biminiensis/",
+        "url": "https://www.algaebarn.com/blog/copepods/a-closer-look-at-the-harpacticoid-copepod-tisbe-biminiensis/",
         "accessedDate": "2026-06-12",
         "notes": "Functional primary substitute. Source for biology (benthic grazer, bacterial films + diatoms + detritus), brood structure (~9 broods per female, ~2 days between broods, ~7-10 days to first brood), reproductive ceiling (>67,000 individuals/L), substrate flexibility (sand, crushed coral, bare bottoms), ecological niche (epifaunal harpacticoid), and tropical/subtropical distribution."
       },
       {
         "name": "Pod Your Reef - Tisbe biminiensis Complete Guide",
-        "url":  "https://www.podyourreef.com/blogs/care/tisbe-biminiensis-a-complete-guide-for-reef-aquarists-and-researchers",
+        "url": "https://www.podyourreef.com/blogs/care/tisbe-biminiensis-a-complete-guide-for-reef-aquarists-and-researchers",
         "accessedDate": "2026-06-12",
         "notes": "Functional secondary. Cross-confirmed adult size 0.5-0.75 mm (max ~1 mm) and nauplii 50-75 µm, lifespan 2-4 weeks, reef salinity 1.025-1.030 SG (down to ~20 ppt tolerance), tropical/Caribbean origin (species named for Bimini, Bahamas), and 8-10 broods per female."
       },
       {
         "name": "AlgaGen - Tisbe Copepods Care: Temperature & Feeding",
-        "url":  "https://algagen.com/blogs/copepods/tisbe-copepods-care-temperature-feeding",
+        "url": "https://algagen.com/blogs/copepods/tisbe-copepods-care-temperature-feeding",
         "accessedDate": "2026-06-12",
         "notes": "Cross-confirmed temperature 22-25°C (72-78°F) optimum with reproductive peak at upper end, salinity 1.020-1.026 SG, extreme copper sensitivity, pod-hotel/floss culture structure, and feeding (live phyto + diatoms + biofilm + detritus). Also flagged risk of rapid temperature swings."
       },
       {
         "name": "Souza-Santos et al. 2006 - Developing the harpacticoid copepod Tisbe biminiensis culture (Aquaculture Research / Wiley)",
-        "url":  "https://onlinelibrary.wiley.com/doi/10.1111/j.1365-2109.2006.01586.x",
+        "url": "https://onlinelibrary.wiley.com/doi/10.1111/j.1365-2109.2006.01586.x",
         "accessedDate": "2026-06-12",
         "notes": "Peer-reviewed aquaculture triangulation source. Mass culture at 29°C, salinity 34 g/L (SG ~1.025), 12L:12D photoperiod, water renewal every other day; salinity tolerance from 34 down to 27 g/L with reduced offspring, no tolerance at 20 g/L. Confirms 50-100% copepodite-biomass daily ration as optimal feeding rate. Also corroborates SaltwaterAquarium.com / AlgaeBarn product-page consumer list (mandarins, seahorses, anthias, wrasses, SPS/LPS/NPS corals, clams)."
       }
     ]
   },
-  "fish":         null,
+  "fish": null,
   "crustacean": {
-    "copperSensitive":            true,
-    "moltingFrequencyDays":       3,
-    "moltingNotes":               "Harpacticoid copepods molt through six naupliar (N1-N6) and five copepodite (C1-C5) stages before reaching adult (C6) form, with each stage lasting roughly 1-3 days at 25-29°C. Shed exoskeletons are microscopic and contribute to the detrital pool the population grazes; widely considered normal and not a sign of trouble.",
-    "escapeRisk":                 "low",
-    "breedingDifficulty":         "easy",
-    "breedingNotes":              "Sexual reproduction; females carry paired egg sacs that hatch into planktonic nauplii. See top-level breedingNotes for the full culture protocol.",
+    "copperSensitive": true,
+    "moltingFrequencyDays": 3,
+    "moltingNotes": "Harpacticoid copepods molt through six naupliar (N1-N6) and five copepodite (C1-C5) stages before reaching adult (C6) form, with each stage lasting roughly 1-3 days at 25-29°C. Shed exoskeletons are microscopic and contribute to the detrital pool the population grazes; widely considered normal and not a sign of trouble.",
+    "escapeRisk": "low",
+    "breedingDifficulty": "easy",
+    "breedingNotes": "Sexual reproduction; females carry paired egg sacs that hatch into planktonic nauplii. See top-level breedingNotes for the full culture protocol.",
     "speciesOnlyTankRecommended": true
   },
-  "coral":        null,
-  "mollusc":      null,
-  "echinoderm":   null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
   "other-invert": null,
-  "plant":        null,
-  "macroalgae":   null,
+  "amphibian": null,
+  "plant": null,
+  "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus":   "researched",
+  "dataStatus": "researched",
   "lastReviewed": "2026-06-12"
 }

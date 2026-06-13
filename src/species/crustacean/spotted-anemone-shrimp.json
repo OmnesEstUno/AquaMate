@@ -18,7 +18,11 @@
     "order": "Decapoda"
   },
   "nativeRange": {
-    "regions": ["Caribbean", "Western Atlantic", "Gulf of Mexico"],
+    "regions": [
+      "Caribbean",
+      "Western Atlantic",
+      "Gulf of Mexico"
+    ],
     "countries": [
       "United States (Florida)",
       "Bahamas",
@@ -31,21 +35,42 @@
     ],
     "habitat": "Tropical coral reefs and associated reef-flat habitats in the western Atlantic. Generally found in association with sea anemones — most commonly Condylactis gigantea (Atlantic giant anemone) and Bartholomea annulata (corkscrew anemone), but also reported with Lebrunia spp., Stichodactyla helianthus, and the upside-down jellyfish Cassiopea xamachana.",
     "biotope": "Reef",
-    "depthRangeM": { "min": 3, "max": 24 }
+    "depthRangeM": {
+      "min": 3,
+      "max": 24
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 27 },
-    "pH":           { "min": 8.1, "max": 8.4 },
-    "gH":           null,
-    "kH":           { "min": 8, "max": 12 },
-    "salinity":     { "min": 1.022, "max": 1.025 }
+    "temperatureC": {
+      "min": 24,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.022,
+      "max": 1.025
+    }
   },
-  "adultSizeCm":   { "min": 2, "max": 2.5 },
-  "lifespanYears": { "min": 1, "max": 2 },
+  "adultSizeCm": {
+    "min": 2,
+    "max": 2.5
+  },
+  "lifespanYears": {
+    "min": 1,
+    "max": 2
+  },
   "tank": {
-    "minVolumeLiters":  75,
-    "minLengthCm":      60,
-    "swimZone":         "bottom",
+    "minVolumeLiters": 75,
+    "minLengthCm": 60,
+    "swimZone": "bottom",
     "decorPreferences": [
       "established live rock with crevices and overhangs",
       "a host anemone (Condylactis gigantea preferred; Bartholomea annulata, Lebrunia spp. also accepted)",
@@ -53,7 +78,7 @@
       "stable sand or fine-rubble bed",
       "shaded retreats for molting safety"
     ],
-    "minSandDepthCm":   null
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -61,17 +86,17 @@
     "notes": "In the wild, functions partly as a cleaner — picking parasites, dead tissue, and mucus from passing reef fish — and partly as a scavenger feeding on detritus and small invertebrates around its host anemone. In captivity, generally accepts a wide range of prepared foods including frozen mysis, brine shrimp, finely chopped seafood, pellets, and flakes. Has been reported to take food 2-3 times per week and benefits from small, varied portions rather than infrequent large feedings."
   },
   "compatibility": {
-    "temperament":  "peaceful",
-    "grouping":     "pair",
+    "temperament": "peaceful",
+    "grouping": "pair",
     "minGroupSize": 1,
-    "goodWith":     [
+    "goodWith": [
       "host anemones (Condylactis gigantea, Bartholomea annulata, Lebrunia spp.)",
       "peaceful reef fish that may visit for cleaning",
       "snails and small hermit crabs",
       "other peaceful cleaner shrimp (Lysmata spp.) when ample space is available",
       "small reef-safe gobies and blennies"
     ],
-    "avoidWith":    [
+    "avoidWith": [
       "arrow crabs (Stenorhynchus seticornis) — known shrimp predators",
       "coral banded shrimp (Stenopus hispidus) — territorial toward other shrimp",
       "clownfish — may harass anemone-associated shrimp on the host",
@@ -80,8 +105,8 @@
     ]
   },
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
+    "primaryImage": null,
+    "gallery": [],
     "imageCandidates": null
   },
   "summary": "A small, brightly patterned Caribbean cleaner shrimp that lives commensally with anemones — most often the Atlantic giant anemone (Condylactis gigantea). Generally considered reef-safe and peaceful.",
@@ -90,7 +115,7 @@
   "sources": {
     "primary": {
       "name": "Aquarium Breeder — Periclimenes yucatanicus Detailed Guide",
-      "url":  "https://aquariumbreeder.com/periclimenes-yucatanicus-detailed-guide-care-diet-and-breeding/",
+      "url": "https://aquariumbreeder.com/periclimenes-yucatanicus-detailed-guide-care-diet-and-breeding/",
       "accessedDate": "2026-06-12",
       "notes": "Dedicated species guide covering water parameters, diet, host anemones, tank size, and breeding. Used as primary per controller assignment."
     },
@@ -117,21 +142,22 @@
   },
   "fish": null,
   "crustacean": {
-    "copperSensitive":            true,
-    "moltingFrequencyDays":       null,
-    "moltingNotes":               "Sources do not give a typical molt interval. Magnesium and iodine are commonly cited as important for healthy molting; weekly trace-element dosing or routine reef-grade water changes generally cover this. Old exoskeletons are normally left in the tank for calcium reuptake, and hiding places (live rock crevices, the host anemone's tentacle column) are reported to be critical during the vulnerable post-molt window.",
-    "escapeRisk":                 "moderate",
-    "breedingDifficulty":         "difficult",
-    "breedingNotes":              "Has been reported to breed in captivity. Females carry 100-200 eggs; larvae are generally understood to be planktonic and require very fine food and stable parameters in a dedicated larval tank to survive.",
+    "copperSensitive": true,
+    "moltingFrequencyDays": null,
+    "moltingNotes": "Sources do not give a typical molt interval. Magnesium and iodine are commonly cited as important for healthy molting; weekly trace-element dosing or routine reef-grade water changes generally cover this. Old exoskeletons are normally left in the tank for calcium reuptake, and hiding places (live rock crevices, the host anemone's tentacle column) are reported to be critical during the vulnerable post-molt window.",
+    "escapeRisk": "moderate",
+    "breedingDifficulty": "difficult",
+    "breedingNotes": "Has been reported to breed in captivity. Females carry 100-200 eggs; larvae are generally understood to be planktonic and require very fine food and stable parameters in a dedicated larval tank to survive.",
     "speciesOnlyTankRecommended": false
   },
-  "coral":        null,
-  "mollusc":      null,
-  "echinoderm":   null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
   "other-invert": null,
-  "plant":        null,
-  "macroalgae":   null,
+  "amphibian": null,
+  "plant": null,
+  "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus":   "researched",
+  "dataStatus": "researched",
   "lastReviewed": "2026-06-12"
 }

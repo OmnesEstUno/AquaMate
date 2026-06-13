@@ -4,7 +4,6 @@
   "kind": "fauna",
   "taxon": "crustacean",
   "waterType": "saltwater",
-
   "commonName": "Peacock Mantis Shrimp",
   "scientificName": "Odontodactylus scyllarus",
   "alsoKnownAs": [
@@ -15,57 +14,80 @@
     "Smashing Mantis Shrimp"
   ],
   "category": "Mantis Shrimp",
-
   "taxonomy": {
     "family": "Odontodactylidae",
     "order": "Stomatopoda"
   },
-
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Indo-West Pacific"],
-    "countries": ["Indonesia", "Philippines", "Australia", "Japan", "South Africa", "Guam"],
+    "regions": [
+      "Indo-Pacific",
+      "Indo-West Pacific"
+    ],
+    "countries": [
+      "Indonesia",
+      "Philippines",
+      "Australia",
+      "Japan",
+      "South Africa",
+      "Guam"
+    ],
     "habitat": "Constructs U-shaped burrows in loose substrate at the bases of coral reefs and adjacent rubble flats.",
     "biotope": "Reef",
-    "depthRangeM": { "min": 3, "max": 40 }
+    "depthRangeM": {
+      "min": 3,
+      "max": 40
+    }
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 26 },
-    "pH":           { "min": 8.1, "max": 8.4 },
-    "gH":           null,
-    "kH":           { "min": 8, "max": 12 },
-    "salinity":     { "min": 1.023, "max": 1.026 }
+    "temperatureC": {
+      "min": 23,
+      "max": 26
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.023,
+      "max": 1.026
+    }
   },
-
-  "adultSizeCm":   { "min": 7, "max": 18 },
-  "lifespanYears": { "min": 3, "max": 6 },
-
+  "adultSizeCm": {
+    "min": 7,
+    "max": 18
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 6
+  },
   "tank": {
-    "minVolumeLiters":  150,
-    "minLengthCm":      90,
-    "swimZone":         "bottom",
+    "minVolumeLiters": 150,
+    "minLengthCm": 90,
+    "swimZone": "bottom",
     "decorPreferences": [
       "deep sand bed with mixed grain size",
       "coral rubble and small rocks for burrow construction",
       "live rock structure with caves and overhangs",
       "acrylic tank strongly preferred over glass to mitigate dactyl-strike damage"
     ],
-    "minSandDepthCm":   8
+    "minSandDepthCm": 8
   },
-
   "careLevel": "intermediate",
-
   "diet": {
     "type": "carnivore",
     "notes": "Voracious predator that has been documented feeding on hard-shelled prey such as snails, hermit crabs, clams, and small crustaceans. In captivity it generally takes thawed shrimp, mussel, clam, prawn, and small whole fish; occasional live shelled prey (e.g. small snails or fiddler crabs) gives the dactyls a workout and helps prevent under-use of the smashing apparatus."
   },
-
   "compatibility": {
-    "temperament":  "aggressive",
-    "grouping":     "solitary",
+    "temperament": "aggressive",
+    "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith":     [],
-    "avoidWith":    [
+    "goodWith": [],
+    "avoidWith": [
       "all fish",
       "all other crustaceans",
       "snails and bivalves",
@@ -73,71 +95,65 @@
       "anything edible or strike-reachable"
     ]
   },
-
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
+    "primaryImage": null,
+    "gallery": [],
     "imageCandidates": null
   },
-
   "summary": "A famous 'smasher' stomatopod with hypersonic club-shaped raptorial appendages and elaborate multicolored carapace. Generally advised to be kept in a dedicated species-only tank (acrylic recommended) as it will hunt virtually any tankmate and has been known to crack glass.",
-
   "careNotes": "Peacock Mantis Shrimp is one of the most charismatic invertebrates in the hobby, but it is best treated as a single-occupant centerpiece animal. Its raptorial dactyls accelerate at over 100,000 m/s² and have been measured at strike speeds around 80 km/h, generating cavitation bubbles and forces around 1,500 N — enough to crack thin aquarium glass and routinely destroy any animal it can reach. A species-only setup is strongly recommended; an acrylic tank (or notably thick glass, around 12 mm or more) is the safer choice. Provide a deep sand bed (around 8 cm or more) with mixed grain size plus coral rubble and live rock so the shrimp can excavate U-shaped burrows. Tank-size guidance varies widely between sources: retailer guides have cited 10–20 gallon setups while specialty care guides recommend 100–150 L or more for full-grown adults; given that adults reach roughly 18 cm and are highly active when out of the burrow, 150 L with a long footprint is a more sustainable minimum. Reef-safety is poor in practice: while it does not actively eat corals, it has been reported to dislodge or smash frags during burrow construction and will eat ornamental shrimp, crabs, snails, and small fish. The species is highly intelligent — keepers report recognition of the feeder, problem-solving with shelled prey, and tool-like manipulation of rubble. As a crustacean it is sensitive to copper-based medications and to swings in salinity and temperature; quarantine the display rather than treating the shrimp directly.",
-
   "breedingNotes": "Rarely bred in home aquaria. The species is generally solitary outside of brief mating encounters, and pairing two adults in a typical tank usually results in one killing the other. Females have been observed carrying egg masses in their burrows and demonstrating maternal care, but successful captive rearing of larvae through their planktonic stages has not been reliably reported in the hobby literature.",
-
   "sources": {
     "primary": {
       "name": "Aqua Imports",
-      "url":  "https://www.aqua-imports.com/product/peacock-mantis-shrimp/",
+      "url": "https://www.aqua-imports.com/product/peacock-mantis-shrimp/",
       "accessedDate": "2026-06-12",
       "notes": "Stated SG-equivalent salinity 35 ppt (converted to ~1.026 SG), temperature 74-78F (23.3-25.6C), pH 8.2-8.4, adult size up to 7 inches (~18 cm)."
     },
     "additional": [
       {
         "name": "Reeflings species guide",
-        "url":  "https://reeflings.com/species/odontodactylus-scyllarus",
+        "url": "https://reeflings.com/species/odontodactylus-scyllarus",
         "accessedDate": "2026-06-12",
         "notes": "Cross-checked sizing (18 cm), temperature (22-26C), pH (8.1-8.4), SG (1.023-1.025), minimum tank 150 L / 40 gal, family Odontodactylidae order Stomatopoda. Substituted for Reef2Reef Wiki, which returned HTTP 403."
       },
       {
         "name": "Wikipedia: Odontodactylus scyllarus",
-        "url":  "https://en.wikipedia.org/wiki/Odontodactylus_scyllarus",
+        "url": "https://en.wikipedia.org/wiki/Odontodactylus_scyllarus",
         "accessedDate": "2026-06-12",
         "notes": "Used for taxonomy (Family Odontodactylidae, Order Stomatopoda), wild size range (3-18 cm), depth (3-40 m), strike biomechanics, and native range confirmation. Taxonomy fallback only — not used for husbandry."
       },
       {
         "name": "Bulk Reef Supply: How to Set Up a Mantis Shrimp Tank",
-        "url":  "https://www.bulkreefsupply.com/content/post/md-2020-12-how-to-set-up-a-mantis-shrimp-tank",
+        "url": "https://www.bulkreefsupply.com/content/post/md-2020-12-how-to-set-up-a-mantis-shrimp-tank",
         "accessedDate": "2026-06-12",
         "notes": "Cross-checked decor and substrate guidance (deep mixed-grain sand bed, coral rubble, live rock); cited 10 gal as a minimum for small specimens, which conflicts with Reeflings' 150 L recommendation."
       },
       {
         "name": "Reef App Encyclopedia: Odontodactylus scyllarus",
-        "url":  "https://reefapp.net/en/encyclopedia/odontodactylus-scyllarus",
+        "url": "https://reefapp.net/en/encyclopedia/odontodactylus-scyllarus",
         "accessedDate": "2026-06-12",
         "notes": "Confirmed adult size ~18 cm, salinity ~1.026 SG, 'reef safe with caution', smasher classification; cited a 100 L minimum tank — averaged with Reeflings (150 L) for the cautious-but-realistic 150 L recommendation."
       }
     ]
   },
-
   "fish": null,
   "crustacean": {
-    "copperSensitive":            true,
-    "moltingFrequencyDays":       null,
-    "moltingNotes":               "Like other stomatopods, Peacock Mantis Shrimp seal themselves into their burrow during the molt and remain hidden until the new exoskeleton hardens. Keepers commonly assume the animal has died when it disappears for several days; do not disturb. The dactyl clubs are also shed and regenerate harder over successive molts.",
-    "escapeRisk":                 "moderate",
-    "breedingDifficulty":         "not in captivity",
-    "breedingNotes":              "Pairing adults is risky; captive larval rearing through the planktonic phase has not been reliably documented in the hobby.",
+    "copperSensitive": true,
+    "moltingFrequencyDays": null,
+    "moltingNotes": "Like other stomatopods, Peacock Mantis Shrimp seal themselves into their burrow during the molt and remain hidden until the new exoskeleton hardens. Keepers commonly assume the animal has died when it disappears for several days; do not disturb. The dactyl clubs are also shed and regenerate harder over successive molts.",
+    "escapeRisk": "moderate",
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "Pairing adults is risky; captive larval rearing through the planktonic phase has not been reliably documented in the hobby.",
     "speciesOnlyTankRecommended": true
   },
   "coral": null,
   "mollusc": null,
   "echinoderm": null,
   "other-invert": null,
+  "amphibian": null,
   "plant": null,
   "macroalgae": null,
-
   "schemaVersion": 1,
   "dataStatus": "researched",
   "lastReviewed": "2026-06-12"

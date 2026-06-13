@@ -8,72 +8,93 @@
   "scientificName": "Halymenia elongata",
   "alsoKnownAs": [],
   "category": "Macroalgae",
-
   "taxonomy": {
     "family": "Halymeniaceae",
     "order": "Halymeniales"
   },
-
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Tropical Atlantic"],
+    "regions": [
+      "Indo-Pacific",
+      "Tropical Atlantic"
+    ],
     "countries": [],
     "habitat": "Rocky subtidal reef environments; grows on hard substrate within the photic zone",
     "biotope": "Reef",
-    "depthRangeM": { "min": 1, "max": 30 }
+    "depthRangeM": {
+      "min": 1,
+      "max": 30
+    }
   },
-
   "waterParameters": {
-    "temperatureC": { "min": 22.0, "max": 27.0 },
-    "pH":           { "min": 7.8, "max": 8.4 },
-    "gH":           null,
-    "kH":           { "min": 8, "max": 12 },
-    "salinity":     { "min": 1.023, "max": 1.025 }
+    "temperatureC": {
+      "min": 22,
+      "max": 27
+    },
+    "pH": {
+      "min": 7.8,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.023,
+      "max": 1.025
+    }
   },
-
-  "adultSizeCm":   { "min": 5, "max": 25 },
+  "adultSizeCm": {
+    "min": 5,
+    "max": 25
+  },
   "lifespanYears": null,
-
   "tank": {
     "minVolumeLiters": 40,
-    "minLengthCm":     null,
-    "swimZone":        null,
-    "decorPreferences": ["live rock for attachment", "moderate flow", "display placement"],
-    "minSandDepthCm":  null
+    "minLengthCm": null,
+    "swimZone": null,
+    "decorPreferences": [
+      "live rock for attachment",
+      "moderate flow",
+      "display placement"
+    ],
+    "minSandDepthCm": null
   },
-
   "careLevel": "intermediate",
-
   "diet": null,
-
   "compatibility": {
-    "temperament":  "peaceful",
-    "grouping":     "solitary",
+    "temperament": "peaceful",
+    "grouping": "solitary",
     "minGroupSize": null,
-    "goodWith":     ["reef fish", "corals", "invertebrates"],
-    "avoidWith":    ["tangs", "rabbitfish", "sea urchins", "dedicated herbivores"]
+    "goodWith": [
+      "reef fish",
+      "corals",
+      "invertebrates"
+    ],
+    "avoidWith": [
+      "tangs",
+      "rabbitfish",
+      "sea urchins",
+      "dedicated herbivores"
+    ]
   },
-
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
+    "primaryImage": null,
+    "gallery": [],
     "imageCandidates": [
       {
-        "url":         "https://mosaicmacros.com/cdn/shop/files/IMG-1099.jpg",
-        "source":      "Mosaic Macros",
-        "sourceType":  "research-site",
-        "license":     "All rights reserved",
-        "notes":       "Primary product photo from Mosaic Macros Serpent Tongue listing; sole hobby trade source for this species.",
+        "url": "https://mosaicmacros.com/cdn/shop/files/IMG-1099.jpg",
+        "source": "Mosaic Macros",
+        "sourceType": "research-site",
+        "license": "All rights reserved",
+        "notes": "Primary product photo from Mosaic Macros Serpent Tongue listing; sole hobby trade source for this species.",
         "recommended": true
       }
     ]
   },
-
   "summary": "Elongated tongue-form Halymenia with reddish-pink fleshy blades; a specialty ornamental red macroalgae for reef display tanks. Closely related to Dragon's Breath and Pink Dragon's Breath; very sensitive to shipping stress.",
-
   "careNotes": "Serpent Tongue (Halymenia elongata) is a specialty ornamental red macroalgae in family Halymeniaceae, order Halymeniales — the same family as its sibling species Dragon's Breath (H. durvillei), Pink Dragon's Breath (H. floresia), Dragon's Tongue (H. dilatata), Leafy Ogo (H. maculata), and Orange Galaxy (H. stipitata). It grows in fleshy, thin, delicate blades that are cylindrical in form and reddish-pink in color, giving it the elongated tongue appearance reflected in its common name. Mosaic Macros is the sole aquarium hobby source identified for this species; they offer it in 2–2.5\" and 5\"+ cutting sizes. Mosaic describes this species as VERY sensitive to shipping and restricts live arrival guarantees to UPS Next Day Air shipments only. No species-specific water parameter values are published by Mosaic; parameters here are extrapolated from well-documented Halymeniaceae siblings and the Mosaic Macros general care guide. Standard reef parameters are generally advisable: temperature approximately 22–27°C (averaging the Mosaic care guide target of 22–26°C and documented sibling ranges), pH 7.8–8.4, salinity SG 1.023–1.025, and alkalinity 8–12 dKH. Mosaic care guide targets for nutrient levels are NO3 5–20 ppm and PO4 0.02–0.1 ppm; calcium 400–450 ppm and magnesium 1,250–1,350 ppm are recommended as general reef targets. Medium lighting is generally advised for Halymenia species to maintain coloration without browning; full-spectrum LED is preferred over actinic-only. Flow should be gentle to moderate — soft-coral-tank equivalent — as excessive flow has been known to tear delicate red macroalgae blades. As a red alga, Serpent Tongue must NOT be planted in the sand bed; burial at the base will cause the thallus to melt. It should be attached to live rock by superglue, zip-ties or fishing line, or wedging. Weekly dosing of iron, iodine, and trace elements is generally recommended for ornamental red macroalgae to support coloration. Propagation in the aquarium hobby is primarily by fragmentation. The species is generally considered reef-safe but, like all Halymenia, is palatable to herbivorous fish; it is generally advisable to keep it away from tangs, rabbitfish, and sea urchins. Growth rate for ornamental Halymenia species in this blade form tends toward medium. This entry is based on the Mosaic Macros product page and the Mosaic Macros general macroalgae care guide; family-level parameter extrapolation from sibling Halymenia species was applied where species-specific data is absent.",
-
   "breedingNotes": null,
-
   "sources": {
     "primary": {
       "name": "Mosaic Macros — Serpent Tongue",
@@ -90,23 +111,26 @@
       }
     ]
   },
-
-  "fish":        null,
-  "crustacean":  null,
-  "coral":       null,
-  "mollusc":     null,
-  "echinoderm":  null,
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
   "other-invert": null,
-  "plant":       null,
+  "amphibian": null,
+  "plant": null,
   "macroalgae": {
-    "lighting":       "medium",
-    "growthRate":     "medium",
-    "form":           "macroalgae",
-    "placement":      "display",
+    "lighting": "medium",
+    "growthRate": "medium",
+    "form": "macroalgae",
+    "placement": "display",
     "nutrientUptake": "low",
-    "propagation":    ["fragmentation", "wedging", "zip-tie/fishing line"]
+    "propagation": [
+      "fragmentation",
+      "wedging",
+      "zip-tie/fishing line"
+    ]
   },
-
   "schemaVersion": 1,
   "dataStatus": "researched",
   "lastReviewed": "2026-06-08"

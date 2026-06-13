@@ -3,6 +3,7 @@ const path = require('path');
 
 const TAXON_KEYWORDS = [
   { taxon: 'crustacean', patterns: [/shrimp/i, /crayfish/i, /crab/i, /lobster/i] },
+  { taxon: 'amphibian',  patterns: [/axolotl/i, /amphiuma/i, /\bsiren\b/i, /clawed frog/i, /dwarf frog/i, /surinam toad/i] },
   { taxon: 'coral',      patterns: [/coral/i, /anemone/i, /zoanthid/i, /polyp/i] },
   { taxon: 'mollusc',    patterns: [/snail/i, /clam/i, /conch/i, /nerite/i, /mystery/i] },
   { taxon: 'echinoderm', patterns: [/starfish/i, /sea star/i, /urchin/i, /sea cucumber/i] }
@@ -63,6 +64,8 @@ function makeVariantStub(taxon) {
       return { copperSensitive: null, minTankAgeMonths: null, coralSafe: null, waterStabilitySensitivity: null };
     case 'other-invert':
       return { notes: null };
+    case 'amphibian':
+      return { substrateConstraint: null, skinSensitivity: null, chytridRisk: null, breedingDifficulty: null, breedingNotes: null };
     case 'plant':
       return { lighting: null, co2: null, growthRate: null, placement: null, propagation: [], substrate: null, fertilization: null };
     case 'macroalgae':
@@ -116,6 +119,7 @@ function makePlaceholderEntry({ legacyItem, kind, taxon, waterType, slug }) {
     mollusc:       taxon === 'mollusc'     ? variantBlock : null,
     echinoderm:    taxon === 'echinoderm'  ? variantBlock : null,
     'other-invert': taxon === 'other-invert' ? variantBlock : null,
+    amphibian:     taxon === 'amphibian'   ? variantBlock : null,
     plant:         taxon === 'plant'       ? variantBlock : null,
     macroalgae:    taxon === 'macroalgae'  ? variantBlock : null,
     schemaVersion: 1,

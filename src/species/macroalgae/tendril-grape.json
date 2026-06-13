@@ -6,33 +6,58 @@
   "waterType": "saltwater",
   "commonName": "Tendril Grape",
   "scientificName": "Botryocladia sp.",
-  "alsoKnownAs": ["Red Grape Caulerpa", "False String of Pearls"],
+  "alsoKnownAs": [
+    "Red Grape Caulerpa",
+    "False String of Pearls"
+  ],
   "category": "Macroalgae",
   "taxonomy": {
     "family": "Rhodymeniaceae",
     "order": "Rhodymeniales"
   },
   "nativeRange": {
-    "regions": ["Tropical marine waters"],
+    "regions": [
+      "Tropical marine waters"
+    ],
     "countries": [],
     "habitat": "Shallow reef environments and hard substrate in tropical marine waters",
     "biotope": "Marine reef",
-    "depthRangeM": { "min": 0, "max": 30 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 30
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 26 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 22,
+      "max": 26
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
     "kH": null,
-    "salinity": { "min": 1.023, "max": 1.025 }
+    "salinity": {
+      "min": 1.023,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 2.5, "max": 10 },
+  "adultSizeCm": {
+    "min": 2.5,
+    "max": 10
+  },
   "lifespanYears": null,
   "tank": {
     "minVolumeLiters": 40,
     "minLengthCm": null,
     "swimZone": null,
-    "decorPreferences": ["live rock attachment", "rubble wedging", "plug mount", "zip-tie to rockwork"],
+    "decorPreferences": [
+      "live rock attachment",
+      "rubble wedging",
+      "plug mount",
+      "zip-tie to rockwork"
+    ],
     "minSandDepthCm": null
   },
   "careLevel": "intermediate",
@@ -41,8 +66,18 @@
     "temperament": "peaceful",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["reef fish", "snails", "hermit crabs", "shrimp", "corals"],
-    "avoidWith": ["herbivorous fish (tangs, rabbitfish)", "sea urchins", "sea hares"]
+    "goodWith": [
+      "reef fish",
+      "snails",
+      "hermit crabs",
+      "shrimp",
+      "corals"
+    ],
+    "avoidWith": [
+      "herbivorous fish (tangs, rabbitfish)",
+      "sea urchins",
+      "sea hares"
+    ]
   },
   "media": {
     "primaryImage": null,
@@ -83,6 +118,7 @@
   "mollusc": null,
   "echinoderm": null,
   "other-invert": null,
+  "amphibian": null,
   "plant": null,
   "macroalgae": {
     "lighting": "medium",
@@ -90,7 +126,11 @@
     "form": "macroalgae",
     "placement": "display",
     "nutrientUptake": "low",
-    "propagation": ["fragmentation", "wedging", "zip-tie/fishing line"]
+    "propagation": [
+      "fragmentation",
+      "wedging",
+      "zip-tie/fishing line"
+    ]
   },
   "schemaVersion": 1,
   "dataStatus": "researched",

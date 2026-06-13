@@ -36,25 +36,52 @@
     "order": "Decapoda"
   },
   "nativeRange": {
-    "regions": ["East Asia"],
-    "countries": ["Taiwan", "Hong Kong", "Southern China"],
+    "regions": [
+      "East Asia"
+    ],
+    "countries": [
+      "Taiwan",
+      "Hong Kong",
+      "Southern China"
+    ],
     "habitat": "Soft, slightly acidic freshwater streams with leaf litter, submerged wood, and biofilm-covered rocks; the modern Crystal Red itself is a selectively-bred red color morph first developed in Japan in the 1990s from the wild Bee Shrimp parent stock.",
     "biotope": "Stream",
-    "depthRangeM": { "min": 0, "max": 2 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 2
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 20, "max": 26 },
-    "pH":           { "min": 6.2, "max": 7.0 },
-    "gH":           { "min": 4, "max": 6 },
-    "kH":           { "min": 0, "max": 2 },
-    "salinity":     null
+    "temperatureC": {
+      "min": 20,
+      "max": 26
+    },
+    "pH": {
+      "min": 6.2,
+      "max": 7
+    },
+    "gH": {
+      "min": 4,
+      "max": 6
+    },
+    "kH": {
+      "min": 0,
+      "max": 2
+    },
+    "salinity": null
   },
-  "adultSizeCm":   { "min": 2.5, "max": 3 },
-  "lifespanYears": { "min": 1, "max": 2 },
+  "adultSizeCm": {
+    "min": 2.5,
+    "max": 3
+  },
+  "lifespanYears": {
+    "min": 1,
+    "max": 2
+  },
   "tank": {
-    "minVolumeLiters":  40,
-    "minLengthCm":      40,
-    "swimZone":         "all",
+    "minVolumeLiters": 40,
+    "minLengthCm": 40,
+    "swimZone": "all",
     "decorPreferences": [
       "active soil substrate (Akadama-style buffering substrate)",
       "dense moss (Java moss, Christmas moss, Fissidens)",
@@ -64,16 +91,16 @@
       "sponge filter (shrimp-safe intake)",
       "RO/DI water remineralized with shrimp-specific salts"
     ],
-    "minSandDepthCm":   null
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
-    "type":  "omnivore",
+    "type": "omnivore",
     "notes": "Generally regarded as a grazing omnivore that subsists primarily on biofilm, soft algae, and decaying plant matter. Has been documented accepting shrimp-specific pellets, blanched vegetables (zucchini, spinach), Indian almond leaves, and occasional protein foods. Calcium- and mineral-supplemented foods are commonly recommended to support successful molting. Tend to be slower and more deliberate feeders than Neocaridina, so feedings should be small and easily consumed within a few hours to avoid water-quality decline."
   },
   "compatibility": {
-    "temperament":  "peaceful",
-    "grouping":     "shoaling",
+    "temperament": "peaceful",
+    "grouping": "shoaling",
     "minGroupSize": 10,
     "goodWith": [
       "other Caridina cantonensis morphs (will interbreed)",
@@ -93,8 +120,8 @@
     ]
   },
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
+    "primaryImage": null,
+    "gallery": [],
     "imageCandidates": null
   },
   "summary": "A small, selectively-bred freshwater dwarf shrimp from the Caridina cantonensis Bee/Crystal complex, prized for striking red-and-white banding. Generally considered intermediate to keep — has been reported to require soft, acidic, low-TDS water and stable parameters.",
@@ -103,54 +130,55 @@
   "sources": {
     "primary": {
       "name": "Flip Aquatics",
-      "url":  "https://flipaquatics.com/collections/crystal-shrimp",
+      "url": "https://flipaquatics.com/collections/crystal-shrimp",
       "accessedDate": "2026-06-12",
       "notes": "Primary trade-source collection page; species-specific product page (https://flipaquatics.com/products/crystal-red-shrimp) yielded the canonical parameter set: temperature 20-23°C (68-74°F), pH 6.6-6.9, GH 5-7, KH 0-2, TDS 130-160; grading scale C through SSS."
     },
     "additional": [
       {
         "name": "The Shrimp Farm",
-        "url":  "https://www.theshrimpfarm.com/posts/crystal-red-shrimp-care/",
+        "url": "https://www.theshrimpfarm.com/posts/crystal-red-shrimp-care/",
         "accessedDate": "2026-06-12",
         "notes": "Designated secondary returned HTTP 403 Forbidden on access; substituted with Fishkeeping World and AquariumBreeder. URL retained for reviewer reference."
       },
       {
         "name": "Fishkeeping World",
-        "url":  "https://www.fishkeepingworld.com/crystal-red-shrimp/",
+        "url": "https://www.fishkeepingworld.com/crystal-red-shrimp/",
         "accessedDate": "2026-06-12",
         "notes": "Secondary substitute (Shrimp Farm 403'd). Cross-confirmed adult size ~3 cm, lifespan 18-24 months, pH 5.8-7.4, temperature 21.7-25°C, family Atyidae, intermediate care level, copper sensitivity, peaceful temperament, 10-gallon minimum, omnivore diet."
       },
       {
         "name": "AquariumBreeder",
-        "url":  "https://aquariumbreeder.com/crystal-red-shrimp-detailed-guide-care-diet-and-breeding/",
+        "url": "https://aquariumbreeder.com/crystal-red-shrimp-detailed-guide-care-diet-and-breeding/",
         "accessedDate": "2026-06-12",
         "notes": "Tertiary cross-check. Confirmed adult size 2.5-3 cm, lifespan 1-2 years, 10 gal (~40 L) minimum, pH optimal 6.6-6.9 (range 6.2-7.2), GH 3-7, KH 0-4, TDS 100-250, medium / 'high-order shrimp' difficulty, sexual maturity 4-4.5 months, broods of ~30 shrimplets every 5-6 weeks."
       },
       {
         "name": "Wikipedia (Caridina cantonensis)",
-        "url":  "https://en.wikipedia.org/wiki/Caridina_cantonensis",
+        "url": "https://en.wikipedia.org/wiki/Caridina_cantonensis",
         "accessedDate": "2026-06-12",
         "notes": "Taxonomy fallback for family Atyidae / order Decapoda, native range Taiwan / Hong Kong / Southern China, color morph catalog (Black Bee, Blue Bee, Golden Bee, Crystal Red, Princess Bee, Blue Bolt, Tangerine Tiger, Shadow Panda), and confirmation that Crystal Red is a selectively-bred line first developed in Japan from the wild Bee parent stock since 1996."
       }
     ]
   },
-  "fish":         null,
+  "fish": null,
   "crustacean": {
-    "copperSensitive":            true,
-    "moltingFrequencyDays":       30,
-    "moltingNotes":               "Generally reported to molt every 3-6 weeks, with younger shrimp molting more frequently than adults. Discarded exoskeletons are typically left in the tank and re-consumed for calcium recovery; they should not be removed. Insufficient mineral content (low GH, low calcium, low TDS below ~100 ppm) is frequently associated with the 'white ring of death' incomplete-molt fatality. Parameter stability — particularly stable TDS and GH — is widely considered the most important molting factor, more so than for Neocaridina.",
-    "escapeRisk":                 "low",
-    "breedingDifficulty":         "moderate",
-    "breedingNotes":              "Breeds in stable soft, acidic tanks but is notably more sensitive to parameter swings than Neocaridina. See top-level breedingNotes for details.",
+    "copperSensitive": true,
+    "moltingFrequencyDays": 30,
+    "moltingNotes": "Generally reported to molt every 3-6 weeks, with younger shrimp molting more frequently than adults. Discarded exoskeletons are typically left in the tank and re-consumed for calcium recovery; they should not be removed. Insufficient mineral content (low GH, low calcium, low TDS below ~100 ppm) is frequently associated with the 'white ring of death' incomplete-molt fatality. Parameter stability — particularly stable TDS and GH — is widely considered the most important molting factor, more so than for Neocaridina.",
+    "escapeRisk": "low",
+    "breedingDifficulty": "moderate",
+    "breedingNotes": "Breeds in stable soft, acidic tanks but is notably more sensitive to parameter swings than Neocaridina. See top-level breedingNotes for details.",
     "speciesOnlyTankRecommended": false
   },
-  "coral":        null,
-  "mollusc":      null,
-  "echinoderm":   null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
   "other-invert": null,
-  "plant":        null,
-  "macroalgae":   null,
+  "amphibian": null,
+  "plant": null,
+  "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus":   "researched",
+  "dataStatus": "researched",
   "lastReviewed": "2026-06-12"
 }
