@@ -1,0 +1,129 @@
+{
+  "id": "sw-crus-039",
+  "slug": "mysid-shrimp",
+  "kind": "fauna",
+  "taxon": "crustacean",
+  "waterType": "saltwater",
+  "commonName": "Mysid Shrimp",
+  "scientificName": "Americamysis bahia",
+  "alsoKnownAs": [
+    "Mysidopsis bahia",
+    "Opossum Shrimp",
+    "Live Mysid",
+    "Saltwater Mysid",
+    "Mysids"
+  ],
+  "category": "Crustacean (Live Feeder Culture)",
+  "taxonomy": {
+    "family": "Mysidae",
+    "order": "Mysida"
+  },
+  "nativeRange": {
+    "regions": ["Western Atlantic", "Gulf of Mexico"],
+    "countries": ["United States"],
+    "habitat": "Shallow estuarine waters over sand and mud bottoms, often associated with seagrass beds; tolerates a wide salinity range from near-freshwater to fully marine.",
+    "biotope": "Estuarine seagrass and soft-sediment shallows",
+    "depthRangeM": { "min": 0, "max": 2 }
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 20, "max": 28 },
+    "pH":           { "min": 8.0, "max": 8.3 },
+    "gH":           null,
+    "kH":           null,
+    "salinity":     { "min": 1.015, "max": 1.026 }
+  },
+  "adultSizeCm":   { "min": 0.4, "max": 0.95 },
+  "lifespanYears": { "min": 0.15, "max": 0.25 },
+  "tank": {
+    "minVolumeLiters":  20,
+    "minLengthCm":      30,
+    "swimZone":         "all",
+    "decorPreferences": [
+      "bare-bottom culture vessel preferred for easy cleaning",
+      "gentle aeration via airstone (no powerheads — mysids are easily damaged)",
+      "fine mesh screens over any overflow or drain to prevent loss",
+      "dim, indirect lighting on a 16h light / 8h dark cycle"
+    ],
+    "minSandDepthCm":   null
+  },
+  "careLevel": "advanced",
+  "diet": {
+    "type": "omnivore",
+    "notes": "In the wild they graze on zooplankton, phytoplankton and detritus. In culture they are generally fed newly hatched Artemia nauplii once or twice daily; live phytoplankton and very finely ground flake or pellet powder can supplement. Mysids are themselves voracious — adults will cannibalise juveniles if underfed."
+  },
+  "compatibility": {
+    "temperament":  "peaceful",
+    "grouping":     "shoaling",
+    "minGroupSize": 50,
+    "goodWith":     [
+      "kept in a dedicated culture vessel separate from display livestock",
+      "harvested as live feed for seahorses, pipefish, mandarin dragonets, and the fry of pelagic-spawning marine fish"
+    ],
+    "avoidWith":    [
+      "any fish or invertebrate in the same vessel — mysids are prey, not tankmates",
+      "powerheads or strong mechanical flow",
+      "copper-based medications"
+    ]
+  },
+  "media": {
+    "primaryImage":    null,
+    "gallery":         [],
+    "imageCandidates": null
+  },
+  "summary": "A tiny estuarine opossum shrimp cultured at home as a live food for picky reef species such as seahorses, pipefish and mandarin dragonets; an aquaculture project rather than a display animal.",
+  "careNotes": "Mysid Shrimp (Americamysis bahia, formerly Mysidopsis bahia) is not a true shrimp — it sits in the order Mysida, the opossum shrimps, named for the marsupium-like brood pouch the females carry. The genus was reclassified from Mysidopsis to Americamysis in 1999, and both names are still in common circulation in the aquaculture trade. The species is famous beyond the hobby as the EPA's standard saltwater toxicity-test organism, which means its captive husbandry is unusually well documented for an invertebrate of its size. In the aquarium world it is kept almost exclusively as a CULTURE PROJECT — an in-home source of live feed for fish that struggle on frozen or prepared diets (seahorses, pipefish, mandarin dragonets, larval clownfish and other pelagic-spawn fry). A culture is typically run in a small 20–40 L vessel — bare-bottom, gently aerated with a single airstone, no powerheads (mysids are easily sucked into pumps and damaged by strong flow). Water is generally advised at around 24–26°C and a specific gravity of roughly 1.015–1.023 (20–30 ppt), although the species tolerates a much wider salinity range in the wild. Photoperiod is commonly cited at 16 hours light / 8 hours dark. Stocking density of around 20 adults per litre is reported as optimal for sustained brood production; juveniles can be carried at higher densities. Brood pouches develop within roughly 10–20 days of hatching, broods of about 5–7 young are released, and brood duration shortens markedly with warmer water (roughly 15 days at 16°C down to 5 days at 29°C). Adults rarely live more than 2–3 months, so a culture is effectively a rolling generation rather than long-lived stock. Mysids are CARNIVOROUS and will cannibalise juveniles if underfed, so feeding (typically newly-hatched Artemia nauplii one to two times per day, with optional phytoplankton or fine powdered diets) needs to be consistent. Like most crustaceans they are extremely sensitive to copper-based medications and to ammonia/nitrite — water changes and gentle mechanical filtration are part of the routine. They are estuarine in origin and broadly euryhaline, which is why some keepers run cultures at low-end salinity to save salt. Note that the LiveAquaria primary source carries Mysidopsis only as a frozen food ingredient, not as a live culture product; husbandry parameters here are drawn from the Wikipedia species page, MBL Aquaculture's organism datasheet (a major commercial mysid producer), AquamarinePower's care guide, and the EPA's 'Culturing Americamysis bahia' protocol.",
+  "breedingNotes": "Breeding is the entire point of keeping mysids — a healthy culture self-sustains through continuous brood release. Females develop a marsupium (brood pouch) at around 10–12 days post-hatch and produce successive broods of roughly 5–7 young over the following weeks. Reported as easy to breed in dedicated culture, though demanding to maintain at production scale because of cannibalism and water-quality sensitivity.",
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/",
+      "accessedDate": "2026-06-12",
+      "notes": "Primary source carries Mysidopsis/Americamysis bahia only as a frozen food ingredient (multiple frozen mysis cube products) — there is no live culture product page. Husbandry parameters were therefore drawn from the cross-verification sources listed below; LiveAquaria is retained as primary per the assignment."
+    },
+    "additional": [
+      {
+        "name": "Wikipedia — Americamysis bahia",
+        "url": "https://en.wikipedia.org/wiki/Americamysis_bahia",
+        "accessedDate": "2026-06-12",
+        "notes": "Used as taxonomy and biology backbone (family Mysidae, order Mysida, native range, adult size 4.4–9.4 mm, brood biology, EPA test organism status). Reef2Reef Wiki (assigned secondary) returned HTTP 403 during this run — swapped to Wikipedia as the species-page secondary."
+      },
+      {
+        "name": "MBL Aquaculture — Mysid Shrimp organism datasheet",
+        "url": "https://mblaquaculture.com/content/organisms/americamysis_bahia.php",
+        "accessedDate": "2026-06-12",
+        "notes": "Commercial mysid producer; confirms 4.4–9.4 mm adult length, estuarine habitat, salinity tolerance >15 ppt with peak abundance around 30 ppt, and use as live feed for seahorses, seadragons and pipefish."
+      },
+      {
+        "name": "AquamarinePower — Mysis Shrimp culture guide",
+        "url": "https://www.aquamarinepower.com/mysis-shrimp/",
+        "accessedDate": "2026-06-12",
+        "notes": "Hobbyist-facing culture guide. Provides temperature 20–30°C, salinity 20–25 ppt, pH 8.0–8.3, 20–40 gallon culture tank size, Artemia nauplii feeding regime, and 5–10/L culture density for hobby setups. Cross-confirms sizing and brood biology."
+      },
+      {
+        "name": "EPA — Culturing Americamysis bahia (training video supplement)",
+        "url": "https://www.epa.gov/sites/default/files/2015-09/documents/culturingmysids.pdf",
+        "accessedDate": "2026-06-12",
+        "notes": "Authoritative laboratory culture protocol: 26°C target, 20–30 ppt salinity, 16h light / 8h dark photoperiod, ~20 adults/L stocking density, sexual maturity at 12–20 days, multiple broods per female. Used to anchor temperature and photoperiod choices."
+      }
+    ]
+  },
+  "fish": null,
+  "crustacean": {
+    "copperSensitive": true,
+    "moltingFrequencyDays": null,
+    "moltingNotes": "Like all malacostracans, mysids moult repeatedly during growth; in this species moults are very small and frequent (every few days during the juvenile phase) and are generally not observed individually in culture vessels.",
+    "escapeRisk": "low",
+    "breedingDifficulty": "moderate",
+    "breedingNotes": "Continuous brood release in a maintained culture. Females typically reach sexual maturity within 10–20 days and carry batches of around 5–7 young. Brood duration shortens with temperature (about 15 days at 16°C, 10 days at 20°C, 5 days at 29°C). Self-cannibalism of juveniles is the main practical obstacle to sustained yields.",
+    "speciesOnlyTankRecommended": true
+  },
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-12"
+}

@@ -1,0 +1,144 @@
+{
+  "id": "sw-crus-041",
+  "slug": "smashing-mantis-shrimp-gonodactylus",
+  "kind": "fauna",
+  "taxon": "crustacean",
+  "waterType": "saltwater",
+
+  "commonName": "Smashing Mantis Shrimp (Gonodactylus)",
+  "scientificName": "Gonodactylus chiragra",
+  "alsoKnownAs": [
+    "Chiragra Mantis Shrimp",
+    "Clubfoot Mantis Shrimp",
+    "Gonodactylus Mantis",
+    "Spotted Smasher",
+    "Common Smashing Mantis"
+  ],
+  "category": "Mantis Shrimp",
+
+  "taxonomy": {
+    "family": "Gonodactylidae",
+    "order": "Stomatopoda"
+  },
+
+  "nativeRange": {
+    "regions": ["Indo-Pacific", "Indo-West Pacific", "Red Sea"],
+    "countries": ["Indonesia", "Philippines", "Australia", "French Polynesia", "Madagascar"],
+    "habitat": "Inhabits cavities in rubble, rock, and reef-flat bench in shallow intertidal and subtidal zones. Occupies natural or mollusc-bored holes rather than excavating its own burrow, and seals the entrance with sand and rubble at night.",
+    "biotope": "Reef flat / rocky intertidal",
+    "depthRangeM": { "min": 0, "max": 30 }
+  },
+
+  "waterParameters": {
+    "temperatureC": { "min": 24, "max": 27 },
+    "pH":           { "min": 8.1, "max": 8.4 },
+    "gH":           null,
+    "kH":           { "min": 8, "max": 12 },
+    "salinity":     { "min": 1.023, "max": 1.026 }
+  },
+
+  "adultSizeCm":   { "min": 7, "max": 10.5 },
+  "lifespanYears": { "min": 3, "max": 6 },
+
+  "tank": {
+    "minVolumeLiters":  75,
+    "minLengthCm":      60,
+    "swimZone":         "bottom",
+    "decorPreferences": [
+      "live rock with pre-existing cavities and rubble piles for shelter",
+      "mixed coral rubble substrate the shrimp can use to plug its cavity entrance",
+      "sand bed of at least 5-8 cm for occasional digging",
+      "acrylic tank generally preferred over thin glass given dactyl-strike forces"
+    ],
+    "minSandDepthCm":   5
+  },
+
+  "careLevel": "intermediate",
+
+  "diet": {
+    "type": "carnivore",
+    "notes": "Smasher stomatopod that has been documented feeding on hard-shelled prey, particularly gastropods and hermit crabs, but will also take small clams and other crustaceans. In captivity it generally accepts thawed shrimp, mussel, clam, and small pieces of fish; occasional live shelled prey (small snails, fiddler crabs) is commonly recommended to keep the dactyl clubs in working condition. Daily small feedings are typically advised."
+  },
+
+  "compatibility": {
+    "temperament":  "aggressive",
+    "grouping":     "solitary",
+    "minGroupSize": 1,
+    "goodWith":     [],
+    "avoidWith":    [
+      "all fish",
+      "all other crustaceans",
+      "snails and bivalves",
+      "conspecifics",
+      "anything edible or strike-reachable"
+    ]
+  },
+
+  "media": {
+    "primaryImage":    null,
+    "gallery":         [],
+    "imageCandidates": null
+  },
+
+  "summary": "A smaller-bodied 'smasher' stomatopod (around 7-10 cm) widely distributed across the Indo-Pacific. Generally advised to be kept in a dedicated species-only tank; more practical for home aquaria than the larger Peacock Mantis but still a hard-hitting predator.",
+
+  "careNotes": "Gonodactylus chiragra is the type species of the genus and is often sold under a genus-only label, since the trade frequently does not distinguish between G. chiragra, G. smithii, G. platysoma, and similar small smashing mantises. All members of this group share a similar husbandry profile: small adult size (commonly 7-10 cm, occasionally to ~10.5 cm), territorial occupation of pre-existing reef-flat cavities rather than self-excavated burrows, and tolerance of warmer intertidal-style temperatures than the deeper-living Peacock Mantis. Tank-size guidance varies between sources — Saltcorner cites 20 gallon (~75 L) as workable for a single specimen, Reeflex cites ~50 L; given the relatively small adult size and reclusive cavity-dwelling habit, around 75 L with a long footprint is a reasonable minimum, well below what is needed for Odontodactylus scyllarus. An acrylic tank is generally preferred over thin glass because even small smashers have been reported to damage glass over time; thick glass (around 10 mm or more) is an acceptable alternative. Provide a rubble-rich aquascape with several pre-formed cavities the shrimp can choose between, plus a moderate sand bed. As a crustacean it is sensitive to copper-based medications and to swings in salinity, temperature, and pH; quarantine other livestock rather than treating the display. Cross-source disagreement: Reeflings' species page lists 18 cm and a Peacock-style profile, but this appears to conflate G. chiragra with O. scyllarus — Wikipedia, UCMP / Roy's List of Stomatopods, and Reeflex all converge on ~10.5 cm maximum, which has been adopted here.",
+
+  "breedingNotes": "Rarely bred in home aquaria. Outside of brief mating encounters the species is solitary and territorial, and pairing two adults in a typical tank usually results in one killing the other. Females have been observed carrying egg masses inside their cavity, but reliable captive rearing through the planktonic larval stages has not been reported in the hobby literature.",
+
+  "sources": {
+    "primary": {
+      "name": "Reeflings species guide: Gonodactylus chiragra",
+      "url":  "https://reeflings.com/species/gonodactylus-chiragra",
+      "accessedDate": "2026-06-12",
+      "notes": "Substituted for LiveAquaria, which does not have a Gonodactylus species page. Sourced family Gonodactylidae / order Stomatopoda, temp 22-26C, pH 8.1-8.4, salinity 1.023-1.025 SG, minimum tank ~75 L, diet, aggression/solitary classification. Reeflings' stated 18 cm adult size appears to be carried over from Odontodactylus scyllarus and was rejected in favor of the ~10.5 cm value confirmed by Wikipedia, UCMP, and Reeflex."
+    },
+    "additional": [
+      {
+        "name": "Wikipedia: Gonodactylus chiragra",
+        "url":  "https://en.wikipedia.org/wiki/Gonodactylus_chiragra",
+        "accessedDate": "2026-06-12",
+        "notes": "Used for taxonomy (Family Gonodactylidae, Order Stomatopoda), maximum body length (105 mm), Indo-West Pacific distribution, upper-intertidal habitat in cavities around boulders and coral heads, diurnal activity, and aggressive head-targeting behavior. Substituted for Reef2Reef Wiki, which returned HTTP 403."
+      },
+      {
+        "name": "Roy's List of Stomatopods for the Aquarium (UC Berkeley, UCMP)",
+        "url":  "https://ucmp.berkeley.edu/arthropoda/crustacea/malacostraca/eumalacostraca/royslist/species.php?name=g_chiragra",
+        "accessedDate": "2026-06-12",
+        "notes": "Confirmed body size 9-105 mm, depth from lower mid-intertidal to ~2 m, reef-flat / rocky-intertidal habitat in cavities in rubble/rock, French Polynesia westward through the Indian Ocean, diurnal habit. Authoritative stomatopod taxonomy reference."
+      },
+      {
+        "name": "Reeflex: Gonodactylus chiragra",
+        "url":  "https://www.reeflex.net/tiere/1740_Gonodactylus_chiragra.htm",
+        "accessedDate": "2026-06-12",
+        "notes": "Cross-checked adult size (10.5 cm), depth (0-30 m), minimum tank (~50 L / 11 gal), Indo-Pacific range including Red Sea. Temperature window given as 24.4-29.3 C; averaged with Reeflings' 22-26 C to land on 24-27 C as the working range for an intertidal/shallow-reef species."
+      },
+      {
+        "name": "Saltcorner Aquarium Library: Chiragra Mantis Shrimp",
+        "url":  "http://www.saltcorner.com/AquariumLibrary/browsespecies.php?CritterID=2665",
+        "accessedDate": "2026-06-12",
+        "notes": "Search-result snippet cited 20-30 gallon (~75-110 L) as workable for a single specimen with sand bed and live rock, plus need for thick glass or acrylic and a secure lid. Direct WebFetch failed with TLS cert mismatch; data taken from the search-result extract."
+      }
+    ]
+  },
+
+  "fish": null,
+  "crustacean": {
+    "copperSensitive":            true,
+    "moltingFrequencyDays":       null,
+    "moltingNotes":               "Like other stomatopods, Gonodactylus chiragra seals itself inside its cavity during the molt and remains hidden until the new exoskeleton hardens. Keepers commonly assume the animal has died when it disappears for several days; do not disturb. The dactyl clubs are also shed and harden over successive molts.",
+    "escapeRisk":                 "moderate",
+    "breedingDifficulty":         "not in captivity",
+    "breedingNotes":              "Adults are territorial and typically cannot be co-housed without mortality; captive larval rearing through the planktonic phase has not been reliably documented in the hobby.",
+    "speciesOnlyTankRecommended": true
+  },
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-12"
+}

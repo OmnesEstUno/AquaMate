@@ -1,0 +1,126 @@
+{
+  "id": "sw-crus-032",
+  "slug": "decorator-crab",
+  "kind": "fauna",
+  "taxon": "crustacean",
+  "waterType": "saltwater",
+  "commonName": "Decorator Crab",
+  "scientificName": "Camposcia retusa",
+  "alsoKnownAs": [
+    "Spider Decorator Crab",
+    "Camposcia Decorator Crab",
+    "Velcro Crab"
+  ],
+  "category": "Marine Crab",
+  "taxonomy": {
+    "family": "Inachidae",
+    "order": "Decapoda"
+  },
+  "nativeRange": {
+    "regions": ["Indo-West Pacific", "Central Indo-Pacific"],
+    "countries": ["Indonesia", "Philippines", "Japan", "India", "Sri Lanka", "Australia", "Fiji"],
+    "habitat": "Lower-intertidal and shallow subtidal reef and rubble zones, where it hides among coral overhangs, large boulders, and rock crevices and emerges at night to forage. Often found on muddy or rocky substrate with weed/algae cover.",
+    "biotope": "Coral Reef",
+    "depthRangeM": { "min": 1, "max": 30 }
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 24, "max": 27 },
+    "pH":           { "min": 8.1, "max": 8.4 },
+    "gH":           null,
+    "kH":           { "min": 8, "max": 12 },
+    "salinity":     { "min": 1.023, "max": 1.026 }
+  },
+  "adultSizeCm":   { "min": 8, "max": 10 },
+  "lifespanYears": { "min": 3, "max": 5 },
+  "tank": {
+    "minVolumeLiters":  75,
+    "minLengthCm":      60,
+    "swimZone":         "bottom",
+    "decorPreferences": [
+      "well-established live rock with caves and overhangs",
+      "sandy substrate",
+      "rubble zones and crevices for daytime hiding",
+      "mature reef aquascape with diverse macroalgae and sponges to use as cover",
+      "subdued or moderate lighting that supports nocturnal foraging"
+    ],
+    "minSandDepthCm":   null
+  },
+  "careLevel": "intermediate",
+  "diet": {
+    "type":  "omnivore",
+    "notes": "Omnivorous scavenger documented eating detritus, algae, small invertebrates, carrion, mollusks, worms, ascidians, and occasionally small or weakened sea stars. In aquariums it generally accepts meaty foods such as mysis shrimp, chopped clam, fish, or shrimp, plus algae wafers and other prepared foods. Hungry individuals are more likely to nip soft corals or harass slow-moving tankmates, so adults are typically target-fed 2–4 times per week (juveniles more often) to keep them out of trouble."
+  },
+  "compatibility": {
+    "temperament":  "semi-aggressive",
+    "grouping":     "solitary",
+    "minGroupSize": 1,
+    "goodWith": [
+      "most peaceful to semi-aggressive reef fish too large to be caught",
+      "well-established mixed reef setups with abundant hiding places",
+      "robust SPS-dominant systems where frag-theft is less consequential",
+      "other peaceful cleanup-crew species at adequate spacing"
+    ],
+    "avoidWith": [
+      "conspecifics in small to mid-size tanks (territorial)",
+      "prized show corals or expensive soft-coral frags (frag-theft risk)",
+      "small, slow-moving shrimp and ornamental snails (potential prey if hungry)",
+      "small, bottom-resting or sleeping fish",
+      "any system being dosed with copper-based medications"
+    ]
+  },
+  "media": {
+    "primaryImage":    null,
+    "gallery":         [],
+    "imageCandidates": null
+  },
+  "summary": "An Indo-Pacific spider crab famous for fastening sponges, algae, and even coral frags to its hooked carapace as living camouflage. Generally considered reef-safe with caution because it may snip soft-coral pieces to wear them.",
+  "careNotes": "Camposcia retusa is the iconic 'decorator' or 'velcro' crab — its carapace and legs are covered in hooked setae that work like Velcro, allowing it to attach sponges, algae, hydroids, small soft-coral pieces, shells, and rubble to its body as camouflage. In a planted reef this is part of the charm but also the main caveat: hungry or actively redecorating individuals have been known to snip frags of zoanthids, mushrooms, and other soft corals to wear them, so the species is generally rated 'reef-safe with caution' rather than fully reef-safe. Most keepers report the frag-theft risk drops if the crab is well-fed and given a varied substrate of macroalgae, rubble, and inexpensive sponges to decorate with. Strictly nocturnal — expect the crab to spend the day motionless under an overhang and forage after lights-out. Best kept singly in tanks under a few hundred liters; conspecifics tend to be territorial and may fight, especially around molting. Like all marine crustaceans it is highly sensitive to copper and other heavy metals, so it must never be exposed to copper-based parasite medications, and iodine/trace-element supplementation is commonly advised to support successful molting. Note on taxonomy: many aquarium retailers (LiveAquaria, Aquarium Breeder) still list the species under Majidae, but modern crab taxonomy places Camposcia in Inachidae within superfamily Majoidea. Source spread on parameters: temperature recommendations ranged from 72–78°F (LiveAquaria) up to 78–86°F (Aquarium Breeder) — the file uses a middle-of-the-road 24–27°C consistent with general Indo-Pacific reef conditions. Minimum tank size recommendations ranged from ~10 US gal / 40 L (Aquarium Breeder) to ~26 US gal / 100 L (Reeflings, ReefApp); 75 L was chosen as a cautious round value that comfortably accommodates an adult with reef-style aquascaping.",
+  "breedingNotes": "Not known to have been successfully bred in home aquariums. Sex differences emerge after sexual maturity (around molt stage C5) and are visible in pleopod morphology. Females reportedly carry only a few dozen eggs per clutch with an incubation period around 21–25 days; the resulting larvae go through several planktonic stages that have not been reared in the hobby. Aquarium specimens are wild-caught.",
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url":  "https://www.liveaquaria.com/products/spider-decorator-crab",
+      "accessedDate": "2026-06-12",
+      "notes": "Primary source — confirmed Camposcia retusa, family listed as Majidae (older placement; modern is Inachidae), care level Easy, semi-aggressive, reef-safe with caution, carnivore (diet leaning meaty), 4-inch max, 72–78°F, pH 8.1–8.4, dKH 8–12, SG 1.023–1.025, calcium/magnesium/iodine/trace supplements recommended. Designated URL https://www.liveaquaria.com/ root returned 404 on direct product path; product page found via web search at /products/spider-decorator-crab."
+    },
+    "additional": [
+      {
+        "name": "Aquarium Breeder (Shrimp and Snail Breeder)",
+        "url":  "https://aquariumbreeder.com/decorator-crab-detailed-guide-care-diet-and-breeding/",
+        "accessedDate": "2026-06-12",
+        "notes": "Used as second source because BlueZoo Aquatics did not have a Camposcia retusa product page (root domain crawl returned no match). Cross-confirmed: family Majidae (older), order Decapoda, Indo-West Pacific range with country list (Philippines, Japan, India, Sri Lanka, Australia, Fiji), carapace 1.5–2 cm / leg span 8–10 cm, lifespan 3–5 years, min 10 gal / 40 L, temp 78–86°F, pH 8.1–8.5, dKH 8–12, SG 1.021–1.030, calcium 400–450 ppm, magnesium 1250–1350 ppm, omnivorous scavenger diet, semi-aggressive, nocturnal velcro-carapace behavior, captive breeding not documented."
+      },
+      {
+        "name": "Reeflings species profile",
+        "url":  "https://reeflings.com/species/camposcia-retusa",
+        "accessedDate": "2026-06-12",
+        "notes": "Cross-confirmed adult size 10 cm, min tank 100 L (26 gal), temp 24–27°C, pH 8.0–8.5, SG 1.023–1.025, omnivorous scavenger diet, semi-aggressive temperament, reef-safe with caution (may snip coral pieces for decoration), advised to house singly. Lists family as Inachidae — the modern correct placement used for this entry."
+      },
+      {
+        "name": "ReefApp Encyclopedia",
+        "url":  "https://reefapp.net/en/encyclopedia/camposcia-retusa",
+        "accessedDate": "2026-06-12",
+        "notes": "Cross-confirmed 10 cm adult, 100 L minimum, ~26 °C, SG 1.026, nocturnal behavior, reef-safe with caution (will sometimes cut at soft corals to decorate themselves and may eat them). Range listed as East Indian Ocean / Indonesia."
+      }
+    ]
+  },
+  "fish":         null,
+  "crustacean": {
+    "copperSensitive":            true,
+    "moltingFrequencyDays":       null,
+    "moltingNotes":               "Molts periodically as it grows. Adequate iodine and trace-element levels are commonly considered important for successful exuviation, as with other marine crustaceans. Discarded exoskeletons are usually left undisturbed and may be re-consumed for calcium. Specific intermolt-period data for C. retusa is not well documented in hobby sources. Individuals typically discard their accumulated decorations along with the old shell and re-decorate the new one over the following days.",
+    "escapeRisk":                 "low",
+    "breedingDifficulty":         "not in captivity",
+    "breedingNotes":              "Not known to have been bred in home aquariums; larval phase has not been reared in the hobby.",
+    "speciesOnlyTankRecommended": false
+  },
+  "coral":        null,
+  "mollusc":      null,
+  "echinoderm":   null,
+  "other-invert": null,
+  "plant":        null,
+  "macroalgae":   null,
+  "schemaVersion": 1,
+  "dataStatus":   "researched",
+  "lastReviewed": "2026-06-12"
+}
