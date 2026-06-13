@@ -1,0 +1,147 @@
+{
+  "id": "sw-echi-019",
+  "slug": "sea-apple",
+  "kind": "fauna",
+  "taxon": "echinoderm",
+  "waterType": "saltwater",
+  "commonName": "Sea Apple",
+  "scientificName": "Pseudocolochirus violaceus",
+  "alsoKnownAs": [
+    "Australian Sea Apple",
+    "Violet Sea Apple",
+    "Philippine Sea Apple",
+    "Violet Sea Urchin"
+  ],
+  "category": "Sea Cucumbers",
+  "taxonomy": {
+    "family": "Cucumariidae",
+    "order": "Dendrochirotida"
+  },
+  "nativeRange": {
+    "regions": ["Indo-Pacific", "Indo-West Pacific"],
+    "countries": [
+      "Philippines",
+      "Indonesia",
+      "Australia",
+      "China",
+      "Japan",
+      "India",
+      "Bay of Bengal coastal states"
+    ],
+    "habitat": "Inshore benthic suspension feeder on reef slopes, rubble, and sand-mud substrates, typically anchoring on rockwork in areas of moderate to strong indirect current where it can extend its feathery oral tentacles into the water column.",
+    "biotope": "Indo-West Pacific tropical coral reef and reef-associated benthos",
+    "depthRangeM": { "min": 0, "max": 13 }
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 22, "max": 26 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.023, "max": 1.025 }
+  },
+  "adultSizeCm": { "min": 18, "max": 20 },
+  "lifespanYears": { "min": 3, "max": 5 },
+  "tank": {
+    "minVolumeLiters": 150,
+    "minLengthCm": 90,
+    "swimZone": "mid",
+    "decorPreferences": [
+      "mature reef with abundant live rock for anchoring",
+      "open vertical rockwork in a moderate to slightly strong indirect current",
+      "well-screened pump and powerhead intakes to prevent the animal from being sucked in",
+      "stable, low-stocking tank with minimal pH and salinity swings"
+    ],
+    "minSandDepthCm": null
+  },
+  "careLevel": "expert",
+  "diet": {
+    "type": "planktivore",
+    "notes": "Obligate suspension feeder that captures phytoplankton and fine organic particles with its feathery oral tentacles, then draws each tentacle into the mouth to scrape the food off. In captivity is generally advised to be target-fed live or preserved phytoplankton (and very small zooplankton in the 500–1500 µm range) daily; sea apples are reported to starve quickly in tanks where suspended food levels are insufficient, often showing body shrinkage and tentacle loss before death."
+  },
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": [
+      "small peaceful reef fish that ignore feather-like invertebrates",
+      "most reef-safe corals (LPS, SPS, soft)",
+      "snails and other peaceful detritivores"
+    ],
+    "avoidWith": [
+      "butterflyfishes and large angelfishes that pick at feather dusters and exposed invertebrates",
+      "pufferfishes, triggerfishes, and other invertebrate-nippers",
+      "harlequin shrimp and other echinoderm predators",
+      "unprotected pump and powerhead intakes",
+      "copper-based medications",
+      "other sea apples in the same tank (competition for already-scarce suspended food)"
+    ]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A striking violet filter-feeding sea cucumber with yellow oral tentacles from the Indo-West Pacific. Often considered a specialist-only animal: it releases the potent saponin toxin holothurin when stressed or dying, which has been reported to wipe out entire tanks.",
+  "careNotes": "Pseudocolochirus violaceus is one of the most visually striking sea cucumbers in the trade but is widely regarded as a specialist-only animal. Two husbandry risks dominate. First, it is an obligate suspension feeder and is generally advised to be target-fed live or preserved phytoplankton daily; sea apples have been reported to starve to death in display tanks that lack a steady supply of suspended food. Second, when stressed, injured, or dying, it can release the saponin toxin holothurin into the water, which has been documented as capable of killing fish and invertebrates throughout the system. Practical mitigations commonly recommended: keep only one specimen per tank, fully screen all pump and powerhead intakes (a sea apple sucked into a return pump is a worst-case toxin event), avoid tankmates that nip at feather dusters or soft invertebrates (butterflyfishes, large angels, triggers, puffers), maintain very stable pH and salinity (sudden swings have been reported to cause tentacle shedding), and avoid all copper-based medications. Most sources recommend a moderate to slightly strong indirect current and a mature reef with abundant live rock. LiveAquaria lists a minimum tank size of around 30 US gal (~115 L), but given the toxin risk a larger water volume for dilution is generally prudent; ~150 L is used here as a conservative floor for a single specimen. Reported lifespans in well-kept reef systems are typically in the range of a few years, with up to ~5 years cited as an upper end; long-term captive data is sparse. The genus also includes Pseudocolochirus axiologus (the true \"Australian Sea Apple\"), often sold under the same Sea Apple trade name; husbandry is treated as effectively identical here.",
+  "breedingNotes": "Captive breeding of Pseudocolochirus violaceus in home aquaria has not been meaningfully documented; sea apples are broadcast spawners and rearing planktotrophic larvae on phytoplankton diets is generally beyond practical hobbyist setups.",
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/product/711/?pcatid=711",
+      "accessedDate": "2026-06-12"
+    },
+    "additional": [
+      {
+        "name": "Reef2Reef Wiki",
+        "url": "https://www.reef2reef.com/wiki/",
+        "accessedDate": "2026-06-12",
+        "notes": "Designated secondary source returned 403 Forbidden to WebFetch; swapped to other secondaries below for cross-verification of sizing, parameters, toxin risk, and feeding."
+      },
+      {
+        "name": "Reef Builders — How to Maintain Suspension-Feeding Sea Cucumbers",
+        "url": "https://reefbuilders.com/2024/08/23/how-to-maintain-suspension-feeding-sea-cucumbers/",
+        "accessedDate": "2026-06-12",
+        "notes": "Cross-checked filter-feeding husbandry, flow needs, daily phytoplankton requirement, copper toxicity, and holothurin toxin risk on death/stress."
+      },
+      {
+        "name": "Wikipedia — Sea apple",
+        "url": "https://en.wikipedia.org/wiki/Sea_apple",
+        "accessedDate": "2026-06-12",
+        "notes": "Cross-checked taxonomy (Cucumariidae, Dendrochirotida, Holothuroidea), adult size up to ~20 cm, Indo-Pacific distribution, holothurin saponin toxin release as a defense and on death."
+      },
+      {
+        "name": "WoRMS — Pseudocolochirus violaceus (Théel, 1886)",
+        "url": "https://www.marinespecies.org/aphia.php?p=taxlist&tName=Pseudocolochirus+violaceus",
+        "accessedDate": "2026-06-12",
+        "notes": "Used for taxonomic authority and native distribution (Bay of Bengal, East Indies, north Australia, Philippines, China, southern Japan; 0–13 m depth)."
+      },
+      {
+        "name": "STL Marine Solutions — Sea Apple",
+        "url": "https://stlmarinesolutions.com/products/sea-apple",
+        "accessedDate": "2026-06-12",
+        "notes": "Cross-checked adult size (~8 in / 20 cm), minimum tank ~30 US gal floor, daily phytoplankton diet, copper sensitivity, and tentacle shedding on pH/salinity swings."
+      }
+    ]
+  },
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": {
+    "copperSensitive": true,
+    "minTankAgeMonths": 6,
+    "coralSafe": true,
+    "waterStabilitySensitivity": "high"
+  },
+  "other-invert": null,
+  "amphibian": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-12",
+  "hobbyistAdvisory": {
+    "level": "specialist-only",
+    "reason": "Releases the saponin toxin holothurin when stressed, injured, or dying, which has been documented to kill all fish and invertebrates in the system; also an obligate filter feeder that starves easily without daily phytoplankton."
+  }
+}

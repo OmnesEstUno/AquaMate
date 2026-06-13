@@ -1,0 +1,139 @@
+{
+  "id": "sw-echi-005",
+  "slug": "indian-fromia-sea-star",
+  "kind": "fauna",
+  "taxon": "echinoderm",
+  "waterType": "saltwater",
+  "commonName": "Indian Fromia Sea Star",
+  "scientificName": "Fromia indica",
+  "alsoKnownAs": [
+    "Indian Sea Star",
+    "Marbled Sea Star",
+    "Mottled Fromia",
+    "Marbled Fromia",
+    "Marble Starfish",
+    "Red Starfish"
+  ],
+  "category": "Sea Stars",
+  "taxonomy": {
+    "family": "Goniasteridae",
+    "order": "Valvatida"
+  },
+  "nativeRange": {
+    "regions": ["Indo-Pacific"],
+    "countries": [
+      "Indonesia",
+      "Philippines",
+      "Sri Lanka",
+      "Australia",
+      "Papua New Guinea",
+      "Fiji",
+      "Japan",
+      "Micronesia"
+    ],
+    "habitat": "Coral reef lagoons and outer reef slopes; found on live rock, rubble, and sandy patches with established microfauna.",
+    "biotope": "Indo-Pacific tropical coral reef",
+    "depthRangeM": { "min": 1.5, "max": 25 }
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 23, "max": 27 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.023, "max": 1.025 }
+  },
+  "adultSizeCm": { "min": 8, "max": 12 },
+  "lifespanYears": { "min": 5, "max": 10 },
+  "tank": {
+    "minVolumeLiters": 150,
+    "minLengthCm": 90,
+    "swimZone": "bottom",
+    "decorPreferences": [
+      "mature live rock with biofilm and microfauna",
+      "open sand and rubble patches for grazing",
+      "stable rockwork without sharp edges"
+    ],
+    "minSandDepthCm": null
+  },
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Grazes on biofilm, detritus, microalgae, and sponge growth across live rock. In well-established tanks, generally sustains itself on microfauna and aufwuchs; supplemental offerings of small pieces of shrimp, mussel, or sinking pellets may be required in newer or oligotrophic systems."
+  },
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": [
+      "small peaceful reef fish",
+      "most LPS and SPS corals",
+      "peaceful shrimp (excluding Hymenocera)",
+      "snails and other peaceful invertebrates"
+    ],
+    "avoidWith": [
+      "Harlequin Shrimp (Hymenocera picta) — obligate seastar predator",
+      "pufferfish and triggerfish",
+      "large angelfishes that nip tubefeet",
+      "predatory wrasses",
+      "copper-based medications"
+    ]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A vividly mottled brick-red and white Indo-Pacific sea star prized for reef display; generally considered reef-safe but sensitive to water-chemistry swings and requires a mature tank.",
+  "careNotes": "The Indian Fromia Sea Star (Fromia indica) is a small Indo-Pacific echinoderm with a brick-red to orange-red body marked with a fine mesh of darker lines and pale mottling. It is generally considered reef-safe and is commonly kept alongside LPS, SPS, and soft corals, where it grazes biofilm and detritus rather than tissue. Like most Fromia, it has been reported to be sensitive to sudden shifts in salinity, pH, and dissolved oxygen — slow drip acclimation over 1–2 hours is generally advised, and the animal should never be exposed to air during transfer. It tends to do best in a well-matured aquarium (commonly recommended at least 6 months established) with ample live rock that has accumulated microfauna and aufwuchs to graze. Copper-based medications are not tolerated and should never enter the system. Care broadly parallels the closely related Fromia milleporella. Source size estimates ranged from ~10 cm (Wikipedia, Reefguide) to ~13–15 cm (Reeflings, LiveAquaria); the entry uses an 8–12 cm typical adult range as a centered estimate.",
+  "breedingNotes": null,
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/product/2133/?pcatid=2133",
+      "accessedDate": "2026-06-12"
+    },
+    "additional": [
+      {
+        "name": "Bulk Reef Supply",
+        "url": "https://www.bulkreefsupply.com/",
+        "accessedDate": "2026-06-12",
+        "notes": "Designated secondary returned no species page for Fromia indica (homepage only). Swapped to Wikipedia + Reefguide + Reeflings for cross-verification."
+      },
+      {
+        "name": "Wikipedia — Fromia indica",
+        "url": "https://en.wikipedia.org/wiki/Fromia_indica",
+        "accessedDate": "2026-06-12",
+        "notes": "Taxonomy (Goniasteridae, Valvatida), native range, depth 1.5–25 m, and synonymy."
+      },
+      {
+        "name": "Reefguide.org — Fromia indica",
+        "url": "https://reefguide.org/indopac/fromiaindica.html",
+        "accessedDate": "2026-06-12",
+        "notes": "Field guide confirmation of Indo-Pacific distribution and ~10 cm adult size."
+      },
+      {
+        "name": "Reeflings — Fromia indica",
+        "url": "https://reeflings.com/species/fromia-indica",
+        "accessedDate": "2026-06-12",
+        "notes": "Hobbyist husbandry: ~100 L minimum reported, temperature 24–28 °C, SG 1.023–1.025 — averaged with LiveAquaria values."
+      }
+    ]
+  },
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": {
+    "copperSensitive": true,
+    "minTankAgeMonths": 6,
+    "coralSafe": true,
+    "waterStabilitySensitivity": "high"
+  },
+  "other-invert": null,
+  "amphibian": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-12"
+}

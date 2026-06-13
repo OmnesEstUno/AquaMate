@@ -1,0 +1,125 @@
+{
+  "id": "sw-echi-008",
+  "slug": "red-knob-sea-star",
+  "kind": "fauna",
+  "taxon": "echinoderm",
+  "waterType": "saltwater",
+  "commonName": "Red Knob Sea Star",
+  "scientificName": "Protoreaster linckii",
+  "alsoKnownAs": [
+    "Red-Knob Starfish",
+    "African Red Knob Sea Star",
+    "African Red Knob Starfish",
+    "Banded Sea Star",
+    "Red Knob Starfish"
+  ],
+  "category": "Sea Star",
+  "taxonomy": {
+    "family": "Oreasteridae",
+    "order": "Valvatida"
+  },
+  "nativeRange": {
+    "regions": ["Western Indian Ocean", "Indo-Pacific"],
+    "countries": ["Sri Lanka", "India", "Madagascar", "Tanzania", "Kenya", "Mozambique", "Australia"],
+    "habitat": "Shallow sandy and muddy seabeds adjacent to reef structure; commonly observed in tidal pools but recorded down to roughly 100 m on deeper slopes.",
+    "biotope": "Reef",
+    "depthRangeM": { "min": 0, "max": 100 }
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 23, "max": 26 },
+    "pH": { "min": 8.1, "max": 8.4 },
+    "gH": null,
+    "kH": { "min": 8, "max": 12 },
+    "salinity": { "min": 1.023, "max": 1.025 }
+  },
+  "adultSizeCm": { "min": 25, "max": 30 },
+  "lifespanYears": { "min": 5, "max": 10 },
+  "tank": {
+    "minVolumeLiters": 300,
+    "minLengthCm": 120,
+    "swimZone": "bottom",
+    "decorPreferences": [
+      "Mature live rock with sessile-invert-free aquascape",
+      "Open sandy substrate for foraging",
+      "Stable, well-established saltwater system"
+    ],
+    "minSandDepthCm": 2
+  },
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Generally regarded as a meaty carnivore: aquarists commonly offer chopped shrimp, clam, mussel, squid or whitefish placed directly under the central disc once or twice a week. In the wild it has been documented grazing sessile invertebrates including soft corals, sponges, tube worms, clams and even other sea stars; juveniles have been reported taking some algae and detritus before shifting to a more predatory adult diet."
+  },
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": [
+      "Larger semi-aggressive marine fish",
+      "Triggerfish (in FOWLR setups)",
+      "Tangs and angelfish",
+      "Wrasses that ignore echinoderms"
+    ],
+    "avoidWith": [
+      "Soft corals",
+      "LPS and SPS corals",
+      "Clams and other bivalves",
+      "Sponges and tube worms",
+      "Other sea stars (may be eaten)",
+      "Pufferfish (known star-nippers)",
+      "Harlequin shrimp (obligate sea-star predator)"
+    ]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "Bright orange-red Indian Ocean sea star with raised dark knobs; generally considered hardy but is NOT reef-safe and is best kept in a mature FOWLR system.",
+  "careNotes": "Protoreaster linckii is the African / Indian Ocean congener of the more commonly traded Chocolate Chip Sea Star (P. nodosus) and shares the same critical caveat: despite a peaceful demeanour toward fish, it has been documented eating soft corals, sponges, tube worms, clams and other sessile invertebrates, so it is generally not considered reef-safe and is best matched to a fish-only-with-live-rock (FOWLR) setup. Specimens are large adults at ~25–30 cm arm-to-arm and need an established tank with ample open sand and rockwork; sources cluster around a 50–75 US-gallon (~190–280 L) minimum, but a 300 L / ~120 cm footprint tank is a more comfortable long-term home and aligns with the species' adult size. Like most echinoderms it has been reported to be highly sensitive to copper-based medications, sudden swings in specific gravity, and elevated nitrates, so a long (at least an hour) drip acclimation is generally advised and air exposure during transfer should be avoided. Feed meaty foods (shrimp, clam, squid, mussel) directly under the disc roughly once or twice a week; in mixed setups, opportunistic tankmates may steal food before it reaches the star. Cross-source check: Aqua Imports lists 74–78°F (23.3–25.6°C), LiveAquaria 72–78°F (22.2–25.6°C); the averaged 23–26°C range was written. Tank-size sources spanned 50 gal (Blue Zoo Aquatics) to 75 gal (LiveAquaria); the playbook's cautious-larger rule was applied and rounded to a nice 300 L value.",
+  "breedingNotes": "Captive breeding is not commonly reported in the hobby. Protoreaster sea stars are broadcast spawners with planktonic larvae that require very specific conditions, and home-aquarium rearing has generally not been considered practical.",
+  "sources": {
+    "primary": {
+      "name": "Aqua Imports",
+      "url": "https://www.aqua-imports.com/product/red-knob-starfish/",
+      "accessedDate": "2026-06-12"
+    },
+    "additional": [
+      {
+        "name": "LiveAquaria",
+        "url": "https://www.liveaquaria.com/product/562/?pcatid=562",
+        "accessedDate": "2026-06-12",
+        "notes": "Cross-checked sizing, water parameters, diet, and reef-safety. Confirms max ~30 cm, 72–78°F, pH 8.1–8.4, dKH 8–12, SG 1.023–1.025, 75-gallon minimum, carnivore, peaceful but not reef-safe."
+      },
+      {
+        "name": "Blue Zoo Aquatics",
+        "url": "https://www.bluezooaquatics.com/productDetail.asp?did=1&pid=1274&cid=85",
+        "accessedDate": "2026-06-12",
+        "notes": "Tertiary source for tank-size cross-check: lists 50-gallon minimum vs LiveAquaria's 75-gallon. Confirms 12-inch adult, carnivore, not reef-safe, Indian Ocean origin."
+      },
+      {
+        "name": "Wikipedia (Protoreaster lincki)",
+        "url": "https://en.wikipedia.org/wiki/Protoreaster_lincki",
+        "accessedDate": "2026-06-12",
+        "notes": "Used for taxonomy (Oreasteridae, Valvatida), native-range distribution, and depth range (0–100 m)."
+      }
+    ]
+  },
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": {
+    "copperSensitive": true,
+    "minTankAgeMonths": 6,
+    "coralSafe": false,
+    "waterStabilitySensitivity": "high"
+  },
+  "other-invert": null,
+  "amphibian": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-12"
+}

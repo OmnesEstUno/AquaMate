@@ -1,0 +1,167 @@
+{
+  "id": "sw-echi-017",
+  "slug": "tigertail-sea-cucumber",
+  "kind": "fauna",
+  "taxon": "echinoderm",
+  "waterType": "saltwater",
+  "commonName": "Tigertail Sea Cucumber",
+  "scientificName": "Holothuria thomasi",
+  "alsoKnownAs": [
+    "Tigertail Cucumber",
+    "Tiger Tail",
+    "Tiger Tail Sea Cucumber",
+    "Tiger's Tail Sea Cucumber",
+    "Striped Sea Cucumber"
+  ],
+  "category": "Sea Cucumber",
+  "taxonomy": {
+    "family": "Holothuriidae",
+    "order": "Holothuriida"
+  },
+  "nativeRange": {
+    "regions": [
+      "Tropical Western Atlantic",
+      "Caribbean"
+    ],
+    "countries": [
+      "United States",
+      "Bahamas",
+      "Mexico",
+      "Cuba",
+      "Jamaica",
+      "Dominican Republic",
+      "Belize",
+      "Honduras"
+    ],
+    "habitat": "Coral reef slopes and escarpments, typically with the posterior anchored in crevices beneath coral heads or rock overhangs while the front portion sweeps the substrate for detritus.",
+    "biotope": "Reef",
+    "depthRangeM": {
+      "min": 3,
+      "max": 30
+    }
+  },
+  "waterParameters": {
+    "temperatureC": {
+      "min": 22,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.023,
+      "max": 1.026
+    }
+  },
+  "adultSizeCm": {
+    "min": 60,
+    "max": 200
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 10
+  },
+  "tank": {
+    "minVolumeLiters": 400,
+    "minLengthCm": 150,
+    "swimZone": "bottom",
+    "decorPreferences": [
+      "Mature live rock with abundant biofilm and detritus",
+      "Deep sand bed for foraging and burrowing",
+      "Rocky caves and overhangs for the posterior anchor",
+      "Open low-flow substrate areas for sweeping the front tentacles"
+    ],
+    "minSandDepthCm": 5
+  },
+  "careLevel": "advanced",
+  "diet": {
+    "type": "detritivore",
+    "notes": "Has been documented sweeping the substrate with its anterior tentacles to collect detritus, sand, microalgae, diatoms, bacteria and fine organic matter. Most specimens self-feed in mature reef tanks with established sand beds and microfauna; supplemental feeding is rarely needed and is generally advised only when the sand bed is visibly clean."
+  },
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": [
+      "Peaceful reef fish",
+      "Most corals (LPS, SPS, soft)",
+      "Other peaceful detritivores and clean-up crew"
+    ],
+    "avoidWith": [
+      "Pufferfish",
+      "Triggerfish",
+      "Large angelfish that nip echinoderms",
+      "Harlequin shrimp",
+      "Powerful uncovered powerheads and overflows (sucking the animal in can rupture it and release toxins)"
+    ]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "Large Caribbean detritivore commonly used in mature reef tanks for sand-bed cleanup. Releases saponin toxins when stressed or dying, which have been reported to harm tankmates — less severe than a Sea Apple but still a real risk.",
+  "careNotes": "The Tigertail Sea Cucumber is a large Caribbean detritivore (Holothuria thomasi) that has been reported to reach roughly 1 m in captive systems and up to about 2 m in the wild, making it one of the largest sea cucumbers in the western Atlantic. In aquaria it is most commonly used as a sand-bed cleaner in mature reef setups, where it sweeps detritus, diatoms and microalgae from the substrate with its anterior tentacles while keeping its posterior anchored in a crack or under live rock. A mature tank with an established sand bed (generally advised at 6 months or more) and abundant detritus is generally considered necessary to keep it fed long-term. Like other holothurians, it is intolerant of copper-based medications and is sensitive to high nitrate and unstable salinity, pH and temperature; a slow drip acclimation is generally advised. The most important caveat is its saponin chemistry: when stressed, injured, or dying it can release holothurin-class toxins into the water column that have been reported to harm or kill fish and invertebrates. The risk is real but typically considered less severe than that of the Sea Apple (Pseudocolochirus axiologus) — partly because Tigertails do not aggressively eviscerate and partly because their saponin load is lower per unit body mass — but a tank wipeout has still been documented when the animal is sucked into an uncovered pump intake or overflow. All powerheads, overflows and returns should be screened. Note that retail listings labelled simply 'Tiger Tail Sea Cucumber' on Indo-Pacific-focused vendors (e.g. LiveAquaria) are often substituted with the similar Holothuria hilla or H. impatiens rather than the Caribbean H. thomasi — confirm provenance if true H. thomasi is wanted. Source spread on adult size was wide (Reeflings captive ~30 cm vs Wikipedia wild up to 200 cm vs ReefGuide 90–180 cm wild); we used the wild range here since captive specimens have been reported to grow substantially when well-fed.",
+  "breedingNotes": "Has not been reproduced reliably in home aquaria. Wild reproduction is by broadcast spawning; some Holothuria species are also capable of transverse fission, but this is not commonly observed in captivity.",
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url": "https://www.liveaquaria.com/product/712/?pcatid=712",
+      "accessedDate": "2026-06-12",
+      "notes": "Primary care parameters for the trade-name 'Tiger Tail Sea Cucumber': temp 72–78°F (22–25.5°C), pH 8.1–8.4, SG 1.023–1.025, dKH 8–12, Expert-Only, peaceful, copper-intolerant, warns of toxin release when stressed/sucked into pumps. Note that LiveAquaria explicitly states their listings are filled with H. hilla or H. impatiens (Indo-Pacific) rather than the Caribbean H. thomasi targeted here — water parameters are functionally equivalent across Holothuria, but provenance/range differs."
+    },
+    "additional": [
+      {
+        "name": "Reef2Reef Wiki",
+        "url": "https://www.reef2reef.com/wiki/",
+        "accessedDate": "2026-06-12",
+        "notes": "Assigned secondary returned HTTP 403 Forbidden; swapped to Reeflings, Wikipedia and ReefGuide below."
+      },
+      {
+        "name": "Reeflings — Holothuria thomasi Care Guide",
+        "url": "https://reeflings.com/species/holothuria-thomasi",
+        "accessedDate": "2026-06-12",
+        "notes": "Dedicated H. thomasi page (distinct from the LiveAquaria Indo-Pacific substitution). Confirms 23–27°C, pH 8.1–8.4, SG 1.023–1.026, detritivore, peaceful, reef-safe, Caribbean/Western Atlantic origin, and the saponin-toxin caveat. Cited a 200 L minimum tank size which we biased upward per playbook to 400 L for adult sizing and food load."
+      },
+      {
+        "name": "Wikipedia — Holothuria thomasi",
+        "url": "https://en.wikipedia.org/wiki/Holothuria_thomasi",
+        "accessedDate": "2026-06-12",
+        "notes": "Source for taxonomy (Holothuriidae, Holothuriida), Caribbean/Gulf of Mexico distribution, 3–30 m reef-slope habitat, and confirmation of up to ~2 m wild adult length (largest western-Atlantic sea cucumber)."
+      },
+      {
+        "name": "ReefGuide — Tiger Tail Sea Cucumber (Holothuria thomasi)",
+        "url": "https://reefguide.org/carib/tigertailcucumber.html",
+        "accessedDate": "2026-06-12",
+        "notes": "Caribbean field-guide confirmation of size (90–180 cm), depth (3–30 m), and distribution (Caribbean, Bahamas, Florida). Used as a wild-data cross-check on adult size and depth range."
+      }
+    ]
+  },
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": {
+    "copperSensitive": true,
+    "minTankAgeMonths": 6,
+    "coralSafe": true,
+    "waterStabilitySensitivity": "high"
+  },
+  "other-invert": null,
+  "amphibian": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-12",
+  "hobbyistAdvisory": {
+    "level": "specialist-only",
+    "reason": "Adult size of roughly 1 m (up to 2 m in the wild) outgrows most home aquaria, and the species can release saponin-class toxins capable of harming tankmates if stressed or sucked into an uncovered pump. Best reserved for large, mature, screened reef systems run by experienced keepers."
+  }
+}
