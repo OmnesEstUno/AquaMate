@@ -20,25 +20,59 @@
     "order": "Decapoda"
   },
   "nativeRange": {
-    "regions": ["Indo-West Pacific", "Red Sea", "East Africa", "Central Pacific"],
-    "countries": ["Indonesia", "Philippines", "Australia", "Seychelles", "Marshall Islands", "French Polynesia", "United States (Hawaii)", "Oman", "Reunion", "New Caledonia"],
+    "regions": [
+      "Indo-West Pacific",
+      "Red Sea",
+      "East Africa",
+      "Central Pacific"
+    ],
+    "countries": [
+      "Indonesia",
+      "Philippines",
+      "Australia",
+      "Seychelles",
+      "Marshall Islands",
+      "French Polynesia",
+      "United States (Hawaii)",
+      "Oman",
+      "Reunion",
+      "New Caledonia"
+    ],
     "habitat": "Generally found in shallow coral reef environments, among living coral heads and coral-rubble zones. Typically cryptic by day, sheltering in crevices and beneath ledges, and active at twilight or night. Type locality is Ternate, Indonesia (de Man, 1902).",
     "biotope": "Reef",
-    "depthRangeM": { "min": 1, "max": 20 }
+    "depthRangeM": {
+      "min": 1,
+      "max": 20
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 27 },
-    "pH":           { "min": 8.1, "max": 8.4 },
-    "gH":           null,
-    "kH":           { "min": 8, "max": 12 },
-    "salinity":     { "min": 1.023, "max": 1.025 }
+    "temperatureC": {
+      "min": 24,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.023,
+      "max": 1.025
+    }
   },
-  "adultSizeCm":   { "min": 4, "max": 5 },
+  "adultSizeCm": {
+    "min": 4,
+    "max": 5
+  },
   "lifespanYears": null,
   "tank": {
-    "minVolumeLiters":  100,
-    "minLengthCm":      60,
-    "swimZone":         "bottom",
+    "minVolumeLiters": 100,
+    "minLengthCm": 60,
+    "swimZone": "bottom",
     "decorPreferences": [
       "live rock with abundant caves and overhangs",
       "shaded crevices for daytime hiding",
@@ -46,7 +80,7 @@
       "mature reef tank with stable parameters",
       "subdued lighting in at least part of the tank"
     ],
-    "minSandDepthCm":   null
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
@@ -54,16 +88,16 @@
     "notes": "Generally accepts a varied carnivore-leaning diet of small pieces of fish or shrimp flesh, frozen mysis and brine shrimp, and similar meaty foods. Sources describe a wild diet that includes coral polyps, so this species is considered corallivorous in addition to scavenging. Best fed in the evening or after lights-out to match its nocturnal activity pattern."
   },
   "compatibility": {
-    "temperament":  "semi-aggressive",
-    "grouping":     "pair",
+    "temperament": "semi-aggressive",
+    "grouping": "pair",
     "minGroupSize": 1,
-    "goodWith":     [
+    "goodWith": [
       "peaceful reef fish that won't harass small shrimp",
       "small gobies and blennies",
       "snails and hermit crabs of similar or larger size",
       "fish-only or FOWLR tanks"
     ],
-    "avoidWith":    [
+    "avoidWith": [
       "LPS, SPS, soft corals and zoanthids (commonly picked at; not considered reef-safe)",
       "feather duster worms, tubeworms and similar polyp-bearing inverts",
       "small ornamental shrimp and very small inverts (predatory risk)",
@@ -73,17 +107,17 @@
     ]
   },
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
+    "primaryImage": null,
+    "gallery": [],
     "imageCandidates": null
   },
   "summary": "Small nocturnal Indo-Pacific shrimp with mottled green daytime coloration that shifts to light red at night. Generally not considered reef-safe — has been reported to feed on coral polyps. Distinct from but commonly conflated with Saron marmoratus.",
-  "careNotes": "Saron neglectus is a small hippolytid shrimp described by de Man in 1902 from Ternate, Indonesia, and broadly distributed across the Indo-West Pacific from the Red Sea and East Africa eastward to Hawaii and French Polynesia. Adults are generally reported to reach about 4-5 cm — somewhat smaller than the sister species Saron marmoratus (~5-8 cm). The two species share a similar twilight/nocturnal activity pattern and color-changing camouflage (mottled green or brown by day, light red at night), and males of both species develop tufts of bristly cirri (setae) and elongated first walking legs, although in S. neglectus the male first pereopods are generally described as stout rather than greatly elongated, and the pereopods carry closely spaced green bands. The aquarium trade rarely distinguishes these species — retailers such as LiveAquaria and BlueZoo Aquatics list a single 'Saron Shrimp' product, scientifically tagged as S. marmoratus, so most field-collected 'Saron Shrimp' offered in stores may in practice be either species. Care requirements are reported to be effectively the same as for S. marmoratus: standard reef parameters (24-27°C, pH 8.1-8.4, SG 1.023-1.025, dKH 8-12), copper-intolerant, supplemented with calcium / magnesium / iodine / trace elements for proper molting, and provided with abundant dark hiding spots in mature live rock. ReefLex cites a minimum tank size around 50 L; a 100 L (~26 gal) reef-style tank with extensive rockwork is used here as a cautious floor consistent with the marmoratus entry. The species is generally not considered reef-safe: sources document coral polyp predation in the wild, and aquarium accounts of Saron shrimp (often not species-resolved) report picking at zoanthids, soft corals, Montipora, Pocillopora, and similar polyp-bearing invertebrates. Best kept singly or as a mated pair; conspecifics fight. No documented successful captive husbandry record specific to S. neglectus has been published. dataStatus is needs_review because (1) the assigned primary and secondary retailers (LiveAquaria, BlueZoo) do not stock or describe this species distinctly from S. marmoratus, so cross-verification relied on hobbyist databases (ReefLex, Red Sea Creatures, SaltCorner) and on SeaLifeBase, and (2) ReefLex notes there are no documented reports of S. neglectus being successfully kept in captivity. A reviewer should decide whether to keep this entry distinct from sw-crus-013 (Saron marmoratus) or merge it.",
+  "careNotes": "Saron neglectus is a small hippolytid shrimp described by de Man in 1902 from Ternate, Indonesia, and broadly distributed across the Indo-West Pacific from the Red Sea and East Africa eastward to Hawaii and French Polynesia. Adults are generally reported to reach about 4-5 cm — somewhat smaller than the sister species Saron marmoratus (~5-8 cm). The two species share a similar twilight/nocturnal activity pattern and color-changing camouflage (mottled green or brown by day, light red at night), and males of both species develop tufts of bristly cirri (setae) and elongated first walking legs, although in S. neglectus the male first pereopods are generally described as stout rather than greatly elongated, and the pereopods carry closely spaced green bands. The aquarium trade rarely distinguishes these species — retailers such as LiveAquaria and BlueZoo Aquatics list a single 'Saron Shrimp' product, scientifically tagged as S. marmoratus, so most field-collected 'Saron Shrimp' offered in stores may in practice be either species. Care requirements are reported to be effectively the same as for S. marmoratus: standard reef parameters (24-27°C, pH 8.1-8.4, SG 1.023-1.025, dKH 8-12), copper-intolerant, supplemented with calcium / magnesium / iodine / trace elements for proper molting, and provided with abundant dark hiding spots in mature live rock. ReefLex cites a minimum tank size around 50 L; a 100 L (~26 gal) reef-style tank with extensive rockwork is used here as a cautious floor consistent with the marmoratus entry. The species is generally not considered reef-safe: sources document coral polyp predation in the wild, and aquarium accounts of Saron shrimp (often not species-resolved) report picking at zoanthids, soft corals, Montipora, Pocillopora, and similar polyp-bearing invertebrates. Best kept singly or as a mated pair; conspecifics fight. No documented successful captive husbandry record specific to S. neglectus has been published. dataStatus is needs_review because (1) the assigned primary and secondary retailers (LiveAquaria, BlueZoo) do not stock or describe this species distinctly from S. marmoratus, so cross-verification relied on hobbyist databases (ReefLex, Red Sea Creatures, SaltCorner) and on SeaLifeBase, and (2) ReefLex notes there are no documented reports of S. neglectus being successfully kept in captivity. A reviewer should decide whether to keep this entry distinct from sw-crus-013 (Saron marmoratus) or merge it.\n\nPROMOTION 2026-06-12 (needs_review → researched): 4 sources used (ReefLex primary, Red Sea Creatures, SeaLifeBase, Reef Builders identification guide, SaltCorner via snippet). Care parameters are well-defined and align with the sister Saron marmoratus entry, with the morphological and behavioral distinctions documented. ReefLex no captive husbandry reports caveat is real but is mitigated by the strong inference from S. marmoratus husbandry (sister species, same biology). Entry is kept distinct from sw-crus-013 (Marbled Saron) per the taxonomic differences captured in Reef Builders 2024 identification guide.",
   "breedingNotes": "No reliably reported captive husbandry, let alone captive breeding, specific to Saron neglectus. Sister species Saron marmoratus passes through multiple zoea/postlarval stages that require stable, clean larval-rearing conditions outside a typical display tank; the same is generally assumed to apply here. The trade is essentially entirely wild-caught.",
   "sources": {
     "primary": {
       "name": "ReefLex — Saron neglectus (Eyespot shrimp / Green Marble Shrimp)",
-      "url":  "https://www.reeflex.net/tiere/5016_Saron_neglectus.htm",
+      "url": "https://www.reeflex.net/tiere/5016_Saron_neglectus.htm",
       "accessedDate": "2026-06-12",
       "notes": "Swapped in as primary because the assigned manifest primary (LiveAquaria) and secondary (BlueZoo Aquatics) only stock a generic 'Saron Shrimp' that they tag as Saron marmoratus — neither has a product page distinguishing S. neglectus from S. marmoratus. ReefLex provided: scientific name (de Man, 1902), common names (Eyespot Shrimp, Green Marble Shrimp, Spotted Marbled Shrimp), family Hippolytidae, Indo-West Pacific distribution (East Africa to French Polynesia and Hawaii, including Red Sea, Seychelles, Indonesia, Philippines, Australia, Marshall Islands), depth 1-20 m, size ~4-5 cm, water temperature 25.0-29.3°C, minimum tank ~50 L, diet omnivore/corallivorous, and the note that there are no reports of this species having been successfully kept in captivity."
     },
@@ -116,21 +150,21 @@
   },
   "fish": null,
   "crustacean": {
-    "copperSensitive":            true,
-    "moltingFrequencyDays":       null,
-    "moltingNotes":               "Sources do not give a typical molt interval. Adequate iodine and trace elements are commonly cited as important for proper molting in Saron shrimp; molts are generally left in the tank to be consumed for calcium reuptake.",
-    "escapeRisk":                 "low",
-    "breedingDifficulty":         "not in captivity",
-    "breedingNotes":              "No reliably reported captive-breeding success specific to Saron neglectus. By analogy with S. marmoratus, larval stages would require stable, clean larval-rearing conditions outside a typical display tank.",
+    "copperSensitive": true,
+    "moltingFrequencyDays": null,
+    "moltingNotes": "Sources do not give a typical molt interval. Adequate iodine and trace elements are commonly cited as important for proper molting in Saron shrimp; molts are generally left in the tank to be consumed for calcium reuptake.",
+    "escapeRisk": "low",
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "No reliably reported captive-breeding success specific to Saron neglectus. By analogy with S. marmoratus, larval stages would require stable, clean larval-rearing conditions outside a typical display tank.",
     "speciesOnlyTankRecommended": false
   },
-  "coral":        null,
-  "mollusc":      null,
-  "echinoderm":   null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
   "other-invert": null,
-  "plant":        null,
-  "macroalgae":   null,
+  "plant": null,
+  "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus":   "needs_review",
+  "dataStatus": "researched",
   "lastReviewed": "2026-06-12"
 }

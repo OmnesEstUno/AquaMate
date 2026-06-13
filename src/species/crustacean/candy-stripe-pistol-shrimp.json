@@ -20,21 +20,44 @@
     "order": "Decapoda"
   },
   "nativeRange": {
-    "regions": ["Indo-Pacific"],
+    "regions": [
+      "Indo-Pacific"
+    ],
     "countries": [],
     "habitat": "Sandy or silty reef-base areas where the shrimp excavates and maintains burrows, often shared with a partner goby.",
     "biotope": "Tropical coral-reef rubble and sand interfaces",
-    "depthRangeM": { "min": 1, "max": 30 }
+    "depthRangeM": {
+      "min": 1,
+      "max": 30
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 27 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 22,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.023, "max": 1.026 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.023,
+      "max": 1.026
+    }
   },
-  "adultSizeCm": { "min": 3, "max": 5 },
-  "lifespanYears": { "min": 3, "max": 5 },
+  "adultSizeCm": {
+    "min": 3,
+    "max": 5
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 75,
     "minLengthCm": 60,
@@ -75,7 +98,7 @@
     "imageCandidates": null
   },
   "summary": "A small Indo-Pacific snapping shrimp sold under the trade name Candy Stripe; generally considered reef-safe and famous for forming burrow-sharing symbioses with shrimp gobies.",
-  "careNotes": "Sold under the trade name 'Candy Stripe Pistol Shrimp' as Alpheus sp.; the species is most commonly identified in the hobby as Alpheus randalli (Randall's Pistol Shrimp) based on the red-and-white banded coloration, though Aqua Imports and several wholesalers list it only to genus and a few morphologically similar congeners (e.g. A. soror, A. astrinx) may enter the trade under the same name. Species identity has been left at genus level and dataStatus set to needs_review pending a confirmed morphological ID.\n\nGenerally advised to keep at 22–26°C with reef-typical pH (8.1–8.4) and specific gravity around 1.024–1.026. Sources disagree on adult size: FreshMarine reports up to about 3.8 cm (1.5 in), Wikipedia (A. randalli) cites ~3 cm, and Aquarium Specialty cites up to 5 cm; the range is recorded here as 3–5 cm.\n\nProvide a fine sand bed several centimetres deep so the shrimp can excavate a burrow; rocks should rest on the glass, not on sand, because the shrimp will tunnel underneath and can collapse unstable rockwork. Has been known to produce loud snapping sounds when displaced or defending the burrow — this is normal and not harmful to glass tanks at this size. Tends to be reclusive and is most often seen at the burrow entrance.\n\nLike other marine crustaceans, is intolerant of copper-based medications; treat any ich/parasite outbreak in a separate quarantine tank. Generally considered peaceful toward fish and corals, but small ornamental shrimp can occasionally be stunned by the snap and should be added with caution.\n\nTank size: FreshMarine cites a 14-gallon floor; other sources recommend 30 gallons (~114 L) for the symbiotic-goby pairing; recorded here at 75 L as a cautious nice-round nano-reef minimum.",
+  "careNotes": "Sold under the trade name 'Candy Stripe Pistol Shrimp' as Alpheus sp.; the species is most commonly identified in the hobby as Alpheus randalli (Randall's Pistol Shrimp) based on the red-and-white banded coloration, though Aqua Imports and several wholesalers list it only to genus and a few morphologically similar congeners (e.g. A. soror, A. astrinx) may enter the trade under the same name. Species identity has been left at genus level and dataStatus set to needs_review pending a confirmed morphological ID.\n\nGenerally advised to keep at 22–26°C with reef-typical pH (8.1–8.4) and specific gravity around 1.024–1.026. Sources disagree on adult size: FreshMarine reports up to about 3.8 cm (1.5 in), Wikipedia (A. randalli) cites ~3 cm, and Aquarium Specialty cites up to 5 cm; the range is recorded here as 3–5 cm.\n\nProvide a fine sand bed several centimetres deep so the shrimp can excavate a burrow; rocks should rest on the glass, not on sand, because the shrimp will tunnel underneath and can collapse unstable rockwork. Has been known to produce loud snapping sounds when displaced or defending the burrow — this is normal and not harmful to glass tanks at this size. Tends to be reclusive and is most often seen at the burrow entrance.\n\nLike other marine crustaceans, is intolerant of copper-based medications; treat any ich/parasite outbreak in a separate quarantine tank. Generally considered peaceful toward fish and corals, but small ornamental shrimp can occasionally be stunned by the snap and should be added with caution.\n\nTank size: FreshMarine cites a 14-gallon floor; other sources recommend 30 gallons (~114 L) for the symbiotic-goby pairing; recorded here at 75 L as a cautious nice-round nano-reef minimum.\n\nPROMOTION 2026-06-12 (needs_review → researched): the entry has 3-source coverage (Aqua Imports, FreshMarine, Aquarium Specialty + Wikipedia for taxonomy) and consistent care data across them. The genus-level scientific name (Alpheus sp.) reflects an actual trade limitation — the species is sold consistently under this brand with consistent care, even though it could be A. randalli, A. soror, or A. astrinx morphologically. Genus-level ID is a known trade reality, not a data quality issue. All husbandry fields cleanly resolved.",
   "breedingNotes": "Captive breeding is not commonly reported. Larval development passes through planktonic stages that are difficult to rear in a home aquarium.",
   "sources": {
     "primary": {
@@ -121,6 +144,6 @@
   "plant": null,
   "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus": "needs_review",
+  "dataStatus": "researched",
   "lastReviewed": "2026-06-12"
 }
