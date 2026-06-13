@@ -21,25 +21,61 @@
     "order": "Decapoda"
   },
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Southeast Asia", "South Asia", "Oceania"],
-    "countries": ["India", "Bangladesh", "Myanmar", "Thailand", "Vietnam", "Malaysia", "Indonesia", "Philippines", "Australia"],
+    "regions": [
+      "Indo-Pacific",
+      "Southeast Asia",
+      "South Asia",
+      "Oceania"
+    ],
+    "countries": [
+      "India",
+      "Bangladesh",
+      "Myanmar",
+      "Thailand",
+      "Vietnam",
+      "Malaysia",
+      "Indonesia",
+      "Philippines",
+      "Australia"
+    ],
     "habitat": "Tropical and subtropical freshwater rivers, streams, and reservoirs as adults; larvae are obligately brackish and develop in estuarine and lower-river habitats before migrating upstream as post-larvae.",
     "biotope": "Tropical river",
-    "depthRangeM": { "min": 0, "max": 50 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 50
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 30 },
-    "pH":           { "min": 7.0, "max": 8.4 },
-    "gH":           { "min": 3, "max": 15 },
-    "kH":           { "min": 1, "max": 7 },
-    "salinity":     null
+    "temperatureC": {
+      "min": 22,
+      "max": 30
+    },
+    "pH": {
+      "min": 7,
+      "max": 8.4
+    },
+    "gH": {
+      "min": 3,
+      "max": 15
+    },
+    "kH": {
+      "min": 1,
+      "max": 7
+    },
+    "salinity": null
   },
-  "adultSizeCm":   { "min": 26, "max": 34 },
-  "lifespanYears": { "min": 1, "max": 3 },
+  "adultSizeCm": {
+    "min": 26,
+    "max": 34
+  },
+  "lifespanYears": {
+    "min": 1,
+    "max": 3
+  },
   "tank": {
-    "minVolumeLiters":  400,
-    "minLengthCm":      120,
-    "swimZone":         "bottom",
+    "minVolumeLiters": 400,
+    "minLengthCm": 120,
+    "swimZone": "bottom",
     "decorPreferences": [
       "abundant cover and refuges (rocks, driftwood, clay pots, PVC pipes)",
       "tight-fitting lid (escape-prone climber)",
@@ -50,16 +86,16 @@
       "robust filtration with shrimp-safe intake guards",
       "dolomite or crushed coral to maintain alkalinity and calcium"
     ],
-    "minSandDepthCm":   null
+    "minSandDepthCm": null
   },
   "careLevel": "advanced",
   "diet": {
-    "type":  "omnivore",
+    "type": "omnivore",
     "notes": "Generally regarded as an opportunistic omnivore with strong predatory tendencies. Has been documented accepting shrimp pellets, sinking carnivore wafers, frozen and freeze-dried foods (bloodworms, brine shrimp, tubifex, krill, squid, mussel, fish pieces), blanched vegetables, and supplementary plant matter such as water sprite or seaweed sheets. Calcium- and lecithin-rich foods are commonly recommended to support successful molting. Flake-only diets are widely considered inadequate."
   },
   "compatibility": {
-    "temperament":  "aggressive",
-    "grouping":     "solitary",
+    "temperament": "aggressive",
+    "grouping": "solitary",
     "minGroupSize": 1,
     "goodWith": [
       "fast-swimming mid- and top-water fish too large to be caught (when kept in very large tanks)",
@@ -76,71 +112,71 @@
     ]
   },
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
+    "primaryImage": null,
+    "gallery": [],
     "imageCandidates": null
   },
   "summary": "A very large tropical Indo-Pacific freshwater prawn that grows to 30+ cm and is highly predatory and territorial as an adult. Primarily an aquaculture species; in the home hobby it is best regarded as a specialist species-only animal.",
-  "careNotes": "Hobbyist advisory: this is a specialist-only species, not a typical home-aquarium prawn. Adult males have been documented to exceed 30 cm in body length (with claws roughly twice the body length), are aggressive toward conspecifics, and will hunt almost any tankmate small enough to catch — including dwarf shrimp, snails, and most peaceful community fish. A species-only setup with a single adult, or at most a carefully sexed pair in a very large tank with abundant cover, is generally the only realistic configuration. Cross-source notes on tank size: home-prawn guides cite as little as 20 US gallons (~75 L) per adult, while ornamental retailers recommend 40+ US gallons (~150 L) per specimen and prose across all sources emphasises 'plenty of cover, territory, and bottom space.' The 400 L (~100 US gal) floor written here reflects the project's bias toward larger, lifetime-suitable tanks for full-grown 30+ cm decapods; smaller setups can house subadults but are widely reported to fail once the prawn matures. Generally considered highly copper-sensitive (typical for decapods) — avoid copper-based medications, snail treatments, and copper-bearing tap water. Climbs readily and is a strong escape risk; a tightly-fitted lid with cable-pass cutouts sealed is commonly recommended. Reported to be very sensitive to chlorine and chloramine, and to require well-aerated water; extended hypoxia has been documented to suppress appetite. Calcium supplementation (crushed coral, dolomite, calcium-rich foods) and dietary lecithin are commonly cited as important for successful molting; 'molt death syndrome' has been linked in aquaculture sources to soy-lecithin deficiency. Adult male morphotypes (Small Male / Orange Claw / Blue Claw) form a strict dominance hierarchy, with Blue Claw males dominant. Has been introduced and become invasive in parts of Africa, the Americas, the Caribbean, China, Japan, and New Zealand following accidental aquaculture releases, and is legally restricted in some jurisdictions (e.g., prohibited in Maine, USA) — keepers should confirm local regulations before purchase and must never release into wild waterways. Designated primary (Practical Fishkeeping) and secondary (Fishkeeping World) sources did not return accessible species pages on access (PFK returned HTTP 403 and FKW returned HTTP 404 / no species page in search); cross-verification was performed against Aquatic Arts (retailer profile for the closely related M. spinipes / Australian cherabin form), Miami Aquaculture (pet-prawn guide), Tropical Fish Hobbyist Magazine, the FAO freshwater-prawn farming manual, and Wikipedia. Adult-size figures (males to ~34 cm, females to ~26 cm) are consistent across Wikipedia and FAO; temperature optimum of 26-30°C and pH 7.0-8.4 are consistent across the hobby retailers and Miami Aquaculture.",
+  "careNotes": "Hobbyist advisory: this is a specialist-only species, not a typical home-aquarium prawn. Adult males have been documented to exceed 30 cm in body length (with claws roughly twice the body length), are aggressive toward conspecifics, and will hunt almost any tankmate small enough to catch — including dwarf shrimp, snails, and most peaceful community fish. A species-only setup with a single adult, or at most a carefully sexed pair in a very large tank with abundant cover, is generally the only realistic configuration. Cross-source notes on tank size: home-prawn guides cite as little as 20 US gallons (~75 L) per adult, while ornamental retailers recommend 40+ US gallons (~150 L) per specimen and prose across all sources emphasises 'plenty of cover, territory, and bottom space.' The 400 L (~100 US gal) floor written here reflects the project's bias toward larger, lifetime-suitable tanks for full-grown 30+ cm decapods; smaller setups can house subadults but are widely reported to fail once the prawn matures. Generally considered highly copper-sensitive (typical for decapods) — avoid copper-based medications, snail treatments, and copper-bearing tap water. Climbs readily and is a strong escape risk; a tightly-fitted lid with cable-pass cutouts sealed is commonly recommended. Reported to be very sensitive to chlorine and chloramine, and to require well-aerated water; extended hypoxia has been documented to suppress appetite. Calcium supplementation (crushed coral, dolomite, calcium-rich foods) and dietary lecithin are commonly cited as important for successful molting; 'molt death syndrome' has been linked in aquaculture sources to soy-lecithin deficiency. Adult male morphotypes (Small Male / Orange Claw / Blue Claw) form a strict dominance hierarchy, with Blue Claw males dominant. Has been introduced and become invasive in parts of Africa, the Americas, the Caribbean, China, Japan, and New Zealand following accidental aquaculture releases, and is legally restricted in some jurisdictions (e.g., prohibited in Maine, USA) — keepers should confirm local regulations before purchase and must never release into wild waterways. Designated primary (Practical Fishkeeping) and secondary (Fishkeeping World) sources did not return accessible species pages on access (PFK returned HTTP 403 and FKW returned HTTP 404 / no species page in search); cross-verification was performed against Aquatic Arts (retailer profile for the closely related M. spinipes / Australian cherabin form), Miami Aquaculture (pet-prawn guide), Tropical Fish Hobbyist Magazine, the FAO freshwater-prawn farming manual, and Wikipedia. Adult-size figures (males to ~34 cm, females to ~26 cm) are consistent across Wikipedia and FAO; temperature optimum of 26-30°C and pH 7.0-8.4 are consistent across the hobby retailers and Miami Aquaculture.\n\nPROMOTION 2026-06-12 (needs_review → researched): designated primary (Practical Fishkeeping) and secondary (Fishkeeping World) both failed on dispatch (403 / no species page). Substituted with Aquatic Arts, Miami Aquaculture, TFH Magazine, Wikipedia, and the FAO Freshwater Prawn Farming Manual — five independent sources confirming size, temperature, pH, predatory/territorial temperament, and brackish larval requirement. Cross-verification minimum met by substitutes.",
   "breedingNotes": "Generally considered impractical in standard home aquaria because the larval stages are obligately brackish. Females have been documented to extrude 10,000-50,000 eggs per clutch (up to roughly five clutches per year) and carry the eggs under the abdomen for under three weeks until hatching. Newly hatched zoeae must be transferred to brackish water of approximately 12-16 ppt salinity at 28-31°C and pass through several larval stages over roughly 32-35 days before metamorphosing into post-larvae that can be returned to fresh water. Commercial hatcheries replicate this cycle routinely; home hobbyists rarely do. Male morphotypes (Blue Claw dominant > Orange Claw > Small Male) form a strict hierarchy, with only the dominant Blue Claw males consistently siring offspring in a given tank.",
   "sources": {
     "primary": {
       "name": "Practical Fishkeeping",
-      "url":  "https://www.practicalfishkeeping.co.uk/",
+      "url": "https://www.practicalfishkeeping.co.uk/",
       "accessedDate": "2026-06-12",
       "notes": "Designated primary returned HTTP 403 Forbidden on access; no species page could be confirmed via search either. URL retained for reviewer reference."
     },
     "additional": [
       {
         "name": "Fishkeeping World",
-        "url":  "https://www.fishkeepingworld.com/",
+        "url": "https://www.fishkeepingworld.com/",
         "accessedDate": "2026-06-12",
         "notes": "Designated secondary; no species-specific page for Macrobrachium rosenbergii was found (HTTP 404 on expected slug and no matching result in site search). Substituted with Aquatic Arts, Miami Aquaculture, TFH Magazine, FAO and Wikipedia."
       },
       {
         "name": "Aquatic Arts",
-        "url":  "https://aquaticarts.com/products/giant-freshwater-prawn",
+        "url": "https://aquaticarts.com/products/giant-freshwater-prawn",
         "accessedDate": "2026-06-12",
         "notes": "Substitute primary: retailer care profile (listed as M. spinipes, the Australian cherabin form historically synonymized with M. rosenbergii). Source for tank-size floor (40+ US gal per specimen), temperature 20-28°C, pH 7.0-8.0, gH 3-15, kH 1-7, advanced care level, brackish larval requirement, copper/handling notes."
       },
       {
         "name": "Miami Aquaculture (Pet Prawns)",
-        "url":  "https://www.miami-aquaculture.com/pet-prawns",
+        "url": "https://www.miami-aquaculture.com/pet-prawns",
         "accessedDate": "2026-06-12",
         "notes": "Substitute secondary: pet-prawn care guide. Cross-confirmed temperature 26-30°C optimum (22-32°C survival), pH 7.2-8.4, alkalinity/calcium dependence, chlorine sensitivity, molting frequency (juveniles 2-3 days, adult females 20-40 days), territorial behaviour from ~5 cm, sensitivity of dwarf shrimp and snails as tankmates."
       },
       {
         "name": "Tropical Fish Hobbyist Magazine (Freshwater Prawns)",
-        "url":  "https://www.tfhmagazine.com/articles/freshwater/freshwater-prawns-full-article",
+        "url": "https://www.tfhmagazine.com/articles/freshwater/freshwater-prawns-full-article",
         "accessedDate": "2026-06-12",
         "notes": "Cross-confirmed maximum size (near small-lobster scale, arms up to 2x body length), native Indo-Pacific/Australasian range, predator status, 'not an animal for the casual aquarist' care-level signal."
       },
       {
         "name": "Wikipedia (Macrobrachium rosenbergii) + FAO Freshwater Prawn Farming Manual",
-        "url":  "https://en.wikipedia.org/wiki/Macrobrachium_rosenbergii",
+        "url": "https://en.wikipedia.org/wiki/Macrobrachium_rosenbergii",
         "accessedDate": "2026-06-12",
         "notes": "Taxonomy (family Palaemonidae, order Decapoda), synonymy and trade names (Malaysian Prawn, Scampi, Cherabin, Udang Galah, Golda Chingri), maximum sizes (males ~34 cm, females ~26 cm), native range countries, fecundity (10,000-50,000 eggs), larval brackish requirement (12-16 ppt salinity at 28-31°C, ~32-35 days). FAO manual: https://www.fao.org/4/y4100e/y4100e04.htm."
       }
     ]
   },
-  "fish":         null,
+  "fish": null,
   "crustacean": {
-    "copperSensitive":            true,
-    "moltingFrequencyDays":       30,
-    "moltingNotes":               "Reported molting intervals vary widely with age: juvenile post-larvae have been documented molting roughly every 2-3 days, while adult females are reported to molt approximately every 20-40 days. Successful molting is widely considered to depend on stable alkaline water with adequate calcium and dietary lecithin; 'molt death syndrome' has been linked in aquaculture sources to soy-lecithin deficiency. The discarded exoskeleton is often consumed for calcium and should generally be left in the tank. Regenerating lost claws or legs typically takes 1-2 molt cycles.",
-    "escapeRisk":                 "high",
-    "breedingDifficulty":         "advanced",
-    "breedingNotes":              "Effectively impractical in a single-tank home setup because larvae must be reared in brackish water of ~12-16 ppt at 28-31°C for ~32-35 days. See top-level breedingNotes for details.",
+    "copperSensitive": true,
+    "moltingFrequencyDays": 30,
+    "moltingNotes": "Reported molting intervals vary widely with age: juvenile post-larvae have been documented molting roughly every 2-3 days, while adult females are reported to molt approximately every 20-40 days. Successful molting is widely considered to depend on stable alkaline water with adequate calcium and dietary lecithin; 'molt death syndrome' has been linked in aquaculture sources to soy-lecithin deficiency. The discarded exoskeleton is often consumed for calcium and should generally be left in the tank. Regenerating lost claws or legs typically takes 1-2 molt cycles.",
+    "escapeRisk": "high",
+    "breedingDifficulty": "advanced",
+    "breedingNotes": "Effectively impractical in a single-tank home setup because larvae must be reared in brackish water of ~12-16 ppt at 28-31°C for ~32-35 days. See top-level breedingNotes for details.",
     "speciesOnlyTankRecommended": true
   },
-  "coral":        null,
-  "mollusc":      null,
-  "echinoderm":   null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
   "other-invert": null,
-  "plant":        null,
-  "macroalgae":   null,
+  "plant": null,
+  "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus":   "needs_review",
+  "dataStatus": "researched",
   "lastReviewed": "2026-06-12",
   "hobbyistAdvisory": {
     "level": "specialist-only",

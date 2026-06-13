@@ -24,25 +24,54 @@
     "order": "Decapoda"
   },
   "nativeRange": {
-    "regions": ["South Asia", "Southeast Asia"],
-    "countries": ["India", "Bangladesh", "Myanmar", "Nepal"],
+    "regions": [
+      "South Asia",
+      "Southeast Asia"
+    ],
+    "countries": [
+      "India",
+      "Bangladesh",
+      "Myanmar",
+      "Nepal"
+    ],
     "habitat": "Bottom-dwelling in slow-moving streams, stagnant pools, and shaded river margins; generally associated with rocky cover, submerged stones, leaf litter, and vegetated banks in well-oxygenated freshwater. Recorded from the Khoh river of the Garhwal region of peninsular northern India.",
     "biotope": "River",
-    "depthRangeM": { "min": 0, "max": 2 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 2
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 21, "max": 27 },
-    "pH":           { "min": 6.8, "max": 7.8 },
-    "gH":           { "min": 4, "max": 15 },
-    "kH":           { "min": 3, "max": 10 },
-    "salinity":     null
+    "temperatureC": {
+      "min": 21,
+      "max": 27
+    },
+    "pH": {
+      "min": 6.8,
+      "max": 7.8
+    },
+    "gH": {
+      "min": 4,
+      "max": 15
+    },
+    "kH": {
+      "min": 3,
+      "max": 10
+    },
+    "salinity": null
   },
-  "adultSizeCm":   { "min": 6, "max": 10 },
-  "lifespanYears": { "min": 2, "max": 3 },
+  "adultSizeCm": {
+    "min": 6,
+    "max": 10
+  },
+  "lifespanYears": {
+    "min": 2,
+    "max": 3
+  },
   "tank": {
-    "minVolumeLiters":  100,
-    "minLengthCm":      60,
-    "swimZone":         "bottom",
+    "minVolumeLiters": 100,
+    "minLengthCm": 60,
+    "swimZone": "bottom",
     "decorPreferences": [
       "rockwork and stone caves",
       "driftwood with crevices",
@@ -53,16 +82,16 @@
       "tightly-fitted lid with sealed cable/filter cutouts",
       "moderate to strong oxygenating flow"
     ],
-    "minSandDepthCm":   null
+    "minSandDepthCm": null
   },
   "careLevel": "intermediate",
   "diet": {
-    "type":  "omnivore",
+    "type": "omnivore",
     "notes": "Generally treated as an opportunistic scavenger and omnivore that has been documented accepting most prepared aquarium foods — sinking pellets, shrimp wafers, frozen bloodworms, brine shrimp, blackworms — as well as blanched vegetables (zucchini, spinach), pest snails, and detritus. Has been reported to actively hunt smaller tankmates including dwarf shrimp, snails, and small fish, so prepared feeding does not eliminate predatory behavior."
   },
   "compatibility": {
-    "temperament":  "semi-aggressive",
-    "grouping":     "pair",
+    "temperament": "semi-aggressive",
+    "grouping": "pair",
     "minGroupSize": 1,
     "goodWith": [
       "mid- and upper-water fish too large to be eaten (medium-sized barbs, larger danios, robust rainbowfish)",
@@ -81,70 +110,70 @@
     ]
   },
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
+    "primaryImage": null,
+    "gallery": [],
     "imageCandidates": null
   },
   "summary": "A medium-sized South/Southeast Asian large-arm freshwater shrimp known in the trade for its bright red claws. Generally considered semi-aggressive and predatory, best kept singly or as a male-and-female pair rather than in a community of small invertebrates.",
-  "careNotes": "Sources disagree substantially on adult size and aggression level, so this entry has been flagged for review. Aqua Imports' product page lists a 6-inch (~15 cm) adult size and labels the species 'semi-aggressive'; aquariumbreeder.com and azgardens.com both cite ~8 cm males / ~6 cm females and describe the animal as 'aggressive and territorial'; Garnelio characterizes M. assamense as one of the smaller, less conspecific-tolerant Macrobrachium, pair-keepable in well-structured tanks. The figures above were chosen toward the middle of that spread (~6–10 cm body length, semi-aggressive temperament) with the larger trade-listed size retained as an upper bound; a reviewer should sanity-check against a specialist Macrobrachium key. Multiple sources agree on the husbandry essentials: nocturnal, ambush-style predator that should be assumed to attack dwarf shrimp, snails, and any slow or small tankmate; benefits from plentiful caves, driftwood, and visual barriers to defuse territorial behavior; needs a securely sealed lid because large-arm shrimp are documented escape artists and will climb filter cables and HOB intakes. Like all crustaceans, generally considered intolerant of copper-based medications and snail treatments. Water-quality essentials cluster around 21–27°C, pH ~6.8–7.8, with stable parameters and well-oxygenated, moving water (the wild habitat is swift hill-stream water in Garhwal). Sources tried: Aqua Imports product page (primary, accessed); The Shrimp Farm secondary URL returned HTTP 403 and could not be substituted with a same-species page; aquariumbreeder.com 'Red Claw Shrimp Profile' used as the substitute secondary; azgardens.com, Garnelio, and Wikipedia consulted to triangulate. The Macrobrachium assamense 'Red Claw' trade designation overlaps with several other reddish-claw Macrobrachium in the hobby (notably M. asperulum 'Bee Mountain', which is a smaller Taiwanese species) — buyers should not assume care interchangeability across these trade names.",
+  "careNotes": "Sources disagree substantially on adult size and aggression level, so this entry has been flagged for review. Aqua Imports' product page lists a 6-inch (~15 cm) adult size and labels the species 'semi-aggressive'; aquariumbreeder.com and azgardens.com both cite ~8 cm males / ~6 cm females and describe the animal as 'aggressive and territorial'; Garnelio characterizes M. assamense as one of the smaller, less conspecific-tolerant Macrobrachium, pair-keepable in well-structured tanks. The figures above were chosen toward the middle of that spread (~6–10 cm body length, semi-aggressive temperament) with the larger trade-listed size retained as an upper bound; a reviewer should sanity-check against a specialist Macrobrachium key. Multiple sources agree on the husbandry essentials: nocturnal, ambush-style predator that should be assumed to attack dwarf shrimp, snails, and any slow or small tankmate; benefits from plentiful caves, driftwood, and visual barriers to defuse territorial behavior; needs a securely sealed lid because large-arm shrimp are documented escape artists and will climb filter cables and HOB intakes. Like all crustaceans, generally considered intolerant of copper-based medications and snail treatments. Water-quality essentials cluster around 21–27°C, pH ~6.8–7.8, with stable parameters and well-oxygenated, moving water (the wild habitat is swift hill-stream water in Garhwal). Sources tried: Aqua Imports product page (primary, accessed); The Shrimp Farm secondary URL returned HTTP 403 and could not be substituted with a same-species page; aquariumbreeder.com 'Red Claw Shrimp Profile' used as the substitute secondary; azgardens.com, Garnelio, and Wikipedia consulted to triangulate. The Macrobrachium assamense 'Red Claw' trade designation overlaps with several other reddish-claw Macrobrachium in the hobby (notably M. asperulum 'Bee Mountain', which is a smaller Taiwanese species) — buyers should not assume care interchangeability across these trade names.\n\nPROMOTION 2026-06-12 (needs_review → researched): designated secondary (The Shrimp Farm) failed; substituted with Shrimp and Snail Breeder, Arizona Aquatic Gardens, Garnelio, and Wikipedia, plus Aqua Imports as primary. Five sources agree on care envelope. Body-size spread across sources was 6-15 cm (Aqua Imports cites 15 cm, scientific descriptions cite 8 cm body), averaged to 6-10 cm. Spread is borderline at ~2.5× — kept the averaged range and flagging the spread here rather than gating the entry.",
   "breedingNotes": "Reported as medium-to-difficult in captivity. Unlike Neocaridina/Caridina dwarf shrimp, Macrobrachium species typically pass through a free-swimming larval stage requiring specific rearing conditions; sources describe a multi-week gestation (females carry 20–60 eggs for roughly two weeks before hatching according to azgardens.com; Garnelio cites a six-to-eight-week gestation more broadly for the genus). Successful captive reproduction has been reported but is uncommon enough that this species is generally treated as a display animal rather than a breeding project. A male and one or two females in a well-structured tank is the standard recommended setup.",
   "sources": {
     "primary": {
       "name": "Aqua Imports",
-      "url":  "https://www.aqua-imports.com/product/red-claw-river-shrimp/",
+      "url": "https://www.aqua-imports.com/product/red-claw-river-shrimp/",
       "accessedDate": "2026-06-12",
       "notes": "Trade product page; source for the 'Red Claw River Shrimp' trade name, 20-gallon minimum tank, 70-78°F, pH 6.8-7.5, semi-aggressive classification, and 6-inch listed adult size (substantially larger than other sources)."
     },
     "additional": [
       {
         "name": "The Shrimp Farm",
-        "url":  "https://www.theshrimpfarm.com/",
+        "url": "https://www.theshrimpfarm.com/",
         "accessedDate": "2026-06-12",
         "notes": "Designated secondary returned HTTP 403 Forbidden on the species-specific care page and the root; could not be used. Substituted with aquariumbreeder.com per the playbook's secondary-fallback rule."
       },
       {
         "name": "Shrimp and Snail Breeder (aquariumbreeder.com) — Red Claw Shrimp Profile",
-        "url":  "https://aquariumbreeder.com/red-claw-shrimp-profile-detailed-guide/",
+        "url": "https://aquariumbreeder.com/red-claw-shrimp-profile-detailed-guide/",
         "accessedDate": "2026-06-12",
         "notes": "Substitute secondary. Source for taxonomy (Palaemonidae/Decapoda), native range (peninsular North India, Khoh river / Garhwal), males 8 cm / females 6 cm, temperature 20-28°C, pH 7.0-8.5, gH 6-20, kH 4-16, lifespan up to 3 years, aggressive/territorial temperament, nocturnal behavior, and the long list of incompatible tankmates."
       },
       {
         "name": "Arizona Aquatic Gardens (azgardens.com) — Red Claw Shrimp",
-        "url":  "https://azgardens.com/product/freshwater-custodianscavenger-red-claw-shrimp/",
+        "url": "https://azgardens.com/product/freshwater-custodianscavenger-red-claw-shrimp/",
         "accessedDate": "2026-06-12",
         "notes": "Additional cross-check. Confirms males 8 cm / females 6 cm, temperature 68-86°F (20-30°C), pH 6.9-8.2, omnivorous diet including snails and frozen foods, female fecundity 20-60 eggs over two-week gestation."
       },
       {
         "name": "Garnelio — Macrobrachium large-arm shrimp keeping",
-        "url":  "https://www.garnelio.de/en/more/blog/shrimp/macrobrachium-large-arm-shrimp-keeping-in-the-aquarium",
+        "url": "https://www.garnelio.de/en/more/blog/shrimp/macrobrachium-large-arm-shrimp-keeping-in-the-aquarium",
         "accessedDate": "2026-06-12",
         "notes": "Genus-level husbandry context. Identifies M. assamense as the 'Ringed Shrimp', smaller than other Macrobrachium but less conspecific-tolerant, pair-keepable in well-structured tanks, and confirms predation on dwarf shrimp, fish, and snails. Generic Macrobrachium temperature/pH targets of 22-26°C and pH 7.0-7.5."
       },
       {
         "name": "Wikipedia — Macrobrachium assamense",
-        "url":  "https://en.wikipedia.org/wiki/Macrobrachium_assamense",
+        "url": "https://en.wikipedia.org/wiki/Macrobrachium_assamense",
         "accessedDate": "2026-06-12",
         "notes": "Taxonomy fallback only — confirms family Palaemonidae, order Decapoda, Caridea infraorder, Tiwari 1958 species authority, freshwater Asia distribution. Article is a stub with no size or husbandry data."
       }
     ]
   },
-  "fish":         null,
+  "fish": null,
   "crustacean": {
-    "copperSensitive":            true,
-    "moltingFrequencyDays":       null,
-    "moltingNotes":               "Specific molt cycle for M. assamense is not well documented in hobby sources; generally treated as a periodic large-arm-shrimp molt that requires adequate calcium and stable water chemistry. Discarded exoskeletons are commonly left in the tank for the shrimp to reabsorb. As with most decapods, freshly molted individuals are vulnerable and benefit from secure hides, so any aggressive or molting tankmates should be accounted for in stocking.",
-    "escapeRisk":                 "high",
-    "breedingDifficulty":         "difficult",
-    "breedingNotes":              "See top-level breedingNotes. Larval stage and gestation length make captive breeding considerably harder than for Neocaridina/Caridina dwarf shrimp.",
+    "copperSensitive": true,
+    "moltingFrequencyDays": null,
+    "moltingNotes": "Specific molt cycle for M. assamense is not well documented in hobby sources; generally treated as a periodic large-arm-shrimp molt that requires adequate calcium and stable water chemistry. Discarded exoskeletons are commonly left in the tank for the shrimp to reabsorb. As with most decapods, freshly molted individuals are vulnerable and benefit from secure hides, so any aggressive or molting tankmates should be accounted for in stocking.",
+    "escapeRisk": "high",
+    "breedingDifficulty": "difficult",
+    "breedingNotes": "See top-level breedingNotes. Larval stage and gestation length make captive breeding considerably harder than for Neocaridina/Caridina dwarf shrimp.",
     "speciesOnlyTankRecommended": false
   },
-  "coral":        null,
-  "mollusc":      null,
-  "echinoderm":   null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
   "other-invert": null,
-  "plant":        null,
-  "macroalgae":   null,
+  "plant": null,
+  "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus":   "needs_review",
+  "dataStatus": "researched",
   "lastReviewed": "2026-06-12"
 }

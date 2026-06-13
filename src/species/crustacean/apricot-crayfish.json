@@ -19,25 +19,51 @@
     "order": "Decapoda"
   },
   "nativeRange": {
-    "regions": ["Australasia", "Oceania"],
-    "countries": ["Indonesia"],
+    "regions": [
+      "Australasia",
+      "Oceania"
+    ],
+    "countries": [
+      "Indonesia"
+    ],
     "habitat": "Type locality is Aitinjo Lake on the Bird's Head (Vogelkop / Kepala Burung) Peninsula of West Papua, Indonesia — a roughly 4 km long, up to 350 m wide lake set among steep mountains. Inhabits permanent, slow-moving lowland freshwater with abundant submerged cover (rocks, root mats, leaf litter).",
     "biotope": "Tropical Papuan lake/stream",
-    "depthRangeM": { "min": 0, "max": 5 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 5
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 20, "max": 27 },
-    "pH":           { "min": 6.5, "max": 7.8 },
-    "gH":           { "min": 5, "max": 20 },
-    "kH":           { "min": 1, "max": 15 },
-    "salinity":     null
+    "temperatureC": {
+      "min": 20,
+      "max": 27
+    },
+    "pH": {
+      "min": 6.5,
+      "max": 7.8
+    },
+    "gH": {
+      "min": 5,
+      "max": 20
+    },
+    "kH": {
+      "min": 1,
+      "max": 15
+    },
+    "salinity": null
   },
-  "adultSizeCm":   { "min": 8, "max": 15 },
-  "lifespanYears": { "min": 3, "max": 5 },
+  "adultSizeCm": {
+    "min": 8,
+    "max": 15
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
-    "minVolumeLiters":  100,
-    "minLengthCm":      60,
-    "swimZone":         "bottom",
+    "minVolumeLiters": 100,
+    "minLengthCm": 60,
+    "swimZone": "bottom",
     "decorPreferences": [
       "sand substrate to allow light burrowing",
       "rocky caves and overhangs",
@@ -47,16 +73,16 @@
       "tightly fitting tank lid (escape-proof)",
       "moderate water movement and strong aeration"
     ],
-    "minSandDepthCm":   3
+    "minSandDepthCm": 3
   },
   "careLevel": "intermediate",
   "diet": {
-    "type":  "omnivore",
+    "type": "omnivore",
     "notes": "Generally regarded as an opportunistic omnivore with a vegetable bias as adults. Has been documented eating sinking pellets and crayfish wafers, blanched vegetables (spinach, peas, zucchini, carrot, pumpkin), brown autumn leaves (oak, beech, almond), frozen bloodworm, mysis shrimp and prawn pieces, plus dried nettle and crustacean-protein feeds. Juveniles are commonly reported as needing more animal protein than adults; a varied diet with periodic calcium/mineral supplementation is widely recommended to support molting."
   },
   "compatibility": {
-    "temperament":  "semi-aggressive",
-    "grouping":     "solitary",
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
     "minGroupSize": 1,
     "goodWith": [
       "fast mid- and upper-level fish well above claw reach",
@@ -73,64 +99,64 @@
     ]
   },
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
+    "primaryImage": null,
+    "gallery": [],
     "imageCandidates": null
   },
   "summary": "A small-to-medium Papuan freshwater crayfish (around 8-15 cm) from Aitinjo Lake on the Vogelkop Peninsula. Generally considered less aggressive and less plant-destructive than most other crayfish, and is commonly sold in the trade as the bright-orange 'Apricot' morph.",
-  "careNotes": "Trade-morph caveat: the discovery briefing grouped 'Apricot', 'Hoa Creek', and 'Crazy Patrick' as morphs of Cherax holthuisi, but cross-source review indicates that 'Hoa Creek' (white/blue/violet with blue-and-white chelae, also sold as 'Blue Moon' or 'Irian Jaya') is the trade designation for the congeneric Cherax pulcher rather than C. holthuisi — these are sister species both from the Vogelkop Peninsula and were described shortly after each other. This entry therefore covers the orange-toned 'Apricot' / 'Papuan Apricot' / 'Orange Apricot' morphs that are unambiguously C. holthuisi; the Hoa Creek / Blue Moon morph belongs to a separate species (C. pulcher) and warrants its own entry if added later. The 'Crazy Patrick' trade name is not well documented in published sources and could refer to either species; reviewer should verify. Wild C. holthuisi shows pink, orange or pale-yellow body coloration; selectively bred blue, grey and whitish strains also circulate in the trade. Generally described in retail and German hobby sources (Garnelio, Rendo) as one of the more peaceful Cherax species — minimal plant damage, low intraspecific aggression, and suitable for pair or 1M:2F harem keeping in well-decorated tanks. North American retailers (Aquatic Arts, Aqua Imports) describe the same animals as 'relatively territorial' and 'highly aggressive toward tank mates'; this entry averages to 'semi-aggressive' and recommends species-only or carefully chosen mid/upper-water tankmates. Has been reported as a skilled climber; a tightly fitting weighted lid is widely regarded as essential. Like other crustaceans, generally assumed to be copper-sensitive — copper-based medications and snail treatments should be avoided. Cross-source notes on sizing: published taxonomic description (Wikipedia citing Lukhaup & Pekny 2006) gives total length 8.1-9.3 cm; aquarium retailers cite 'up to 15 cm' (likely measured tip-of-claw to tail); 8-15 cm averaged here. Temperature: Garnelio/Rendo 20-25°C, Aquatic Arts 20-29°C, Aqua Imports 24-27°C — averaged to 20-27°C. Tank size: 60-80 L for a pair (Garnelio/Rendo, EU sources), 76 L (Aqua Imports), 113 L (Aquatic Arts) — biased upward to 100 L given semi-aggressive averaging and need for multiple territories. Designated primary source (The Shrimp Farm, theshrimpfarm.com) and secondary (Practical Fishkeeping, practicalfishkeeping.co.uk) both returned HTTP 403 and no accessible species page — substituted Garnelio (German specialty invertebrate retailer with detailed care sheet) as primary and Aquatic Arts product page as secondary, with Rendo Shrimp, Aqua Imports, and Wikipedia/Lukhaup & Pekny as additional cross-checks.",
+  "careNotes": "Trade-morph caveat: the discovery briefing grouped 'Apricot', 'Hoa Creek', and 'Crazy Patrick' as morphs of Cherax holthuisi, but cross-source review indicates that 'Hoa Creek' (white/blue/violet with blue-and-white chelae, also sold as 'Blue Moon' or 'Irian Jaya') is the trade designation for the congeneric Cherax pulcher rather than C. holthuisi — these are sister species both from the Vogelkop Peninsula and were described shortly after each other. This entry therefore covers the orange-toned 'Apricot' / 'Papuan Apricot' / 'Orange Apricot' morphs that are unambiguously C. holthuisi; the Hoa Creek / Blue Moon morph belongs to a separate species (C. pulcher) and warrants its own entry if added later. The 'Crazy Patrick' trade name is not well documented in published sources and could refer to either species; reviewer should verify. Wild C. holthuisi shows pink, orange or pale-yellow body coloration; selectively bred blue, grey and whitish strains also circulate in the trade. Generally described in retail and German hobby sources (Garnelio, Rendo) as one of the more peaceful Cherax species — minimal plant damage, low intraspecific aggression, and suitable for pair or 1M:2F harem keeping in well-decorated tanks. North American retailers (Aquatic Arts, Aqua Imports) describe the same animals as 'relatively territorial' and 'highly aggressive toward tank mates'; this entry averages to 'semi-aggressive' and recommends species-only or carefully chosen mid/upper-water tankmates. Has been reported as a skilled climber; a tightly fitting weighted lid is widely regarded as essential. Like other crustaceans, generally assumed to be copper-sensitive — copper-based medications and snail treatments should be avoided. Cross-source notes on sizing: published taxonomic description (Wikipedia citing Lukhaup & Pekny 2006) gives total length 8.1-9.3 cm; aquarium retailers cite 'up to 15 cm' (likely measured tip-of-claw to tail); 8-15 cm averaged here. Temperature: Garnelio/Rendo 20-25°C, Aquatic Arts 20-29°C, Aqua Imports 24-27°C — averaged to 20-27°C. Tank size: 60-80 L for a pair (Garnelio/Rendo, EU sources), 76 L (Aqua Imports), 113 L (Aquatic Arts) — biased upward to 100 L given semi-aggressive averaging and need for multiple territories. Designated primary source (The Shrimp Farm, theshrimpfarm.com) and secondary (Practical Fishkeeping, practicalfishkeeping.co.uk) both returned HTTP 403 and no accessible species page — substituted Garnelio (German specialty invertebrate retailer with detailed care sheet) as primary and Aquatic Arts product page as secondary, with Rendo Shrimp, Aqua Imports, and Wikipedia/Lukhaup & Pekny as additional cross-checks.\n\nPROMOTION 2026-06-12 (needs_review → researched): designated sources (The Shrimp Farm + Practical Fishkeeping) both failed; substituted with Garnelio (primary), Aquatic Arts, Rendo Shrimp, Aqua Imports, and Wikipedia + scientific description (Lukhaup & Pekny 2006). Five sources confirm. Important taxonomic note: the trade morph \"Hoa Creek\" properly belongs to Cherax pulcher, not C. holthuisi — this entry covers only the orange Apricot / Papuan Apricot morphs of C. holthuisi. \"Crazy Patrick\" attribution is uncertain in the literature. A future C. pulcher entry could cover the Hoa Creek / Blue Moon morphs.",
   "breedingNotes": "Generally regarded as relatively easy to breed in well-set-up tanks but with markedly slower juvenile growth than American crayfish species. Has been reported to reach sexual maturity at around 8-12 months. Females typically carry around 30-80 eggs/young under the abdomen for roughly 6-9 weeks before hatching; like other Cherax, there is no free-swimming larval stage and juveniles emerge as miniatures of the adults. A balanced sex ratio (commonly kept as one male with one or two females), abundant food, dense cover for hiding, and prompt separation of juveniles to limit cannibalism are widely recommended. Hybridization with congeneric Cherax species in mixed tanks has been reported and should be avoided if maintaining the pure form is desired.",
   "sources": {
     "primary": {
       "name": "Garnelio (Apricot crayfish - Cherax holthuisi)",
-      "url":  "https://www.garnelio.de/en/apricot-crayfish-cherax-holthuisi",
+      "url": "https://www.garnelio.de/en/apricot-crayfish-cherax-holthuisi",
       "accessedDate": "2026-06-12",
       "notes": "Designated primary The Shrimp Farm (theshrimpfarm.com) returned HTTP 403 with no accessible Cherax holthuisi species page; substituted Garnelio's English-language Apricot crayfish care sheet as primary. Source for temperature 20-25°C, pH 6.5-7.5, gH up to 25, kH up to 20, 80 L per pair, 2-5 year lifespan, peaceful temperament, plant compatibility, 40-80 young per brood, 6-8 week incubation, Vogelkop Peninsula range."
     },
     "additional": [
       {
         "name": "Aquatic Arts (Apricot Crayfish - Cherax holthuisi var. Apricot)",
-        "url":  "https://aquaticarts.com/products/apricot-crayfish",
+        "url": "https://aquaticarts.com/products/apricot-crayfish",
         "accessedDate": "2026-06-12",
         "notes": "Designated secondary Practical Fishkeeping returned HTTP 403; substituted Aquatic Arts product page as secondary. Cross-confirmed adult size 12.7-15.2 cm, 113 L (30 US gal) for a single adult, temperature 20-29°C, pH 6.5-7.5, dKH 6-15, omnivorous diet, 'relatively territorial', tank-bred lineage, skilled climber / escape risk, indigenous to Western Irian Jaya. Disagrees with EU sources on temperament (more aggressive characterization)."
       },
       {
         "name": "Rendo Shrimp (Apricot crayfish - Cherax Holthuisi)",
-        "url":  "https://rendo-shrimp.de/eng/Apricot-crayfish-Cherax-holthuisi",
+        "url": "https://rendo-shrimp.de/eng/Apricot-crayfish-Cherax-holthuisi",
         "accessedDate": "2026-06-12",
         "notes": "Third cross-source. Confirmed up to 15 cm, up to 5 year lifespan, 80 L minimum per pair, 20-25°C, pH 6.5-7.5, gH up to 25, kH up to 20, sand substrate preference, very peaceful intraspecific behavior, 30-50 young hatching after 7-9 weeks, plant-safe."
       },
       {
         "name": "Aqua Imports (Papuan Apricot Crayfish)",
-        "url":  "https://www.aqua-imports.com/product/papuan-apricot-crayfish-cherax-holthuisi/",
+        "url": "https://www.aqua-imports.com/product/papuan-apricot-crayfish-cherax-holthuisi/",
         "accessedDate": "2026-06-12",
         "notes": "Fourth cross-source. Adult size 10-12.7 cm (4-5 in), minimum 76 L (20 US gal), temperature 24-27°C (75-80°F), pH 7.0-7.8, wild-caught from Aitinjo Lake region, dim lighting / multiple hides preference. Characterizes the species as 'highly aggressive' toward tank mates, contrary to EU sources. Also flags US legal restrictions in California, Florida, Texas, Wisconsin (Cherax import / possession bans)."
       },
       {
         "name": "Wikipedia (Cherax holthuisi) / Lukhaup & Pekny 2006 description",
-        "url":  "https://en.wikipedia.org/wiki/Cherax_holthuisi",
+        "url": "https://en.wikipedia.org/wiki/Cherax_holthuisi",
         "accessedDate": "2026-06-12",
         "notes": "Taxonomic and type-locality fallback. Family Parastacidae, order Decapoda, described 2006 from Aitinjo Lake, Bird's Head Peninsula, West Papua. Total length 8.1-9.3 cm in the type series. Distinguished from congeners by rostrum form, claw shape and small eyes. Wild coloration pink/orange/pale yellow; selectively bred blue strains exist in trade. Used as the body-length anchor for the size range (claw-inclusive retailer figures average upward to 15 cm)."
       }
     ]
   },
-  "fish":         null,
+  "fish": null,
   "crustacean": {
-    "copperSensitive":            true,
-    "moltingFrequencyDays":       null,
-    "moltingNotes":               "Generally molts frequently as a juvenile (commonly reported every few weeks during early growth) and progressively less often as a mature adult. The shed exoskeleton should be left in the tank — it is typically re-consumed for calcium recycling. Stable parameters and adequate gH / calcium are widely cited as the most important factors in successful molts. Has been reported to seek a secluded hide before molting and to remain vulnerable for several days afterward; tankmates that harass post-molt individuals are a frequent cause of loss, so dense cover is essential.",
-    "escapeRisk":                 "high",
-    "breedingDifficulty":         "easy",
-    "breedingNotes":              "Generally easy to breed at room-to-warm tropical temperatures; females carry roughly 30-80 eggs for 6-9 weeks before hatching; no free-swimming larval stage. Juveniles grow notably slower than American crayfish. See top-level breedingNotes for full discussion.",
+    "copperSensitive": true,
+    "moltingFrequencyDays": null,
+    "moltingNotes": "Generally molts frequently as a juvenile (commonly reported every few weeks during early growth) and progressively less often as a mature adult. The shed exoskeleton should be left in the tank — it is typically re-consumed for calcium recycling. Stable parameters and adequate gH / calcium are widely cited as the most important factors in successful molts. Has been reported to seek a secluded hide before molting and to remain vulnerable for several days afterward; tankmates that harass post-molt individuals are a frequent cause of loss, so dense cover is essential.",
+    "escapeRisk": "high",
+    "breedingDifficulty": "easy",
+    "breedingNotes": "Generally easy to breed at room-to-warm tropical temperatures; females carry roughly 30-80 eggs for 6-9 weeks before hatching; no free-swimming larval stage. Juveniles grow notably slower than American crayfish. See top-level breedingNotes for full discussion.",
     "speciesOnlyTankRecommended": false
   },
-  "coral":        null,
-  "mollusc":      null,
-  "echinoderm":   null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
   "other-invert": null,
-  "plant":        null,
-  "macroalgae":   null,
+  "plant": null,
+  "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus":   "needs_review",
+  "dataStatus": "researched",
   "lastReviewed": "2026-06-12"
 }
