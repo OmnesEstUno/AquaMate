@@ -1,0 +1,153 @@
+{
+  "id": "fw-crus-013",
+  "slug": "whisker-shrimp",
+  "kind": "fauna",
+  "taxon": "crustacean",
+  "waterType": "freshwater",
+  "commonName": "Whisker Shrimp",
+  "scientificName": "Macrobrachium lanchesteri",
+  "alsoKnownAs": [
+    "Asian Whisker Shrimp",
+    "Riceland Prawn",
+    "Lanchester's Freshwater Prawn",
+    "Glass Shrimp",
+    "Thailand Ghost Shrimp",
+    "White-Cherry Shrimp"
+  ],
+  "category": "shrimp",
+  "taxonomy": {
+    "family": "Palaemonidae",
+    "order": "Decapoda"
+  },
+  "nativeRange": {
+    "regions": ["Southeast Asia"],
+    "countries": [
+      "Thailand",
+      "Malaysia",
+      "Myanmar",
+      "Laos",
+      "Indonesia",
+      "Singapore",
+      "Brunei",
+      "Southern China"
+    ],
+    "habitat": "Shallow, still or slow-moving freshwater systems including streams, swamps, ponds, ditches, reservoirs, and rice paddies.",
+    "biotope": "Tropical lowland freshwater wetlands and rice-paddy / man-made still-water systems with dense vegetation.",
+    "depthRangeM": { "min": 0, "max": 2 }
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 22, "max": 28 },
+    "pH": { "min": 6.5, "max": 7.8 },
+    "gH": { "min": 2, "max": 14 },
+    "kH": { "min": 1, "max": 8 },
+    "salinity": null
+  },
+  "adultSizeCm": { "min": 2.5, "max": 6 },
+  "lifespanYears": { "min": 1, "max": 4 },
+  "tank": {
+    "minVolumeLiters": 40,
+    "minLengthCm": 60,
+    "swimZone": "all",
+    "decorPreferences": [
+      "dense planting",
+      "driftwood",
+      "rockwork with caves",
+      "leaf litter",
+      "PVC pipes or similar shelters",
+      "tightly fitting lid"
+    ],
+    "minSandDepthCm": null
+  },
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Opportunistic scavenger. Generally accepts sinking pellets, shrimp-formulated foods, flakes, blanched vegetables (spinach, cucumber, zucchini), and frozen/live foods such as bloodworms or brine shrimp. Has been documented to actively hunt smaller shrimp and small or slow fish."
+  },
+  "compatibility": {
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": [
+      "fast mid- and top-swimming fish (e.g. danios, larger rasboras)",
+      "robust tetras roughly the shrimp's own size",
+      "other Whisker Shrimp in larger tanks at 1 male : 1-2 females ratio"
+    ],
+    "avoidWith": [
+      "dwarf shrimp (Neocaridina, Caridina)",
+      "Amano shrimp and other small crustaceans",
+      "small or slow-moving fish",
+      "bottom-dwelling fish (corydoras, kuhli loaches)",
+      "snails",
+      "crayfish and crabs",
+      "aquatic frogs",
+      "large aggressive cichlids and other shrimp predators"
+    ]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A translucent Southeast Asian freshwater prawn often mis-sold as ghost shrimp; growing to ~6 cm with elongated whisker-like claws. Generally considered semi-aggressive and known to predate smaller tankmates.",
+  "careNotes": "Whisker Shrimp are widely and persistently mis-sold as ghost shrimp (Palaemonetes paludosus); buyers should look for the characteristic long, slender, whisker-like first walking legs and elongated chelae that distinguish Macrobrachium lanchesteri. They are generally considered semi-aggressive and have been reported to attack and eat dwarf shrimp, snails, and small or slow-moving fish, so a true community of small invertebrates is not recommended. Males have been known to fight each other in tight quarters, so tanks should be sized generously when keeping more than one. They are highly motivated escape artists and have been reported to climb cords, airline tubing, and silicone seams — a tightly fitting lid with no gaps is generally advised. Like other crustaceans, they are typically sensitive to copper-based medications and to dissolved heavy metals, and they require stable parameters and good iodine availability for clean molts. Sources disagree on the longevity (typical retail-sourced reports of 1-2 years; specialist sources cite up to 5 years), so the listed lifespan range reflects that spread; a stable, well-fed adult should reach the higher end. One outlier source (Aqualog) lists a notably lower pH range (5.0-6.0) than the rest of the literature; we have averaged across the larger source set instead.",
+  "breedingNotes": "Breeding is generally considered moderately difficult to difficult in home aquaria. Unlike many dwarf shrimp, M. lanchesteri does not hatch fully-formed miniature shrimp — females carry eggs for roughly 3-4 weeks and release planktonic larvae that require a separate rearing tank. Reported clutches range from about 60 to 400 eggs. First-stage larvae are typically fed newly-hatched brine shrimp nauplii. A 1 male : 1-2 females ratio is commonly recommended; multiple males will tend to fight.",
+  "sources": {
+    "primary": {
+      "name": "The Shrimp Farm",
+      "url": "https://www.theshrimpfarm.com/posts/whisker-shrimp-care/",
+      "accessedDate": "2026-06-12",
+      "notes": "Primary source returned HTTP 403 to automated fetcher; species page was confirmed via search-result excerpts and corroborating retailer / hobbyist coverage. Husbandry data triangulated from secondary sources listed below."
+    },
+    "additional": [
+      {
+        "name": "Practical Fishkeeping",
+        "url": "https://www.practicalfishkeeping.co.uk/",
+        "accessedDate": "2026-06-12",
+        "notes": "Designated secondary source returned HTTP 403 to automated fetcher; substituted with the secondaries below per playbook fallback rule."
+      },
+      {
+        "name": "Fish Laboratory - Whisker Shrimp Ultimate Care Guide",
+        "url": "https://www.fishlaboratory.com/fish/whisker-shrimp/",
+        "accessedDate": "2026-06-12",
+        "notes": "Cross-checked sizing, temperature (75-86 F), pH (6.5-8.5), tank size (5-10 gal), temperament, and native range."
+      },
+      {
+        "name": "Shrimp and Snail Breeder (aquariumbreeder.com) - Whisker Shrimp Detailed Guide",
+        "url": "https://aquariumbreeder.com/whisker-shrimp-detailed-guide-care-diet-and-breeding/",
+        "accessedDate": "2026-06-12",
+        "notes": "Primary cross-check: confirmed family Palaemonidae, adult size up to 6 cm, lifespan up to 5 yr, temperature 24-30 C, pH 6.5-8.0, gH 2-14, kH 1-8, copper sensitivity, high escape risk, breeding via planktonic larvae."
+      },
+      {
+        "name": "Diszhal.info - Macrobrachium lanchesteri (Glass / Ghost shrimp)",
+        "url": "https://diszhal.info/english/invertebrates/en_Macrobrachium_lanchesteri.php",
+        "accessedDate": "2026-06-12",
+        "notes": "Cross-checked size (males 6-8 cm / females 5-6 cm), temperature 18-30 C, pH 6.5-7.5, hardness 4-30, tank 40 L minimum, lifespan 3-4 yr."
+      },
+      {
+        "name": "ZooKeys 2024 - Molecular phylogeny of Macrobrachium lanchesteri (Mahidol University / Pensoft)",
+        "url": "https://zookeys.pensoft.net/article/113898/",
+        "accessedDate": "2026-06-12",
+        "notes": "Taxonomic verification (Decapoda, Caridea, Palaemonidae) and confirmation that wild M. lanchesteri is a species complex with substantial geographic / genetic variation."
+      }
+    ]
+  },
+  "fish": null,
+  "crustacean": {
+    "copperSensitive": true,
+    "moltingFrequencyDays": null,
+    "moltingNotes": "Generally molts at intervals typical of palaemonid prawns (weeks to a month between molts depending on growth rate, temperature, and feeding); molting frequency was not given precise figures by the consulted sources. Stable parameters and adequate iodine/calcium are commonly advised for clean molts. Shed exoskeletons are typically left in the tank as a calcium / chitin source.",
+    "escapeRisk": "high",
+    "breedingDifficulty": "difficult",
+    "breedingNotes": "Bred in freshwater. Females carry eggs for roughly 3-4 weeks, then release planktonic larvae (not miniature shrimp); larvae require a dedicated rearing setup and live first foods (brine shrimp nauplii). Reported clutch size ~60-400 eggs.",
+    "speciesOnlyTankRecommended": true
+  },
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-12"
+}

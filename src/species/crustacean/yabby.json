@@ -1,0 +1,135 @@
+{
+  "id": "fw-crus-019",
+  "slug": "yabby",
+  "kind": "fauna",
+  "taxon": "crustacean",
+  "waterType": "freshwater",
+  "commonName": "Yabby",
+  "scientificName": "Cherax destructor",
+  "alsoKnownAs": [
+    "Common Yabby",
+    "Australian Yabby",
+    "Blue Yabby",
+    "Electric Blue Yabby"
+  ],
+  "category": "Freshwater Crayfish",
+  "taxonomy": {
+    "family": "Parastacidae",
+    "order": "Decapoda"
+  },
+  "nativeRange": {
+    "regions": ["Australasia"],
+    "countries": ["Australia"],
+    "habitat": "Inland river systems, swamps, streams, reservoirs, and farm dams at low to medium elevations across central and eastern Australia. Tolerates both turbid and clear water and has been reported to survive multi-year droughts by lying dormant in deep burrows.",
+    "biotope": "River",
+    "depthRangeM": { "min": 0, "max": 5 }
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 15, "max": 26 },
+    "pH":           { "min": 7.0, "max": 8.5 },
+    "gH":           { "min": 6, "max": 20 },
+    "kH":           { "min": 4, "max": 12 },
+    "salinity":     null
+  },
+  "adultSizeCm":   { "min": 15, "max": 20 },
+  "lifespanYears": { "min": 4, "max": 8 },
+  "tank": {
+    "minVolumeLiters":  150,
+    "minLengthCm":      90,
+    "swimZone":         "bottom",
+    "decorPreferences": [
+      "rocks and rock caves",
+      "driftwood and bogwood",
+      "PVC pipe sections or terracotta pots as burrows",
+      "sand or fine gravel substrate suitable for digging",
+      "tight-fitting lid with all gaps sealed",
+      "strong filtration with crayfish-safe intake guard",
+      "well-oxygenated water (airstone recommended)",
+      "leaf litter and alder cones for tannins and grazing"
+    ],
+    "minSandDepthCm":   5
+  },
+  "careLevel": "intermediate",
+  "diet": {
+    "type":  "omnivore",
+    "notes": "Generally considered an opportunistic omnivore that has been documented eating detritus, plant matter, algae, sinking pellets, blanched vegetables (zucchini, spinach, peas, lettuce), and animal protein (frozen bloodworms, brine shrimp, mussel, prawn, small feeder fish). Calcium-rich foods and supplements (cuttlebone, snail shells, mineral blocks) are commonly recommended to support molting. Has been reported to prey on slow-moving tankmates and to graze most live plants, so live planted setups are generally considered impractical."
+  },
+  "compatibility": {
+    "temperament":  "aggressive",
+    "grouping":     "solitary",
+    "minGroupSize": 1,
+    "goodWith": [
+      "fast mid- and top-dwelling fish too large to be caught (e.g., adult rainbowfish, larger barbs, danios)",
+      "robust species that stay clear of the substrate"
+    ],
+    "avoidWith": [
+      "other yabbies in tanks without abundant individual hides (cannibalism on molting individuals is commonly reported)",
+      "other crayfish species (territorial conflict and disease vectoring)",
+      "dwarf shrimp and small invertebrates (treated as prey)",
+      "slow or bottom-dwelling fish (corydoras, plecos, kuhli loaches, bettas)",
+      "snails and small molluscs (predated)",
+      "live planted-tank inhabitants (plants are typically destroyed)"
+    ]
+  },
+  "media": {
+    "primaryImage":    null,
+    "gallery":         [],
+    "imageCandidates": null
+  },
+  "summary": "A large, hardy Australian freshwater crayfish widely kept in the aquarium hobby, including a popular selectively-bred bright blue color morph. Generally considered an aggressive, escape-prone solitary species best housed alone in a long, securely-lidded tank.",
+  "careNotes": "Cherax destructor is the most widespread Australian native crayfish, occurring across Victoria, New South Wales, southern Queensland, South Australia, and parts of the Northern Territory. Wild coloration is highly variable and is generally reported to track water clarity — darker (black, dark brown) in clear water and lighter (green-brown, beige, light pink) in turbid water — while selectively-bred bright 'Electric Blue' and 'Blue Yabby' morphs dominate the ornamental trade and share identical husbandry requirements with the wild type. Considered very hardy and tolerant of a wide temperature window (sources report 1-35°C survivable, with 15-26°C as the commonly-advised aquarium range and growth optimum around 22-28°C); however, parameter stability and good aeration are generally regarded as more important than hitting a specific midpoint. Highly sensitive to copper-based medications and treatments — the schema flag is set accordingly. Cross-source disagreement notes: adult size estimates range from ~15 cm (CO2Art's blue-morph guide) up to 20 cm (most sources) and exceptional wild specimens to 30 cm (Wikipedia); the 15-20 cm window above reflects the typical aquarium-trade range. Temperature recommendations span a wide spread: Aquatic Solutions advises 12-20°C as 'optimal,' Aquarium Breeder cites 25-28°C as optimal, and World of Aquariums lists 10-24°C — averaging the upper bounds and biasing toward typical home-aquarium room temperature gives the 15-26°C window. Tank-size recommendations range from 60 L per individual (worldofaquariums) and ~80 L (Aquarium Breeder) up to 120-160 L (Aquarium Breeder's higher range); the value above (150 L) was chosen on the cautious side given the species' large adult size, broad footprint requirement, aggression, and need for multiple separated hides — rounded to a nice common tank size. Importantly, IUCN lists *C. destructor* as Vulnerable due to habitat degradation, and the species is regulated/prohibited in several jurisdictions outside Australia (notably restricted in the EU and several US states as an invasive risk). Keepers should verify legality locally before purchase. Designated primary source Practical Fishkeeping (HTTP 403) and designated secondary Fishkeeping World (no Yabby page) both failed; secondaries were swapped to Aquarium Breeder (primary), World of Aquariums, Aquatic Solutions Australia, CO2Art, and Wikipedia.",
+  "breedingNotes": "Generally considered easy to breed in captivity given stable parameters, adequate calcium, and abundant hides. Females reach sexual maturity around 1 year of age at roughly 6-10 cm body length and have been reported to spawn 2-3 times per year, carrying 300-450 eggs ('berried') under the abdomen for approximately 19-40 days depending on water temperature. Newly hatched juveniles cling briefly to the female before dispersing as miniature adults; survival is improved by abundant micro-hides (mesh, plant clumps, fine rubble) since cannibalism on small or molting individuals is commonly reported. Juveniles can typically co-habitate with the mother if sufficient cover is provided. Hybridisation with related Cherax species (e.g., C. albidus, C. quadricarinatus) has been documented and is generally discouraged for aquarium-trade integrity.",
+  "sources": {
+    "primary": {
+      "name": "Aquarium Breeder",
+      "url":  "https://aquariumbreeder.com/cherax-destructor-crayfish-detailed-guide-care-diet-and-breeding/",
+      "accessedDate": "2026-06-12",
+      "notes": "Designated primary (Practical Fishkeeping) returned HTTP 403 Forbidden; swapped to Aquarium Breeder as the most comprehensive substitute. Source for adult size 10-20 cm, lifespan 3-8 years, temperature optimum 25-28°C with broad tolerance, pH 7.5-8.5 (tolerates 7-9), gH 6-12, kH 4-6, 30-40 gallon (120-160 L) minimum, breeding 350-450 eggs, molting frequency, omnivore diet, very aggressive temperament, high escape risk."
+    },
+    "additional": [
+      {
+        "name": "World of Aquariums",
+        "url":  "https://worldofaquariums.com/fish/common-yabby",
+        "accessedDate": "2026-06-12",
+        "notes": "Cross-confirmed adult size ~20 cm (7.9 in), lifespan 3-5 years, 40-gal (~151 L) minimum, semi-aggressive rating 6/10, pH 7-8, temperature 10-24°C, GH 8-20, bright blue color variant. Substitute for designated secondary Fishkeeping World which has no Yabby page."
+      },
+      {
+        "name": "Aquatic Solutions Australia",
+        "url":  "https://aquaticsolutions.com.au/blogs/care-sheets/freshwater-yabbies-care-sheet",
+        "accessedDate": "2026-06-12",
+        "notes": "Australian retailer care sheet — source for native range (SA, VIC, NSW, QLD, NT), 'optimal' temperature 12-20°C, pH 7.0-8.0, GH 50-300 ppm, 'best escape artists' note, aggressive predator temperament, and blue claw / electric blue trade morphs."
+      },
+      {
+        "name": "CO2Art — Blue Yabby in the Freshwater Aquarium",
+        "url":  "https://www.co2art.us/blogs/blog/blue-yabby-in-the-freshwater-aquarium",
+        "accessedDate": "2026-06-12",
+        "notes": "Cross-confirmed Blue Yabby color morph husbandry: up to 15 cm adult, 4-5 year wild lifespan (longer in captivity), 20-28°C, pH 7.5+, 300-350 eggs 2-3x yearly, 3-week incubation, tight-lid requirement, supplemental feeding (meat + vegetables + alder cones)."
+      },
+      {
+        "name": "Wikipedia — Common Yabby",
+        "url":  "https://en.wikipedia.org/wiki/Common_yabby",
+        "accessedDate": "2026-06-12",
+        "notes": "Taxonomy fallback (Parastacidae, Decapoda); confirmed native distribution across central and eastern Australia, 10-20 cm average size (up to 30 cm), drought-survival burrowing behavior, color-vs-water-clarity variation, IUCN Vulnerable listing, and invasive status in Western Australia and Tasmania."
+      }
+    ]
+  },
+  "fish":         null,
+  "crustacean": {
+    "copperSensitive":            true,
+    "moltingFrequencyDays":       180,
+    "moltingNotes":               "Molting frequency reportedly varies dramatically with age and growth rate: hatchlings have been observed shedding every 4-7 days, juveniles every 3-4 weeks, and mature adults only 1-2 times per year (roughly every 4-6 months). The 180-day value above reflects the adult interval; younger animals molt far more frequently. The discarded exoskeleton is typically re-consumed for calcium and should not be removed. Cannibalism on freshly-molted (soft-shell) individuals is commonly reported in shared housing — abundant individual hides are essential. Insufficient calcium/gH or unstable water has been associated with incomplete-molt fatalities; cuttlebone, mineral blocks, or hard-water keeping is generally recommended.",
+    "escapeRisk":                 "high",
+    "breedingDifficulty":         "easy",
+    "breedingNotes":              "Readily breeds in captivity in stable, well-aerated water with calcium supplementation and ample hides. See top-level breedingNotes for clutch size, incubation, and rearing details.",
+    "speciesOnlyTankRecommended": true
+  },
+  "coral":        null,
+  "mollusc":      null,
+  "echinoderm":   null,
+  "other-invert": null,
+  "plant":        null,
+  "macroalgae":   null,
+  "schemaVersion": 1,
+  "dataStatus":   "researched",
+  "lastReviewed": "2026-06-12"
+}

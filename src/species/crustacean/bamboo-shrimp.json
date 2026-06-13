@@ -1,0 +1,138 @@
+{
+  "id": "fw-crus-010",
+  "slug": "bamboo-shrimp",
+  "kind": "fauna",
+  "taxon": "crustacean",
+  "waterType": "freshwater",
+  "commonName": "Bamboo Shrimp",
+  "scientificName": "Atyopsis moluccensis",
+  "alsoKnownAs": [
+    "Wood Shrimp",
+    "Asian Filter Shrimp",
+    "Singapore Flower Shrimp",
+    "Fan Shrimp",
+    "Flower Shrimp",
+    "Timber Shrimp",
+    "Mountain Shrimp"
+  ],
+  "category": "shrimp",
+  "taxonomy": {
+    "family": "Atyidae",
+    "order": "Decapoda"
+  },
+  "nativeRange": {
+    "regions": ["Southeast Asia", "Indo-Pacific"],
+    "countries": ["Indonesia", "Philippines", "Sri Lanka", "Thailand", "Malaysia"],
+    "habitat": "Fast-flowing freshwater streams and rivers in mountain and hill country, where they cling to underwater rocks and submerged wood in the strongest current.",
+    "biotope": "Tropical Asian hill stream",
+    "depthRangeM": null
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 22, "max": 27 },
+    "pH": { "min": 6.5, "max": 7.5 },
+    "gH": { "min": 6, "max": 10 },
+    "kH": { "min": 2, "max": 6 },
+    "salinity": null
+  },
+  "adultSizeCm": { "min": 6, "max": 10 },
+  "lifespanYears": { "min": 2, "max": 5 },
+  "tank": {
+    "minVolumeLiters": 80,
+    "minLengthCm": 75,
+    "swimZone": "all",
+    "decorPreferences": [
+      "driftwood and rock perches positioned in the current",
+      "moderate to strong directional flow from a powerhead or canister return",
+      "sturdy stem plants and mosses",
+      "established biofilm and visible particulate matter in the water column",
+      "tight-fitting lid (shrimp may climb out during molts or stress)"
+    ],
+    "minSandDepthCm": null
+  },
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "planktivore",
+    "notes": "Obligate filter-feeder. The species fans suspended particulate matter from flowing water using feathery setae on its first two pairs of pereiopods, and generally cannot consume pellets or large prepared foods directly. In tanks that are too clean it has been reported to starve; supplemental feeding with powdered fry food, crushed flakes, spirulina powder, baby brine shrimp or other fine particles dispersed into the current is commonly advised. Squeezing a dirty sponge filter into the flow is a common trick to provide free food."
+  },
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": [
+      "Small peaceful tetras",
+      "Rasboras",
+      "Otocinclus and other small peaceful catfish",
+      "Hatchetfish",
+      "Neocaridina and Caridina dwarf shrimp",
+      "Nerite and other peaceful snails"
+    ],
+    "avoidWith": [
+      "Cichlids",
+      "Bettas",
+      "Large carnivorous fish",
+      "Crayfish and aggressive crabs",
+      "Loaches that target invertebrates"
+    ]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "Large, peaceful Southeast Asian filter-feeding shrimp that fans suspended particles from flowing water using feathery front appendages; generally needs steady current, fine particulate food, and a mature tank.",
+  "careNotes": "Bamboo Shrimp are obligate filter-feeders rather than scavengers. Their husbandry centres on three things that the typical community-tank setup tends to under-deliver: steady directional current, enough fine particulate food in the water column, and a quiet perch in that current where they can sit and fan. A powerhead, canister-filter return, or wavemaker aimed at a piece of driftwood or rockwork generally meets the flow requirement. Sources commonly report a temperature range around 22-27°C, pH 6.5-7.5, gH 6-10 dGH and kH 2-6 dKH. Adult body length is typically reported around 6-10 cm; the species is sometimes described as one of the largest filter-feeding shrimp in the freshwater hobby. Lifespan reports vary widely (2-3 years in one source, up to 6 years in another); 2-5 years is a reasonable expectation in well-kept tanks. They are generally considered peaceful and can be kept singly or in small groups; group living is fine but each adult contributes appreciable bioload and competes for suspended food, so do not overstock. They are highly sensitive to copper-based medications and to ammonia/nitrite spikes typical of immature tanks. They molt every few weeks; do not remove the exoskeleton immediately, as some keepers report the shrimp ignore it. Algal or biofilm fuzz on the carapace between molts is harmless and is commonly noted in sources. Escape risk is moderate, especially around molts or when conditions deteriorate, so a well-fitted lid is generally advised. Wild colour ranges from translucent pinkish-tan through reddish-brown with a pale dorsal stripe; colour shift after molting and with diet is normal and not a health concern.",
+  "breedingNotes": "Generally not bred in home aquaria. Females carry eggs under the pleopods, but the hatched larvae are planktonic and require brackish water (commonly cited around 30-34 g/L salt, i.e. near full marine salinity) to develop, then must transition back to freshwater as juveniles. The larval phase reportedly lasts roughly three months. Most specimens in the trade are wild-caught from Southeast Asia.",
+  "sources": {
+    "primary": {
+      "name": "Aquarium Co-Op",
+      "url": "https://www.aquariumcoop.com/blogs/aquarium/bamboo-shrimp",
+      "accessedDate": "2026-06-12",
+      "notes": "Assigned primary source from manifest. Aquarium Co-Op homepage returned no dedicated species page at the supplied URL; could not extract species-specific content via WebFetch. Cross-source data was used to fill the file."
+    },
+    "additional": [
+      {
+        "name": "The Shrimp Farm",
+        "url": "https://www.theshrimpfarm.com/",
+        "accessedDate": "2026-06-12",
+        "notes": "Assigned secondary source from manifest returned HTTP 403; no species page accessible. Cross-verification was performed against Aquariadise and Shrimp and Snail Breeder care guides instead."
+      },
+      {
+        "name": "Aquariadise: Caresheet Bamboo Shrimp",
+        "url": "https://www.aquariadise.com/caresheet-bamboo-shrimp-atyopsis-moluccensis/",
+        "accessedDate": "2026-06-12",
+        "notes": "Cross-checked sizing (5-10 cm), water parameters (20-25°C, pH 6.5-7.5), tank size (~76 L), filter-feeding biology, brackish larvae, copper sensitivity."
+      },
+      {
+        "name": "Shrimp and Snail Breeder: Bamboo Shrimp Detailed Guide",
+        "url": "https://aquariumbreeder.com/bamboo-shrimp-detailed-guide-care-diet-and-breeding/",
+        "accessedDate": "2026-06-12",
+        "notes": "Cross-checked taxonomy (Atyidae), adult size (8-10 cm), temperature 22-28°C, pH 6.5-7.5, gH 6-8, kH 2-6, molting frequency (4-8 weeks), escape behaviour when stressed, brackish-water larval requirement (~33-34 g/L)."
+      },
+      {
+        "name": "GBIF: Atyopsis moluccensis (De Haan, 1849)",
+        "url": "https://www.gbif.org/species/5863069",
+        "accessedDate": "2026-06-12",
+        "notes": "Taxonomy confirmation: family Atyidae, order Decapoda, class Malacostraca."
+      }
+    ]
+  },
+  "fish": null,
+  "crustacean": {
+    "copperSensitive": true,
+    "moltingFrequencyDays": 42,
+    "moltingNotes": "Sources report molting roughly every 4-8 weeks; midpoint ~6 weeks. The shrimp typically hide for a day or two around the molt and may show duller colouration immediately after. Reports differ on whether they re-consume the exoskeleton; many keepers say they do not, so the cast skin can simply be left in the tank or removed at the next maintenance.",
+    "escapeRisk": "moderate",
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "Larvae are planktonic and require brackish water (around 30-34 g/L salt) to develop, then must be returned to freshwater as juveniles. The full larval phase reportedly takes around 90 days. Captive breeding is rarely accomplished by home aquarists; commercial supply is dominated by wild-caught imports.",
+    "speciesOnlyTankRecommended": false
+  },
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-12"
+}

@@ -1,0 +1,130 @@
+{
+  "id": "fw-crus-020",
+  "slug": "australian-red-claw-crayfish",
+  "kind": "fauna",
+  "taxon": "crustacean",
+  "waterType": "freshwater",
+  "commonName": "Australian Red Claw Crayfish",
+  "scientificName": "Cherax quadricarinatus",
+  "alsoKnownAs": [
+    "Red Claw",
+    "Redclaw Crayfish",
+    "Tropical Blue Lobster",
+    "Blue Lobster",
+    "Queensland Red Claw",
+    "Red-clawed Crayfish",
+    "Australian Blue Crayfish"
+  ],
+  "category": "Crayfish",
+  "taxonomy": {
+    "family": "Parastacidae",
+    "order": "Decapoda"
+  },
+  "nativeRange": {
+    "regions": ["Australasia", "Oceania"],
+    "countries": ["Australia", "Papua New Guinea"],
+    "habitat": "Permanent freshwater streams, billabongs, lakes, lagoons, and slow-moving rivers of tropical northern Australia and southern New Guinea. Generally favors turbid, warm, rock- and cave-strewn habitats with abundant cover.",
+    "biotope": "Tropical river/billabong",
+    "depthRangeM": { "min": 0, "max": 5 }
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 22, "max": 28 },
+    "pH":           { "min": 7.0, "max": 8.5 },
+    "gH":           { "min": 8, "max": 20 },
+    "kH":           { "min": 3, "max": 15 },
+    "salinity":     null
+  },
+  "adultSizeCm":   { "min": 20, "max": 30 },
+  "lifespanYears": { "min": 4, "max": 6 },
+  "tank": {
+    "minVolumeLiters":  150,
+    "minLengthCm":      90,
+    "swimZone":         "bottom",
+    "decorPreferences": [
+      "rocky caves and overhangs",
+      "PVC pipe sections",
+      "driftwood and bogwood",
+      "smooth gravel or sand substrate",
+      "tightly fitting tank lid (escape-proof)",
+      "strong aeration and water movement"
+    ],
+    "minSandDepthCm":   null
+  },
+  "careLevel": "intermediate",
+  "diet": {
+    "type":  "omnivore",
+    "notes": "Generally regarded as an opportunistic omnivore that has been documented eating sinking pellets, algae wafers, blanched vegetables (zucchini, cucumber, spinach, peas), bloodworm, mysis shrimp, krill, prawn pieces, and decaying plant matter. Juveniles tend to be reported as needing higher protein (around 30-40%) than adults (around 20-30%); a varied diet with calcium-rich or shell-forming supplements is commonly recommended to support successful molting."
+  },
+  "compatibility": {
+    "temperament":  "aggressive",
+    "grouping":     "solitary",
+    "minGroupSize": 1,
+    "goodWith": [
+      "large fast-moving mid- to upper-level fish (out of claw reach)",
+      "species-only single-specimen setups"
+    ],
+    "avoidWith": [
+      "all dwarf shrimp (Neocaridina, Caridina) — eaten",
+      "snails — eaten",
+      "small or slow-moving fish — predated at night",
+      "bottom-dwelling fish (corydoras, loaches, plecos) — claw injuries",
+      "other crayfish, especially juveniles (cannibalism)",
+      "live plants — uprooted and shredded"
+    ]
+  },
+  "media": {
+    "primaryImage":    null,
+    "gallery":         [],
+    "imageCandidates": null
+  },
+  "summary": "A large tropical Australian/PNG freshwater crayfish reaching around 20-30 cm. Adult males develop the trademark bright red patch on the outer claw margin. Generally considered an intermediate-level invertebrate due to size, escape behavior, and incompatibility with most tankmates.",
+  "careNotes": "Distinct from the unrelated 'Red Claw River Shrimp' (Macrobrachium assamense, fw-crustacean-015) despite the common-name overlap — Cherax quadricarinatus is a much larger crayfish (Parastacidae) and the namesake red patch is on the male's claws rather than a body marking. Generally sold in the trade as either wild-type olive/brown specimens or selectively bred bright-blue color morphs marketed as 'Tropical Blue Lobster' or 'Blue Lobster'; husbandry is identical across morphs. A tightly fitting, weighted aquarium lid is widely regarded as essential — the species is repeatedly described as a 'great escape artist' that will climb filter intakes and air-line tubing. Has been reported as highly tolerant of varying water chemistry but does best in moderately hard, alkaline tropical water; copper-based medications and snail treatments are generally avoided as with other crustaceans. Cross-source notes on sizing: Aquariumbreeder cites up to 35 cm, Wikipedia up to 30 cm, Fishkeeper.co.uk around 20 cm, with the discovery briefing pointing to 25 cm — averaged to a 20-30 cm range here. Tank-size guidance ranged from 80 L (Aquarium Wiki, single small adult) to 120 L+ (Aquariumbreeder, Aquadiction) — biased upward to 150 L with a 90 cm footprint given the species' large adult size, territorial nature, and need to roam. Sources are widely consistent that live plants are uprooted and shredded, so plastic decor or hardy attached mosses on driftwood are commonly substituted. Classified as invasive in many countries (South Africa, Mexico, Jamaica, Puerto Rico, Indonesia, Zambia, Malaysia, Singapore) — should never be released. Designated primary (Practical Fishkeeping) and secondary (Fishkeeping World) sources did not have a species page for this entry; substituted with Shrimp and Snail Breeder (Aquariumbreeder.com) as primary and The Fish Site (FAO aquaculture profile) plus Fishkeeper.co.uk as secondaries.",
+  "breedingNotes": "Generally considered easy to breed at warm temperatures. Has been reported to reach sexual maturity at roughly 6-12 months. Females typically carry 300-800 olive-green eggs under the abdomen for around 6-10 weeks depending on temperature; there is no free-swimming larval stage and hatchlings emerge as ~12 mm miniatures of the adults. Reproduction tends to require water above 23°C. Females often initiate mating; multiple broods (3-5) per season have been documented in aquaculture settings. Juveniles are reported to be highly cannibalistic and benefit from being separated as soon as they detach from the female.",
+  "sources": {
+    "primary": {
+      "name": "Shrimp and Snail Breeder (Aquariumbreeder)",
+      "url":  "https://aquariumbreeder.com/red-claw-crayfish-detailed-guide-care-diet-and-breeding/",
+      "accessedDate": "2026-06-12",
+      "notes": "Designated primary Practical Fishkeeping (practicalfishkeeping.co.uk) returned HTTP 403 / had no Cherax quadricarinatus species page; substituted Shrimp and Snail Breeder as primary. Source for temperature 23-28°C, pH 7.0-8.5, gH 3-25, kH 3-20, 120 L per adult, 4-6 year lifespan, escape behavior, breeding biology, male red-claw patch, juvenile cannibalism."
+    },
+    "additional": [
+      {
+        "name": "The Fish Site (FAO aquaculture cultured species profile)",
+        "url":  "https://thefishsite.com/articles/cultured-aquatic-species-red-claw-crayfish",
+        "accessedDate": "2026-06-12",
+        "notes": "Designated secondary Fishkeeping World had no species page; substituted with The Fish Site as secondary. Cross-confirmed native range (NE Australia / PNG), 23-31°C optimal temperature with 36°C lethal limit, 6.5-8.0 pH in aquaculture, 300-800 eggs per brood, 6-10 week incubation, no larval stage, 9-month grow-out to market size, broad salinity tolerance."
+      },
+      {
+        "name": "Fishkeeper.co.uk (Maidenhead Aquatics)",
+        "url":  "https://www.fishkeeper.co.uk/help-and-advice/freshwater/miscellaneous/red-clawed-crayfish",
+        "accessedDate": "2026-06-12",
+        "notes": "UK retail care guide; cross-confirmed family Parastacidae, 18-28°C, pH 7.2-8.2, gH 10-25, omnivorous diet, male red claw patch, species-only setup recommendation, 'great escape artist' behavior, 6-10 week egg incubation, Blue Lobster trade name."
+      },
+      {
+        "name": "Wikipedia (Cherax quadricarinatus)",
+        "url":  "https://en.wikipedia.org/wiki/Cherax_quadricarinatus",
+        "accessedDate": "2026-06-12",
+        "notes": "Taxonomic fallback: Parastacidae / Decapoda, von Martens 1868 description, four keels on the head (quadricarinatus), up to 30 cm and 600 g, dark brown to blue-green wild coloration, 300-800 olive-green eggs per brood, invasive populations in South Africa, Mexico, Jamaica, Puerto Rico, Indonesia, Zambia, Malaysia, Singapore."
+      }
+    ]
+  },
+  "fish":         null,
+  "crustacean": {
+    "copperSensitive":            true,
+    "moltingFrequencyDays":       null,
+    "moltingNotes":               "Generally molts frequently as a juvenile (reported every few weeks during the first months of growth) and progressively less often as a mature adult. The shed exoskeleton is commonly left in the tank and re-consumed for calcium; it should not be removed. Adequate gH/calcium and stable parameters are widely cited as the most important factors in successful molts. Has been reported to seek shelter before molting and to remain hidden and vulnerable for several days afterward; tankmates that harass post-molt individuals are a frequent cause of loss.",
+    "escapeRisk":                 "high",
+    "breedingDifficulty":         "easy",
+    "breedingNotes":              "Reaches sexual maturity at 6-12 months; females carry 300-800 eggs for 6-10 weeks at >23°C; no free-swimming larval stage; juveniles are highly cannibalistic and benefit from separation. See top-level breedingNotes for full discussion.",
+    "speciesOnlyTankRecommended": true
+  },
+  "coral":        null,
+  "mollusc":      null,
+  "echinoderm":   null,
+  "other-invert": null,
+  "plant":        null,
+  "macroalgae":   null,
+  "schemaVersion": 1,
+  "dataStatus":   "researched",
+  "lastReviewed": "2026-06-12"
+}

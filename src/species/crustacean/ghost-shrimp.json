@@ -1,0 +1,145 @@
+{
+  "id": "fw-crus-012",
+  "slug": "ghost-shrimp",
+  "kind": "fauna",
+  "taxon": "crustacean",
+  "waterType": "freshwater",
+  "commonName": "Ghost Shrimp",
+  "scientificName": "Palaemonetes paludosus",
+  "alsoKnownAs": [
+    "Glass Shrimp",
+    "Grass Shrimp",
+    "Eastern Grass Shrimp",
+    "Riverine Grass Shrimp",
+    "Palaemon paludosus",
+    "Palaemonetes paludosa"
+  ],
+  "category": "Freshwater Shrimp",
+  "taxonomy": {
+    "family": "Palaemonidae",
+    "order": "Decapoda"
+  },
+  "nativeRange": {
+    "regions": ["North America"],
+    "countries": ["United States"],
+    "habitat": "Freshwater and occasionally slightly brackish lakes, ponds, slow-moving streams, and vegetated swamp/marsh margins. Commonly hidden among aquatic plants by day and emerging at night to feed.",
+    "biotope": "Lake",
+    "depthRangeM": { "min": 0, "max": 3 }
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 20, "max": 28 },
+    "pH":           { "min": 6.8, "max": 8.0 },
+    "gH":           { "min": 3, "max": 12 },
+    "kH":           { "min": 2, "max": 12 },
+    "salinity":     null
+  },
+  "adultSizeCm":   { "min": 3, "max": 5 },
+  "lifespanYears": { "min": 1, "max": 2 },
+  "tank": {
+    "minVolumeLiters":  40,
+    "minLengthCm":      40,
+    "swimZone":         "all",
+    "decorPreferences": [
+      "dense live planting",
+      "mosses (Java moss, Christmas moss)",
+      "driftwood and leaf litter",
+      "rock piles and shrimp caves for hiding",
+      "fine sand or small gravel substrate",
+      "sponge filter (shrimp-safe intake)",
+      "tightly-fitting lid (jumpers)"
+    ],
+    "minSandDepthCm":   null
+  },
+  "careLevel": "beginner",
+  "diet": {
+    "type":  "omnivore",
+    "notes": "Generally regarded as a scavenging omnivore documented eating biofilm, soft algae, decaying plant matter, detritus, and small aquatic invertebrates. Has been reported readily accepting sinking shrimp pellets, algae wafers, blanched vegetables (zucchini, spinach, cucumber), and bits of frozen foods (bloodworms, brine shrimp). Calcium- or mineral-supplemented foods are commonly recommended to support successful molting. Has been known to be somewhat more carnivorous and opportunistic than dwarf Neocaridina/Caridina shrimp, and may pick at very small or weakened tankmates."
+  },
+  "compatibility": {
+    "temperament":  "peaceful",
+    "grouping":     "shoaling",
+    "minGroupSize": 10,
+    "goodWith": [
+      "small peaceful community fish (small tetras, rasboras, danios)",
+      "Corydoras catfish",
+      "Otocinclus catfish",
+      "freshwater snails (nerite, mystery)",
+      "Kuhli loaches",
+      "other peaceful dwarf shrimp (in spacious tanks)"
+    ],
+    "avoidWith": [
+      "larger or predatory fish (cichlids, angelfish, larger gouramis)",
+      "bettas (often opportunistic shrimp predators)",
+      "loaches that hunt invertebrates (clown, yoyo)",
+      "crayfish and larger predatory shrimp",
+      "any fish large enough to swallow an adult shrimp"
+    ]
+  },
+  "media": {
+    "primaryImage":    null,
+    "gallery":         [],
+    "imageCandidates": null
+  },
+  "summary": "A small, nearly-transparent North American freshwater shrimp widely sold both as a hardy beginner display species and as feeder stock. Generally considered easy to keep and unusual among Palaemonetes in completing its full life cycle in pure freshwater.",
+  "careNotes": "Foundation entry for the Eastern/riverine grass shrimp commonly sold in the aquarium trade as 'Ghost Shrimp' or 'Glass Shrimp'. The trade name 'ghost shrimp' is applied loosely and may include several similar Palaemonetes species (P. paludosus, P. kadiakensis, P. pugio) as well as unrelated Macrobrachium juveniles and even marine ghost-shrimp (Callianassidae) sold dried; this entry specifically covers P. paludosus, the most common pet-store form. Flag species identity as approximate when sourced from feeder-shrimp tanks. Generally one of the more tolerant freshwater shrimp, accepting a wide pH and hardness range, but as with all crustaceans is sensitive to copper, ammonia, nitrite, and rapid parameter swings; only add to fully cycled tanks and avoid copper-based medications. Often arrive stressed and undernourished from high-density feeder-tank conditions at pet stores, and a noticeable fraction may die within the first 1-2 weeks regardless of care — buying healthy, active individuals and drip-acclimating slowly is generally advised. Reported to be somewhat jumpy, particularly when first introduced or when frightened, so a tightly-fitting lid is commonly recommended. Cross-source notes: sources broadly agree on temperature (Aquarium Co-Op 21-27°C, Fishkeeping World 18-28°C, AquariumBreeder 20-27°C), pH (Fishkeeping World 7.0-8.0, AquariumBreeder 6.5-8.0), and size (Fishkeeping World ~3.8-5 cm, AquariumBreeder 3-5 cm, Wikipedia up to 2.5 cm wild). Lifespan varies — Fishkeeping World cites ~1 year (wild populations often die after spawning), AquariumBreeder reports 1-3 years in captivity; averaged to 1-2 years. The 5-10 gallon tank-size recommendation was rounded to 40 L per the project's nice-value convention. The Shrimp Farm (designated secondary) returned HTTP 403 Forbidden and Aquarium Co-Op's species-specific blog URL returned 404; substituted with Fishkeeping World, AquariumBreeder, and Wikipedia.",
+  "breedingNotes": "Unusually for the genus Palaemonetes, P. paludosus completes its full larval development in pure freshwater and does not require brackish or marine conditions for hatching — this is what makes it a viable freshwater-only aquarium breeder. Females reportedly carry 8-85 eggs (averaging ~35) under the abdomen for around 12-14 days at 26-28°C. Hatched larvae are planktonic for roughly 5-10 days before metamorphosing into miniature adults; during this window they need very fine foods (powdered spirulina, infusoria, freshly-hatched brine shrimp nauplii, green water) and are easily lost to filter intakes and adult predation. Breeding in a dedicated, heavily-planted, sponge-filtered tank with no fish predators is commonly reported to give the best survival. Adults tolerate breeding in standard community parameters but elevated temperatures (26-28°C) speed up egg development.",
+  "sources": {
+    "primary": {
+      "name": "Aquarium Co-Op",
+      "url":  "https://www.aquariumcoop.com/blogs/aquarium/ghost-shrimp",
+      "accessedDate": "2026-06-12",
+      "notes": "Designated primary URL returned HTTP 404 Not Found. Substituted with Aquarium Co-Op's general freshwater shrimp guide (https://www.aquariumcoop.com/blogs/aquarium/top-5-freshwater-shrimp) which covers ghost shrimp generically. URL retained for reviewer reference."
+    },
+    "additional": [
+      {
+        "name": "The Shrimp Farm",
+        "url":  "https://www.theshrimpfarm.com/",
+        "accessedDate": "2026-06-12",
+        "notes": "Designated secondary URL (https://www.theshrimpfarm.com/posts/ghost-shrimp-care-guide/) returned HTTP 403 Forbidden on access. URL retained for reviewer reference."
+      },
+      {
+        "name": "Aquarium Co-Op (Top 5 Freshwater Shrimp guide)",
+        "url":  "https://www.aquariumcoop.com/blogs/aquarium/top-5-freshwater-shrimp",
+        "accessedDate": "2026-06-12",
+        "notes": "Substitute primary. Confirms temperature 21-27°C (70-80°F), pH above 7.0, higher GH preferred, mineral supplementation recommended, omnivorous/opportunistic diet, beginner care."
+      },
+      {
+        "name": "Fishkeeping World",
+        "url":  "https://www.fishkeepingworld.com/ghost-shrimp/",
+        "accessedDate": "2026-06-12",
+        "notes": "Cross-confirms scientific name Palaemonetes paludosus, family Palaemonetes, North American native range, adult size ~3.8-5 cm, ~1 year lifespan, 18-28°C, pH 7.0-8.0, gH 3-12, 5-10 gallon tank, peaceful shy temperament, feeder-shrimp transport stress."
+      },
+      {
+        "name": "AquariumBreeder",
+        "url":  "https://aquariumbreeder.com/ghost-shrimp-detailed-guide-care-diet-and-breeding/",
+        "accessedDate": "2026-06-12",
+        "notes": "Cross-confirms adult size 3-5 cm, lifespan 1-3 years, 20-27°C, pH 6.5-8.0, gH 3-15, kH 3-12, 10-gallon minimum, freshwater larval development, brood size 8-85 eggs, 12-14 day incubation, 5-10 day planktonic larval phase, moderate escape risk, drip-acclimation recommendation."
+      },
+      {
+        "name": "Wikipedia (Palaemonetes paludosus)",
+        "url":  "https://en.wikipedia.org/wiki/Palaemonetes_paludosus",
+        "accessedDate": "2026-06-12",
+        "notes": "Taxonomy fallback: family Palaemonidae, order Decapoda. Confirms native range (southern US east of Appalachians, scattered records elsewhere), freshwater/slightly-brackish lake habitat, nocturnal feeding, up to 2.5 cm wild adult length, up to 85 eggs/clutch, keystone-prey ecological role."
+      }
+    ]
+  },
+  "fish":         null,
+  "crustacean": {
+    "copperSensitive":            true,
+    "moltingFrequencyDays":       21,
+    "moltingNotes":               "Generally molts every 2-4 weeks depending on age, temperature, and feeding; juveniles molt more frequently than mature adults. Discarded exoskeletons are commonly left in the tank and re-consumed for calcium; they should not be removed. Insufficient mineral content (low gH, low calcium) is widely associated with incomplete-molt fatalities. Stable water parameters and adequate hiding places are generally considered the most important factors for successful molting, as freshly-molted shrimp are soft and vulnerable for several hours.",
+    "escapeRisk":                 "moderate",
+    "breedingDifficulty":         "moderate",
+    "breedingNotes":              "Unlike most Palaemonetes species, P. paludosus completes its larval cycle in pure freshwater, so no brackish/marine hatching tank is required. Still moderately challenging compared to Neocaridina because the planktonic larval stage demands very fine foods (infusoria, powdered spirulina, brine shrimp nauplii) and protection from filter intakes and adult cannibalism. See top-level breedingNotes for full details.",
+    "speciesOnlyTankRecommended": false
+  },
+  "coral":        null,
+  "mollusc":      null,
+  "echinoderm":   null,
+  "other-invert": null,
+  "plant":        null,
+  "macroalgae":   null,
+  "schemaVersion": 1,
+  "dataStatus":   "researched",
+  "lastReviewed": "2026-06-12"
+}

@@ -1,0 +1,129 @@
+{
+  "id": "fw-crus-004",
+  "slug": "amano-shrimp",
+  "kind": "fauna",
+  "taxon": "crustacean",
+  "waterType": "freshwater",
+  "commonName": "Amano Shrimp",
+  "scientificName": "Caridina multidentata",
+  "alsoKnownAs": [
+    "Yamato Shrimp",
+    "Japanese Algae Shrimp",
+    "Algae-Eating Shrimp",
+    "Caridina japonica"
+  ],
+  "category": "Shrimp",
+  "taxonomy": {
+    "family": "Atyidae",
+    "order": "Decapoda"
+  },
+  "nativeRange": {
+    "regions": ["East Asia"],
+    "countries": ["Japan", "Taiwan", "Korea"],
+    "habitat": "Freshwater streams and rivers with rocky substrates, typically with overhanging vegetation; larvae develop in low-salinity brackish estuaries before returning upstream as juveniles.",
+    "biotope": "Stream",
+    "depthRangeM": null
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 20, "max": 27 },
+    "pH": { "min": 6.5, "max": 7.5 },
+    "gH": { "min": 6, "max": 12 },
+    "kH": { "min": 2, "max": 8 },
+    "salinity": null
+  },
+  "adultSizeCm": { "min": 4, "max": 5 },
+  "lifespanYears": { "min": 2, "max": 3 },
+  "tank": {
+    "minVolumeLiters": 40,
+    "minLengthCm": 45,
+    "swimZone": "all",
+    "decorPreferences": [
+      "dense live plants",
+      "driftwood and leaf litter for biofilm grazing",
+      "rocks and caves for molting shelter",
+      "tightly-fitting lid (escape risk)"
+    ],
+    "minSandDepthCm": null
+  },
+  "careLevel": "beginner",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Generally considered one of the strongest algae-grazing freshwater shrimp; readily consumes soft green algae, biofilm, rotting plant matter, blanched vegetables (zucchini, spinach, cucumber), shrimp pellets, algae wafers, and most prepared fish foods. Calcium-rich foods support successful moulting."
+  },
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "shoaling",
+    "minGroupSize": 3,
+    "goodWith": [
+      "small peaceful tetras",
+      "rasboras",
+      "Endler's livebearers",
+      "Corydoras catfish",
+      "bristlenose plecos",
+      "kuhli loaches",
+      "freshwater snails",
+      "other peaceful shrimp"
+    ],
+    "avoidWith": [
+      "medium to large cichlids",
+      "large barbs",
+      "goldfish",
+      "predatory loaches",
+      "any fish large enough to swallow an adult shrimp"
+    ]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "Hardy 4–5 cm freshwater shrimp from Japan/Taiwan, widely regarded as one of the most effective algae-grazers in planted aquaria. Adults thrive in pure freshwater but larvae require brackish water to develop, so the species rarely reproduces in home tanks.",
+  "careNotes": "Amano Shrimp are generally considered one of the most beginner-friendly freshwater shrimp species. They tolerate a wide range of water parameters but appreciate stable, well-cycled tanks with moderate hardness to support successful moulting. A tightly-fitting lid is strongly recommended — they are well-documented escape artists, particularly during the night or after water changes, and can climb filter intakes, heater cords, and air-line tubing out of the tank. Like all invertebrates, they are highly copper-sensitive; avoid copper-based medications and check that any plant fertilisers used do not contain elevated copper. Source ranges for temperature, pH, and hardness vary somewhat (Aquarium Co-Op: 18–28°C / pH 6–8; The Shrimp Farm-type retailer data: 20–22°C / pH 7.0–7.6; Fishkeeping World: 21–27°C / pH 6–7); the values written here are an averaged middle. Often described as gregarious — keeping a small group of three or more reduces stress and dominance behaviour at feeding time. Note that imported animals frequently arrive translucent or pale and can take several weeks to settle into their normal pigmentation. Secondary source The Shrimp Farm (target URL) returned HTTP 403 on access; Flip Aquatics product page and Fishkeeping World care guide were used as fallback secondaries to meet the two-source cross-verification minimum.",
+  "breedingNotes": "Generally considered impractical in standard home aquaria. Although adult females readily carry eggs in freshwater, the hatched larvae require brackish water (around SG 1.020–1.024) to develop through several planktonic zoeal stages before metamorphosing into juveniles and migrating back to freshwater. This amphidromous life cycle means that without a dedicated brackish larval-rearing setup and gradual re-acclimation protocol, larvae die within days. Distinct from Neocaridina and the Caridina cantonensis complex, which both breed freely in pure freshwater.",
+  "sources": {
+    "primary": {
+      "name": "Aquarium Co-Op",
+      "url": "https://www.aquariumcoop.com/blogs/aquarium/amano-shrimp",
+      "accessedDate": "2026-06-12"
+    },
+    "additional": [
+      {
+        "name": "The Shrimp Farm",
+        "url": "https://www.theshrimpfarm.com/posts/amano-shrimp-care/",
+        "accessedDate": "2026-06-12",
+        "notes": "Designated secondary returned HTTP 403 on access; could not be cross-checked. Listed for traceability; swapped to Flip Aquatics and Fishkeeping World as substitute secondaries."
+      },
+      {
+        "name": "Flip Aquatics",
+        "url": "https://flipaquatics.com/products/5-amano-shrimp",
+        "accessedDate": "2026-06-12",
+        "notes": "Fallback secondary used in place of blocked Shrimp Farm page. Provided water-parameter ranges (pH 7.0–7.6, GH 7–15, KH 2–8) and tank-size guidance (4 gal minimum, 20 gal recommended)."
+      },
+      {
+        "name": "Fishkeeping World",
+        "url": "https://www.fishkeepingworld.com/amano-shrimp/",
+        "accessedDate": "2026-06-12",
+        "notes": "Third cross-check source. Confirmed family Atyidae, adult size up to 2 in (~5 cm), lifespan 2–3 years, brackish larval requirement, and recommended group size of six or more."
+      }
+    ]
+  },
+  "fish": null,
+  "crustacean": {
+    "copperSensitive": true,
+    "moltingFrequencyDays": 30,
+    "moltingNotes": "Healthy adults generally moult roughly every 3–6 weeks; juveniles moult more frequently. Shed exoskeletons should be left in the tank as a calcium source. Sudden parameter swings (especially large water changes with very different GH) are commonly associated with failed moults.",
+    "escapeRisk": "high",
+    "breedingDifficulty": "advanced",
+    "breedingNotes": "Amphidromous: larvae require brackish water (~SG 1.020–1.024) to survive and develop, then must be acclimated back to freshwater as post-larvae. Without a dedicated brackish rearing setup, reproduction is effectively impossible in a standard freshwater tank.",
+    "speciesOnlyTankRecommended": false
+  },
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-12"
+}

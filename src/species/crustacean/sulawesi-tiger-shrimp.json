@@ -1,0 +1,126 @@
+{
+  "id": "fw-crus-007",
+  "slug": "sulawesi-tiger-shrimp",
+  "kind": "fauna",
+  "taxon": "crustacean",
+  "waterType": "freshwater",
+  "commonName": "Sulawesi Tiger Shrimp",
+  "scientificName": "Caridina woltereckae",
+  "alsoKnownAs": [
+    "Sulawesi Harlequin Shrimp",
+    "Harlequin Shrimp",
+    "White-Spotted Tiger Sulawesi",
+    "Tiger Lake Shrimp",
+    "Harlequin Celebs Sulawesi Shrimp"
+  ],
+  "category": "Sulawesi Shrimp",
+  "taxonomy": {
+    "family": "Atyidae",
+    "order": "Decapoda"
+  },
+  "nativeRange": {
+    "regions": ["Southeast Asia", "Wallacea"],
+    "countries": ["Indonesia"],
+    "habitat": "Endemic to Lake Towuti in the Malili lakes system of central Sulawesi. Generally found on hard substrate — small rocks in shallow water and crevices between larger rocks in deeper zones.",
+    "biotope": "Lake",
+    "depthRangeM": { "min": 0, "max": 10 }
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 27, "max": 30 },
+    "pH":           { "min": 7.8, "max": 8.5 },
+    "gH":           { "min": 4, "max": 8 },
+    "kH":           { "min": 2, "max": 6 },
+    "salinity":     null
+  },
+  "adultSizeCm":   { "min": 1.5, "max": 2.5 },
+  "lifespanYears": { "min": 1, "max": 2 },
+  "tank": {
+    "minVolumeLiters":  40,
+    "minLengthCm":      40,
+    "swimZone":         "bottom",
+    "decorPreferences": [
+      "rocky substrate with crevices",
+      "small and large rocks for hiding",
+      "fine sand patches",
+      "sponge or matten filtration",
+      "minimal plants (high pH discourages most aquatic plants)"
+    ],
+    "minSandDepthCm":   null
+  },
+  "careLevel": "advanced",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Generally accepts biofilm, soft algae, and detritus as the bulk of its diet; supplements of high-quality shrimp pellets, blanched vegetables, and protein-rich foods (e.g. bloodworms, daphnia) are taken sparingly. In a mature, biofilm-rich tank, feeding once every 2-3 days is commonly considered sufficient."
+  },
+  "compatibility": {
+    "temperament":  "peaceful",
+    "grouping":     "shoaling",
+    "minGroupSize": 10,
+    "goodWith":     [
+      "conspecifics (Caridina woltereckae)",
+      "other Sulawesi Caridina species sharing the same parameters",
+      "Sulawesi rabbit snails (Tylomelania spp.)"
+    ],
+    "avoidWith":    [
+      "fish of any size (almost all are predatory toward shrimplets)",
+      "Neocaridina and standard Caridina shrimp (parameter incompatible)",
+      "crayfish and predatory invertebrates",
+      "species requiring soft, acidic water"
+    ]
+  },
+  "media": {
+    "primaryImage":    null,
+    "gallery":         [],
+    "imageCandidates": null
+  },
+  "summary": "A tiny, critically endangered shrimp endemic to Lake Towuti in Sulawesi. Generally considered a specialist species — needs warm, alkaline, mineral-rich water and is best kept in a dedicated species-only tank.",
+  "careNotes": "Caridina woltereckae is endemic to Lake Towuti in the Malili lakes system of Sulawesi, Indonesia, and is listed as Critically Endangered (IUCN). It is generally considered unsuitable for beginners — its parameter window is narrow and unusual for a freshwater shrimp (warm, alkaline, hard, low-TDS water). Most successful keepers report stable temperatures in the 27-30°C range, pH around 8.0-8.5, and TDS in the 75-175 µS/cm range, achieved with dedicated Sulawesi-style remineralisers. The tank should be mature with substantial biofilm before any animals are added; new tanks routinely cause mass die-offs. Lighting promotes biofilm growth on rocks. A species-only tank is commonly advised because almost any fish will predate the shrimplets and many fish stress the adults, but compatible Sulawesi rabbit snails (Tylomelania) are widely kept alongside. The species is sensitive to copper-based medications and to pH/temperature swings around water changes — small, frequent, parameter-matched changes are the norm. The 'Sulawesi Tiger' trade name is a marketing label; the scientifically and most commonly used common name is 'Sulawesi Harlequin Shrimp', though both refer to the same species. Source values for temperature ranged narrowly (one source: 28.7-29.2°C; another: 25.6-29.4°C) and pH ranged 7.5-8.5 — averaged values used here.",
+  "breedingNotes": "Has been bred in captivity but is generally considered medium-to-difficult. Females carry 20-30 relatively large eggs (~1 mm); eggs hatch after about 3-4 weeks into fully-formed miniature shrimplets (no planktonic larval stage), which makes captive rearing more achievable than for some Sulawesi shrimp with extended larval phases. Stable parameters, abundant biofilm, and the absence of predators are reported to be the main drivers of successful broods. Females must molt to be receptive — keepers commonly report breeding activity shortly after a molt.",
+  "sources": {
+    "primary": {
+      "name": "Aquarium Breeder — Sulawesi Harlequin Shrimp Detailed Guide",
+      "url":  "https://aquariumbreeder.com/sulawesi-harlequin-shrimp-detailed-guide-care-diet-and-breeding/",
+      "accessedDate": "2026-06-12",
+      "notes": "Swapped in as primary after the assigned Flip Aquatics URL returned 404 and Flip's 'Tiger Shrimp' collection turned out to be Caridina cantonensis, not woltereckae. Aquarium Breeder is the most detailed husbandry source available for this species."
+    },
+    "additional": [
+      {
+        "name": "Pet Zone Tropical Fish — Sulawesi Harlequin Shrimp",
+        "url": "https://www.petzonesd.com/sulawesi-harlequin-shrimp/",
+        "accessedDate": "2026-06-12",
+        "notes": "Cross-checked sizing (1.5-2 cm), temperature (78-85 F), and pH (7.5-8.5). The Shrimp Farm (assigned secondary) returned 403 Forbidden, so this trade source was substituted."
+      },
+      {
+        "name": "Wikipedia — Caridina woltereckae",
+        "url": "https://en.wikipedia.org/wiki/Caridina_woltereckae",
+        "accessedDate": "2026-06-12",
+        "notes": "Used for taxonomy (Atyidae / Decapoda), endemic-to-Lake-Towuti range, and Critically Endangered conservation status."
+      },
+      {
+        "name": "Atyidae — Harlequin Shrimp (Caridina woltereckae)",
+        "url": "https://atyidae.wordpress.com/caridina_woltereckae/",
+        "accessedDate": "2026-06-12",
+        "notes": "Atyidae-family taxonomy blog. Confirmed Lake Towuti endemism, 20-25 mm total length, and that the species is frequently mislabeled in the hobby as C. spongicola."
+      }
+    ]
+  },
+  "fish": null,
+  "crustacean": {
+    "copperSensitive":            true,
+    "moltingFrequencyDays":       null,
+    "moltingNotes":               "Sources do not give a typical molt interval. Females molt prior to receptive periods, and successful breeding is reported to follow shortly after. Old exoskeletons are generally left in place — they are commonly consumed for calcium reuptake.",
+    "escapeRisk":                 "low",
+    "breedingDifficulty":         "difficult",
+    "breedingNotes":              "Has been bred in captivity. Females carry 20-30 large eggs that hatch into fully-formed shrimplets after 3-4 weeks (no larval stage). Stable parameters and biofilm-rich substrate are commonly reported as the keys to brood survival.",
+    "speciesOnlyTankRecommended": true
+  },
+  "coral":        null,
+  "mollusc":      null,
+  "echinoderm":   null,
+  "other-invert": null,
+  "plant":        null,
+  "macroalgae":   null,
+  "schemaVersion": 1,
+  "dataStatus":   "researched",
+  "lastReviewed": "2026-06-12"
+}

@@ -1,0 +1,144 @@
+{
+  "id": "fw-crus-001",
+  "slug": "cherry-shrimp",
+  "kind": "fauna",
+  "taxon": "crustacean",
+  "waterType": "freshwater",
+  "commonName": "Cherry Shrimp",
+  "scientificName": "Neocaridina davidi",
+  "alsoKnownAs": [
+    "Red Cherry Shrimp",
+    "Sakura Cherry Shrimp",
+    "Fire Red Shrimp",
+    "Painted Fire Red Shrimp",
+    "Bloody Mary Shrimp",
+    "Yellow Neon Shrimp",
+    "Yellow Sunkist Shrimp",
+    "Green Jade Shrimp",
+    "Blue Dream Shrimp",
+    "Blue Velvet Shrimp",
+    "Blue Diamond Shrimp",
+    "Black Rose Shrimp",
+    "Red Rili Shrimp",
+    "Blue Rili Shrimp",
+    "Carbon Rili Shrimp",
+    "Snow White Shrimp",
+    "Orange Pumpkin Shrimp",
+    "Chocolate Shrimp",
+    "Neocaridina heteropoda"
+  ],
+  "category": "Dwarf Shrimp",
+  "taxonomy": {
+    "family": "Atyidae",
+    "order": "Decapoda"
+  },
+  "nativeRange": {
+    "regions": ["East Asia"],
+    "countries": ["China", "Taiwan", "Vietnam", "South Korea"],
+    "habitat": "Inland freshwater lakes, ponds, slow-moving rivers, and streams with abundant vegetation and biofilm-covered surfaces.",
+    "biotope": "Stream",
+    "depthRangeM": { "min": 0, "max": 2 }
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 18, "max": 28 },
+    "pH":           { "min": 6.5, "max": 8.0 },
+    "gH":           { "min": 6, "max": 14 },
+    "kH":           { "min": 2, "max": 8 },
+    "salinity":     null
+  },
+  "adultSizeCm":   { "min": 2.5, "max": 4 },
+  "lifespanYears": { "min": 1, "max": 2 },
+  "tank": {
+    "minVolumeLiters":  40,
+    "minLengthCm":      40,
+    "swimZone":         "all",
+    "decorPreferences": [
+      "live plants",
+      "mosses (Java moss, Christmas moss)",
+      "driftwood",
+      "shrimp caves and rock crevices",
+      "fine substrate",
+      "sponge filter (shrimp-safe intake)"
+    ],
+    "minSandDepthCm":   null
+  },
+  "careLevel": "beginner",
+  "diet": {
+    "type":  "omnivore",
+    "notes": "Generally regarded as a grazing omnivore that subsists on biofilm, soft algae, and decaying plant matter. Has been documented accepting shrimp pellets, algae wafers, blanched vegetables (zucchini, spinach, cucumber), and small amounts of high-protein foods. Calcium-enriched or mineral-supplemented foods are often recommended to support successful molting."
+  },
+  "compatibility": {
+    "temperament":  "peaceful",
+    "grouping":     "shoaling",
+    "minGroupSize": 10,
+    "goodWith": [
+      "other dwarf shrimp species (when not interbreeding-compatible)",
+      "nerite snails",
+      "mystery snails",
+      "small peaceful nano fish (chili rasboras, ember tetras, pygmy corydoras)",
+      "otocinclus catfish"
+    ],
+    "avoidWith": [
+      "most cichlids (angelfish, rams, oscars, discus)",
+      "larger barbs and tetras",
+      "gouramis (especially adults)",
+      "loaches",
+      "any predatory or shrimp-eating fish"
+    ]
+  },
+  "media": {
+    "primaryImage":    null,
+    "gallery":         [],
+    "imageCandidates": null
+  },
+  "summary": "A small, peaceful freshwater dwarf shrimp from East Asia available in a wide range of selectively-bred color morphs. Generally considered one of the most beginner-friendly invertebrates and a popular cleanup-crew choice for planted nano tanks.",
+  "careNotes": "Foundation entry covering the entire Neocaridina davidi color-morph complex. All commercially-available color forms (Red Cherry, Sakura, Fire Red, Painted Fire Red, Bloody Mary, Yellow Neon/Sunkist, Green Jade, Blue Dream, Blue Velvet, Blue Diamond, Black Rose, Red/Blue/Carbon Rili, Snow White, Orange Pumpkin, Chocolate) share identical husbandry requirements and will interbreed, producing wild-type brown offspring over generations if multiple morphs are mixed. The older taxonomic name Neocaridina heteropoda is a synonym still seen in older care guides. Generally tolerant of a wide pH and hardness range but does best with stable parameters and well-established biofilm; sudden swings are commonly cited as a primary cause of die-offs. Highly sensitive to copper, ammonia, and nitrite — avoid copper-based medications and snail treatments, and only add to fully cycled tanks. Has been reported as invasive in thermally polluted waterways in Japan, the United States, Poland, and Germany, so should not be released to the wild. Cross-source notes: Aquarium Co-Op cites a maximum temperature near 28°C while Fishkeeping World extends to 29°C; pH ceilings range from 8.0 to 8.5 across sources. Averaged values are written above. The 10-gallon (~38 L) breeding-colony recommendation from both Aquarium Co-Op and Fishkeeping World was rounded up to 40 L per the project's nice-value tank-size convention; smaller nano setups can sustain a few individuals but limit colony growth.",
+  "breedingNotes": "Generally considered one of the easiest aquarium invertebrates to breed — colonies will typically reproduce on their own in a stable, well-planted tank with no fish predators. Females become sexually mature at roughly 4–6 months and carry 20–30 eggs under the abdomen ('berried') for around 30 days. Newly hatched shrimplets are fully formed miniatures of the adults (no larval stage) and feed immediately on biofilm. Raising temperature toward the upper end of the tolerated range is commonly reported to accelerate breeding cycles. Mixed-morph colonies tend to revert toward wild-type brown coloration over several generations.",
+  "sources": {
+    "primary": {
+      "name": "Aquarium Co-Op",
+      "url":  "https://www.aquariumcoop.com/blogs/aquarium/cherry-shrimp-care",
+      "accessedDate": "2026-06-12",
+      "notes": "Primary care guide; source for temperature optimum (22-24°C), pH 6.5-8.5, gH ≥6, kH ≥2, group size ≥10, 10-gallon colony minimum."
+    },
+    "additional": [
+      {
+        "name": "The Shrimp Farm",
+        "url":  "https://www.theshrimpfarm.com/posts/cherry-shrimp-care-guide/",
+        "accessedDate": "2026-06-12",
+        "notes": "Designated secondary returned HTTP 403 Forbidden on access; substituted with Fishkeeping World and Wikipedia. URL retained for reviewer reference."
+      },
+      {
+        "name": "Fishkeeping World",
+        "url":  "https://www.fishkeepingworld.com/cherry-shrimp/",
+        "accessedDate": "2026-06-12",
+        "notes": "Secondary substitute (Shrimp Farm 403'd). Cross-confirmed size ~3.8 cm, lifespan 1-2 years, pH 6.5-8.0, gH 4-14, temperature 23-29°C, copper sensitivity, beginner care level."
+      },
+      {
+        "name": "Wikipedia (Neocaridina davidi)",
+        "url":  "https://en.wikipedia.org/wiki/Neocaridina_davidi",
+        "accessedDate": "2026-06-12",
+        "notes": "Taxonomy fallback for family Atyidae / order Decapoda, synonymy with Neocaridina heteropoda, and confirmation of native range (China, Taiwan, Korea, Vietnam) and 3-4 cm adult size."
+      }
+    ]
+  },
+  "fish":         null,
+  "crustacean": {
+    "copperSensitive":            true,
+    "moltingFrequencyDays":       30,
+    "moltingNotes":               "Generally molts roughly every 3-6 weeks as the shrimp grows, with reported intervals shortening for younger shrimp and lengthening for mature adults. Discarded exoskeletons are commonly left in the tank and re-consumed for calcium; they should not be removed. Insufficient mineral content (low gH, low calcium) is frequently associated with the 'white ring of death' incomplete-molt fatality. Stable water parameters are widely considered the single most important factor in successful molting.",
+    "escapeRisk":                 "low",
+    "breedingDifficulty":         "easy",
+    "breedingNotes":              "Breeds readily in any stable, predator-free planted tank. See top-level breedingNotes for details.",
+    "speciesOnlyTankRecommended": false
+  },
+  "coral":        null,
+  "mollusc":      null,
+  "echinoderm":   null,
+  "other-invert": null,
+  "plant":        null,
+  "macroalgae":   null,
+  "schemaVersion": 1,
+  "dataStatus":   "researched",
+  "lastReviewed": "2026-06-12"
+}
