@@ -1,0 +1,132 @@
+{
+  "id": "fw-crus-029",
+  "slug": "freshwater-pom-pom-crab",
+  "kind": "fauna",
+  "taxon": "crustacean",
+  "waterType": "freshwater",
+  "commonName": "Freshwater Pom Pom Crab",
+  "scientificName": "Ptychognathus barbatus",
+  "alsoKnownAs": [
+    "Pom Pom Crab (FW)",
+    "Bearded Pom Pom Crab"
+  ],
+  "category": "Crab",
+  "taxonomy": {
+    "family": "Varunidae",
+    "order": "Decapoda"
+  },
+  "nativeRange": {
+    "regions": ["East Asia", "Southeast Asia", "Indian Ocean", "Western Pacific"],
+    "countries": ["Taiwan", "China", "Japan", "Indonesia", "Philippines", "Malaysia", "India", "Madagascar", "Comoros", "New Caledonia"],
+    "habitat": "Shallow coastal freshwater streams in rocky areas with abundant aquatic vegetation; commonly found near river mouths, hiding among pebbles, rocks, and crevices. Larvae are reported to develop in brackish or marine waters before juveniles migrate back upstream (amphidromous life cycle typical of Varunidae).",
+    "biotope": "Stream",
+    "depthRangeM": null
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 22, "max": 27 },
+    "pH": { "min": 6.5, "max": 7.4 },
+    "gH": { "min": 6, "max": 12 },
+    "kH": { "min": 2, "max": 6 },
+    "salinity": null
+  },
+  "adultSizeCm": { "min": 1.5, "max": 2.5 },
+  "lifespanYears": { "min": 1, "max": 2 },
+  "tank": {
+    "minVolumeLiters": 40,
+    "minLengthCm": 45,
+    "swimZone": "bottom",
+    "decorPreferences": [
+      "sand or fine gravel substrate for burrowing",
+      "rockwork, pebbles, and caves for hiding and molting shelter",
+      "live plants tolerated (will not cut foliage but may uproot fine-rooted species)",
+      "driftwood and leaf litter for biofilm grazing",
+      "tightly-fitting lid with covered intakes (climbing/escape risk)"
+    ],
+    "minSandDepthCm": 3
+  },
+  "careLevel": "beginner",
+  "diet": {
+    "type": "omnivore",
+    "notes": "Opportunistic omnivorous scavenger that readily accepts sinking pellets, algae wafers, blanched vegetables, frozen or freeze-dried meaty foods, and biofilm grazed from rockwork. The dense setae (\"pom poms\") on the chelae are waved rhythmically through the water column and are commonly described as filter-feeding apparatus, though sources differ on whether the species is a true obligate filter-feeder; in captivity they are generally fed as scavengers. Calcium supplementation (cuttlebone, mineral-rich foods) supports successful moulting."
+  },
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "shoaling",
+    "minGroupSize": 2,
+    "goodWith": [
+      "small peaceful nano fish (chili rasboras, ember tetras, pygmy rasboras)",
+      "Endler's livebearers",
+      "small Corydoras",
+      "Otocinclus",
+      "freshwater snails",
+      "adult Amano and Neocaridina shrimp (with caution)"
+    ],
+    "avoidWith": [
+      "large or aggressive fish that may prey on the crab during a moult",
+      "cichlids",
+      "loaches that crush shells",
+      "very small dwarf shrimp and shrimplets (occasional opportunistic predation reported)",
+      "other territorial crabs"
+    ]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "Tiny fully-aquatic Asian crab (~2 cm carapace) with characteristic setae tufts on the chelae that give it its 'pom pom' name. Peaceful and well suited to planted nano community tanks with shrimp and small fish. Not to be confused with the marine boxer crab (Lybia tessellata), also called 'pom pom crab'.",
+  "careNotes": "Freshwater Pom Pom Crabs are generally considered one of the more beginner-friendly true freshwater crabs because, unlike most 'freshwater' crabs sold in the trade, they are fully aquatic and do not require a land area. They are commonly imported from Taiwan, but the species is widely distributed across coastal streams from Madagascar through Southeast Asia to New Caledonia. The common name 'Pom Pom Crab' is shared with the unrelated marine boxer crab Lybia tessellata; the two species are completely different in care needs and water type, and listings should be checked carefully against the scientific name. Source ranges for temperature and pH vary somewhat: Aqua Imports lists 25–28°C / pH 6.8–7.4; Aquatic Arts lists 20–25°C / pH 6.8–7.2; Aquariumbreeder lists 22–28°C / pH 6.2–7.6; Shrimpy Business lists 22–28°C / pH 6.2–7.2. The values written here are an averaged middle. They are competent climbers and will exploit any gap above the waterline — a tightly-fitting lid and covered filter intakes are strongly recommended. Like all invertebrates, they are highly copper-sensitive; avoid copper-based medications and plant fertilisers with elevated copper. Sand or fine gravel of at least a few centimetres depth supports their burrowing behaviour. One source flags a minority opinion that the species may be obligately brackish and decline in long-term pure freshwater; most aquarium-trade sources report multi-month-to-multi-year survival in fully freshwater systems, so the species is treated here as freshwater-keepable, but keepers seeing premature death should consider a low-salinity brackish setup. Secondary source The Shrimp Farm did not have a species page for this crab; Aquatic Arts was used as the primary cross-check, with Aquariumbreeder and Shrimpy Business as additional secondaries to meet the two-source minimum.",
+  "breedingNotes": "Generally considered impractical in standard home aquaria. As with most Varunidae, the species is believed to be amphidromous: females may carry eggs in freshwater, but the hatched larvae require brackish or marine salinity to develop through several planktonic zoeal stages before metamorphosing into juveniles and migrating back to freshwater. No reliable captive-breeding protocol is documented in the trade. Lost limbs are reported to regenerate fully over 1–2 moults.",
+  "sources": {
+    "primary": {
+      "name": "Aqua Imports",
+      "url": "https://www.aqua-imports.com/product/freshwater-pom-pom-crab/",
+      "accessedDate": "2026-06-12"
+    },
+    "additional": [
+      {
+        "name": "The Shrimp Farm",
+        "url": "https://www.theshrimpfarm.com/",
+        "accessedDate": "2026-06-12",
+        "notes": "Designated secondary did not have a dedicated species page for Ptychognathus barbatus and the site root returned HTTP 403. Substituted with Aquatic Arts as primary cross-check secondary."
+      },
+      {
+        "name": "Aquatic Arts",
+        "url": "https://aquaticarts.com/products/pom-pom-crab",
+        "accessedDate": "2026-06-12",
+        "notes": "Fallback secondary used in place of Shrimp Farm. Confirmed adult size ~1 inch (2.5 cm), fully aquatic status, tank-size guidance (5 gal min), peaceful temperament, escape risk, omnivorous scavenger diet, and pH 6.8–7.2 / temperature 20–25°C."
+      },
+      {
+        "name": "Aquariumbreeder",
+        "url": "https://aquariumbreeder.com/pom-pom-crab-detailed-guide-care-diet-and-breeding/",
+        "accessedDate": "2026-06-12",
+        "notes": "Third cross-check source. Confirmed family Varunidae, native range across Asia/Madagascar/New Caledonia, carapace 15–25 mm, lifespan up to ~1 year, water parameters (22–28°C, pH 6.8–7.2, GH 6–8, KH 2–6), and amphidromous brackish-larval breeding."
+      },
+      {
+        "name": "Shrimpy Business",
+        "url": "https://shrimpybusiness.com/blogs/shrimpy-business-blog/pom-pom-crab-care-guide",
+        "accessedDate": "2026-06-12",
+        "notes": "Fourth cross-check source. Confirmed adult size up to 1 inch, peaceful temperament, fully aquatic with climbing/escape ability, and reported a minority view that the species may be obligately brackish."
+      }
+    ]
+  },
+  "fish": null,
+  "crustacean": {
+    "copperSensitive": true,
+    "moltingFrequencyDays": 30,
+    "moltingNotes": "Healthy adults are reported to moult roughly every 3–6 weeks; juveniles moult more frequently. Lost limbs are reported to regenerate fully within one to two moults. Shed exoskeletons should be left in the tank as a calcium source. Sudden parameter swings (especially in GH or salinity) are commonly associated with failed moults.",
+    "escapeRisk": "high",
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "Amphidromous life cycle is suspected: larvae are reported to require brackish or marine water (~SG 1.015–1.020) to develop, then would need to be acclimated back to freshwater as post-larvae. Without a dedicated brackish rearing setup, reproduction is effectively impossible in a standard freshwater tank, and no reliable captive-breeding protocol is documented.",
+    "speciesOnlyTankRecommended": false
+  },
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-12"
+}

@@ -1,0 +1,156 @@
+{
+  "id": "fw-crus-032",
+  "slug": "freshwater-isopod",
+  "kind": "fauna",
+  "taxon": "crustacean",
+  "waterType": "freshwater",
+  "commonName": "Freshwater Isopod",
+  "scientificName": "Asellus aquaticus",
+  "alsoKnownAs": [
+    "Water Hoglouse",
+    "Water Sow Bug",
+    "Water Louse",
+    "Pond Slater",
+    "Aquatic Sowbug",
+    "Cress Bug",
+    "Asellus"
+  ],
+  "category": "Isopod",
+  "taxonomy": {
+    "family": "Asellidae",
+    "order": "Isopoda"
+  },
+  "nativeRange": {
+    "regions": ["Europe", "North America"],
+    "countries": [
+      "United Kingdom",
+      "Ireland",
+      "France",
+      "Spain",
+      "Portugal",
+      "Italy",
+      "Greece",
+      "Turkey",
+      "Germany",
+      "Poland",
+      "Sweden",
+      "Norway",
+      "Finland",
+      "Russia"
+    ],
+    "habitat": "Slow-flowing or standing fresh waters — ponds, ditches, marsh edges, slow streams and stagnant pools — typically among leaf litter, submerged plants, and stones that offer hiding cover. Generally considered tolerant of organic pollution and low dissolved oxygen, but tends to be absent from fast-flowing currents and strongly acidic waters.",
+    "biotope": "Pond / slow stream",
+    "depthRangeM": null
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 15, "max": 24 },
+    "pH": { "min": 6.5, "max": 8.0 },
+    "gH": { "min": 4, "max": 20 },
+    "kH": { "min": 2, "max": 15 },
+    "salinity": null
+  },
+  "adultSizeCm": { "min": 0.5, "max": 2.0 },
+  "lifespanYears": { "min": 0.75, "max": 1.5 },
+  "tank": {
+    "minVolumeLiters": 20,
+    "minLengthCm": 30,
+    "swimZone": "bottom",
+    "decorPreferences": [
+      "thick leaf litter (oak, beech, almond) for grazing and shelter",
+      "fine sand or aquarium-safe substrate around 2–3 cm deep",
+      "live or floating plants for cover and CO₂ uptake",
+      "rocks and driftwood with shaded crevices",
+      "moderate aeration and gentle flow"
+    ],
+    "minSandDepthCm": 2
+  },
+  "careLevel": "beginner",
+  "diet": {
+    "type": "detritivore",
+    "notes": "Has been documented feeding on decaying leaf litter, biofilm, fungi, algae, soft aquatic plant shoots, and uneaten fish food. Generally considered an effective bottom-zone cleanup organism; supplemental sinking pellets, algae wafers, or blanched vegetables (zucchini, spinach) are tolerated but rarely required when leaf litter is present."
+  },
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "shoaling",
+    "minGroupSize": 10,
+    "goodWith": [
+      "snails",
+      "small peaceful tetras",
+      "rasboras",
+      "Endler's livebearers",
+      "white cloud mountain minnows",
+      "small killifish",
+      "cold-water natives in unheated tanks",
+      "species-only culture tanks"
+    ],
+    "avoidWith": [
+      "shrimp breeding tanks (out-competes for food and reproduces faster than most dwarf shrimp)",
+      "crayfish",
+      "large predatory fish",
+      "actively bottom-foraging cichlids",
+      "loaches that target small invertebrates",
+      "pufferfish"
+    ]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A fully aquatic 0.5–2 cm freshwater isopod from European and North American ponds and slow streams. Widely cultured as a detritivore cleanup organism and as nutritious live food; hardy across a broad parameter range and best kept in cool, planted, leaf-littered tanks.",
+  "careNotes": "Asellus aquaticus is a true aquatic isopod (Crustacea, Isopoda — distinct from terrestrial Porcellio woodlice/'pet isopods' despite the shared common-name family) and is generally considered one of the easiest freshwater invertebrates to maintain. It tolerates a wide parameter envelope — sources report survival from roughly 5–30°C and pH 4.5–11, with the most commonly recommended aquarium range being around 15–24°C and pH 6.5–8.0. Has been reported to thrive in cool, unheated rooms; tropical temperatures above ~25°C tend to shorten lifespan. A shaded, slow-flow tank with thick leaf litter (oak, beech, Indian almond) is generally advised — leaf litter doubles as primary food and as hiding cover, which the animals strongly favour during daylight. As an invertebrate it is highly copper-sensitive; avoid copper-based fish medications and check that plant fertilisers do not contain elevated copper. Despite being a crustacean it has a very low escape risk: sources note it is essentially helpless out of water and cannot climb tank walls in air. Note that the designated primary source (Practical Fishkeeping) returned HTTP 403 and the designated secondary (Fishkeeping World) had no dedicated species page; the playbook fallback was triggered and Aquarium Breeder, Wikipedia, and Terra Mater Gardens were used as substitute sources to meet the two-source cross-verification minimum.",
+  "breedingNotes": "Generally considered easy to breed and self-sustaining in any established culture tank. Sexually reproducing with internal fertilisation; males mate-guard pre-moult females for roughly 5–7 days. Females carry 30–150 eggs in a ventral brood pouch (marsupium) where larvae pass through about three pre-release moult stages and emerge as ~1 mm fully-formed juveniles. Sexual maturity is reached at 1.5–3 months / ~3–4 mm body length, and two or more generations per year are typical in warm cultures. No brackish or special larval phase is required, in contrast to most amphidromous freshwater shrimp.",
+  "sources": {
+    "primary": {
+      "name": "Practical Fishkeeping",
+      "url": "https://www.practicalfishkeeping.co.uk/",
+      "accessedDate": "2026-06-12",
+      "notes": "Designated primary returned HTTP 403 on access; could not be used. Listed for traceability. Aquarium Breeder used as substitute primary."
+    },
+    "additional": [
+      {
+        "name": "Fishkeeping World",
+        "url": "https://www.fishkeepingworld.com/",
+        "accessedDate": "2026-06-12",
+        "notes": "Designated secondary had no dedicated species profile for Asellus aquaticus. Listed for traceability; Wikipedia and Terra Mater Gardens used as substitute secondaries."
+      },
+      {
+        "name": "Aquarium Breeder",
+        "url": "https://aquariumbreeder.com/asellus-aquaticus-profile-water-louse-in-shrimp-and-fish-tank/",
+        "accessedDate": "2026-06-12",
+        "notes": "Substitute primary. Provided body size (5–10 mm typical), pH tolerance (4.5–11 survival, 6.5–9.0 optimum), temperature 5–30°C, lifespan ~1–1.5 yr, brood size 30–150 eggs, maturity at 1.5–3 months, two generations per year, and copper/escape-risk guidance."
+      },
+      {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Asellus_aquaticus",
+        "accessedDate": "2026-06-12",
+        "notes": "Taxonomy (Asellidae, Isopoda, Malacostraca), pan-European native range from Iberia to Scandinavia and west Russia, adult body length up to 2 cm, habitat (slow/standing water with stones and leaf litter, intolerant of strong acidity), lifespan 9–20 months across regions."
+      },
+      {
+        "name": "Terra Mater Gardens",
+        "url": "https://www.terramatergardens.com/products/aquatic-isopods",
+        "accessedDate": "2026-06-12",
+        "notes": "Confirmed husbandry temperature 10–24°C, pH 6.5–8.0, peaceful temperament, and use as cleanup-crew detritivore alongside fish, shrimp, and snails."
+      }
+    ]
+  },
+  "fish": null,
+  "crustacean": {
+    "copperSensitive": true,
+    "moltingFrequencyDays": 14,
+    "moltingNotes": "Moults regularly throughout life as growth occurs; juveniles moult more frequently than adults. Females moult before mating, which is why males mate-guard receptive females for several days prior. Shed exoskeletons are typically left in the tank and consumed for calcium recovery.",
+    "escapeRisk": "low",
+    "breedingDifficulty": "easy",
+    "breedingNotes": "Breeds readily in any established freshwater tank with leaf litter and stable temperatures. No brackish larval stage; brood-pouch development produces fully-formed juveniles. Two or more generations per year are common at room temperature; populations can grow rapidly enough to out-compete dwarf shrimp in mixed cultures.",
+    "speciesOnlyTankRecommended": false
+  },
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-12"
+}

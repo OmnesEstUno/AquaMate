@@ -1,0 +1,152 @@
+{
+  "id": "fw-crus-030",
+  "slug": "european-freshwater-scud",
+  "kind": "fauna",
+  "taxon": "crustacean",
+  "waterType": "freshwater",
+  "commonName": "European Freshwater Scud",
+  "scientificName": "Gammarus pulex",
+  "alsoKnownAs": [
+    "Scud",
+    "Sideswimmer",
+    "Freshwater Shrimp",
+    "Gammarus",
+    "European Freshwater Amphipod"
+  ],
+  "category": "Amphipod",
+  "taxonomy": {
+    "family": "Gammaridae",
+    "order": "Amphipoda"
+  },
+  "nativeRange": {
+    "regions": ["Europe"],
+    "countries": [
+      "United Kingdom",
+      "Ireland",
+      "France",
+      "Germany",
+      "Netherlands",
+      "Belgium",
+      "Switzerland",
+      "Austria",
+      "Czech Republic",
+      "Poland",
+      "Russia"
+    ],
+    "habitat": "Cool, well-oxygenated running freshwater systems — streams, rivers, springs, and the margins of clean lakes. Generally found among stony substrates, leaf litter, and submerged or marginal vegetation such as watercress and starwort. Shows strong diel movement, sheltering under stones or in mud during the day and foraging openly at night.",
+    "biotope": "Stream",
+    "depthRangeM": null
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 10, "max": 20 },
+    "pH": { "min": 7.0, "max": 8.0 },
+    "gH": { "min": 8, "max": 20 },
+    "kH": { "min": 4, "max": 12 },
+    "salinity": null
+  },
+  "adultSizeCm": { "min": 1.0, "max": 2.1 },
+  "lifespanYears": { "min": 1, "max": 2 },
+  "tank": {
+    "minVolumeLiters": 20,
+    "minLengthCm": 30,
+    "swimZone": "bottom",
+    "decorPreferences": [
+      "dense submerged vegetation (live or artificial) for shelter and grazing surface",
+      "leaf litter (alder, oak, beech) as primary food and biofilm substrate",
+      "smooth stones and gravel for daytime cover",
+      "filter sponges or coarse media providing high surface area",
+      "strong aeration or moderate flow to maintain high dissolved oxygen",
+      "tightly-fitting lid (escape risk via filter intakes and air-line tubing)"
+    ],
+    "minSandDepthCm": null
+  },
+  "careLevel": "beginner",
+  "diet": {
+    "type": "detritivore",
+    "notes": "Primarily a shredder-detritivore: feeds on decaying plant matter, microbe-conditioned leaves, biofilm, and small organic debris. Readily accepts fish flake, sinking pellets, algae wafers, blanched vegetables (zucchini, spinach, sweet potato), and aquarium plant clippings in culture. Has been documented opportunistically attacking soft-bodied prey including newly-moulted dwarf shrimp, fish fry, and eggs — keep separately from livebearer fry or breeding shrimp tanks."
+  },
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "shoaling",
+    "minGroupSize": 25,
+    "goodWith": [
+      "coldwater and temperate display tanks without micro-predators",
+      "dedicated culture / refugium setups",
+      "Asellus aquaticus and other detritivore tankmates",
+      "planted river-biotope aquaria with sturdy plants"
+    ],
+    "avoidWith": [
+      "dwarf shrimp breeding colonies (will predate moulting individuals and shrimplets)",
+      "fish or amphibian fry tanks",
+      "any predatory micro-fish if a stable display population is the goal — they will be eaten out quickly",
+      "warm tropical community tanks above ~24°C for long-term keeping"
+    ]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "European freshwater amphipod, 1–2 cm, native to cool well-oxygenated streams across most of Europe. Widely cultured as live food for predatory and micropredator fish; display use is limited but legitimate in coldwater/temperate biotope setups.",
+  "careNotes": "Gammarus pulex is one of the standard live-food cultures for hobbyists keeping micropredators (dwarf cichlids, bettas, gouramis, loaches, newts, salamanders, axolotls, juvenile predatory fish). Despite being colloquially called 'Freshwater Shrimp' in the UK, it is an amphipod (sideswimmer), not a true caridean shrimp. It is generally considered a beginner-friendly species to culture but is rarely sustained as a display animal because almost any tankmate large enough to notice them will eat them out within weeks. Cool, highly oxygenated water is the single most important husbandry factor — sources consistently describe oxygen depletion (not temperature alone) as the usual cause of culture crashes. As detritivores they thrive on rotting leaves, biofilm, and uneaten fish food; calcium-rich water supports successful moulting. Like all crustaceans they are highly copper-sensitive — avoid copper-based fish medications. They are documented escape artists, climbing filter intakes, heaters, and air-line tubing; a tightly-fitting lid is recommended even for small culture buckets. PRIMARY/SECONDARY SOURCE FAILURE: the controller-designated primary (Practical Fishkeeping) returned HTTP 403 and the designated secondary (Fishkeeping World) had no Gammarus pulex page. Fallback sources were Wikipedia (taxonomy / range / wild biology), Fish Laboratory (aquarium-trade keeping notes, although that page uses the name 'Gammarus shrimp' and actually describes Hyalella azteca, a different amphipod — values were used cautiously and only for traits common across freshwater Gammaridea), Aquatic Arts (commercial culture care sheet), R. J. Torrens' nathist.torrens.org page (UK aquarium keeping of native G. pulex), and peer-reviewed pH-tolerance data. Cross-source numerical agreement was good for adult size (10–21 mm), lifespan (≈1 year typical, up to 2), and the pH lower-tolerance bound (≥6.0 survives, ≥7.0 thrives). Temperature was widely reported as 'cool stream temperature' without a precise hobby range; the 10–20°C window written here is a hobby-reasonable middle (Aquatic Arts cites ≥24°C for active reproduction, Torrens cites short-term tolerance from near-freezing to 26°C). Tank-size source data was essentially absent — small culture vessels (≤4 L) are documented as productive, so 20 L is a generous nice-round floor for a display or hobby-scale colony rather than a strict requirement. dataStatus is set to needs_review so a reviewer can sanity-check the parameter ranges given the limited husbandry-grade source confirmation.",
+  "breedingNotes": "Reproduces sexually with multiple broods per year in established cultures. Males perform precopulatory mate-guarding for hours to days, riding atop females until the female moults; mating occurs immediately post-moult and fertilised eggs are carried in a ventral brood pouch (marsupium) until hatching as miniature replicas of the adults. In hobby cultures, reproduction is generally reported as prolific at room temperature (≥18–24°C) with adequate detritus and oxygen; a single starter culture is typically sufficient to seed an effectively unlimited supply. No brackish or specialised larval phase is needed — unlike Caridina amano shrimp, juvenile G. pulex develop directly in fresh water.",
+  "sources": {
+    "primary": {
+      "name": "Practical Fishkeeping",
+      "url": "https://www.practicalfishkeeping.co.uk/",
+      "accessedDate": "2026-06-12",
+      "notes": "Designated primary returned HTTP 403 Forbidden on access; could not be used. Listed for traceability. Fallback sources below were used instead."
+    },
+    "additional": [
+      {
+        "name": "Fishkeeping World",
+        "url": "https://www.fishkeepingworld.com/",
+        "accessedDate": "2026-06-12",
+        "notes": "Designated secondary — site responded, but no Gammarus pulex / scud care guide exists on it. Could not be used for cross-verification."
+      },
+      {
+        "name": "Wikipedia — Gammarus pulex",
+        "url": "https://en.wikipedia.org/wiki/Gammarus_pulex",
+        "accessedDate": "2026-06-12",
+        "notes": "Fallback source. Provided taxonomy (Gammaridae, Amphipoda), native range (most of Europe Atlantic to Volga), adult size (males ~21 mm, females ~14 mm), lifespan (~350–450 days at 15°C, up to ~2 winters), oxygen and pollution sensitivity, diet (detritivore on conditioned leaves), and reproductive biology (precopulatory guarding, brood pouch)."
+      },
+      {
+        "name": "Fish Laboratory — Gammarus Shrimp",
+        "url": "https://www.fishlaboratory.com/fish/gammarus/",
+        "accessedDate": "2026-06-12",
+        "notes": "Fallback aquarium-trade care sheet. CAUTION: the page is titled 'Gammarus' but actually describes Hyalella azteca, a different amphipod genus. Only traits common across freshwater Gammaridea (calcium-rich water supports moulting; ≥24°C drives reproduction; pH 6.8–7.5 well tolerated; cellulose-rich substrate beneficial) were borrowed. Species-specific values were taken from other sources."
+      },
+      {
+        "name": "Aquatic Arts — Live Scud (Gammarus sp.) Culture",
+        "url": "https://aquaticarts.com/products/aquatic-arts-live-scud-culture",
+        "accessedDate": "2026-06-12",
+        "notes": "Fallback commercial culture care sheet. Confirmed substrate-and-vegetation habitat use, detritivore diet, opportunistic predation on moulting dwarf shrimp and fry, prolific reproduction at ≥24°C, and 'one starter culture produces an endless supply' practical-keeping note. Also confirmed escape/overrun risk."
+      },
+      {
+        "name": "R. J. Torrens — Aqua: Freshwater Shrimps Gammarus",
+        "url": "https://nathist.torrens.org/Aqua/Gammarus.html",
+        "accessedDate": "2026-06-12",
+        "notes": "Fallback UK natural-history keeping note specifically for native Gammarus pulex. Provided strongest practical husbandry data: shallow well-oxygenated water, mass of living and decaying vegetation (watercress, starwort), short-term tolerance from near-freezing to ~26°C, predatory behaviour toward fish eggs and fry, ~20 mm typical and up to 30 mm exceptionally."
+      }
+    ]
+  },
+  "fish": null,
+  "crustacean": {
+    "copperSensitive": true,
+    "moltingFrequencyDays": 14,
+    "moltingNotes": "Like all amphipods, moults regularly through life. Females moult immediately before mating, with males guarding the female for hours to days in precopula until that moult occurs. Calcium-rich water is generally considered to support reliable moulting; shed exoskeletons should be left in the tank or culture as a calcium source. Sudden parameter swings (especially large temperature drops or low dissolved oxygen) are the most commonly reported cause of failed moults and culture die-offs.",
+    "escapeRisk": "moderate",
+    "breedingDifficulty": "easy",
+    "breedingNotes": "Direct freshwater development with no brackish larval phase. In established cultures at ≥18–24°C with detritus and oxygen, reproduction is prolific and largely self-sustaining; one starter culture of 25–50 individuals is generally considered sufficient to seed an effectively unlimited live-food supply.",
+    "speciesOnlyTankRecommended": true
+  },
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "needs_review",
+  "lastReviewed": "2026-06-12"
+}

@@ -1,0 +1,139 @@
+{
+  "id": "fw-crus-031",
+  "slug": "american-freshwater-scud",
+  "kind": "fauna",
+  "taxon": "crustacean",
+  "waterType": "freshwater",
+  "commonName": "American Freshwater Scud",
+  "scientificName": "Hyalella azteca",
+  "alsoKnownAs": [
+    "Aztec Scud",
+    "Sideswimmer",
+    "Hyalella",
+    "Scud",
+    "Freshwater Amphipod"
+  ],
+  "category": "Amphipod",
+  "taxonomy": {
+    "family": "Hyalellidae",
+    "order": "Amphipoda"
+  },
+  "nativeRange": {
+    "regions": ["North America", "Central America", "Caribbean"],
+    "countries": ["United States", "Canada", "Mexico"],
+    "habitat": "Widely distributed across permanent freshwater habitats — lakes, ponds, slow rivers, and freshwater lagoons — and extending into tidal freshwater and brackish zones, as far north as the Arctic tree line. Generally found among submerged vegetation and leaf litter where biofilm and detritus accumulate.",
+    "biotope": "Vegetated pond/lake margin",
+    "depthRangeM": null
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 18, "max": 26 },
+    "pH": { "min": 6.5, "max": 8.0 },
+    "gH": { "min": 5, "max": 15 },
+    "kH": { "min": 2, "max": 10 },
+    "salinity": null
+  },
+  "adultSizeCm": { "min": 0.3, "max": 0.8 },
+  "lifespanYears": { "min": 0.8, "max": 1.2 },
+  "tank": {
+    "minVolumeLiters": 20,
+    "minLengthCm": 30,
+    "swimZone": "bottom",
+    "decorPreferences": [
+      "dense clumps of moss (Java moss, Christmas moss)",
+      "leaf litter (Indian almond, oak, beech) for shredding and biofilm",
+      "fine gravel or sand substrate",
+      "driftwood and complex hardscape for cover",
+      "low water flow",
+      "sponge filter to avoid sucking up adults and juveniles"
+    ],
+    "minSandDepthCm": null
+  },
+  "careLevel": "beginner",
+  "diet": {
+    "type": "detritivore",
+    "notes": "Primarily a shredding detritivore — generally documented eating leaf litter, decaying plant matter, biofilm, filamentous algae, and diatoms. Readily accepts supplementary fish flakes, sinking pellets, algae wafers, and blanched vegetables. Has been reported to opportunistically consume soft-bodied invertebrates, fish eggs, and newly-hatched fry, so it tends to function as both a cleanup detritivore and a low-grade micropredator."
+  },
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "shoaling",
+    "minGroupSize": 20,
+    "goodWith": [
+      "established planted shrimp tanks (as a self-renewing live-food population)",
+      "small peaceful fish that won't eradicate the colony",
+      "freshwater snails",
+      "dedicated culture tubs / refugia"
+    ],
+    "avoidWith": [
+      "tanks holding valuable dwarf shrimp larvae (scuds have been reported to predate on shrimplets and eggs in some setups)",
+      "fish small enough to be a target rather than a predator (none — scuds are typically prey, not predator, in mixed community tanks)",
+      "any tank treated with copper-based medications"
+    ]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "Tiny 3–8 mm North American amphipod that side-swims through leaf litter and moss. Widely kept as a self-sustaining cleanup-crew detritivore and as live food for small fish; tolerates a broad range of freshwater parameters and breeds prolifically without intervention.",
+  "careNotes": "Hyalella azteca is generally considered one of the easiest freshwater invertebrates to keep — it tolerates a wide spectrum of temperature, pH, and hardness, and establishes a self-sustaining colony with minimal intervention so long as leaf litter, moss, or other biofilm-bearing surfaces are present. Most sources describe optimal husbandry conditions of roughly 18–26°C and pH 6.5–8.0; the species has been reported to survive far broader extremes (down to near-freezing and up to ~32°C) but reproduction slows or stalls outside the optimal range. Hard, moderately alkaline water tends to be preferred. Sources disagree somewhat on adult size: Wikipedia, Phillips Fishworks, and Tankably consistently document 3–8 mm (used here), while one hobbyist source (AquariumBreeder) cites 10–20 mm, which appears to conflate Hyalella with the larger Gammarus amphipods. As with all crustaceans, scuds are highly copper-sensitive — avoid copper-based medications and check fertilisers. Reputation as a 'cleanup crew' species is partially deserved (they shred detritus efficiently) but they have been reported to opportunistically nibble dwarf-shrimp eggs and newly-hatched shrimplets, so they should generally be kept out of breeding-focused Caridina/Neocaridina setups. Both originally-designated sources (The Shrimp Farm and Practical Fishkeeping) returned HTTP 403 on access; Tankably, Aquarium Breeder, Phillips Fishworks, and Wikipedia were used as substitute secondaries to meet the two-source cross-verification minimum.",
+  "breedingNotes": "Generally considered effortless — colonies expand rapidly without keeper intervention once 20+ starter individuals are introduced into a tank with leaf litter and moss. Males use amplexus to clasp pre-moult females; fertilised eggs are carried in a marsupium (brood pouch) until hatching, with around 20–30 eggs per clutch in mature females and an incubation of roughly 11 days at 20°C. Young emerge as fully-formed miniatures (~1 mm) and are immediately independent. Sexual maturity is reached at about three weeks of age (after the sixth moult). Because reproduction is so prolific and the animals are bottom-dwelling, they are commonly cultured in dedicated tubs as a renewable live-food source for small fish and amphibians.",
+  "sources": {
+    "primary": {
+      "name": "The Shrimp Farm",
+      "url": "https://www.theshrimpfarm.com/",
+      "accessedDate": "2026-06-12",
+      "notes": "Designated primary returned HTTP 403 on access; could not be cross-checked directly. Listed for traceability; substitute primary/secondary sources used below."
+    },
+    "additional": [
+      {
+        "name": "Practical Fishkeeping",
+        "url": "https://www.practicalfishkeeping.co.uk/",
+        "accessedDate": "2026-06-12",
+        "notes": "Designated secondary returned HTTP 403 on access; could not be cross-checked. Listed for traceability."
+      },
+      {
+        "name": "Tankably — Hyalella azteca care page",
+        "url": "https://tankably.com/en/creatures/hyalella-azteca",
+        "accessedDate": "2026-06-12",
+        "notes": "Substitute primary. Provided temperature 20–25°C, pH 6–8, GH equivalent 50–270 ppm, adult size 0.3–0.8 cm, lifespan ~1 year, 10 L minimum, detritivore diet, family Hyalellidae / order Amphipoda, peaceful temperament, native range Americas."
+      },
+      {
+        "name": "Phillips Fishworks — Discover Scuds",
+        "url": "https://www.phillipsfishworks.com/discover-scuds",
+        "accessedDate": "2026-06-12",
+        "notes": "Cross-check secondary. Confirmed adult size 3–8 mm, lifespan 10–12 months, temperature 45–90°F tolerated with 68–86°F optimal for reproduction, pH 6.5–8, GH 5–15, KH 2–10, 5-gallon minimum tank, sponge filter recommendation, copper sensitivity, and live-food role."
+      },
+      {
+        "name": "Wikipedia — Hyalella azteca",
+        "url": "https://en.wikipedia.org/wiki/Hyalella_azteca",
+        "accessedDate": "2026-06-12",
+        "notes": "Taxonomic + native-range confirmation. Family Hyalellidae, order Amphipoda; distribution across North/Central America and the Caribbean as far north as the Arctic tree line; adult length 3–8 mm with males larger than females; cannot tolerate pH below 6.0; ecologically important detritivore."
+      },
+      {
+        "name": "Aquarium Breeder — Scuds in Shrimp and Fish Tank",
+        "url": "https://aquariumbreeder.com/scuds-in-shrimp-and-fish-tank/",
+        "accessedDate": "2026-06-12",
+        "notes": "Cross-check secondary. Confirmed prolific reproduction (~20–30 eggs per brood, ~11 day incubation at 20°C, maturity ~3 weeks at the sixth moult, neonates ~1 mm), copper sensitivity, and warning that scuds will opportunistically predate on dwarf-shrimp eggs/larvae. Adult size figure (10–20 mm) appears to conflate Hyalella with Gammarus and is not used here."
+      }
+    ]
+  },
+  "fish": null,
+  "crustacean": {
+    "copperSensitive": true,
+    "moltingFrequencyDays": 7,
+    "moltingNotes": "Hyalella azteca passes through a minimum of nine instars over its short life; juveniles moult frequently (roughly weekly), with each moult tied to growth and — in mature females — to reproductive amplexus. Shed exoskeletons are reincorporated into the detritus food web and need not be removed.",
+    "escapeRisk": "low",
+    "breedingDifficulty": "easy",
+    "breedingNotes": "Self-sustaining colonies establish from as few as 20 starter individuals. Females carry roughly 20–30 eggs per clutch in a ventral marsupium; incubation is around 11 days at 20°C; young emerge as ~1 mm miniatures and are immediately independent. Sexual maturity is reached at about three weeks (sixth moult). No special brackish or salinity requirement (unlike Amano-style amphidromous shrimp).",
+    "speciesOnlyTankRecommended": false
+  },
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-12"
+}

@@ -1,0 +1,139 @@
+{
+  "id": "fw-crus-033",
+  "slug": "water-flea",
+  "kind": "fauna",
+  "taxon": "crustacean",
+  "waterType": "freshwater",
+  "commonName": "Water Flea",
+  "scientificName": "Daphnia magna",
+  "alsoKnownAs": [
+    "Daphnia",
+    "Common Water Flea",
+    "Large Daphnia",
+    "Daphnia magna",
+    "Daphnia pulex"
+  ],
+  "category": "Live Food Culture",
+  "taxonomy": {
+    "family": "Daphniidae",
+    "order": "Anomopoda"
+  },
+  "nativeRange": {
+    "regions": ["Holarctic", "Europe", "Asia", "North America", "Africa"],
+    "countries": [],
+    "habitat": "Generally found in shallow, often eutrophic and ephemeral freshwater pools, ponds, ditches, and the vegetated margins of lakes. Tolerates a wide range of water conditions and is commonly cultured indoors in buckets, tubs, and small aquaria as live fish food rather than kept as a display animal.",
+    "biotope": "Pond",
+    "depthRangeM": { "min": 0, "max": 2 }
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 18, "max": 24 },
+    "pH":           { "min": 6.5, "max": 8.5 },
+    "gH":           { "min": 5, "max": 20 },
+    "kH":           { "min": 3, "max": 15 },
+    "salinity":     null
+  },
+  "adultSizeCm":   { "min": 0.15, "max": 0.5 },
+  "lifespanYears": { "min": 0.1, "max": 0.25 },
+  "tank": {
+    "minVolumeLiters":  20,
+    "minLengthCm":      30,
+    "swimZone":         "all",
+    "decorPreferences": [
+      "wide, shallow container with large surface area (bucket, tub, plastic tote, or low aquarium)",
+      "no substrate or minimal sand for easy harvesting",
+      "gentle aeration via airstone on low (no powered filtration — filters trap and shred Daphnia)",
+      "moderate ambient lighting or natural daylight to encourage green-water/microalgae growth",
+      "no copper-bearing equipment (kills Daphnia at trace levels)"
+    ],
+    "minSandDepthCm":   null
+  },
+  "careLevel": "beginner",
+  "diet": {
+    "type":  "planktivore",
+    "notes": "Obligate filter-feeder that strains microscopic particles from the water column. Commonly cultured on three feed types: (1) green water / live microalgae such as Chlorella or Scenedesmus, which is widely regarded as the most natural and productive food; (2) active baker's or brewer's yeast suspended in dechlorinated water (fed in very small amounts, the standard hobbyist staple); and (3) spirulina powder dosed lightly. Generally advised to feed little and often, only when the water is clearing — fouling from over-feeding is reported to kill cultures faster than under-feeding."
+  },
+  "compatibility": {
+    "temperament":  "peaceful",
+    "grouping":     "shoaling",
+    "minGroupSize": 100,
+    "goodWith": [
+      "kept as a single-species culture — not housed with fish",
+      "may co-culture with infusoria, microworms, vinegar eels in separate vessels",
+      "compatible with snails as detritus cleaners in long-lived display Daphnia tanks (rare use case)"
+    ],
+    "avoidWith": [
+      "any fish (Daphnia are food, not tankmates)",
+      "hydra (predates Daphnia, hard to eradicate once established)",
+      "planaria and predatory copepods",
+      "powered filters with strong intakes (mince the culture)",
+      "copper-bearing plumbing, ornaments, or medications"
+    ]
+  },
+  "media": {
+    "primaryImage":    null,
+    "gallery":         [],
+    "imageCandidates": null
+  },
+  "summary": "A tiny Holarctic freshwater cladoceran widely cultured as live food rather than kept on display. Generally considered beginner-friendly: maintain a separate container at 18-22°C, feed yeast or green water, and harvest with a fine mesh.",
+  "careNotes": "This entry frames husbandry from the culture-keeper's perspective: Daphnia magna (and the smaller congener D. pulex, ~1-2 mm) are almost never kept as display animals — they are raised in dedicated culture containers as nutritious live food for fry, small fish, killifish, bettas, axolotls, and amphibians. 'Tank' here means 'culture vessel': widely-recommended setups range from a 5-gallon (~19 L) bucket or low-profile tub up to 20+ gallons (~75 L), with surface area prioritized over depth and gentle aeration only (no power filters — they shred the Daphnia). Cool, stable temperatures around 18-22°C (65-72°F) are generally advised; production is reported to slow above ~24°C and crash above 28°C. Cross-source notes: temperature recommendations clustered tightly (Aquarium Co-Op ~20°C, aqua-fish.net 18-22°C, Tropical Treasures Wyo 20-24°C, Aquifarm 20-24°C), averaged to 18-24°C. pH is commonly cited 6.5-8.5 with an optimum near 7.0-8.0. Adult D. magna are reported at about 5 mm (0.5 cm); D. pulex around 1-2 mm. Lifespan of a healthy adult female is roughly 6-12 weeks (aqua-fish.net cites up to 80 days). Reproduction is typically parthenogenetic — cultures are usually all-female and clone themselves every few days, with sexual reproduction and dormant ephippia (resting eggs) triggered only under stress (cold, drying, food shortage, crowding). Ephippia are reported to survive months out of water, allowing crashed cultures to be revived. Daphnia are extremely sensitive to copper, chlorine/chloramine, hydra, and high ammonia — only use dechlorinated water, avoid all copper-based aquarium medications around the culture, and perform 10-25% partial water changes weekly with matched-temperature water. Harvest by gently dipping a fine brine-shrimp net through the densest cloud and rinsing into the target tank. Maintain two or more parallel cultures whenever possible — Daphnia cultures are widely reported to crash without warning and a backup is the standard insurance. Designated secondary source Practical Fishkeeping (https://www.practicalfishkeeping.co.uk/) returned HTTP 403 Forbidden on direct fetch; substituted with aqua-fish.net, Tropical Treasures Wyo, and Aquifarm. Aquarium Co-Op's homepage did not surface the Daphnia article directly; located via search at https://www.aquariumcoop.com/blogs/aquarium/daphnia-culturing-how-to-raise-daphnia and used as the primary.",
+  "breedingNotes": "Reproduction in culture is overwhelmingly parthenogenetic (asexual): healthy cultures are essentially all clonal females that brood live young in a dorsal egg sac and release them every few days. Maturity is reportedly reached in as little as 5-8 days under good conditions, with each female producing on the order of 10 neonates per brood and up to ~25 broods over an ~80-day lifespan, so a stable culture compounds rapidly. Under stress (cold, food shortage, crowding, drying), females switch to producing males and dark resting eggs (ephippia) packaged in a saddle-shaped chitinous case; ephippia are reported to survive desiccation for months and can be used to start fresh cultures from dried pond mud. Standard hobbyist practice is to keep two or more cultures in parallel, perform 10-25% water changes weekly, feed lightly with yeast or green water, and split the culture into a fresh container whenever it grows dense or starts to thin.",
+  "sources": {
+    "primary": {
+      "name": "Aquarium Co-Op",
+      "url":  "https://www.aquariumcoop.com/blogs/aquarium/daphnia-culturing-how-to-raise-daphnia",
+      "accessedDate": "2026-06-12",
+      "notes": "Designated primary source root (https://www.aquariumcoop.com/) did not surface a Daphnia article directly; located the species-specific guide via search and used it. Confirms culture container 5-360 gal with surface area > depth, target ~20°C / 68°F, feed active dry yeast (semi-dormant cake) reactivated in water and/or spirulina powder, neonate-to-mature in 8 days with ~10 babies per brood, use as live food for fish/tadpoles/salamanders/newts/insects."
+    },
+    "additional": [
+      {
+        "name": "Practical Fishkeeping",
+        "url":  "https://www.practicalfishkeeping.co.uk/",
+        "accessedDate": "2026-06-12",
+        "notes": "Designated secondary URL returned HTTP 403 Forbidden on direct WebFetch. URL retained for reviewer reference; substituted with three alternative secondaries below."
+      },
+      {
+        "name": "Aqua-Fish.net (Culturing Daphnia)",
+        "url":  "https://en.aqua-fish.net/articles/culturing-daphnia",
+        "accessedDate": "2026-06-12",
+        "notes": "Cross-confirms scientific name Daphnia magna, temperature 18-22°C (64-72°F), pH 6.5-8.5 with optimum 7.0-8.0, healthy female lifespan up to 80 days with up to ~25 broods, asexual parthenogenesis as default, ephippia under adverse conditions, 5-gallon culture container with large surface area, 10-20% partial water changes every few days, feeds microalgae / yeast / spirulina."
+      },
+      {
+        "name": "Tropical Treasures Wyo (Daphnia Care Guide: D. magna & D. pulex)",
+        "url":  "https://tropicaltreasureswyo.com/blogs/tank-buddy-blog/daphnia-care-guide-daphnia-magna-daphnia-pulex",
+        "accessedDate": "2026-06-12",
+        "notes": "Cross-confirms D. magna ~5 mm (0.2 in) and D. pulex 1-2 mm adult sizes, culture temperature 64-75°F (cool is better), 5-20 gallon culture vessel, yeast/green-water/spirulina feeding, parthenogenetic reproduction with population doubling every few days, ephippia surviving months out of water as resting eggs."
+      },
+      {
+        "name": "Aquifarm (How to Culture Daphnia)",
+        "url":  "https://aquifarm.com/how-to-culture-daphnia/",
+        "accessedDate": "2026-06-12",
+        "notes": "Cross-confirms target 68-75°F (20-24°C), pH 7.0-8.0, 2-5 gallon minimum container, green water / yeast / spirulina feed, parthenogenetic reproduction. Used to triangulate temperature and container-size lower bounds."
+      },
+      {
+        "name": "Wikipedia (Daphnia magna)",
+        "url":  "https://en.wikipedia.org/wiki/Daphnia_magna",
+        "accessedDate": "2026-06-12",
+        "notes": "Taxonomy fallback: family Daphniidae, order Anomopoda, subclass Phyllopoda. Confirms native range as Holarctic (widespread in the Northern Hemisphere) with additional populations in South Africa, adult body length 1.5-5.0 mm, planktonic filter-feeding ecology."
+      }
+    ]
+  },
+  "fish":         null,
+  "crustacean": {
+    "copperSensitive":            true,
+    "moltingFrequencyDays":       2,
+    "moltingNotes":               "Daphnia molt their carapace very frequently throughout their short lives — generally every 1-3 days for juveniles and every 2-4 days for adults, with reproduction in females synchronized to the molt cycle (a new brood is released into the brood chamber at each adult molt). Cast exoskeletons settle and decompose in the culture vessel and are part of the substrate that fuels bacterial and protozoan growth, so they should not be siphoned out. Successful molting is generally reported to depend on adequate dissolved calcium and stable, copper-free water; soft or freshly-distilled water can cause incomplete molts.",
+    "escapeRisk":                 "low",
+    "breedingDifficulty":         "easy",
+    "breedingNotes":              "Effectively trivial to breed under good conditions because reproduction defaults to parthenogenesis — a single healthy female can seed an entire culture. The harder part is keeping a culture alive: avoid over-feeding, copper, sudden temperature swings, and contamination by hydra or predatory copepods. Most hobbyists maintain at least two parallel cultures because crashes are reported to be common and often unexplained.",
+    "speciesOnlyTankRecommended": true
+  },
+  "coral":        null,
+  "mollusc":      null,
+  "echinoderm":   null,
+  "other-invert": null,
+  "plant":        null,
+  "macroalgae":   null,
+  "schemaVersion": 1,
+  "dataStatus":   "researched",
+  "lastReviewed": "2026-06-12"
+}

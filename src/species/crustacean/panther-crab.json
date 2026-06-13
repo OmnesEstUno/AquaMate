@@ -1,0 +1,144 @@
+{
+  "id": "fw-crus-027",
+  "slug": "panther-crab",
+  "kind": "fauna",
+  "taxon": "crustacean",
+  "waterType": "freshwater",
+  "commonName": "Panther Crab",
+  "scientificName": "Parathelphusa pantherina",
+  "alsoKnownAs": [
+    "Sulawesi Panther Crab",
+    "Spotted Sulawesi Crab",
+    "Leopard Crab",
+    "Lake Matano Crab",
+    "Freshwater Panther Crab"
+  ],
+  "category": "Fully Aquatic Freshwater Crab",
+  "taxonomy": {
+    "family": "Gecarcinucidae",
+    "order": "Decapoda"
+  },
+  "nativeRange": {
+    "regions": ["Southeast Asia", "Indonesia"],
+    "countries": ["Indonesia"],
+    "habitat": "Endemic to Lake Matano on the Indonesian island of Sulawesi, a deep ancient lake with hard, alkaline freshwater. Generally found among submerged rockwork, sandy substrate, and root tangles along the lake margins where the crabs claim individual territories and shelter from light during the day.",
+    "biotope": "Lake",
+    "depthRangeM": { "min": 0, "max": 30 }
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 25, "max": 30 },
+    "pH":           { "min": 7.5, "max": 8.5 },
+    "gH":           { "min": 4, "max": 15 },
+    "kH":           { "min": 4, "max": 15 },
+    "salinity":     null
+  },
+  "adultSizeCm":   { "min": 5, "max": 13 },
+  "lifespanYears": { "min": 3, "max": 5 },
+  "tank": {
+    "minVolumeLiters":  100,
+    "minLengthCm":      80,
+    "swimZone":         "bottom",
+    "decorPreferences": [
+      "fine sand substrate for burrowing",
+      "abundant rockwork and stacked stones creating individual territories and caves",
+      "driftwood and root tangles as visual barriers",
+      "leaf litter (Indian almond, oak) as shelter and supplementary food",
+      "PVC pipes or shrimp tubes as additional hides",
+      "hardy plants only (Java fern, Anubias) attached to hardscape — most rooted plants will be uprooted",
+      "tightly fitted lid with all cable/filter cutouts sealed",
+      "moderate, well-oxygenated flow",
+      "optional dry haul-out area or basking platform"
+    ],
+    "minSandDepthCm":   5
+  },
+  "careLevel": "intermediate",
+  "diet": {
+    "type":  "omnivore",
+    "notes": "Generally treated as an opportunistic omnivore with strong carnivorous leanings. Has been documented accepting sinking invertebrate pellets, algae wafers, frozen bloodworms, Mysis shrimp, krill, brine shrimp, blanched vegetables (zucchini, cucumber, spinach, carrot), and whole prey such as lancefish or unshelled shrimp for calcium. Has been reported to actively hunt snails, slow fish, and tankmates that come within reach, so prepared feeding does not eliminate predatory behavior. Supplementary calcium sources (cuttlebone, calcium-fortified foods) are generally advised to support molting."
+  },
+  "compatibility": {
+    "temperament":  "territorial",
+    "grouping":     "solitary",
+    "minGroupSize": 1,
+    "goodWith": [
+      "fast Sulawesi shrimp (e.g. Cardinal shrimp) in larger structured tanks where the shrimp can flee",
+      "fast mid- and upper-water fish too large to be ambushed",
+      "single specimens housed alone in smaller tanks"
+    ],
+    "avoidWith": [
+      "other Panther Crabs — especially multiple males, which are likely to fight to the death",
+      "crayfish and other large freshwater crabs",
+      "small or slow fish (will be ambushed)",
+      "ornamental dwarf shrimp (readily preyed upon)",
+      "delicate snails (actively hunted)",
+      "rooted live plants (uprooted and destroyed except for hardscape-attached hardy species)"
+    ]
+  },
+  "media": {
+    "primaryImage":    null,
+    "gallery":         [],
+    "imageCandidates": null
+  },
+  "summary": "A fully aquatic Sulawesi freshwater crab from Lake Matano, recognizable by its bright orange-and-yellow body covered in black leopard-like spots. Generally considered territorial and predatory, best kept singly or as one male with multiple females in a tightly-lidded hard-alkaline setup.",
+  "careNotes": "Endemic to a single locality — Lake Matano on Sulawesi, Indonesia — and listed as Endangered on the IUCN Red List due to nickel-mining damage to its habitat. All trade specimens are reported to be wild-caught, so ethical sourcing is a consideration. Husbandry sources broadly agree the species is fully aquatic (a swim-out land area is optional, not required), nocturnal, and highly territorial: both sexes have been reported to damage or kill conspecifics in confined tanks, so the standard recommendation is a single animal per smaller tank or one male with several females in a large, well-structured setup with abundant line-of-sight breaks. Water chemistry sits in the hard-alkaline Sulawesi-lake range: generally advised to keep around 25–30°C, pH 7.5–8.5, gH 4–15, kH 4–15, with stable parameters and buffered KH to prevent pH drops. Has been reported to be an accomplished escape artist that will exploit any cable cutout or unsealed opening — a tightly fitted lid is generally considered essential. Like all decapod crustaceans, generally considered intolerant of copper-based medications and snail treatments. Has been documented uprooting and shredding rooted aquarium plants, so hardscape-attached hardy plants (Java fern, Anubias) are the practical option. Cross-source size disagreement: fishkeeper.co.uk lists 10 cm, fishkeepingworld.com lists 5 in (~13 cm) total with a 3 in (~7.5 cm) carapace, aquariumbreeder.com lists 7–12 cm leg span over a 4–7 cm carapace, and fishtankadvisor.com lists 3–5 in (~7.5–13 cm). The range above (5–13 cm) is the union of leg-span figures across sources; expect a roughly 5–7 cm carapace at full size. Primary source swap: Flip Aquatics (the controller-supplied primary) does not carry this species — its search and freshwater-crab collection returned no Parathelphusa products — so the primary was swapped to fishkeeper.co.uk. The controller-supplied secondary, Practical Fishkeeping, returned HTTP 403 and could not be substituted with a same-species page; aquariumbreeder.com was used as the substitute secondary, with fishkeepingworld.com, fishtankadvisor.com and indoorecosystem.net as additional cross-checks.",
+  "breedingNotes": "Generally considered very difficult in captivity, with limited documented success. Unlike many freshwater shrimp, Parathelphusa pantherina is reported to exhibit direct development — females carry a relatively small clutch of eggs that hatch into fully-formed crablets rather than free-swimming larvae, which simplifies rearing in principle. In practice, captive breeding is hampered by extreme male-male aggression, frequent male-on-female aggression outside of pairing, and cannibalism of juveniles by adults. The standard recommendation is one male with two or more females in a large, structured tank with abundant hides, careful attention to molt protection, and separation of berried females or hatched crablets into a rearing tank. Sexual dimorphism: females have a wide, oval pleon (abdominal flap); males have a narrow, pointed pleon.",
+  "sources": {
+    "primary": {
+      "name": "Fishkeeper (Maidenhead Aquatics) — Panther Crab profile",
+      "url":  "https://www.fishkeeper.co.uk/fish/freshwater/crustaceans/panther-crab",
+      "accessedDate": "2026-06-12",
+      "notes": "Substitute primary. The controller-supplied primary Flip Aquatics does not carry Parathelphusa pantherina (search and freshwater-crab collection both returned no results), so this UK retail/care profile was used as primary. Source for ~10 cm adult size, 26-30°C, pH 7.8-8.5, KH up to 15, territorial/aggressive temperament, escape-artist behavior, omnivorous diet including snails, direct-development reproduction, and sexual dimorphism details."
+    },
+    "additional": [
+      {
+        "name": "Practical Fishkeeping",
+        "url":  "https://www.practicalfishkeeping.co.uk/",
+        "accessedDate": "2026-06-12",
+        "notes": "Designated secondary returned HTTP 403 Forbidden on the root and could not be navigated to a species page. Substituted with aquariumbreeder.com per the playbook's secondary-fallback rule."
+      },
+      {
+        "name": "Shrimp and Snail Breeder (aquariumbreeder.com) — Panther Crab Detailed Guide",
+        "url":  "https://aquariumbreeder.com/panther-crab-detailed-guide-care-diet-and-breeding/",
+        "accessedDate": "2026-06-12",
+        "notes": "Substitute secondary. Source for carapace 4-7 cm / leg span 7-12 cm, lifespan 3-5 years captive (up to 10 wild), 26-30°C, pH 7.5-8.5, gH 4-15, kH 4-12, TDS 100-200, 20 gal minimum with 80 cm per animal, omnivore-leaning-carnivore diet, copper sensitivity, plant-destruction behavior, and 'very difficult' captive breeding."
+      },
+      {
+        "name": "Fishkeeping World — Panther Crab Care Guide",
+        "url":  "https://www.fishkeepingworld.com/panther-crab/",
+        "accessedDate": "2026-06-12",
+        "notes": "Additional cross-check. Confirms family Gecarcinucidae, 5 in total / 3 in carapace adult size, lifespan up to 10 years (wild), 25-30°C, pH 7.5-8.5, 20 gal minimum, sandy substrate, territorial behavior, and 30 in (~75 cm) per-crab spacing recommendation."
+      },
+      {
+        "name": "FishTankAdvisor — Panther Crab",
+        "url":  "https://fishtankadvisor.com/panther-crab/",
+        "accessedDate": "2026-06-12",
+        "notes": "Additional cross-check. Confirms 3-5 in (7.5-13 cm) adult size, 24-28°C, pH 7.5-8.5, 20 gal/75 L minimum, omnivorous with meaty preference, and territorial/aggressive temperament. Slightly lower temperature range than other sources."
+      },
+      {
+        "name": "Indoor Ecosystem — Parathelphusa Care Guide",
+        "url":  "https://www.indoorecosystem.net/guides/parathelphusa-care-guide",
+        "accessedDate": "2026-06-12",
+        "notes": "Additional cross-check. Confirms IUCN Endangered status, wild-caught trade sourcing, 23-31°C tolerance, plant-destructive behavior, and intermediate care difficulty. Used for ethical sourcing context."
+      }
+    ]
+  },
+  "fish":         null,
+  "crustacean": {
+    "copperSensitive":            true,
+    "moltingFrequencyDays":       null,
+    "moltingNotes":               "Specific molt interval for Parathelphusa pantherina is not well documented in hobby sources; treated as a typical freshwater-crab periodic molt requiring stable hard-alkaline water and adequate dietary calcium (cuttlebone, calcium-fortified pellets, unshelled shrimp). Freshly molted individuals have soft exoskeletons and are extremely vulnerable to cannibalism and tankmate predation — generally advised to provide abundant secure hides and to leave discarded exoskeletons in the tank for reabsorption.",
+    "escapeRisk":                 "high",
+    "breedingDifficulty":         "difficult",
+    "breedingNotes":              "See top-level breedingNotes. Direct development (no planktonic larval stage) is reported, but extreme aggression between adults and cannibalism of juveniles make captive reproduction rare.",
+    "speciesOnlyTankRecommended": true
+  },
+  "coral":        null,
+  "mollusc":      null,
+  "echinoderm":   null,
+  "other-invert": null,
+  "plant":        null,
+  "macroalgae":   null,
+  "schemaVersion": 1,
+  "dataStatus":   "researched",
+  "lastReviewed": "2026-06-12"
+}

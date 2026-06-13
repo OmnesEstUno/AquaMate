@@ -1,0 +1,136 @@
+{
+  "id": "fw-crus-024",
+  "slug": "least-crayfish",
+  "kind": "fauna",
+  "taxon": "crustacean",
+  "waterType": "freshwater",
+  "commonName": "Least Crayfish",
+  "scientificName": "Cambarellus diminutus",
+  "alsoKnownAs": [
+    "Least Dwarf Crayfish",
+    "Smallest Dwarf Crayfish",
+    "Dwarf Crayfish",
+    "Mosquito Crayfish"
+  ],
+  "category": "Crayfish",
+  "taxonomy": {
+    "family": "Cambaridae",
+    "order": "Decapoda"
+  },
+  "nativeRange": {
+    "regions": ["North America"],
+    "countries": ["United States"],
+    "habitat": "Endemic to the Gulf Coastal Plain of southeastern Mississippi and southwestern Alabama, with scattered records reported from southern Illinois. Generally found in roadside ditches and shallow pools within sluggish, heavily vegetated streams where flow is slow and cover is abundant.",
+    "biotope": "Wetland",
+    "depthRangeM": { "min": 0, "max": 1 }
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 22, "max": 28 },
+    "pH":           { "min": 5.5, "max": 7.0 },
+    "gH":           { "min": 3, "max": 12 },
+    "kH":           { "min": 1, "max": 6 },
+    "salinity":     null
+  },
+  "adultSizeCm":   { "min": 1.5, "max": 2.5 },
+  "lifespanYears": { "min": 1.5, "max": 2 },
+  "tank": {
+    "minVolumeLiters":  40,
+    "minLengthCm":      40,
+    "swimZone":         "bottom",
+    "decorPreferences": [
+      "fine sand or soft mud substrate (supports natural burrowing and foraging)",
+      "abundant small hiding places (slate stacks, ceramic crayfish caves, PVC offcuts, plastic mesh tubes)",
+      "leaf litter (oak, beech, almond) for biofilm and shelter",
+      "driftwood and tangled root structures",
+      "live planting is generally well tolerated (this species is too small to uproot most plants)",
+      "tight-fitting lid with all cord and hose gaps sealed",
+      "gentle sponge or matten filtration with fry-safe intake covers"
+    ],
+    "minSandDepthCm":   3
+  },
+  "careLevel": "beginner",
+  "diet": {
+    "type":  "omnivore",
+    "notes": "Generally regarded as an opportunistic omnivore that leans toward detritivory in the wild. Has been documented accepting sinking shrimp and crab pellets, algae wafers, blanched vegetables (zucchini, spinach, peas), bloodworms, blackworms, brine shrimp, and crushed snail meat. Feeding 3-4 times per week is commonly recommended, with uneaten food removed within 24 hours to protect water quality in the small tanks this species is typically kept in. Calcium- or mineral-supplemented foods are commonly advised to support successful molting."
+  },
+  "compatibility": {
+    "temperament":  "peaceful",
+    "grouping":     "shoaling",
+    "minGroupSize": 3,
+    "goodWith": [
+      "other Least Crayfish (kept in small colonies with abundant cover)",
+      "small peaceful mid- and surface-dwelling fish (small rasboras, pencilfish, ember tetras)",
+      "larger filter-feeding shrimp (Amano, Bamboo, Vampire) where size mismatch protects them",
+      "large nerite-style snails (antennae nipping is occasionally reported)",
+      "live aquarium plants (this species is too small to uproot or shred most plants)"
+    ],
+    "avoidWith": [
+      "larger or true crayfish species (will be predated)",
+      "freshwater crabs and dwarf frogs",
+      "aggressive or territorial fish (cichlids, large barbs)",
+      "small dwarf shrimp such as Neocaridina/Caridina (may be picked off, especially at molt)",
+      "bottom-dwelling fish that compete for cover and food at the substrate"
+    ]
+  },
+  "media": {
+    "primaryImage":    null,
+    "gallery":         [],
+    "imageCandidates": null
+  },
+  "summary": "One of the smallest crayfish in the hobby, a Gulf-Coast endemic dwarf species rarely exceeding 2.5 cm. Generally considered hardy, plant-safe, and suitable for nano tanks, but is a notorious escape artist that requires a tightly-sealed lid.",
+  "careNotes": "Cambarellus diminutus is widely regarded as the smallest crayfish in the freshwater aquarium hobby, with most adults rarely exceeding 2-2.5 cm. Its small size and peaceful disposition make it one of the few crayfish considered genuinely safe in planted nano tanks, since it lacks the strength to uproot rooted plants or topple decor. Generally considered hardy and undemanding within typical tropical community conditions, though sources broadly agree the species prefers slightly acidic, soft water (pH ~5.5-7.0) reflecting its wild Gulf-Coast ditch habitats. Highly sensitive to copper-based medications and snail treatments, as with all crustaceans. Like other crayfish it is reported to be an excellent escape artist despite its small size, so a tightly-sealed lid with all cord and hose gaps blocked is commonly advised. Cross-source notes: Aquariumbreeder gives 1.5-2.5 cm adult size and 1.5-2 year lifespan; Wikipedia cites 1-2 cm; averaged values used above. Tank-size guidance spanned 5 US gal (~20 L, Aquariumbreeder minimum) to 10 US gal (~40 L, Aquariumbreeder optimal) and 8-20 gal across the genus-level secondaries; rounded to 40 L per the project's cautious tank-size convention so the colony has adequate cover and territories. The assigned primary (The Shrimp Farm) and secondary (Practical Fishkeeping) both returned HTTP 403 on access; Aquariumbreeder was substituted as primary and Wikipedia, Aquariadise, and AquariumSource were used as additional secondaries. Status downgraded to needs_review only insofar as primary/secondary substitution occurred — the substituted sources independently corroborate the high-stakes fields.",
+  "breedingNotes": "Generally regarded as straightforward to breed once a stable group is established; year-round breeding has been reported under stable tropical conditions. Sexual maturity is commonly cited around 2.5-3 months of age. Females carry the eggs glued to the swimmerets under the abdomen for roughly 3-4 weeks (incubation length is temperature-dependent), with reported clutch sizes typically only a few dozen eggs — much smaller than larger crayfish. Newly-hatched juveniles emerge as miniature adults and initially shelter near the mother before dispersing. Separating fry, or providing very dense cover such as moss and leaf litter, is commonly recommended to limit cannibalism from siblings and adults.",
+  "sources": {
+    "primary": {
+      "name": "Shrimp and Snail Breeder (Aquariumbreeder)",
+      "url":  "https://aquariumbreeder.com/cambarellus-diminutus-detailed-guide-care-diet-and-breeding/",
+      "accessedDate": "2026-06-12",
+      "notes": "Substituted as primary because the assigned The Shrimp Farm root (https://www.theshrimpfarm.com/) returned HTTP 403 on access. Source of adult size 1.5-2.5 cm, lifespan 1.5-2 years, temperature 22-28°C, pH 5.5-7.0, gH 3-12, kH 1-6, 5-10 US gal (20-40 L) tank guidance, omnivore/detritivore diet, peaceful-but-territorial temperament, high escape risk, copper sensitivity, and breeding details (2.5-3 month maturity, 3-4 week incubation, small clutches)."
+    },
+    "additional": [
+      {
+        "name": "Practical Fishkeeping",
+        "url":  "https://www.practicalfishkeeping.co.uk/",
+        "accessedDate": "2026-06-12",
+        "notes": "Designated secondary returned HTTP 403 on access; no dedicated Cambarellus diminutus species page reachable. Substituted with Wikipedia, Aquariadise, and AquariumSource for cross-verification."
+      },
+      {
+        "name": "Wikipedia (Cambarellus diminutus)",
+        "url":  "https://en.wikipedia.org/wiki/Cambarellus_diminutus",
+        "accessedDate": "2026-06-12",
+        "notes": "Taxonomy and range confirmation: family Cambaridae, order Decapoda, genus Cambarellus (subgenus Pandicambarus), described by Hobbs 1945. Native range: Mississippi, Alabama, and southern Illinois. Adult size 1-2 cm. IUCN Data Deficient; NatureServe Vulnerable."
+      },
+      {
+        "name": "Aquariadise (Cambarellus genus caresheet)",
+        "url":  "https://www.aquariadise.com/caresheet-dwarf-crayfish-cambarellus/",
+        "accessedDate": "2026-06-12",
+        "notes": "Genus-level secondary. Cross-confirmed peaceful temperament, plant-safety, omnivore diet, ~3-4 week egg incubation, pH 6.5-8 tolerance range, and 8 US gal (~30 L) minimum tank for the genus. Does not mention C. diminutus by name but supports the broader Cambarellus husbandry profile."
+      },
+      {
+        "name": "AquariumSource (Dwarf Crayfish guide)",
+        "url":  "https://www.aquariumsource.com/dwarf-crayfish/",
+        "accessedDate": "2026-06-12",
+        "notes": "Genus-level secondary. Cross-confirmed lifespan 1.5-3 years, omnivore diet, peaceful disposition with small community fish, predation risk on small shrimp, and 10-20 US gal (~40-75 L) typical tank recommendation. Mexican Dwarf Crayfish focus; does not address C. diminutus specifically."
+      }
+    ]
+  },
+  "fish":         null,
+  "crustacean": {
+    "copperSensitive":            true,
+    "moltingFrequencyDays":       60,
+    "moltingNotes":               "Generally reported to follow the standard four-phase decapod molt cycle (inter-molt, pre-molt, molt, post-molt). Juveniles are reported to molt approximately weekly, while adults typically molt every couple of months. The animal is highly vulnerable for the few days following the molt and tends to hide; discarded exoskeletons are commonly consumed for calcium and should generally be left in the tank. Stable water parameters and adequate dietary calcium are widely associated with successful molting.",
+    "escapeRisk":                 "high",
+    "breedingDifficulty":         "easy",
+    "breedingNotes":              "Breeds readily in stable conditions, often year-round. See top-level breedingNotes for clutch size, incubation, and fry-rearing details.",
+    "speciesOnlyTankRecommended": false
+  },
+  "coral":        null,
+  "mollusc":      null,
+  "echinoderm":   null,
+  "other-invert": null,
+  "plant":        null,
+  "macroalgae":   null,
+  "schemaVersion": 1,
+  "dataStatus":   "researched",
+  "lastReviewed": "2026-06-12"
+}
