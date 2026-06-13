@@ -1,0 +1,135 @@
+{
+  "id": "fw-amph-005",
+  "slug": "surinam-toad",
+  "kind": "fauna",
+  "taxon": "amphibian",
+  "waterType": "freshwater",
+  "commonName": "Surinam Toad",
+  "scientificName": "Pipa pipa",
+  "alsoKnownAs": [
+    "Common Surinam Toad",
+    "Star-Fingered Toad",
+    "Suriname Toad",
+    "Aparo",
+    "Cururu-de-Suriname"
+  ],
+  "category": "Aquatic Frog",
+  "taxonomy": {
+    "family": "Pipidae",
+    "order": "Anura"
+  },
+  "nativeRange": {
+    "regions": ["South America", "Amazon Basin"],
+    "countries": [
+      "Brazil",
+      "Bolivia",
+      "Colombia",
+      "Ecuador",
+      "French Guiana",
+      "Guyana",
+      "Suriname",
+      "Venezuela",
+      "Trinidad and Tobago"
+    ],
+    "habitat": "Warm, slow-moving, tannin-stained freshwater bodies of the Amazon basin — backwaters, oxbow lakes, blackwater streams, swamps, and seasonal flood pools.",
+    "biotope": "Amazon blackwater / leaf-litter pool, low-flow with abundant submerged wood and detritus.",
+    "depthRangeM": { "min": 0, "max": 3 }
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 22, "max": 27 },
+    "pH": { "min": 6.0, "max": 7.5 },
+    "gH": { "min": 2, "max": 12 },
+    "kH": { "min": 1, "max": 8 },
+    "salinity": null
+  },
+  "adultSizeCm": { "min": 10, "max": 17 },
+  "lifespanYears": { "min": 6, "max": 10 },
+  "tank": {
+    "minVolumeLiters": 150,
+    "minLengthCm": 90,
+    "swimZone": "all",
+    "decorPreferences": [
+      "large smooth river rocks (>7.5 cm)",
+      "Mopani or other tannin-leaching driftwood",
+      "broad-leaved or floating plants for cover",
+      "tightly-fitting lid (escape risk)",
+      "dim lighting"
+    ],
+    "minSandDepthCm": null
+  },
+  "careLevel": "advanced",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Suction-feeding ambush predator. Generally advised to offer earthworms, nightcrawlers, blackworms, krill, and feeder/frozen fish. Lacks teeth and tongue — captures prey by rapid mouth expansion. Will attempt to eat anything that fits in its mouth, including tankmates."
+  },
+  "compatibility": {
+    "temperament": "aggressive",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": [],
+    "avoidWith": [
+      "small fish",
+      "shrimp",
+      "smaller frogs",
+      "any tankmate small enough to be ambushed"
+    ]
+  },
+  "media": {
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": null
+  },
+  "summary": "A fully aquatic, flattened South American frog famous for the female's back-brooding strategy — eggs are embedded into her dorsal skin and froglets emerge directly from her back.",
+  "careNotes": "Generally considered a niche specialist species rather than a typical hobby amphibian. Surinam Toads are large (commonly 10–15 cm, females reaching ~17 cm), fully aquatic, and helpless on land — the entire enclosure must be aquatic with a securely fitting lid (they have been known to push through loose-fitting covers). They are obligate ambush predators that will consume essentially any tankmate small enough to swallow, so a species-only setup is strongly advised. Water is generally kept warm (~23–26°C) and on the soft, slightly acidic side; their thin skin is sensitive to chlorine, copper, and other contaminants, so dechlorinated water and gentle 25–50% water changes are routinely recommended. Filtration should provide turnover without strong current. Avoid sand and fine gravel — large smooth river rocks or a bare bottom reduce impaction risk during feeding strikes. Trade availability is limited; most specimens offered in the hobby are wild-caught and may arrive stressed or parasitised, so quarantine and conservative handling are advised. Cross-source disagreement: minimum tank-size figures from hobby sources range from ~110 L (29 gal) for a pair to 150 L+ (40 gal) for a single adult; we have chosen 150 L as a cautious-but-reasonable floor given the species' size and predatory nature.",
+  "breedingNotes": "Famous for one of the most distinctive reproductive strategies in vertebrates: during amplexus the pair performs a series of underwater somersaults, and the male presses the fertilised eggs onto the female's back, where they sink into her thickened dorsal skin. Eggs are progressively enveloped by a honeycomb of skin pockets, and after roughly 3–5 months fully-formed froglets emerge directly from the mother's back. Captive breeding has been documented but is generally considered difficult; deep water (around 1.2 m has been reported) is typically advised to allow the somersaulting amplexus rise. Froglets are cannibalistic on emergence and should be separated and grown out individually or in size-matched groups.",
+  "sources": {
+    "primary": {
+      "name": "Reptiles Magazine",
+      "url": "https://reptilesmagazine.com/caring-for-the-surinam-underwater-toad/",
+      "accessedDate": "2026-06-12",
+      "notes": "Used as primary because the manifest-supplied Josh's Frogs root returned HTTP 403 and Josh's Frogs catalogues only Pipa parva (Sabana Suriname Toad), not Pipa pipa. Reptiles Magazine 'Caring For The Surinam Underwater Toad' is a long-form hobbyist husbandry article covering temperature, breeding behaviour, diet, and tankmate compatibility for P. pipa."
+    },
+    "additional": [
+      {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Surinam_toad",
+        "accessedDate": "2026-06-12",
+        "notes": "Cross-checked taxonomy (Pipidae, Anura), native range, adult size (males to ~15.4 cm, females to ~17.1 cm), habitat description, and back-brooding reproductive biology."
+      },
+      {
+        "name": "Reptile Apartment",
+        "url": "https://reptileapartment.com/discovery-and-care-of-the-common-surinam-toad-pipa-pipa/",
+        "accessedDate": "2026-06-12",
+        "notes": "Cross-checked water parameters (cited 25.5–26°C, pH ~7.0–7.2), tank size (~150 L / 40 gal for a single adult), substrate guidance (large smooth rocks; avoid sand/gravel due to impaction risk), captive lifespan (~6 years), and predatory feeding behaviour."
+      },
+      {
+        "name": "Josh's Frogs (manifest-supplied primary, unreachable)",
+        "url": "https://www.joshsfrogs.com/",
+        "accessedDate": "2026-06-12",
+        "notes": "Manifest-supplied primary source root. Returned HTTP 403 to the fetch tool. Independent checks indicate Josh's Frogs stocks Pipa parva (Sabana Suriname Toad), a smaller congener, rather than Pipa pipa, so even a successful fetch would not have provided species-specific husbandry data. Primary role swapped to Reptiles Magazine per playbook §3 fallback rule."
+      }
+    ]
+  },
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "amphibian": {
+    "substrateConstraint": "large-rocks-only",
+    "skinSensitivity": "high",
+    "chytridRisk": "moderate",
+    "breedingDifficulty": "difficult",
+    "breedingNotes": "Females incubate eggs in honeycomb-like pockets within their dorsal skin; fully-formed froglets emerge from the mother's back after roughly 3–5 months. Captive breeding has been reported but is generally regarded as difficult and is commonly associated with deep tanks (~1.2 m water column) that allow the species' characteristic somersaulting amplexus."
+  },
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-12",
+  "hobbyistAdvisory": {
+    "level": "specialist-only",
+    "reason": "Large (10–17 cm), fully aquatic ambush predator with limited captive husbandry literature and limited hobby trade availability; will consume any tankmate small enough to swallow and requires a species-only setup with carefully buffered, soft acidic water."
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "id": "fw-amph-001",
+  "slug": "axolotl",
+  "kind": "fauna",
+  "taxon": "amphibian",
+  "waterType": "freshwater",
+  "commonName": "Axolotl",
+  "scientificName": "Ambystoma mexicanum",
+  "alsoKnownAs": [
+    "Mexican Walking Fish",
+    "Mexican Salamander",
+    "Ajolote",
+    "Wild-type Axolotl",
+    "Leucistic Axolotl",
+    "Golden Albino Axolotl",
+    "White Albino Axolotl",
+    "Melanoid Axolotl",
+    "Copper Axolotl",
+    "Axanthic Axolotl",
+    "Piebald Axolotl",
+    "GFP Axolotl",
+    "Mosaic Axolotl",
+    "Chimera Axolotl"
+  ],
+  "category": "Amphibian",
+  "taxonomy": {
+    "family": "Ambystomatidae",
+    "order": "Urodela"
+  },
+  "nativeRange": {
+    "regions": ["Central America", "Trans-Mexican Volcanic Belt"],
+    "countries": ["Mexico"],
+    "habitat": "Cold, freshwater lakes and canals with muddy bottoms and aquatic vegetation at high elevation (~2,200 m above sea level).",
+    "biotope": "Lake",
+    "depthRangeM": { "min": 0, "max": 15 }
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 14, "max": 22 },
+    "pH":           { "min": 7.4, "max": 7.6 },
+    "gH":           { "min": 7, "max": 14 },
+    "kH":           { "min": 3, "max": 8 },
+    "salinity":     null
+  },
+  "adultSizeCm":   { "min": 20, "max": 30 },
+  "lifespanYears": { "min": 10, "max": 15 },
+  "tank": {
+    "minVolumeLiters": 75,
+    "minLengthCm": 75,
+    "swimZone": "bottom",
+    "decorPreferences": [
+      "fine sand substrate (grain size <1 mm) or bare-bottom only",
+      "smooth caves, PVC pipes, or terracotta hides for security",
+      "shaded areas; bright lighting is not required",
+      "floating or silk plants tolerated; live plants are often uprooted",
+      "low-flow filtration with a baffled or spray-bar outflow"
+    ],
+    "minSandDepthCm": 2
+  },
+  "careLevel": "intermediate",
+  "diet": {
+    "type": "carnivore",
+    "notes": "Has been documented eating earthworms, blackworms, bloodworms, sinking carnivore pellets, small pieces of fish, and shrimp. Live nightcrawlers are widely considered a staple. Best fed every 1–2 days for adults; avoid feeder fish, which can transmit parasites and rough scales."
+  },
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "solitary",
+    "minGroupSize": 1,
+    "goodWith": [
+      "conspecifics of similar adult size (with caution; juveniles are cannibalistic)",
+      "species-only tanks are generally advised"
+    ],
+    "avoidWith": [
+      "tropical fish requiring warmer water (incompatible temperature)",
+      "fin-nipping or nippy fish (axolotl gills are easily damaged)",
+      "small fish or shrimp (will be eaten)",
+      "non-quarantined frogs or other amphibians (chytrid transmission risk)",
+      "snails and gravel substrates (impaction risk if swallowed)"
+    ]
+  },
+  "media": {
+    "primaryImage":    null,
+    "gallery":         [],
+    "imageCandidates": null
+  },
+  "summary": "A neotenic freshwater salamander native to Mexico's Xochimilco basin; the only widely-kept aquatic amphibian in the hobby. Coldwater, sand-or-bare-bottom only, and highly sensitive to heat and impaction.",
+  "careNotes": "The Axolotl is a coldwater, fully-aquatic neotenic salamander that retains external gills and an aquatic lifestyle throughout its life. It is generally advised to keep tanks between 14 and 22°C; temperatures above 25°C are strongly associated with stress, immune suppression, and bacterial or fungal infections. Substrate choice is critical: fine sand (grain size under 1 mm) or a bare bottom is the only safe option, because axolotls feed by suction and ingest substrate alongside food. Gravel, pebbles, or small stones have been repeatedly documented to cause fatal gastrointestinal impaction. Their skin is permeable and considered highly sensitive — avoid copper-based medications, soap residues on hands and equipment, untreated tap water, and most fish medications. Like most amphibians, axolotls are susceptible to chytrid fungi (Batrachochytrium dendrobatidis and B. salamandrivorans); never co-house with non-quarantined frogs, newts, or other amphibians, and quarantine any new arrival for at least 30 days. The species is listed as Critically Endangered in the wild (IUCN) and on CITES Appendix II, but the captive trade is supplied entirely by long-established captive-bred lines and represents an aggregate of color morphs of one biological species (wild-type, leucistic, golden albino, white albino, melanoid, copper, axanthic, piebald, GFP, mosaic, chimera). All morphs share the same care requirements. Lifespan in well-kept aquariums has been reported at 10–15 years, with some individuals living substantially longer. Cross-source notes: tank-size recommendations vary widely (some sources cite 38–66 L for one or two adults, while specialist sources recommend 90–120 cm tanks); the 75 L / 75 cm minimum here is biased toward the larger end because adult axolotls produce substantial waste and benefit from horizontal swimming space. Water-parameter target ranges were averaged across Caudata Culture, axolotl.org, Axolotl Nerd, and Swell UK's care sheet.",
+  "breedingNotes": "Breeding has been reported as moderate in difficulty for keepers with stable coldwater setups. Sexual maturity is typically reached around 6–18 months. Cooling the tank to roughly 10–14°C for several weeks and then warming it slightly is commonly used to trigger spawning; males deposit spermatophores that females pick up with the cloaca. Eggs are laid on plants or smooth decor and hatch in roughly 14 days at 24°C, longer at cooler temperatures. Juveniles are strongly cannibalistic and must be separated by size; raising larvae generally requires live baby brine shrimp or microworms initially.",
+  "sources": {
+    "primary": {
+      "name": "Caudata Culture",
+      "url": "https://www.caudata.org/cc/species/Ambystoma/A_mexicanum.shtml",
+      "accessedDate": "2026-06-12",
+      "notes": "Primary source for tank dimensions, substrate impaction warning, adult size, diet, native range, and breeding timeline."
+    },
+    "additional": [
+      {
+        "name": "Axolotl.org",
+        "url": "https://www.axolotl.org/",
+        "accessedDate": "2026-06-12",
+        "notes": "Secondary source for taxonomy, native range, color morphs, and reaffirmation of coldwater requirement and substrate impaction risk. Used the Housing sub-page for tank/decor/filtration detail."
+      },
+      {
+        "name": "Axolotl Nerd — Water Requirements",
+        "url": "https://axolotlnerd.com/axolotl-water-requirements/",
+        "accessedDate": "2026-06-12",
+        "notes": "Tertiary source for pH (6.5–8.0 tolerable, 7.4–7.6 ideal) and temperature tolerance band (15–23°C). Caudata and Axolotl.org do not state pH/hardness numerically; this source plus Swell UK provided the gH 7–14 / kH 3–8 ranges."
+      },
+      {
+        "name": "Swell UK — Axolotl Care Sheet",
+        "url": "https://www.reptiles.swelluk.com/help-guides/axolotl-ambystoma-mexicanum-care-sheet/",
+        "accessedDate": "2026-06-12",
+        "notes": "Cross-check for adult size (20–30 cm), lifespan (10–15 years), water hardness (gH 7–14, kH 3–8), and recommended adult tank length (90–120 cm). Tank-size recommendation here is larger than Caudata's; we biased upward to 75 L / 75 cm minimum per the playbook's err-larger rule."
+      }
+    ]
+  },
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
+  "other-invert": null,
+  "amphibian": {
+    "substrateConstraint": "sand-only",
+    "skinSensitivity": "high",
+    "chytridRisk": "high",
+    "breedingDifficulty": "moderate",
+    "breedingNotes": "Cold-cycling (drop to ~10–14°C then re-warm) is commonly used to induce spawning. Males deposit spermatophores; females pick them up with the cloaca and lay eggs on plants or smooth decor. Eggs hatch in roughly 14 days at 24°C. Juveniles are strongly cannibalistic and must be separated by size."
+  },
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-12",
+  "hobbyistAdvisory": null
+}
