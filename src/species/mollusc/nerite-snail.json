@@ -1,0 +1,135 @@
+{
+  "id": "fw-moll-001",
+  "slug": "nerite-snail",
+  "kind": "fauna",
+  "taxon": "mollusc",
+  "waterType": "freshwater",
+  "commonName": "Nerite Snail",
+  "scientificName": "Neritina natalensis",
+  "alsoKnownAs": [
+    "Zebra Nerite",
+    "Tiger Nerite",
+    "Olive Nerite",
+    "Horned Nerite",
+    "Red Racer Nerite",
+    "King Koopa Nerite",
+    "Spotted Nerite",
+    "Black Racer Nerite"
+  ],
+  "category": "Snail",
+  "taxonomy": {
+    "family": "Neritidae",
+    "order": "Cycloneritida"
+  },
+  "nativeRange": {
+    "regions": ["East Africa", "Indo-Pacific"],
+    "countries": ["South Africa", "Mozambique", "Tanzania", "Kenya", "Somalia"],
+    "habitat": "Coastal freshwater streams and rivers near estuaries; adults live in pure freshwater but migrate to brackish water to reproduce.",
+    "biotope": "Estuary",
+    "depthRangeM": { "min": 0, "max": 5 }
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 22, "max": 26 },
+    "pH":           { "min": 7.0, "max": 8.4 },
+    "gH":           { "min": 6, "max": 12 },
+    "kH":           { "min": 5, "max": 15 },
+    "salinity":     null
+  },
+  "adultSizeCm":   { "min": 1.5, "max": 2.5 },
+  "lifespanYears": { "min": 1, "max": 2 },
+  "tank": {
+    "minVolumeLiters":  20,
+    "minLengthCm":      30,
+    "swimZone":         "all",
+    "decorPreferences": [
+      "hardscape with biofilm",
+      "rocks and driftwood for grazing surfaces",
+      "tight-fitting lid",
+      "mature tank with established algae"
+    ],
+    "minSandDepthCm":   null
+  },
+  "careLevel": "beginner",
+  "diet": {
+    "type":  "herbivore",
+    "notes": "Primarily an algae grazer; readily consumes green spot algae, diatoms, soft brown algae, and green film algae. Supplement with algae wafers or blanched vegetables (zucchini, spinach) when tank algae is depleted. Calcium-rich foods or a calcium supplement help maintain shell integrity."
+  },
+  "compatibility": {
+    "temperament":  "peaceful",
+    "grouping":     "solitary",
+    "minGroupSize": 1,
+    "goodWith":     [
+      "small tetras",
+      "rasboras",
+      "Corydoras catfish",
+      "dwarf shrimp",
+      "ramshorn snails",
+      "peaceful community fish"
+    ],
+    "avoidWith":    [
+      "pufferfish",
+      "snail-eating loaches (e.g. Yoyo, Clown)",
+      "assassin snails",
+      "crayfish",
+      "predatory cichlids"
+    ]
+  },
+  "media": {
+    "primaryImage":    null,
+    "gallery":         [],
+    "imageCandidates": null
+  },
+  "summary": "A small, peaceful algae-grazing snail prized as a clean-up crew member. Generally considered one of the most effective consumers of nuisance algae and is reef-of-the-freshwater-world hardy.",
+  "careNotes": "Nerite Snail is an umbrella name for several visually distinct trade morphs of the family Neritidae (Zebra, Tiger, Olive, Horned, Red Racer, King Koopa, Spotted, Black Racer), most of which are sold under the species name Neritina natalensis or close relatives in the genera Vittina, Clithon, and Neritina. All share essentially the same care: they are voracious algae grazers, well suited to soft-to-hard freshwater between roughly 22-26 C, and have been reported to live around 1-2 years in well-kept aquariums. They are notorious lid-escapers — Nerites regularly climb out of open-topped tanks and dry out, so a tight-fitting lid covering snail-sized gaps is essential. Adults tolerate pH from roughly 7.0 to 8.4; very soft, acidic water tends to erode the shell over time, so generally advised to keep mineral-rich water with a stable kH. Nerites are copper-sensitive like other invertebrates and should not be exposed to copper-based medications. They lay tiny sesame-seed-shaped egg capsules on hardscape and glass, but the larvae require brackish water to develop, so eggs do not hatch in pure freshwater — the species cannot overpopulate a freshwater tank. Source pH ranges spanned 6.5-7.5 (Aqua Imports) to 8.1-8.4 (Aquarium Guide); averaged toward a broader 7.0-8.4 hobby-acceptable band, with shell-erosion risk below 7.0 noted in care notes.",
+  "breedingNotes": "Does not breed successfully in pure freshwater. Females lay small white egg capsules (often described as resembling sesame seeds) on hardscape and glass, but the planktonic larvae require brackish or saltwater to develop. In a dedicated brackish setup, eggs have been reported to hatch within several days and larvae become free-swimming within about a week, but raising the larvae to settlement is notoriously difficult and rarely achieved by hobbyists.",
+  "sources": {
+    "primary": {
+      "name": "Aquarium Co-Op",
+      "url":  "https://www.aquariumcoop.com/blogs/aquarium/nerite-snail",
+      "accessedDate": "2026-06-12"
+    },
+    "additional": [
+      {
+        "name": "Aqua Imports",
+        "url":  "https://www.aqua-imports.com/product/zebra-nerite-snail/",
+        "accessedDate": "2026-06-12",
+        "notes": "Cross-checked sizing, temperature (72-78F = 22-26C), and pH range (6.5-7.5)."
+      },
+      {
+        "name": "Wikipedia - Neritina natalensis",
+        "url":  "https://en.wikipedia.org/wiki/Neritina_natalensis",
+        "accessedDate": "2026-06-12",
+        "notes": "Confirmed taxonomy (Neritidae, Cycloneritida), native range (East African coastal plain), adult shell size ~2.5 cm, temp 22-26 C, and brackish-larva life cycle."
+      },
+      {
+        "name": "The Aquarium Guide - Nerite Snail",
+        "url":  "https://www.theaquariumguide.com/articles/nerite-snail",
+        "accessedDate": "2026-06-12",
+        "notes": "Third source for size (~1 in), lifespan (1-2 yr), and high-pH preference (8.1-8.4); confirmed lid-escape behavior."
+      }
+    ]
+  },
+  "fish":         null,
+  "crustacean":   null,
+  "coral":        null,
+  "mollusc": {
+    "copperSensitive":    true,
+    "substrateNeeds":     "any",
+    "climbsOutOfTank":    true,
+    "algaeTypesConsumed": [
+      "green algae",
+      "diatoms",
+      "soft brown algae",
+      "green spot algae",
+      "green film algae"
+    ]
+  },
+  "echinoderm":   null,
+  "other-invert": null,
+  "amphibian":    null,
+  "plant":        null,
+  "macroalgae":   null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-12"
+}

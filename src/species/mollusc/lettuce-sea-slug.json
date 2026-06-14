@@ -1,0 +1,140 @@
+{
+  "id": "sw-moll-016",
+  "slug": "lettuce-sea-slug",
+  "kind": "fauna",
+  "taxon": "mollusc",
+  "waterType": "saltwater",
+  "commonName": "Lettuce Sea Slug",
+  "scientificName": "Elysia crispata",
+  "alsoKnownAs": [
+    "Lettuce Nudibranch",
+    "Green Lettuce Nudibranch",
+    "Crowned Elysia",
+    "Solar-Powered Sea Slug",
+    "Lettuce Slug"
+  ],
+  "category": "Sea Slug",
+  "taxonomy": {
+    "family": "Plakobranchidae",
+    "order": "Sacoglossa"
+  },
+  "nativeRange": {
+    "regions": ["Western Atlantic", "Caribbean", "Gulf of Mexico"],
+    "countries": ["Bahamas", "Cuba", "Jamaica", "Mexico", "Belize", "Cayman Islands", "United States"],
+    "habitat": "Shallow tropical and subtropical reef flats, lagoons, and seagrass-adjacent rubble zones where green algae (Bryopsis, Halimeda, and other siphonous greens) grow abundantly.",
+    "biotope": "Caribbean shallow reef",
+    "depthRangeM": { "min": 0, "max": 20 }
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 22, "max": 26 },
+    "pH":           { "min": 8.1, "max": 8.4 },
+    "gH":           null,
+    "kH":           { "min": 8, "max": 12 },
+    "salinity":     { "min": 1.022, "max": 1.025 }
+  },
+  "adultSizeCm":   { "min": 5, "max": 7 },
+  "lifespanYears": { "min": 0.5, "max": 1 },
+  "tank": {
+    "minVolumeLiters":  40,
+    "minLengthCm":      45,
+    "swimZone":         "all",
+    "decorPreferences": [
+      "mature live rock with established green algae growth",
+      "ample grazing surface area",
+      "moderate to bright full-spectrum lighting for kleptoplast photosynthesis",
+      "screened pump and overflow intakes",
+      "gentle to low flow"
+    ],
+    "minSandDepthCm":   null
+  },
+  "careLevel": "intermediate",
+  "diet": {
+    "type":  "herbivore",
+    "notes": "Specialist suctorial algae-feeder. Generally considered to prefer Bryopsis and green hair algae, and has been reported to graze siphonous greens such as Halimeda and Penicillus. Not a general detritivore — has been reported to ignore cyanobacteria, diatoms, fish pellets, and most prepared foods. Will starve in tanks without a steady green-algae supply, despite its kleptoplast reserves."
+  },
+  "compatibility": {
+    "temperament":  "peaceful",
+    "grouping":     "solitary",
+    "minGroupSize": 1,
+    "goodWith":     [
+      "peaceful reef fish",
+      "small gobies",
+      "reef-safe snails",
+      "corals",
+      "small reef-safe hermits",
+      "shrimp"
+    ],
+    "avoidWith":    [
+      "wrasses",
+      "butterflyfish",
+      "puffers",
+      "triggerfish",
+      "predatory hermits",
+      "unscreened powerhead and overflow intakes"
+    ]
+  },
+  "media": {
+    "primaryImage":    null,
+    "gallery":         [],
+    "imageCandidates": null
+  },
+  "summary": "A photosynthetic Caribbean sea slug (not a true nudibranch) that sequesters chloroplasts from green algae for energy. Generally considered a specialist Bryopsis and hair-algae grazer for mature reef tanks.",
+  "careNotes": "Elysia crispata is a sacoglossan sea slug from the Caribbean and tropical Western Atlantic, frequently mis-marketed as the 'Lettuce Nudibranch' although it is not a true nudibranch (the true nudibranchs belong to a separate clade, Nudibranchia). It is famous in the hobby for kleptoplasty: it sequesters functional chloroplasts from the green algae it eats and uses them to photosynthesize for several weeks, which has earned it the trade name 'Solar-Powered Sea Slug'. Despite the photosynthesis, it is NOT food-independent — generally considered to require a steady supply of Bryopsis or green hair algae to replenish its chloroplast load, and has been reported to starve over a few weeks in algae-poor tanks even under good lighting. This makes it a true specialist: most aquarists buy it to clear a Bryopsis outbreak, then must rehome or supplement it once the algae is gone. CRITICAL HUSBANDRY NOTES: (1) The body is soft and unprotected — pump intakes, overflows, and powerheads must be screened with sponge or fine mesh, or the animal will be shredded. (2) Like all marine invertebrates, copper-sensitive and intolerant of copper-based medications. (3) Sensitive to elevated nitrate and to unstable salinity; should only be introduced to a mature, parameter-stable reef. (4) Drip-acclimate slowly (90+ minutes is commonly advised) to avoid osmotic shock. (5) Provide moderate to bright full-spectrum lighting so the stolen chloroplasts can actually function. (6) Avoid keeping with wrasses, butterflyfish, puffers, and triggerfish, which have been reported to predate on or harass it. Distinct from the larger Sea Hares (Aplysia, sw-moll-014), which are bulky generalist algae grazers and release purple ink when stressed. Captive lifespan is naturally short — commonly reported under one year even in well-kept tanks.",
+  "breedingNotes": "Has a planktonic veliger larval phase typical of sacoglossan sea slugs; eggs are reported at roughly 106–113 micrometres with embryonic development around 15 days. Captive breeding is not practical in home reef aquaria and is not documented as a hobby achievement.",
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url":  "https://www.liveaquaria.com/products/lettuce-sea-slug",
+      "accessedDate": "2026-06-12"
+    },
+    "additional": [
+      {
+        "name": "SaltwaterAquarium.com - Lettuce Nudibranch (Elysia crispata)",
+        "url":  "https://www.saltwateraquarium.com/lettuce-nudibranch-elysia-crispata-sea-slug-cleanup-crew/",
+        "notes": "Cross-checked min tank size (~10 gal / ~38 L), temperature 22-25.5C, pH 8.1-8.4, SG 1.023-1.025, peaceful temperament, reef-safe, Bryopsis/hair-algae specialist diet, ~1-year lifespan, intake-screening + drip-acclimation guidance.",
+        "accessedDate": "2026-06-12"
+      },
+      {
+        "name": "Reeflings - Elysia crispata Complete Care Guide",
+        "url":  "https://reeflings.com/species/elysia-crispata",
+        "notes": "Third-source confirmation of size (~6 cm), min tank 40 L, temperature 24-28C, pH 8.1-8.4, SG 1.022-1.025, peaceful temperament, reef-safe, herbivore. Used to break the LA-vs-SWA spread on temperature max.",
+        "accessedDate": "2026-06-12"
+      },
+      {
+        "name": "Wikipedia - Elysia crispata",
+        "url":  "https://en.wikipedia.org/wiki/Elysia_crispata",
+        "notes": "Taxonomy authority: family Plakobranchidae, order Sacoglossa; described by Morch, 1863. Body length ~5 cm. Native to tropical Western Atlantic and Caribbean. Kleptoplasty: sequestered chloroplasts remain functional ~40 days.",
+        "accessedDate": "2026-06-12"
+      },
+      {
+        "name": "Bulk Reef Supply",
+        "url":  "https://www.bulkreefsupply.com/",
+        "notes": "Designated secondary source — Bulk Reef Supply does not stock or maintain a product/care page for Elysia crispata. Swapped to SaltwaterAquarium.com + Reeflings + Wikipedia for cross-verification per playbook fallback rule.",
+        "accessedDate": "2026-06-12"
+      }
+    ]
+  },
+  "fish":         null,
+  "crustacean":   null,
+  "coral":        null,
+  "mollusc": {
+    "copperSensitive":    true,
+    "substrateNeeds":     "any",
+    "climbsOutOfTank":    false,
+    "algaeTypesConsumed": [
+      "Bryopsis",
+      "green hair algae",
+      "Halimeda",
+      "Penicillus",
+      "other siphonous green macroalgae"
+    ]
+  },
+  "echinoderm":   null,
+  "other-invert": null,
+  "amphibian":    null,
+  "plant":        null,
+  "macroalgae":   null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-12"
+}

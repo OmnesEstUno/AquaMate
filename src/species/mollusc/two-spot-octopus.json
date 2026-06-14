@@ -1,0 +1,124 @@
+{
+  "id": "sw-moll-011",
+  "slug": "two-spot-octopus",
+  "kind": "fauna",
+  "taxon": "mollusc",
+  "waterType": "saltwater",
+  "commonName": "Two-Spot Octopus",
+  "scientificName": "Octopus bimaculoides",
+  "alsoKnownAs": [
+    "Bimac Octopus",
+    "California Two-Spot Octopus",
+    "Pacific Two-Spot Octopus",
+    "Bimac"
+  ],
+  "category": "Octopus",
+  "taxonomy": {
+    "family": "Octopodidae",
+    "order": "Octopoda"
+  },
+  "nativeRange": {
+    "regions": ["Eastern Pacific"],
+    "countries": ["United States", "Mexico"],
+    "habitat": "Coastal rocky reefs, debris-strewn shorelines, and intertidal flats along the mid- and southern California coast and Pacific Baja California. Prefers crevices, rock piles, and shell debris for shelter.",
+    "biotope": "Coastal",
+    "depthRangeM": { "min": 0, "max": 20 }
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 16, "max": 22 },
+    "pH":           { "min": 8.0, "max": 8.4 },
+    "gH":           null,
+    "kH":           null,
+    "salinity":     { "min": 1.024, "max": 1.026 }
+  },
+  "adultSizeCm":   { "min": 15, "max": 58 },
+  "lifespanYears": { "min": 1, "max": 2 },
+  "tank": {
+    "minVolumeLiters":  300,
+    "minLengthCm":      120,
+    "swimZone":         "all",
+    "decorPreferences": [
+      "sandy substrate",
+      "live rock with caves and crevices",
+      "PVC pipe sections as dens",
+      "escape-proof locking lid with weights",
+      "sealed overflow and powerhead intakes",
+      "coldwater chiller-equipped system",
+      "minimal aggressive lighting"
+    ],
+    "minSandDepthCm":   5
+  },
+  "careLevel": "expert",
+  "diet": {
+    "type":  "carnivore",
+    "notes": "Strict carnivore. In the wild has been documented preying on crabs, shrimp, bivalves, snails, and small fish. In captivity readily accepts thawed frozen shrimp, scallops, clam meat, and live crustaceans such as fiddler crabs, shore shrimp, and hermit crabs; juveniles typically start on amphipods and mysid shrimp before progressing to larger prey. Hatchlings and juveniles under about three months are usually fed multiple times per day. Avoid feeding goldfish or other freshwater feeder fish, which are nutritionally poor and have been linked to health issues."
+  },
+  "compatibility": {
+    "temperament":  "semi-aggressive",
+    "grouping":     "solitary",
+    "minGroupSize": 1,
+    "goodWith":     [
+      "kept strictly as a species-only tank"
+    ],
+    "avoidWith":    [
+      "all fish",
+      "shrimp (treated as food)",
+      "crabs (treated as food)",
+      "snails (treated as food)",
+      "other octopuses",
+      "corals (may be uprooted or harmed by jetting)",
+      "any tank with copper-based medications"
+    ]
+  },
+  "media": {
+    "primaryImage":    null,
+    "gallery":         [],
+    "imageCandidates": null
+  },
+  "summary": "A small, intelligent coldwater octopus from the California coast and the most commonly kept octopus in the marine hobby. Recognizable by the iridescent blue eyespots beneath each eye. Short-lived, escape-prone, and strictly species-only.",
+  "careNotes": "Octopus bimaculoides is generally considered the most beginner-accessible pet octopus, but it is still firmly a specialist-only animal in the home aquarium. Its coastal-California origin means it is a coldwater species — most sources advise keeping it around 16-22 C, which almost always requires a dedicated aquarium chiller in a heated home. Sources differed on the minimum tank size (TONMO lists 50 US gal / 189 L as an absolute floor while TFH Magazine recommends at least 75 US gal / 284 L); we have set 300 L to give the animal room for the enrichment, dens, and escape-proofing it needs across its short adult life. Octopuses are world-class escape artists — they can squeeze through any gap larger than their beak, and Bimacs have been documented climbing out of unsealed tanks. A tightly-fitting lid with weights or latches, sealed overflow weirs, and screened powerhead intakes are non-negotiable. They are also highly intelligent and benefit from environmental enrichment (caves, PVC dens, novel objects). The species is strictly species-only: any fish, shrimp, crab, or snail in the tank will eventually be eaten, and other octopuses will fight. Lifespan in captivity is short, typically 1-2 years, and females usually die shortly after brooding eggs (senescence). Like all molluscs, Octopus bimaculoides is highly sensitive to copper and should never share a system with copper-based medications. Captive-bred lines exist from a small number of breeders, but most specimens are still wild-collected from the southern California coast. The species was the first octopus to have its genome fully sequenced (2015) and is widely used in cephalopod neuroscience research.",
+  "breedingNotes": "Females lay strings of comparatively large eggs (around 1 cm) attached to a hard surface inside a den and brood them without feeding until hatching. Hatchlings emerge as benthic miniatures of the adult (no planktonic paralarval stage), which is a major reason this species is one of the few octopuses that can be reared in captivity. Even so, hatchling survival rates are low and require live amphipods and mysid shrimp at first. Females die shortly after their eggs hatch (semelparous senescence), and spontaneous infertile egg-laying has been reported even in unmated captive females.",
+  "sources": {
+    "primary": {
+      "name": "TONMO - Octopus bimaculoides Care Sheet",
+      "url":  "https://tonmo.com/articles/octopus-bimaculoides-care-sheet-two-spot-octopus.6/",
+      "accessedDate": "2026-06-12",
+      "notes": "Substituted as primary after both originally-supplied sources (LiveAquaria, TFH product page) returned 404. TONMO is the long-running cephalopod-keeping community and the most-cited care reference for this species."
+    },
+    "additional": [
+      {
+        "name": "TFH Magazine - Choosing and Keeping a Pet Octopus",
+        "url":  "https://www.tfhmagazine.com/articles/saltwater/choosing-and-keeping-an-octopus",
+        "accessedDate": "2026-06-12",
+        "notes": "Cross-checked tank size (75 US gal / 284 L recommended vs TONMO 50 US gal / 189 L floor), coldwater requirement (<21 C), and species-only / no-fish guidance. Averaged tank size upward to 300 L per the playbook bias-toward-larger rule for intelligent escape-prone animals."
+      },
+      {
+        "name": "Wikipedia - California two-spot octopus",
+        "url":  "https://en.wikipedia.org/wiki/California_two-spot_octopus",
+        "accessedDate": "2026-06-12",
+        "notes": "Confirmed taxonomy (Octopodidae, Octopoda), native range (southern California to western Baja California), depth (intertidal to ~20 m), adult size (17.5 cm mantle / 58 cm arms), preferred temperature 18-22 C with tolerance 15-26 C, lifespan 1-1.5 yr wild / up to 2 yr captive, and benthic-hatchling life history that makes the species one of the few captive-rearable octopuses."
+      }
+    ]
+  },
+  "fish":         null,
+  "crustacean":   null,
+  "coral":        null,
+  "mollusc": {
+    "copperSensitive":    true,
+    "substrateNeeds":     "sand",
+    "climbsOutOfTank":    true,
+    "algaeTypesConsumed": []
+  },
+  "echinoderm":   null,
+  "other-invert": null,
+  "amphibian":    null,
+  "plant":        null,
+  "macroalgae":   null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-12",
+  "hobbyistAdvisory": {
+    "level": "specialist-only",
+    "reason": "Advanced setup required: coldwater chiller, fully escape-proof lid with locking weights, sealed overflows and powerhead intakes, strictly species-only tank, very short captive lifespan (~1-2 years), and highly intelligent animal that needs ongoing environmental enrichment."
+  }
+}

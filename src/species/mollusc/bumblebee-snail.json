@@ -1,0 +1,130 @@
+{
+  "id": "sw-moll-006",
+  "slug": "bumblebee-snail",
+  "kind": "fauna",
+  "taxon": "mollusc",
+  "waterType": "saltwater",
+  "commonName": "Bumblebee Snail",
+  "scientificName": "Engina mendicaria",
+  "alsoKnownAs": [
+    "Bumble Bee Snail",
+    "Striped Engina",
+    "Pusiostoma mendicaria"
+  ],
+  "category": "Snail",
+  "taxonomy": {
+    "family": "Pisaniidae",
+    "order": "Neogastropoda"
+  },
+  "nativeRange": {
+    "regions": ["Indo-Pacific", "Red Sea"],
+    "countries": ["Kenya", "Tanzania", "Mozambique", "Madagascar", "Mauritius", "Indonesia", "Papua New Guinea", "Australia"],
+    "habitat": "Rocky shores and sand beds in shallow tropical waters; commonly found under basalt rocks at the high-tide level and on adjacent sand patches where it forages at night.",
+    "biotope": "Reef",
+    "depthRangeM": { "min": 0, "max": 10 }
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 22, "max": 26 },
+    "pH":           { "min": 8.1, "max": 8.4 },
+    "gH":           null,
+    "kH":           null,
+    "salinity":     { "min": 1.023, "max": 1.025 }
+  },
+  "adultSizeCm":   { "min": 1.5, "max": 2.2 },
+  "lifespanYears": { "min": 1, "max": 2 },
+  "tank": {
+    "minVolumeLiters":  20,
+    "minLengthCm":      30,
+    "swimZone":         "bottom",
+    "decorPreferences": [
+      "live rock with crevices",
+      "deep sand bed for burrowing",
+      "established mature tank with detritus",
+      "rockwork hiding spots"
+    ],
+    "minSandDepthCm":   2
+  },
+  "careLevel": "beginner",
+  "diet": {
+    "type":  "carnivore",
+    "notes": "Has been documented as a small predatory scavenger — feeds on detritus, uneaten meaty foods, decomposing organisms, polychaete worms, and small sand-dwelling invertebrates. Will accept supplemental chopped mysis or brine shrimp when natural food is scarce. Does NOT eat algae meaningfully; treat as a sand-bed/rockwork carnivore-detritivore rather than an algae grazer."
+  },
+  "compatibility": {
+    "temperament":  "peaceful",
+    "grouping":     "solitary",
+    "minGroupSize": 1,
+    "goodWith":     [
+      "peaceful reef fish",
+      "corals (coral-safe)",
+      "shrimp",
+      "larger cleanup-crew snails (Turbo, Trochus, Astraea)",
+      "hermit crabs"
+    ],
+    "avoidWith":    [
+      "small or juvenile snails (may be predated)",
+      "feather dusters and small tube worms (may be predated)",
+      "snail-eating wrasses",
+      "triggerfish",
+      "pufferfish",
+      "harlequin tuskfish"
+    ]
+  },
+  "media": {
+    "primaryImage":    null,
+    "gallery":         [],
+    "imageCandidates": null
+  },
+  "summary": "A tiny black-and-yellow striped predatory snail commonly added to saltwater clean-up crews. Generally considered coral-safe but is a small carnivore that has been reported to predate vermetid snails, polychaetes, and occasionally other small snails.",
+  "careNotes": "Bumblebee Snail (Engina mendicaria, also formerly placed in the genus Pusiostoma) is a small Indo-Pacific buccinoid snail in the family Pisaniidae (some retailers still list it under the older family Buccinidae, and LiveAquaria currently misattributes it to Trochidae). Adults reach roughly 1.5-2.2 cm shell length; sources disagree, with LiveAquaria stating up to 3.8 cm and most other care guides citing 1-2 cm — averaged toward the lower-end consensus. Generally advised to keep around 22-26 C, pH 8.1-8.4, and SG 1.023-1.025. The species is primarily nocturnal and tends to spend daylight hours buried in the sand bed or wedged into rockwork crevices. IMPORTANT — common-name collision: the freshwater 'Bumblebee Snail' (also called Assassin Snail) is Anentome helena / Clea helena (fw-moll-007), a totally different species; double-check which one is intended when buying. Despite the gentle name, Bumblebee Snails are small predators, not algae grazers: they have been reported to consume vermetid snails (popular among reef-keepers wanting natural vermetid control, though they are slow and rarely handle heavy infestations), polychaete worms, and — if underfed — smaller snails in the cleanup crew. They are coral-safe, but 'reef-safe' should be qualified: a hungry Bumblebee Snail can harass or predate other beneficial inverts. Copper-sensitive like all marine inverts; do not expose to copper-based medications. Source spread on adult size: 1.3 cm (one care site, likely a unit-conversion error), 1.5-2.2 cm (AquariumBreeder), 3.8 cm (LiveAquaria) — averaged toward 1.5-2.2 cm as the modal value.",
+  "breedingNotes": "Has been reported as extremely difficult to breed in the home aquarium. There are no externally visible sexually dimorphic features, making pair selection essentially guesswork, and larval-rearing protocols for this species are not documented in the hobby literature.",
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url":  "https://www.liveaquaria.com/product/565/bumble-bee-snail?c=497+2857+565&pcatid=565",
+      "accessedDate": "2026-06-12"
+    },
+    "additional": [
+      {
+        "name": "Bulk Reef Supply - Handling Vermetid Snails",
+        "url":  "https://www.bulkreefsupply.com/content/post/how-to-handle-vermetid-snails",
+        "accessedDate": "2026-06-12",
+        "notes": "Secondary source per Stage A manifest; BRS has no dedicated product page for Engina mendicaria but content posts confirm vermetid-predation role and slow effectiveness against heavy infestations."
+      },
+      {
+        "name": "AquariumBreeder - Bumble Bee Snail Detailed Guide",
+        "url":  "https://aquariumbreeder.com/bumble-bee-snail-detailed-guide-care-diet-and-breeding/",
+        "accessedDate": "2026-06-12",
+        "notes": "Third source for size (1.5-2.2 cm), temperature (22-25 C), pH (8.1-8.4), salinity (SG 1.023-1.025), and 20 L minimum tank. Cited family as Buccinidae (older classification)."
+      },
+      {
+        "name": "Wikipedia - Engina mendicaria",
+        "url":  "https://en.wikipedia.org/wiki/Engina_mendicaria",
+        "accessedDate": "2026-06-12",
+        "notes": "Confirmed modern taxonomy (Family Pisaniidae, Order Neogastropoda), authorship (Linnaeus, 1758), native range across Red Sea and Indo-Pacific, shell size 10-20 mm, and nocturnal carnivore lifestyle."
+      },
+      {
+        "name": "SaltwaterAquariumBlog - Bumblebee Snail Care Guide",
+        "url":  "https://www.saltwateraquariumblog.com/bumblebee-snail-care-guide/",
+        "accessedDate": "2026-06-12",
+        "notes": "Fourth source confirming carnivore diet, predation on smaller snails when underfed, ~2 year lifespan, and 19 L (5 gal) minimum tank per snail."
+      }
+    ]
+  },
+  "fish":         null,
+  "crustacean":   null,
+  "coral":        null,
+  "mollusc": {
+    "copperSensitive":    true,
+    "substrateNeeds":     "sand",
+    "climbsOutOfTank":    false,
+    "algaeTypesConsumed": []
+  },
+  "echinoderm":   null,
+  "other-invert": null,
+  "amphibian":    null,
+  "plant":        null,
+  "macroalgae":   null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-12"
+}

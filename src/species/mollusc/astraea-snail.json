@@ -1,0 +1,133 @@
+{
+  "id": "sw-moll-002",
+  "slug": "astraea-snail",
+  "kind": "fauna",
+  "taxon": "mollusc",
+  "waterType": "saltwater",
+  "commonName": "Astraea Snail",
+  "scientificName": "Lithopoma tectum",
+  "alsoKnownAs": [
+    "Astrea Snail",
+    "Astraea Turbo Snail",
+    "Astraea tecta",
+    "Star Astraea",
+    "Conehead Snail",
+    "West Indian Star Snail"
+  ],
+  "category": "Snail",
+  "taxonomy": {
+    "family": "Turbinidae",
+    "order": "Trochida"
+  },
+  "nativeRange": {
+    "regions": ["Western Atlantic", "Caribbean"],
+    "countries": ["Bahamas", "Cuba", "Jamaica", "Mexico", "Belize", "Brazil"],
+    "habitat": "Shallow tropical reef flats, rocky substrates, and reef rubble where film and turf algae are abundant.",
+    "biotope": "Caribbean shallow reef",
+    "depthRangeM": { "min": 0, "max": 10 }
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 22, "max": 26 },
+    "pH":           { "min": 8.1, "max": 8.4 },
+    "gH":           null,
+    "kH":           { "min": 8, "max": 12 },
+    "salinity":     { "min": 1.023, "max": 1.026 }
+  },
+  "adultSizeCm":   { "min": 1.5, "max": 4 },
+  "lifespanYears": { "min": 2, "max": 3 },
+  "tank": {
+    "minVolumeLiters":  40,
+    "minLengthCm":      45,
+    "swimZone":         "all",
+    "decorPreferences": [
+      "established live rock with film algae",
+      "open rockwork for grazing",
+      "sand or rubble substrate",
+      "stable mature reef tank"
+    ],
+    "minSandDepthCm":   null
+  },
+  "careLevel": "beginner",
+  "diet": {
+    "type":  "herbivore",
+    "notes": "Voracious grazer of film algae, diatoms, cyanobacteria, and nuisance hair algae. In sparsely-algaed tanks, supplement with blanched spinach, nori sheets, or vegetable-based pellet foods to prevent starvation."
+  },
+  "compatibility": {
+    "temperament":  "peaceful",
+    "grouping":     "shoaling",
+    "minGroupSize": 3,
+    "goodWith":     [
+      "peaceful reef fish",
+      "other reef-safe snails",
+      "small reef-safe hermit crabs",
+      "corals",
+      "shrimp"
+    ],
+    "avoidWith":    [
+      "pufferfish",
+      "triggerfish",
+      "large wrasses",
+      "predatory hermit crabs",
+      "stone crabs",
+      "emerald crabs (opportunistic)"
+    ]
+  },
+  "media": {
+    "primaryImage":    null,
+    "gallery":         [],
+    "imageCandidates": null
+  },
+  "summary": "A small, peaceful Caribbean reef snail prized as a clean-up-crew workhorse. Generally considered one of the most effective consumers of film algae, diatoms, and nuisance hair algae in saltwater aquariums.",
+  "careNotes": "Astraea Snail is the long-standing trade name for Lithopoma tectum (older synonym Astraea tecta), a small olive-green pyramid-shelled turbinid native to the Caribbean and tropical Western Atlantic. It is commonly considered a beginner-friendly reef cleanup crew member: smaller and less bulldozer-like than true Turbo snails, so it knocks over corals and frags less often, while still grazing efficiently on film algae, diatoms, cyanobacteria, and short hair algae. CRITICAL HUSBANDRY NOTE: Astraea Snails are notoriously poor at righting themselves once knocked upside-down, whether by tankmates, water flow, or their own awkward climbing. A flipped Astraea will slowly starve and die over a few days if not turned right-side-up by the aquarist. Daily visual checks and prompt manual righting are essential — this is the single biggest cause of premature death in this species. Like all marine invertebrates, they are highly copper-sensitive and cannot be exposed to copper-based medications; they also decline rapidly in tanks with elevated nitrates or unstable salinity. Drip-acclimate slowly over 1-2 hours to avoid osmotic shock. Generally considered fully reef-safe with corals, but predatory tankmates (pufferfish, triggerfish, large wrasses, predatory hermits, and stone or emerald crabs) will attack them. Stock at roughly 1 per 4-8 liters depending on algae load. Note: the current accepted taxonomy is Lithopoma tectum (Turbinidae); Astraea tecta remains the most common trade name and appears in nearly all hobby-source product pages.",
+  "breedingNotes": "Has a planktonic larval phase typical of marine turbinid snails; spawning is broadcast and the veliger larvae require open-water plankton-feeding conditions to develop. Captive breeding is not practical in home reef aquaria and is not documented as a hobby achievement.",
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria",
+      "url":  "https://www.liveaquaria.com/product/563/?pcatid=563",
+      "accessedDate": "2026-06-12"
+    },
+    "additional": [
+      {
+        "name": "Bulk Reef Supply",
+        "url":  "https://www.bulkreefsupply.com/ecc-astraea-turbo-snails-eye-catching-coral.html",
+        "accessedDate": "2026-06-12",
+        "notes": "Cross-checked sizing, water parameters (temp 24-25.5C, pH 8.1-8.4, SG 1.025-1.026, dKH 8-9.5), reef-safe and care-level confirmation, and Caribbean origin."
+      },
+      {
+        "name": "WoRMS - Lithopoma tectum",
+        "url":  "https://www.marinespecies.org/aphia.php?p=taxdetails&id=419499",
+        "accessedDate": "2026-06-12",
+        "notes": "Confirmed accepted taxonomy: Lithopoma tectum (Lightfoot, 1786), family Turbinidae, order Trochida. Astraea tecta is listed as a synonym."
+      },
+      {
+        "name": "Aquarium Specialty - The Astraea Snail (Astraea tecta)",
+        "url":  "https://www.aquariumspecialty.com/blog/the-astraea-snail-astraea-tecta-a-valuable-addition-to-your-saltwater-aquarium",
+        "accessedDate": "2026-06-12",
+        "notes": "Third source for size (~1-1.5 in / up to ~4 cm), lifespan (2-3 years), and the flip-and-cannot-right warning."
+      }
+    ]
+  },
+  "fish":         null,
+  "crustacean":   null,
+  "coral":        null,
+  "mollusc": {
+    "copperSensitive":    true,
+    "substrateNeeds":     "any",
+    "climbsOutOfTank":    false,
+    "algaeTypesConsumed": [
+      "film algae",
+      "diatoms",
+      "cyanobacteria",
+      "short hair algae",
+      "green turf algae"
+    ]
+  },
+  "echinoderm":   null,
+  "other-invert": null,
+  "amphibian":    null,
+  "plant":        null,
+  "macroalgae":   null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-12"
+}

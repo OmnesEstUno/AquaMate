@@ -1,0 +1,121 @@
+{
+  "id": "fw-moll-005",
+  "slug": "malaysian-trumpet-snail",
+  "kind": "fauna",
+  "taxon": "mollusc",
+  "waterType": "freshwater",
+  "commonName": "Malaysian Trumpet Snail",
+  "scientificName": "Melanoides tuberculata",
+  "alsoKnownAs": [
+    "MTS",
+    "Trumpet Snail",
+    "Red-rimmed Melania",
+    "Sand-Burrowing Snail"
+  ],
+  "category": "snail",
+  "taxonomy": {
+    "family": "Thiaridae",
+    "order": "Sorbeoconcha"
+  },
+  "nativeRange": {
+    "regions": ["Africa", "Southeast Asia", "Middle East"],
+    "countries": ["Malaysia", "Thailand", "Indonesia", "India", "Egypt"],
+    "habitat": "Slow-moving rivers, streams, lakes and ponds with soft sand or silt substrates; tolerant of brackish water in coastal estuaries.",
+    "biotope": "River",
+    "depthRangeM": { "min": 0, "max": 5 }
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 21, "max": 28 },
+    "pH":           { "min": 7.0, "max": 8.0 },
+    "gH":           { "min": 5, "max": 15 },
+    "kH":           { "min": 4, "max": 15 },
+    "salinity":     null
+  },
+  "adultSizeCm":   { "min": 2, "max": 4 },
+  "lifespanYears": { "min": 1, "max": 3 },
+  "tank": {
+    "minVolumeLiters": 20,
+    "minLengthCm": 30,
+    "swimZone": "bottom",
+    "decorPreferences": [
+      "soft sand or fine gravel substrate (burrowable)",
+      "live plants",
+      "driftwood and rockwork for biofilm grazing"
+    ],
+    "minSandDepthCm": 2.5
+  },
+  "careLevel": "beginner",
+  "diet": {
+    "type": "detritivore",
+    "notes": "Generally documented feeding on detritus, biofilm, soft algae and decaying plant matter; will also take leftover fish/shrimp food. Supplemental feeding is rarely needed in an established tank and tends to fuel population booms."
+  },
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "shoaling",
+    "minGroupSize": 2,
+    "goodWith": [
+      "community fish",
+      "dwarf shrimp",
+      "Corydoras",
+      "tetras",
+      "rasboras",
+      "livebearers",
+      "Otocinclus"
+    ],
+    "avoidWith": [
+      "Assassin Snails",
+      "loaches (clown, yoyo, zebra)",
+      "pufferfish",
+      "crayfish",
+      "large cichlids",
+      "copper-based medications"
+    ]
+  },
+  "media": {
+    "primaryImage":    null,
+    "gallery":         [],
+    "imageCandidates": null
+  },
+  "summary": "Live-bearing nocturnal sand-bed cleaner; generally considered the go-to substrate-stirring snail that helps prevent anaerobic pockets in planted tanks.",
+  "careNotes": "Malaysian Trumpet Snails are a beloved and reviled aquarium snail in equal measure. They spend the day burrowed in sand or fine gravel, emerging at night to graze biofilm and detritus, and their constant tunnelling is generally credited with preventing anaerobic gas pockets and helping mix mulm into the substrate for plant roots. They are highly adaptable and tend to tolerate temperatures from roughly 21 to 28 °C and pH 7.0 to 8.0, with moderate to hard water preferred for shell development. Populations are parthenogenetic and live-bearing — a single snail can clone itself into a large colony — so explosions are almost always a symptom of overfeeding rather than the snails themselves; the standard control is to feed less, not to add chemicals. Like all aquarium invertebrates they are highly sensitive to copper-based medications and should be removed before dosing. A burrowable substrate (sand or fine gravel, at least ~2.5 cm deep) is the one non-negotiable requirement; without it they cannot perform their characteristic substrate-stirring role and tend to crawl the glass instead. They are not known to climb out of covered tanks. Will be eaten by Assassin Snails, loaches and pufferfish — useful to know whether you are trying to grow or cull a population.",
+  "breedingNotes": "Live-bearing (ovoviviparous) and parthenogenetic — females produce clonal young from a brood pouch without needing a mate, so a single hitchhiker can seed an entire colony. Sexual reproduction also occurs where males are present. Maturity is generally reached at three to five months and a mature female can release several dozen miniature snails at a time. Breeding control is achieved by limiting food rather than by attempting to remove individuals.",
+  "sources": {
+    "primary": {
+      "name": "Aquarium Co-Op",
+      "url":  "https://www.aquariumcoop.com/blogs/aquarium/top-7-freshwater-snails",
+      "accessedDate": "2026-06-12",
+      "notes": "Top 7 Freshwater Snails article — the Aquarium Co-Op storefront does not host a dedicated MTS care page, so this is the canonical Aquarium Co-Op MTS coverage."
+    },
+    "additional": [
+      {
+        "name": "Shrimp and Snail Breeder",
+        "url":  "https://aquariumbreeder.com/malaysian-trumpet-snail-guide-care-diet-and-breeding/",
+        "accessedDate": "2026-06-12",
+        "notes": "Used as secondary in place of The Shrimp Farm (which returned HTTP 403). Cross-checked sizing, parameters, parthenogenesis, copper sensitivity."
+      },
+      {
+        "name": "Fish Laboratory",
+        "url":  "https://www.fishlaboratory.com/fish/malaysian-trumpet-snail/",
+        "accessedDate": "2026-06-12",
+        "notes": "Third source used to average size, temperature and pH (sources cluster around 2–4 cm shell, 21–28 °C, pH 7.0–8.0)."
+      }
+    ]
+  },
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": {
+    "copperSensitive": true,
+    "substrateNeeds": "sand",
+    "climbsOutOfTank": false,
+    "algaeTypesConsumed": ["detritus", "biofilm", "soft algae", "diatoms"]
+  },
+  "echinoderm": null,
+  "other-invert": null,
+  "amphibian": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-12"
+}

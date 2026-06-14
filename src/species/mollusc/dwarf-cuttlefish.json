@@ -1,0 +1,135 @@
+{
+  "id": "sw-moll-013",
+  "slug": "dwarf-cuttlefish",
+  "kind": "fauna",
+  "taxon": "mollusc",
+  "waterType": "saltwater",
+  "commonName": "Dwarf Cuttlefish",
+  "scientificName": "Sepia bandensis",
+  "alsoKnownAs": [
+    "Stumpy-Spined Cuttlefish",
+    "Banded Cuttlefish",
+    "Pygmy Cuttlefish"
+  ],
+  "category": "Cephalopod",
+  "taxonomy": {
+    "family": "Sepiidae",
+    "order": "Sepiida"
+  },
+  "nativeRange": {
+    "regions": ["Central Indo-Pacific", "Western Pacific"],
+    "countries": [
+      "Indonesia",
+      "Philippines",
+      "Papua New Guinea",
+      "Malaysia",
+      "Australia (northern)"
+    ],
+    "habitat": "Shallow coral reef and sandy coastal habitats, often associated with sea cucumbers and sea stars. An ambush predator that frequently 'walks' across the substrate using its arms and ventral mantle flaps. Most active at night.",
+    "biotope": "Reef",
+    "depthRangeM": { "min": 1, "max": 12 }
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 24, "max": 26 },
+    "pH":           { "min": 8.1, "max": 8.4 },
+    "gH":           null,
+    "kH":           { "min": 8, "max": 12 },
+    "salinity":     { "min": 1.024, "max": 1.026 }
+  },
+  "adultSizeCm":   { "min": 4, "max": 7 },
+  "lifespanYears": { "min": 0.5, "max": 1 },
+  "tank": {
+    "minVolumeLiters":  120,
+    "minLengthCm":      75,
+    "swimZone":         "all",
+    "decorPreferences": [
+      "open sand bed for hunting and walking",
+      "live rock with ledges and overhangs for resting",
+      "mature, fully cycled reef tank (3+ months)",
+      "moderate flow with low-flow refuges",
+      "subdued or full-spectrum lighting (no specific requirement)",
+      "species-only or cephalopod-only setup"
+    ],
+    "minSandDepthCm":   3
+  },
+  "careLevel": "expert",
+  "diet": {
+    "type":  "carnivore",
+    "notes": "An obligate carnivore. Juveniles generally require live mysis shrimp or live amphipods for the first 2-4 weeks before weaning onto thawed frozen mysis. Sub-adults and adults take live or thawed frozen shrimp (mysis, grass shrimp, shore shrimp), small crabs, and other crustaceans. Has been reported to wean readily onto frozen foods once past the juvenile stage. Live freshwater feeder fish should be avoided — many are treated with copper, which is rapidly fatal to cephalopods."
+  },
+  "compatibility": {
+    "temperament":  "semi-aggressive",
+    "grouping":     "solitary",
+    "minGroupSize": 1,
+    "goodWith":     [
+      "non-stinging soft corals (mushrooms, clove polyps, green star polyps)",
+      "snails",
+      "very small hermit crabs (may still become prey)",
+      "conspecifics in larger tanks (40+ gal for pairs)"
+    ],
+    "avoidWith":    [
+      "all fish (will be eaten or will harass the cuttlefish)",
+      "stinging corals and anemones",
+      "shrimp and crabs intended as long-term tankmates (treated as food)",
+      "aggressive or fast-moving tankmates",
+      "any copper-treated systems or medications"
+    ]
+  },
+  "media": {
+    "primaryImage":    null,
+    "gallery":         [],
+    "imageCandidates": null
+  },
+  "summary": "The most successful pet cuttlefish in the hobby. A small, short-lived cephalopod with remarkable camouflage and 'walking' behavior; best kept in a species-only specialist tank.",
+  "careNotes": "Dwarf Cuttlefish (Sepia bandensis) is widely regarded as the most keepable cuttlefish in the marine aquarium hobby, but it remains a specialist species and is not appropriate for beginning saltwater keepers. Adults are small (mantle length generally around 4-7 cm) and short-lived, with most individuals reported to live only 6-12 months in captivity even with excellent care — they are semelparous and senesce rapidly after breeding. Captive-bred lines are now intermittently available through specialty importers (notably ReefGen via LiveAquaria Diver's Den when in stock), and captive-bred juveniles are strongly preferred over wild-caught animals: they ship better, accept frozen foods sooner, and are not depleted from wild populations. Generally advised to keep the tank around 24-26 C with reef-standard pH 8.1-8.4 and a specific gravity near 1.025; ammonia and nitrite must be zero and nitrate kept as low as practical. Cephalopods are extremely sensitive to copper-based medications and to elevated nitrogenous waste, so a fully cycled, mature reef-style tank (3+ months) with excellent filtration and skimming is essential. A tight-fitting lid is less critical than for octopus — Sepia bandensis is generally not an escape artist — but a cover is still recommended to keep splash and tankmates out. Juveniles need live food (live mysis, amphipods, or grass shrimp) for the first weeks of life and can starve quickly if not weaned carefully; adults accept thawed frozen mysis, shrimp, and small crustaceans. This species should be housed in a species-only or cephalopod-only setup: nearly all reef fish either harass cuttlefish or are eaten by them, and small shrimp/crabs intended as tankmates will be hunted. Tank-size guidance varied across sources (TFH suggests 30 US gal / ~114 L for one, 40 gal / ~151 L for two; TONMO suggests a 20-30 gal tall as workable for one); rounded up to 120 L for a single specimen to allow walking and hunting space and a sensible margin over the smallest-cited footprint.",
+  "breedingNotes": "Has been bred in captivity and now sustains commercial captive-bred lines. Sexually mature at approximately 3-5 months post-hatch. Mating is head-to-head with the male transferring a spermatophore into the female's buccal area. Females lay clusters of dark purple-to-black eggs (typically 5-40 per clutch, with some sources reporting larger lifetime totals up to ~250 eggs across multiple clutches), often attached to rock crevices or decor; eggs have been reported to hatch in roughly 3-4 weeks at typical reef temperatures. Hatchlings are highly precocial (about 4 mm) and can hunt within days, but require live foods (newly-hatched mysis, amphipods) for the first weeks before transitioning to larger prey. Adults typically senesce and die within weeks of completing their reproductive cycle.",
+  "sources": {
+    "primary": {
+      "name": "TFH Magazine",
+      "url":  "https://www.tfhmagazine.com/articles/saltwater/sepia-bandensis-husbandry-and-breeding-full-article",
+      "accessedDate": "2026-06-12",
+      "notes": "Designated primary source per playbook (LiveAquaria species page returned 404; swapped per fallback rule). Provided water parameters, tank-size scaling, diet, and breeding details."
+    },
+    "additional": [
+      {
+        "name": "TONMO - Keeping and Breeding Dwarf Cuttlefish",
+        "url":  "https://tonmo.com/articles/keeping-and-breeding-dwarf-cuttlefish-sepia-bandensis-care.10/",
+        "accessedDate": "2026-06-12",
+        "notes": "Secondary cephalopod-community source. Cross-checked tank size (20-30 gal tall for one), temperature (78-80F = 25.5-26.5C), pH 8.1-8.4, salinity SG 1.025, lifespan (~13 months), copper sensitivity, and lid behavior. Tank-size spread: TFH 30 gal vs TONMO 20-30 gal — picked 120 L (nice round value, biased toward the larger end given active hunting/walking behavior)."
+      },
+      {
+        "name": "Wikipedia - Sepia bandensis",
+        "url":  "https://en.wikipedia.org/wiki/Sepia_bandensis",
+        "accessedDate": "2026-06-12",
+        "notes": "Used for taxonomy (Sepiidae, Sepiida), adult mantle size (4-7 cm), sex-linked lifespan (females 6-9 mo, males 9-12 mo), maturity timing, and central Indo-Pacific range/holotype origin. Notes the genus has been reassigned to Ascarosepion in some recent taxonomy, but Sepia bandensis remains the trade-standard name."
+      },
+      {
+        "name": "MarineBio - Stumpy-spined Cuttlefishes",
+        "url":  "https://www.marinebio.org/species/stumpy-spined-cuttlefishes/sepia-bandensis/",
+        "accessedDate": "2026-06-12",
+        "notes": "Used for wild depth range (1-12 m on coral reefs and sandy coasts) and expanded distribution data (Philippines, Indonesia, PNG, northern Australia, Marshall Islands)."
+      }
+    ]
+  },
+  "fish":         null,
+  "crustacean":   null,
+  "coral":        null,
+  "mollusc": {
+    "copperSensitive":    true,
+    "substrateNeeds":     "sand",
+    "climbsOutOfTank":    false,
+    "algaeTypesConsumed": []
+  },
+  "echinoderm":   null,
+  "other-invert": null,
+  "amphibian":    null,
+  "plant":        null,
+  "macroalgae":   null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-12",
+  "hobbyistAdvisory": {
+    "level": "specialist-only",
+    "reason": "specialist tank required: species-only, live food for juveniles, short captive lifespan, sensitive to medications and copper"
+  }
+}

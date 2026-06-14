@@ -1,0 +1,120 @@
+{
+  "id": "sw-moll-012",
+  "slug": "dwarf-octopus",
+  "kind": "fauna",
+  "taxon": "mollusc",
+  "waterType": "saltwater",
+  "commonName": "Dwarf Octopus",
+  "scientificName": "Octopus joubini",
+  "alsoKnownAs": [
+    "Atlantic Pygmy Octopus",
+    "Caribbean Pygmy Octopus",
+    "Small-egg Caribbean Pygmy Octopus",
+    "Octopus mercatoris"
+  ],
+  "category": "Octopus",
+  "taxonomy": {
+    "family": "Octopodidae",
+    "order": "Octopoda"
+  },
+  "nativeRange": {
+    "regions": ["Western Atlantic", "Caribbean", "Gulf of Mexico"],
+    "countries": ["United States", "Mexico", "Cuba", "Bahamas", "Belize", "Honduras", "Cayman Islands"],
+    "habitat": "Shallow tropical reefs, seagrass beds, and soft muddy or sandy substrates near coastal areas; often found hiding inside empty bivalve shells, gastropod shells, and reef rubble.",
+    "biotope": "Reef",
+    "depthRangeM": { "min": 0, "max": 15 }
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 22, "max": 26 },
+    "pH":           { "min": 8.1, "max": 8.4 },
+    "gH":           null,
+    "kH":           { "min": 8, "max": 12 },
+    "salinity":     { "min": 1.023, "max": 1.025 }
+  },
+  "adultSizeCm":   { "min": 5, "max": 8 },
+  "lifespanYears": { "min": 0.5, "max": 1 },
+  "tank": {
+    "minVolumeLiters":  120,
+    "minLengthCm":      75,
+    "swimZone":         "all",
+    "decorPreferences": [
+      "ample live rock with caves and crevices",
+      "medium-to-coarse sand substrate",
+      "anchored or glued rockwork (octopuses are surprisingly strong)",
+      "empty bivalve and gastropod shells as dens",
+      "dim lighting, ideally low actinic only",
+      "absolutely escape-proof lid with every opening sealed (cable ports, overflow boxes, return-pump gaps)"
+    ],
+    "minSandDepthCm":   2.5
+  },
+  "careLevel": "expert",
+  "diet": {
+    "type":  "carnivore",
+    "notes": "Strict carnivore that feeds on small crustaceans, bivalves, and small fish in the wild. In captivity generally takes live feeder shrimp (saltwater preferred over freshwater ghost shrimp), small live or fresh-frozen crabs, and pieces of raw shrimp or scallop offered from a feeding stick. Juveniles often require live prey before transitioning to thawed/frozen foods. Sensitive to high nitrates and phosphates so uneaten food should be removed promptly."
+  },
+  "compatibility": {
+    "temperament":  "semi-aggressive",
+    "grouping":     "solitary",
+    "minGroupSize": 1,
+    "goodWith":     [
+      "species-only setup strongly recommended"
+    ],
+    "avoidWith":    [
+      "all fish (will be stressed and stalked, or eat the octopus's food)",
+      "ornamental shrimp and crabs (prey items)",
+      "other octopuses (cannibalism and territorial fighting)",
+      "stinging anemones and aggressive corals",
+      "any tankmate added to a copper-treated system"
+    ]
+  },
+  "media": {
+    "primaryImage":    null,
+    "gallery":         [],
+    "imageCandidates": null
+  },
+  "summary": "A tiny, short-lived tropical octopus from the Caribbean and Gulf of Mexico. Generally regarded as expert-only — needs an escape-proof, species-only tank and lives roughly 6-12 months.",
+  "careNotes": "Dwarf Octopus is a trade-name umbrella covering two very similar Caribbean cephalopods: Octopus joubini (the small-egg Atlantic Pygmy Octopus) and Octopus mercatoris (the large-egg Caribbean Pygmy Octopus), which are frequently sold interchangeably under the joubini name. Both are tropical species occurring from Florida through the Gulf of Mexico and the wider Caribbean, typically at 0-15 m depth on soft substrates and reef rubble, and both share essentially the same husbandry needs. Adult mantle length is generally around 4-5 cm with arms reaching 7-9 cm, so total length is roughly 10-13 cm including arms. Captive lifespan is short — sources agree on roughly 6-12 months from settlement to senescence, and a wild-caught adult may have only a few months left when it arrives. Water parameters are standard reef: temperature 22-26 °C (LiveAquaria 72-78 °F, Wikipedia wild habitat 18-25 °C — averaged toward the tropical hobby-keeping band), pH 8.1-8.4, dKH 8-12, specific gravity 1.023-1.025. Tank size is genuinely the bottleneck — LiveAquaria states 30 US gal (~113 L) as the minimum; in practice 120 L (about 30 gal) is the sensible floor for a single dwarf octopus and only if the lid is genuinely escape-proof. Lighting should be dim — bright reef LEDs stress octopuses, and dim actinic or low-blue is preferred. The species is sensitive to elevated nitrates, phosphates, and any copper-based medication, so the tank should be copper-free for its entire history and run conservatively low-nutrient. The two non-negotiables for keeping any octopus are (1) a species-only tank — fish will pester the octopus during feeding and large inverts (other shrimp, crabs, urchins, hermit crabs) become prey, and (2) a fully sealed lid — octopuses are escape artists capable of squeezing through any gap larger than their beak, and a dried-out octopus on the floor is the most common cause of death in this trade. Juveniles often need live food (saltwater feeder shrimp, amphipods) before they can be coaxed onto frozen shrimp or scallop offered from a feeding stick. Approach the tank slowly to avoid triggering an ink discharge, which can crash water quality in a small system and requires an immediate large water change. The deadly blue-ringed octopuses (genus Hapalochlaena) are NOT covered by this entry and should never be kept in a home aquarium under any circumstances — their bite is invariably lethal and there is no antivenom.",
+  "breedingNotes": "Females lay 140 to 2,500+ eggs (small in O. joubini, larger in O. mercatoris) inside an empty shell or cave and brood them without feeding. Both parents die shortly after the eggs hatch — semelparous reproduction is normal for the genus. The small-egged O. joubini produces planktonic paralarvae that are extremely difficult to rear in captivity; the large-egged O. mercatoris hatches as miniature benthic octopuses that can be raised with sustained live-food culture, and is the form most often bred by dedicated cephalopod keepers. Either way, breeding signals the end of the parent's life and is not a long-term population strategy for a home aquarium.",
+  "sources": {
+    "primary": {
+      "name": "LiveAquaria - Atlantic Pygmy Octopus EXPERT ONLY",
+      "url":  "https://www.liveaquaria.com/products/atlantic-pygmy-octopus-expert-only",
+      "accessedDate": "2026-06-12"
+    },
+    "additional": [
+      {
+        "name": "TFH Magazine - Choosing and Keeping an Octopus",
+        "url":  "https://www.tfhmagazine.com/articles/saltwater/choosing-and-keeping-an-octopus",
+        "accessedDate": "2026-06-12",
+        "notes": "Cross-checked tank size (30 gal for a pygmy), species-only requirement, escape-proofing, feeding-stick technique, ~6 month lifespan for dwarf species, and the joubini/mercatoris pygmy distinction."
+      },
+      {
+        "name": "Wikipedia - Atlantic pygmy octopus",
+        "url":  "https://en.wikipedia.org/wiki/Atlantic_pygmy_octopus",
+        "accessedDate": "2026-06-12",
+        "notes": "Confirmed taxonomy (Octopodidae, Octopoda), mantle length 4.5 cm + arms 9 cm, wild temperature 18-25 °C, depth 10-15 m, lifespan 6-12 months temperature-dependent, and the brood-size difference distinguishing joubini (small-egg, planktonic) from mercatoris (large-egg, benthic hatchlings)."
+      }
+    ]
+  },
+  "fish":         null,
+  "crustacean":   null,
+  "coral":        null,
+  "mollusc": {
+    "copperSensitive":    true,
+    "substrateNeeds":     "sand",
+    "climbsOutOfTank":    true,
+    "algaeTypesConsumed": []
+  },
+  "echinoderm":   null,
+  "other-invert": null,
+  "amphibian":    null,
+  "plant":        null,
+  "macroalgae":   null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-12",
+  "hobbyistAdvisory": {
+    "level": "specialist-only",
+    "reason": "specialist tank required: escape-proof lid, species-only, short captive lifespan, live prey for juveniles"
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "id": "fw-moll-006",
+  "slug": "pond-bladder-snail",
+  "kind": "fauna",
+  "taxon": "mollusc",
+  "waterType": "freshwater",
+  "commonName": "Pond / Bladder Snail",
+  "scientificName": "Physella acuta",
+  "alsoKnownAs": [
+    "Bladder Snail",
+    "Pond Snail",
+    "Tadpole Snail",
+    "European Physa",
+    "Sewage Snail",
+    "Acute Bladder Snail",
+    "Physa acuta",
+    "Physa spp.",
+    "Lymnaea stagnalis (Great Pond Snail)",
+    "Lymnaea peregra (Wandering Pond Snail)",
+    "Galba truncatula"
+  ],
+  "category": "Hitchhiker Snails",
+  "taxonomy": {
+    "family": "Physidae",
+    "order": "Hygrophila"
+  },
+  "nativeRange": {
+    "regions": ["North America", "Cosmopolitan (introduced worldwide)"],
+    "countries": ["United States", "Canada"],
+    "habitat": "Ponds, ditches, slow rivers, and other still or slow-moving fresh waters; tolerant of polluted and eutrophic conditions.",
+    "biotope": "Pond",
+    "depthRangeM": { "min": 0, "max": 2 }
+  },
+  "waterParameters": {
+    "temperatureC": { "min": 18, "max": 28 },
+    "pH":           { "min": 6.5, "max": 8.5 },
+    "gH":           { "min": 5, "max": 20 },
+    "kH":           { "min": 3, "max": 15 },
+    "salinity":     null
+  },
+  "adultSizeCm":   { "min": 1.0, "max": 1.6 },
+  "lifespanYears": { "min": 0.5, "max": 2 },
+  "tank": {
+    "minVolumeLiters": 20,
+    "minLengthCm": 30,
+    "swimZone": "all",
+    "decorPreferences": [
+      "live or silk plants for grazing surfaces",
+      "driftwood and rocks colonised with biofilm and algae",
+      "tight-fitting lid (will crawl up to the waterline)"
+    ],
+    "minSandDepthCm": null
+  },
+  "careLevel": "beginner",
+  "diet": {
+    "type": "detritivore",
+    "notes": "Generally considered an opportunistic omnivore that scrapes biofilm, soft green algae and diatoms from glass, plants and decor, and also consumes detritus, decaying plant matter, dead tankmates, and leftover fish or shrimp food. Has been reported not to damage healthy live plants in most cases."
+  },
+  "compatibility": {
+    "temperament": "peaceful",
+    "grouping": "shoaling",
+    "minGroupSize": 1,
+    "goodWith": [
+      "community freshwater fish",
+      "dwarf shrimp",
+      "other peaceful snails",
+      "planted tanks"
+    ],
+    "avoidWith": [
+      "assassin snails (Clea helena)",
+      "loaches (yoyo, clown, skunk)",
+      "puffers",
+      "large or aggressive cichlids",
+      "any copper-based medication or plant fertiliser"
+    ]
+  },
+  "media": {
+    "primaryImage":    null,
+    "gallery":         [],
+    "imageCandidates": null
+  },
+  "summary": "Umbrella entry for the small freshwater pest-snail complex (Physella acuta and similar Physa, Lymnaea, and Galba pond snails). Almost always arrives as a hitchhiker on plants; tend to be vilified but are useful biofilm and detritus grazers when kept in check.",
+  "careNotes": "This is an umbrella entry covering the small freshwater pulmonate snails that hobbyists most commonly encounter as plant hitchhikers: Physella acuta (Bladder Snail, sinistral / left-coiling shell), Physa spp. more generally, the Lymnaea pond snails (notably L. stagnalis, the Great Pond Snail, and L. peregra, the Wandering Pond Snail, both dextral / right-coiling), and the small mud snail Galba truncatula. They are almost never sold deliberately; they arrive as eggs or juveniles on live plants and decor.\n\nThese snails are generally regarded as pests, but in moderation they are valuable members of a tank cleanup crew — they graze green algae, brown diatom films, biofilm and detritus, and clean up uneaten food before it fuels ammonia spikes. They have been reported to leave healthy live plants alone in most cases, only browsing already-decaying tissue.\n\nThe entry exists primarily for identification, so a hobbyist who finds a small unfamiliar snail in their tank can decide whether to leave it alone, manage the population, or remove it. Identification clue: Physella acuta has a sinistral (left-handed) shell when viewed with the spire up and aperture facing you; Lymnaea and most other pond snails are dextral (right-handed).\n\nPhysella acuta is a simultaneous hermaphrodite capable of self-fertilisation: a single individual can found a population. Egg masses are gelatinous, transparent sacs containing 10–40 eggs each (Wikipedia cites 50–100 eggs per snail per week), laid on glass, plants and decor; eggs hatch in roughly 6–20 days depending on temperature. Populations track food availability — explosions almost always reflect overfeeding rather than 'invasion', and reducing input usually restores balance within a few weeks.\n\nControl options if numbers get out of hand: manually pick out adults, hand-crush visible egg masses, drop in a sinking wafer at lights-out and remove it (with attached snails) after an hour, or add a known snail predator such as an assassin snail (Clea helena) or loach. Avoid copper-based 'snail killer' products — these are toxic to all invertebrates in the tank, including any shrimp.\n\nAll pulmonate snails breathe atmospheric air at the surface and will climb to the waterline; keep a tight-fitting lid. They are sensitive to copper. Soft, calcium-poor water leads to shell pitting and stunted growth over time, so a moderate gH with some dissolved calcium is preferable.\n\nNote on disease vector: pond snails are intermediate hosts for several digenean trematodes in the wild (e.g. Echinostoma, Fasciola); reported aquarium-acquired human infections are essentially absent, but the snails should not be handled with broken skin, and tank water should not be drunk.",
+  "breedingNotes": "Breeds essentially without intervention in any community freshwater tank. Each individual is a simultaneous hermaphrodite and can self-fertilise, so a single hitchhiker is enough to seed a population. Reaches sexual maturity at roughly 4–6 weeks; lays gelatinous egg sacs of 10–40 eggs on hard surfaces; eggs typically hatch in 6–20 days. Population size is driven primarily by available food (uneaten fish food, detritus, biofilm), so the practical lever is feeding rate, not direct breeding control.",
+  "sources": {
+    "primary": {
+      "name": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Physella_acuta",
+      "accessedDate": "2026-06-12"
+    },
+    "additional": [
+      {
+        "name": "Practical Fishkeeping",
+        "url": "https://www.practicalfishkeeping.co.uk/",
+        "accessedDate": "2026-06-12",
+        "notes": "Designated secondary returned HTTP 403 on the species article; swapped to other slice secondaries (Fishkeeping World, AquariumBreeder) and an aquarium-hobby search corpus to cross-verify sizing, water parameters and breeding."
+      },
+      {
+        "name": "Fishkeeping World",
+        "url": "https://www.fishkeepingworld.com/bladder-snail/",
+        "accessedDate": "2026-06-12",
+        "notes": "Cross-checked adult size (~1.27 cm), temperature (18–29°C), pH (7–8), lifespan (up to 2 years) and breeding behaviour."
+      },
+      {
+        "name": "Shrimp and Snail Breeder (aquariumbreeder.com)",
+        "url": "https://aquariumbreeder.com/bladder-snail-detailed-guide-care-diet-and-breeding/",
+        "accessedDate": "2026-06-12",
+        "notes": "Cross-checked tolerance ranges (temp 0–33°C, pH 6–9, gH 0–30, kH 0–25), shell size (~1.5 cm), egg-capsule counts (10–40), and hatching time (6–7 days). Sources disagreed on max lifespan (1 vs 2 years); averaged to 0.5–2 yr."
+      }
+    ]
+  },
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": {
+    "copperSensitive": true,
+    "substrateNeeds": "any",
+    "climbsOutOfTank": true,
+    "algaeTypesConsumed": [
+      "green algae",
+      "brown algae",
+      "biofilm",
+      "detritus"
+    ]
+  },
+  "echinoderm": null,
+  "other-invert": null,
+  "amphibian": null,
+  "plant": null,
+  "macroalgae": null,
+  "schemaVersion": 1,
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-12"
+}
