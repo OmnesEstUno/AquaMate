@@ -1,0 +1,99 @@
+:root {
+  /* ---- Ocean core scale (for reuse on new pages) ---- */
+  --ocean-900: #04313d;
+  --ocean-700: #09495d;
+  --ocean-500: #0b5e92;
+  --ocean-300: #1e5799;
+
+  /* ---- Accent + exact exceptions ---- */
+  --aqua: #00f7ff;
+  --link-deep: #06396d;
+  --info-blue: #004c8c;
+  --button-blue: #007bff;
+
+  /* title wordmark gradient (exact stops) */
+  --title-grad-top: rgba(0, 247, 255, 1);
+  --title-grad-mid: rgba(1, 66, 69, 0.5);
+  --title-grad-bot: rgba(1, 51, 53, 0.7);
+
+  /* role-specific surface blues (exact) */
+  --header-bg: rgba(9, 73, 93, 0.5);
+  --footer-bg: rgba(4, 54, 65, 0.7);
+  --tab-bg: rgba(25, 64, 84, 0.5);
+  --tab-hover: rgba(27, 107, 171, 0.5);
+  --tab-active: rgba(4, 118, 159, 0.8);
+
+  /* scrollbar */
+  --scroll-track: rgba(0, 30, 32, 1);
+  --scroll-grad-deep: rgba(30, 87, 153, 0.7);
+  --scroll-grad-deep-solid: rgba(30, 87, 153, 1);
+  --scroll-grad-light: rgba(125, 185, 232, 0.7);
+  --scroll-grad-light-solid: rgba(125, 185, 232, 1);
+
+  /* aquarium easter-egg water */
+  --aquarium-bg: #0b5e92;
+  --aquarium-water-edge: rgba(11, 94, 146, 0.5);
+  --aquarium-water-mid: rgba(11, 94, 146, 0.8);
+
+  /* ---- Glass surfaces ---- */
+  --glass-bg: rgba(255, 255, 255, 0.08);
+  --glass-bg-strong: rgba(255, 255, 255, 0.2);
+  --glass-bg-search: rgba(255, 255, 255, 0.5);
+  --glass-bg-search-focus: rgba(255, 255, 255, 0.8);
+  --glass-tint-gray: rgba(173, 173, 173, 0.08);
+
+  /* ---- Scrim ---- */
+  --scrim-30: rgba(0, 0, 0, 0.3);
+
+  /* ---- Blur ---- */
+  --blur-header: 2px;
+  --blur-card: 4px;
+  --blur-panel: 8px;
+
+  /* ---- Radius ---- */
+  --radius-sm: 5px;
+  --radius-md: 10px;
+  --radius-lg: 15px;
+  --radius-panel: 20px;
+  --radius-pill: 25px;
+  --radius-round: 30px;
+
+  /* ---- Shadow ---- */
+  --shadow-soft: 0 1px 3px rgba(0, 0, 0, 0.05);
+  --shadow-search: 0 2px 10px rgba(0, 0, 0, 0.2);
+  --shadow-search-focus: 0 4px 20px rgba(0, 0, 0, 0.3);
+  --shadow-panel: -2px 0 10px rgba(0, 0, 0, 0.3);
+  --shadow-strong: 0 0 10px rgba(0, 0, 0, 0.5);
+  --glow-focus-aqua: #00f7ff34;
+  --glow-focus-deep: #05333434;
+
+  /* ---- Neutral / status ---- */
+  --ink-input: #1a1a1a;
+  --gray-666: #666;
+  --gray-ccc: #ccc;
+  --gray-ddd: #ddd;
+  --gray-dadada: #dadada;
+  --gray-444: #444;
+  --white: #fff;
+  --status-danger: red;
+  --status-warning: #ffc107;
+  --cra-dark: #282c34;
+  --cra-link: #61dafb;
+
+  /* ---- Fonts ---- */
+  --font-body: 'Lato', sans-serif;
+  --font-ui: Arial, sans-serif;
+  --font-system: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  --font-mono: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  --font-display-a: 'Neptune Trial', serif;
+  --font-display-l: 'And Then It Ends', serif;
+  --font-display-r: 'Manjari', serif;
+  --font-gallery: 'Don Aquarel', sans-serif;
+
+  /* ---- Motion / z-index ---- */
+  --transition-fast: 0.3s ease;
+  --transition-med: 0.5s ease;
+  --z-header: 1000;
+  --z-overlay: 9999;
+}
