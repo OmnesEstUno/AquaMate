@@ -1,6 +1,5 @@
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useEffect, useCallback, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { debounce } from 'lodash'; // Ensure lodash is installed or implement your own debounce function
 import { useSearch } from '../search/search_provider';
 import { useFavorites } from '../builder_tool/favorites_provider';
 import AMHeader from "../header";
@@ -16,6 +15,7 @@ function HomePage() {
     const navigate = useNavigate();
     const { searchResults } = useSearch()
     const mission = 'AquaMate aims to provide a singular place where someone of any experience level of fish keeping can go to obtain details about fish they are interested in caring for.';
+    const sentinelRef = useRef(null)
 
     const handleScroll = () => {
         const mainContainer = document.getElementById('main');
@@ -100,7 +100,7 @@ function HomePage() {
             });
     };
 
-    const firstRun = React.useRef(true);
+    const firstRun = useRef(true);
 
     useEffect(() => {
         if (firstRun.current) {
@@ -110,21 +110,24 @@ function HomePage() {
     }, [fetchInitialImages]);
 
     useEffect(() => {
-        const mainContainer = document.getElementById('main');
+        if (!sentinelRef.current || !hasMore || loading) return;
 
-        const handleScroll = debounce(() => {
-            if (
-                mainContainer.scrollTop + mainContainer.clientHeight >=
-                mainContainer.scrollHeight - 10 &&
-                !loading
-            ) {
-                fetchMoreImages();
+        const observer = new IntersectionObserver(
+            (entries) => {
+                if (entries[0].isIntersecting) {
+                    fetchMoreImages();
+                }
+            },
+            {
+                root: document.getElementById('main'),
+                rootMargin: '400px'
             }
-        }, 100);
+        );
 
-        mainContainer.addEventListener('scroll', handleScroll);
-        return () => mainContainer.removeEventListener('scroll', handleScroll);
-    }, [fetchMoreImages, loading]);
+        observer.observe(sentinelRef.current);
+
+        return () => observer.disconnect();
+    }, [fetchMoreImages, hasMore, loading]);
 
 
     const handleResultClick = (commonName) => {
@@ -195,6 +198,7 @@ function HomePage() {
                                 </div>
                             </div>
                         ))}
+                        {hasMore && <div ref={sentinelRef} style={{ height: '1px' }} />}
                         {loading && <p>Loading...</p>}
                     </div>
                 </section>
