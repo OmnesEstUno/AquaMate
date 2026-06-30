@@ -29,21 +29,47 @@
     "order": "Sorbeoconcha"
   },
   "nativeRange": {
-    "regions": ["Southeast Asia", "Wallacea"],
-    "countries": ["Indonesia"],
+    "regions": [
+      "Southeast Asia",
+      "Wallacea"
+    ],
+    "countries": [
+      "Indonesia"
+    ],
     "habitat": "Endemic to ancient lakes and connected rivers of central and southeast Sulawesi — primarily Lake Poso and the Malili lake system (Lakes Matano, Towuti, Mahalona, Lontoa, Masapi) — on hard rocky, sandy, and woody substrates in clear, warm, hard alkaline water.",
     "biotope": "Lake",
-    "depthRangeM": { "min": 0, "max": 30 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 30
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 24, "max": 29 },
-    "pH": { "min": 7.5, "max": 8.5 },
-    "gH": { "min": 6, "max": 15 },
-    "kH": { "min": 4, "max": 10 },
+    "temperatureC": {
+      "min": 24,
+      "max": 29
+    },
+    "pH": {
+      "min": 7.5,
+      "max": 8.5
+    },
+    "gH": {
+      "min": 6,
+      "max": 15
+    },
+    "kH": {
+      "min": 4,
+      "max": 10
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 5, "max": 10 },
-  "lifespanYears": { "min": 2, "max": 4 },
+  "adultSizeCm": {
+    "min": 5,
+    "max": 10
+  },
+  "lifespanYears": {
+    "min": 2,
+    "max": 4
+  },
   "tank": {
     "minVolumeLiters": 75,
     "minLengthCm": 60,
@@ -84,8 +110,8 @@
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Slow-grazing Sulawesi snail with an elongated cone shell and rabbit-like face. Generally advised to keep in warm, hard, alkaline water alongside Sulawesi Caridina shrimp. Many color morphs share effectively identical care.",
-  "careNotes": "Umbrella entry covering the entire Tylomelania trade group: Tylomelania zemis (the most commonly sold 'Chocolate' / Poso form), T. patriarchalis, T. gemmifera (the 'Golden/Orange' Matano form), and a range of Tylomelania spp. sold under trade-morph names — Yellow, Orange, Chocolate, Gold Spot, Spotted Black, White Spotted, and Yellow Spotted Rabbit Snails. All of these are endemic to the same Sulawesi ancient-lake system and have effectively identical husbandry needs, so they are documented here as a single care unit rather than separate species files.\n\nWater chemistry is the make-or-break variable. Tylomelania evolved in the hard, alkaline, mineral-rich waters of Lake Poso and the Malili lakes, and they are commonly considered intolerant of soft or acidic water — shell pitting and erosion appear quickly under low GH/KH. Generally advised to keep in the upper end of the hardness range (GH 6–15, KH 4–10) and to provide a continuous calcium source such as cuttlebone, crushed coral in the filter, or aragonite-bearing substrate. Stable temperature around 24–28 °C and clean water (low nitrate, no detectable ammonia/nitrite) round out the recipe.\n\nTemperament is reliably peaceful; they are slow, conspicuous grazers that wander day and night and don't bother tankmates. They pair beautifully with Sulawesi Caridina shrimp (Cardinal, Harlequin, Yellow Goldflake), which want the same warm, hard, alkaline parameters. They are not lid-jumpers in the dramatic mystery-snail sense, but they have been known to climb above the waterline and out of open-topped tanks, so a tight-fitting lid is generally advised.\n\nReproduction is ovoviviparous (live-bearing): adults release single, fully-formed, ~1–2 cm juveniles rather than egg clutches, and they do so very slowly — only a handful of offspring per year per female. Populations almost never explode in the way pond/bladder/Malaysian trumpet snail populations do, which is part of the appeal. Sexes are separate (dioecious), so a group of 3+ is needed for any chance of breeding.\n\nCross-source disagreement noted on minimum tank size (sources ranged 19 L / 5 gal to 113 L / 30 gal) and on the exact hardness target (some sources push GH 10–20 / KH 8–15); values here reflect a cautious midpoint biased toward larger tank and the commonly-cited 6–12 GH band. The primary source URL (The Shrimp Farm) returned HTTP 403 to WebFetch on multiple attempts; cross-verification was completed with Aqua Imports (designated secondary), Wikipedia (taxonomy + native range + reproduction), Fishkeeping World, FishLab, and AquariumNexus.",
+  "summary": "The Rabbit Snail (Tylomelania zemis) is a slow-grazing freshwater snail from the ancient lakes of Sulawesi, recognizable by its long, tapered shell and whiskered, rabbit-like face. It thrives in warm, hard, alkaline water and is generally considered peaceful, pairing well with Sulawesi Caridina shrimp.",
+  "careNotes": "Umbrella entry covering the entire Tylomelania trade group: Tylomelania zemis (the most commonly sold 'Chocolate' / Poso form), T. patriarchalis, T. gemmifera (the 'Golden/Orange' Matano form), and a range of Tylomelania spp. sold under trade-morph names — Yellow, Orange, Chocolate, Gold Spot, Spotted Black, White Spotted, and Yellow Spotted Rabbit Snails. All of these are endemic to the same Sulawesi ancient-lake system and have effectively identical husbandry needs, so their care needs are effectively interchangeable.\n\nWater chemistry is the make-or-break variable. Tylomelania evolved in the hard, alkaline, mineral-rich waters of Lake Poso and the Malili lakes, and they are commonly considered intolerant of soft or acidic water — shell pitting and erosion appear quickly under low GH/KH. Generally advised to keep in the upper end of the hardness range (GH 6–15, KH 4–10) and to provide a continuous calcium source such as cuttlebone, crushed coral in the filter, or aragonite-bearing substrate. Stable temperature in the 24–29 °C range and clean water (low nitrate, no detectable ammonia/nitrite) round out the recipe.\n\nTemperament is reliably peaceful; they are slow, conspicuous grazers that wander day and night and don't bother tankmates. They pair beautifully with Sulawesi Caridina shrimp (Cardinal, Harlequin, Yellow Goldflake), which want the same warm, hard, alkaline parameters. They are not lid-jumpers in the dramatic mystery-snail sense, but they have been known to climb above the waterline and out of open-topped tanks, so a tight-fitting lid is generally advised.\n\nReproduction is ovoviviparous (live-bearing): adults release single, fully-formed, ~1–2 cm juveniles rather than egg clutches, and they do so very slowly — only a handful of offspring per year per female. Populations almost never explode in the way pond/bladder/Malaysian trumpet snail populations do. Sexes are separate (dioecious), so a group of 3+ is needed for any chance of breeding.",
   "breedingNotes": "Ovoviviparous live-bearers with separate sexes (dioecious). Females release one to a few large, fully-formed juveniles at a time — among the largest newly-hatched freshwater gastropods at ~1–2 cm shell length. Reproduction is very slow, so population control is rarely an issue. A group of 3+ adults at stable warm, hard, alkaline parameters with abundant food has been reported to produce occasional offspring; targeted breeding is uncommon in the hobby.",
   "sources": {
     "primary": {
@@ -134,7 +160,12 @@
     "copperSensitive": true,
     "substrateNeeds": "sand",
     "climbsOutOfTank": true,
-    "algaeTypesConsumed": ["biofilm", "soft green algae", "diatoms", "detritus"]
+    "algaeTypesConsumed": [
+      "biofilm",
+      "soft green algae",
+      "diatoms",
+      "detritus"
+    ]
   },
   "echinoderm": null,
   "other-invert": null,

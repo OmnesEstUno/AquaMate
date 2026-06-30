@@ -18,21 +18,56 @@
     "order": "Camarodonta"
   },
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Red Sea", "Central Pacific"],
-    "countries": ["Tanzania", "Kenya", "Madagascar", "Maldives", "Indonesia", "Philippines", "Australia", "United States (Hawaii)", "Egypt (Red Sea)"],
+    "regions": [
+      "Indo-Pacific",
+      "Red Sea",
+      "Central Pacific"
+    ],
+    "countries": [
+      "Tanzania",
+      "Kenya",
+      "Madagascar",
+      "Maldives",
+      "Indonesia",
+      "Philippines",
+      "Australia",
+      "United States (Hawaii)",
+      "Egypt (Red Sea)"
+    ],
     "habitat": "Tropical subtidal reefs and reef slopes with strong water movement; often wedges into crevices and overhangs in hard limestone, coral or basalt substrate by day and forages over exposed rock by night.",
     "biotope": "Reef",
-    "depthRangeM": { "min": 1, "max": 25 }
+    "depthRangeM": {
+      "min": 1,
+      "max": 25
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 26 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 22,
+      "max": 26
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.023, "max": 1.026 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.023,
+      "max": 1.026
+    }
   },
-  "adultSizeCm": { "min": 15, "max": 20 },
-  "lifespanYears": { "min": 8, "max": 15 },
+  "adultSizeCm": {
+    "min": 15,
+    "max": 20
+  },
+  "lifespanYears": {
+    "min": 8,
+    "max": 15
+  },
   "tank": {
     "minVolumeLiters": 200,
     "minLengthCm": 90,
@@ -73,9 +108,8 @@
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Indo-Pacific reef urchin with thick, blunt 'pencil' spines; widely considered one of the hardier urchin species and generally reef-safe with caution (may topple frags and graze corallines).",
-  "careNotes": "Heterocentrotus mammillatus is recognised by its short, thick, blunt spines (often red, brick or dark slate) that look more like pencils or chalk sticks than the needle spines of most urchins, and is one of the more forgiving urchins in the hobby. It is generally treated as reef-safe with caution: it will happily graze coralline algae off rockwork and glass, and as a relatively large-bodied animal it can dislodge unsecured frags or topple poorly-stacked rocks as it moves, so the aquascape should be epoxied or otherwise locked together. Like all echinoderms, it is highly intolerant of copper-based medications and of sudden swings in salinity or temperature; a slow drip acclimation (generally an hour or more) is advised and the urchin should not be exposed to air during transfer. Spine loss is commonly cited as an early warning sign of poor water quality, especially elevated nitrate or unstable specific gravity. Cross-source check: adult-size estimates ranged from ~10 cm (Reeflings) to ~20 cm (LiveAquaria, ~8\") to one outlier 30 cm figure (ReefApp); the documented 15-20 cm body+spine span was used. Tank-size guidance also spanned 30 gal / 114 L (LiveAquaria) up to 400 L (ReefApp); the playbook's cautious-larger rounding rule was applied and the value was set to a nice 200 L (~53 US gal), consistent with Reeflings' 200 L recommendation and the species' adult footprint. Reef-safety guidance was split (LiveAquaria and AquariumDomain say 'no'; Reeflings and ReefApp say generally yes); 'with caution' was used to reflect both the frag-toppling and coralline-grazing risks. Best in a mature system (typically 6+ months) with a stable algae film for continuous grazing — starvation in algae-poor tanks is a documented failure mode."
-  ,
+  "summary": "The Pencil Urchin is an Indo-Pacific reef species recognized by its short, thick, blunt spines — more pencil-like than needle-like — and is widely considered one of the hardier urchin species available in the hobby. It is generally regarded as reef-safe with caution, as it will graze coralline algae and can topple unsecured rockwork.",
+  "careNotes": "The Pencil Urchin is recognized by its short, thick, blunt spines — often red, brick, or dark slate in color — that look more like pencils or chalk sticks than the needle spines found on most urchins, and is widely considered one of the more forgiving urchin species in the hobby. It is generally regarded as reef-safe with caution: it will graze coralline algae off rockwork and glass, and as a relatively large-bodied animal it can dislodge unsecured frags or topple poorly-stacked rocks as it moves, so the aquascape should be epoxied or otherwise locked together. Like all echinoderms, it is highly intolerant of copper-based medications and of sudden swings in salinity or temperature; slow drip acclimation (generally an hour or more) is advised and the urchin should not be exposed to air during transfer. Spine loss is commonly cited as an early warning sign of poor water quality, especially elevated nitrate or unstable specific gravity. Best kept in a mature system (typically 6+ months old) with a stable algae film for continuous grazing — starvation in algae-poor tanks is a documented failure mode.",
   "breedingNotes": "Captive breeding is not commonly reported in the home aquarium. In the wild, Heterocentrotus mammillatus is a broadcast spawner with an annual cycle (spawning has been reported around May-June, possibly with lunar cues) and planktonic larvae that have generally not been considered practical to rear at home.",
   "sources": {
     "primary": {

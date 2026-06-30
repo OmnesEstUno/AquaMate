@@ -21,7 +21,10 @@
     "order": "Anura"
   },
   "nativeRange": {
-    "regions": ["Central Africa", "West Africa"],
+    "regions": [
+      "Central Africa",
+      "West Africa"
+    ],
     "countries": [
       "Nigeria",
       "Cameroon",
@@ -32,17 +35,38 @@
     ],
     "habitat": "Still or slow-moving shallow water in lowland rainforest — densely planted pools, swamps, and the margins of slow rivers, generally with soft substrate and subdued lighting.",
     "biotope": "Equatorial African blackwater / tannin-stained shallows; leaf litter, soft mud, and submerged vegetation.",
-    "depthRangeM": { "min": 0, "max": 1 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 1
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 26 },
-    "pH": { "min": 6.0, "max": 7.8 },
-    "gH": { "min": 5, "max": 20 },
-    "kH": { "min": 4, "max": 15 },
+    "temperatureC": {
+      "min": 22,
+      "max": 26
+    },
+    "pH": {
+      "min": 6,
+      "max": 7.8
+    },
+    "gH": {
+      "min": 5,
+      "max": 20
+    },
+    "kH": {
+      "min": 4,
+      "max": 15
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 3, "max": 6.5 },
-  "lifespanYears": { "min": 5, "max": 8 },
+  "adultSizeCm": {
+    "min": 3,
+    "max": 6.5
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 8
+  },
   "tank": {
     "minVolumeLiters": 40,
     "minLengthCm": 45,
@@ -86,8 +110,8 @@
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Tiny fully-aquatic African frog. Peaceful, beginner-friendly, and best kept in small groups in a warm, gently-filtered, densely-planted tank with surface access for air-breathing.",
-  "careNotes": "African Dwarf Frogs are fully aquatic but breathe air — they have lungs and must reach the surface every few minutes, so a low water column with easy surface access and a tightly-fitting lid (they have been known to climb out if given the chance) is generally advised. They are tropical animals: a stable 22–26°C is commonly recommended, and unheated rooms can stress them. Their permeable amphibian skin makes them sensitive to chemical contaminants; copper-based fish medications, chlorine/chloramine, and most snail/parasite treatments should be avoided or used with great caution. Susceptibility to the chytrid fungus (Batrachochytrium dendrobatidis) is moderate, so quarantining new arrivals and not mixing with wild-collected amphibians is generally advised. Substrate is best either bare-bottom or fine smooth sand — large or sharp gravel has been reported to cause impaction or oral injuries during feeding. They are very near-sighted and slow eaters, so target feeding with a turkey baster or pipette is commonly recommended in community tanks so they aren't out-competed. They have been known to swallow anything that fits in the mouth, including dwarf shrimp and neon-tetra-size fish, so tankmates should be selected accordingly. CRITICAL: African Dwarf Frogs are very often mis-sold or confused with the African Clawed Frog (Xenopus laevis), which grows roughly 4–5× larger and is a voracious predator that will eat tankmates and outgrow most aquariums. ADFs have fully webbed front feet, side-set eyes, and a pointed snout; Xenopus have unwebbed front 'fingers', dorsally-set eyes, and a flat snout. The trade names 'African Dwarf Frog' and 'Hymenochirus curtipes' (a sister species) are used interchangeably in aquarium retail — H. boettgeri and H. curtipes are visually and behaviorally indistinguishable in the hobby and are treated here as one entry. Source spread on parameters: temperature 20–27°C across sources, averaged to 22–26°C; pH 5.0–7.8 across sources, averaged to 6.0–7.8; adult size 3.2–7.5 cm across sources, averaged to 3–6.5 cm.",
+  "summary": "The African Dwarf Frog (Hymenochirus boettgeri) is a small, fully aquatic frog from Central and West Africa, widely kept as a beginner-friendly community animal. It reaches 3–6.5 cm, thrives in groups of three or more, and needs surface access for air-breathing in a warm, gently filtered tank.",
+  "careNotes": "African Dwarf Frogs are fully aquatic but breathe air — they have lungs and must reach the surface every few minutes, so a low water column with easy surface access and a tightly-fitting lid (they have been known to climb out if given the chance) is generally advised. They are tropical animals: a stable 22–26°C is commonly recommended, and unheated rooms can stress them. Their permeable amphibian skin makes them sensitive to chemical contaminants; copper-based fish medications, chlorine/chloramine, and most snail/parasite treatments should be avoided or used with great caution. Susceptibility to the chytrid fungus (Batrachochytrium dendrobatidis) is moderate, so quarantining new arrivals and not mixing with wild-collected amphibians is generally advised. Substrate is best either bare-bottom or fine smooth sand — large or sharp gravel has been reported to cause impaction or oral injuries during feeding. They are very near-sighted and slow eaters, so target feeding with a turkey baster or pipette is commonly recommended in community tanks so they aren't out-competed. They have been known to swallow anything that fits in the mouth, including dwarf shrimp and neon-tetra-size fish, so tankmates should be selected accordingly. CRITICAL: African Dwarf Frogs are very often mis-sold or confused with the African Clawed Frog (Xenopus laevis), which grows roughly 4–5× larger and is a voracious predator that will eat tankmates and outgrow most aquariums. ADFs have fully webbed front feet, side-set eyes, and a pointed snout; Xenopus have unwebbed front 'fingers', dorsally-set eyes, and a flat snout. The trade names 'African Dwarf Frog' and 'Hymenochirus curtipes' (a sister species) are used interchangeably in aquarium retail — H. boettgeri and H. curtipes are visually and behaviorally indistinguishable in the hobby, and both names refer to the same animal as sold.",
   "breedingNotes": "Has been bred in home aquariums with moderate effort. A drop in water level followed by a rise in temperature toward 26–28°C and a large water change generally triggers spawning. Males call with a soft buzzing hum and clasp females in inguinal amplexus, usually at night. Females are reported to release 150–700 buoyant eggs that float at the surface; eggs typically hatch in 1–2 days at >22°C. Adults readily eat their own eggs and tadpoles, so removing eggs to a separate rearing container is generally advised. Tadpoles are filter-feeding microcarnivores (infusoria, microworms, baby brine shrimp) and metamorphose in roughly 4–8 weeks.",
   "sources": {
     "primary": {

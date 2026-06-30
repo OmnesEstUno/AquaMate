@@ -24,3 +24,46 @@ package-lock.json
 .dispatch-prompts-macroalgae/
 .dispatch-prompts-fish-fw/
 .dispatch-gap-research.json
+
+# Claude Code local workflow state (per-session permissions + helper scripts
+# generated during the prose-rewrite workflow)
+.claude/
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Species corpus build scaffolding — one-off scripts, discovery manifests, and
+# planning docs used to BUILD the corpus under src/species/. The runtime app
+# only consumes src/species/, dist/species.json, validate.js, and compile.js.
+# Everything below was scaffolding for the data-engineering trail and is kept
+# locally for reference but not committed.
+# ─────────────────────────────────────────────────────────────────────────────
+
+# One-off cleanup / migration scripts (their work is done)
+src/species-build/cleanup-needs-review-temp-divergence.js
+src/species-build/cleanup-fw-placeholders.js
+src/species-build/sw-placeholder-cleanup.js
+src/species-build/consolidate-merge-candidates.js
+src/species-build/apply-hobbyist-advisory.js
+src/species-build/promote-schema-fields-2026-06-03.js
+src/species-build/retroactive-care-guide-sweep.js
+src/species-build/build-dedup-list.js
+src/species-build/migrate-from-legacy.js
+src/species-build/check-id-uniqueness.js
+
+# Discovery pipeline — drove Stage A → Stage C research, corpus is complete
+src/species-build/discovery/
+src/species-build/validate-discovery.js
+src/species-build/review-field-gaps.js
+
+# Generated / audit artifacts (regenerable, app never reads them)
+src/species-build/corpus-inventory.json
+src/species-build/source-urls.json
+src/species-build/field-gap-suggestions.jsonl
+
+# Tests for the gitignored scripts
+src/species-build/__tests__/build-dedup-list.test.js
+src/species-build/__tests__/migrate.test.js
+src/species-build/__tests__/review-field-gaps.test.js
+src/species-build/__tests__/validate-discovery.test.js
+
+# Workflow planning docs (plans, specs, agent playbooks)
+docs/superpowers/

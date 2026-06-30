@@ -28,21 +28,47 @@
     "order": "Urodela"
   },
   "nativeRange": {
-    "regions": ["Central America", "Trans-Mexican Volcanic Belt"],
-    "countries": ["Mexico"],
-    "habitat": "Cold, freshwater lakes and canals with muddy bottoms and aquatic vegetation at high elevation (~2,200 m above sea level).",
+    "regions": [
+      "Central America",
+      "Trans-Mexican Volcanic Belt"
+    ],
+    "countries": [
+      "Mexico"
+    ],
+    "habitat": "Cold, clear freshwater lakes and canal systems with muddy bottoms and aquatic vegetation, at high elevation (around 2,200 m above sea level).",
     "biotope": "Lake",
-    "depthRangeM": { "min": 0, "max": 15 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 15
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 14, "max": 22 },
-    "pH":           { "min": 7.4, "max": 7.6 },
-    "gH":           { "min": 7, "max": 14 },
-    "kH":           { "min": 3, "max": 8 },
-    "salinity":     null
+    "temperatureC": {
+      "min": 14,
+      "max": 22
+    },
+    "pH": {
+      "min": 7.4,
+      "max": 7.6
+    },
+    "gH": {
+      "min": 7,
+      "max": 14
+    },
+    "kH": {
+      "min": 3,
+      "max": 8
+    },
+    "salinity": null
   },
-  "adultSizeCm":   { "min": 20, "max": 30 },
-  "lifespanYears": { "min": 10, "max": 15 },
+  "adultSizeCm": {
+    "min": 20,
+    "max": 30
+  },
+  "lifespanYears": {
+    "min": 10,
+    "max": 15
+  },
   "tank": {
     "minVolumeLiters": 75,
     "minLengthCm": 75,
@@ -59,7 +85,7 @@
   "careLevel": "intermediate",
   "diet": {
     "type": "carnivore",
-    "notes": "Has been documented eating earthworms, blackworms, bloodworms, sinking carnivore pellets, small pieces of fish, and shrimp. Live nightcrawlers are widely considered a staple. Best fed every 1–2 days for adults; avoid feeder fish, which can transmit parasites and rough scales."
+    "notes": "Axolotls have been documented consuming earthworms, blackworms, bloodworms, sinking carnivore pellets, small pieces of fish, and shrimp; live nightcrawlers are widely considered a staple of the captive diet. Adults are generally fed every 1–2 days. Feeder fish are best avoided, as they are commonly associated with parasite transmission and scale-related gut irritation."
   },
   "compatibility": {
     "temperament": "peaceful",
@@ -78,13 +104,13 @@
     ]
   },
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
+    "primaryImage": null,
+    "gallery": [],
     "imageCandidates": null
   },
-  "summary": "A neotenic freshwater salamander native to Mexico's Xochimilco basin; the only widely-kept aquatic amphibian in the hobby. Coldwater, sand-or-bare-bottom only, and highly sensitive to heat and impaction.",
-  "careNotes": "The Axolotl is a coldwater, fully-aquatic neotenic salamander that retains external gills and an aquatic lifestyle throughout its life. It is generally advised to keep tanks between 14 and 22°C; temperatures above 25°C are strongly associated with stress, immune suppression, and bacterial or fungal infections. Substrate choice is critical: fine sand (grain size under 1 mm) or a bare bottom is the only safe option, because axolotls feed by suction and ingest substrate alongside food. Gravel, pebbles, or small stones have been repeatedly documented to cause fatal gastrointestinal impaction. Their skin is permeable and considered highly sensitive — avoid copper-based medications, soap residues on hands and equipment, untreated tap water, and most fish medications. Like most amphibians, axolotls are susceptible to chytrid fungi (Batrachochytrium dendrobatidis and B. salamandrivorans); never co-house with non-quarantined frogs, newts, or other amphibians, and quarantine any new arrival for at least 30 days. The species is listed as Critically Endangered in the wild (IUCN) and on CITES Appendix II, but the captive trade is supplied entirely by long-established captive-bred lines and represents an aggregate of color morphs of one biological species (wild-type, leucistic, golden albino, white albino, melanoid, copper, axanthic, piebald, GFP, mosaic, chimera). All morphs share the same care requirements. Lifespan in well-kept aquariums has been reported at 10–15 years, with some individuals living substantially longer. Cross-source notes: tank-size recommendations vary widely (some sources cite 38–66 L for one or two adults, while specialist sources recommend 90–120 cm tanks); the 75 L / 75 cm minimum here is biased toward the larger end because adult axolotls produce substantial waste and benefit from horizontal swimming space. Water-parameter target ranges were averaged across Caudata Culture, axolotl.org, Axolotl Nerd, and Swell UK's care sheet.",
-  "breedingNotes": "Breeding has been reported as moderate in difficulty for keepers with stable coldwater setups. Sexual maturity is typically reached around 6–18 months. Cooling the tank to roughly 10–14°C for several weeks and then warming it slightly is commonly used to trigger spawning; males deposit spermatophores that females pick up with the cloaca. Eggs are laid on plants or smooth decor and hatch in roughly 14 days at 24°C, longer at cooler temperatures. Juveniles are strongly cannibalistic and must be separated by size; raising larvae generally requires live baby brine shrimp or microworms initially.",
+  "summary": "The Axolotl is a fully aquatic freshwater salamander native to the lakes near Mexico City, and one of the most popular amphibians in the aquarium hobby. It requires cold water, fine sand or a bare bottom, and careful handling — the skin is highly sensitive and the species is prone to gut impaction if it swallows gravel.",
+  "careNotes": "The Axolotl (Ambystoma mexicanum) is a coldwater, fully aquatic salamander. Unlike most salamanders, it retains its feathery external gills throughout its life and never undergoes metamorphosis into a land-dwelling form — a condition known as neoteny. Tanks are generally advised to be maintained between 14 and 22°C; temperatures above 25°C are strongly associated with stress, immune suppression, and bacterial or fungal infections. Substrate choice is critical: fine sand with a grain size under 1 mm, or a bare bottom, is the only safe option, as axolotls feed by suction and readily ingest substrate alongside food. Gravel, pebbles, and small stones have been repeatedly documented as causes of fatal gastrointestinal impaction. The skin is permeable and considered highly sensitive — copper-based medications, soap residues on hands and equipment, untreated tap water, and most fish medications should be avoided. Like most amphibians, axolotls are susceptible to chytrid fungi (Batrachochytrium dendrobatidis and B. salamandrivorans) — microscopic skin pathogens responsible for widespread amphibian declines worldwide. Co-housing with non-quarantined frogs, newts, or other amphibians is strongly discouraged, and a quarantine period of at least 30 days is generally advised for any new arrival. The species is listed as Critically Endangered in the wild (IUCN) and on CITES Appendix II; the captive trade, however, is supplied entirely by long-established captive-bred lines. These lines encompass a wide range of color morphs — wild-type, leucistic, golden albino, white albino, melanoid, copper, axanthic, piebald, GFP, mosaic, and chimera — all of which share the same care requirements. Lifespan in well-kept aquariums has been reported at 10–15 years, with some individuals living substantially longer.",
+  "breedingNotes": "Captive breeding is generally considered moderately difficult, though it has been achieved reliably in stable coldwater aquariums. Sexual maturity is typically reached at around 6–18 months. Cold-cycling — dropping the tank to roughly 10–14°C for several weeks, then allowing it to warm slightly — is commonly used to induce spawning. Males deposit spermatophores (small packet-shaped structures containing sperm) on the tank floor or decor; females retrieve them with the cloaca, and fertilization is internal. Eggs are subsequently laid on plants or smooth surfaces and hatch in roughly 14 days at 24°C, with cooler temperatures extending that timeline. Juveniles are strongly cannibalistic and must be separated by size as soon as possible; larvae are generally started on live baby brine shrimp or microworms.",
   "sources": {
     "primary": {
       "name": "Caudata Culture",
@@ -124,7 +150,7 @@
     "skinSensitivity": "high",
     "chytridRisk": "high",
     "breedingDifficulty": "moderate",
-    "breedingNotes": "Cold-cycling (drop to ~10–14°C then re-warm) is commonly used to induce spawning. Males deposit spermatophores; females pick them up with the cloaca and lay eggs on plants or smooth decor. Eggs hatch in roughly 14 days at 24°C. Juveniles are strongly cannibalistic and must be separated by size."
+    "breedingNotes": "Cold-cycling — dropping the tank temperature to roughly 10–14°C for a period of several weeks, then allowing it to warm slightly — is commonly used to induce spawning. Males deposit spermatophores (small packet-shaped structures containing sperm) on the tank floor or decor; females retrieve them with the cloaca and fertilization is internal. Eggs are subsequently laid on plants or smooth surfaces and hatch in roughly 14 days at 24°C, with cooler temperatures extending that timeline. Juveniles are strongly cannibalistic and must be separated by size as soon as possible."
   },
   "plant": null,
   "macroalgae": null,

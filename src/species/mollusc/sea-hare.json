@@ -20,25 +20,57 @@
     "order": "Aplysiida"
   },
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Red Sea", "Eastern Pacific"],
-    "countries": ["United States", "Mexico", "Philippines", "Indonesia", "Australia", "Egypt"],
+    "regions": [
+      "Indo-Pacific",
+      "Red Sea",
+      "Eastern Pacific"
+    ],
+    "countries": [
+      "United States",
+      "Mexico",
+      "Philippines",
+      "Indonesia",
+      "Australia",
+      "Egypt"
+    ],
     "habitat": "Shallow rocky reefs, sandy lagoons, seagrass beds, and intertidal zones where hair algae and macroalgae are abundant.",
     "biotope": "Reef flat / lagoon",
-    "depthRangeM": { "min": 0, "max": 20 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 20
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 26 },
-    "pH":           { "min": 8.1, "max": 8.4 },
-    "gH":           null,
-    "kH":           { "min": 8, "max": 12 },
-    "salinity":     { "min": 1.023, "max": 1.026 }
+    "temperatureC": {
+      "min": 22,
+      "max": 26
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.023,
+      "max": 1.026
+    }
   },
-  "adultSizeCm":   { "min": 5, "max": 30 },
-  "lifespanYears": { "min": 1, "max": 2 },
+  "adultSizeCm": {
+    "min": 5,
+    "max": 30
+  },
+  "lifespanYears": {
+    "min": 1,
+    "max": 2
+  },
   "tank": {
-    "minVolumeLiters":  200,
-    "minLengthCm":      90,
-    "swimZone":         "all",
+    "minVolumeLiters": 200,
+    "minLengthCm": 90,
+    "swimZone": "all",
     "decorPreferences": [
       "well-established live rock with hair-algae growth",
       "open sandy areas for grazing",
@@ -46,25 +78,25 @@
       "powerhead and pump intakes screened or sponge-guarded",
       "mature tank with stable parameters"
     ],
-    "minSandDepthCm":   null
+    "minSandDepthCm": null
   },
   "careLevel": "expert",
   "diet": {
-    "type":  "herbivore",
+    "type": "herbivore",
     "notes": "Voracious algae grazer prized for clearing hair-algae outbreaks. Has been documented eating green hair algae, filamentous algae, Caulerpa, and other macroalgae. Once a tank's algae is depleted, supplemental feeding with dried nori, parboiled lettuce, kelp sheets, or vegetable-based pellets anchored to a rock is essential — a Sea Hare will starve quickly in an algae-free tank."
   },
   "compatibility": {
-    "temperament":  "peaceful",
-    "grouping":     "solitary",
+    "temperament": "peaceful",
+    "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith":     [
+    "goodWith": [
       "peaceful reef fish",
       "small gobies and blennies",
       "shrimp",
       "snails",
       "soft corals (with caution)"
     ],
-    "avoidWith":    [
+    "avoidWith": [
       "triggerfish",
       "large angelfish",
       "puffers",
@@ -74,59 +106,59 @@
     ]
   },
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
+    "primaryImage": null,
+    "gallery": [],
     "imageCandidates": null
   },
-  "summary": "Large algae-grazing sea slug sold as a specialist hair-algae cleanup crew member. Generally considered expert-only because stressed individuals can release toxic ink capable of killing tank inhabitants.",
-  "careNotes": "\"Sea Hare\" is an umbrella common name for several large herbivorous sea slugs sold for algae control, primarily Aplysia californica (coldwater Pacific, up to 75 cm in the wild), Bursatella leachii (the tropical Ragged Sea Hare), and Dolabella auricularia (the Indo-Pacific Wedge Sea Hare, the species most commonly sold for hair-algae control). All three share essentially the same hobby husbandry profile: voracious hair-algae grazers, peaceful, copper-sensitive, and reported to be extremely effective at clearing nuisance algae outbreaks — a single Dolabella has been reported to clear a 125-gallon reef of hair algae in roughly two weeks. They are generally considered short-lived in captivity (around 1 year is typical for tropical species; Aplysia californica has been reported to reach up to 2 years in cool conditions). Sources disagreed on reef safety and minimum tank: LiveAquaria lists the original Aplysia entry as 'not reef compatible' and 'expert only', while LiveAquaria's Dolabella page and Quality Marine and Reefapp.net consider them reef-safe with a 200 L / 50 gallon minimum — averaged toward 200 L with reef-safe-with-caution prose. The single most important caveat is the INK-RELEASE risk: when stressed, injured, or dying, Sea Hares release a purple ink containing aplysioviolin and other toxins that can poison an entire closed system, especially with a protein skimmer running. Strong chemical filtration (fresh activated carbon and a polyfilter) and the ability to do a large emergency water change should be on standby at all times. Sea Hares will starve once they have grazed down available algae — plan to either supplement aggressively with dried nori/kelp or rehome the animal once the algae outbreak is controlled. All powerhead intakes and overflow strainers must be screened to prevent the soft-bodied slug being sucked in and shredded. They are highly sensitive to copper-based medications, swings in pH and salinity, and elevated nitrate; drip-acclimate over at least an hour and only add to mature, stable systems. Temperature ranges across sources spanned 22-26 C for tropical species and as low as 13-21 C for Aplysia californica from the cold California current; averaged to a hobby-typical 22-26 C band that fits the species most commonly shipped.",
+  "summary": "The Sea Hare is a large herbivorous sea slug kept as a specialist hair-algae cleaner. It is generally considered expert-only: when stressed or dying, it can release a toxic purple ink capable of killing other tank inhabitants.",
+  "careNotes": "\"Sea Hare\" is an umbrella common name for several large herbivorous sea slugs sold for algae control, primarily Aplysia californica (coldwater Pacific, up to 75 cm in the wild), Bursatella leachii (the tropical Ragged Sea Hare), and Dolabella auricularia (the Indo-Pacific Wedge Sea Hare, the species most commonly sold for hair-algae control). All three share essentially the same hobby husbandry profile: voracious hair-algae grazers, peaceful, copper-sensitive, and reported to be extremely effective at clearing nuisance algae outbreaks — a single Dolabella has been reported to clear a 125-gallon reef of hair algae in roughly two weeks. They are generally considered short-lived in captivity (around 1 year is typical for tropical species; Aplysia californica has been reported to reach up to 2 years in cool conditions). The single most important caveat is the INK-RELEASE risk: when stressed, injured, or dying, Sea Hares release a purple ink containing aplysioviolin and other toxins that can poison an entire closed system, especially with a protein skimmer running. Strong chemical filtration (fresh activated carbon and a polyfilter) and the ability to do a large emergency water change should be on standby at all times. Sea Hares will starve once they have grazed down available algae — plan to either supplement aggressively with dried nori/kelp or rehome the animal once the algae outbreak is controlled. All powerhead intakes and overflow strainers must be screened to prevent the soft-bodied slug being sucked in and shredded. They are highly sensitive to copper-based medications, swings in pH and salinity, and elevated nitrate; drip-acclimate over at least an hour and only add to mature, stable systems.",
   "breedingNotes": "Sea Hares are simultaneous hermaphrodites and have been observed laying long tangled strands of yellow-orange eggs in captivity. The planktonic veliger larvae are extremely difficult to rear and successful captive breeding by hobbyists is essentially unreported. Most specimens in the trade are wild-collected.",
   "sources": {
     "primary": {
       "name": "LiveAquaria",
-      "url":  "https://www.liveaquaria.com/products/sea-hare-expert-only",
+      "url": "https://www.liveaquaria.com/products/sea-hare-expert-only",
       "accessedDate": "2026-06-12"
     },
     "additional": [
       {
         "name": "LiveAquaria - Dolabella Sea Hare",
-        "url":  "https://www.liveaquaria.com/product/6995/?pcatid=6995",
+        "url": "https://www.liveaquaria.com/product/6995/?pcatid=6995",
         "accessedDate": "2026-06-12",
         "notes": "Cross-checked sizing (up to 12 inches = ~30 cm), temperature (72-78F = 22-26C), pH 8.1-8.4, specific gravity 1.023-1.025, herbivore diet, ink release behaviour, copper sensitivity, and reef-safe classification (which disagrees with the original Aplysia LiveAquaria page)."
       },
       {
         "name": "Reefapp - Dolabella auricularia",
-        "url":  "https://reefapp.net/en/encyclopedia/dolabella-auricularia",
+        "url": "https://reefapp.net/en/encyclopedia/dolabella-auricularia",
         "accessedDate": "2026-06-12",
         "notes": "Third-source confirmation: family Aplysiidae, native range Indo-Pacific/Red Sea, max ~50 cm in the wild, temperature ~26 C, salinity ~1.026 sg, 200 L (53 gal) minimum tank, reef-safe, hair-algae grazer."
       },
       {
         "name": "Quality Marine - Dolabella Sea Hare",
-        "url":  "https://www.qualitymarine.com/quality-marine/invertebrates/nudibranchs/dolabella/dolabella-sea-hare-55025/",
+        "url": "https://www.qualitymarine.com/quality-marine/invertebrates/nudibranchs/dolabella/dolabella-sea-hare-55025/",
         "accessedDate": "2026-06-12",
         "notes": "Fourth source confirming 72-78 F (22-26 C), pH 8.1-8.4, SG 1.023-1.025, copper-sensitive, reef-safe, peaceful, ink release on stress, hair-algae specialist; supplied 8-12 dKH alkalinity range."
       },
       {
         "name": "Wikipedia - Sea hare (Aplysiida)",
-        "url":  "https://en.wikipedia.org/wiki/Sea_hare",
+        "url": "https://en.wikipedia.org/wiki/Sea_hare",
         "accessedDate": "2026-06-12",
         "notes": "Taxonomic confirmation: order Aplysiida, family Aplysiidae, hermaphroditic, defensive ink with smoke-like toxic screen, herbivorous grazers."
       },
       {
         "name": "Bulk Reef Supply",
-        "url":  "https://www.bulkreefsupply.com/",
+        "url": "https://www.bulkreefsupply.com/",
         "accessedDate": "2026-06-12",
         "notes": "Designated secondary returned no dedicated Sea Hare product or care-guide page; swapped to Reefapp, Quality Marine, and Wikipedia for cross-verification per playbook fallback rule."
       }
     ]
   },
-  "fish":         null,
-  "crustacean":   null,
-  "coral":        null,
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
   "mollusc": {
-    "copperSensitive":    true,
-    "substrateNeeds":     "any",
-    "climbsOutOfTank":    false,
+    "copperSensitive": true,
+    "substrateNeeds": "any",
+    "climbsOutOfTank": false,
     "algaeTypesConsumed": [
       "hair algae",
       "green algae",
@@ -136,11 +168,11 @@
       "diatoms"
     ]
   },
-  "echinoderm":   null,
+  "echinoderm": null,
   "other-invert": null,
-  "amphibian":    null,
-  "plant":        null,
-  "macroalgae":   null,
+  "amphibian": null,
+  "plant": null,
+  "macroalgae": null,
   "schemaVersion": 1,
   "dataStatus": "researched",
   "lastReviewed": "2026-06-12"

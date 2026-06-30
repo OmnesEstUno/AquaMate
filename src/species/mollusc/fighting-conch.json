@@ -19,43 +19,76 @@
     "order": "Littorinimorpha"
   },
   "nativeRange": {
-    "regions": ["Western Atlantic", "Caribbean", "Indo-Pacific"],
-    "countries": ["United States", "Mexico", "Cuba", "Bahamas", "Fiji", "Tonga", "Philippines"],
+    "regions": [
+      "Western Atlantic",
+      "Caribbean",
+      "Indo-Pacific"
+    ],
+    "countries": [
+      "United States",
+      "Mexico",
+      "Cuba",
+      "Bahamas",
+      "Fiji",
+      "Tonga",
+      "Philippines"
+    ],
     "habitat": "Shallow tropical and subtropical seafloors with fine sand or silty substrate, including seagrass beds and lagoons where the conch burrows and forages for detritus and microalgae.",
     "biotope": "Tropical sand flats and seagrass beds",
-    "depthRangeM": { "min": 0, "max": 20 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 20
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 27 },
-    "pH":           { "min": 8.1, "max": 8.4 },
-    "gH":           null,
-    "kH":           { "min": 8, "max": 12 },
-    "salinity":     { "min": 1.023, "max": 1.025 }
+    "temperatureC": {
+      "min": 23,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.023,
+      "max": 1.025
+    }
   },
-  "adultSizeCm":   { "min": 7, "max": 10 },
-  "lifespanYears": { "min": 3, "max": 10 },
+  "adultSizeCm": {
+    "min": 7,
+    "max": 10
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 10
+  },
   "tank": {
-    "minVolumeLiters":  120,
-    "minLengthCm":      90,
-    "swimZone":         "bottom",
+    "minVolumeLiters": 120,
+    "minLengthCm": 90,
+    "swimZone": "bottom",
     "decorPreferences": [
       "deep fine aragonite or sugar-fine sand bed (5 cm or more)",
       "open sand floor for foraging",
       "mature reef rockwork with film algae",
       "avoid sharp or coarse substrate that can damage the foot"
     ],
-    "minSandDepthCm":   5
+    "minSandDepthCm": 5
   },
   "careLevel": "beginner",
   "diet": {
-    "type":  "omnivore",
+    "type": "omnivore",
     "notes": "Active sand-bed forager that consumes detritus, film algae, diatoms, cyanobacteria, and uneaten food. Generally advised to supplement with sinking pellets, dried seaweed, and small amounts of frozen meaty foods (especially in smaller systems), as conchs in well-cleaned tanks often outpace available natural forage and can slowly starve without supplementation."
   },
   "compatibility": {
-    "temperament":  "peaceful",
-    "grouping":     "solitary",
+    "temperament": "peaceful",
+    "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith":     [
+    "goodWith": [
       "reef fish",
       "most corals",
       "shrimp",
@@ -65,7 +98,7 @@
       "tangs",
       "gobies"
     ],
-    "avoidWith":    [
+    "avoidWith": [
       "predatory crabs",
       "triggerfish",
       "pufferfish",
@@ -75,47 +108,47 @@
     ]
   },
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
+    "primaryImage": null,
+    "gallery": [],
     "imageCandidates": null
   },
   "summary": "A peaceful, active sand-bed-cleaning conch with characteristic eye-stalks on long tentacles. Generally considered one of the most effective reef-safe substrate foragers and is suited to mature tanks with a deep fine sand bed.",
-  "careNotes": "Fighting Conch is an umbrella name covering the common Strombidae sold as sand-bed cleaners in the reef hobby, principally Strombus alatus (Florida Fighting Conch — the most commonly imported species, Western Atlantic) and Conomurex luhuanus (Strawberry Conch / Red Conch / Tiger Sand Conch — Indo-Pacific, formerly placed in Strombus). All share the same care: a deep fine sand bed, peaceful reef-safe temperament, and a habit of plowing through the substrate eating detritus, diatoms, film algae, and cyanobacteria. The much larger Queen Conch (Aliger gigas, formerly Strombus gigas) is sometimes confused with these but reaches 30+ cm and is unsuitable for home aquariums; it is explicitly excluded from this entry. Despite the name, the Fighting Conch is peaceful toward unlike tankmates; the territorial 'fighting' refers only to male-on-male shoving contests, which are easily avoided by keeping a single specimen or providing ample open sand floor for multiple males. A deep sand bed of about 5 cm or more is essential — the conch buries itself, lays eggs, and forages from the substrate, and a bare bottom or shallow gravel layer will not support normal behavior. Like other reef invertebrates the species is copper-sensitive and intolerant of copper-based medications; it also declines under chronically high nitrate. Generally considered hardy and beginner-suitable. Source spread on adult size was 7-10 cm (Aquarium Breeder) to ~10 cm (LiveAquaria) to 8 cm (Reeflings); averaged at 7-10 cm. Tank-size recommendations spanned 20 gal / 76 L (Aquarium Breeder) to 26 gal / 100 L (Reeflings) to 30 gal / 110 L (LiveAquaria); biased toward the larger end and rounded to 120 L given the species' active foraging behavior, lifetime sand-floor footprint needs, and male-territorial tendencies. Distinctive eye-stalks on long tentacles let the conch peer from under the sand — a useful field mark separating Strombidae from sand-sifting starfish and Nassarius snails. Lifespan reports vary widely from a few years in captivity to 10+ years in the wild.",
+  "careNotes": "Fighting Conch is an umbrella name for several Strombidae snails sold as sand-bed cleaners in the reef hobby, most commonly Strombus alatus (the Florida Fighting Conch, a Western Atlantic species and the most frequently imported form) and Conomurex luhuanus (the Strawberry, Red, or Tiger Sand Conch, an Indo-Pacific species formerly placed in the genus Strombus). Both share the same care requirements: a deep fine sand bed, a peaceful and reef-safe temperament, and a habit of plowing through the substrate to consume detritus, diatoms, film algae, and cyanobacteria. The much larger Queen Conch (Aliger gigas, still widely known under its older name Strombus gigas) is sometimes confused with fighting conchs in the trade but grows to 30 cm or more and is not suitable for home aquariums. Despite the name, the Fighting Conch is generally peaceful toward unlike tankmates; the 'fighting' refers specifically to male-on-male shoving contests, which can be avoided by keeping a single specimen or by providing enough open sand floor for multiple males to spread out. A sand bed of about 5 cm or more is essential — the conch buries itself, lays eggs, and forages from the substrate, and a bare bottom or shallow gravel layer will not support normal behavior. Like other reef invertebrates, the Fighting Conch is sensitive to copper and should not be kept in systems treated with copper-based medications; it also tends to decline under chronically elevated nitrate. Generally considered hardy and well-suited to beginners in a mature reef. The distinctive eye-stalks mounted on long tentacles let the conch peer from beneath the sand surface — a useful feature for telling it apart from sand-sifting starfish and Nassarius snails. Reported lifespans range from a few years in captivity to 10 or more years in the wild.",
   "breedingNotes": "Dioecious (separate sexes) with internal fertilization. Females lay long sticky egg masses of up to ~76,000-182,000 eggs in the sand. Larvae are planktonic veligers that require a long open-water rearing phase, and have not been reliably raised in home aquariums. Captive breeding is generally not pursued; most specimens in the trade are wild-collected.",
   "sources": {
     "primary": {
       "name": "LiveAquaria",
-      "url":  "https://www.liveaquaria.com/products/fighting-conch",
+      "url": "https://www.liveaquaria.com/products/fighting-conch",
       "accessedDate": "2026-06-12"
     },
     "additional": [
       {
         "name": "Aquarium Breeder - Fighting Conch Snail Detailed Guide",
-        "url":  "https://aquariumbreeder.com/fighting-conch-snail-detailed-guide-care-diet-and-breeding/",
+        "url": "https://aquariumbreeder.com/fighting-conch-snail-detailed-guide-care-diet-and-breeding/",
         "accessedDate": "2026-06-12",
         "notes": "Cross-checked sizing (7-10 cm), temperature range (24-29 C), salinity (SG 1.023-1.025), pH (8.1-8.4), copper sensitivity, and breeding biology. Reef2Reef wiki (designated secondary) returned 403, so used Aquarium Breeder as primary secondary."
       },
       {
         "name": "Reeflings - Florida Fighting Conch Care Guide",
-        "url":  "https://reeflings.com/species/strombus-alatus",
+        "url": "https://reeflings.com/species/strombus-alatus",
         "accessedDate": "2026-06-12",
         "notes": "Third source confirming family (Strombidae), max size ~8 cm, minimum tank ~100 L, temperature 24-28 C, pH 8.0-8.5, SG 1.023-1.025, sandy substrate requirement, and reef-safe status."
       },
       {
         "name": "SaltwaterAquarium.com - Sand Sifting Strawberry Conch",
-        "url":  "https://www.saltwateraquarium.com/sand-sifting-strawberry-conch-conomurex-luhuanus-cleanup-crew/",
+        "url": "https://www.saltwateraquarium.com/sand-sifting-strawberry-conch-conomurex-luhuanus-cleanup-crew/",
         "accessedDate": "2026-06-12",
         "notes": "Confirmed Conomurex luhuanus (Strawberry Conch) shares the Strombus reef-sand-cleaner husbandry profile: fine-medium sand bed, reef-safe, peaceful detritivore - supports umbrella consolidation with S. alatus."
       }
     ]
   },
-  "fish":         null,
-  "crustacean":   null,
-  "coral":        null,
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
   "mollusc": {
-    "copperSensitive":    true,
-    "substrateNeeds":     "sand",
-    "climbsOutOfTank":    false,
+    "copperSensitive": true,
+    "substrateNeeds": "sand",
+    "climbsOutOfTank": false,
     "algaeTypesConsumed": [
       "diatoms",
       "film algae",
@@ -124,11 +157,11 @@
       "uneaten food"
     ]
   },
-  "echinoderm":   null,
+  "echinoderm": null,
   "other-invert": null,
-  "amphibian":    null,
-  "plant":        null,
-  "macroalgae":   null,
+  "amphibian": null,
+  "plant": null,
+  "macroalgae": null,
   "schemaVersion": 1,
   "dataStatus": "researched",
   "lastReviewed": "2026-06-12"

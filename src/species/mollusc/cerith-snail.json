@@ -20,50 +20,81 @@
     "order": "Caenogastropoda"
   },
   "nativeRange": {
-    "regions": ["Caribbean", "Tropical Western Atlantic", "Indo-Pacific"],
-    "countries": ["United States", "Mexico", "Bahamas", "Cuba", "Marshall Islands"],
+    "regions": [
+      "Caribbean",
+      "Tropical Western Atlantic",
+      "Indo-Pacific"
+    ],
+    "countries": [
+      "United States",
+      "Mexico",
+      "Bahamas",
+      "Cuba",
+      "Marshall Islands"
+    ],
     "habitat": "Shallow tropical seagrass beds, sandy lagoons, reef flats, and rubble zones; burrows into the upper sand layer by day and emerges at night to graze.",
     "biotope": "Reef flat / seagrass / sand",
-    "depthRangeM": { "min": 0, "max": 10 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 10
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 26 },
-    "pH":           { "min": 8.0, "max": 8.4 },
-    "gH":           null,
-    "kH":           { "min": 7, "max": 12 },
-    "salinity":     { "min": 1.023, "max": 1.025 }
+    "temperatureC": {
+      "min": 22,
+      "max": 26
+    },
+    "pH": {
+      "min": 8,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 7,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.023,
+      "max": 1.025
+    }
   },
-  "adultSizeCm":   { "min": 2, "max": 3.5 },
-  "lifespanYears": { "min": 1, "max": 3 },
+  "adultSizeCm": {
+    "min": 2,
+    "max": 3.5
+  },
+  "lifespanYears": {
+    "min": 1,
+    "max": 3
+  },
   "tank": {
-    "minVolumeLiters":  40,
-    "minLengthCm":      45,
-    "swimZone":         "bottom",
+    "minVolumeLiters": 40,
+    "minLengthCm": 45,
+    "swimZone": "bottom",
     "decorPreferences": [
       "deep sand bed for burrowing",
       "live rock with biofilm and algae",
       "established mature system",
       "open sand area to graze"
     ],
-    "minSandDepthCm":   3
+    "minSandDepthCm": 3
   },
   "careLevel": "beginner",
   "diet": {
-    "type":  "detritivore",
+    "type": "detritivore",
     "notes": "Generally accepted as an omnivorous scavenger that has been documented eating detritus, uneaten food, fish waste, diatoms, film algae, and cyanobacteria. If algae and detritus are scarce, supplemental feeding with sinking algae wafers or small bits of frozen food is commonly advised."
   },
   "compatibility": {
-    "temperament":  "peaceful",
-    "grouping":     "shoaling",
+    "temperament": "peaceful",
+    "grouping": "shoaling",
     "minGroupSize": 5,
-    "goodWith":     [
+    "goodWith": [
       "other reef-safe cleanup crew snails",
       "hermit crabs",
       "small reef-safe shrimp",
       "peaceful reef fish",
       "corals"
     ],
-    "avoidWith":    [
+    "avoidWith": [
       "predatory wrasses (e.g. Harlequin Tuskfish)",
       "pufferfish",
       "triggerfish",
@@ -72,47 +103,47 @@
     ]
   },
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
+    "primaryImage": null,
+    "gallery": [],
     "imageCandidates": null
   },
-  "summary": "A small, peaceful sand-bed snail prized as a reef cleanup-crew workhorse. Generally considered reef-safe and well suited to grazing detritus, film algae, and diatoms while aerating the upper sand layer.",
-  "careNotes": "Cerith Snail is an umbrella name for several closely related cerithiid sand-grazers commonly sold as cleanup crew, including Cerithium litteratum (Florida Cerith), Cerithium nodulosum (Pacific or Giant Knobby Cerith), and assorted Cerithium spp. At adult size of roughly 2-3.5 cm they spend the day burrowed in the upper few centimeters of sand and emerge after dark to graze film algae, diatoms, cyanobacteria, detritus, and uneaten food. They are commonly considered reef-safe and have not been reported to bother corals or other invertebrates. A mature aquarium with an established sand bed is generally advised; LiveAquaria suggests roughly 5-10 snails per 25 gallons (~95 L) so colonies don't outpace available detritus. They are sensitive to copper-based medications and to elevated nitrate, so quarantine and acclimation via slow drip are strongly recommended. Cerith snails frequently lay distinctive 'spaghetti' egg strings on the aquarium glass after dark; the planktonic larvae rarely survive a normal display tank as they are eaten by filter-feeders or removed by mechanical filtration, so the species does not typically overpopulate. Source spread was modest: temperature 22-26 C (LiveAquaria) vs 22-27 C (Shrimp and Snail Breeder), averaged to 22-26 C; pH 8.1-8.4 (LiveAquaria) vs 8.0-8.5 (Shrimp and Snail Breeder), averaged to 8.0-8.4; salinity SG 1.023-1.025 (consistent across sources).",
-  "breedingNotes": "Captive breeding is generally considered impractical. Mature snails frequently lay long, stringy 'spaghetti' egg masses on the aquarium glass after dark, but the planktonic larvae require specialised rearing and are typically consumed by tankmates or stripped from the water column by filtration before they can settle. Captive-bred specimens are available from ORA (Marshall Islands mariculture) but home-tank propagation has rarely been reported.",
+  "summary": "Cerith Snail is a small, peaceful sand-grazer prized as a saltwater cleanup crew member. Generally considered reef-safe, it spends its days burrowed in the upper sand layer and emerges at night to graze film algae, diatoms, cyanobacteria, and detritus.",
+  "careNotes": "Cerith Snail is an umbrella name for several closely related cerithiid sand-grazers commonly sold as cleanup crew, including Cerithium litteratum (Florida Cerith), Cerithium nodulosum (Pacific or Giant Knobby Cerith), and assorted Cerithium spp. At an adult size of roughly 2 to 3.5 cm, these snails spend the day burrowed in the upper few centimeters of sand and emerge after dark to graze film algae, diatoms, cyanobacteria, detritus, and uneaten food. They are commonly considered reef-safe and have not been reported to bother corals or other invertebrates. Like all molluscs, they are sensitive to copper-based medications, and they are also affected by elevated nitrate levels, so quarantine and slow drip acclimation are strongly recommended before adding them to a display tank. Cerith snails frequently lay distinctive rope-like egg strings on the aquarium glass after dark; the planktonic larvae rarely survive a normal display tank, as they are consumed by filter-feeders or removed by mechanical filtration, so the species does not typically overpopulate.",
+  "breedingNotes": "Captive breeding is generally considered impractical in a home aquarium. Mature snails frequently lay long, rope-like egg masses on the aquarium glass after dark, but the planktonic larvae require specialised rearing conditions and are typically consumed by tankmates or removed from the water column by filtration before they can settle and develop. Commercially maricultured specimens, including snails raised in Marshall Islands facilities, are available through specialist retailers, but home-tank propagation has rarely been reported.",
   "sources": {
     "primary": {
       "name": "LiveAquaria",
-      "url":  "https://www.liveaquaria.com/product/1159/?pcatid=1159",
+      "url": "https://www.liveaquaria.com/product/1159/?pcatid=1159",
       "accessedDate": "2026-06-12"
     },
     "additional": [
       {
         "name": "Bulk Reef Supply (ORA Cerith Snail)",
-        "url":  "https://www.bulkreefsupply.com/ora-cerith-snail-5-pack-ora.html",
+        "url": "https://www.bulkreefsupply.com/ora-cerith-snail-5-pack-ora.html",
         "accessedDate": "2026-06-12",
         "notes": "Designated secondary returned HTTP 404 on both 5-pack and 25-pack URLs at access time. Swapped to AlgaeBarn and Shrimp and Snail Breeder for cross-verification. ORA listing referenced indirectly for ~1\" max size and Marshall Islands maricultured origin."
       },
       {
         "name": "AlgaeBarn - Cerith Snails in the Reef Tank",
-        "url":  "https://www.algaebarn.com/blog/clean-up-crew/aquarium-cleaning-machines-cerith-snails-in-the-reef-tank/",
+        "url": "https://www.algaebarn.com/blog/clean-up-crew/aquarium-cleaning-machines-cerith-snails-in-the-reef-tank/",
         "accessedDate": "2026-06-12",
         "notes": "Confirmed scientific name Cerithium litteratum, Caribbean native range, reef-safe status, omnivorous detritivore diet, nocturnal behavior, and ~1 snail per 5 gal stocking heuristic."
       },
       {
         "name": "Shrimp and Snail Breeder - Cerith Snail Detailed Guide",
-        "url":  "https://aquariumbreeder.com/cerith-snail-detailed-guide-care-diet-and-breeding/",
+        "url": "https://aquariumbreeder.com/cerith-snail-detailed-guide-care-diet-and-breeding/",
         "accessedDate": "2026-06-12",
         "notes": "Third source confirmed adult size 2-3 cm, temperature 22-27 C, pH 8.0-8.5, salinity SG 1.023-1.025, kH 7-16 dKH, lifespan up to 3 years, and deep-sand-bed burrowing behavior."
       }
     ]
   },
-  "fish":         null,
-  "crustacean":   null,
-  "coral":        null,
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
   "mollusc": {
-    "copperSensitive":    true,
-    "substrateNeeds":     "sand",
-    "climbsOutOfTank":    false,
+    "copperSensitive": true,
+    "substrateNeeds": "sand",
+    "climbsOutOfTank": false,
     "algaeTypesConsumed": [
       "diatoms",
       "film algae",
@@ -121,11 +152,11 @@
       "uneaten food"
     ]
   },
-  "echinoderm":   null,
+  "echinoderm": null,
   "other-invert": null,
-  "amphibian":    null,
-  "plant":        null,
-  "macroalgae":   null,
+  "amphibian": null,
+  "plant": null,
+  "macroalgae": null,
   "schemaVersion": 1,
   "dataStatus": "researched",
   "lastReviewed": "2026-06-12"

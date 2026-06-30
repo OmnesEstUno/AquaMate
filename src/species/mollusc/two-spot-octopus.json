@@ -18,25 +18,48 @@
     "order": "Octopoda"
   },
   "nativeRange": {
-    "regions": ["Eastern Pacific"],
-    "countries": ["United States", "Mexico"],
-    "habitat": "Coastal rocky reefs, debris-strewn shorelines, and intertidal flats along the mid- and southern California coast and Pacific Baja California. Prefers crevices, rock piles, and shell debris for shelter.",
+    "regions": [
+      "Eastern Pacific"
+    ],
+    "countries": [
+      "United States",
+      "Mexico"
+    ],
+    "habitat": "The Two-Spot Octopus is found along coastal rocky reefs, debris-strewn shorelines, and intertidal flats from mid- and southern California south to Pacific Baja California. In the wild it favors crevices, rock piles, and shell debris as shelter, and is encountered from the intertidal zone down to about 20 meters.",
     "biotope": "Coastal",
-    "depthRangeM": { "min": 0, "max": 20 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 20
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 16, "max": 22 },
-    "pH":           { "min": 8.0, "max": 8.4 },
-    "gH":           null,
-    "kH":           null,
-    "salinity":     { "min": 1.024, "max": 1.026 }
+    "temperatureC": {
+      "min": 16,
+      "max": 22
+    },
+    "pH": {
+      "min": 8,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": null,
+    "salinity": {
+      "min": 1.024,
+      "max": 1.026
+    }
   },
-  "adultSizeCm":   { "min": 15, "max": 58 },
-  "lifespanYears": { "min": 1, "max": 2 },
+  "adultSizeCm": {
+    "min": 15,
+    "max": 58
+  },
+  "lifespanYears": {
+    "min": 1,
+    "max": 2
+  },
   "tank": {
-    "minVolumeLiters":  300,
-    "minLengthCm":      120,
-    "swimZone":         "all",
+    "minVolumeLiters": 300,
+    "minLengthCm": 120,
+    "swimZone": "all",
     "decorPreferences": [
       "sandy substrate",
       "live rock with caves and crevices",
@@ -46,21 +69,21 @@
       "coldwater chiller-equipped system",
       "minimal aggressive lighting"
     ],
-    "minSandDepthCm":   5
+    "minSandDepthCm": 5
   },
   "careLevel": "expert",
   "diet": {
-    "type":  "carnivore",
-    "notes": "Strict carnivore. In the wild has been documented preying on crabs, shrimp, bivalves, snails, and small fish. In captivity readily accepts thawed frozen shrimp, scallops, clam meat, and live crustaceans such as fiddler crabs, shore shrimp, and hermit crabs; juveniles typically start on amphipods and mysid shrimp before progressing to larger prey. Hatchlings and juveniles under about three months are usually fed multiple times per day. Avoid feeding goldfish or other freshwater feeder fish, which are nutritionally poor and have been linked to health issues."
+    "type": "carnivore",
+    "notes": "The Two-Spot Octopus is an active predator that feeds exclusively on animal prey. In the wild it has been documented hunting crabs, shrimp, bivalves, snails, and small fish. In captivity it generally accepts thawed frozen shrimp, scallops, and clam meat, as well as live crustaceans such as fiddler crabs, shore shrimp, and hermit crabs. Juveniles typically start on small prey — amphipods and mysid shrimp — before progressing to larger items, and hatchlings under about three months old are usually fed multiple times per day. Freshwater feeder fish such as goldfish are nutritionally poor and have been linked to health problems in captive cephalopods; they are best avoided."
   },
   "compatibility": {
-    "temperament":  "semi-aggressive",
-    "grouping":     "solitary",
+    "temperament": "semi-aggressive",
+    "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith":     [
+    "goodWith": [
       "kept strictly as a species-only tank"
     ],
-    "avoidWith":    [
+    "avoidWith": [
       "all fish",
       "shrimp (treated as food)",
       "crabs (treated as food)",
@@ -71,49 +94,49 @@
     ]
   },
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
+    "primaryImage": null,
+    "gallery": [],
     "imageCandidates": null
   },
-  "summary": "A small, intelligent coldwater octopus from the California coast and the most commonly kept octopus in the marine hobby. Recognizable by the iridescent blue eyespots beneath each eye. Short-lived, escape-prone, and strictly species-only.",
-  "careNotes": "Octopus bimaculoides is generally considered the most beginner-accessible pet octopus, but it is still firmly a specialist-only animal in the home aquarium. Its coastal-California origin means it is a coldwater species — most sources advise keeping it around 16-22 C, which almost always requires a dedicated aquarium chiller in a heated home. Sources differed on the minimum tank size (TONMO lists 50 US gal / 189 L as an absolute floor while TFH Magazine recommends at least 75 US gal / 284 L); we have set 300 L to give the animal room for the enrichment, dens, and escape-proofing it needs across its short adult life. Octopuses are world-class escape artists — they can squeeze through any gap larger than their beak, and Bimacs have been documented climbing out of unsealed tanks. A tightly-fitting lid with weights or latches, sealed overflow weirs, and screened powerhead intakes are non-negotiable. They are also highly intelligent and benefit from environmental enrichment (caves, PVC dens, novel objects). The species is strictly species-only: any fish, shrimp, crab, or snail in the tank will eventually be eaten, and other octopuses will fight. Lifespan in captivity is short, typically 1-2 years, and females usually die shortly after brooding eggs (senescence). Like all molluscs, Octopus bimaculoides is highly sensitive to copper and should never share a system with copper-based medications. Captive-bred lines exist from a small number of breeders, but most specimens are still wild-collected from the southern California coast. The species was the first octopus to have its genome fully sequenced (2015) and is widely used in cephalopod neuroscience research.",
-  "breedingNotes": "Females lay strings of comparatively large eggs (around 1 cm) attached to a hard surface inside a den and brood them without feeding until hatching. Hatchlings emerge as benthic miniatures of the adult (no planktonic paralarval stage), which is a major reason this species is one of the few octopuses that can be reared in captivity. Even so, hatchling survival rates are low and require live amphipods and mysid shrimp at first. Females die shortly after their eggs hatch (semelparous senescence), and spontaneous infertile egg-laying has been reported even in unmated captive females.",
+  "summary": "The Two-Spot Octopus (Octopus bimaculoides) is widely considered the most popular pet octopus in the hobby, valued for its diurnal activity, moderate size, and coastal California origin. It requires a coldwater chiller, a fully escape-proof tank, and a species-only setup.",
+  "careNotes": "The Two-Spot Octopus is generally considered the most beginner-accessible pet octopus, but it remains firmly a specialist-only animal in the home aquarium. Its coastal-California origin means it requires cold water — most sources advise keeping it between 16 and 22 C, which almost always means a dedicated aquarium chiller in a heated home. Containment is the other defining challenge: octopuses can squeeze through any gap wider than their beak, and the Two-Spot has been documented escaping from unsealed tanks. A tightly-fitting lid secured with weights or latches, sealed overflow weirs, and screened powerhead intakes are all essential. The species is also highly intelligent and benefits from ongoing environmental enrichment — caves, PVC pipe dens, and novel objects introduced regularly. The tank must be species-only: any fish, shrimp, crab, or snail will eventually be eaten, and two octopuses kept together will fight. Lifespan in captivity is short, typically 1 to 2 years, and females normally die shortly after their eggs hatch — a natural end-of-life process tied to reproduction. Like all molluscs, the Two-Spot Octopus is highly sensitive to copper and should never share a system with copper-based medications. Captive-bred individuals are available from a small number of specialist breeders, but most specimens in the trade are still wild-collected from the southern California coast. The species was the first octopus to have its genome fully sequenced (in 2015) and is widely used as a research animal in cephalopod neuroscience.",
+  "breedingNotes": "Females lay strings of comparatively large eggs — around 1 cm each — attached to a hard surface inside a den, and brood them without feeding until they hatch. Unlike many marine invertebrates, the hatchlings emerge as fully-formed bottom-dwelling miniatures of the adult rather than passing through a free-swimming planktonic larval stage; this is one of the main reasons the Two-Spot Octopus is among the few octopuses that can realistically be reared in captivity. Even so, hatchling survival rates are low, and the young require live amphipods and mysid shrimp in the early weeks. Females die shortly after their eggs hatch — this is a natural, genetically programmed end-of-life event tied to reproduction, not illness. Spontaneous infertile egg-laying has also been reported in unmated captive females.",
   "sources": {
     "primary": {
       "name": "TONMO - Octopus bimaculoides Care Sheet",
-      "url":  "https://tonmo.com/articles/octopus-bimaculoides-care-sheet-two-spot-octopus.6/",
+      "url": "https://tonmo.com/articles/octopus-bimaculoides-care-sheet-two-spot-octopus.6/",
       "accessedDate": "2026-06-12",
       "notes": "Substituted as primary after both originally-supplied sources (LiveAquaria, TFH product page) returned 404. TONMO is the long-running cephalopod-keeping community and the most-cited care reference for this species."
     },
     "additional": [
       {
         "name": "TFH Magazine - Choosing and Keeping a Pet Octopus",
-        "url":  "https://www.tfhmagazine.com/articles/saltwater/choosing-and-keeping-an-octopus",
+        "url": "https://www.tfhmagazine.com/articles/saltwater/choosing-and-keeping-an-octopus",
         "accessedDate": "2026-06-12",
         "notes": "Cross-checked tank size (75 US gal / 284 L recommended vs TONMO 50 US gal / 189 L floor), coldwater requirement (<21 C), and species-only / no-fish guidance. Averaged tank size upward to 300 L per the playbook bias-toward-larger rule for intelligent escape-prone animals."
       },
       {
         "name": "Wikipedia - California two-spot octopus",
-        "url":  "https://en.wikipedia.org/wiki/California_two-spot_octopus",
+        "url": "https://en.wikipedia.org/wiki/California_two-spot_octopus",
         "accessedDate": "2026-06-12",
         "notes": "Confirmed taxonomy (Octopodidae, Octopoda), native range (southern California to western Baja California), depth (intertidal to ~20 m), adult size (17.5 cm mantle / 58 cm arms), preferred temperature 18-22 C with tolerance 15-26 C, lifespan 1-1.5 yr wild / up to 2 yr captive, and benthic-hatchling life history that makes the species one of the few captive-rearable octopuses."
       }
     ]
   },
-  "fish":         null,
-  "crustacean":   null,
-  "coral":        null,
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
   "mollusc": {
-    "copperSensitive":    true,
-    "substrateNeeds":     "sand",
-    "climbsOutOfTank":    true,
+    "copperSensitive": true,
+    "substrateNeeds": "sand",
+    "climbsOutOfTank": true,
     "algaeTypesConsumed": []
   },
-  "echinoderm":   null,
+  "echinoderm": null,
   "other-invert": null,
-  "amphibian":    null,
-  "plant":        null,
-  "macroalgae":   null,
+  "amphibian": null,
+  "plant": null,
+  "macroalgae": null,
   "schemaVersion": 1,
   "dataStatus": "researched",
   "lastReviewed": "2026-06-12",

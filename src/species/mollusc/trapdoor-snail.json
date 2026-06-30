@@ -23,25 +23,56 @@
     "order": "Architaenioglossa"
   },
   "nativeRange": {
-    "regions": ["East Asia", "Southeast Asia"],
-    "countries": ["China", "Japan", "Vietnam", "Thailand", "Myanmar", "Russia (Far East)"],
+    "regions": [
+      "East Asia",
+      "Southeast Asia"
+    ],
+    "countries": [
+      "China",
+      "Japan",
+      "Vietnam",
+      "Thailand",
+      "Myanmar",
+      "Russia (Far East)"
+    ],
     "habitat": "Freshwater lakes, reservoirs, slow-moving rivers, streams, and ponds with soft, muddy, or silty bottoms.",
     "biotope": "Slow-moving freshwater pond and lake margins.",
-    "depthRangeM": { "min": 0.2, "max": 7 }
+    "depthRangeM": {
+      "min": 0.2,
+      "max": 7
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 18, "max": 28 },
-    "pH":           { "min": 6.5, "max": 8.0 },
-    "gH":           { "min": 5, "max": 18 },
-    "kH":           { "min": 4, "max": 15 },
-    "salinity":     null
+    "temperatureC": {
+      "min": 18,
+      "max": 28
+    },
+    "pH": {
+      "min": 6.5,
+      "max": 8
+    },
+    "gH": {
+      "min": 5,
+      "max": 18
+    },
+    "kH": {
+      "min": 4,
+      "max": 15
+    },
+    "salinity": null
   },
-  "adultSizeCm":   { "min": 3, "max": 6 },
-  "lifespanYears": { "min": 5, "max": 10 },
+  "adultSizeCm": {
+    "min": 3,
+    "max": 6
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 10
+  },
   "tank": {
-    "minVolumeLiters":  40,
-    "minLengthCm":      45,
-    "swimZone":         "bottom",
+    "minVolumeLiters": 40,
+    "minLengthCm": 45,
+    "swimZone": "bottom",
     "decorPreferences": [
       "soft sand or fine smooth gravel substrate",
       "driftwood and rocks with biofilm",
@@ -49,18 +80,18 @@
       "outdoor pond setting is also well suited",
       "tight-fitting lid recommended"
     ],
-    "minSandDepthCm":   2
+    "minSandDepthCm": 2
   },
   "careLevel": "beginner",
   "diet": {
-    "type":  "omnivore",
+    "type": "omnivore",
     "notes": "Primarily grazes filamentous algae, diatoms, biofilm, and detritus. Has been documented eating leftover fish food, blanched vegetables (zucchini, spinach, cucumber), algae wafers, and sinking bottom-feeder tablets. Generally considered a non-destructive grazer that does not eat healthy live plants. Supplemental feeding is often needed in clean tanks with limited algae."
   },
   "compatibility": {
-    "temperament":  "peaceful",
-    "grouping":     "solitary",
+    "temperament": "peaceful",
+    "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith":     [
+    "goodWith": [
       "goldfish",
       "koi (in ponds)",
       "peaceful community fish",
@@ -71,7 +102,7 @@
       "nerite snails",
       "mystery snails"
     ],
-    "avoidWith":    [
+    "avoidWith": [
       "snail-eating loaches (Yoyo, Clown, Skunk)",
       "assassin snails",
       "pufferfish",
@@ -80,41 +111,41 @@
     ]
   },
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
+    "primaryImage": null,
+    "gallery": [],
     "imageCandidates": null
   },
-  "summary": "A large, hardy, coldwater-tolerant freshwater snail commonly kept as pond and goldfish-tank clean-up crew. Generally considered one of the few aquarium snails that does not damage live plants.",
-  "careNotes": "Trapdoor Snail is an umbrella trade name applied to several closely related, mostly indistinguishable Viviparidae species sold for ponds and coldwater tanks: Cipangopaludina chinensis (Chinese Mystery / Trapdoor), C. japonica (Japanese Trapdoor — frequently conflated with C. chinensis), Viviparus malleatus (a common alternative trade ID), and Viviparus sp. (the so-called Blueberry Snail morph offered by Aqua Imports). All are live-bearers (ovoviviparous — females release fully formed juveniles rather than eggs), tolerate a wide temperature range from roughly 18 to 28 C, and survive seasonal pond temperatures well below that, including under ice. This makes them one of the standard freshwater snails for outdoor ponds and unheated goldfish setups, where they are valued as gentle algae grazers that do not eat healthy plants. The operculum (the trapdoor) seals the shell aperture when the snail retracts, providing strong protection against predators and short-term poor water. They prefer soft, fine substrate (sand or smooth gravel) and have been reported to scrape mud, biofilm, and detritus across the tank floor. Generally advised to keep water mineral-rich (gH around 5–18, kH around 4–15) to support shell growth; very soft, acidic conditions can erode the shell over time. Source sizing disagreed: Aqua Imports lists 7.6 cm (3 in), Fishkeeping World ~5 cm (2 in), and Wikipedia 4–6 cm shell height with a max of 6.5 cm; averaged to a 3–6 cm working range. Source temperature ranges spanned 22–26 C (Aqua Imports) to 20–31 C (Fishkeeping World) to 20–28 C (Wikipedia); averaged to 18–28 C with coldwater pond tolerance documented separately. Copper-sensitive like other invertebrates and should not be exposed to copper-based medications. Often confused with the Apple Snail (Pomacea spp.), which is a different family and not coldwater-tolerant. Caution: C. chinensis is regulated as an invasive species in several US states and parts of Canada — never release into local waterways.",
+  "summary": "The Trapdoor Snail is a large, coldwater-tolerant freshwater snail widely kept in outdoor ponds and unheated aquariums as a gentle grazer. It is generally considered one of the few aquarium snails that does not damage healthy live plants.",
+  "careNotes": "Trapdoor Snail is an umbrella trade name applied to several closely related, mostly indistinguishable Viviparidae species sold for ponds and coldwater tanks: Cipangopaludina chinensis (Chinese Mystery Snail or Chinese Trapdoor), C. japonica (Japanese Trapdoor, frequently conflated with C. chinensis), Viviparus malleatus (a common alternative trade identification), and Viviparus sp. (the so-called Blueberry Snail morph). All are live-bearers — females are ovoviviparous, meaning they retain developing embryos internally and release fully formed juveniles rather than laying eggs. They tolerate a wide temperature range from roughly 18 to 28 C and survive seasonal pond temperatures well below that, including under ice. This makes them among the most commonly chosen freshwater snails for outdoor ponds and unheated goldfish setups, where they are valued as gentle algae grazers that do not eat healthy plants. The operculum — the trapdoor that gives the group its common name — seals the shell opening when the snail retracts, providing meaningful protection against predators and brief exposure to poor water conditions. Trapdoor Snails prefer soft, fine substrate such as sand or smooth gravel and have been reported to work their way across the tank floor scraping up mud, biofilm, and detritus. Water that is mineral-rich is generally recommended (gH around 5–18, kH around 4–15) to support healthy shell growth; very soft, acidic conditions can erode the shell over time. Like other invertebrates, they are sensitive to copper and should not be kept in aquariums treated with copper-based medications. Trapdoor Snails are sometimes confused with the Apple Snail (Pomacea spp.), which belongs to a different family and is not coldwater-tolerant. Caution: C. chinensis is regulated as an invasive species in several US states and parts of Canada — never release into local waterways.",
   "breedingNotes": "Live-bearing (ovoviviparous). Females retain developing embryos internally and release fully formed miniature snails rather than laying eggs, which makes them one of the few aquarium snails that cannot be controlled by removing egg clutches. Broods of up to roughly 20 juveniles per cycle have been reported, with gestation said to last several months. Generally breeds readily in well-fed pond and aquarium conditions without special intervention; populations can grow if food is abundant.",
   "sources": {
     "primary": {
       "name": "Aqua Imports",
-      "url":  "https://www.aqua-imports.com/product/japanese-trapdoor-snail/",
+      "url": "https://www.aqua-imports.com/product/japanese-trapdoor-snail/",
       "accessedDate": "2026-06-12"
     },
     "additional": [
       {
         "name": "Fishkeeping World - Japanese Trapdoor Snail",
-        "url":  "https://www.fishkeepingworld.com/japanese-trapdoor-snail/",
+        "url": "https://www.fishkeepingworld.com/japanese-trapdoor-snail/",
         "accessedDate": "2026-06-12",
         "notes": "Practical Fishkeeping (designated secondary) returned HTTP 403 and was unreachable; swapped to Fishkeeping World as the first responsive secondary. Cross-checked sizing (~2 in / ~5 cm), temperature 68-88F (20-31C), pH 6.5-8, live-bearing reproduction, and coldwater tolerance below freezing."
       },
       {
         "name": "Wikipedia - Chinese mystery snail",
-        "url":  "https://en.wikipedia.org/wiki/Chinese_mystery_snail",
+        "url": "https://en.wikipedia.org/wiki/Chinese_mystery_snail",
         "accessedDate": "2026-06-12",
         "notes": "Confirmed taxonomy (Viviparidae, Architaenioglossa), synonyms (Bellamya chinensis, Viviparus malleatus, Cipangopaludina japonica/malleata), native range (East Asia from Indochina to northern China and eastern Russia), shell height 4-6 cm (max 6.5 cm), optimal temperature 20-28 C, depth range 0.2-7 m, ovoviviparous reproduction, and invasive-species status."
       }
     ]
   },
-  "fish":         null,
-  "crustacean":   null,
-  "coral":        null,
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
   "mollusc": {
-    "copperSensitive":    true,
-    "substrateNeeds":     "soft",
-    "climbsOutOfTank":    true,
+    "copperSensitive": true,
+    "substrateNeeds": "soft",
+    "climbsOutOfTank": true,
     "algaeTypesConsumed": [
       "filamentous algae",
       "diatoms",
@@ -123,11 +154,11 @@
       "detritus"
     ]
   },
-  "echinoderm":   null,
+  "echinoderm": null,
   "other-invert": null,
-  "amphibian":    null,
-  "plant":        null,
-  "macroalgae":   null,
+  "amphibian": null,
+  "plant": null,
+  "macroalgae": null,
   "schemaVersion": 1,
   "dataStatus": "researched",
   "lastReviewed": "2026-06-12"

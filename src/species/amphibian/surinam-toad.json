@@ -19,7 +19,10 @@
     "order": "Anura"
   },
   "nativeRange": {
-    "regions": ["South America", "Amazon Basin"],
+    "regions": [
+      "South America",
+      "Amazon Basin"
+    ],
     "countries": [
       "Brazil",
       "Bolivia",
@@ -33,17 +36,38 @@
     ],
     "habitat": "Warm, slow-moving, tannin-stained freshwater bodies of the Amazon basin — backwaters, oxbow lakes, blackwater streams, swamps, and seasonal flood pools.",
     "biotope": "Amazon blackwater / leaf-litter pool, low-flow with abundant submerged wood and detritus.",
-    "depthRangeM": { "min": 0, "max": 3 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 3
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 27 },
-    "pH": { "min": 6.0, "max": 7.5 },
-    "gH": { "min": 2, "max": 12 },
-    "kH": { "min": 1, "max": 8 },
+    "temperatureC": {
+      "min": 22,
+      "max": 27
+    },
+    "pH": {
+      "min": 6,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 2,
+      "max": 12
+    },
+    "kH": {
+      "min": 1,
+      "max": 8
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 10, "max": 17 },
-  "lifespanYears": { "min": 6, "max": 10 },
+  "adultSizeCm": {
+    "min": 10,
+    "max": 17
+  },
+  "lifespanYears": {
+    "min": 6,
+    "max": 10
+  },
   "tank": {
     "minVolumeLiters": 150,
     "minLengthCm": 90,
@@ -60,7 +84,7 @@
   "careLevel": "advanced",
   "diet": {
     "type": "carnivore",
-    "notes": "Suction-feeding ambush predator. Generally advised to offer earthworms, nightcrawlers, blackworms, krill, and feeder/frozen fish. Lacks teeth and tongue — captures prey by rapid mouth expansion. Will attempt to eat anything that fits in its mouth, including tankmates."
+    "notes": "The Surinam Toad is an ambush predator that captures prey by rapidly expanding its mouth to create suction — it has neither teeth nor a tongue. Earthworms, nightcrawlers, blackworms, krill, and feeder or frozen fish are generally advised as the core diet. It will attempt to consume anything small enough to fit in its mouth, including tankmates."
   },
   "compatibility": {
     "temperament": "aggressive",
@@ -79,9 +103,9 @@
     "gallery": [],
     "imageCandidates": null
   },
-  "summary": "A fully aquatic, flattened South American frog famous for the female's back-brooding strategy — eggs are embedded into her dorsal skin and froglets emerge directly from her back.",
-  "careNotes": "Generally considered a niche specialist species rather than a typical hobby amphibian. Surinam Toads are large (commonly 10–15 cm, females reaching ~17 cm), fully aquatic, and helpless on land — the entire enclosure must be aquatic with a securely fitting lid (they have been known to push through loose-fitting covers). They are obligate ambush predators that will consume essentially any tankmate small enough to swallow, so a species-only setup is strongly advised. Water is generally kept warm (~23–26°C) and on the soft, slightly acidic side; their thin skin is sensitive to chlorine, copper, and other contaminants, so dechlorinated water and gentle 25–50% water changes are routinely recommended. Filtration should provide turnover without strong current. Avoid sand and fine gravel — large smooth river rocks or a bare bottom reduce impaction risk during feeding strikes. Trade availability is limited; most specimens offered in the hobby are wild-caught and may arrive stressed or parasitised, so quarantine and conservative handling are advised. Cross-source disagreement: minimum tank-size figures from hobby sources range from ~110 L (29 gal) for a pair to 150 L+ (40 gal) for a single adult; we have chosen 150 L as a cautious-but-reasonable floor given the species' size and predatory nature.",
-  "breedingNotes": "Famous for one of the most distinctive reproductive strategies in vertebrates: during amplexus the pair performs a series of underwater somersaults, and the male presses the fertilised eggs onto the female's back, where they sink into her thickened dorsal skin. Eggs are progressively enveloped by a honeycomb of skin pockets, and after roughly 3–5 months fully-formed froglets emerge directly from the mother's back. Captive breeding has been documented but is generally considered difficult; deep water (around 1.2 m has been reported) is typically advised to allow the somersaulting amplexus rise. Froglets are cannibalistic on emergence and should be separated and grown out individually or in size-matched groups.",
+  "summary": "A fully aquatic, flattened South American frog best known for the female's back-brooding strategy — eggs are embedded into her dorsal skin and froglets emerge directly from her back.",
+  "careNotes": "The Surinam Toad is generally considered a niche specialist rather than a typical hobby amphibian. Adults are large — commonly 10–15 cm, with females reaching around 17 cm — fully aquatic, and helpless on land, so the entire enclosure must hold water with a securely fitting lid (individuals have been known to push through loose-fitting covers). They are obligate ambush predators that will consume essentially any tankmate small enough to swallow, so a species-only setup is strongly advised. Water is generally kept warm (around 23–26°C) and on the soft, slightly acidic side. Their thin, permeable skin is sensitive to chlorine, copper, and other contaminants, making dechlorinated water and gentle 25–50% water changes a routine recommendation. Filtration should provide adequate turnover without creating strong current. Sand and fine gravel are best avoided — large smooth river rocks or a bare bottom reduce the risk of substrate ingestion during feeding strikes. Trade availability is limited, and captive-bred specimens are uncommon; individuals sourced from the wild may arrive stressed or carrying parasites, so quarantine and careful handling are strongly advised.",
+  "breedingNotes": "The Surinam Toad is noted for one of the most distinctive reproductive strategies among vertebrates. During amplexus (the mating embrace), the pair performs a series of underwater somersaults, and the male presses the fertilised eggs onto the female's back, where they sink into her thickened dorsal skin. The eggs are progressively enveloped by a honeycomb of skin pockets, and after roughly 3–5 months fully-formed froglets emerge directly from the mother's back. Captive breeding has been documented but is generally considered difficult. Deep water — around 1.2 m has been reported as a guideline — is typically advised to give the pair enough vertical space to complete the somersaulting amplexus sequence. Froglets tend to be cannibalistic on emergence and are generally best separated and grown out individually or in size-matched groups.",
   "sources": {
     "primary": {
       "name": "Reptiles Magazine",
@@ -121,7 +145,7 @@
     "skinSensitivity": "high",
     "chytridRisk": "moderate",
     "breedingDifficulty": "difficult",
-    "breedingNotes": "Females incubate eggs in honeycomb-like pockets within their dorsal skin; fully-formed froglets emerge from the mother's back after roughly 3–5 months. Captive breeding has been reported but is generally regarded as difficult and is commonly associated with deep tanks (~1.2 m water column) that allow the species' characteristic somersaulting amplexus."
+    "breedingNotes": "The Surinam Toad incubates its eggs in honeycomb-like pockets within the female's dorsal skin, and fully-formed froglets emerge directly from her back after roughly 3–5 months. Captive breeding has been reported but is generally regarded as difficult, and is commonly associated with deep tanks — around a 1.2 m water column — that provide the vertical space the species' somersaulting amplexus requires."
   },
   "plant": null,
   "macroalgae": null,

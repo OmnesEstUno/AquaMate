@@ -18,7 +18,10 @@
     "order": "Dendrochirotida"
   },
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Indo-West Pacific"],
+    "regions": [
+      "Indo-Pacific",
+      "Indo-West Pacific"
+    ],
     "countries": [
       "Philippines",
       "Indonesia",
@@ -30,17 +33,38 @@
     ],
     "habitat": "Inshore benthic suspension feeder on reef slopes, rubble, and sand-mud substrates, typically anchoring on rockwork in areas of moderate to strong indirect current where it can extend its feathery oral tentacles into the water column.",
     "biotope": "Indo-West Pacific tropical coral reef and reef-associated benthos",
-    "depthRangeM": { "min": 0, "max": 13 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 13
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 26 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 22,
+      "max": 26
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.023, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.023,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 18, "max": 20 },
-  "lifespanYears": { "min": 3, "max": 5 },
+  "adultSizeCm": {
+    "min": 18,
+    "max": 20
+  },
+  "lifespanYears": {
+    "min": 3,
+    "max": 5
+  },
   "tank": {
     "minVolumeLiters": 150,
     "minLengthCm": 90,
@@ -82,7 +106,7 @@
     "imageCandidates": null
   },
   "summary": "A striking violet filter-feeding sea cucumber with yellow oral tentacles from the Indo-West Pacific. Often considered a specialist-only animal: it releases the potent saponin toxin holothurin when stressed or dying, which has been reported to wipe out entire tanks.",
-  "careNotes": "Pseudocolochirus violaceus is one of the most visually striking sea cucumbers in the trade but is widely regarded as a specialist-only animal. Two husbandry risks dominate. First, it is an obligate suspension feeder and is generally advised to be target-fed live or preserved phytoplankton daily; sea apples have been reported to starve to death in display tanks that lack a steady supply of suspended food. Second, when stressed, injured, or dying, it can release the saponin toxin holothurin into the water, which has been documented as capable of killing fish and invertebrates throughout the system. Practical mitigations commonly recommended: keep only one specimen per tank, fully screen all pump and powerhead intakes (a sea apple sucked into a return pump is a worst-case toxin event), avoid tankmates that nip at feather dusters or soft invertebrates (butterflyfishes, large angels, triggers, puffers), maintain very stable pH and salinity (sudden swings have been reported to cause tentacle shedding), and avoid all copper-based medications. Most sources recommend a moderate to slightly strong indirect current and a mature reef with abundant live rock. LiveAquaria lists a minimum tank size of around 30 US gal (~115 L), but given the toxin risk a larger water volume for dilution is generally prudent; ~150 L is used here as a conservative floor for a single specimen. Reported lifespans in well-kept reef systems are typically in the range of a few years, with up to ~5 years cited as an upper end; long-term captive data is sparse. The genus also includes Pseudocolochirus axiologus (the true \"Australian Sea Apple\"), often sold under the same Sea Apple trade name; husbandry is treated as effectively identical here.",
+  "careNotes": "Pseudocolochirus violaceus is one of the most visually striking sea cucumbers in the trade but is widely regarded as a specialist-only animal. Two husbandry risks dominate. First, it is an obligate suspension feeder and is generally advised to be target-fed live or preserved phytoplankton daily; sea apples have been reported to starve to death in display tanks that lack a steady supply of suspended food. Second, when stressed, injured, or dying, it can release the saponin toxin holothurin into the water, which has been documented as capable of killing fish and invertebrates throughout the system. Practical mitigations commonly recommended: keep only one specimen per tank, fully screen all pump and powerhead intakes (a sea apple sucked into a return pump is a worst-case toxin event), avoid tankmates that nip at feather dusters or soft invertebrates (butterflyfishes, large angels, triggers, puffers), maintain very stable pH and salinity (sudden swings have been reported to cause tentacle shedding), and avoid all copper-based medications. Most sources recommend a moderate to slightly strong indirect current and a mature reef with abundant live rock. Reported lifespans in well-kept reef systems are typically in the range of a few years, with up to ~5 years cited as an upper end; long-term captive data is sparse. The genus also includes Pseudocolochirus axiologus (the true \"Australian Sea Apple\"), which is often sold under the same Sea Apple trade name and is considered to have effectively identical care requirements.",
   "breedingNotes": "Captive breeding of Pseudocolochirus violaceus in home aquaria has not been meaningfully documented; sea apples are broadcast spawners and rearing planktotrophic larvae on phytoplankton diets is generally beyond practical hobbyist setups.",
   "sources": {
     "primary": {
