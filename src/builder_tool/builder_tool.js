@@ -372,7 +372,7 @@ return (
                                 Tab divisions 
       ************************************************************************/}
     <AMHeader/>
-    <div className='main-container'>
+    <div className='main-container full-bleed-bg scroll-hidden'>
       {/* ***********************************************************************
                                 Tab Content 
       ************************************************************************/}
@@ -397,10 +397,10 @@ return (
                 searchTerm={searchTerm}
                 setSearchTerm={setSearchTerm}
             />
-            <div className="card-container">
+            <div className="card-container scroll-hidden">
               {fishData.map((fish) => {
                 const compatibility = isFishCompatible(fish);
-                const cardClass = compatibility.isCompatible ? "card" : "card grayed-out";
+                const cardClass = compatibility.isCompatible ? "card glass-panel--card" : "card glass-panel--card grayed-out";
                 return (
                   <div key={fish.id} className={cardClass} onClick={compatibility.isCompatible ? () => handleFishSelection(fish) : undefined}>
                     <img src={fish.photo} alt={fish.commonName} className="card-image" />
@@ -439,10 +439,10 @@ return (
                 searchTerm={searchTerm}
                 setSearchTerm={setSearchTerm}
               />
-              <div className="card-container">
+              <div className="card-container scroll-hidden">
                 {plantData.map((plant) => {
                   const compatibility = isPlantCompatible(plant);
-                  const cardClass = compatibility.isCompatible ? "card" : "card grayed-out";
+                  const cardClass = compatibility.isCompatible ? "card glass-panel--card" : "card glass-panel--card grayed-out";
                   return (
                     <div key={plant.id} className={cardClass} onClick={compatibility.isCompatible ? () => handlePlantSelection(plant) : undefined}>
                       <FavoriteButton category="Flora" item={plant} />
@@ -476,10 +476,10 @@ return (
                 searchTerm={searchTerm}
                 setSearchTerm={setSearchTerm}
               />
-              <div className="card-container">
+              <div className="card-container scroll-hidden">
                 {tankData.map((tank) => {
                   const compatibility = isTankCompatible(tank);
-                  const cardClass = compatibility.isCompatible ? "card" : "card grayed-out";
+                  const cardClass = compatibility.isCompatible ? "card glass-panel--card" : "card glass-panel--card grayed-out";
                   return (
                     <div key={tank.id} className={cardClass} onClick={compatibility.isCompatible ? () => handleTankSelection(tank) : undefined}>
                       <FavoriteButton category="Tank" item={tank} />

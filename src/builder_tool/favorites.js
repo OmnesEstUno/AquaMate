@@ -10,9 +10,9 @@ function Favorites() {
            {/* Fish Section */}
             <section className="favorites-section">
                 <h3>Fish</h3>
-                <div className="card-container">
+                <div className="card-container scroll-hidden">
                     {favorites.Fauna?.map(fish => (
-                        <div key={fish.id} className='card'>
+                        <div key={fish.id} className='card glass-panel--card'>
                             <img className="card-image" src={fish.photo} alt={fish.commonName} />
                             <p>{fish.commonName}</p>
                             <button onClick={(e) => {
@@ -27,9 +27,9 @@ function Favorites() {
             {/* Plants Section */}
             <section className="favorites-section">
                 <h3>Plants</h3>
-                <div className="card-container">
+                <div className="card-container scroll-hidden">
                     {favorites.Flora?.map(plant => (
-                        <div key={plant.id} className='card'>
+                        <div key={plant.id} className='card glass-panel--card'>
                             <img className="card-image" src={plant.photo} alt={plant.commonName} />
                             <p>{plant.commonName}</p>
                             <button onClick={(e) => {
@@ -44,9 +44,9 @@ function Favorites() {
             {/* Tanks Section */}
             <section className="favorites-section">
                 <h3>Tanks</h3>
-                <div className="card-container">
+                <div className="card-container scroll-hidden">
                     {favorites.Tank?.map(tank => (
-                        <div key={tank.id} className='card'>
+                        <div key={tank.id} className='card glass-panel--card'>
                             <img className="card-image" src={tank.photo} alt={tank.name} />
                             <p>{tank.size}</p>
                             <button onClick={(e) => {

@@ -17,7 +17,7 @@ const BuildSection = ({ selectedFish, handleFishRemoval, selectedPlant, handlePl
     };
     
     return (
-        <div className="build-container">
+        <div className="build-container scroll-hidden">
            <div className="build-title">Selected Fish</div>
             <div className="build-section">
                 {selectedFish.map(fish => (

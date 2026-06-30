@@ -1,9 +1,5 @@
 .main-container {
     flex-grow: 1;
-    background-image: url('../assets/background.jpeg');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
     overflow: scroll;
     padding-top: 240px; /* Add padding to accommodate fixed header */
     display: flex;
@@ -12,18 +8,13 @@
     align-items: flex-start;
     height: 100%;
     -ms-overflow-style: -ms-autohiding-scrollbar;
-    scrollbar-width: none;
-}
-
-.main-container::-webkit-scrollbar {
-    display: none;
 }
 
 
 /* Style the tab */
 .tab {
     overflow: hidden;
-    border: 1px solid #ccc;
+    border: 1px solid var(--gray-ccc);
     background-color: transparent;
     height: 50px; /* Fixed height */
     width: 100%;
@@ -33,24 +24,24 @@
 
 /* Style the buttons that are used to open the tab content */
 .tab button {
-    background-color: rgba(25, 64, 84, 0.5);
+    background-color: var(--tab-bg);
     float: left;
     border: none;
     outline: none;
     cursor: pointer;
     padding: 14px 16px;
     transition: 0.3s;
-    border-radius: 10px;
+    border-radius: var(--radius-md);
 }
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-background-color: rgba(27, 107, 171, 0.5);
+background-color: var(--tab-hover);
 }
 
 /* Create an active/current tablink class */
 .tab button.active {
-background-color: rgba(4, 118, 159, 0.8);
+background-color: var(--tab-active);
 }
 
 /* Style the tab content */
@@ -90,7 +81,7 @@ background-color: rgba(4, 118, 159, 0.8);
 
 .filter-sidebar {
     padding: 1px;
-    box-shadow: -2px 0 10px rgba(0, 0, 0, 0.3);
+    box-shadow: var(--shadow-panel);
 
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 0%;
@@ -99,17 +90,17 @@ background-color: rgba(4, 118, 159, 0.8);
     left: 10px;
     width: 20%; /* Takes up 40% of the left content area */
     height: 80%; /* Full height minus the top div height */
-    background-color: rgba(255, 255, 255, 0.0); /* Light blue */
+    background-color: transparent; /* Light blue */
 }
 
 input {
     max-width: 190px;
-    background-color: #1a1a1a;
+    background-color: var(--ink-input);
     border: none;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: var(--radius-md);
     outline: none;
-    color: white;
+    color: var(--white);
 }
 
 input:focus {
@@ -118,19 +109,19 @@ input:focus {
 
 @keyframes rotateShadow {
     0% {
-        box-shadow: -2px -2px 0px 0px #00f7ff34, 2px 2px 0px 0px #05333434;
+        box-shadow: -2px -2px 0px 0px var(--glow-focus-aqua), 2px 2px 0px 0px var(--glow-focus-deep);
     }
     25% {
-        box-shadow: -2px 2px 0px 0px #00f7ff34, 2px -2px 0px 0px #05333434;
+        box-shadow: -2px 2px 0px 0px var(--glow-focus-aqua), 2px -2px 0px 0px var(--glow-focus-deep);
     }
     50% {
-        box-shadow: 2px 2px 0px 0px #00f7ff34, -2px -2px 0px 0px #05333434;
+        box-shadow: 2px 2px 0px 0px var(--glow-focus-aqua), -2px -2px 0px 0px var(--glow-focus-deep);
     }
     75% {
-        box-shadow: 2px -2px 0px 0px #00f7ff34, -2px 2px 0px 0px #05333434;
+        box-shadow: 2px -2px 0px 0px var(--glow-focus-aqua), -2px 2px 0px 0px var(--glow-focus-deep);
     }
     100% {
-        box-shadow: -2px -2px 0px 0px #00f7ff34, 2px 2px 0px 0px #05333434;
+        box-shadow: -2px -2px 0px 0px var(--glow-focus-aqua), 2px 2px 0px 0px var(--glow-focus-deep);
     }
 }
 
@@ -140,7 +131,7 @@ input:focus {
 }
 
 label {
-    color: white;
+    color: var(--white);
 }
 
 /* *******************************************
@@ -148,7 +139,7 @@ label {
 *******************************************/
 
 .incompatible {
-    color: red;  /* Makes the text red if the condition is incompatible */
+    color: var(--status-danger);  /* Makes the text red if the condition is incompatible */
 }
 
 .card-container {
@@ -158,32 +149,25 @@ label {
     background-color: transparent;
     height: calc(100vh - 50px); /* Full height minus the top div height */
     overflow-y: scroll; /* Enables vertical scroll */
-    -ms-overflow-style: none;
-    scrollbar-width: none;
     display: flex;
     flex-wrap: wrap;
     transition: transform 0.5s ease; /* Smooth transition for transform property */
     transform-origin: center; /* Ensures the image expands from its center */
 }
 
-.card-container::-webkit-scrollbar {
-    display: none;
-}
-
 .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     position: relative;
-    height: max-content; /* Fixed height */
-    overflow: hidden;
-    transition: all 0.3s ease;
-    border-radius: 15px;  /* Creates rounded corners */
-    padding: 10px 10px 10px 10px;
     width: 20%;
-    -webkit-backdrop-filter: blur(4px);  /* Safari 9+ */
-    backdrop-filter: blur(4px); /* Chrome and Opera */
-    background-color: rgba(255, 255, 255, 0.2);
-    transition: transform 0.5s ease; /* Smooth transition for transform property */
-    transform-origin: center; /* Ensures the image expands from its center */
-
+    height: max-content;
+    padding: 10px;
+    border-radius: var(--radius-md);
+    overflow: visible;
+    cursor: pointer;
+    transition: transform var(--transition-med);
+    transform-origin: center;
 }
 
 .card.grayed-out {
@@ -241,19 +225,19 @@ label {
     transform: translateY(0);
     opacity: 1;
     z-index: 9999;
-    background-color: white;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background-color: var(--white);
+    box-shadow: var(--shadow-strong);
 }
 
 .info-button {
     display: block;
     width: 100%;
     padding: 8px;
-    background: #007BFF;
-    color: white;
+    background: var(--button-blue);
+    color: var(--white);
     text-align: center;
     border: none;
-    border-radius: 5px;
+    border-radius: var(--radius-sm);
     margin-top: 10px;
 }
 
@@ -264,20 +248,14 @@ label {
     justify-content: center; /* Center content horizontally */
     height:100vh;
     overflow-y: auto;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
     background-color: transparent;
     padding: 20px;
-    box-shadow: -2px 0 10px rgba(0,0,0,0.3);
+    box-shadow: var(--shadow-panel);
     gap: 10px;
     flex: 1;
     position: sticky;
     top: 0;
   }
-
-.build-container::-webkit-scrollbar {
-    display: none;
-}
 
   .build-section {
     display: flex;
@@ -292,10 +270,10 @@ label {
     flex: 1 1 120px; /* Allows items to grow and shrink but bases on 120px width */
     padding: 8px;
     margin: 2px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #ffffff;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    border: 1px solid var(--gray-ccc);
+    border-radius: var(--radius-sm);
+    background-color: var(--white);
+    box-shadow: var(--shadow-soft);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -312,27 +290,12 @@ label {
   .build-title {
     font-size: 14px;
     font-weight: bold;
-    color: #dadada;
+    color: var(--gray-dadada);
     margin-bottom: 5px;
   }
 
   .build-description {
     font-size: 12px;
-    color: #666;
+    color: var(--gray-666);
     text-align: center; /* Ensures text is centered */
   }
-
-
-
-/*---------------build-------------------*/
-.card {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    border-radius: 10px;
-    overflow: visible;
-    cursor: pointer;
-    position: relative;
-}
-
-
