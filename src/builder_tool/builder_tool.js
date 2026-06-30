@@ -506,7 +506,7 @@ return (
       {/* ***********************************************************************
                                 BUILD SECTION 
       ************************************************************************/}
-      <div className='build-container'>
+      <div className='build-container scroll-hidden'>
         <BuildSection
           selectedFish={selectedFish}
           handleFishRemoval={handleFishRemoval}
