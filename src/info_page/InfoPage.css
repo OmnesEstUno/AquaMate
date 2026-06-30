@@ -1,19 +1,19 @@
 /* InfoPage.css */
 
 .info-page-container {
-    font-family: Arial, sans-serif;
+    font-family: var(--font-ui);
     overflow: scroll;
 }
 
 .info-page-navigation {
-    background: #004c8c; /* Adjust background color */
-    color: #fff; /* Adjust text color */
+    background: var(--info-blue); /* Adjust background color */
+    color: var(--white); /* Adjust text color */
     padding: 20px;
     text-align: center;
 }
 
 .info-page-nav-link {
-    color: white;
+    color: var(--white);
     text-decoration: none;
     margin: 0 15px;
     font-size: 1.2em;
@@ -33,7 +33,7 @@
 .info-page-main-image {
     width: 100%;
     height: auto;
-    border-radius: 10px; /* Add border radius */
+    border-radius: var(--radius-md); /* Add border radius */
 }
 
 .info-page-details-section {
@@ -42,28 +42,25 @@
 
 .info-page-details {
     width: max-content;
-    -webkit-backdrop-filter: blur(8px);  /* Safari 9+ */
-    backdrop-filter: blur(8px); /* Chrome and Opera */
-    box-shadow: inset 0 0 0 200px rgba(255, 255, 255, 0.08);
-    border-radius: 20px;
+    border-radius: var(--radius-panel);
 }
 
 .info-page-main-name {
     font-size: 4em;
     margin-top: 0;
-    color: #004c8c; /* Adjust text color */
+    color: var(--info-blue); /* Adjust text color */
     margin-bottom: 0;
 }
 
 .info-page-sci-name {
     font-size: 1.5em;
-    color: #666;
+    color: var(--gray-666);
     margin: 0;
 }
 
 .info-page-description {
     font-size: 1em;
-    color: #444;
+    color: var(--gray-444);
     margin-top: 20%;
 }
 
@@ -78,10 +75,7 @@
 .info-page-notes {
     flex-basis: 48%; /* slightly less than half to account for the gap */
     padding: 10px;
-    border: 1px solid #ddd;
-    -webkit-backdrop-filter: blur(8px);  /* Safari 9+ */
-    backdrop-filter: blur(8px); /* Chrome and Opera */
-    box-shadow: inset 0 0 0 200px rgba(255, 255, 255, 0.08);
+    border: 1px solid var(--gray-ddd);
     height: 150px;
     overflow-y: auto; /* Allows scrolling if content is taller than the box */
 }

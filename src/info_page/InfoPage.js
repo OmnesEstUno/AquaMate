@@ -48,7 +48,7 @@ function InfoPage() {
                     <img src={itemDetails.photo} alt={`Image of ${itemDetails.commonName}`} className="info-page-main-image" />
                 </div>
                 <div className="info-page-details-section">
-                    <div className="info-page-details">
+                    <div className="info-page-details glass-panel">
                         <h1 className="info-page-main-name">{itemDetails.commonName}</h1>
                         <h2 className="info-page-sci-name">"{itemDetails.scientificName}"</h2>
                         <p className="info-page-description">
@@ -59,8 +59,8 @@ function InfoPage() {
                 </div>
             </div>
             <div className="info-page-notes-section">
-                <div className="info-page-notes">Notes Area</div>
-                <div className="info-page-notes">Notes Area</div>
+                <div className="info-page-notes glass-panel">Notes Area</div>
+                <div className="info-page-notes glass-panel">Notes Area</div>
             </div>
             <AMFooter/>
         </main>
