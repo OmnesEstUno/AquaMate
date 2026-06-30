@@ -139,7 +139,7 @@ function HomePage() {
 
         return (
             <button
-                className={`fav-btn ${isFavorite(category, item.id) ? 'highlighted' : ''}`}
+                className={`fav-btn hover-grow ${isFavorite(category, item.id) ? 'highlighted' : ''}`}
                 onClick={(e) => {
                     e.stopPropagation(); // This stops the click event from bubbling up to the parent
                     favoriteSwitch(category, item);
@@ -155,7 +155,7 @@ function HomePage() {
         <div>
             <AMHeader className={headerClassName}/>
 
-            <main id={'main'}>
+            <main id={'main'} className="full-bleed-bg scroll-hidden">
                 <section id="home" className="hero">
                     <h1>Welcome to Our Unified Aquarium Tool</h1>
                     <p>Discover the beauty of aquatic life and create your own underwater paradise.</p>
@@ -164,7 +164,7 @@ function HomePage() {
                 </section>
                 <section id="search-results" className="search-results">
                     {searchResults && searchResults.length > 0 && (
-                        <div className="gallery-container" id='gallery'>
+                        <div className="gallery-container scroll-hidden" id='gallery'>
                             <h1 className="gallery-header">Search Results</h1>
                             <div className="gallery">
                                 {searchResults.map((result, index) => (
@@ -179,7 +179,7 @@ function HomePage() {
                     )}
                 </section>
 
-                <section className="gallery-container">
+                <section className="gallery-container scroll-hidden">
                     <h1 className="gallery-header">Gallery</h1>
                     <div className="gallery">
                         {images.map((image, index) => (

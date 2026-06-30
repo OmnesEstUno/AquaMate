@@ -21,7 +21,7 @@ function AboutUs(){
     return (
         <div>
             <AMHeader/>
-            <main>
+            <main className="full-bleed-bg scroll-hidden">
                 <div className={"team-about"}>
                     <h1>About Tetra Team</h1>
                     <p>Welcome to the Tetra Team's About Page. Our team is composed of dedicated and passionate members
@@ -29,43 +29,43 @@ function AboutUs(){
                         team, driving our projects towards success.</p>
                     <p>We are team three of CSC648-04</p>
                     <ul className={'team-members'}>
-                        <li className={'team-member'}><a
+                        <li className={'team-member hover-grow'}><a
                             id={'elliot'}
                             onClick={() =>
                                 handleAboutClick(document.getElementById('elliot').innerText)}>
                             Elliot Warren - Team Lead
                         </a></li>
-                        <li className={'team-member'}><a
+                        <li className={'team-member hover-grow'}><a
                             id={'inderpaul'}
                             onClick={() =>
                                 handleAboutClick(document.getElementById('inderpaul').innerText)}>
                             Inderpaul Bhander - Scrum Master
                         </a></li>
-                        <li className={'team-member'}><a
+                        <li className={'team-member hover-grow'}><a
                             id={'miguelangel'}
                             onClick={() =>
                                 handleAboutClick(document.getElementById('miguelangel').innerText)}>
                             Miguelangel Vargas - Front-end Lead
                         </a></li>
-                        <li className={'team-member'}><a
+                        <li className={'team-member hover-grow'}><a
                             id={'sukrit'}
                             onClick={() =>
                                 handleAboutClick(document.getElementById('sukrit').innerText)}>
                             Sukrit Dev Dhawan - Back-end Lead
                         </a></li>
-                        <li className={'team-member'}><a
+                        <li className={'team-member hover-grow'}><a
                             id={'mohammed'}
                             onClick={() =>
                                 handleAboutClick(document.getElementById('mohammed').innerText)}>
                             Mohammed Deeb - Git Master
                         </a></li>
-                        <li className={'team-member'}><a
+                        <li className={'team-member hover-grow'}><a
                             id={'citlalin'}
                             onClick={() =>
                                 handleAboutClick(document.getElementById('citlalin').innerText)}>
                             Citlalin Galvan - Individual Contributer
                         </a></li>
-                        <li className={'team-member'}><a
+                        <li className={'team-member hover-grow'}><a
                             id={'naing'}
                             onClick={() =>
                                 handleAboutClick(document.getElementById('naing').innerText)}>

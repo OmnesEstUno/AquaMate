@@ -47,12 +47,12 @@ function AboutPerson(){
     return(
         <div >
             <AMHeader/>
-            <main className={"person-main"}>
-                <div className={"person-intro"}>
+            <main className={"person-main full-bleed-bg scroll-hidden"}>
+                <div className={"person-intro glass-panel"}>
                     <h1 className={'person-position'}>{personDetails.position}</h1>
                     <div id={"image"} className={'p-img-container'}></div>
                 </div>
-                <div className={"person-about"}>
+                <div className={"person-about glass-panel glass-panel--gray"}>
                     <h1 className={"person-name"}>{personDetails.name}</h1>
                     <p className={'about-person'}>{personDetails.about}</p>
                 </div>

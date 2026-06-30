@@ -354,7 +354,7 @@ const BuilderTool = () => {
 
     return (
         <button
-            className={`fav-btn ${isFavorite(category, item.id) ? 'highlighted' : ''}`}
+            className={`fav-btn hover-grow ${isFavorite(category, item.id) ? 'highlighted' : ''}`}
             onClick={(e) => {
               e.stopPropagation();
               favoriteSwitch(category, item);

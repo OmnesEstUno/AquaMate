@@ -41,7 +41,7 @@ function InfoPage() {
     if (!itemDetails) return <div>Loading...</div>;
 
     return (
-        <main className="info-page-container">
+        <main className="info-page-container full-bleed-bg scroll-hidden">
             <AMHeader/>
             <div className="info-page-body">
                 <div className="info-page-image-section">
