@@ -31,7 +31,6 @@ main {
     justify-content: flex-start;
     align-items: center;
     overflow: auto;
-    -ms-overflow-style: -ms-autohiding-scrollbar;
 }
 
 h1 {
@@ -511,6 +510,14 @@ a {
 .fav-btn.highlighted::before,
 .fav-btn.highlighted::after {
     background-color: red;
+}
+
+.fav-btn:hover {
+    transform: scale(1.2); /* increase size on hover */
+}
+
+.fav-btn:active {
+    transform: scale(0.95); /* decrease size on click */
 }
 
 

@@ -139,7 +139,7 @@ function HomePage() {
 
         return (
             <button
-                className={`fav-btn hover-grow ${isFavorite(category, item.id) ? 'highlighted' : ''}`}
+                className={`fav-btn ${isFavorite(category, item.id) ? 'highlighted' : ''}`}
                 onClick={(e) => {
                     e.stopPropagation(); // This stops the click event from bubbling up to the parent
                     favoriteSwitch(category, item);
