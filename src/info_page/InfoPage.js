@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import './InfoPage.css';
+import '../styles/info-page.css';
 import AMHeader from "../header";
 import '../header';
 import AMFooter from "../footer"; // CSS File
