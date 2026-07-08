@@ -1,5 +1,5 @@
 import React, { useState, useEffect  } from 'react';
-import './builder_tool.css'
+import '../styles/builder.css'
 import FilterBar from './filter_bar';
 import BuildSection from './build_section';
 import TabBar from './tab_bar';

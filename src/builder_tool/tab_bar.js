@@ -1,5 +1,5 @@
 import React from 'react';
-import './builder_tool.css';
+import '../styles/builder.css';
 
 const TabBar = ({ activeTab, openTab }) => {
   return (

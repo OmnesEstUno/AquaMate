@@ -1,5 +1,5 @@
 import React from 'react';
-import './builder_tool.css';
+import '../styles/builder.css';
 
 const BuildSection = ({ selectedFish, handleFishRemoval, selectedPlant, handlePlantRemoval, selectedTank, handleTankRemoval, setSelectedFish, setSelectedPlant, setSelectedTank }) => {
   // Function to update the amount of a specific fish by ID
