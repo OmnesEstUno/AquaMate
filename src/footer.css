@@ -12,9 +12,3 @@
 .footer-about:hover {
   color: var(--aqua);
 }
-
-/* The global `p { width: 50% }` rule would otherwise stretch the copyright line
-   and push About far away — keep it to its content width in the footer. */
-footer p {
-  width: auto;
-}
