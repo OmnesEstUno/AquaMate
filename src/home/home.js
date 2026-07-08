@@ -160,7 +160,7 @@ function HomePage() {
             <main id={'main'} className="full-bleed-bg scroll-hidden">
                 <section id="home" className="hero">
                     <h1>Welcome to Our Unified Aquarium Tool</h1>
-                    <p className="hero-copy">Discover the beauty of aquatic life and create your own underwater paradise.</p>
+                    <p>Discover the beauty of aquatic life and create your own underwater paradise.</p>
                 </section>
                 <section id="search-results" className="search-results">
                     {searchResults && searchResults.length > 0 && (
