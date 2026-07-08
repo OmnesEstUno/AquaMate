@@ -1,5 +1,18 @@
-/* Footer 'About' link — sits just to the right of the copyright text.
- * Uses shared tokens; footer layout itself stays in home.css. */
+/* Footer: layout, copyright, and the 'About' link. Single source; uses shared tokens. */
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: min-content;
+    background-color: var(--footer-bg);
+    color: var(--white);
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: var(--z-header);
+}
 
 .footer-about {
   margin-left: 22px;

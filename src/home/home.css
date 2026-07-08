@@ -1,18 +1,3 @@
-/* Layout adjustments to maintain header and footer visibility */
-footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: min-content;
-    background-color: var(--footer-bg); /* Footer background color */
-    color: var(--white); /* Footer text color */
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: var(--z-header); /* Ensure footer is above other content */
-}
-
 /*Shrinking for mobile*/
 @media (max-width: 768px) {
     .content {
