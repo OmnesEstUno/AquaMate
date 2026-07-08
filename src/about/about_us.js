@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import '../home/home.css';
+import '../styles/home.css';
 import AMHeader from "../header";
 import AMFooter from "../footer";
 

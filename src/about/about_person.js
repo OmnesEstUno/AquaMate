@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Json from './about.json';
-import '../home/home.css';
+import '../styles/home.css';
 import AMHeader from "../header";
 import AMFooter from "../footer";
 

@@ -9,7 +9,7 @@ import AboutPerson from './about/about_person.js';
 import EasterEgg from './easter_egg.js';
 import { FavoritesProvider }  from './builder_tool/favorites_provider';
 import { SearchProvider } from './search/search_provider';
-import './home/home.css';
+import './styles/home.css';
 import './builder_tool/builder_tool.css';
 
 function App() {
