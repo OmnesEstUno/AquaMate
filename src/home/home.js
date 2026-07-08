@@ -14,7 +14,6 @@ function HomePage() {
     const [headerClassName, setHeaderClassName] = useState(''); // State to manage header class name
     const navigate = useNavigate();
     const { searchResults } = useSearch()
-    const mission = 'AquaMate aims to provide a singular place where someone of any experience level of fish keeping can go to obtain details about fish they are interested in caring for.';
     const sentinelRef = useRef(null)
 
     const handleScroll = () => {
@@ -23,6 +22,7 @@ function HomePage() {
 
         // Check if scrolled to the top
         if (scrollTop === 0) {
+            document.getElementById('header').classList.remove("not-at-top");
             document.getElementById('header-right').classList.remove("not-at-top");
             document.getElementById('title-A').classList.remove("not-at-top");
             document.getElementById('title-l').classList.remove("not-at-top");
@@ -30,6 +30,7 @@ function HomePage() {
             document.getElementById('title-wrapper').classList.remove("not-at-top");
 
         } else {
+            document.getElementById('header').classList.add("not-at-top");
             document.getElementById('header-right').classList.add("not-at-top");
             document.getElementById('title-A').classList.add("not-at-top");
             document.getElementById('title-l').classList.add("not-at-top");
@@ -57,6 +58,7 @@ function HomePage() {
 
     // Fetch initial 8 images
     const fetchInitialImages = useCallback(() => {
+        document.getElementById('header').classList.add('at-home');
         document.getElementById('header-right').classList.add('at-home');
         // Change for local or server
         const url = 'https://aquamate-worker.elliotjwarren.workers.dev/api/images/freshwater/1';
@@ -159,8 +161,6 @@ function HomePage() {
                 <section id="home" className="hero">
                     <h1>Welcome to Our Unified Aquarium Tool</h1>
                     <p>Discover the beauty of aquatic life and create your own underwater paradise.</p>
-                    <a className={'sparkley last'} onClick={() =>document.getElementById('mission').innerText=mission}>What is it?</a>
-                    <p id={'mission'}></p>
                 </section>
                 <section id="search-results" className="search-results">
                     {searchResults && searchResults.length > 0 && (

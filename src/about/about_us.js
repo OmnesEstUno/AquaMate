@@ -6,6 +6,7 @@ import AMFooter from "../footer";
 
 function AboutUs(){
     const navigate = useNavigate();
+    const mission = 'AquaMate aims to provide a singular place where someone of any experience level of fish keeping can go to obtain details about fish they are interested in caring for.';
 
     const handleAboutClick = (member) => {
         navigate(`/about/${encodeURIComponent(member.toLowerCase().split(' ')[0])}`);
@@ -27,6 +28,8 @@ function AboutUs(){
                     <p>Welcome to the Tetra Team's About Page. Our team is composed of dedicated and passionate members
                         from San Francisco State University. Each member brings unique skills and perspectives to the
                         team, driving our projects towards success.</p>
+                    <a className={'sparkley last'} onClick={() =>document.getElementById('mission').innerText=mission}>What is it?</a>
+                    <p id={'mission'}></p>
                     <p>We are team three of CSC648-04</p>
                     <ul className={'team-members'}>
                         <li className={'team-member hover-grow'}><a

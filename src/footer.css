@@ -1,0 +1,20 @@
+/* Footer 'About' link — sits just to the right of the copyright text.
+ * Uses shared tokens; footer layout itself stays in home.css. */
+
+.footer-about {
+  margin-left: 22px;
+  color: var(--white);
+  text-decoration: none;
+  font-size: 0.85em;
+  letter-spacing: 0.5px;
+  transition: color var(--transition-fast);
+}
+.footer-about:hover {
+  color: var(--aqua);
+}
+
+/* The global `p { width: 50% }` rule would otherwise stretch the copyright line
+   and push About far away — keep it to its content width in the footer. */
+footer p {
+  width: auto;
+}

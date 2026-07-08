@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import React from "react";
 import { useSearch } from './search/search_provider';
 import logo from './assets/AquaMate_logo.png';
+import './header.css';
 
 const AMHeader = () => {
     const { searchTerm, setSearchTerm } = useSearch();
@@ -14,34 +15,31 @@ const AMHeader = () => {
         <header className={'header'} id={'header'}>
             <div className={'header-top'}>
                 <div className={'header-right'} id={'header-right'}>
-                    <img className={'logo'} src={logo} alt="AquaMate logo"/>
-                    <div className={'title-wrapper'} id={'title-wrapper'}>
-                        <a className={"title-A title-aqua"} id={'title-A'} href={"/"}>a</a>
-                        <a className={"title-l title-aqua"} id={'title-l'} href={"/"}>qua</a>
-                        <a className={"title-r"} id={'title-r'} href={"/"}>Mate</a>
-                    </div>
+                    <Link to="/" className={'brand'}>
+                        <span className={'wordmark'} id={'title-wrapper'}>
+                            <span className={"title-A title-aqua"} id={'title-A'}>a</span>
+                            <span className={"title-l title-aqua"} id={'title-l'}>qua</span>
+                            <span className={"title-r"} id={'title-r'}>Mate</span>
+                        </span>
+                        <img className={'logo'} src={logo} alt="AquaMate logo"/>
+                    </Link>
                     <nav>
                         <ul>
                             <li><Link to="/buildertool">Plan</Link></li>
-                            <li><Link to="#" className={'Aquascape'}></Link></li>
-                            <li>
-                                <input
-                                    type="text"
-                                    id="search-input"
-                                    className="search-bar"
-                                    value={searchTerm}
-                                    onChange={handleInputChange}
-                                    placeholder="Search..."
-                                />
-                            </li>
-                            <li><Link to="/aboutus">Who Are We?</Link></li>
-                            <li><Link to="#" className={'Sign in'}></Link></li>
                         </ul>
                     </nav>
+                    <input
+                        type="text"
+                        id="search-input"
+                        className="search-bar"
+                        value={searchTerm}
+                        onChange={handleInputChange}
+                        placeholder="Search species, plants, care guides…"
+                    />
                 </div>
             </div>
             <svg className="waves" xmlns="http://www.w3.org/2000/svg"
-                 viewBox="0 24 150 28" preserveAspectRatio="none" shapeRendering="auto">
+                 viewBox="0 24 150 44" preserveAspectRatio="none" shapeRendering="auto">
                 <defs>
                     <path id="gentle-wave"
                           d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"/>
