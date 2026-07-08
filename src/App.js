@@ -10,7 +10,7 @@ import EasterEgg from './easter_egg.js';
 import { FavoritesProvider }  from './builder_tool/favorites_provider';
 import { SearchProvider } from './search/search_provider';
 import './styles/home.css';
-import './builder_tool/builder_tool.css';
+import './styles/builder.css';
 
 function App() {
     const [message, setMessage] = useState('loading...');
