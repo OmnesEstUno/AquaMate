@@ -78,7 +78,8 @@
         "escapeRisk":                 { "type": ["string", "null"], "enum": ["low", "moderate", "high", null] },
         "breedingDifficulty":         { "type": ["string", "null"], "enum": ["easy", "moderate", "difficult", "advanced", "not in captivity", null] },
         "breedingNotes":              { "type": ["string", "null"] },
-        "speciesOnlyTankRecommended": { "type": ["boolean", "null"] }
+        "speciesOnlyTankRecommended": { "type": ["boolean", "null"] },
+        "reefSafe":                   { "type": ["string", "null"], "enum": ["yes", "with caution", "no", null], "description": "Reef-tank compatibility. Optional field added 2026-07-09 for gallery filter harness; values backfilled during v2 research pass. Only meaningful for saltwater crustaceans." }
       }
     },
     "coralVariant": {
@@ -106,7 +107,8 @@
         "aggressionRangeCm": { "type": ["number", "null"], "minimum": 0 },
         "feedingFrequency":  { "type": ["string", "null"], "enum": ["none", "weekly", "daily", null] },
         "calciumPPM":        { "$ref": "#/$defs/nullableNumericRange" },
-        "magnesiumPPM":      { "$ref": "#/$defs/nullableNumericRange" }
+        "magnesiumPPM":      { "$ref": "#/$defs/nullableNumericRange" },
+        "reefSafe":          { "type": ["string", "null"], "enum": ["yes", "with caution", "no", null], "description": "Reef-tank compatibility. Optional field added 2026-07-09 for gallery filter harness; values backfilled during v2 research pass. Most corals are broadly reef-compatible; this field captures allelopathy or aggression concerns." }
       }
     },
     "molluscVariant": {
@@ -117,7 +119,8 @@
         "copperSensitive":     { "type": ["boolean", "null"] },
         "substrateNeeds":      { "type": ["string", "null"], "enum": ["any", "sand", "gravel", "soft", null] },
         "climbsOutOfTank":     { "type": ["boolean", "null"] },
-        "algaeTypesConsumed":  { "type": "array", "items": { "type": "string" } }
+        "algaeTypesConsumed":  { "type": "array", "items": { "type": "string" } },
+        "reefSafe":            { "type": ["string", "null"], "enum": ["yes", "with caution", "no", null], "description": "Reef-tank compatibility. Optional field added 2026-07-09 for gallery filter harness; values backfilled during v2 research pass. Only meaningful for saltwater molluscs." }
       }
     },
     "echinodermVariant": {
@@ -175,7 +178,8 @@
         "form":           { "type": ["string", "null"], "enum": ["macroalgae", "filamentous", "calcareous", "encrusting", null] },
         "placement":      { "type": ["string", "null"], "enum": ["refugium", "display", "sump", null] },
         "nutrientUptake": { "type": ["string", "null"], "enum": ["low", "moderate", "high", null] },
-        "propagation":    { "type": "array", "items": { "type": "string" } }
+        "propagation":    { "type": "array", "items": { "type": "string" } },
+        "reefSafe":       { "type": ["string", "null"], "enum": ["yes", "with caution", "no", null], "description": "Reef-tank compatibility. Optional field added 2026-07-09 for gallery filter harness; values backfilled during v2 research pass. Captures hitchhiker-risk species like Bryopsis." }
       }
     },
     "dietRequired": {
@@ -390,10 +394,6 @@
     "dataStatus":    { "type": "string", "enum": ["placeholder", "researched", "needs_review", "reviewed"] },
     "lastReviewed":  { "type": ["string", "null"], "format": "date" },
 
-    "reefSafe": {
-      "type": ["boolean", "null"],
-      "description": "Whether the species is broadly considered reef-safe by mainstream aquarium sources. Applies to any species with saltwater exposure (coral, saltwater fish, crustacean, mollusc, echinoderm, macroalgae, saltwater plants). Null means not yet determined (v1 default). Freshwater-only species carry null and are ignored by the reef-safe filter."
-    },
 
     "hobbyistAdvisory": {
       "type": ["object", "null"],
