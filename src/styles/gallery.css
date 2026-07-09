@@ -6,11 +6,12 @@
   display: flex;
   align-items: flex-start;
   gap: 20px;
-  padding: 20px;
+  padding: 0;
   max-width: 100%;
   box-sizing: border-box;
 }
 
+/* Sidebar hugs the viewport's left edge — no left gutter on gallery-layout. */
 .gallery-sidebar {
   position: sticky;
   top: 20px;
@@ -22,7 +23,7 @@
   -webkit-backdrop-filter: blur(var(--blur-panel));
   backdrop-filter: blur(var(--blur-panel));
   background-color: var(--glass-bg);
-  border-radius: var(--radius-panel);
+  border-radius: 0 var(--radius-panel) var(--radius-panel) 0;
   padding: 12px;
   color: var(--white);
   transition: width var(--transition-fast);
@@ -31,6 +32,12 @@
 .gallery-layout.is-collapsed .gallery-sidebar {
   width: 44px;
   padding: 6px;
+}
+
+.gallery-main {
+  flex: 1;
+  min-width: 0;
+  padding: 20px 20px 20px 0;
 }
 
 .gallery-sidebar__toggle {
@@ -48,11 +55,6 @@
 }
 
 .gallery-sidebar__toggle:hover { background: var(--tab-hover); }
-
-.gallery-main {
-  flex: 1;
-  min-width: 0;
-}
 
 /* Hide the scroll bar on the sidebar without losing scrollability */
 .gallery-sidebar::-webkit-scrollbar { width: 4px; }
@@ -191,6 +193,16 @@
    ───────────────────────────────────────────────────────────────────────── */
 
 .gallery-presets { display: flex; flex-direction: column; gap: 6px; }
+.gallery-presets__title {
+  color: var(--aqua);
+  font-family: var(--font-ui);
+  font-size: 0.85em;
+  padding: 4px 2px 2px;
+  border-bottom: 1px solid var(--glass-bg-strong);
+  margin-bottom: 4px;
+}
+
+/* Built-in preset chip (plain button) */
 .gallery-preset {
   background: var(--ocean-500);
   color: var(--white);
@@ -204,6 +216,60 @@
   transition: transform var(--transition-fast), background var(--transition-fast);
 }
 .gallery-preset:hover { background: var(--ocean-300); transform: scale(1.03); }
+
+/* Custom preset (button pill + delete X, side by side) */
+.gallery-preset--custom {
+  display: flex;
+  align-items: stretch;
+  gap: 4px;
+  background: transparent;
+  padding: 0;
+}
+.gallery-preset__apply {
+  flex: 1;
+  background: var(--ocean-700);
+  color: var(--white);
+  padding: 8px 12px;
+  border-radius: var(--radius-pill) 0 0 var(--radius-pill);
+  border: none;
+  cursor: pointer;
+  font-family: var(--font-ui);
+  font-size: 0.9em;
+  text-align: center;
+  transition: background var(--transition-fast);
+}
+.gallery-preset__apply:hover { background: var(--ocean-500); }
+.gallery-preset__delete {
+  background: var(--ocean-700);
+  color: var(--gray-ccc);
+  padding: 8px 10px;
+  border-radius: 0 var(--radius-pill) var(--radius-pill) 0;
+  border: none;
+  cursor: pointer;
+  font-family: var(--font-ui);
+  font-size: 0.9em;
+  transition: background var(--transition-fast), color var(--transition-fast);
+}
+.gallery-preset__delete:hover { background: var(--status-danger); color: var(--white); }
+
+/* Editing state — new custom preset with inline name input */
+.gallery-preset--editing {
+  padding: 0;
+  background: transparent;
+}
+.gallery-preset--editing input {
+  width: 100%;
+  padding: 8px 12px;
+  border-radius: var(--radius-pill);
+  border: 2px solid var(--aqua);
+  background: var(--ocean-900);
+  color: var(--white);
+  font-family: var(--font-ui);
+  font-size: 0.9em;
+  outline: none;
+  box-sizing: border-box;
+}
+.gallery-preset--editing input::placeholder { color: var(--gray-ccc); opacity: 0.7; }
 
 /* ─────────────────────────────────────────────────────────────────────────
    Contextual sub-row
@@ -255,7 +321,7 @@
   padding: 0;
   font-size: 1em;
 }
-.gallery-pill__clear-all {
+.gallery-pill__action {
   background: transparent;
   color: var(--status-warning);
   border: none;
@@ -263,7 +329,11 @@
   font-family: var(--font-ui);
   font-size: 0.85em;
   padding: 4px 6px;
+  transition: color var(--transition-fast);
 }
+.gallery-pill__action:hover { color: var(--aqua); }
+.gallery-pill__save { color: var(--aqua); }
+.gallery-pill__save:hover { color: var(--white); }
 
 /* ─────────────────────────────────────────────────────────────────────────
    Main-side toolbar (result count + sort)

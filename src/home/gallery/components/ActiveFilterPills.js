@@ -19,7 +19,7 @@ const LABEL_FORMATTERS = {
 const ORDER = ['taxa', 'waterType', 'careLevel', 'minSize', 'maxSize', 'maxTankL',
                 'temperament', 'grouping', 'dietType', 'co2', 'lighting', 'reefSafe', 'hideAdvisory'];
 
-export function ActiveFilterPills({ state, onRemove, onClearAll }) {
+export function ActiveFilterPills({ state, onRemove, onClearAll, onSavePreset }) {
   const active = ORDER.filter(key => {
     const v = state[key];
     if (Array.isArray(v)) return v.length > 0;
@@ -38,9 +38,14 @@ export function ActiveFilterPills({ state, onRemove, onClearAll }) {
           </button>
         </span>
       ))}
-      <button type="button" className="gallery-pill__clear-all" onClick={onClearAll}>
+      <button type="button" className="gallery-pill__action" onClick={onClearAll}>
         ✕ Clear all
       </button>
+      {onSavePreset && (
+        <button type="button" className="gallery-pill__action gallery-pill__save" onClick={onSavePreset}>
+          ★ Save as preset
+        </button>
+      )}
     </div>
   );
 }

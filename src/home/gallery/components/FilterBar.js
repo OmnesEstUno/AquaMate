@@ -45,7 +45,13 @@ export function FilterBar({ state, facetCounts, actions }) {
         />
       </div>
 
-      <PresetChips onApply={actions.applyPreset} />
+      <PresetChips
+        onApply={actions.applyPreset}
+        customPresets={actions.customPresets}
+        pendingPresetId={actions.pendingPresetId}
+        onCommitName={actions.commitPresetName}
+        onDelete={actions.deletePreset}
+      />
 
       <ContextualSubRow label="Saltwater filters" visible={hasSaltwater}>
         <label className="gallery-check">
@@ -88,6 +94,7 @@ export function FilterBar({ state, facetCounts, actions }) {
         state={state}
         onRemove={actions.removeFilter}
         onClearAll={actions.clearAll}
+        onSavePreset={actions.savePresetFromCurrent}
       />
     </div>
   );

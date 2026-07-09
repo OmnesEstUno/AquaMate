@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState, useMemo } from 'react';
+import React, { useEffect, useRef, useState, useMemo, useCallback } from 'react';
 import { useGalleryState } from './hooks/useGalleryState';
 import { useGalleryData } from './hooks/useGalleryData';
 import { useSearch } from '../../search/search_provider';
@@ -7,6 +7,33 @@ import { SortDropdown } from './components/SortDropdown';
 import { ResultCount } from './components/ResultCount';
 import { EmptyState } from './components/EmptyState';
 import { GalleryGrid } from './components/GalleryGrid';
+
+// ── Custom presets: localStorage with 7-day expiry ────────────────────────────
+const CUSTOM_PRESETS_KEY = 'aquamate.customPresets.v1';
+const CUSTOM_PRESET_TTL_MS = 7 * 24 * 60 * 60 * 1000;
+
+function loadCustomPresets() {
+  if (typeof window === 'undefined') return [];
+  try {
+    const raw = window.localStorage.getItem(CUSTOM_PRESETS_KEY);
+    if (!raw) return [];
+    const parsed = JSON.parse(raw);
+    const now = Date.now();
+    const fresh = (parsed.presets || []).filter(p =>
+      p && p.createdAt && (now - p.createdAt) < CUSTOM_PRESET_TTL_MS
+    );
+    return fresh;
+  } catch {
+    return [];
+  }
+}
+
+function saveCustomPresets(presets) {
+  if (typeof window === 'undefined') return;
+  try {
+    window.localStorage.setItem(CUSTOM_PRESETS_KEY, JSON.stringify({ version: 1, presets }));
+  } catch { /* quota exceeded etc. — non-fatal */ }
+}
 
 export function Gallery() {
   const {
@@ -36,13 +63,49 @@ export function Gallery() {
 
   const { items, totalMatching, totalPages, facetCounts, loading } = useGalleryData(effectiveState);
 
-  const [sidebarCollapsed, setSidebarCollapsed] = useState(false);
+  // Sidebar starts collapsed — filters are one tap away, gallery gets the full width by default.
+  const [sidebarCollapsed, setSidebarCollapsed] = useState(true);
+
+  // Custom presets (localStorage-backed, 7-day expiry)
+  const [customPresets, setCustomPresets] = useState(() => loadCustomPresets());
+  const [pendingPresetId, setPendingPresetId] = useState(null);
+
+  // Persist on every change
+  useEffect(() => {
+    saveCustomPresets(customPresets);
+  }, [customPresets]);
+
+  const savePresetFromCurrent = useCallback(() => {
+    const id = 'custom-' + Math.floor(Math.random() * 1e9);
+    // Preset stores filter shape; seed and page reset on apply.
+    const { seed: _s, page: _p, ...filterState } = state;
+    setCustomPresets(prev => [
+      ...prev,
+      { id, label: '', state: filterState, createdAt: Date.now() },
+    ]);
+    setPendingPresetId(id);
+  }, [state]);
+
+  const commitPresetName = useCallback((id, label) => {
+    setCustomPresets(prev => prev.map(p =>
+      p.id === id ? { ...p, label: (label || '').trim() || 'Untitled' } : p
+    ));
+    setPendingPresetId(null);
+  }, []);
+
+  const deletePreset = useCallback((id) => {
+    setCustomPresets(prev => prev.filter(p => p.id !== id));
+    setPendingPresetId(prev => (prev === id ? null : prev));
+  }, []);
 
   const actions = {
     setTaxa, setWaterType, setCareLevel,
     setTemperament, setGrouping, setDietType,
     setCo2, setLighting, setSize, setMaxTankL,
     setReefSafe, setHideAdvisory, applyPreset, clearAll, removeFilter,
+    // Custom preset actions
+    savePresetFromCurrent, commitPresetName, deletePreset,
+    customPresets, pendingPresetId,
   };
 
   // Infinite scroll sentinel
