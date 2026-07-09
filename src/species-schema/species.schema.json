@@ -390,6 +390,11 @@
     "dataStatus":    { "type": "string", "enum": ["placeholder", "researched", "needs_review", "reviewed"] },
     "lastReviewed":  { "type": ["string", "null"], "format": "date" },
 
+    "reefSafe": {
+      "type": ["boolean", "null"],
+      "description": "Whether the species is broadly considered reef-safe by mainstream aquarium sources. Applies to any species with saltwater exposure (coral, saltwater fish, crustacean, mollusc, echinoderm, macroalgae, saltwater plants). Null means not yet determined (v1 default). Freshwater-only species carry null and are ignored by the reef-safe filter."
+    },
+
     "hobbyistAdvisory": {
       "type": ["object", "null"],
       "additionalProperties": false,
