@@ -12,6 +12,19 @@ function isReefSafe(item) {
 function matchesFilters(item, filters) {
   if (!item) return false;
 
+  // Free-text search: case-insensitive substring against commonName,
+  // scientificName, and alsoKnownAs entries. Whitespace-only queries ignored.
+  if (filters.q && filters.q.trim()) {
+    const q = filters.q.toLowerCase().trim();
+    const haystack = [
+      item.commonName,
+      item.scientificName,
+      ...(item.alsoKnownAs || []),
+    ];
+    const hit = haystack.some(str => typeof str === 'string' && str.toLowerCase().includes(q));
+    if (!hit) return false;
+  }
+
   // Enum multi-selects: item's value must be in the selected list.
   if (filters.taxa?.length && !filters.taxa.includes(item.taxon)) return false;
   if (filters.waterType?.length && !filters.waterType.includes(item.waterType)) return false;

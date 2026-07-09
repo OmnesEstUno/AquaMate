@@ -88,6 +88,7 @@ function parseGalleryQuery(url) {
         lighting: list('lighting'),
         reefSafe: bool('reefSafe') ? true : undefined,
         hideAdvisory: bool('hideAdvisory') ? true : undefined,
+        q: q.get('q') || undefined,
         seed: intOr('seed', 0),
         page: intOr('page', 1),
         perPage: Math.min(intOr('perPage', 24), 48),

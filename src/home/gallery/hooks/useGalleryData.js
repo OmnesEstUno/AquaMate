@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 
-const API_BASE = 'https://aquamate-worker.elliotjwarren.workers.dev';
+const API_BASE = 'http://localhost:8787';
 
 // Build the /api/gallery query string from filter state.
 function stateToQuery(state) {
@@ -20,6 +20,7 @@ function stateToQuery(state) {
   put('maxTankL', state.maxTankL);
   put('reefSafe', state.reefSafe ? '1' : null);
   put('hideAdvisory', state.hideAdvisory ? '1' : null);
+  put('q', state.q?.trim() || null);
   put('seed', state.seed);
   put('sort', state.sort);
   put('page', state.page);

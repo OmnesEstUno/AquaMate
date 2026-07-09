@@ -1,6 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
-import { useSearch } from '../search/search_provider';
 import AMHeader from "../header";
 import AMFooter from "../footer";
 import { Gallery } from './gallery/Gallery';
@@ -8,8 +6,6 @@ import { Gallery } from './gallery/Gallery';
 function HomePage() {
 
     const [headerClassName, setHeaderClassName] = useState(''); // State to manage header class name
-    const navigate = useNavigate();
-    const { searchResults } = useSearch()
 
     const handleScroll = () => {
         const mainContainer = document.getElementById('main');
@@ -69,22 +65,6 @@ function HomePage() {
                 <section id="home" className="hero">
                     <h1>Welcome to Our Unified Aquarium Tool</h1>
                     <p>Discover the beauty of aquatic life and create your own underwater paradise.</p>
-                </section>
-                <section id="search-results" className="search-results">
-                    {searchResults && searchResults.length > 0 && (
-                        <div className="gallery-container scroll-hidden" id='gallery'>
-                            <h1 className="gallery-header">Search Results</h1>
-                            <div className="gallery">
-                                {searchResults.map((result, index) => (
-                                    <div key={index} onClick={() => navigate(`/info/${encodeURIComponent(result.commonName)}`)} style={{cursor: 'pointer'}}>
-                                        <img src={result.image_url} alt={result.commonName} width="640" height="480"/>
-                                        <span>{result.commonName}</span>
-                                        <span>"{result.scientificName}"</span>
-                                    </div>
-                                ))}
-                            </div>
-                        </div>
-                    )}
                 </section>
 
                 <Gallery />

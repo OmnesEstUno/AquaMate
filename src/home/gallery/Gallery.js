@@ -1,6 +1,7 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useRef, useState, useMemo } from 'react';
 import { useGalleryState } from './hooks/useGalleryState';
 import { useGalleryData } from './hooks/useGalleryData';
+import { useSearch } from '../../search/search_provider';
 import { FilterBar } from './components/FilterBar';
 import { SortDropdown } from './components/SortDropdown';
 import { ResultCount } from './components/ResultCount';
@@ -17,7 +18,15 @@ export function Gallery() {
     applyPreset, clearAll, removeFilter,
   } = useGalleryState();
 
-  const { items, totalMatching, totalPages, facetCounts, loading } = useGalleryData(state);
+  // Merge the header's search term into the request state — search narrows
+  // the gallery itself rather than showing a separate results panel.
+  const { searchTerm } = useSearch();
+  const effectiveState = useMemo(
+    () => ({ ...state, q: searchTerm }),
+    [state, searchTerm]
+  );
+
+  const { items, totalMatching, totalPages, facetCounts, loading } = useGalleryData(effectiveState);
 
   const [sidebarCollapsed, setSidebarCollapsed] = useState(false);
 
