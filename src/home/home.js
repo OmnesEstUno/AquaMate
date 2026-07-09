@@ -1,20 +1,15 @@
-import React, { useState, useEffect, useCallback, useRef } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useSearch } from '../search/search_provider';
-import { useFavorites } from '../builder_tool/favorites_provider';
 import AMHeader from "../header";
 import AMFooter from "../footer";
+import { Gallery } from './gallery/Gallery';
 
 function HomePage() {
 
-    const [images, setImages] = useState([]);
-    const [page, setPage] = useState(0);
-    const [loading, setLoading] = useState(false);
-    const [hasMore, setHasMore] = useState(true);
     const [headerClassName, setHeaderClassName] = useState(''); // State to manage header class name
     const navigate = useNavigate();
     const { searchResults } = useSearch()
-    const sentinelRef = useRef(null)
 
     const handleScroll = () => {
         const mainContainer = document.getElementById('main');
@@ -56,103 +51,6 @@ function HomePage() {
     }, []);
 
 
-    // Fetch initial 8 images
-    const fetchInitialImages = useCallback(() => {
-        document.getElementById('header').classList.add('at-home');
-        document.getElementById('header-right').classList.add('at-home');
-        // Change for local or server
-        const url = 'https://aquamate-worker.elliotjwarren.workers.dev/api/images/freshwater/1';
-        fetchImages(url);
-    }, []);
-
-    // Fetch more images
-    const fetchMoreImages = useCallback(() => {
-        // Change for local or server
-        const workerPage = page + 1; // Convert 0-based to 1-based for Worker
-        console.log("current page: " + workerPage);
-        const url = `https://aquamate-worker.elliotjwarren.workers.dev/api/images/freshwater/${workerPage}`;
-        fetchImages(url);
-    }, [page]);
-
-    // Function to fetch images from the API
-    const fetchImages = (url) => {
-        if (loading || !hasMore) return;
-
-        setLoading(true);
-        fetch(url)
-            .then(response => response.json())
-            .then(data => {
-                if (!data.success || data.items.length === 0) {
-                    setHasMore(false);
-                    return;
-                }
-                setImages(prevImages => [...prevImages, ...data.items]);
-                setPage(prevPage => prevPage + 1);
-                
-                // Stop if we've reached the end
-                if (data.page >= data.totalPages) {
-                    setHasMore(false);
-                }
-            })
-            .catch(error => {
-                console.error('Error fetching images:', error);
-            })
-            .finally(() => {
-                setLoading(false);
-            });
-    };
-
-    const firstRun = useRef(true);
-
-    useEffect(() => {
-        if (firstRun.current) {
-            firstRun.current = false;
-            fetchInitialImages();
-        }
-    }, [fetchInitialImages]);
-
-    useEffect(() => {
-        if (!sentinelRef.current || !hasMore || loading) return;
-
-        const observer = new IntersectionObserver(
-            (entries) => {
-                if (entries[0].isIntersecting) {
-                    fetchMoreImages();
-                }
-            },
-            {
-                root: document.getElementById('main'),
-                rootMargin: '400px'
-            }
-        );
-
-        observer.observe(sentinelRef.current);
-
-        return () => observer.disconnect();
-    }, [fetchMoreImages, hasMore, loading]);
-
-
-    const handleResultClick = (commonName) => {
-        navigate(`/info/${encodeURIComponent(commonName)}`);
-    };
-
-    function FavoriteButton({ category, item }) {
-        const { isFavorite, favoriteSwitch } = useFavorites();
-
-        return (
-            <button
-                className={`fav-btn ${isFavorite(category, item.id) ? 'highlighted' : ''}`}
-                onClick={(e) => {
-                    e.stopPropagation(); // This stops the click event from bubbling up to the parent
-                    favoriteSwitch(category, item);
-                }}
-            >
-                {isFavorite(category, item.id) ? '' : ''}
-            </button>
-        );
-    }
-
-
     return (
         <div>
             <AMHeader className={headerClassName}/>
@@ -168,7 +66,7 @@ function HomePage() {
                             <h1 className="gallery-header">Search Results</h1>
                             <div className="gallery">
                                 {searchResults.map((result, index) => (
-                                    <div key={index} onClick={() => handleResultClick(result.commonName)} style={{cursor: 'pointer'}}>
+                                    <div key={index} onClick={() => navigate(`/info/${encodeURIComponent(result.commonName)}`)} style={{cursor: 'pointer'}}>
                                         <img src={result.image_url} alt={result.commonName} width="640" height="480"/>
                                         <span>{result.commonName}</span>
                                         <span>"{result.scientificName}"</span>
@@ -179,29 +77,7 @@ function HomePage() {
                     )}
                 </section>
 
-                <section className="gallery-container scroll-hidden">
-                    <h1 className="gallery-header">Gallery</h1>
-                    <div className="gallery">
-                        {images.map((image, index) => (
-                            <div className={'card'}
-                                key={index}
-                                onClick={() => handleResultClick(image.commonName)}
-                                style={{cursor: 'pointer'}}>
-                                <img
-                                    src={image.image_url}
-                                    alt={image.commonName}
-                                    width="640"
-                                    height="480"/>
-                                <div className={'card-info'}>
-                                    <span>{image.commonName}</span>
-                                    <FavoriteButton category={image.category || image.Category} item={image} />
-                                </div>
-                            </div>
-                        ))}
-                        {hasMore && <div ref={sentinelRef} style={{ height: '1px' }} />}
-                        {loading && <p>Loading...</p>}
-                    </div>
-                </section>
+                <Gallery />
             </main>
             <AMFooter/>
         </div>
