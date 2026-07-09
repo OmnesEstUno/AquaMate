@@ -1,4 +1,7 @@
-import speciesData from '../../dist/species.json' assert { type: 'json' };
+const speciesData = require('../../dist/species.json');
+const { applyFilters } = require('./gallery/filters');
+const { seededShuffle } = require('./gallery/shuffle');
+const { computeFacets } = require('./gallery/facets');
 
 const R2_DOMAINS = {
     fauna: 'https://pub-eaf7b96d5e4d42869407498cf5b931e0.r2.dev',
@@ -35,6 +38,61 @@ function resolveImageUrl(item) {
 
 function withResolvedImage(item) {
     return { ...item, image_url: resolveImageUrl(item) };
+}
+
+const CARE_ORDER = ['beginner', 'intermediate', 'advanced', 'expert'];
+
+function applySort(items, sort) {
+    const arr = items.slice();
+    const nullLast = (a, b) => {
+        if (a == null && b == null) return 0;
+        if (a == null) return 1;
+        if (b == null) return -1;
+        return 0;
+    };
+    switch (sort) {
+        case 'az':        return arr.sort((a, b) => (a.commonName || '').localeCompare(b.commonName || ''));
+        case 'za':        return arr.sort((a, b) => (b.commonName || '').localeCompare(a.commonName || ''));
+        case 'size-asc':  return arr.sort((a, b) => nullLast(a.adultSizeCm?.max, b.adultSizeCm?.max) || (a.adultSizeCm?.max - b.adultSizeCm?.max));
+        case 'size-desc': return arr.sort((a, b) => nullLast(a.adultSizeCm?.max, b.adultSizeCm?.max) || (b.adultSizeCm?.max - a.adultSizeCm?.max));
+        case 'care-asc':  return arr.sort((a, b) => CARE_ORDER.indexOf(a.careLevel) - CARE_ORDER.indexOf(b.careLevel));
+        case 'care-desc': return arr.sort((a, b) => CARE_ORDER.indexOf(b.careLevel) - CARE_ORDER.indexOf(a.careLevel));
+        case 'tank-asc':  return arr.sort((a, b) => nullLast(a.tank?.minVolumeLiters, b.tank?.minVolumeLiters) || (a.tank?.minVolumeLiters - b.tank?.minVolumeLiters));
+        case 'tank-desc': return arr.sort((a, b) => nullLast(a.tank?.minVolumeLiters, b.tank?.minVolumeLiters) || (b.tank?.minVolumeLiters - a.tank?.minVolumeLiters));
+        default:          return arr;
+    }
+}
+
+function parseGalleryQuery(url) {
+    const q = url.searchParams;
+    const list = (name) => q.get(name)?.split(',').filter(Boolean) || undefined;
+    const intOr = (name, fallback = undefined) => {
+        const v = q.get(name);
+        if (v == null) return fallback;
+        const n = parseInt(v, 10);
+        return Number.isNaN(n) ? fallback : n;
+    };
+    const bool = (name) => q.get(name) === '1';
+
+    return {
+        taxa: list('taxa'),
+        waterType: list('waterType'),
+        careLevel: list('careLevel'),
+        minSize: intOr('minSize'),
+        maxSize: intOr('maxSize'),
+        maxTankL: intOr('maxTankL'),
+        temperament: list('temperament'),
+        grouping: list('grouping'),
+        dietType: list('dietType'),
+        co2: list('co2'),
+        lighting: list('lighting'),
+        reefSafe: bool('reefSafe') ? true : undefined,
+        hideAdvisory: bool('hideAdvisory') ? true : undefined,
+        seed: intOr('seed', 0),
+        page: intOr('page', 1),
+        perPage: Math.min(intOr('perPage', 24), 48),
+        sort: q.get('sort') || 'random',
+    };
 }
 
 function getFaunaCategory(category) {
@@ -93,6 +151,38 @@ async function handleRequest(request) {
             page: requestedPage,
             totalPages,
             items: slice,
+        });
+    }
+
+    // GET /api/gallery — filterable, seed-shuffled, facet-counted browse endpoint
+    if (path === '/api/gallery' && request.method === 'GET') {
+        const params = parseGalleryQuery(url);
+        const all = allItems();
+        const { seed, page, perPage, sort, ...filters } = params;
+
+        const matching = applyFilters(all, filters);
+        const totalMatching = matching.length;
+        const totalPages = Math.max(1, Math.ceil(totalMatching / perPage));
+
+        let ordered;
+        if (sort === 'random') {
+            ordered = seededShuffle(matching, seed);
+        } else {
+            ordered = applySort(matching, sort);
+        }
+
+        const start = (page - 1) * perPage;
+        const slice = ordered.slice(start, start + perPage).map(withResolvedImage);
+        const facetCounts = computeFacets(all, filters);
+
+        return jsonResponse({
+            success: true,
+            page,
+            totalPages,
+            totalMatching,
+            seed,
+            items: slice,
+            facetCounts,
         });
     }
 
