@@ -26,6 +26,14 @@ export function Gallery() {
     [state, searchTerm]
   );
 
+  // Search fires via context, bypassing useGalleryState's setters — so it doesn't
+  // reset page. Without this, a user who has scrolled past page 1 and then starts
+  // typing sees `totalMatching` update correctly but the grid goes empty (server
+  // returns page N of a smaller result set that no longer has that page).
+  useEffect(() => {
+    setPage(1);
+  }, [searchTerm, setPage]);
+
   const { items, totalMatching, totalPages, facetCounts, loading } = useGalleryData(effectiveState);
 
   const [sidebarCollapsed, setSidebarCollapsed] = useState(false);
