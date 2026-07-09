@@ -8,17 +8,25 @@ export const SearchProvider = ({ children }) => {
     const [searchTerm, setSearchTerm] = useState('');
 
     useEffect(() => {
-        const search = () => {
-	    const url = 'https://aquamate.me/cards?search=&page=0&limit=8';
-            fetch(url)
-                .then(response => response.json())
-                .then(data => setSearchResults(data))
-                .catch(error => console.error('Error fetching search results:', error));
-        };
-
-        if (searchTerm) {
-            search();
+        if (!searchTerm || !searchTerm.trim()) {
+            setSearchResults([]);
+            return;
         }
+        const controller = new AbortController();
+        const url = `https://aquamate-worker.elliotjwarren.workers.dev/api/search?q=${encodeURIComponent(searchTerm.trim())}`;
+        fetch(url, { signal: controller.signal })
+            .then(response => response.json())
+            .then(data => {
+                if (data && data.success && Array.isArray(data.results)) {
+                    setSearchResults(data.results);
+                } else {
+                    setSearchResults([]);
+                }
+            })
+            .catch(error => {
+                if (error.name !== 'AbortError') console.error('Error fetching search results:', error);
+            });
+        return () => controller.abort();
     }, [searchTerm]);
 
     return (

@@ -25,18 +25,26 @@ function applyCascade(next) {
   return s;
 }
 
+function isPageReload() {
+  if (typeof window === 'undefined' || !window.performance?.getEntriesByType) return false;
+  const entries = window.performance.getEntriesByType('navigation');
+  return entries.length > 0 && entries[0].type === 'reload';
+}
+
 function seedFromLocation() {
   if (typeof window === 'undefined') {
     return { seed: 1, page: 1, sort: 'random' };
   }
   const params = new URLSearchParams(window.location.search);
   const f = params.get('f');
-  if (f) {
-    const decoded = decodeState(f);
-    if (decoded.seed) return decoded;
+  const decoded = f ? decodeState(f) : decodeState('');
+  // Regenerate seed on hard reload (F5) OR when URL has no seed. Preserve seed
+  // only when the visit is a fresh navigation to a URL that already carries one
+  // (shared-link case).
+  if (isPageReload() || !decoded.seed) {
     return { ...decoded, seed: Math.floor(Math.random() * 2 ** 31) };
   }
-  return { ...decodeState(''), seed: Math.floor(Math.random() * 2 ** 31) };
+  return decoded;
 }
 
 export function useGalleryState({ initial } = {}) {

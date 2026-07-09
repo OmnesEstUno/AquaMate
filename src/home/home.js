@@ -50,6 +50,16 @@ function HomePage() {
         };
     }, []);
 
+    // Mark the header as being on the home page so the hero-mode CSS
+    // (.header.at-home:not(.not-at-top)) kicks in. Removed on unmount so other
+    // routes don't inherit hero styling.
+    useEffect(() => {
+        const header = document.getElementById('header');
+        if (!header) return;
+        header.classList.add('at-home');
+        return () => header.classList.remove('at-home');
+    }, []);
+
 
     return (
         <div>

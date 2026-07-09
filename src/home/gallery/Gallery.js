@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { useGalleryState } from './hooks/useGalleryState';
 import { useGalleryData } from './hooks/useGalleryData';
 import { FilterBar } from './components/FilterBar';
@@ -18,6 +18,8 @@ export function Gallery() {
   } = useGalleryState();
 
   const { items, totalMatching, totalPages, facetCounts, loading } = useGalleryData(state);
+
+  const [sidebarCollapsed, setSidebarCollapsed] = useState(false);
 
   const actions = {
     setTaxa, setWaterType, setCareLevel,
@@ -40,23 +42,38 @@ export function Gallery() {
   }, [state.page, totalPages, loading, setPage]);
 
   return (
-    <section className="gallery-container">
-      <FilterBar state={state} facetCounts={facetCounts} actions={actions} />
+    <div className={`gallery-layout ${sidebarCollapsed ? 'is-collapsed' : ''}`}>
+      <aside className="gallery-sidebar">
+        <button
+          type="button"
+          className="gallery-sidebar__toggle"
+          onClick={() => setSidebarCollapsed(v => !v)}
+          aria-label={sidebarCollapsed ? 'Show filters' : 'Hide filters'}
+          title={sidebarCollapsed ? 'Show filters' : 'Hide filters'}
+        >
+          {sidebarCollapsed ? '☰' : '✕'}
+        </button>
+        {!sidebarCollapsed && (
+          <FilterBar state={state} facetCounts={facetCounts} actions={actions} />
+        )}
+      </aside>
 
-      <div className="gallery-toolbar">
-        <ResultCount count={totalMatching} />
-        <SortDropdown value={state.sort} onChange={setSort} />
+      <div className="gallery-main">
+        <div className="gallery-toolbar">
+          <ResultCount count={totalMatching} />
+          <SortDropdown value={state.sort} onChange={setSort} />
+        </div>
+
+        {totalMatching === 0 && !loading ? (
+          <EmptyState onClearAll={clearAll} />
+        ) : (
+          <>
+            <GalleryGrid items={items} />
+            {state.page < totalPages && <div ref={sentinelRef} style={{ height: '1px' }} />}
+            {loading && <p className="gallery-loading">Loading…</p>}
+          </>
+        )}
       </div>
-
-      {totalMatching === 0 && !loading ? (
-        <EmptyState onClearAll={clearAll} />
-      ) : (
-        <>
-          <GalleryGrid items={items} />
-          {state.page < totalPages && <div ref={sentinelRef} style={{ height: '1px' }} />}
-          {loading && <p className="gallery-loading">Loading…</p>}
-        </>
-      )}
-    </section>
+    </div>
   );
 }

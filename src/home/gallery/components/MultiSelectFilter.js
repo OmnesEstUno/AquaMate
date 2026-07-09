@@ -1,25 +1,18 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState } from 'react';
 
 /**
- * @param {string} label — e.g. "Taxon"
- * @param {string[]} options — full list of option values
- * @param {string[]} selected — currently selected values
- * @param {Object<string, number>} counts — { optionValue: count } for facet display
- * @param {function(string[]): void} onChange — new selection
- * @param {function(string): string} [labelFor] — optional pretty-print for option values
+ * Accordion-style multi-select filter. Options expand INLINE below the toggle
+ * (not as a floating dropdown) so nothing gets clipped by a scrolling sidebar.
+ *
+ * @param {string} label
+ * @param {string[]} options
+ * @param {string[]} selected
+ * @param {Object<string, number>} counts
+ * @param {function(string[]): void} onChange
+ * @param {function(string): string} [labelFor]
  */
 export function MultiSelectFilter({ label, options, selected, counts, onChange, labelFor = (o) => o }) {
   const [open, setOpen] = useState(false);
-  const ref = useRef(null);
-
-  useEffect(() => {
-    if (!open) return;
-    const onClickOutside = (e) => {
-      if (ref.current && !ref.current.contains(e.target)) setOpen(false);
-    };
-    document.addEventListener('mousedown', onClickOutside);
-    return () => document.removeEventListener('mousedown', onClickOutside);
-  }, [open]);
 
   const toggle = (option) => {
     const set = new Set(selected);
@@ -33,13 +26,14 @@ export function MultiSelectFilter({ label, options, selected, counts, onChange, 
     : `${label} (${selectedCount})`;
 
   return (
-    <div className="gallery-msf" ref={ref}>
+    <div className={`gallery-msf ${open ? 'is-open' : ''}`}>
       <button
         type="button"
         className={`gallery-msf__toggle ${selectedCount > 0 ? 'is-active' : ''}`}
         onClick={() => setOpen(o => !o)}
       >
-        {buttonLabel} <span className="gallery-msf__chevron">{open ? '▴' : '▾'}</span>
+        <span className="gallery-msf__toggle-label">{buttonLabel}</span>
+        <span className="gallery-msf__chevron">{open ? '▴' : '▾'}</span>
       </button>
       {open && (
         <div className="gallery-msf__menu">
