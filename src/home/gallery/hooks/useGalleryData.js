@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 
-const API_BASE = 'http://localhost:8787';
+const API_BASE = 'https://aquamate-worker.elliotjwarren.workers.dev';
 
 // Build the /api/gallery query string from filter state.
 function stateToQuery(state) {
