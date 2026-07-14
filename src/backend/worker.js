@@ -112,7 +112,17 @@ function allItems() {
     ];
 }
 
-async function handleRequest(request) {
+// slug → kind lookup. Built once at module load so /api/species/:slug can pick
+// the correct R2 bucket without scanning all items on every request.
+const SLUG_KIND = (() => {
+    const map = new Map();
+    for (const item of allItems()) {
+        if (item.slug) map.set(item.slug, item.kind);
+    }
+    return map;
+})();
+
+async function handleRequest(request, env) {
     if (request.method === 'OPTIONS') return handleOptions();
 
     const url = new URL(request.url);
@@ -187,6 +197,36 @@ async function handleRequest(request) {
         });
     }
 
+    // GET /api/species/:slug — full record (fetches from R2)
+    // The Worker bundle only carries a slim gallery-index; full prose
+    // (careNotes, breedingNotes, sources) lives per-slug in R2 to keep the
+    // bundle under Cloudflare's 3 MiB compressed limit.
+    if (path.startsWith('/api/species/') && request.method === 'GET') {
+        const parts = path.split('/').filter(p => p);
+        const slug = parts[2];
+        if (!slug) {
+            return jsonResponse({ success: false, error: 'Missing slug' }, 400);
+        }
+        const kind = SLUG_KIND.get(slug);
+        if (!kind) {
+            return jsonResponse({ success: false, error: 'Species not found' }, 404);
+        }
+        const bucket = kind === 'fauna' ? env.AQUAMATE_BUCKET_FAUNA : env.AQUAMATE_BUCKET_FLORA;
+        if (!bucket) {
+            return jsonResponse({ success: false, error: 'R2 bucket not bound for kind: ' + kind }, 500);
+        }
+        const object = await bucket.get(`species/${slug}.json`);
+        if (!object) {
+            return jsonResponse({
+                success: false,
+                error: 'Species detail not in R2 — has the upload script been run?',
+                slug,
+            }, 404);
+        }
+        const fullRecord = await object.json();
+        return jsonResponse({ success: true, item: fullRecord });
+    }
+
     // GET /api/search?q=<term> — search all species
     if (path === '/api/search' && request.method === 'GET') {
         const q = url.searchParams.get('q')?.trim().toLowerCase();
@@ -222,13 +262,14 @@ async function handleRequest(request) {
             '/api/categories',
             '/api/images/:category/:page',
             '/api/gallery?<filters>&seed=<int>&page=<int>',
+            '/api/species/:slug',
             '/api/search?q=<term>',
         ],
     }, 404);
 }
 
 export default {
-    async fetch(request) {
-        return handleRequest(request);
+    async fetch(request, env, ctx) {
+        return handleRequest(request, env);
     },
 };

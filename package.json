@@ -12,7 +12,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "validate": "node src/species-build/validate.js",
-    "compile-species": "node src/species-build/compile.js"
+    "compile-species": "node src/species-build/compile.js",
+    "upload-species-details": "node src/species-build/upload-species-details.js"
   },
   "repository": {
     "type": "git",
