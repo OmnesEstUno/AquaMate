@@ -221,6 +221,7 @@ async function handleRequest(request) {
             '/health',
             '/api/categories',
             '/api/images/:category/:page',
+            '/api/gallery?<filters>&seed=<int>&page=<int>',
             '/api/search?q=<term>',
         ],
     }, 404);
