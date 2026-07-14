@@ -383,7 +383,15 @@
   font-family: var(--font-gallery);
 }
 .gallery-empty__title { font-size: 2em; margin-bottom: 12px; }
-.gallery-empty__body { font-size: 1.2em; margin-bottom: 24px; color: var(--gray-ddd); }
+.gallery-empty__body {
+  font-size: 1.2em;
+  margin: 0 auto 24px;
+  color: var(--gray-ddd);
+  /* Neutralize the global p rule (width: 50%) which offsets the paragraph
+     from center when it sits inside a text-align: center container. */
+  width: auto;
+  max-width: 480px;
+}
 .gallery-empty__clear {
   background: var(--button-blue);
   color: var(--white);
