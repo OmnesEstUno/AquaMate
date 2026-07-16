@@ -87,9 +87,18 @@ function promptFor(file) {
   ].join('\n');
 }
 
-const files = (args && args.files) || [];
+// args may arrive as a real object or as a JSON-encoded string depending on how it was passed.
+let parsedArgs = args;
+if (typeof parsedArgs === 'string') {
+  try {
+    parsedArgs = JSON.parse(parsedArgs);
+  } catch (e) {
+    parsedArgs = {};
+  }
+}
+const files = (parsedArgs && parsedArgs.files) || [];
 if (!files.length) {
-  log('No files provided in args.files — nothing to do.');
+  log(`No files resolved from args (type=${typeof args}) — nothing to do.`);
   return [];
 }
 log(`Curating image candidates for ${files.length} species.`);
