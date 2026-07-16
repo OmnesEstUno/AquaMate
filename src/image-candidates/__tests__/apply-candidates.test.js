@@ -62,17 +62,12 @@ test('rejects a non-commercial license (throws, writes nothing)', () => {
   expect(() => applyCandidates(file, [{ ...CAND, license: 'CC BY-NC 4.0' }])).toThrow(/license/);
 });
 
-test('genus entry accepts up to 5 candidates and still validates', () => {
+test('genus entry accepts more than the species cap of 3 and still validates', () => {
   expect(GENUS_SAMPLE).toBeDefined(); // catalog has genus-level entries
   const file = tmpCopy(GENUS_SAMPLE);
-  applyCandidates(file, [
-    CAND,
-    { ...CAND, recommended: false, url: 'https://x/2.jpg' },
-    { ...CAND, recommended: false, url: 'https://x/3.jpg' },
-    { ...CAND, recommended: false, url: 'https://x/4.jpg' },
-    { ...CAND, recommended: false, url: 'https://x/5.jpg' },
-  ]);
+  const set = [CAND, ...Array.from({ length: 5 }, (_, i) => ({ ...CAND, recommended: false, url: `https://x/${i + 2}.jpg` }))];
+  applyCandidates(file, set); // 6 candidates — would be capped to 3 for a species entry
   const after = JSON.parse(fs.readFileSync(file, 'utf8'));
-  expect(after.media.imageCandidates).toHaveLength(5);
+  expect(after.media.imageCandidates).toHaveLength(6);
   expect(validateOne(file).ok).toBe(true);
 });

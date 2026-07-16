@@ -4,6 +4,7 @@ const {
   buildCandidate,
   assertCandidateSet,
   isGenusLevel,
+  targetCount,
 } = require('../lib');
 
 describe('isCommercialFriendly', () => {
@@ -55,12 +56,24 @@ describe('assertCandidateSet', () => {
 
   const rec = ok;
   const notRec = { ...ok, recommended: false };
-  test('with max=5, accepts 5 (one recommended)', () =>
-    expect(() => assertCandidateSet([rec, notRec, notRec, notRec, notRec], 5)).not.toThrow());
-  test('with max=5, rejects 6', () =>
-    expect(() => assertCandidateSet([rec, notRec, notRec, notRec, notRec, notRec], 5)).toThrow(/at most 5/));
+  const many = (n) => [rec, ...Array.from({ length: n - 1 }, () => notRec)];
+  test('with max=20, accepts 20 (one recommended)', () =>
+    expect(() => assertCandidateSet(many(20), 20)).not.toThrow());
+  test('with max=20, rejects 21', () =>
+    expect(() => assertCandidateSet(many(21), 20)).toThrow(/at most 20/));
   test('default max is still 3', () =>
-    expect(() => assertCandidateSet([rec, notRec, notRec, notRec])).toThrow(/at most 3/));
+    expect(() => assertCandidateSet(many(4))).toThrow(/at most 3/));
+});
+
+describe('targetCount', () => {
+  test('species entry -> 3', () =>
+    expect(targetCount({ id: 'fw-fish-001', scientificName: 'Paracheirodon innesi' })).toBe(3));
+  test('genus entry -> 20', () =>
+    expect(targetCount({ id: 'sw-coral-001', scientificName: 'Acropora' })).toBe(20));
+  test('genus sp. entry -> 20', () =>
+    expect(targetCount({ id: 'fw-plant-016', scientificName: 'Bucephalandra sp.' })).toBe(20));
+  test('umbrella allowlist id -> 24 (even though binomial)', () =>
+    expect(targetCount({ id: 'fw-crus-001', scientificName: 'Neocaridina davidi' })).toBe(24));
 });
 
 describe('isGenusLevel', () => {

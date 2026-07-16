@@ -66,6 +66,28 @@ function isGenusLevel(scientificName) {
   return false;
 }
 
+// Per-entry candidate caps. Species show one image set; bare-genus entries show many
+// species; color-morph "umbrella" species (a single binomial with many named variants,
+// e.g. Neocaridina davidi) are a small hand-curated allowlist that shows the most.
+const SPECIES_MAX = 3;
+const GENUS_MAX = 20;
+const UMBRELLA_MAX = 24;
+
+// Color-morph umbrella entries by id. Not auto-detectable (alsoKnownAs length is noisy),
+// so maintained by hand. Add ids here to grant an entry the umbrella cap.
+const UMBRELLA_IDS = new Set([
+  'fw-crus-001', // Cherry Shrimp (Neocaridina davidi) — Sakura/Fire Red/Bloody Mary/Blue Dream/Rili/...
+  'fw-crus-002', // Crystal Red Shrimp (Caridina cantonensis) — CRS/CBS grades, Taiwan bee morphs
+  'fw-crus-003', // Taiwan Bee Shrimp (Caridina mariae) — Blue Bolt/King Kong/Panda/Wine Red/...
+]);
+
+function targetCount(entry) {
+  const e = entry || {};
+  if (UMBRELLA_IDS.has(e.id)) return UMBRELLA_MAX;
+  if (isGenusLevel(e.scientificName)) return GENUS_MAX;
+  return SPECIES_MAX;
+}
+
 function assertCandidateSet(candidates, max = 3) {
   if (!Array.isArray(candidates)) throw new Error('candidates must be an array');
   if (candidates.length > max) throw new Error(`at most ${max} candidates, got ${candidates.length}`);
@@ -83,4 +105,12 @@ function assertCandidateSet(candidates, max = 3) {
   }
 }
 
-module.exports = { isCommercialFriendly, mapSourceType, buildCandidate, assertCandidateSet, isGenusLevel };
+module.exports = {
+  isCommercialFriendly,
+  mapSourceType,
+  buildCandidate,
+  assertCandidateSet,
+  isGenusLevel,
+  targetCount,
+  UMBRELLA_IDS,
+};

@@ -9,6 +9,11 @@ the catalog is populated and the worklist report is generated, delete it:
 
     rm -rf src/image-candidates
 
-Contents: `lib.js` (pure helpers), `apply-candidates.js` (schema-safe writer),
-`list-species.js` (worklist), `report.js` (<3-candidate report),
-`candidates.workflow.js` (curator Workflow script), `__tests__/` (Jest tests).
+Contents: `lib.js` (pure helpers + per-entry cap logic), `apply-candidates.js`
+(schema-safe writer), `target.js` (prints an entry's candidate cap: 3 species /
+20 genus / 24 umbrella), `list-species.js` (worklist), `report.js`
+(<3-candidate report), `candidates.workflow.js` (curator Workflow script),
+`__tests__/` (Jest tests).
+
+Note: `lib.js` UMBRELLA_IDS is a hand-maintained allowlist of color-morph
+umbrella species (e.g. Cherry Shrimp). Add ids there to grant the umbrella cap.

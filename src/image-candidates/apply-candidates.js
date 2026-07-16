@@ -1,15 +1,15 @@
 'use strict';
 
 const fs = require('fs');
-const { buildCandidate, assertCandidateSet, isGenusLevel } = require('./lib');
+const { buildCandidate, assertCandidateSet, targetCount } = require('./lib');
 
 function applyCandidates(speciesFile, rawCandidates) {
   const data = JSON.parse(fs.readFileSync(speciesFile, 'utf8'));
   if (!data.media || typeof data.media !== 'object') {
     throw new Error(`no media object in ${speciesFile}`);
   }
-  // Genus entries get up to 5 (schema max) to show species range; species get 3.
-  const max = isGenusLevel(data.scientificName) ? 5 : 3;
+  // Cap depends on entry type: species 3, genus 20, umbrella 24 (see lib.targetCount).
+  const max = targetCount(data);
   const candidates = (rawCandidates || []).slice(0, max).map(buildCandidate);
   assertCandidateSet(candidates, max);
   // Only touch imageCandidates; leave primaryImage & gallery untouched.
