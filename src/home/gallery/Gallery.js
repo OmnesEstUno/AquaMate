@@ -148,7 +148,7 @@ export function Gallery() {
           <EmptyState onClearAll={clearAll} />
         ) : (
           <>
-            <GalleryGrid items={items} />
+            <GalleryGrid items={items} query={searchTerm} />
             {state.page < totalPages && <div ref={sentinelRef} style={{ height: '1px' }} />}
             {loading && <p className="gallery-loading">Loading…</p>}
           </>
