@@ -1,15 +1,28 @@
 'use strict';
 
-// Commercial-friendly only: CC0, Public Domain, CC BY, CC BY-SA.
-// Reject NonCommercial (NC), NoDerivatives (ND), all-rights-reserved, GFDL, unknown.
-const REJECT = /\bnc\b|\bnd\b|non[- ]?commercial|no[- ]?deriv|all rights reserved|gfdl/i;
-const ACCEPT = /(^|[^a-z])(cc0|cc[- ]?by([- ]?sa)?|public domain|pdm|no known copyright)([^a-z]|$)/i;
+// Commercial-friendly only: CC0, Public Domain, CC BY, CC BY-SA (short, long, or URL form).
+// Reject NonCommercial (NC), NoDerivatives (ND) — including separator-less variants —
+// plus all-rights-reserved and GFDL.
+const REJECT_WORDS = /non[- ]?commercial|no[- ]?deriv|all rights reserved|gfdl/i;
+const ACCEPT = /cc0|cc[- ]?by|creative commons attribution|public domain|publicdomain|pdm|no known copyright|creativecommons\.org\/(licenses\/by|publicdomain)/i;
+
+// True if any license sub-token contains an "nc"/"nd" modifier, even when mashed with
+// version digits or other tokens (e.g. "nc4", "ncnd"). Splitting on separators first
+// keeps cross-word false positives out (e.g. "known copyright" never forms "nc").
+function hasNcNdToken(s) {
+  return s
+    .split(/[\s\-_/.()]+/)
+    .filter(Boolean)
+    .map((t) => t.replace(/[0-9]+/g, ''))
+    .some((t) => t.includes('nc') || t.includes('nd'));
+}
 
 function isCommercialFriendly(license) {
   if (!license || typeof license !== 'string') return false;
   const s = license.trim().toLowerCase();
   if (!s) return false;
-  if (REJECT.test(s)) return false;
+  if (REJECT_WORDS.test(s)) return false;
+  if (hasNcNdToken(s)) return false;
   return ACCEPT.test(s);
 }
 

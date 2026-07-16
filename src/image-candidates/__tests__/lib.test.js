@@ -6,12 +6,18 @@ const {
 } = require('../lib');
 
 describe('isCommercialFriendly', () => {
-  test.each(['CC0', 'CC0 1.0', 'Public Domain', 'CC BY 4.0', 'cc-by', 'CC BY-SA 4.0', 'cc-by-sa'])(
+  test.each([
+    'CC0', 'CC0 1.0', 'Public Domain', 'CC BY 4.0', 'cc-by', 'CC BY-SA 4.0', 'cc-by-sa',
+    'Creative Commons Attribution 4.0', 'Creative Commons Attribution-ShareAlike 4.0',
+    'https://creativecommons.org/licenses/by/4.0/', 'https://creativecommons.org/licenses/by-sa/4.0/',
+    'no known copyright', 'PDM',
+  ])(
     'accepts %s', (l) => expect(isCommercialFriendly(l)).toBe(true)
   );
   test.each([
     'CC BY-NC 4.0', 'cc-by-nc', 'CC BY-ND 2.0', 'cc-by-nc-sa',
     'All rights reserved', '', null, undefined, 'GFDL',
+    'CC BY-NC4.0', 'cc-by-ncnd', 'https://creativecommons.org/licenses/by-nc/4.0/', 'CC BY-NC-ND 4.0',
   ])('rejects %s', (l) => expect(isCommercialFriendly(l)).toBe(false));
 });
 
