@@ -37,6 +37,7 @@ describe('buildCandidate', () => {
   });
   test('throws without url', () => expect(() => buildCandidate({ source: 'x' })).toThrow(/url/));
   test('throws without source', () => expect(() => buildCandidate({ url: 'http://x' })).toThrow(/source/));
+  test('throws on malformed url', () => expect(() => buildCandidate({ url: 'not-a-url', source: 'x' })).toThrow(/invalid url/));
 });
 
 describe('assertCandidateSet', () => {

@@ -40,6 +40,11 @@ function buildCandidate(raw) {
   const source = (raw.source || '').trim();
   if (!url) throw new Error('candidate missing url');
   if (!source) throw new Error('candidate missing source');
+  try {
+    new URL(url); // fail fast on malformed URLs at the responsible agent, not the batch gate
+  } catch (e) {
+    throw new Error(`candidate has invalid url: ${url}`);
+  }
   return {
     url,
     source,
