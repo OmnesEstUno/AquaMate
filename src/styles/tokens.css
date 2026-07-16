@@ -80,6 +80,27 @@
   --cra-dark: #282c34;
   --cra-link: #61dafb;
 
+  /* ---- Care level palette (borderless pills) ---- */
+  --care-beginner:     #1E88E5;
+  --care-intermediate: #2E7D32;
+  --care-advanced:     #F9A825;
+  --care-advanced-fg:  #1a1a1a;
+  --care-expert:       #C62828;
+
+  /* ---- Advisory palette (bordered pills; fill + lighter border) ---- */
+  --advisory-specialist:        #E65100;
+  --advisory-specialist-border: #FFB74D;
+  --advisory-restricted:        #424242;
+  --advisory-restricted-border: #9E9E9E;
+  --advisory-xl:                #7b1fa2;
+  --advisory-xl-border:         #CE93D8;
+  --advisory-pond:              #01579B;
+  --advisory-pond-border:       #64B5F6;
+
+  /* ---- AKA subline (cyan-tinted, above common name) ---- */
+  --aka-fg: rgba(0, 247, 255, 0.9);
+  --aka-bg: rgba(0, 247, 255, 0.12);
+
   /* ---- Fonts ---- */
   --font-body: 'Lato', sans-serif;
   --font-ui: Arial, sans-serif;
