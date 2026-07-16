@@ -55,9 +55,20 @@ function buildCandidate(raw) {
   };
 }
 
-function assertCandidateSet(candidates) {
+// Genus-level entries (scientificName is a bare genus like "Acropora" or "Acropora sp.")
+// carry more candidates so the gallery can show the range of species in the genus.
+function isGenusLevel(scientificName) {
+  const s = (scientificName || '').trim();
+  if (!s) return false;
+  const toks = s.split(/\s+/);
+  if (toks.length === 1) return true;
+  if (toks.length === 2 && /^(sp|spp|species)\.?$/i.test(toks[1])) return true;
+  return false;
+}
+
+function assertCandidateSet(candidates, max = 3) {
   if (!Array.isArray(candidates)) throw new Error('candidates must be an array');
-  if (candidates.length > 3) throw new Error(`at most 3 candidates, got ${candidates.length}`);
+  if (candidates.length > max) throw new Error(`at most ${max} candidates, got ${candidates.length}`);
   const recommended = candidates.filter((c) => c.recommended);
   if (candidates.length > 0 && recommended.length !== 1) {
     throw new Error(`exactly one recommended required when non-empty, got ${recommended.length}`);
@@ -72,4 +83,4 @@ function assertCandidateSet(candidates) {
   }
 }
 
-module.exports = { isCommercialFriendly, mapSourceType, buildCandidate, assertCandidateSet };
+module.exports = { isCommercialFriendly, mapSourceType, buildCandidate, assertCandidateSet, isGenusLevel };

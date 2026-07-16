@@ -1,15 +1,17 @@
 'use strict';
 
 const fs = require('fs');
-const { buildCandidate, assertCandidateSet } = require('./lib');
+const { buildCandidate, assertCandidateSet, isGenusLevel } = require('./lib');
 
 function applyCandidates(speciesFile, rawCandidates) {
   const data = JSON.parse(fs.readFileSync(speciesFile, 'utf8'));
   if (!data.media || typeof data.media !== 'object') {
     throw new Error(`no media object in ${speciesFile}`);
   }
-  const candidates = (rawCandidates || []).slice(0, 3).map(buildCandidate);
-  assertCandidateSet(candidates);
+  // Genus entries get up to 5 (schema max) to show species range; species get 3.
+  const max = isGenusLevel(data.scientificName) ? 5 : 3;
+  const candidates = (rawCandidates || []).slice(0, max).map(buildCandidate);
+  assertCandidateSet(candidates, max);
   // Only touch imageCandidates; leave primaryImage & gallery untouched.
   data.media.imageCandidates = candidates;
   fs.writeFileSync(speciesFile, JSON.stringify(data, null, 2) + '\n');

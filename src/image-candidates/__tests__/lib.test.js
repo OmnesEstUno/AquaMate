@@ -3,6 +3,7 @@ const {
   mapSourceType,
   buildCandidate,
   assertCandidateSet,
+  isGenusLevel,
 } = require('../lib');
 
 describe('isCommercialFriendly', () => {
@@ -51,4 +52,22 @@ describe('assertCandidateSet', () => {
     expect(() => assertCandidateSet([ok, { ...ok, recommended: true }])).toThrow(/exactly one recommended/));
   test('rejects non-commercial license', () =>
     expect(() => assertCandidateSet([{ ...ok, license: 'CC BY-NC 4.0' }])).toThrow(/license/));
+
+  const rec = ok;
+  const notRec = { ...ok, recommended: false };
+  test('with max=5, accepts 5 (one recommended)', () =>
+    expect(() => assertCandidateSet([rec, notRec, notRec, notRec, notRec], 5)).not.toThrow());
+  test('with max=5, rejects 6', () =>
+    expect(() => assertCandidateSet([rec, notRec, notRec, notRec, notRec, notRec], 5)).toThrow(/at most 5/));
+  test('default max is still 3', () =>
+    expect(() => assertCandidateSet([rec, notRec, notRec, notRec])).toThrow(/at most 3/));
+});
+
+describe('isGenusLevel', () => {
+  test.each(['Acropora', 'Acropora sp.', 'Acropora spp.', 'Bucephalandra sp', 'Caulerpa species'])(
+    'true for genus %s', (s) => expect(isGenusLevel(s)).toBe(true)
+  );
+  test.each(['Paracheirodon innesi', 'Caridina multidentata', 'Acropora millepora', '', null, undefined])(
+    'false for %s', (s) => expect(isGenusLevel(s)).toBe(false)
+  );
 });
