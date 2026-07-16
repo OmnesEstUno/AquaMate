@@ -9,6 +9,16 @@ function isReefSafe(item) {
   return REEF_SAFE_ENUM.has(variant.reefSafe);
 }
 
+function whichFieldMatched(item, q) {
+  if (!q || typeof q !== 'string' || !q.trim()) return null;
+  const needle = q.toLowerCase().trim();
+  if ((item.commonName || '').toLowerCase().includes(needle)) return 'commonName';
+  if ((item.scientificName || '').toLowerCase().includes(needle)) return 'scientificName';
+  const aka = Array.isArray(item.alsoKnownAs) ? item.alsoKnownAs : [];
+  if (aka.some(s => typeof s === 'string' && s.toLowerCase().includes(needle))) return 'alsoKnownAs';
+  return null;
+}
+
 function matchesFilters(item, filters) {
   if (!item) return false;
 
@@ -77,4 +87,4 @@ function applyFilters(items, filters) {
   return items.filter(item => matchesFilters(item, filters));
 }
 
-module.exports = { matchesFilters, applyFilters };
+module.exports = { matchesFilters, applyFilters, whichFieldMatched };
