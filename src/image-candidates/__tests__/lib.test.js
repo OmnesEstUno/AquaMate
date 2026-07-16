@@ -13,6 +13,7 @@ describe('isCommercialFriendly', () => {
     'Creative Commons Attribution 4.0', 'Creative Commons Attribution-ShareAlike 4.0',
     'https://creativecommons.org/licenses/by/4.0/', 'https://creativecommons.org/licenses/by-sa/4.0/',
     'no known copyright', 'PDM',
+    'CC_BY_4.0', 'CC_BY_SA_4.0', 'cc_by',
   ])(
     'accepts %s', (l) => expect(isCommercialFriendly(l)).toBe(true)
   );
@@ -20,13 +21,17 @@ describe('isCommercialFriendly', () => {
     'CC BY-NC 4.0', 'cc-by-nc', 'CC BY-ND 2.0', 'cc-by-nc-sa',
     'All rights reserved', '', null, undefined, 'GFDL',
     'CC BY-NC4.0', 'cc-by-ncnd', 'https://creativecommons.org/licenses/by-nc/4.0/', 'CC BY-NC-ND 4.0',
+    'CC_BY_NC_4.0', 'CC_BY_NC_SA_4.0',
   ])('rejects %s', (l) => expect(isCommercialFriendly(l)).toBe(false));
 });
 
 describe('mapSourceType', () => {
   test('wikimedia', () => expect(mapSourceType('Wikimedia Commons')).toBe('wikimedia'));
   test('inaturalist -> research-site', () => expect(mapSourceType('iNaturalist')).toBe('research-site'));
+  test('gbif -> research-site', () => expect(mapSourceType('GBIF')).toBe('research-site'));
+  test('eol -> research-site', () => expect(mapSourceType('Encyclopedia of Life')).toBe('research-site'));
   test('flickr -> other', () => expect(mapSourceType('Flickr')).toBe('other'));
+  test('flickr commons -> other (not wikimedia)', () => expect(mapSourceType('Flickr Commons')).toBe('other'));
 });
 
 describe('buildCandidate', () => {

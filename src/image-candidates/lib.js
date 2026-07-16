@@ -4,7 +4,7 @@
 // Reject NonCommercial (NC), NoDerivatives (ND) — including separator-less variants —
 // plus all-rights-reserved and GFDL.
 const REJECT_WORDS = /non[- ]?commercial|no[- ]?deriv|all rights reserved|gfdl/i;
-const ACCEPT = /cc0|cc[- ]?by|creative commons attribution|public domain|publicdomain|pdm|no known copyright|creativecommons\.org\/(licenses\/by|publicdomain)/i;
+const ACCEPT = /cc0|cc[-_ ]?by|creative commons attribution|public domain|publicdomain|pdm|no known copyright|creativecommons\.org\/(licenses\/by|publicdomain)/i;
 
 // True if any license sub-token contains an "nc"/"nd" modifier, even when mashed with
 // version digits or other tokens (e.g. "nc4", "ncnd"). Splitting on separators first
@@ -28,8 +28,17 @@ function isCommercialFriendly(license) {
 
 function mapSourceType(source) {
   const s = (source || '').toLowerCase();
-  if (s.includes('wikimedia') || s.includes('commons')) return 'wikimedia';
-  if (s.includes('inaturalist') || s.includes('inat')) return 'research-site';
+  if (s.includes('wikimedia')) return 'wikimedia'; // not bare "commons" (avoid matching "Flickr Commons")
+  if (
+    s.includes('inaturalist') ||
+    s.includes('inat') ||
+    s.includes('gbif') ||
+    s.includes('encyclopedia of life') ||
+    s.includes('eol') ||
+    s.includes('biodiversity')
+  ) {
+    return 'research-site';
+  }
   return 'other';
 }
 
