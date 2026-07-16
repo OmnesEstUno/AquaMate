@@ -68,4 +68,37 @@ describe('GET /api/gallery', () => {
       expect(withImage.image_url).toMatch(/^https:\/\/pub-/);
     }
   });
+
+  describe('matchedVia annotation', () => {
+    test('no q — items have no matchedVia field', async () => {
+      const { body } = await req(`${BASE}/api/gallery?seed=42`);
+      expect(body.items.every(i => i.matchedVia === undefined)).toBe(true);
+    });
+
+    test('with q — every item has matchedVia set', async () => {
+      const { body } = await req(`${BASE}/api/gallery?seed=42&q=neon`);
+      expect(body.items.length).toBeGreaterThan(0);
+      expect(body.items.every(i => ['commonName', 'scientificName', 'alsoKnownAs'].includes(i.matchedVia))).toBe(true);
+    });
+
+    test('Cardinal Tetra with q=red neon → matchedVia is alsoKnownAs', async () => {
+      const { body } = await req(`${BASE}/api/gallery?seed=42&q=red%20neon`);
+      const cardinal = body.items.find(i => i.slug === 'cardinal-tetra');
+      if (cardinal) {
+        expect(cardinal.matchedVia).toBe('alsoKnownAs');
+      } else {
+        // Corpus may or may not have this exact slug — softer assertion:
+        const anyAka = body.items.some(i => i.matchedVia === 'alsoKnownAs');
+        expect(anyAka).toBe(true);
+      }
+    });
+
+    test('Neon Tetra with q=neon → matchedVia is commonName', async () => {
+      const { body } = await req(`${BASE}/api/gallery?seed=42&q=neon`);
+      const neon = body.items.find(i => i.slug === 'neon-tetra');
+      if (neon) {
+        expect(neon.matchedVia).toBe('commonName');
+      }
+    });
+  });
 });

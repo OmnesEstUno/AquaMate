@@ -1,5 +1,5 @@
 const speciesData = require('../../dist/species.json');
-const { applyFilters } = require('./gallery/filters');
+const { applyFilters, whichFieldMatched } = require('./gallery/filters');
 const { seededShuffle } = require('./gallery/shuffle');
 const { computeFacets } = require('./gallery/facets');
 
@@ -184,6 +184,15 @@ async function handleRequest(request, env) {
 
         const start = (page - 1) * perPage;
         const slice = ordered.slice(start, start + perPage).map(withResolvedImage);
+
+        // Annotate each item with which searchable field matched, so the frontend
+        // can render the AKA subline only when the match reason was a trade name.
+        if (params.q && params.q.trim()) {
+            slice.forEach(item => {
+                item.matchedVia = whichFieldMatched(item, params.q);
+            });
+        }
+
         const facetCounts = computeFacets(all, filters);
 
         return jsonResponse({
