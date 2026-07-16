@@ -1,22 +1,11 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
+import { GalleryCard } from './GalleryCard';
 
-export function GalleryGrid({ items }) {
-  const navigate = useNavigate();
+export function GalleryGrid({ items, query }) {
   return (
     <div className="gallery">
       {items.map((item) => (
-        <div
-          key={item.id}
-          className="card"
-          onClick={() => navigate(`/info/${encodeURIComponent(item.commonName)}`)}
-          style={{ cursor: 'pointer' }}
-        >
-          <img src={item.image_url} alt={item.commonName} width="640" height="480" />
-          <div className="card-info">
-            <span>{item.commonName}</span>
-          </div>
-        </div>
+        <GalleryCard key={item.id} item={item} query={query} />
       ))}
     </div>
   );
