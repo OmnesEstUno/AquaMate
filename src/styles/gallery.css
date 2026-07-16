@@ -413,3 +413,123 @@
   font-family: var(--font-ui);
   padding: 20px;
 }
+
+/* ─────────────────────────────────────────────────
+   V2 card additions — image wrap is the positioning context for
+   the pills and cursor-tracked teaser.
+   ───────────────────────────────────────────────── */
+
+.card__img-wrap {
+  position: relative;
+  display: block;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
+/* Care-level badge — top-right, borderless */
+.gallery-care {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  padding: 3px 9px;
+  border-radius: var(--radius-pill);
+  font-family: var(--font-ui);
+  font-size: 0.65em;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--white);
+  z-index: 2;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+  pointer-events: none;
+}
+.gallery-care--beginner     { background: var(--care-beginner); }
+.gallery-care--intermediate { background: var(--care-intermediate); }
+.gallery-care--advanced     { background: var(--care-advanced); color: var(--care-advanced-fg); }
+.gallery-care--expert       { background: var(--care-expert); }
+
+/* Advisory pill — top-left, bordered, hover-tooltip */
+.gallery-advisory {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  padding: 3px 8px 3px 6px;
+  border-radius: var(--radius-pill);
+  font-family: var(--font-ui);
+  font-size: 0.62em;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  color: var(--white);
+  z-index: 3;
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.35);
+  border: 1.5px solid transparent;
+  cursor: help;
+}
+.gallery-advisory__icon  { font-size: 0.9em; line-height: 1; }
+.gallery-advisory__label { line-height: 1; }
+
+.gallery-advisory--specialist { background: var(--advisory-specialist); border-color: var(--advisory-specialist-border); }
+.gallery-advisory--restricted { background: var(--advisory-restricted); border-color: var(--advisory-restricted-border); }
+.gallery-advisory--xl         { background: var(--advisory-xl);         border-color: var(--advisory-xl-border); }
+.gallery-advisory--pond       { background: var(--advisory-pond);       border-color: var(--advisory-pond-border); }
+
+.gallery-advisory__reason {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  padding: 8px 11px;
+  background: rgba(4,49,61,0.98);
+  color: var(--white);
+  font-size: 1.1em;   /* upsize from the small pill em */
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 1.4;
+  border-radius: var(--radius-md);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.6);
+  border: 1px solid rgba(0,247,255,0.3);
+  max-width: 220px;
+  z-index: 20;
+  pointer-events: none;
+  white-space: normal;
+}
+
+/* AKA subline — inside .card-info, above the common name row */
+.card-info { display: flex; flex-direction: column; }
+.gallery-aka {
+  align-self: flex-start;
+  padding: 2px 8px;
+  border-radius: var(--radius-pill);
+  font-family: var(--font-ui);
+  font-size: 0.62em;
+  font-style: italic;
+  background: var(--aka-bg);
+  color: var(--aka-fg);
+  letter-spacing: 0.03em;
+  margin-bottom: 3px;
+  line-height: 1.4;
+}
+.gallery-aka__name { font-style: italic; }
+.card-info__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Hover teaser — floats over image, position set inline by JS */
+.gallery-teaser {
+  position: absolute;
+  padding: 8px 11px;
+  background: rgba(4,49,61,0.98);
+  color: var(--white);
+  font-size: 0.78em;
+  line-height: 1.4;
+  border-radius: var(--radius-md);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.6);
+  font-family: var(--font-ui);
+  border: 1px solid rgba(0,247,255,0.35);
+  max-width: 220px;
+  z-index: 15;
+  pointer-events: none;
+}
