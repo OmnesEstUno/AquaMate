@@ -17,21 +17,46 @@
     "order": "Anura"
   },
   "nativeRange": {
-    "regions": ["South America"],
-    "countries": ["Brazil"],
+    "regions": [
+      "South America"
+    ],
+    "countries": [
+      "Brazil"
+    ],
     "habitat": "Endemic to eastern and northeastern Brazil, where it occupies subtropical and tropical dry and moist shrubland, savanna, freshwater marshes, ponds, and aquaculture ponds. The species is almost entirely aquatic and generally ventures onto land only to escape a pool that is drying up.",
     "biotope": "Lowland Atlantic Forest / Caatinga ponds, marshes, and slow-moving shallow freshwater bodies of eastern Brazil.",
-    "depthRangeM": { "min": 0, "max": 2 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 2
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 28 },
-    "pH": { "min": 6.5, "max": 7.5 },
-    "gH": { "min": 2, "max": 15 },
-    "kH": { "min": 1, "max": 10 },
+    "temperatureC": {
+      "min": 22,
+      "max": 28
+    },
+    "pH": {
+      "min": 6.5,
+      "max": 7.5
+    },
+    "gH": {
+      "min": 2,
+      "max": 15
+    },
+    "kH": {
+      "min": 1,
+      "max": 10
+    },
     "salinity": null
   },
-  "adultSizeCm": { "min": 4.4, "max": 6.8 },
-  "lifespanYears": { "min": 5, "max": 10 },
+  "adultSizeCm": {
+    "min": 4.4,
+    "max": 6.8
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 10
+  },
   "tank": {
     "minVolumeLiters": 75,
     "minLengthCm": 60,
@@ -69,7 +94,32 @@
   "media": {
     "primaryImage": null,
     "gallery": [],
-    "imageCandidates": null
+    "imageCandidates": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Sapo_-_pipa_-_Pipa_carvalhoi.jpg",
+        "source": "Wikimedia Commons",
+        "sourceType": "wikimedia",
+        "license": "CC BY-SA 4.0",
+        "notes": "Sharp, well-lit lateral profile of a whole live individual on a leaf; clearly shows the flattened body, pointed triangular head, tiny lateral eyes and star-tipped webbed hands (2144x1424). Best diagnostic shot.",
+        "recommended": true
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Pipa_carvalhoi_396953132.jpg",
+        "source": "Wikimedia Commons",
+        "sourceType": "wikimedia",
+        "license": "CC BY 4.0",
+        "notes": "Photo by Thomaz de Carvalho Callado. Crisp dorsal view of a whole live frog on wet wood, showing flattened body and star-tipped fingers; different angle from the recommended pick (2048x1864).",
+        "recommended": false
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/395556080/original.jpg",
+        "source": "GBIF (iNaturalist)",
+        "sourceType": "research-site",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "notes": "Photo by Thomaz de Carvalho Callado. Sharp lateral shot of a whole live individual on wet gravel; different setting/individual for variety (2048x1536).",
+        "recommended": false
+      }
+    ]
   },
   "summary": "Carvalho's Surinam Toad is a small, fully aquatic Brazilian pipid frog, notable for the family's signature dorsal-skin brooding strategy — though uniquely among Pipa, the eggs hatch as free-swimming tadpoles rather than as fully-formed froglets.",
   "careNotes": "Carvalho's Surinam Toad is a fully aquatic, dwarf-bodied pipid — males reach around 4.4–5.7 cm and females around 6.5–6.8 cm — placing it intermediate in size between the much larger Pipa pipa and the smaller Pipa parva. It is occasionally captive-bred in the European and North American hobby but is not a routine commercial species; the closely related Pipa parva is more commonly encountered in the trade. Setup mirrors other aquatic Pipa: a long, low aquarium with a securely fitting lid (they can move overland briefly in heavy rain or to escape drying pools), gentle filtration with minimal flow, dim diffused lighting, and a fine sand or bare-bottom substrate to avoid impaction during the species' rapid suction-feeding strikes. Water is generally kept warm (around 24–27°C) and on the soft, slightly acidic-to-neutral side; their thin pipid skin is sensitive to chlorine, copper, and untested medications, so dechlorinated water and conservative quarantine are advised. Males have been reported to be territorial toward rival males and engage in wrestling, so multiple males in a small tank are generally discouraged. **Data caveat:** Published husbandry data specific to this species is limited; most care parameters are extrapolated from congener (P. pipa, P. parva) care literature and a small number of specialty hobbyist sources. Peer-reviewed aquarium husbandry studies for P. carvalhoi are lacking, so field-tested parameters such as tank size and exact pH and hardness targets carry meaningful uncertainty.",
