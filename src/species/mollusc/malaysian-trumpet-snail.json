@@ -18,21 +18,52 @@
     "order": "Sorbeoconcha"
   },
   "nativeRange": {
-    "regions": ["Africa", "Southeast Asia", "Middle East"],
-    "countries": ["Malaysia", "Thailand", "Indonesia", "India", "Egypt"],
+    "regions": [
+      "Africa",
+      "Southeast Asia",
+      "Middle East"
+    ],
+    "countries": [
+      "Malaysia",
+      "Thailand",
+      "Indonesia",
+      "India",
+      "Egypt"
+    ],
     "habitat": "Slow-moving rivers, streams, lakes and ponds with soft sand or silt substrates; tolerant of brackish water in coastal estuaries.",
     "biotope": "River",
-    "depthRangeM": { "min": 0, "max": 5 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 5
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 21, "max": 28 },
-    "pH":           { "min": 7.0, "max": 8.0 },
-    "gH":           { "min": 5, "max": 15 },
-    "kH":           { "min": 4, "max": 15 },
-    "salinity":     null
+    "temperatureC": {
+      "min": 21,
+      "max": 28
+    },
+    "pH": {
+      "min": 7,
+      "max": 8
+    },
+    "gH": {
+      "min": 5,
+      "max": 15
+    },
+    "kH": {
+      "min": 4,
+      "max": 15
+    },
+    "salinity": null
   },
-  "adultSizeCm":   { "min": 2, "max": 4 },
-  "lifespanYears": { "min": 1, "max": 3 },
+  "adultSizeCm": {
+    "min": 2,
+    "max": 4
+  },
+  "lifespanYears": {
+    "min": 1,
+    "max": 3
+  },
   "tank": {
     "minVolumeLiters": 20,
     "minLengthCm": 30,
@@ -72,9 +103,34 @@
     ]
   },
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
-    "imageCandidates": null
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/27484729/large.jpg",
+        "source": "iNaturalist",
+        "sourceType": "research-site",
+        "license": "CC BY",
+        "notes": "Ken-ichi Ueda; ~2048x1365. Tack-sharp live specimen on wet rock with head and tentacles extended, showing the diagnostic elongated conical shell with brown zigzag/flame markings.",
+        "recommended": true
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/138696787/large.jpg",
+        "source": "iNaturalist",
+        "sourceType": "research-site",
+        "license": "CC BY",
+        "notes": "David Elliott; ~2048x1538. Sharp live snail on pale sand clearly showing the reddish-brown spotting (the 'red-rimmed melania' markings) with the foot visible.",
+        "recommended": false
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/120016898/large.jpeg",
+        "source": "iNaturalist",
+        "sourceType": "research-site",
+        "license": "CC BY-SA",
+        "notes": "Buchling; ~1502x718. Live specimen crawling over sand in a planted aquarium with foot fully extended - representative hobbyist context; slightly lower resolution.",
+        "recommended": false
+      }
+    ]
   },
   "summary": "The Malaysian Trumpet Snail is a live-bearing, nocturnal burrower widely kept for its role in aerating sand substrates and preventing the build-up of harmful anaerobic gas pockets in planted aquariums.",
   "careNotes": "Malaysian Trumpet Snails are among the more polarising inhabitants in the freshwater hobby — actively sought by some keepers for their substrate work, and a persistent nuisance for others who find them difficult to control once established. They spend the day burrowed in sand or fine gravel, emerging at night to graze biofilm and detritus, and their constant tunnelling is generally credited with preventing anaerobic gas pockets and helping mix mulm into the substrate for plant roots. They tend to tolerate temperatures from roughly 21 to 28 °C and pH 7.0 to 8.0, with moderate to hard water preferred for shell development. Populations are parthenogenetic and live-bearing — a single snail can clone itself into a large colony — so population explosions are almost always a symptom of overfeeding rather than the snails themselves; the standard control is to feed less rather than to add chemicals. Like all freshwater invertebrates, they are highly sensitive to copper-based medications and should be removed from a tank before any copper treatment is applied. A burrowable substrate (sand or fine gravel, at least 2.5 cm deep) is the one non-negotiable requirement; without it they cannot perform their characteristic substrate-stirring role and tend to crawl the glass instead. They are not known to climb out of tanks. Assassin Snails, loaches, and pufferfish will readily prey on them — a useful consideration depending on whether the goal is to grow or cull a population.",
@@ -82,20 +138,20 @@
   "sources": {
     "primary": {
       "name": "Aquarium Co-Op",
-      "url":  "https://www.aquariumcoop.com/blogs/aquarium/top-7-freshwater-snails",
+      "url": "https://www.aquariumcoop.com/blogs/aquarium/top-7-freshwater-snails",
       "accessedDate": "2026-06-12",
       "notes": "Top 7 Freshwater Snails article — the Aquarium Co-Op storefront does not host a dedicated MTS care page, so this is the canonical Aquarium Co-Op MTS coverage."
     },
     "additional": [
       {
         "name": "Shrimp and Snail Breeder",
-        "url":  "https://aquariumbreeder.com/malaysian-trumpet-snail-guide-care-diet-and-breeding/",
+        "url": "https://aquariumbreeder.com/malaysian-trumpet-snail-guide-care-diet-and-breeding/",
         "accessedDate": "2026-06-12",
         "notes": "Used as secondary in place of The Shrimp Farm (which returned HTTP 403). Cross-checked sizing, parameters, parthenogenesis, copper sensitivity."
       },
       {
         "name": "Fish Laboratory",
-        "url":  "https://www.fishlaboratory.com/fish/malaysian-trumpet-snail/",
+        "url": "https://www.fishlaboratory.com/fish/malaysian-trumpet-snail/",
         "accessedDate": "2026-06-12",
         "notes": "Third source used to average size, temperature and pH (sources cluster around 2–4 cm shell, 21–28 °C, pH 7.0–8.0)."
       }
@@ -108,7 +164,12 @@
     "copperSensitive": true,
     "substrateNeeds": "sand",
     "climbsOutOfTank": false,
-    "algaeTypesConsumed": ["detritus", "biofilm", "soft algae", "diatoms"]
+    "algaeTypesConsumed": [
+      "detritus",
+      "biofilm",
+      "soft algae",
+      "diatoms"
+    ]
   },
   "echinoderm": null,
   "other-invert": null,

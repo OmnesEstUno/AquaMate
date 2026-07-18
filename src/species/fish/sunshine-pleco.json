@@ -102,12 +102,20 @@
     "gallery": [],
     "imageCandidates": [
       {
-        "url": "https://www.fishbase.se/images/species/Scaur_u0.jpg",
-        "source": "FishBase",
-        "sourceType": "fishbase",
-        "license": "All rights reserved",
-        "notes": "FishBase species image; verify availability and licensing before use.",
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/156422477/large.jpg",
+        "source": "iNaturalist",
+        "sourceType": "research-site",
+        "license": "CC BY",
+        "notes": "Julien Lepage; 1024x576. Textbook Sunshine Pleco: dark body with brilliant yellow-orange spots and the diagnostic orange-tipped dorsal, caudal, and pectoral fins. Sharp, whole fish in frame, vivid in-colour individual.",
         "recommended": true
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/268507304/large.jpeg",
+        "source": "iNaturalist",
+        "sourceType": "research-site",
+        "license": "CC BY",
+        "notes": "Matthew Inabinett; 1024x768. Correctly ID'd spotted pleco, whole fish in frame and reasonably sharp; kept as secondary. Caveat: greenish/washed-out lighting mutes the spots and no clear orange fin tips, so less vibrant than the recommended pick.",
+        "recommended": false
       }
     ]
   },

@@ -99,12 +99,20 @@
     "gallery": [],
     "imageCandidates": [
       {
-        "url": "https://www.fishbase.se/images/species/Natet_u0.jpg",
-        "source": "FishBase",
-        "sourceType": "fishbase",
-        "license": null,
-        "notes": "FishBase species image for Nandopsis tetracanthus; verify availability and licensing before use.",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Acuario_109.JPG",
+        "source": "Wikimedia Commons",
+        "sourceType": "wikimedia",
+        "license": "CC BY-SA 3.0",
+        "notes": "Photo by Baezadany; 3456x2304. Sharp, well-lit aquarium specimen showing the diagnostic bold black vertical bars and blotches over a pale marbled/reticulated body with iridescent spangling — full fish in frame. Best representative shot.",
         "recommended": true
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/56341379/large.jpg",
+        "source": "iNaturalist",
+        "sourceType": "research-site",
+        "license": "CC BY-SA",
+        "notes": "Photo by Robert Webster; 1024x840. In-habitat wild Cuban specimen viewed through clear spring water, showing the barred pattern and dark caudal markings; slight surface distortion but correctly ID'd and crisp.",
+        "recommended": false
       }
     ]
   },

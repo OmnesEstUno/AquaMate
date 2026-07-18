@@ -102,20 +102,28 @@
     "gallery": [],
     "imageCandidates": [
       {
-        "url": "https://www.fishbase.se/images/species/Comet1_u0.jpg",
-        "source": "FishBase",
-        "sourceType": "fishbase",
-        "license": null,
-        "notes": "Check FishBase Corydoras metae species page for the current image; URL is illustrative — verify on fishbase.se/summary/Corydoras-metae.html",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Acuario.jpg",
+        "source": "Wikimedia Commons",
+        "sourceType": "wikimedia",
+        "license": "CC BY-SA 2.0",
+        "notes": "Gonzalo Valenzuela; 2592x1944. Sharp, well-lit live specimen showing the diagnostic black bandit mask across the eyes and the black dorsal-to-caudal upper-body stripe; whole fish in frame, highest resolution.",
+        "recommended": true
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/76419772/large.jpg",
+        "source": "iNaturalist",
+        "sourceType": "research-site",
+        "license": "CC BY-SA",
+        "notes": "Gonzalo Valenzuela; 1024x768. Live specimen, near-lateral pose, clear bandit mask and upper-body stripe; slightly softer, second cory blurred in background.",
         "recommended": false
       },
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Corydoras_metae.jpg/320px-Corydoras_metae.jpg",
-        "source": "Wikimedia Commons",
-        "sourceType": "wikimedia",
-        "license": "CC BY-SA 3.0",
-        "notes": "Wikimedia Commons image of Corydoras metae showing characteristic black bandit mask eye-stripe and lateral body stripe. Verify license and photographer attribution before use.",
-        "recommended": true
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/76419771/large.jpeg",
+        "source": "iNaturalist",
+        "sourceType": "research-site",
+        "license": "CC BY-SA",
+        "notes": "Juan R. Lascorz; 1024x631. Different individual/photographer for variety; mask and stripe visible but body partly crossed by a leaf and lower contrast.",
+        "recommended": false
       }
     ]
   },
