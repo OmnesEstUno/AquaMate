@@ -82,12 +82,20 @@
     "gallery": [],
     "imageCandidates": [
       {
-        "url": "https://mosaicmacros.com/cdn/shop/files/IMG-2393.jpg",
-        "source": "Mosaic Macros",
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/474277799/original.jpg",
+        "source": "iNaturalist (via GBIF)",
         "sourceType": "research-site",
-        "license": "All rights reserved",
-        "notes": "Mosaic Macros product image — sole hobby trade source for this species. Shows upright fuzzy cylindrical blade form.",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "notes": "Photo by Robin White, 2048x1155. Sharp, vibrant in-situ shot of a live specimen; whole plant in frame showing the fuzzy/woolly (lanuginosa) blade surface. CAVEAT: shows the flat rounded-blade botanical morphology of C. lanuginosa, not the upright cylindrical cat-tail form described in the file's trade sourcing.",
         "recommended": true
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/474277806/original.jpg",
+        "source": "iNaturalist (via GBIF)",
+        "sourceType": "research-site",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "notes": "Photo by Robin White, 2048x1155. Sharp, well-lit in-situ shot showing multiple woolly blades. Same morphology caveat as the recommended image (flat-blade botanical form vs. trade cat-tail description).",
+        "recommended": false
       }
     ]
   },
