@@ -6,33 +6,65 @@
   "waterType": "saltwater",
   "commonName": "Clarion Angelfish",
   "scientificName": "Holacanthus clarionensis",
-  "alsoKnownAs": ["Clarion Angel"],
+  "alsoKnownAs": [
+    "Clarion Angel"
+  ],
   "category": "Large Angelfish",
   "taxonomy": {
     "family": "Pomacanthidae",
     "order": "Acanthuriformes"
   },
   "nativeRange": {
-    "regions": ["Eastern Central Pacific"],
-    "countries": ["Mexico", "France (Clipperton Island)"],
+    "regions": [
+      "Eastern Central Pacific"
+    ],
+    "countries": [
+      "Mexico",
+      "France (Clipperton Island)"
+    ],
     "habitat": "Rocky and coral reefs around the Revillagigedo Islands and southern Baja California; typically associated with reef slopes and outcrops.",
     "biotope": "Tropical reef-associated, non-migratory",
-    "depthRangeM": { "min": 3, "max": 75 }
+    "depthRangeM": {
+      "min": 3,
+      "max": 75
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 26 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 23,
+      "max": 26
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.020, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.02,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 18, "max": 22 },
-  "lifespanYears": { "min": 15, "max": 25 },
+  "adultSizeCm": {
+    "min": 18,
+    "max": 22
+  },
+  "lifespanYears": {
+    "min": 15,
+    "max": 25
+  },
   "tank": {
     "minVolumeLiters": 750,
     "minLengthCm": 180,
     "swimZone": "all",
-    "decorPreferences": ["live rock with caves and overhangs", "open swimming space along the front of the tank", "stable rockwork for grazing"],
+    "decorPreferences": [
+      "live rock with caves and overhangs",
+      "open swimming space along the front of the tank",
+      "stable rockwork for grazing"
+    ],
     "minSandDepthCm": null
   },
   "careLevel": "expert",
@@ -44,13 +76,47 @@
     "temperament": "aggressive",
     "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith": ["large peaceful or robust tankmates that hold their own (large wrasses, tangs, triggers in a sufficiently large system)"],
-    "avoidWith": ["other large angelfishes", "small or timid fish", "ornamental shrimp and other prized invertebrates", "SPS/LPS corals", "clams", "tubeworms"]
+    "goodWith": [
+      "large peaceful or robust tankmates that hold their own (large wrasses, tangs, triggers in a sufficiently large system)"
+    ],
+    "avoidWith": [
+      "other large angelfishes",
+      "small or timid fish",
+      "ornamental shrimp and other prized invertebrates",
+      "SPS/LPS corals",
+      "clams",
+      "tubeworms"
+    ]
   },
   "media": {
     "primaryImage": null,
     "gallery": [],
-    "imageCandidates": null
+    "imageCandidates": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Clarion-angelfish-Aquarium-of-the-Pacific.png",
+        "source": "Wikimedia Commons",
+        "sourceType": "wikimedia",
+        "license": "CC BY-SA 4.0",
+        "notes": "Coughdrop12; 6000x4000. Tack-sharp, vibrant full-body adult showing the diagnostic uniform orange body, yellow/orange tail and blue fin margins; ideal hobbyist portrait.",
+        "recommended": true
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Holacanthus_clarionensis_464715344.jpg",
+        "source": "Wikimedia Commons",
+        "sourceType": "wikimedia",
+        "license": "CC BY 4.0",
+        "notes": "Alberto Alcala; 1873x1698. Sharp in-situ wild adult on the reef, whole fish framed, brilliant orange with clear blue-edged fins.",
+        "recommended": false
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Holacanthus_clarionensis_398368850.jpg",
+        "source": "Wikimedia Commons",
+        "sourceType": "wikimedia",
+        "license": "CC BY 4.0",
+        "notes": "Alberto Alcala; 2012x1733. Subadult/juvenile phase showing the vertical dark-blue body bars on orange described in the care notes; adds life-stage variety. Background slightly soft, fish in focus.",
+        "recommended": false
+      }
+    ]
   },
   "summary": "The Clarion Angelfish (Holacanthus clarionensis) is a large, brilliantly colored angelfish endemic to Mexico's Revillagigedo Islands. Listed on CITES Appendix II, it is rarely available, carries an expert-only care rating, is not reef-safe, and requires a very large aquarium.",
   "careNotes": "The Clarion Angelfish is a Mexican Revillagigedo Islands endemic listed on CITES Appendix II, so legal import is tightly regulated and wild-caught specimens are rarely available and typically very expensive when they are. A captive-bred line has been produced by Bali Aquarich, which is generally considered the only ethical route to this species. Adults reach around 20 cm and have been reported to live well over a decade in good systems; they are best housed in a tank of at least roughly 750 L (about 6 ft / 180 cm long) with ample open swimming space and stable rockwork. Juveniles wear vertical blue body bars on an orange ground; as they mature the bars fade and the body becomes uniform orange with a yellow tail, so juveniles and adults look strikingly different. Holacanthus angelfishes are protogynous hermaphrodites — fish mature first as females and the dominant individual transitions to male. They are not reef-safe: in most cases they will nip at sponges, tunicates, LPS and SPS corals (large-polyp and small-polyp stony corals), clams, and feather-duster worms. They are also prone to Head and Lateral Line Erosion when water quality declines or the diet lacks marine algae and vitamin-enriched foods. Conspecific aggression is high; keep one per tank and avoid mixing with other large angels.",
