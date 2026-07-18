@@ -103,12 +103,20 @@
     "gallery": [],
     "imageCandidates": [
       {
-        "url": "https://www.fishbase.se/images/species/Bohis_u0.jpg",
-        "source": "FishBase",
-        "sourceType": "fishbase",
-        "license": null,
-        "notes": "FishBase species page image for Botia histrionica (id 24691). Verify availability and license before use.",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Botia_histrionica.jpg",
+        "source": "Wikimedia Commons",
+        "sourceType": "wikimedia",
+        "license": "CC BY-SA 3.0",
+        "notes": "Photo by Lerdsuwa, 1600x800. Sharp, well-lit aquarium shot: foreground adult shows the diagnostic golden-yellow ground with bold irregular black cross-bands/reticulation, whole fish in frame, with additional shoaling individuals behind. Best representation of the species.",
         "recommended": true
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/139491790/large.jpg",
+        "source": "iNaturalist",
+        "sourceType": "research-site",
+        "license": "CC BY",
+        "notes": "Photo by Frank M. Greco, 400x142 (small but native original). In-focus lateral view of a single live specimen clearly showing golden ground and bold black banding; correct ID. Kept as lower-res non-recommended extra.",
+        "recommended": false
       }
     ]
   },

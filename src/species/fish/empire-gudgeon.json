@@ -100,12 +100,20 @@
     "gallery": [],
     "imageCandidates": [
       {
-        "url": "https://www.fishbase.se/images/species/Hycom_u3.jpg",
-        "source": "FishBase",
-        "sourceType": "fishbase",
-        "license": "All rights reserved",
-        "notes": "Adult male in nuptial coloration; standard FishBase species image. Verify availability before use.",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Hypseleotris_compressa.jpg",
+        "source": "Wikimedia Commons",
+        "sourceType": "wikimedia",
+        "license": "CC BY 3.0",
+        "notes": "Frank M. Greco; 500x299. Adult male in full nuptial colour showing the diagnostic vivid red-orange dorsal and anal fins with black margins and electric-blue edging. Sharp, whole fish, well-lit. Modest resolution but by far the most striking and correctly ID'd image.",
         "recommended": true
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/654138595/original.jpg",
+        "source": "iNaturalist",
+        "sourceType": "research-site",
+        "license": "CC BY 4.0",
+        "notes": "Tom Ferguson; 2048x1536. Two subadults in a survey container showing the reddish cheek patch and yellow body; correctly ID'd, in focus. Muted/juvenile colour so kept only as a non-recommended secondary showing multiple individuals.",
+        "recommended": false
       }
     ]
   },

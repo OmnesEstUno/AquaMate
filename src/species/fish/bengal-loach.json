@@ -101,12 +101,28 @@
     "gallery": [],
     "imageCandidates": [
       {
-        "url": "https://www.fishbase.se/photos/UploadedBy.php?autoctr=85264&win=uploaded",
-        "source": "FishBase",
-        "sourceType": "fishbase",
-        "license": null,
-        "notes": "FishBase photo record for Botia dario. Check FishBase species page for current image availability and license details.",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Botia_dario_hires.jpg",
+        "source": "Wikimedia Commons",
+        "sourceType": "wikimedia",
+        "license": "CC BY-SA 4.0",
+        "notes": "Photographer Beta Mahatvaraj; 5472x3648. Tack-sharp studio shot on black background showing the diagnostic bold dark vertical bars alternating with bright golden-yellow bands extending onto the caudal fin; vibrant live specimen, whole fish in frame.",
         "recommended": true
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Botia_dario.jpg",
+        "source": "Wikimedia Commons",
+        "sourceType": "wikimedia",
+        "license": "CC BY-SA 3.0",
+        "notes": "Photographer Lerdsuwa; 2000x1333. Two Bengal Loaches on river gravel, representing this shoaling species as a group; correct ID with numerous olive/dark vertical bars onto the fins. Slightly soft (shallow depth of field), kept as a non-recommended group shot.",
+        "recommended": false
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/455807126/original.jpg",
+        "source": "iNaturalist",
+        "sourceType": "research-site",
+        "license": "CC0",
+        "notes": "Photographer w_endo; 2048x1160. Freshly-caught specimen on a leaf showing vivid black-and-yellow vertical banding; correct ID and vibrant colour but out of water with a small corner watermark, so non-recommended.",
+        "recommended": false
       }
     ]
   },
