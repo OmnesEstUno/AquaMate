@@ -21,50 +21,83 @@
     "order": "Neogastropoda"
   },
   "nativeRange": {
-    "regions": ["Caribbean", "Western Atlantic", "Indo-Pacific"],
-    "countries": ["United States", "Mexico", "Cuba", "Bahamas", "Tonga", "Indonesia", "Philippines"],
+    "regions": [
+      "Caribbean",
+      "Western Atlantic",
+      "Indo-Pacific"
+    ],
+    "countries": [
+      "United States",
+      "Mexico",
+      "Cuba",
+      "Bahamas",
+      "Tonga",
+      "Indonesia",
+      "Philippines"
+    ],
     "habitat": "Nassarius snails inhabit sand and mud flats in coastal shallows, where they spend most of their time buried in soft substrate with a long siphon extended above the surface to sample the water for the scent of protein.",
     "biotope": "Lagoon",
-    "depthRangeM": { "min": 0, "max": 20 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 20
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 26 },
-    "pH":           { "min": 8.1, "max": 8.4 },
-    "gH":           null,
-    "kH":           { "min": 8, "max": 12 },
-    "salinity":     { "min": 1.023, "max": 1.025 }
+    "temperatureC": {
+      "min": 22,
+      "max": 26
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.023,
+      "max": 1.025
+    }
   },
-  "adultSizeCm":   { "min": 1.0, "max": 2.5 },
-  "lifespanYears": { "min": 2, "max": 3 },
+  "adultSizeCm": {
+    "min": 1,
+    "max": 2.5
+  },
+  "lifespanYears": {
+    "min": 2,
+    "max": 3
+  },
   "tank": {
-    "minVolumeLiters":  40,
-    "minLengthCm":      40,
-    "swimZone":         "bottom",
+    "minVolumeLiters": 40,
+    "minLengthCm": 40,
+    "swimZone": "bottom",
     "decorPreferences": [
       "deep sand bed (minimum ~2.5-5 cm)",
       "established live rock",
       "open sand flats for burrowing",
       "mature reef tank with detritus to scavenge"
     ],
-    "minSandDepthCm":   2.5
+    "minSandDepthCm": 2.5
   },
   "careLevel": "beginner",
   "diet": {
-    "type":  "detritivore",
+    "type": "detritivore",
     "notes": "Carnivorous scavenger of detritus, uneaten meaty foods, and carrion. Will spring out of the sand within seconds of any protein hitting the substrate. In low-bioload tanks supplemental feeding with sinking pellets, frozen mysis, or pieces of fish or scallop is generally advised. Does not eat algae — this is not an algae-grazing snail."
   },
   "compatibility": {
-    "temperament":  "peaceful",
-    "grouping":     "shoaling",
+    "temperament": "peaceful",
+    "grouping": "shoaling",
     "minGroupSize": 3,
-    "goodWith":     [
+    "goodWith": [
       "reef-safe fish",
       "corals",
       "shrimp",
       "other peaceful snails",
       "clean-up crew assortments"
     ],
-    "avoidWith":    [
+    "avoidWith": [
       "predatory wrasses (e.g. some Coris, Halichoeres)",
       "pufferfish",
       "triggerfish",
@@ -73,9 +106,34 @@
     ]
   },
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
-    "imageCandidates": null
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/632029223/original.jpg",
+        "source": "iNaturalist",
+        "sourceType": "research-site",
+        "license": "CC BY 4.0",
+        "notes": "Melissa Meadows, 1801x1351. Live Nassarius (Phrontis) vibex with muscular foot extended and the ribbed, dark-banded conical shell clearly shown; sharp whole-animal view.",
+        "recommended": true
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/632029225/original.jpg",
+        "source": "iNaturalist",
+        "sourceType": "research-site",
+        "license": "CC BY 4.0",
+        "notes": "Melissa Meadows, 1536x2048. Second live individual, foot fully extended and reaching upward, showing the active scavenging snail and banded shell from a different angle.",
+        "recommended": false
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/621234143/original.jpg",
+        "source": "iNaturalist",
+        "sourceType": "research-site",
+        "license": "CC BY 4.0",
+        "notes": "Austin Smith, 1536x2048. Multiple live snails in a natural intertidal sand/mud flat, representing the shoaling clean-up-crew behaviour in situ; slightly turbid but useful habitat/group shot.",
+        "recommended": false
+      }
+    ]
   },
   "summary": "A small sand-bed scavenger that erupts from the substrate at the scent of protein, the Nassarius Snail is among the most widely recommended detritivore snails for reef-tank clean-up crews.",
   "careNotes": "Nassarius Snail is an umbrella name for several closely related Nassariidae sold to the reef trade — most commonly Nassarius vibex from the Caribbean/Western Atlantic and Nassarius distortus (the 'Super Tongan' variant) from the Indo-Pacific, with assorted Nassarius spp. mixed in. All share essentially the same husbandry. They are obligate sand-bed burrowers: a sand substrate of at least roughly 2.5 cm is essential, and bare-bottom tanks should be avoided. By day they bury themselves, leaving a long tube-like siphon protruding above the substrate to sample the water for food. When meaty food is detected the substrate appears to 'boil' as snails erupt and swarm toward it. They are generally considered reef-safe and are widely used to prevent sand-bed compaction and aerate the upper substrate. They are strictly carnivorous scavengers — they do not eat algae, so they are commonly considered a complement to grazing snails (Trochus, Cerith, Astrea) rather than a substitute. In low-bioload tanks supplemental sinking pellets or frozen mysis are advised; snails seen climbing the glass have been reported as a sign of starvation. Like other invertebrates they are sensitive to copper and intolerant of medications dosed at therapeutic copper levels. They have been reported to live around 2-3 years in well-kept aquariums and are generally considered extremely difficult to breed in captivity, as larvae require 1-2 months of planktonic development that is rarely sustained in a home aquarium.",
@@ -83,50 +141,50 @@
   "sources": {
     "primary": {
       "name": "LiveAquaria",
-      "url":  "https://www.liveaquaria.com/products/nassarius-snail",
+      "url": "https://www.liveaquaria.com/products/nassarius-snail",
       "accessedDate": "2026-06-12"
     },
     "additional": [
       {
         "name": "LiveAquaria Species Spotlight - Nassarius sp.",
-        "url":  "https://www.liveaquaria.com/blogs/species-spotlight/nassarius-sp-snails",
+        "url": "https://www.liveaquaria.com/blogs/species-spotlight/nassarius-sp-snails",
         "accessedDate": "2026-06-12",
         "notes": "Confirmed parameters (SG 1.023-1.025, 72-78F, pH 8.1-8.4, dKH 8-12) and trade-grouping of Nassarius distortus (Super Tongan) under the Nassarius sp. umbrella."
       },
       {
         "name": "ReefBay - Complete Nassarius Snail Care Guide",
-        "url":  "https://reefbay.com/guides/complete-nassarius-snail-care-guide-the-sand-stirring-clean-up-crew-essential",
+        "url": "https://reefbay.com/guides/complete-nassarius-snail-care-guide-the-sand-stirring-clean-up-crew-essential",
         "accessedDate": "2026-06-12",
         "notes": "Designated Reef2Reef Wiki secondary returned 403; ReefBay used as fallback secondary. Cross-checked size (0.5-1 in), lifespan (2-3 yr), reef-safety (yes), sand-bed requirement (1-2 in / 2.5-5 cm), and trade species (N. vibex, N. distortus). Confirmed strictly carnivorous (does not eat algae)."
       },
       {
         "name": "Shrimp and Snail Breeder - Nassarius Snail Care",
-        "url":  "https://aquariumbreeder.com/nassarius-snail-detailed-guide-care-diet-and-breeding/",
+        "url": "https://aquariumbreeder.com/nassarius-snail-detailed-guide-care-diet-and-breeding/",
         "accessedDate": "2026-06-12",
         "notes": "Third source for size (1-2 cm), parameter ranges, lifespan (up to 3 yr), and breeding-difficulty notes (planktonic larvae 1-2 months)."
       },
       {
         "name": "Wikipedia - Nassarius",
-        "url":  "https://en.wikipedia.org/wiki/Nassarius",
+        "url": "https://en.wikipedia.org/wiki/Nassarius",
         "accessedDate": "2026-06-12",
         "notes": "Confirmed taxonomy (Nassariidae, Neogastropoda) and worldwide distribution on mud/sand flats intertidally to subtidally."
       }
     ]
   },
-  "fish":         null,
-  "crustacean":   null,
-  "coral":        null,
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
   "mollusc": {
-    "copperSensitive":    true,
-    "substrateNeeds":     "sand",
-    "climbsOutOfTank":    false,
+    "copperSensitive": true,
+    "substrateNeeds": "sand",
+    "climbsOutOfTank": false,
     "algaeTypesConsumed": []
   },
-  "echinoderm":   null,
+  "echinoderm": null,
   "other-invert": null,
-  "amphibian":    null,
-  "plant":        null,
-  "macroalgae":   null,
+  "amphibian": null,
+  "plant": null,
+  "macroalgae": null,
   "schemaVersion": 1,
   "dataStatus": "researched",
   "lastReviewed": "2026-06-12"

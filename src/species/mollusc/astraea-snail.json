@@ -20,50 +20,81 @@
     "order": "Trochida"
   },
   "nativeRange": {
-    "regions": ["Western Atlantic", "Caribbean"],
-    "countries": ["Bahamas", "Cuba", "Jamaica", "Mexico", "Belize", "Brazil"],
+    "regions": [
+      "Western Atlantic",
+      "Caribbean"
+    ],
+    "countries": [
+      "Bahamas",
+      "Cuba",
+      "Jamaica",
+      "Mexico",
+      "Belize",
+      "Brazil"
+    ],
     "habitat": "Shallow tropical reef flats, rocky substrates, and reef rubble where film and turf algae are abundant.",
     "biotope": "Caribbean shallow reef",
-    "depthRangeM": { "min": 0, "max": 10 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 10
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 26 },
-    "pH":           { "min": 8.1, "max": 8.4 },
-    "gH":           null,
-    "kH":           { "min": 8, "max": 12 },
-    "salinity":     { "min": 1.023, "max": 1.026 }
+    "temperatureC": {
+      "min": 22,
+      "max": 26
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.023,
+      "max": 1.026
+    }
   },
-  "adultSizeCm":   { "min": 1.5, "max": 4 },
-  "lifespanYears": { "min": 2, "max": 3 },
+  "adultSizeCm": {
+    "min": 1.5,
+    "max": 4
+  },
+  "lifespanYears": {
+    "min": 2,
+    "max": 3
+  },
   "tank": {
-    "minVolumeLiters":  40,
-    "minLengthCm":      45,
-    "swimZone":         "all",
+    "minVolumeLiters": 40,
+    "minLengthCm": 45,
+    "swimZone": "all",
     "decorPreferences": [
       "established live rock with film algae",
       "open rockwork for grazing",
       "sand or rubble substrate",
       "stable mature reef tank"
     ],
-    "minSandDepthCm":   null
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
-    "type":  "herbivore",
+    "type": "herbivore",
     "notes": "Voracious grazer of film algae, diatoms, cyanobacteria, and nuisance hair algae. In sparsely-algaed tanks, supplement with blanched spinach, nori sheets, or vegetable-based pellet foods to prevent starvation."
   },
   "compatibility": {
-    "temperament":  "peaceful",
-    "grouping":     "shoaling",
+    "temperament": "peaceful",
+    "grouping": "shoaling",
     "minGroupSize": 3,
-    "goodWith":     [
+    "goodWith": [
       "peaceful reef fish",
       "other reef-safe snails",
       "small reef-safe hermit crabs",
       "corals",
       "shrimp"
     ],
-    "avoidWith":    [
+    "avoidWith": [
       "pufferfish",
       "triggerfish",
       "large wrasses",
@@ -73,9 +104,34 @@
     ]
   },
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
-    "imageCandidates": null
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/477553509/original.jpg",
+        "source": "iNaturalist",
+        "sourceType": "research-site",
+        "license": "CC BY 4.0",
+        "notes": "Photo by Dan Schofield (2048x1536). Sharp in-situ shot of a live Lithopoma tectum: conical turban shell covered in red coralline, with the living animal's cream foot and distinctive black-and-white banded eyestalks emerging. Best full, vibrant, correctly-ID'd view.",
+        "recommended": true
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/609536569/original.jpg",
+        "source": "iNaturalist",
+        "sourceType": "research-site",
+        "license": "CC BY 4.0",
+        "notes": "Photo by Jan Ebr & Ivana Ebrova (2040x1958). Whole live conehead-shaped snail grazing on a shallow reef flat, shell covered in film/turf algae - good natural habitat and algae-grazing context. Slightly soft underwater, so kept as a non-recommended extra.",
+        "recommended": false
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/477553447/original.jpg",
+        "source": "iNaturalist",
+        "sourceType": "research-site",
+        "license": "CC BY 4.0",
+        "notes": "Photo by Dan Schofield (2048x1536). Close detail of the live animal showing the diagnostic black-and-white banded tentacle and pale foot. Tight crop with shell obscured, so kept as a non-recommended detail extra.",
+        "recommended": false
+      }
+    ]
   },
   "summary": "The Astraea Snail is a small, peaceful Caribbean reef snail widely kept as a cleanup crew member in saltwater aquariums. It is commonly considered one of the most effective grazers of film algae, diatoms, and nuisance hair algae available to reef keepers.",
   "careNotes": "The Astraea Snail (Lithopoma tectum) goes by several names in the hobby — including Astrea Snail, Astraea Turbo Snail, and Conehead Snail — and is still widely listed under the older scientific name Astraea tecta, which remains common in trade catalogs. It is commonly considered a beginner-friendly reef cleanup crew member: smaller and less disruptive than true Turbo snails, so it is less likely to knock over corals and frags while still grazing efficiently on film algae, diatoms, cyanobacteria, and short hair algae.\n\nCRITICAL HUSBANDRY NOTE: Astraea Snails are notoriously poor at righting themselves once knocked upside-down, whether by tankmates, water flow, or their own awkward climbing. A flipped Astraea will slowly starve and die over a few days if not turned right-side-up by the aquarist. Daily visual checks and prompt manual righting are essential — this is the single biggest cause of premature death in this species.\n\nLike all marine invertebrates, they are highly copper-sensitive and cannot tolerate exposure to copper-based medications. They also decline rapidly in tanks with elevated nitrates or unstable salinity. Drip-acclimate slowly over one to two hours when adding them to a new tank to avoid osmotic shock (the sudden shift in salt concentration that can stress or kill marine invertebrates).\n\nAstraea Snails are generally considered fully reef-safe with corals, but predatory tankmates — pufferfish, triggerfish, large wrasses, predatory hermit crabs, and stone or emerald crabs — will attack them. Stock at roughly one snail per four to eight liters of tank volume, adjusted for the actual algae load.",
@@ -83,37 +139,37 @@
   "sources": {
     "primary": {
       "name": "LiveAquaria",
-      "url":  "https://www.liveaquaria.com/product/563/?pcatid=563",
+      "url": "https://www.liveaquaria.com/product/563/?pcatid=563",
       "accessedDate": "2026-06-12"
     },
     "additional": [
       {
         "name": "Bulk Reef Supply",
-        "url":  "https://www.bulkreefsupply.com/ecc-astraea-turbo-snails-eye-catching-coral.html",
+        "url": "https://www.bulkreefsupply.com/ecc-astraea-turbo-snails-eye-catching-coral.html",
         "accessedDate": "2026-06-12",
         "notes": "Cross-checked sizing, water parameters (temp 24-25.5C, pH 8.1-8.4, SG 1.025-1.026, dKH 8-9.5), reef-safe and care-level confirmation, and Caribbean origin."
       },
       {
         "name": "WoRMS - Lithopoma tectum",
-        "url":  "https://www.marinespecies.org/aphia.php?p=taxdetails&id=419499",
+        "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=419499",
         "accessedDate": "2026-06-12",
         "notes": "Confirmed accepted taxonomy: Lithopoma tectum (Lightfoot, 1786), family Turbinidae, order Trochida. Astraea tecta is listed as a synonym."
       },
       {
         "name": "Aquarium Specialty - The Astraea Snail (Astraea tecta)",
-        "url":  "https://www.aquariumspecialty.com/blog/the-astraea-snail-astraea-tecta-a-valuable-addition-to-your-saltwater-aquarium",
+        "url": "https://www.aquariumspecialty.com/blog/the-astraea-snail-astraea-tecta-a-valuable-addition-to-your-saltwater-aquarium",
         "accessedDate": "2026-06-12",
         "notes": "Third source for size (~1-1.5 in / up to ~4 cm), lifespan (2-3 years), and the flip-and-cannot-right warning."
       }
     ]
   },
-  "fish":         null,
-  "crustacean":   null,
-  "coral":        null,
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
   "mollusc": {
-    "copperSensitive":    true,
-    "substrateNeeds":     "any",
-    "climbsOutOfTank":    false,
+    "copperSensitive": true,
+    "substrateNeeds": "any",
+    "climbsOutOfTank": false,
     "algaeTypesConsumed": [
       "film algae",
       "diatoms",
@@ -122,11 +178,11 @@
       "green turf algae"
     ]
   },
-  "echinoderm":   null,
+  "echinoderm": null,
   "other-invert": null,
-  "amphibian":    null,
-  "plant":        null,
-  "macroalgae":   null,
+  "amphibian": null,
+  "plant": null,
+  "macroalgae": null,
   "schemaVersion": 1,
   "dataStatus": "researched",
   "lastReviewed": "2026-06-12"
