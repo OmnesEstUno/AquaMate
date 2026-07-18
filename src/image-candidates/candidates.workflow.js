@@ -139,6 +139,8 @@ function promptFor(file) {
     '     The writer enforces the schema, caps at your TARGET (3 species / 5 genus), requires exactly one',
     '     recommended, and re-validates',
     '     the commercial-friendly license. If it exits non-zero, fix your out.json and re-run.',
+    '     IMPORTANT: you MUST run apply-candidates.js even when you found ZERO photos — write $WORK/out.json',
+    '     as an empty array [] and run the writer so the empty result is RECORDED (not left null).',
     '',
     'STEP 9 — Return ONLY the structured result: the species id, slug, candidatesWritten (0-24), and',
     '     flags[] (e.g. "no-cc-image-found", "synonym-used", "flickr-fallback", "illustration-only").',
