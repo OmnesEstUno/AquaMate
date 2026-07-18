@@ -21,7 +21,11 @@
     "order": "Camarodonta"
   },
   "nativeRange": {
-    "regions": ["Indo-Pacific", "Western Pacific", "Indian Ocean"],
+    "regions": [
+      "Indo-Pacific",
+      "Western Pacific",
+      "Indian Ocean"
+    ],
     "countries": [
       "Indonesia",
       "Philippines",
@@ -33,39 +37,60 @@
     ],
     "habitat": "Shallow tropical reef areas, coral rubble flats, and seagrass beds; typically takes shelter in crevices by day and emerges to graze at night.",
     "biotope": "Reef",
-    "depthRangeM": { "min": 0, "max": 60 }
+    "depthRangeM": {
+      "min": 0,
+      "max": 60
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 22, "max": 26 },
-    "pH":           { "min": 8.1, "max": 8.4 },
-    "gH":           null,
-    "kH":           { "min": 8, "max": 12 },
-    "salinity":     { "min": 1.022, "max": 1.025 }
+    "temperatureC": {
+      "min": 22,
+      "max": 26
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
+    "gH": null,
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.022,
+      "max": 1.025
+    }
   },
-  "adultSizeCm":   { "min": 5, "max": 8 },
-  "lifespanYears": { "min": 2, "max": 5 },
+  "adultSizeCm": {
+    "min": 5,
+    "max": 8
+  },
+  "lifespanYears": {
+    "min": 2,
+    "max": 5
+  },
   "tank": {
-    "minVolumeLiters":  75,
-    "minLengthCm":      60,
-    "swimZone":         "bottom",
+    "minVolumeLiters": 75,
+    "minLengthCm": 60,
+    "swimZone": "bottom",
     "decorPreferences": [
       "live rock with crevices for daytime shelter",
       "open algae-covered rockwork for grazing",
       "sandy or rubble substrate",
       "mature aquascape with established coralline and film algae"
     ],
-    "minSandDepthCm":   null
+    "minSandDepthCm": null
   },
   "careLevel": "beginner",
   "diet": {
-    "type":  "herbivore",
+    "type": "herbivore",
     "notes": "Grazes continuously on film algae, filamentous and coralline algae, and diatoms across rock and glass. If algae stocks are thin, supplement with dried nori or algae wafers a few times per week; spine loss and reduced decorating behavior have been reported in underfed or stressed animals."
   },
   "compatibility": {
-    "temperament":  "peaceful",
-    "grouping":     "solitary",
+    "temperament": "peaceful",
+    "grouping": "solitary",
     "minGroupSize": 1,
-    "goodWith":     [
+    "goodWith": [
       "most reef fish",
       "corals",
       "shrimp",
@@ -73,7 +98,7 @@
       "hermit crabs",
       "other peaceful clean-up crew"
     ],
-    "avoidWith":    [
+    "avoidWith": [
       "large triggerfish",
       "large pufferfish",
       "harlequin tuskfish",
@@ -82,9 +107,34 @@
     ]
   },
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
-    "imageCandidates": null
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Mespilia_globulus_Indonesia.jpg",
+        "source": "Wikimedia Commons",
+        "sourceType": "wikimedia",
+        "license": "CC BY 2.0",
+        "notes": "prilfish (Vienna, Austria); 4000x3000. Textbook top-down blue morph: deep blue-black meridional bands radiating from apex between short brown spines, whole animal sharp and in frame, in-situ on reef.",
+        "recommended": true
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Erizo_de_mar_%28Mespilia_globulus%29%2C_Anilao%2C_Filipinas%2C_2023-08-22%2C_DD_283.jpg",
+        "source": "Wikimedia Commons",
+        "sourceType": "wikimedia",
+        "license": "CC BY-SA 4.0",
+        "notes": "Diego Delso; 4246x4246. Sharp in-situ side view of a different individual with vivid deep-blue bands; adds a distinct angle. Carries some debris (natural camouflage behavior).",
+        "recommended": false
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Mespilia_globulus_2zz.jpg",
+        "source": "Wikimedia Commons",
+        "sourceType": "wikimedia",
+        "license": "CC BY-SA 4.0",
+        "notes": "David J. Stang; 1000x1072. Red/orange 'Red Tuxedo' morph with teal-green bands, and shows the described shell-fragment camouflage behavior. Aquarium-glass view, slightly cropped at right, so kept as extra.",
+        "recommended": false
+      }
+    ]
   },
   "summary": "The Tuxedo Urchin (Mespilia globulus) is a compact, colorful urchin widely kept in reef aquariums, valued for its distinctively banded body, short spines, and steady appetite for nuisance algae. It is among the more popular ornamental urchins available to hobbyists and is generally considered reef-safe.",
   "careNotes": "The Tuxedo Urchin is generally considered one of the easier marine urchins to keep, though it is reported to be sensitive to copper-based medications and unstable water quality. Loss of spines is commonly taken as a sign of poor water conditions or chronic underfeeding, and any such changes should prompt a review of parameters and diet. It tends to wear shell fragments, rubble, snail shells, and small bits of decor on its test (the hard outer shell) as camouflage — a harmless and often entertaining behavior, but one that extends to unglued coral frags, which the urchin may pick up and carry around the tank. Secure frags with reef-safe glue or putty if a Tuxedo Urchin is present.\n\nSeveral color morphs are sold under different trade names: the Blue Tuxedo (the standard form, with blue-black bands and dark spines), the Red Tuxedo (red spines over blue or black bands), and the Halloween Urchin (an orange-and-black banded morph) are all the same species, Mespilia globulus, and have effectively identical care requirements.\n\nThe tank should be at least a few months old before adding a Tuxedo Urchin, so that a steady base of film algae and coralline algae has had time to develop; newly established systems can leave the urchin without enough to graze on. A tank of around 75 liters is reasonable for a single specimen, with additional space needed if more than one is kept so each animal has adequate grazing area.",
@@ -92,26 +142,26 @@
   "sources": {
     "primary": {
       "name": "LiveAquaria",
-      "url":  "https://www.liveaquaria.com/product/595/",
+      "url": "https://www.liveaquaria.com/product/595/",
       "accessedDate": "2026-06-12",
       "notes": "Care sheet for Tuxedo Urchin / Blue Tuxedo Urchin (Mespilia globulus): max 3\" (~7.6 cm), 20 gal minimum, 72-78°F, pH 8.1-8.4, dKH 8-12, SG 1.023-1.025, peaceful, reef-safe, herbivore; copper-sensitive."
     },
     "additional": [
       {
         "name": "Reef2Reef Community",
-        "url":  "https://www.reef2reef.com/threads/tuxedo-urchin-care.500051/",
+        "url": "https://www.reef2reef.com/threads/tuxedo-urchin-care.500051/",
         "accessedDate": "2026-06-12",
         "notes": "Designated secondary (Reef2Reef Wiki) returned 403 on direct fetch; substituted aggregated community threads (via WebSearch snippet) which confirm reef-safe status, ~3-4\" captive size, hardiness of aquacultured specimens, and the frag-carrying behavior."
       },
       {
         "name": "Shrimp and Snail Breeder (AquariumBreeder) — Tuxedo Urchin Care Guide",
-        "url":  "https://aquariumbreeder.com/tuxedo-urchin-care/",
+        "url": "https://aquariumbreeder.com/tuxedo-urchin-care/",
         "accessedDate": "2026-06-12",
         "notes": "Cross-checked taxonomy (Temnopleuridae, Camarodonta), water parameters (22-26°C, pH 8.1-8.4, SG 1.021-1.025, dKH 8-12), 15-gal minimum, herbivore diet with nori supplementation, 1-3 year lifespan, and nocturnal grazing / decoration behavior. Used to average size and tank-volume guidance against the LiveAquaria figures."
       },
       {
         "name": "SeaLifeBase — Mespilia globulus",
-        "url":  "https://www.sealifebase.org/summary/Mespilia-globulus.html",
+        "url": "https://www.sealifebase.org/summary/Mespilia-globulus.html",
         "accessedDate": "2026-06-12",
         "notes": "Used for taxonomic / native-range / depth verification (Indo-West Pacific, 0-60 m). Direct page returned 403 on fetch; data drawn from the SeaLifeBase summary surfaced via search."
       }
@@ -122,9 +172,9 @@
   "coral": null,
   "mollusc": null,
   "echinoderm": {
-    "copperSensitive":           true,
-    "minTankAgeMonths":          3,
-    "coralSafe":                 true,
+    "copperSensitive": true,
+    "minTankAgeMonths": 3,
+    "coralSafe": true,
     "waterStabilitySensitivity": "high"
   },
   "other-invert": null,
