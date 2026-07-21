@@ -337,9 +337,9 @@
         "primaryImage": { "type": ["string", "null"] },
         "gallery":      { "type": "array", "items": { "type": "string" } },
         "imageCandidates": {
-          "description": "Candidate image URLs from Stage C research (FishBase/AlgaeBase preferred, then Wikimedia, then research site). Null for placeholders; array (possibly empty) for researched entries. Reviewer picks one and uploads to R2.",
+          "description": "Candidate image URLs from research (commercial-friendly CC only: Wikimedia Commons, then iNaturalist research-grade). Null for placeholders; array (possibly empty) for researched entries. Species carry up to 3; bare-genus and color-morph umbrella entries carry more to show their range. Reviewer picks the best and uploads to R2.",
           "type": ["array", "null"],
-          "maxItems": 5,
+          "maxItems": 24,
           "items": {
             "type": "object",
             "additionalProperties": false,

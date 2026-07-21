@@ -6,32 +6,61 @@
   "waterType": "freshwater",
   "commonName": "Greater Siren",
   "scientificName": "Siren lacertina",
-  "alsoKnownAs": ["Mud Eel", "Siren Salamander", "Lesser Siren (Siren intermedia, sister species sold under the same trade name)"],
+  "alsoKnownAs": [
+    "Mud Eel",
+    "Siren Salamander",
+    "Lesser Siren (Siren intermedia, sister species sold under the same trade name)"
+  ],
   "category": "Amphibian",
   "taxonomy": {
     "family": "Sirenidae",
     "order": "Urodela"
   },
   "nativeRange": {
-    "regions": ["North America"],
-    "countries": ["United States"],
+    "regions": [
+      "North America"
+    ],
+    "countries": [
+      "United States"
+    ],
     "habitat": "The Greater Siren inhabits slow-moving or stagnant coastal-plain wetlands across the southeastern United States, including vegetated ditches, swamps, and the bottom zone of seasonal and permanent ponds. It favours waters with thick accumulations of organic debris and dense aquatic vegetation.",
     "biotope": "Pond",
-    "depthRangeM": { "min": 0.3, "max": 3 }
+    "depthRangeM": {
+      "min": 0.3,
+      "max": 3
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 20, "max": 26 },
-    "pH":           { "min": 6.5, "max": 8.0 },
-    "gH":           { "min": 5, "max": 20 },
-    "kH":           { "min": 3, "max": 15 },
-    "salinity":     null
+    "temperatureC": {
+      "min": 20,
+      "max": 26
+    },
+    "pH": {
+      "min": 6.5,
+      "max": 8
+    },
+    "gH": {
+      "min": 5,
+      "max": 20
+    },
+    "kH": {
+      "min": 3,
+      "max": 15
+    },
+    "salinity": null
   },
-  "adultSizeCm":   { "min": 50, "max": 95 },
-  "lifespanYears": { "min": 15, "max": 25 },
+  "adultSizeCm": {
+    "min": 50,
+    "max": 95
+  },
+  "lifespanYears": {
+    "min": 15,
+    "max": 25
+  },
   "tank": {
     "minVolumeLiters": 400,
-    "minLengthCm":     120,
-    "swimZone":        "bottom",
+    "minLengthCm": 120,
+    "swimZone": "bottom",
     "decorPreferences": [
       "Heavily-planted or densely-decorated tank with multiple secure hides",
       "Sunken PVC tubes, ceramic planters, or large pieces of mopani driftwood",
@@ -39,7 +68,7 @@
       "Tightly-sealed weighted lid — sirens are powerful escape artists and will leave the tank at night through any gap",
       "Gentle filter flow; subdued lighting"
     ],
-    "minSandDepthCm":  5
+    "minSandDepthCm": 5
   },
   "careLevel": "advanced",
   "diet": {
@@ -47,8 +76,8 @@
     "notes": "Predatory feeder that has been documented taking earthworms (a captive staple), small fish such as shiners and minnows, snails and freshwater clams (a wild favourite), crayfish, aquatic insects, and occasional pinky mice. Plant material and algae are often found in gut contents but appear incidental. Feed two or three times per week to satiation; uneaten food should be removed promptly to protect water quality."
   },
   "compatibility": {
-    "temperament":  "aggressive",
-    "grouping":     "solitary",
+    "temperament": "aggressive",
+    "grouping": "solitary",
     "minGroupSize": 1,
     "goodWith": [],
     "avoidWith": [
@@ -59,9 +88,34 @@
     ]
   },
   "media": {
-    "primaryImage":    null,
-    "gallery":         [],
-    "imageCandidates": null
+    "primaryImage": null,
+    "gallery": [],
+    "imageCandidates": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Siren_lacertina_side_view.jpg",
+        "source": "Wikimedia Commons",
+        "sourceType": "wikimedia",
+        "license": "CC BY-SA 4.0",
+        "notes": "Photo by Qualiesin, 1147x486. Full side view of whole animal in an aquarium showing the diagnostic red external gills, reduced front limb and elongated eel-like body with no hind limbs - the true in-hobby look.",
+        "recommended": true
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Siren_lacertina_91810020.jpg",
+        "source": "Wikimedia Commons",
+        "sourceType": "wikimedia",
+        "license": "CC BY 4.0",
+        "notes": "Photo by Wes Anderson, 2048x2048. Tack-sharp hand-held shot clearly showing the glossy dark olive body, head, and reduced four-toed front limb.",
+        "recommended": false
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Siren_lacertina_259349484.jpg",
+        "source": "Wikimedia Commons",
+        "sourceType": "wikimedia",
+        "license": "CC0",
+        "notes": "Photo by kcthetc1, 2048x1710. Top-down view clearly showing the feathery external gills behind the head and both clawed front limbs (no hind limbs); slightly soft through water, kept as a diagnostic complement.",
+        "recommended": false
+      }
+    ]
   },
   "summary": "The Greater Siren (Siren lacertina) is a large, fully aquatic North American salamander reaching up to 95 cm, with external gills retained for life and no hind limbs. Long-lived and predatory, it is generally considered suitable only for specialist keepers.",
   "careNotes": "The Greater Siren is a fully aquatic salamander that retains external gills throughout its life — a trait known as paedomorphism, meaning it keeps juvenile features into adulthood — and has only reduced front limbs with no hind limbs at all. Adults are commonly reported in the 50–80 cm range, with exceptional individuals approaching 95 cm and nearly a kilogram in weight, so a minimum 400 L (100 US gal) footprint is generally advised for an adult, with more space strongly preferred for full-grown specimens. Water-quality stability matters more than precise chemistry: soft to moderately hard, neutral to slightly alkaline freshwater in the range of 20–26 °C is well tolerated, and lighting can be dim. A tightly-sealed, weighted lid is essential — sirens have been reported to push through unsecured screen tops and can survive surprisingly long out of water, making them determined escape artists. Substrate should be fine sand or smooth large gravel; medium gravel should be avoided because of the risk of ingestion during the siren's powerful suction-style feeding strikes. The Greater Siren is reclusive and mostly nocturnal, and individuals have been reported to vocalise with clicks and yelps when handled. The Lesser Siren (Siren intermedia) is sometimes sold under the same trade names and has very similar care requirements at a smaller adult size. Chytrid fungus (Batrachochytrium dendrobatidis) has been documented in wild populations, so quarantine of any new acquisition is generally advised.",
@@ -69,45 +123,45 @@
   "sources": {
     "primary": {
       "name": "Caudata Culture",
-      "url":  "https://www.caudata.org/cc/species/Siren/S_lacertina.shtml",
+      "url": "https://www.caudata.org/cc/species/Siren/S_lacertina.shtml",
       "accessedDate": "2026-06-12",
       "notes": "Species identity, range (VA/NC/SC/GA/AL/FL), describer (Linnaeus 1766), IUCN status. Caudata Culture's full caresheet appears to be behind the broader species index; husbandry detail was cross-sourced from Reptiles Magazine and Wikipedia."
     },
     "additional": [
       {
         "name": "Wikipedia",
-        "url":  "https://en.wikipedia.org/wiki/Greater_siren",
+        "url": "https://en.wikipedia.org/wiki/Greater_siren",
         "accessedDate": "2026-06-12",
         "notes": "Cross-checked taxonomy, adult size (18–97 cm), 25-year captive lifespan, diet, behaviour, aestivation, and chytrid susceptibility."
       },
       {
         "name": "Reptiles Magazine — Greater Siren",
-        "url":  "https://reptilesmagazine.com/listings/frog-amphibian-care/greater-siren/",
+        "url": "https://reptilesmagazine.com/listings/frog-amphibian-care/greater-siren/",
         "accessedDate": "2026-06-12",
         "notes": "Husbandry confirmation: 100 US gal (~380 L) recommended adult tank, ~75 °F (~24 °C), secure lid, gravel substrate, carnivorous diet of nightcrawlers/fish/crayfish, captive breeding effectively absent."
       }
     ]
   },
-  "fish":         null,
-  "crustacean":   null,
-  "coral":        null,
-  "mollusc":      null,
-  "echinoderm":   null,
+  "fish": null,
+  "crustacean": null,
+  "coral": null,
+  "mollusc": null,
+  "echinoderm": null,
   "other-invert": null,
   "amphibian": {
     "substrateConstraint": "sand-only",
-    "skinSensitivity":     "high",
-    "chytridRisk":         "moderate",
-    "breedingDifficulty":  "not in captivity",
-    "breedingNotes":       "Wild breeding has been reported in late winter with paternal nest-guarding of ~500 eggs; aquarium breeding is essentially undocumented and is not a realistic goal for home keepers."
+    "skinSensitivity": "high",
+    "chytridRisk": "moderate",
+    "breedingDifficulty": "not in captivity",
+    "breedingNotes": "Wild breeding has been reported in late winter with paternal nest-guarding of ~500 eggs; aquarium breeding is essentially undocumented and is not a realistic goal for home keepers."
   },
-  "plant":        null,
-  "macroalgae":   null,
+  "plant": null,
+  "macroalgae": null,
   "schemaVersion": 1,
-  "dataStatus":    "researched",
-  "lastReviewed":  "2026-06-12",
+  "dataStatus": "researched",
+  "lastReviewed": "2026-06-12",
   "hobbyistAdvisory": {
-    "level":  "specialist-only",
+    "level": "specialist-only",
     "reason": "The Greater Siren can reach up to 95 cm as an adult, lives 20 years or more, and requires a large tightly-sealed aquarium of at least 400 L. It is a powerful escape artist and demands a strict carnivorous diet of whole prey. These combined demands make it unsuitable for typical home aquarists and best suited to dedicated specialist keepers prepared for a multi-decade commitment."
   }
 }

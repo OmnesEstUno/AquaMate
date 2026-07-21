@@ -100,12 +100,20 @@
     "gallery": [],
     "imageCandidates": [
       {
-        "url": "https://www.fishbase.se/images/species/Asfus_u0.jpg",
-        "source": "FishBase",
-        "sourceType": "fishbase",
-        "license": null,
-        "notes": "FishBase species image for Aspidoras fuscoguttatus; verify availability and license before uploading.",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Aspidoras_fuscoguttatus.jpg",
+        "source": "Wikimedia Commons",
+        "sourceType": "wikimedia",
+        "license": "CC BY 3.0",
+        "notes": "Photo by Juan Felipe (via FishBase), 1000x750. In-situ aquarium shot of a live, in-colour individual on fine sand among plants; whole fish in frame with barbels and the diagnostic tan body with dark-brown blotchy spotting clearly visible. Head/foreparts sharp.",
         "recommended": true
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/269995890/original.jpeg",
+        "source": "GBIF",
+        "sourceType": "research-site",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "notes": "Photo by Jean Martins (iNaturalist observation via GBIF), 2048x1640. Crisp close-up of a wild-caught specimen held in hand; clearly shows the darkspotted mottled brown pattern. Non-recommended: out-of-water hand shot rather than a display view.",
+        "recommended": false
       }
     ]
   },

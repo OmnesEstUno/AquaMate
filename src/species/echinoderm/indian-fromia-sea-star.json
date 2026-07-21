@@ -20,7 +20,9 @@
     "order": "Valvatida"
   },
   "nativeRange": {
-    "regions": ["Indo-Pacific"],
+    "regions": [
+      "Indo-Pacific"
+    ],
     "countries": [
       "Indonesia",
       "Philippines",
@@ -33,17 +35,38 @@
     ],
     "habitat": "Coral reef lagoons and outer reef slopes; found on live rock, rubble, and sandy patches with established microfauna.",
     "biotope": "Indo-Pacific tropical coral reef",
-    "depthRangeM": { "min": 1.5, "max": 25 }
+    "depthRangeM": {
+      "min": 1.5,
+      "max": 25
+    }
   },
   "waterParameters": {
-    "temperatureC": { "min": 23, "max": 27 },
-    "pH": { "min": 8.1, "max": 8.4 },
+    "temperatureC": {
+      "min": 23,
+      "max": 27
+    },
+    "pH": {
+      "min": 8.1,
+      "max": 8.4
+    },
     "gH": null,
-    "kH": { "min": 8, "max": 12 },
-    "salinity": { "min": 1.023, "max": 1.025 }
+    "kH": {
+      "min": 8,
+      "max": 12
+    },
+    "salinity": {
+      "min": 1.023,
+      "max": 1.025
+    }
   },
-  "adultSizeCm": { "min": 8, "max": 12 },
-  "lifespanYears": { "min": 5, "max": 10 },
+  "adultSizeCm": {
+    "min": 8,
+    "max": 12
+  },
+  "lifespanYears": {
+    "min": 5,
+    "max": 10
+  },
   "tank": {
     "minVolumeLiters": 150,
     "minLengthCm": 90,
@@ -81,7 +104,32 @@
   "media": {
     "primaryImage": null,
     "gallery": [],
-    "imageCandidates": null
+    "imageCandidates": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Fromia_indica_Landaagiraavaru.JPG",
+        "source": "Wikimedia Commons",
+        "sourceType": "wikimedia",
+        "license": "CC BY-SA 4.0",
+        "notes": "Frédéric Ducarme; 4000x3000. Vivid brick-red body with the diagnostic fine mesh of dark reticulate lines and black arm tips; sharp, whole 5-armed star in situ on reef.",
+        "recommended": true
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Fromia_indica_Maldives.JPG",
+        "source": "Wikimedia Commons",
+        "sourceType": "wikimedia",
+        "license": "CC BY-SA 4.0",
+        "notes": "Frédéric Ducarme; 4000x3000. Brick/orange-red individual showing the dark mesh reticulation clearly; crisp, complete animal on live rock.",
+        "recommended": false
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Fromia_indica_-_Watsons_Bay.jpeg",
+        "source": "Wikimedia Commons",
+        "sourceType": "wikimedia",
+        "license": "CC BY 3.0",
+        "notes": "Anne Hoggett; 800x600. Sharp orange-red morph with fine dark mesh, whole star well-lit; lower resolution so kept as a non-recommended variety shot.",
+        "recommended": false
+      }
+    ]
   },
   "summary": "The Indian Fromia Sea Star is a vividly mottled brick-red to orange-red Indo-Pacific sea star, generally considered reef-safe, that grazes biofilm and detritus and requires a well-matured tank with stable water chemistry.",
   "careNotes": "The Indian Fromia Sea Star (Fromia indica) is a small Indo-Pacific echinoderm with a brick-red to orange-red body marked with a fine mesh of darker lines and pale mottling. It is generally considered reef-safe and is commonly kept alongside LPS, SPS, and soft corals, where it grazes biofilm and detritus rather than tissue. Like most Fromia, it has been reported to be sensitive to sudden shifts in salinity, pH, and dissolved oxygen — slow drip acclimation over 1–2 hours is generally advised, and the animal should never be exposed to air during transfer. It tends to do best in a well-matured aquarium (commonly recommended at least 6 months established) with ample live rock that has accumulated microfauna and aufwuchs to graze. Copper-based medications are not tolerated and should never enter the system. Care broadly parallels the closely related Fromia milleporella.",

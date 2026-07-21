@@ -100,12 +100,28 @@
     "gallery": [],
     "imageCandidates": [
       {
-        "url": "https://fishbase.se/images/species/Lepla_u3.jpg",
-        "source": "FishBase",
-        "sourceType": "fishbase",
-        "license": "All rights reserved",
-        "notes": "FishBase species image for Lepisosteus platyrhincus. Verify availability and licensing before use.",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Kaimanfische_%28Lepisosteus%29.jpg",
+        "source": "Wikimedia Commons",
+        "sourceType": "wikimedia",
+        "license": "CC BY-SA 4.0",
+        "notes": "Raimond Spekking; 2000x1583. Sharp, well-lit planted-aquarium shot of three Lepisosteus gars clearly showing the diagnostic dark rounded spots on body and fins, ganoid-armored elongated bodies and long snouts — the most striking hobbyist-context image. Caveat: file labeled only to genus Lepisosteus; near-indistinguishable from Spotted Gar at species level.",
         "recommended": true
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Florida_Gar_Fish.jpg",
+        "source": "Wikimedia Commons",
+        "sourceType": "wikimedia",
+        "license": "CC BY 2.0",
+        "notes": "Amaury Laporte; 6000x4000. Species-labeled Florida Gar in situ among lily pads, whole fish with olive spotting visible; dimmer low-light pond exposure so used as backup rather than lead.",
+        "recommended": false
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/606793553/original.jpg",
+        "source": "iNaturalist",
+        "sourceType": "research-site",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "notes": "Angelica Burgos-Peraza; 2048x946 (via GBIF, per-media CC BY). Research-grade L. platyrhincus at the surface showing spotted pattern and long snout; slightly soft, kept as species-confirmed alternate.",
+        "recommended": false
       }
     ]
   },

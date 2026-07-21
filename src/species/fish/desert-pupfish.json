@@ -102,19 +102,27 @@
     "gallery": [],
     "imageCandidates": [
       {
-        "url": "https://www.fishbase.se/images/species/Cymac_u2.jpg",
-        "source": "FishBase",
-        "sourceType": "fishbase",
-        "license": "All rights reserved",
-        "notes": "FishBase species image of Cyprinodon macularius; shows adult male in breeding coloration with characteristic blue-green iridescence. Verify current availability at fishbase.se.",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Macularius_pair.jpg",
+        "source": "Wikimedia Commons",
+        "sourceType": "wikimedia",
+        "license": "CC BY-SA 3.0",
+        "notes": "Paul V. Loiselle; 1500x955. Sharp, vibrant breeding male in full nuptial neon-blue coloration with yellow-margined caudal fin (the key diagnostic look), whole fish laterally in frame with a second individual. Best representative shot.",
         "recommended": true
       },
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Cyprinodon_macularius.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Male_female_mecularius.jpg",
         "source": "Wikimedia Commons",
         "sourceType": "wikimedia",
-        "license": "Public Domain",
-        "notes": "USFWS public domain photograph of Desert Pupfish; typical adult specimens. Good fallback if FishBase image unavailable.",
+        "license": "CC BY-SA 3.0",
+        "notes": "Paul V. Loiselle; 1500x941. Clean, sharp pair showing the iridescent blue male above and the tan barred female below, illustrating strong sexual dimorphism; both fish fully in frame.",
+        "recommended": false
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/167143095/large.jpg",
+        "source": "iNaturalist",
+        "sourceType": "research-site",
+        "license": "CC BY-SA",
+        "notes": "P.V. Loiselle; large size. Neon-blue nuptial male with yellow-orange caudal margin plus a barred female, sharp and well-lit; a second angle/source for variety.",
         "recommended": false
       }
     ]
