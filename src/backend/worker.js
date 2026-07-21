@@ -36,8 +36,43 @@ function resolveImageUrl(item) {
     return `${domain}/${filename}`;
 }
 
+// Pick a candidate at random (per request) when there's no hosted primaryImage.
+function pickCandidate(item) {
+    const c = item.media && item.media.imageCandidates;
+    if (!Array.isArray(c) || c.length === 0) return null;
+    return c[Math.floor(Math.random() * c.length)];
+}
+
+// Build an attribution string for a CC candidate: "<author> · <source> · <license>".
+// author is best-effort parsed from the note's leading clause (data-only for now).
+function candidateCredit(cand) {
+    const parts = [];
+    if (cand.notes) {
+        let author = String(cand.notes).split(/[.;]/)[0].trim()
+            .replace(/^\(c\)\s*/i, '')
+            .replace(/^©\s*/, '')
+            .replace(/^photo(graph)?\s+by\s+/i, '')
+            .replace(/^by\s+/i, '')
+            .replace(/\s*\(cc[^)]*\)\s*$/i, '')
+            .trim();
+        // Only treat it as a name if it looks like one (short, starts capitalized).
+        if (author && author.length <= 60 && /^[A-Z(]/.test(author)) parts.push(author);
+    }
+    if (cand.source) parts.push(cand.source);
+    if (cand.license) parts.push(cand.license);
+    return parts.join(' · ');
+}
+
 function withResolvedImage(item) {
-    return { ...item, image_url: resolveImageUrl(item) };
+    const primary = resolveImageUrl(item);
+    if (primary) {
+        return { ...item, image_url: primary, image_is_candidate: false, image_credit: null };
+    }
+    const cand = pickCandidate(item);
+    if (cand) {
+        return { ...item, image_url: cand.url, image_is_candidate: true, image_credit: candidateCredit(cand) };
+    }
+    return { ...item, image_url: '', image_is_candidate: false, image_credit: null };
 }
 
 const CARE_ORDER = ['beginner', 'intermediate', 'advanced', 'expert'];

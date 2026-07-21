@@ -13,8 +13,8 @@ describe('GET /api/gallery', () => {
     expect(status).toBe(200);
     expect(body.success).toBe(true);
     expect(body.page).toBe(1);
-    expect(body.totalMatching).toBe(1696);
-    expect(body.totalPages).toBe(Math.ceil(1696 / 24));
+    expect(body.totalMatching).toBe(1697); // 1696 + Opae Ula (br-crus-001)
+    expect(body.totalPages).toBe(Math.ceil(1697 / 24));
     expect(body.items).toHaveLength(24);
     expect(body.seed).toBe(42);
   });
@@ -66,6 +66,35 @@ describe('GET /api/gallery', () => {
     const withImage = body.items.find(i => i.media?.primaryImage);
     if (withImage) {
       expect(withImage.image_url).toMatch(/^https:\/\/pub-/);
+      expect(withImage.image_is_candidate).toBe(false);
+      expect(withImage.image_credit).toBeNull();
+    }
+  });
+});
+
+describe('candidate image fallback (primaryImage null)', () => {
+  test('item with no primaryImage but with candidates gets a candidate url + credit + flag', async () => {
+    const { body } = await req(`${BASE}/api/gallery?seed=42`);
+    const cand = body.items.find(
+      (i) => !i.media?.primaryImage && Array.isArray(i.media?.imageCandidates) && i.media.imageCandidates.length > 0
+    );
+    expect(cand).toBeDefined();
+    const urls = cand.media.imageCandidates.map((c) => c.url);
+    expect(urls).toContain(cand.image_url);       // picked from its own candidates
+    expect(cand.image_is_candidate).toBe(true);
+    expect(typeof cand.image_credit).toBe('string');
+    expect(cand.image_credit.length).toBeGreaterThan(0);
+  });
+
+  test('item with no primaryImage and no candidates gets empty url, not flagged', async () => {
+    const { body } = await req(`${BASE}/api/gallery?seed=42`);
+    const none = body.items.find(
+      (i) => !i.media?.primaryImage && (!Array.isArray(i.media?.imageCandidates) || i.media.imageCandidates.length === 0)
+    );
+    if (none) {
+      expect(none.image_url).toBe('');
+      expect(none.image_is_candidate).toBe(false);
+      expect(none.image_credit).toBeNull();
     }
   });
 });
