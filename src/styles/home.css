@@ -141,6 +141,22 @@
     transform: scale(1.5); /* Enlarges the image */
 }
 
+/* Placeholder shown when a species has no usable image (and no candidate
+   loads). Mirrors the image footprint so card layout stays stable. */
+.gallery .card-noimage {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--radius-md);
+    background: var(--color-surface-muted, #e9edf1);
+    color: var(--color-text-muted, #8a97a3);
+    font-size: 0.8em;
+    text-align: center;
+    padding: 0.5em;
+}
+
 /* Hero section styles */
 .hero {
     margin-top: 310px;
