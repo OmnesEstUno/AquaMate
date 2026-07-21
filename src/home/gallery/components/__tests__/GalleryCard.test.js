@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
-import { GalleryCard, buildImageChain } from '../GalleryCard';
+import { GalleryCard, buildImageChain, thumbnailize } from '../GalleryCard';
 
 // GalleryCard holds all the image-fallback logic and takes an onOpen prop, so
 // it can be tested without react-router (whose v7 exports map the CRA Jest
@@ -29,27 +29,59 @@ describe('buildImageChain', () => {
   });
 });
 
+describe('thumbnailize', () => {
+  test('rewrites a Wikimedia Commons original to a bounded-width thumbnail', () => {
+    expect(thumbnailize('https://upload.wikimedia.org/wikipedia/commons/c/c0/Neon.jpg', 640))
+      .toBe('https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Neon.jpg/640px-Neon.jpg');
+  });
+
+  test('preserves the original (upper-case) extension in the thumb name', () => {
+    expect(thumbnailize('https://upload.wikimedia.org/wikipedia/commons/9/91/Fish.JPG', 500))
+      .toBe('https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Fish.JPG/500px-Fish.JPG');
+  });
+
+  test('rewrites an SVG thumb with a .png extension', () => {
+    expect(thumbnailize('https://upload.wikimedia.org/wikipedia/commons/1/12/Diagram.svg', 640))
+      .toBe('https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Diagram.svg/640px-Diagram.svg.png');
+  });
+
+  test('downsizes iNaturalist large/original to medium', () => {
+    expect(thumbnailize('https://inaturalist-open-data.s3.amazonaws.com/photos/93761737/large.jpeg'))
+      .toBe('https://inaturalist-open-data.s3.amazonaws.com/photos/93761737/medium.jpeg');
+  });
+
+  test('leaves R2 and unknown hosts untouched', () => {
+    expect(thumbnailize('https://pub-x.r2.dev/neon.jpg')).toBe('https://pub-x.r2.dev/neon.jpg');
+    expect(thumbnailize('https://www.fishbase.se/images/abc.jpg')).toBe('https://www.fishbase.se/images/abc.jpg');
+  });
+});
+
 describe('GalleryCard image fallback', () => {
-  test('renders the resolved image_url, lazily', () => {
+  test('renders the resolved image_url, lazily (R2 passes through un-thumbnailed)', () => {
     renderCard({ id: '1', commonName: 'Neon Tetra', image_url: 'https://pub-x.r2.dev/neon.jpg' });
     const img = screen.getByAltText('Neon Tetra');
     expect(img.getAttribute('src')).toBe('https://pub-x.r2.dev/neon.jpg');
     expect(img.getAttribute('loading')).toBe('lazy');
   });
 
-  test('falls back through candidates when the primary image errors', () => {
+  test('displays candidate images as thumbnails, falling back on error', () => {
     renderCard({
       id: '2',
       commonName: 'Kuhli Loach',
-      image_url: 'https://pub-x.r2.dev/broken.jpg',
-      media: { imageCandidates: [candidate('https://commons/kuhli-a.jpg'), candidate('https://commons/kuhli-b.jpg')] },
+      image_url: 'https://upload.wikimedia.org/wikipedia/commons/a/a1/Broken.jpg',
+      media: {
+        imageCandidates: [
+          candidate('https://upload.wikimedia.org/wikipedia/commons/b/b2/KuhliA.jpg'),
+          candidate('https://inaturalist-open-data.s3.amazonaws.com/photos/5/large.jpeg'),
+        ],
+      },
     });
     const img = screen.getByAltText('Kuhli Loach');
-    expect(img.getAttribute('src')).toBe('https://pub-x.r2.dev/broken.jpg');
-    fireEvent.error(img); // primary 404s
-    expect(img.getAttribute('src')).toBe('https://commons/kuhli-a.jpg');
-    fireEvent.error(img); // first candidate also fails
-    expect(img.getAttribute('src')).toBe('https://commons/kuhli-b.jpg');
+    expect(img.getAttribute('src')).toBe('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Broken.jpg/640px-Broken.jpg');
+    fireEvent.error(img); // primary thumb 404s
+    expect(img.getAttribute('src')).toBe('https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/KuhliA.jpg/640px-KuhliA.jpg');
+    fireEvent.error(img); // that candidate also fails
+    expect(img.getAttribute('src')).toBe('https://inaturalist-open-data.s3.amazonaws.com/photos/5/medium.jpeg');
   });
 
   test('renders a placeholder (no <img>, no empty src) when nothing is available', () => {
