@@ -73,6 +73,18 @@ export function useGalleryState({ initial } = {}) {
   const setDietType = useCallback((v) => update({ dietType: v.length ? v : undefined }), [update]);
   const setCo2 = useCallback((v) => update({ co2: v.length ? v : undefined }), [update]);
   const setLighting = useCallback((v) => update({ lighting: v.length ? v : undefined }), [update]);
+  const setAdvisoryLevel = useCallback((v) => update({ advisoryLevel: v.length ? v : undefined }), [update]);
+  // Toggle a single value in a multi-select dimension. Used by clickable pills
+  // on the cards themselves — click a pill to add it, click again to remove.
+  const toggleFilterValue = useCallback((dimension, value) => {
+    setState(prev => {
+      const current = Array.isArray(prev[dimension]) ? prev[dimension] : [];
+      const next = current.includes(value)
+        ? current.filter(x => x !== value)
+        : [...current, value];
+      return applyCascade({ ...prev, [dimension]: next.length ? next : undefined, page: 1 });
+    });
+  }, []);
   const setSize = useCallback(({ min, max }) => update({ minSize: min, maxSize: max }), [update]);
   const setMaxTankL = useCallback((v) => update({ maxTankL: v }), [update]);
   const setReefSafe = useCallback((v) => update({ reefSafe: v || undefined }), [update]);
@@ -100,10 +112,11 @@ export function useGalleryState({ initial } = {}) {
     state,
     setTaxa, setWaterType, setCareLevel,
     setTemperament, setGrouping, setDietType,
-    setCo2, setLighting,
+    setCo2, setLighting, setAdvisoryLevel,
     setSize, setMaxTankL,
     setReefSafe, setHideAdvisory,
     setSort, setPage,
     applyPreset, clearAll, removeFilter,
+    toggleFilterValue,
   };
 }

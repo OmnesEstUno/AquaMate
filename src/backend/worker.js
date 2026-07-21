@@ -121,6 +121,7 @@ function parseGalleryQuery(url) {
         dietType: list('dietType'),
         co2: list('co2'),
         lighting: list('lighting'),
+        advisoryLevel: list('advisoryLevel'),
         reefSafe: bool('reefSafe') ? true : undefined,
         hideAdvisory: bool('hideAdvisory') ? true : undefined,
         q: q.get('q') || undefined,

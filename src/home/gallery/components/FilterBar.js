@@ -7,10 +7,19 @@ import { ActiveFilterPills } from './ActiveFilterPills';
 import {
   TAXA, WATER_TYPES, CARE_LEVELS,
   TEMPERAMENTS, GROUPINGS, DIET_TYPES,
-  CO2_OPTIONS, LIGHTING_OPTIONS, FAUNA_TAXA,
+  CO2_OPTIONS, LIGHTING_OPTIONS, ADVISORY_LEVELS, FAUNA_TAXA,
 } from '../../../backend/gallery/constants';
 
 const humanize = (s) => s.charAt(0).toUpperCase() + s.slice(1).replace(/-/g, ' ');
+
+// Advisory levels get short display labels matching the pills on the cards.
+const ADVISORY_LABELS = {
+  'specialist-only': 'Specialist',
+  'legally-restricted': 'Restricted',
+  'public-aquarium-only': 'XL',
+  'pond-only': 'Pond',
+};
+const advisoryLabelFor = (s) => ADVISORY_LABELS[s] || humanize(s);
 
 export function FilterBar({ state, facetCounts, actions }) {
   const taxaSet = new Set(state.taxa || []);
@@ -32,6 +41,10 @@ export function FilterBar({ state, facetCounts, actions }) {
         <MultiSelectFilter
           label="Care level" options={CARE_LEVELS} selected={state.careLevel || []}
           counts={facetCounts.careLevel} onChange={actions.setCareLevel} labelFor={humanize}
+        />
+        <MultiSelectFilter
+          label="Advisory" options={ADVISORY_LEVELS} selected={state.advisoryLevel || []}
+          counts={facetCounts.advisoryLevel} onChange={actions.setAdvisoryLevel} labelFor={advisoryLabelFor}
         />
         <RangeSlider
           label="Adult size" min={1} max={250} step={1} mode="dual"

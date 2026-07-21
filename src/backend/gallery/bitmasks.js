@@ -2,6 +2,7 @@ const {
   TAXA, WATER_TYPES, CARE_LEVELS,
   TEMPERAMENTS, GROUPINGS, DIET_TYPES,
   CO2_OPTIONS, LIGHTING_OPTIONS,
+  ADVISORY_LEVELS,
 } = require('./constants');
 
 function makeCodec(options) {
@@ -33,6 +34,7 @@ const grouping = makeCodec(GROUPINGS);
 const dietType = makeCodec(DIET_TYPES);
 const co2 = makeCodec(CO2_OPTIONS);
 const lighting = makeCodec(LIGHTING_OPTIONS);
+const advisoryLevel = makeCodec(ADVISORY_LEVELS);
 
 module.exports = {
   encodeTaxa: taxa.encode,           decodeTaxa: taxa.decode,
@@ -43,4 +45,5 @@ module.exports = {
   encodeDietType: dietType.encode,   decodeDietType: dietType.decode,
   encodeCo2: co2.encode,             decodeCo2: co2.decode,
   encodeLighting: lighting.encode,   decodeLighting: lighting.decode,
+  encodeAdvisoryLevel: advisoryLevel.encode, decodeAdvisoryLevel: advisoryLevel.decode,
 };

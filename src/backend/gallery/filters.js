@@ -76,6 +76,13 @@ function matchesFilters(item, filters) {
     if (t == null || t > filters.maxTankL) return false;
   }
 
+  // Advisory level multi-select. Only applies to species that have an
+  // hobbyistAdvisory block; nulls are excluded when this filter is active.
+  if (filters.advisoryLevel?.length) {
+    const level = item.hobbyistAdvisory?.level;
+    if (!level || !filters.advisoryLevel.includes(level)) return false;
+  }
+
   // Booleans.
   if (filters.reefSafe === true && !isReefSafe(item)) return false;
   if (filters.hideAdvisory === true && item.hobbyistAdvisory != null) return false;
