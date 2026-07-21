@@ -1,0 +1,300 @@
+<h2>V2 Card UX — Realistic gallery grid</h2>
+<p class="subtitle">Six cards laid out with real spacing. Different combinations show every addition in context. One card (top-right) is shown in its hover state with the teaser expanded.</p>
+
+<style>
+  .stage {
+    background: linear-gradient(180deg, #04313d 0%, #0b5e92 100%);
+    padding: 32px 24px;
+    border-radius: 12px;
+    max-width: 1080px;
+    margin: 0 auto;
+  }
+  .stage-grid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  /* --- Card matching AquaMate tokens --- */
+  .am-card {
+    position: relative;
+    width: 220px;
+    background: transparent;
+    border-radius: 10px;
+    overflow: visible;
+    transition: transform 0.5s ease;
+    cursor: pointer;
+    font-family: 'Georgia', serif;
+    padding-bottom: 8px;
+  }
+  .am-card__img {
+    width: 100%;
+    aspect-ratio: 4/3;
+    background: linear-gradient(135deg, #0b5e92 0%, #1e5799 100%);
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+  }
+  .am-card__img::before {
+    position: absolute;
+    inset: 0;
+    filter: blur(1px);
+    opacity: 0.85;
+    background-size: 70% 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .fish-clown::before  { content: ''; background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 60'><ellipse cx='50' cy='30' rx='24' ry='11' fill='%23ff8844'/><rect x='38' y='22' width='4' height='16' fill='%23fff'/><rect x='50' y='22' width='3' height='16' fill='%23fff'/><rect x='60' y='22' width='3' height='16' fill='%23fff'/><circle cx='42' cy='28' r='2' fill='%23000'/><path d='M 74 30 L 84 22 L 84 38 Z' fill='%23ff8844'/></svg>"); }
+  .fish-neon::before   { content: ''; background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 60'><path d='M 20 30 Q 30 20 60 25 L 78 22 L 78 38 L 60 35 Q 30 40 20 30 Z' fill='%2300aaff'/><rect x='30' y='27' width='40' height='4' fill='%23ff4444'/><circle cx='26' cy='29' r='1.5' fill='%23000'/></svg>"); }
+  .fish-discus::before { content: ''; background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 60'><circle cx='50' cy='30' r='22' fill='%23f4a742'/><path d='M 28 30 Q 50 15 72 30' stroke='%23c48132' stroke-width='2' fill='none'/><path d='M 30 34 Q 50 45 70 34' stroke='%23c48132' stroke-width='2' fill='none'/><circle cx='42' cy='27' r='2' fill='%23000'/><path d='M 72 30 L 82 25 L 82 35 Z' fill='%23f4a742'/></svg>"); }
+  .fish-wrasse::before { content: ''; background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 60'><path d='M 18 30 Q 22 22 60 25 L 82 22 L 82 38 L 60 35 Q 22 38 18 30 Z' fill='%2333cc66'/><circle cx='40' cy='27' r='1.5' fill='%23000'/><circle cx='36' cy='30' r='1' fill='%23004411'/><circle cx='44' cy='31' r='1' fill='%23004411'/><circle cx='50' cy='28' r='1' fill='%23004411'/><circle cx='56' cy='31' r='1' fill='%23004411'/></svg>"); }
+  .plant-anubias::before { content: ''; background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 60'><path d='M 40 55 Q 35 40 30 25 Q 40 30 45 20 Q 50 30 55 15 Q 60 30 65 20 Q 70 30 75 25 Q 65 40 60 55 Z' fill='%232d7a2d'/><ellipse cx='50' cy='30' rx='18' ry='8' fill='%23388a38' opacity='0.6'/></svg>"); }
+  .crus-shrimp::before { content: ''; background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 60'><path d='M 25 30 Q 35 20 55 25 Q 70 28 75 35 L 80 32 L 78 38 L 72 40 Q 65 42 55 40 Q 35 42 25 32 Z' fill='%23dd3355'/><circle cx='30' cy='27' r='1.5' fill='%23000'/><path d='M 20 32 L 15 28 M 20 34 L 14 36' stroke='%23dd3355' stroke-width='1.5'/></svg>"); }
+
+  .am-card__info {
+    padding: 8px 4px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-size: 0.95em;
+  }
+  .am-card__name { font-family: 'Georgia', serif; }
+  .am-card__heart {
+    display: inline-block;
+    color: white;
+    opacity: 0.55;
+    font-size: 1.3em;
+    line-height: 1;
+  }
+
+  /* --- V2 additions --- */
+  .am-badge {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    padding: 4px 10px;
+    border-radius: 25px;
+    font-size: 0.7em;
+    font-family: system-ui, sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    color: white;
+    z-index: 2;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+  }
+  .am-badge.beginner     { background: #2E7D32; }
+  .am-badge.intermediate { background: #F9A825; color: #1a1a1a; }
+  .am-badge.advanced     { background: #E65100; }
+  .am-badge.expert       { background: #C62828; }
+
+  .am-chip {
+    position: absolute;
+    bottom: 8px;
+    left: 8px;
+    padding: 3px 9px;
+    border-radius: 25px;
+    font-size: 0.68em;
+    font-family: system-ui, sans-serif;
+    background: rgba(4,49,61,0.75);
+    color: #00f7ff;
+    border: 1px solid rgba(0,247,255,0.7);
+    letter-spacing: 0.05em;
+    z-index: 2;
+  }
+
+  .am-warning {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    padding: 3px 8px 3px 6px;
+    border-radius: 25px;
+    font-size: 0.65em;
+    font-family: system-ui, sans-serif;
+    font-weight: 600;
+    background: #b3261e;
+    color: white;
+    letter-spacing: 0.03em;
+    z-index: 2;
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+  }
+  .am-warning::before {
+    content: '⚠';
+    font-size: 0.9em;
+  }
+
+  .am-tradename {
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    padding: 3px 8px;
+    border-radius: 25px;
+    font-size: 0.6em;
+    background: rgba(255,255,255,0.15);
+    color: rgba(255,255,255,0.85);
+    font-style: italic;
+    font-family: system-ui, sans-serif;
+    z-index: 2;
+    backdrop-filter: blur(4px);
+  }
+
+  /* Hover state — one card is shown pre-hovered */
+  .am-card--hovered .am-teaser {
+    display: block;
+  }
+  .am-teaser {
+    display: none;
+    position: absolute;
+    top: calc(100% - 4px);
+    left: -4px;
+    right: -4px;
+    margin-top: 4px;
+    padding: 10px 12px;
+    background: rgba(4,49,61,0.98);
+    color: white;
+    font-size: 0.78em;
+    line-height: 1.4;
+    border-radius: 8px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.6);
+    font-family: system-ui, sans-serif;
+    z-index: 5;
+    border: 1px solid rgba(0,247,255,0.3);
+  }
+
+  .am-card--hovered {
+    transform: scale(1.05);
+    z-index: 10;
+  }
+  .am-card--hovered::after {
+    content: 'HOVER STATE';
+    position: absolute;
+    top: -22px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #ffb000;
+    color: #1a1a1a;
+    padding: 2px 8px;
+    font-size: 0.62em;
+    font-family: system-ui;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    border-radius: 3px;
+    white-space: nowrap;
+  }
+</style>
+
+<div class="stage">
+  <div class="stage-grid">
+
+    <!-- 1: Cherry Shrimp — beginner, crustacean chip -->
+    <div class="am-card">
+      <span class="am-badge beginner">Beginner</span>
+      <div class="am-card__img crus-shrimp"></div>
+      <div class="am-card__info">
+        <span class="am-card__name">Cherry Shrimp</span>
+        <span class="am-card__heart">♡</span>
+      </div>
+      <span class="am-chip">crustacean</span>
+    </div>
+
+    <!-- 2: Discus — expert, fish chip, HOVERED with teaser -->
+    <div class="am-card am-card--hovered">
+      <span class="am-badge expert">Expert</span>
+      <div class="am-card__img fish-discus"></div>
+      <div class="am-card__info">
+        <span class="am-card__name">Discus</span>
+        <span class="am-card__heart">♡</span>
+      </div>
+      <span class="am-chip">fish</span>
+      <div class="am-teaser">
+        The Discus is a South American cichlid known for its round, disc-shaped body and vivid coloration…
+      </div>
+    </div>
+
+    <!-- 3: Cardinal Tetra — beginner, fish chip, trade-name (matched via alsoKnownAs) -->
+    <div class="am-card">
+      <span class="am-badge beginner">Beginner</span>
+      <div class="am-card__img fish-neon"></div>
+      <div class="am-card__info">
+        <span class="am-card__name">Cardinal Tetra</span>
+        <span class="am-card__heart">♡</span>
+      </div>
+      <span class="am-chip">fish</span>
+      <span class="am-tradename">also: red neon tetra</span>
+    </div>
+
+    <!-- 4: Anubias — beginner, plant chip -->
+    <div class="am-card">
+      <span class="am-badge beginner">Beginner</span>
+      <div class="am-card__img plant-anubias"></div>
+      <div class="am-card__info">
+        <span class="am-card__name">Anubias</span>
+        <span class="am-card__heart">♡</span>
+      </div>
+      <span class="am-chip">plant</span>
+    </div>
+
+    <!-- 5: Leopard Wrasse — expert, fish chip, ADVISORY warning -->
+    <div class="am-card">
+      <span class="am-warning">Specialist</span>
+      <span class="am-badge expert">Expert</span>
+      <div class="am-card__img fish-wrasse"></div>
+      <div class="am-card__info">
+        <span class="am-card__name">Leopard Wrasse</span>
+        <span class="am-card__heart">♡</span>
+      </div>
+      <span class="am-chip">fish</span>
+    </div>
+
+    <!-- 6: Clownfish — beginner, fish chip -->
+    <div class="am-card">
+      <span class="am-badge beginner">Beginner</span>
+      <div class="am-card__img fish-clown"></div>
+      <div class="am-card__info">
+        <span class="am-card__name">Clownfish</span>
+        <span class="am-card__heart">♡</span>
+      </div>
+      <span class="am-chip">fish</span>
+    </div>
+
+  </div>
+</div>
+
+<div style="max-width: 800px; margin: 32px auto 0; font-family: system-ui; color: var(--fg-primary, #ddd); font-size: 0.9em; line-height: 1.6;">
+  <p><strong>What you're seeing:</strong> six cards at real gallery spacing (20px gap). Each card carries a subset of the additions so you can gauge:</p>
+  <ul>
+    <li>How the badge/chip corners feel when consistent across the grid</li>
+    <li>How the warning pill (Leopard Wrasse) reads relative to a plain card</li>
+    <li>How the trade-name chip (Cardinal Tetra) reads in the corner opposite the taxon</li>
+    <li>How the hover teaser (Discus, marked "HOVER STATE") extends below the card and stacks above neighbors</li>
+  </ul>
+</div>
+
+<div class="options" style="margin-top: 40px;">
+  <div class="option" data-choice="a" onclick="toggleSelect(this)">
+    <div class="letter">A</div>
+    <div class="content">
+      <h3>Yes, this feels right — move on to detailing each</h3>
+      <p>Placement, spacing, and visual weight are working. Go deeper on each addition individually.</p>
+    </div>
+  </div>
+  <div class="option" data-choice="b" onclick="toggleSelect(this)">
+    <div class="letter">B</div>
+    <div class="content">
+      <h3>The card is getting too busy</h3>
+      <p>Five additions in four corners feels crowded. Drop or defer one or two.</p>
+    </div>
+  </div>
+  <div class="option" data-choice="c" onclick="toggleSelect(this)">
+    <div class="letter">C</div>
+    <div class="content">
+      <h3>Placements are off — rearrange</h3>
+      <p>Something specific about the corner assignments should change.</p>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,226 @@
+<h2>Pond symbol options</h2>
+<p class="subtitle">Same Koi card, five candidate glyphs for the Pond pill icon. Pick one — or tell me if none feel right.</p>
+
+<style>
+  .stage {
+    background: linear-gradient(180deg, #04313d 0%, #0b5e92 100%);
+    padding: 32px 24px;
+    border-radius: 12px;
+    max-width: 1080px;
+    margin: 0 auto;
+  }
+  .row {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .col { display: flex; flex-direction: column; align-items: center; }
+
+  .am-card {
+    position: relative;
+    width: 180px;
+    border-radius: 10px;
+    font-family: 'Georgia', serif;
+    padding-bottom: 8px;
+  }
+  .am-card__img {
+    width: 100%;
+    aspect-ratio: 4/3;
+    background: linear-gradient(135deg, #0b5e92 0%, #1e5799 100%);
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+  }
+  .am-card__img::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-size: 65% 65%;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.85;
+    filter: blur(1px);
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 60'><path d='M 12 30 Q 20 20 60 25 L 82 22 L 82 38 L 60 35 Q 20 40 12 30 Z' fill='%23ff9933'/><ellipse cx='40' cy='28' rx='6' ry='4' fill='%23fff'/><ellipse cx='55' cy='32' rx='4' ry='3' fill='%23fff'/><circle cx='20' cy='28' r='1.5' fill='%23000'/></svg>");
+  }
+
+  .am-card__info { padding: 6px 4px 0; }
+  .am-card__row {
+    display: flex; align-items: center; justify-content: space-between;
+    color: white; font-size: 0.9em;
+  }
+  .am-card__heart { color: white; opacity: 0.55; font-size: 1.2em; line-height: 1; }
+
+  .am-badge {
+    position: absolute; top: 8px; right: 8px;
+    padding: 3px 9px; border-radius: 25px;
+    font-size: 0.6em; font-family: system-ui; font-weight: 600;
+    color: white; background: #C62828;
+    z-index: 2; box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+  }
+
+  .am-warning {
+    position: absolute; top: 8px; left: 8px;
+    padding: 3px 8px 3px 6px;
+    border-radius: 25px;
+    font-size: 0.62em;
+    font-family: system-ui, sans-serif;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 0.03em;
+    z-index: 3;
+    display: inline-flex; align-items: center; gap: 3px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.35);
+    border: 1.5px solid #64B5F6;
+    background: #01579B;
+  }
+  .am-warning span.icon { font-size: 1em; line-height: 1; }
+
+  .label {
+    color: var(--fg-secondary, #999);
+    font-size: 0.7em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin: 16px 0 4px;
+    font-family: system-ui;
+    font-weight: 600;
+  }
+  .caption {
+    color: var(--fg-secondary, #888);
+    font-size: 0.75em;
+    font-family: system-ui;
+    text-align: center;
+    max-width: 160px;
+    line-height: 1.4;
+    margin-top: 8px;
+    font-style: italic;
+  }
+</style>
+
+<div class="stage">
+  <div class="row">
+    <div class="col">
+      <div class="label">A · Lily</div>
+      <div class="am-card">
+        <span class="am-warning"><span class="icon">⚘</span>Pond</span>
+        <span class="am-badge">Expert</span>
+        <div class="am-card__img"></div>
+        <div class="am-card__info">
+          <div class="am-card__row">
+            <span>Koi</span>
+            <span class="am-card__heart">♡</span>
+          </div>
+        </div>
+      </div>
+      <div class="caption">⚘ · water lily. Poetic, direct pond reference.</div>
+    </div>
+
+    <div class="col">
+      <div class="label">B · Fountain</div>
+      <div class="am-card">
+        <span class="am-warning"><span class="icon">⛲</span>Pond</span>
+        <span class="am-badge">Expert</span>
+        <div class="am-card__img"></div>
+        <div class="am-card__info">
+          <div class="am-card__row">
+            <span>Koi</span>
+            <span class="am-card__heart">♡</span>
+          </div>
+        </div>
+      </div>
+      <div class="caption">⛲ · fountain. Outdoor water feature.</div>
+    </div>
+
+    <div class="col">
+      <div class="label">C · Waves</div>
+      <div class="am-card">
+        <span class="am-warning"><span class="icon">≋</span>Pond</span>
+        <span class="am-badge">Expert</span>
+        <div class="am-card__img"></div>
+        <div class="am-card__info">
+          <div class="am-card__row">
+            <span>Koi</span>
+            <span class="am-card__heart">♡</span>
+          </div>
+        </div>
+      </div>
+      <div class="caption">≋ · triple wave. Water surface ripples.</div>
+    </div>
+
+    <div class="col">
+      <div class="label">D · Flower</div>
+      <div class="am-card">
+        <span class="am-warning"><span class="icon">❁</span>Pond</span>
+        <span class="am-badge">Expert</span>
+        <div class="am-card__img"></div>
+        <div class="am-card__info">
+          <div class="am-card__row">
+            <span>Koi</span>
+            <span class="am-card__heart">♡</span>
+          </div>
+        </div>
+      </div>
+      <div class="caption">❁ · rosette. Bolder floral note.</div>
+    </div>
+
+    <div class="col">
+      <div class="label">E · Sun</div>
+      <div class="am-card">
+        <span class="am-warning"><span class="icon">☀</span>Pond</span>
+        <span class="am-badge">Expert</span>
+        <div class="am-card__img"></div>
+        <div class="am-card__info">
+          <div class="am-card__row">
+            <span>Koi</span>
+            <span class="am-card__heart">♡</span>
+          </div>
+        </div>
+      </div>
+      <div class="caption">☀ · sun. Signals "outdoor" rather than "water".</div>
+    </div>
+  </div>
+</div>
+
+<div style="max-width: 800px; margin: 32px auto 0; font-family: system-ui; color: var(--fg-primary, #ddd); font-size: 0.9em; line-height: 1.6;">
+  <p>All five are Unicode glyphs so they render everywhere without an image dependency. My lean is <strong>A (⚘ lily)</strong> — most direct pond metaphor and reads well at small size. B (⛲) is also strong but slightly busier.</p>
+</div>
+
+<div class="options" style="margin-top: 40px;">
+  <div class="option" data-choice="a" onclick="toggleSelect(this)">
+    <div class="letter">A</div>
+    <div class="content">
+      <h3>Lily ⚘</h3>
+    </div>
+  </div>
+  <div class="option" data-choice="b" onclick="toggleSelect(this)">
+    <div class="letter">B</div>
+    <div class="content">
+      <h3>Fountain ⛲</h3>
+    </div>
+  </div>
+  <div class="option" data-choice="c" onclick="toggleSelect(this)">
+    <div class="letter">C</div>
+    <div class="content">
+      <h3>Waves ≋</h3>
+    </div>
+  </div>
+  <div class="option" data-choice="d" onclick="toggleSelect(this)">
+    <div class="letter">D</div>
+    <div class="content">
+      <h3>Rosette ❁</h3>
+    </div>
+  </div>
+  <div class="option" data-choice="e" onclick="toggleSelect(this)">
+    <div class="letter">E</div>
+    <div class="content">
+      <h3>Sun ☀</h3>
+    </div>
+  </div>
+  <div class="option" data-choice="f" onclick="toggleSelect(this)">
+    <div class="letter">F</div>
+    <div class="content">
+      <h3>None of these — suggest more</h3>
+    </div>
+  </div>
+</div>

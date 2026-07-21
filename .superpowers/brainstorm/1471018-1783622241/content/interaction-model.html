@@ -1,0 +1,45 @@
+<h2>Core question: how should incompatibility behave?</h2>
+<p class="subtitle">This decision reshapes the whole builder. Today it's a hard filter (Option A). I'm recommending a shift to a soft advisor (Option B).</p>
+
+<div class="cards" style="grid-template-columns:1fr 1fr;">
+
+  <div class="card" data-choice="hard-filter" onclick="toggleSelect(this)">
+    <div class="card-image" style="padding:16px;background:#0e2233;">
+      <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;">
+        <div style="background:#14344c;border-radius:8px;height:52px;display:flex;align-items:flex-end;justify-content:center;color:#cfe;font-size:11px;padding-bottom:4px;">Neon Tetra</div>
+        <div style="background:#14344c;border-radius:8px;height:52px;display:flex;align-items:flex-end;justify-content:center;color:#cfe;font-size:11px;padding-bottom:4px;">Corydoras</div>
+        <div style="background:#14344c;border-radius:8px;height:52px;opacity:.3;display:flex;align-items:flex-end;justify-content:center;color:#cfe;font-size:11px;padding-bottom:4px;">Oscar 🔒</div>
+        <div style="background:#14344c;border-radius:8px;height:52px;opacity:.3;display:flex;align-items:flex-end;justify-content:center;color:#cfe;font-size:11px;padding-bottom:4px;">Tiger Barb 🔒</div>
+        <div style="background:#14344c;border-radius:8px;height:52px;display:flex;align-items:flex-end;justify-content:center;color:#cfe;font-size:11px;padding-bottom:4px;">Otocinclus</div>
+        <div style="background:#14344c;border-radius:8px;height:52px;opacity:.3;display:flex;align-items:flex-end;justify-content:center;color:#cfe;font-size:11px;padding-bottom:4px;">Clownfish 🔒</div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>A — Hard filter <span style="font-weight:normal;font-size:12px;opacity:.6;">(today, refined)</span></h3>
+      <p>Incompatible species grey out and can't be added. Clean, but silent — you never learn <em>why</em> something is locked, and it can't warn about softer risks (borderline bioload, "you added only 1 of a schooling fish").</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="soft-advisor" onclick="toggleSelect(this)">
+    <div class="card-image" style="padding:16px;background:#0e2233;">
+      <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-bottom:10px;">
+        <div style="background:#14344c;border-radius:8px;height:40px;display:flex;align-items:flex-end;justify-content:center;color:#cfe;font-size:10px;padding-bottom:3px;">Neon Tetra</div>
+        <div style="background:#14344c;border-radius:8px;height:40px;display:flex;align-items:flex-end;justify-content:center;color:#cfe;font-size:10px;padding-bottom:3px;">Corydoras</div>
+        <div style="background:#14344c;border-radius:8px;height:40px;position:relative;display:flex;align-items:flex-end;justify-content:center;color:#cfe;font-size:10px;padding-bottom:3px;border:1px solid #e6a13c;">Tiger Barb<span style="position:absolute;top:3px;right:3px;font-size:11px;">⚠️</span></div>
+      </div>
+      <div style="background:#0a1a28;border-radius:8px;padding:10px;font-size:11px;color:#cfe;">
+        <div style="display:flex;justify-content:space-between;margin-bottom:6px;"><strong>Tank health</strong><span style="color:#e6a13c;">2 warnings</span></div>
+        <div style="height:6px;background:#14344c;border-radius:4px;overflow:hidden;margin-bottom:8px;"><div style="width:64%;height:100%;background:#4caf6e;"></div></div>
+        <div style="color:#e6a13c;">⚠ Tiger Barb nips long fins</div>
+        <div style="color:#e6a13c;">⚠ Only 1 Neon Tetra — keep 6+</div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>B — Soft advisor <span style="font-weight:normal;font-size:12px;opacity:.6;">(recommended)</span></h3>
+      <p>You can add anything. A live panel scores the whole tank — bioload, water envelope, aggression, schooling minimums — and explains every issue in plain language. Hard conflicts (salt vs fresh) still block; everything else is an override-able warning that teaches.</p>
+    </div>
+  </div>
+
+</div>
+
+<p class="subtitle" style="margin-top:20px;">A third path exists: <strong>hybrid</strong> — hard-block only the impossible (water type, tank-too-small), soft-warn everything else. That's effectively B done carefully. Tell me which direction feels right.</p>

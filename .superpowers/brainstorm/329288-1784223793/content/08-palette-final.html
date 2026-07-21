@@ -1,0 +1,208 @@
+<h2>Care-level palette — final</h2>
+<p class="subtitle">Ramp shifted one step warmer: blue → green → amber → red. Orange band is now reserved for the Specialist advisory pill, no more collision.</p>
+
+<style>
+  .stage {
+    background: linear-gradient(180deg, #04313d 0%, #0b5e92 100%);
+    padding: 32px 24px;
+    border-radius: 12px;
+    max-width: 1080px;
+    margin: 0 auto;
+  }
+  .row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .col { display: flex; flex-direction: column; align-items: center; }
+
+  .am-card {
+    position: relative;
+    width: 200px;
+    border-radius: 10px;
+    font-family: 'Georgia', serif;
+    padding-bottom: 8px;
+  }
+  .am-card__img {
+    width: 100%;
+    aspect-ratio: 4/3;
+    background: linear-gradient(135deg, #0b5e92 0%, #1e5799 100%);
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+  }
+  .am-card__img::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-size: 65% 65%;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.85;
+    filter: blur(1px);
+  }
+  .fish-neon::before { background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 60'><path d='M 20 30 Q 30 20 60 25 L 78 22 L 78 38 L 60 35 Q 30 40 20 30 Z' fill='%2300aaff'/><rect x='30' y='27' width='40' height='4' fill='%23ff4444'/><circle cx='26' cy='29' r='1.5' fill='%23000'/></svg>"); }
+  .fish-angel::before { background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 60'><path d='M 40 20 L 60 20 L 65 30 L 60 45 L 40 45 L 35 30 Z' fill='%23c0c0c0'/><rect x='45' y='20' width='2' height='25' fill='%23000'/><rect x='53' y='20' width='2' height='25' fill='%23000'/><circle cx='42' cy='28' r='1.5' fill='%23000'/></svg>"); }
+  .fish-discus::before { background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 60'><circle cx='50' cy='30' r='22' fill='%23f4a742'/><path d='M 28 30 Q 50 15 72 30' stroke='%23c48132' stroke-width='2' fill='none'/><circle cx='42' cy='27' r='2' fill='%23000'/></svg>"); }
+  .fish-wrasse::before { background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 60'><path d='M 18 30 Q 22 22 60 25 L 82 22 L 82 38 L 60 35 Q 22 38 18 30 Z' fill='%2333cc66'/><circle cx='40' cy='27' r='1.5' fill='%23000'/></svg>"); }
+
+  .am-card__info { padding: 6px 4px 0; }
+  .am-card__row {
+    display: flex; align-items: center; justify-content: space-between;
+    color: white; font-size: 0.9em;
+  }
+  .am-card__heart { color: white; opacity: 0.55; font-size: 1.2em; line-height: 1; }
+
+  .am-badge {
+    position: absolute; top: 8px; right: 8px;
+    padding: 3px 9px; border-radius: 25px;
+    font-size: 0.65em; font-family: system-ui; font-weight: 600;
+    color: white; letter-spacing: 0.02em;
+    z-index: 2; box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+  }
+  .am-badge.beginner     { background: #1E88E5; }
+  .am-badge.intermediate { background: #2E7D32; }
+  .am-badge.advanced     { background: #F9A825; color: #1a1a1a; }
+  .am-badge.expert       { background: #C62828; }
+
+  .label {
+    color: var(--fg-secondary, #999);
+    font-size: 0.7em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin: 16px 0 4px;
+    font-family: system-ui;
+    font-weight: 600;
+  }
+  .swatch {
+    color: var(--fg-secondary, #888);
+    font-size: 0.75em;
+    font-family: system-ui;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .swatch::before {
+    content: '';
+    width: 10px; height: 10px;
+    border-radius: 50%;
+    background: var(--c);
+  }
+</style>
+
+<div class="stage">
+  <div class="row">
+    <div class="col">
+      <div class="label">beginner</div>
+      <div class="swatch" style="--c:#1E88E5;">#1E88E5 · welcoming blue</div>
+      <div class="am-card">
+        <span class="am-badge beginner">Beginner</span>
+        <div class="am-card__img fish-neon"></div>
+        <div class="am-card__info">
+          <div class="am-card__row">
+            <span>Neon Tetra</span>
+            <span class="am-card__heart">♡</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="label">intermediate</div>
+      <div class="swatch" style="--c:#2E7D32;">#2E7D32 · steady green</div>
+      <div class="am-card">
+        <span class="am-badge intermediate">Intermediate</span>
+        <div class="am-card__img fish-angel"></div>
+        <div class="am-card__info">
+          <div class="am-card__row">
+            <span>Angelfish</span>
+            <span class="am-card__heart">♡</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="label">advanced</div>
+      <div class="swatch" style="--c:#F9A825;">#F9A825 · amber caution</div>
+      <div class="am-card">
+        <span class="am-badge advanced">Advanced</span>
+        <div class="am-card__img fish-discus"></div>
+        <div class="am-card__info">
+          <div class="am-card__row">
+            <span>Discus</span>
+            <span class="am-card__heart">♡</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="label">expert</div>
+      <div class="swatch" style="--c:#C62828;">#C62828 · high alert red</div>
+      <div class="am-card">
+        <span class="am-badge expert">Expert</span>
+        <div class="am-card__img fish-wrasse"></div>
+        <div class="am-card__info">
+          <div class="am-card__row">
+            <span>Leopard Wrasse</span>
+            <span class="am-card__heart">♡</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div style="max-width: 800px; margin: 32px auto 0; font-family: system-ui; color: var(--fg-primary, #ddd); font-size: 0.9em; line-height: 1.6;">
+  <p><strong>Collision resolved:</strong></p>
+  <table style="width: 100%; border-collapse: collapse; margin-top: 8px;">
+    <thead>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.15);">
+        <th style="text-align: left; padding: 6px 0; font-weight: 600; color: white;">System</th>
+        <th style="text-align: left; padding: 6px 0; font-weight: 600; color: white;">Values</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="border-bottom: 1px solid rgba(255,255,255,0.08);">
+        <td style="padding: 6px 0;">Care level</td>
+        <td style="padding: 6px 0;">
+          <span style="color:#1E88E5;">■ blue</span>&nbsp;·
+          <span style="color:#2E7D32;">■ green</span>&nbsp;·
+          <span style="color:#F9A825;">■ amber</span>&nbsp;·
+          <span style="color:#C62828;">■ red</span>
+        </td>
+      </tr>
+      <tr>
+        <td style="padding: 6px 0;">Advisory</td>
+        <td style="padding: 6px 0;">
+          <span style="color:#E65100;">■ orange (Specialist)</span>&nbsp;·
+          <span style="color:#7b1fa2;">■ purple (XL)</span>&nbsp;·
+          <span style="color:#0277bd;">■ blue-cyan (Pond)</span>&nbsp;·
+          <span style="color:#424242;">■ dark gray (Restricted)</span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <p style="margin-top: 12px;">Only the Pond blue (#0277bd) is close to beginner (#1E88E5), but Pond advisory + beginner care is a near-impossible combination in the corpus. Safe.</p>
+</div>
+
+<div class="options" style="margin-top: 40px;">
+  <div class="option" data-choice="a" onclick="toggleSelect(this)">
+    <div class="letter">A</div>
+    <div class="content">
+      <h3>All locked — write the spec</h3>
+      <p>Ready to write the V2 design doc on the feature/v2-cards branch.</p>
+    </div>
+  </div>
+  <div class="option" data-choice="b" onclick="toggleSelect(this)">
+    <div class="letter">B</div>
+    <div class="content">
+      <h3>Try a different blue</h3>
+      <p>#1E88E5 doesn't feel right — reply in terminal with the vibe you want.</p>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,271 @@
+<h2>Advisory pill — refined</h2>
+<p class="subtitle">Specialist now orange (differentiated from Expert care-level red). Reason surfaces on pill hover — shown here on the Leopard Wrasse.</p>
+
+<style>
+  .stage {
+    background: linear-gradient(180deg, #04313d 0%, #0b5e92 100%);
+    padding: 32px 24px;
+    border-radius: 12px;
+    max-width: 1080px;
+    margin: 0 auto;
+  }
+  .row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .col { display: flex; flex-direction: column; align-items: center; }
+
+  .am-card {
+    position: relative;
+    width: 200px;
+    border-radius: 10px;
+    font-family: 'Georgia', serif;
+    padding-bottom: 8px;
+  }
+  .am-card__img {
+    width: 100%;
+    aspect-ratio: 4/3;
+    background: linear-gradient(135deg, #0b5e92 0%, #1e5799 100%);
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+  }
+  .am-card__img::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-size: 65% 65%;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.85;
+    filter: blur(1px);
+  }
+  .fish-wrasse::before { background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 60'><path d='M 18 30 Q 22 22 60 25 L 82 22 L 82 38 L 60 35 Q 22 38 18 30 Z' fill='%2333cc66'/><circle cx='40' cy='27' r='1.5' fill='%23000'/></svg>"); }
+  .fish-arapaima::before { background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 60'><path d='M 5 30 Q 15 20 60 25 L 90 22 L 90 38 L 60 35 Q 15 40 5 30 Z' fill='%23888'/><path d='M 60 25 L 90 22 L 90 38 L 60 35 Z' fill='%23c00'/><circle cx='18' cy='28' r='1.5' fill='%23000'/></svg>"); }
+  .fish-piranha::before { background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 60'><ellipse cx='50' cy='30' rx='26' ry='13' fill='%23aabbaa'/><path d='M 30 30 Q 50 42 66 34' stroke='%23cc4444' stroke-width='2' fill='none'/><circle cx='36' cy='27' r='1.8' fill='%23000'/></svg>"); }
+  .fish-koi::before { background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 60'><path d='M 12 30 Q 20 20 60 25 L 82 22 L 82 38 L 60 35 Q 20 40 12 30 Z' fill='%23ff9933'/><ellipse cx='40' cy='28' rx='6' ry='4' fill='%23fff'/><ellipse cx='55' cy='32' rx='4' ry='3' fill='%23fff'/><circle cx='20' cy='28' r='1.5' fill='%23000'/></svg>"); }
+
+  .am-card__info { padding: 6px 4px 0; }
+  .am-card__row {
+    display: flex; align-items: center; justify-content: space-between;
+    color: white; font-size: 0.9em;
+  }
+  .am-card__heart { color: white; opacity: 0.55; font-size: 1.2em; line-height: 1; }
+
+  .am-badge {
+    position: absolute; top: 8px; right: 8px;
+    padding: 3px 9px; border-radius: 25px;
+    font-size: 0.65em; font-family: system-ui; font-weight: 600;
+    color: white; background: #C62828;
+    z-index: 2; box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+  }
+
+  .am-warning {
+    position: absolute; top: 8px; left: 8px;
+    padding: 3px 8px 3px 6px;
+    border-radius: 25px;
+    font-size: 0.62em;
+    font-family: system-ui, sans-serif;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 0.03em;
+    z-index: 3;
+    display: inline-flex; align-items: center; gap: 3px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+  }
+  .am-warning::before { font-size: 0.9em; }
+
+  .am-warning.specialist         { background: #E65100; }  /* orange — distinguished from expert red */
+  .am-warning.specialist::before { content: '⚠'; }
+
+  .am-warning.public             { background: #7b1fa2; }
+  .am-warning.public::before     { content: '⚑'; }
+
+  .am-warning.pond               { background: #0277bd; }
+  .am-warning.pond::before       { content: '↑'; }
+
+  .am-warning.legal              { background: #424242; }
+  .am-warning.legal::before      { content: '⚖'; }
+
+  /* Reason tooltip on pill hover */
+  .am-warning-reason {
+    position: absolute;
+    top: 32px;
+    left: 8px;
+    padding: 8px 11px;
+    background: rgba(4,49,61,0.98);
+    color: white;
+    font-size: 0.68em;
+    line-height: 1.4;
+    border-radius: 8px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.6);
+    font-family: system-ui, sans-serif;
+    z-index: 20;
+    border: 1px solid rgba(230,81,0,0.5);
+    max-width: 200px;
+    pointer-events: none;
+  }
+  .am-warning-reason::before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: 12px;
+    width: 10px;
+    height: 10px;
+    background: rgba(4,49,61,0.98);
+    border-left: 1px solid rgba(230,81,0,0.5);
+    border-top: 1px solid rgba(230,81,0,0.5);
+    transform: rotate(45deg);
+  }
+
+  .am-cursor {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    z-index: 15;
+    pointer-events: none;
+  }
+
+  .card--pill-hover .am-warning-reason { display: block; }
+  .card--pill-hover::after {
+    content: 'PILL HOVER';
+    position: absolute;
+    top: -22px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #ffb000;
+    color: #1a1a1a;
+    padding: 2px 8px;
+    font-size: 0.62em;
+    font-family: system-ui;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    border-radius: 3px;
+    white-space: nowrap;
+  }
+
+  .label {
+    color: var(--fg-secondary, #999);
+    font-size: 0.7em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin: 32px 0 4px;
+    font-family: system-ui;
+    font-weight: 600;
+  }
+  .count {
+    color: var(--fg-secondary, #888);
+    font-size: 0.75em;
+    font-family: system-ui;
+    margin-bottom: 8px;
+  }
+</style>
+
+<div class="stage">
+  <div class="row">
+    <div class="col">
+      <div class="label">specialist-only</div>
+      <div class="count">73 species</div>
+      <div class="am-card card--pill-hover">
+        <span class="am-warning specialist">Specialist</span>
+        <div class="am-warning-reason">
+          Demanding diet, mature reef only. Possible with advanced experience.
+        </div>
+        <svg class="am-cursor" style="top: 22px; left: 32px;" viewBox="0 0 20 20"><path d="M 2 2 L 2 15 L 6 12 L 9 18 L 11 17 L 8 11 L 14 11 Z" fill="white" stroke="black" stroke-width="1"/></svg>
+        <span class="am-badge">Expert</span>
+        <div class="am-card__img fish-wrasse"></div>
+        <div class="am-card__info">
+          <div class="am-card__row">
+            <span>Leopard Wrasse</span>
+            <span class="am-card__heart">♡</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="label">legally-restricted</div>
+      <div class="count">26 species</div>
+      <div class="am-card">
+        <span class="am-warning legal">Restricted</span>
+        <span class="am-badge">Expert</span>
+        <div class="am-card__img fish-piranha"></div>
+        <div class="am-card__info">
+          <div class="am-card__row">
+            <span>Red-Bellied Piranha</span>
+            <span class="am-card__heart">♡</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="label">public-aquarium-only</div>
+      <div class="count">17 species</div>
+      <div class="am-card">
+        <span class="am-warning public">Public only</span>
+        <span class="am-badge">Expert</span>
+        <div class="am-card__img fish-arapaima"></div>
+        <div class="am-card__info">
+          <div class="am-card__row">
+            <span>Arapaima</span>
+            <span class="am-card__heart">♡</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="label">pond-only</div>
+      <div class="count">2 species</div>
+      <div class="am-card">
+        <span class="am-warning pond">Pond only</span>
+        <span class="am-badge">Expert</span>
+        <div class="am-card__img fish-koi"></div>
+        <div class="am-card__info">
+          <div class="am-card__row">
+            <span>Koi</span>
+            <span class="am-card__heart">♡</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div style="max-width: 800px; margin: 32px auto 0; font-family: system-ui; color: var(--fg-primary, #ddd); font-size: 0.9em; line-height: 1.6;">
+  <p><strong>Changes:</strong></p>
+  <ul>
+    <li><strong style="color:#E65100;">Specialist</strong> pill is now orange, cleanly separating it from the red Expert care-level badge across the image.</li>
+    <li><strong>Reason tooltip</strong> — hovering the pill shows a small popover with the <code>hobbyistAdvisory.reason</code> string. Shown here on Leopard Wrasse with a mock cursor.</li>
+    <li>Pill hover suppresses the image-hover teaser (they're mutually exclusive so nothing gets stacked/covered).</li>
+    <li>Other three variants unchanged (purple / dark gray / blue).</li>
+  </ul>
+</div>
+
+<div class="options" style="margin-top: 40px;">
+  <div class="option" data-choice="a" onclick="toggleSelect(this)">
+    <div class="letter">A</div>
+    <div class="content">
+      <h3>Looks right — move to the next decision</h3>
+      <p>Next up: confirm care-level color palette (beginner/intermediate/advanced/expert) and AKA pill display format.</p>
+    </div>
+  </div>
+  <div class="option" data-choice="b" onclick="toggleSelect(this)">
+    <div class="letter">B</div>
+    <div class="content">
+      <h3>Different orange tone</h3>
+      <p>Try a different orange — this one clashes with something or feels off.</p>
+    </div>
+  </div>
+  <div class="option" data-choice="c" onclick="toggleSelect(this)">
+    <div class="letter">C</div>
+    <div class="content">
+      <h3>Reason tooltip positioning is off</h3>
+      <p>Something about where the tooltip appears or how it looks needs adjustment.</p>
+    </div>
+  </div>
+</div>

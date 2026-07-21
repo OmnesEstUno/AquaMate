@@ -1,0 +1,89 @@
+<h2>The consolidated layout — does this match your mental model?</h2>
+<p class="subtitle">Center tank canvas, collapsible Browse (left) and Advisor+stocklist (right). Annotations show the 3 refinements. Click to confirm, or tell me what to change.</p>
+
+<style>
+  .stage { background:#0e2233; border-radius:12px; padding:12px; }
+  .row { display:flex; gap:10px; height:340px; }
+  .panel { background:#0a1a28; border-radius:10px; padding:10px; display:flex; flex-direction:column; gap:8px; }
+  .panel h4 { margin:0; font-size:10px; letter-spacing:.05em; text-transform:uppercase; color:#dfeaf5; display:flex; justify-content:space-between; align-items:center;}
+  .sb { background:#14344c; border-radius:5px; height:22px; font-size:10px; color:#9fc; display:flex; align-items:center; padding:0 8px; }
+  .vt { display:flex; gap:4px; } .vt span{ flex:1; text-align:center; background:#14344c; border-radius:4px; font-size:11px; color:#bcd; padding:2px 0;} .vt .on{background:#2b5a80;color:#fff;}
+  .li { display:flex; align-items:center; gap:6px; font-size:11px; color:#cfe; background:#0f2537; border-radius:4px; padding:4px 6px;}
+  .dot{width:8px;height:8px;border-radius:50%;flex:none;}
+  .g{background:#4caf6e;} .a{background:#e6a13c;} .lock{color:#ff7a7a;font-size:11px;}
+  .handle{ writing-mode:vertical-rl; background:#0a1a28; border-radius:10px; width:26px; display:flex; align-items:center; justify-content:center; font-size:10px; color:#9fc; letter-spacing:.1em;}
+  .canvas{ flex:2.1; background:#08243a; border:1px solid #1b4059; border-radius:10px; padding:10px; display:flex; flex-direction:column; gap:8px; position:relative;}
+  .tankbar{ background:#0f2d1f; border:1px solid #2e6b4e; border-radius:6px; padding:5px 8px; font-size:10px; color:#8fd; display:flex; justify-content:space-between; align-items:center;}
+  .glass{ flex:1; border:1px dashed #2b5a80; border-radius:6px; position:relative; background:linear-gradient(#0a2c48,#08243a);}
+  .fishmark{ position:absolute; width:26px; height:12px; background:#1b4a6b; border-radius:6px;}
+  .adv{ background:#0d2a20; border:1px solid #2e6b4e; border-radius:8px; padding:8px; }
+  .bar{height:7px;background:#14344c;border-radius:4px;overflow:hidden;} .bar>div{height:100%;background:#4caf6e;}
+  .callout{ font-size:11px; color:#ffd79a; background:#2e2413; border:1px solid #6b5320; border-radius:6px; padding:5px 8px; margin-top:4px;}
+  .taxhdr{font-size:9px;letter-spacing:.08em;text-transform:uppercase;color:#7fa7c4;margin:6px 0 2px;}
+  .qty{margin-left:auto;font-size:9px;color:#9fc;}
+</style>
+
+<div class="options" style="margin-bottom:14px;">
+  <div class="option" data-choice="confirm-layout" onclick="toggleSelect(this)" style="padding:10px 14px;">
+    <div class="letter">✓</div><div class="content"><h3>Yes — build this</h3><p>This matches what I described.</p></div>
+  </div>
+</div>
+
+<div class="stage">
+  <div class="row">
+
+    <!-- LEFT: BROWSE -->
+    <div class="panel" style="flex:1.3;">
+      <h4>Browse <span style="color:#9fc;cursor:pointer;">‹ collapse</span></h4>
+      <div class="sb">🔍 search species…</div>
+      <div class="vt"><span class="on">≡ list</span><span>▦ icons</span><span>▣ image</span></div>
+      <div style="font-size:9px;color:#7fa7c4;">taxon: All ▾</div>
+      <div class="li"><span class="dot g"></span>Neon Tetra</div>
+      <div class="li"><span class="dot g"></span>Corydoras Panda</div>
+      <div class="li"><span class="dot a"></span>Tiger Barb</div>
+      <div class="li" style="opacity:.55;"><span class="lock">🔒</span>Clownfish <span style="font-size:9px;margin-left:auto;">saltwater</span></div>
+      <div class="li" style="opacity:.55;"><span class="lock">🔒</span>Goldfish <span style="font-size:9px;margin-left:auto;">temp</span></div>
+      <div class="li"><span class="dot g"></span>Amazon Sword</div>
+      <div class="callout">① Inline status dots vs your current build: green ok · amber warns · 🔒 hard-blocked (water/temp)</div>
+    </div>
+
+    <!-- CENTER: TANK CANVAS -->
+    <div class="canvas">
+      <div class="tankbar"><span>🐟 Your tank — <strong>200 L</strong> · 120×50×50</span><span style="cursor:pointer;">Set your tank ▾</span></div>
+      <div class="callout" style="margin:0;">② Tank setup lives on the canvas — slider / dimensions. Unlocks bioload + swim-zones.</div>
+      <div class="glass">
+        <div class="fishmark" style="top:20%;left:15%;"></div>
+        <div class="fishmark" style="top:35%;left:55%;"></div>
+        <div class="fishmark" style="top:60%;left:30%;"></div>
+        <div style="position:absolute;bottom:6px;left:0;right:0;text-align:center;font-size:9px;color:#5c8bb0;">stocklist shown as a simple list in v1 · 2.5D side-view in v2</div>
+      </div>
+    </div>
+
+    <!-- RIGHT: ADVISOR + STOCKLIST -->
+    <div class="panel" style="flex:1.2;">
+      <h4>Advisor <span style="color:#9fc;cursor:pointer;">collapse ›</span></h4>
+      <div class="adv">
+        <div style="display:flex;justify-content:space-between;font-size:11px;color:#dfeaf5;margin-bottom:5px;"><strong>Tank health</strong><span style="color:#e6a13c;">70% · ⚠ 2</span></div>
+        <div class="bar" style="margin-bottom:5px;"><div style="width:70%"></div></div>
+        <div style="font-size:10px;color:#8fb0cc;">Bioload 64% · Swim zones balanced</div>
+        <div style="font-size:10px;color:#e6a13c;margin-top:4px;">⚠ Tiger Barb nips long fins<br>⚠ Only 1 Neon Tetra — keep 6+</div>
+      </div>
+      <div style="font-size:9px;color:#7fa7c4;">(sticky above the list ↑)</div>
+      <div class="taxhdr">Fish</div>
+      <div class="li"><span class="dot a"></span>Neon Tetra<span class="qty">×1 – +</span></div>
+      <div class="li"><span class="dot g"></span>Corydoras Panda<span class="qty">×6 – +</span></div>
+      <div class="li"><span class="dot a"></span>Tiger Barb<span class="qty">×4 – +</span></div>
+      <div class="taxhdr">Plants</div>
+      <div class="li"><span class="dot g"></span>Amazon Sword<span class="qty">×3 – +</span></div>
+    </div>
+
+  </div>
+
+  <!-- COLLAPSED STATE STRIP -->
+  <div style="display:flex;gap:10px;margin-top:10px;align-items:stretch;height:44px;">
+    <div class="handle" style="height:auto;">BROWSE ›</div>
+    <div style="flex:1;background:#08243a;border:1px solid #1b4059;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:10px;color:#5c8bb0;">…both rails collapsed → full-width tank canvas (great on mobile)…</div>
+    <div class="handle" style="height:auto;background:#0d2a20;border:1px solid #2e6b4e;color:#8fd;">‹ 70% ⚠2</div>
+  </div>
+  <div class="callout">③ Collapsed quick-reference: Browse becomes a handle; Advisor collapses to a health % + warning count strip.</div>
+</div>

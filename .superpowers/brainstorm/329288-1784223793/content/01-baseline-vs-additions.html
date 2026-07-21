@@ -1,0 +1,238 @@
+<h2>V2 Card UX — What's on the table</h2>
+<p class="subtitle">Left: today's card. Right: proposed additions in place, labeled.</p>
+
+<style>
+  .compare {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    max-width: 1080px;
+    margin: 0 auto;
+  }
+  .compare > div { display: flex; flex-direction: column; align-items: center; }
+  .compare h3 { color: var(--fg-secondary, #888); font-size: 0.85em; text-transform: uppercase; letter-spacing: 0.1em; margin: 0 0 20px; font-weight: 600; }
+
+  /* --- Card mockup mimicking AquaMate tokens --- */
+  .am-card {
+    position: relative;
+    width: 240px;
+    background: #05333A;
+    border-radius: 10px;
+    overflow: visible;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+    transition: transform 0.5s ease;
+    cursor: pointer;
+  }
+  .am-card__img {
+    width: 100%;
+    height: 180px;
+    background: linear-gradient(135deg, #0b5e92 0%, #1e5799 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255,255,255,0.3);
+    font-size: 0.75em;
+    letter-spacing: 0.1em;
+    border-radius: 10px 10px 0 0;
+    position: relative;
+    overflow: hidden;
+  }
+  .am-card__img::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 60'><ellipse cx='50' cy='30' rx='22' ry='10' fill='%23ff8844' opacity='0.8'/><circle cx='42' cy='28' r='2' fill='%23000'/><path d='M 72 30 L 82 22 L 82 38 Z' fill='%23ff8844' opacity='0.8'/></svg>") center/60% no-repeat;
+    filter: blur(2px);
+    opacity: 0.7;
+  }
+  .am-card__info {
+    padding: 10px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Georgia', serif;
+    color: white;
+    font-size: 0.95em;
+  }
+  .am-card__heart {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    color: white;
+    opacity: 0.6;
+  }
+  .am-card__heart::before {
+    content: '♡';
+    font-size: 1.4em;
+  }
+
+  /* --- Proposed additions --- */
+  .am-badge {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    padding: 4px 10px;
+    border-radius: 25px;
+    font-size: 0.7em;
+    font-family: system-ui;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    background: #4CAF50;
+    color: white;
+    z-index: 2;
+  }
+  .am-chip {
+    position: absolute;
+    bottom: 8px;
+    left: 8px;
+    padding: 3px 8px;
+    border-radius: 25px;
+    font-size: 0.68em;
+    font-family: system-ui;
+    background: rgba(4,49,61,0.85);
+    color: #00f7ff;
+    border: 1px solid #00f7ff;
+    z-index: 2;
+  }
+  .am-warning {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    padding: 3px 8px;
+    border-radius: 25px;
+    font-size: 0.65em;
+    font-family: system-ui;
+    font-weight: 600;
+    background: #b3261e;
+    color: white;
+    z-index: 2;
+  }
+  .am-tradename {
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    padding: 3px 6px;
+    border-radius: 25px;
+    font-size: 0.6em;
+    background: rgba(255,255,255,0.15);
+    color: white;
+    font-style: italic;
+    z-index: 2;
+  }
+  .am-teaser {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin-top: 8px;
+    padding: 10px 12px;
+    background: rgba(4,49,61,0.95);
+    color: white;
+    font-size: 0.8em;
+    line-height: 1.4;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.5);
+    font-family: system-ui;
+    z-index: 3;
+  }
+
+  /* Callout labels */
+  .callout {
+    position: absolute;
+    font-family: system-ui;
+    font-size: 0.7em;
+    color: #ffb000;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    white-space: nowrap;
+    z-index: 5;
+  }
+  .callout::before {
+    content: '';
+    width: 20px;
+    height: 1px;
+    background: #ffb000;
+  }
+  .callout-care    { top: 10px;  left: -170px; }
+  .callout-care::before { width: 160px; }
+  .callout-taxon   { bottom: 78px; left: -170px; }
+  .callout-taxon::before { width: 160px; }
+  .callout-warn    { top: 34px;  right: -170px; }
+  .callout-warn::before { width: 160px; order: 1; margin-left: 6px; margin-right: 0; }
+  .callout-warn { flex-direction: row-reverse; }
+  .callout-tname   { bottom: 30px; right: -170px; }
+  .callout-tname::before { width: 160px; order: 1; margin-left: 6px; margin-right: 0; }
+  .callout-tname { flex-direction: row-reverse; }
+  .callout-teaser  { bottom: -32px; left: 90px; }
+  .callout-teaser::before { display: none; }
+</style>
+
+<div class="compare">
+  <div>
+    <h3>Today</h3>
+    <div class="am-card">
+      <div class="am-card__img">clownfish image</div>
+      <div class="am-card__info">
+        <span>Clownfish</span>
+        <span class="am-card__heart"></span>
+      </div>
+    </div>
+    <p style="margin-top: 30px; font-size: 0.85em; color: var(--fg-secondary, #999); max-width: 240px; text-align: center;">Image + common name + heart. That's it.</p>
+  </div>
+
+  <div>
+    <h3>Proposed V2</h3>
+    <div class="am-card">
+      <span class="callout callout-care">Care-level badge</span>
+      <span class="callout callout-taxon">Taxon chip</span>
+      <span class="callout callout-warn">Advisory warning</span>
+      <span class="callout callout-tname">Trade-name explainer</span>
+      <span class="callout callout-teaser">Hover teaser (on hover only)</span>
+
+      <span class="am-badge">Beginner</span>
+      <div class="am-card__img">clownfish image</div>
+      <div class="am-card__info">
+        <span>Clownfish</span>
+        <span class="am-card__heart"></span>
+      </div>
+      <span class="am-chip">fish</span>
+    </div>
+    <p style="margin-top: 30px; font-size: 0.85em; color: var(--fg-secondary, #999); max-width: 260px; text-align: center;">Five additions layered onto the existing card without changing its shape, size, or hover behavior.</p>
+  </div>
+</div>
+
+<div style="margin-top: 50px; max-width: 800px; margin-left: auto; margin-right: auto;">
+  <h3 style="font-size: 1em; margin-bottom: 12px;">The five additions</h3>
+  <ul style="line-height: 1.7; color: var(--fg-primary, #ddd); font-family: system-ui; font-size: 0.9em;">
+    <li><strong style="color:#4CAF50;">Care-level badge</strong> — top-right. Colored pill: green (beginner), yellow (intermediate), orange (advanced), red (expert).</li>
+    <li><strong style="color:#00f7ff;">Taxon chip</strong> — bottom-left. Icon or short label showing what kind of critter/plant it is.</li>
+    <li><strong style="color:#b3261e;">Advisory warning pill</strong> — top-left, only when <code>hobbyistAdvisory</code> is set. Red pill signaling "specialist-only" species.</li>
+    <li><strong style="color:#ddd;">Hover teaser</strong> — appears on hover, below the card. First sentence of <code>summary</code>.</li>
+    <li><strong style="color:#eee;">Trade-name explainer</strong> — bottom-right, only when the card matched a search via <code>alsoKnownAs</code>. Chip like "also: red neon tetra".</li>
+  </ul>
+</div>
+
+<div class="options" style="margin-top: 60px;">
+  <div class="option" data-choice="a" onclick="toggleSelect(this)">
+    <div class="letter">A</div>
+    <div class="content">
+      <h3>Placement looks right, iterate on each in detail</h3>
+      <p>Move forward — go deep on each addition one at a time (badge design, chip design, warning pill visual, hover interaction, etc.).</p>
+    </div>
+  </div>
+  <div class="option" data-choice="b" onclick="toggleSelect(this)">
+    <div class="letter">B</div>
+    <div class="content">
+      <h3>Let's rethink placement first</h3>
+      <p>Something about the corner assignments doesn't sit right. Talk through it before designing each element.</p>
+    </div>
+  </div>
+  <div class="option" data-choice="c" onclick="toggleSelect(this)">
+    <div class="letter">C</div>
+    <div class="content">
+      <h3>Add or drop items from the list</h3>
+      <p>Reconsider what belongs in V2. Some additions feel excessive; something else is missing.</p>
+    </div>
+  </div>
+</div>

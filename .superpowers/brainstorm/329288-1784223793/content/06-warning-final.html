@@ -1,0 +1,202 @@
+<h2>Advisory pill — final wording</h2>
+<p class="subtitle">"Pond only" → "Pond". "Public only" → "XL". Neutral, describes the challenge rather than declaring a prohibition.</p>
+
+<style>
+  .stage {
+    background: linear-gradient(180deg, #04313d 0%, #0b5e92 100%);
+    padding: 32px 24px;
+    border-radius: 12px;
+    max-width: 1080px;
+    margin: 0 auto;
+  }
+  .row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .col { display: flex; flex-direction: column; align-items: center; }
+
+  .am-card {
+    position: relative;
+    width: 200px;
+    border-radius: 10px;
+    font-family: 'Georgia', serif;
+    padding-bottom: 8px;
+  }
+  .am-card__img {
+    width: 100%;
+    aspect-ratio: 4/3;
+    background: linear-gradient(135deg, #0b5e92 0%, #1e5799 100%);
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+  }
+  .am-card__img::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-size: 65% 65%;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.85;
+    filter: blur(1px);
+  }
+  .fish-wrasse::before { background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 60'><path d='M 18 30 Q 22 22 60 25 L 82 22 L 82 38 L 60 35 Q 22 38 18 30 Z' fill='%2333cc66'/><circle cx='40' cy='27' r='1.5' fill='%23000'/></svg>"); }
+  .fish-arapaima::before { background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 60'><path d='M 5 30 Q 15 20 60 25 L 90 22 L 90 38 L 60 35 Q 15 40 5 30 Z' fill='%23888'/><path d='M 60 25 L 90 22 L 90 38 L 60 35 Z' fill='%23c00'/><circle cx='18' cy='28' r='1.5' fill='%23000'/></svg>"); }
+  .fish-piranha::before { background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 60'><ellipse cx='50' cy='30' rx='26' ry='13' fill='%23aabbaa'/><path d='M 30 30 Q 50 42 66 34' stroke='%23cc4444' stroke-width='2' fill='none'/><circle cx='36' cy='27' r='1.8' fill='%23000'/></svg>"); }
+  .fish-koi::before { background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 60'><path d='M 12 30 Q 20 20 60 25 L 82 22 L 82 38 L 60 35 Q 20 40 12 30 Z' fill='%23ff9933'/><ellipse cx='40' cy='28' rx='6' ry='4' fill='%23fff'/><ellipse cx='55' cy='32' rx='4' ry='3' fill='%23fff'/><circle cx='20' cy='28' r='1.5' fill='%23000'/></svg>"); }
+
+  .am-card__info { padding: 6px 4px 0; }
+  .am-card__row {
+    display: flex; align-items: center; justify-content: space-between;
+    color: white; font-size: 0.9em;
+  }
+  .am-card__heart { color: white; opacity: 0.55; font-size: 1.2em; line-height: 1; }
+
+  .am-badge {
+    position: absolute; top: 8px; right: 8px;
+    padding: 3px 9px; border-radius: 25px;
+    font-size: 0.65em; font-family: system-ui; font-weight: 600;
+    color: white; background: #C62828;
+    z-index: 2; box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+  }
+
+  .am-warning {
+    position: absolute; top: 8px; left: 8px;
+    padding: 3px 8px 3px 6px;
+    border-radius: 25px;
+    font-size: 0.62em;
+    font-family: system-ui, sans-serif;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 0.03em;
+    z-index: 3;
+    display: inline-flex; align-items: center; gap: 3px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+  }
+  .am-warning::before { font-size: 0.9em; }
+
+  .am-warning.specialist         { background: #E65100; }
+  .am-warning.specialist::before { content: '⚠'; }
+
+  .am-warning.xl                 { background: #7b1fa2; }
+  .am-warning.xl::before         { content: '⚑'; }
+
+  .am-warning.pond               { background: #0277bd; }
+  .am-warning.pond::before       { content: '↑'; }
+
+  .am-warning.legal              { background: #424242; }
+  .am-warning.legal::before      { content: '⚖'; }
+
+  .label {
+    color: var(--fg-secondary, #999);
+    font-size: 0.7em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin: 16px 0 4px;
+    font-family: system-ui;
+    font-weight: 600;
+  }
+  .count {
+    color: var(--fg-secondary, #888);
+    font-size: 0.75em;
+    font-family: system-ui;
+    margin-bottom: 8px;
+  }
+</style>
+
+<div class="stage">
+  <div class="row">
+    <div class="col">
+      <div class="label">specialist-only</div>
+      <div class="count">73 species</div>
+      <div class="am-card">
+        <span class="am-warning specialist">Specialist</span>
+        <span class="am-badge">Expert</span>
+        <div class="am-card__img fish-wrasse"></div>
+        <div class="am-card__info">
+          <div class="am-card__row">
+            <span>Leopard Wrasse</span>
+            <span class="am-card__heart">♡</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="label">legally-restricted</div>
+      <div class="count">26 species</div>
+      <div class="am-card">
+        <span class="am-warning legal">Restricted</span>
+        <span class="am-badge">Expert</span>
+        <div class="am-card__img fish-piranha"></div>
+        <div class="am-card__info">
+          <div class="am-card__row">
+            <span>Red-Bellied Piranha</span>
+            <span class="am-card__heart">♡</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="label">public-aquarium-only</div>
+      <div class="count">17 species</div>
+      <div class="am-card">
+        <span class="am-warning xl">XL</span>
+        <span class="am-badge">Expert</span>
+        <div class="am-card__img fish-arapaima"></div>
+        <div class="am-card__info">
+          <div class="am-card__row">
+            <span>Arapaima</span>
+            <span class="am-card__heart">♡</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="label">pond-only</div>
+      <div class="count">2 species</div>
+      <div class="am-card">
+        <span class="am-warning pond">Pond</span>
+        <span class="am-badge">Expert</span>
+        <div class="am-card__img fish-koi"></div>
+        <div class="am-card__info">
+          <div class="am-card__row">
+            <span>Koi</span>
+            <span class="am-card__heart">♡</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div style="max-width: 800px; margin: 32px auto 0; font-family: system-ui; color: var(--fg-primary, #ddd); font-size: 0.9em; line-height: 1.6;">
+  <p><strong>Wording notes:</strong></p>
+  <ul>
+    <li><strong>XL</strong> — very short, describes the constraint (extreme size). Doesn't say "you can't own this" — someone with a room-sized tank still might. Reason tooltip surfaces the specifics.</li>
+    <li><strong>Pond</strong> — same treatment. States the ideal habitat, doesn't declare an aquarium impossibility.</li>
+    <li><strong>Specialist</strong> and <strong>Restricted</strong> unchanged — both already neutral about ability vs. willingness.</li>
+  </ul>
+</div>
+
+<div class="options" style="margin-top: 40px;">
+  <div class="option" data-choice="a" onclick="toggleSelect(this)">
+    <div class="letter">A</div>
+    <div class="content">
+      <h3>Wording locked — move on</h3>
+      <p>Next: confirm care-level badge palette + AKA pill display format + mobile fallback for hover teaser.</p>
+    </div>
+  </div>
+  <div class="option" data-choice="b" onclick="toggleSelect(this)">
+    <div class="letter">B</div>
+    <div class="content">
+      <h3>Different words</h3>
+      <p>Reply in terminal — what should any of these say instead?</p>
+    </div>
+  </div>
+</div>

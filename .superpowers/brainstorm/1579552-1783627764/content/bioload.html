@@ -1,0 +1,52 @@
+<h2>How bioload is derived — worked example</h2>
+<p class="subtitle">A 200 L community. Watch the "bioload" number fall straight out of curated fields — no invented values. Formula: <code>L = minVolumeLiters ÷ minGroupSize</code>, then sum (L × qty) ÷ tank volume.</p>
+
+<style>
+  .tbl{ width:100%; border-collapse:collapse; font-size:13px; background:#0a1a28; border-radius:10px; overflow:hidden; }
+  .tbl th,.tbl td{ padding:9px 12px; text-align:right; border-bottom:1px solid #14344c; color:#cfe;}
+  .tbl th{ background:#0e2233; color:#9fc; font-size:10px; letter-spacing:.05em; text-transform:uppercase; }
+  .tbl td:first-child,.tbl th:first-child{ text-align:left; }
+  .muted{ color:#7fa7c4; font-size:11px;}
+  .demand{ color:#8fd; font-weight:600;}
+  .gauge{ height:26px; background:#14344c; border-radius:6px; overflow:hidden; position:relative; margin:6px 0;}
+  .gauge>div{ height:100%; display:flex; align-items:center; padding-left:10px; font-size:12px; color:#04240f; font-weight:700;}
+  .zg{background:#4caf6e;} .za{background:#e6a13c;} .zr{background:#e06060;}
+  .box{ background:#0e2233; border-radius:10px; padding:14px; margin-top:14px;}
+  .warnline{ color:#e6a13c; font-size:12px;}
+  code{ background:#14344c; padding:1px 5px; border-radius:4px; color:#bfe;}
+</style>
+
+<table class="tbl">
+  <thead><tr><th>Species</th><th>minVol (M)</th><th>minGroup (G)</th><th>L = M÷G</th><th>Qty</th><th>Demand (L×qty)</th></tr></thead>
+  <tbody>
+    <tr><td>Neon Tetra</td><td>45</td><td>6</td><td>7.5</td><td>6</td><td class="demand">45</td></tr>
+    <tr><td>Corydoras Panda</td><td>60</td><td>6</td><td>10</td><td>6</td><td class="demand">60</td></tr>
+    <tr><td>Tiger Barb <span class="muted">(only 6 of 8 → schooling warn)</span></td><td>75</td><td>8</td><td>9.4</td><td>6</td><td class="demand">56</td></tr>
+    <tr style="border-top:2px solid #2b5a80;"><td><strong>Total demand</strong></td><td colspan="4" class="muted">÷ 200 L tank →</td><td class="demand">161 L</td></tr>
+  </tbody>
+</table>
+
+<div class="gauge"><div class="za" style="width:80%;">Bioload ≈ 80% · amber — comfortable, room for a small cleanup crew</div></div>
+
+<div class="box">
+  <div style="font-size:13px;color:#dfeaf5;margin-bottom:6px;"><strong>Now drop in 1 Oscar</strong> — <span class="muted">M=280, G=1 → L=280 per fish</span></div>
+  <table class="tbl" style="margin-bottom:8px;">
+    <tbody>
+      <tr><td>Oscar ×1</td><td colspan="4" class="muted">demand →</td><td class="demand">280</td></tr>
+      <tr style="border-top:2px solid #2b5a80;"><td><strong>New total</strong></td><td colspan="4" class="muted">441 L ÷ 200 L →</td><td class="demand" style="color:#e06060;">220%</td></tr>
+    </tbody>
+  </table>
+  <div class="gauge"><div class="zr" style="width:100%;">Bioload 220% · RED — way over capacity</div></div>
+  <div class="warnline">⚠ Oscar needs a 280 L tank on its own — 80 L larger than yours. And it will eat the neons. <span class="muted">(fit + predation checks, both exact)</span></div>
+</div>
+
+<div class="box">
+  <div style="font-size:12px;color:#9fc;margin-bottom:6px;">WHY THIS IS TRUSTWORTHY</div>
+  <div style="font-size:13px;color:#cfe;line-height:1.5;">
+    • The number is grounded in <strong>expert-curated fields</strong> (minVol + minGroupSize), not a guessed mass formula.<br>
+    • A starter group of any species exactly equals its own min tank — the model <strong>sanity-checks itself</strong>.<br>
+    • Every value is <strong>explainable in words</strong>: "6 tiger barbs use ~56 L of your 200 L."<br>
+    • Species missing those fields fall back to <code>adultSizeCm × diet-messiness</code>, calibrated to the same scale.<br>
+    • Shown as <strong>bands, not false precision</strong> — the goal is guidance, and it errs toward "don't overstock."
+  </div>
+</div>
