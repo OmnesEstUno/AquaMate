@@ -422,8 +422,15 @@
 .card__img-wrap {
   position: relative;
   display: block;
+  /* No overflow: hidden here — it would clip the advisory reason tooltip
+     when it extends beyond the card's right edge. Rounded corners applied
+     directly to the img so the visual is preserved. */
+}
+.card__img-wrap > img {
   border-radius: var(--radius-md);
-  overflow: hidden;
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 /* Care-level badge — top-right, borderless */
