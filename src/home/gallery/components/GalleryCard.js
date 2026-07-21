@@ -4,10 +4,14 @@ import React, { useState } from 'react';
 // gallery grid loads small images instead of multi-megapixel originals — 24
 // originals per page can decode to >1 GB of bitmaps and freeze the machine.
 // Hosts we have no rule for (and the user's own R2 images) pass through unchanged.
-export function thumbnailize(url, width = 640) {
+//
+// NOTE: Wikimedia only renders thumbnails at a fixed set of standard widths and
+// returns HTTP 400 for anything else (e.g. 640, 320, 800). 500 is an allowed
+// size; do not change it to an arbitrary value without re-checking the whitelist.
+export function thumbnailize(url, width = 500) {
   if (!url) return url;
   // Wikimedia Commons original -> /thumb/<shard>/<file>/<width>px-<file>
-  //   .../commons/c/c0/Name.jpg -> .../commons/thumb/c/c0/Name.jpg/640px-Name.jpg
+  //   .../commons/c/c0/Name.jpg -> .../commons/thumb/c/c0/Name.jpg/500px-Name.jpg
   const wm = url.match(
     /^(https?:\/\/upload\.wikimedia\.org\/wikipedia\/commons)\/([0-9a-f])\/([0-9a-f]{2})\/([^/?#]+)$/i
   );
@@ -45,10 +49,25 @@ export function buildImageChain(item) {
 // GalleryGrid supplies onOpen with navigation.
 export function GalleryCard({ item, onOpen }) {
   const chain = buildImageChain(item);
-  // Index into `chain`; advanced on load error until we run out of URLs.
-  const [idx, setIdx] = useState(0);
-  const raw = chain[idx] || null;
-  const src = raw ? thumbnailize(raw) : null;
+  // Position in `chain` plus whether we've fallen back to the raw original for
+  // the current url. On error we first retry the same candidate at full size
+  // (covers a thumbnail that 400s — e.g. an original smaller than the thumb
+  // width), then advance to the next candidate's thumbnail.
+  const [pos, setPos] = useState({ idx: 0, raw: false });
+  const rawUrl = chain[pos.idx] || null;
+  const src = rawUrl ? (pos.raw ? rawUrl : thumbnailize(rawUrl)) : null;
+
+  const handleError = () => {
+    setPos((p) => {
+      const cur = chain[p.idx];
+      // Showed a thumbnail and a distinct original exists -> try the original.
+      if (!p.raw && cur && thumbnailize(cur) !== cur) {
+        return { idx: p.idx, raw: true };
+      }
+      // Otherwise move on to the next candidate (as a thumbnail again).
+      return { idx: p.idx + 1, raw: false };
+    });
+  };
 
   return (
     <div className="card" onClick={onOpen} style={{ cursor: 'pointer' }}>
@@ -59,7 +78,7 @@ export function GalleryCard({ item, onOpen }) {
           width="640"
           height="480"
           loading="lazy"
-          onError={() => setIdx((i) => i + 1)}
+          onError={handleError}
         />
       ) : (
         <div

@@ -30,9 +30,9 @@ describe('buildImageChain', () => {
 });
 
 describe('thumbnailize', () => {
-  test('rewrites a Wikimedia Commons original to a bounded-width thumbnail', () => {
-    expect(thumbnailize('https://upload.wikimedia.org/wikipedia/commons/c/c0/Neon.jpg', 640))
-      .toBe('https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Neon.jpg/640px-Neon.jpg');
+  test('defaults to the Wikimedia-allowed 500px width', () => {
+    expect(thumbnailize('https://upload.wikimedia.org/wikipedia/commons/c/c0/Neon.jpg'))
+      .toBe('https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Neon.jpg/500px-Neon.jpg');
   });
 
   test('preserves the original (upper-case) extension in the thumb name', () => {
@@ -41,8 +41,8 @@ describe('thumbnailize', () => {
   });
 
   test('rewrites an SVG thumb with a .png extension', () => {
-    expect(thumbnailize('https://upload.wikimedia.org/wikipedia/commons/1/12/Diagram.svg', 640))
-      .toBe('https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Diagram.svg/640px-Diagram.svg.png');
+    expect(thumbnailize('https://upload.wikimedia.org/wikipedia/commons/1/12/Diagram.svg', 500))
+      .toBe('https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Diagram.svg/500px-Diagram.svg.png');
   });
 
   test('downsizes iNaturalist large/original to medium', () => {
@@ -64,7 +64,7 @@ describe('GalleryCard image fallback', () => {
     expect(img.getAttribute('loading')).toBe('lazy');
   });
 
-  test('displays candidate images as thumbnails, falling back on error', () => {
+  test('thumbnail error retries the same original, then advances to the next candidate', () => {
     renderCard({
       id: '2',
       commonName: 'Kuhli Loach',
@@ -72,16 +72,16 @@ describe('GalleryCard image fallback', () => {
       media: {
         imageCandidates: [
           candidate('https://upload.wikimedia.org/wikipedia/commons/b/b2/KuhliA.jpg'),
-          candidate('https://inaturalist-open-data.s3.amazonaws.com/photos/5/large.jpeg'),
         ],
       },
     });
     const img = screen.getByAltText('Kuhli Loach');
-    expect(img.getAttribute('src')).toBe('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Broken.jpg/640px-Broken.jpg');
-    fireEvent.error(img); // primary thumb 404s
-    expect(img.getAttribute('src')).toBe('https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/KuhliA.jpg/640px-KuhliA.jpg');
-    fireEvent.error(img); // that candidate also fails
-    expect(img.getAttribute('src')).toBe('https://inaturalist-open-data.s3.amazonaws.com/photos/5/medium.jpeg');
+    // 1) primary shown as a 500px thumbnail
+    expect(img.getAttribute('src')).toBe('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Broken.jpg/500px-Broken.jpg');
+    fireEvent.error(img); // 2) thumb 400s -> retry the same candidate's original
+    expect(img.getAttribute('src')).toBe('https://upload.wikimedia.org/wikipedia/commons/a/a1/Broken.jpg');
+    fireEvent.error(img); // 3) original also fails -> next candidate's thumbnail
+    expect(img.getAttribute('src')).toBe('https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/KuhliA.jpg/500px-KuhliA.jpg');
   });
 
   test('renders a placeholder (no <img>, no empty src) when nothing is available', () => {
