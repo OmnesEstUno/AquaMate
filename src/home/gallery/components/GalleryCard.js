@@ -78,7 +78,7 @@ export function GalleryCard({ item, query }) {
 
   return (
     <div
-      className="card"
+      className="card glass-panel--card"
       onClick={() => navigate(`/info/${encodeURIComponent(item.commonName)}`)}
       style={{ cursor: 'pointer' }}
     >
@@ -106,9 +106,9 @@ export function GalleryCard({ item, query }) {
         <HoverTeaser summary={item.summary} imageRef={imgRef} suppressed={advisoryHovered} />
       </div>
       <div className="card-info">
-        <AKAPill query={query} alsoKnownAs={item.alsoKnownAs} matchedVia={item.matchedVia} />
         <div className="card-info__row">
-          <span>{item.commonName}</span>
+          <span className="card-info__name">{item.commonName}</span>
+          <AKAPill query={query} alsoKnownAs={item.alsoKnownAs} matchedVia={item.matchedVia} />
         </div>
       </div>
     </div>

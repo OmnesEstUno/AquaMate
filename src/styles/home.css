@@ -127,18 +127,13 @@
     gap: 20px; /* Space between items */
 }
 
-/* Style for images to make them fit uniformly */
+/* Style for images to make them fit uniformly.
+   Card-level scale(1.1) on hover (from builder.css) is enough — no image-level
+   zoom, which compounded to 1.65× and felt too dramatic. */
 .gallery img {
-    width: 100%; /* Makes image fill the container */
-    height: 100%; /* Maintain aspect ratio */
-    border-radius: var(--radius-md); /* Rounded corners for images */
-    transition: transform var(--transition-fast); /* Smooth transition for hover effect */
-    transform-origin: bottom;
-}
-
-/* Optional: hover effect to slightly enlarge images */
-.gallery img:hover {
-    transform: scale(1.5); /* Enlarges the image */
+    width: 100%;
+    height: 100%;
+    border-radius: var(--radius-md);
 }
 
 /* Placeholder shown when a species has no usable image (and no candidate
