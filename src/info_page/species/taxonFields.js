@@ -34,6 +34,7 @@ const RATING_ENUMS = {
 function setupRows(taxon, b) {
   const rows = [];
   const push = (k, v) => { if (v != null && v !== '') rows.push([k, v]); };
+  push('Coral type', b.coralType && titleCase(b.coralType));
   if (b.lighting && typeof b.lighting === 'object') {
     push('Lighting (PAR)', formatRange({ min: b.lighting.minPAR, max: b.lighting.maxPAR }, ''));
   }

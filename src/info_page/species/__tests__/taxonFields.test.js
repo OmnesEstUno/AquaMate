@@ -32,6 +32,9 @@ describe('taxonDisplay(coral)', () => {
   test('reefSafe surfaces as a rating', () => {
     expect(d.ratings).toEqual(expect.arrayContaining([['Reef-safe', 'With caution']]));
   });
+  test('coral type appears in setup', () => {
+    expect(d.setup).toEqual(expect.arrayContaining([['Coral type', 'SPS']]));
+  });
 });
 
 describe('taxonDisplay(fish)', () => {
