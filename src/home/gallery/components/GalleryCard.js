@@ -50,10 +50,14 @@ export function buildImageChain(item) {
   return chain;
 }
 
-export function GalleryCard({ item, query }) {
+export function GalleryCard({ item, query, activeCareLevels, activeAdvisoryLevels, onToggleFilter }) {
   const navigate = useNavigate();
   const [advisoryHovered, setAdvisoryHovered] = useState(false);
   const imgRef = useRef(null);
+  const careActive = activeCareLevels?.includes(item.careLevel);
+  const advisoryActive = activeAdvisoryLevels?.includes(item.hobbyistAdvisory?.level);
+  const handleCareClick = onToggleFilter ? (lvl) => onToggleFilter('careLevel', lvl) : undefined;
+  const handleAdvisoryClick = onToggleFilter ? (lvl) => onToggleFilter('advisoryLevel', lvl) : undefined;
 
   // Image fallback chain: position in `chain` plus whether we've fallen back to
   // the raw original for the current url. On error we first retry the same
@@ -101,8 +105,17 @@ export function GalleryCard({ item, query }) {
             No image yet
           </div>
         )}
-        <AdvisoryPill advisory={item.hobbyistAdvisory} onHoverChange={setAdvisoryHovered} />
-        <CareLevelBadge level={item.careLevel} />
+        <AdvisoryPill
+          advisory={item.hobbyistAdvisory}
+          onHoverChange={setAdvisoryHovered}
+          active={advisoryActive}
+          onClick={handleAdvisoryClick}
+        />
+        <CareLevelBadge
+          level={item.careLevel}
+          active={careActive}
+          onClick={handleCareClick}
+        />
         <HoverTeaser summary={item.summary} imageRef={imgRef} suppressed={advisoryHovered} />
       </div>
       <div className="card-info">

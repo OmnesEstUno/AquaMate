@@ -454,6 +454,11 @@
 .gallery-care--advanced     { background: var(--care-advanced); color: var(--care-advanced-fg); }
 .gallery-care--expert       { background: var(--care-expert); }
 
+/* Clickable state on pills — signals affordance without changing their look drastically */
+.gallery-care.is-clickable   { pointer-events: auto; cursor: pointer; transition: transform var(--transition-fast); }
+.gallery-care.is-clickable:hover { transform: scale(1.08); }
+.gallery-care.is-active      { outline: 2px solid var(--white); outline-offset: 1px; }
+
 /* Advisory pill — top-left, bordered, hover-tooltip */
 .gallery-advisory {
   position: absolute;
@@ -481,6 +486,10 @@
 .gallery-advisory--restricted { background: var(--advisory-restricted); border-color: var(--advisory-restricted-border); }
 .gallery-advisory--xl         { background: var(--advisory-xl);         border-color: var(--advisory-xl-border); }
 .gallery-advisory--pond       { background: var(--advisory-pond);       border-color: var(--advisory-pond-border); }
+
+.gallery-advisory.is-clickable       { cursor: pointer; transition: transform var(--transition-fast); }
+.gallery-advisory.is-clickable:hover { transform: scale(1.08); }
+.gallery-advisory.is-active          { outline: 2px solid var(--white); outline-offset: 1px; }
 
 .gallery-advisory__reason {
   position: absolute;
