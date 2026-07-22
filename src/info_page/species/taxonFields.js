@@ -25,13 +25,11 @@ const RATING_ENUMS = {
   reefSafe: 'Reef-safe', feedingDifficulty: 'Feeding difficulty', conspecificAggression: 'Conspecific aggression',
   escapeRisk: 'Escape risk', sexChange: 'Sex change', skinSensitivity: 'Skin sensitivity',
   chytridRisk: 'Chytrid risk', substrateConstraint: 'Substrate', substrateNeeds: 'Substrate',
-  waterStabilitySensitivity: 'Water-stability sensitivity', coralType: 'Coral type', flow: 'Flow',
-  placement: 'Placement', feedingFrequency: 'Feeding frequency', lighting: 'Lighting', co2: 'CO₂',
-  growthRate: 'Growth rate', form: 'Form', nutrientUptake: 'Nutrient uptake', fertilization: 'Fertilization',
+  waterStabilitySensitivity: 'Water-stability sensitivity',
 };
 
 // Setup values pulled into the Aquarium-setup KV block (formatted specially).
-function setupRows(taxon, b) {
+function setupRows(b) {
   const rows = [];
   const push = (k, v) => { if (v != null && v !== '') rows.push([k, v]); };
   push('Coral type', b.coralType && titleCase(b.coralType));
@@ -67,8 +65,7 @@ const SETUP_KEYS = new Set(['lighting', 'flow', 'placement', 'feedingFrequency',
 export function taxonDisplay(item) {
   const block = item[item.taxon];
   if (!block) return { setup: [], ratings: [], warnChips: [], traitChips: [] };
-  const setup = setupRows(item.taxon, block);
-  // coralType is a rating too (nice to show), keep it in ratings.
+  const setup = setupRows(block);
   const ratings = [];
   const warnChips = [];
   const traitChips = [];
