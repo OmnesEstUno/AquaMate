@@ -11,7 +11,9 @@ jest.mock('../AKAPill', () => ({ AKAPill: () => null }));
 jest.mock('../HoverTeaser', () => ({ HoverTeaser: () => null }));
 
 // eslint-disable-next-line import/first
-import { GalleryCard, buildImageChain, thumbnailize } from '../GalleryCard';
+import { GalleryCard } from '../GalleryCard';
+// eslint-disable-next-line import/first
+import { buildImageChain, thumbnailize } from '../../../../lib/speciesImages';
 
 const candidate = (url) => ({ url, source: 'Wikimedia Commons', license: 'CC BY-SA 4.0' });
 const renderCard = (item) => render(<GalleryCard item={item} query="" />);
