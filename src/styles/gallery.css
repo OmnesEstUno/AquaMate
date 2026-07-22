@@ -515,10 +515,12 @@
   white-space: normal;
 }
 
-/* AKA subline — inline to the right of the common name */
+/* AKA subline — sits below the common name row on its own line */
 .card-info { display: flex; flex-direction: column; }
 .gallery-aka {
+  align-self: flex-start;
   padding: 2px 8px;
+  margin-top: 3px;
   border-radius: var(--radius-pill);
   font-family: var(--font-ui);
   font-size: 0.62em;
@@ -527,8 +529,7 @@
   color: var(--aka-fg);
   letter-spacing: 0.03em;
   line-height: 1.4;
-  flex-shrink: 0;
-  max-width: 55%;
+  max-width: 100%;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;

@@ -121,8 +121,8 @@ export function GalleryCard({ item, query, activeCareLevels, activeAdvisoryLevel
       <div className="card-info">
         <div className="card-info__row">
           <span className="card-info__name">{item.commonName}</span>
-          <AKAPill query={query} alsoKnownAs={item.alsoKnownAs} matchedVia={item.matchedVia} />
         </div>
+        <AKAPill query={query} alsoKnownAs={item.alsoKnownAs} matchedVia={item.matchedVia} />
       </div>
     </div>
   );
