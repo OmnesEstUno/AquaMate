@@ -37,10 +37,24 @@ function resolveImageUrl(item) {
 }
 
 // Pick a candidate at random (per request) when there's no hosted primaryImage.
-function pickCandidate(item) {
+// Small deterministic string hash → int. Used to pick a stable candidate per
+// (seed, slug) so image selection is stable across filter changes but rotates
+// when the shuffle seed changes.
+function hashKey(str) {
+    let h = 0;
+    for (let i = 0; i < str.length; i++) {
+        h = ((h << 5) - h + str.charCodeAt(i)) | 0;
+    }
+    return Math.abs(h);
+}
+
+function pickCandidate(item, seed) {
     const c = item.media && item.media.imageCandidates;
     if (!Array.isArray(c) || c.length === 0) return null;
-    return c[Math.floor(Math.random() * c.length)];
+    // Deterministic per (seed, slug/id) so filter changes don't reshuffle
+    // images — a fresh seed does. Falls back to slug then id then 0.
+    const key = String(seed || 0) + '::' + (item.slug || item.id || '');
+    return c[hashKey(key) % c.length];
 }
 
 // Build an attribution string for a CC candidate: "<author> · <source> · <license>".
@@ -63,12 +77,12 @@ function candidateCredit(cand) {
     return parts.join(' · ');
 }
 
-function withResolvedImage(item) {
+function withResolvedImage(item, seed) {
     const primary = resolveImageUrl(item);
     if (primary) {
         return { ...item, image_url: primary, image_is_candidate: false, image_credit: null };
     }
-    const cand = pickCandidate(item);
+    const cand = pickCandidate(item, seed);
     if (cand) {
         return { ...item, image_url: cand.url, image_is_candidate: true, image_credit: candidateCredit(cand) };
     }
@@ -219,7 +233,7 @@ async function handleRequest(request, env) {
         }
 
         const start = (page - 1) * perPage;
-        const slice = ordered.slice(start, start + perPage).map(withResolvedImage);
+        const slice = ordered.slice(start, start + perPage).map(item => withResolvedImage(item, seed));
 
         // Annotate each item with which searchable field matched, so the frontend
         // can render the AKA subline only when the match reason was a trade name.
