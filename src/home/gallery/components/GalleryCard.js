@@ -35,7 +35,7 @@ export function GalleryCard({ item, query }) {
   return (
     <div
       className="card"
-      onClick={() => navigate(`/info/${encodeURIComponent(item.commonName)}`)}
+      onClick={() => navigate(`/info/${encodeURIComponent(item.slug)}`)}
       style={{ cursor: 'pointer' }}
     >
       <div className="card__img-wrap" ref={imgRef}>

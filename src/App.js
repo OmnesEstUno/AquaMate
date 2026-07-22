@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from './home/home.js';
-import InfoPage from './info_page/InfoPage.js';
+import SpeciesPage from './info_page/SpeciesPage';
 import BuilderTool from './builder_tool/builder_tool.js';
 import Favorites from './builder_tool/favorites.js';
 import AboutUs from './about/about_us.js';
@@ -37,7 +37,7 @@ function App() {
                     <Routes>
                         <Route path="/" element={<HomePage />} />
                         <Route path="/buildertool" element={<BuilderTool />} />
-                        <Route path="/info/:searchTerm" element={<InfoPage />} />
+                        <Route path="/info/:slug" element={<SpeciesPage />} />
                         <Route path="/favorites" element={<Favorites />} />
                         <Route path="/aboutus" element={<AboutUs />} />
                         <Route path="/about/:searchTerm" element={<AboutPerson />} />
