@@ -515,8 +515,14 @@
   white-space: normal;
 }
 
-/* AKA subline — sits below the common name row on its own line */
-.card-info { display: flex; flex-direction: column; }
+/* AKA subline — sits below the common name row on its own line.
+   Scope to gallery cards (they have .card__img-wrap) so we override the
+   flex-direction: row that builder.css sets for its own .card-info. */
+.card__img-wrap + .card-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
 .gallery-aka {
   align-self: flex-start;
   padding: 2px 8px;
