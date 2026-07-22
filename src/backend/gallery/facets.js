@@ -3,6 +3,7 @@ const {
   TAXA, WATER_TYPES, CARE_LEVELS,
   TEMPERAMENTS, GROUPINGS, DIET_TYPES,
   CO2_OPTIONS, LIGHTING_OPTIONS,
+  ADVISORY_LEVELS,
 } = require('./constants');
 
 // Multi-select enum dimensions and their option lists.
@@ -15,6 +16,7 @@ const ENUM_DIMENSIONS = {
   dietType: DIET_TYPES,
   co2: CO2_OPTIONS,
   lighting: LIGHTING_OPTIONS,
+  advisoryLevel: ADVISORY_LEVELS,
 };
 
 function computeFacets(items, activeFilters) {

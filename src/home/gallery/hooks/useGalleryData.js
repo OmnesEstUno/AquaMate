@@ -15,6 +15,7 @@ function stateToQuery(state) {
   put('dietType', list(state.dietType));
   put('co2', list(state.co2));
   put('lighting', list(state.lighting));
+  put('advisoryLevel', list(state.advisoryLevel));
   put('minSize', state.minSize);
   put('maxSize', state.maxSize);
   put('maxTankL', state.maxTankL);

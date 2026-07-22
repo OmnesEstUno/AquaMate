@@ -40,9 +40,11 @@ export function Gallery() {
     state,
     setTaxa, setWaterType, setCareLevel,
     setTemperament, setGrouping, setDietType,
-    setCo2, setLighting, setSize, setMaxTankL,
+    setCo2, setLighting, setAdvisoryLevel,
+    setSize, setMaxTankL,
     setReefSafe, setHideAdvisory, setSort, setPage,
     applyPreset, clearAll, removeFilter,
+    toggleFilterValue,
   } = useGalleryState();
 
   // Merge the header's search term into the request state — search narrows
@@ -101,7 +103,8 @@ export function Gallery() {
   const actions = {
     setTaxa, setWaterType, setCareLevel,
     setTemperament, setGrouping, setDietType,
-    setCo2, setLighting, setSize, setMaxTankL,
+    setCo2, setLighting, setAdvisoryLevel,
+    setSize, setMaxTankL,
     setReefSafe, setHideAdvisory, applyPreset, clearAll, removeFilter,
     // Custom preset actions
     savePresetFromCurrent, commitPresetName, deletePreset,
@@ -148,7 +151,13 @@ export function Gallery() {
           <EmptyState onClearAll={clearAll} />
         ) : (
           <>
-            <GalleryGrid items={items} query={searchTerm} />
+            <GalleryGrid
+              items={items}
+              query={searchTerm}
+              activeCareLevels={state.careLevel}
+              activeAdvisoryLevels={state.advisoryLevel}
+              onToggleFilter={toggleFilterValue}
+            />
             {state.page < totalPages && <div ref={sentinelRef} style={{ height: '1px' }} />}
             {loading && <p className="gallery-loading">Loading…</p>}
           </>
