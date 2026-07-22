@@ -5,6 +5,7 @@ import './styles/fonts.css';
 import './styles/base.css';
 import './styles/shared.css';
 import './styles/gallery.css';
+import './styles/species-page.css';
 import App from './App.js';
 
 
