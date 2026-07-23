@@ -1,2 +1,533 @@
 /* Species detail page — layout + the header wave-partition extension.
- * Consumes tokens.css; layers on top of .full-bleed-bg. */
+ * Consumes tokens.css; layers on top of .full-bleed-bg.
+ *
+ * Ported from the approved mockup:
+ *   .superpowers/brainstorm/304902-1784674549/content/species-masthead.html
+ * retargeted onto the real `species-*` component class names, and consuming
+ * the app's real tokens (tokens.css) instead of the mockup's stand-in :root.
+ *
+ * Notes on deviations from the mockup (see Task 11 report for detail):
+ *  - The mockup toggles `body.img-expanded` from vanilla JS to reflow the
+ *    whole hero when the gallery opens. The real ImageGallery component only
+ *    ever adds `is-expanded` to its own `.species-fig`, scoped under
+ *    `.species-hero__fig` inside `.species-hero` — there is no body-level
+ *    class. The reflow rules below are therefore rooted at
+ *    `.species-hero:has(.species-fig.is-expanded)` instead of `body.img-expanded`.
+ *  - Gallery arrow/close/counter/thumbs are always mounted and hidden via the
+ *    native `hidden` attribute (not a class), so their shown-state layout
+ *    rules use `:not([hidden])` rather than a bare `display` declaration —
+ *    setting `display` unconditionally on a `[hidden]` element would win over
+ *    the UA `[hidden]{display:none}` rule (author origin beats UA origin
+ *    regardless of specificity) and defeat the JS-driven hide/show.
+ */
+
+/* ---------------------------------------------------------------------------
+ * Page shell
+ * ------------------------------------------------------------------------- */
+
+.species-main {
+  display: block;
+  width: 100%;
+  /* Clears the fixed AMHeader + its wave partition (matches legacy
+     .info-page-body's 220px, tuned to the live header's compact-mode height). */
+  padding-top: 220px;
+}
+
+.species-status {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 40px 26px;
+  color: var(--ink-faint, rgba(234, 246, 251, 0.72));
+  font-size: 1rem;
+  text-align: center;
+}
+
+/* ---------------------------------------------------------------------------
+ * Hero — the wave partition extends over the whole masthead
+ * ------------------------------------------------------------------------- */
+
+.species-hero {
+  position: relative;
+  background: var(--header-bg);
+  -webkit-backdrop-filter: blur(var(--blur-header));
+  backdrop-filter: blur(var(--blur-header));
+  display: grid;
+  grid-template-columns: 230px 1fr 33%;
+  grid-template-areas: "fig text habitat";
+  gap: 22px;
+  align-items: start;
+  padding: 10px 26px 8px;
+}
+
+.species-hero__fig { grid-area: fig; margin: 0; }
+.species-hero__text { grid-area: text; align-self: center; }
+.species-hero__habitat { grid-area: habitat; overflow: auto; max-height: 230px; }
+
+/* Wave SVG sits at the bottom of the hero, bottoming out the partition */
+.species-waves {
+  display: block;
+  width: 100%;
+  height: 74px;
+  transform: rotate(180deg) scaleX(-1);
+  margin-bottom: -1px;
+}
+.species-parallax > use {
+  animation: species-move-forever 25s cubic-bezier(.55, .5, .45, .5) infinite;
+}
+.species-parallax > use:nth-child(1) { animation-delay: -2s; animation-duration: 28s; }
+.species-parallax > use:nth-child(2) { animation-delay: -3s; animation-duration: 40s; }
+.species-parallax > use:nth-child(3) { animation-delay: -4s; animation-duration: 26s; }
+.species-parallax > use:nth-child(4) { animation-delay: -5s; animation-duration: 80s; }
+@keyframes species-move-forever {
+  0% { transform: translate3d(-90px, 0, 0); }
+  100% { transform: translate3d(85px, 0, 0); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .species-parallax > use { animation: none; }
+}
+
+/* ---------------------------------------------------------------------------
+ * Generic glass panel padding (paired with the shared .glass-panel class)
+ * ------------------------------------------------------------------------- */
+
+.species-panel { padding: 18px 20px; border-radius: var(--radius-lg); }
+
+.species-label {
+  font-size: .68rem;
+  text-transform: uppercase;
+  letter-spacing: 1.6px;
+  color: var(--aqua);
+  font-weight: 700;
+  margin: 0 0 8px;
+}
+
+.species-prose { font-size: .93rem; line-height: 1.62; color: rgba(255, 255, 255, .72); }
+.species-prose p { margin: 0 0 .8em; }
+.species-prose p:last-child { margin-bottom: 0; }
+
+/* ---------------------------------------------------------------------------
+ * Hero text — sci/common name, meta line, alias tooltip
+ * ------------------------------------------------------------------------- */
+
+.species-sci {
+  font-family: var(--font-display-l), serif;
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: .5px;
+  margin: 0;
+  line-height: 1.05;
+  font-size: 2.6rem;
+  color: var(--white);
+}
+
+.species-common {
+  margin: .15em 0 0;
+  font-weight: 300;
+  letter-spacing: .5px;
+  color: var(--white);
+  font-size: 1.3rem;
+}
+
+.species-alias-trigger {
+  border-bottom: 1.5px dotted var(--aka-fg);
+  cursor: help;
+  padding-bottom: 1px;
+}
+
+.species-meta-line {
+  margin-top: 9px;
+  color: rgba(255, 255, 255, .5);
+  font-size: .84rem;
+  letter-spacing: .3px;
+}
+
+/* Alias tooltip — positioned via inline style (left/top) from AliasTooltip.js */
+.species-alias-tip {
+  position: fixed;
+  z-index: var(--z-overlay);
+  pointer-events: none;
+  max-width: 320px;
+  background: rgba(3, 32, 41, .97);
+  border: 1px solid var(--aka-fg);
+  border-radius: var(--radius-md);
+  padding: 10px 13px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, .5);
+}
+.species-alias-tip__h {
+  display: block;
+  font-size: .62rem;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+  color: var(--aka-fg);
+  margin-bottom: 6px;
+}
+.species-alias-tip__n { display: block; font-size: .84rem; margin: 2px 0; color: var(--white); }
+
+/* ---------------------------------------------------------------------------
+ * Range chips (regions / countries / mesophotic flag)
+ * ------------------------------------------------------------------------- */
+
+.species-range-chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
+.species-rchip {
+  font-size: .74rem;
+  padding: 3px 10px;
+  border-radius: var(--radius-pill);
+  background: var(--glass-bg-strong);
+  border: 1px solid rgba(255, 255, 255, .14);
+  color: rgba(255, 255, 255, .72);
+}
+.species-rchip--meso {
+  background: rgba(123, 31, 162, .25);
+  border-color: var(--advisory-xl-border);
+  color: #eacdf5;
+}
+.species-rchip--more {
+  position: relative;
+  cursor: help;
+  border-color: rgba(0, 247, 255, .4);
+  color: var(--aqua);
+}
+.species-more-pop {
+  display: none;
+  position: absolute;
+  left: 0;
+  bottom: 135%;
+  z-index: var(--z-overlay);
+  width: max-content;
+  max-width: 260px;
+  background: rgba(3, 32, 41, .97);
+  border: 1px solid var(--aka-fg);
+  border-radius: var(--radius-md);
+  padding: 8px 11px;
+  font-size: .76rem;
+  color: var(--white);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, .5);
+}
+.species-rchip--more:hover .species-more-pop,
+.species-rchip--more:focus-visible .species-more-pop { display: block; }
+
+/* ---------------------------------------------------------------------------
+ * Habitat aside (right column of the hero)
+ * ------------------------------------------------------------------------- */
+
+.species-habitat-text { font-size: .85rem; }
+.species-biotope {
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid rgba(255, 255, 255, .14);
+  font-size: .83rem;
+  color: rgba(255, 255, 255, .72);
+}
+.species-biotope b {
+  color: var(--aqua);
+  font-weight: 700;
+  font-size: .66rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 4px;
+}
+
+/* ---------------------------------------------------------------------------
+ * Gallery — hero image, arrows, counter, close, thumbnails
+ * ------------------------------------------------------------------------- */
+
+.species-fig { margin: 0; }
+.species-gwrap { position: relative; display: inline-block; line-height: 0; }
+
+.species-hero-img {
+  width: 100%;
+  height: 210px;
+  object-fit: cover;
+  border-radius: var(--radius-lg);
+  border: 1px solid rgba(255, 255, 255, .14);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, .4);
+  background: rgba(0, 0, 0, .2);
+  cursor: zoom-in;
+}
+
+.species-noimage {
+  width: 100%;
+  height: 210px;
+  display: grid;
+  place-items: center;
+  border-radius: var(--radius-lg);
+  border: 1px dashed rgba(255, 255, 255, .14);
+  background: rgba(0, 0, 0, .15);
+  color: rgba(255, 255, 255, .5);
+  font-size: .82rem;
+}
+
+.species-credit {
+  font-size: .66rem;
+  color: rgba(255, 255, 255, .5);
+  margin-top: 6px;
+  text-align: center;
+  line-height: 1.4;
+}
+
+.species-g-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, .14);
+  background: rgba(3, 32, 41, .7);
+  color: var(--white);
+  font-size: 1.5rem;
+  cursor: pointer;
+  line-height: 1;
+}
+.species-g-prev { left: 10px; }
+.species-g-next { right: 10px; }
+
+.species-g-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, .14);
+  background: rgba(3, 32, 41, .8);
+  color: var(--white);
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.species-g-counter {
+  position: absolute;
+  bottom: 10px;
+  right: 12px;
+  background: rgba(3, 32, 41, .75);
+  border: 1px solid rgba(255, 255, 255, .14);
+  padding: 3px 10px;
+  border-radius: var(--radius-pill);
+  font-size: .78rem;
+  color: var(--white);
+}
+
+.species-g-thumbs { gap: 8px; margin-top: 12px; }
+.species-g-thumbs:not([hidden]) { display: flex; justify-content: center; flex-wrap: wrap; }
+.species-g-thumb {
+  width: 74px;
+  height: 54px;
+  object-fit: cover;
+  border-radius: var(--radius-sm);
+  border: 2px solid transparent;
+  cursor: pointer;
+  opacity: .55;
+  transition: opacity .2s;
+}
+.species-g-thumb.active { border-color: var(--aqua); opacity: 1; }
+.species-g-thumb:hover { opacity: .9; }
+
+/* Expanded image gallery: reflow the hero in place, cap image at
+   min(natural, 75vw/75vh). Rooted at `:has()` since the real component
+   scopes its expanded state to `.species-fig`, not `<body>` (see file header). */
+.species-hero:has(.species-fig.is-expanded) {
+  display: block;
+  padding-bottom: 16px;
+}
+.species-hero:has(.species-fig.is-expanded) .species-hero__fig {
+  text-align: center;
+  margin-bottom: 18px;
+}
+.species-hero:has(.species-fig.is-expanded) .species-hero-img {
+  width: auto;
+  height: auto;
+  max-width: 75vw;
+  max-height: 75vh;
+  cursor: pointer;
+}
+.species-hero:has(.species-fig.is-expanded) .species-hero__text { margin-bottom: 16px; }
+.species-hero:has(.species-fig.is-expanded) .species-hero__habitat { max-height: none; }
+
+/* ---------------------------------------------------------------------------
+ * Vital stat rail
+ * ------------------------------------------------------------------------- */
+
+.species-rail { display: flex; flex-wrap: wrap; gap: 10px; }
+.species-stat {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 9px 13px;
+  border-radius: var(--radius-md);
+  background: var(--glass-bg);
+  border: 1px solid rgba(255, 255, 255, .14);
+  min-width: 112px;
+}
+.species-stat__ico { font-size: 1.05rem; line-height: 1; }
+.species-stat__txt { display: flex; flex-direction: column; line-height: 1.15; }
+.species-stat__k {
+  font-size: .6rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: rgba(255, 255, 255, .5);
+}
+.species-stat__v { font-size: .88rem; font-weight: 600; color: var(--white); }
+
+/* ---------------------------------------------------------------------------
+ * Water gauges
+ * ------------------------------------------------------------------------- */
+
+.species-gauge { margin: 0 0 12px; }
+.species-gauge:last-child { margin-bottom: 0; }
+.species-gauge__top {
+  display: flex;
+  justify-content: space-between;
+  font-size: .78rem;
+  color: rgba(255, 255, 255, .72);
+  margin-bottom: 5px;
+}
+.species-gauge__track {
+  position: relative;
+  height: 8px;
+  border-radius: var(--radius-pill);
+  background: rgba(255, 255, 255, .09);
+}
+.species-gauge__fill {
+  position: absolute;
+  height: 100%;
+  border-radius: var(--radius-pill);
+  background: linear-gradient(90deg, var(--ocean-300), var(--aqua));
+}
+
+/* ---------------------------------------------------------------------------
+ * Key/value rows (setup panel + tankmates ratings)
+ * ------------------------------------------------------------------------- */
+
+.species-kv { display: grid; grid-template-columns: auto 1fr; gap: 6px 16px; font-size: .84rem; }
+.species-kv__k { color: rgba(255, 255, 255, .5); }
+.species-kv__v { color: var(--white); font-weight: 600; text-align: right; }
+
+.species-setup-decor { margin-bottom: 14px; }
+.species-setup-kv {
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px solid rgba(255, 255, 255, .14);
+}
+
+/* ---------------------------------------------------------------------------
+ * Chips — good/avoid/trait/warn (tankmates + traits) and the care-critical callout
+ * ------------------------------------------------------------------------- */
+
+.species-chips { display: flex; flex-wrap: wrap; gap: 7px; margin-bottom: 12px; }
+.species-chips:last-child { margin-bottom: 0; }
+.species-chip {
+  font-size: .78rem;
+  padding: 5px 11px;
+  border-radius: var(--radius-pill);
+  border: 1px solid rgba(255, 255, 255, .14);
+}
+.species-chip--good { background: rgba(62, 160, 107, .16); border-color: rgba(62, 160, 107, .5); color: #bfe9cf; }
+.species-chip--avoid { background: rgba(200, 91, 91, .14); border-color: rgba(200, 91, 91, .5); color: #f2c4c4; }
+.species-chip--trait { background: rgba(0, 247, 255, .10); border-color: rgba(0, 247, 255, .35); color: #bff4f7; }
+.species-chip--warn { background: rgba(249, 168, 37, .16); border-color: rgba(249, 168, 37, .6); color: #ffdd99; font-weight: 700; }
+
+.species-callout {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  padding: 11px 14px;
+  border-radius: var(--radius-md);
+  margin-top: 12px;
+  background: rgba(200, 91, 91, .13);
+  border: 1px solid rgba(200, 91, 91, .55);
+  font-size: .85rem;
+  color: #f6cccc;
+}
+
+/* ---------------------------------------------------------------------------
+ * Sources & citations
+ * ------------------------------------------------------------------------- */
+
+.species-src summary {
+  cursor: pointer;
+  color: rgba(255, 255, 255, .72);
+  font-size: .85rem;
+  list-style: none;
+}
+.species-src summary::-webkit-details-marker { display: none; }
+.species-src summary::before { content: "▸ "; color: var(--aqua); }
+.species-src[open] summary::before { content: "▾ "; }
+.species-src-item { font-size: .8rem; color: rgba(255, 255, 255, .5); margin: 8px 0; }
+.species-src-item a { color: var(--cra-link); }
+
+/* ---------------------------------------------------------------------------
+ * Advisory banner
+ * ------------------------------------------------------------------------- */
+
+.species-advisory {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin: 0;
+  padding: 12px 26px;
+  font-size: .86rem;
+}
+.species-advisory__ic { font-size: 1.3rem; }
+.species-advisory b {
+  display: block;
+  font-size: .72rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 3px;
+}
+.species-advisory.specialist-only {
+  background: color-mix(in srgb, var(--advisory-specialist) 22%, transparent);
+  border-bottom: 1px solid var(--advisory-specialist-border);
+  color: #ffd9b0;
+}
+.species-advisory.legally-restricted {
+  background: color-mix(in srgb, var(--advisory-restricted) 40%, transparent);
+  border-bottom: 1px solid var(--advisory-restricted-border);
+  color: #e0e0e0;
+}
+.species-advisory.public-aquarium-only {
+  background: color-mix(in srgb, var(--advisory-xl) 28%, transparent);
+  border-bottom: 1px solid var(--advisory-xl-border);
+  color: #eacdf5;
+}
+.species-advisory.pond-only {
+  background: color-mix(in srgb, var(--advisory-pond) 30%, transparent);
+  border-bottom: 1px solid var(--advisory-pond-border);
+  color: #bfe0ff;
+}
+
+/* ---------------------------------------------------------------------------
+ * Flow — the section stack below the hero
+ * ------------------------------------------------------------------------- */
+
+.species-flow {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 22px 26px 0;
+  display: grid;
+  gap: 16px;
+}
+.species-flow__spacer { height: 24px; }
+.species-two { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.species-section-h {
+  font-family: var(--font-display-l), serif;
+  font-size: 1.4rem;
+  margin: 6px 0 2px;
+  font-weight: 400;
+  color: var(--white);
+}
+
+/* ---------------------------------------------------------------------------
+ * Responsive — collapse to one column, never scroll horizontally
+ * ------------------------------------------------------------------------- */
+
+@media (max-width: 820px) {
+  .species-hero {
+    grid-template-columns: 1fr;
+    grid-template-areas: "fig" "text" "habitat";
+  }
+  .species-hero__habitat { max-height: none; }
+  .species-two { grid-template-columns: 1fr; }
+}
