@@ -66,20 +66,22 @@
   grid-template-areas: "fig text habitat";
   gap: 22px;
   align-items: start;
-  padding: 10px 26px 8px;
+  padding: 10px 26px 0;
 }
 
 .species-hero__fig { grid-area: fig; margin: 0; }
-.species-hero__text { grid-area: text; align-self: center; text-align: center; }
+.species-hero__text { grid-area: text; align-self: center; }
 .species-hero__habitat { grid-area: habitat; overflow: auto; max-height: 230px; }
 
-/* Wave SVG sits at the bottom of the hero, bottoming out the partition */
+/* Wave SVG spans the full viewport width and its troughs dip below the hero's
+   bottom edge (like the header's own wave partition). */
 .species-waves {
   display: block;
-  width: 100%;
+  grid-column: 1 / -1;             /* span all hero columns, not just the image column */
+  width: calc(100% + 52px);        /* break out of the hero's 26px side padding to the viewport edges */
   height: 74px;
   transform: rotate(180deg) scaleX(-1);
-  margin-bottom: -1px;
+  margin: 4px -26px -22px;          /* -22px bottom pulls the wave troughs below the hero edge */
 }
 .species-parallax > use {
   animation: species-move-forever 25s cubic-bezier(.55, .5, .45, .5) infinite;
@@ -105,7 +107,6 @@
   border-radius: var(--radius-lg);
   background: var(--glass-bg);   /* same shade as the inset shadow, fully covers */
   box-shadow: none;              /* cancel .glass-panel's partial inset fill */
-  text-align: center;            /* FIX 5: center text in the box */
 }
 
 .species-label {
@@ -117,8 +118,10 @@
   margin: 0 0 8px;
 }
 
-.species-prose { font-size: .93rem; line-height: 1.62; color: rgba(255, 255, 255, .9); font-weight: 600; }
-.species-prose p { margin: 0 0 .8em; }
+/* Prose text is centered within its panel. `width: auto` overrides base.css's
+   global `p { width: 50% }`, which otherwise leaves prose in a left-half column. */
+.species-prose { font-size: .93rem; line-height: 1.62; color: rgba(255, 255, 255, .9); font-weight: 600; text-align: center; }
+.species-prose p { margin: 0 0 .8em; width: auto; }
 .species-prose p:last-child { margin-bottom: 0; }
 
 /* ---------------------------------------------------------------------------
@@ -184,8 +187,12 @@
  * Range chips (regions / countries / mesophotic flag)
  * ------------------------------------------------------------------------- */
 
-.species-range-chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; justify-content: center; }
+.species-range-chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; justify-content: flex-start; }
 .species-care-row { margin-top: 12px; }
+/* The shared .gallery-care badge is position:absolute (for its gallery-card
+   overlay); reset it so it flows in-line below the range chips instead of
+   floating to the hero's top-right corner. */
+.species-care-row .gallery-care { position: static; display: inline-block; }
 .species-rchip {
   font-size: .74rem;
   padding: 3px 10px;
