@@ -84,14 +84,23 @@ export function candidateCredit(cand) {
 
 // Ordered { thumb, full, credit } list for the species detail page: resolved
 // primary (R2) first, then each imageCandidate.
+// Ordered { thumb, full, credit } list. The CC image candidates are the reliable
+// source (the reviewer's `recommended` pick leads); the R2 `primaryImage` is used
+// ONLY as a last resort when a species has no candidates. Most `primaryImage`
+// files are not (yet) uploaded to R2, so requesting one 404s — which also trips
+// Firefox's OpaqueResponseBlocking. Leading with candidates avoids that entirely.
 export function buildSpeciesImages(item, domains = R2_DOMAINS) {
-  const out = [];
-  const primary = resolvePrimaryImageUrl(item, domains);
-  if (primary) out.push({ thumb: thumbnailize(primary), full: primary, credit: 'Primary image' });
   const cands = Array.isArray(item?.media?.imageCandidates) ? item.media.imageCandidates : [];
-  for (const c of cands) {
+  const ordered = [...cands].sort(
+    (a, b) => (b && b.recommended ? 1 : 0) - (a && a.recommended ? 1 : 0)
+  );
+  const out = [];
+  for (const c of ordered) {
     if (!c || !c.url) continue;
     out.push({ thumb: thumbnailize(c.url), full: c.url, credit: candidateCredit(c) });
   }
-  return out;
+  if (out.length) return out;
+  const primary = resolvePrimaryImageUrl(item, domains);
+  if (primary) return [{ thumb: thumbnailize(primary), full: primary, credit: 'Primary image' }];
+  return [];
 }

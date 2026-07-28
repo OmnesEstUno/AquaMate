@@ -32,23 +32,31 @@ describe('resolvePrimaryImageUrl', () => {
 
 describe('buildSpeciesImages', () => {
   const R2 = { fauna: 'https://fauna.example', flora: 'https://flora.example' };
-  test('primary first, then candidates, each with thumb/full/credit', () => {
+  test('candidates lead (recommended first); the R2 primary is dropped when candidates exist', () => {
     const item = {
       kind: 'fauna',
       media: {
         primaryImage: 'p.jpg',
         imageCandidates: [
-          { url: 'https://upload.wikimedia.org/wikipedia/commons/a/ab/C.jpg', source: 'Wikimedia Commons', license: 'CC BY 4.0', notes: 'Jane Doe; 100x100. nice' },
+          { url: 'https://x/a.jpg', source: 'S', license: 'L', notes: null, recommended: false },
+          { url: 'https://upload.wikimedia.org/wikipedia/commons/a/ab/C.jpg', source: 'Wikimedia Commons', license: 'CC BY 4.0', notes: 'Jane Doe; 100x100. nice', recommended: true },
         ],
       },
     };
     const imgs = buildSpeciesImages(item, R2);
-    expect(imgs[0].full).toBe('https://fauna.example/p.jpg');
-    expect(imgs[1].full).toBe('https://upload.wikimedia.org/wikipedia/commons/a/ab/C.jpg');
-    expect(imgs[1].thumb).toContain('/thumb/a/ab/C.jpg/500px-C.jpg');
-    expect(imgs[1].credit).toBe('Jane Doe · Wikimedia Commons · CC BY 4.0');
+    expect(imgs).toHaveLength(2);
+    expect(imgs[0].full).toBe('https://upload.wikimedia.org/wikipedia/commons/a/ab/C.jpg'); // recommended first
+    expect(imgs[0].thumb).toContain('/thumb/a/ab/C.jpg/500px-C.jpg');
+    expect(imgs[0].credit).toBe('Jane Doe · Wikimedia Commons · CC BY 4.0');
+    expect(imgs.some((i) => i.full.includes('fauna.example'))).toBe(false); // no broken R2 primary requested
   });
-  test('no primary → candidates only', () => {
+  test('falls back to the R2 primary only when there are no candidates', () => {
+    const item = { kind: 'fauna', media: { primaryImage: 'p.jpg', imageCandidates: [] } };
+    const imgs = buildSpeciesImages(item, R2);
+    expect(imgs).toHaveLength(1);
+    expect(imgs[0].full).toBe('https://fauna.example/p.jpg');
+  });
+  test('candidates only, no primary', () => {
     const item = { kind: 'flora', media: { primaryImage: null, imageCandidates: [
       { url: 'https://x/y.jpg', source: 'iNaturalist', license: 'CC BY', notes: null },
     ] } };
