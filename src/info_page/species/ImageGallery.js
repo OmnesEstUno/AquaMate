@@ -100,12 +100,14 @@ export function ImageGallery({ images, alt }) {
         <button className="species-g-close" aria-label="Close" hidden={!expanded} onClick={(e) => { e.stopPropagation(); close(); }}>✕</button>
         <span className="species-g-counter" hidden={!expanded}>{idx + 1} / {n}</span>
       </div>
-      <div className="species-g-thumbs" hidden={!expanded}>
-        {images.map((im, i) => (
-          <img key={i} className={`species-g-thumb ${i === idx ? 'active' : ''}`} src={im.thumb} alt="" hidden={!!broken[i]}
-               onClick={() => setIdx(i)} />
-        ))}
-      </div>
+      {expanded && (
+        <div className="species-g-thumbs">
+          {images.map((im, i) => (
+            <img key={i} className={`species-g-thumb ${i === idx ? 'active' : ''}`} src={im.thumb} alt="" hidden={!!broken[i]}
+                 onClick={() => setIdx(i)} />
+          ))}
+        </div>
+      )}
       <figcaption className="species-credit">
         {expanded ? `${cur.credit} · ${idx + 1} of ${n}` : `${cur.credit} · ${n} photo${n > 1 ? 's' : ''} — click to browse`}
       </figcaption>
