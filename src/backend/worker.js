@@ -147,12 +147,14 @@ function allItems() {
     ];
 }
 
-// slug → kind lookup. Built once at module load so /api/species/:slug can pick
-// the correct R2 bucket without scanning all items on every request.
-const SLUG_KIND = (() => {
+// slug → full index record (the freshly-bundled slim gallery-index). Built once at
+// module load so /api/species/:slug can pick the R2 bucket by kind AND overlay the
+// current `media` onto the per-slug R2 detail file — which can be stale (uploaded
+// before image candidates were researched). The index always carries full `media`.
+const SLUG_INDEX = (() => {
     const map = new Map();
     for (const item of allItems()) {
-        if (item.slug) map.set(item.slug, item.kind);
+        if (item.slug) map.set(item.slug, item);
     }
     return map;
 })();
@@ -251,7 +253,8 @@ async function handleRequest(request, env) {
         if (!slug) {
             return jsonResponse({ success: false, error: 'Missing slug' }, 400);
         }
-        const kind = SLUG_KIND.get(slug);
+        const indexRecord = SLUG_INDEX.get(slug);
+        const kind = indexRecord && indexRecord.kind;
         if (!kind) {
             return jsonResponse({ success: false, error: 'Species not found' }, 404);
         }
@@ -268,7 +271,11 @@ async function handleRequest(request, env) {
             }, 404);
         }
         const fullRecord = await object.json();
-        return jsonResponse({ success: true, item: fullRecord });
+        // Overlay `media` from the freshly-bundled index so image candidates are
+        // always current even when the per-slug R2 detail file predates candidate
+        // research (only heavy prose — careNotes/breedingNotes/sources — needs R2).
+        const item = indexRecord.media ? { ...fullRecord, media: indexRecord.media } : fullRecord;
+        return jsonResponse({ success: true, item });
     }
 
     // GET /api/search?q=<term> — search all species
