@@ -30,7 +30,17 @@
   width: 100%;
   /* Clears the fixed AMHeader + its wave partition (matches legacy
      .info-page-body's 220px, tuned to the live header's compact-mode height). */
-  padding-top: 220px;
+  padding-top: 70px;
+}
+
+/* On the species route the AMHeader's own wave partition is hidden so the ONE
+   wave effect is the hero's (bottoming out the hero); the bar gets the ocean
+   surface so it reads continuous with the hero's blue partition. */
+.header.species-header .waves { display: none; }
+.header.species-header .header-top {
+  background: var(--header-bg);
+  -webkit-backdrop-filter: blur(var(--blur-header));
+  backdrop-filter: blur(var(--blur-header));
 }
 
 .species-status {
@@ -60,7 +70,7 @@
 }
 
 .species-hero__fig { grid-area: fig; margin: 0; }
-.species-hero__text { grid-area: text; align-self: center; }
+.species-hero__text { grid-area: text; align-self: center; text-align: center; }
 .species-hero__habitat { grid-area: habitat; overflow: auto; max-height: 230px; }
 
 /* Wave SVG sits at the bottom of the hero, bottoming out the partition */
@@ -90,7 +100,13 @@
  * Generic glass panel padding (paired with the shared .glass-panel class)
  * ------------------------------------------------------------------------- */
 
-.species-panel { padding: 18px 20px; border-radius: var(--radius-lg); }
+.species-panel {
+  padding: 20px;                 /* FIX 8: equal left/right = top/bottom */
+  border-radius: var(--radius-lg);
+  background: var(--glass-bg);   /* same shade as the inset shadow, fully covers */
+  box-shadow: none;              /* cancel .glass-panel's partial inset fill */
+  text-align: center;            /* FIX 5: center text in the box */
+}
 
 .species-label {
   font-size: .68rem;
@@ -101,7 +117,7 @@
   margin: 0 0 8px;
 }
 
-.species-prose { font-size: .93rem; line-height: 1.62; color: rgba(255, 255, 255, .72); }
+.species-prose { font-size: .93rem; line-height: 1.62; color: rgba(255, 255, 255, .9); font-weight: 600; }
 .species-prose p { margin: 0 0 .8em; }
 .species-prose p:last-child { margin-bottom: 0; }
 
@@ -110,7 +126,7 @@
  * ------------------------------------------------------------------------- */
 
 .species-sci {
-  font-family: var(--font-display-l), serif;
+  font-family: var(--font-display-r), serif;
   font-weight: 400;
   font-style: italic;
   letter-spacing: .5px;
@@ -122,7 +138,7 @@
 
 .species-common {
   margin: .15em 0 0;
-  font-weight: 300;
+  font-weight: 600;
   letter-spacing: .5px;
   color: var(--white);
   font-size: 1.3rem;
@@ -136,9 +152,10 @@
 
 .species-meta-line {
   margin-top: 9px;
-  color: rgba(255, 255, 255, .5);
+  color: rgba(255, 255, 255, .72);
   font-size: .84rem;
   letter-spacing: .3px;
+  font-weight: 600;
 }
 
 /* Alias tooltip — positioned via inline style (left/top) from AliasTooltip.js */
@@ -167,14 +184,16 @@
  * Range chips (regions / countries / mesophotic flag)
  * ------------------------------------------------------------------------- */
 
-.species-range-chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
+.species-range-chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; justify-content: center; }
+.species-care-row { margin-top: 12px; }
 .species-rchip {
   font-size: .74rem;
   padding: 3px 10px;
   border-radius: var(--radius-pill);
   background: var(--glass-bg-strong);
   border: 1px solid rgba(255, 255, 255, .14);
-  color: rgba(255, 255, 255, .72);
+  color: rgba(255, 255, 255, .88);
+  font-weight: 600;
 }
 .species-rchip--meso {
   background: rgba(123, 31, 162, .25);
@@ -217,6 +236,7 @@
   border-top: 1px solid rgba(255, 255, 255, .14);
   font-size: .83rem;
   color: rgba(255, 255, 255, .72);
+  font-weight: 600;
 }
 .species-biotope b {
   color: var(--aqua);
@@ -349,7 +369,7 @@
  * Vital stat rail
  * ------------------------------------------------------------------------- */
 
-.species-rail { display: flex; flex-wrap: wrap; gap: 10px; }
+.species-rail { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; }
 .species-stat {
   display: flex;
   align-items: center;
@@ -366,9 +386,9 @@
   font-size: .6rem;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: rgba(255, 255, 255, .5);
+  color: rgba(255, 255, 255, .7);
 }
-.species-stat__v { font-size: .88rem; font-weight: 600; color: var(--white); }
+.species-stat__v { font-size: .88rem; font-weight: 700; color: var(--white); }
 
 /* ---------------------------------------------------------------------------
  * Water gauges
@@ -380,8 +400,9 @@
   display: flex;
   justify-content: space-between;
   font-size: .78rem;
-  color: rgba(255, 255, 255, .72);
+  color: rgba(255, 255, 255, .9);
   margin-bottom: 5px;
+  font-weight: 600;
 }
 .species-gauge__track {
   position: relative;
@@ -400,8 +421,8 @@
  * Key/value rows (setup panel + tankmates ratings)
  * ------------------------------------------------------------------------- */
 
-.species-kv { display: grid; grid-template-columns: auto 1fr; gap: 6px 16px; font-size: .84rem; }
-.species-kv__k { color: rgba(255, 255, 255, .5); }
+.species-kv { display: grid; grid-template-columns: auto 1fr; gap: 6px 16px; font-size: .84rem; justify-content: center; }
+.species-kv__k { color: rgba(255, 255, 255, .7); font-weight: 600; }
 .species-kv__v { color: var(--white); font-weight: 600; text-align: right; }
 
 .species-setup-decor { margin-bottom: 14px; }
@@ -415,13 +436,14 @@
  * Chips — good/avoid/trait/warn (tankmates + traits) and the care-critical callout
  * ------------------------------------------------------------------------- */
 
-.species-chips { display: flex; flex-wrap: wrap; gap: 7px; margin-bottom: 12px; }
+.species-chips { display: flex; flex-wrap: wrap; gap: 7px; margin-bottom: 12px; justify-content: center; }
 .species-chips:last-child { margin-bottom: 0; }
 .species-chip {
   font-size: .78rem;
   padding: 5px 11px;
   border-radius: var(--radius-pill);
   border: 1px solid rgba(255, 255, 255, .14);
+  font-weight: 600;
 }
 .species-chip--good { background: rgba(62, 160, 107, .16); border-color: rgba(62, 160, 107, .5); color: #bfe9cf; }
 .species-chip--avoid { background: rgba(200, 91, 91, .14); border-color: rgba(200, 91, 91, .5); color: #f2c4c4; }
@@ -454,7 +476,7 @@
 .species-src summary::-webkit-details-marker { display: none; }
 .species-src summary::before { content: "▸ "; color: var(--aqua); }
 .species-src[open] summary::before { content: "▾ "; }
-.species-src-item { font-size: .8rem; color: rgba(255, 255, 255, .5); margin: 8px 0; }
+.species-src-item { font-size: .8rem; color: rgba(255, 255, 255, .5); margin: 8px 0; font-weight: 600; }
 .species-src-item a { color: var(--cra-link); }
 
 /* ---------------------------------------------------------------------------
@@ -512,7 +534,7 @@
 .species-flow__spacer { height: 24px; }
 .species-two { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
 .species-section-h {
-  font-family: var(--font-display-l), serif;
+  font-family: var(--font-display-r), serif;
   font-size: 1.4rem;
   margin: 6px 0 2px;
   font-weight: 400;

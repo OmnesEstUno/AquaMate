@@ -1,16 +1,34 @@
 import React, { useState, useRef, useEffect, useCallback } from 'react';
 
+// Find the next non-broken index in `dir` direction, or return `from` if none.
+function stepLive(from, dir, brokenMap, len) {
+  let i = from;
+  for (let k = 0; k < len; k++) {
+    i = (i + dir + len) % len;
+    if (!brokenMap[i]) return i;
+  }
+  return from;
+}
+
 export function ImageGallery({ images, alt }) {
   const [expanded, setExpanded] = useState(false);
   const [idx, setIdx] = useState(0);
+  const [broken, setBroken] = useState({}); // original index -> failed to load
+  const [raw, setRaw] = useState({});       // original index -> use full instead of thumb
   const dragStart = useRef(null);
   const dragged = useRef(false);
+  const brokenRef = useRef(broken);
+  brokenRef.current = broken;
 
   const n = images.length;
-  const next = useCallback(() => setIdx((i) => (i + 1) % n), [n]);
-  const prev = useCallback(() => setIdx((i) => (i - 1 + n) % n), [n]);
-  const open = () => { setIdx(0); setExpanded(true); };
-  const close = () => setExpanded(false);
+  const next = useCallback(() => setIdx((i) => stepLive(i, +1, brokenRef.current, n)), [n]);
+  const prev = useCallback(() => setIdx((i) => stepLive(i, -1, brokenRef.current, n)), [n]);
+  const open = () => setExpanded(true);
+  const close = () => {
+    setExpanded(false);
+    const f = images.findIndex((_, i) => !brokenRef.current[i]);
+    setIdx(f < 0 ? 0 : f);
+  };
 
   useEffect(() => {
     if (!expanded) return undefined;
@@ -23,7 +41,8 @@ export function ImageGallery({ images, alt }) {
     return () => window.removeEventListener('keydown', onKey);
   }, [expanded, next, prev]);
 
-  if (n === 0) {
+  const allBroken = n > 0 && Object.keys(broken).length >= n;
+  if (n === 0 || allBroken) {
     return (
       <figure className="species-fig">
         <div className="species-noimage" role="img" aria-label={`No image available for ${alt}`}>No image yet</div>
@@ -31,7 +50,25 @@ export function ImageGallery({ images, alt }) {
     );
   }
 
-  const cur = images[idx];
+  const cur = images[idx] || images[0];
+  const src = (expanded || raw[idx]) ? cur.full : cur.thumb;
+
+  const handleError = () => {
+    // Collapsed thumbnail that failed (e.g. a Wikimedia upscale 400) — retry full-res first.
+    if (!expanded && !raw[idx] && cur.full !== cur.thumb) {
+      setRaw((r) => ({ ...r, [idx]: true }));
+      return;
+    }
+    // Otherwise mark broken and skip to the next image that still loads.
+    setBroken((b) => {
+      const nb = { ...b, [idx]: true };
+      brokenRef.current = nb;
+      const nxt = stepLive(idx, +1, nb, n);
+      if (nxt !== idx) setIdx(nxt);
+      return nb;
+    });
+  };
+
   const onImgClick = () => {
     if (!expanded) { open(); return; }
     if (dragged.current) { dragged.current = false; return; }
@@ -50,8 +87,9 @@ export function ImageGallery({ images, alt }) {
       <div className="species-gwrap">
         <img
           className="species-hero-img"
-          src={expanded ? cur.full : images[0].thumb}
+          src={src}
           alt={alt}
+          onError={handleError}
           onClick={onImgClick}
           onPointerDown={onDown}
           onPointerMove={onMove}
@@ -64,12 +102,12 @@ export function ImageGallery({ images, alt }) {
       </div>
       <div className="species-g-thumbs" hidden={!expanded}>
         {images.map((im, i) => (
-          <img key={i} className={`species-g-thumb ${i === idx ? 'active' : ''}`} src={im.thumb} alt=""
+          <img key={i} className={`species-g-thumb ${i === idx ? 'active' : ''}`} src={im.thumb} alt="" hidden={!!broken[i]}
                onClick={() => setIdx(i)} />
         ))}
       </div>
       <figcaption className="species-credit">
-        {expanded ? `${cur.credit} · ${idx + 1} of ${n}` : `${images[0].credit} · ${n} photo${n > 1 ? 's' : ''} — click to browse`}
+        {expanded ? `${cur.credit} · ${idx + 1} of ${n}` : `${cur.credit} · ${n} photo${n > 1 ? 's' : ''} — click to browse`}
       </figcaption>
     </figure>
   );

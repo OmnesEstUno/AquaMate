@@ -23,10 +23,12 @@ export function SpeciesHero({ item, images }) {
         <div className="species-meta-line">
           {item.category}
           {(tx.family || tx.order) && <> · <i>{tx.family}</i>{tx.order ? ` / ${tx.order}` : ''}</>}
-          {item.careLevel && <> · <CareLevelBadge level={item.careLevel} /></>}
         </div>
         {waterLine && <div className="species-meta-line">{waterLine}</div>}
         <LocationChips regions={nr.regions} countries={nr.countries} depth={nr.depthRangeM} />
+        {item.careLevel && (
+          <div className="species-care-row"><CareLevelBadge level={item.careLevel} /></div>
+        )}
       </div>
       <aside className="species-hero__habitat glass-panel species-panel">
         <p className="species-label">Habitat</p>

@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback, useRef } from 'react';
+import React, { useState, useCallback, useRef } from 'react';
 
 export function AliasTooltip({ label, aliases }) {
   const [pos, setPos] = useState(null);
@@ -13,12 +13,6 @@ export function AliasTooltip({ label, aliases }) {
     if (y + h > window.innerHeight) y = e.clientY - h - 16;
     setPos({ x, y });
   }, []);
-
-  useEffect(() => {
-    if (!pos) return undefined;
-    window.addEventListener('mousemove', onMove);
-    return () => window.removeEventListener('mousemove', onMove);
-  }, [pos, onMove]);
 
   const show = (e) => { onMove(e); };
   const hide = () => setPos(null);

@@ -30,6 +30,13 @@ export default function SpeciesPage() {
     return () => { cancelled = true; };
   }, [slug]);
 
+  useEffect(() => {
+    const header = document.getElementById('header');
+    if (!header) return undefined;
+    header.classList.add('species-header');
+    return () => header.classList.remove('species-header');
+  }, []);
+
   return (
     <div>
       <AMHeader />
