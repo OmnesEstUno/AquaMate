@@ -33,14 +33,26 @@
   padding-top: 70px;
 }
 
-/* On the species route the AMHeader's own wave partition is hidden so the ONE
-   wave effect is the hero's (bottoming out the hero); the bar gets the ocean
-   surface so it reads continuous with the hero's blue partition. */
+/* On the species route the AMHeader's own wave partition is hidden — the single
+   wave effect is the fixed .species-wave-bg backdrop below. The header bar stays
+   transparent (header.css Option C) so that backdrop shows through it. */
 .header.species-header .waves { display: none; }
-.header.species-header .header-top {
+
+/* Layered fixed backdrops behind all page content: the ocean photo (z:-2), then
+   the blue wave partition (z:-1) whose height is set in JS — tall (to just past
+   the hero) at the top of the page, collapsing to the compact band once scrolled. */
+.species-bg-photo { position: fixed; inset: 0; z-index: -2; }
+.species-wave-bg {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  height: 200px;
+  z-index: -1;
   background: var(--header-bg);
   -webkit-backdrop-filter: blur(var(--blur-header));
   backdrop-filter: blur(var(--blur-header));
+  overflow: hidden;
+  pointer-events: none;
+  transition: height 0.35s ease;
 }
 
 .species-status {
@@ -56,32 +68,30 @@
  * Hero — the wave partition extends over the whole masthead
  * ------------------------------------------------------------------------- */
 
+/* The hero is transparent — its blue "partition" is the fixed .species-wave-bg
+   backdrop behind it (so the waves can sit behind the hero content). */
 .species-hero {
   position: relative;
-  background: var(--header-bg);
-  -webkit-backdrop-filter: blur(var(--blur-header));
-  backdrop-filter: blur(var(--blur-header));
   display: grid;
   grid-template-columns: 230px 1fr 33%;
   grid-template-areas: "fig text habitat";
   gap: 22px;
   align-items: start;
-  padding: 10px 26px 0;
+  padding: 10px 26px 16px;
 }
 
 .species-hero__fig { grid-area: fig; margin: 0; }
 .species-hero__text { grid-area: text; align-self: center; }
 .species-hero__habitat { grid-area: habitat; overflow: auto; max-height: 230px; }
 
-/* Wave SVG spans the full viewport width and its troughs dip below the hero's
-   bottom edge (like the header's own wave partition). */
-.species-waves {
-  display: block;
-  grid-column: 1 / -1;             /* span all hero columns, not just the image column */
-  width: calc(100% + 52px);        /* break out of the hero's 26px side padding to the viewport edges */
+/* The wave SVG sits at the bottom edge of the fixed wave partition, full width. */
+.species-wave-bg .species-waves {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   height: 74px;
   transform: rotate(180deg) scaleX(-1);
-  margin: 4px -26px -22px;          /* -22px bottom pulls the wave troughs below the hero edge */
 }
 .species-parallax > use {
   animation: species-move-forever 25s cubic-bezier(.55, .5, .45, .5) infinite;

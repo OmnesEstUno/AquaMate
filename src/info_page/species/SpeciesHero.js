@@ -4,7 +4,6 @@ import { AliasTooltip } from './AliasTooltip';
 import { LocationChips } from './LocationChips';
 import { CareLevelBadge } from '../../home/gallery/components/CareLevelBadge';
 import { titleCase } from './format';
-import { Waves } from './Waves';
 
 export function SpeciesHero({ item, images }) {
   const tx = item.taxonomy || {};
@@ -39,7 +38,6 @@ export function SpeciesHero({ item, images }) {
           </div>
         )}
       </aside>
-      <Waves />
     </section>
   );
 }
