@@ -4,7 +4,6 @@ import AMHeader from '../header';
 import AMFooter from '../footer';
 import { AdvisoryBanner } from './species/AdvisoryBanner';
 import { SpeciesHero } from './species/SpeciesHero';
-import { Waves } from './species/Waves';
 import { VitalStatRail } from './species/VitalStatRail';
 import { ProseSection } from './species/ProseSection';
 import { SetupPanel } from './species/SetupPanel';
@@ -16,15 +15,11 @@ import '../styles/species-page.css';
 
 const API_BASE = 'https://aquamate-worker.elliotjwarren.workers.dev';
 
-const COLLAPSED_WAVE_H = 200; // compact "scrolled header" wave-partition height
-
 export default function SpeciesPage() {
   const { slug } = useParams();
   const [item, setItem] = useState(null);
   const [error, setError] = useState(false);
   const mainRef = useRef(null);
-  const waveRef = useRef(null);
-  const tallRef = useRef(COLLAPSED_WAVE_H); // measured "at top" height (to just past the hero)
 
   useEffect(() => {
     let cancelled = false;
@@ -36,43 +31,26 @@ export default function SpeciesPage() {
     return () => { cancelled = true; };
   }, [slug]);
 
+  // Reuse the real AMHeader wave partition, gallery-style: it starts expanded
+  // (hero-mode waves) and collapses via `not-at-top` once the user scrolls. The
+  // `species-header` class keeps the inner bar compact while the waves are expanded.
   useEffect(() => {
     const header = document.getElementById('header');
+    const main = mainRef.current;
     if (!header) return undefined;
     header.classList.add('species-header');
-    return () => header.classList.remove('species-header');
-  }, []);
-
-  // The wave partition spans the viewport top to just past the hero's bottom while
-  // at the top of the page, and collapses to the compact header band once scrolled
-  // (the reverse of the gallery's not-at-top behaviour). It lives behind all content.
-  useEffect(() => {
-    const main = mainRef.current;
-    const wave = waveRef.current;
-    if (!main || !wave) return undefined;
-    const apply = () => {
-      wave.style.height = `${main.scrollTop > 60 ? COLLAPSED_WAVE_H : tallRef.current}px`;
-    };
-    const measure = () => {
-      const hero = main.querySelector('.species-hero');
-      if (hero) tallRef.current = Math.round(hero.getBoundingClientRect().bottom + main.scrollTop + 24);
-      apply();
-    };
-    measure();
-    main.addEventListener('scroll', apply, { passive: true });
-    window.addEventListener('resize', measure);
+    const onScroll = () => header.classList.toggle('not-at-top', (main ? main.scrollTop : 0) > 0);
+    onScroll();
+    if (main) main.addEventListener('scroll', onScroll, { passive: true });
     return () => {
-      main.removeEventListener('scroll', apply);
-      window.removeEventListener('resize', measure);
+      if (main) main.removeEventListener('scroll', onScroll);
+      header.classList.remove('species-header', 'not-at-top');
     };
-  }, [item]);
+  }, []);
 
   return (
     <div>
       <AMHeader />
-      {/* Fixed wave partition behind the content. The ocean photo is main's own
-          background (painted behind the partition); the partition sits above it. */}
-      <div className="species-wave-bg" ref={waveRef} aria-hidden="true"><Waves /></div>
       <main className="full-bleed-bg scroll-hidden species-main" ref={mainRef}>
         {error && <div className="species-status">We couldn’t load this species. It may not exist yet.</div>}
         {!error && !item && <div className="species-status">Loading…</div>}
