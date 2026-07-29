@@ -70,10 +70,10 @@ export default function SpeciesPage() {
   return (
     <div>
       <AMHeader />
-      {/* Layered fixed backdrops: photo (z:-2) → wave partition (z:-1) → content. */}
-      <div className="species-bg-photo full-bleed-bg" aria-hidden="true" />
+      {/* Fixed wave partition behind the content. The ocean photo is main's own
+          background (painted behind the partition); the partition sits above it. */}
       <div className="species-wave-bg" ref={waveRef} aria-hidden="true"><Waves /></div>
-      <main className="scroll-hidden species-main" ref={mainRef}>
+      <main className="full-bleed-bg scroll-hidden species-main" ref={mainRef}>
         {error && <div className="species-status">We couldn’t load this species. It may not exist yet.</div>}
         {!error && !item && <div className="species-status">Loading…</div>}
         {item && <SpeciesBody item={item} />}

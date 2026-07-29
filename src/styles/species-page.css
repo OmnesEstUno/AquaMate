@@ -38,15 +38,15 @@
    transparent (header.css Option C) so that backdrop shows through it. */
 .header.species-header .waves { display: none; }
 
-/* Layered fixed backdrops behind all page content: the ocean photo (z:-2), then
-   the blue wave partition (z:-1) whose height is set in JS — tall (to just past
-   the hero) at the top of the page, collapsing to the compact band once scrolled. */
-.species-bg-photo { position: fixed; inset: 0; z-index: -2; }
+/* The fixed wave partition sits at z:0 — above the ocean photo (which is main's
+   own .full-bleed-bg background) and below the page content (lifted to z:1 just
+   below). Its height is set in JS: tall (to just past the hero) at the top of the
+   page, collapsing to the compact band once scrolled. */
 .species-wave-bg {
   position: fixed;
   top: 0; left: 0; right: 0;
   height: 200px;
-  z-index: -1;
+  z-index: 0;
   background: var(--header-bg);
   -webkit-backdrop-filter: blur(var(--blur-header));
   backdrop-filter: blur(var(--blur-header));
@@ -54,6 +54,10 @@
   pointer-events: none;
   transition: height 0.35s ease;
 }
+/* Page content sits above the wave partition; the photo (main's bg) is below it. */
+.species-advisory,
+.species-hero,
+.species-flow { position: relative; z-index: 1; }
 
 .species-status {
   max-width: 1080px;
