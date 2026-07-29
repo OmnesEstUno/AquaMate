@@ -47,7 +47,9 @@
   pointer-events: none;
   transition: height 0.35s ease;
 }
-.species-wave-bg.is-compact { height: 200px; }
+/* When scrolled, the collapsed waves sit ABOVE the content (like a sticky header
+   band) instead of behind it — still below the header bar (z:1000). */
+.species-wave-bg.is-compact { height: 200px; z-index: 2; }
 .species-wave-bg .species-waves {
   position: absolute;
   bottom: 0; left: 0;
