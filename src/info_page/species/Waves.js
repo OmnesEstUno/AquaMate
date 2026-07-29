@@ -11,10 +11,10 @@ export function Waves() {
         <path id="species-gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
       </defs>
       <g className="species-parallax">
-        <use xlinkHref="#species-gentle-wave" x="48" y="0" fill="rgba(9,73,93,0.35)" />
-        <use xlinkHref="#species-gentle-wave" x="48" y="3" fill="rgba(9,73,93,0.5)" />
-        <use xlinkHref="#species-gentle-wave" x="48" y="5" fill="rgba(9,73,93,0.7)" />
-        <use xlinkHref="#species-gentle-wave" x="48" y="7" fill="rgba(9,73,93,0.95)" />
+        <use xlinkHref="#species-gentle-wave" x="48" y="0" fill="rgba(9,73,93,0.165)" filter="blur(0.25px)" />
+        <use xlinkHref="#species-gentle-wave" x="48" y="3" fill="rgba(9,73,93,0.1475)" filter="blur(0.25px)" />
+        <use xlinkHref="#species-gentle-wave" x="48" y="5" fill="rgba(9,73,93,0.0625)" filter="blur(0.25px)" />
+        <use xlinkHref="#species-gentle-wave" x="48" y="7" fill="rgba(9,73,93,0.25)" filter="blur(0.25px)" />
       </g>
     </svg>
   );
