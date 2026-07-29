@@ -28,17 +28,52 @@
 .species-main {
   display: block;
   width: 100%;
-  /* Clears the expanded (hero-mode) header wave partition. On scroll the header
-     collapses (not-at-top) and this content scrolls up beneath it — mirrors the
-     home page's content offset. Tune together with the wave height below. */
-  padding-top: 300px;
+  padding-top: 80px; /* clear the fixed header bar; content overlaps the wave partition behind it */
 }
 
-/* Species route reuses the AMHeader's OWN wave partition: expanded (hero-mode) on
-   load, collapsing to the compact band once `not-at-top` is toggled on scroll —
-   exactly like the gallery. We never add `at-home`, so the inner bar (logo /
-   wordmark / search) stays in its compact row layout. */
-.header.species-header:not(.not-at-top) .waves { height: 300px; }
+/* We render our own wave partition (below) BEHIND the content, so hide the
+   AMHeader's own waves on this route. The bar stays (compact, transparent). */
+.header.species-header .waves { display: none; }
+
+/* Fixed wave partition behind the page content: above the ocean photo (main's
+   .full-bleed-bg background), below the content (lifted to z:1). Expanded (600px)
+   on load, collapsing to the compact band once scrolled. */
+.species-wave-bg {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  height: 600px;
+  z-index: 0;
+  overflow: hidden;
+  pointer-events: none;
+  transition: height 0.35s ease;
+}
+.species-wave-bg.is-compact { height: 200px; }
+.species-wave-bg .species-waves {
+  position: absolute;
+  bottom: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  transform: rotate(180deg) scaleX(-1);
+}
+.species-parallax > use {
+  animation: species-move-forever 25s cubic-bezier(.55, .5, .45, .5) infinite;
+}
+.species-parallax > use:nth-child(1) { animation-delay: -2s; animation-duration: 28s; }
+.species-parallax > use:nth-child(2) { animation-delay: -3s; animation-duration: 40s; }
+.species-parallax > use:nth-child(3) { animation-delay: -4s; animation-duration: 26s; }
+.species-parallax > use:nth-child(4) { animation-delay: -5s; animation-duration: 80s; }
+@keyframes species-move-forever {
+  0% { transform: translate3d(-90px, 0, 0); }
+  100% { transform: translate3d(85px, 0, 0); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .species-parallax > use { animation: none; }
+}
+
+/* Content sits above the wave partition; the photo (main's bg) is below it. */
+.species-advisory,
+.species-hero,
+.species-flow { position: relative; z-index: 1; }
 
 .species-status {
   max-width: 1080px;

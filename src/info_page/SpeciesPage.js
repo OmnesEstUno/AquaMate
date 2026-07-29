@@ -4,6 +4,7 @@ import AMHeader from '../header';
 import AMFooter from '../footer';
 import { AdvisoryBanner } from './species/AdvisoryBanner';
 import { SpeciesHero } from './species/SpeciesHero';
+import { Waves } from './species/Waves';
 import { VitalStatRail } from './species/VitalStatRail';
 import { ProseSection } from './species/ProseSection';
 import { SetupPanel } from './species/SetupPanel';
@@ -20,6 +21,7 @@ export default function SpeciesPage() {
   const [item, setItem] = useState(null);
   const [error, setError] = useState(false);
   const mainRef = useRef(null);
+  const waveRef = useRef(null);
 
   useEffect(() => {
     let cancelled = false;
@@ -31,26 +33,27 @@ export default function SpeciesPage() {
     return () => { cancelled = true; };
   }, [slug]);
 
-  // Reuse the real AMHeader wave partition, gallery-style: it starts expanded
-  // (hero-mode waves) and collapses via `not-at-top` once the user scrolls. The
-  // `species-header` class keeps the inner bar compact while the waves are expanded.
+  // The wave partition is a fixed backdrop BEHIND the content (the header can't do
+  // this — it's a fixed top layer). It starts expanded (hero-mode) and collapses to
+  // the compact band once scrolled. `species-header` hides the header's own waves.
   useEffect(() => {
     const header = document.getElementById('header');
     const main = mainRef.current;
-    if (!header) return undefined;
-    header.classList.add('species-header');
-    const onScroll = () => header.classList.toggle('not-at-top', (main ? main.scrollTop : 0) > 0);
+    const wave = waveRef.current;
+    if (header) header.classList.add('species-header');
+    const onScroll = () => { if (wave) wave.classList.toggle('is-compact', (main ? main.scrollTop : 0) > 0); };
     onScroll();
     if (main) main.addEventListener('scroll', onScroll, { passive: true });
     return () => {
       if (main) main.removeEventListener('scroll', onScroll);
-      header.classList.remove('species-header', 'not-at-top');
+      if (header) header.classList.remove('species-header');
     };
   }, []);
 
   return (
     <div>
       <AMHeader />
+      <div className="species-wave-bg" ref={waveRef} aria-hidden="true"><Waves /></div>
       <main className="full-bleed-bg scroll-hidden species-main" ref={mainRef}>
         {error && <div className="species-status">We couldn’t load this species. It may not exist yet.</div>}
         {!error && !item && <div className="species-status">Loading…</div>}
