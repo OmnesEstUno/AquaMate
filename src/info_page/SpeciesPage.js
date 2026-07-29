@@ -7,7 +7,6 @@ import { SpeciesHero } from './species/SpeciesHero';
 import { Waves } from './species/Waves';
 import { VitalStatRail } from './species/VitalStatRail';
 import { ProseSection } from './species/ProseSection';
-import { SetupPanel } from './species/SetupPanel';
 import { TankmatesTraits } from './species/TankmatesTraits';
 import { SourcesList } from './species/SourcesList';
 import { taxonDisplay, breedingHeading } from './species/taxonFields';
@@ -68,12 +67,25 @@ function SpeciesBody({ item }) {
   const images = buildSpeciesImages(item);
   const tx = taxonDisplay(item);
   const c = item.compatibility || {};
+  const decor = (item.tank && item.tank.decorPreferences) || [];
+  const sand = item.tank && item.tank.minSandDepthCm;
   return (
     <>
       <AdvisoryBanner advisory={item.hobbyistAdvisory} />
       <SpeciesHero item={item} images={images} />
       <div className="species-flow">
-        <section className="glass-panel species-panel"><VitalStatRail item={item} /></section>
+        <section className="species-section">
+          <h3 className="species-section-h">Aquarium setup</h3>
+          <div className="glass-panel species-panel">
+            <VitalStatRail item={item} />
+            {decor.length > 0 && (
+              <p className="species-prose species-setup-decor">
+                <b>Decor:</b> {decor.join(', ')}.
+                {sand != null && <> <b>Sand bed:</b> {sand} cm.</>}
+              </p>
+            )}
+          </div>
+        </section>
 
         <ProseSection title="Overview" text={item.summary}>
           {tx.warnChips.length > 0 && (
@@ -84,18 +96,13 @@ function SpeciesBody({ item }) {
           )}
         </ProseSection>
 
-        <div className="species-two">
-          <ProseSection title="Care guide" text={item.careNotes} />
-          <ProseSection title={breedingHeading(item)} text={item.breedingNotes} />
-        </div>
+        <ProseSection title="Care guide" text={item.careNotes} />
+        <ProseSection title={breedingHeading(item)} text={item.breedingNotes} />
 
         {item.diet && item.diet.notes && <ProseSection title="Diet" text={item.diet.notes} />}
 
-        <div className="species-two">
-          <SetupPanel item={item} taxon={tx} />
-          <TankmatesTraits good={c.goodWith} avoid={c.avoidWith} ratings={tx.ratings}
-                           warnChips={tx.warnChips} traitChips={tx.traitChips} />
-        </div>
+        <TankmatesTraits good={c.goodWith} avoid={c.avoidWith} ratings={tx.ratings}
+                         warnChips={tx.warnChips} traitChips={tx.traitChips} />
 
         <SourcesList sources={item.sources} />
         <div className="species-flow__spacer" />

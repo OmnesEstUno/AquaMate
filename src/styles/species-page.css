@@ -102,7 +102,7 @@
 
 .species-hero__fig { grid-area: fig; margin: 0; }
 .species-hero__text { grid-area: text; align-self: center; }
-.species-hero__habitat { grid-area: habitat; overflow: auto; max-height: 230px; }
+.species-hero__habitat { grid-area: habitat; overflow: auto; max-height: 230px; text-align: center; }
 
 /* ---------------------------------------------------------------------------
  * Generic glass panel padding (paired with the shared .glass-panel class)
@@ -122,6 +122,8 @@
   color: var(--aqua);
   font-weight: 700;
   margin: 0 0 8px;
+  width: auto;         /* override base.css p { width: 50% } so centering spans the panel */
+  text-align: center;
 }
 
 /* Prose text is centered within its panel. `width: auto` overrides base.css's
@@ -438,7 +440,8 @@
 .species-kv__k { color: rgba(255, 255, 255, .7); font-weight: 600; }
 .species-kv__v { color: var(--white); font-weight: 600; text-align: right; }
 
-.species-setup-decor { margin-bottom: 14px; }
+/* Decor line sits at the bottom of the rail panel, separated from the stats above. */
+.species-setup-decor { margin: 16px 0 0; padding-top: 14px; border-top: 1px solid rgba(255, 255, 255, .14); }
 .species-setup-kv {
   margin-top: 14px;
   padding-top: 14px;
