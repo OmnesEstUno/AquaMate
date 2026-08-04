@@ -541,7 +541,11 @@
  * ------------------------------------------------------------------------- */
 
 .species-flow {
-  max-width: 1080px;
+  /* Halve the side gutters vs a fixed 1080px max-width: width tracks the viewport
+     (50% + 540px halves the blank space at any width), capped at 1600px so prose
+     lines don't get too long, and clamped to 100% so it never overflows. */
+  width: min(calc(50% + 540px), 1600px, 100%);
+  box-sizing: border-box;
   margin: 0 auto;
   padding: 22px 26px 0;
   display: grid;
