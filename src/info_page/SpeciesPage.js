@@ -5,7 +5,6 @@ import AMFooter from '../footer';
 import { AdvisoryBanner } from './species/AdvisoryBanner';
 import { SpeciesHero } from './species/SpeciesHero';
 import { Waves } from './species/Waves';
-import { VitalStatRail } from './species/VitalStatRail';
 import { ProseSection } from './species/ProseSection';
 import { TankmatesTraits } from './species/TankmatesTraits';
 import { SourcesList } from './species/SourcesList';
@@ -67,27 +66,14 @@ function SpeciesBody({ item }) {
   const images = buildSpeciesImages(item);
   const tx = taxonDisplay(item);
   const c = item.compatibility || {};
-  const decor = (item.tank && item.tank.decorPreferences) || [];
-  const sand = item.tank && item.tank.minSandDepthCm;
+  const habitat = item.nativeRange && item.nativeRange.habitat;
+  const overview = [item.summary, habitat].filter(Boolean).join('\n\n');
   return (
     <>
       <AdvisoryBanner advisory={item.hobbyistAdvisory} />
       <SpeciesHero item={item} images={images} />
       <div className="species-flow">
-        <section className="species-section">
-          <h3 className="species-section-h">Aquarium setup</h3>
-          <div className="glass-panel species-panel">
-            <VitalStatRail item={item} />
-            {decor.length > 0 && (
-              <p className="species-prose species-setup-decor">
-                <b>Decor:</b> {decor.join(', ')}.
-                {sand != null && <> <b>Sand bed:</b> {sand} cm.</>}
-              </p>
-            )}
-          </div>
-        </section>
-
-        <ProseSection title="Overview" text={item.summary}>
+        <ProseSection title="Overview" text={overview}>
           {tx.warnChips.length > 0 && (
             <div className="species-callout">
               <span aria-hidden="true">⚠️</span>

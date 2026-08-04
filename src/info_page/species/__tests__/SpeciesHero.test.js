@@ -12,11 +12,10 @@ const item = {
   media: { primaryImage: null, imageCandidates: [] },
 };
 
-test('renders sci name as title, common name, category, habitat + biotope', () => {
+test('renders sci name as title, common name, category, biotope', () => {
   render(<SpeciesHero item={item} images={[]} />);
   expect(screen.getByRole('heading', { level: 1 })).toHaveTextContent('Pterophyllum scalare');
   expect(screen.getByText('Angelfish')).toBeInTheDocument();
   expect(screen.getByText(/Cichlidae/)).toBeInTheDocument();
-  expect(screen.getByText('Slow rivers.')).toBeInTheDocument();
-  expect(screen.getByText(/Amazon basin/)).toBeInTheDocument();
+  expect(screen.getByText(/Amazon basin/)).toBeInTheDocument(); // biotope now sits in the hero text
 });

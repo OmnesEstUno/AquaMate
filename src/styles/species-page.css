@@ -94,7 +94,7 @@
   position: relative;
   display: grid;
   grid-template-columns: 230px 1fr 33%;
-  grid-template-areas: "fig text habitat";
+  grid-template-areas: "fig text setup";
   gap: 22px;
   align-items: start;
   padding: 10px 26px 16px;
@@ -102,7 +102,7 @@
 
 .species-hero__fig { grid-area: fig; margin: 0; }
 .species-hero__text { grid-area: text; align-self: center; }
-.species-hero__habitat { grid-area: habitat; overflow: auto; max-height: 230px; text-align: center; }
+.species-hero__setup { grid-area: setup; text-align: center; }
 
 /* ---------------------------------------------------------------------------
  * Generic glass panel padding (paired with the shared .glass-panel class)
@@ -241,26 +241,22 @@
 .species-rchip--more:focus-visible .species-more-pop { display: block; }
 
 /* ---------------------------------------------------------------------------
- * Habitat aside (right column of the hero)
+ * Biotope line (between the range chips and the care badge, in the hero text)
  * ------------------------------------------------------------------------- */
 
-.species-habitat-text { font-size: .85rem; }
-.species-biotope {
+.species-biotope-line {
   margin-top: 12px;
-  padding-top: 12px;
-  border-top: 1px solid rgba(255, 255, 255, .14);
-  font-size: .83rem;
+  font-size: .84rem;
   color: rgba(255, 255, 255, .72);
   font-weight: 600;
 }
-.species-biotope b {
+.species-biotope-line__k {
   color: var(--aqua);
   font-weight: 700;
   font-size: .66rem;
   letter-spacing: 1px;
   text-transform: uppercase;
-  display: block;
-  margin-bottom: 4px;
+  margin-right: 6px;
 }
 
 /* ---------------------------------------------------------------------------
@@ -378,7 +374,6 @@
   cursor: pointer;
 }
 .species-hero:has(.species-fig.is-expanded) .species-hero__text { margin-bottom: 16px; }
-.species-hero:has(.species-fig.is-expanded) .species-hero__habitat { max-height: none; }
 
 /* ---------------------------------------------------------------------------
  * Vital stat rail
@@ -564,8 +559,7 @@
 @media (max-width: 820px) {
   .species-hero {
     grid-template-columns: 1fr;
-    grid-template-areas: "fig" "text" "habitat";
+    grid-template-areas: "fig" "text" "setup";
   }
-  .species-hero__habitat { max-height: none; }
   .species-two { grid-template-columns: 1fr; }
 }

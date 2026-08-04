@@ -3,12 +3,15 @@ import { ImageGallery } from './ImageGallery';
 import { AliasTooltip } from './AliasTooltip';
 import { LocationChips } from './LocationChips';
 import { CareLevelBadge } from '../../home/gallery/components/CareLevelBadge';
+import { VitalStatRail } from './VitalStatRail';
 import { titleCase } from './format';
 
 export function SpeciesHero({ item, images }) {
   const tx = item.taxonomy || {};
   const nr = item.nativeRange || {};
   const waterLine = titleCase(item.waterType);
+  const decor = (item.tank && item.tank.decorPreferences) || [];
+  const sand = item.tank && item.tank.minSandDepthCm;
   return (
     <section className="species-hero">
       <div className="species-hero__fig">
@@ -25,17 +28,23 @@ export function SpeciesHero({ item, images }) {
         </div>
         {waterLine && <div className="species-meta-line">{waterLine}</div>}
         <LocationChips regions={nr.regions} countries={nr.countries} depth={nr.depthRangeM} />
+        {nr.biotope && (
+          <div className="species-biotope-line">
+            <span className="species-biotope-line__k">Biotope</span> {nr.biotope}
+          </div>
+        )}
         {item.careLevel && (
           <div className="species-care-row"><CareLevelBadge level={item.careLevel} /></div>
         )}
       </div>
-      <aside className="species-hero__habitat glass-panel species-panel">
-        <p className="species-label">Habitat</p>
-        {nr.habitat && <p className="species-prose species-habitat-text">{nr.habitat}</p>}
-        {nr.biotope && (
-          <div className="species-biotope">
-            <b>Biotope</b>{nr.biotope}
-          </div>
+      <aside className="species-hero__setup glass-panel species-panel">
+        <p className="species-label">Aquarium setup</p>
+        <VitalStatRail item={item} />
+        {decor.length > 0 && (
+          <p className="species-prose species-setup-decor">
+            <b>Decor:</b> {decor.join(', ')}.
+            {sand != null && <> <b>Sand bed:</b> {sand} cm.</>}
+          </p>
         )}
       </aside>
     </section>
