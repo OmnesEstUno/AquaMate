@@ -93,7 +93,7 @@
 .species-hero {
   position: relative;
   display: grid;
-  grid-template-columns: 230px 1fr 45%;
+  grid-template-columns: 230px 1fr 60%;
   grid-template-areas: "fig text setup";
   gap: 22px;
   align-items: start;
@@ -145,6 +145,7 @@
   line-height: 1.05;
   font-size: 2.6rem;
   color: var(--white);
+  overflow-wrap: break-word; /* long scientific names wrap cleanly instead of overflowing */
 }
 
 .species-common {
