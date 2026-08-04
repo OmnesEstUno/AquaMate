@@ -547,7 +547,7 @@
   display: grid;
   gap: 16px;
 }
-.species-flow__spacer { height: 24px; }
+.species-flow__spacer { height: 56px; } /* clear the fixed footer at the bottom of the scroll */
 
 /* Two-column body: Overview + Care guide on the left, Breeding + Diet + Tankmates
    on the right; Sources spans full width below (a direct .species-flow child). */
