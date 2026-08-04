@@ -93,7 +93,7 @@
 .species-hero {
   position: relative;
   display: grid;
-  grid-template-columns: 230px 1fr 33%;
+  grid-template-columns: 230px 1fr 45%;
   grid-template-areas: "fig text setup";
   gap: 22px;
   align-items: start;
@@ -543,7 +543,11 @@
   gap: 16px;
 }
 .species-flow__spacer { height: 24px; }
-.species-two { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+
+/* Two-column body: Overview + Care guide on the left, Breeding + Diet + Tankmates
+   on the right; Sources spans full width below (a direct .species-flow child). */
+.species-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; align-items: start; }
+.species-col { display: grid; gap: 16px; align-content: start; }
 .species-section-h {
   font-family: var(--font-display-r), serif;
   font-size: 1.4rem;
@@ -557,6 +561,7 @@
  * ------------------------------------------------------------------------- */
 
 @media (max-width: 820px) {
+  .species-cols { grid-template-columns: 1fr; }
   .species-hero {
     grid-template-columns: 1fr;
     grid-template-areas: "fig" "text" "setup";
