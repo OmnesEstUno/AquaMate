@@ -28,6 +28,10 @@
 .species-main {
   display: block;
   width: 100%;
+  /* border-box so the padding is INCLUDED in base.css's `main { height: 100vh }`.
+     Without this (default content-box) main becomes 100vh + 80px and the window
+     scrolls that extra 80px on top of main's own scroll — a jarring double-scroll. */
+  box-sizing: border-box;
   padding-top: 80px; /* clear the fixed header bar; content overlaps the wave partition behind it */
 }
 

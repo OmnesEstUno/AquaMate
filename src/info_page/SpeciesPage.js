@@ -56,8 +56,8 @@ export default function SpeciesPage() {
         {error && <div className="species-status">We couldn’t load this species. It may not exist yet.</div>}
         {!error && !item && <div className="species-status">Loading…</div>}
         {item && <SpeciesBody item={item} />}
-        <AMFooter />
       </main>
+      <AMFooter />
     </div>
   );
 }
