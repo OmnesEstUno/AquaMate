@@ -73,20 +73,21 @@ function SpeciesBody({ item }) {
       <AdvisoryBanner advisory={item.hobbyistAdvisory} />
       <SpeciesHero item={item} images={images} />
       <div className="species-flow">
+        <ProseSection title="Overview" text={overview}>
+          {tx.warnChips.length > 0 && (
+            <div className="species-callout">
+              <span aria-hidden="true">⚠️</span>
+              <span><b>Care-critical:</b> {tx.warnChips.join(' · ')}. Review the care guide before keeping this species.</span>
+            </div>
+          )}
+        </ProseSection>
+
         <div className="species-cols">
           <div className="species-col">
-            <ProseSection title="Overview" text={overview}>
-              {tx.warnChips.length > 0 && (
-                <div className="species-callout">
-                  <span aria-hidden="true">⚠️</span>
-                  <span><b>Care-critical:</b> {tx.warnChips.join(' · ')}. Review the care guide before keeping this species.</span>
-                </div>
-              )}
-            </ProseSection>
             <ProseSection title="Care guide" text={item.careNotes} />
+            <ProseSection title={breedingHeading(item)} text={item.breedingNotes} />
           </div>
           <div className="species-col">
-            <ProseSection title={breedingHeading(item)} text={item.breedingNotes} />
             {item.diet && item.diet.notes && <ProseSection title="Diet" text={item.diet.notes} />}
             <TankmatesTraits good={c.goodWith} avoid={c.avoidWith} ratings={tx.ratings}
                              warnChips={tx.warnChips} traitChips={tx.traitChips} />
