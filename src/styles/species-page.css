@@ -50,6 +50,9 @@
   overflow: hidden;
   pointer-events: none;
   transition: height 0.35s ease;
+  /* Blur whatever is behind the wave region (the photo, or content when compact). */
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
 }
 /* When scrolled, the collapsed waves sit ABOVE the content (like a sticky header
    band) instead of behind it — still below the header bar (z:1000). */
@@ -115,7 +118,7 @@
 .species-panel {
   padding: 20px;                 /* FIX 8: equal left/right = top/bottom */
   border-radius: var(--radius-lg);
-  background: var(--glass-bg);   /* same shade as the inset shadow, fully covers */
+  background: var(--glass-bg-dk); /* dark translucent panel, fully covers */
   box-shadow: none;              /* cancel .glass-panel's partial inset fill */
 }
 
@@ -132,7 +135,7 @@
 
 /* Prose text is centered within its panel. `width: auto` overrides base.css's
    global `p { width: 50% }`, which otherwise leaves prose in a left-half column. */
-.species-prose { font-size: .93rem; line-height: 1.62; color: rgba(255, 255, 255, .9); font-weight: 600; text-align: center; }
+.species-prose { font-size: 1.2rem; line-height: 1.62; color: rgba(255, 255, 255, .9); font-weight: 600; text-align: center; }
 .species-prose p { margin: 0 0 .8em; width: auto; }
 .species-prose p:last-child { margin-bottom: 0; }
 
@@ -441,7 +444,7 @@
 .species-kv__v { color: var(--white); font-weight: 600; text-align: right; }
 
 /* Decor line sits at the bottom of the rail panel, separated from the stats above. */
-.species-setup-decor { margin: 16px 0 0; padding-top: 14px; border-top: 1px solid rgba(255, 255, 255, .14); }
+.species-setup-decor { margin: 16px 0 0; padding-top: 14px; border-top: 1px solid rgba(255, 255, 255, .14); text-align: center; }
 .species-setup-kv {
   margin-top: 14px;
   padding-top: 14px;
