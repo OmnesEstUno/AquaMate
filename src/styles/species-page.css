@@ -46,7 +46,7 @@
 .species-header-frost {
   position: fixed;
   top: 0; left: 0; right: 0;
-  height: 72px;
+  height: 150px;
   z-index: 999;
   pointer-events: none;
   -webkit-backdrop-filter: blur(8px);
@@ -148,7 +148,7 @@
 
 /* Prose text is centered within its panel. `width: auto` overrides base.css's
    global `p { width: 50% }`, which otherwise leaves prose in a left-half column. */
-.species-prose { font-size: 1.2rem; line-height: 1.62; color: rgba(255, 255, 255, .9); font-weight: 600; text-align: center; }
+.species-prose { font-size: 1.2rem; line-height: 1.62; color: rgba(255, 255, 255, .9); font-weight: 600; text-align: center; width: auto; }
 .species-prose p { margin: 0 0 .8em; width: auto; }
 .species-prose p:last-child { margin-bottom: 0; }
 

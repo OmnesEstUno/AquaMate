@@ -41,10 +41,13 @@ export function SpeciesHero({ item, images }) {
         <p className="species-label">Aquarium setup</p>
         <VitalStatRail item={item} />
         {decor.length > 0 && (
-          <p className="species-prose species-setup-decor">
-            <b>Decor:</b> {decor.join(', ')}.
-            {sand != null && <> <b>Sand bed:</b> {sand} cm.</>}
-          </p>
+          <div className="species-setup-decor">
+            <p className="species-label">Decor</p>
+            <p className="species-prose">
+              {decor.join(', ')}.
+              {sand != null && <> <b>Sand bed:</b> {sand} cm.</>}
+            </p>
+          </div>
         )}
       </aside>
     </section>
