@@ -39,19 +39,20 @@
    AMHeader's own waves on this route. The bar stays (compact, transparent). */
 .header.species-header .waves { display: none; }
 
-/* Frost the header: a masked pseudo-element carries the backdrop blur so its
-   bottom edge fades out gradually (no hard rectangular border), while the bar's
-   own content (logo/wordmark/search) stays sharp above it. */
-.header.species-header::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  z-index: -1;
+/* Frosted header band (a real element, rendered by SpeciesPage). Sits just below
+   the header bar (z:1000) and above the page content, blurring whatever scrolls
+   behind the header. The gradient mask fades the bottom edge so the blur dissolves
+   into the content instead of ending on a hard rectangular line. */
+.species-header-frost {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  height: 72px;
+  z-index: 999;
+  pointer-events: none;
   -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(8px);
   -webkit-mask-image: linear-gradient(to bottom, #000 45%, transparent 100%);
   mask-image: linear-gradient(to bottom, #000 45%, transparent 100%);
-  pointer-events: none;
 }
 
 /* Fixed wave partition behind the page content: above the ocean photo (main's

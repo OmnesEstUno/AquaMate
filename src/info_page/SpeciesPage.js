@@ -51,6 +51,10 @@ export default function SpeciesPage() {
   return (
     <div>
       <AMHeader />
+      {/* Frosted header band: blurs content scrolling behind the header, with a
+          masked bottom edge so the blur fades out instead of ending on a hard line.
+          A real element (not a ::before) so it's inspectable without crashing DevTools. */}
+      <div className="species-header-frost" aria-hidden="true" />
       <div className="species-wave-bg" ref={waveRef} aria-hidden="true"><Waves /></div>
       <main className="full-bleed-bg scroll-hidden species-main" ref={mainRef}>
         {error && <div className="species-status">We couldn’t load this species. It may not exist yet.</div>}
