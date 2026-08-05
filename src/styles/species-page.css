@@ -1,24 +1,13 @@
-/* Species detail page — layout + the header wave-partition extension.
- * Consumes tokens.css; layers on top of .full-bleed-bg.
+/* Species detail page (SpeciesPage) — layout, hero, and the header wave partition.
+ * Consumes tokens.css; layers on top of the shared .full-bleed-bg + .glass-panel.
  *
- * Ported from the approved mockup:
- *   .superpowers/brainstorm/304902-1784674549/content/species-masthead.html
- * retargeted onto the real `species-*` component class names, and consuming
- * the app's real tokens (tokens.css) instead of the mockup's stand-in :root.
- *
- * Notes on deviations from the mockup (see Task 11 report for detail):
- *  - The mockup toggles `body.img-expanded` from vanilla JS to reflow the
- *    whole hero when the gallery opens. The real ImageGallery component only
- *    ever adds `is-expanded` to its own `.species-fig`, scoped under
- *    `.species-hero__fig` inside `.species-hero` — there is no body-level
- *    class. The reflow rules below are therefore rooted at
- *    `.species-hero:has(.species-fig.is-expanded)` instead of `body.img-expanded`.
- *  - Gallery arrow/close/counter/thumbs are always mounted and hidden via the
- *    native `hidden` attribute (not a class), so their shown-state layout
- *    rules use `:not([hidden])` rather than a bare `display` declaration —
- *    setting `display` unconditionally on a `[hidden]` element would win over
- *    the UA `[hidden]{display:none}` rule (author origin beats UA origin
- *    regardless of specificity) and defeat the JS-driven hide/show.
+ * A couple of non-obvious CSS decisions:
+ *  - The image-gallery expand reflow is rooted at
+ *    `.species-hero:has(.species-fig.is-expanded)` because ImageGallery only
+ *    toggles `is-expanded` on its own `.species-fig`, not a body-level class.
+ *  - The gallery arrow/close/counter/thumbnails are always mounted and toggled
+ *    via the native `hidden` attribute, so their layout rules use `:not([hidden])`
+ *    (an unconditional `display` would beat the UA `[hidden]{display:none}` rule).
  */
 
 /* ---------------------------------------------------------------------------
@@ -129,7 +118,7 @@
  * ------------------------------------------------------------------------- */
 
 .species-panel {
-  padding: 20px;                 /* FIX 8: equal left/right = top/bottom */
+  padding: 20px;                 /* equal padding all sides */
   border-radius: var(--radius-lg);
   background: var(--glass-bg-dk); /* dark translucent panel, fully covers */
   box-shadow: none;              /* cancel .glass-panel's partial inset fill */
