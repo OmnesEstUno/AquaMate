@@ -39,6 +39,12 @@
    AMHeader's own waves on this route. The bar stays (compact, transparent). */
 .header.species-header .waves { display: none; }
 
+/* Frost the header: blur whatever content scrolls behind the #header element. */
+.header.species-header {
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+}
+
 /* Fixed wave partition behind the page content: above the ocean photo (main's
    .full-bleed-bg background), below the content (lifted to z:1). Expanded (600px)
    on load, collapsing to the compact band once scrolled. */
@@ -50,9 +56,6 @@
   overflow: hidden;
   pointer-events: none;
   transition: height 0.35s ease;
-  /* Blur whatever is behind the wave region (the photo, or content when compact). */
-  -webkit-backdrop-filter: blur(8px);
-  backdrop-filter: blur(8px);
 }
 /* When scrolled, the collapsed waves sit ABOVE the content (like a sticky header
    band) instead of behind it — still below the header bar (z:1000). */
