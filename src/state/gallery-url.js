@@ -7,6 +7,7 @@ const {
   encodeDietType, decodeDietType,
   encodeCo2, decodeCo2,
   encodeLighting, decodeLighting,
+  encodeAdvisoryLevel, decodeAdvisoryLevel,
 } = require('../backend/gallery/bitmasks');
 
 const DEFAULTS = { page: 1, sort: 'random' };
@@ -34,6 +35,7 @@ const ENUM_FIELDS = [
   { key: 'd',  state: 'dietType',    encode: encodeDietType,    decode: decodeDietType },
   { key: 'co', state: 'co2',         encode: encodeCo2,         decode: decodeCo2 },
   { key: 'l',  state: 'lighting',    encode: encodeLighting,    decode: decodeLighting },
+  { key: 'al', state: 'advisoryLevel', encode: encodeAdvisoryLevel, decode: decodeAdvisoryLevel },
 ];
 
 const INT_FIELDS = [

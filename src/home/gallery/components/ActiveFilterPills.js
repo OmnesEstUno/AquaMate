@@ -1,5 +1,12 @@
 import React from 'react';
 
+const ADVISORY_SHORT = {
+  'specialist-only': 'Specialist',
+  'legally-restricted': 'Restricted',
+  'public-aquarium-only': 'XL',
+  'pond-only': 'Pond',
+};
+
 const LABEL_FORMATTERS = {
   taxa: (v) => `Taxa: ${v.join(', ')}`,
   waterType: (v) => `Water: ${v.join(', ')}`,
@@ -9,6 +16,7 @@ const LABEL_FORMATTERS = {
   dietType: (v) => `Diet: ${v.join(', ')}`,
   co2: (v) => `CO₂: ${v.join(', ')}`,
   lighting: (v) => `Lighting: ${v.join(', ')}`,
+  advisoryLevel: (v) => `Advisory: ${v.map(x => ADVISORY_SHORT[x] || x).join(', ')}`,
   minSize: (v) => `≥ ${v} cm`,
   maxSize: (v) => `≤ ${v} cm`,
   maxTankL: (v) => `Tank ≤ ${v} L`,
@@ -16,7 +24,7 @@ const LABEL_FORMATTERS = {
   hideAdvisory: () => 'Hide specialist-only',
 };
 
-const ORDER = ['taxa', 'waterType', 'careLevel', 'minSize', 'maxSize', 'maxTankL',
+const ORDER = ['taxa', 'waterType', 'careLevel', 'advisoryLevel', 'minSize', 'maxSize', 'maxTankL',
                 'temperament', 'grouping', 'dietType', 'co2', 'lighting', 'reefSafe', 'hideAdvisory'];
 
 export function ActiveFilterPills({ state, onRemove, onClearAll, onSavePreset }) {
